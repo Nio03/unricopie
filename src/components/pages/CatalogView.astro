@@ -42,7 +42,7 @@ const guideCards = [
 ] as const;
 ---
 
-<Base lang={lang} title={`${h1} — Recompendium`} description={tagline}>
+<Base lang={lang} title={h1.includes("<") ? t(lang, "site.title") : `${h1} — Recompendium`} description={tagline}>
   <header class="hero">
     <div class="wrap">
       <div class="brandrow"><h1 class="logo" set:html={h1} /></div>
