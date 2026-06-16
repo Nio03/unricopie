@@ -1,0 +1,213 @@
+---
+import Base from "../../layouts/Base.astro";
+import Card from "../Card.astro";
+import { CONSOLE_KEYS, consoleMeta } from "../../lib/consoles";
+import { STATUS_KEYS } from "../../lib/status";
+import { sortItems, TYPE_COLOR, type Item } from "../../lib/catalog";
+import { t, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+  items: Item[];
+  h1: string;
+  tagline: string;
+  countTmpl: string;
+  readout?: boolean;
+  guide?: boolean;
+  typeFilter?: boolean;
+  stats?: { n: number; label: string }[];
+}
+const { lang, items, h1, tagline, countTmpl, readout = false, guide = false, typeFilter = false, stats } = Astro.props;
+
+const ordered = sortItems(items);
+
+const present = new Set<string>();
+for (const i of items) for (const c of i.consoleKeys) present.add(c);
+const consoleChips = CONSOLE_KEYS.filter((k) => present.has(k)).map((k) => ({ key: k, ...consoleMeta(k) }));
+
+const typeChips = (
+  [
+    { key: "recomp", label: t(lang, "ctl.typeRecomps"), color: TYPE_COLOR.recomp },
+    { key: "tool", label: t(lang, "ctl.typeTools"), color: TYPE_COLOR.tool },
+    { key: "port", label: t(lang, "ctl.typePorts"), color: TYPE_COLOR.port },
+    { key: "decomp", label: t(lang, "ctl.typeDecomps"), color: TYPE_COLOR.decomp },
+  ] as const
+).filter((c) => items.some((i) => i.type === c.key));
+
+const guideCards = [
+  { key: "recomp", color: TYPE_COLOR.recomp },
+  { key: "port", color: TYPE_COLOR.port },
+  { key: "decomp", color: TYPE_COLOR.decomp },
+  { key: "tool", color: TYPE_COLOR.tool },
+] as const;
+---
+
+<Base lang={lang} title={`${h1} — Recompendium`} description={tagline}>
+  <header class="hero">
+    <div class="wrap">
+      <div class="brandrow"><h1 class="logo" set:html={h1} /></div>
+      <p class="tag">{tagline}</p>
+      {readout && (<div class="readout" id="readout" data-final={t(lang, "home.readout")}>{t(lang, "home.readout")}<span class="blink">▌</span></div>)}
+      {
+        guide && (
+          <div class="guide">
+            {guideCards.map((g) => (
+              <div class="g" style={`--gc:${g.color}`}>
+                <h3>{t(lang, `guide.${g.key}.t`)}</h3>
+                <p>{t(lang, `guide.${g.key}.b`)}</p>
+              </div>
+            ))}
+          </div>
+        )
+      }
+      {
+        stats && (
+          <div class="stat-row">
+            {stats.map((s) => (<div class="stat"><b>{s.n}</b><span>{s.label}</span></div>))}
+          </div>
+        )
+      }
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="wrap">
+      <div class="crow" style="margin-bottom:12px">
+        <div class="search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            ><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg
+          >
+          <input id="q" type="search" placeholder={t(lang, "ctl.searchPlaceholder")} aria-label={t(lang, "ctl.search")} />
+        </div>
+        <select id="status" aria-label={t(lang, "ctl.filterType")}>
+          <option value="">{t(lang, "ctl.statusAll")}</option>
+          {STATUS_KEYS.map((s) => <option value={s}>{t(lang, `status.${s}`)}</option>)}
+          <option value="__abandoned">{t(lang, "status.abandoned")}</option>
+          <option value="__takedown">{t(lang, "status.takedown")}</option>
+        </select>
+        <select id="sort" aria-label="sort">
+          <option value="stars">{t(lang, "ctl.sortStars")}</option>
+          <option value="name">{t(lang, "ctl.sortName")}</option>
+          <option value="updated">{t(lang, "ctl.sortUpdated")}</option>
+        </select>
+      </div>
+      {
+        typeFilter && typeChips.length > 1 && (
+          <div class="chips" style="margin-bottom:10px" role="group" aria-label={t(lang, "ctl.filterType")}>
+            {typeChips.map((c) => (
+              <button class="chip" data-typefilter={c.key} aria-pressed="false">
+                <span class="dot" style={`color:${c.color}`} />{c.label}
+              </button>
+            ))}
+          </div>
+        )
+      }
+      <div class="chips" role="group" aria-label={t(lang, "ctl.filterConsole")}>
+        {consoleChips.map((c) => (
+          <button class="chip" data-console={c.key} aria-pressed="false">
+            <span class="dot" style={`color:${c.color}`} />{c.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <div class="meta" id="count" data-tmpl={countTmpl}>{countTmpl.replace("{shown}", String(ordered.length)).replace("{total}", String(ordered.length))}</div>
+    <section class="grid" id="grid">
+      {ordered.map((item) => <Card item={item} lang={lang} />)}
+      <div class="empty" id="empty" style="display:none">{t(lang, "empty.recomps")}</div>
+    </section>
+  </main>
+</Base>
+
+<script>
+  // Filtro del catálogo. Script de módulo (deferido) → el DOM ya está listo.
+  const grid = document.getElementById("grid");
+  if (grid) {
+    const cards = Array.from(grid.querySelectorAll<HTMLElement>("[data-card]"));
+    const emptyEl = document.getElementById("empty")!;
+    const countEl = document.getElementById("count")!;
+    const tmpl = countEl.dataset.tmpl || "{shown} / {total}";
+    const qEl = document.getElementById("q") as HTMLInputElement | null;
+    const statusEl = document.getElementById("status") as HTMLSelectElement | null;
+    const sortEl = document.getElementById("sort") as HTMLSelectElement | null;
+    const typeChipsEls = Array.from(document.querySelectorAll<HTMLElement>(".chip[data-typefilter]"));
+    const consoleChipsEls = Array.from(document.querySelectorAll<HTMLElement>(".chip[data-console]"));
+    const types = new Set<string>();
+    const consoles = new Set<string>();
+    const state = { q: "", status: "", sort: "" };
+
+    const matches = (c: HTMLElement) => {
+      if (types.size && !types.has(c.dataset.type || "")) return false;
+      if (state.status === "__abandoned") { if (c.dataset.abandoned !== "true") return false; }
+      else if (state.status === "__takedown") { if (c.dataset.takedown !== "true") return false; }
+      else if (state.status && c.dataset.status !== state.status) return false;
+      if (consoles.size) {
+        const cs = (c.dataset.consoles || "").split(",").filter(Boolean);
+        if (!cs.some((x) => consoles.has(x))) return false;
+      }
+      if (state.q && !(c.dataset.search || "").includes(state.q)) return false;
+      return true;
+    };
+
+    const apply = () => {
+      let shown = 0;
+      for (const c of cards) {
+        const ok = matches(c);
+        c.classList.toggle("hidden", !ok);
+        if (ok) shown++;
+      }
+      if (state.sort) {
+        const visible = cards.filter((c) => !c.classList.contains("hidden"));
+        visible.sort((a, b) => {
+          if (state.sort === "name") return (a.dataset.name || "").localeCompare(b.dataset.name || "");
+          if (state.sort === "updated") return (b.dataset.updated || "").localeCompare(a.dataset.updated || "");
+          return Number(b.dataset.stars) - Number(a.dataset.stars) || (a.dataset.name || "").localeCompare(b.dataset.name || "");
+        });
+        for (const c of visible) grid.appendChild(c);
+      }
+      grid.appendChild(emptyEl);
+      countEl.textContent = tmpl.replace("{shown}", String(shown)).replace("{total}", String(cards.length));
+      emptyEl.style.display = shown ? "none" : "";
+    };
+
+    const syncUrl = () => {
+      const u = new URL(window.location.href);
+      if (state.q) u.searchParams.set("q", state.q);
+      else u.searchParams.delete("q");
+      window.history.replaceState(null, "", u);
+    };
+
+    qEl?.addEventListener("input", (e) => { state.q = (e.target as HTMLInputElement).value.trim().toLowerCase(); syncUrl(); apply(); });
+    statusEl?.addEventListener("change", (e) => { state.status = (e.target as HTMLSelectElement).value; apply(); });
+    sortEl?.addEventListener("change", (e) => { state.sort = (e.target as HTMLSelectElement).value; apply(); });
+    const toggleChip = (el: HTMLElement, set: Set<string>, attr: string) => {
+      const k = el.dataset[attr] || "";
+      if (set.has(k)) { set.delete(k); el.setAttribute("aria-pressed", "false"); }
+      else { set.add(k); el.setAttribute("aria-pressed", "true"); }
+      apply();
+    };
+    for (const el of typeChipsEls) el.addEventListener("click", () => toggleChip(el, types, "typefilter"));
+    for (const el of consoleChipsEls) el.addEventListener("click", () => toggleChip(el, consoles, "console"));
+
+    // deep-link: /?q=mario  → prefiltra y permite probar/compartir búsquedas
+    const q0 = new URLSearchParams(window.location.search).get("q");
+    if (q0 && qEl) { qEl.value = q0; state.q = q0.trim().toLowerCase(); }
+    apply();
+
+    const ro = document.getElementById("readout");
+    if (ro && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
+      const final = ro.dataset.final || ro.textContent || "";
+      const glyphs = "0123456789ABCDEF·→/";
+      let i = 0;
+      const tmr = setInterval(() => {
+        i++;
+        let out = final.slice(0, i);
+        if (i < final.length) for (let k = 0; k < 6; k++) out += glyphs[Math.floor(Math.random() * glyphs.length)];
+        ro.innerHTML = out + ' <span class="blink">▌</span>';
+        if (i >= final.length) clearInterval(tmr);
+      }, 26);
+    }
+  }
+</script>

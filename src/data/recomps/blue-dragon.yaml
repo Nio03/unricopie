@@ -1,0 +1,12 @@
+name: Blue Dragon
+console: x360
+status: experimental
+repo: zolaware/reblue
+originalDeveloper: Mistwalker / Artoon
+toolchain: ReXGlue
+desc:
+  es: "'re:Blue', recompilación del JRPG de Mistwalker: arranca y funciona la pantalla de título (v0.1.0). 'Jugable para curiosear, no para terminarlo'."
+  en: "'re:Blue', recompilation of Mistwalker's JRPG: boots and the title screen works (v0.1.0). 'Playable to poke at, not to play through'."
+requirements:
+  es: Una copia de Blue Dragon (Xbox 360).
+  en: A Blue Dragon copy (Xbox 360).

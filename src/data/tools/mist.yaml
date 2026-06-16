@@ -1,0 +1,12 @@
+name: mist
+kind: recompiler
+consoles:
+  - psp
+repo: kotcrab/mist
+status: experimental
+desc:
+  es: "Toolkit para el MIPS Allegrex de PSP: desensamblador + ejecución simbólica + decompilador, con un recompilador MIPS→C++ en desarrollo. Aún no produce ports de PC."
+  en: "Toolkit for the PSP Allegrex MIPS: disassembler + symbolic execution + decompiler, with an in-development MIPS→C++ recompiler. Doesn't produce PC ports yet."
+tags:
+  - allegrex
+  - reverse-engineering

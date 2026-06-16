@@ -1,0 +1,52 @@
+# ── build output ──
+dist/
+.output/
+*.tsbuildinfo
+
+# ── dependencias ──
+node_modules/
+.npm/
+.eslintcache
+
+# ── astro ──
+.astro/
+
+# ── stats generados ──
+# nota: src/data/stats.json SÍ se versiona (lo refresca el bot) — no lo ignoramos.
+
+# ── logs / env (secretos: nunca subir) ──
+*.log
+npm-debug.log*
+.env
+.env.*
+!.env.example
+
+# ── Claude Code (local, no subir) ──
+.claude/
+CLAUDE.local.md
+.mcp.json
+
+# ── scratch / temporales (screenshots, mockups, backups) ──
+_*.png
+_mockups/
+*.tmp
+*.bak
+
+# ── editor / OS ──
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.idea/
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
+
+# ── Tauri / Rust (launcher) ──
+unricopie-launcher/src-tauri/target/
+
+# ── legacy: prototipo v0.1, no esencial para el sitio ──
+# (si prefieres versionarlo como referencia histórica, borra esta línea)
+legacy/

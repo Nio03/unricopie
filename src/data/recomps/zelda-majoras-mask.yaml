@@ -1,0 +1,24 @@
+name: "The Legend of Zelda: Majora's Mask"
+console: n64
+status: fully
+repo: Zelda64Recomp/Zelda64Recomp
+author: Zelda64Recomp / Mr. Wiseguy
+originalDeveloper: Nintendo
+year: 2024
+progress: 100
+toolchain: N64Recomp
+desc:
+  es: "El recomp que lo empezó todo (mayo 2024): el primer juego completo recompilado. Widescreen, alta tasa de fotogramas, mods y el primer launcher integrado, sobre el motor RT64."
+  en: "The recomp that started it all (May 2024): the first full game recompiled. Widescreen, high frame rate, mods and the first built-in launcher, on the RT64 engine."
+requirements:
+  es: Una ROM de Majora's Mask (N64, US, .z64).
+  en: A Majora's Mask ROM (N64, US, .z64).
+tags:
+  - widescreen
+  - 60fps+
+  - mods
+  - ray-tracing
+links:
+  - label: Sitio oficial
+    url: https://zelda64.dev/
+featured: true

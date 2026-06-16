@@ -1,0 +1,12 @@
+name: psxrecomp
+kind: recompiler
+consoles:
+  - ps1
+repo: mstan/psxrecomp
+status: usable
+desc:
+  es: "El recompilador de PS1 más avanzado: levanta MIPS R3000A a C nativo y recompila el propio BIOS SCPH1001 como kernel. Validado con Tomba!, que llega a la jugabilidad real."
+  en: "The most advanced PS1 recompiler: lifts R3000A MIPS to native C and recompiles the SCPH1001 BIOS itself as the kernel. Validated with Tomba!, which reaches real gameplay."
+tags:
+  - mips
+  - bios

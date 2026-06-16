@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unricopie</title>
+    <style>
+      :root { --base:#0f1320; --panel:#171c2c; --line:#2a3146; --ink:#e8eaf0; --muted:#8b93a7; --amber:#ffb000; }
+      * { box-sizing: border-box; }
+      body { margin:0; background:var(--base); color:var(--ink); font-family:system-ui,sans-serif; padding:40px; }
+      h1 { font-size:34px; margin:0 0 4px; letter-spacing:-0.5px; }
+      h1 b { color:var(--amber); }
+      .tag { color:var(--muted); margin:0 0 6px; }
+      .phase { font-family:ui-monospace,monospace; font-size:12px; color:var(--amber); border:1px solid #7a5500; border-radius:999px; padding:3px 10px; display:inline-block; }
+      button { background:var(--amber); color:#1a1300; border:none; border-radius:8px; padding:10px 16px; font-weight:600; cursor:pointer; margin-top:22px; }
+      ul { list-style:none; padding:0; margin:18px 0 0; }
+      li { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+      a { color:var(--amber); }
+      footer { margin-top:30px; color:var(--muted); font-size:13px; }
+    </style>
+  </head>
+  <body>
+    <span class="phase">FASE 0 · SCAFFOLD</span>
+    <h1>Unri<b>copie</b></h1>
+    <p class="tag">Launcher multi-consola de Recompendium.</p>
+    <p class="tag">Descubre, descarga y organiza recomps · tú aportas tu copia legal.</p>
+
+    <button id="load">Cargar catálogo (stub)</button>
+    <ul id="out"></ul>
+
+    <footer>
+      Esto es un esqueleto. El comando <code>list_recomps</code> es un stub; la Fase 1 lo conecta al
+      catálogo real. Ver <a href="https://github.com/" target="_blank" rel="noopener">ROADMAP.md</a>.
+    </footer>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>

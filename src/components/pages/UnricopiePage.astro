@@ -1,0 +1,116 @@
+---
+import Base from "../../layouts/Base.astro";
+import { localePath, type Lang } from "../../i18n";
+import { GITHUB_URL } from "../../lib/site";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const es = lang === "es";
+
+const phases = [
+  {
+    tag: es ? "Fase 0 · ahora" : "Phase 0 · now",
+    title: es ? "Scaffold y catálogo" : "Scaffold & catalog",
+    done: true,
+    items: es
+      ? ["App Tauri (Rust + web) creada en unricopie-launcher/", "Lee el mismo catálogo que este sitio (src/data)", "Roadmap y arquitectura documentados"]
+      : ["Tauri app (Rust + web) created in unricopie-launcher/", "Reads the same catalog as this site (src/data)", "Roadmap and architecture documented"],
+  },
+  {
+    tag: es ? "Fase 1" : "Phase 1",
+    title: es ? "Descubrir y descargar" : "Discover & download",
+    done: false,
+    items: es
+      ? ["Listar recomps desde el catálogo", "Descargar el último release de cada repo", "Detección de actualizaciones, multi-consola"]
+      : ["List recomps from the catalog", "Download each repo's latest release", "Update detection, multi-console"],
+  },
+  {
+    tag: es ? "Fase 2" : "Phase 2",
+    title: es ? "Tu copia legal" : "Your legal copy",
+    done: false,
+    items: es
+      ? ["Apuntar a tu ROM / imagen de disco", "Verificación por hash del dump", "Aplicar assets y lanzar el juego"]
+      : ["Point it at your ROM / disc image", "Hash-verify the dump", "Apply assets and launch the game"],
+  },
+  {
+    tag: es ? "Fase 3" : "Phase 3",
+    title: es ? "Librería" : "Library",
+    done: false,
+    items: es
+      ? ["Biblioteca con portadas y estado por juego", "Gestión de versiones y rollback", "Perfiles de configuración por juego"]
+      : ["Library with covers and per-game status", "Version management and rollback", "Per-game config profiles"],
+  },
+];
+
+const txt = es
+  ? {
+      title: "Unricopie — nuestro launcher multi-consola",
+      crumb: "← Launchers y herramientas",
+      tag: "LAUNCHER · NUESTRO",
+      wip: "EN PROGRESO",
+      lead: "El launcher multi-consola de Recompendium. La idea: un solo lugar para descubrir, descargar y organizar los recomps de N64, GameCube, Wii, PS2 y Xbox 360 — siempre comprobando que aportes tu propia copia legal. Hoy existen launchers por proyecto (como N64RecompLauncher); Unricopie apunta a unificarlos sobre el catálogo que ya mantenemos aquí.",
+      stack: "Stack: Tauri (Rust + frontend web) · binarios pequeños · multiplataforma · reusa src/data/ como catálogo.",
+      roadmap: "Roadmap",
+      done: "LISTO",
+      plan: "PLAN",
+      follow: "Seguir el repo ↗",
+      back: "Volver al catálogo",
+      legal: "Unricopie nunca distribuirá ROMs ni assets. Solo descarga el código de los recomps (open source) y los conecta con la copia legal que tú aportes.",
+    }
+  : {
+      title: "Unricopie — our multi-console launcher",
+      crumb: "← Launchers & tools",
+      tag: "LAUNCHER · OURS",
+      wip: "IN PROGRESS",
+      lead: "Recompendium's multi-console launcher. The idea: one place to discover, download and organize recomps for N64, GameCube, Wii, PS2 and Xbox 360 — always checking that you supply your own legal copy. Today there are per-project launchers (like N64RecompLauncher); Unricopie aims to unify them on the catalog we already maintain here.",
+      stack: "Stack: Tauri (Rust + web frontend) · small binaries · cross-platform · reuses src/data/ as the catalog.",
+      roadmap: "Roadmap",
+      done: "DONE",
+      plan: "PLANNED",
+      follow: "Follow the repo ↗",
+      back: "Back to the catalog",
+      legal: "Unricopie will never distribute ROMs or assets. It only downloads the recomps' (open-source) code and connects it to the legal copy you provide.",
+    };
+---
+
+<Base lang={lang} title={txt.title} description={txt.lead}>
+  <main class="wrap detail">
+    <div class="crumb"><a href={localePath(lang, "launchers")}>{txt.crumb}</a></div>
+
+    <div class="card-top" style="max-width:760px">
+      <span class="console" style="--rail:#3fb0a8;color:#3fb0a8"><span class="dot"></span>{txt.tag}</span>
+      <span class="pill is-pill" style="color:#d29922">{txt.wip}</span>
+    </div>
+
+    <h1>Unricopie</h1>
+    <p class="lead">{txt.lead}</p>
+    <p class="mono" style="color:var(--ink-3);font-size:13px;margin-top:18px">{txt.stack}</p>
+
+    <div class="sec-h" style="margin-top:34px"><h2>{txt.roadmap}</h2></div>
+    <div class="grid" style="padding-top:8px">
+      {
+        phases.map((p) => (
+          <article class="card" style={`--rail:${p.done ? "#3fb950" : "#3a4566"}`}>
+            <div class="card-top">
+              <span class="console mono">{p.tag}</span>
+              <span class="pill is-pill" style={`color:${p.done ? "#3fb950" : "#8b93a7"}`}>{p.done ? txt.done : txt.plan}</span>
+            </div>
+            <h3>{p.title}</h3>
+            <ul style="margin:6px 0 0;padding-left:18px;color:var(--ink-2);font-size:13.5px;line-height:1.7">
+              {p.items.map((it) => (<li>{it}</li>))}
+            </ul>
+          </article>
+        ))
+      }
+    </div>
+
+    <div class="actions" style="margin-top:30px">
+      <a class="btn primary" href={GITHUB_URL} target="_blank" rel="noopener">{txt.follow}</a>
+      <a class="btn" href={localePath(lang, "")}>{txt.back}</a>
+    </div>
+
+    <p class="legal" style="margin-top:30px">{txt.legal}</p>
+  </main>
+</Base>

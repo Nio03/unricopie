@@ -1,0 +1,20 @@
+name: Banjo-Kazooie
+console: n64
+status: fully
+repo: BanjoRecomp/BanjoRecomp
+author: BanjoRecomp / Mr. Wiseguy
+originalDeveloper: Rare
+year: 2026
+progress: 100
+toolchain: N64Recomp
+desc:
+  es: Port nativo del clásico de Rare (v1.0.0, ene. 2026). Su launcher pulido —elige la ROM y verifica el hash— más soporte de mods por Thunderstore es lo que mucha gente recuerda como 'el launcher de Banjo'.
+  en: Native port of the Rare classic (v1.0.0, Jan. 2026). Its polished launcher — ROM picker with hash check — plus Thunderstore mod support is what many remember as 'the Banjo launcher'.
+requirements:
+  es: Una ROM de Banjo-Kazooie (N64, US v1.0, .z64).
+  en: A Banjo-Kazooie ROM (N64, US v1.0, .z64).
+tags:
+  - widescreen
+  - mods
+  - launcher
+featured: true

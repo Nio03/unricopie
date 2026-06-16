@@ -1,0 +1,14 @@
+name: Mystical Ninja Starring Goemon
+console: n64
+status: playable
+repo: klorfmorf/Goemon64Recomp
+originalDeveloper: Konami
+toolchain: N64Recomp
+desc:
+  es: "'Goemon 64: Recompiled Plus', port nativo del clásico de acción/aventura de Konami (v0.2.0-dev)."
+  en: "'Goemon 64: Recompiled Plus', a native port of Konami's action/adventure classic (v0.2.0-dev)."
+requirements:
+  es: Una ROM de Mystical Ninja Starring Goemon (N64, US).
+  en: A Mystical Ninja Starring Goemon ROM (N64, US).
+tags:
+  - widescreen

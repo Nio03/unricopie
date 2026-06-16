@@ -1,0 +1,16 @@
+name: Star Fox 64
+console: n64
+status: playable
+abandoned: true
+repo: YTReviveMe/Starfox64Recomp-uwp
+author: sonicdcer (orig.) · fork UWP
+originalDeveloper: Nintendo
+toolchain: N64Recomp
+desc:
+  es: Recompilación del shooter sobre raíles. El repo original (sonicdcer) fue borrado; solo sobrevive un fork UWP.
+  en: Recompilation of the on-rails shooter. The original repo (sonicdcer) was deleted; only a UWP fork survives.
+requirements:
+  es: Una ROM de Star Fox 64 (N64, US 1.1 Rev A).
+  en: A Star Fox 64 ROM (N64, US 1.1 Rev A).
+tags:
+  - widescreen

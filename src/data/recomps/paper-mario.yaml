@@ -1,0 +1,12 @@
+name: Paper Mario
+console: n64
+status: experimental
+repo: SMCGames/Paper-Mario-ReCut
+originalDeveloper: Nintendo / Intelligent Systems
+toolchain: N64Recomp
+desc:
+  es: "'ReCut': port recomp del RPG de papel. Arranca y permite reemplazo de texturas en vivo; asistido por IA y con el widescreen roto por ahora."
+  en: "'ReCut': recomp port of the papercraft RPG. Boots and allows live texture replacement; AI-assisted and with widescreen currently broken."
+requirements:
+  es: Tu ROM de Paper Mario (N64, US), validada por hash.
+  en: Your Paper Mario ROM (N64, US), hash-validated.

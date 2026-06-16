@@ -1,0 +1,201 @@
+---
+import "../styles/global.css";
+import { t, localePath, swapLocalePath, type Lang } from "../i18n";
+import { GITHUB_URL } from "../lib/site";
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+}
+
+const { lang } = Astro.props;
+const title = Astro.props.title ?? t(lang, "site.title");
+const description = Astro.props.description ?? t(lang, "site.desc");
+
+const path = Astro.url.pathname.replace(/\/+$/, "") || "/";
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.pathname;
+const other: Lang = lang === "es" ? "en" : "es";
+const otherHref = swapLocalePath(Astro.url.pathname, lang, other);
+
+// hreflang: misma página en ambos idiomas
+const esHref = swapLocalePath(Astro.url.pathname, lang, "es");
+const enHref = swapLocalePath(Astro.url.pathname, lang, "en");
+const altEs = Astro.site ? new URL(esHref, Astro.site).href : esHref;
+const altEn = Astro.site ? new URL(enHref, Astro.site).href : enHref;
+
+const nav = [
+  { label: t(lang, "nav.catalog"), to: localePath(lang, "") },
+  { label: t(lang, "nav.launchers"), to: localePath(lang, "launchers") },
+  { label: t(lang, "nav.ports"), to: localePath(lang, "ports") },
+  { label: t(lang, "nav.decomps"), to: localePath(lang, "decompilaciones") },
+  { label: t(lang, "nav.contribute"), to: localePath(lang, "contribuir") },
+  { label: t(lang, "nav.about"), to: localePath(lang, "acerca") },
+];
+function isActive(to: string) {
+  const tt = to.replace(/\/+$/, "") || "/";
+  return tt === localePath(lang, "").replace(/\/+$/, "") || tt === "/"
+    ? path === (localePath(lang, "").replace(/\/+$/, "") || "/")
+    : path === tt || path.startsWith(tt + "/");
+}
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="es" href={altEs} />
+    <link rel="alternate" hreflang="en" href={altEn} />
+    <link rel="alternate" hreflang="x-default" href={altEs} />
+    <link rel="icon" type="image/svg+xml" href={localePath("es", "recompendium-icon.svg")} />
+    <link rel="icon" type="image/png" href={localePath("es", "recompendium-icon.png")} />
+    <link rel="apple-touch-icon" href={localePath("es", "recompendium-icon.png")} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={localePath("es", "recompendium-logo.png")} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="wrap nav-in">
+        <a class="brand" href={localePath(lang, "")}>
+          <img class="brand-logo" src={localePath("es", "recompendium-logo-transparent.svg")} alt="Recompendium" height="30" />
+          <span class="ver">v0.3</span>
+        </a>
+        <div class="nav-links">
+          {
+            nav.map((n) => (
+              <a href={n.to} aria-current={isActive(n.to) ? "page" : undefined}>
+                {n.label}
+              </a>
+            ))
+          }
+          <button class="gh nav-search" id="search-open" type="button" aria-label={t(lang, "nav.search")}>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          </button>
+          <a class="gh" href={GITHUB_URL} target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="gh lang" href={otherHref} aria-label={t(lang, "nav.langLabel")}>
+            {lang === "es" ? "EN" : "ES"}
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <slot />
+
+    <footer>
+      <div class="wrap">
+        <h4>{t(lang, "footer.otherCatalogs")}</h4>
+        <ul class="links">
+          <li><a href="https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports" target="_blank" rel="noopener">PCGamingWiki · Unofficial Ports ↗</a></li>
+          <li><a href="https://decomp.dev/projects" target="_blank" rel="noopener">decomp.dev · Project Tracker ↗</a></li>
+          <li><a href="https://github.com/Sebastrion/awesome-unofficial-pc-ports" target="_blank" rel="noopener">Awesome Unofficial PC Ports ↗</a></li>
+          <li><a href="https://djcube.co.uk/n64-pc-port-directory/" target="_blank" rel="noopener">N64 PC Port Directory ↗</a></li>
+          <li><a href="https://readonlymemo.com/decompilation-projects-and-n64-recompiled-list/" target="_blank" rel="noopener">Read Only Memo · lista mensual ↗</a></li>
+          <li><a href="https://gamicus.fandom.com/wiki/List_of_GameCube_Decompiled_and_Recompiled_Games" target="_blank" rel="noopener">Codex Gamicus · GameCube ↗</a></li>
+        </ul>
+        <p class="legal">{t(lang, "footer.legal")}</p>
+        <p class="foot-meta">{t(lang, "footer.meta")}</p>
+        <p class="foot-meta foot-links">
+          <a href={localePath(lang, "faq")}>{t(lang, "footer.faq")}</a> ·
+          <a href={localePath(lang, "terms")}>{t(lang, "footer.terms")}</a> ·
+          <a href={localePath(lang, "privacy")}>{t(lang, "footer.privacy")}</a> ·
+          <a href={localePath(lang, "acerca")}>{t(lang, "footer.contribute")}</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="search-modal" id="search-modal" data-src={localePath("es", "search.json")} hidden>
+      <div class="search-card" role="dialog" aria-modal="true" aria-label={t(lang, "nav.search")}>
+        <input id="search-input" type="search" placeholder={t(lang, "search.placeholder")} autocomplete="off" autocapitalize="off" spellcheck="false" />
+        <ul id="search-results" class="search-results"></ul>
+      </div>
+    </div>
+
+    <script>
+      const modal = document.getElementById("search-modal");
+      if (modal) {
+        const openBtn = document.getElementById("search-open");
+        const input = document.getElementById("search-input") as HTMLInputElement;
+        const results = document.getElementById("search-results")!;
+        const src = modal.dataset.src!;
+        const lang = document.documentElement.lang === "en" ? "en" : "es";
+        const TYPES: Record<string, Record<string, string>> = {
+          es: { recomp: "Recomp", tool: "Herramienta", port: "Port", decomp: "Decomp" },
+          en: { recomp: "Recomp", tool: "Tool", port: "Port", decomp: "Decomp" },
+        };
+        const EMPTY = lang === "en" ? "No results." : "Sin resultados.";
+        let index: any[] | null = null;
+        let sel = -1;
+        let shown: any[] = [];
+
+        async function load() {
+          if (index) return;
+          try { const r = await fetch(src); index = (await r.json()).items; } catch { index = []; }
+        }
+        function open() {
+          modal!.hidden = false;
+          document.body.style.overflow = "hidden";
+          load().then(render);
+          input.focus();
+        }
+        function close() {
+          modal!.hidden = true;
+          document.body.style.overflow = "";
+          input.value = ""; sel = -1; shown = []; results.innerHTML = "";
+        }
+        function render() {
+          const q = input.value.trim().toLowerCase();
+          shown = !q || !index ? [] : index.filter((i) => i.q.includes(q)).slice(0, 24);
+          sel = shown.length ? 0 : -1;
+          if (!q) { results.innerHTML = ""; return; }
+          if (!shown.length) { results.innerHTML = `<li class="search-empty">${EMPTY}</li>`; return; }
+          results.innerHTML = shown.map((i, n) => {
+            const href = lang === "en" ? i.hn : i.he;
+            const tag = (TYPES[lang][i.t] || i.t) + (i.c ? ` · ${i.c.toUpperCase()}` : "");
+            const name = i.n.replace(/[&<>]/g, (ch: string) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[ch] || ch));
+            return `<li><a href="${href}" class="${n === sel ? "sel" : ""}"><span class="s-name">${name}</span><span class="s-tag">${tag}</span></a></li>`;
+          }).join("");
+        }
+        function move(d: number) {
+          if (!shown.length) return;
+          sel = (sel + d + shown.length) % shown.length;
+          Array.from(results.querySelectorAll("a")).forEach((a, n) => a.classList.toggle("sel", n === sel));
+        }
+        function go() {
+          const it = shown[sel];
+          if (it) window.location.href = lang === "en" ? it.hn : it.he;
+        }
+        openBtn?.addEventListener("click", open);
+        modal.addEventListener("click", (e) => { if (e.target === modal) close(); });
+        input.addEventListener("input", render);
+        input.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowDown") { e.preventDefault(); move(1); }
+          else if (e.key === "ArrowUp") { e.preventDefault(); move(-1); }
+          else if (e.key === "Enter") { e.preventDefault(); go(); }
+          else if (e.key === "Escape") close();
+        });
+        document.addEventListener("keydown", (e) => {
+          if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+            e.preventDefault();
+            modal!.hidden ? open() : close();
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

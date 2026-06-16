@@ -1,0 +1,45 @@
+---
+import Base from "../../layouts/Base.astro";
+import { localePath } from "../../i18n";
+import { GITHUB_URL } from "../../lib/site";
+const lang = "en" as const;
+---
+
+<Base lang={lang} title="Terms of Use — Recompendium" description="Terms of use for the Recompendium catalog: what the site is, third-party trademarks, data accuracy and content takedown.">
+  <main class="wrap detail">
+    <div class="crumb"><a href={localePath(lang, "")}>← Catalog</a></div>
+    <h1>Terms of Use</h1>
+    <p class="lead">Recompendium is an informational, community-driven, open-source catalog about game recompilations. By using this site you accept these terms.</p>
+
+    <div class="prose">
+      <h2>1. What this site is</h2>
+      <p>Recompendium is a non-profit project that <b>lists and links to</b> third-party projects (static recompilations, decompilation-based ports, fan remakes and tools). We don't develop or distribute those projects: we only point to their public repositories.</p>
+
+      <h2>2. No ROMs or copyrighted material</h2>
+      <p>Recompendium <b>does not host, distribute or link to</b> ROMs, BIOS files or copyrighted assets. Each recomp or port is <b>code only</b>: you must supply your own legal copy of the game. This site does not promote or facilitate piracy.</p>
+
+      <h2>3. Trademarks and third-party content</h2>
+      <p>Game, console and company names are trademarks of their respective owners and are used purely for identification purposes (nominative use). Recompendium is not affiliated with or endorsed by any of them. Each linked project belongs to its authors and is governed by its own license.</p>
+
+      <h2>4. Data accuracy</h2>
+      <p>The catalog is community-curated and automatically enriched from public APIs (GitHub). The information (status, versions, stars, dates) may contain errors or be out of date and is provided <b>“as is”</b>, without any warranty of accuracy. Use your own judgment.</p>
+
+      <h2>5. External links</h2>
+      <p>We don't control the linked sites or repositories and are not responsible for their content, availability or practices.</p>
+
+      <h2>6. Site intellectual property</h2>
+      <p>The Recompendium code is released under the <a href={`${GITHUB_URL}/blob/main/LICENSE`} target="_blank" rel="noopener">MIT license</a>. The catalog data are public facts about third-party projects.</p>
+
+      <h2>7. Limitation of liability</h2>
+      <p>The site is provided “as is”, without warranties of any kind. To the maximum extent permitted by applicable law, the maintainers shall not be liable for any damages arising from the use of the site or the linked projects.</p>
+
+      <h2>8. Content takedown</h2>
+      <p>If you are a rights holder and believe a link infringes your rights, <a href={`${GITHUB_URL}/issues`} target="_blank" rel="noopener">open an issue</a> in the repository and we'll review it promptly.</p>
+
+      <h2>9. Changes</h2>
+      <p>We may update these terms. The effective date indicates the latest revision.</p>
+
+      <p class="upd">Effective as of June 15, 2026.</p>
+    </div>
+  </main>
+</Base>

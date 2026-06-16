@@ -1,0 +1,16 @@
+name: "The Legend of Zelda: The Wind Waker"
+console: gamecube
+status: experimental
+repo: sp00nznet/ww
+originalDeveloper: Nintendo EAD
+decomp: zeldaret/tww
+desc:
+  es: "El recomp de GameCube más avanzado: traduce el DOL a C nativo con un runtime GX→Direct3D11. Renderiza geometría real a 60 fps, pero sigue atascado en la pantalla de título (montaje de JKRArchive)."
+  en: "The most advanced GameCube recomp: translates the DOL to native C with a GX→Direct3D11 runtime. Renders real geometry at 60fps, but still stuck on the title screen (JKRArchive mounting)."
+requirements:
+  es: Una copia de The Wind Waker (GameCube, US GZLE01).
+  en: A The Wind Waker copy (GameCube, US GZLE01).
+tags:
+  - powerpc
+  - custom-toolchain
+featured: true

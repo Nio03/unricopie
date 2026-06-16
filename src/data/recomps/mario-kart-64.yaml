@@ -1,0 +1,16 @@
+name: Mario Kart 64
+console: n64
+status: experimental
+abandoned: true
+repo: SilverCard/MarioKart64Recomp
+author: sonicdcer (orig.) · mirror
+originalDeveloper: Nintendo
+toolchain: N64Recomp
+desc:
+  es: Port recomp del kart clásico. El repo original (sonicdcer) fue borrado; esta es una de las copias espejo que sobreviven.
+  en: Recomp port of the classic kart racer. The original repo (sonicdcer) was deleted; this is one of the surviving mirrors.
+requirements:
+  es: Una ROM de Mario Kart 64 (N64, US).
+  en: A Mario Kart 64 ROM (N64, US).
+tags:
+  - widescreen

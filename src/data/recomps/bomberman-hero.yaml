@@ -1,0 +1,14 @@
+name: Bomberman Hero
+console: n64
+status: playable
+repo: RevoSucks/BMHeroRecomp
+originalDeveloper: Hudson Soft
+toolchain: N64Recomp
+desc:
+  es: Proyecto hermano de BM64Recomp por el mismo autor, con soporte de mods (v0.7.x).
+  en: Sibling project to BM64Recomp by the same author, with mod support (v0.7.x).
+requirements:
+  es: Una ROM de Bomberman Hero (N64, US 1.0, .z64).
+  en: A Bomberman Hero ROM (N64, US 1.0, .z64).
+tags:
+  - mods

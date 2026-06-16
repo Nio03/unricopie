@@ -1,0 +1,12 @@
+name: GoldenEye 007
+console: n64
+status: playable
+repo: kholdfuzion/GoldenRecomp
+originalDeveloper: Rare
+toolchain: N64Recomp
+desc:
+  es: "Recompilación del shooter de Rare: estable y con sonido, pero la UI multijugador está incompleta y aún no hay release. Requiere una ROM 'TLBFREE' descomprimida."
+  en: "Recompilation of Rare's shooter: stable with working sound, but the multiplayer UI is incomplete and there's no release yet. Needs a decompressed 'TLBFREE' ROM."
+requirements:
+  es: Una ROM 'TLBFREE' de GoldenEye 007 (N64, US) compilada del decomp.
+  en: A 'TLBFREE' GoldenEye 007 ROM (N64, US) built from the decomp.

@@ -1,0 +1,19 @@
+name: Twilight Princess (Dusklight)
+category: decomp-port
+console: gamecube
+status: fully
+repo: TwilitRealm/dusklight
+originalDeveloper: Nintendo
+decomp: zeldaret/tp
+desc:
+  es: "Port nativo de Twilight Princess desde la decompilación zeldaret/tp: HD, alta tasa de fotogramas y texture packs (v1.0.1; antes 'Dusk'). Aportas tu copia de GameCube."
+  en: "Native port of Twilight Princess from the zeldaret/tp decompilation: HD, high frame rate and texture packs (v1.0.1; formerly 'Dusk'). You supply your GameCube copy."
+requirements:
+  es: Tu copia de Twilight Princess (GameCube, USA o EUR).
+  en: Your Twilight Princess copy (GameCube, USA or EUR).
+tags:
+  - zelda
+  - decomp
+links:
+  - label: Sitio oficial
+    url: https://duskport.com/

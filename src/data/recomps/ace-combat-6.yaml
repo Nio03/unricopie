@@ -1,0 +1,12 @@
+name: "Ace Combat 6: Fires of Liberation"
+console: x360
+status: experimental
+repo: sal063/AC6_recomp
+originalDeveloper: Namco / Project Aces
+toolchain: ReXGlue
+desc:
+  es: "Port nativo del exclusivo de 360: arranca y llega a la jugabilidad con renderer D3D12/Vulkan. Esperables bugs, crashes y funciones faltantes."
+  en: "Native port of the 360 exclusive: boots and reaches gameplay with a D3D12/Vulkan renderer. Expect bugs, crashes and missing functionality."
+requirements:
+  es: El default.xex y los datos extraídos de tu ISO de Ace Combat 6 (Xbox 360).
+  en: The default.xex and game data extracted from your Ace Combat 6 ISO (Xbox 360).

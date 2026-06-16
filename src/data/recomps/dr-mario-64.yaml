@@ -1,0 +1,16 @@
+name: Dr. Mario 64
+console: n64
+status: fully
+repo: theboy181/drmario64_recomp_plus
+originalDeveloper: Nintendo / NST
+toolchain: N64Recomp
+decomp: AngheloAlf/drmario64
+desc:
+  es: "Versión 'Plus' del puzzle de Nintendo: 60 fps, 4 jugadores y filtro CRT, sobre la base de recompilación de AngheloAlf (v1.0.0)."
+  en: "'Plus' build of Nintendo's puzzler: 60fps, 4-player and a CRT filter, on AngheloAlf's recomp base (v1.0.0)."
+requirements:
+  es: Una ROM limpia de Dr. Mario 64 (N64, US).
+  en: A clean Dr. Mario 64 ROM (N64, US).
+tags:
+  - 60fps+
+  - multiplayer

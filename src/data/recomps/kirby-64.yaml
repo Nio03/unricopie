@@ -1,0 +1,12 @@
+name: "Kirby 64: The Crystal Shards"
+console: n64
+status: experimental
+repo: Kirby64Ret/Kirby64Recomp
+originalDeveloper: HAL Laboratory
+toolchain: N64Recomp
+desc:
+  es: Recompilación 'en construcción' del Kirby de N64, forkeada de Zelda64Recomp. Hay que compilarla desde el código; sin descargas todavía.
+  en: "'Under construction' recompilation of N64 Kirby, forked from Zelda64Recomp. Build-from-source; no downloads yet."
+requirements:
+  es: Tu copia de Kirby 64 (N64), como NK4E.z64.
+  en: Your Kirby 64 copy (N64), as NK4E.z64.

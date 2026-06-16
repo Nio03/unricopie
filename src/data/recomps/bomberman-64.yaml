@@ -1,0 +1,15 @@
+name: Bomberman 64
+console: n64
+status: fully
+repo: RevoSucks/BM64Recomp
+originalDeveloper: Hudson Soft
+year: 2026
+toolchain: N64Recomp
+desc:
+  es: Recompilación nativa del Bomberman en 3D, con soporte de mods (v1.0.0).
+  en: Native recompilation of the 3D Bomberman, with mod support (v1.0.0).
+requirements:
+  es: Una ROM de Bomberman 64 (N64, US 1.0, .z64).
+  en: A Bomberman 64 ROM (N64, US 1.0, .z64).
+tags:
+  - mods

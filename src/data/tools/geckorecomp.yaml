@@ -1,0 +1,13 @@
+name: GeckoRecomp
+kind: recompiler
+consoles:
+  - gamecube
+  - wii
+repo: WhiteTPoison/GeckoRecomp
+status: experimental
+desc:
+  es: Fork experimental de XenonRecomp que intenta convertir ejecutables de Wii/GameCube (PowerPC 'Gekko') a C++. Sin ningún juego implementado todavía.
+  en: Experimental fork of XenonRecomp aiming to convert Wii/GameCube (PowerPC 'Gekko') executables to C++. No game implemented yet.
+tags:
+  - powerpc
+  - gekko

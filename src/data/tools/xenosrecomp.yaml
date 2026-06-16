@@ -1,0 +1,12 @@
+name: XenosRecomp
+kind: library
+consoles:
+  - x360
+repo: hedge-dev/XenosRecomp
+status: stable
+desc:
+  es: Convierte los shaders de la GPU Xenos del Xbox 360 a HLSL. Complemento de XenonRecomp.
+  en: Converts the Xbox 360 Xenos GPU shaders to HLSL. Companion to XenonRecomp.
+tags:
+  - shaders
+  - gpu

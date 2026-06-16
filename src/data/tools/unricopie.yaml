@@ -1,0 +1,19 @@
+name: Unricopie
+kind: launcher
+consoles:
+  - n64
+  - gamecube
+  - wii
+  - ps2
+  - x360
+author: Recompendium
+status: experimental
+ours: true
+desc:
+  es: "Nuestro launcher multi-consola: descubre, descarga y organiza recomps de todas las plataformas en una sola librería, comprobando que aportes tu propia copia legal. En construcción — mira el roadmap."
+  en: "Our multi-console launcher: discover, download and organize recomps from every platform in one library, checking that you supply your own legal copy. In progress — see the roadmap."
+tags:
+  - multi-consola
+  - tauri
+  - auto-update
+featured: true

@@ -1,0 +1,39 @@
+---
+import Base from "../layouts/Base.astro";
+import { localePath } from "../i18n";
+import { GITHUB_URL } from "../lib/site";
+const lang = "es" as const;
+---
+
+<Base lang={lang} title="Política de privacidad — Recompendium" description="Política de privacidad de Recompendium: es un sitio estático sin cuentas, cookies propias ni rastreo.">
+  <main class="wrap detail">
+    <div class="crumb"><a href={localePath(lang, "")}>← Catálogo</a></div>
+    <h1>Política de privacidad</h1>
+    <p class="lead">Recompendium es un sitio estático: no tiene cuentas ni base de datos de usuarios, y no recopila datos personales.</p>
+
+    <div class="prose">
+      <h2>1. Resumen</h2>
+      <p>No recopilamos, almacenamos ni vendemos datos personales. El sitio no tiene inicio de sesión ni formularios que guarden información en servidores propios.</p>
+
+      <h2>2. Cookies y analítica</h2>
+      <p>Recompendium <b>no instala cookies propias</b> ni usa analítica, píxeles de seguimiento ni publicidad.</p>
+
+      <h2>3. Alojamiento (GitHub Pages)</h2>
+      <p>El sitio se sirve desde <b>GitHub Pages</b>. Como cualquier servidor web, GitHub puede registrar datos técnicos (por ejemplo tu dirección IP y el navegador) en sus registros de acceso, conforme a la <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">Declaración de Privacidad de GitHub</a>.</p>
+
+      <h2>4. Fuentes tipográficas (Google Fonts)</h2>
+      <p>Cargamos las tipografías desde <b>Google Fonts</b>. Al abrir el sitio, tu navegador solicita esos archivos a los servidores de Google, que pueden recibir tu dirección IP, conforme a la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>.</p>
+
+      <h2>5. Enlaces y contribuciones</h2>
+      <p>Al seguir enlaces a GitHub o a los sitios de los proyectos, o al abrir un Pull Request / issue para contribuir, interactúas directamente con esos terceros bajo sus propias políticas. Nosotros solo vemos la información pública que GitHub muestra.</p>
+
+      <h2>6. Datos de terceros mostrados</h2>
+      <p>Las estrellas, versiones y fechas que ves provienen de las APIs públicas de los repositorios enlazados; son datos públicos sobre proyectos, no sobre ti.</p>
+
+      <h2>7. Cambios</h2>
+      <p>Podemos actualizar esta política. La fecha de vigencia indica la última revisión. ¿Dudas? <a href={`${GITHUB_URL}/issues`} target="_blank" rel="noopener">Abre un issue</a>.</p>
+
+      <p class="upd">Vigente desde el 15 de junio de 2026.</p>
+    </div>
+  </main>
+</Base>

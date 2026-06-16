@@ -1,0 +1,13 @@
+name: Sly Cooper and the Thievius Raccoonus
+console: ps2
+status: experimental
+repo: chrisking1981/sly1-recomp
+originalDeveloper: Sucker Punch
+desc:
+  es: Intento muy temprano de port nativo del primer Sly Cooper vía recompilación de PS2. Ejecuta 100+ funciones (memoria + E/S) antes de chocar con hardware GS/DMA no implementado; sin gráficos aún.
+  en: Very early attempt at a native port of the first Sly Cooper via PS2 recompilation. Runs 100+ functions (memory + I/O) before hitting unimplemented GS/DMA hardware; no graphics yet.
+requirements:
+  es: "El ELF 'SCUS_971.98' de tu disco de Sly Cooper: Thievius Raccoonus (PS2)."
+  en: "The 'SCUS_971.98' ELF from your Sly Cooper: Thievius Raccoonus disc (PS2)."
+tags:
+  - emotion-engine

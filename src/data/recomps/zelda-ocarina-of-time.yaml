@@ -1,0 +1,16 @@
+name: "The Legend of Zelda: Ocarina of Time"
+console: n64
+status: experimental
+repo: Zelda64Recomp/Zelda64Recomp
+originalDeveloper: Nintendo
+toolchain: N64Recomp
+forkOf:
+  label: Zelda64Recomp · Majora's Mask
+  url: https://github.com/Zelda64Recomp/Zelda64Recomp
+desc:
+  es: "Soporte de Ocarina of Time dentro del mismo proyecto Zelda64Recomp que recompiló Majora's Mask. Listado como objetivo planeado: aún NO está disponible ni es jugable."
+  en: "Ocarina of Time support within the same Zelda64Recomp project that recompiled Majora's Mask. Listed as a planned target: it is NOT available or playable yet."
+tags:
+  - widescreen
+  - mods
+enrich: false

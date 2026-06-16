@@ -1,0 +1,13 @@
+name: PS2Recomp
+kind: recompiler
+consoles:
+  - ps2
+repo: ran-j/PS2Recomp
+author: ran-j (Ranieri)
+status: experimental
+desc:
+  es: Recompilador estático + runtime para ELFs MIPS R5900 de PS2 → C++. La CPU funciona, pero el Graphics Synthesizer, el microcódigo VU1 y el DMA siguen como stubs; ningún juego jugable aún.
+  en: Static recompiler + runtime for PS2 R5900 MIPS ELFs → C++. The CPU works, but the Graphics Synthesizer, VU1 microcode and DMA are still stubbed; no playable game yet.
+tags:
+  - emotion-engine
+  - elf

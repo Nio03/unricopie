@@ -1,0 +1,12 @@
+name: Skate 2
+console: x360
+status: experimental
+repo: Skate-2-Team/sk82-recomp
+originalDeveloper: EA Black Box
+toolchain: XenonRecomp
+desc:
+  es: Recompilación de Skate 2 hacia un port de PC, en etapas tempranas y sin release. A diferencia de Skate 3, usa XenonRecomp.
+  en: Recompilation of Skate 2 toward a PC port, in early stages with no release. Unlike Skate 3, it uses XenonRecomp.
+requirements:
+  es: Una copia de Skate 2 (Xbox 360).
+  en: A Skate 2 copy (Xbox 360).

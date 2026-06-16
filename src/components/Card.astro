@@ -1,0 +1,78 @@
+---
+import { t, type Lang } from "../i18n";
+import { fmtStars, fmtDate } from "../lib/stats";
+import type { Item } from "../lib/catalog";
+
+interface Props {
+  item: Item;
+  lang: Lang;
+}
+const { item, lang } = Astro.props;
+const repoFallback = item.ours ? t(lang, "card.ourRepo") : item.type === "recomp" ? t(lang, "card.repoTBD") : "—";
+// Solo mostramos estrellas/versión cuando hay datos en vivo (repo enriquecido).
+const hasStats = item.stars != null;
+---
+
+<a
+  class={`card${item.ours ? " ours" : ""}`}
+  href={item.href}
+  data-card
+  data-type={item.type}
+  data-status={item.statusKey}
+  data-abandoned={item.abandoned ? "true" : "false"}
+  data-takedown={item.takedown ? "true" : "false"}
+  data-consoles={item.consoleKeys.join(",")}
+  data-name={item.name.toLowerCase()}
+  data-search={item.search}
+  data-stars={item.stars ?? -1}
+  data-updated={item.pushedAt ?? ""}
+  style={`--rail:${item.railColor}`}
+  target={item.external ? "_blank" : undefined}
+  rel={item.external ? "noopener" : undefined}
+>
+  <div class="card-top">
+    <span class="console"><span class="dot"></span>{item.kindLabel}</span>
+    <span class="pills">
+      {item.status && <span class="pill is-pill" style={`color:${item.status.color}`}>{item.status.label}</span>}
+      {item.abandoned && <span class="pill is-pill" style="color:#8b93a7">{t(lang, "status.abandoned")}</span>}
+      {item.takedown && <span class="pill is-pill" style="color:#e05656">{t(lang, "status.takedown")}</span>}
+    </span>
+  </div>
+
+  {item.forkOf && <p class="forkline">⑂ {t(lang, "card.fork")} {item.forkOf.label}</p>}
+
+  <h3>
+    {item.name}
+    {item.ours && <span class="ours-tag mono">{t(lang, "card.ours")}</span>}
+  </h3>
+  {(item.repo || item.ours || item.type === "recomp") && <p class="repo">{item.repo ?? repoFallback}</p>}
+  <p class="desc">{item.desc}</p>
+
+  {
+    item.requirements && (
+      <p class="reqs"><span class="reqs-k">{t(lang, "card.reqs")}</span>{item.requirements}</p>
+    )
+  }
+
+  {
+    item.progress != null && (
+      <div class="prog">
+        <div class="bar"><i style={`width:${item.progress}%`} /></div>
+        <div class="lbl">{item.progressLabel}</div>
+      </div>
+    )
+  }
+
+  <div class="card-foot">
+    {
+      hasStats && (
+        <>
+          <span class="stars" title={t(lang, "card.starsTitle")}>★ {fmtStars(item.stars)}</span>
+          <span class="dot-sep">·</span>
+          <span title={t(lang, "card.lastPush")}>{fmtDate(item.pushedAt)}</span>
+        </>
+      )
+    }
+    <span class="repolink">{item.ours ? t(lang, "card.roadmap") : t(lang, "card.see")}</span>
+  </div>
+</a>

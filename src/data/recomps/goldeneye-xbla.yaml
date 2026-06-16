@@ -1,0 +1,16 @@
+name: GoldenEye 007 (XBLA Remaster)
+console: x360
+status: fully
+repo: SunJaycy/GoldenEye-Recomp
+originalDeveloper: Rare / Eurocom
+year: 2026
+toolchain: ReXGlue
+desc:
+  es: "Port nativo de la remasterización XBLA cancelada de GoldenEye (v1.0, jun. 2026): mandos, multijugador online, post-procesado y 60 fps."
+  en: "Native port of the cancelled XBLA GoldenEye remaster (v1.0, Jun. 2026): controllers, online multiplayer, post-FX and 60fps."
+requirements:
+  es: Tus archivos de GoldenEye 007 XBLA (Xbox 360).
+  en: Your GoldenEye 007 XBLA game files (Xbox 360).
+tags:
+  - 60fps+
+  - multiplayer

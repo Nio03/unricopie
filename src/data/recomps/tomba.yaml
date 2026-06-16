@@ -1,0 +1,14 @@
+name: Tomba!
+console: ps1
+status: experimental
+repo: mstan/psxrecomp
+originalDeveloper: Whoopee Camp
+toolchain: psxrecomp
+desc:
+  es: "El recomp de PS1 más cercano a jugable: Tomba! impulsado de punta a punta por psxrecomp. Llega a la jugabilidad real (saltar, agarrar, misiones) pero con fallos de timing de audio y softlocks."
+  en: "The closest-to-playable PS1 recomp: Tomba! driven end-to-end through psxrecomp. Reaches real gameplay (jump, grab, quests) but with audio-timing glitches and softlocks."
+requirements:
+  es: Una imagen de disco de Tomba! (PS1) + el BIOS SCPH1001.BIN.
+  en: A Tomba! disc image (PS1) + the SCPH1001.BIN BIOS.
+tags:
+  - mips

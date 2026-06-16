@@ -1,0 +1,40 @@
+name: Refresh GitHub stats
+
+on:
+  schedule:
+    - cron: "17 5 * * *" # a diario, 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Refrescar estrellas y último commit
+        run: npm run refresh-stats
+        env:
+          # GITHUB_TOKEN del runner: ~1000 req/hora, sin tope de 60.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit si hubo cambios
+        run: |
+          if [[ -n "$(git status --porcelain src/data/stats.json)" ]]; then
+            git config user.name "recompendium-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add src/data/stats.json
+            git commit -m "chore: refresh GitHub stats [skip ci]"
+            git push
+          else
+            echo "Sin cambios en stats.json."
+          fi

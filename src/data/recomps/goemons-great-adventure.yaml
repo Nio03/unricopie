@@ -1,0 +1,12 @@
+name: Goemon's Great Adventure
+console: n64
+status: experimental
+repo: dantheman11294/GGA-Recomp
+originalDeveloper: Konami
+toolchain: N64Recomp
+desc:
+  es: "Recompilación temprana de la secuela de Goemon: entra en código pero se atasca en el cargador de assets (~44% del código en overlays)."
+  en: "Early recompilation of the Goemon sequel: enters code but stalls at the asset loader (~44% of code in overlays)."
+requirements:
+  es: Una ROM de Goemon's Great Adventure (N64, US).
+  en: A Goemon's Great Adventure ROM (N64, US).

@@ -1,0 +1,17 @@
+name: Space Station Silicon Valley
+console: n64
+status: playable
+repo: Cellenseres/SSSV_Recomp
+originalDeveloper: DMA Design
+year: 2026
+toolchain: N64Recomp
+desc:
+  es: "Port nativo del rarísimo juego de DMA Design (pre-GTA): alta tasa de fotogramas, carga instantánea, Steam Deck y mods (v0.2.0)."
+  en: "Native port of DMA Design's oddball pre-GTA game: high frame rate, instant load, Steam Deck and mods (v0.2.0)."
+requirements:
+  es: Una ROM de Space Station Silicon Valley (N64, US 1.0).
+  en: A Space Station Silicon Valley ROM (N64, US 1.0).
+tags:
+  - 60fps+
+  - mods
+  - steam-deck

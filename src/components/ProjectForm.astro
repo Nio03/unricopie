@@ -1,0 +1,210 @@
+---
+// Formulario único para Contribuir (mode="new") y Editar (mode="edit").
+// - Campos completos (estado nuevo, abandonado, requisitos).
+// - Los campos bilingües (desc, requisitos) muestran SOLO el idioma actual;
+//   se guardan como string (el esquema lo copia a ambos). En edición se
+//   preserva la otra traducción si ya existía.
+// - Al enviar: abre un ISSUE de GitHub prellenado con el YAML + mensaje
+//   "gracias, en revisión". Nunca el editor de archivos.
+import { GITHUB_URL } from "../lib/site";
+import { CONSOLE_KEYS, consoleMeta } from "../lib/consoles";
+import { STATUS_KEYS, TOOL_STATUS } from "../lib/status";
+import { t, type Lang } from "../i18n";
+import type { ItemType } from "../lib/catalog";
+
+interface Props {
+  lang: Lang;
+  mode: "new" | "edit";
+  type?: ItemType;
+  path?: string;
+  data?: any;
+}
+const { lang, mode, type: fixedType, path, data } = Astro.props;
+const es = lang === "es";
+const otherLang: Lang = es ? "en" : "es";
+const d = data ?? {};
+const curType: ItemType = (fixedType ?? "recomp") as ItemType;
+const toolStatusKeys = Object.keys(TOOL_STATUS);
+
+const L = es
+  ? { type: "Tipo", tRecomp: "Juego (recomp)", tTool: "Herramienta / launcher", tPort: "Port / remake", tDecomp: "Decompilación",
+      name: "Nombre", console: "Consola", kind: "Tipo de herramienta", category: "Categoría", status: "Estado",
+      abandoned: "Abandonado", takedown: "Retirado (DMCA)", repo: "Repositorio (usuario/repo)", author: "Autor / mantenedor",
+      desc: "Descripción", reqs: "Requisitos (ROM/versión que hace falta)", tags: "Etiquetas (separadas por coma)",
+      langHint: `En tu idioma (${es ? "español" : "inglés"}); nosotros completamos la otra versión.`,
+      submit: mode === "edit" ? "Enviar cambios" : "Añadir", need: "Pon al menos el nombre y la descripción.",
+      doneTitle: "¡Gracias por contribuir!", doneBody: "Tu propuesta se abrió como issue y está en revisión. Cuando la aprobemos, aparece en el sitio.",
+      again: mode === "edit" ? "Editar de nuevo" : "Añadir otro" }
+  : { type: "Type", tRecomp: "Game (recomp)", tTool: "Tool / launcher", tPort: "Port / remake", tDecomp: "Decompilation",
+      name: "Name", console: "Console", kind: "Tool type", category: "Category", status: "Status",
+      abandoned: "Abandoned", takedown: "Taken down (DMCA)", repo: "Repository (owner/repo)", author: "Author / maintainer",
+      desc: "Description", reqs: "Requirements (which ROM/version is needed)", tags: "Tags (comma-separated)",
+      langHint: "In your language; we fill in the other version.",
+      submit: mode === "edit" ? "Submit changes" : "Add", need: "Add at least the name and the description.",
+      doneTitle: "Thanks for contributing!", doneBody: "Your proposal opened as an issue and is under review. Once we approve it, it shows up on the site.",
+      again: mode === "edit" ? "Edit again" : "Add another" };
+
+const showFor = (t: ItemType, set: ItemType[]) => (set.includes(t) ? "" : "none");
+const cfg = {
+  mode, gh: GITHUB_URL, lang, otherLang, fixedType: fixedType ?? null,
+  path: path ?? null, prevDesc: d.desc ?? null, prevReq: d.requirements ?? null,
+};
+---
+
+<div class="contrib-form" id="pf-form" style="max-width:520px">
+  {
+    mode === "new" && (
+      <div class="fld">
+        <label for="pf-type">{L.type}</label>
+        <select id="pf-type">
+          <option value="recomp">{L.tRecomp}</option>
+          <option value="tool">{L.tTool}</option>
+          <option value="port">{L.tPort}</option>
+          <option value="decomp">{L.tDecomp}</option>
+        </select>
+      </div>
+    )
+  }
+  <div class="fld"><label for="pf-name">{L.name}</label><input id="pf-name" value={d.name ?? ""} placeholder="Conker's Bad Fur Day" /></div>
+
+  <div class="fld" data-row="console" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "decomp"]) : ""}`}>
+    <label for="pf-console">{L.console}</label>
+    <select id="pf-console">{CONSOLE_KEYS.map((k) => <option value={k} selected={d.console === k}>{consoleMeta(k).label}</option>)}</select>
+  </div>
+  <div class="fld" data-row="kind" style={`display:${mode === "edit" ? showFor(curType, ["tool"]) : "none"}`}>
+    <label for="pf-kind">{L.kind}</label>
+    <select id="pf-kind">{["recompiler", "launcher", "patcher", "library"].map((k) => <option value={k} selected={d.kind === k}>{k}</option>)}</select>
+  </div>
+  <div class="fld" data-row="category" style={`display:${mode === "edit" ? showFor(curType, ["port"]) : "none"}`}>
+    <label for="pf-category">{L.category}</label>
+    <select id="pf-category">{["decomp-port", "fan-remake"].map((k) => <option value={k} selected={d.category === k}>{k}</option>)}</select>
+  </div>
+  <div class="fld" data-row="status" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "tool"]) : ""}`}>
+    <label for="pf-status">{L.status}</label>
+    <select id="pf-status">
+      {STATUS_KEYS.map((s) => <option value={s} data-for="game" selected={d.status === s}>{t(lang, `status.${s}`)}</option>)}
+      {toolStatusKeys.map((s) => <option value={s} data-for="tool" selected={d.status === s}>{t(lang, `toolstatus.${s}`)}</option>)}
+    </select>
+  </div>
+  <div class="fld fld-check" data-row="abandoned" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "tool", "decomp"]) : ""}`}>
+    <label><input type="checkbox" id="pf-abandoned" checked={d.abandoned} /> {L.abandoned}</label>
+  </div>
+  <div class="fld fld-check" data-row="takedown" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "tool", "decomp"]) : ""}`}>
+    <label><input type="checkbox" id="pf-takedown" checked={d.takedown} /> {L.takedown}</label>
+  </div>
+
+  <div class="fld"><label for="pf-repo">{L.repo}</label><input id="pf-repo" value={d.repo ?? ""} placeholder="usuario/MiRecomp" /></div>
+  <div class="fld"><label for="pf-author">{L.author}</label><input id="pf-author" value={d.author ?? ""} /></div>
+  <div class="fld"><label for="pf-desc">{L.desc}</label><textarea id="pf-desc" placeholder={L.langHint}>{d.desc?.[lang] ?? ""}</textarea></div>
+  <div class="fld" data-row="reqs" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port"]) : ""}`}>
+    <label for="pf-reqs">{L.reqs}</label><input id="pf-reqs" value={d.requirements?.[lang] ?? ""} />
+  </div>
+  <div class="fld"><label for="pf-tags">{L.tags}</label><input id="pf-tags" value={(d.tags ?? []).join(", ")} /></div>
+
+  <div class="actions" style="margin-top:6px"><button class="btn primary" id="pf-submit" type="button">{L.submit}</button></div>
+  <p class="note" id="pf-note" style="display:none">{L.need}</p>
+</div>
+
+<div class="contrib-done" id="pf-done" style="display:none">
+  <div class="done-card">
+    <div class="done-check">✓</div>
+    <h2>{L.doneTitle}</h2>
+    <p>{L.doneBody}</p>
+    <button class="btn" id="pf-again" type="button">{L.again}</button>
+  </div>
+</div>
+
+<script type="application/json" id="pf-cfg" set:html={JSON.stringify(cfg)} />
+
+<script>
+  import { stringify } from "yaml";
+  const form = document.getElementById("pf-form");
+  const cfgEl = document.getElementById("pf-cfg");
+  if (form && cfgEl) {
+    const cfg = JSON.parse(cfgEl.textContent || "{}");
+    const $ = (id: string) => document.getElementById(id) as any;
+    const typeEl = $("pf-type");
+    const statusEl = $("pf-status") as HTMLSelectElement;
+    const rows: Record<string, HTMLElement | null> = {
+      console: document.querySelector('[data-row="console"]'),
+      kind: document.querySelector('[data-row="kind"]'),
+      category: document.querySelector('[data-row="category"]'),
+      status: document.querySelector('[data-row="status"]'),
+      abandoned: document.querySelector('[data-row="abandoned"]'),
+      reqs: document.querySelector('[data-row="reqs"]'),
+    };
+    const curType = () => (cfg.fixedType ?? (typeEl ? typeEl.value : "recomp"));
+    const FOLDER: Record<string, string> = { recomp: "recomps", tool: "tools", port: "ports", decomp: "decomps" };
+
+    function sync() {
+      const ty = curType();
+      const show = (el: HTMLElement | null, on: boolean) => { if (el) el.style.display = on ? "" : "none"; };
+      show(rows.console, ty === "recomp" || ty === "port" || ty === "decomp");
+      show(rows.kind, ty === "tool");
+      show(rows.category, ty === "port");
+      show(rows.status, ty !== "decomp");
+      show(rows.reqs, ty === "recomp" || ty === "port");
+      // estados válidos según tipo
+      const want = ty === "tool" ? "tool" : "game";
+      let firstVisible = "";
+      for (const o of Array.from(statusEl.options)) {
+        const ok = o.dataset.for === want;
+        o.hidden = !ok;
+        o.disabled = !ok;
+        if (ok && !firstVisible) firstVisible = o.value;
+      }
+      const sel = statusEl.selectedOptions[0];
+      if (!sel || sel.hidden) statusEl.value = firstVisible;
+    }
+    if (typeEl) typeEl.addEventListener("change", sync);
+    sync();
+
+    const slugify = (s: string) =>
+      (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "nuevo";
+
+    function localized(curVal: string, prev: any) {
+      if (!curVal) return undefined;
+      const other = prev && prev[cfg.otherLang];
+      if (other && other !== curVal) return cfg.lang === "es" ? { es: curVal, en: other } : { es: other, en: curVal };
+      return curVal; // string → el esquema lo copia a ambos idiomas
+    }
+
+    $("pf-submit").addEventListener("click", () => {
+      const ty = curType();
+      const name = $("pf-name").value.trim();
+      const descVal = $("pf-desc").value.trim();
+      if (!name || !descVal) { $("pf-note").style.display = "block"; return; }
+      $("pf-note").style.display = "none";
+
+      const o: Record<string, any> = { name };
+      if (ty === "recomp" || ty === "port" || ty === "decomp") o.console = $("pf-console").value;
+      if (ty === "tool") { o.kind = $("pf-kind").value; o.consoles = [$("pf-console").value]; }
+      if (ty === "port") o.category = $("pf-category").value;
+      if (ty !== "decomp") o.status = statusEl.value;
+      if ($("pf-abandoned")?.checked) o.abandoned = true;
+      if ($("pf-takedown")?.checked) o.takedown = true;
+      const repo = $("pf-repo").value.trim().replace(/^https?:\/\/github\.com\//, "").replace(/\/$/, "");
+      if (repo) o.repo = repo;
+      const author = $("pf-author").value.trim(); if (author) o.author = author;
+      const descV = localized(descVal, cfg.prevDesc); if (descV !== undefined) o.desc = descV;
+      if (ty === "recomp" || ty === "port") { const r = localized($("pf-reqs").value.trim(), cfg.prevReq); if (r !== undefined) o.requirements = r; }
+      const tags = $("pf-tags").value.split(",").map((s: string) => s.trim()).filter(Boolean);
+      if (tags.length) o.tags = tags;
+
+      const yaml = stringify(o, { lineWidth: 0 });
+      const filePath = cfg.path ?? `src/data/${FOLDER[ty]}/${slugify(name)}.yaml`;
+      const prefix = cfg.mode === "edit" ? `[editar ${ty}]` : `[${ty}]`;
+      const pending = typeof o.desc === "string" ? `\n\n> ⚠️ Falta traducción (${cfg.otherLang}).` : "";
+      const body = `**Archivo:** \`${filePath}\`\n\n\`\`\`yaml\n${yaml}\`\`\`${pending}\n\n_Enviado desde el formulario de Recompendium._`;
+      const url = `${cfg.gh}/issues/new?title=${encodeURIComponent(prefix + " " + name)}&body=${encodeURIComponent(body)}`;
+      window.open(url, "_blank", "noopener");
+      form.style.display = "none";
+      document.getElementById("pf-done")!.style.display = "block";
+    });
+
+    document.getElementById("pf-again")?.addEventListener("click", () => {
+      document.getElementById("pf-done")!.style.display = "none";
+      form.style.display = "grid";
+    });
+  }
+</script>

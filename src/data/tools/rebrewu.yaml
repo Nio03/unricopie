@@ -1,0 +1,11 @@
+name: RebrewU
+kind: recompiler
+consoles:
+  - wiiu
+repo: ApfelTeeSaft/RebrewU
+status: experimental
+desc:
+  es: Recompilador estático para Wii U (RPX → C++), de la misma familia PowerPC. Etapa muy temprana.
+  en: Static recompiler for Wii U (RPX → C++), from the same PowerPC family. Very early stage.
+tags:
+  - powerpc

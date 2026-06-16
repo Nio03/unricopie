@@ -1,0 +1,28 @@
+{
+  "name": "recompendium",
+  "version": "0.2.0",
+  "description": "Recompendium — catálogo multi-consola, en vivo y filtrable de recompilaciones estáticas de juegos a PC nativo.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check": "astro check",
+    "refresh-stats": "node scripts/refresh-stats.mjs",
+    "validate-data": "node scripts/validate-data.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.6.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.7.0",
+    "yaml": "^2.6.0"
+  }
+}

@@ -1,0 +1,19 @@
+---
+import CatalogView from "./CatalogView.astro";
+import { getDecompItems } from "../../lib/catalog";
+import { t, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const items = await getDecompItems(lang);
+---
+
+<CatalogView
+  lang={lang}
+  items={items}
+  h1={t(lang, "decomps.title")}
+  tagline={t(lang, "decomps.intro")}
+  countTmpl={t(lang, "count.decompsOf")}
+/>

@@ -1,0 +1,16 @@
+name: OpenGOAL (Jak & Daxter)
+category: decomp-port
+console: ps2
+status: playable
+repo: open-goal/jak-project
+originalDeveloper: Naughty Dog
+desc:
+  es: Decompila el código GOAL de los Jak & Daxter de PS2 y lo recompila a x86-64 nativo. Jak 1 pulido, Jak 2 en beta, Jak 3 en progreso (v0.3.3). Aportas tu copia de PS2.
+  en: Decompiles the GOAL code of the PS2 Jak & Daxter games and recompiles it to native x86-64. Jak 1 polished, Jak 2 beta, Jak 3 WIP (v0.3.3). You supply your PS2 copy.
+requirements:
+  es: Tu copia PS2 de la trilogía Jak (PAL, NTSC o NTSC-J).
+  en: Your PS2 copy of the Jak trilogy (PAL, NTSC or NTSC-J).
+tags:
+  - goal
+  - decomp
+featured: true

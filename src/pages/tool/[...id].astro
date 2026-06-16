@@ -1,0 +1,16 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import ItemDetailPage from "../../components/pages/ItemDetailPage.astro";
+
+export const getStaticPaths = (async () => {
+  const tools = await getCollection("tools");
+  return tools
+    .filter((entry) => !entry.data.ours)
+    .map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}) satisfies GetStaticPaths;
+
+const { entry } = Astro.props;
+---
+
+<ItemDetailPage type="tool" entry={entry} lang="es" />

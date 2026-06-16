@@ -1,0 +1,12 @@
+name: Superman 64
+console: n64
+status: playable
+repo: gcsmith/Superman64Recomp
+originalDeveloper: Titus
+toolchain: N64Recomp
+desc:
+  es: "Recompilación del infame Superman de N64: jugable pero sin pulir y con la tasa de fotogramas bloqueada. Una de las primeras demos comunitarias."
+  en: "Recompilation of the infamous N64 Superman: playable but unpolished, with a locked frame rate. One of the earliest community demos."
+requirements:
+  es: Una ROM de Superman 64 (N64).
+  en: A Superman 64 ROM (N64).

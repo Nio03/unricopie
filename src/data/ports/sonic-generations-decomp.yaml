@@ -1,0 +1,14 @@
+name: Sonic Generations (decompilation)
+category: decomp-port
+status: experimental
+repo: Luigi587/GenerationsDecomp
+originalDeveloper: Sonic Team / Sega
+desc:
+  es: Decompilación experimental de la versión PC (2011) de Sonic Generations. Naciente, sin release todavía.
+  en: Experimental decompilation of the PC (2011) version of Sonic Generations. Nascent, no release yet.
+requirements:
+  es: Una copia legal de Sonic Generations (PC).
+  en: A legal Sonic Generations copy (PC).
+tags:
+  - sonic
+  - decomp

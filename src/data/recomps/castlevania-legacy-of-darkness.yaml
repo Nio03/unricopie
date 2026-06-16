@@ -1,0 +1,12 @@
+name: "Castlevania: Legacy of Darkness"
+console: n64
+status: experimental
+repo: fliperama86/cvlod_recomp
+originalDeveloper: KCEK / Konami
+toolchain: N64Recomp
+desc:
+  es: Recompilación del Castlevania de N64, estabilizando la jugabilidad (v0.2.x).
+  en: Recompilation of the N64 Castlevania, stabilizing gameplay (v0.2.x).
+requirements:
+  es: "Una ROM original de Castlevania: Legacy of Darkness (N64)."
+  en: "A stock Castlevania: Legacy of Darkness ROM (N64)."

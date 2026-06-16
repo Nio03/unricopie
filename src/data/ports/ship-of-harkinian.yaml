@@ -1,0 +1,19 @@
+name: Ship of Harkinian
+category: decomp-port
+console: n64
+status: fully
+repo: HarbourMasters/Shipwright
+originalDeveloper: Nintendo
+desc:
+  es: Port nativo de Ocarina of Time basado en la decompilación de OoT + libultraship. Multiplataforma (Win/mac/Linux/Switch/Wii U). Aportas tu propia ROM.
+  en: Native port of Ocarina of Time based on the OoT decompilation + libultraship. Cross-platform (Win/mac/Linux/Switch/Wii U). You supply your own ROM.
+requirements:
+  es: Una ROM legal de Ocarina of Time (N64).
+  en: A legal Ocarina of Time ROM (N64).
+tags:
+  - libultraship
+  - zelda
+links:
+  - label: Sitio oficial
+    url: https://shipofharkinian.com/
+featured: true

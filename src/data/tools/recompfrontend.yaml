@@ -1,0 +1,11 @@
+name: RecompFrontend
+kind: launcher
+consoles:
+  - n64
+repo: N64Recomp/RecompFrontend
+status: usable
+desc:
+  es: Librería de UI/launcher integrada (menús RmlUi + input SDL2) que usan Banjo y otros ports de N64Recomp. Es la base del launcher integrado, no una app aparte.
+  en: Built-in UI/launcher library (RmlUi menus + SDL2 input) used by Banjo and other N64Recomp ports. It's the basis of the in-app launcher, not a standalone app.
+tags:
+  - frontend

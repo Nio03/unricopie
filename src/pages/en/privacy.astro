@@ -1,0 +1,39 @@
+---
+import Base from "../../layouts/Base.astro";
+import { localePath } from "../../i18n";
+import { GITHUB_URL } from "../../lib/site";
+const lang = "en" as const;
+---
+
+<Base lang={lang} title="Privacy Policy — Recompendium" description="Recompendium's privacy policy: a static site with no accounts, first-party cookies or tracking.">
+  <main class="wrap detail">
+    <div class="crumb"><a href={localePath(lang, "")}>← Catalog</a></div>
+    <h1>Privacy Policy</h1>
+    <p class="lead">Recompendium is a static site: it has no accounts or user database, and collects no personal data.</p>
+
+    <div class="prose">
+      <h2>1. Summary</h2>
+      <p>We don't collect, store or sell personal data. The site has no login and no forms that save information on our own servers.</p>
+
+      <h2>2. Cookies and analytics</h2>
+      <p>Recompendium <b>sets no first-party cookies</b> and uses no analytics, tracking pixels or advertising.</p>
+
+      <h2>3. Hosting (GitHub Pages)</h2>
+      <p>The site is served from <b>GitHub Pages</b>. Like any web server, GitHub may record technical data (such as your IP address and browser) in its access logs, per the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub General Privacy Statement</a>.</p>
+
+      <h2>4. Web fonts (Google Fonts)</h2>
+      <p>We load typefaces from <b>Google Fonts</b>. When you open the site, your browser requests those files from Google's servers, which may receive your IP address, per <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</p>
+
+      <h2>5. Links and contributions</h2>
+      <p>When you follow links to GitHub or project sites, or open a Pull Request / issue to contribute, you interact directly with those third parties under their own policies. We only see the public information GitHub shows.</p>
+
+      <h2>6. Third-party data shown</h2>
+      <p>The stars, versions and dates you see come from the public APIs of the linked repositories; they are public data about projects, not about you.</p>
+
+      <h2>7. Changes</h2>
+      <p>We may update this policy. The effective date indicates the latest revision. Questions? <a href={`${GITHUB_URL}/issues`} target="_blank" rel="noopener">Open an issue</a>.</p>
+
+      <p class="upd">Effective as of June 15, 2026.</p>
+    </div>
+  </main>
+</Base>

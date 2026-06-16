@@ -1,0 +1,12 @@
+name: Diddy Kong Racing
+console: n64
+status: experimental
+repo: sp00nznet/diddykongracing
+originalDeveloper: Rare
+toolchain: N64Recomp
+desc:
+  es: "Recompilación temprana del kart/aventura de Rare: arranca al mundo central pero crashea. HLE de microcódigo propio; audio desactivado."
+  en: "Early recompilation of Rare's kart/adventure: boots to the hub world but crashes. Custom microcode HLE; audio disabled."
+requirements:
+  es: Una ROM de Diddy Kong Racing (N64, US v1.1).
+  en: A Diddy Kong Racing ROM (N64, US v1.1).

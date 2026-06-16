@@ -1,0 +1,15 @@
+name: Dinosaur Planet
+console: n64
+status: playable
+repo: DinosaurPlanetRecomp/dino-recomp
+author: Francessco121 / DP team
+originalDeveloper: Rare
+year: 2026
+progress: 70
+toolchain: N64Recomp
+desc:
+  es: Port recomp del prototipo cancelado de Rare (dic. 2000), precursor de Star Fox Adventures. Muy activo (v0.3.0).
+  en: Recomp port of Rare's cancelled prototype (Dec. 2000), precursor to Star Fox Adventures. Very active (v0.3.0).
+requirements:
+  es: La ROM del prototipo de dic. 2000 de Dinosaur Planet (N64, sin parchear).
+  en: The Dec. 2000 Dinosaur Planet prototype ROM (N64, unpatched).

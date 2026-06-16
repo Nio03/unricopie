@@ -1,0 +1,59 @@
+name: "Añadir un proyecto al catálogo"
+description: "Propón un recomp (juego) o una herramienta/launcher para Recompendium."
+title: "[recomp] <Nombre del proyecto>"
+labels: ["nuevo-proyecto"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por aportar! Si sabes editar YAML, lo más rápido es abrir un Pull Request
+        copiando un archivo de `src/data/` (ver `CONTRIBUTING.md`). Si no, llena esto y alguien
+        lo añade. **Solo recompilaciones estáticas** — no decompilaciones ni reimplementaciones.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tipo
+      options:
+        - "Juego (recomp)"
+        - "Herramienta / launcher / recompilador"
+        - "Port (decomp) / remake de fans"
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Nombre
+      placeholder: "Conker's Bad Fur Day"
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repositorio GitHub (owner/repo)
+      description: "Solo el slug, sin https://github.com/. Si no vive en GitHub, déjalo vacío y pon el enlace en notas."
+      placeholder: "usuario/MiRecomp"
+  - type: dropdown
+    id: console
+    attributes:
+      label: Consola (si es juego)
+      options: [N64, GameCube, Wii, "Wii U", PS2, PS1, PSP, "Xbox 360", Dreamcast, Otra]
+  - type: dropdown
+    id: status
+    attributes:
+      label: Estado
+      options: ["Jugable", "En progreso", "Experimental"]
+  - type: input
+    id: author
+    attributes:
+      label: Autor / mantenedor
+  - type: textarea
+    id: desc
+    attributes:
+      label: Descripción (una o dos líneas)
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notas / enlaces / cómo lo verificaste
+      description: "Releases jugables, vídeos, hilos. Cuanto más fácil sea de verificar, más rápido entra."

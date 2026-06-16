@@ -1,0 +1,13 @@
+name: Super Smash Bros. (64)
+console: n64
+status: experimental
+repo: zestydevy/smash64r
+originalDeveloper: HAL Laboratory
+toolchain: N64Recomp
+decomp: VetriTheRetri/ssb-decomp-re
+desc:
+  es: Recompilación del primer Smash Bros., en desarrollo activo en la rama dev. Todavía sin release.
+  en: Recompilation of the original Smash Bros., in active development on the dev branch. No release yet.
+requirements:
+  es: Una ROM de Super Smash Bros. (N64, US).
+  en: A Super Smash Bros. ROM (N64, US).

@@ -1,0 +1,15 @@
+name: 2 Ship 2 Harkinian
+category: decomp-port
+console: n64
+status: fully
+repo: HarbourMasters/2ship2harkinian
+originalDeveloper: Nintendo
+desc:
+  es: Port nativo de Majora's Mask sobre el mismo motor libultraship que Ship of Harkinian. Aportas tu propia ROM.
+  en: Native port of Majora's Mask on the same libultraship engine as Ship of Harkinian. You supply your own ROM.
+requirements:
+  es: Un volcado soportado de Majora's Mask (N64) — verifica en 2ship.equipment.
+  en: A supported Majora's Mask ROM dump (N64) — verify at 2ship.equipment.
+tags:
+  - libultraship
+  - zelda

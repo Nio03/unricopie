@@ -1,0 +1,15 @@
+{
+  "name": "unricopie-launcher",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Launcher multi-consola de Recompendium (Tauri).",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  }
+}

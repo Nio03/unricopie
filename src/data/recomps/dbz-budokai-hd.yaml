@@ -1,0 +1,12 @@
+name: "Dragon Ball Z: Budokai HD Collection"
+console: x360
+status: experimental
+repo: WistfulHopes/DBZ1
+originalDeveloper: Dimps / Atari
+toolchain: ReXGlue
+desc:
+  es: Recompilación temprana de la colección HD de Budokai (v0.0.2).
+  en: Early recompilation of the Budokai HD collection (v0.0.2).
+requirements:
+  es: Una copia de Dragon Ball Z Budokai HD Collection (Xbox 360).
+  en: A Dragon Ball Z Budokai HD Collection copy (Xbox 360).

@@ -1,0 +1,13 @@
+name: XenonRecomp
+kind: recompiler
+consoles:
+  - x360
+repo: hedge-dev/XenonRecomp
+status: stable
+desc:
+  es: Recompila ejecutables de Xbox 360 (PowerPC) a C++. Construido para Sonic Unleashed y base de los ports de la era 360.
+  en: Recompiles Xbox 360 executables (PowerPC) to C++. Built for Sonic Unleashed and the basis of the 360-era ports.
+tags:
+  - powerpc
+  - static-recomp
+featured: true

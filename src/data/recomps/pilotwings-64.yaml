@@ -1,0 +1,13 @@
+name: Pilotwings 64
+console: n64
+status: playable
+repo: gcsmith/Pilotwings64Recomp
+originalDeveloper: Paradigm / Nintendo
+toolchain: N64Recomp
+decomp: gcsmith/Pilotwings64Decomp
+desc:
+  es: "Recompilación del simulador de vuelo de lanzamiento del N64: jugable pero sin pulir (sin widescreen aún)."
+  en: "Recompilation of the N64 launch flight sim: playable but unpolished (no widescreen yet)."
+requirements:
+  es: Una ROM de Pilotwings 64 (N64).
+  en: A Pilotwings 64 ROM (N64).

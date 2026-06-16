@@ -1,0 +1,11 @@
+name: PS1Recomp
+kind: recompiler
+consoles:
+  - ps1
+repo: nihirunoherr/PS1Recomp
+status: experimental
+desc:
+  es: Adaptación directa de N64Recomp al MIPS de PS1. Prueba de concepto según su autor; sin juegos funcionando.
+  en: A direct adaptation of N64Recomp to PS1 MIPS. A proof of concept per its author; no working games.
+tags:
+  - mips

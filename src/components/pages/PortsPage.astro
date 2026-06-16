@@ -1,0 +1,19 @@
+---
+import CatalogView from "./CatalogView.astro";
+import { getPortItems } from "../../lib/catalog";
+import { t, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const items = await getPortItems(lang);
+---
+
+<CatalogView
+  lang={lang}
+  items={items}
+  h1={t(lang, "ports.title")}
+  tagline={t(lang, "ports.intro")}
+  countTmpl={t(lang, "count.portsOf")}
+/>

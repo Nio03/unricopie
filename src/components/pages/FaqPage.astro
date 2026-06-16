@@ -1,0 +1,48 @@
+---
+import Base from "../../layouts/Base.astro";
+import { localePath, type Lang } from "../../i18n";
+import { GITHUB_URL } from "../../lib/site";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const es = lang === "es";
+const C = localePath(lang, "contribuir");
+const T = localePath(lang, "terms");
+
+const title = es ? "Preguntas frecuentes — Recompendium" : "FAQ — Recompendium";
+const h1 = es ? "Preguntas frecuentes" : "Frequently asked questions";
+const lead = es ? "Lo que más nos preguntan sobre el catálogo." : "What we get asked most about the catalog.";
+
+const faqs = es
+  ? [
+      { q: "¿Por qué no hay enlaces de descarga directa?", a: "Siempre te enviamos al <b>repositorio oficial</b> del proyecto. Es la fuente legítima, la más segura —evita binarios manipulados o copias impostoras— y siempre la última versión. Recompendium no aloja ni rehospeda binarios: solo cataloga y enlaza." },
+      { q: "¿Necesito el juego original?", a: "Sí. Estos proyectos son <b>solo código</b>; tienes que aportar tu propia copia legal del juego (tu ROM o imagen de disco). El recomp o port la usa, no la incluye." },
+      { q: "¿Qué diferencia hay entre recomp, port y decompilación?", a: "Un <b>recomp</b> traduce el binario original a código nativo y se juega ya. Un <b>port</b> (decomp) o <b>remake</b> llega al mismo juego por otra vía. Una <b>decompilación</b> es el paso previo —revierte el binario a código fuente—: mostramos su % de avance, pero todavía no se juega." },
+      { q: "¿Cómo se mantienen actualizados los datos?", a: "De tres fuentes: el <b>repositorio oficial</b> (estrellas, versión y fecha, vía la API de GitHub, a diario), <b>decomp.dev</b> (el % de decompilación) y las <b>contribuciones</b> de la comunidad, que aprobamos a mano." },
+      { q: "¿Cómo agrego o corrijo un proyecto?", a: `Con el formulario de <a href="${C}">Contribuir</a> o el botón <b>Editar</b> de cada ficha. Llenas los datos en tu idioma; tu envío entra como propuesta y la revisamos antes de publicarla.` },
+      { q: "¿Qué pasa si un proyecto es retirado por DMCA?", a: `A veces una decompilación o port recibe una reclamación de copyright y su repositorio se baja. Como nosotros <b>solo enlazamos</b> (no alojamos nada), marcamos la ficha como <b>Retirada</b>, quitamos el enlace al repositorio y la conservamos como registro de la escena. ¿Eres titular de derechos y quieres que retiremos una ficha? <a href="${GITHUB_URL}/issues">Abre un issue</a>.` },
+      { q: "¿Esto es legal?", a: `El código de estos proyectos es abierto. Lo que requiere una copia legal es el <b>juego</b>: tú pones la ROM o imagen de disco. Recompendium no distribuye material con copyright (ver <a href="${T}">Términos</a>).` },
+    ]
+  : [
+      { q: "Why are there no direct download links?", a: "We always send you to the project's <b>official repository</b>. It's the legitimate source, the safest one —it avoids tampered binaries or impostor copies— and always the latest version. Recompendium doesn't host or re-host binaries: it only catalogs and links." },
+      { q: "Do I need the original game?", a: "Yes. These projects are <b>code only</b>; you must supply your own legal copy of the game (your ROM or disc image). The recomp or port uses it, it doesn't include it." },
+      { q: "What's the difference between recomp, port and decompilation?", a: "A <b>recomp</b> translates the original binary into native code and is playable right away. A <b>port</b> (decomp) or <b>remake</b> reaches the same game another way. A <b>decompilation</b> is the step before —reverting the binary to source code—: we show its progress %, but it isn't playable yet." },
+      { q: "How is the data kept up to date?", a: "From three sources: the <b>official repo</b> (stars, version and date, via the GitHub API, daily), <b>decomp.dev</b> (the decompilation %), and community <b>contributions</b>, which we approve by hand." },
+      { q: "How do I add or fix a project?", a: `Use the <a href="${C}">Contribute</a> form or the <b>Edit</b> button on any entry. You fill the fields in your language; your submission comes in as a proposal we review before publishing.` },
+      { q: "What happens if a project is taken down (DMCA)?", a: `Sometimes a decompilation or port gets a copyright claim and its repository is removed. Since we <b>only link</b> (we host nothing), we mark the entry as <b>Taken down</b>, drop the repository link, and keep it as a record of the scene. Are you a rights holder who wants an entry removed? <a href="${GITHUB_URL}/issues">Open an issue</a>.` },
+      { q: "Is this legal?", a: `These projects' code is open source. What needs a legal copy is the <b>game</b>: you supply the ROM or disc image. Recompendium does not distribute copyrighted material (see <a href="${T}">Terms</a>).` },
+    ];
+---
+
+<Base lang={lang} title={title} description={lead}>
+  <main class="wrap detail">
+    <div class="crumb"><a href={localePath(lang, "")}>← {es ? "Catálogo" : "Catalog"}</a></div>
+    <h1>{h1}</h1>
+    <p class="lead">{lead}</p>
+    <div class="prose">
+      {faqs.map((f) => (<><h2>{f.q}</h2><p set:html={f.a} /></>))}
+    </div>
+  </main>
+</Base>

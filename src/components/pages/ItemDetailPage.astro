@@ -1,0 +1,176 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Card from "../Card.astro";
+import ProjectForm from "../ProjectForm.astro";
+import { consoleMeta } from "../../lib/consoles";
+import { statusMeta, toolKindMeta, toolStatusMeta } from "../../lib/status";
+import { statFor, fmtStars, fmtDate, relDate, repoUrlOf } from "../../lib/stats";
+import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/catalog";
+import { t, localePath, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+  type: ItemType;
+  entry: CollectionEntry<"recomps"> | CollectionEntry<"tools"> | CollectionEntry<"ports">;
+}
+const { lang, type, entry } = Astro.props;
+const d: any = entry.data;
+const s = d.enrich === false ? {} : statFor(d.repo);
+const ownerName: string = d.author ?? (typeof d.repo === "string" ? d.repo.split("/")[0] : "—");
+const decompPct: number | null = d.decomp ? statFor(d.decomp).decompPercent ?? null : null;
+
+let crumb: { label: string; href: string };
+let badgeLabel: string, badgeColor: string;
+let statusLabel: string | null = null, statusColor = "";
+const facts: { dt: string; dd: string }[] = [];
+let related: { items: Item[]; titleKey: string } | null = null;
+
+if (type === "recomp") {
+  const cm = consoleMeta(d.console), sm = statusMeta(d.status);
+  crumb = { label: t(lang, "detail.crumbCatalog"), href: localePath(lang, "") };
+  badgeLabel = cm.label; badgeColor = cm.color;
+  statusLabel = t(lang, `status.${d.status}`); statusColor = sm.color;
+  facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
+  facts.push({ dt: t(lang, "detail.fact.arch"), dd: cm.arch });
+  facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
+  facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
+  if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
+  if (d.year) facts.push({ dt: t(lang, "detail.fact.year"), dd: String(d.year) });
+  if (d.progress != null) facts.push({ dt: t(lang, "detail.fact.progress"), dd: t(lang, "card.progress", { n: d.progress }) });
+} else if (type === "tool") {
+  const km = toolKindMeta(d.kind), ts = toolStatusMeta(d.status);
+  crumb = { label: t(lang, "detail.crumbLaunchers"), href: localePath(lang, "launchers") };
+  badgeLabel = t(lang, `toolkind.${d.kind}`); badgeColor = km.color;
+  if (ts) { statusLabel = t(lang, `toolstatus.${d.status}`); statusColor = ts.color; }
+  facts.push({ dt: t(lang, "detail.fact.kind"), dd: t(lang, `toolkind.${d.kind}`) });
+  if (d.consoles?.length) facts.push({ dt: t(lang, "detail.fact.consoles"), dd: d.consoles.map((c: string) => consoleMeta(c).label).join(" · ") });
+  if (statusLabel) facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
+  facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
+  related = await toolRelated(entry as CollectionEntry<"tools">, lang);
+} else if (type === "port") {
+  const cm = d.console ? consoleMeta(d.console) : null, sm = statusMeta(d.status);
+  crumb = { label: t(lang, "detail.crumbPorts"), href: localePath(lang, "ports") };
+  badgeLabel = t(lang, `category.${d.category}`); badgeColor = CAT_COLOR[d.category] ?? "#9AA0B5";
+  statusLabel = t(lang, `status.${d.status}`); statusColor = sm.color;
+  facts.push({ dt: t(lang, "detail.fact.category"), dd: badgeLabel });
+  if (cm) facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
+  if (d.engine) facts.push({ dt: "Engine", dd: d.engine });
+  facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
+  if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
+  if (d.year) facts.push({ dt: t(lang, "detail.fact.year"), dd: String(d.year) });
+  facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
+} else {
+  const cm = consoleMeta(d.console);
+  crumb = { label: t(lang, "detail.crumbDecomps"), href: localePath(lang, "decompilaciones") };
+  badgeLabel = cm.label; badgeColor = cm.color;
+  facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
+  facts.push({ dt: t(lang, "detail.fact.arch"), dd: cm.arch });
+  facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
+}
+facts.push({ dt: t(lang, "detail.fact.stars"), dd: fmtStars(s.stars) });
+facts.push({ dt: t(lang, "detail.fact.lastPush"), dd: s.pushedAt ? `${fmtDate(s.pushedAt)} · ${relDate(s.pushedAt, lang)}` : "—" });
+if (decompPct != null) facts.push({ dt: t(lang, "detail.fact.decomp"), dd: `${decompPct}%` });
+if (s.version) facts.push({ dt: t(lang, "detail.fact.version"), dd: s.versionAt ? `${s.version} · ${fmtDate(s.versionAt)}` : s.version });
+if (s.license) facts.push({ dt: t(lang, "detail.fact.license"), dd: s.license });
+if (s.language) facts.push({ dt: t(lang, "detail.fact.lang"), dd: s.language });
+
+const repoUrl = repoUrlOf(d);
+const homepage: string | undefined = d.homepage;
+const forkOf = d.forkOf ?? (s.fork ? { label: s.fork, url: `https://github.com/${s.fork}` } : null);
+const dataDir = type === "recomp" ? "recomps" : type === "tool" ? "tools" : type === "port" ? "ports" : "decomps";
+const dataPath = `src/data/${dataDir}/${entry.id}.yaml`;
+
+const tags: string[] = d.tags ?? [];
+const links: { label: string; url: string }[] = d.links ?? [];
+const progress: number | null = type === "recomp" ? d.progress ?? null : null;
+const barPct: number | null = progress ?? decompPct;
+const barLabel: string = progress != null ? t(lang, "card.progress", { n: progress }) : decompPct != null ? t(lang, "card.decomp", { n: decompPct }) : "";
+---
+
+<Base lang={lang} title={`${d.name} — Recompendium`} description={d.desc[lang]}>
+  <main class="wrap detail">
+    <div class="crumb"><a href={crumb.href}>{crumb.label}</a></div>
+
+    <div class="card-top" style="max-width:760px">
+      <span class="console" style={`--rail:${badgeColor};color:${badgeColor}`}><span class="dot"></span>{badgeLabel}</span>
+      {statusLabel && <span class="pill is-pill" style={`color:${statusColor}`}>{statusLabel}</span>}
+      {d.abandoned && <span class="pill is-pill" style="color:#8b93a7">{t(lang, "status.abandoned")}</span>}
+      {d.takedown && <span class="pill is-pill" style="color:#e05656">{t(lang, "status.takedown")}</span>}
+    </div>
+
+    {forkOf && (<p class="forkline"><a href={forkOf.url} target="_blank" rel="noopener">⑂ {t(lang, "detail.fork")} {forkOf.label} ↗</a></p>)}
+
+    <h1>{d.name}</h1>
+    <p class="lead">{d.desc[lang]}</p>
+
+    {
+      d.requirements && (
+        <p class="reqs" style="max-width:70ch;margin-top:16px">
+          <span class="reqs-k">{t(lang, "card.reqs")}</span>{d.requirements[lang]}
+        </p>
+      )
+    }
+
+    {
+      barPct != null && (
+        <div class="prog" style={`--rail:${badgeColor};max-width:420px;margin-top:18px`}>
+          <div class="bar"><i style={`width:${barPct}%`} /></div>
+          <div class="lbl">{barLabel}</div>
+        </div>
+      )
+    }
+
+    <dl class="facts">
+      {facts.map((f) => (<div><dt>{f.dt}</dt><dd>{f.dd}</dd></div>))}
+    </dl>
+
+    {
+      d.takedown && (
+        <p class="reqs" style="max-width:70ch;margin-top:16px;border-left:2px solid #e05656;padding-left:12px">
+          <span class="reqs-k" style="color:#e05656">{t(lang, "status.takedown")}</span>{t(lang, "detail.takedownNote")}
+        </p>
+      )
+    }
+
+    <div class="actions">
+      {repoUrl && !d.takedown && <a class="btn primary" href={repoUrl} target="_blank" rel="noopener">{t(lang, "detail.viewRepo")}</a>}
+      {homepage && !d.takedown && <a class="btn" href={homepage} target="_blank" rel="noopener">{t(lang, "detail.homepage")}</a>}
+      {links.map((l) => <a class="btn" href={l.url} target="_blank" rel="noopener">{l.label} ↗</a>)}
+      <button class="btn btn-edit" id="edit-toggle" type="button">{t(lang, "detail.edit")}</button>
+    </div>
+
+    <div class="edit-pane" id="edit-pane" hidden>
+      <ProjectForm lang={lang} mode="edit" type={type} path={dataPath} data={d} />
+    </div>
+
+    {tags.length > 0 && (<div class="tagrow" style="margin-top:24px">{tags.map((tag) => <span class="tg">{tag}</span>)}</div>)}
+
+    {
+      related && (
+        <>
+          <div class="sec-h" style="margin-top:38px"><h2>{t(lang, related.titleKey as any)}</h2><p>{related.items.length}</p></div>
+          {related.items.length ? (
+            <section class="grid" style="padding-top:8px">{related.items.map((it) => <Card item={it} lang={lang} />)}</section>
+          ) : (
+            <p class="empty" style="margin-top:10px">{t(lang, "detail.relatedEmpty")}</p>
+          )}
+        </>
+      )
+    }
+
+    <p class="legal" style="margin-top:30px">{t(lang, "detail.legal")}</p>
+  </main>
+</Base>
+
+<script>
+  const toggle = document.getElementById("edit-toggle");
+  const pane = document.getElementById("edit-pane");
+  toggle?.addEventListener("click", () => {
+    if (!pane) return;
+    pane.hidden = !pane.hidden;
+    if (!pane.hidden) pane.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+  // Enlace directo .../recomp/<id>#edit abre el formulario al cargar.
+  if (pane && location.hash === "#edit") pane.hidden = false;
+</script>

@@ -1,0 +1,66 @@
+---
+import Base from "../../layouts/Base.astro";
+import { localePath } from "../../i18n";
+import { GITHUB_URL } from "../../lib/site";
+const lang = "en" as const;
+---
+
+<Base lang={lang} title="About & how to contribute — Recompendium" description="What Recompendium is, what counts as a recomp, and how to add a project with a Pull Request.">
+  <main class="wrap detail">
+    <div class="crumb"><a href={localePath(lang, "")}>← Catalog</a></div>
+    <h1>About Recompendium</h1>
+    <p class="lead">
+      A community-driven, multi-console, filterable catalog of <b>static recompilations</b>: the
+      process that turns a console game's original binary into native PC code. It's not emulation
+      and not a hand-written decompilation — it's translating the executable to C/C++ and compiling
+      it for your machine.
+    </p>
+
+    <div class="sec-h"><h2>What's in and what's out</h2></div>
+    <p style="color:var(--ink-2);max-width:72ch">
+      The <b>Catalog</b> brings together four kinds of project: <b>static recompilations</b>
+      (N64Recomp, XenonRecomp, ReXGlue…), <a href={localePath(lang, "ports")} style="color:var(--gold)">ports &amp; remakes</a>
+      based on decompilation or made by fans (Ship of Harkinian, P-06…), the
+      <a href={localePath(lang, "decompilaciones")} style="color:var(--gold)">decompilations</a> themselves
+      —the original code reversed to source, synced from decomp.dev— and the
+      <a href={localePath(lang, "launchers")} style="color:var(--gold)">tools</a> that make it all possible.
+    </p>
+
+    <div class="sec-h"><h2>Recomp vs. decompilation</h2></div>
+    <p style="color:var(--ink-2);max-width:72ch">
+      A <b>recompilation</b> translates the game's binary into native code and is playable now. A
+      <b>decompilation</b> is the step before: it reverses that binary into readable source, byte-matching
+      the original; once mature, native ports grow from it. That's why we list both, but kept apart —
+      a recomp is playable; a 30%-decompiled project isn't yet. Each decompilation's % is synced live from decomp.dev.
+    </p>
+
+    <div class="sec-h"><h2>A bit of history</h2></div>
+    <p style="color:var(--ink-2);max-width:72ch">
+      The first full, playable game recomp was <b>Zelda 64: Recompiled</b> (Majora's Mask), by Mr.
+      Wiseguy, in <b>May 2024</b>, built on N64Recomp. It was also the first to ship a built-in
+      <b>launcher</b>. The wave grew fast: Banjo (January 2025, with a very polished
+      launcher/mod-manager), the first standalone universal launcher (N64RecompLauncher, Aug. 2025),
+      and the Xbox 360 explosion with XenonRecomp and, more recently, ReXGlue.
+    </p>
+
+    <div class="sec-h"><h2>Want to add or fix something?</h2></div>
+    <p style="color:var(--ink-2);max-width:72ch">
+      No coding needed. Use the
+      <a href={localePath(lang, "contribuir")} style="color:var(--gold)">Contribute</a> form —or the
+      <b>Edit</b> button on any entry— and fill in the fields in your language. Your proposal comes
+      in as a suggestion we <b>review by hand</b> before publishing: we complete the missing
+      translation, and stars and dates update automatically from GitHub.
+    </p>
+
+    <div class="actions" style="margin-top:18px">
+      <a class="btn primary" href={localePath(lang, "contribuir")}>Contribute</a>
+      <a class="btn" href={localePath(lang, "faq")}>FAQ</a>
+      <a class="btn" href={GITHUB_URL} target="_blank" rel="noopener">Repository ↗</a>
+    </div>
+
+    <p class="legal" style="margin-top:30px">
+      Recompendium does not host or link ROMs or copyrighted assets. Every recomp requires your own
+      legal copy of the game.
+    </p>
+  </main>
+</Base>

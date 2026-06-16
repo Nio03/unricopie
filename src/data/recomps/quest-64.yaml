@@ -1,0 +1,12 @@
+name: Quest 64
+console: n64
+status: fully
+repo: Rainchus/Quest64-Recomp
+originalDeveloper: Imagineer / THQ
+toolchain: N64Recomp
+desc:
+  es: Recompilación nativa del RPG de N64 (Holy Magic Century), jugable de principio a fin (v0.1).
+  en: Native recompilation of the N64 RPG (Holy Magic Century), playable start to finish (v0.1).
+requirements:
+  es: Una ROM de Quest 64 (N64, US 1.0).
+  en: A Quest 64 ROM (N64, US 1.0).

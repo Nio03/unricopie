@@ -1,0 +1,12 @@
+name: Halo 3 (beta cache)
+console: x360
+status: experimental
+repo: twist84/halo3_cache_release_recomp
+originalDeveloper: Bungie
+toolchain: ReXGlue
+desc:
+  es: Recompilación de la caché del beta de Halo 3 (2007) — parcial, no el juego completo. Existe una variante 'debug' más actualizada.
+  en: Recompilation of the Halo 3 beta cache (2007) — partial, not the full game. A more updated 'debug' variant exists.
+requirements:
+  es: El halo3_cache_release.xex de la build beta de Halo 3 (mar. 2007).
+  en: The halo3_cache_release.xex from the Halo 3 beta build (Mar. 2007).

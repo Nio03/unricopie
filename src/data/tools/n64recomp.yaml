@@ -1,0 +1,14 @@
+name: N64Recomp
+kind: recompiler
+consoles:
+  - n64
+repo: N64Recomp/N64Recomp
+author: Mr. Wiseguy
+status: stable
+desc:
+  es: Recompilador estático de binarios N64 (MIPS) a código C nativo. El motor detrás de toda la ola de recomps de N64.
+  en: Static recompiler from N64 binaries (MIPS) to native C code. The engine behind the entire wave of N64 recomps.
+tags:
+  - mips
+  - static-recomp
+featured: true

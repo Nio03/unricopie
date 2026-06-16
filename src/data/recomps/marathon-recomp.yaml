@@ -1,0 +1,15 @@
+name: Sonic the Hedgehog (2006)
+console: x360
+status: experimental
+repo: sonicnext-dev/MarathonRecomp
+author: sonicnext-dev (ga2mer, squidbus, …)
+originalDeveloper: Sonic Team / Sega
+toolchain: XenonRecomp
+desc:
+  es: "'Marathon Recompiled': recompilación estática de Sonic '06 (versión 360) a PC (Win/Linux/macOS). En desarrollo activo, sin release pública aún. Es el recomp real de Sonic '06 — complementario a P-06 (el remake)."
+  en: "'Marathon Recompiled': static recompilation of Sonic '06 (360 version) to PC (Win/Linux/macOS). Actively developed, no public release yet. The actual Sonic '06 recomp — complementary to P-06 (the remake)."
+requirements:
+  es: "Tu copia de Sonic '06 (Xbox 360): disco + Title Update de la misma región (no sirve la de PS3)."
+  en: "Your Sonic '06 (Xbox 360) copy: disc + Title Update, same region (PS3 version not usable)."
+tags:
+  - widescreen

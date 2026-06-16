@@ -1,0 +1,34 @@
+---
+import CatalogView from "./CatalogView.astro";
+import { getAllItems } from "../../lib/catalog";
+import { t, localePath, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+// El Catálogo es SOLO recomps. Las otras categorías tienen su propia sección;
+// el buscador central (en la cabecera) busca en todo.
+const all = await getAllItems(lang);
+const items = all.filter((i) => i.type === "recomp");
+
+const consoles = new Set<string>();
+for (const i of items) for (const c of i.consoleKeys) consoles.add(c);
+const stats = [
+  { n: items.length, label: t(lang, "home.stat.recomps") },
+  { n: all.filter((i) => i.type === "port").length, label: t(lang, "home.stat.ports") },
+  { n: all.filter((i) => i.type === "decomp").length, label: t(lang, "home.stat.decomps") },
+  { n: all.filter((i) => i.type === "tool").length, label: t(lang, "home.stat.tools") },
+  { n: consoles.size, label: t(lang, "home.stat.platforms") },
+];
+---
+
+<CatalogView
+  lang={lang}
+  items={items}
+  h1={`<img class="hero-wordmark" src="${localePath("es", "recompendium-wordmark.svg")}" alt="Recompendium" />`}
+  tagline={t(lang, "home.tagline")}
+  countTmpl={t(lang, "count.of")}
+  guide
+  stats={stats}
+/>

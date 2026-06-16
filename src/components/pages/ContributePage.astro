@@ -1,0 +1,31 @@
+---
+import Base from "../../layouts/Base.astro";
+import ProjectForm from "../ProjectForm.astro";
+import { type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const es = lang === "es";
+
+const txt = es
+  ? {
+      title: "Contribuir — Recompendium",
+      h1: "Contribuir",
+      lead: "¿Falta un recomp, herramienta, port o decompilación? Llénalo y envíalo: se abre un issue con tu propuesta y, cuando la aprobamos, aparece en el sitio. Solo llenas tu idioma — nosotros completamos la otra versión.",
+    }
+  : {
+      title: "Contribute — Recompendium",
+      h1: "Contribute",
+      lead: "Missing a recomp, tool, port or decompilation? Fill it in and submit: an issue opens with your proposal and, once we approve it, it shows up on the site. You only fill your language — we complete the other version.",
+    };
+---
+
+<Base lang={lang} title={txt.title} description={txt.lead}>
+  <main class="wrap detail">
+    <h1>{txt.h1}</h1>
+    <p class="lead" style="max-width:64ch">{txt.lead}</p>
+    <div style="margin-top:24px"><ProjectForm lang={lang} mode="new" /></div>
+  </main>
+</Base>

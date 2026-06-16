@@ -1,0 +1,15 @@
+name: Starship
+category: decomp-port
+console: n64
+status: fully
+repo: HarbourMasters/Starship
+author: Harbour Masters (sonicdcer, Lywx)
+originalDeveloper: Nintendo
+desc:
+  es: Port nativo de Star Fox 64 sobre libultraship. Aportas tu ROM US 1.0/1.1. (La hermana decomp del recomp original, ya caído.)
+  en: Native port of Star Fox 64 on libultraship. You supply a US 1.0/1.1 ROM. (The decomp sibling of the now-dead recomp.)
+requirements:
+  es: Una ROM de Star Fox 64 (N64, US 1.0 o US 1.1 Rev A).
+  en: A Star Fox 64 ROM (N64, US 1.0 or US 1.1 Rev A).
+tags:
+  - libultraship

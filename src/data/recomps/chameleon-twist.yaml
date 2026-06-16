@@ -1,0 +1,12 @@
+name: Chameleon Twist
+console: n64
+status: playable
+repo: Rainchus/ChameleonTwist1-JP-Recomp
+originalDeveloper: Japan System Supply / Sunsoft
+toolchain: N64Recomp
+desc:
+  es: Recompilación del peculiar plataformas de lengua-gancho (ROM japonesa). Tiene un proyecto hermano para Chameleon Twist 2.
+  en: Recompilation of the quirky tongue-grappling platformer (JP ROM). It has a sibling project for Chameleon Twist 2.
+requirements:
+  es: Una ROM de Chameleon Twist (N64, JP, .z64).
+  en: A Chameleon Twist ROM (N64, JP, .z64).
