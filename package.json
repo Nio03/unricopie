@@ -18,6 +18,7 @@
     "validate-data": "node scripts/validate-data.mjs"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "astro": "^5.6.0"
   },
   "devDependencies": {
