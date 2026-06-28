@@ -1,0 +1,6 @@
+# Recompendium — https://nio03.github.io/unricopie/
+# Permitir el rastreo completo y anunciar el sitemap (auto-descubrimiento).
+User-agent: *
+Allow: /
+
+Sitemap: https://nio03.github.io/unricopie/sitemap-index.xml

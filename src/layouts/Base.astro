@@ -14,15 +14,22 @@ const title = Astro.props.title ?? t(lang, "site.title");
 const description = Astro.props.description ?? t(lang, "site.desc");
 
 const path = Astro.url.pathname.replace(/\/+$/, "") || "/";
-const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.pathname;
 const other: Lang = lang === "es" ? "en" : "es";
-const otherHref = swapLocalePath(Astro.url.pathname, lang, other);
+
+// Las URLs de PÁGINA llevan SIEMPRE barra final → coinciden con el sitemap
+// (formato "directory") y evitan que el canonical apunte a un 301. (No aplicar
+// a assets como .svg/.png/.json, que no llevan barra.)
+const withSlash = (u: string) => (u.endsWith("/") ? u : u + "/");
+const otherHref = withSlash(swapLocalePath(Astro.url.pathname, lang, other));
 
 // hreflang: misma página en ambos idiomas
-const esHref = swapLocalePath(Astro.url.pathname, lang, "es");
-const enHref = swapLocalePath(Astro.url.pathname, lang, "en");
+const esHref = withSlash(swapLocalePath(Astro.url.pathname, lang, "es"));
+const enHref = withSlash(swapLocalePath(Astro.url.pathname, lang, "en"));
 const altEs = Astro.site ? new URL(esHref, Astro.site).href : esHref;
 const altEn = Astro.site ? new URL(enHref, Astro.site).href : enHref;
+
+// El canonical = la versión del idioma actual (coincide con sitemap + hreflang).
+const canonical = lang === "es" ? altEs : altEn;
 
 const nav = [
   { label: t(lang, "nav.catalog"), to: localePath(lang, "") },
