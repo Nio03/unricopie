@@ -1,0 +1,13 @@
+name: Beetle Adventure Racing
+console: n64
+status: playable
+repo: bryankruman/BeetleRecomp
+author: Bryan Kruman
+originalDeveloper: Paradigm Entertainment
+toolchain: N64Recomp
+desc:
+  es: Recompilación nativa de Beetle Adventure Racing con gráficos mejorados y mejoras de calidad de vida. En desarrollo pero mayormente jugable.
+  en: "Beetle Adventure Racing: Recompiled with enhanced graphics and quality-of-life features. Work in progress but mostly playable at this point."
+requirements:
+  es: Una ROM de Beetle Adventure Racing (N64, US, .z64).
+  en: A Beetle Adventure Racing ROM (N64, US, .z64).
