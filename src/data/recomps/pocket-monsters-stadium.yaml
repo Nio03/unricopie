@@ -1,0 +1,11 @@
+name: Pocket Monsters Stadium (JP)
+console: n64
+status: experimental
+repo: mstan/PocketMonstersStadiumRecomp
+toolchain: N64Recomp
+desc:
+  es: Recompilación del primer Pocket Monsters Stadium japonés (42 Pokémon) con N64Recomp. Distinto del Pokémon Stadium occidental. Sin release aún.
+  en: Recompilation of the first Japanese Pocket Monsters Stadium (42 Pokémon) with N64Recomp. Different from the Western Pokémon Stadium. No release yet.
+requirements:
+  es: Una ROM de Pocket Monsters Stadium (N64, Japón, .z64).
+  en: A Pocket Monsters Stadium ROM (N64, Japan, .z64).

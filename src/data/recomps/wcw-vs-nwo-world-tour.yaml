@@ -1,0 +1,11 @@
+name: WCW vs. nWo World Tour
+console: n64
+status: playable
+repo: jessetbh/WCWvsNWOWorldTourRecomp
+toolchain: N64Recomp
+desc:
+  es: "Port nativo a PC de WCW vs. nWo World Tour vía recompilación estática: partidas completas, multijugador local, guardado y rumble."
+  en: "Native PC port of WCW vs. nWo World Tour via static recompilation: full matches, local multiplayer, saving and rumble."
+requirements:
+  es: Una ROM de WCW vs. nWo World Tour (N64, .z64).
+  en: A WCW vs. nWo World Tour ROM (N64, .z64).

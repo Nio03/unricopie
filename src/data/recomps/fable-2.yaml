@@ -1,0 +1,11 @@
+name: Fable II
+console: x360
+status: experimental
+repo: Fable2Recomp/Fable2Recomp
+toolchain: XenonRecomp
+desc:
+  es: Recompilación de Fable II (Xbox 360) con XenonRecomp. Proyecto muy seguido, todavía en desarrollo y sin build jugable.
+  en: Recompilation of Fable II (Xbox 360) with XenonRecomp. Popular project, still in development and not yet playable.
+requirements:
+  es: Una copia de Fable II (Xbox 360).
+  en: A copy of Fable II (Xbox 360).

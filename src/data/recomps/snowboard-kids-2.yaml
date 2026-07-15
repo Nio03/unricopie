@@ -1,0 +1,11 @@
+name: Snowboard Kids 2
+console: n64
+status: playable
+repo: cdlewis/snowboardkids2-recomp
+toolchain: N64Recomp
+desc:
+  es: Recompilación nativa de Snowboard Kids 2 para PC (Windows/Linux/Mac), con launcher y mods.
+  en: Native recompilation of Snowboard Kids 2 for PC (Windows/Linux/Mac), with a launcher and mods.
+requirements:
+  es: Una ROM de Snowboard Kids 2 (N64, .z64).
+  en: A Snowboard Kids 2 ROM (N64, .z64).

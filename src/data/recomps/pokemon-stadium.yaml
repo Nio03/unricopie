@@ -1,0 +1,11 @@
+name: Pokémon Stadium
+console: n64
+status: playable
+repo: mstan/PokemonStadiumRecomp
+toolchain: N64Recomp
+desc:
+  es: Recompilación de Pokémon Stadium (US v1.0) con N64Recomp, con soporte de Transfer Pak y GB Tower. Parte del ecosistema R.A.I.D.
+  en: Recompilation of Pokémon Stadium (US v1.0) with N64Recomp, with Transfer Pak and GB Tower support. Part of the R.A.I.D. ecosystem.
+requirements:
+  es: Una ROM de Pokémon Stadium (N64, US v1.0, .z64).
+  en: A Pokémon Stadium ROM (N64, US v1.0, .z64).

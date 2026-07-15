@@ -1,0 +1,11 @@
+name: Mega Man X5
+console: ps1
+status: experimental
+repo: mstan/MegaManX5Recomp
+toolchain: psxrecomp
+desc:
+  es: Recompilación nativa de Mega Man X5 (USA, SLUS-01334) con psxrecomp. En etapa temprana.
+  en: Native recompilation of Mega Man X5 (USA, SLUS-01334) with psxrecomp. Early stage.
+requirements:
+  es: Una imagen de disco de Mega Man X5 (PS1, USA).
+  en: A disc image of Mega Man X5 (PS1, USA).

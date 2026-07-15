@@ -1,0 +1,13 @@
+name: Harvest Moon 64
+console: n64
+status: fully
+repo: HarvestMoon64Recomp/HarvestMoon64Recomp
+toolchain: N64Recomp
+desc:
+  es: Port a PC de Harvest Moon 64 hecho con N64Recomp (Windows/Linux/Mac), con widescreen y soporte de mods.
+  en: PC port of Harvest Moon 64 built with N64Recomp (Windows/Linux/Mac), with widescreen and mod support.
+requirements:
+  es: Una ROM de Harvest Moon 64 (N64, .z64).
+  en: A Harvest Moon 64 ROM (N64, .z64).
+tags:
+  - mods

@@ -1,0 +1,11 @@
+name: Wave Race 64
+console: n64
+status: experimental
+repo: chronic8000/WaveRace64Recompiled
+toolchain: N64Recomp
+desc:
+  es: Port nativo de Wave Race 64 vía recompilación estática. Muy temprano, todavía sin build jugable.
+  en: Native Wave Race 64 port via static recompilation. Very early, not yet playable.
+requirements:
+  es: Una ROM de Wave Race 64 (N64, .z64).
+  en: A Wave Race 64 ROM (N64, .z64).

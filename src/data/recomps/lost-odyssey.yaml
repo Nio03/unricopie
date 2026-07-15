@@ -1,0 +1,11 @@
+name: Lost Odyssey
+console: x360
+status: experimental
+repo: lawlietl4/LostOdysseyRecomp
+toolchain: XenonRecomp
+desc:
+  es: Recompilación de Lost Odyssey (Xbox 360) con XenonRecomp. Trabajo temprano.
+  en: Recompilation of Lost Odyssey (Xbox 360) with XenonRecomp. Early work.
+requirements:
+  es: Una copia de Lost Odyssey (Xbox 360).
+  en: A copy of Lost Odyssey (Xbox 360).

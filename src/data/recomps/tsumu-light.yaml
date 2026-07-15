@@ -1,0 +1,11 @@
+name: Tsumu Light
+console: ps1
+status: experimental
+repo: mstan/TsumuLightRecomp
+toolchain: psxrecomp
+desc:
+  es: Recompilación nativa de Tsumu Light (Japón) con psxrecomp, con parche de traducción al inglés. Título japonés poco conocido.
+  en: Native recompilation of Tsumu Light (Japan) with psxrecomp, with an English translation patch. Obscure Japanese title.
+requirements:
+  es: Una imagen de disco de Tsumu Light (PS1, Japón).
+  en: A disc image of Tsumu Light (PS1, Japan).

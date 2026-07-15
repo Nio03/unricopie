@@ -1,0 +1,11 @@
+name: Mischief Makers
+console: n64
+status: playable
+repo: ThiagoLira/trouble-makers-pc-recomp
+toolchain: N64Recomp
+desc:
+  es: Recompilación nativa de Mischief Makers (Trouble Makers) para PC, con 60 fps, alta resolución y widescreen opcional.
+  en: Native recompilation of Mischief Makers (Trouble Makers) for PC, with 60 fps, high resolution and optional widescreen.
+requirements:
+  es: Una ROM de Mischief Makers (N64, .z64).
+  en: A Mischief Makers ROM (N64, .z64).

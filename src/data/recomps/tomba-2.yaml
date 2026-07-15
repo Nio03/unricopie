@@ -1,0 +1,11 @@
+name: "Tomba! 2: The Evil Swine Return"
+console: ps1
+status: playable
+repo: mstan/Tomba2Recomp
+toolchain: psxrecomp
+desc:
+  es: Recompilación nativa de Tomba! 2 (USA) con psxrecomp, con soporte 21:9 y OpenGL a tasa completa. Parte del ecosistema R.A.I.D.
+  en: Native recompilation of Tomba! 2 (USA) with psxrecomp, with 21:9 support and full-rate OpenGL. Part of the R.A.I.D. ecosystem.
+requirements:
+  es: Una imagen de disco de Tomba! 2 (PS1, USA).
+  en: A disc image of Tomba! 2 (PS1, USA).

@@ -1,0 +1,11 @@
+name: Castlevania (N64)
+console: n64
+status: experimental
+repo: RevoSucks/CV64Recomp
+toolchain: N64Recomp
+desc:
+  es: Recompilación de Castlevania (N64) en desarrollo temprano (todavía no compila). Distinta de Legacy of Darkness.
+  en: Early work-in-progress recompilation of Castlevania (N64) (does not build yet). Separate from Legacy of Darkness.
+requirements:
+  es: Una ROM de Castlevania (N64, .z64).
+  en: A Castlevania (N64) ROM (.z64).

@@ -5,9 +5,11 @@ consoles:
   - wii
 repo: WhiteTPoison/GeckoRecomp
 status: experimental
+abandoned: true
+enrich: false
 desc:
-  es: Fork experimental de XenonRecomp que intenta convertir ejecutables de Wii/GameCube (PowerPC 'Gekko') a C++. Sin ningún juego implementado todavía.
-  en: Experimental fork of XenonRecomp aiming to convert Wii/GameCube (PowerPC 'Gekko') executables to C++. No game implemented yet.
+  es: "Fork experimental de XenonRecomp que intentaba convertir ejecutables de Wii/GameCube (PowerPC 'Gekko') a C++. El repositorio ya no está disponible; para GC/Wii ver DolRecomp."
+  en: "Experimental fork of XenonRecomp that aimed to convert Wii/GameCube (PowerPC 'Gekko') executables to C++. The repository is no longer available; for GC/Wii see DolRecomp."
 tags:
   - powerpc
   - gekko

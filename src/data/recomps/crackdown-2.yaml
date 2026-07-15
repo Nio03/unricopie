@@ -1,0 +1,11 @@
+name: Crackdown 2
+console: x360
+status: experimental
+repo: matty45/Crackdown2-Recomp
+toolchain: XenonRecomp
+desc:
+  es: "Recompilación estática de Crackdown 2 (Xbox 360). En etapa temprana: entra al juego pero todavía no es jugable."
+  en: "Static recompilation of Crackdown 2 (Xbox 360). Early stage: reaches in-game but not playable yet."
+requirements:
+  es: Una copia de Crackdown 2 (Xbox 360).
+  en: A copy of Crackdown 2 (Xbox 360).

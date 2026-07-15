@@ -1,0 +1,11 @@
+name: Test Drive Unlimited
+console: x360
+status: experimental
+repo: testdriveupgrade/TDURecomp
+toolchain: XenonRecomp
+desc:
+  es: Recompilación de Test Drive Unlimited (Xbox 360) con XenonRecomp. En desarrollo muy temprano.
+  en: Recompilation of Test Drive Unlimited (Xbox 360) with XenonRecomp. Very early development.
+requirements:
+  es: Una copia de Test Drive Unlimited (Xbox 360).
+  en: A copy of Test Drive Unlimited (Xbox 360).

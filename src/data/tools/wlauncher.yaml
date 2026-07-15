@@ -1,0 +1,10 @@
+name: WLauncher
+kind: launcher
+repo: Spicywonda/WLauncher
+status: beta
+desc:
+  es: Launcher y actualizador para recompilaciones y ports a PC, con soporte de repositorios modulares configurables por el usuario.
+  en: Launcher and updater for recompilations and PC ports, with user-configurable modular repository support.
+tags:
+  - downloader
+  - auto-update

@@ -1,0 +1,11 @@
+name: Mega Man X6
+console: ps1
+status: playable
+repo: mstan/MegaManX6Recomp
+toolchain: psxrecomp
+desc:
+  es: Recompilación nativa de Mega Man X6 (USA) para PC con psxrecomp. Bootea desde BIOS y entra a los stages. Parte del ecosistema R.A.I.D.
+  en: Native recompilation of Mega Man X6 (USA) for PC with psxrecomp. Boots from BIOS and reaches stages. Part of the R.A.I.D. ecosystem.
+requirements:
+  es: Una imagen de disco de Mega Man X6 (PS1, USA).
+  en: A disc image of Mega Man X6 (PS1, USA).

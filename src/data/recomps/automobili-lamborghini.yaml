@@ -1,0 +1,11 @@
+name: Automobili Lamborghini
+console: n64
+status: experimental
+repo: alondero/automobililamborghini-recomp
+toolchain: N64Recomp
+desc:
+  es: Recompilación estática de Automobili Lamborghini para N64. Arranca, muestra menús y entra a carrera; en desarrollo.
+  en: Static recompilation of Automobili Lamborghini for N64. Boots, shows menus and enters a race; work in progress.
+requirements:
+  es: Una ROM de Automobili Lamborghini (N64, .z64).
+  en: An Automobili Lamborghini ROM (N64, .z64).

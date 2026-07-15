@@ -1,0 +1,11 @@
+name: Extreme-G 2
+console: n64
+status: experimental
+repo: Darkluiside305/Extreme-G-2-Recompilation-
+toolchain: N64Recomp
+desc:
+  es: Recompilación estática de Extreme-G 2 (XG2) para PC. Corre carreras a 30 fps con la física original; audio y cámara aún incompletos.
+  en: Static recompilation of Extreme-G 2 (XG2) for PC. Runs races at 30 fps with the original physics; audio and camera still incomplete.
+requirements:
+  es: Una ROM de Extreme-G 2 (N64, .z64).
+  en: An Extreme-G 2 ROM (N64, .z64).

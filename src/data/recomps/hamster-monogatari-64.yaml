@@ -1,0 +1,11 @@
+name: Hamster Monogatari 64
+console: n64
+status: experimental
+repo: SrBananaMan/Hamster64Recomp
+toolchain: N64Recomp
+desc:
+  es: Port a PC de Hamster Monogatari 64 hecho con N64Recomp. En desarrollo muy temprano.
+  en: PC port of Hamster Monogatari 64 built with N64Recomp. Very early work in progress.
+requirements:
+  es: Una ROM de Hamster Monogatari 64 (N64, Japón, .z64).
+  en: A Hamster Monogatari 64 ROM (N64, Japan, .z64).

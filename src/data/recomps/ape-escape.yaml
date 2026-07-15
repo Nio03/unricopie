@@ -1,0 +1,11 @@
+name: Ape Escape
+console: ps1
+status: playable
+repo: mstan/ApeEscapeRecomp
+toolchain: psxrecomp
+desc:
+  es: Recompilación nativa de Ape Escape (USA) para PC con psxrecomp, con launcher. Parte del ecosistema R.A.I.D.
+  en: Native recompilation of Ape Escape (USA) for PC with psxrecomp, with a launcher. Part of the R.A.I.D. ecosystem.
+requirements:
+  es: Una imagen de disco de Ape Escape (PS1, USA).
+  en: A disc image of Ape Escape (PS1, USA).
