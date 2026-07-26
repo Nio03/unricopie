@@ -1,0 +1,12 @@
+name: The Simpsons Game
+console: x360
+status: experimental
+repo: YesterMester/TheSimpsonsGameRecomp
+originalDeveloper: EA Redwood Shores
+toolchain: ReXGlue
+desc:
+  es: "Recompilación de The Simpsons Game (2007, Xbox 360) con ReXGlue. En desarrollo: el objetivo actual es hacer correr el juego."
+  en: "Recompilation of The Simpsons Game (2007, Xbox 360) with ReXGlue. Work in progress: the current goal is getting the game running."
+requirements:
+  es: Una copia de The Simpsons Game (Xbox 360).
+  en: A copy of The Simpsons Game (Xbox 360).
