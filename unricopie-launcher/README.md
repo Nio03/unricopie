@@ -1,5 +1,15 @@
 # Unricopie Launcher
 
+> ## ⏸️ PARADO
+>
+> **Este proyecto no está en desarrollo.** Se quedó en el scaffold de la Fase 0 y no se ha
+> tocado desde junio de 2026. El esfuerzo está puesto en el catálogo (Recompendium), que es
+> lo que aporta valor hoy.
+>
+> El código se conserva por si se retoma, pero **no es un producto y no se anuncia como tal**:
+> ya no tiene página en el sitio ni ficha en el catálogo. Si buscas un launcher de recomps
+> que funcione hoy, mira la sección [Launchers](https://nio03.github.io/unricopie/launchers).
+
 Launcher multi-consola de [Recompendium](../README.md). **Fase 0 (scaffold).** Ver el [ROADMAP](./ROADMAP.md).
 
 > Esto es un esqueleto Tauri 2 real pero mínimo. Todavía no descarga ni lanza nada — el comando

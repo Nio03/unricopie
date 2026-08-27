@@ -33,7 +33,6 @@ export interface Item {
   progressLabel?: string;  // su etiqueta ya localizada
   tags: string[];
   featured: boolean;
-  ours: boolean;
   abandoned: boolean;
   takedown: boolean;
   search: string;
@@ -82,7 +81,7 @@ export function recompItem(e: CollectionEntry<"recomps">, lang: Lang): Item {
     status: { label: t(lang, `status.${d.status}`), color: sm.color },
     consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
-    tags: d.tags, featured: d.featured, ours: false, abandoned: d.abandoned, takedown: d.takedown,
+    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
     search: [d.name, d.repo, d.author, cm.label, cm.full, ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
@@ -94,12 +93,12 @@ export function toolItem(e: CollectionEntry<"tools">, lang: Lang): Item {
   const s = liveStat(d);
   return {
     type: "tool", id: e.id, name: d.name, desc: d.desc[lang], forkOf: forkInfo(d, s),
-    href: d.ours ? localePath(lang, "unricopie") : localePath(lang, `tool/${e.id}`), external: false,
+    href: localePath(lang, `tool/${e.id}`), external: false,
     railColor: km.color, boxLabel: TOOL_BOX[d.kind] ?? "TOOL", typeLabel: t(lang, "type.tool"), typeColor: TYPE_COLOR.tool,
     kindLabel: t(lang, `toolkind.${d.kind}`), statusKey: d.status ?? "",
     status: ts ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
     consoleKeys: d.consoles, repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
-    tags: d.tags, featured: d.featured, ours: d.ours, abandoned: d.abandoned, takedown: d.takedown,
+    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
     search: [d.name, d.repo, d.author, t(lang, `toolkind.${d.kind}`), ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
@@ -118,7 +117,7 @@ export function portItem(e: CollectionEntry<"ports">, lang: Lang): Item {
     status: { label: t(lang, `status.${d.status}`), color: sm.color },
     consoleKeys: d.console ? [d.console] : [], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
-    tags: [...(d.engine ? [d.engine] : []), ...d.tags], featured: d.featured, ours: false, abandoned: d.abandoned, takedown: d.takedown,
+    tags: [...(d.engine ? [d.engine] : []), ...d.tags], featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
     search: [d.name, d.repo, d.author, d.engine, cm?.label, t(lang, `category.${d.category}`), ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
@@ -134,16 +133,16 @@ export function decompItem(e: CollectionEntry<"decomps">, lang: Lang): Item {
     kindLabel: cm.label, statusKey: "", status: null,
     consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
-    tags: d.tags, featured: d.featured, ours: false, abandoned: d.abandoned, takedown: d.takedown,
+    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
     search: [d.name, d.repo, cm.label, cm.full, ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
 
-/** Orden estándar: destacados / nuestros primero, luego estrellas, luego nombre. */
+/** Orden estándar: destacados primero, luego estrellas, luego nombre. */
 export function sortItems(items: Item[]): Item[] {
   return [...items].sort((a, b) => {
-    const af = (a.ours ? 2 : 0) + (a.featured ? 1 : 0);
-    const bf = (b.ours ? 2 : 0) + (b.featured ? 1 : 0);
+    const af = a.featured ? 1 : 0;
+    const bf = b.featured ? 1 : 0;
     if (af !== bf) return bf - af;
     return (b.stars ?? -1) - (a.stars ?? -1) || a.name.localeCompare(b.name);
   });
