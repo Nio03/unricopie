@@ -8,13 +8,13 @@ interface Props {
   lang: Lang;
 }
 const { item, lang } = Astro.props;
-const repoFallback = item.ours ? t(lang, "card.ourRepo") : item.type === "recomp" ? t(lang, "card.repoTBD") : "—";
+const repoFallback = item.type === "recomp" ? t(lang, "card.repoTBD") : "—";
 // Solo mostramos estrellas/versión cuando hay datos en vivo (repo enriquecido).
 const hasStats = item.stars != null;
 ---
 
 <a
-  class={`card${item.ours ? " ours" : ""}`}
+  class="card"
   href={item.href}
   data-card
   data-type={item.type}
@@ -41,11 +41,8 @@ const hasStats = item.stars != null;
 
   {item.forkOf && <p class="forkline">⑂ {t(lang, "card.fork")} {item.forkOf.label}</p>}
 
-  <h3>
-    {item.name}
-    {item.ours && <span class="ours-tag mono">{t(lang, "card.ours")}</span>}
-  </h3>
-  {(item.repo || item.ours || item.type === "recomp") && <p class="repo">{item.repo ?? repoFallback}</p>}
+  <h3>{item.name}</h3>
+  {(item.repo || item.type === "recomp") && <p class="repo">{item.repo ?? repoFallback}</p>}
   <p class="desc">{item.desc}</p>
 
   {
@@ -73,6 +70,6 @@ const hasStats = item.stars != null;
         </>
       )
     }
-    <span class="repolink">{item.ours ? t(lang, "card.roadmap") : t(lang, "card.see")}</span>
+    <span class="repolink">{t(lang, "card.see")}</span>
   </div>
 </a>

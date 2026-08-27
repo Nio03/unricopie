@@ -6,10 +6,9 @@ Desde *Unleashed Recompiled* la escena de recomps explotó: N64, Xbox 360, GameC
 
 🔗 **Sitio** (al publicar): https://nio03.github.io/unricopie/
 
-Este repo (`unricopie`) contiene dos cosas:
+Este repo (`unricopie`) es **Recompendium**: el sitio del catálogo (Astro, estático).
 
-1. **Recompendium** — el sitio del catálogo (Astro, estático). Es el corazón del proyecto.
-2. **Unricopie** — nuestro launcher multi-consola (Tauri), en [`unricopie-launcher/`](./unricopie-launcher) · ver el [roadmap](./unricopie-launcher/ROADMAP.md).
+> El repo se llama `unricopie` por la URL de GitHub Pages, no por el launcher. En [`unricopie-launcher/`](./unricopie-launcher) queda el scaffold Tauri de un launcher multi-consola que empezamos y **está parado**: no se desarrolla ni se anuncia como producto. El código se conserva por si se retoma.
 
 > ⚖️ Recompendium no aloja ni enlaza ROMs ni assets con copyright. Cada recomp es **solo código**: necesitas tu propia copia legal del juego. Ver [Términos](./src/pages/terms.astro) y [Privacidad](./src/pages/privacy.astro).
 
@@ -55,18 +54,18 @@ unricopie/
 │   ├── components/
 │   │   ├── Card.astro      # tarjeta/fila única (un Item con type → render adecuado)
 │   │   └── pages/          # cuerpos de página (CatalogView, HomePage, ItemDetailPage,
-│   │                       #   LaunchersPage, PortsPage, ContributePage, UnricopiePage)
+│   │                       #   LaunchersPage, PortsPage, ContributePage)
 │   ├── layouts/Base.astro
 │   ├── styles/global.css   # sistema visual (paleta + tipografías + componentes)
 │   └── pages/              # rutas ES (/) y EN (/en/): catálogo, launchers, ports,
-│                           #   contribuir, acerca, terms, privacy, detalle, unricopie
+│                           #   contribuir, acerca, terms, privacy, detalle
 ├── public/                 # favicon.svg, og.svg
 ├── scripts/
 │   ├── refresh-stats.mjs   # GitHub API → src/data/stats.json (datos en vivo)
 │   ├── normalize-data.mjs  # normaliza/limpia los YAML a formato canónico
 │   └── validate-data.mjs   # chequeo rápido de los YAML (para PRs)
 ├── .github/workflows/      # deploy.yml · refresh-stats.yml · validate.yml
-└── unricopie-launcher/     # el launcher Tauri (fase temprana)
+└── unricopie-launcher/     # scaffold Tauri de un launcher — PARADO, no se desarrolla
 ```
 
 ## Desarrollo

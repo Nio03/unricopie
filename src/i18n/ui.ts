@@ -85,10 +85,7 @@ export const ui = {
     "card.fork": "Fork de",
     "card.progress": "{n}% aprox.",
     "card.decomp": "{n}% decompilado",
-    "card.ours": "◆ NUESTRO",
-    "card.roadmap": "Roadmap →",
     "card.viewRepo": "Ver repo ↗",
-    "card.ourRepo": "este repositorio · unricopie-launcher/",
 
     "status.experimental": "Experimental",
     "status.playable": "Jugable",
@@ -250,10 +247,7 @@ export const ui = {
     "card.fork": "Fork of",
     "card.progress": "~{n}%",
     "card.decomp": "{n}% decompiled",
-    "card.ours": "◆ OURS",
-    "card.roadmap": "Roadmap →",
     "card.viewRepo": "View repo ↗",
-    "card.ourRepo": "this repository · unricopie-launcher/",
 
     "status.experimental": "Experimental",
     "status.playable": "Playable",

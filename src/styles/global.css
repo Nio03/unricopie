@@ -158,8 +158,6 @@ select { font-family: var(--mono); }
 }
 .card:hover { border-color: var(--gold); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35); color: inherit; }
 .card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--rail, var(--ink-3)); }
-.card.ours { border-color: var(--gold); box-shadow: inset 0 0 0 1px rgba(240, 193, 75, 0.3); }
-.card.ours::before { background: var(--gold); }
 
 .card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 10px; }
 .console { font-family: var(--mono); font-size: 11px; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 6px; color: var(--rail); }
@@ -192,7 +190,6 @@ select { font-family: var(--mono); }
 .logo .hero-wordmark, .hero-wordmark { width: clamp(260px, 56vw, 460px); height: auto; display: block; }
 
 .card h3 { font-family: var(--sans); font-weight: 700; font-size: 18px; margin: 0 0 4px; line-height: 1.2; color: var(--ink); }
-.ours-tag { color: var(--gold); font-size: 10px; margin-left: 8px; vertical-align: middle; }
 .repo { font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); margin: 0 0 9px; word-break: break-all; }
 .desc { font-size: 13.5px; color: var(--ink-2); margin: 0 0 12px; line-height: 1.55; }
 .reqs { font-size: 12.5px; color: var(--ink-2); margin: 0 0 12px; line-height: 1.5; }

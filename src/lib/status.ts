@@ -45,6 +45,7 @@ export const TOOL_STATUS = {
 } as const;
 
 export type ToolStatusKey = keyof typeof TOOL_STATUS;
+export const TOOL_STATUS_KEYS = Object.keys(TOOL_STATUS) as ToolStatusKey[];
 
 export function toolStatusMeta(key?: string) {
   if (!key) return null;

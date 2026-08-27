@@ -1,5 +1,8 @@
 # Unricopie — Roadmap
 
+> ⏸️ **PARADO desde junio de 2026.** Este roadmap describe un plan que no se está ejecutando.
+> Se conserva como registro de la idea; ver el [README](./README.md).
+
 **Unricopie** es el launcher multi-consola de Recompendium: un solo lugar para **descubrir, descargar y organizar** los recomps de N64, GameCube, Wii, PS2 y Xbox 360, comprobando siempre que aportes tu propia copia legal.
 
 Hoy existen launchers por proyecto (p. ej. `N64RecompLauncher` / `SirDiabo/GithubLauncher`, `RecompFrontend`). Unricopie apunta a **unificarlos sobre el catálogo que ya mantenemos** en `../src/data/`.

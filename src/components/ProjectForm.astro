@@ -8,7 +8,7 @@
 //   "gracias, en revisión". Nunca el editor de archivos.
 import { GITHUB_URL } from "../lib/site";
 import { CONSOLE_KEYS, consoleMeta } from "../lib/consoles";
-import { STATUS_KEYS, TOOL_STATUS } from "../lib/status";
+import { STATUS_KEYS, TOOL_STATUS_KEYS } from "../lib/status";
 import { t, type Lang } from "../i18n";
 import type { ItemType } from "../lib/catalog";
 
@@ -24,7 +24,7 @@ const es = lang === "es";
 const otherLang: Lang = es ? "en" : "es";
 const d = data ?? {};
 const curType: ItemType = (fixedType ?? "recomp") as ItemType;
-const toolStatusKeys = Object.keys(TOOL_STATUS);
+const toolStatusKeys = TOOL_STATUS_KEYS;
 
 const L = es
   ? { type: "Tipo", tRecomp: "Juego (recomp)", tTool: "Herramienta / launcher", tPort: "Port / remake", tDecomp: "Decompilación",
@@ -114,7 +114,7 @@ const cfg = {
   </div>
 </div>
 
-<script type="application/json" id="pf-cfg" set:html={JSON.stringify(cfg)} />
+<script is:inline type="application/json" id="pf-cfg" set:html={JSON.stringify(cfg)} />
 
 <script>
   import { stringify } from "yaml";
