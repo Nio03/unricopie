@@ -1,0 +1,14 @@
+name: Diddy Kong Racing (DKR-R)
+console: n64
+status: experimental
+repo: ThatGuyMcd/DKR-R
+originalDeveloper: Rare
+year: 1997
+desc:
+  es: Recompilación de Diddy Kong Racing por ThatGuyMcd. Proyecto independiente del recomp de sp00nznet y de los ports Golden Balloon.
+  en: Diddy Kong Racing recompilation by ThatGuyMcd. A separate project from the sp00nznet recomp and the Golden Balloon ports.
+requirements:
+  es: Una ROM de Diddy Kong Racing (N64).
+  en: A Diddy Kong Racing ROM (N64).
+tags:
+  - mips

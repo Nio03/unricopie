@@ -1,0 +1,10 @@
+name: "The Legend of Zelda: The Minish Cap"
+category: decomp-port
+console: gba
+status: playable
+repo: 999sian/tmc
+originalDeveloper: Capcom / Flagship
+year: 2004
+desc:
+  es: "Project Picori: port nativo a PC (Linux/Windows/macOS) de The Minish Cap, construido sobre la decompilación zeldaret/tmc."
+  en: "Project Picori: a native PC port (Linux/Windows/macOS) of The Minish Cap, built on the zeldaret/tmc decompilation."

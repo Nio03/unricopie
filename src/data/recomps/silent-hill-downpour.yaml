@@ -1,0 +1,14 @@
+name: "Silent Hill: Downpour"
+console: x360
+status: playable
+repo: LittleBitUA/DownpourRecomp
+originalDeveloper: Vatra Games
+year: 2012
+desc:
+  es: Port nativo a Windows por recompilación estática del binario de Xbox 360. La v1.0 estable desbloquea los 60 FPS y añade caché ROV precalentada y ejecutable independiente.
+  en: Native Windows port via static recompilation of the Xbox 360 binary. The stable v1.0 unlocks 60 FPS and adds ROV warm-cache and a standalone executable.
+requirements:
+  es: "Tu propia copia de Silent Hill: Downpour (Xbox 360)."
+  en: "Your own copy of Silent Hill: Downpour (Xbox 360)."
+tags:
+  - powerpc

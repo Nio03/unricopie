@@ -1,0 +1,12 @@
+name: ps3recomp
+kind: recompiler
+consoles:
+  - ps3
+repo: sp00nznet/ps3recomp
+status: experimental
+desc:
+  es: Librerías de runtime de recompilación estática para títulos de PlayStation 3. Primer paso hacia los recomps de PS3.
+  en: Static recompilation runtime libraries for PlayStation 3 titles. The first step towards PS3 recomps.
+tags:
+  - cell
+  - powerpc

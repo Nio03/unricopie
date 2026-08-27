@@ -1,0 +1,16 @@
+name: DoDonPachi SaiDaiOuJou
+console: x360
+status: experimental
+repo: eandis/SDOJ-Recomp
+originalDeveloper: Cave
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: Recompilación de DoDonPachi SaiDaiOuJou con ReXGlue. Soporta tanto la edición en disco como la de Games on Demand.
+  en: Recompilation of DoDonPachi SaiDaiOuJou using ReXGlue. Supports both the disc release and the Games on Demand one.
+requirements:
+  es: Tu propio volcado de DoDonPachi SaiDaiOuJou (Xbox 360) y el Title Update 1.01.
+  en: Your own DoDonPachi SaiDaiOuJou dump (Xbox 360) plus Title Update 1.01.
+tags:
+  - powerpc
+  - shmup

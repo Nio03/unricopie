@@ -1,0 +1,9 @@
+name: Gen1Recomp
+category: fan-remake
+status: playable
+repo: bryanthaboi/gen1recomp
+originalDeveloper: Game Freak
+engine: LOVE2D
+desc:
+  es: Recreación nativa en Lua/LOVE2D de los Pokémon de primera generación. Pese al nombre, es una recreación, no una recompilación estática.
+  en: A native Lua/LOVE2D recreation of the first-generation Pokemon games. Despite the name, it is a recreation, not a static recompilation.

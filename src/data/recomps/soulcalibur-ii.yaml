@@ -1,0 +1,15 @@
+name: SoulCalibur II
+console: gamecube
+status: experimental
+repo: jackpoison-prog/RingOut
+originalDeveloper: Namco
+year: 2003
+toolchain: RingOut
+desc:
+  es: "Port nativo de SoulCalibur II (GameCube) por recompilación estática: el ejecutable PowerPC del disco se traduce a C, se compila a x86-64 y corre sobre un runtime derivado de Dolphin."
+  en: "Native port of SoulCalibur II (GameCube) via static recompilation: the disc PowerPC executable is translated to C, compiled to x86-64 and run on a Dolphin-derived runtime."
+requirements:
+  es: Tu propia copia de SoulCalibur II (GameCube, discos GRSEAF/GRSJAF/GRSPAF).
+  en: Your own copy of SoulCalibur II (GameCube, discs GRSEAF/GRSJAF/GRSPAF).
+tags:
+  - powerpc
