@@ -1,0 +1,11 @@
+name: snesrecomp
+kind: recompiler
+consoles:
+  - snes
+repo: mstan/snesrecomp
+status: experimental
+desc:
+  es: Ecosistema de recompilación estática para juegos de Super Nintendo. Parte de la comunidad R.A.I.D.
+  en: Static recompiler ecosystem for Super Nintendo games. Part of the R.A.I.D. community.
+tags:
+  - "65816"

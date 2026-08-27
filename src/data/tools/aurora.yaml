@@ -1,0 +1,12 @@
+name: Aurora
+kind: library
+consoles:
+  - gamecube
+  - wii
+repo: encounter/aurora
+status: usable
+desc:
+  es: Capa de compatibilidad de GameCube y Wii a nivel de código fuente. Facilita que los ports de decomp de esas consolas lleguen a PC.
+  en: A source-level GameCube and Wii compatibility layer. Makes it easier for decomp ports of those consoles to reach PC.
+tags:
+  - powerpc

@@ -1,0 +1,14 @@
+name: "Castlevania: Symphony of the Night"
+console: ps1
+status: experimental
+repo: BlackLabelHQ/SymphonyRecomp
+originalDeveloper: Konami
+year: 1997
+desc:
+  es: "Proyecto de recompilación de Castlevania: Symphony of the Night (PS1). En desarrollo activo, versión 0.5."
+  en: "Recompilation project for Castlevania: Symphony of the Night (PS1). Under active development, version 0.5."
+requirements:
+  es: Una imagen de disco de Symphony of the Night (PS1).
+  en: A Symphony of the Night disc image (PS1).
+tags:
+  - mips

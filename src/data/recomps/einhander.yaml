@@ -1,0 +1,16 @@
+name: Einhander
+console: ps1
+status: experimental
+repo: strider973/Einhander-Recompiled
+originalDeveloper: Square
+year: 1997
+toolchain: psxrecomp
+desc:
+  es: Recompilación de Einhander, el matamarcianos de Square para PlayStation.
+  en: Recompilation of Einhander, the Square shoot-em-up for PlayStation.
+requirements:
+  es: Una imagen de disco de Einhander (PS1) + el BIOS SCPH1001.BIN.
+  en: An Einhander disc image (PS1) + the SCPH1001.BIN BIOS.
+tags:
+  - mips
+  - shmup

@@ -1,0 +1,6 @@
+name: Super Mario 64 DS
+console: nds
+repo: tangosdev/sm64ds-decomp
+desc:
+  es: Decompilación desde cero y byte-matching de Super Mario 64 DS a C, con atlas de progreso en vivo y herramientas de matching.
+  en: From-scratch, byte-matching decompilation of Super Mario 64 DS into C, with a live progress atlas and matching tools.

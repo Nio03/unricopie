@@ -1,0 +1,12 @@
+name: RecompCore
+kind: recompiler
+consoles:
+  - gamecube
+repo: aharonahdoot/RecompCore
+status: experimental
+desc:
+  es: "Núcleo de CPU de recompilación estática para Dolphin: ejecuta juegos de GameCube como código nativo, con vuelta al intérprete de forma transparente."
+  en: "A static-recompilation CPU core for Dolphin: run GameCube games as native code, with transparent interpreter fallback."
+tags:
+  - powerpc
+  - dolphin

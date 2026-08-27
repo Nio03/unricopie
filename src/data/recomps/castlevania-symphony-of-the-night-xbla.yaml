@@ -1,0 +1,14 @@
+name: "Castlevania: Symphony of the Night (XBLA)"
+console: x360
+status: experimental
+repo: birabittoh/NocturneRecomp
+originalDeveloper: Konami
+toolchain: ReXGlue
+desc:
+  es: Recompilación estática de la versión XBLA de Symphony of the Night para Windows y Linux, construida sobre el SDK de ReXGlue. Proyecto distinto al recomp de la versión PS1.
+  en: Static recompilation of the XBLA release of Symphony of the Night for Windows and Linux, built on the ReXGlue SDK. A separate project from the PS1 recomp.
+requirements:
+  es: Tu propia copia de Symphony of the Night (XBLA, Xbox 360).
+  en: Your own copy of Symphony of the Night (XBLA, Xbox 360).
+tags:
+  - powerpc

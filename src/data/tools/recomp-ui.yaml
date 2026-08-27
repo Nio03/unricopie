@@ -1,0 +1,13 @@
+name: recomp-ui
+kind: library
+consoles:
+  - ps1
+  - snes
+  - nds
+repo: mstan/recomp-ui
+status: experimental
+desc:
+  es: Launcher y UI en el juego compartidos entre proyectos de recompilación estática. Parte de la comunidad R.A.I.D.
+  en: Shared launcher and in-game UI for static recompilation projects. Part of the R.A.I.D. community.
+tags:
+  - ui

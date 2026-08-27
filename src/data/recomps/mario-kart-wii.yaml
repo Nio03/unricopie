@@ -1,0 +1,15 @@
+name: Mario Kart Wii
+console: wii
+status: experimental
+repo: patchzyy/Wiicompiled
+originalDeveloper: Nintendo EAD
+year: 2008
+toolchain: Wiicompiled
+desc:
+  es: "Port nativo de Mario Kart Wii por recompilación estática: sin emulador, sin intérprete ni JIT, nada de PowerPC en tiempo de ejecución. En beta."
+  en: "Native port of Mario Kart Wii via static recompilation: no emulator, no interpreter or JIT, no PowerPC at runtime. In beta."
+requirements:
+  es: Tu propia copia legal de la versión PAL del juego.
+  en: Your own legally dumped copy of the PAL version.
+tags:
+  - powerpc

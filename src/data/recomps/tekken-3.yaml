@@ -1,0 +1,15 @@
+name: Tekken 3
+console: ps1
+status: experimental
+repo: fabioap-cpu/Tekken3Recomp
+originalDeveloper: Namco
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: Tekken 3 (USA) recompilado con psxrecomp.
+  en: Tekken 3 (USA) recompiled using psxrecomp.
+requirements:
+  es: Una imagen de disco de Tekken 3 (PS1) + el BIOS SCPH1001.BIN.
+  en: A Tekken 3 disc image (PS1) + the SCPH1001.BIN BIOS.
+tags:
+  - mips

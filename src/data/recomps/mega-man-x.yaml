@@ -1,0 +1,15 @@
+name: Mega Man X
+console: snes
+status: experimental
+repo: mstan/MegaManXSNESRecomp
+originalDeveloper: Capcom
+year: 1993
+toolchain: snesrecomp
+desc:
+  es: Mega Man X recompilado con snesrecomp. Es el Mega Man X original de Super Nintendo, distinto de los recomps de X4/X5/X6 de PlayStation.
+  en: Mega Man X recompiled using snesrecomp. This is the original Super Nintendo Mega Man X, distinct from the PlayStation X4/X5/X6 recomps.
+requirements:
+  es: Tu propia ROM de Mega Man X (SNES).
+  en: Your own Mega Man X ROM (SNES).
+tags:
+  - "65816"

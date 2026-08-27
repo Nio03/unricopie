@@ -1,0 +1,14 @@
+name: Deadly Premonition
+console: x360
+status: experimental
+repo: LittleBitUA/DPRecomp
+originalDeveloper: Access Games
+year: 2010
+desc:
+  es: Port nativo a PC por recompilación estática del binario de Xbox 360. Publicada la preview v0.1.1; la v1.0 con mejoras de rendimiento y estabilidad está en camino.
+  en: Native PC port via static recompilation of the Xbox 360 binary. The v0.1.1 preview shipped; v1.0 with major perf and stability fixes is on the way.
+requirements:
+  es: Tu propia copia de Deadly Premonition (Xbox 360).
+  en: Your own copy of Deadly Premonition (Xbox 360).
+tags:
+  - powerpc

@@ -1,0 +1,11 @@
+name: ModernGekko
+kind: library
+consoles:
+  - gamecube
+repo: ExpansionPak/ModernGekko
+status: experimental
+desc:
+  es: Runtime para recompilaciones de juegos de GameCube.
+  en: Runtime for recompilations of GameCube games.
+tags:
+  - powerpc

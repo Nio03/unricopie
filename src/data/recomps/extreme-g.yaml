@@ -1,0 +1,17 @@
+name: Extreme-G
+console: n64
+status: experimental
+repoUrl: https://gitlab.com/sonicdcer/ExtremeGRecomp
+originalDeveloper: Probe Entertainment
+year: 1997
+toolchain: N64Recomp
+enrich: false
+desc:
+  es: Recompilación estática del Extreme-G original (1997). Es un proyecto distinto al de Extreme-G 2, y se aloja en GitLab.
+  en: Static recompilation of the original Extreme-G (1997). A separate project from Extreme-G 2, hosted on GitLab.
+requirements:
+  es: Una ROM de Extreme-G (N64, .z64).
+  en: An Extreme-G ROM (N64, .z64).
+tags:
+  - mips
+  - gitlab

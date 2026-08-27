@@ -1,0 +1,12 @@
+name: PSPRecomp
+kind: recompiler
+consoles:
+  - psp
+repo: jessicanataliagta/PSPRecomp
+status: experimental
+desc:
+  es: Framework de recompilación estática para software de PSP. Abre la PlayStation Portable como plataforma de recomps.
+  en: A static recompilation framework for PSP software. Opens the PlayStation Portable as a recomp platform.
+tags:
+  - mips
+  - psp

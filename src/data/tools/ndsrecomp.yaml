@@ -1,0 +1,11 @@
+name: ndsrecomp
+kind: recompiler
+consoles:
+  - nds
+repo: mstan/ndsrecomp
+status: experimental
+desc:
+  es: Investigación en pre-alfa muy temprana de un recompilador estático de Nintendo DS. Es el toolchain detrás del recomp de Metroid Prime Hunters.
+  en: Very early pre-alpha Nintendo DS static recompiler research. The toolchain behind the Metroid Prime Hunters recomp.
+tags:
+  - arm9

@@ -1,0 +1,15 @@
+name: "Condemned 2: Bloodshot"
+console: x360
+status: experimental
+repo: psxrestore/Condemned2Recomp
+originalDeveloper: Monolith Productions
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de Condemned 2: Bloodshot hecha con ReXGlue."
+  en: "Static recompilation of Condemned 2: Bloodshot done with ReXGlue."
+requirements:
+  es: "Tu propia copia de Condemned 2: Bloodshot (Xbox 360)."
+  en: "Your own copy of Condemned 2: Bloodshot (Xbox 360)."
+tags:
+  - powerpc

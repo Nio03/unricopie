@@ -5,9 +5,11 @@
 // Colores de consola vivos (estilo "boxart"), legibles sobre el tema oscuro.
 // `tag` es el código corto para la mini-portada del catálogo.
 export const CONSOLES = {
+  snes: { label: 'SNES', tag: 'SNES', full: 'Super Nintendo', arch: '65816', color: '#9B7BD4' },
   n64: { label: 'N64', tag: 'N64', full: 'Nintendo 64', arch: 'MIPS', color: '#C9252B' },
   gamecube: { label: 'GameCube', tag: 'GC', full: 'Nintendo GameCube', arch: 'PowerPC', color: '#6A5FA5' },
   wii: { label: 'Wii', tag: 'WII', full: 'Nintendo Wii', arch: 'PowerPC', color: '#4FA8D8' },
+  ps3: { label: 'PS3', tag: 'PS3', full: 'PlayStation 3', arch: 'Cell/PPE', color: '#26418F' },
   ps2: { label: 'PS2', tag: 'PS2', full: 'PlayStation 2', arch: 'Emotion Engine', color: '#2E5CB8' },
   ps1: { label: 'PS1', tag: 'PS1', full: 'PlayStation', arch: 'MIPS', color: '#8A90A6' },
   psp: { label: 'PSP', tag: 'PSP', full: 'PlayStation Portable', arch: 'MIPS', color: '#E0A93A' },

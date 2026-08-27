@@ -1,0 +1,15 @@
+name: Street Fighter Alpha 3
+console: ps1
+status: experimental
+repo: TechnicallyComputers/Street-Fighter-Alpha-3-Recomp
+originalDeveloper: Capcom
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: Street Fighter Alpha 3 recompilado con psxrecomp. Parte de la comunidad R.A.I.D.
+  en: Street Fighter Alpha 3 recompiled with psxrecomp. Part of the R.A.I.D. community.
+requirements:
+  es: Una imagen de disco de Street Fighter Alpha 3 (PS1) + el BIOS SCPH1001.BIN.
+  en: A Street Fighter Alpha 3 disc image (PS1) + the SCPH1001.BIN BIOS.
+tags:
+  - mips
