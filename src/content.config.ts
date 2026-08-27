@@ -106,6 +106,7 @@ const decomps = defineCollection({
     console: consoleEnum,
     repo: repoSlug.optional(),
     repoUrl: z.string().url().optional(),
+    forkOf,
     decomp: z.string().optional(),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),

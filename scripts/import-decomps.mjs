@@ -2,7 +2,7 @@
 // Datos reales: nombre, plataforma→consola, repo, descripción (GitHub), y el
 // campo `decomp` (el bot rellena el % de matched_code en vivo).
 //   node scripts/import-decomps.mjs
-import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { stringify } from "yaml";
 
 async function loadToken() {

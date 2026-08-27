@@ -54,7 +54,7 @@ function cleanTags(tags) {
 const isCodeHost = (u) => /(github|gitlab|bitbucket|sourceforge|codeberg)\.(com|org)/i.test(u);
 const isWiki = (u) => /wikipedia\.org/i.test(u);
 
-function normalize(kind, id, d) {
+function normalize(kind, _id, d) {
   const changes = [];
   const out = { ...d };
 

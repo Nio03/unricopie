@@ -96,7 +96,7 @@ export function toolItem(e: CollectionEntry<"tools">, lang: Lang): Item {
     href: localePath(lang, `tool/${e.id}`), external: false,
     railColor: km.color, boxLabel: TOOL_BOX[d.kind] ?? "TOOL", typeLabel: t(lang, "type.tool"), typeColor: TYPE_COLOR.tool,
     kindLabel: t(lang, `toolkind.${d.kind}`), statusKey: d.status ?? "",
-    status: ts ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
+    status: ts && d.status ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
     consoleKeys: d.consoles, repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
     search: [d.name, d.repo, d.author, t(lang, `toolkind.${d.kind}`), ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
