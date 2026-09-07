@@ -1,0 +1,15 @@
+name: "Dante's Inferno"
+console: x360
+status: experimental
+repo: florinp93/hells-gate-recomp
+originalDeveloper: Visceral Games
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Port nativo a PC de Dante's Inferno (Xbox 360) por recompilación estática con el SDK ReXGlue: el ejecutable XEX de PowerPC se traduce a C++ portable y corre sobre D3D12 en Windows o Vulkan en Linux, sin emulación ni JIT en tiempo de ejecución."
+  en: "Native PC port of Dante's Inferno (Xbox 360) by static recompilation with the ReXGlue SDK: the PowerPC XEX executable is translated to portable C++ and runs on D3D12 on Windows or Vulkan on Linux, with no emulation and no runtime JIT."
+requirements:
+  es: "Tu propia copia de Dante's Inferno para Xbox 360."
+  en: "Your own copy of Dante's Inferno for Xbox 360."
+tags:
+  - powerpc

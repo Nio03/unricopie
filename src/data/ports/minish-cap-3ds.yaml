@@ -1,0 +1,19 @@
+name: "The Legend of Zelda: The Minish Cap (3DS)"
+category: decomp-port
+console: gba
+status: playable
+repo: EstebanPdN/zelda-tmc-3ds
+originalDeveloper: Capcom / Flagship
+year: 2004
+forkOf:
+  label: 999sian/tmc (Project Picori)
+  url: https://github.com/999sian/tmc
+desc:
+  es: "Port nativo a Nintendo 3DS de The Minish Cap con doble pantalla real, basado en Project Picori y en la base de doble pantalla para Android de samyost1, que a su vez vienen de la decompilación zeldaret/tmc. No es un port a PC: corre en la propia 3DS como homebrew."
+  en: "Native Nintendo 3DS port of The Minish Cap with true dual-screen support, based on Project Picori and samyost1's dual-screen Android base, both of which come from the zeldaret/tmc decompilation. Not a PC port: it runs on the 3DS itself as homebrew."
+requirements:
+  es: "Tu propia ROM legal de The Minish Cap (GBA) y una 3DS con homebrew."
+  en: "Your own legal Minish Cap ROM (GBA) and a 3DS running homebrew."
+tags:
+  - homebrew
+  - 3ds

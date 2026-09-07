@@ -1,0 +1,12 @@
+name: SaturnRecomp
+kind: recompiler
+consoles:
+  - saturn
+repo: sonsegajp/SaturnRecomp
+status: experimental
+desc:
+  es: "Runtime de Sega Saturn y kit de investigación de recompilación estática, hecho en sala limpia. Conviene ser claro con el estado: hoy el camino jugable ejecuta el código SH-2 con un intérprete, y la parte de recompilación anticipada sigue siendo investigación, no un port. Trae un launcher nativo de Windows."
+  en: "Clean-room Sega Saturn runtime and static-recompilation research toolkit. Worth being clear about the state: today its playable path runs SH-2 code through an interpreter, and the ahead-of-time recompilation side is still research, not a port. Ships a native Windows launcher."
+tags:
+  - sh-2
+  - clean-room

@@ -1,0 +1,19 @@
+name: "The Legend of Zelda: Ocarina of Time (PSP)"
+category: decomp-port
+console: n64
+status: playable
+repo: z2442/oot-PSP
+originalDeveloper: Nintendo EAD
+year: 1998
+forkOf:
+  label: zeldaret/oot
+  url: https://github.com/zeldaret/oot
+desc:
+  es: "Port de la decompilación de Ocarina of Time a PlayStation Portable: el código reconstruido por zeldaret se compila para la PSP y corre nativo en la consola, sin un emulador de N64 por medio."
+  en: "Port of the Ocarina of Time decompilation to the PlayStation Portable: the code reconstructed by zeldaret is built for the PSP and runs natively on the handheld, with no N64 emulator in between."
+requirements:
+  es: "Tu propia ROM de Ocarina of Time y una PSP con homebrew."
+  en: "Your own Ocarina of Time ROM and a PSP running homebrew."
+tags:
+  - homebrew
+  - psp

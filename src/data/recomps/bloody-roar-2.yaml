@@ -1,0 +1,15 @@
+name: Bloody Roar II
+console: ps1
+status: experimental
+repo: novapowers0/BloodyRoar2Recomp
+originalDeveloper: Eighting / Hudson Soft
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Port nativo a Windows y Linux de Bloody Roar II: el código MIPS original se recompila estáticamente a C y se compila en un ejecutable propio, no en un emulador. Construye las dos regiones (SLES-01722 europea y SCUS-94424 estadounidense) y añade panorámico hecho desde cero."
+  en: "Native Windows and Linux port of Bloody Roar II: the original MIPS code is statically recompiled to C and built into a standalone executable, not an emulator. Builds both regions (SLES-01722 European and SCUS-94424 US) and adds from-scratch widescreen."
+requirements:
+  es: "Tu propio disco de Bloody Roar II (PS1), edición europea o estadounidense."
+  en: "Your own Bloody Roar II disc (PS1), European or US edition."
+tags:
+  - mips

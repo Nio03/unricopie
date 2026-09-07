@@ -1,0 +1,21 @@
+name: CannonBall
+category: fan-remake
+status: fully
+repo: djyt/cannonball
+author: Chris White
+originalDeveloper: Sega AM2
+year: 1986
+desc:
+  es: "Motor de OutRun reescrito desde cero por Chris White: no es un recomp ni un decomp, sino una reimplementación del juego de recreativa de 1986 que lee los datos de la ROM original. Es la raíz de una familia de forks: CannonBall-SE (J1mbo) añade shaders CRT y soporte de Raspberry Pi, y CannonBall DX (Endprodukt) se centra en volantes, force feedback y cabinas 21:9."
+  en: "OutRun engine rewritten from scratch by Chris White: not a recomp or a decomp, but a reimplementation of the 1986 arcade game that reads the data from the original ROM. It is the root of a family of forks: CannonBall-SE (J1mbo) adds CRT shaders and Raspberry Pi support, and CannonBall DX (Endprodukt) focuses on racing wheels, force feedback and 21:9 cabinets."
+requirements:
+  es: "Tu propia ROM de recreativa de OutRun."
+  en: "Your own OutRun arcade ROM."
+tags:
+  - outrun
+  - arcade
+links:
+  - label: CannonBall-SE (fork)
+    url: https://github.com/J1mbo/cannonball-se
+  - label: CannonBall DX (fork)
+    url: https://github.com/Endprodukt/cannonball-dx

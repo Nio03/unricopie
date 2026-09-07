@@ -1,0 +1,15 @@
+name: Street Fighter EX Plus Alpha
+console: ps1
+status: experimental
+repo: guimaraf/plusalpha-recomp
+originalDeveloper: Arika
+year: 1997
+toolchain: psxrecomp
+desc:
+  es: "Port estático/híbrido de Street Fighter EX Plus Alpha, dedicado en exclusiva a la edición norteamericana SLUS-00548. El repositorio solo contiene código y configuración; psxrecomp entra como submódulo fijado para que la compilación sea reproducible."
+  en: "Static/hybrid port of Street Fighter EX Plus Alpha, dedicated exclusively to the North American SLUS-00548 edition. The repository holds only source and configuration; psxrecomp comes in as a pinned submodule to keep the build reproducible."
+requirements:
+  es: "Tu propia imagen de disco de Street Fighter EX Plus Alpha (SLUS-00548) y la BIOS SCPH-1001."
+  en: "Your own Street Fighter EX Plus Alpha disc image (SLUS-00548) and the SCPH-1001 BIOS."
+tags:
+  - mips

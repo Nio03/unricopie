@@ -1,0 +1,15 @@
+name: "Mario Kart: Super Circuit"
+console: gba
+status: experimental
+repo: mstan/MarioKartSuperCircuitRecomp
+originalDeveloper: Intelligent Systems
+year: 2001
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de Mario Kart: Super Circuit para Windows, con mods opcionales de 60 FPS y panorámico adaptativo. Es un subproducto de desarrollar gbarecomp: el juego es el banco de pruebas y el framework reutilizable es el objetivo real."
+  en: "Static recompilation of Mario Kart: Super Circuit for Windows, with optional 60 FPS and adaptive widescreen mods. A byproduct of building gbarecomp: the game is the proving ground and the reusable framework is the actual goal."
+requirements:
+  es: "Tu propia ROM de Mario Kart: Super Circuit y la BIOS de GBA."
+  en: "Your own Mario Kart: Super Circuit ROM and the GBA BIOS."
+tags:
+  - arm7

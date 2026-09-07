@@ -34,7 +34,7 @@ const recomps = defineCollection({
     forkOf,
     author: z.string().optional(),
     originalDeveloper: z.string().optional(),
-    year: z.number().int().gte(1990).lte(2100).optional(),
+    year: z.number().int().gte(1970).lte(2100).optional(),
     progress: z.number().min(0).max(100).optional(),
     toolchain: z.string().optional(),
     decomp: z.string().optional(), // "owner/repo" del proyecto en decomp.dev (progreso en vivo)
@@ -88,7 +88,7 @@ const ports = defineCollection({
     originalDeveloper: z.string().optional(),
     engine: z.string().optional(),
     decomp: z.string().optional(), // "owner/repo" del proyecto en decomp.dev (progreso en vivo)
-    year: z.number().int().gte(1990).lte(2100).optional(),
+    year: z.number().int().gte(1970).lte(2100).optional(),
     desc: localized,
     requirements: localized.optional(),
     tags: z.array(z.string()).default([]),

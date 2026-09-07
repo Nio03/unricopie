@@ -1,0 +1,15 @@
+name: Star Fox Enhanced
+category: decomp-port
+console: snes
+status: playable
+repo: kandowontu/starfox-enhanced
+originalDeveloper: Nintendo EAD / Argonaut Software
+year: 1993
+desc:
+  es: "Port nativo a Windows del Star Fox de SNES, construido sobre el código abierto de UltraStarFox. Deja elegir entre 20 y 480 FPS conservando la velocidad NTSC que el juego pretendía; por defecto va a 60. Pase de fidelidad temprano pero jugable."
+  en: "Native Windows port of the SNES Star Fox, built on the open-source UltraStarFox codebase. Lets you pick between 20 and 480 FPS while preserving the game's intended NTSC speed; the default is 60. An early but playable fidelity pass."
+requirements:
+  es: "Tu propia ROM de Star Fox / Starwing (SNES)."
+  en: "Your own Star Fox / Starwing ROM (SNES)."
+tags:
+  - ultrastarfox

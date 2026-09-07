@@ -15,7 +15,10 @@ export const CONSOLES = {
   psp: { label: 'PSP', tag: 'PSP', full: 'PlayStation Portable', arch: 'MIPS', color: '#E0A93A' },
   x360: { label: 'Xbox 360', tag: '360', full: 'Xbox 360', arch: 'PowerPC', color: '#107C10' },
   wiiu: { label: 'Wii U', tag: 'WIIU', full: 'Nintendo Wii U', arch: 'PowerPC', color: '#00A3C4' },
-  dreamcast: { label: 'Dreamcast', tag: 'DC', full: 'Sega Dreamcast', arch: 'SH-4', color: '#E07A3A' },
+  // NAOMI es la placa de recreativa hermana de la Dreamcast (mismo SH-4), así que
+  // comparten clave: la ficha del juego aclara en cuál de las dos salió.
+  dreamcast: { label: 'Dreamcast', tag: 'DC', full: 'Sega Dreamcast / NAOMI', arch: 'SH-4', color: '#E07A3A' },
+  saturn: { label: 'Saturn', tag: 'SAT', full: 'Sega Saturn', arch: 'SH-2 x2', color: '#2C7D8C' },
   gba: { label: 'GBA', tag: 'GBA', full: 'Game Boy Advance', arch: 'ARM7', color: '#5B3A9C' },
   nds: { label: 'DS', tag: 'DS', full: 'Nintendo DS', arch: 'ARM9', color: '#A33B86' },
   switch: { label: 'Switch', tag: 'NSW', full: 'Nintendo Switch', arch: 'ARM64', color: '#E0392B' },
