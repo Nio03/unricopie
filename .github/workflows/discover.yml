@@ -1,0 +1,74 @@
+name: Descubrir proyectos nuevos
+
+on:
+  schedule:
+    - cron: "40 6 * * *" # a diario, 06:40 UTC (después de refresh-stats)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # El issue abierto es el que arrastra la tanda anterior: el RSS solo trae
+      # los últimos 15 vídeos, así que un candidato sin triar tiene que
+      # sobrevivir aunque su vídeo ya no esté en el feed.
+      - name: Leer el issue abierto
+        id: prev
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --label descubrimiento --state open --limit 1 \
+            --json number,body > issues.json
+          echo "number=$(jq -r '.[0].number // empty' issues.json)" >> "$GITHUB_OUTPUT"
+          jq -r '.[0].body // ""' issues.json \
+            | sed -n '/<!-- discover-data/,/-->/p' | sed '1d;$d' > previous.json
+          if ! jq -e . previous.json > /dev/null 2>&1; then echo '[]' > previous.json; fi
+
+      - name: Buscar candidatos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run discover -- --previous previous.json --json candidates.json > report.md
+
+      - name: Montar el cuerpo del issue
+        id: body
+        run: |
+          echo "count=$(jq 'length' candidates.json)" >> "$GITHUB_OUTPUT"
+          {
+            cat report.md
+            echo
+            echo "<!-- discover-data"
+            cat candidates.json
+            echo "-->"
+          } > body.md
+
+      - name: Abrir o actualizar el issue
+        if: steps.body.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create descubrimiento --color 1D76DB \
+            --description "Candidatos a entrar en el catálogo" 2>/dev/null || true
+          if [[ -n "${{ steps.prev.outputs.number }}" ]]; then
+            gh issue edit "${{ steps.prev.outputs.number }}" --body-file body.md
+            echo "Issue #${{ steps.prev.outputs.number }} actualizado."
+          else
+            gh issue create --title "Candidatos de Video Game Esoterica" \
+              --label descubrimiento --body-file body.md
+          fi
+
+      - name: Sin candidatos
+        if: steps.body.outputs.count == '0'
+        run: echo "Nada nuevo que reportar."

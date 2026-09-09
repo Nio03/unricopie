@@ -15,7 +15,8 @@
     "astro": "astro",
     "check": "astro check",
     "refresh-stats": "node scripts/refresh-stats.mjs",
-    "validate-data": "node scripts/validate-data.mjs"
+    "validate-data": "node scripts/validate-data.mjs",
+    "discover": "node scripts/discover.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

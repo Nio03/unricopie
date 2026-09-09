@@ -1,0 +1,19 @@
+# Repos que scripts/discover.mjs NO debe volver a proponer.
+#
+# Un slug por línea, con el motivo detrás de "#". Sin esto, el bot vuelve a
+# sugerir cada día lo mismo que ya descartamos.
+#
+# Esto NO es lo mismo que borrar una ficha: el catálogo es un registro y no se
+# borra nada de él (ver la regla de append-only). Aquí solo van cosas que nunca
+# llegaron a entrar, con el porqué, para no re-decidirlo cada semana.
+
+# ── No son recompilaciones/decomps/ports, aunque el vídeo lo parezca ──
+TeamWheelWizard/WheelWizard        # gestor de mods de Retro Rewind sobre Dolphin, no un recomp
+ShaneMcGovernIE/potato_voxel       # mod voxel 3D encima de gen1recomp; no hay categoría de mods
+
+# ── No son proyectos ──
+Sebastrion/awesome-unofficial-pc-ports  # lista "awesome", no un proyecto
+
+# ── Forks de algo que ya está en el catálogo por su raíz ──
+J1mbo/cannonball-se                # fork de djyt/cannonball, que ya tiene ficha
+Endprodukt/cannonball-dx           # fork del anterior; ambos enlazados desde ports/cannonball.yaml
