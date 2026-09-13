@@ -1,0 +1,18 @@
+name: Pikmin
+category: decomp-port
+console: gamecube
+status: playable
+repo: SSunnKing/Open-Nectar---Pikmin-Native-PC-Port
+originalDeveloper: Nintendo EAD
+year: 2001
+forkOf:
+  label: projectPiki/pikmin
+  url: https://github.com/projectPiki/pikmin
+desc:
+  es: "Open Nectar: port nativo y de código abierto (CC0) de Pikmin para Linux y Windows, construido sobre la decompilación projectPiki. Ejecuta el código del juego directamente en el host y traduce el GX de GameCube. Casi todo el juego es jugable de principio a fin, a 30, 60 o 120 FPS, con el motor de audio JAudio original sobre un DSP por software, panorámico real (HUD y culling a 16:9, no estirado), los dos discos (USA Rev 1 y Europa en cinco idiomas) y postprocesado opcional."
+  en: "Open Nectar: native, open-source (CC0) port of Pikmin for Linux and Windows, built on the projectPiki decompilation. Runs the game code directly on the host and translates GameCube GX. Most of the game is playable from start to finish, at 30, 60 or 120 FPS, with the original JAudio engine on a software DSP, true widescreen (HUD and culling at 16:9, not stretched), both retail discs (USA Rev 1 and Europe in five languages) and optional post-processing."
+requirements:
+  es: "Tu propio disco de Pikmin (GameCube): USA Rev 1 o europeo."
+  en: "Your own Pikmin disc (GameCube): USA Rev 1 or European."
+tags:
+  - powerpc

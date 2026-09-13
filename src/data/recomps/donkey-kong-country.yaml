@@ -1,0 +1,16 @@
+name: Donkey Kong Country
+console: snes
+status: playable
+repo: elliotttate/DKC1Recomp
+originalDeveloper: Rare
+year: 1994
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática del DKC original (USA v1.0) sobre un fork de snesrecomp, siguiendo la plantilla de DKC2Recomp. A diferencia de la mayoría de recomps no tuvo que descubrir el código a ciegas: parte del desensamblado de Yoshifanatic1, que reconstruye la ROM byte a byte, y de él saca cada instrucción y cada tabla de saltos. Genera el 100 % del código del juego, con hosts nativos para Windows y macOS, audio continuo y un modo panorámico 342x224 opcional."
+  en: "Static recompilation of the original DKC (USA v1.0) on a snesrecomp fork, following the DKC2Recomp template. Unlike most recomps it did not have to discover the code blind: it starts from the Yoshifanatic1 disassembly, which rebuilds the ROM byte for byte, and derives every instruction and jump table from it. Generates 100% of the game code, with native Windows and macOS hosts, continuous audio and an optional 342x224 widescreen mode."
+requirements:
+  es: "Tu propia ROM de Donkey Kong Country (SNES, USA v1.0)."
+  en: "Your own Donkey Kong Country ROM (SNES, USA v1.0)."
+tags:
+  - "65816"
+  - rare

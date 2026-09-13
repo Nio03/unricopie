@@ -21,6 +21,7 @@ export const CONSOLES = {
   saturn: { label: 'Saturn', tag: 'SAT', full: 'Sega Saturn', arch: 'SH-2 x2', color: '#2C7D8C' },
   gba: { label: 'GBA', tag: 'GBA', full: 'Game Boy Advance', arch: 'ARM7', color: '#5B3A9C' },
   nds: { label: 'DS', tag: 'DS', full: 'Nintendo DS', arch: 'ARM9', color: '#A33B86' },
+  '3ds': { label: '3DS', tag: '3DS', full: 'Nintendo 3DS', arch: 'ARM11', color: '#B03A5B' },
   switch: { label: 'Switch', tag: 'NSW', full: 'Nintendo Switch', arch: 'ARM64', color: '#E0392B' },
   xbox: { label: 'Xbox', tag: 'XBX', full: 'Xbox', arch: 'x86', color: '#0E7A0E' },
   pc: { label: 'PC', tag: 'PC', full: 'PC', arch: 'x86', color: '#6C7193' },

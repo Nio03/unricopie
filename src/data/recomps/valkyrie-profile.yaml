@@ -1,0 +1,15 @@
+name: Valkyrie Profile
+console: ps1
+status: experimental
+repo: Ed1z19/ValkyrieRecomp
+originalDeveloper: tri-Ace
+year: 2000
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática del RPG de tri-Ace, construida sobre psxrecomp y recomp-ui. Soporta los dos discos (SLUS-01156 y SLUS-01179) con selección desde el launcher, panorámico 16:9 opcional sobre el 4:3 original, render por OpenGL o por software, mando y memory card. El autor lo da como trabajo en curso, en fase de pruebas de compatibilidad."
+  en: "Static recompilation of tri-Ace's RPG, built on psxrecomp and recomp-ui. Supports both discs (SLUS-01156 and SLUS-01179) with launcher-based selection, optional 16:9 widescreen over the original 4:3, OpenGL or software rendering, controller and memory card support. The author calls it a work in progress, in compatibility testing."
+requirements:
+  es: "Tus propias imágenes de los dos discos de Valkyrie Profile (edición estadounidense NTSC-U). Usa OpenBIOS a través de psxrecomp, así que no hace falta una BIOS de la consola."
+  en: "Your own disc images for both Valkyrie Profile discs (US NTSC-U edition). It uses OpenBIOS through psxrecomp, so a console BIOS is not required."
+tags:
+  - mips

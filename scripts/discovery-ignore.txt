@@ -17,3 +17,6 @@ Sebastrion/awesome-unofficial-pc-ports  # lista "awesome", no un proyecto
 # ── Forks de algo que ya está en el catálogo por su raíz ──
 J1mbo/cannonball-se                # fork de djyt/cannonball, que ya tiene ficha
 Endprodukt/cannonball-dx           # fork del anterior; ambos enlazados desde ports/cannonball.yaml
+elliotttate/wave-race-64-recomp    # fork de danielgomesvieira2000; enlazado desde recomps/wave-race-64-gomesvieira.yaml
+elliotttate/DKC2Recomp             # fork de mstan/DKC2Recomp; enlazado desde recomps/donkey-kong-country-2.yaml
+DabDavis/perfect-dark-dabs-mod     # fork con mods de fgsfdsfgs/perfect_dark, que ya tiene ficha en ports/

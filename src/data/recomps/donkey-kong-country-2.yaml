@@ -1,0 +1,19 @@
+name: "Donkey Kong Country 2: Diddy's Kong Quest"
+console: snes
+status: experimental
+repo: mstan/DKC2Recomp
+originalDeveloper: Rare
+year: 1995
+toolchain: snesrecomp
+desc:
+  es: "El recomp original de DKC2, subproducto de desarrollar snesrecomp: el programa 65816 se traduce a C allí donde el análisis puede demostrar el estado de entrada exacto (3.475 variantes AOT), y un intérprete 65816 compartido cubre el resto. Su autor lo da como prerelease sin terminar. El fork de elliotttate es el que hoy está activo y es más usado: añade build nativo para macOS en Apple Silicon y la opción de jugar con Donkey o Kiddy Kong."
+  en: "The original DKC2 recomp, a byproduct of developing snesrecomp: the 65816 program is translated to C wherever the analysis can prove an exact entry state (3,475 AOT variants), and a shared 65816 interpreter covers the rest. Its author calls it an unfinished pre-release. The elliotttate fork is the one actively developed and more widely used today: it adds a native Apple Silicon macOS build and the option to play as Donkey or Kiddy Kong."
+requirements:
+  es: "Tu propia ROM de Donkey Kong Country 2 (SNES, USA v1.0)."
+  en: "Your own Donkey Kong Country 2 ROM (SNES, USA v1.0)."
+tags:
+  - "65816"
+  - rare
+links:
+  - label: Fork de elliotttate (activo, macOS)
+    url: https://github.com/elliotttate/DKC2Recomp

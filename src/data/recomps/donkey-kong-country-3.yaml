@@ -1,0 +1,16 @@
+name: "Donkey Kong Country 3: Dixie Kong's Double Trouble!"
+console: snes
+status: experimental
+repo: elliotttate/DKC3Recomp
+originalDeveloper: Rare
+year: 1996
+toolchain: snesrecomp
+desc:
+  es: "Recompilación de DKC3 hecha como se hizo DKC2Recomp: el código se recompila estáticamente a C con snesrecomp a partir de una configuración de bancos derivada de un desensamblado público, el runtime compartido ejecuta por intérprete lo que el análisis no puede demostrar, y hosts propios presentan el juego en macOS y Windows. En fase de arranque: el autor no reclama todavía que se pueda completar."
+  en: "Recompilation of DKC3 built the way DKC2Recomp was built: the code is statically recompiled to C by snesrecomp from a bank configuration derived from a public disassembly, the shared runtime interprets whatever the analysis cannot prove, and project-owned hosts present the game on macOS and Windows. In bring-up: the author does not yet claim it can be completed."
+requirements:
+  es: "Tu propia ROM de Donkey Kong Country 3 (SNES, norteamericana En/Fr, sin cabecera, 4 MiB)."
+  en: "Your own Donkey Kong Country 3 ROM (SNES, North American En/Fr, headerless, 4 MiB)."
+tags:
+  - "65816"
+  - rare

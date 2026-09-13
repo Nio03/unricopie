@@ -1,0 +1,18 @@
+name: Wave Race 64 (gomesvieira)
+console: n64
+status: playable
+repo: danielgomesvieira2000/wave-race-64-recomp
+originalDeveloper: Nintendo EAD
+year: 1996
+toolchain: N64Recomp
+desc:
+  es: "Port nativo por recompilación estática con N64Recomp, corriendo sobre N64ModernRuntime con RT64 de render y RecompFrontend para menús y mando. Es un proyecto independiente, sin relación con el otro recomp de Wave Race 64 que ya está en el catálogo: este llega a builds jugables en beta y aquel se quedó arrancando a ruido. El fork de elliotttate añade compilación para macOS en Apple Silicon, texturas HD y banda sonora alternativa. Ambos repositorios declaran que el port está programado con asistencia de IA."
+  en: "Native port by static recompilation with N64Recomp, running on N64ModernRuntime with RT64 as the renderer and RecompFrontend for menus and controller support. It is an independent project, unrelated to the other Wave Race 64 recomp already in the catalogue: this one reaches playable beta builds while that one stalled at booting to noise. The elliotttate fork adds an Apple Silicon macOS build, HD textures and a replacement soundtrack. Both repositories state that the port is AI-coded."
+requirements:
+  es: "Tu propia ROM de Wave Race 64, obligatoriamente la USA Rev A (v1.1, .z64 de 8 MiB). Las versiones USA v1.0, japonesa, europea y Shindou NO funcionan: el código está dispuesto de otra forma y cada dirección del proyecto depende de la Rev A."
+  en: "Your own Wave Race 64 ROM, and it must be USA Rev A (v1.1, 8 MiB .z64). The USA v1.0, Japanese, European and Shindou versions will NOT work: their code is laid out differently and every address in the project is tied to Rev A."
+tags:
+  - mips
+links:
+  - label: Fork de elliotttate (macOS, texturas HD)
+    url: https://github.com/elliotttate/wave-race-64-recomp

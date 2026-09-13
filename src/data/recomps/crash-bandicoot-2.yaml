@@ -1,0 +1,15 @@
+name: "Crash Bandicoot 2: Cortex Strikes Back"
+console: ps1
+status: playable
+repo: Zumbo06/Crash2Recomp
+originalDeveloper: Naughty Dog
+year: 1997
+toolchain: psxrecomp
+desc:
+  es: "El juego traducido a código nativo y ejecutado directamente, no emulado, sobre psxrecomp. Un launcher toma tu imagen de disco, la verifica y la hashea, traduce el juego a C y lo compila en tu propia máquina (entre cinco y veinte minutos la primera vez). Se puede completar de principio a fin, con fallos menores de sonido y gráficos; el autor lo trata como preview."
+  en: "The game translated to native code and run directly, not emulated, on psxrecomp. A launcher takes your disc image, checks and hashes it, translates the game to C and compiles it on your own machine (five to twenty minutes the first time). Completable from start to finish, with minor sound and graphics issues; the author treats it as a preview."
+requirements:
+  es: "Tu propia imagen de disco de Crash Bandicoot 2 (edición norteamericana SCUS-94154), en .cue/.bin o .chd. Windows 10 o posterior de 64 bits y unos 3 GB libres durante la compilación. No hace falta BIOS: incluye OpenBIOS."
+  en: "Your own Crash Bandicoot 2 disc image (North American SCUS-94154), as .cue/.bin or .chd. 64-bit Windows 10 or later and about 3 GB free during the build. No BIOS needed: OpenBIOS is included."
+tags:
+  - mips

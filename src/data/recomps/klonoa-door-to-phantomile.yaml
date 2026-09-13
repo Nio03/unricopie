@@ -1,0 +1,18 @@
+name: "Klonoa: Door to Phantomile"
+console: ps1
+status: experimental
+repo: TechnicallyComputers/Klonoa-Door-to-Phantomile
+originalDeveloper: Namco
+year: 1997
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática del plataformas 2.5D de Namco, construida sobre psxrecomp y recomp-ui. Se puede usar suelto desde el zip de la release o gestionarlo con RetComM Launcher, del mismo autor, que automatiza actualizaciones, compilaciones y el cableado de ROM y BIOS."
+  en: "Static recompilation of Namco's 2.5D platformer, built on psxrecomp and recomp-ui. It runs standalone from the release zip, or can be managed with RetComM Launcher, by the same author, which automates updates, builds and the ROM and BIOS plumbing."
+requirements:
+  es: "Tu propia imagen de disco de Klonoa: Door to Phantomile (edición estadounidense). Usa OpenBIOS salvo que aportes tu propia BIOS SCPH."
+  en: "Your own Klonoa: Door to Phantomile disc image (US edition). It uses OpenBIOS unless you supply your own SCPH BIOS."
+tags:
+  - mips
+links:
+  - label: RetComM Launcher
+    url: https://github.com/TechnicallyComputers/RetComM-Launcher

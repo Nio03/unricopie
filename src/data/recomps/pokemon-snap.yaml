@@ -1,0 +1,16 @@
+name: Pokémon Snap
+console: n64
+status: playable
+repo: JackandBeans/Snap64Recomp
+originalDeveloper: HAL Laboratory
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Snap64 Recomp: port nativo a Windows de Pokémon Snap (edición estadounidense). N64Recomp traduce el código MIPS a C, N64ModernRuntime sustituye al sistema operativo de la consola, RT64 renderiza y SDL2 pone ventana, entrada y audio. La regla del port: corre el código original del juego, y cualquier cambio en cómo se ve está apagado hasta que lo enciendes."
+  en: "Snap64 Recomp: native Windows port of Pokémon Snap (US release). N64Recomp translates the MIPS code to C, N64ModernRuntime stands in for the console's operating system, RT64 renders and SDL2 provides window, input and audio. The port's rule: the game's own code runs, and every change to how it looks is off until you turn it on."
+requirements:
+  es: "Tu propio volcado del cartucho de Pokémon Snap (N64, USA)."
+  en: "Your own Pokémon Snap cartridge dump (N64, US)."
+tags:
+  - mips
+  - pokemon

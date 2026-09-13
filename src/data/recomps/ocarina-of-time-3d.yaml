@@ -1,0 +1,15 @@
+name: "The Legend of Zelda: Ocarina of Time 3D"
+console: 3ds
+status: experimental
+repo: coccofresco/TriAevum
+originalDeveloper: Grezzo
+year: 2011
+desc:
+  es: "TriAevum: recompilación estática anticipada (AOT) del remake de 3DS, con render NRI/Vulkan propio, interfaz de una sola pantalla y ajustes gráficos. No recompila el original de N64, sino la versión de Grezzo. Se apoya en código de proyectos ya maduros (Azahar, Ship of Harkinian, NRI) y su autor declara que el trabajo específico de TriAevum es enteramente asistido por IA bajo dirección humana. En alfa."
+  en: "TriAevum: static ahead-of-time recompilation of the 3DS remake, with its own NRI/Vulkan renderer, a single-screen interface and graphics options. It does not recompile the N64 original but Grezzo's version. It leans on code from mature projects (Azahar, Ship of Harkinian, NRI) and its author states that the TriAevum-specific work is entirely AI-assisted under human direction. In alpha."
+requirements:
+  es: "Tu propia ROM de Ocarina of Time 3D (EUR o USA), descifrada y en formato .3ds o .cci. Windows x64 y una GPU compatible con Vulkan."
+  en: "Your own Ocarina of Time 3D ROM (EUR or USA), decrypted and in .3ds or .cci format. Windows x64 and a Vulkan-capable GPU."
+tags:
+  - arm11
+  - vulkan

@@ -40,7 +40,9 @@ jobs:
       - name: Buscar candidatos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run discover -- --previous previous.json --json candidates.json > report.md
+        # --silent: sin él, npm imprime su cabecera ("> recompendium@0.2.0 discover")
+        # y acaba dentro del cuerpo del issue.
+        run: npm run discover --silent -- --previous previous.json --json candidates.json > report.md
 
       - name: Montar el cuerpo del issue
         id: body
@@ -69,6 +71,17 @@ jobs:
               --label descubrimiento --body-file body.md
           fi
 
+      # Cola vacía: si había un issue abierto, todo lo que listaba ya se trió
+      # (entró en el catálogo o en la lista de descartes). Se cierra solo.
       - name: Sin candidatos
         if: steps.body.outputs.count == '0'
-        run: echo "Nada nuevo que reportar."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ -n "${{ steps.prev.outputs.number }}" ]]; then
+            gh issue close "${{ steps.prev.outputs.number }}" \
+              --comment "Todos los candidatos están ya en el catálogo o en \`scripts/discovery-ignore.txt\`. Cerrado por el bot."
+            echo "Issue #${{ steps.prev.outputs.number }} cerrado."
+          else
+            echo "Nada nuevo que reportar."
+          fi
