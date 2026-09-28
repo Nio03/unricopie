@@ -12,8 +12,11 @@ const { lang } = Astro.props;
 const all = await getAllItems(lang);
 const items = all.filter((i) => i.type === "recomp");
 
+// Sobre `all`, no sobre `items`: las otras cuatro cifras de la fila cuentan todo
+// el catálogo, y esta contaba solo los recomps. Decía 12 con 22 plataformas
+// cubiertas, y no se movía al entrar una consola nueva por ports o decomps.
 const consoles = new Set<string>();
-for (const i of items) for (const c of i.consoleKeys) consoles.add(c);
+for (const i of all) for (const c of i.consoleKeys) consoles.add(c);
 const stats = [
   { n: items.length, label: t(lang, "home.stat.recomps") },
   { n: all.filter((i) => i.type === "port").length, label: t(lang, "home.stat.ports") },

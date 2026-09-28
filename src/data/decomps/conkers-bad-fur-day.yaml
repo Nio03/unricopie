@@ -1,0 +1,11 @@
+name: "Conker's Bad Fur Day"
+console: n64
+repo: mkst/conker
+decomp: mkst/conker
+abandoned: true
+desc:
+  es: "Decompilación de la versión estadounidense, y la base sobre la que se construye el recomp de Conker que también está en el catálogo. Se compila en Docker colocando tu propia ROM en la raíz del repositorio. El repositorio está archivado en GitHub desde mayo de 2026: el progreso se conserva y sigue siendo utilizable, pero no avanza."
+  en: "Decompilation of the US version, and the base the Conker recomp also in the catalogue is built on. It builds in Docker with your own ROM placed at the repository root. The repository has been archived on GitHub since May 2026: the progress is preserved and still usable, but it is no longer moving."
+tags:
+  - mips
+  - rare

@@ -18,6 +18,11 @@ StillJC/ArcadeDuck-Site            # la web de ArcadeDuck, que ademas es un emul
 # ── Emuladores: fuera por definicion, por muy cerca de la escena que esten ──
 Tovarichtch/xemu                   # fork de xemu para emular la placa Sega Chihiro
 
+# ── Redistribuyen contenido del juego ──
+# El catalogo solo enlaza codigo que exige tu propia copia. Esto no es un juicio
+# sobre el proyecto: es la linea que el README del sitio declara y hay que sostener.
+Aethermusicai/re2segasaturn        # port de RE2 a Saturn que empaqueta el disco jugable con los assets originales dentro
+
 # ── Forks de algo que ya está en el catálogo por su raíz ──
 J1mbo/cannonball-se                # fork de djyt/cannonball, que ya tiene ficha
 Endprodukt/cannonball-dx           # fork del anterior; ambos enlazados desde ports/cannonball.yaml
