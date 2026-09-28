@@ -1,0 +1,20 @@
+name: Super Smash Bros. Melee (melee-pc)
+category: decomp-port
+console: gamecube
+status: playable
+repo: 999sian/melee-pc
+author: 999sian
+originalDeveloper: HAL Laboratory
+year: 2001
+forkOf:
+  label: doldecomp/melee
+  url: https://github.com/doldecomp/melee
+desc:
+  es: "Port nativo de Melee (NTSC-U 1.02) construido desde la decompilación doldecomp/melee sobre aurora —capa de compatibilidad de GX con backend WebGPU— y SDL3. Del mismo autor que Project Picori. En beta declarada: incluye LAN, códigos de amigo por internet y emparejamiento con partidas al mejor de tres, y el netcode con rollback sigue en desarrollo. El código decompilado del juego no está licenciado; solo el del port lo está (GPL-3)."
+  en: "Native Melee port (NTSC-U 1.02) built from the doldecomp/melee decompilation on aurora — a GX compatibility layer with a WebGPU backend — and SDL3. By the same author as Project Picori. Declared beta: it ships LAN, internet friend codes and best-of-three matchmaking, with rollback netcode still in development. The decompiled game code is not licensed; only the port code is (GPL-3)."
+requirements:
+  es: "Tu propia imagen de disco de Super Smash Bros. Melee (NTSC-U 1.02). No se distribuye ningún dato del juego."
+  en: "Your own Super Smash Bros. Melee disc image (NTSC-U 1.02). No game data is distributed."
+tags:
+  - powerpc
+  - netplay

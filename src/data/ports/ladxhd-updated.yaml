@@ -1,0 +1,18 @@
+name: LADXHD Updated
+category: fan-remake
+status: fully
+repoUrl: https://gitlab.com/bighead.0/ladxhd_updated
+author: bighead
+originalDeveloper: Nintendo
+year: 1998
+enrich: false
+desc:
+  es: "Fork mantenido de LADXHD, el remake en alta definición de Link's Awakening DX (Game Boy Color) que recibió una reclamación de copyright en 2023. Corrige y amplía las ideas del remake original hasta volverse algo propio, con compilaciones para Windows (DX11/OpenGL), Linux, macOS y Android, y un sistema de mods propio. Vive en GitLab precisamente porque el repositorio de GitHub fue retirado."
+  en: "Maintained fork of LADXHD, the high-definition remake of Link's Awakening DX (Game Boy Color) that was hit by a copyright claim in 2023. It fixes and expands on the original remake's ideas until it becomes its own thing, with builds for Windows (DX11/OpenGL), Linux, macOS and Android, plus its own mod system. It lives on GitLab precisely because the GitHub repository was taken down."
+requirements:
+  es: "Los assets de la release original de LADXHD v1.0.0. El repositorio no incluye nada con copyright; trae herramientas para migrar tus archivos a la versión nueva."
+  en: "The assets from the original LADXHD v1.0.0 release. The repository ships nothing copyrighted; it includes tooling to migrate your files to the newer version."
+tags:
+  - zelda
+  - gitlab
+  - mods

@@ -3,8 +3,16 @@ category: decomp-port
 console: n64
 status: playable
 repo: Zorkats/G-Diffuser
+author: Zorkats
 originalDeveloper: Nintendo EAD
 year: 1998
 desc:
-  es: Port no oficial de F-Zero X a PC basado en la decompilación de inspectredc.
-  en: Unofficial PC port of F-Zero X based on the decompilation by inspectredc.
+  es: "G-Diffuser: port nativo de F-Zero X, sin emulador de por medio. Es un source port completo sobre la decompilación matching de inspectredc/fzerox y el runtime libultraship (el mismo motor detrás de Ship of Harkinian y Starship). Sobre el juego original añade panorámico real, un menú de mejoras dentro del juego, comodidades varias, mods por packs de texturas y soporte completo del 64DD Expansion Kit, con Course Edit y las copas del DD incluidas."
+  en: "G-Diffuser: native F-Zero X port with no emulator in the loop. It is a full source port on top of the inspectredc/fzerox matching decompilation and the libultraship runtime (the same engine behind Ship of Harkinian and Starship). On top of the original game it adds true widescreen, an in-game enhancement menu, quality-of-life features, texture-pack modding and full 64DD Expansion Kit support, Course Edit and the DD cups included."
+requirements:
+  es: "Tu propia ROM de F-Zero X (N64). Para el contenido del 64DD, además tu propio volcado del Expansion Kit. El repositorio no incluye ROM, disco, IPL ni assets extraídos."
+  en: "Your own F-Zero X ROM (N64). For the 64DD content, your own Expansion Kit dump as well. The repository ships no ROM, disk, IPL or extracted assets."
+tags:
+  - mips
+  - libultraship
+  - 64dd

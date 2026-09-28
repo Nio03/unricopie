@@ -1,0 +1,16 @@
+name: King's Field
+console: ps1
+status: playable
+repo: Voicedrew11/verdite2
+author: Voicedrew11
+originalDeveloper: FromSoftware
+year: 1996
+toolchain: RecompOne
+desc:
+  es: "Verdite2: port a PC de King's Field (edición estadounidense SLUS-00158) construido sobre RecompOne. Añade panorámico 16:9, 16:10 y 21:9 con el culling ajustado, texturas con corrección de perspectiva, arreglo del temblor de vértices, controles modernos de doble stick, teclado y ratón, y recarga automática de la partida al morir. Su autor lo describe como un intento dirigido por IA y lo da como jugable de principio a fin, con algún fallo intermitente."
+  en: "Verdite2: PC port of King's Field (US edition SLUS-00158) built on RecompOne. It adds 16:9, 16:10 and 21:9 widescreen with adjusted culling, perspective-correct textures, a fix for vertex wobble, modern twin-stick controls, keyboard and mouse, and an automatic save reload on death. Its author describes it as an AI-driven attempt and calls it playable from start to finish, with occasional issues."
+requirements:
+  es: "Tu propio volcado de King's Field (PS1, edición norteamericana SLUS-00158), en .cue/.bin o .chd."
+  en: "Your own King's Field dump (PS1, North American edition SLUS-00158), as .cue/.bin or .chd."
+tags:
+  - mips

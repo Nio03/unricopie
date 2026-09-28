@@ -1,0 +1,15 @@
+name: Quiver Launcher
+kind: launcher
+repo: tgeorgiadis/quiver-launcher
+author: tgeorgiadis
+status: stable
+forkOf:
+  label: SirDiabo/GithubLauncher
+  url: https://github.com/SirDiabo/GithubLauncher
+desc:
+  es: "Launcher genérico para descargar, instalar y ejecutar cualquier programa publicado como release de GitHub o GitLab — no es específico de recomps, pero la escena lo usa precisamente para eso. Trae biblioteca personal, suscripción a catálogos de la comunidad, filtros por etiquetas y gestión de mods. Es un fork de GithubLauncher, renombrado para no usar la marca GitHub."
+  en: "Generic launcher for downloading, installing and running anything published as a GitHub or GitLab release — not recomp-specific, but the scene uses it for exactly that. It has a personal library, community catalogue subscriptions, tag filters and mod management. A fork of GithubLauncher, renamed to avoid using the GitHub trademark."
+tags:
+  - downloader
+  - auto-update
+  - mods
