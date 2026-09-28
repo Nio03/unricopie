@@ -3,7 +3,7 @@ console: ps1
 status: experimental
 repo: Ed1z19/ValkyrieRecomp
 originalDeveloper: tri-Ace
-year: 2000
+year: 1999
 toolchain: psxrecomp
 desc:
   es: "Recompilación estática del RPG de tri-Ace, construida sobre psxrecomp y recomp-ui. Soporta los dos discos (SLUS-01156 y SLUS-01179) con selección desde el launcher, panorámico 16:9 opcional sobre el 4:3 original, render por OpenGL o por software, mando y memory card. El autor lo da como trabajo en curso, en fase de pruebas de compatibilidad."

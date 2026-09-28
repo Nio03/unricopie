@@ -42,7 +42,7 @@ status: playable                 # experimental | playable | fully
 repo: usuario/ConkerRecomp       # owner/repo (sin URL). Omite si no vive en GitHub.
 author: usuario
 originalDeveloper: Rare
-year: 2025
+year: 2001                       # el año del JUEGO original, no del recomp — ver abajo
 progress: 80                     # opcional — % aproximado
 toolchain: N64Recomp             # opcional — N64Recomp | XenonRecomp | ReXGlue…
 desc: { es: "…", en: "…" }       # requerido
@@ -53,6 +53,7 @@ tags: [widescreen, mods]
 
 **Consolas:** las claves de `src/lib/consoles.ts` — hoy `nes`, `snes`, `n64`, `gamecube`, `wii`, `wiiu`, `switch`, `gb`, `gbc`, `gba`, `nds`, `3ds`, `ps1`, `ps2`, `ps3`, `psp`, `xbox`, `x360`, `dreamcast` (también NAOMI), `saturn`, `arcade`, `pc`, `other`. Usa `arcade` solo para placas sin consola hermana (CPS-3, Sega OutRun…): NAOMI comparte silicio con la Dreamcast y va en `dreamcast`.
 **Estados:** `experimental`, `playable`, `fully` (completamente jugable). No existe `wip`: el `astro build` lo rechaza.
+**`year`:** el año en que el **juego original** salió **en la consola de la ficha**, no el del recomp ni el de la edición que tú uses. Cuando hay varias regiones, la primera: King's Field es `1995` (Japón) aunque el disco estadounidense sea de 1996. Cuando el juego viene de recreativa, cuenta su llegada a esa consola: Ridge Racer es `1994` (PS1) aunque la recreativa sea de 1993, y Bloody Roar II es `1999` (PS1) aunque la recreativa sea de 1998.
 **Proyecto muerto o retirado:** no borres la entrada; añade `abandoned: true` o `takedown: true` (y quita `repo` si fue por reclamación).
 
 ## Añadir una herramienta / launcher

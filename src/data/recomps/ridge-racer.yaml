@@ -4,7 +4,7 @@ status: playable
 repo: RobGreenUK/Ridge-Racer-PS1-Recomp
 author: RobGreenUK
 originalDeveloper: Namco
-year: 1995
+year: 1994
 toolchain: psxrecomp
 desc:
   es: "Recompilación de Ridge Racer (edición estadounidense SCUS-94300) con un render propio para Macs de Apple Silicon y Windows 11 x64: resoluciones altas, salida 4:3 y 16:9, texturas con corrección de perspectiva, más escenario visible e interpolado a la tasa que elijas. El juego original sigue llevando la física, el tiempo de simulación, el audio y las repeticiones — subir los FPS de render no acelera la física. No hay releases: se compila en tu máquina. Su autor declara que lo desarrolló con OpenAI Codex, dirigiéndolo y probándolo él."
