@@ -51,7 +51,7 @@ tags: [widescreen, mods]
 # enrich: false                  # solo si comparte repo con otra entrada
 ```
 
-**Consolas:** las claves de `src/lib/consoles.ts` — hoy `snes`, `n64`, `gamecube`, `wii`, `wiiu`, `switch`, `ps1`, `ps2`, `ps3`, `psp`, `xbox`, `x360`, `dreamcast` (también NAOMI), `saturn`, `gba`, `nds`, `3ds`, `pc`, `other`.
+**Consolas:** las claves de `src/lib/consoles.ts` — hoy `nes`, `snes`, `n64`, `gamecube`, `wii`, `wiiu`, `switch`, `gb`, `gbc`, `gba`, `nds`, `3ds`, `ps1`, `ps2`, `ps3`, `psp`, `xbox`, `x360`, `dreamcast` (también NAOMI), `saturn`, `arcade`, `pc`, `other`. Usa `arcade` solo para placas sin consola hermana (CPS-3, Sega OutRun…): NAOMI comparte silicio con la Dreamcast y va en `dreamcast`.
 **Estados:** `experimental`, `playable`, `fully` (completamente jugable). No existe `wip`: el `astro build` lo rechaza.
 **Proyecto muerto o retirado:** no borres la entrada; añade `abandoned: true` o `takedown: true` (y quita `repo` si fue por reclamación).
 

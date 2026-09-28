@@ -5,6 +5,7 @@
 // Colores de consola vivos (estilo "boxart"), legibles sobre el tema oscuro.
 // `tag` es el código corto para la mini-portada del catálogo.
 export const CONSOLES = {
+  nes: { label: 'NES', tag: 'NES', full: 'Nintendo Entertainment System', arch: '6502', color: '#9E5A4F' },
   snes: { label: 'SNES', tag: 'SNES', full: 'Super Nintendo', arch: '65816', color: '#9B7BD4' },
   n64: { label: 'N64', tag: 'N64', full: 'Nintendo 64', arch: 'MIPS', color: '#C9252B' },
   gamecube: { label: 'GameCube', tag: 'GC', full: 'Nintendo GameCube', arch: 'PowerPC', color: '#6A5FA5' },
@@ -19,11 +20,16 @@ export const CONSOLES = {
   // comparten clave: la ficha del juego aclara en cuál de las dos salió.
   dreamcast: { label: 'Dreamcast', tag: 'DC', full: 'Sega Dreamcast / NAOMI', arch: 'SH-4', color: '#E07A3A' },
   saturn: { label: 'Saturn', tag: 'SAT', full: 'Sega Saturn', arch: 'SH-2 x2', color: '#2C7D8C' },
+  gb: { label: 'Game Boy', tag: 'GB', full: 'Game Boy', arch: 'Sharp SM83', color: '#8A9A3B' },
+  gbc: { label: 'GBC', tag: 'GBC', full: 'Game Boy Color', arch: 'Sharp SM83', color: '#2E9E78' },
   gba: { label: 'GBA', tag: 'GBA', full: 'Game Boy Advance', arch: 'ARM7', color: '#5B3A9C' },
   nds: { label: 'DS', tag: 'DS', full: 'Nintendo DS', arch: 'ARM9', color: '#A33B86' },
   '3ds': { label: '3DS', tag: '3DS', full: 'Nintendo 3DS', arch: 'ARM11', color: '#B03A5B' },
   switch: { label: 'Switch', tag: 'NSW', full: 'Nintendo Switch', arch: 'ARM64', color: '#E0392B' },
   xbox: { label: 'Xbox', tag: 'XBX', full: 'Xbox', arch: 'x86', color: '#0E7A0E' },
+  // Placas de recreativa sin consola hermana (CPS-3, Sega OutRun…). NAOMI NO va
+  // aquí: comparte silicio con la Dreamcast y se queda en esa clave.
+  arcade: { label: 'Arcade', tag: 'ARC', full: 'Arcade board', arch: '—', color: '#B8873B' },
   pc: { label: 'PC', tag: 'PC', full: 'PC', arch: 'x86', color: '#6C7193' },
   other: { label: 'Other', tag: 'ETC', full: 'Other platform', arch: '—', color: '#9AA0B5' },
 } as const;
