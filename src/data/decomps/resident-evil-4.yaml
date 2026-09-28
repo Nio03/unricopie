@@ -1,0 +1,9 @@
+name: Resident Evil 4
+console: gamecube
+repo: adonis-singh/re4
+desc:
+  es: "Decompilación **completa y byte a byte** de la build de depuración de GameCube, la G4BE08 de dos discos del 25 de noviembre de 2004. Lo que la hizo posible fue que esa build venía con los símbolos Bio4.sym, que nombran cada función. Al compilar el repositorio se reconstruyen los archivos originales exactos —main.dol y sus 114 overlays REL—, comprobados contra sus SHA1 en cada build. Son unas 570.000 líneas de C y C++ sin un solo archivo de ensamblador, compiladas con los compiladores originales."
+  en: "Complete, **byte-identical** decompilation of the GameCube debug build: G4BE08, the two-disc 25 November 2004 prototype. What made it possible is that this build shipped with Bio4.sym symbol files naming every function. Building the repository reproduces the exact original files — main.dol and its 114 REL overlays — checked against their SHA1s on every build. About 570,000 lines of C and C++ with not a single assembly file, built with the original compilers."
+tags:
+  - powerpc
+  - matching

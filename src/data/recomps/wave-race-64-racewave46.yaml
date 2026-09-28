@@ -1,0 +1,14 @@
+name: Wave Race 64 (RaceWave46)
+console: n64
+status: playable
+repo: DomazinUS/RaceWave46
+originalDeveloper: Nintendo EAD
+year: 1996
+desc:
+  es: "Tercer proyecto independiente de Wave Race 64 del catálogo, sin relación con los otros dos. Lleva la versión USA Rev 1 a PC con resoluciones altas, presentación interpolada, panorámico, opciones gráficas nuevas y multijugador local ampliado, conservando modos y progresión del original: campeonato, contrarreloj, modo acrobacias, dos jugadores y Dolphin Park. Su autor declara que está desarrollado con asistencia de IA."
+  en: "Third independent Wave Race 64 project in the catalogue, unrelated to the other two. It brings the USA Rev 1 version to PC with higher resolutions, interpolated presentation, widescreen, new graphics options and expanded local multiplayer, keeping the original's modes and progression: championship, time trials, stunt mode, two-player and Dolphin Park. Its author states it is AI-assisted."
+requirements:
+  es: "Tu propia ROM de Wave Race 64 (N64), versión USA Rev 1."
+  en: "Your own Wave Race 64 ROM (N64), USA Rev 1 version."
+tags:
+  - mips

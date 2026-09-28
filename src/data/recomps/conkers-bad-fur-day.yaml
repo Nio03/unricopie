@@ -1,0 +1,16 @@
+name: "Conker's Bad Fur Day"
+console: n64
+status: playable
+repo: sciaschi/CBFD-Recompiled
+originalDeveloper: Rare
+year: 2001
+toolchain: N64Recomp
+desc:
+  es: "Port nativo de la versión estadounidense, recompilada estáticamente con N64Recomp partiendo de la decompilación del juego. Hay builds listas para jugar en Windows, Linux y macOS con Apple Silicon: se descomprime, se ejecuta y se elige la ROM en el launcher la primera vez. El paquete no trae nada del juego — todo se extrae de tu ROM en tu máquina durante la compilación."
+  en: "Native port of the US version, statically recompiled with N64Recomp starting from the game's decompilation. Ready-to-play builds exist for Windows, Linux and Apple Silicon macOS: unpack it, run it and pick your ROM in the launcher the first time. The package carries nothing from the game — everything is extracted from your ROM on your machine during the build."
+requirements:
+  es: "Tu propia ROM de Conker's Bad Fur Day (N64, versión estadounidense)."
+  en: "Your own Conker's Bad Fur Day ROM (N64, US version)."
+tags:
+  - mips
+  - rare

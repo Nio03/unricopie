@@ -1,0 +1,14 @@
+name: Lost Odyssey (freefrank)
+console: x360
+status: experimental
+repo: freefrank/LostOdysseyRecomp
+originalDeveloper: Mistwalker / feelplus
+year: 2008
+desc:
+  es: "Port nativo a PC del RPG de Mistwalker por recompilación estática de PowerPC, con render Direct3D 12 y Vulkan, generación de fotogramas opcional (DLSS/FSR) y AppImage para Linux. Proyecto independiente del otro recomp de Lost Odyssey que ya está en el catálogo, que usa XenonRecomp. Su autor avisa de que sigue en pruebas tempranas: hay zonas y escenas probadas, pero no una partida completa."
+  en: "Native PC port of Mistwalker's RPG by PowerPC static recompilation, with Direct3D 12 and Vulkan renderers, optional frame generation (DLSS/FSR) and a Linux AppImage. A separate project from the other Lost Odyssey recomp already in the catalogue, which uses XenonRecomp. Its author warns it is still in early testing: areas and scenes have been tested, but not a full playthrough."
+requirements:
+  es: "Tus propios archivos de Lost Odyssey (Xbox 360). El importador acepta una carpeta extraída, el default.xex, una ISO XDVDFS o un contenedor GOD."
+  en: "Your own Lost Odyssey game files (Xbox 360). The importer accepts an extracted folder, default.xex, an XDVDFS ISO or a GOD container."
+tags:
+  - powerpc

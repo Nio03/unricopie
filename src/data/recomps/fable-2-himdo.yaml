@@ -1,0 +1,15 @@
+name: Fable II (himdo)
+console: x360
+status: playable
+repo: himdo/Fable-2-Recomp
+originalDeveloper: Lionhead Studios
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Recompilación de Fable II sobre el SDK ReXGlue: el código PowerPC se traduce a C++ en tiempo de compilación. Proyecto distinto del otro recomp de Fable II que ya está fichado, que va por XenonRecomp. Su autor cuenta que lo empezó para medir qué daba de sí una IA local y de código abierto (Qwen3), que en una hora arrancó el juego, y que el resto fue prueba y error humana hasta poder completarlo. Añade FPS desbloqueados, teclado y ratón y scripts en Lua."
+  en: "Recompilation of Fable II on the ReXGlue SDK: the PowerPC code is translated to C++ at build time. A separate project from the other Fable II recomp already catalogued, which goes through XenonRecomp. Its author says he started it to gauge what a local, open-source AI (Qwen3) could do, that it got the game booting within an hour, and that the rest was human trial and error until it could be completed. Adds uncapped frame rate, keyboard and mouse, and Lua scripting."
+requirements:
+  es: "Tu propia copia de Fable II para Xbox 360 (edición GOTY estadounidense o europea, título 4D5307F1)."
+  en: "Your own copy of Fable II for Xbox 360 (US or European GOTY edition, title 4D5307F1)."
+tags:
+  - powerpc

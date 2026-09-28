@@ -1,0 +1,15 @@
+name: Road Rash 64
+console: n64
+status: playable
+repo: linkssy2/RoadRash64Recompiled
+originalDeveloper: Avalanche Software
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Port para Windows y Linux experimental, construido con N64Recomp, N64ModernRuntime, RT64 y RecompFrontend. Presentación a 60 fps, nivel de detalle al máximo, panorámico, música propia y multijugador en línea todavía experimental. Su autor dedica una sección del README a declarar que usó IA de forma extensa —código, depuración, documentación y parte del arte del launcher— y a decir que prefiere admitirlo antes que dar a entender que está escrito enteramente a mano."
+  en: "Windows and experimental native Linux port, built with N64Recomp, N64ModernRuntime, RT64 and RecompFrontend. 60 fps presentation, max LOD, widescreen, custom music and still-experimental online multiplayer. Its author devotes a README section to stating that AI was used extensively — code, debugging, documentation and part of the launcher artwork — and to saying he would rather admit it than imply the work was entirely hand-written."
+requirements:
+  es: "Tu propia ROM de Road Rash 64 (N64, USA v1.0). No se distribuye ni ROM ni banda sonora."
+  en: "Your own Road Rash 64 ROM (N64, USA v1.0). Neither ROM nor soundtrack is distributed."
+tags:
+  - mips

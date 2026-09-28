@@ -1,0 +1,14 @@
+name: Monster Hunter Portable 3rd HD
+console: psp
+status: experimental
+repo: TeamGDB/Yakumo
+originalDeveloper: Capcom
+year: 2011
+desc:
+  es: "Yakumo: port nativo por recompilación estática, con Vulkan y SDL3. El código PSP del juego se traduce por adelantado a C++ y se compila para tu máquina, y corre sobre una reimplementación del software de sistema de la PSP. Su README es tajante en las dos direcciones: no es un emulador, porque no hay intérprete ni JIT en el núcleo, y tampoco es una decompilación. El canal lo presentó como el primer recomp de PSP terminado al 100%."
+  en: "Yakumo: native port by static recompilation, with Vulkan and SDL3. The game's PSP code is translated ahead of time into C++ and compiled for your machine, then run on a reimplementation of the PSP system software. Its README is emphatic in both directions: it is not an emulator, since there is no interpreter or JIT at its heart, and it is not a decompilation either. The channel covered it as the first 100% complete PSP recomp."
+requirements:
+  es: "Los archivos de tu propia copia de Monster Hunter Portable 3rd HD Ver. (NPJB-40001). El instalador comprueba la copia y solo acepta la release original."
+  en: "The files from your own copy of Monster Hunter Portable 3rd HD Ver. (NPJB-40001). The installer checks your copy and accepts only the original release."
+tags:
+  - mips

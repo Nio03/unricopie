@@ -1,0 +1,15 @@
+name: Beetle Adventure Racing (gomesvieira)
+console: n64
+status: playable
+repo: danielgomesvieira2000/beetle-adventure-racing-recomp
+originalDeveloper: Paradigm Entertainment
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Port nativo por recompilación estática con N64Recomp, distinto del otro recomp de Beetle Adventure Racing que ya está fichado. Arranca hasta las carreras a 60 fps con teclado, mando y audio, y trae launcher con ajustes y remapeo, panorámico con HUD que se expande con la relación de aspecto, distancia de dibujado 1x/2x/4x, escalado de resolución interna, MSAA con filtro de costuras y interpolación a alta tasa de fotogramas."
+  en: "Native port by static recompilation with N64Recomp, separate from the other Beetle Adventure Racing recomp already catalogued. It boots through to races at 60 fps with keyboard, gamepad and audio, and ships a launcher with settings and remapping, widescreen with a HUD that expands with the aspect ratio, 1x/2x/4x draw distance, internal resolution scaling, MSAA with a seam filter, and high-frame-rate interpolation."
+requirements:
+  es: "Tu propia ROM de Beetle Adventure Racing (N64, versión estadounidense)."
+  en: "Your own Beetle Adventure Racing ROM (N64, US version)."
+tags:
+  - mips

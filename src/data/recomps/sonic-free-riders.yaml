@@ -1,0 +1,15 @@
+name: Sonic Free Riders
+console: x360
+status: experimental
+repo: YuutaTsubasa/Free-Riders-Recompiled
+originalDeveloper: Sonic Team
+year: 2010
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 para Windows, Linux y Android: el código PowerPC se traduce a C++ y corre sobre un runtime nativo que sustituye al kernel, los gráficos y el audio de la consola. El juego original era exclusivo de Kinect; esta versión añade soporte de mando, y en Windows también controles de movimiento por webcam. En curso: arranca, los menús funcionan y se pueden correr carreras, pero gran parte está sin probar."
+  en: "Static recompilation of the Xbox 360 version for Windows, Linux and Android: the PowerPC code is translated to C++ and runs on a native runtime standing in for the console's kernel, graphics and audio. The original game was Kinect-only; this version adds controller support, and on Windows webcam motion controls too. Work in progress: it boots, the menus work and races can be played, but much of it is untested."
+requirements:
+  es: "Tu propia copia de Sonic Free Riders (disco estadounidense o europeo de Xbox 360). El launcher instala los datos desde tu imagen."
+  en: "Your own copy of Sonic Free Riders (US or European Xbox 360 disc). The launcher installs the data from your disc image."
+tags:
+  - powerpc
+  - sonic

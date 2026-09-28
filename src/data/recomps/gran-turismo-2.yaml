@@ -1,0 +1,15 @@
+name: Gran Turismo 2
+console: ps1
+status: playable
+repo: GTTeancum/OpenGTPS1
+originalDeveloper: Polyphony Digital
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "OpenGTPS1: port experimental para Windows x64 que recompila estáticamente los **dos discos** estadounidenses, el de Simulación (SCUS-94488, revisión 2) y el de Arcade (SCUS-94455). Arranca por el flujo original del juego, dibuja menús y vídeos, admite mandos y memory cards, y llega a llevar un coche comprado y mejorado por carreras completas, campeonatos y repeticiones. Su render nativo de carrera está pensado para poder portarse en el futuro a la Xbox original."
+  en: "OpenGTPS1: experimental Windows x64 port that statically recompiles **both** US discs, the Simulation disc (SCUS-94488, revision 2) and the Arcade disc (SCUS-94455). It boots through the original game flow, renders menus and videos, supports controllers and memory cards, and can take a purchased and upgraded car through complete races, championships and replays. Its native race renderer is designed to be portable to the original Xbox in future."
+requirements:
+  es: "Tus propias imágenes de los discos estadounidenses de Gran Turismo 2 (Simulación y/o Arcade)."
+  en: "Your own US Gran Turismo 2 disc images (Simulation and/or Arcade)."
+tags:
+  - mips

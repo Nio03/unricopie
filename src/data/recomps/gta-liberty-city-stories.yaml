@@ -1,0 +1,14 @@
+name: "Grand Theft Auto: Liberty City Stories"
+console: psp
+status: experimental
+repo: elmasas/lcs-recomp
+originalDeveloper: Rockstar Leeds
+year: 2005
+desc:
+  es: "Port a PC de la versión de PSP, con render Vulkan para la GE y SDL2 para ventana y audio en la compilación nativa. Requiere la release estadounidense v1.05 (ULUS-10041): se colocan el EBOOT.ELF descifrado y la carpeta PSP_GAME del disco, y el proyecto hace el resto. Hay build para Windows y para Linux."
+  en: "PC port of the PSP version, with a Vulkan renderer for the GE and SDL2 for window and audio in the native build. It requires the US v1.05 release (ULUS-10041): you place the decrypted EBOOT.ELF and the disc's PSP_GAME folder, and the project does the rest. There are Windows and Linux builds."
+requirements:
+  es: "Tu propia copia de GTA: Liberty City Stories para PSP, edición estadounidense v1.05 (ULUS-10041), con el EBOOT.ELF descifrado."
+  en: "Your own copy of GTA: Liberty City Stories for PSP, US v1.05 edition (ULUS-10041), with a decrypted EBOOT.ELF."
+tags:
+  - mips

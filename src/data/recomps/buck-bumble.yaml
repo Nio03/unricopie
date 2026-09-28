@@ -1,0 +1,14 @@
+name: Buck Bumble
+console: n64
+status: playable
+repo: riseio/project-bumble
+originalDeveloper: Argonaut Software
+year: 1998
+desc:
+  es: "Port nativo para PC y Steam Deck con panorámico, gráficos modernos, comodidades varias y controles de teclado, ratón y mando. En el primer arranque ofrece generar texturas mejoradas (unos 120 MB) y deja saltárselo o recordar la elección. Empezó como proyecto casero para la partida de su autor y se publicó después."
+  en: "Native PC and Steam Deck port with widescreen, modern graphics, a range of quality-of-life features and keyboard, mouse and controller support. On first launch it offers to generate enhanced textures (about 120 MB), and lets you skip that or remember your choice. It began as a hobby project for its author's own playthrough and was shared afterwards."
+requirements:
+  es: "Tu propia ROM de Buck Bumble (N64, edición estadounidense, revisión 0). Acepta los órdenes de bytes .z64, .n64 y .v64."
+  en: "Your own Buck Bumble ROM (N64, US edition, revision 0). The .z64, .n64 and .v64 byte orders are accepted."
+tags:
+  - mips

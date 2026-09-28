@@ -1,0 +1,15 @@
+name: Mega Man X2
+console: snes
+status: experimental
+repo: mstan/MegaManX2Recomp
+originalDeveloper: Capcom
+year: 1994
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática de la edición estadounidense sobre snesrecomp, con launcher previo al arranque. El estado es honesto y acotado: llega a las escenas de introducción, verificado por captura de pantalla a través de la superficie de depuración —capas de fondo, sprites, paletas y texto correctos, y avance entre escenas—. Queda pendiente la cobertura amplia de juego, la verificación del audio y el resto."
+  en: "Static recompilation of the US edition on snesrecomp, with a pre-boot launcher. The stated status is honest and narrow: it reaches the intro cutscenes, verified by screenshot through the debug surface — correct background layers, sprites, palettes and text, advancing between scenes. Broad gameplay coverage and audio verification remain open."
+requirements:
+  es: "Tu propia ROM de Mega Man X2 (SNES, estadounidense). Las copias con cabecera de 512 bytes se aceptan igual: se retira sola."
+  en: "Your own Mega Man X2 ROM (SNES, US). Dumps with a 512-byte copier header are fine: it is stripped automatically."
+tags:
+  - "65816"

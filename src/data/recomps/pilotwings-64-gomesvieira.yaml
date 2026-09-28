@@ -1,0 +1,15 @@
+name: Pilotwings 64 (gomesvieira)
+console: n64
+status: experimental
+repo: danielgomesvieira2000/pilotwings-64-recomp
+originalDeveloper: Paradigm Simulation
+year: 1996
+toolchain: N64Recomp
+desc:
+  es: "Port nativo a Windows y Linux por recompilación estática con N64Recomp. Proyecto distinto del otro recomp de Pilotwings 64 que ya está en el catálogo. Añade panorámico a la relación de aspecto de tu pantalla con el HUD en los bordes, alta tasa de fotogramas por interpolación de matrices, sin borde negro de overscan, y cambios de pantalla instantáneos donde el original se quedaba parado hasta seis segundos. Su autor declara que está programado con asistencia de IA."
+  en: "Native Windows and Linux port by static recompilation with N64Recomp. A separate project from the other Pilotwings 64 recomp already in the catalogue. It adds widescreen at your display's aspect ratio with the HUD at the edges, a high frame rate through matrix interpolation, no black overscan border, and instant screen changes where the original stalled for up to six seconds. Its author states it is AI-coded."
+requirements:
+  es: "Tu propio volcado de Pilotwings 64 (N64, versión estadounidense)."
+  en: "Your own Pilotwings 64 dump (N64, US version)."
+tags:
+  - mips

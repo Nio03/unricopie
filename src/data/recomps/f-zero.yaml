@@ -1,0 +1,15 @@
+name: F-Zero
+console: snes
+status: playable
+repo: mstan/FZeroSNESRecomp
+originalDeveloper: Nintendo EAD
+year: 1990
+toolchain: snesrecomp
+desc:
+  es: "Build nativa del F-Zero de SNES. Panorámicos 16:9, 21:9, 32:9 y ajustado; presentación a 60, 90, 120, 144, 165, 240 o 360 FPS; renderizado de pista de 2x a 10x independiente de lo anterior; shaders de pantalla (CRT suave, rejilla LCD, nítido, compuesto cálido, o el tuyo en GLSL); estados de guardado con miniaturas, rebobinado y mando por SDL. Opcionalmente admite el contenido de BS F-Zero Deluxe y packs de música MSU-1."
+  en: "Native build of the SNES F-Zero. 16:9, 21:9, 32:9 and Fit widescreen; presentation at 60, 90, 120, 144, 165, 240 or 360 FPS; 2x to 10x track rendering independent of both; display shaders (CRT Soft, LCD Grid, Sharp, Warm Composite, or your own GLSL); save states with thumbnails, rewind and SDL gamepad support. It optionally takes BS F-Zero Deluxe content and MSU-1 music packs."
+requirements:
+  es: "Tu propia ROM de F-Zero (SNES, edición estadounidense). El contenido de BS F-Zero y la música MSU-1 son opcionales y los aportas tú."
+  en: "Your own F-Zero ROM (SNES, US edition). BS F-Zero content and MSU-1 music are optional and supplied by you."
+tags:
+  - "65816"

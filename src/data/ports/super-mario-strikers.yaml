@@ -1,0 +1,15 @@
+name: Super Mario Strikers
+category: decomp-port
+console: gamecube
+status: playable
+repo: new-coke/strikers
+originalDeveloper: Next Level Games
+year: 2005
+desc:
+  es: "Port nativo a Windows, macOS, Linux y Nintendo Switch construido sobre la decompilación de la comunidad. Su propio repositorio lo deja claro: está porteado desde código decompilado, no es una recompilación. Añade alta tasa de fotogramas con límite y VSync configurables, panorámico y ultrapanorámico con vista ampliada del campo y relaciones de aspecto corregidas, y controles configurables, cuidando el rendimiento tanto en hardware potente como en equipos modestos."
+  en: "Native port to Windows, macOS, Linux and Nintendo Switch built on the community decompilation. Its own repository is explicit: it is ported from decompiled code, not a recompilation. It adds high frame rate with configurable limits and VSync, widescreen and ultrawide with an expanded view of the pitch and corrected aspect ratios, and configurable controls, with attention to performance on both powerful and low-power hardware."
+requirements:
+  es: "Los datos de tu propia copia de Super Mario Strikers (GameCube). No se incluye ningún asset."
+  en: "The game data from your own copy of Super Mario Strikers (GameCube). No assets are included."
+tags:
+  - powerpc

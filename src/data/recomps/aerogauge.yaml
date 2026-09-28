@@ -1,0 +1,14 @@
+name: AeroGauge
+console: n64
+status: playable
+repo: alondero/aerogauge-recomp
+originalDeveloper: Locomotive Games
+year: 1997
+desc:
+  es: "Recompilación estática del juego de carreras antigravedad de N64: corre tu propia copia en una ventana nativa, con pantalla de ajustes dentro del juego. Hay builds para Windows 10 o posterior con Direct3D 12, Linux con Vulkan y Android 9 o posterior en ARM64 con controles táctiles. macOS no es un objetivo soportado en esta rama, y su autor avisa de que compilar en otro sistema no es prueba de que el juego funcione allí."
+  en: "Static recompilation of the N64 anti-gravity racer: it runs your own copy in a native window, with an in-game settings screen. There are builds for Windows 10 or later with Direct3D 12, Linux with Vulkan, and Android 9 or later on ARM64 with touch controls. macOS is not a supported target on this branch, and its author warns that building on another system is no proof the game runs there."
+requirements:
+  es: "Tu propia copia de AeroGauge (N64)."
+  en: "Your own copy of AeroGauge (N64)."
+tags:
+  - mips

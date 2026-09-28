@@ -1,0 +1,15 @@
+name: LEGO Dimensions
+console: x360
+status: playable
+repo: NeverCookFirst/DimensionsRecomp
+originalDeveloper: TT Games
+year: 2015
+desc:
+  es: "Recompilación estática de la versión de Xbox 360, y hasta donde sabemos el primer recomp de un juego toys-to-life. Arranca, se juega, guarda, carga los DLC y habla con el Toy Pad —real o emulado— como un programa normal de Windows, con FPS desbloqueados, mods y soporte multiidioma. Su autor es explícito sobre el porqué: quería comprobar si un juego de figuras podía recompilarse, y dice que la emulación sigue siendo una opción perfectamente válida para quien le funcione mejor."
+  en: "Static recompilation of the Xbox 360 release, and as far as we know the first recomp of a toys-to-life game. It boots, plays, saves, loads DLC and talks to a Toy Pad — real or emulated — as an ordinary Windows program, with unlocked frame rate, mods and multilingual support. Its author is explicit about why: he wanted to find out whether a figures game could be recompiled, and says emulation remains a perfectly valid option for anyone it serves better."
+requirements:
+  es: "Tu propia copia de LEGO Dimensions para Xbox 360. Build de demostración pública."
+  en: "Your own copy of LEGO Dimensions for Xbox 360. Public demo build."
+tags:
+  - powerpc
+  - toys-to-life

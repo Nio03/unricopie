@@ -1,0 +1,9 @@
+name: Namco System 22
+console: arcade
+repo: spacestate1/namco22-decompile
+desc:
+  es: "Decompilación de la placa recreativa Namco System 22, con los juegos reconstruidos para correr en un ordenador normal, en Linux y Windows. Cubre cuatro títulos de los noventa: Prop Cycle (1996), jugable de principio a fin con sonido; Rave Racer (1995), con carreras y sonido; Tokyo Wars (1996) y Dirt Dash (1995), ambos jugables, con sonido y panorámico. Necesitas los archivos de cada juego por tu cuenta, en un set de MAME 0.271 o posterior."
+  en: "Decompilation of the Namco System 22 arcade board, with the games rebuilt to run on an ordinary computer, on Linux and Windows. It covers four nineties titles: Prop Cycle (1996), playable start to finish with sound; Rave Racer (1995), with races and sound; Tokyo Wars (1996) and Dirt Dash (1995), both playable, with sound and widescreen. You supply each game's files yourself, from a MAME 0.271 or later set."
+tags:
+  - arcade
+  - mame

@@ -1,0 +1,15 @@
+name: Ninja Gaiden II
+console: x360
+status: playable
+repo: TheSaltTrader/Ninja-s-Dawn---A-Ninja-Gaiden-2-Recompilation-Project
+originalDeveloper: Team Ninja
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Ninja's Dawn: recompilación estática de Ninja Gaiden II (título 544307D5) a un ejecutable nativo de Windows, sobre el SDK ReXGlue. No es un emulador — el código PowerPC se traduce por adelantado a x86-64, así que no hay intérprete ni calentamiento de JIT: el juego arranca como un programa de Windows, a 60 fps y con ajustes de PC por delante."
+  en: "Ninja's Dawn: static recompilation of Ninja Gaiden II (title 544307D5) into a native Windows executable, on the ReXGlue SDK. It is not an emulator — the PowerPC code is translated ahead of time to x86-64, so there is no interpreter and no JIT warm-up: the game runs as a Windows program, at 60 fps, with PC settings in front of it."
+requirements:
+  es: "Tu propia copia de Ninja Gaiden II para Xbox 360, como imagen .iso o carpeta ya extraída con su default.xex. El proyecto no distribuye ningún dato del juego."
+  en: "Your own copy of Ninja Gaiden II for Xbox 360, as an .iso or an already-extracted folder with its default.xex. The project ships no game data of any kind."
+tags:
+  - powerpc
