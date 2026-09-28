@@ -51,7 +51,7 @@ tags: [widescreen, mods]
 # enrich: false                  # solo si comparte repo con otra entrada
 ```
 
-**Consolas:** las claves de `src/lib/consoles.ts` — hoy `snes`, `n64`, `gamecube`, `wii`, `wiiu`, `switch`, `ps1`, `ps2`, `ps3`, `psp`, `xbox`, `x360`, `dreamcast` (también NAOMI), `saturn`, `gba`, `nds`, `pc`, `other`.
+**Consolas:** las claves de `src/lib/consoles.ts` — hoy `snes`, `n64`, `gamecube`, `wii`, `wiiu`, `switch`, `ps1`, `ps2`, `ps3`, `psp`, `xbox`, `x360`, `dreamcast` (también NAOMI), `saturn`, `gba`, `nds`, `3ds`, `pc`, `other`.
 **Estados:** `experimental`, `playable`, `fully` (completamente jugable). No existe `wip`: el `astro build` lo rechaza.
 **Proyecto muerto o retirado:** no borres la entrada; añade `abandoned: true` o `takedown: true` (y quita `repo` si fue por reclamación).
 
