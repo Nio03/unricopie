@@ -1,0 +1,16 @@
+name: Ridge Racer Revolution
+console: ps1
+status: experimental
+repo: RobGreenUK/Ridge-Racer-Revolution-PS1-Recomp
+author: RobGreenUK
+originalDeveloper: Namco
+year: 1995
+toolchain: psxrecomp
+desc:
+  es: "Recompilación de Ridge Racer Revolution (edición estadounidense SLUS-00214) con render mejorado, de momento solo para Macs de Apple Silicon y en fase de anticipo. psxrecomp traduce a código nativo los ejecutables de arranque y de carrera; el juego original sigue llevando física, tiempos, lógica de carrera, audio y repeticiones. El render opcional añade resoluciones altas, FPS de render seleccionable, salida 4:3 y 16:9, texturas con corrección de perspectiva, cámara y modelos interpolados, más escenario y rivales a la vista, y retrovisor. Subir los FPS de render no cambia el ritmo de la física. Su autor declara que lo desarrolló con OpenAI Codex, dirigiéndolo y probándolo él."
+  en: "Recompilation of Ridge Racer Revolution (US edition SLUS-00214) with an enhanced renderer, for now Apple Silicon Macs only and at preview stage. psxrecomp translates the original boot and racing executables into native code; the original game still drives physics, timing, race logic, audio and replays. The optional renderer adds higher resolutions, selectable rendering FPS, 4:3 and 16:9 output, perspective-correct textures, interpolated camera and model poses, more visible scenery and opponents, and a rear-view mirror. Raising the rendering frame rate does not change the physics tick rate. Its author states it was developed with OpenAI Codex, directed and playtested by him."
+requirements:
+  es: "Tu propia copia de Ridge Racer Revolution (PS1, SLUS-00214) y un Mac con Apple Silicon. Hay que compilarlo en local: no hay binarios publicados."
+  en: "Your own copy of Ridge Racer Revolution (PS1, SLUS-00214) and an Apple Silicon Mac. It has to be built locally: no binaries are published."
+tags:
+  - mips
