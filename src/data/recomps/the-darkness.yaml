@@ -1,0 +1,15 @@
+name: The Darkness
+console: x360
+status: playable
+repo: portingpete/The-Darkness-Recomp
+originalDeveloper: Starbreeze Studios
+year: 2007
+toolchain: XenonRecomp
+desc:
+  es: "Port nativo a Windows x64: el ejecutable de Xbox 360 se traduce a C++ por adelantado y se compila en un DarkRecomp.exe con render propio en D3D11, sin emulación en tiempo de ejecución. Jugable hoy de principio a fin, con vista por ratón, mando, ajustes de vídeo (resolución, campo de visión, gamma, bloom, límite de fotogramas, VSync), audio XMA y guardado."
+  en: "Native Windows x64 port: the Xbox 360 executable is translated to C++ ahead of time and built into DarkRecomp.exe with its own D3D11 renderer, with no emulation at runtime. Playable today from start to finish, with mouse look, controller support, video settings (resolution, FOV, gamma, bloom, frame cap, VSync), XMA audio and saves."
+requirements:
+  es: "Tu propio volcado de The Darkness (Xbox 360): el default.xex original y las carpetas Content y System. El repositorio no incluye código, assets ni binarios del juego."
+  en: "Your own The Darkness dump (Xbox 360): the original default.xex plus the Content and System folders. The repository ships no game code, assets or binaries."
+tags:
+  - powerpc
