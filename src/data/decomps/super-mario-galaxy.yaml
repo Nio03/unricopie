@@ -3,5 +3,7 @@ console: wii
 repo: SMGCommunity/Petari
 decomp: SMGCommunity/Petari
 desc:
-  es: Super Mario Galaxy 1 decompilation.
-  en: Super Mario Galaxy 1 decompilation.
+  es: "Petari: la decompilación de Super Mario Galaxy, que lleva el progreso de código y de datos por separado. Su README es explícito en algo que suele confundirse: el proyecto no pretende ser un port a PC. El port del equipo es otro, se llama AstroCore y va aparte. No incluye assets ni ensamblador."
+  en: "Petari: the Super Mario Galaxy decompilation, tracking code and data progress separately. Its README is explicit about something often confused: the project is not an attempt at a PC port. The team's port is a separate effort called AstroCore. It ships no assets or assembly."
+tags:
+  - powerpc

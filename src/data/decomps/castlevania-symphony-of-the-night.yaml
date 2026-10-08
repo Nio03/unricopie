@@ -3,5 +3,8 @@ console: ps1
 repo: Xeeynamo/sotn-decomp
 decomp: Xeeynamo/sotn-decomp
 desc:
-  es: "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)"
-  en: "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)"
+  es: "Decompilación matching que cubre tres plataformas a la vez —PlayStation, PSP y Saturn— reconstruyendo el código fuente de los binarios por análisis estático y dinámico, hasta compilar byte a byte. Soporta cuatro builds: la estadounidense SLUS-00067 de referencia, la europea de PSP, el port de Saturn hecho por un equipo externo, y una build japonesa de PS1 que nunca se publicó y se encontró dentro de los datos de Dracula X Chronicles. No incluye assets: hay que extraerlos de tu copia."
+  en: "Matching decompilation covering three platforms at once — PlayStation, PSP and Saturn — reconstructing the source from the binaries through static and dynamic analysis, down to byte-for-byte builds. It supports four versions: the reference US SLUS-00067, the European PSP build, the Saturn port made by an outside team, and an unreleased Japanese PS1 build found inside the Dracula X Chronicles game data. It ships no assets: they must be extracted from your copy."
+tags:
+  - mips
+  - matching

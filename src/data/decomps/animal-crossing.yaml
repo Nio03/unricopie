@@ -3,5 +3,7 @@ console: gamecube
 repo: ACreTeam/ac-decomp
 decomp: ACreTeam/ac-decomp
 desc:
-  es: Decompilation in progress of Animal Crossing for the Nintendo GameCube.
-  en: Decompilation in progress of Animal Crossing for the Nintendo GameCube.
+  es: "Decompilación de la versión de GameCube, sobre la revisión 0 estadounidense (GAFE01_00). Lleva el progreso del DOL y de los módulos REL por separado, porque el juego reparte buena parte de su código en overlays cargables en vez de en el ejecutable principal. No incluye ni assets ni ensamblador: hace falta una copia del juego."
+  en: "Decompilation of the GameCube version, against US revision 0 (GAFE01_00). It tracks progress on the DOL and the REL modules separately, because the game keeps a good part of its code in loadable overlays rather than in the main executable. It ships neither assets nor assembly: a copy of the game is required."
+tags:
+  - powerpc

@@ -3,5 +3,8 @@ console: gamecube
 repo: zeldaret/tp
 decomp: zeldaret/tp
 desc:
-  es: "Decompilation of The Legend of Zelda: Twilight Princess"
-  en: "Decompilation of The Legend of Zelda: Twilight Princess"
+  es: "Decompilación de la versión de GameCube por el equipo zeldaret, que lleva el progreso de cuatro builds por separado: la estadounidense GZ2E01, la europea GZ2P01, la japonesa GZ2J01 y ShieldD. De ella salen los dos ports a PC de Twilight Princess que están en desarrollo. El repositorio no incluye assets ni ensamblador."
+  en: "Decompilation of the GameCube version by the zeldaret team, tracking four builds separately: the US GZ2E01, the European GZ2P01, the Japanese GZ2J01 and ShieldD. It is the source of the two Twilight Princess PC ports currently in development. The repository ships no assets or assembly."
+tags:
+  - powerpc
+  - zelda

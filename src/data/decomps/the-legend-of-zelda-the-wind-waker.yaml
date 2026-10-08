@@ -3,5 +3,8 @@ console: gamecube
 repo: zeldaret/tww
 decomp: zeldaret/tww
 desc:
-  es: "Decompilation of The Legend of Zelda: The Wind Waker"
-  en: "Decompilation of The Legend of Zelda: The Wind Waker"
+  es: "Decompilación en curso de la versión de GameCube por el equipo zeldaret, con el progreso del DOL y de los módulos REL medidos por separado. Es la base del recomp de Wind Waker que está en el catálogo, y conviene no confundirla con la versión HD de Wii U, que tiene su propio proyecto aparte."
+  en: "Work-in-progress decompilation of the GameCube version by the zeldaret team, with DOL and REL module progress measured separately. It is the base of the Wind Waker recomp in this catalogue, and should not be confused with the Wii U HD version, which has its own separate project."
+tags:
+  - powerpc
+  - zelda

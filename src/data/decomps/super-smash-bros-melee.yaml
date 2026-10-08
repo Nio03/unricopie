@@ -3,5 +3,8 @@ console: gamecube
 repo: doldecomp/melee
 decomp: doldecomp/melee
 desc:
-  es: A decompilation of Super Smash Bros Melee brought to you by a bunch of clever folks.
-  en: A decompilation of Super Smash Bros Melee brought to you by a bunch of clever folks.
+  es: "Decompilación matching de la versión estadounidense: el código C que escriben compila a un binario idéntico al original. Su hito más útil es que el DOL que produce se puede desplazar, así que ya se puede añadir y quitar código para modding o investigación, no solo reproducir el juego tal cual. Es la base del port a PC melee-pc, que también está en el catálogo. El repositorio no incluye assets: hace falta tu propia copia."
+  en: "Matching decompilation of the US version: the C they write compiles to a binary identical to the original. Its most useful milestone is that the DOL it produces can be shifted, so code can now be added and removed for modding or research rather than only reproducing the game as it was. It is the base of the melee-pc port, also in this catalogue. The repository ships no assets: you need your own copy."
+tags:
+  - powerpc
+  - matching

@@ -3,5 +3,8 @@ console: switch
 repo: GRAnimated/MinecraftLCE
 decomp: GRAnimated/MinecraftLCE
 desc:
-  es: "11.210% - Decompilation of Minecraft: Legacy Console Edition"
-  en: "11.210% - Decompilation of Minecraft: Legacy Console Edition"
+  es: "Decompilación de Minecraft: Legacy Console Edition, atacada por la versión de Nintendo Switch v1.0.17 porque es la más reciente de la familia: la LCE salió también en Xbox 360, PS3, PS Vita, Wii U, Xbox One y PS4. Para trasladar símbolos recomiendan apoyarse en el ejecutable de la edición de Wii U. El repositorio no trae assets y no sirve para jugar. El proyecto insiste en ser estrictamente clean-room: Microsoft no ha actuado contra los volcados que circulan, pero sí ha retirado proyectos que no lo fueron."
+  en: "Decompilation of Minecraft: Legacy Console Edition, approached through the Nintendo Switch Edition v1.0.17 because it is the most recent of the family: LCE also shipped on Xbox 360, PS3, PS Vita, Wii U, Xbox One and PS4. For porting symbols they recommend leaning on the Wii U edition's executable. The repository ships no assets and cannot be used to play. The project insists on being strictly clean-room: Microsoft has not acted against the dumps in circulation, but it has taken down projects that were not."
+tags:
+  - arm64
+  - clean-room

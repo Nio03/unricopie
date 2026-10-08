@@ -3,5 +3,7 @@ console: gamecube
 repo: mariopartyrd/marioparty4
 decomp: mariopartyrd/marioparty4
 desc:
-  es: Mario Party 4 — proyecto de decompilación (gc).
-  en: Mario Party 4 — proyecto de decompilación (gc).
+  es: "Decompilación en curso en la que las dos versiones estadounidenses ya compilan completamente idénticas al original, aunque casi todo lo que no es motor de juego sigue sin documentar. Las versiones europea y japonesa están paradas a propósito: implican mucho trabajo repetitivo que será bastante más fácil cuando existan herramientas para trasladar divisiones y símbolos entre versiones."
+  en: "Work-in-progress decompilation in which both US versions already build fully identical to the original, though almost everything outside the game engine remains undocumented. The European and Japanese versions are deliberately on hold: they involve a lot of repetitive work that will be far easier once there is tooling to carry splits and symbols between versions."
+tags:
+  - powerpc

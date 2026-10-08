@@ -1,7 +1,10 @@
 name: Silent Hill
 console: ps1
-repo: Vatuu/silent-hill-decomp
-decomp: Vatuu/silent-hill-decomp
+repo: shdecompilations/silent-hill-decomp
+decomp: shdecompilations/silent-hill-decomp
 desc:
-  es: An in-progress decompilation of the 1.1 US release of Silent Hill on the Playstation 1.
-  en: An in-progress decompilation of the 1.1 US release of Silent Hill on the Playstation 1.
+  es: "Decompilación en curso de la versión estadounidense 1.1 de PS1, que compila a un binario idéntico al original. Su README deja dos cosas por escrito que merecen estar aquí. La primera: este proyecto no va a producir un port, ni a PC ni a nada, y el código no está listo para ello por documentación incompleta y reorganización constante. La segunda: la decompilación la hacen personas, sin código generado por IA, reversada a mano por varios colaboradores durante años — los forks pueden usar IA para portear, pero esto no."
+  en: "Work-in-progress decompilation of the US 1.1 PS1 release, compiling to a binary identical to the original. Its README puts two things in writing that belong here. First: this project will not produce a port, to PC or anything else, and the codebase is not ready for one because of incomplete documentation and constant reorganisation. Second: the decompilation is human-driven, with no AI-generated code, reversed by hand by several contributors over years — forks may use AI to port it, this does not."
+tags:
+  - mips
+  - human-driven
