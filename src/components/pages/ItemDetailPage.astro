@@ -4,7 +4,7 @@ import Base from "../../layouts/Base.astro";
 import Card from "../Card.astro";
 import ProjectForm from "../ProjectForm.astro";
 import { consoleMeta } from "../../lib/consoles";
-import { statusMeta, toolKindMeta, toolStatusMeta } from "../../lib/status";
+import { statusMeta, toolKindMeta, toolStatusMeta, stalledDays, STALLED_COLOR } from "../../lib/status";
 import { statFor, fmtStars, fmtDate, relDate, repoUrlOf } from "../../lib/stats";
 import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/catalog";
 import { t, localePath, type Lang } from "../../i18n";
@@ -23,6 +23,23 @@ const d: any = entry.data;
 const s = d.enrich === false ? {} : statFor(d.repo);
 const ownerName: string = d.author ?? (typeof d.repo === "string" ? d.repo.split("/")[0] : "—");
 const decompPct: number | null = d.decomp ? statFor(d.decomp).decompPercent ?? null : null;
+
+// Mismo aviso de "parado" que en las tarjetas, con la regla unica de status.ts:
+// quien aterriza directo en la ficha debe verlo igual que quien la ve en la lista.
+const stalled = stalledDays({
+  type,
+  status: d.status,
+  pushedAt: (s as { pushedAt?: string }).pushedAt,
+  decompPercent: decompPct ?? (s as { decompPercent?: number }).decompPercent,
+  abandoned: d.abandoned,
+});
+const stalledPill = (() => {
+  if (stalled == null) return null;
+  const meses = Math.floor(stalled / 30);
+  if (meses < 12) return t(lang, "status.stalledMonths", { n: meses });
+  const anos = Math.floor(stalled / 365);
+  return anos === 1 ? t(lang, "status.stalledYear") : t(lang, "status.stalledYears", { n: anos });
+})();
 
 let crumb: { label: string; href: string };
 let badgeLabel: string, badgeColor: string;
@@ -104,6 +121,9 @@ const barLabel: string = progress != null ? t(lang, "card.progress", { n: progre
     <div class="card-top" style="max-width:760px">
       <span class="console" style={`--rail:${badgeColor};color:${badgeColor}`}><span class="dot"></span>{badgeLabel}</span>
       {statusLabel && <span class="pill is-pill" style={`color:${statusColor}`}>{statusLabel}</span>}
+      {stalledPill && (
+        <span class="pill is-pill" style={`color:${STALLED_COLOR}`} title={t(lang, "status.stalledHelp", { n: Math.floor(stalled! / 30) })}>{stalledPill}</span>
+      )}
       {d.abandoned && <span class="pill is-pill" style="color:#8b93a7">{t(lang, "status.abandoned")}</span>}
       {d.takedown && <span class="pill is-pill" style="color:#e05656">{t(lang, "status.takedown")}</span>}
     </div>

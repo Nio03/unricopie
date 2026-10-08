@@ -1,6 +1,7 @@
 ---
 import { t, type Lang } from "../i18n";
 import { fmtStars, fmtDate } from "../lib/stats";
+import { STALLED_COLOR } from "../lib/status";
 import type { Item } from "../lib/catalog";
 
 interface Props {
@@ -11,6 +12,16 @@ const { item, lang } = Astro.props;
 const repoFallback = item.type === "recomp" ? t(lang, "card.repoTBD") : "—";
 // Solo mostramos estrellas/versión cuando hay datos en vivo (repo enriquecido).
 const hasStats = item.stars != null;
+
+// Aviso de "parado". En meses hasta el año, en años a partir de ahí: a los
+// 1009 días de CannonBall nadie cuenta meses.
+const stalledPill = (() => {
+  if (item.stalledDays == null) return null;
+  const meses = Math.floor(item.stalledDays / 30);
+  if (meses < 12) return t(lang, "status.stalledMonths", { n: meses });
+  const anos = Math.floor(item.stalledDays / 365);
+  return anos === 1 ? t(lang, "status.stalledYear") : t(lang, "status.stalledYears", { n: anos });
+})();
 ---
 
 <a
@@ -26,6 +37,7 @@ const hasStats = item.stars != null;
   data-search={item.search}
   data-stars={item.stars ?? -1}
   data-updated={item.pushedAt ?? ""}
+  data-stalled={item.stalledDays ?? ""}
   style={`--rail:${item.railColor}`}
   target={item.external ? "_blank" : undefined}
   rel={item.external ? "noopener" : undefined}
@@ -36,6 +48,9 @@ const hasStats = item.stars != null;
       {item.status && <span class="pill is-pill" style={`color:${item.status.color}`}>{item.status.label}</span>}
       {item.abandoned && <span class="pill is-pill" style="color:#8b93a7">{t(lang, "status.abandoned")}</span>}
       {item.takedown && <span class="pill is-pill" style="color:#e05656">{t(lang, "status.takedown")}</span>}
+      {stalledPill && (
+        <span class="pill is-pill" style={`color:${STALLED_COLOR}`} title={t(lang, "status.stalledHelp", { n: Math.floor(item.stalledDays! / 30) })}>{stalledPill}</span>
+      )}
     </span>
   </div>
 

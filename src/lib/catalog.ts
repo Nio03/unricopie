@@ -2,7 +2,7 @@
 // para que el catálogo, las tarjetas y las páginas de detalle usen UNA sola forma.
 import { getCollection, type CollectionEntry } from "astro:content";
 import { consoleMeta } from "./consoles";
-import { statusMeta, toolKindMeta, toolStatusMeta } from "./status";
+import { statusMeta, toolKindMeta, toolStatusMeta, stalledDays } from "./status";
 import { statFor } from "./stats";
 import { t, localePath, type Lang } from "../i18n";
 
@@ -35,6 +35,8 @@ export interface Item {
   featured: boolean;
   abandoned: boolean;
   takedown: boolean;
+  /** Dias quieto si se quedo parado ANTES de llegar; null si no aplica. */
+  stalledDays: number | null;
   search: string;
 }
 
@@ -49,6 +51,17 @@ export const CAT_COLOR: Record<string, string> = { "decomp-port": "#3fb0a8", "fa
 
 // Código corto para la mini-portada del catálogo (estilo RetroAchievements).
 const TOOL_BOX: Record<string, string> = { recompiler: "RCMP", launcher: "LNCH", patcher: "PTCH", library: "LIB" };
+
+// Aviso de "parado": cruza el reloj con si el proyecto llego, porque quieto
+// y terminado no es un defecto. La regla vive en status.ts.
+function stalled(
+  type: "recomp" | "port" | "tool" | "decomp",
+  d: { status?: string; abandoned?: boolean; decomp?: string; repo?: string },
+  s: { pushedAt?: string; decompPercent?: number }
+) {
+  const pct = s.decompPercent ?? (d.decomp ? statFor(d.decomp).decompPercent : undefined);
+  return stalledDays({ type, status: d.status, pushedAt: s.pushedAt, decompPercent: pct, abandoned: d.abandoned });
+}
 
 function liveStat(d: { enrich?: boolean; repo?: string }) {
   return d.enrich === false ? {} : statFor(d.repo);
@@ -81,7 +94,7 @@ export function recompItem(e: CollectionEntry<"recomps">, lang: Lang): Item {
     status: { label: t(lang, `status.${d.status}`), color: sm.color },
     consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
-    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
+    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("recomp", d, s),
     search: [d.name, d.repo, d.author, cm.label, cm.full, ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
@@ -98,7 +111,7 @@ export function toolItem(e: CollectionEntry<"tools">, lang: Lang): Item {
     kindLabel: t(lang, `toolkind.${d.kind}`), statusKey: d.status ?? "",
     status: ts && d.status ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
     consoleKeys: d.consoles, repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
-    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
+    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("tool", d, s),
     search: [d.name, d.repo, d.author, t(lang, `toolkind.${d.kind}`), ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
@@ -117,7 +130,7 @@ export function portItem(e: CollectionEntry<"ports">, lang: Lang): Item {
     status: { label: t(lang, `status.${d.status}`), color: sm.color },
     consoleKeys: d.console ? [d.console] : [], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
-    tags: [...(d.engine ? [d.engine] : []), ...d.tags], featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
+    tags: [...(d.engine ? [d.engine] : []), ...d.tags], featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("port", d, s),
     search: [d.name, d.repo, d.author, d.engine, cm?.label, t(lang, `category.${d.category}`), ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
@@ -133,7 +146,7 @@ export function decompItem(e: CollectionEntry<"decomps">, lang: Lang): Item {
     kindLabel: cm.label, statusKey: "", status: null,
     consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
-    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown,
+    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("decomp", d, s),
     search: [d.name, d.repo, cm.label, cm.full, ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
