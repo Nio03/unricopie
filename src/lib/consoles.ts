@@ -10,6 +10,7 @@ export const CONSOLES = {
   n64: { label: 'N64', tag: 'N64', full: 'Nintendo 64', arch: 'MIPS', color: '#C9252B' },
   gamecube: { label: 'GameCube', tag: 'GC', full: 'Nintendo GameCube', arch: 'PowerPC', color: '#6A5FA5' },
   wii: { label: 'Wii', tag: 'WII', full: 'Nintendo Wii', arch: 'PowerPC', color: '#4FA8D8' },
+  ps5: { label: 'PS5', tag: 'PS5', full: 'PlayStation 5', arch: 'x86-64', color: '#7FB6E8' },
   ps4: { label: 'PS4', tag: 'PS4', full: 'PlayStation 4', arch: 'x86-64', color: '#4A86C9' },
   ps3: { label: 'PS3', tag: 'PS3', full: 'PlayStation 3', arch: 'Cell/PPE', color: '#26418F' },
   ps2: { label: 'PS2', tag: 'PS2', full: 'PlayStation 2', arch: 'Emotion Engine', color: '#2E5CB8' },

@@ -1,0 +1,16 @@
+name: AnyPS5
+kind: recompiler
+consoles:
+  - ps5
+repo: boykopovar/AnyPS5
+author: boykopovar
+status: experimental
+desc:
+  es: "Convierte automáticamente ejecutables de PS5 al formato nativo de Linux y Windows, y aporta implementaciones de las librerías de sistema para enlazarlas dinámicamente. Sin emulación y sin proceso de runtime aparte. La técnica es distinta del resto de las herramientas de aquí: la PS5 es x86-64 igual que el PC, así que no traduce instrucciones entre arquitecturas — traduce el formato del ejecutable y las llamadas al sistema, más cerca del modelo de Wine que del de N64Recomp. La cobertura de librerías de sistema es parcial y crece según se declaran más funciones; los estados no soportados abortan el proceso en vez de seguir a ciegas."
+  en: "Automatically converts PS5 executables to the native format of Linux and Windows, and supplies implementations of the system libraries to link against dynamically. No emulation and no separate runtime process. The technique differs from the rest of the tools here: the PS5 is x86-64 just like the PC, so it does not translate instructions across architectures — it translates the executable format and the system calls, closer to Wine's model than to N64Recomp's. System library coverage is partial and grows as more functions are declared; unsupported states abort the process rather than carrying on blindly."
+tags:
+  - x86
+  - compat-layer
+links:
+  - label: Lista de juegos probados
+    url: https://boykopovar.github.io/AnyPS5/
