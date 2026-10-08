@@ -25,6 +25,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # El feed RSS saca la fecha de alta de cada ficha del primer commit
+          # que la anadio, asi que necesita el historial entero. Con el checkout
+          # superficial por defecto el build no falla, pero el feed sale sin fechas.
+          fetch-depth: 0
       - name: Build con Astro
         uses: withastro/action@v3
 

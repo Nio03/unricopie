@@ -228,6 +228,13 @@ select { font-family: var(--mono); }
 }
 .card.hidden { display: none; }
 
+/* Llamada al final de cada catálogo: el momento en que uno nota que falta algo. */
+.addcta {
+  margin: 34px 0 8px; padding: 22px 20px; text-align: center;
+  border: 1px dashed var(--line-2); border-radius: var(--radius);
+}
+.addcta p { margin: 0 0 14px; color: var(--ink-2); font-size: 14px; }
+
 /* ---------- section heading ---------- */
 .sec-h { display: flex; align-items: baseline; gap: 12px; margin: 38px 0 10px; flex-wrap: wrap; }
 .sec-h h2 { font-family: var(--pixel); font-size: 15px; margin: 0; color: var(--ink); }

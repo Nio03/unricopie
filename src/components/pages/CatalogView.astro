@@ -4,7 +4,7 @@ import Card from "../Card.astro";
 import { CONSOLE_KEYS, consoleMeta } from "../../lib/consoles";
 import { STATUS_KEYS } from "../../lib/status";
 import { sortItems, TYPE_COLOR, type Item } from "../../lib/catalog";
-import { t, type Lang } from "../../i18n";
+import { t, localePath, type Lang } from "../../i18n";
 
 interface Props {
   lang: Lang;
@@ -118,6 +118,14 @@ const guideCards = [
       {ordered.map((item) => <Card item={item} lang={lang} />)}
       <div class="empty" id="empty" style="display:none">{t(lang, "empty.recomps")}</div>
     </section>
+
+    {/* Al final de la lista, que es donde uno se da cuenta de que falta algo.
+        Hasta ahora la invitación solo estaba en /contribuir y en las fichas,
+        no en las cuatro páginas donde la gente recorre el catálogo. */}
+    <aside class="addcta">
+      <p>{t(lang, "cta.missing")}</p>
+      <a class="btn" href={localePath(lang, "contribuir")}>{t(lang, "cta.add")}</a>
+    </aside>
   </main>
 </Base>
 

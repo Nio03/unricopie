@@ -157,6 +157,8 @@ export const ui = {
     "footer.meta":
       "Recompendium es un catálogo comunitario de código abierto · datos curados a mano y enriquecidos a diario desde GitHub",
     "footer.contribute": "¿cómo contribuir? →",
+    "cta.missing": "¿Falta un proyecto, o hay algo mal en una ficha? El catálogo lo mantiene la comunidad: nueve personas han enviado o corregido entradas.",
+    "cta.add": "Añadir o corregir un proyecto →",
     "footer.faq": "FAQ",
     "footer.terms": "Términos",
     "footer.privacy": "Privacidad",
@@ -319,6 +321,8 @@ export const ui = {
     "footer.meta":
       "Recompendium is a community-driven open-source catalog · hand-curated data, enriched daily from GitHub",
     "footer.contribute": "how to contribute? →",
+    "cta.missing": "Is a project missing, or is something wrong in an entry? The catalogue is community-maintained: nine people have submitted or corrected entries.",
+    "cta.add": "Add or correct a project →",
     "footer.faq": "FAQ",
     "footer.terms": "Terms",
     "footer.privacy": "Privacy",
