@@ -1,0 +1,16 @@
+name: Super Mario Sunshine
+category: decomp-port
+console: gamecube
+status: playable
+repo: chasem-dev/sms-pc-port
+author: chasem-dev
+originalDeveloper: Nintendo EAD
+year: 2002
+desc:
+  es: "Port nativo construido desde la decompilación de Super Mario Sunshine, que ya está fichada aparte. Se compila desde el código fuente y lee modelos, texturas, niveles, música y vídeos de tu propia imagen de disco en tiempo de ejecución. Hay builds para Linux de 32 y 64 bits, macOS (Intel o Apple Silicon bajo Rosetta 2) y Windows por MSYS2, y un launcher propio con botón de jugar para quien no quiera compilar."
+  en: "Native port built from the Super Mario Sunshine decompilation, which has its own catalogue entry. You build it from source and it reads models, textures, levels, music and movies from your own disc image at run time. There are 32- and 64-bit Linux builds, macOS (Intel or Apple Silicon under Rosetta 2) and Windows via MSYS2, plus a dedicated launcher with a Play button for anyone who would rather not compile."
+requirements:
+  es: "Tu propia imagen de disco de Super Mario Sunshine (GameCube, estadounidense GMSE01)."
+  en: "Your own Super Mario Sunshine disc image (GameCube, US GMSE01)."
+tags:
+  - powerpc

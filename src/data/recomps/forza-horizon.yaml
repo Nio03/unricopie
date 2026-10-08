@@ -1,0 +1,17 @@
+name: Forza Horizon
+console: x360
+status: experimental
+repo: arcanite24/pinyon-shift
+author: arcanite24
+originalDeveloper: Playground Games
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: "Anticipo nativo jugable del primer Forza Horizon, construido con un ReXGlue adaptado: el código PowerPC de la 360 se recompila estáticamente en lugar de emularse."
+  en: "Playable native preview of the first Forza Horizon, built with a custom ReXGlue: the Xbox 360 PowerPC code is statically recompiled rather than emulated."
+requirements:
+  es: "Tu propia ISO de Forza Horizon (Xbox 360, edición estadounidense MS-2505)."
+  en: "Your own Forza Horizon ISO (Xbox 360, US retail MS-2505)."
+tags:
+  - powerpc
+  - racing

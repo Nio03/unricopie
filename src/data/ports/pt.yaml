@@ -1,0 +1,17 @@
+name: P.T.
+category: fan-remake
+console: ps4
+status: fully
+repo: LoreanXavier/pt-pc
+author: LoreanXavier
+originalDeveloper: Kojima Productions
+year: 2014
+desc:
+  es: "Port nativo del teaser de 2014, y un caso raro en el catálogo: no es un recomp ni un decomp. La lógica del juego se reescribió en C++ a partir del comportamiento del original y el render es propio, en Vulkan; todo lo demás —niveles, modelos, texturas, sonidos, scripts y cinemáticas— se lee en tiempo de ejecución de tu propia copia de PS4. Se juega el teaser completo, desde el despertar inicial hasta la calle, con la parte de voz incluida. Su autor lo hizo solo, para que P.T. siguiera existiendo en algún sitio que no fueran las consolas que aún lo tienen instalado."
+  en: "Native port of the 2014 teaser, and an unusual case for this catalogue: it is neither a recomp nor a decomp. The game logic was rewritten in C++ from the original's behaviour and the renderer is its own, on Vulkan; everything else — levels, models, textures, sounds, scripts and cutscenes — is read at run time from your own PS4 copy. It plays the whole teaser, from the first wake-up to the street, voice part included. Its author built it alone so that P.T. would keep existing somewhere other than the consoles that still have it installed."
+requirements:
+  es: "Tu propia copia de P.T., como carpeta volcada de tu consola o PKG hecho de ese volcado. Probado con la edición estadounidense CUSA01127. Un PKG de la tienda no sirve: está cifrado para la consola que lo compró. Windows 10/11 x64 o Linux x86-64."
+  en: "Your own copy of P.T., as a folder dumped from your console or a PKG made from that dump. Tested with the US release CUSA01127. A store PKG will not work: it is encrypted for the console that bought it. Windows 10/11 x64 or Linux x86-64."
+tags:
+  - vulkan
+  - horror

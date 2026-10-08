@@ -1,0 +1,9 @@
+name: Resident Evil (PC, 1997)
+console: pc
+repo: ecruells/resident-evil-pc-decomp
+desc:
+  es: "Decompilación del Resident Evil de PC de 1997, reconstruida por ingeniería inversa a partir de la decompilación en Ghidra del ejecutable original y reconstruida sobre una capa de render moderna, para Windows con Direct3D 11 y Linux con SDL2 y OpenGL. Las dos builds comparten cada línea de la lógica del juego; solo cambian la capa de plataforma y el backend. El port está funcionalmente completo: se juega entero, con todas las salas, enemigos, cinemáticas, vídeos, menús y finales. Es, además, la única ficha del catálogo cuya consola de origen es el propio PC."
+  en: "Decompilation of the 1997 PC Resident Evil, reverse-engineered from a Ghidra decompilation of the original executable and rebuilt on a modern rendering layer, for Windows with Direct3D 11 and Linux with SDL2 and OpenGL. Both builds share every line of game logic; only the platform layer and the renderer backend differ. The port is functionally complete: the whole game is playable, with every room, enemy, cutscene, FMV, menu and ending. It is also the only entry in the catalogue whose original platform is the PC itself."
+tags:
+  - x86
+  - ghidra

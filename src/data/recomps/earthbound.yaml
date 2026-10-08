@@ -1,0 +1,17 @@
+name: EarthBound / Mother 2
+console: snes
+status: playable
+repo: TheRunaway5/Phase-Distorter
+originalDeveloper: Ape / HAL Laboratory
+year: 1994
+forkOf:
+  label: Herringway/ebsrc (desensamblado)
+  url: https://github.com/Herringway/ebsrc
+desc:
+  es: "Phase Distorter: port nativo para Linux y Windows de EarthBound (estadounidense) y Mother 2 (japonés), escrito en C++20. El programa del 65816 se traduce a C++ a partir del desensamblado ebsrc, conservando nombres de archivo y números de línea del original para poder rastrear la procedencia; los assets se importan de tu propia ROM. Trae panorámico 16:9, 21:9 y 32:9 con escenario ampliado, filtro CRT opcional, mando, guardado persistente y ventana de ajustes."
+  en: "Phase Distorter: native Linux and Windows port of EarthBound (US) and Mother 2 (Japanese), written in C++20. The 65816 program is translated to C++ from the ebsrc disassembly, preserving the original's filenames and line numbers for provenance; assets are imported from your own ROM. It ships 16:9, 21:9 and 32:9 widescreen with expanded scenery, an optional CRT filter, controller support, persistent saves and a settings window."
+requirements:
+  es: "Tu propia ROM de EarthBound (estadounidense, en inglés) o de Mother 2 (japonesa). No se incluyen ni ROMs ni packs de assets extraídos."
+  en: "Your own EarthBound (US, English) or Mother 2 (Japanese) ROM. Neither ROMs nor extracted asset packs are included."
+tags:
+  - "65816"

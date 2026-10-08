@@ -1,0 +1,15 @@
+name: "Spider-Man: Edge of Time"
+console: x360
+status: playable
+repo: goliathret/EdgeOfTimeRecomp
+originalDeveloper: Beenox
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Port no oficial de la versión de Xbox 360 por recompilación estática, con soporte de Windows, macOS y Linux. Usa el SDK ReXGlue para convertir el ensamblador PowerPC en C++ estático, y un fork propio de XenosRecomp para traducir los shaders del contenedor compilado de la 360 a HLSL estático. Entre sus objetivos están resoluciones altas, panorámico ultra, altas tasas de fotogramas y modding."
+  en: "Unofficial port of the Xbox 360 version by static recompilation, with Windows, macOS and Linux support. It uses the ReXGlue SDK to turn PowerPC assembly into static C++, plus its own XenosRecomp fork to translate the Xbox 360 shaders from their compiled container into static HLSL. Its stated goals include high resolutions, ultrawide, high frame rates and modding."
+requirements:
+  es: "Los archivos de tu propia copia legal de Spider-Man: Edge of Time (Xbox 360). El repositorio no incluye ningún asset del juego."
+  en: "The files from your own legally acquired copy of Spider-Man: Edge of Time (Xbox 360). The repository ships no game assets."
+tags:
+  - powerpc

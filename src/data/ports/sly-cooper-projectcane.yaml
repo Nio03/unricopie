@@ -1,0 +1,15 @@
+name: Sly Cooper and the Thievius Raccoonus (ProjectCane)
+category: decomp-port
+console: ps2
+status: playable
+repo: theclub654/ProjectCane
+originalDeveloper: Sucker Punch Productions
+year: 2002
+desc:
+  es: "Port jugable de la edición NTSC, reconstruido por ingeniería inversa. Empezó siendo un visor de mapas y creció hasta ser un port completo, que es el camino opuesto al del otro proyecto de Sly Cooper que está en el catálogo: aquel recompila el binario de PS2 y sigue atascado antes de los gráficos. Por ahora solo Windows; Linux está previsto. Se compila en Visual Studio 2022 y trae un extractor al que se le arrastra tu propia ISO."
+  en: "Playable port of the NTSC release, rebuilt through reverse engineering. It started as a map viewer and grew into a complete port, which is the opposite route to the other Sly Cooper project in the catalogue: that one recompiles the PS2 binary and is still stuck short of graphics. Windows only for now, with Linux planned. You build it in Visual Studio 2022, and it ships a file extractor you drag your own ISO onto."
+requirements:
+  es: "Tu propia ISO NTSC de Sly Cooper and the Thievius Raccoonus (PS2) y Visual Studio 2022 con el paquete de C++ de escritorio."
+  en: "Your own NTSC ISO of Sly Cooper and the Thievius Raccoonus (PS2) and Visual Studio 2022 with the Desktop C++ workload."
+tags:
+  - emotion-engine
