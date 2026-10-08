@@ -223,9 +223,10 @@ select { font-family: var(--mono); }
 .card:hover .repolink { text-decoration: underline; }
 
 .empty {
-  grid-column: 1 / -1; text-align: center; color: var(--ink-3); padding: 50px 20px;
+  grid-column: 1 / -1; text-align: center; color: var(--ink-3); padding: 44px 20px;
   border: 1px dashed var(--line-2); border-radius: var(--radius); font-family: var(--mono); font-size: 13px;
 }
+.empty p { margin: 0 0 16px; }
 .card.hidden { display: none; }
 
 /* Llamada al final de cada catálogo: el momento en que uno nota que falta algo. */

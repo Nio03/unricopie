@@ -37,7 +37,7 @@ export const ui = {
     "home.stat.tools": "herramientas",
 
     "ctl.search": "Buscar",
-    "ctl.searchPlaceholder": "Buscar juego, repositorio o autor…",
+    "ctl.searchPlaceholder": "Filtrar esta sección: juego, repositorio o autor…",
     "ctl.statusAll": "Estado: todos",
     "ctl.sortStars": "Orden: estrellas",
     "ctl.sortName": "Orden: nombre",
@@ -72,6 +72,8 @@ export const ui = {
     "count.decomps": "{n} decompilaciones",
     "count.decompsOf": "{shown} de {total} decompilaciones",
     "empty.recomps": "Ningún proyecto coincide con el filtro.",
+    "empty.tryGlobal": "Buscar en todo el catálogo →",
+    "feed.title": "Recompendium — novedades",
     "empty.tools": "Ninguna herramienta coincide con el filtro.",
     "empty.ports": "Ningún port coincide con el filtro.",
 
@@ -201,7 +203,7 @@ export const ui = {
     "home.stat.tools": "tools",
 
     "ctl.search": "Search",
-    "ctl.searchPlaceholder": "Search game, repository or author…",
+    "ctl.searchPlaceholder": "Filter this section: game, repository or author…",
     "ctl.statusAll": "Status: all",
     "ctl.sortStars": "Sort: stars",
     "ctl.sortName": "Sort: name",
@@ -236,6 +238,8 @@ export const ui = {
     "count.decomps": "{n} decompilations",
     "count.decompsOf": "{shown} of {total} decompilations",
     "empty.recomps": "No project matches the filter.",
+    "empty.tryGlobal": "Search the whole catalogue →",
+    "feed.title": "Recompendium — what's new",
     "empty.tools": "No tool matches the filter.",
     "empty.ports": "No port matches the filter.",
 

@@ -116,7 +116,14 @@ const guideCards = [
     <div class="meta" id="count" data-tmpl={countTmpl}>{countTmpl.replace("{shown}", String(ordered.length)).replace("{total}", String(ordered.length))}</div>
     <section class="grid" id="grid">
       {ordered.map((item) => <Card item={item} lang={lang} />)}
-      <div class="empty" id="empty" style="display:none">{t(lang, "empty.recomps")}</div>
+      {/* Callejón sin salida hasta ahora: este buscador solo filtra la sección
+          actual, así que buscar "Jak" o "Strikers" en la home daba cero (están
+          en ports) y la gente concluía que faltaban del catálogo. Dos quejas de
+          r/recomps venían de aquí. Ahora el vacío ofrece el buscador global. */}
+      <div class="empty" id="empty" style="display:none">
+        <p>{t(lang, "empty.recomps")}</p>
+        <button class="btn" type="button" id="empty-global">{t(lang, "empty.tryGlobal")}</button>
+      </div>
     </section>
 
     {/* Al final de la lista, que es donde uno se da cuenta de que falta algo.
@@ -203,6 +210,16 @@ const guideCards = [
     const q0 = new URLSearchParams(window.location.search).get("q");
     if (q0 && qEl) { qEl.value = q0; state.q = q0.trim().toLowerCase(); }
     apply();
+
+    // Desde el vacío, saltar al buscador global llevándose lo que ya escribió.
+    document.getElementById("empty-global")?.addEventListener("click", () => {
+      const gi = document.getElementById("search-input") as HTMLInputElement | null;
+      document.getElementById("search-open")?.click();
+      if (gi && state.q) {
+        gi.value = state.q;
+        gi.dispatchEvent(new Event("input", { bubbles: true }));
+      }
+    });
 
     const ro = document.getElementById("readout");
     if (ro && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
