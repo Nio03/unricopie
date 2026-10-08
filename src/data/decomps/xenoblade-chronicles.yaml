@@ -3,5 +3,5 @@ console: wii
 repo: xbret/xenoblade
 decomp: xbret/xenoblade
 desc:
-  es: Decompilation of Xenoblade (JP)
-  en: Decompilation of Xenoblade (JP)
+  es: "Decompilación en curso de Xenoblade Chronicles para Wii. Reconstruye los ejecutables de las tres regiones (JP, EU y US), identificados por su hash SHA-1. Rechaza cualquier contribución asistida por LLMs."
+  en: "Work-in-progress decompilation of Xenoblade Chronicles for Wii. It rebuilds the executables for all three regions (JP, EU and US), each identified by SHA-1 hash. No LLM-assisted contributions are accepted."

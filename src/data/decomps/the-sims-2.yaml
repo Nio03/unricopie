@@ -3,5 +3,7 @@ console: gamecube
 repo: natebag/Sims2DECOMP
 decomp: natebag/Sims2DECOMP
 desc:
-  es: yupyupyup
-  en: yupyupyup
+  es: "Decompilación matching en fase temprana de Los Sims 2 para GameCube (G4ZE69, build F.09.12.0 del 12 de septiembre de 2005). El DOL enlaza idéntico al del disco, pero en gran parte por inyección de bytes del binario original durante la build: solo una fracción de las funciones está decompilada a mano a C++. Su métrica es el código limpio que coincide byte a byte."
+  en: "Early-stage matching decompilation of The Sims 2 for GameCube (G4ZE69, build F.09.12.0 of 2005-09-12). The DOL links byte-identical to the retail disc, but mostly through byte injection of the original binary during the build: only a fraction of functions are hand-decompiled to real C++. Its headline metric is clean code that matches byte for byte."
+tags:
+  - matching

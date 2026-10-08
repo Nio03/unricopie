@@ -3,5 +3,7 @@ console: n64
 repo: bigyoshi51/1080-decomp
 decomp: bigyoshi51/1080-decomp
 desc:
-  es: 1080° Snowboarding — proyecto de decompilación (n64).
-  en: 1080° Snowboarding — proyecto de decompilación (n64).
+  es: "Decompilación de 1080° Snowboarding para N64 llevada en gran parte por Claude, que declara el uso de IA. La build ya produce una ROM idéntica a la original, y la comprobación falla ante cualquier regresión. Decompila veinte segmentos, incluidos overlays USO en un formato relocatable propio (algunos comprimidos con Yay0)."
+  en: "Decompilation of 1080° Snowboarding for N64, mostly driven by Claude, with AI use stated openly. The build already produces a ROM identical to the original, and a verification step fails on any regression. It decompiles twenty segments, including USO overlays in a custom relocatable format (some Yay0-compressed)."
+tags:
+  - matching

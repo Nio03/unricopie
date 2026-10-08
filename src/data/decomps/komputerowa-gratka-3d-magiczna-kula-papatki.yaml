@@ -3,5 +3,5 @@ console: pc
 repo: regratka/mkp
 decomp: regratka/mkp
 desc:
-  es: Recompilation project of "Magiczna kula Papatki"
-  en: Recompilation project of "Magiczna kula Papatki"
+  es: "Decompilación de Magiczna Kula Papatki (Komputerowa Gratka 3D), un juego polaco de PC de IRMA, y de su motor Magnum Engine v2.0. El trabajo se centra por ahora en reconstruir el código del motor. Mide por separado gratka3d.exe y ME2.dll, y reconoce MSVC 6, DirectX 8.1 y DirectShow."
+  en: "Decompilation of Magiczna Kula Papatki (Komputerowa Gratka 3D), a Polish PC game by IRMA, together with its Magnum Engine v2.0. Work currently focuses on reconstructing the engine code. It tracks gratka3d.exe and ME2.dll separately, and recognises MSVC 6, DirectX 8.1 and DirectShow."

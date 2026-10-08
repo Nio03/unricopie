@@ -3,5 +3,5 @@ console: wii
 repo: zeldaret/oot-vc
 decomp: zeldaret/oot-vc
 desc:
-  es: Decompilation of the Wii Virtual Console Emulator for Ocarina of Time (JP)
-  en: Decompilation of the Wii Virtual Console Emulator for Ocarina of Time (JP)
+  es: "Decompilación en curso del emulador de N64 de los juegos de la Consola Virtual de Wii. Cubre nueve versiones de Super Mario 64, Mario Kart 64 y Ocarina of Time en JPN, USA y EUR; el trabajo se centra sobre todo en oot-j."
+  en: "Work-in-progress decompilation of the N64 emulator used by the Wii Virtual Console releases. It covers nine builds of Super Mario 64, Mario Kart 64 and Ocarina of Time across JPN, USA and EUR, mainly targeting oot-j."

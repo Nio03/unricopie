@@ -3,5 +3,5 @@ console: gamecube
 repo: TeamOrre/xd-decomp
 decomp: TeamOrre/xd-decomp
 desc:
-  es: A decompilation of Pokemon XD for the Nintendo GameCube
-  en: A decompilation of Pokemon XD for the Nintendo GameCube
+  es: "Decompilación en curso de Pokémon XD: Gale of Darkness para GameCube bajo TeamOrre. Soporta la Rev 0 de USA (GXXE01) y un disco demo japonés (NXXJ01), con el objetivo de producir un binario matching del juego."
+  en: "Work-in-progress decompilation of Pokémon XD: Gale of Darkness for GameCube under TeamOrre. It supports the USA Rev 0 (GXXE01) and a Japanese demo disc (NXXJ01), aiming for a matching retail binary."

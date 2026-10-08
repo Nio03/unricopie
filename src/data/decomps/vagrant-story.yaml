@@ -3,5 +3,5 @@ console: ps1
 repo: ser-pounce/rood-reverse
 decomp: ser-pounce/rood-reverse
 desc:
-  es: a Vagrant Story byte-matching decompilation
-  en: a Vagrant Story byte-matching decompilation
+  es: "Decompilación de Vagrant Story (PS1), llamada Rood Reverse, con el objetivo de permitir la interoperabilidad con hardware moderno y corregir errores del juego original. El código y los datos de los menús están completamente decompilados y los ejecutables de menú son reubicables, así que se puede reescribir ese código y los enlaces con otros módulos se recalculan."
+  en: "Decompilation of Vagrant Story (PS1), called Rood Reverse, aiming at interoperability with modern hardware and bug fixes for the original game. The menu code and data are fully decompiled and the menu executables are relocatable, so that code can be rewritten and links from other modules are re-resolved."

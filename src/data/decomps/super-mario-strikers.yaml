@@ -3,5 +3,7 @@ console: gamecube
 repo: yannicksuter/smstrikers-decomp
 decomp: yannicksuter/smstrikers-decomp
 desc:
-  es: Decompilation of Super Mario Strikers
-  en: Decompilation of Super Mario Strikers
+  es: "Decompilación de Super Mario Strikers para GameCube cuyo objetivo es un código que compile a un ejecutable idéntico byte a byte al original. Aclara que no es una recompilación ni un port, que esos quedan fuera de su alcance, y detalla el estado legal y de licencias de cada parte del repo."
+  en: "Decompilation of Super Mario Strikers for GameCube that aims for source which compiles to an executable byte-for-byte identical to the original. It states plainly that it is not a recompilation or a port, which are out of scope, and spells out the legal and licensing status of each part of the repo."
+tags:
+  - matching

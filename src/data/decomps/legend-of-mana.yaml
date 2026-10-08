@@ -3,5 +3,7 @@ console: ps1
 repo: celophi/lom-decomp
 decomp: celophi/lom-decomp
 desc:
-  es: Legend of Mana Decompilation Project
-  en: Legend of Mana Decompilation Project
+  es: "Decompilación matching de Legend of Mana (PS1) completada: las versiones norteamericana (SLUS_010.13) y japonesa (SLPS_021.70) están al 100%, con los 18 binarios enlazados y la japonesa compilada desde las mismas fuentes en C. Declara que no es un port a PC y que su motivo es preservar la lógica del juego y facilitar el modding."
+  en: "Completed matching decompilation of Legend of Mana (PS1): both the North American (SLUS_010.13) and Japanese (SLPS_021.70) releases are 100% matched, with all 18 binaries linked and the Japanese build made from the same C sources. It states it is not a PC port, and that its motivation is preserving the game's logic and enabling modding."
+tags:
+  - matching

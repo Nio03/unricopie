@@ -3,5 +3,5 @@ console: gamecube
 repo: bfbbdecomp/bfbb
 decomp: bfbbdecomp/bfbb
 desc:
-  es: "Decompilation project for SpongeBob SquarePants: Battle for Bikini Bottom"
-  en: "Decompilation project for SpongeBob SquarePants: Battle for Bikini Bottom"
+  es: "Decompilación en curso de SpongeBob SquarePants: Battle for Bikini Bottom para GameCube. Reconstruye el main.dol de la versión NTSC-U (GQPE78); no incluye assets ni ensamblador del juego."
+  en: "Work-in-progress decompilation of SpongeBob SquarePants: Battle for Bikini Bottom for GameCube. It rebuilds the main.dol of the NTSC-U release (GQPE78) and ships no game assets or assembly."

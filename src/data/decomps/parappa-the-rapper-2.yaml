@@ -3,5 +3,5 @@ console: ps2
 repo: parappadev/parappa2
 decomp: parappadev/parappa2
 desc:
-  es: PaRappa the Rapper 2 (2001, PS2) decompilation
-  en: PaRappa the Rapper 2 (2001, PS2) decompilation
+  es: "Decompilación en curso de PaRappa the Rapper 2 para PS2. Por ahora apunta al prototipo NTSC-J del 12 de julio; las versiones finales NTSC-J, NTSC y PAL son un objetivo futuro. El progreso se mide por separado en el núcleo EE (depuración, SO, jugabilidad, menús, motor) y en los módulos IOP."
+  en: "Work-in-progress decompilation of PaRappa the Rapper 2 for PS2. It currently targets the July 12th NTSC-J prototype; the final NTSC-J, NTSC and PAL builds are a future goal. Progress is tracked per area, split between the EE core (debug, OS, gameplay, menus, engine) and the IOP modules."

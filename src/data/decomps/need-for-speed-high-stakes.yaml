@@ -3,5 +3,7 @@ console: ps1
 repo: Caesar0007/NFSHS-PSX-decomp
 decomp: Caesar0007/NFSHS-PSX-decomp
 desc:
-  es: Byte-matching decompilation of Need for Speed High Stakes (PSX) - splat + maspsx + objdiff
-  en: Byte-matching decompilation of Need for Speed High Stakes (PSX) - splat + maspsx + objdiff
+  es: "Decompilación matching de la versión de PSX de Need for Speed: High Stakes (EA, 1999), con la estructura del proyecto de decompilación de Silent Hill. El repo no tiene licencia abierta: todos los derechos reservados, y solo reconoce como autorizado el port de XProger."
+  en: "Matching decompilation of the PSX version of Need for Speed: High Stakes (EA, 1999), modelled on the Silent Hill decomp project layout. The repo carries no open licence: all rights reserved, and the only port it recognises as authorised is XProger's."
+tags:
+  - matching

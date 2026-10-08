@@ -3,5 +3,7 @@ console: wii
 repo: SeekyCt/spm-decomp
 decomp: SeekyCt/spm-decomp
 desc:
-  es: WIP 1:1 decompilation of Super Paper Mario
-  en: WIP 1:1 decompilation of Super Paper Mario
+  es: "Decompilación de Super Paper Mario para Wii centrada en las dos versiones PAL, que comparten direcciones de símbolos. La NTSC-U Rev 0 está soportada con menos direcciones portadas. Declara que nunca cubrirá el juego entero, solo las partes útiles o interesantes, y que no llevará a ningún port."
+  en: "Decompilation of Super Paper Mario for Wii focused on the two PAL versions, which share symbol and split addresses. NTSC-U revision 0 is supported with fewer addresses ported. It says it will never cover the whole game, only the useful or interesting parts, and will not lead to a port."
+tags:
+  - human-driven

@@ -3,5 +3,5 @@ console: n64
 repo: LLONSIT/Wave-Race-64
 decomp: LLONSIT/Wave-Race-64
 desc:
-  es: A work in progress decompilation of Wave Race 64
-  en: A work in progress decompilation of Wave Race 64
+  es: "Decompilación temprana de Wave Race 64 para N64. Solo trabaja con la ROM USA y no tiene interés por ahora en las versiones europea o japonesa. El README avisa de que todavía no se puede modificar el juego con ella."
+  en: "Early decompilation of Wave Race 64 for N64. It works only on the US ROM and has no plans yet for the European or Japanese versions. The README warns that it is too early to make modifications with it."

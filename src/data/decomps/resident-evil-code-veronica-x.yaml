@@ -3,5 +3,5 @@ console: ps2
 repo: AshfordFamily/recvx-decomp
 decomp: AshfordFamily/recvx-decomp
 desc:
-  es: "Decompilation project of Resident Evil - Code: Veronica X (PS2) which aims to reconstruct the source code of the game."
-  en: "Decompilation project of Resident Evil - Code: Veronica X (PS2) which aims to reconstruct the source code of the game."
+  es: "Decompila el ELF de PS2 de Code Veronica X (MIPS a C), solo en la versión USA (SLUS-20184). El motor, la jugabilidad, el código gráfico y la librería CRI ADXT están decompilados, y el README da el juego por decompilado. Piden que se declare cualquier aportación hecha con IA."
+  en: "Decompiles the Code Veronica X PS2 ELF (MIPS back to C), US release only (SLUS-20184). The engine, gameplay, graphics code and the CRI ADXT library are decompiled, and the README says the game is now fully decompiled. Contributors must disclose any AI-generated submissions."

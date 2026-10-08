@@ -6,7 +6,7 @@ repo: Odrannnn/MetroidPrimePort
 originalDeveloper: Retro Studios
 year: 2002
 forkOf:
-  label: PrimeDecomp (decompilación)
+  label: PrimeDecomp/prime
   url: https://github.com/PrimeDecomp/prime
 desc:
   es: "Port nativo para Linux, Windows y Android compilado directamente del código decompilado por PrimeDecomp, que ya tiene ficha propia en el catálogo, y renderizado a través de Aurora sobre SDL3 y WebGPU. Sin emulador por medio. Añade panorámico 4:3, 16:9 o siguiendo la ventana, con el HUD repartido hasta los bordes y los menús, la pausa y el mapa corregidos de relación de aspecto."

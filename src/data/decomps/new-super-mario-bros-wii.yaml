@@ -3,5 +3,8 @@ console: wii
 repo: NSMBW-Community/NSMBW-Decomp
 decomp: NSMBW-Community/NSMBW-Decomp
 desc:
-  es: A decompilation of New Super Mario Bros. Wii
-  en: A decompilation of New Super Mario Bros. Wii
+  es: "Decompilación de New Super Mario Bros. Wii basada en los binarios PAL v1, que recompone el .dol y los .rel byte a byte. Declara que no busca crear un port a PC. Admite IA para limpieza, formato, documentación y nombres, pero rechaza decompilación generada por IA."
+  en: "Decompilation of New Super Mario Bros. Wii based on the PAL v1 binaries, relinking the .dol and .rel files byte for byte. It states it is not an effort to create a PC port. AI is allowed for cleanup, formatting, documentation and naming, but AI-generated decompilation is rejected."
+tags:
+  - matching
+  - human-driven

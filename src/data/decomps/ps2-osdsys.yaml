@@ -3,5 +3,7 @@ console: ps2
 repo: JeanxPereira/CrystalOSD
 decomp: JeanxPereira/CrystalOSD
 desc:
-  es: Reverse-engineered reconstruction of the PS2 OSDSYS
-  en: Reverse-engineered reconstruction of the PS2 OSDSYS
+  es: "Reconstrucción clean-room del OSDSYS de PS2, el menú de sistema con las torres de cristal y el explorador de tarjetas de memoria, analizando el binario en Ghidra y contrastándolo con PS2SDK y PCSX2. El objetivo principal es un ELF idéntico byte a byte reconstruido desde C; una reimplementación para escritorio queda como meta a largo plazo."
+  en: "Clean-room reconstruction of the PS2 OSDSYS, the system menu with the crystal towers and the memory card browser, made by analysing the binary in Ghidra and cross-checking against PS2SDK and PCSX2. The primary goal is a byte-identical ELF rebuilt from C; a desktop reimplementation is only a long-term goal."
+tags:
+  - clean-room

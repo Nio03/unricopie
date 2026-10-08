@@ -3,5 +3,7 @@ console: gamecube
 repo: ThePlayerRolo/lm-decomp
 decomp: ThePlayerRolo/lm-decomp
 desc:
-  es: " A decompilation of Luigi's Mansion brought to you by a bunch of clever folks. "
-  en: " A decompilation of Luigi's Mansion brought to you by a bunch of clever folks. "
+  es: "Decompilación en curso de Luigi's Mansion para GameCube, con cuatro versiones: USA Rev 0, JPN Rev 0 y PAL Rev 0 y Rev 1. El README avisa de que este repositorio está desactualizado y remite a SomeJakeGuy/lm-decomp. Prohíbe estrictamente las contribuciones hechas con IA."
+  en: "Work-in-progress decompilation of Luigi's Mansion for GameCube, with four versions: USA Rev 0, JPN Rev 0, and PAL Rev 0 and Rev 1. The README warns this repository is outdated and points to SomeJakeGuy/lm-decomp. AI-assisted contributions are strictly prohibited."
+tags:
+  - human-driven

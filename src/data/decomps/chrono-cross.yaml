@@ -3,5 +3,7 @@ console: ps1
 repo: jdperos/chrono-cross-decomp
 decomp: jdperos/chrono-cross-decomp
 desc:
-  es: A 100% matching Chrono Cross decompilation, based on the Radical Dreamers version
-  en: A 100% matching Chrono Cross decompilation, based on the Radical Dreamers version
+  es: "Decompilación matching en curso de Chrono Cross para PS1. Apunta a la versión japonesa (SLPS 023.64) extraída de la remasterización Radical Dreamers Edition, cuyo cdrom.dat contiene el juego original sin tocar y evita el complejo sectorizado del disco original."
+  en: "In-progress matching decompilation of Chrono Cross for PS1. It targets the Japanese release (SLPS 023.64), extracted from the Radical Dreamers Edition remaster, whose cdrom.dat holds the unmodified original and avoids the original disc's awkward custom sectoring."
+tags:
+  - matching

@@ -3,5 +3,7 @@ console: n64
 repo: inspectredc/fzerox
 decomp: inspectredc/fzerox
 desc:
-  es: F-Zero X Decompilation
-  en: F-Zero X Decompilation
+  es: "Decompilación matching en curso de F-Zero X para N64. Compila dos ROMs: la USA rev 0 y la JP rev 0. Necesitas tu propia copia para extraer los assets."
+  en: "Work-in-progress matching decompilation of F-Zero X for N64. It builds two ROMs: US rev 0 and JP rev 0. You need your own copy of the game to extract the assets."
+tags:
+  - matching

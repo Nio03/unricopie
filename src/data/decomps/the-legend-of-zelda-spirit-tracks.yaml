@@ -3,5 +3,7 @@ console: nds
 repo: zeldaret/st
 decomp: zeldaret/st
 desc:
-  es: "Decompilation of The Legend of Zelda: Spirit Tracks"
-  en: "Decompilation of The Legend of Zelda: Spirit Tracks"
+  es: "Decompilación hecha a mano de Spirit Tracks para Nintendo DS. Compila cuatro versiones: Japón Rev 0, Europa Rev 0 (la predeterminada), Europa Rev 1 y USA Rev 0. El repo no incluye assets ni ensamblador."
+  en: "Hand-written decompilation of Spirit Tracks for Nintendo DS. It builds four versions: Japan Rev 0, Europe Rev 0 (the default), Europe Rev 1 and USA Rev 0. The repo contains no assets or assembly."
+tags:
+  - human-driven

@@ -3,5 +3,5 @@ console: ps2
 repo: TheOnlyZac/sly1
 decomp: TheOnlyZac/sly1
 desc:
-  es: Decompilation of Sly Cooper and the Thievius Raccoonus for PS2
-  en: Decompilation of Sly Cooper and the Thievius Raccoonus for PS2
+  es: "Decompilación en curso de Sly Cooper and the Thievius Raccoonus para PS2. Compila la versión NTSC-U (SCUS_971.98) con el objetivo de dejar el motor entero en código fuente matching, y mantiene documentación del código en línea."
+  en: "Work-in-progress decompilation of Sly Cooper and the Thievius Raccoonus for PS2. It builds the NTSC-U executable (SCUS_971.98), aims to turn the whole engine into matching source, and hosts online documentation of the code."

@@ -3,5 +3,5 @@ console: n64
 repo: VetriTheRetri/ssb-decomp-re
 decomp: VetriTheRetri/ssb-decomp-re
 desc:
-  es: A smashin' decompilation of the original Super Smash Bros. for the Nintendo 64.
-  en: A smashin' decompilation of the original Super Smash Bros. for the Nintendo 64.
+  es: "Decompilación de Super Smash Bros. 64 que reconstruye la ROM de USA (con soporte para la versión japonesa) a partir de un volcado propio. Publica una lista web de las funciones que faltan por decompilar."
+  en: "Decompilation of Super Smash Bros. 64 that rebuilds the US ROM (the Japanese version is supported too) from your own dump. It publishes a web list of the functions still left to decompile."

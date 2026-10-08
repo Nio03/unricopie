@@ -3,5 +3,5 @@ console: gamecube
 repo: PrimeDecomp/echoes
 decomp: PrimeDecomp/echoes
 desc:
-  es: "A matching decompilation of Metroid Prime 2: Echoes."
-  en: "A matching decompilation of Metroid Prime 2: Echoes."
+  es: "Decompilación de Metroid Prime 2: Echoes que cubre seis versiones: GameCube USA, Japón y PAL, además de New Play Control! (Japón) y Metroid Prime Trilogy (USA y PAL) en Wii. Los módulos REL solo se compilan para G2ME01 (GameCube USA)."
+  en: "Decompilation of Metroid Prime 2: Echoes covering six builds: GameCube USA, Japan and PAL, plus the Wii New Play Control! (Japan) and Metroid Prime Trilogy (USA and PAL) releases. REL modules are only built for G2ME01 (GameCube USA)."

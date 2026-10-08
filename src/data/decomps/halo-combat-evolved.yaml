@@ -3,5 +3,5 @@ console: xbox
 repo: punpckhdq/halo
 decomp: punpckhdq/halo
 desc:
-  es: Halo 1 decompilation
-  en: Halo 1 decompilation
+  es: "Decompilación en curso del build 2342 de Halo: Combat Evolved para Xbox, el ejecutable de una beta (cachebeta.exe), no la versión final. El README identifica el binario por su hash SHA-256."
+  en: "Work-in-progress decompilation of build 2342 of Halo: Combat Evolved for Xbox, a beta executable (cachebeta.exe) rather than the retail release. The README pins the target binary by its SHA-256 hash."

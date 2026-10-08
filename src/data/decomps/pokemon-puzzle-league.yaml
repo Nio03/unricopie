@@ -3,5 +3,7 @@ console: n64
 repo: AngheloAlf/puzzleleague64
 decomp: AngheloAlf/puzzleleague64
 desc:
-  es: Matching decomp of Pokémon Puzzle League
-  en: Matching decomp of Pokémon Puzzle League
+  es: "Decompilación matching de Pokémon Puzzle League para N64. El README es mínimo y solo enlaza el historial de progreso en decomp.dev."
+  en: "Matching decompilation of Pokémon Puzzle League for N64. The README is minimal and only links to the progress history on decomp.dev."
+tags:
+  - matching

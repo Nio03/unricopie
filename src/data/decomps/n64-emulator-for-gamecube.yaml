@@ -3,5 +3,5 @@ console: gamecube
 repo: zeldaret/oot-gc
 decomp: zeldaret/oot-gc
 desc:
-  es: "Decompilation of the Gamecube Emulator for Ocarina of Time (JP-CE) "
-  en: "Decompilation of the Gamecube Emulator for Ocarina of Time (JP-CE) "
+  es: "Decompilación en curso del emulador de N64 que usan las ediciones de GameCube de Ocarina of Time (Master Quest y Collector's Edition) y Majora's Mask. Cubre nueve versiones en JPN, USA y EUR; el trabajo se centra en ce-j, porque ese disco trae un ELF con símbolos sin quitar."
+  en: "Work-in-progress decompilation of the N64 emulator used in the GameCube releases of Ocarina of Time (Master Quest and Collector's Edition) and Majora's Mask. It covers nine versions across JPN, USA and EUR, mainly targeting ce-j because that disc ships an ELF with unstripped symbols."

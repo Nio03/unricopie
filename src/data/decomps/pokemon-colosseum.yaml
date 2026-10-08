@@ -3,5 +3,7 @@ console: gamecube
 repo: dougchansan/pkmn-colosseum
 decomp: dougchansan/pkmn-colosseum
 desc:
-  es: ai decompilation project for pokemon colosseum
-  en: ai decompilation project for pokemon colosseum
+  es: "Decompilación matching de Pokémon Colosseum para GameCube, versión NTSC-U (GC6E01), que fue reiniciada sobre la plantilla estándar dtk. Su README publica una gráfica de progreso con mediciones reales de objdiff."
+  en: "Matching decompilation of Pokémon Colosseum for GameCube, NTSC-U version (GC6E01), reset onto the standard dtk template workflow. Its README publishes a progress chart built from real objdiff measurements."
+tags:
+  - matching

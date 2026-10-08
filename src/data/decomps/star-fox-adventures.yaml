@@ -3,5 +3,5 @@ console: gamecube
 repo: zcanann/SFA-Decomp
 decomp: zcanann/SFA-Decomp
 desc:
-  es: Experimental AI Agent Driven Decomp of Star Fox Adventures.
-  en: Experimental AI Agent Driven Decomp of Star Fox Adventures.
+  es: "Decompilación de Star Fox Adventures para GameCube. Existen tres versiones del juego: JP, EN (con la v1.00 inicial y una v1.01 parcheada) y PAL. Los splits y los símbolos están aún muy incompletos, por lo que aportar código resulta difícil salvo mejorar secciones ya parcialmente emparejadas."
+  en: "Decompilation of Star Fox Adventures for GameCube. The game has three versions: JP, EN (an initial v1.00 and a patched v1.01) and PAL. Splits and symbols are still largely incomplete, so contributing is hard apart from improving sections that already partly match."

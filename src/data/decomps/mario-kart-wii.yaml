@@ -3,5 +3,5 @@ console: wii
 repo: doldecomp/mkw
 decomp: doldecomp/mkw
 desc:
-  es: A work-in-progress matching decompilation of Mario Kart Wii.
-  en: A work-in-progress matching decompilation of Mario Kart Wii.
+  es: "Decompilación en curso de Mario Kart Wii. Por ahora solo soporta la versión PAL (RMCP01)."
+  en: "Work-in-progress decompilation of Mario Kart Wii. For now only the PAL version (RMCP01) is supported."

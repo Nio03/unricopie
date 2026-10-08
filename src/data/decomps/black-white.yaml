@@ -3,5 +3,5 @@ console: pc
 repo: openblack/bw1-decomp
 decomp: openblack/bw1-decomp
 desc:
-  es: Decompilation of Black & White 1
-  en: Decompilation of Black & White 1
+  es: "Decompilación en curso de Black & White (Lionhead Studios, 2001) para PC, a partir de la plantilla dtk adaptada a PE/COFF de Windows y PEF de Mac clásico. Soporta Windows 1.00, 1.10 y 1.20 (MSVC 6.0); las 1.30, Creature's Isle y las cuatro versiones de Mac OS clásico para PowerPC siguen en marcha."
+  en: "Work-in-progress decompilation of Black & White (Lionhead Studios, 2001) for PC, built on the dtk template adapted for Windows PE/COFF and Classic Mac OS PEF. It supports Windows v1.00, 1.10 and 1.20 (MSVC 6.0); v1.30, Creature's Isle and four Classic Mac OS PowerPC builds are still in progress."

@@ -3,5 +3,7 @@ console: wii
 repo: doldecomp/ogws
 decomp: doldecomp/ogws
 desc:
-  es: A work-in-progress matching decompilation of Wii Sports
-  en: A work-in-progress matching decompilation of Wii Sports
+  es: "Decompilación en curso de Wii Sports. Solo está soportada la versión USA Revisión 1 (build del 5 de julio de 2007). Pide no usar material filtrado, para que el repositorio siga siendo lo más clean-room posible y reutilizable por otros proyectos. Prohíbe el código de SDK escrito con LLMs y solo permite LLMs en el código del juego, con restricciones."
+  en: "Work-in-progress decompilation of Wii Sports. Only the US Revision 1 build (dated 2007/07/05) is supported. Contributors are asked not to use leaked material, so the repo stays as clean-room as possible and freely reusable by other projects. It bans LLM-written SDK code and allows LLMs only for game code, with restrictions."
+tags:
+  - clean-room

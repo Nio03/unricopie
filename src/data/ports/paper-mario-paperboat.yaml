@@ -6,7 +6,7 @@ repo: HarbourMasters/PaperBoat
 originalDeveloper: Intelligent Systems
 year: 2000
 forkOf:
-  label: Paper Mario DX (decompilación)
+  label: pmret/papermario (Paper Mario DX)
   url: https://github.com/pmret/papermario
 desc:
   es: "Port de Paper Mario 64 por Harbour Masters —los de Ship of Harkinian— construido sobre la decompilación Paper Mario DX. Es un decomp port, no una recompilación estática: distinto del otro proyecto de Paper Mario que ya está en el catálogo, que sí recompila el binario. Hay comprobador de compatibilidad para verificar que tu volcado está soportado antes de empezar."

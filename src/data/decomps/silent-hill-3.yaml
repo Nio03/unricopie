@@ -3,5 +3,7 @@ console: ps2
 repo: dreamingmoths/memory-of-alessa
 decomp: dreamingmoths/memory-of-alessa
 desc:
-  es: In-progress matching decompilation of Silent Hill 3
-  en: In-progress matching decompilation of Silent Hill 3
+  es: "Decompilación matching de Silent Hill 3 para PS2 (v1.02 NTSC-U, SLUS_206.22), en el repo Memory of Alessa. Busca el byte-matching al 100% tanto de Silent Hill 3 como del motor de Silent Hill 2 que le sirve de base, y documentar la historia técnica del motor de Team Silent. El README avisa de que está en fase temprana."
+  en: "Matching decompilation of Silent Hill 3 for PS2 (v1.02 NTSC-U, SLUS_206.22), in the Memory of Alessa repo. It aims for 100% byte-matching of both Silent Hill 3 and the Silent Hill 2 engine it builds on, and for documenting the technical history of Team Silent's engine. The README warns it is at an early stage."
+tags:
+  - matching

@@ -3,5 +3,7 @@ console: ps1
 repo: ladysilverberg/xenogears-decomp
 decomp: ladysilverberg/xenogears-decomp
 desc:
-  es: Matching decompilation project for Xenogears
-  en: Matching decompilation project for Xenogears
+  es: "Decompilación matching en curso de Xenogears para PS1. Apunta a la versión USA (SLUS 006.64) y quiere llegar a otras ediciones más adelante. Usa como plantilla la estructura del proyecto de decompilación de Silent Hill."
+  en: "In-progress matching decompilation of Xenogears for PS1. It targets the US release (SLUS 006.64), with other releases planned later. Its project structure is adapted from the Silent Hill decompilation."
+tags:
+  - matching

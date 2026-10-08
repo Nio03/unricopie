@@ -5,7 +5,7 @@ repo: TheRunaway5/Phase-Distorter
 originalDeveloper: Ape / HAL Laboratory
 year: 1994
 forkOf:
-  label: Herringway/ebsrc (desensamblado)
+  label: Herringway/ebsrc
   url: https://github.com/Herringway/ebsrc
 desc:
   es: "Phase Distorter: port nativo para Linux y Windows de EarthBound (estadounidense) y Mother 2 (japonés), escrito en C++20. El programa del 65816 se traduce a C++ a partir del desensamblado ebsrc, conservando nombres de archivo y números de línea del original para poder rastrear la procedencia; los assets se importan de tu propia ROM. Trae panorámico 16:9, 21:9 y 32:9 con escenario ampliado, filtro CRT opcional, mando, guardado persistente y ventana de ajustes."

@@ -3,5 +3,5 @@ console: gba
 repo: laqieer/fireemblem8j
 decomp: laqieer/fireemblem8j
 desc:
-  es: "Decompilation/disassembly of Fire Emblem: Seima no Kouseki"
-  en: "Decompilation/disassembly of Fire Emblem: Seima no Kouseki"
+  es: "Decompilación de la versión japonesa de Fire Emblem: The Sacred Stones (Seima no Kouseki, BE8J) para GBA. Es la contraparte de la decompilación USA, casi completa: las dos ROMs salen del mismo código fuente, así que el trabajo es reenlazar el C de la versión USA con la disposición de datos japonesa y decompilar el código específico de la región (texto, fuentes, menús). Su README documenta el uso de Claude Code con IDA y Ghidra por MCP para las funciones restantes."
+  en: "Decompilation of the Japanese version of Fire Emblem: The Sacred Stones (Seima no Kouseki, BE8J) for GBA. It is the counterpart of the near-complete US decomp: both ROMs come from the same source, so the work is re-linking the US C code against the JP data layout and decompiling the region-specific code (text, fonts, menus, save versioning). Its README documents using Claude Code with IDA and Ghidra over MCP for the remaining functions."

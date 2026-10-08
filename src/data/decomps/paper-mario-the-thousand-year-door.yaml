@@ -3,5 +3,5 @@ console: gamecube
 repo: doldecomp/ttyd
 decomp: doldecomp/ttyd
 desc:
-  es: "A work-in-progress matching decompilation of Paper Mario: The Thousand Year Door"
-  en: "A work-in-progress matching decompilation of Paper Mario: The Thousand Year Door"
+  es: "Decompilación en curso de Paper Mario: La Puerta Milenaria para GameCube. Solo soporta la Rev 0 japonesa (G8MJ01). Su progreso se mide por separado para el DOL y para los módulos REL."
+  en: "Work-in-progress decompilation of Paper Mario: The Thousand-Year Door for GameCube. Only the Japanese Rev 0 (G8MJ01) is supported. Progress is measured separately for the DOL and the REL modules."

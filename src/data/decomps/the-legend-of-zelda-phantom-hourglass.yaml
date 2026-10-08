@@ -3,5 +3,7 @@ console: nds
 repo: zeldaret/ph
 decomp: zeldaret/ph
 desc:
-  es: "Decompilation of The Legend of Zelda: Phantom Hourglass"
-  en: "Decompilation of The Legend of Zelda: Phantom Hourglass"
+  es: "Decompilación hecha a mano de Phantom Hourglass para Nintendo DS. Apunta a las versiones europea y americana, con otras posibles más adelante. El repo incluye documentación sobre el juego."
+  en: "Hand-written decompilation of Phantom Hourglass for Nintendo DS. It targets the European and American versions, with others possibly added later. The repo also holds documentation about the game."
+tags:
+  - human-driven

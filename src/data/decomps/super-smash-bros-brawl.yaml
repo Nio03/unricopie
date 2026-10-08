@@ -3,5 +3,5 @@ console: wii
 repo: doldecomp/brawl
 decomp: doldecomp/brawl
 desc:
-  es: A work-in-progress matching decompilation of Super Smash Bros. Brawl
-  en: A work-in-progress matching decompilation of Super Smash Bros. Brawl
+  es: "Decompilación en curso de Super Smash Bros. Brawl para Wii, con siete versiones soportadas: Japón Rev 0 y 1, USA Rev 1 y 2, PAL Rev 0 y 1, y Corea Rev 0. No incluye assets ni ensamblador del juego."
+  en: "Work-in-progress decompilation of Super Smash Bros. Brawl for Wii, with seven supported builds: Japan Rev 0 and 1, USA Rev 1 and 2, PAL Rev 0 and 1, and Korea Rev 0. The repo ships no game assets or assembly."

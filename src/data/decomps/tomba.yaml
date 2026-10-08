@@ -3,5 +3,7 @@ console: ps1
 repo: hansbonini/psx_tomba
 decomp: hansbonini/psx_tomba
 desc:
-  es: "This is a WIP decompilation project of the Tomba! game (known as Ore! Tomba in Japan and Tombi! in Europe) for the original PlayStation. "
-  en: "This is a WIP decompilation project of the Tomba! game (known as Ore! Tomba in Japan and Tombi! in Europe) for the original PlayStation. "
+  es: "Decompilación de Tomba! para PS1 que busca reconstruir el código en C hasta obtener un ejecutable idéntico byte a byte. Solo la versión NTSC-U (SCUS_942.36) está en la build; las versiones PAL y NTSC-J se usan solo como referencia."
+  en: "Decompilation of Tomba! for PS1 that aims to rebuild the C source into a byte-identical executable. Only the NTSC-U version (SCUS_942.36) is wired into the build; the PAL and NTSC-J versions serve as reference only."
+tags:
+  - matching

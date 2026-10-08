@@ -3,5 +3,5 @@ console: nds
 repo: Yotona/twewy
 decomp: Yotona/twewy
 desc:
-  es: A reverse engineered implementation of "The World Ends With You" for the Nintendo DS
-  en: A reverse engineered implementation of "The World Ends With You" for the Nintendo DS
+  es: "Base de código de ingeniería inversa de The World Ends With You para Nintendo DS, hecha para estudiar y entender el código y las mecánicas del juego, con código escrito por colaboradores individuales. Cubre la versión norteamericana (NTR-AWLE-USA) y la japonesa, Subarashiki Kono Sekai (NTR-AWLJ-JPN), sin incluir assets."
+  en: "Reverse-engineered codebase of The World Ends With You for Nintendo DS, made to study and understand the game's code and mechanics, with code written by individual contributors. It covers the North American release (NTR-AWLE-USA) and the Japanese one, Subarashiki Kono Sekai (NTR-AWLJ-JPN), and includes no assets."

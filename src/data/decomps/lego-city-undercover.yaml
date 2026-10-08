@@ -3,5 +3,5 @@ console: switch
 repo: Nintendocustom/Lego-City-Undercover-Decompilation
 decomp: Nintendocustom/Lego-City-Undercover-Decompilation
 desc:
-  es: LEGO City Undercover — proyecto de decompilación (switch).
-  en: LEGO City Undercover — proyecto de decompilación (switch).
+  es: "Decompilación de LEGO City Undercover para Switch que parte del ejecutable main de la actualización v1.0.3 de la versión europea (la USA 1.0.2 probablemente también sirva, pero no está probada). La versión japonesa no se soporta porque se compiló con otra versión del compilador. No sirve para jugar."
+  en: "Decompilation of LEGO City Undercover for Switch that starts from the main executable of the latest EU update, v1.0.3 (US 1.0.2 likely works too but is untested). The Japanese version is unsupported because it was built with a different compiler version. It cannot be used to play the game."

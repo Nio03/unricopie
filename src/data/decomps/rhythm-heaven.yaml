@@ -3,5 +3,5 @@ console: nds
 repo: patataofcourse/rhgold
 decomp: patataofcourse/rhgold
 desc:
-  es: Decompilation for Rhythm Heaven (Nintendo DS)
-  en: Decompilation for Rhythm Heaven (Nintendo DS)
+  es: "Decompilación en curso de Rhythm Heaven (la versión de Nintendo DS). Solo soporta la Rev 0 de USA (YLZE01). No incluye assets ni ensamblador; hace falta una copia del juego para compilar la ROM."
+  en: "Work-in-progress decompilation of Rhythm Heaven (the Nintendo DS game). Only the USA Rev 0 (YLZE01) is supported. The repo has no assets or assembly; you need your own copy of the game to build the ROM."

@@ -3,5 +3,7 @@ console: ps2
 repo: LucasPicoli/god-hand-decomp
 decomp: LucasPicoli/god-hand-decomp
 desc:
-  es: A work-in-progress matching decompilation of God Hand (PS2, NTSC-U, SLUS-21503).
-  en: A work-in-progress matching decompilation of God Hand (PS2, NTSC-U, SLUS-21503).
+  es: "Decompilación matching de God Hand (PS2, Clover Studio / Capcom) dirigida a la versión NTSC-U (SLUS-21503). Usa la toolchain original (ee-gcc 2.96, linker de SN y dvp-as) para reproducir byte a byte el ELF de arranque SLUS_215.03 y los overlays .rel. Declara que su único fin es decompilar el juego y que no habrá port."
+  en: "Matching decompilation of God Hand (PS2, Clover Studio / Capcom) targeting the NTSC-U release (SLUS-21503). It uses the original toolchain (ee-gcc 2.96, the SN linker and dvp-as) to reproduce the SLUS_215.03 boot ELF and the .rel overlays byte for byte. The stated aim is only to decompile the game; there is no port."
+tags:
+  - matching

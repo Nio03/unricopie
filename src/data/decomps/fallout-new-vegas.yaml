@@ -3,5 +3,7 @@ console: x360
 repo: ieee802dot11ac/fnv
 decomp: ieee802dot11ac/fnv
 desc:
-  es: "Fallout: New Vegas — proyecto de decompilación (xbox360)."
-  en: "Fallout: New Vegas — proyecto de decompilación (xbox360)."
+  es: "Decompilación en curso de Fallout: New Vegas para Xbox 360, sobre el XEX de depuración Fallout_Release_MemDebug.xex del 10 de noviembre de 2010. Prohíbe usar IA para decompilar y se define como un proyecto escrito solo por personas."
+  en: "Work-in-progress decompilation of Fallout: New Vegas for Xbox 360, based on the Fallout_Release_MemDebug.xex build dated 2010-11-10. It forbids using AI to decompile game code and describes itself as a project written only by real people."
+tags:
+  - human-driven

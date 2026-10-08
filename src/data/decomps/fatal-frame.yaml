@@ -3,5 +3,7 @@ console: ps2
 repo: Mikompilation/Himuro
 decomp: Mikompilation/Himuro
 desc:
-  es: Fatal Frame 1 Decompilation Project
-  en: Fatal Frame 1 Decompilation Project
+  es: "Decompilación matching de Fatal Frame (Project Zero) para PS2, llamada Himuro, con la intención de portarlo a hardware moderno una vez que esté matching. Cubre tres regiones: USA (SLUS_203.88), Europa (SLES_508.21) y Japón (SLPS_250.74)."
+  en: "Matching decompilation of Fatal Frame (Project Zero) for PS2, called Himuro, with the stated intent of porting the game to modern hardware once it matches. It covers three regions: USA (SLUS_203.88), Europe (SLES_508.21) and Japan (SLPS_250.74)."
+tags:
+  - matching

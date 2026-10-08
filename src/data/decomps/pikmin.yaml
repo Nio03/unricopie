@@ -3,5 +3,7 @@ console: gamecube
 repo: projectPiki/pikmin
 decomp: projectPiki/pikmin
 desc:
-  es: A decompilation of Pikmin brought to you by fans of the series.
-  en: A decompilation of Pikmin brought to you by fans of the series.
+  es: "Decompilación matching completa de Pikmin (GameCube, 2001). Cinco versiones están al 100%: USA Rev 0 y Rev 1, JPN Rev 1 y Rev 2, y Europa Rev 0. Tres discos de demo siguen pendientes."
+  en: "Complete matching decompilation of Pikmin (GameCube, 2001). Five versions are fully matching: USA Rev 0 and Rev 1, Japan Rev 1 and Rev 2, and Europe Rev 0. Three demo discs are still being worked on."
+tags:
+  - matching

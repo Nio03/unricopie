@@ -3,5 +3,5 @@ console: switch
 repo: GRAnimated/Hagi
 decomp: GRAnimated/Hagi
 desc:
-  es: Decompilation of the Hagi GameCube and Wii Emulator
-  en: Decompilation of the Hagi GameCube and Wii Emulator
+  es: "Decompila Hagi, el emulador de GameCube y Wii que Nintendo usa en Super Mario 3D All-Stars, a partir del ejecutable de su versión de Super Mario Sunshine (SM3DAS v1.0.0). Se escoge ese juego porque su ejecutable es solo Hagi, mientras que los juegos de Wii contienen código recompilado nativamente que infla el ejecutable."
+  en: "Decompiles Hagi, the GameCube and Wii emulator Nintendo used in Super Mario 3D All-Stars, from the executable in its Super Mario Sunshine (SM3DAS v1.0.0). That game is chosen because its executable is Hagi alone, while the Wii games contain natively recompiled code that inflates the executable."

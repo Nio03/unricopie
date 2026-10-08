@@ -3,5 +3,5 @@ console: gamecube
 repo: zcanann/FFCC-Decomp
 decomp: zcanann/FFCC-Decomp
 desc:
-  es: Final Fantasy Crystal Chronicles Decompilation
-  en: Final Fantasy Crystal Chronicles Decompilation
+  es: "Decompilación de Final Fantasy Crystal Chronicles para GameCube, con tres versiones (JP, EN y PAL). La build EN trae un archivo de símbolos de depuración y la PAL uno de release, de otra build, lo que permitió recuperar nombres exactos de funciones y clases, parámetros y jerarquías de clases. El progreso se mide en código, datos y enlazado."
+  en: "Decompilation of Final Fantasy Crystal Chronicles for GameCube, with three versions (JP, EN and PAL). The EN build ships a debug symbol file and the PAL build a release one, from a different build, which allowed recovering exact function and class names, parameters and class hierarchies. Progress is tracked as code match, data match and linkage."

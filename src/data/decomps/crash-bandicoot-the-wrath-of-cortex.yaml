@@ -3,5 +3,5 @@ console: gamecube
 repo: denzi-gh/crashwoc-decomp
 decomp: denzi-gh/crashwoc-decomp
 desc:
-  es: "This is a WIP decompilation of Crash Bandicoot: The Wrath of Cortex for GameCube."
-  en: "This is a WIP decompilation of Crash Bandicoot: The Wrath of Cortex for GameCube."
+  es: "Decompilación en curso de Crash Bandicoot: The Wrath of Cortex para GameCube, solo para la Rev 0 de USA (GCBE7D). A diferencia de otros proyectos, documenta un flujo de trabajo asistido por agentes de IA, con paquetes de tareas autocontenidos para cualquier agente."
+  en: "Work-in-progress decompilation of Crash Bandicoot: The Wrath of Cortex for GameCube, for the USA Rev 0 (GCBE7D) only. Unlike many projects, it documents an AI-agent-assisted workflow, with self-contained task packs that any agent can run."

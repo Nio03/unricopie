@@ -3,5 +3,5 @@ console: ps1
 repo: fmil95/soul-re
 decomp: fmil95/soul-re
 desc:
-  es: "Reverse-engineering project of the 1999 PlayStation game Legacy of Kain: Soul Reaver, from MIPS to C."
-  en: "Reverse-engineering project of the 1999 PlayStation game Legacy of Kain: Soul Reaver, from MIPS to C."
+  es: "Proyecto llamado Soul Reaverse que reconstruye el código fuente de Soul Reaver para PS1 a partir de un prototipo del ejecutable compilado dos semanas antes de la salida final, que conserva un juego completo de símbolos de depuración. Plantea usar el resultado para portar el juego, mejorar su rendimiento y hacer herramientas como un editor de niveles."
+  en: "Project called Soul Reaverse that reconstructs the source code of Soul Reaver for PS1 from a prototype executable built two weeks before the final release, which retains a full set of debugging symbols. It suggests the result could be used to port the game, improve its performance and build tools such as a level editor."

@@ -3,5 +3,7 @@ console: gamecube
 repo: bluisblu/cttr
 decomp: bluisblu/cttr
 desc:
-  es: Decompilation of Crash Tag Team Racing (US) for Gamecube
-  en: Decompilation of Crash Tag Team Racing (US) for Gamecube
+  es: "Decompilación en curso de Crash Tag Team Racing para GameCube, con la versión USA (G9RE7D) y la japonesa Crash Bandicoot: Gatchanko World (G9RJ7D), esta última aún sin dividir en unidades. Prohíbe usar o consultar filtraciones de otros juegos de Radical Entertainment, y por ello también el uso de IA/LLMs."
+  en: "Work-in-progress decompilation of Crash Tag Team Racing for GameCube, with the USA version (G9RE7D) and the Japanese Crash Bandicoot: Gatchanko World (G9RJ7D), the latter not yet split. Contributors may not use or reference source leaks from other Radical Entertainment games, which also rules out AI/LLMs."
+tags:
+  - human-driven

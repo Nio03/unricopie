@@ -3,5 +3,5 @@ console: n64
 repo: bigyoshi51/glover-decomp
 decomp: bigyoshi51/glover-decomp
 desc:
-  es: Glover — proyecto de decompilación (n64).
-  en: Glover — proyecto de decompilación (n64).
+  es: "Decompilación de Glover para N64 en curso, llevada en su mayor parte por Claude, algo que el README declara abiertamente. Usa el repositorio bigyoshi51/decomp para las herramientas comunes de N64 y los skills de Claude."
+  en: "In-progress decompilation of Glover for N64, mostly driven by Claude, which the README states openly. It uses the bigyoshi51/decomp repo for common N64 tooling and Claude skills."

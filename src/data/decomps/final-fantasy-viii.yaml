@@ -3,5 +3,5 @@ console: ps1
 repo: roengstrom/ff8-decomp
 decomp: roengstrom/ff8-decomp
 desc:
-  es: Work-in-progress Final Fantasy VIII decompilation project for the PS1
-  en: Work-in-progress Final Fantasy VIII decompilation project for the PS1
+  es: "Decompilación en curso de Final Fantasy VIII para PS1, versión USA (SLUS_008.92). Mide el progreso por separado para el ejecutable principal y para cada overlay (menús, campo, introducción, Triple Triad, batalla y mapa del mundo)."
+  en: "Work-in-progress decompilation of Final Fantasy VIII for PS1, US version (SLUS_008.92). Progress is tracked separately for the main executable and for each overlay (menus, field, intro, Triple Triad, battle and world map)."

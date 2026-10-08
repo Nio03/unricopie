@@ -3,5 +3,7 @@ console: n64
 repo: cdlewis/snowboardkids2-decomp
 decomp: cdlewis/snowboardkids2-decomp
 desc:
-  es: Decompilation of snowboard kids 2 (N64)
-  en: Decompilation of snowboard kids 2 (N64)
+  es: "Decompilación matching de Snowboard Kids 2 para N64: extrae los assets de tu ROM y los combina con el C reconstruido para producir una ROM idéntica. Declara que no es un port a PC ni a otra plataforma, y que no debe usarse con fines comerciales. Enlaza artículos del autor sobre decompilación asistida por LLMs."
+  en: "Matching decompilation of Snowboard Kids 2 for N64: it extracts assets from your ROM and combines them with the reconstructed C to produce an identical ROM. The project states it is not a port to PC or any other platform, and must not be used commercially. It links the author's write-ups on LLM-assisted decompilation."
+tags:
+  - matching

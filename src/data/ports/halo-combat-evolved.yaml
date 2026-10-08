@@ -6,7 +6,7 @@ repo: cybersecurity/halo-ce-universal
 originalDeveloper: Bungie
 year: 2001
 forkOf:
-  label: punpckhdq/halo (decompilación)
+  label: punpckhdq/halo
   url: https://github.com/punpckhdq/halo
 desc:
   es: "Port a Windows, Linux y Android de la decompilación de Halo: Combat Evolved, partiendo de la build 2342 de la Xbox original. No es un recomp: arranca del código reconstruido por punpckhdq/halo, que ya está en el catálogo como decompilación y va por el 99,5% de coincidencia byte a byte. GitHub Actions compila el juego en cada commit, y hay dos binarios: el de release para jugar y uno de depuración que se detiene en el primer fallo de aserción y lo escribe al log."

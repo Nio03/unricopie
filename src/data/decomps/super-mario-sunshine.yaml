@@ -3,5 +3,5 @@ console: gamecube
 repo: doldecomp/sms
 decomp: doldecomp/sms
 desc:
-  es: A decompilation of Super Mario Sunshine brought to you by a bunch of clever folks.
-  en: A decompilation of Super Mario Sunshine brought to you by a bunch of clever folks.
+  es: "Decompilación en curso de Super Mario Sunshine para GameCube. Apunta a la Rev 0 en las regiones JPN (GMSJ01) y PAL (GMSP01). No incluye assets ni ensamblador del juego."
+  en: "Work-in-progress decompilation of Super Mario Sunshine for GameCube, targeting Rev 0 in both the JPN (GMSJ01) and PAL (GMSP01) regions. The repo ships no game assets or assembly."

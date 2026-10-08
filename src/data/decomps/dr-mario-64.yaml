@@ -3,5 +3,7 @@ console: n64
 repo: AngheloAlf/drmario64
 decomp: AngheloAlf/drmario64
 desc:
-  es: Dr. Mario 64 decomp
-  en: Dr. Mario 64 decomp
+  es: "Decompilación matching de Dr. Mario 64 para N64. El README es mínimo y solo enlaza el historial de progreso en decomp.dev."
+  en: "Matching decompilation of Dr. Mario 64 for N64. The README is minimal and only links to the progress history on decomp.dev."
+tags:
+  - matching
