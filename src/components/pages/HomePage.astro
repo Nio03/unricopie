@@ -7,21 +7,20 @@ interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
-// El Catálogo es SOLO recomps. Las otras categorías tienen su propia sección;
-// el buscador central (en la cabecera) busca en todo.
-const all = await getAllItems(lang);
-const items = all.filter((i) => i.type === "recomp");
+// El Catálogo es TODO: las cuatro colecciones en una sola lista, con el filtro
+// de tipo para acotar. Antes era solo recomps, y eso engañaba: el menú decía
+// "Catálogo", el contador decía "129 de 129 proyectos" habiendo 336, y buscar
+// "Jak" o "Strikers" aquí daba cero porque viven en ports. Los recomps tienen
+// ahora su propia página, como ports, decomps y herramientas.
+const items = await getAllItems(lang);
 
-// Sobre `all`, no sobre `items`: las otras cuatro cifras de la fila cuentan todo
-// el catálogo, y esta contaba solo los recomps. Decía 12 con 22 plataformas
-// cubiertas, y no se movía al entrar una consola nueva por ports o decomps.
 const consoles = new Set<string>();
-for (const i of all) for (const c of i.consoleKeys) consoles.add(c);
+for (const i of items) for (const c of i.consoleKeys) consoles.add(c);
 const stats = [
-  { n: items.length, label: t(lang, "home.stat.recomps") },
-  { n: all.filter((i) => i.type === "port").length, label: t(lang, "home.stat.ports") },
-  { n: all.filter((i) => i.type === "decomp").length, label: t(lang, "home.stat.decomps") },
-  { n: all.filter((i) => i.type === "tool").length, label: t(lang, "home.stat.tools") },
+  { n: items.filter((i) => i.type === "recomp").length, label: t(lang, "home.stat.recomps") },
+  { n: items.filter((i) => i.type === "port").length, label: t(lang, "home.stat.ports") },
+  { n: items.filter((i) => i.type === "decomp").length, label: t(lang, "home.stat.decomps") },
+  { n: items.filter((i) => i.type === "tool").length, label: t(lang, "home.stat.tools") },
   { n: consoles.size, label: t(lang, "home.stat.platforms") },
 ];
 ---
@@ -33,5 +32,6 @@ const stats = [
   tagline={t(lang, "home.tagline")}
   countTmpl={t(lang, "count.of")}
   guide
+  typeFilter
   stats={stats}
 />

@@ -14,6 +14,7 @@ export const ui = {
       "Catálogo multi-consola, en vivo y filtrable de recompilaciones estáticas de juegos de consola a ejecutables nativos de PC.",
 
     "nav.catalog": "Catálogo",
+    "nav.recomps": "Recomps",
     "nav.launchers": "Launchers",
     "nav.ports": "Ports y remakes",
     "nav.decomps": "Decompilaciones",
@@ -24,7 +25,7 @@ export const ui = {
     "search.placeholder": "Buscar en todo el catálogo…",
 
     "home.tagline":
-      "Catálogo multi-consola, en vivo y filtrable de recompilaciones estáticas de juegos de consola a ejecutables nativos de PC. Datos curados a mano y enriquecidos a diario desde GitHub.",
+      "Catálogo multi-consola, en vivo y filtrable de juegos de consola que corren en PC: recompilaciones estáticas, decompilaciones, ports y las herramientas que lo hacen posible. Datos curados a mano y enriquecidos a diario desde GitHub.",
     "home.whatis.title": "¿Qué es una recompilación estática?",
     "home.whatis.body":
       "No es emulación ni una decompilación a mano. Una recompilación estática traduce el binario original del juego (código MIPS de N64, PowerPC de Xbox 360/Wii, Emotion Engine de PS2…) a C/C++ y lo compila como un ejecutable nativo de tu PC. El resultado corre sin emulador, admite mejoras (widescreen, alta tasa de fotogramas, mods) y necesita que aportes tu propia copia legal del juego.",
@@ -65,6 +66,7 @@ export const ui = {
 
     "count.projects": "{n} proyectos",
     "count.of": "{shown} de {total} proyectos",
+    "count.recompsOf": "{shown} de {total} recomps",
     "count.tools": "{n} herramientas",
     "count.toolsOf": "{shown} de {total} herramientas",
     "count.ports": "{n} ports y remakes",
@@ -114,6 +116,9 @@ export const ui = {
     "launchers.title": "Launchers y herramientas",
     "launchers.intro":
       "Los recomps no existen solos: hace falta un recompilador que traduzca el binario de la consola a código nativo, librerías de runtime que lo sostengan, y launchers que descarguen y organicen los ports. Esto es la caja de herramientas de toda la escena.",
+    "recomps.title": "Recomps",
+    "recomps.intro":
+      "Recompilaciones estáticas: el binario original del juego traducido a C/C++ y compilado nativo. Ni emulación, ni decompilación. Para el catálogo completo —con ports, decompilaciones y herramientas— empieza por la portada.",
 
     "ports.title": "Ports y remakes",
     "ports.intro":
@@ -184,6 +189,7 @@ export const ui = {
       "A multi-console, live, filterable catalog of static recompilations of console games into native PC executables.",
 
     "nav.catalog": "Catalog",
+    "nav.recomps": "Recomps",
     "nav.launchers": "Launchers",
     "nav.ports": "Ports & remakes",
     "nav.decomps": "Decompilations",
@@ -194,7 +200,7 @@ export const ui = {
     "search.placeholder": "Search the whole catalog…",
 
     "home.tagline":
-      "A multi-console, live, filterable catalog of static recompilations of console games into native PC executables. Hand-curated data, enriched daily from GitHub.",
+      "A multi-console, live, filterable catalogue of console games running on PC: static recompilations, decompilations, ports and the tools behind them. Hand-curated data, enriched daily from GitHub.",
     "home.whatis.title": "What is a static recompilation?",
     "home.whatis.body":
       "It's not emulation, and it's not a hand-written decompilation. A static recompilation translates the game's original binary (N64 MIPS, Xbox 360/Wii PowerPC, PS2 Emotion Engine…) into C/C++ and compiles it as a native executable for your PC. The result runs without an emulator, supports enhancements (widescreen, high frame rate, mods), and requires you to supply your own legal copy of the game.",
@@ -235,6 +241,7 @@ export const ui = {
 
     "count.projects": "{n} projects",
     "count.of": "{shown} of {total} projects",
+    "count.recompsOf": "{shown} of {total} recomps",
     "count.tools": "{n} tools",
     "count.toolsOf": "{shown} of {total} tools",
     "count.ports": "{n} ports & remakes",
@@ -284,6 +291,9 @@ export const ui = {
     "launchers.title": "Launchers & tools",
     "launchers.intro":
       "Recomps don't exist on their own: you need a recompiler to translate the console binary into native code, runtime libraries to back it, and launchers to download and organize the ports. This is the whole scene's toolbox.",
+    "recomps.title": "Recomps",
+    "recomps.intro":
+      "Static recompilations: the game's original binary translated to C/C++ and compiled natively. Not emulation, not decompilation. For the full catalogue — ports, decompilations and tools included — start from the front page.",
 
     "ports.title": "Ports & remakes",
     "ports.intro":

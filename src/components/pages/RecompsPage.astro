@@ -1,0 +1,23 @@
+---
+import CatalogView from "./CatalogView.astro";
+import { getRecompItems } from "../../lib/catalog";
+import { t, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+// Sección hermana de ports, decomps y launchers. El Catálogo (la home) lleva
+// las cuatro juntas; aquí solo las recompilaciones estáticas, que son el
+// corazón del sitio y merecen su propia entrada en el menú.
+const items = await getRecompItems(lang);
+---
+
+<CatalogView
+  lang={lang}
+  items={items}
+  h1={t(lang, "recomps.title")}
+  tagline={t(lang, "recomps.intro")}
+  countTmpl={t(lang, "count.recompsOf")}
+  readout
+/>
