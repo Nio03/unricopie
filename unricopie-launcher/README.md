@@ -8,7 +8,7 @@
 >
 > El código se conserva por si se retoma, pero **no es un producto y no se anuncia como tal**:
 > ya no tiene página en el sitio ni ficha en el catálogo. Si buscas un launcher de recomps
-> que funcione hoy, mira la sección [Launchers](https://nio03.github.io/unricopie/launchers).
+> que funcione hoy, mira la sección [Launchers](https://nio03.github.io/unricopie/es/launchers/).
 
 Launcher multi-consola de [Recompendium](../README.md). **Fase 0 (scaffold).** Ver el [ROADMAP](./ROADMAP.md).
 

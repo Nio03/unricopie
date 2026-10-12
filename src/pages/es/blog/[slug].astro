@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths } from "astro";
-import BlogPostPage from "../../components/pages/BlogPostPage.astro";
-import { getPosts, postSlug } from "../../lib/blog";
+import BlogPostPage from "../../../components/pages/BlogPostPage.astro";
+import { getPosts, postSlug } from "../../../lib/blog";
 
 export const getStaticPaths = (async () => {
   const posts = await getPosts("es");

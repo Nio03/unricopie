@@ -1,0 +1,35 @@
+---
+import type { GetStaticPaths } from "astro";
+import { localePath } from "../i18n";
+import { getAllItems } from "../lib/catalog";
+
+// Hasta octubre de 2026 el español vivía en la raíz (/port/bloodborne/, /acerca/…).
+// Cada una de esas direcciones sigue existiendo como redirección a su página
+// bajo /es/, para no romper enlaces ni perder lo que Google ya tenía indexado.
+// No se generan con `redirects` de astro.config porque Astro no antepone la
+// base (/unricopie) al destino.
+export const getStaticPaths = (async () => {
+  // Dentro de getStaticPaths: Astro lo ejecuta aislado y no ve el resto del módulo.
+  const PAGINAS = ["recomps", "launchers", "ports", "decompilaciones", "contribuir", "acerca", "faq", "terms", "privacy"];
+  const fichas = (await getAllItems("es")).map((i) => i.href.replace(localePath("es"), ""));
+  return [...PAGINAS, ...fichas].map((legacy) => ({ params: { legacy }, props: { to: localePath("es", legacy) + "/" } }));
+}) satisfies GetStaticPaths;
+
+const { to } = Astro.props;
+const abs = Astro.site ? new URL(to, Astro.site).href : to;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recompendium</title>
+    <meta http-equiv="refresh" content={`0; url=${to}`} />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={abs} />
+    <script is:inline define:vars={{ to }}>location.replace(to + location.search + location.hash);</script>
+  </head>
+  <body>
+    <p>Esta página se mudó a <a href={to}>{abs}</a>.</p>
+  </body>
+</html>

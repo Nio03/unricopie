@@ -1,5 +1,52 @@
 ---
-import HomePage from "../components/pages/HomePage.astro";
+import "../styles/global.css";
+import { t, localePath } from "../i18n";
+import { href } from "../lib/url";
+
+// La raíz no pertenece a ningún idioma: manda a /es/ o /en/. Gana la elección
+// que la persona hizo con el selector de idioma (guardada en localStorage); si
+// no hay, el primer idioma del navegador que sea español o inglés, y si ninguno
+// lo es, inglés. Sin JavaScript se ven los dos enlaces.
+const es = localePath("es");
+const en = localePath("en");
+const abs = (p: string) => (Astro.site ? new URL(p, Astro.site).href : p);
 ---
 
-<HomePage lang="es" />
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recompendium</title>
+    <meta name="description" content={t("en", "site.desc")} />
+    <meta name="google-site-verification" content="NVO92LvxBuVJGRquq2s8vOm0gjMFYRpL3d05RzXCiTQ" />
+    <link rel="alternate" hreflang="es" href={abs(es)} />
+    <link rel="alternate" hreflang="en" href={abs(en)} />
+    <link rel="alternate" hreflang="x-default" href={abs(href().replace(/\/?$/, "/"))} />
+    <link rel="icon" type="image/svg+xml" href={href("recompendium-icon.svg")} />
+    <script is:inline define:vars={{ es, en }}>
+      (function () {
+        var pick = null;
+        try { pick = localStorage.getItem("recompendium-lang"); } catch (e) {}
+        if (pick !== "es" && pick !== "en") {
+          var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""];
+          pick = "en";
+          for (var i = 0; i < langs.length; i++) {
+            if (/^es\b/i.test(langs[i])) { pick = "es"; break; }
+            if (/^en\b/i.test(langs[i])) { pick = "en"; break; }
+          }
+        }
+        location.replace(pick === "es" ? es : en);
+      })();
+    </script>
+  </head>
+  <body>
+    <main class="wrap lang-pick">
+      <img src={href("recompendium-logo-transparent.svg")} alt="Recompendium" height="36" />
+      <ul>
+        <li><a href={es} hreflang="es" lang="es">Español</a></li>
+        <li><a href={en} hreflang="en" lang="en">English</a></li>
+      </ul>
+    </main>
+  </body>
+</html>

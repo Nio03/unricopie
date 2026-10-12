@@ -14,12 +14,15 @@ export default defineConfig({
   base: '/unricopie',
   trailingSlash: 'ignore',
   // Sitemap para buscadores: genera /unricopie/sitemap-index.xml con todas las páginas.
-  integrations: [sitemap()],
-  // Bilingüe: español en la raíz (/), inglés bajo /en/.
+  // Las páginas antiguas del español en la raíz (src/pages/[...legacy].astro) son
+  // solo redirecciones: fuera del sitemap.
+  integrations: [sitemap({ filter: (page) => /\/unricopie\/((es|en)\/.*)?$/.test(page) })],
+  // Bilingüe: español bajo /es/ e inglés bajo /en/. La raíz no pertenece a
+  // ningún idioma: src/pages/index.astro elige uno según el navegador.
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en'],
-    routing: { prefixDefaultLocale: false },
+    routing: { prefixDefaultLocale: true, redirectToDefaultLocale: false },
   },
   build: {
     format: 'directory',

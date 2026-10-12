@@ -2,7 +2,8 @@ import { execFileSync } from "node:child_process";
 import { getAllItems } from "./catalog";
 import type { Lang } from "../i18n";
 
-// Generador del feed de novedades, compartido por /rss.xml y /en/rss.xml.
+// Generador del feed de novedades, compartido por /es/rss.xml y /en/rss.xml
+// (y por /rss.xml, la dirección antigua del feed en español).
 // Pedido en r/recomps: un catálogo que crece cada semana no sirve de nada si
 // hay que entrar a mirar si ha cambiado algo.
 const LIMIT = 40;
@@ -56,7 +57,7 @@ export async function buildFeed(lang: Lang): Promise<string> {
   const items = await getAllItems(lang);
   const fechas = fechasDeAlta();
   const t = TEXTOS[lang];
-  const self = `${SITE}${lang === "en" ? "/en" : ""}/rss.xml`;
+  const self = `${SITE}/${lang}/rss.xml`;
 
   const conFecha = items
     .map((i) => ({ i, fecha: fechas.get(`${carpeta(i.type)}/${i.id}`) }))
@@ -82,7 +83,7 @@ export async function buildFeed(lang: Lang): Promise<string> {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>${esc(t.titulo)}</title>
-    <link>${SITE}${lang === "en" ? "/en" : ""}/</link>
+    <link>${SITE}/${lang}/</link>
     <atom:link href="${self}" rel="self" type="application/rss+xml" />
     <description>${esc(t.desc)}</description>
     <language>${lang}</language>

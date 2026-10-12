@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { t, localePath, swapLocalePath, type Lang } from "../i18n";
+import { href } from "../lib/url";
 import { GITHUB_URL } from "../lib/site";
 
 interface Props {
@@ -60,17 +61,17 @@ function isActive(to: string) {
     <link rel="canonical" href={canonical} />
     <link rel="alternate" hreflang="es" href={altEs} />
     <link rel="alternate" hreflang="en" href={altEn} />
-    <link rel="alternate" hreflang="x-default" href={altEs} />
+    <link rel="alternate" hreflang="x-default" href={altEn} />
     <link rel="alternate" type="application/rss+xml" title={t(lang, "feed.title")} href={localePath(lang, "rss.xml")} />
-    <link rel="icon" type="image/svg+xml" href={localePath("es", "recompendium-icon.svg")} />
-    <link rel="icon" type="image/png" href={localePath("es", "recompendium-icon.png")} />
-    <link rel="apple-touch-icon" href={localePath("es", "recompendium-icon.png")} />
+    <link rel="icon" type="image/svg+xml" href={href("recompendium-icon.svg")} />
+    <link rel="icon" type="image/png" href={href("recompendium-icon.png")} />
+    <link rel="apple-touch-icon" href={href("recompendium-icon.png")} />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={localePath("es", "recompendium-logo.png")} />
+    <meta property="og:image" content={href("recompendium-logo.png")} />
     <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -84,7 +85,7 @@ function isActive(to: string) {
     <nav class="nav">
       <div class="wrap nav-in">
         <a class="brand" href={localePath(lang, "")}>
-          <img class="brand-logo" src={localePath("es", "recompendium-logo-transparent.svg")} alt="Recompendium" height="30" />
+          <img class="brand-logo" src={href("recompendium-logo-transparent.svg")} alt="Recompendium" height="30" />
           <span class="ver">v0.3</span>
         </a>
         <div class="nav-links">
@@ -99,7 +100,7 @@ function isActive(to: string) {
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
           </button>
           <a class="gh" href={GITHUB_URL} target="_blank" rel="noopener">GitHub ↗</a>
-          <a class="gh lang" href={otherHref} aria-label={t(lang, "nav.langLabel")}>
+          <a class="gh lang" href={otherHref} data-lang={other} aria-label={t(lang, "nav.langLabel")}>
             {lang === "es" ? "EN" : "ES"}
           </a>
         </div>
@@ -130,7 +131,7 @@ function isActive(to: string) {
       </div>
     </footer>
 
-    <div class="search-modal" id="search-modal" data-src={localePath("es", "search.json")} hidden>
+    <div class="search-modal" id="search-modal" data-src={href("search.json")} hidden>
       <div class="search-card" role="dialog" aria-modal="true" aria-label={t(lang, "nav.search")}>
         <input id="search-input" type="search" placeholder={t(lang, "search.placeholder")} autocomplete="off" autocapitalize="off" spellcheck="false" />
         <ul id="search-results" class="search-results"></ul>
@@ -138,6 +139,12 @@ function isActive(to: string) {
     </div>
 
     <script>
+      // Quien cambia de idioma a mano no debe volver al del navegador al entrar por
+      // la raíz (ver src/pages/index.astro).
+      document.querySelector<HTMLAnchorElement>("a.lang")?.addEventListener("click", (e) => {
+        try { localStorage.setItem("recompendium-lang", (e.currentTarget as HTMLAnchorElement).dataset.lang ?? ""); } catch {}
+      });
+
       const modal = document.getElementById("search-modal");
       if (modal) {
         const openBtn = document.getElementById("search-open");

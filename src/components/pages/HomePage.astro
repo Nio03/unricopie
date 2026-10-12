@@ -2,6 +2,7 @@
 import CatalogView from "./CatalogView.astro";
 import { getAllItems } from "../../lib/catalog";
 import { t, localePath, type Lang } from "../../i18n";
+import { href } from "../../lib/url";
 
 interface Props {
   lang: Lang;
@@ -28,7 +29,7 @@ const stats = [
 <CatalogView
   lang={lang}
   items={items}
-  h1={`<img class="hero-wordmark" src="${localePath("es", "recompendium-wordmark.svg")}" alt="Recompendium" />`}
+  h1={`<img class="hero-wordmark" src="${href("recompendium-wordmark.svg")}" alt="Recompendium" />`}
   tagline={t(lang, "home.tagline")}
   countTmpl={t(lang, "count.of")}
   guide

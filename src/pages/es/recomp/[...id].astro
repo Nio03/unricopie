@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
-import ItemDetailPage from "../../components/pages/ItemDetailPage.astro";
+import ItemDetailPage from "../../../components/pages/ItemDetailPage.astro";
 
 export const getStaticPaths = (async () => {
   const recomps = await getCollection("recomps");

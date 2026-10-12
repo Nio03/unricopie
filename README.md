@@ -8,7 +8,7 @@ Since *Unleashed Recompiled*, static recompilation has spread across N64, Xbox 3
 
 The repository is named `unricopie` because that name determines the GitHub Pages URL, not because of the launcher. [`unricopie-launcher/`](./unricopie-launcher) holds the Tauri scaffold of a multi-console launcher that reached Phase 0 and is **no longer under development**. The code is kept in case it is resumed; it is not shipped, advertised or listed in the catalogue.
 
-Recompendium hosts no ROMs, assets or copyrighted material, and links to none. Every recompilation listed here is source code only: running any of them requires your own legal copy of the game. See [Terms](./src/pages/terms.astro) and [Privacy](./src/pages/privacy.astro).
+Recompendium hosts no ROMs, assets or copyrighted material, and links to none. Every recompilation listed here is source code only: running any of them requires your own legal copy of the game. See [Terms](./src/pages/en/terms.astro) and [Privacy](./src/pages/en/privacy.astro).
 
 ## Scope
 
@@ -23,7 +23,7 @@ The distinction between the catalogue's four sections is the point of the projec
 
 Emulators and FPGA cores are out of scope regardless of how closely a project sits to the scene. A project's name is not evidence of its category: entries are classified from the repository's own README, not from its title or from how it was announced.
 
-The site is bilingual (Spanish and English) with per-language routes, `/` and `/en/`. Every project description is written in both languages.
+The site is bilingual (Spanish and English) with per-language routes, `/es/` and `/en/`; the root sends each visitor to one of them based on the browser language. Every project description is written in both languages.
 
 ## Stack
 
@@ -65,8 +65,10 @@ unricopie/
 │   │                       #   ContributePage)
 │   ├── layouts/Base.astro
 │   ├── styles/global.css   # palette, typography and component styles
-│   └── pages/              # ES routes at / and EN routes at /en/, plus the
-│                           #   detail routes recomp/ decomp/ port/ tool/
+│   └── pages/              # ES routes at /es/ and EN routes at /en/, each with
+│                           #   the detail routes recomp/ decomp/ port/ tool/;
+│                           #   index.astro picks a language, [...legacy].astro
+│                           #   redirects the old Spanish URLs at the root
 ├── public/                 # logos, icons, robots.txt
 ├── scripts/
 │   ├── refresh-stats.mjs      # GitHub API -> src/data/stats.json

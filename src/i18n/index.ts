@@ -18,30 +18,31 @@ export function useT(lang: Lang) {
 }
 
 /**
- * Ruta interna respetando `base` y el idioma.
- *   localePath('es', 'launchers')  -> /launchers
+ * Ruta interna respetando `base` y el idioma. Los dos idiomas llevan prefijo;
+ * la raíz solo elige idioma (ver src/pages/index.astro).
+ *   localePath('es', 'launchers')  -> /es/launchers
  *   localePath('en', 'launchers')  -> /en/launchers
- *   localePath('es')               -> /
+ *   localePath('es')               -> /es/
  *   localePath('en')               -> /en/
  */
 export function localePath(lang: Lang, path = ""): string {
   const base = import.meta.env.BASE_URL || "/";
   const clean = path.replace(/^\/+/, "");
-  const prefix = lang === defaultLang ? "" : "en/";
+  const prefix = `${lang}/`;
   const joined = (base.endsWith("/") ? base : base + "/") + prefix + clean;
   const collapsed = joined.replace(/\/{2,}/g, "/");
   return collapsed || "/";
 }
 
 /** Devuelve la misma ruta lógica en el OTRO idioma (para el selector + hreflang).
- *  Robusto a que BASE_URL lleve o no barra final y a la presencia/ausencia del
- *  prefijo /en. (from se mantiene por compatibilidad de firma; no se usa.) */
+ *  Robusto a que BASE_URL lleve o no barra final y al prefijo de idioma.
+ *  (from se mantiene por compatibilidad de firma; no se usa.) */
 export function swapLocalePath(currentPath: string, _from: Lang, to: Lang): string {
   const base = (import.meta.env.BASE_URL || "/").replace(/\/+$/, ""); // "" o "/unricopie"
   let p = currentPath;
   if (base && (p === base || p.startsWith(base + "/"))) p = p.slice(base.length);
   if (!p.startsWith("/")) p = "/" + p;
-  p = p.replace(/^\/en(?=\/|$)/, ""); // quita el prefijo de idioma → ruta neutra
+  p = p.replace(/^\/(es|en)(?=\/|$)/, ""); // quita el prefijo de idioma → ruta neutra
   const rel = p.replace(/^\/+/, "").replace(/\/+$/, "");
   return localePath(to, rel);
 }
