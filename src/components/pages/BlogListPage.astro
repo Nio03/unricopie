@@ -1,0 +1,33 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getPosts, postSlug, fmtPostDate } from "../../lib/blog";
+import { t, localePath, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const posts = await getPosts(lang);
+---
+
+<Base lang={lang} title={`${t(lang, "blog.title")} — Recompendium`} description={t(lang, "blog.intro")}>
+  <main class="wrap detail">
+    <h1>{t(lang, "blog.title")}</h1>
+    <p class="lead" style="max-width:64ch">{t(lang, "blog.intro")}</p>
+
+    {posts.length === 0 && <p class="empty">{t(lang, "blog.empty")}</p>}
+
+    <ol class="posts">
+      {posts.map((p) => (
+        <li class="post-row">
+          <div class="post-meta">
+            <time datetime={p.data.date.toISOString().slice(0, 10)}>{fmtPostDate(p.data.date, lang)}</time>
+            <span class={`pill is-pill post-kind kind-${p.data.kind}`}>{t(lang, `blog.kind.${p.data.kind}`)}</span>
+          </div>
+          <h2><a href={localePath(lang, `blog/${postSlug(p)}`)}>{p.data.title}</a></h2>
+          <p>{p.data.summary}</p>
+        </li>
+      ))}
+    </ol>
+  </main>
+</Base>

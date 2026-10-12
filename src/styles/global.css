@@ -67,7 +67,7 @@ img { max-width: 100%; height: auto; }
 .nav-links { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; align-items: center; }
 .nav-links a {
   text-decoration: none; color: var(--ink-2); font-size: 14px; font-weight: 600;
-  padding: 7px 11px; border-radius: var(--radius); transition: color 0.12s, background 0.12s;
+  padding: 7px 9px; border-radius: var(--radius); transition: color 0.12s, background 0.12s;
 }
 .nav-links a:hover { color: var(--ink); background: var(--panel); }
 .nav-links a[aria-current="page"] { color: var(--gold); }
@@ -267,6 +267,21 @@ select { font-family: var(--mono); }
 .prose p { margin: 0 0 12px; line-height: 1.7; }
 .prose ul, .prose ol { margin: 0 0 12px; padding-left: 20px; line-height: 1.8; }
 .prose a { color: var(--gold); }
+.prose h3 { font-family: var(--sans); font-weight: 700; font-size: 16px; color: var(--ink); margin: 22px 0 6px; }
+.prose blockquote { margin: 0 0 12px; padding-left: 14px; border-left: 2px solid var(--line-2); color: var(--ink-3); }
+
+/* ---------- blog ---------- */
+.posts { list-style: none; margin: 30px 0 0; padding: 0; }
+.post-row { padding: 20px 0; border-top: 1px solid var(--line); }
+.post-row h2 { font-family: var(--sans); font-size: 19px; font-weight: 700; margin: 6px 0 6px; }
+.post-row h2 a { color: var(--ink); text-decoration: none; }
+.post-row h2 a:hover { color: var(--gold); }
+.post-row p { margin: 0; color: var(--ink-2); max-width: 70ch; line-height: 1.6; }
+.post-meta { display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: 12px; color: var(--ink-3); }
+.post-kind.kind-log { color: #5fb3c9; }
+.post-kind.kind-opinion { color: #cd7dd6; }
+.post-back { font-family: var(--mono); font-size: 12px; color: var(--ink-3); text-decoration: none; }
+.post-back:hover { color: var(--gold); }
 .prose b { color: var(--ink); }
 .prose code { font-family: var(--mono); font-size: 0.9em; background: var(--panel); padding: 1px 5px; border-radius: 4px; color: var(--ink); }
 .prose .upd { font-family: var(--mono); font-size: 12px; color: var(--ink-3); margin-top: 20px; }

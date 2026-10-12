@@ -1,0 +1,29 @@
+---
+import { render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { fmtPostDate, type Post } from "../../lib/blog";
+import { t, localePath, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+  entry: Post;
+}
+const { lang, entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<Base lang={lang} title={`${d.title} — Recompendium`} description={d.summary}>
+  <main class="wrap detail">
+    <a class="post-back" href={localePath(lang, "blog")}>← {t(lang, "blog.back")}</a>
+    <div class="post-meta" style="margin-top:18px">
+      <time datetime={d.date.toISOString().slice(0, 10)}>{fmtPostDate(d.date, lang)}</time>
+      <span class={`pill is-pill post-kind kind-${d.kind}`}>{t(lang, `blog.kind.${d.kind}`)}</span>
+    </div>
+    <h1>{d.title}</h1>
+    <p class="lead" style="max-width:64ch">{d.summary}</p>
+    <article class="prose">
+      <Content />
+    </article>
+  </main>
+</Base>

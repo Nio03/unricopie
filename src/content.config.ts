@@ -122,4 +122,27 @@ const decomps = defineCollection({
   }),
 });
 
-export const collections = { recomps, tools, ports, decomps };
+// ── Blog: lo que pasó cada semana, y lo que el catálogo no puede contener ──
+//
+// El catálogo registra QUÉ existe; el blog cuenta QUÉ PASÓ. Sirve también para
+// lo que las reglas de entrada dejan fuera a propósito: los ports a navegador
+// que traen el juego dentro (CoD, GTA V) no entran en el catálogo, pero el blog
+// los cuenta, con sus páginas y sus fuentes.
+//
+// Un archivo por idioma, en src/content/blog/<lang>/<slug>.md, con el MISMO
+// slug en los dos para que hreflang empareje las versiones.
+const blog = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    summary: z.string(),
+    // log: registro factual, con cadencia. opinion: solo cuando hay algo que decir.
+    kind: z.enum(['log', 'opinion']).default('log'),
+    // Un borrador no se publica: ni lista ni página. Para textos en voz del autor
+    // que todavía no ha revisado.
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { recomps, tools, ports, decomps, blog };
