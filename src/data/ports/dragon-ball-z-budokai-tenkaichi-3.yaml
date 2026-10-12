@@ -1,0 +1,17 @@
+name: "Dragon Ball Z: Budokai Tenkaichi 3"
+category: decomp-port
+console: ps2
+status: playable
+repo: z3xox/Tenkaichi3Decomp
+author: z3xox
+originalDeveloper: Spike
+year: 2007
+desc:
+  es: "Port nativo a PC construido sobre BT3-Decompiled, la decompilación matching de la edición estadounidense (SLUS-21678): es el código del propio juego compilado para PC, con render, sonido y entrada nuevos por debajo, no un emulador. Funciona el bucle completo —arranque, vídeo de apertura, menús, guardado, combates y pantalla partida— con render Vulkan que conserva los efectos de PS2 (contorno, brillo, tinte de profundidad, desenfoque por distancia), cada uno conmutable, y un render OpenGL 3.3 de reserva. Resolución interna de 1x a 8x y panorámico hasta 21:9 y más sin estirar el combate."
+  en: "Native PC port built on BT3-Decompiled, the matching decompilation of the US release (SLUS-21678): it is the game's own code compiled for PC, with a new renderer, sound and input layer underneath, not an emulator. The whole loop works — boot, opening movie, menus, saving, fights and split screen — with a Vulkan renderer that keeps the PS2's effects (outline, glow, depth tint, distance blur), each switchable, plus an OpenGL 3.3 fallback. Internal resolution from 1x to 8x, and widescreen to 21:9 and beyond without stretching the fight."
+requirements:
+  es: "Tu propia imagen de disco de la edición estadounidense (SLUS-21678). El repositorio no contiene datos del juego: la instalación los lee de tu disco y se quedan en tu equipo."
+  en: "Your own disc image of the US release (SLUS-21678). The repository holds no game data: setup reads it from your disc and it stays on your machine."
+tags:
+  - emotion-engine
+  - dragon-ball

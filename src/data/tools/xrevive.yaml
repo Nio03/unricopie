@@ -1,0 +1,13 @@
+name: xrevive
+kind: launcher
+consoles:
+  - xbox
+repo: Teraflopping/xrevive
+author: Teraflopping
+status: experimental
+desc:
+  es: "Launcher de escritorio para juegos de Xbox original recompilados con Xrecomp, con servicios en línea a través del proyecto de revival xb.live: inicias sesión una vez y lo heredan todos los juegos, con emparejamiento, amigos, invitaciones y clasificaciones. Descarga también actualizaciones de título y DLC. No distribuye ningún juego: compila cada uno desde un disco que tengas. Su README avisaba de que no estaba listo y esperaba release para el 12 o 13 de octubre."
+  en: "Desktop launcher for original Xbox games recompiled with Xrecomp, with online services through the xb.live revival project: you sign in once and every game inherits it, with matchmaking, friends, invites and leaderboards. It also downloads title updates and DLC. It ships no games: it builds each one from a disc you own. Its README warned it was not ready and expected a release around 12-13 October."
+tags:
+  - x86
+  - online

@@ -112,6 +112,7 @@ export const ui = {
     "category.recomp": "Recomp",
     "category.decomp-port": "Port (decomp)",
     "category.fan-remake": "Remake de fans",
+    "category.native-layer": "Capa nativa",
 
     "launchers.title": "Launchers y herramientas",
     "launchers.intro":
@@ -287,6 +288,7 @@ export const ui = {
     "category.recomp": "Recomp",
     "category.decomp-port": "Port (decomp)",
     "category.fan-remake": "Fan remake",
+    "category.native-layer": "Native layer",
 
     "launchers.title": "Launchers & tools",
     "launchers.intro":

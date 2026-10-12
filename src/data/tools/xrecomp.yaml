@@ -1,0 +1,12 @@
+name: Xrecomp
+kind: recompiler
+consoles:
+  - xbox
+repo: Teraflopping/Xrecomp
+author: Teraflopping
+status: experimental
+desc:
+  es: "Recompilador de juegos de la Xbox original a código nativo, con el objetivo declarado de cubrir las plataformas habituales. Es la cadena de herramientas detrás del launcher xrevive, del mismo autor, que también está en el catálogo."
+  en: "Recompiler for original Xbox games into native code, with the stated goal of covering the usual platforms. It is the toolchain behind the xrevive launcher, by the same author, also in this catalogue."
+tags:
+  - x86

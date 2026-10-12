@@ -1,0 +1,16 @@
+name: Daytona USA (recreativa)
+console: arcade
+status: experimental
+repo: alphanu1/daytona-arcade-recomp
+originalDeveloper: Sega AM2
+year: 1994
+desc:
+  es: "Recompilación estática del Daytona USA original de recreativa, sobre placa Sega Model 2 — distinta del otro recomp del catálogo, que ataca el relanzamiento XBLA de 2011. Recompila a C++ portable tanto el programa i960 como el programa TGP que este sube, y reescribe en C++ nativo el hardware de función fija (geometrizer, rasterizador, tilemaps). Sin intérprete y sin núcleo de emulación: MAME se usa solo como oráculo de pruebas."
+  en: "Static recompilation of the original arcade Daytona USA, on Sega Model 2 hardware — distinct from the other recomp in the catalogue, which targets the 2011 XBLA re-release. It statically recompiles both the i960 program and the TGP program it uploads to portable C++, and rewrites the fixed-function hardware (geometrizer, rasteriser, tilemaps) in native C++. No interpreter and no emulation core: MAME is used only as a test oracle."
+requirements:
+  es: "Tu propio set de ROMs en formato MAME (.zip o .7z): daytona93 (Deluxe '93) o daytona (Revision A, 1994), o ambos. El repositorio no incluye datos del juego."
+  en: "Your own MAME-format ROM set (.zip or .7z): daytona93 (Deluxe '93) or daytona (Revision A, 1994), or both. The repository ships no game data."
+tags:
+  - i960
+  - arcade
+  - model-2

@@ -1,0 +1,19 @@
+name: Bloodborne
+category: native-layer
+console: ps4
+status: playable
+repo: deadinside28/bloodborne_pc
+originalDeveloper: FromSoftware
+year: 2015
+desc:
+  es: "bbport: el juego de PS4 corriendo nativo en Linux x86-64, y la primera ficha del catálogo de su tipo. No es un recomp ni un decomp, y su autor lo explica mejor que nadie: es la contraparte de Wine + DXVK para un solo juego. Como en Wine, el código x86-64 original corre directamente en la CPU y un runtime escrito para este juego sustituye las librerías de sistema de la PS4; como en DXVK, los gráficos se traducen a Vulkan, con un render derivado de shadPS4 y muy extendido, incluido escalado temporal con FSR 3.1, 4 y 4.1.1. El fork de Supermedo lleva esto a Windows con launcher en 13 idiomas, DLSS y juego en línea en beta."
+  en: "bbport: the PS4 game running natively on x86-64 Linux, and the first entry of its kind in this catalogue. It is neither a recomp nor a decomp, and its author puts it best: it is the counterpart of Wine + DXVK for a single game. As in Wine, the original x86-64 code runs directly on the CPU and a runtime written for this one game replaces the PS4 system libraries; as in DXVK, the graphics are translated to Vulkan, by a renderer derived from shadPS4 and heavily extended, including temporal upscaling with FSR 3.1, 4 and 4.1.1. The Supermedo fork takes this to Windows with a launcher in 13 languages, DLSS and beta online play."
+requirements:
+  es: "Tu propio volcado descifrado de Bloodborne (CUSA03173). La versión 1.09 es la que admiten los parches de la comunidad —60/90 FPS o desbloqueados, resolución, efectos—; otras versiones corren a 30. No se incluye ningún archivo del juego."
+  en: "Your own decrypted Bloodborne dump (CUSA03173). Version 1.09 is the one the community patches support — 60/90 or unlocked FPS, resolution, effects; other versions run at 30. No game files are included."
+tags:
+  - x86
+  - vulkan
+links:
+  - label: Fork para Windows (Supermedo)
+    url: https://github.com/Supermedo/bloodborne_pc

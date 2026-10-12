@@ -17,6 +17,7 @@ StillJC/ArcadeDuck-Site            # la web de ArcadeDuck, que ademas es un emul
 
 # ── Emuladores: fuera por definicion, por muy cerca de la escena que esten ──
 Tovarichtch/xemu                   # fork de xemu para emular la placa Sega Chihiro
+tsukina123/kitsune-releases        # emulador de recreativa, y encima es un repo solo de binarios sin fuente
 
 # ── Redistribuyen contenido del juego ──
 # El catalogo solo enlaza codigo que exige tu propia copia. Esto no es un juicio
@@ -29,5 +30,6 @@ Endprodukt/cannonball-dx           # fork del anterior; ambos enlazados desde po
 elliotttate/wave-race-64-recomp    # fork de danielgomesvieira2000; enlazado desde recomps/wave-race-64-gomesvieira.yaml
 elliotttate/DKC2Recomp             # fork de mstan/DKC2Recomp; enlazado desde recomps/donkey-kong-country-2.yaml
 bnunu/halo-1                       # fork de punpckhdq/halo (ya fichado); el port real es cybersecurity/halo-ce-universal
+Supermedo/bloodborne_pc            # fork de deadinside28; enlazado desde ports/bloodborne.yaml
 RobGreenUK/wave-race-64-recomp     # fork de danielgomesvieira2000, sin releases ni cambios propios
 DabDavis/perfect-dark-dabs-mod     # fork con mods de fgsfdsfgs/perfect_dark, que ya tiene ficha en ports/

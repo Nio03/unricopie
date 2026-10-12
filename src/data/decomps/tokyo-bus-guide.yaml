@@ -1,0 +1,9 @@
+name: Tokyo Bus Guide
+console: dreamcast
+repo: lhsazevedo/tbg-decomp
+decomp: lhsazevedo/tbg-decomp
+desc:
+  es: "La primera decompilación pública de un juego de Dreamcast, del clásico japonés 東京バス案内. Busca equivalencia funcional antes que coincidencia byte a byte, y se plantea como esfuerzo colectivo para empujar la ingeniería inversa de la consola. Su README avisa de algo que conviene repetir: de esta decompilación no sale una ROM jugable sin una copia legítima del juego original."
+  en: "The first public decompilation of a Dreamcast game, of the Japanese classic 東京バス案内. It aims for functional equivalence rather than byte-level matching, and is framed as a collective effort to push the console's reverse engineering forward. Its README flags something worth repeating: this decompilation cannot produce a playable ROM without a legitimate copy of the original game."
+tags:
+  - sh-4

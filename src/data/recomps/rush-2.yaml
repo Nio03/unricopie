@@ -1,0 +1,15 @@
+name: "Rush 2: Extreme Racing USA"
+console: n64
+status: playable
+repo: bryantmh/rush2recompiled
+originalDeveloper: Midway Games
+year: 1998
+desc:
+  es: "Recompilación del juego de carreras de 1998 con panorámico y ultrapanorámico, tasas de fotogramas altas por interpolación sobre los 30 fps originales —incluido un modo de refresco variable que sigue a tu pantalla—, HUD colocable en 4:3 o en los bordes, nivel de detalle desactivable para que no haya pop-in, fuentes redibujadas para que no se emborronen y escalado opcional de texturas con HQ2x/HQ4x que deja menús y HUD intactos."
+  en: "Recompilation of the 1998 racer with widescreen and ultrawide, high frame rates interpolated over the original 30 fps — including a variable refresh mode that follows your display — a HUD you can keep at 4:3 or push to the edges, level of detail you can switch off so nothing pops in, redrawn fonts that stay sharp, and optional HQ2x/HQ4x texture upscaling that leaves the menus and HUD alone."
+requirements:
+  es: "Tu propia copia de Rush 2: Extreme Racing USA (N64). No se incluye nada del cartucho original."
+  en: "Your own copy of Rush 2: Extreme Racing USA (N64). Nothing from the original cartridge is included."
+tags:
+  - mips
+  - racing

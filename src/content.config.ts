@@ -75,7 +75,11 @@ const ports = defineCollection({
   loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/ports' }),
   schema: z.object({
     name: z.string(),
-    category: z.enum(['decomp-port', 'fan-remake']),
+    // native-layer: el ejecutable ORIGINAL corre nativo y un runtime hecho para
+    // ese juego sustituye las librerias de sistema de la consola. No hay
+    // recompilacion (misma arquitectura) ni decompilacion: es el modelo de
+    // Wine + DXVK aplicado a un solo juego.
+    category: z.enum(['decomp-port', 'fan-remake', 'native-layer']),
     console: consoleEnum.optional(),
     status: z.enum(['experimental', 'playable', 'fully']).default('playable'),
     abandoned: z.boolean().default(false),
