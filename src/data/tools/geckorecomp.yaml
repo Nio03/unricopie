@@ -8,8 +8,8 @@ status: experimental
 abandoned: true
 enrich: false
 desc:
-  es: "Fork experimental de XenonRecomp que intentaba convertir ejecutables de Wii/GameCube (PowerPC 'Gekko') a C++. El repositorio ya no está disponible; para GC/Wii ver DolRecomp."
-  en: "Experimental fork of XenonRecomp that aimed to convert Wii/GameCube (PowerPC 'Gekko') executables to C++. The repository is no longer available; for GC/Wii see DolRecomp."
+  es: "Fork experimental de XenonRecomp que intentaba convertir a C++ ejecutables de Wii y GameCube (PowerPC «Gekko»). El repositorio ya no está disponible; para GameCube y Wii, consulta DolRecomp."
+  en: "Experimental fork of XenonRecomp that aimed to convert Wii and GameCube (PowerPC “Gekko”) executables to C++. The repository is no longer available; for GameCube and Wii, see DolRecomp."
 tags:
   - powerpc
   - gekko

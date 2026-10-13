@@ -6,7 +6,7 @@ repo: mstan/gbarecomp
 author: mstan
 status: experimental
 desc:
-  es: "Ecosistema de recompilación estática para juegos de Game Boy Advance, del mismo autor que psxrecomp. Los juegos que salen de él (Mario Kart: Super Circuit) son el banco de pruebas; el framework reutilizable es el objetivo declarado."
-  en: "Static recompilation ecosystem for Game Boy Advance games, from the same author as psxrecomp. The games that come out of it (Mario Kart: Super Circuit) are the proving ground; the reusable framework is the stated goal."
+  es: "Ecosistema de recompilación estática para juegos de Game Boy Advance, del mismo autor que psxrecomp. Los juegos que salen de él, como Mario Kart: Super Circuit, sirven de banco de pruebas; el objetivo declarado es el marco de trabajo reutilizable."
+  en: "Static recompilation ecosystem for Game Boy Advance games, from the same author as psxrecomp. The games that come out of it, such as Mario Kart: Super Circuit, are the proving ground; the reusable framework is the stated goal."
 tags:
   - arm7

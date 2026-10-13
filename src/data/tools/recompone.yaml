@@ -5,8 +5,8 @@ consoles:
 repo: BlackLabelHQ/RecompOne
 status: experimental
 desc:
-  es: "Recompilador estático que levanta ejecutables MIPS de PS1 a C# con una capa de runtime para PC. Temprano: 'todavía no sirve para hacer recomps reales, pero arranca juegos'."
-  en: "Static recompiler that lifts PS1 MIPS executables to C# with a PC runtime layer. Early: 'not ready to make actual recomps yet, but it can boot games'."
+  es: "Recompilador estático que traduce ejecutables MIPS de PS1 a C#, con una capa de entorno de ejecución para PC. Está en una fase temprana: según su autor, «todavía no sirve para hacer recomps de verdad, pero arranca juegos»."
+  en: "Static recompiler that lifts PS1 MIPS executables to C#, with a PC runtime layer. Early: in its author’s words, “not ready to make actual recomps yet, but it can boot games.”"
 tags:
   - mips
   - csharp

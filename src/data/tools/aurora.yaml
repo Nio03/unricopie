@@ -6,7 +6,7 @@ consoles:
 repo: encounter/aurora
 status: usable
 desc:
-  es: Capa de compatibilidad de GameCube y Wii a nivel de código fuente. Facilita que los ports de decomp de esas consolas lleguen a PC.
-  en: A source-level GameCube and Wii compatibility layer. Makes it easier for decomp ports of those consoles to reach PC.
+  es: "Capa de compatibilidad con GameCube y Wii que trabaja sobre el código fuente. Facilita que los ports de decompilaciones de esas consolas lleguen a PC."
+  en: "A source-level GameCube and Wii compatibility layer. It makes it easier for decomp ports of those consoles to reach PC."
 tags:
   - powerpc

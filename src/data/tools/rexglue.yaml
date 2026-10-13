@@ -6,8 +6,8 @@ repo: rexglue/rexglue-sdk
 author: rexglue (Tom)
 status: usable
 desc:
-  es: "El SDK de recompilación de 360 más nuevo (feb. 2026): CPU 100% estática a C++ con Clang, pero híbrido (toma la GPU Xenos y el kernel de Xenia). Detrás de Skate 3, GoldenEye, Blue Dragon y más."
-  en: "The newest 360 recompilation SDK (Feb. 2026): 100% static CPU to C++ with Clang, but hybrid (borrows Xenia's Xenos GPU and kernel). Behind Skate 3, GoldenEye, Blue Dragon and more."
+  es: "SDK de recompilación de Xbox 360 publicado en febrero de 2026: la CPU se recompila al 100 % de forma estática a C++ con Clang, pero es híbrido, porque toma de Xenia la GPU Xenos y el kernel. Está detrás de Skate 3, GoldenEye, Blue Dragon y otros."
+  en: "Xbox 360 recompilation SDK released in February 2026: the CPU is 100% statically recompiled to C++ with Clang, but it’s hybrid, borrowing the Xenos GPU and the kernel from Xenia. It’s behind Skate 3, GoldenEye, Blue Dragon, and more."
 tags:
   - powerpc
   - sdk

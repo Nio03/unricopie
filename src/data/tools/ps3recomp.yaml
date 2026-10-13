@@ -5,8 +5,8 @@ consoles:
 repo: sp00nznet/ps3recomp
 status: experimental
 desc:
-  es: Librerías de runtime de recompilación estática para títulos de PlayStation 3. Primer paso hacia los recomps de PS3.
-  en: Static recompilation runtime libraries for PlayStation 3 titles. The first step towards PS3 recomps.
+  es: "Bibliotecas de entorno de ejecución para la recompilación estática de juegos de PlayStation 3. Es un primer paso hacia los recomps de PS3."
+  en: "Runtime libraries for the static recompilation of PlayStation 3 titles. A first step toward PS3 recomps."
 tags:
   - cell
   - powerpc

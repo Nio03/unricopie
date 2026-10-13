@@ -5,8 +5,8 @@ consoles:
 repo: mstan/psxrecomp
 status: usable
 desc:
-  es: "El recompilador de PS1 más avanzado: levanta MIPS R3000A a C nativo y recompila el propio BIOS SCPH1001 como kernel. Validado con Tomba!, que llega a la jugabilidad real."
-  en: "The most advanced PS1 recompiler: lifts R3000A MIPS to native C and recompiles the SCPH1001 BIOS itself as the kernel. Validated with Tomba!, which reaches real gameplay."
+  es: "Recompilador de PS1 que traduce MIPS R3000A a C nativo y recompila la propia BIOS SCPH1001 como núcleo del sistema. Es la base de muchos recomps de PS1 del catálogo, como Crash Bandicoot 2, Ridge Racer Revolution, Valkyrie Profile o la serie Mega Man X."
+  en: "PS1 recompiler that lifts R3000A MIPS to native C and recompiles the SCPH1001 BIOS itself as the kernel. It’s the base of many PS1 recomps in the catalog, such as Crash Bandicoot 2, Ridge Racer Revolution, Valkyrie Profile, and the Mega Man X series."
 tags:
   - mips
   - bios

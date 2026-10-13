@@ -5,7 +5,7 @@ consoles:
 repo: N64Recomp/N64ModernRuntime
 status: stable
 desc:
-  es: Capa de runtime/librería compartida que sostiene los ports de N64Recomp (entrada, audio, plugins). Infraestructura central.
-  en: Shared runtime/library layer that backs N64Recomp ports (input, audio, plugins). Core infrastructure.
+  es: "Capa compartida de entorno de ejecución y bibliotecas que sostiene los ports de N64Recomp (entrada, audio, plugins). Es infraestructura central de la escena."
+  en: "Shared runtime and library layer that backs N64Recomp ports (input, audio, plugins). Core infrastructure."
 tags:
   - runtime

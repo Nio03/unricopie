@@ -6,7 +6,7 @@ consoles:
 repo: ExpansionPak/DolRecomp
 status: experimental
 desc:
-  es: "Recompilador estático de GameCube y Wii (Wii U experimental) que levanta ejecutables PowerPC a C. Solo CPU por ahora: sin runtime ni renderer propios. Sucesor de GCRecompiler."
-  en: "Static recompiler for GameCube and Wii (experimental Wii U) that lifts PowerPC executables to C. CPU-only for now: no bundled runtime or renderer. Successor to GCRecompiler."
+  es: "Recompilador estático para GameCube y Wii (y, de forma experimental, Wii U) que traduce ejecutables PowerPC a C. Por ahora solo cubre la CPU: no incluye entorno de ejecución ni renderizador propios. Es el sucesor de GCRecompiler."
+  en: "Static recompiler for GameCube and Wii (with experimental Wii U support) that lifts PowerPC executables to C. CPU-only for now: no bundled runtime or renderer. Successor to GCRecompiler."
 tags:
   - powerpc

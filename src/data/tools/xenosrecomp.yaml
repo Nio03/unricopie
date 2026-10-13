@@ -5,8 +5,8 @@ consoles:
 repo: hedge-dev/XenosRecomp
 status: stable
 desc:
-  es: Convierte los shaders de la GPU Xenos del Xbox 360 a HLSL. Complemento de XenonRecomp.
-  en: Converts the Xbox 360 Xenos GPU shaders to HLSL. Companion to XenonRecomp.
+  es: "Convierte a HLSL los shaders de la GPU Xenos de la Xbox 360. Es el complemento de XenonRecomp."
+  en: "Converts Xbox 360 Xenos GPU shaders to HLSL. A companion to XenonRecomp."
 tags:
   - shaders
   - gpu

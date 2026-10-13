@@ -5,8 +5,8 @@ consoles:
 repo: KaiserGranatapfel/GameCubeRecompiled
 status: experimental
 desc:
-  es: Recompilador experimental que convierte binarios DOL de GameCube a Rust, generando ejecutables nativos. Aún sin juego portado; gráficos/audio en progreso.
-  en: Experimental recompiler that turns GameCube DOL binaries into Rust, producing native executables. No ported game yet; graphics/audio in progress.
+  es: "Recompilador experimental que convierte binarios DOL de GameCube a Rust y genera ejecutables nativos. Todavía no hay ningún juego portado; los gráficos y el audio están en desarrollo."
+  en: "Experimental recompiler that turns GameCube DOL binaries into Rust, producing native executables. No ported game yet; graphics and audio are in progress."
 tags:
   - powerpc
   - rust

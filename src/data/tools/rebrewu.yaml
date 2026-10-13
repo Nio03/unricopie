@@ -5,7 +5,7 @@ consoles:
 repo: ApfelTeeSaft/RebrewU
 status: experimental
 desc:
-  es: Recompilador estático para Wii U (RPX → C++), de la misma familia PowerPC. Etapa muy temprana.
-  en: Static recompiler for Wii U (RPX → C++), from the same PowerPC family. Very early stage.
+  es: "Recompilador estático para Wii U (de RPX a C++), de la misma familia PowerPC. Está en una fase muy temprana."
+  en: "Static recompiler for Wii U (RPX to C++), from the same PowerPC family. Very early stage."
 tags:
   - powerpc

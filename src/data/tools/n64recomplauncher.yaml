@@ -1,12 +1,12 @@
-name: GithubLauncher (antes N64RecompLauncher)
+name: GithubLauncher (N64RecompLauncher)
 kind: launcher
 consoles:
   - n64
 repo: SirDiabo/GithubLauncher
 status: usable
 desc:
-  es: "El primer launcher universal aparte (ago. 2025): rastrea, descarga y organiza ports recomp estilo Steam, con auto-actualización. Hoy renombrado a un launcher genérico de releases (SirDiabo/GithubLauncher)."
-  en: "The first standalone universal launcher (Aug. 2025): tracks, downloads and organizes recomp ports Steam-style, with auto-update. Now renamed to a generic releases launcher (SirDiabo/GithubLauncher)."
+  es: "El primer launcher universal independiente (agosto de 2025): localiza, descarga y organiza ports por recompilación al estilo de Steam, y se actualiza solo. Hoy se ha convertido en un launcher genérico de versiones publicadas en GitHub (SirDiabo/GithubLauncher)."
+  en: "The first standalone universal launcher (August 2025): it tracks, downloads, and organizes recomp ports Steam-style, with auto-update. It has since been renamed and turned into a generic launcher for GitHub releases (SirDiabo/GithubLauncher)."
 tags:
   - downloader
   - auto-update

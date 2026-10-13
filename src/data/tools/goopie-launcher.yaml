@@ -5,8 +5,8 @@ consoles:
 repo: birabittoh/GoopieLauncher
 status: usable
 desc:
-  es: "Launcher tipo librería para recompilaciones de Xbox 360 hechas con ReXGlue: descarga y auto-actualiza los ejecutables con verificación de integridad. Reescritura en Rust/Tauri del launcher original."
-  en: "Library-style launcher for Xbox 360 recompilations built with ReXGlue: downloads and auto-updates the executables with integrity checks. Rust/Tauri rewrite of the original launcher."
+  es: "Launcher con biblioteca para las recompilaciones de Xbox 360 hechas con ReXGlue: descarga los ejecutables y los mantiene actualizados, comprobando su integridad. Es una reescritura en Rust y Tauri del launcher original."
+  en: "Library-style launcher for Xbox 360 recompilations built with ReXGlue: it downloads the executables and keeps them updated, with integrity checks. A Rust/Tauri rewrite of the original launcher."
 tags:
   - downloader
   - auto-update

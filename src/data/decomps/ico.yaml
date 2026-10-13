@@ -3,8 +3,8 @@ console: ps2
 repo: nathanialf/ico
 decomp: nathanialf/ico
 desc:
-  es: "Decompilación matching del disco PAL (SCES-50760) que reconstruye el ELF de arranque con la misma cadena de herramientas con la que se compiló el juego. La coincidencia es byte a byte en los dos niveles: el SHA-1 de la imagen que carga la consola y el del propio ELF coinciden con los del disco. Es la base del port a PC y Android que también está en el catálogo."
-  en: "Matching decompilation of the PAL disc (SCES-50760) that rebuilds the boot ELF with the toolchain the game was built with. The match is byte-for-byte at both levels: the SHA-1 of the image the console loads and that of the ELF itself both match the disc's. It is the base of the PC and Android port also in this catalogue."
+  es: "Decompilación exacta del disco PAL (SCES-50760) que reconstruye el ELF de arranque con la misma cadena de herramientas con la que se compiló el juego. La coincidencia es byte a byte en los dos niveles: el SHA-1 de la imagen que carga la consola y el del propio ELF coinciden con los del disco. Es la base del port para PC y Android que también está en el catálogo."
+  en: "Matching decompilation of the PAL disc (SCES-50760) that rebuilds the boot ELF with the toolchain the game was built with. The match is byte-for-byte at both levels: the SHA-1 of the image the console loads and that of the ELF itself both match the disc’s. It’s the base of the PC and Android port, also in this catalog."
 tags:
   - emotion-engine
   - matching

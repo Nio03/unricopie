@@ -3,7 +3,7 @@ console: wii
 repo: SMGCommunity/Garigari
 decomp: SMGCommunity/Garigari
 desc:
-  es: "Decompilación en curso de Super Mario Galaxy 2 (proyecto Garigari). Solo soporta la Rev 0 USA (SB4E01). Declara que no es un esfuerzo por hacer un port a PC. Admite IA para limpieza, formato, documentación y nombres, pero rechaza decompilación generada por IA."
-  en: "Work-in-progress decompilation of Super Mario Galaxy 2 (project Garigari). Only Rev 0 USA (SB4E01) is supported. It states it is not an effort to create a PC port. AI is allowed for cleanup, formatting, documentation and naming, but AI-generated decompilation is rejected."
+  es: "Decompilación en curso de Super Mario Galaxy 2 (proyecto Garigari). Solo es compatible con la Rev 0 estadounidense (SB4E01). Declara que no busca crear un port para PC. Admite la IA para limpiar, dar formato, documentar y poner nombres, pero rechaza la decompilación generada por IA."
+  en: "Work-in-progress decompilation of Super Mario Galaxy 2 (project Garigari). Only the US Rev 0 (SB4E01) is supported. It states it isn’t an effort to create a PC port. AI is allowed for cleanup, formatting, documentation, and naming, but AI-generated decompilation is rejected."
 tags:
   - human-driven

@@ -5,8 +5,8 @@ consoles:
 repo: kotcrab/mist
 status: experimental
 desc:
-  es: "Toolkit para el MIPS Allegrex de PSP: desensamblador + ejecución simbólica + decompilador, con un recompilador MIPS→C++ en desarrollo. Aún no produce ports de PC."
-  en: "Toolkit for the PSP Allegrex MIPS: disassembler + symbolic execution + decompiler, with an in-development MIPS→C++ recompiler. Doesn't produce PC ports yet."
+  es: "Conjunto de herramientas para el MIPS Allegrex de la PSP: desensamblador, ejecución simbólica y decompilador, con un recompilador de MIPS a C++ en desarrollo. Todavía no produce ports para PC."
+  en: "Toolkit for the PSP’s Allegrex MIPS: a disassembler, symbolic execution, and a decompiler, with an in-development MIPS-to-C++ recompiler. It doesn’t produce PC ports yet."
 tags:
   - allegrex
   - reverse-engineering

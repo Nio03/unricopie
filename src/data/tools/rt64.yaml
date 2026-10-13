@@ -6,8 +6,8 @@ repo: rt64/rt64
 author: DarioSamo
 status: stable
 desc:
-  es: "El renderizador gráfico detrás de los recomps de N64 (Majora's Mask, Banjo…): widescreen, alta tasa de fotogramas y ray tracing opcional."
-  en: "The graphics renderer behind the N64 recomps (Majora's Mask, Banjo…): widescreen, high frame rate and optional ray tracing."
+  es: "El renderizador gráfico de los recomps de N64 (Majora's Mask, Banjo-Kazooie…): modo panorámico, alta tasa de fotogramas y trazado de rayos opcional."
+  en: "The graphics renderer behind the N64 recomps (Majora's Mask, Banjo-Kazooie…): widescreen, high frame rate, and optional ray tracing."
 tags:
   - renderer
   - ray-tracing

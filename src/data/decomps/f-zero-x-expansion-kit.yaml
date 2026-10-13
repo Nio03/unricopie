@@ -3,7 +3,7 @@ console: n64
 repo: inspectredc/fzerox-expansion-kit
 decomp: inspectredc/fzerox-expansion-kit
 desc:
-  es: "Decompilación matching en curso del Expansion Kit de F-Zero X (el complemento del 64DD) para N64. Necesitas una copia previa del juego para extraer los assets necesarios."
-  en: "Work-in-progress matching decompilation of the F-Zero X Expansion Kit (the 64DD add-on) for N64. You need a prior copy of the game to extract the assets required for the build."
+  es: "Decompilación exacta en curso del Expansion Kit de F-Zero X (el complemento para el 64DD) para N64. Necesitas una copia del juego para extraer los recursos que requiere la compilación."
+  en: "Work-in-progress matching decompilation of the F-Zero X Expansion Kit (the 64DD add-on) for N64. You need a copy of the game to extract the assets the build requires."
 tags:
   - matching

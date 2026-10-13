@@ -5,7 +5,7 @@ consoles:
 repo: nihirunoherr/PS1Recomp
 status: experimental
 desc:
-  es: Adaptación directa de N64Recomp al MIPS de PS1. Prueba de concepto según su autor; sin juegos funcionando.
-  en: A direct adaptation of N64Recomp to PS1 MIPS. A proof of concept per its author; no working games.
+  es: "Adaptación directa de N64Recomp al MIPS de PS1. Según su autor, es una prueba de concepto; no hay juegos funcionando."
+  en: "A direct adaptation of N64Recomp to the PS1’s MIPS. A proof of concept, according to its author; no working games."
 tags:
   - mips
