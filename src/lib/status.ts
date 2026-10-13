@@ -42,6 +42,17 @@ export function toolKindMeta(key: string) {
   return (TOOL_KIND as Record<string, (typeof TOOL_KIND)[ToolKind]>)[key] ?? TOOL_KIND.library;
 }
 
+// Tipos de mod para la sección "Mods" (los textos, en i18n/ui.ts).
+export const MOD_KIND = {
+  mod: { color: '#e0a73a' },
+  editor: { color: '#d4799b' },
+  manager: { color: '#7aa2f0' },
+} as const;
+
+export function modKindMeta(key: string) {
+  return (MOD_KIND as Record<string, (typeof MOD_KIND)[keyof typeof MOD_KIND]>)[key] ?? MOD_KIND.mod;
+}
+
 // Estado de madurez de una herramienta.
 export const TOOL_STATUS = {
   experimental: { color: '#e0a73a' },
@@ -85,7 +96,7 @@ export const UNFINISHED_TOOL_STATUS: readonly string[] = ['experimental', 'beta'
  * archivado, o el autor lo dijo), la ficha lo dice sin necesidad de heurística.
  */
 export function stalledDays(opts: {
-  type: 'recomp' | 'port' | 'tool' | 'decomp';
+  type: 'recomp' | 'port' | 'tool' | 'decomp' | 'mod';
   status?: string;
   pushedAt?: string;
   decompPercent?: number;
@@ -100,6 +111,7 @@ export function stalledDays(opts: {
     // Sin porcentaje no sabemos si llegó, así que no se marca.
     return opts.decompPercent != null && opts.decompPercent < 100 ? dias : null;
   }
-  const lista = opts.type === 'tool' ? UNFINISHED_TOOL_STATUS : UNFINISHED_STATUS;
+  // Los mods usan la misma escala de madurez que las herramientas.
+  const lista = opts.type === 'tool' || opts.type === 'mod' ? UNFINISHED_TOOL_STATUS : UNFINISHED_STATUS;
   return opts.status && lista.includes(opts.status) ? dias : null;
 }

@@ -1,0 +1,17 @@
+name: PotatoVoxel
+kind: mod
+console: gb
+game:
+  es: "Pokémon de primera generación (Gen1Recomp)"
+  en: "First-generation Pokémon (Gen1Recomp)"
+base: ports/pokemon-gen1
+repo: Nexhas28/potato_voxel
+author: Nexhas28
+desc:
+  es: "Mod para Gen1Recomp que convierte el mundo de los Pokémon de primera generación en un diorama 3D de vóxeles, con relieve, personajes planos que siempre miran a la cámara y sombras, sin dejar de funcionar en consolas portátiles, móviles y equipos poco potentes. Tiene niveles de calidad de HIGH a POTATO y una caché del terreno que evita reconstruir cada mapa en cada visita. Se instala desde el menú de mods de Gen1Recomp, importando el .zip de la versión que corresponda."
+  en: "A Gen1Recomp mod that turns the first-generation Pokémon overworld into a 3D voxel diorama, with terrain depth, billboard characters, and shadows, while staying playable on handhelds, phones, and lower-powered computers. It has quality presets from HIGH to POTATO and a persistent terrain cache, so maps don’t have to be rebuilt on every visit. You install it from Gen1Recomp’s mod menu by importing the .zip for your version."
+requirements:
+  es: "Gen1Recomp, con la ROM de tu propio juego."
+  en: "Gen1Recomp, with your own game ROM."
+tags:
+  - voxel

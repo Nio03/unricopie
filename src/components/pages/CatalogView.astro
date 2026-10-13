@@ -46,6 +46,7 @@ const typeChips = (
     { key: "tool", label: t(lang, "ctl.typeTools"), color: TYPE_COLOR.tool },
     { key: "port", label: t(lang, "ctl.typePorts"), color: TYPE_COLOR.port },
     { key: "decomp", label: t(lang, "ctl.typeDecomps"), color: TYPE_COLOR.decomp },
+    { key: "mod", label: t(lang, "ctl.typeMods"), color: TYPE_COLOR.mod },
   ] as const
 ).filter((c) => items.some((i) => i.type === c.key));
 
@@ -54,6 +55,7 @@ const guideCards = [
   { key: "port", color: TYPE_COLOR.port },
   { key: "decomp", color: TYPE_COLOR.decomp },
   { key: "tool", color: TYPE_COLOR.tool },
+  { key: "mod", color: TYPE_COLOR.mod },
 ] as const;
 ---
 

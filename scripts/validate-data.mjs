@@ -36,7 +36,8 @@ async function check(dir, kind) {
     if (!doc.name) errors.push(`${path}: falta "name"`);
     if (!doc.desc) errors.push(`${path}: falta "desc"`);
     if (doc.repo && !repoRe.test(doc.repo)) errors.push(`${path}: "repo" debe ser owner/repo (no URL): ${doc.repo}`);
-    if ((kind === "recomp" || kind === "decomp") && !doc.console) errors.push(`${path}: falta "console"`);
+    if ((kind === "recomp" || kind === "decomp" || kind === "mod") && !doc.console) errors.push(`${path}: falta "console"`);
+    if (kind === "mod" && (!doc.kind || !doc.game)) errors.push(`${path}: falta "kind" o "game"`);
     if (kind === "tool" && !doc.kind) errors.push(`${path}: falta "kind"`);
     // Solo rastreamos repos que SÍ se enriquecen; si una entrada usa
     // enrich:false (comparte repo a propósito) no cuenta como duplicado.
@@ -68,6 +69,7 @@ await check(join(root, "src/data/recomps"), "recomp");
 await check(join(root, "src/data/tools"), "tool");
 await check(join(root, "src/data/ports"), "port");
 await check(join(root, "src/data/decomps"), "decomp");
+await check(join(root, "src/data/mods"), "mod");
 
 if (warnings.length) {
   console.warn(`⚠  ${warnings.length} aviso(s):`);

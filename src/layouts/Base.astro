@@ -38,6 +38,7 @@ const nav = [
   { label: t(lang, "nav.launchers"), to: localePath(lang, "launchers") },
   { label: t(lang, "nav.ports"), to: localePath(lang, "ports") },
   { label: t(lang, "nav.decomps"), to: localePath(lang, "decompilaciones") },
+  { label: t(lang, "nav.mods"), to: localePath(lang, "mods") },
   { label: t(lang, "nav.blog"), to: localePath(lang, "blog") },
   { label: t(lang, "nav.contribute"), to: localePath(lang, "contribuir") },
   { label: t(lang, "nav.about"), to: localePath(lang, "acerca") },
@@ -153,8 +154,8 @@ function isActive(to: string) {
         const src = modal.dataset.src!;
         const lang = document.documentElement.lang === "en" ? "en" : "es";
         const TYPES: Record<string, Record<string, string>> = {
-          es: { recomp: "Recomp", tool: "Herramienta", port: "Port", decomp: "Decomp" },
-          en: { recomp: "Recomp", tool: "Tool", port: "Port", decomp: "Decomp" },
+          es: { recomp: "Recomp", tool: "Herramienta", port: "Port", decomp: "Decomp", mod: "Mod" },
+          en: { recomp: "Recomp", tool: "Tool", port: "Port", decomp: "Decomp", mod: "Mod" },
         };
         const EMPTY = lang === "en" ? "No results." : "Sin resultados.";
         let index: any[] | null = null;

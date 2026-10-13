@@ -2,7 +2,7 @@
 // Descubre proyectos nuevos a partir del RSS de Video Game Esoterica.
 //
 // SOLO descubre y avisa: nunca escribe en el catálogo. Clasificar un proyecto
-// (recomp / port / tool / decomp, o fuera) exige leer el README y decidir, y
+// (recomp / port / tool / decomp / mod, o fuera) exige leer el README y decidir, y
 // ahí una heurística se equivoca: WheelWizard parece un launcher de recomps y
 // es un gestor de mods sobre Dolphin; gen1recomp se llama "recomp" y es un
 // remake en LÖVE2D. Eso lo hace una persona, no este script.
@@ -17,7 +17,7 @@ import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const dataDirs = ["recomps", "tools", "ports", "decomps"].map((d) => join(root, "src/data", d));
+const dataDirs = ["recomps", "tools", "ports", "decomps", "mods"].map((d) => join(root, "src/data", d));
 const ignorePath = join(root, "scripts/discovery-ignore.txt");
 const FEED = "https://www.youtube.com/feeds/videos.xml?channel_id=UCn2pQB4jsCTLUtx2NIkCvUg";
 const HOSTS = /^(?:www\.)?(github\.com|gitlab\.com|codeberg\.org|bitbucket\.org)$/i;

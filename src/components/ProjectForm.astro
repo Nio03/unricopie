@@ -27,7 +27,8 @@ const curType: ItemType = (fixedType ?? "recomp") as ItemType;
 const toolStatusKeys = TOOL_STATUS_KEYS;
 
 const L = es
-  ? { type: "Tipo", tRecomp: "Juego (recomp)", tTool: "Herramienta / launcher", tPort: "Port / remake", tDecomp: "Decompilación",
+  ? { type: "Tipo", tRecomp: "Juego (recomp)", tTool: "Herramienta / launcher", tPort: "Port / remake", tDecomp: "Decompilación", tMod: "Mod / herramienta de mods",
+      modKind: "Tipo de mod", game: "Juego sobre el que funciona",
       name: "Nombre", console: "Consola", kind: "Tipo de herramienta", category: "Categoría", status: "Estado",
       abandoned: "Abandonado", takedown: "Retirado (DMCA)", repo: "Repositorio (usuario/repo)", author: "Autor / mantenedor",
       desc: "Descripción", reqs: "Requisitos (qué ROM o versión del juego hace falta)", tags: "Etiquetas (separadas por comas)",
@@ -35,7 +36,8 @@ const L = es
       submit: mode === "edit" ? "Enviar cambios" : "Añadir", need: "Escribe al menos el nombre y la descripción.",
       doneTitle: "¡Gracias por contribuir!", doneBody: "Tu propuesta se abrió como issue en GitHub y está en revisión. Cuando la aprobemos, aparecerá en el sitio.",
       again: mode === "edit" ? "Editar de nuevo" : "Añadir otro" }
-  : { type: "Type", tRecomp: "Game (recomp)", tTool: "Tool / launcher", tPort: "Port / remake", tDecomp: "Decompilation",
+  : { type: "Type", tRecomp: "Game (recomp)", tTool: "Tool / launcher", tPort: "Port / remake", tDecomp: "Decompilation", tMod: "Mod / modding tool",
+      modKind: "Mod type", game: "Game it works on",
       name: "Name", console: "Console", kind: "Tool type", category: "Category", status: "Status",
       abandoned: "Abandoned", takedown: "Taken down (DMCA)", repo: "Repository (owner/repo)", author: "Author / maintainer",
       desc: "Description", reqs: "Requirements (which ROM or game version is needed)", tags: "Tags (comma-separated)",
@@ -47,7 +49,7 @@ const L = es
 const showFor = (t: ItemType, set: ItemType[]) => (set.includes(t) ? "" : "none");
 const cfg = {
   mode, gh: GITHUB_URL, lang, otherLang, fixedType: fixedType ?? null,
-  path: path ?? null, prevDesc: d.desc ?? null, prevReq: d.requirements ?? null,
+  path: path ?? null, prevDesc: d.desc ?? null, prevReq: d.requirements ?? null, prevGame: d.game ?? null,
 };
 ---
 
@@ -61,13 +63,14 @@ const cfg = {
           <option value="tool">{L.tTool}</option>
           <option value="port">{L.tPort}</option>
           <option value="decomp">{L.tDecomp}</option>
+          <option value="mod">{L.tMod}</option>
         </select>
       </div>
     )
   }
   <div class="fld"><label for="pf-name">{L.name}</label><input id="pf-name" value={d.name ?? ""} placeholder="Conker's Bad Fur Day" /></div>
 
-  <div class="fld" data-row="console" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "decomp"]) : ""}`}>
+  <div class="fld" data-row="console" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "decomp", "mod"]) : ""}`}>
     <label for="pf-console">{L.console}</label>
     <select id="pf-console">{CONSOLE_KEYS.map((k) => <option value={k} selected={d.console === k}>{consoleMeta(k, lang).label}</option>)}</select>
   </div>
@@ -75,11 +78,18 @@ const cfg = {
     <label for="pf-kind">{L.kind}</label>
     <select id="pf-kind">{(["recompiler", "launcher", "patcher", "library"] as const).map((k) => <option value={k} selected={d.kind === k}>{t(lang, `toolkind.${k}`)}</option>)}</select>
   </div>
+  <div class="fld" data-row="modkind" style={`display:${mode === "edit" ? showFor(curType, ["mod"]) : "none"}`}>
+    <label for="pf-modkind">{L.modKind}</label>
+    <select id="pf-modkind">{(["mod", "editor", "manager"] as const).map((k) => <option value={k} selected={d.kind === k}>{t(lang, `modkind.${k}`)}</option>)}</select>
+  </div>
+  <div class="fld" data-row="game" style={`display:${mode === "edit" ? showFor(curType, ["mod"]) : "none"}`}>
+    <label for="pf-game">{L.game}</label><input id="pf-game" value={d.game?.[lang] ?? ""} />
+  </div>
   <div class="fld" data-row="category" style={`display:${mode === "edit" ? showFor(curType, ["port"]) : "none"}`}>
     <label for="pf-category">{L.category}</label>
     <select id="pf-category">{(["decomp-port", "fan-remake", "native-layer"] as const).map((k) => <option value={k} selected={d.category === k}>{t(lang, `category.${k}`)}</option>)}</select>
   </div>
-  <div class="fld" data-row="status" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "tool"]) : ""}`}>
+  <div class="fld" data-row="status" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "tool", "mod"]) : ""}`}>
     <label for="pf-status">{L.status}</label>
     <select id="pf-status">
       {STATUS_KEYS.map((s) => <option value={s} data-for="game" selected={d.status === s}>{t(lang, `status.${s}`)}</option>)}
@@ -96,7 +106,7 @@ const cfg = {
   <div class="fld"><label for="pf-repo">{L.repo}</label><input id="pf-repo" value={d.repo ?? ""} placeholder={L.repoHint} /></div>
   <div class="fld"><label for="pf-author">{L.author}</label><input id="pf-author" value={d.author ?? ""} /></div>
   <div class="fld"><label for="pf-desc">{L.desc}</label><textarea id="pf-desc" placeholder={L.langHint}>{d.desc?.[lang] ?? ""}</textarea></div>
-  <div class="fld" data-row="reqs" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port"]) : ""}`}>
+  <div class="fld" data-row="reqs" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "mod"]) : ""}`}>
     <label for="pf-reqs">{L.reqs}</label><input id="pf-reqs" value={d.requirements?.[lang] ?? ""} />
   </div>
   <div class="fld"><label for="pf-tags">{L.tags}</label><input id="pf-tags" value={(d.tags ?? []).join(", ")} /></div>
@@ -128,24 +138,28 @@ const cfg = {
     const rows: Record<string, HTMLElement | null> = {
       console: document.querySelector('[data-row="console"]'),
       kind: document.querySelector('[data-row="kind"]'),
+      modkind: document.querySelector('[data-row="modkind"]'),
+      game: document.querySelector('[data-row="game"]'),
       category: document.querySelector('[data-row="category"]'),
       status: document.querySelector('[data-row="status"]'),
       abandoned: document.querySelector('[data-row="abandoned"]'),
       reqs: document.querySelector('[data-row="reqs"]'),
     };
     const curType = () => (cfg.fixedType ?? (typeEl ? typeEl.value : "recomp"));
-    const FOLDER: Record<string, string> = { recomp: "recomps", tool: "tools", port: "ports", decomp: "decomps" };
+    const FOLDER: Record<string, string> = { recomp: "recomps", tool: "tools", port: "ports", decomp: "decomps", mod: "mods" };
 
     function sync() {
       const ty = curType();
       const show = (el: HTMLElement | null, on: boolean) => { if (el) el.style.display = on ? "" : "none"; };
-      show(rows.console, ty === "recomp" || ty === "port" || ty === "decomp");
+      show(rows.console, ty === "recomp" || ty === "port" || ty === "decomp" || ty === "mod");
       show(rows.kind, ty === "tool");
+      show(rows.modkind, ty === "mod");
+      show(rows.game, ty === "mod");
       show(rows.category, ty === "port");
       show(rows.status, ty !== "decomp");
-      show(rows.reqs, ty === "recomp" || ty === "port");
-      // estados válidos según tipo
-      const want = ty === "tool" ? "tool" : "game";
+      show(rows.reqs, ty === "recomp" || ty === "port" || ty === "mod");
+      // estados válidos según tipo (los mods usan la escala de las herramientas)
+      const want = ty === "tool" || ty === "mod" ? "tool" : "game";
       let firstVisible = "";
       for (const o of Array.from(statusEl.options)) {
         const ok = o.dataset.for === want;
@@ -177,7 +191,8 @@ const cfg = {
       $("pf-note").style.display = "none";
 
       const o: Record<string, any> = { name };
-      if (ty === "recomp" || ty === "port" || ty === "decomp") o.console = $("pf-console").value;
+      if (ty === "recomp" || ty === "port" || ty === "decomp" || ty === "mod") o.console = $("pf-console").value;
+      if (ty === "mod") { o.kind = $("pf-modkind").value; const g = localized($("pf-game").value.trim(), cfg.prevGame); if (g !== undefined) o.game = g; }
       if (ty === "tool") { o.kind = $("pf-kind").value; o.consoles = [$("pf-console").value]; }
       if (ty === "port") o.category = $("pf-category").value;
       if (ty !== "decomp") o.status = statusEl.value;
@@ -187,7 +202,7 @@ const cfg = {
       if (repo) o.repo = repo;
       const author = $("pf-author").value.trim(); if (author) o.author = author;
       const descV = localized(descVal, cfg.prevDesc); if (descV !== undefined) o.desc = descV;
-      if (ty === "recomp" || ty === "port") { const r = localized($("pf-reqs").value.trim(), cfg.prevReq); if (r !== undefined) o.requirements = r; }
+      if (ty === "recomp" || ty === "port" || ty === "mod") { const r = localized($("pf-reqs").value.trim(), cfg.prevReq); if (r !== undefined) o.requirements = r; }
       const tags = $("pf-tags").value.split(",").map((s: string) => s.trim()).filter(Boolean);
       if (tags.length) o.tags = tags;
 

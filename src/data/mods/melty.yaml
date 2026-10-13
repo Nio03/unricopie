@@ -1,0 +1,17 @@
+name: Melty
+kind: manager
+console: pc
+game:
+  es: "Juegos de PC (Skyrim, Minecraft, Elden Ring y otros)"
+  en: "PC games (Skyrim, Minecraft, Elden Ring, and others)"
+homepage: https://melty.gg/
+author: Stella Montis
+enrich: false
+desc:
+  es: "Aplicación para Windows, gratuita según su web, que instala «mashups»: mods que unen dos juegos en uno, como SkyCraft (Skyrim y Minecraft) o Elden Craft (Minecraft y Elden Ring). Se instalan con un clic, funcionan sobre juegos que ya tienes y, al desinstalarlos, cada archivo vuelve a quedar como estaba. Los mashups no los crea el equipo de Melty: los hacen agentes de IA como Claude Code o Codex a partir de las instrucciones que publica la propia aplicación, y cada subida se analiza antes de publicarse. La presentó Stella Montis, una empresa respaldada por Y Combinator, el 4 de octubre de 2026. La descarga oficial está en melty.gg: en GitHub circulan repositorios con su nombre que no son suyos."
+  en: "A Windows app, free according to its website, that installs “mashups”: mods that join two games into one, such as SkyCraft (Skyrim and Minecraft) or Elden Craft (Minecraft and Elden Ring). They install with one click, run on games you already own, and uninstalling puts every file back the way it was. The mashups aren’t made by the Melty team: AI agents such as Claude Code or Codex build them from instructions the app itself publishes, and every upload is scanned before it goes live. Stella Montis, a Y Combinator–backed company, unveiled it on October 4, 2026. The official download is at melty.gg: repositories using its name that don’t belong to it are circulating on GitHub."
+requirements:
+  es: "Windows y tus propias copias de los juegos de cada mashup; si te falta alguno, Melty te lleva a su tienda."
+  en: "Windows, plus your own copies of the games each mashup uses; if you’re missing one, Melty sends you to its store."
+tags:
+  - mashups

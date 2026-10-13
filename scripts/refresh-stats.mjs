@@ -13,7 +13,7 @@ import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const dataDirs = ["recomps", "tools", "ports", "decomps"].map((d) => join(root, "src/data", d));
+const dataDirs = ["recomps", "tools", "ports", "decomps", "mods"].map((d) => join(root, "src/data", d));
 const statsPath = join(root, "src/data/stats.json");
 
 // Token: env var o .env.local (KEY=VALUE), sin dependencias.

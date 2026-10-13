@@ -8,7 +8,7 @@ interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
-// El Catálogo es TODO: las cuatro colecciones en una sola lista, con el filtro
+// El Catálogo es TODO: las cinco colecciones en una sola lista, con el filtro
 // de tipo para acotar. Antes era solo recomps, y eso engañaba: el menú decía
 // "Catálogo", el contador decía "129 de 129 proyectos" habiendo 336, y buscar
 // "Jak" o "Strikers" aquí daba cero porque viven en ports. Los recomps tienen
@@ -22,6 +22,7 @@ const stats = [
   { n: items.filter((i) => i.type === "port").length, label: t(lang, "home.stat.ports") },
   { n: items.filter((i) => i.type === "decomp").length, label: t(lang, "home.stat.decomps") },
   { n: items.filter((i) => i.type === "tool").length, label: t(lang, "home.stat.tools") },
+  { n: items.filter((i) => i.type === "mod").length, label: t(lang, "home.stat.mods") },
   { n: consoles.size, label: t(lang, "home.stat.platforms") },
 ];
 ---

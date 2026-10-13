@@ -12,11 +12,11 @@ const SITE = "https://nio03.github.io/unricopie";
 const TEXTOS = {
   es: {
     titulo: "Recompendium — novedades",
-    desc: "Altas recientes en el catálogo de recompilaciones, decompilaciones, ports y herramientas.",
+    desc: "Altas recientes en el catálogo de recompilaciones, decompilaciones, ports, mods y herramientas.",
   },
   en: {
     titulo: "Recompendium — what’s new",
-    desc: "Recent additions to the catalog of recompilations, decompilations, ports, and tools.",
+    desc: "Recent additions to the catalog of recompilations, decompilations, ports, mods, and tools.",
   },
 } as const;
 
@@ -34,7 +34,7 @@ function fechasDeAlta(): Map<string, string> {
     let fecha: string | null = null;
     for (const linea of salida.split("\n")) {
       if (linea.startsWith("@")) { fecha = linea.slice(1); continue; }
-      const m = linea.match(/^src\/data\/(recomps|ports|tools|decomps)\/(.+)\.ya?ml$/);
+      const m = linea.match(/^src\/data\/(recomps|ports|tools|decomps|mods)\/(.+)\.ya?ml$/);
       // git log va de nuevo a viejo y --diff-filter=A solo lista altas, así que
       // la última lectura de cada archivo es su alta original.
       if (m && fecha) mapa.set(`${m[1]}/${m[2]}`, fecha);
@@ -51,7 +51,7 @@ const esc = (s: unknown) =>
   String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 const carpeta = (tipo: string) =>
-  tipo === "recomp" ? "recomps" : tipo === "tool" ? "tools" : tipo === "port" ? "ports" : "decomps";
+  tipo === "recomp" ? "recomps" : tipo === "tool" ? "tools" : tipo === "port" ? "ports" : tipo === "mod" ? "mods" : "decomps";
 
 export async function buildFeed(lang: Lang): Promise<string> {
   const items = await getAllItems(lang);

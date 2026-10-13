@@ -1,0 +1,14 @@
+name: WheelWizard
+kind: manager
+console: wii
+game: "Mario Kart Wii"
+repo: TeamWheelWizard/WheelWizard
+author: patchzy, wanttobeeme
+desc:
+  es: "Gestor de mods para Mario Kart Wii y actualizador automático de Retro Rewind, un mod de circuitos de la comunidad. Sus autores lo dicen claro: todo se puede hacer sin él, y la aplicación existe para que baste con unos clics. Retro Rewind funciona en Dolphin con cualquier región del juego, y también con Wiicompiled, la recompilación de Mario Kart Wii de uno de sus autores que está en el catálogo, aunque esta solo admite la versión PAL. Es gratuito y de código abierto (GPL-3.0). Su README avisa de que algunos antivirus lo marcan por error y explica cómo comprobarlo."
+  en: "A Mario Kart Wii mod manager and automatic updater for Retro Rewind, a community track mod. Its authors are upfront about it: everything can be done without it, and the app exists so it only takes a few clicks. Retro Rewind runs in Dolphin with any region of the game, and also with Wiicompiled, the Mario Kart Wii recompilation by one of its authors that’s in the catalog, though that one only supports the PAL version. It’s free and open source (GPL-3.0). Its README warns that some antivirus programs flag it by mistake and explains how to check it."
+requirements:
+  es: "Tu propia copia de Mario Kart Wii, volcada por ti (.iso, .gcm, .gcz, .ciso, .wbfs, .wia o .rvz). Para usarlo con Wiicompiled, la versión PAL."
+  en: "Your own Mario Kart Wii backup, dumped by you (.iso, .gcm, .gcz, .ciso, .wbfs, .wia, or .rvz). To use it with Wiicompiled, the PAL version."
+tags:
+  - retro-rewind

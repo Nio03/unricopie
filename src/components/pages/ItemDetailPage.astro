@@ -1,10 +1,10 @@
 ---
-import type { CollectionEntry } from "astro:content";
+import { getEntry, type CollectionEntry } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import Card from "../Card.astro";
 import ProjectForm from "../ProjectForm.astro";
 import { consoleMeta } from "../../lib/consoles";
-import { statusMeta, toolKindMeta, toolStatusMeta, stalledDays, STALLED_COLOR } from "../../lib/status";
+import { statusMeta, toolKindMeta, toolStatusMeta, modKindMeta, stalledDays, STALLED_COLOR } from "../../lib/status";
 import { statFor, fmtStars, fmtDate, relDate, repoUrlOf } from "../../lib/stats";
 import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/catalog";
 import { t, localePath, type Lang } from "../../i18n";
@@ -16,7 +16,8 @@ interface Props {
     | CollectionEntry<"recomps">
     | CollectionEntry<"tools">
     | CollectionEntry<"ports">
-    | CollectionEntry<"decomps">;
+    | CollectionEntry<"decomps">
+    | CollectionEntry<"mods">;
 }
 const { lang, type, entry } = Astro.props;
 const d: any = entry.data;
@@ -46,6 +47,8 @@ let badgeLabel: string, badgeColor: string;
 let statusLabel: string | null = null, statusColor = "";
 const facts: { dt: string; dd: string }[] = [];
 let related: { items: Item[]; titleKey: string } | null = null;
+// Ficha del catálogo sobre la que se monta un mod ("ports/perfect-dark").
+let base: { label: string; href: string } | null = null;
 
 if (type === "recomp") {
   // `type` discrimina qué colección llega; estrechamos para que las claves
@@ -86,6 +89,23 @@ if (type === "recomp") {
   if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
   if (d.year) facts.push({ dt: t(lang, "detail.fact.year"), dd: String(d.year) });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
+} else if (type === "mod") {
+  const dm = entry.data as CollectionEntry<"mods">["data"];
+  const cm = consoleMeta(dm.console, lang), mk = modKindMeta(dm.kind), ts = toolStatusMeta(dm.status);
+  crumb = { label: t(lang, "detail.crumbMods"), href: localePath(lang, "mods") };
+  badgeLabel = t(lang, `modkind.${dm.kind}`); badgeColor = mk.color;
+  if (ts && dm.status) { statusLabel = t(lang, `toolstatus.${dm.status}`); statusColor = ts.color; }
+  facts.push({ dt: t(lang, "detail.fact.kind"), dd: badgeLabel });
+  facts.push({ dt: t(lang, "detail.fact.game"), dd: dm.game[lang] });
+  facts.push({ dt: t(lang, "detail.fact.platform"), dd: cm.full });
+  if (statusLabel) facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
+  facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
+  if (dm.base) {
+    const [col, id] = dm.base.split("/") as ["recomps" | "ports" | "decomps" | "tools", string];
+    const be = await getEntry(col, id);
+    const ruta = { recomps: "recomp", ports: "port", decomps: "decomp", tools: "tool" }[col];
+    if (be) base = { label: be.data.name, href: localePath(lang, `${ruta}/${id}`) };
+  }
 } else {
   const cm = consoleMeta(d.console, lang);
   crumb = { label: t(lang, "detail.crumbDecomps"), href: localePath(lang, "decompilaciones") };
@@ -104,7 +124,7 @@ if (s.language) facts.push({ dt: t(lang, "detail.fact.lang"), dd: s.language });
 const repoUrl = repoUrlOf(d);
 const homepage: string | undefined = d.homepage;
 const forkOf = d.forkOf ?? (s.fork ? { label: s.fork, url: `https://github.com/${s.fork}` } : null);
-const dataDir = type === "recomp" ? "recomps" : type === "tool" ? "tools" : type === "port" ? "ports" : "decomps";
+const dataDir = type === "recomp" ? "recomps" : type === "tool" ? "tools" : type === "port" ? "ports" : type === "mod" ? "mods" : "decomps";
 const dataPath = `src/data/${dataDir}/${entry.id}.yaml`;
 
 const tags: string[] = d.tags ?? [];
@@ -128,6 +148,7 @@ const barLabel: string = progress != null ? t(lang, "card.progress", { n: progre
       {d.takedown && <span class="pill is-pill" style="color:#e05656">{t(lang, "status.takedown")}</span>}
     </div>
 
+    {base && (<p class="forkline"><a href={base.href}>{t(lang, "detail.fact.base")}: {base.label}</a></p>)}
     {forkOf && (<p class="forkline"><a href={forkOf.url} target="_blank" rel="noopener">⑂ {t(lang, "detail.fork")} {forkOf.label} ↗</a></p>)}
 
     <h1>{d.name}</h1>

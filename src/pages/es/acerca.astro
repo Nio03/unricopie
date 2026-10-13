@@ -11,19 +11,21 @@ const lang = "es" as const;
     <h1>Acerca de Recompendium</h1>
     <p class="lead">
       Un catálogo comunitario de juegos de consola que corren de forma nativa en PC:
-      <b>recompilaciones estáticas</b>, decompilaciones, ports y las herramientas que los hacen
+      <b>recompilaciones estáticas</b>, decompilaciones, ports, mods y las herramientas que los hacen
       posibles. Nada de esto es emulación: el juego acaba funcionando en tu máquina como un programa
       nativo.
     </p>
 
     <div class="sec-h"><h2>Qué entra y qué no</h2></div>
     <p style="color:var(--ink-2);max-width:72ch">
-      El catálogo reúne cuatro tipos de proyecto: <b>recompilaciones estáticas</b>
+      El catálogo reúne cinco tipos de proyecto: <b>recompilaciones estáticas</b>
       (N64Recomp, XenonRecomp, ReXGlue…), <a href={localePath(lang, "ports")} style="color:var(--gold)">ports y remakes</a>
       construidos sobre una decompilación o hechos por fans (Ship of Harkinian, P-06…), las
       <a href={localePath(lang, "decompilaciones")} style="color:var(--gold)">decompilaciones</a> en sí,
       con el código fuente reconstruido por ingeniería inversa, y las
-      <a href={localePath(lang, "launchers")} style="color:var(--gold)">herramientas</a> que lo hacen posible.
+      <a href={localePath(lang, "launchers")} style="color:var(--gold)">herramientas</a> que lo hacen posible, además de los
+      <a href={localePath(lang, "mods")} style="color:var(--gold)">mods</a>: mods de esos juegos, editores para crear contenido
+      y gestores que los instalan.
     </p>
     <p style="color:var(--ink-2);max-width:72ch">
       Quedan fuera los emuladores, los núcleos FPGA y cualquier proyecto que incluya el juego en vez de

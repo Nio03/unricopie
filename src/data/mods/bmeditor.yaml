@@ -1,0 +1,14 @@
+name: BmEditor
+kind: editor
+console: pc
+game: "Batman: Arkham City"
+repo: etkramer/BmEditor
+author: etkramer
+desc:
+  es: "UnrealEd para Arkham City: el editor de UDK, modificado para trabajar con los niveles y los paquetes del propio juego. Permite crear niveles, materiales, mallas, animaciones y scripts en UnrealScript propios. Un instalador detecta la carpeta del juego en Steam o en Epic. Como es casi el editor de UE3 de serie, su autor remite a las guías y los tutoriales de UDK en lugar de mantener documentación propia, y avisa de que cabe esperar errores y cierres inesperados."
+  en: "UnrealEd for Arkham City: the UDK editor, modified to work with the game’s own levels and packages. It supports custom levels, materials, meshes, animations, and UnrealScript scripts out of the box. An installer detects Steam and Epic installs of the game. Since it’s largely the stock UE3 editor, its author points to existing UDK guides and tutorials instead of maintaining separate docs, and warns that bugs and crashes are to be expected."
+requirements:
+  es: "Tu propia copia de Batman: Arkham City para PC (Steam o Epic)."
+  en: "Your own copy of Batman: Arkham City for PC (Steam or Epic)."
+tags:
+  - unreal-engine-3

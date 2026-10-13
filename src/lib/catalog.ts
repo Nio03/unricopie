@@ -1,12 +1,12 @@
-// Capa de datos unificada: convierte recomps / tools / ports en un mismo `Item`
+// Capa de datos unificada: convierte recomps / tools / ports / decomps / mods en un mismo `Item`
 // para que el catálogo, las tarjetas y las páginas de detalle usen UNA sola forma.
 import { getCollection, type CollectionEntry } from "astro:content";
 import { consoleMeta } from "./consoles";
-import { statusMeta, toolKindMeta, toolStatusMeta, stalledDays } from "./status";
+import { statusMeta, toolKindMeta, toolStatusMeta, modKindMeta, stalledDays } from "./status";
 import { statFor } from "./stats";
 import { t, localePath, type Lang } from "../i18n";
 
-export type ItemType = "recomp" | "tool" | "port" | "decomp";
+export type ItemType = "recomp" | "tool" | "port" | "decomp" | "mod";
 
 export interface Item {
   type: ItemType;
@@ -46,16 +46,18 @@ export const TYPE_COLOR: Record<ItemType, string> = {
   tool: "#9b87e0",
   port: "#3fb0a8",
   decomp: "#5fb3c9",
+  mod: "#e0a73a",
 };
 export const CAT_COLOR: Record<string, string> = { "decomp-port": "#3fb0a8", "fan-remake": "#cd7dd6", "native-layer": "#5f8fd4" };
 
 // Código corto para la mini-portada del catálogo (estilo RetroAchievements).
 const TOOL_BOX: Record<string, string> = { recompiler: "RCMP", launcher: "LNCH", patcher: "PTCH", library: "LIB" };
+const MOD_BOX: Record<string, string> = { mod: "MOD", editor: "EDIT", manager: "MGR" };
 
 // Aviso de "parado": cruza el reloj con si el proyecto llego, porque quieto
 // y terminado no es un defecto. La regla vive en status.ts.
 function stalled(
-  type: "recomp" | "port" | "tool" | "decomp",
+  type: "recomp" | "port" | "tool" | "decomp" | "mod",
   d: { status?: string; abandoned?: boolean; decomp?: string; repo?: string },
   s: { pushedAt?: string; decompPercent?: number }
 ) {
@@ -151,6 +153,24 @@ export function decompItem(e: CollectionEntry<"decomps">, lang: Lang): Item {
   };
 }
 
+export function modItem(e: CollectionEntry<"mods">, lang: Lang): Item {
+  const d = e.data;
+  const cm = consoleMeta(d.console, lang);
+  const mk = modKindMeta(d.kind);
+  const ts = toolStatusMeta(d.status);
+  const s = liveStat(d);
+  return {
+    type: "mod", id: e.id, name: d.name, desc: d.desc[lang], requirements: d.requirements?.[lang], forkOf: forkInfo(d, s),
+    href: localePath(lang, `mod/${e.id}`), external: false,
+    railColor: mk.color, boxLabel: MOD_BOX[d.kind] ?? "MOD", typeLabel: t(lang, "type.mod"), typeColor: TYPE_COLOR.mod,
+    kindLabel: t(lang, `modkind.${d.kind}`), statusKey: d.status ?? "",
+    status: ts && d.status ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
+    consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
+    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("mod", d, s),
+    search: [d.name, d.repo, d.author, d.game[lang], cm.label, t(lang, `modkind.${d.kind}`), ...d.tags, d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
+  };
+}
+
 /** Orden estándar: destacados primero, luego estrellas, luego nombre. */
 export function sortItems(items: Item[]): Item[] {
   return [...items].sort((a, b) => {
@@ -173,9 +193,12 @@ export async function getPortItems(lang: Lang) {
 export async function getDecompItems(lang: Lang) {
   return (await getCollection("decomps")).map((e) => decompItem(e, lang));
 }
+export async function getModItems(lang: Lang) {
+  return (await getCollection("mods")).map((e) => modItem(e, lang));
+}
 export async function getAllItems(lang: Lang): Promise<Item[]> {
-  const [r, t, p, dc] = await Promise.all([getRecompItems(lang), getToolItems(lang), getPortItems(lang), getDecompItems(lang)]);
-  return [...r, ...t, ...p, ...dc];
+  const [r, t, p, dc, m] = await Promise.all([getRecompItems(lang), getToolItems(lang), getPortItems(lang), getDecompItems(lang), getModItems(lang)]);
+  return [...r, ...t, ...p, ...dc, ...m];
 }
 
 /** Recomps relacionados con una herramienta (para su página de detalle). */

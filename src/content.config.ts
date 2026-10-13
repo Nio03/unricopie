@@ -50,6 +50,38 @@ const recomps = defineCollection({
   }),
 });
 
+// ── Mods: mods y herramientas de mods en src/data/mods/ ──
+// Mods de juegos del catálogo, herramientas para crear mods (editores) y
+// gestores que los instalan. Como en el resto del catálogo, solo entran si
+// piden tu propia copia del juego.
+const mods = defineCollection({
+  loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/mods' }),
+  schema: z.object({
+    name: z.string(),
+    kind: z.enum(['mod', 'editor', 'manager']),
+    // Plataforma del juego al que se aplica (pc si es un juego de PC).
+    console: consoleEnum,
+    // Juego o juegos sobre los que funciona, tal como se escriben en la ficha.
+    game: localized,
+    // Ficha del catálogo sobre la que se monta, si la hay: "ports/perfect-dark".
+    base: z.string().regex(/^(recomps|ports|decomps|tools)\/[a-z0-9-]+$/).optional(),
+    repo: repoSlug.optional(),
+    repoUrl: z.string().url().optional(),
+    homepage: z.string().url().optional(),
+    forkOf,
+    author: z.string().optional(),
+    status: z.enum(['experimental', 'beta', 'usable', 'stable']).optional(),
+    abandoned: z.boolean().default(false),
+    takedown: z.boolean().default(false),
+    desc: localized,
+    requirements: localized.optional(),
+    tags: z.array(z.string()).default([]),
+    links: linkList,
+    enrich: z.boolean().default(true),
+    featured: z.boolean().default(false),
+  }),
+});
+
 // ── Tools: launchers, recompiladores y utilidades en src/data/tools/ ──
 const tools = defineCollection({
   loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/tools' }),
@@ -148,4 +180,4 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { recomps, tools, ports, decomps, blog };
+export const collections = { recomps, tools, ports, decomps, mods, blog };

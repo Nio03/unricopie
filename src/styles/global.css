@@ -102,7 +102,7 @@ header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
 .stat span { font-family: var(--mono); font-size: 10px; color: var(--ink-3); letter-spacing: 1px; text-transform: uppercase; margin-top: 8px; display: block; }
 
 /* category guide */
-.guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 26px; }
+.guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; margin-top: 26px; }
 .guide .g { border: 1px solid var(--line); background: var(--panel); border-radius: var(--radius); padding: 15px 17px; border-top: 3px solid var(--gc, var(--gold)); }
 .guide .g h3 { font-family: var(--sans); font-weight: 700; font-size: 16px; margin: 0 0 6px; color: var(--ink); }
 .guide .g p { margin: 0; color: var(--ink-2); font-size: 13px; line-height: 1.55; }
