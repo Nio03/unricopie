@@ -7,6 +7,7 @@ import { consoleMeta } from "../../lib/consoles";
 import { statusMeta, toolKindMeta, toolStatusMeta, modKindMeta, stalledDays, STALLED_COLOR } from "../../lib/status";
 import { statFor, fmtStars, fmtDate, relDate, repoUrlOf } from "../../lib/stats";
 import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/catalog";
+import { tagLabel } from "../../lib/tags";
 import { t, localePath, type Lang } from "../../i18n";
 
 interface Props {
@@ -190,7 +191,7 @@ const barLabel: string = progress != null ? t(lang, "card.progress", { n: progre
       <ProjectForm lang={lang} mode="edit" type={type} path={dataPath} data={d} />
     </div>
 
-    {tags.length > 0 && (<div class="tagrow" style="margin-top:24px">{tags.map((tag) => <span class="tg">{tag}</span>)}</div>)}
+    {tags.length > 0 && (<div class="tagrow" style="margin-top:24px">{tags.map((tag) => <span class="tg">{tagLabel(tag, lang)}</span>)}</div>)}
 
     {
       related && (
