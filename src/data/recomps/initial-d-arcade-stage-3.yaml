@@ -5,11 +5,11 @@ repo: distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-W
 originalDeveloper: Sega Rosso
 year: 2004
 desc:
-  es: "Recompilación estática anticipada (AOT) del programa SH-4 original de Initial D Arcade Stage 3 (GDS-0033) para Windows, con render Vulkan y sin necesidad de BIOS. El juego corre sobre placa NAOMI 2, el hardware de recreativa hermano de la Dreamcast: mismo SH-4, misma familia. Demo pública temprana, sin terminar."
-  en: "Static ahead-of-time recompilation of the original SH-4 program of Initial D Arcade Stage 3 (GDS-0033) for Windows, with a Vulkan renderer and no BIOS needed. The game runs on the NAOMI 2 board, the arcade sibling of the Dreamcast hardware: same SH-4, same family. Public early demo, unfinished."
+  es: "Recompilación estática por adelantado (AOT) del programa SH-4 original de Initial D Arcade Stage 3 (GDS-0033) para Windows, con renderizador en Vulkan y sin necesidad de BIOS. El juego funciona en la placa NAOMI 2, el hardware de recreativa hermano de la Dreamcast: el mismo SH-4 y la misma familia. Es una demo pública temprana y sin terminar."
+  en: "Ahead-of-time static recompilation of the original SH-4 program of Initial D Arcade Stage 3 (GDS-0033) for Windows, with a Vulkan renderer and no BIOS needed. The game runs on the NAOMI 2 board, the Dreamcast’s arcade sibling: same SH-4, same family. An early public demo, unfinished."
 requirements:
-  es: "Tus propios archivos legales del juego (GDS-0033). La descarga pública no incluye datos del juego, BIOS ni assets extraídos."
-  en: "Your own legally obtained game files (GDS-0033). The public download ships no game data, BIOS or extracted assets."
+  es: "Tus propios archivos legales del juego (GDS-0033). La descarga pública no incluye datos del juego, BIOS ni recursos extraídos."
+  en: "Your own legally obtained game files (GDS-0033). The public download ships no game data, BIOS, or extracted assets."
 tags:
   - sh-4
   - naomi

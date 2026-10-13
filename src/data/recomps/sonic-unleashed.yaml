@@ -2,21 +2,19 @@ name: Sonic Unleashed
 console: x360
 status: fully
 repo: hedge-dev/UnleashedRecomp
+homepage: https://www.unleashedrecomp.com/
 originalDeveloper: Sonic Team / Sega
 year: 2008
 progress: 100
 toolchain: XenonRecomp
 desc:
-  es: El primer recomp de Xbox 360, jugable de principio a fin (Win/Linux). Demostró que se podía portar toda la era 360 y dio origen a XenonRecomp.
-  en: The first Xbox 360 recomp, playable start to finish (Win/Linux). It proved the whole 360 era could be ported and gave rise to XenonRecomp.
+  es: "El primer recomp de Xbox 360, jugable de principio a fin en Windows y Linux. Demostró que se podía portar toda la generación de la 360 y dio origen a XenonRecomp."
+  en: "The first Xbox 360 recomp, playable from start to finish on Windows and Linux. It proved the whole Xbox 360 generation could be ported and gave rise to XenonRecomp."
 requirements:
-  es: Sonic Unleashed (Xbox 360, US o EU; JP no soportado) + Title Update; DLC opcional pero recomendado.
-  en: Sonic Unleashed (Xbox 360, US or EU; JP unsupported) + Title Update; DLC optional but recommended.
+  es: "Tu propia copia de Sonic Unleashed (Xbox 360, versión estadounidense o europea; la japonesa no es compatible) y el Title Update. Los DLC son opcionales, pero recomendables."
+  en: "Your own copy of Sonic Unleashed (Xbox 360, US or European version; the Japanese version isn’t supported) plus the Title Update. DLC is optional but recommended."
 tags:
   - widescreen
   - 60fps+
   - mods
-links:
-  - label: Sitio oficial
-    url: https://www.unleashedrecomp.com/
 featured: true

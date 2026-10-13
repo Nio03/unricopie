@@ -7,10 +7,10 @@ author: sonicdcer (orig.) · mirror
 originalDeveloper: Nintendo
 toolchain: N64Recomp
 desc:
-  es: Port recomp del kart clásico. El repo original (sonicdcer) fue borrado; esta es una de las copias espejo que sobreviven.
-  en: Recomp port of the classic kart racer. The original repo (sonicdcer) was deleted; this is one of the surviving mirrors.
+  es: "Port por recompilación del clásico de karts. El repositorio original (cuenta sonicdcer) se borró; esta es una de las copias que sobreviven."
+  en: "Recompiled port of the classic kart racer. The original repository (sonicdcer account) was deleted; this is one of the surviving mirrors."
 requirements:
-  es: Una ROM de Mario Kart 64 (N64, US).
-  en: A Mario Kart 64 ROM (N64, US).
+  es: "Una ROM de Mario Kart 64 (N64, versión estadounidense)."
+  en: "A Mario Kart 64 ROM (N64, US version)."
 tags:
   - widescreen

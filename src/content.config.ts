@@ -6,18 +6,21 @@ const consoleEnum = z.enum(CONSOLE_KEYS as [string, ...string[]]);
 const repoSlug = z
   .string()
   .regex(/^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/, 'Debe ser "owner/repo" (sin URL completa).');
-const linkList = z
-  .array(z.object({ label: z.string(), url: z.string().url() }))
-  .default([]);
-
-// Relación de fork curada (tiene prioridad sobre la detección automática del bot).
-const forkOf = z.object({ label: z.string(), url: z.string().url() }).optional();
-
 // Texto bilingüe: acepta un string (mismo en ambos idiomas) o {es, en}.
 // Siempre normaliza a { es, en } — los componentes usan desc[lang].
 const localized = z
   .union([z.string(), z.object({ es: z.string(), en: z.string().optional() })])
   .transform((v) => (typeof v === 'string' ? { es: v, en: v } : { es: v.es, en: v.en ?? v.es }));
+
+// Enlaces extra de una ficha. La etiqueta va en los dos idiomas ({es, en}), o
+// como un solo texto si es un nombre propio ("Wikipedia", "CannonBall DX (fork)").
+// La web oficial del proyecto no va aquí: va en homepage, que ya se traduce.
+const linkList = z
+  .array(z.object({ label: localized, url: z.string().url() }))
+  .default([]);
+
+// Relación de fork curada (tiene prioridad sobre la detección automática del bot).
+const forkOf = z.object({ label: z.string(), url: z.string().url() }).optional();
 
 // ── Recomps: un archivo YAML por juego en src/data/recomps/ ──
 const recomps = defineCollection({

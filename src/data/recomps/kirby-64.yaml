@@ -5,8 +5,8 @@ repo: Kirby64Ret/Kirby64Recomp
 originalDeveloper: HAL Laboratory
 toolchain: N64Recomp
 desc:
-  es: Recompilación 'en construcción' del Kirby de N64, forkeada de Zelda64Recomp. Hay que compilarla desde el código; sin descargas todavía.
-  en: "'Under construction' recompilation of N64 Kirby, forked from Zelda64Recomp. Build-from-source; no downloads yet."
+  es: "Recompilación «en construcción» del Kirby de N64, derivada (fork) de Zelda64Recomp. Hay que compilarla a partir del código fuente: todavía no hay descargas."
+  en: "“Under construction” recompilation of the N64 Kirby, forked from Zelda64Recomp. You have to build it from source; there are no downloads yet."
 requirements:
-  es: Tu copia de Kirby 64 (N64), como NK4E.z64.
-  en: Your Kirby 64 copy (N64), as NK4E.z64.
+  es: "Tu propia copia de Kirby 64 (N64), como archivo NK4E.z64."
+  en: "Your own copy of Kirby 64 (N64), as an NK4E.z64 file."

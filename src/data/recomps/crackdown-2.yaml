@@ -4,8 +4,8 @@ status: experimental
 repo: matty45/Crackdown2-Recomp
 toolchain: XenonRecomp
 desc:
-  es: "Recompilación estática de Crackdown 2 (Xbox 360). En etapa temprana: entra al juego pero todavía no es jugable."
-  en: "Static recompilation of Crackdown 2 (Xbox 360). Early stage: reaches in-game but not playable yet."
+  es: "Recompilación estática de Crackdown 2 (Xbox 360) en una fase temprana: llega a cargar la partida, pero todavía no se puede jugar."
+  en: "Static recompilation of Crackdown 2 (Xbox 360) at an early stage: it gets in-game, but isn’t playable yet."
 requirements:
-  es: Una copia de Crackdown 2 (Xbox 360).
-  en: A copy of Crackdown 2 (Xbox 360).
+  es: "Tu propia copia de Crackdown 2 (Xbox 360)."
+  en: "Your own copy of Crackdown 2 (Xbox 360)."

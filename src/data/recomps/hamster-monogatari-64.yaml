@@ -4,8 +4,8 @@ status: experimental
 repo: SrBananaMan/Hamster64Recomp
 toolchain: N64Recomp
 desc:
-  es: Port a PC de Hamster Monogatari 64 hecho con N64Recomp. En desarrollo muy temprano.
-  en: PC port of Hamster Monogatari 64 built with N64Recomp. Very early work in progress.
+  es: "Port a PC de Hamster Monogatari 64 hecho con N64Recomp, en una fase de desarrollo muy temprana."
+  en: "PC port of Hamster Monogatari 64 built with N64Recomp, at a very early stage of development."
 requirements:
-  es: Una ROM de Hamster Monogatari 64 (N64, Japón, .z64).
-  en: A Hamster Monogatari 64 ROM (N64, Japan, .z64).
+  es: "Una ROM de Hamster Monogatari 64 (N64, versión japonesa, .z64)."
+  en: "A Hamster Monogatari 64 ROM (N64, Japanese version, .z64)."

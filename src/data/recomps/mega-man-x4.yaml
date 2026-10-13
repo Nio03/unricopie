@@ -4,8 +4,8 @@ status: experimental
 repo: mstan/MegaManX4Recomp
 toolchain: psxrecomp
 desc:
-  es: "Recompilación nativa de Mega Man X4 (USA, SLUS-00561) con psxrecomp. Preview: bootea, intro, menús y arranque de partida."
-  en: "Native recompilation of Mega Man X4 (USA, SLUS-00561) with psxrecomp. Preview: boots, intro, menus and start of play."
+  es: "Recompilación nativa de Mega Man X4 (versión estadounidense, SLUS-00561) con psxrecomp. Es una versión preliminar: arranca, muestra la introducción y los menús, y permite empezar la partida."
+  en: "Native recompilation of Mega Man X4 (US version, SLUS-00561) with psxrecomp. A preview: it boots, shows the intro and menus, and lets you start playing."
 requirements:
-  es: Una imagen de disco de Mega Man X4 (PS1, USA).
-  en: A disc image of Mega Man X4 (PS1, USA).
+  es: "Una imagen de disco de Mega Man X4 (PS1, versión estadounidense)."
+  en: "A disc image of Mega Man X4 (PS1, US version)."

@@ -8,11 +8,11 @@ year: 1998
 progress: 100
 toolchain: N64Recomp
 desc:
-  es: Port nativo del clásico de Rare (v1.0.0, ene. 2026). Su launcher pulido —elige la ROM y verifica el hash— más soporte de mods por Thunderstore es lo que mucha gente recuerda como 'el launcher de Banjo'.
-  en: Native port of the Rare classic (v1.0.0, Jan. 2026). Its polished launcher — ROM picker with hash check — plus Thunderstore mod support is what many remember as 'the Banjo launcher'.
+  es: "Port nativo del clásico de Rare (v1.0.0, enero de 2026). Su launcher, muy cuidado, te deja elegir la ROM y comprueba su hash; junto con la compatibilidad con mods de Thunderstore, es lo que mucha gente recuerda como «el launcher de Banjo»."
+  en: "Native port of the Rare classic (v1.0.0, January 2026). Its polished launcher, which lets you pick your ROM and checks its hash, together with Thunderstore mod support, is what many people remember as “the Banjo launcher.”"
 requirements:
-  es: Una ROM de Banjo-Kazooie (N64, US v1.0, .z64).
-  en: A Banjo-Kazooie ROM (N64, US v1.0, .z64).
+  es: "Una ROM de Banjo-Kazooie (N64, versión estadounidense 1.0, .z64)."
+  en: "A Banjo-Kazooie ROM (N64, US version 1.0, .z64)."
 tags:
   - widescreen
   - mods

@@ -6,10 +6,10 @@ author: sonicnext-dev (ga2mer, squidbus, …)
 originalDeveloper: Sonic Team / Sega
 toolchain: XenonRecomp
 desc:
-  es: "'Marathon Recompiled': recompilación estática de Sonic '06 (versión 360) a PC (Win/Linux/macOS). En desarrollo activo, sin release pública aún. Es el recomp real de Sonic '06 — complementario a P-06 (el remake)."
-  en: "'Marathon Recompiled': static recompilation of Sonic '06 (360 version) to PC (Win/Linux/macOS). Actively developed, no public release yet. The actual Sonic '06 recomp — complementary to P-06 (the remake)."
+  es: "«Marathon Recompiled»: recompilación estática de Sonic ’06 (versión de Xbox 360) para PC, con Windows, Linux y macOS como objetivo. En desarrollo activo y todavía sin versión pública. Es el recomp de verdad de Sonic ’06, y complementa a P-06, que es un remake."
+  en: "“Marathon Recompiled”: a static recompilation of Sonic ’06 (Xbox 360 version) for PC, targeting Windows, Linux, and macOS. Actively developed, with no public release yet. It’s the actual Sonic ’06 recomp, and it complements P-06, which is a remake."
 requirements:
-  es: "Tu copia de Sonic '06 (Xbox 360): disco + Title Update de la misma región (no sirve la de PS3)."
-  en: "Your Sonic '06 (Xbox 360) copy: disc + Title Update, same region (PS3 version not usable)."
+  es: "Tu propia copia de Sonic ’06 (Xbox 360): el disco y el Title Update de la misma región. La versión de PS3 no sirve."
+  en: "Your own copy of Sonic ’06 (Xbox 360): the disc plus the Title Update for the same region. The PS3 version won’t work."
 tags:
   - widescreen

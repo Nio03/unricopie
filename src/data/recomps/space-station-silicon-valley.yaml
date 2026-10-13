@@ -6,11 +6,11 @@ originalDeveloper: DMA Design
 year: 1998
 toolchain: N64Recomp
 desc:
-  es: "Port nativo del rarísimo juego de DMA Design (pre-GTA): alta tasa de fotogramas, carga instantánea, Steam Deck y mods (v0.2.0)."
-  en: "Native port of DMA Design's oddball pre-GTA game: high frame rate, instant load, Steam Deck and mods (v0.2.0)."
+  es: "Port nativo del peculiar juego de DMA Design, el estudio que después se convirtió en Rockstar North: alta tasa de fotogramas, carga instantánea, compatibilidad con Steam Deck y mods (v0.2.0)."
+  en: "Native port of the quirky game by DMA Design, the studio that later became Rockstar North: high frame rate, instant loading, Steam Deck support, and mods (v0.2.0)."
 requirements:
-  es: Una ROM de Space Station Silicon Valley (N64, US 1.0).
-  en: A Space Station Silicon Valley ROM (N64, US 1.0).
+  es: "Una ROM de Space Station Silicon Valley (N64, versión estadounidense 1.0)."
+  en: "A Space Station Silicon Valley ROM (N64, US version 1.0)."
 tags:
   - 60fps+
   - mods

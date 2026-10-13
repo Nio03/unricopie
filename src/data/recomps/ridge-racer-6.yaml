@@ -5,11 +5,11 @@ repo: Sirhalo23/RidgeRacer6-Recompilation
 originalDeveloper: Namco
 year: 2005
 desc:
-  es: "Versión nativa de Windows hecha por aficionados: el programa PowerPC de la Xbox 360 se traduce a C++ y se compila en un ejecutable de Windows. Su autor lo da como prueba temprana. Es el tercer Ridge Racer del catálogo y son tres juegos distintos: el de PS1, Revolution y este."
-  en: "Fan-made native Windows version: the Xbox 360's PowerPC program is translated to C++ and compiled into a Windows executable. Its author calls it an early test. It is the third Ridge Racer in the catalogue, and they are three different games: the PS1 one, Revolution and this."
+  es: "Versión nativa para Windows hecha por aficionados: el programa PowerPC de la Xbox 360 se traduce a C++ y se compila en un ejecutable de Windows. Su autor la presenta como una prueba temprana. Es el tercer Ridge Racer del catálogo, y los tres son juegos distintos: el de PS1, Revolution y este."
+  en: "Fan-made native Windows version: the Xbox 360’s PowerPC program is translated to C++ and compiled into a Windows executable. Its author calls it an early test. It’s the third Ridge Racer in the catalog, and all three are different games: the PS1 original, Revolution, and this one."
 requirements:
-  es: "Tu propia copia de Ridge Racer 6 para Xbox 360 (disco estadounidense, título 4E4D07D3). El repositorio no contiene código ni datos del juego: pistas, coches, sonido y vídeo salen de tu propia imagen de disco."
-  en: "Your own copy of Ridge Racer 6 for Xbox 360 (US disc, title ID 4E4D07D3). The repository holds no game code and no game data: tracks, cars, sound and video all come from your own disc image."
+  es: "Tu propia copia de Ridge Racer 6 para Xbox 360 (disco estadounidense, título 4E4D07D3). El repositorio no contiene código ni datos del juego: las pistas, los coches, el sonido y el vídeo salen de tu propia imagen de disco."
+  en: "Your own copy of Ridge Racer 6 for Xbox 360 (US disc, title ID 4E4D07D3). The repository holds no game code or data: tracks, cars, sound, and video all come from your own disc image."
 tags:
   - powerpc
   - racing

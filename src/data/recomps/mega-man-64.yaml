@@ -5,8 +5,8 @@ repo: MegaMan64Recomp/MegaMan64Recompiled
 originalDeveloper: Capcom
 toolchain: N64Recomp
 desc:
-  es: Port nativo del N64 de Mega Man Legends, con rendering moderno y mejoras de calidad de vida (v0.9.1).
-  en: Native port of the N64 Mega Man Legends, with modern rendering and quality-of-life tweaks (v0.9.1).
+  es: "Port nativo de la versión de N64 de Mega Man Legends, con renderizado moderno y mejoras de comodidad (v0.9.1)."
+  en: "Native port of the N64 version of Mega Man Legends, with modern rendering and quality-of-life tweaks (v0.9.1)."
 requirements:
   es: Una ROM de Mega Man 64 (N64).
   en: A Mega Man 64 ROM (N64).

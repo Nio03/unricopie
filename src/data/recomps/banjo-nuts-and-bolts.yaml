@@ -5,10 +5,10 @@ repo: masterspike52/reNut
 originalDeveloper: Rare
 toolchain: ReXGlue
 desc:
-  es: Recompilación del Banjo de 360 ('reNut'). Trae launcher para los que no compilan, aunque las animaciones aún dan 'jank'; no es un port terminado.
-  en: Recompilation of the 360 Banjo ('reNut'). Ships a launcher for non-builders, though animations are still janky; not a finished port.
+  es: "Recompilación del Banjo de Xbox 360 («reNut»). Trae un launcher para quien no quiera compilarlo, aunque las animaciones todavía fallan: no es un port terminado."
+  en: "Recompilation of the Xbox 360 Banjo (“reNut”). It ships a launcher for people who don’t want to build it themselves, though the animations are still glitchy: it isn’t a finished port."
 requirements:
-  es: "El default.xex y la ISO de Banjo-Kazooie: Nuts & Bolts (Xbox 360, US)."
-  en: "The default.xex and ISO of Banjo-Kazooie: Nuts & Bolts (Xbox 360, US)."
+  es: "El archivo default.xex y la ISO de Banjo-Kazooie: Nuts & Bolts (Xbox 360, versión estadounidense)."
+  en: "The default.xex file and the ISO of Banjo-Kazooie: Nuts & Bolts (Xbox 360, US version)."
 tags:
   - launcher

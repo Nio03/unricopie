@@ -5,8 +5,8 @@ repo: ZeldaWWHDRecomp/ZeldaWWHDRecomp
 originalDeveloper: Nintendo EAD
 year: 2013
 desc:
-  es: "Recompilación estática de la versión de Wii U, distinta del recomp del Wind Waker de GameCube que ya está en el catálogo. Corre nativo en macOS con Apple Silicon, Linux, Windows y Android ARM64: el código PowerPC se traduce a C por adelantado, las librerías de Cafe OS que el juego usa se reimplementan en nativo, y los gráficos GX2 van directos a Metal en macOS o a Vulkan en el resto. Sin runtime de Cemu y sin emulación de comandos de GPU."
-  en: "Static recompilation of the Wii U version, distinct from the GameCube Wind Waker recomp already in the catalogue. It runs natively on Apple Silicon macOS, Linux, Windows and ARM64 Android: the PowerPC code is translated to C ahead of time, the Cafe OS libraries the game uses are reimplemented natively, and GX2 graphics go straight to Metal on macOS or Vulkan elsewhere. No Cemu runtime and no GPU command emulation."
+  es: "Recompilación estática de la versión de Wii U, distinta del recomp del Wind Waker de GameCube que ya está en el catálogo. Funciona de forma nativa en macOS con Apple Silicon, Linux, Windows y Android ARM64: el código PowerPC se traduce a C por adelantado, las bibliotecas de Cafe OS que usa el juego se reimplementan de forma nativa y los gráficos GX2 se envían directamente a Metal en macOS o a Vulkan en el resto. Sin el entorno de ejecución de Cemu y sin emular comandos de la GPU."
+  en: "Static recompilation of the Wii U version, separate from the GameCube Wind Waker recomp already in the catalog. It runs natively on Apple Silicon macOS, Linux, Windows, and ARM64 Android: the PowerPC code is translated to C ahead of time, the Cafe OS libraries the game uses are reimplemented natively, and GX2 graphics go straight to Metal on macOS or Vulkan elsewhere. No Cemu runtime and no GPU command emulation."
 requirements:
   es: "Tu propia copia de The Wind Waker HD (Wii U, edición estadounidense)."
   en: "Your own copy of The Wind Waker HD (Wii U, US edition)."

@@ -5,8 +5,8 @@ repo: Rainchus/ChameleonTwist1-JP-Recomp
 originalDeveloper: Japan System Supply / Sunsoft
 toolchain: N64Recomp
 desc:
-  es: Recompilación del peculiar plataformas de lengua-gancho (ROM japonesa). Tiene un proyecto hermano para Chameleon Twist 2.
-  en: Recompilation of the quirky tongue-grappling platformer (JP ROM). It has a sibling project for Chameleon Twist 2.
+  es: "Recompilación del peculiar plataformas en el que el camaleón usa la lengua como gancho, hecha sobre la ROM japonesa. Tiene un proyecto hermano para Chameleon Twist 2."
+  en: "Recompilation of the quirky tongue-grappling platformer, based on the Japanese ROM. It has a sibling project for Chameleon Twist 2."
 requirements:
-  es: Una ROM de Chameleon Twist (N64, JP, .z64).
-  en: A Chameleon Twist ROM (N64, JP, .z64).
+  es: "Una ROM de Chameleon Twist (N64, versión japonesa, .z64)."
+  en: "A Chameleon Twist ROM (N64, Japanese version, .z64)."

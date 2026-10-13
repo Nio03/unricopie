@@ -108,7 +108,7 @@ const dataDir = type === "recomp" ? "recomps" : type === "tool" ? "tools" : type
 const dataPath = `src/data/${dataDir}/${entry.id}.yaml`;
 
 const tags: string[] = d.tags ?? [];
-const links: { label: string; url: string }[] = d.links ?? [];
+const links: { label: { es: string; en: string }; url: string }[] = d.links ?? [];
 const progress: number | null = type === "recomp" ? d.progress ?? null : null;
 const barPct: number | null = progress ?? decompPct;
 const barLabel: string = progress != null ? t(lang, "card.progress", { n: progress }) : decompPct != null ? t(lang, "card.decomp", { n: decompPct }) : "";
@@ -165,7 +165,7 @@ const barLabel: string = progress != null ? t(lang, "card.progress", { n: progre
     <div class="actions">
       {repoUrl && !d.takedown && <a class="btn primary" href={repoUrl} target="_blank" rel="noopener">{t(lang, "detail.viewRepo")}</a>}
       {homepage && !d.takedown && <a class="btn" href={homepage} target="_blank" rel="noopener">{t(lang, "detail.homepage")}</a>}
-      {links.map((l) => <a class="btn" href={l.url} target="_blank" rel="noopener">{l.label} ↗</a>)}
+      {links.map((l) => <a class="btn" href={l.url} target="_blank" rel="noopener">{l.label[lang]} ↗</a>)}
       <button class="btn btn-edit" id="edit-toggle" type="button">{t(lang, "detail.edit")}</button>
     </div>
 

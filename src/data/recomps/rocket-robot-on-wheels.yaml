@@ -7,8 +7,8 @@ originalDeveloper: Sucker Punch Productions
 year: 1999
 toolchain: N64Recomp
 desc:
-  es: "Rocket-R: recompilación estática del primer juego de Sucker Punch, sobre N64Recomp con N64ModernRuntime y RT64. Corre en Windows, Linux, Android y Steam Deck, con resoluciones altas, tasas de fotogramas más suaves y controles configurables. Del mismo autor que el recomp de Diddy Kong Racing que también está en el catálogo. La build para Linux ARM64 sigue necesitando pruebas de juego."
-  en: "Rocket-R: static recompilation of Sucker Punch's first game, on N64Recomp with N64ModernRuntime and RT64. It runs on Windows, Linux, Android and Steam Deck, with higher resolutions, smoother frame rates and configurable controls. By the same author as the Diddy Kong Racing recomp also in the catalogue. The Linux ARM64 build still needs gameplay testing."
+  es: "Rocket-R: recompilación estática del primer juego de Sucker Punch, sobre N64Recomp con N64ModernRuntime y RT64. Funciona en Windows, Linux, Android y Steam Deck, con resoluciones altas, una tasa de fotogramas más fluida y controles configurables. Es del mismo autor que DKR-R, el recomp de Diddy Kong Racing que también está en el catálogo. La versión para Linux ARM64 todavía necesita que alguien la pruebe jugando."
+  en: "Rocket-R: a static recompilation of Sucker Punch’s first game, on N64Recomp with N64ModernRuntime and RT64. It runs on Windows, Linux, Android, and Steam Deck, with higher resolutions, smoother frame rates, and configurable controls. By the same author as DKR-R, the Diddy Kong Racing recomp also in the catalog. The Linux ARM64 build still needs gameplay testing."
 requirements:
   es: "Tu propia ROM estadounidense de Rocket: Robot on Wheels, sin modificar."
   en: "Your own unmodified US Rocket: Robot on Wheels ROM."

@@ -6,10 +6,10 @@ originalDeveloper: Hudson Soft
 year: 1997
 toolchain: N64Recomp
 desc:
-  es: Recompilación nativa del Bomberman en 3D, con soporte de mods (v1.0.0).
-  en: Native recompilation of the 3D Bomberman, with mod support (v1.0.0).
+  es: "Recompilación nativa del Bomberman en 3D de N64, compatible con mods (v1.0.0)."
+  en: "Native recompilation of the 3D Bomberman for N64, with mod support (v1.0.0)."
 requirements:
-  es: Una ROM de Bomberman 64 (N64, US 1.0, .z64).
-  en: A Bomberman 64 ROM (N64, US 1.0, .z64).
+  es: "Una ROM de Bomberman 64 (N64, versión estadounidense 1.0, .z64)."
+  en: "A Bomberman 64 ROM (N64, US version 1.0, .z64)."
 tags:
   - mods

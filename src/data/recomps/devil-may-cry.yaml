@@ -7,10 +7,10 @@ originalDeveloper: Capcom
 year: 2001
 toolchain: PS2Recomp
 desc:
-  es: "Recompilación estática experimental del R5900 y el IOP a PC nativo, con PS2Recomp. Ya alcanza un arranque interactivo real: se navega por los menús con mando, llega a la pantalla de título y muestra imágenes reconocibles de los vídeos PSS. Su autor lo plantea como un proyecto de ingeniería inversa y puesta en marcha, no como un port jugable: el renderizado sigue incompleto y el juego en sí —partidas y misiones— todavía no funciona."
-  en: "Experimental static recompilation of the R5900 and the IOP to native PC, with PS2Recomp. It already reaches a real interactive boot: menus can be navigated with a gamepad, it gets to the title screen and shows recognisable frames from the PSS movies. Its author frames it as a reverse-engineering and bring-up project rather than a playable port: rendering is still incomplete and the game proper — gameplay and missions — does not work yet."
+  es: "Recompilación estática experimental del R5900 y del IOP a código nativo de PC, con PS2Recomp. Ya consigue un arranque interactivo real: se navega por los menús con mando, llega a la pantalla de título y muestra fotogramas reconocibles de los vídeos PSS. Su autor lo plantea como un proyecto de ingeniería inversa y puesta en marcha, no como un port jugable: el renderizado sigue incompleto y el juego en sí (las partidas y las misiones) todavía no funciona."
+  en: "Experimental static recompilation of the R5900 and the IOP to native PC code, with PS2Recomp. It already reaches a real interactive boot: you can navigate the menus with a gamepad, it gets to the title screen, and it shows recognizable frames from the PSS movies. Its author frames it as a reverse-engineering and bring-up project rather than a playable port: rendering is still incomplete, and the game itself (gameplay and missions) doesn’t work yet."
 requirements:
-  es: "Tu propia copia legal de Devil May Cry para PlayStation 2, edición europea PAL SLES_503.58 versión 1.02. El repositorio no incluye el ejecutable original, imagen de disco, BIOS ni assets del juego."
-  en: "Your own legal copy of Devil May Cry for PlayStation 2, European PAL edition SLES_503.58 version 1.02. The repository ships no original executable, disc image, BIOS or game assets."
+  es: "Tu propia copia legal de Devil May Cry para PlayStation 2, edición europea PAL SLES_503.58, versión 1.02. El repositorio no incluye el ejecutable original, ninguna imagen de disco, BIOS ni recursos del juego."
+  en: "Your own legal copy of Devil May Cry for PlayStation 2, European PAL edition SLES_503.58, version 1.02. The repository doesn’t include the original executable, a disc image, a BIOS, or any game assets."
 tags:
   - emotion-engine

@@ -3,6 +3,7 @@ category: decomp-port
 console: gamecube
 status: fully
 repo: TwilitRealm/dusklight
+homepage: https://duskport.com/
 originalDeveloper: Nintendo
 decomp: zeldaret/tp
 desc:
@@ -14,6 +15,3 @@ requirements:
 tags:
   - zelda
   - decomp
-links:
-  - label: Sitio oficial
-    url: https://duskport.com/

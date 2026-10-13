@@ -6,12 +6,14 @@ author: sonicdcer
 originalDeveloper: Eurocom / GT Interactive
 toolchain: N64Recomp
 desc:
-  es: Recompilación del shooter de N64 (apuntado con giroscopio, 60 fps). El repo (cuenta sonicdcer) fue borrado y no se le encontró espejo; ubicación por confirmar.
-  en: Recompilation of the N64 shooter (gyro aiming, 60fps). The repo (sonicdcer account) was deleted with no mirror found; location TBD.
+  es: "Recompilación del juego de disparos de N64 (apuntado con giroscopio, 60 fps). El repositorio (cuenta sonicdcer) se borró y no se ha encontrado ninguna copia; su ubicación actual se desconoce."
+  en: "Recompilation of the N64 shooter (gyro aiming, 60 fps). The repository (sonicdcer account) was deleted and no mirror has been found; its current location is unknown."
 requirements:
   es: "Una ROM de Duke Nukem: Zero Hour (N64)."
   en: "A Duke Nukem: Zero Hour ROM (N64)."
 links:
-  - label: Estado en Read Only Memo
+  - label:
+      es: "Estado en Read Only Memo"
+      en: "Status on Read Only Memo"
     url: https://readonlymemo.com/decompilation-projects-and-n64-recompiled-list/
 enrich: false

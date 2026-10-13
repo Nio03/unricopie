@@ -6,11 +6,11 @@ originalDeveloper: Rare
 year: 1996
 toolchain: snesrecomp
 desc:
-  es: "Recompilación de DKC3 hecha como se hizo DKC2Recomp: el código se recompila estáticamente a C con snesrecomp a partir de una configuración de bancos derivada de un desensamblado público, el runtime compartido ejecuta por intérprete lo que el análisis no puede demostrar, y hosts propios presentan el juego en macOS y Windows. En fase de arranque: el autor no reclama todavía que se pueda completar."
-  en: "Recompilation of DKC3 built the way DKC2Recomp was built: the code is statically recompiled to C by snesrecomp from a bank configuration derived from a public disassembly, the shared runtime interprets whatever the analysis cannot prove, and project-owned hosts present the game on macOS and Windows. In bring-up: the author does not yet claim it can be completed."
+  es: "Recompilación de DKC3 hecha igual que DKC2Recomp: snesrecomp recompila estáticamente el código a C a partir de una configuración de bancos sacada de un desensamblado público, el entorno de ejecución compartido interpreta lo que el análisis no puede demostrar, y el proyecto tiene sus propias aplicaciones para ejecutar el juego en macOS y Windows. Está en plena puesta en marcha: su autor todavía no asegura que se pueda completar."
+  en: "Recompilation of DKC3, built the same way as DKC2Recomp: snesrecomp statically recompiles the code to C from a bank configuration derived from a public disassembly, the shared runtime interprets whatever the analysis can’t prove, and the project’s own host apps run the game on macOS and Windows. Still in bring-up: its author doesn’t yet claim it can be completed."
 requirements:
-  es: "Tu propia ROM de Donkey Kong Country 3 (SNES, norteamericana En/Fr, sin cabecera, 4 MiB)."
-  en: "Your own Donkey Kong Country 3 ROM (SNES, North American En/Fr, headerless, 4 MiB)."
+  es: "Tu propia ROM de Donkey Kong Country 3 (SNES, versión norteamericana en inglés y francés, sin cabecera, 4 MiB)."
+  en: "Your own Donkey Kong Country 3 ROM (SNES, North American English/French version, headerless, 4 MiB)."
 tags:
   - "65816"
   - rare
