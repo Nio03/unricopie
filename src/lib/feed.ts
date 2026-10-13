@@ -15,8 +15,8 @@ const TEXTOS = {
     desc: "Altas recientes en el catálogo de recompilaciones, decompilaciones, ports y herramientas.",
   },
   en: {
-    titulo: "Recompendium — what's new",
-    desc: "Recent additions to the catalogue of recompilations, decompilations, ports and tools.",
+    titulo: "Recompendium — what’s new",
+    desc: "Recent additions to the catalog of recompilations, decompilations, ports, and tools.",
   },
 } as const;
 

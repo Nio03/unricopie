@@ -39,6 +39,15 @@ export const CONSOLES = {
 export type ConsoleKey = keyof typeof CONSOLES;
 export const CONSOLE_KEYS = Object.keys(CONSOLES) as ConsoleKey[];
 
-export function consoleMeta(key: string) {
-  return (CONSOLES as Record<string, (typeof CONSOLES)[ConsoleKey]>)[key] ?? CONSOLES.other;
+// Casi todos los nombres son propios y valen en los dos idiomas; solo las claves
+// genéricas se traducen. Sin idioma, se devuelve el nombre en inglés.
+const ES_NAMES: Partial<Record<ConsoleKey, { label?: string; full?: string }>> = {
+  arcade: { full: 'Placa de recreativa' },
+  other: { label: 'Otra', full: 'Otra plataforma' },
+};
+
+export function consoleMeta(key: string, lang?: 'es' | 'en') {
+  const base = (CONSOLES as Record<string, (typeof CONSOLES)[ConsoleKey]>)[key] ?? CONSOLES.other;
+  const es = lang === 'es' ? ES_NAMES[key as ConsoleKey] : undefined;
+  return es ? { ...base, ...es } : base;
 }

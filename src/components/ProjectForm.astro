@@ -30,18 +30,18 @@ const L = es
   ? { type: "Tipo", tRecomp: "Juego (recomp)", tTool: "Herramienta / launcher", tPort: "Port / remake", tDecomp: "Decompilación",
       name: "Nombre", console: "Consola", kind: "Tipo de herramienta", category: "Categoría", status: "Estado",
       abandoned: "Abandonado", takedown: "Retirado (DMCA)", repo: "Repositorio (usuario/repo)", author: "Autor / mantenedor",
-      desc: "Descripción", reqs: "Requisitos (ROM/versión que hace falta)", tags: "Etiquetas (separadas por coma)",
-      langHint: `En tu idioma (${es ? "español" : "inglés"}); nosotros completamos la otra versión.`,
-      submit: mode === "edit" ? "Enviar cambios" : "Añadir", need: "Pon al menos el nombre y la descripción.",
-      doneTitle: "¡Gracias por contribuir!", doneBody: "Tu propuesta se abrió como issue y está en revisión. Cuando la aprobemos, aparece en el sitio.",
+      desc: "Descripción", reqs: "Requisitos (qué ROM o versión del juego hace falta)", tags: "Etiquetas (separadas por comas)",
+      langHint: "En español; de la versión en inglés nos encargamos nosotros.", repoHint: "usuario/MiRecomp",
+      submit: mode === "edit" ? "Enviar cambios" : "Añadir", need: "Escribe al menos el nombre y la descripción.",
+      doneTitle: "¡Gracias por contribuir!", doneBody: "Tu propuesta se abrió como issue en GitHub y está en revisión. Cuando la aprobemos, aparecerá en el sitio.",
       again: mode === "edit" ? "Editar de nuevo" : "Añadir otro" }
   : { type: "Type", tRecomp: "Game (recomp)", tTool: "Tool / launcher", tPort: "Port / remake", tDecomp: "Decompilation",
       name: "Name", console: "Console", kind: "Tool type", category: "Category", status: "Status",
       abandoned: "Abandoned", takedown: "Taken down (DMCA)", repo: "Repository (owner/repo)", author: "Author / maintainer",
-      desc: "Description", reqs: "Requirements (which ROM/version is needed)", tags: "Tags (comma-separated)",
-      langHint: "In your language; we fill in the other version.",
-      submit: mode === "edit" ? "Submit changes" : "Add", need: "Add at least the name and the description.",
-      doneTitle: "Thanks for contributing!", doneBody: "Your proposal opened as an issue and is under review. Once we approve it, it shows up on the site.",
+      desc: "Description", reqs: "Requirements (which ROM or game version is needed)", tags: "Tags (comma-separated)",
+      langHint: "In English; we’ll take care of the Spanish version.", repoHint: "owner/MyRecomp",
+      submit: mode === "edit" ? "Submit changes" : "Add", need: "Enter at least the name and the description.",
+      doneTitle: "Thanks for contributing!", doneBody: "Your proposal was opened as a GitHub issue and is under review. Once we approve it, it will appear on the site.",
       again: mode === "edit" ? "Edit again" : "Add another" };
 
 const showFor = (t: ItemType, set: ItemType[]) => (set.includes(t) ? "" : "none");
@@ -69,15 +69,15 @@ const cfg = {
 
   <div class="fld" data-row="console" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "decomp"]) : ""}`}>
     <label for="pf-console">{L.console}</label>
-    <select id="pf-console">{CONSOLE_KEYS.map((k) => <option value={k} selected={d.console === k}>{consoleMeta(k).label}</option>)}</select>
+    <select id="pf-console">{CONSOLE_KEYS.map((k) => <option value={k} selected={d.console === k}>{consoleMeta(k, lang).label}</option>)}</select>
   </div>
   <div class="fld" data-row="kind" style={`display:${mode === "edit" ? showFor(curType, ["tool"]) : "none"}`}>
     <label for="pf-kind">{L.kind}</label>
-    <select id="pf-kind">{["recompiler", "launcher", "patcher", "library"].map((k) => <option value={k} selected={d.kind === k}>{k}</option>)}</select>
+    <select id="pf-kind">{(["recompiler", "launcher", "patcher", "library"] as const).map((k) => <option value={k} selected={d.kind === k}>{t(lang, `toolkind.${k}`)}</option>)}</select>
   </div>
   <div class="fld" data-row="category" style={`display:${mode === "edit" ? showFor(curType, ["port"]) : "none"}`}>
     <label for="pf-category">{L.category}</label>
-    <select id="pf-category">{["decomp-port", "fan-remake"].map((k) => <option value={k} selected={d.category === k}>{k}</option>)}</select>
+    <select id="pf-category">{(["decomp-port", "fan-remake", "native-layer"] as const).map((k) => <option value={k} selected={d.category === k}>{t(lang, `category.${k}`)}</option>)}</select>
   </div>
   <div class="fld" data-row="status" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "tool"]) : ""}`}>
     <label for="pf-status">{L.status}</label>
@@ -93,7 +93,7 @@ const cfg = {
     <label><input type="checkbox" id="pf-takedown" checked={d.takedown} /> {L.takedown}</label>
   </div>
 
-  <div class="fld"><label for="pf-repo">{L.repo}</label><input id="pf-repo" value={d.repo ?? ""} placeholder="usuario/MiRecomp" /></div>
+  <div class="fld"><label for="pf-repo">{L.repo}</label><input id="pf-repo" value={d.repo ?? ""} placeholder={L.repoHint} /></div>
   <div class="fld"><label for="pf-author">{L.author}</label><input id="pf-author" value={d.author ?? ""} /></div>
   <div class="fld"><label for="pf-desc">{L.desc}</label><textarea id="pf-desc" placeholder={L.langHint}>{d.desc?.[lang] ?? ""}</textarea></div>
   <div class="fld" data-row="reqs" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port"]) : ""}`}>

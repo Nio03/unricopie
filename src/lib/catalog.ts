@@ -83,7 +83,7 @@ function metric(d: { progress?: number; decomp?: string }, lang: Lang): { progre
 
 export function recompItem(e: CollectionEntry<"recomps">, lang: Lang): Item {
   const d = e.data;
-  const cm = consoleMeta(d.console);
+  const cm = consoleMeta(d.console, lang);
   const sm = statusMeta(d.status);
   const s = liveStat(d);
   return {
@@ -118,7 +118,7 @@ export function toolItem(e: CollectionEntry<"tools">, lang: Lang): Item {
 
 export function portItem(e: CollectionEntry<"ports">, lang: Lang): Item {
   const d = e.data;
-  const cm = d.console ? consoleMeta(d.console) : null;
+  const cm = d.console ? consoleMeta(d.console, lang) : null;
   const sm = statusMeta(d.status);
   const s = liveStat(d);
   const catColor = CAT_COLOR[d.category] ?? "#9AA0B5";
@@ -137,7 +137,7 @@ export function portItem(e: CollectionEntry<"ports">, lang: Lang): Item {
 
 export function decompItem(e: CollectionEntry<"decomps">, lang: Lang): Item {
   const d = e.data;
-  const cm = consoleMeta(d.console);
+  const cm = consoleMeta(d.console, lang);
   const s = liveStat(d);
   return {
     type: "decomp", id: e.id, name: d.name, desc: d.desc[lang], forkOf: forkInfo(d, s),

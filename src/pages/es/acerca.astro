@@ -5,52 +5,58 @@ import { GITHUB_URL } from "../../lib/site";
 const lang = "es" as const;
 ---
 
-<Base lang={lang} title="Acerca y cómo contribuir — Recompendium" description="Qué es Recompendium, qué cuenta como recomp, y cómo añadir un proyecto con un Pull Request.">
+<Base lang={lang} title="Acerca de Recompendium" description="Qué es Recompendium, qué proyectos entran en el catálogo y cómo proponer uno.">
   <main class="wrap detail">
     <div class="crumb"><a href={localePath(lang, "")}>← Catálogo</a></div>
     <h1>Acerca de Recompendium</h1>
     <p class="lead">
-      Un catálogo comunitario, multi-consola y filtrable de <b>recompilaciones estáticas</b>: el
-      proceso que convierte el binario original de un juego de consola en código nativo de PC. No
-      es emulación y no es una decompilación a mano: es traducir el ejecutable a C/C++ y compilarlo
-      para tu máquina.
+      Un catálogo comunitario de juegos de consola que corren de forma nativa en PC:
+      <b>recompilaciones estáticas</b>, decompilaciones, ports y las herramientas que los hacen
+      posibles. Nada de esto es emulación: el juego acaba funcionando en tu máquina como un programa
+      nativo.
     </p>
 
     <div class="sec-h"><h2>Qué entra y qué no</h2></div>
     <p style="color:var(--ink-2);max-width:72ch">
-      El <b>Catálogo</b> reúne cuatro tipos de proyecto: <b>recompilaciones estáticas</b>
+      El catálogo reúne cuatro tipos de proyecto: <b>recompilaciones estáticas</b>
       (N64Recomp, XenonRecomp, ReXGlue…), <a href={localePath(lang, "ports")} style="color:var(--gold)">ports y remakes</a>
-      basados en decompilación o hechos por fans (Ship of Harkinian, P-06…), las
-      <a href={localePath(lang, "decompilaciones")} style="color:var(--gold)">decompilaciones</a> en sí
-      —el código original revertido a fuente, sincronizado desde decomp.dev— y las
+      construidos sobre una decompilación o hechos por fans (Ship of Harkinian, P-06…), las
+      <a href={localePath(lang, "decompilaciones")} style="color:var(--gold)">decompilaciones</a> en sí,
+      con el código fuente reconstruido por ingeniería inversa, y las
       <a href={localePath(lang, "launchers")} style="color:var(--gold)">herramientas</a> que lo hacen posible.
+    </p>
+    <p style="color:var(--ink-2);max-width:72ch">
+      Quedan fuera los emuladores, los núcleos FPGA y cualquier proyecto que incluya el juego en vez de
+      pedirte tu propia copia. De estos últimos hablamos en el <a href={localePath(lang, "blog")} style="color:var(--gold)">blog</a>
+      cuando son noticia, pero no entran en el catálogo.
     </p>
 
     <div class="sec-h"><h2>Recomp vs. decompilación</h2></div>
     <p style="color:var(--ink-2);max-width:72ch">
-      Una <b>recompilación</b> traduce el binario del juego a código nativo y se juega ya. Una
-      <b>decompilación</b> es el paso previo: revierte ese binario a código fuente legible, emparejándolo
-      byte a byte con el original; cuando madura, de ahí nacen los ports nativos. Por eso listamos las dos,
-      pero separadas — un recomp es jugable; una decompilación al 30 % todavía no. El % de cada
-      decompilación se sincroniza en vivo desde decomp.dev.
+      Una <b>recompilación</b> traduce el binario del juego a código nativo: el resultado ya es un
+      ejecutable para tu PC. Una <b>decompilación</b> sigue otro camino: reconstruye el código fuente
+      legible, casi siempre hasta que, al compilarlo, da el mismo binario que el original. Cuando está
+      madura, de ella nacen los ports nativos. Por eso aparecen las dos, pero por separado: un recomp ya
+      produce un ejecutable; una decompilación al 30 % todavía no. El porcentaje de cada decompilación
+      se actualiza a diario desde decomp.dev.
     </p>
 
     <div class="sec-h"><h2>Un poco de historia</h2></div>
     <p style="color:var(--ink-2);max-width:72ch">
-      El primer recomp de un juego completo y jugable fue <b>Zelda 64: Recompiled</b> (Majora's
-      Mask), de Mr. Wiseguy, en <b>mayo de 2024</b>, sobre N64Recomp. También fue el primero en
-      traer un <b>launcher</b> integrado. La ola creció rápido: Banjo (enero 2025, con un
-      launcher/mod-manager muy pulido), el primer launcher universal aparte (N64RecompLauncher, ago.
-      2025), y la explosión de Xbox 360 con XenonRecomp y, más nuevo, ReXGlue.
+      El proyecto que puso la escena en el mapa fue <b>Zelda 64: Recompiled</b> (Majora’s Mask), de
+      Mr. Wiseguy, publicado en <b>mayo de 2024</b> sobre N64Recomp y con su propio launcher integrado.
+      A partir de ahí todo creció rápido: la ola de Xbox 360 con XenonRecomp, el primer launcher
+      universal independiente (N64RecompLauncher, agosto de 2025), Banjo-Kazooie (enero de 2026) y
+      ReXGlue (febrero de 2026).
     </p>
 
-    <div class="sec-h"><h2>¿Quieres aportar o corregir algo?</h2></div>
+    <div class="sec-h"><h2>¿Quieres añadir o corregir algo?</h2></div>
     <p style="color:var(--ink-2);max-width:72ch">
-      No hace falta saber de código. Usa el formulario de
-      <a href={localePath(lang, "contribuir")} style="color:var(--gold)">Contribuir</a> —o el botón
-      <b>Editar</b> que verás en cada ficha— y llena los datos en tu idioma. Tu propuesta entra como
-      una sugerencia que <b>revisamos a mano</b> antes de publicarla: nosotros completamos la
-      traducción que falte, y las estrellas y fechas se actualizan solas desde GitHub.
+      No hace falta saber programar. Usa el formulario de
+      <a href={localePath(lang, "contribuir")} style="color:var(--gold)">Contribuir</a> o el botón
+      <b>Editar</b> de cada ficha y completa los datos en tu idioma. Tu propuesta llega como una
+      sugerencia que <b>revisamos a mano</b> antes de publicarla: nosotros añadimos la traducción que
+      falte, y las estrellas y las fechas se actualizan solas desde GitHub.
     </p>
 
     <div class="actions" style="margin-top:18px">
@@ -60,8 +66,8 @@ const lang = "es" as const;
     </div>
 
     <p class="legal" style="margin-top:30px">
-      Recompendium no aloja ni enlaza ROMs ni assets con copyright. Cada recomp requiere tu propia
-      copia legal del juego.
+      Recompendium no aloja ni enlaza ROMs ni recursos protegidos por derechos de autor. Cada proyecto
+      requiere tu propia copia legal del juego.
     </p>
   </main>
 </Base>

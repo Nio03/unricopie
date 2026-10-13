@@ -1,9 +1,10 @@
-// Estados de avance de un recomp (juego) y tipos de herramienta.
+// Estados de avance de un recomp (juego) y tipos de herramienta. Aquí solo van
+// los colores: los textos, en los dos idiomas, viven en src/i18n/ui.ts.
 
 export const STATUS = {
-  experimental: { label: 'Experimental', color: '#e0a73a', desc: 'Arranca o en etapa temprana; todavía no jugable de inicio a fin.' },
-  playable: { label: 'Jugable', color: '#5fcf6b', desc: 'Se juega y avanza, pero nunca es la experiencia completa.' },
-  fully: { label: 'Totalmente jugable', color: '#3fb950', desc: 'Terminado o muy avanzado: jugable de principio a fin.' },
+  experimental: { color: '#e0a73a' },
+  playable: { color: '#5fcf6b' },
+  fully: { color: '#3fb950' },
 } as const;
 
 export type StatusKey = keyof typeof STATUS;
@@ -28,10 +29,10 @@ export const STALLED_COLOR = '#b8863f';
 
 // Tipos de herramienta para la sección "Launchers y herramientas".
 export const TOOL_KIND = {
-  recompiler: { label: 'Recompilador', color: '#9b87e0', desc: 'Convierte el binario de la consola a código nativo.' },
-  launcher: { label: 'Launcher', color: '#3fb0a8', desc: 'Descarga, organiza y lanza recomps.' },
-  patcher: { label: 'Patcher', color: '#cd7dd6', desc: 'Aplica los assets de tu copia sobre el recomp.' },
-  library: { label: 'Librería', color: '#9aa0bd', desc: 'Componente de soporte (gráficos, audio, runtime).' },
+  recompiler: { color: '#9b87e0' },
+  launcher: { color: '#3fb0a8' },
+  patcher: { color: '#cd7dd6' },
+  library: { color: '#9aa0bd' },
 } as const;
 
 export type ToolKind = keyof typeof TOOL_KIND;
@@ -43,10 +44,10 @@ export function toolKindMeta(key: string) {
 
 // Estado de madurez de una herramienta.
 export const TOOL_STATUS = {
-  experimental: { label: 'Experimental', color: '#e0a73a' },
-  beta: { label: 'Beta', color: '#7aa2f0' },
-  usable: { label: 'Usable', color: '#4fa8d8' },
-  stable: { label: 'Estable', color: '#3fb950' },
+  experimental: { color: '#e0a73a' },
+  beta: { color: '#7aa2f0' },
+  usable: { color: '#4fa8d8' },
+  stable: { color: '#3fb950' },
 } as const;
 
 export type ToolStatusKey = keyof typeof TOOL_STATUS;

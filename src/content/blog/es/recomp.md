@@ -22,7 +22,7 @@ Así que no voy a pelearme con la palabra. Ha ganado el uso.
 
 Lo que sí sostengo es una línea que nunca fue la técnica: **si traes tu copia, o si el juego viene dentro.**
 
-Un port a navegador que te pide tus archivos tiene tanto sitio aquí como cualquier recomp nativo. Uno que te sirve el juego entero, no. Y eso tampoco va de que sea web: hace poco dejamos fuera un port de Resident Evil 2 a Saturn, que de web no tiene nada, por exactamente lo mismo: empaquetaba el disco jugable con los assets originales dentro.
+Un port a navegador que te pide tus archivos tiene tanto sitio aquí como cualquier recomp nativo. Uno que te sirve el juego entero, no. Y eso tampoco va de que sea web: hace poco dejamos fuera un port de Resident Evil 2 a Saturn, que de web no tiene nada, por exactamente lo mismo: empaquetaba el disco jugable con los recursos originales dentro.
 
 Los ports de Call of Duty y GTA V de esta semana cayeron del lado equivocado de esa línea. No por ser web, sino porque traían los juegos dentro.
 
@@ -30,7 +30,7 @@ Los ports de Call of Duty y GTA V de esta semana cayeron del lado equivocado de 
 
 Esta semana se vio claro algo que lleva meses pasando: la IA abarata muchísimo hacer un port. En una sola oleada llegaron al navegador más de veinte juegos clásicos.
 
-En el catálogo hay proyectos que lo declaran abiertamente. [Ridge Racer](/unricopie/es/recomp/ridge-racer/) y [Ridge Racer Revolution](/unricopie/es/recomp/ridge-racer-revolution/) se desarrollaron con Codex, dirigidos y probados por su autor. [Fable II](/unricopie/es/recomp/fable-2-himdo/) empezó como una prueba de lo que podía hacer un modelo local de código abierto, y el resto fue ensayo y error humano. Y hay otros que la dejan fuera: la decompilación de [Silent Hill](/unricopie/es/decomp/silent-hill/) deja escrito que es trabajo humano, sin código generado por IA, revertido a mano durante años.
+En el catálogo hay proyectos que lo declaran abiertamente. [Ridge Racer](/unricopie/es/recomp/ridge-racer/) y [Ridge Racer Revolution](/unricopie/es/recomp/ridge-racer-revolution/) se desarrollaron con Codex, dirigidos y probados por su autor. [Fable II](/unricopie/es/recomp/fable-2-himdo/) empezó como una prueba de lo que podía hacer un modelo local de código abierto, y el resto fue ensayo y error humano. Y hay otros que la dejan fuera: la decompilación de [Silent Hill](/unricopie/es/decomp/silent-hill/) deja escrito que es trabajo humano, sin código generado por IA, reconstruido a mano durante años.
 
 No voy a puntuar a nadie por eso. Lo que hacemos es dejarlo escrito en cada ficha, con las palabras del propio proyecto, para que nadie tenga que adivinarlo.
 

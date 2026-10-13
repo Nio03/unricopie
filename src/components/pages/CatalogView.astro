@@ -2,7 +2,6 @@
 import Base from "../../layouts/Base.astro";
 import Card from "../Card.astro";
 import { CONSOLE_KEYS, consoleMeta } from "../../lib/consoles";
-import { STATUS_KEYS } from "../../lib/status";
 import { sortItems, TYPE_COLOR, type Item } from "../../lib/catalog";
 import { t, localePath, type Lang } from "../../i18n";
 
@@ -23,7 +22,23 @@ const ordered = sortItems(items);
 
 const present = new Set<string>();
 for (const i of items) for (const c of i.consoleKeys) present.add(c);
-const consoleChips = CONSOLE_KEYS.filter((k) => present.has(k)).map((k) => ({ key: k, ...consoleMeta(k) }));
+const consoleChips = CONSOLE_KEYS.filter((k) => present.has(k)).map((k) => ({ key: k, ...consoleMeta(k, lang) }));
+
+// Filtro de estado con los estados que de verdad tienen las fichas de esta
+// página: las herramientas usan otros (beta, usable, estable) y las
+// decompilaciones no tienen ninguno, así que ahí el filtro no aparece.
+const STATUS_LABEL: Record<string, string> = {
+  experimental: t(lang, "status.experimental"),
+  playable: t(lang, "status.playable"),
+  fully: t(lang, "status.fully"),
+  beta: t(lang, "toolstatus.beta"),
+  usable: t(lang, "toolstatus.usable"),
+  stable: t(lang, "toolstatus.stable"),
+};
+const statusOptions = Object.keys(STATUS_LABEL).filter((s) => items.some((i) => i.statusKey === s));
+const hasAbandoned = items.some((i) => i.abandoned);
+const hasTakedown = items.some((i) => i.takedown);
+const showStatus = statusOptions.length > 0 || hasAbandoned || hasTakedown;
 
 const typeChips = (
   [
@@ -79,13 +94,17 @@ const guideCards = [
           >
           <input id="q" type="search" placeholder={t(lang, "ctl.searchPlaceholder")} aria-label={t(lang, "ctl.search")} />
         </div>
-        <select id="status" aria-label={t(lang, "ctl.filterType")}>
-          <option value="">{t(lang, "ctl.statusAll")}</option>
-          {STATUS_KEYS.map((s) => <option value={s}>{t(lang, `status.${s}`)}</option>)}
-          <option value="__abandoned">{t(lang, "status.abandoned")}</option>
-          <option value="__takedown">{t(lang, "status.takedown")}</option>
-        </select>
-        <select id="sort" aria-label="sort">
+        {
+          showStatus && (
+            <select id="status" aria-label={t(lang, "ctl.filterStatus")}>
+              <option value="">{t(lang, "ctl.statusAll")}</option>
+              {statusOptions.map((s) => <option value={s}>{STATUS_LABEL[s]}</option>)}
+              {hasAbandoned && <option value="__abandoned">{t(lang, "status.abandoned")}</option>}
+              {hasTakedown && <option value="__takedown">{t(lang, "status.takedown")}</option>}
+            </select>
+          )
+        }
+        <select id="sort" aria-label={t(lang, "ctl.sort")}>
           <option value="stars">{t(lang, "ctl.sortStars")}</option>
           <option value="name">{t(lang, "ctl.sortName")}</option>
           <option value="updated">{t(lang, "ctl.sortUpdated")}</option>

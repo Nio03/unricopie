@@ -51,7 +51,7 @@ if (type === "recomp") {
   // `type` discrimina qué colección llega; estrechamos para que las claves
   // dinámicas de i18n (`status.${...}`) resuelvan a claves reales del diccionario.
   const dr = entry.data as CollectionEntry<"recomps">["data"];
-  const cm = consoleMeta(dr.console), sm = statusMeta(dr.status);
+  const cm = consoleMeta(dr.console, lang), sm = statusMeta(dr.status);
   crumb = { label: t(lang, "detail.crumbCatalog"), href: localePath(lang, "") };
   badgeLabel = cm.label; badgeColor = cm.color;
   statusLabel = t(lang, `status.${dr.status}`); statusColor = sm.color;
@@ -69,25 +69,25 @@ if (type === "recomp") {
   badgeLabel = t(lang, `toolkind.${dl.kind}`); badgeColor = km.color;
   if (ts && dl.status) { statusLabel = t(lang, `toolstatus.${dl.status}`); statusColor = ts.color; }
   facts.push({ dt: t(lang, "detail.fact.kind"), dd: t(lang, `toolkind.${dl.kind}`) });
-  if (d.consoles?.length) facts.push({ dt: t(lang, "detail.fact.consoles"), dd: d.consoles.map((c: string) => consoleMeta(c).label).join(" · ") });
+  if (d.consoles?.length) facts.push({ dt: t(lang, "detail.fact.consoles"), dd: d.consoles.map((c: string) => consoleMeta(c, lang).label).join(" · ") });
   if (statusLabel) facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
   related = await toolRelated(entry as CollectionEntry<"tools">, lang);
 } else if (type === "port") {
   const dp = entry.data as CollectionEntry<"ports">["data"];
-  const cm = dp.console ? consoleMeta(dp.console) : null, sm = statusMeta(dp.status);
+  const cm = dp.console ? consoleMeta(dp.console, lang) : null, sm = statusMeta(dp.status);
   crumb = { label: t(lang, "detail.crumbPorts"), href: localePath(lang, "ports") };
   badgeLabel = t(lang, `category.${dp.category}`); badgeColor = CAT_COLOR[dp.category] ?? "#9AA0B5";
   statusLabel = t(lang, `status.${dp.status}`); statusColor = sm.color;
   facts.push({ dt: t(lang, "detail.fact.category"), dd: badgeLabel });
   if (cm) facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
-  if (d.engine) facts.push({ dt: "Engine", dd: d.engine });
+  if (d.engine) facts.push({ dt: t(lang, "detail.fact.engine"), dd: d.engine });
   facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
   if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
   if (d.year) facts.push({ dt: t(lang, "detail.fact.year"), dd: String(d.year) });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
 } else {
-  const cm = consoleMeta(d.console);
+  const cm = consoleMeta(d.console, lang);
   crumb = { label: t(lang, "detail.crumbDecomps"), href: localePath(lang, "decompilaciones") };
   badgeLabel = cm.label; badgeColor = cm.color;
   facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
