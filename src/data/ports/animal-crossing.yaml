@@ -6,10 +6,10 @@ repo: flyngmt/ACGC-PC-Port
 originalDeveloper: Nintendo
 decomp: ACreTeam/ac-decomp
 desc:
-  es: "Port nativo no oficial de Animal Crossing (GameCube) desde la decompilación ac-decomp: 4K, framerate alto (60-960 fps), texture packs de Dolphin y guardado GCI. Solo la versión USA."
-  en: "Unofficial native PC port of Animal Crossing (GameCube) from the ac-decomp decompilation: 4K, high frame rate (60-960 fps), Dolphin texture packs and GCI saves. USA version only."
+  es: "Port nativo no oficial de Animal Crossing (GameCube) a partir de la decompilación ac-decomp: 4K, alta tasa de fotogramas (de 60 a 960 fps), paquetes de texturas de Dolphin y partidas guardadas en formato GCI. Solo admite la versión estadounidense."
+  en: "Unofficial native PC port of Animal Crossing (GameCube) from the ac-decomp decompilation: 4K, high frame rate (60 to 960 fps), Dolphin texture packs, and GCI saves. US version only."
 requirements:
-  es: Tu copia de Animal Crossing (GameCube, USA).
-  en: Your Animal Crossing copy (GameCube, USA).
+  es: "Tu propia copia de Animal Crossing (GameCube, versión estadounidense)."
+  en: "Your own copy of Animal Crossing (GameCube, US version)."
 tags:
   - decomp

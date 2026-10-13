@@ -9,11 +9,11 @@ forkOf:
   label: pmret/papermario (Paper Mario DX)
   url: https://github.com/pmret/papermario
 desc:
-  es: "Port de Paper Mario 64 por Harbour Masters —los de Ship of Harkinian— construido sobre la decompilación Paper Mario DX. Es un decomp port, no una recompilación estática: distinto del otro proyecto de Paper Mario que ya está en el catálogo, que sí recompila el binario. Hay comprobador de compatibilidad para verificar que tu volcado está soportado antes de empezar."
-  en: "Paper Mario 64 port by Harbour Masters — the Ship of Harkinian people — built on the Paper Mario DX decompilation. It is a decomp port, not a static recompilation: a different thing from the other Paper Mario project already in the catalogue, which does recompile the binary. There is a compatibility checker to verify your dump is supported before you start."
+  es: "Port de Paper Mario 64 hecho por Harbour Masters, los de Ship of Harkinian, construido sobre la decompilación Paper Mario DX. Es un port de una decompilación, no una recompilación estática, a diferencia del otro proyecto de Paper Mario del catálogo, que sí recompila el binario. Incluye un comprobador para verificar que tu volcado es compatible antes de empezar."
+  en: "Paper Mario 64 port by Harbour Masters, the Ship of Harkinian team, built on the Paper Mario DX decompilation. It’s a decomp port, not a static recompilation, unlike the other Paper Mario project in the catalog, which does recompile the binary. A compatibility checker lets you verify your dump is supported before you start."
 requirements:
-  es: "Tu propia copia de Paper Mario (N64, estadounidense; SHA1 3837f44cda784b466c9a2d99df70d77c322b97a0)."
-  en: "Your own copy of Paper Mario (N64, US; SHA1 3837f44cda784b466c9a2d99df70d77c322b97a0)."
+  es: "Tu propia copia de Paper Mario (N64, versión estadounidense; SHA-1 3837f44cda784b466c9a2d99df70d77c322b97a0)."
+  en: "Your own copy of Paper Mario (N64, US version; SHA-1 3837f44cda784b466c9a2d99df70d77c322b97a0)."
 tags:
   - mips
   - harbour-masters

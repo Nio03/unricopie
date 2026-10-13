@@ -7,11 +7,11 @@ homepage: https://duskport.com/
 originalDeveloper: Nintendo
 decomp: zeldaret/tp
 desc:
-  es: "Port nativo de Twilight Princess desde la decompilación zeldaret/tp: HD, alta tasa de fotogramas y texture packs (v1.0.1; antes 'Dusk'). Aportas tu copia de GameCube."
-  en: "Native port of Twilight Princess from the zeldaret/tp decompilation: HD, high frame rate and texture packs (v1.0.1; formerly 'Dusk'). You supply your GameCube copy."
+  es: "Port nativo de Twilight Princess a partir de la decompilación zeldaret/tp: alta definición, alta tasa de fotogramas y paquetes de texturas (v1.0.1; antes se llamaba «Dusk»). Necesita tu propia copia de GameCube."
+  en: "Native port of Twilight Princess from the zeldaret/tp decompilation: HD, high frame rate, and texture packs (v1.0.1; formerly “Dusk”). You supply your own GameCube copy."
 requirements:
-  es: Tu copia de Twilight Princess (GameCube, USA o EUR).
-  en: Your Twilight Princess copy (GameCube, USA or EUR).
+  es: "Tu propia copia de Twilight Princess (GameCube, versión estadounidense o europea)."
+  en: "Your own copy of Twilight Princess (GameCube, US or European version)."
 tags:
   - zelda
   - decomp

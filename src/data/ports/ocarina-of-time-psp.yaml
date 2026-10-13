@@ -9,7 +9,7 @@ forkOf:
   label: zeldaret/oot
   url: https://github.com/zeldaret/oot
 desc:
-  es: "Port de la decompilación de Ocarina of Time a PlayStation Portable: el código reconstruido por zeldaret se compila para la PSP y corre nativo en la consola, sin un emulador de N64 por medio."
+  es: "Port de la decompilación de Ocarina of Time a PlayStation Portable: el código reconstruido por zeldaret se compila para PSP y funciona de forma nativa en la consola, sin un emulador de N64 de por medio."
   en: "Port of the Ocarina of Time decompilation to the PlayStation Portable: the code reconstructed by zeldaret is built for the PSP and runs natively on the handheld, with no N64 emulator in between."
 requirements:
   es: "Tu propia ROM de Ocarina of Time y una PSP con homebrew."

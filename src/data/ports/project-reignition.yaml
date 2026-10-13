@@ -6,11 +6,11 @@ repo: kumapauz/project-reignition
 originalDeveloper: Sonic Team / Sega
 engine: Godot
 desc:
-  es: "Remake desde cero en Godot de Sonic and the Secret Rings (Wii). No es recomp ni decomp: es la única forma en que ese juego de Wii vuelve a PC por ahora."
-  en: "From-scratch Godot remake of Sonic and the Secret Rings (Wii). Not a recomp or decomp: the only way that Wii game comes back to PC for now."
+  es: "Remake desde cero en Godot de Sonic and the Secret Rings (Wii). No es un recomp ni una decompilación: por ahora es la única forma de jugar en PC a ese juego de Wii."
+  en: "From-scratch Godot remake of Sonic and the Secret Rings (Wii). Not a recomp or a decomp: for now, it’s the only way to play that Wii game on PC."
 requirements:
-  es: "Nada: es un remake completo en Godot (freeware)."
-  en: "Nothing: a complete Godot remake (freeware)."
+  es: "Nada: es un remake completo en Godot (gratuito)."
+  en: "Nothing: it’s a complete Godot remake (freeware)."
 tags:
   - sonic
   - godot

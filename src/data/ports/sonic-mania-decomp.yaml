@@ -4,11 +4,11 @@ status: fully
 repo: RSDKModding/Sonic-Mania-Decompilation
 originalDeveloper: Christian Whitehead / Sega
 desc:
-  es: Decompilación completa en C de Sonic Mania + motor RSDKv5/v5U y cargador de mods (v1.1.1). Multiplataforma; aportas tus propios assets.
-  en: Complete C decompilation of Sonic Mania + RSDKv5/v5U engine and mod loader (v1.1.1). Cross-platform; you supply your own assets.
+  es: "Decompilación completa en C de Sonic Mania, junto con el motor RSDKv5/v5U y un cargador de mods (v1.1.1). Multiplataforma; necesita tus propios recursos del juego."
+  en: "Complete C decompilation of Sonic Mania, along with the RSDKv5/v5U engine and a mod loader (v1.1.1). Cross-platform; you supply your own game assets."
 requirements:
-  es: Los assets de una copia oficial de Sonic Mania (la versión Netflix no sirve).
-  en: Assets from an official Sonic Mania copy (Netflix version unsupported).
+  es: "Los recursos de una copia oficial de Sonic Mania (la versión de Netflix no sirve)."
+  en: "The assets from an official Sonic Mania copy (the Netflix version isn’t supported)."
 tags:
   - sonic
   - rsdk

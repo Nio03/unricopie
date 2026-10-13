@@ -5,11 +5,11 @@ status: fully
 repo: fgsfdsfgs/perfect_dark
 originalDeveloper: Rare
 desc:
-  es: "Port nativo multiplataforma de Perfect Dark desde la decompilación: mouselook, widescreen y alta tasa de fotogramas. Aportas tu ROM."
-  en: "Cross-platform native port of Perfect Dark from the decompilation: mouselook, widescreen and high frame rate. You supply your ROM."
+  es: "Port nativo multiplataforma de Perfect Dark a partir de la decompilación: control de la cámara con el ratón, modo panorámico y alta tasa de fotogramas. Necesita tu propia ROM."
+  en: "Cross-platform native port of Perfect Dark from the decompilation: mouselook, widescreen, and high frame rate. You supply your own ROM."
 requirements:
-  es: Una ROM de Perfect Dark (N64, recomendada US V1.1 / ntsc-final).
-  en: A Perfect Dark ROM (N64, recommended US V1.1 / ntsc-final).
+  es: "Una ROM de Perfect Dark (N64; se recomienda la versión estadounidense 1.1, «ntsc-final»)."
+  en: "A Perfect Dark ROM (N64; US version 1.1, “ntsc-final,” recommended)."
 tags:
   - decomp
   - fps

@@ -5,11 +5,11 @@ status: fully
 repo: sm64-port/sm64-port
 originalDeveloper: Nintendo
 desc:
-  es: "El port de PC fundacional construido desde la decompilación de SM64. No es un recomp: es la base de la que salieron sm64ex, Render96 y compañía. Aportas tu ROM."
-  en: "The foundational PC port built from the SM64 decompilation. Not a recomp: it's the base from which sm64ex, Render96 and friends grew. You supply your ROM."
+  es: "El port para PC fundacional, construido a partir de la decompilación de Super Mario 64. No es un recomp: es la base de la que salieron sm64ex, Render96 y otros. Necesita tu propia ROM."
+  en: "The foundational PC port, built from the Super Mario 64 decompilation. Not a recomp: it’s the base that sm64ex, Render96, and others grew from. You supply your own ROM."
 requirements:
-  es: Una ROM de Super Mario 64 (N64, US/JP/EU) para extraer los assets.
-  en: A Super Mario 64 ROM (N64, US/JP/EU) to extract assets.
+  es: "Una ROM de Super Mario 64 (N64, versión estadounidense, japonesa o europea) de la que extraer los recursos."
+  en: "A Super Mario 64 ROM (N64, US, Japanese, or European version) to extract the assets from."
 tags:
   - mario
   - decomp

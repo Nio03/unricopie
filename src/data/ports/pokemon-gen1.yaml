@@ -6,5 +6,5 @@ repo: bryanthaboi/gen1recomp
 originalDeveloper: Game Freak
 engine: LOVE2D
 desc:
-  es: "Recreación nativa en Lua/LOVE2D de Rojo, Azul, Oro, Plata y Cristal: pese al nombre, ya no se queda en la primera generación. El motor y el comportamiento de los mapas están escritos a mano; los datos y gráficos se decodifican de la ROM que pone el jugador. Es una recreación, no una recompilación estática."
-  en: "A native Lua/LOVE2D recreation of Red, Blue, Gold, Silver and Crystal: despite the name, it no longer stops at the first generation. The engine and map behaviour are hand-written; game data and graphics are decoded from a ROM the player supplies. It is a recreation, not a static recompilation."
+  es: "Recreación nativa en Lua y LÖVE de Pokémon Rojo, Azul, Oro, Plata y Cristal: pese a su nombre, ya no se limita a la primera generación. El motor y el comportamiento de los mapas están escritos a mano; los datos y los gráficos se decodifican de la ROM que aporta el jugador. Es una recreación, no una recompilación estática."
+  en: "A native Lua/LÖVE recreation of Pokémon Red, Blue, Gold, Silver, and Crystal: despite the name, it no longer stops at the first generation. The engine and map behavior are hand-written; the game data and graphics are decoded from a ROM the player supplies. It’s a recreation, not a static recompilation."

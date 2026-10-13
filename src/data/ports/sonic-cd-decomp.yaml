@@ -4,11 +4,11 @@ status: fully
 repo: RSDKModding/RSDKv3-Decompilation
 originalDeveloper: Christian Whitehead / Sega
 desc:
-  es: Decompilación completa de Sonic CD (2011) + Retro Engine v3 (v1.3.3). Multiplataforma; aportas tus assets.
-  en: Complete decompilation of Sonic CD (2011) + Retro Engine v3 (v1.3.3). Cross-platform; you supply your assets.
+  es: "Decompilación completa de Sonic CD (2011) junto con el Retro Engine v3 (v1.3.3). Multiplataforma; necesita tus propios recursos del juego."
+  en: "Complete decompilation of Sonic CD (2011) along with Retro Engine v3 (v1.3.3). Cross-platform; you supply your own game assets."
 requirements:
-  es: Los assets de una copia oficial de Sonic CD (FMV solo de la versión Steam).
-  en: Assets from an official Sonic CD copy (FMV only from the Steam release).
+  es: "Los recursos de una copia oficial de Sonic CD (los vídeos solo están en la versión de Steam)."
+  en: "The assets from an official Sonic CD copy (the FMVs only come from the Steam release)."
 tags:
   - sonic
   - rsdk

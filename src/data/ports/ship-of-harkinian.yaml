@@ -6,8 +6,8 @@ repo: HarbourMasters/Shipwright
 homepage: https://shipofharkinian.com/
 originalDeveloper: Nintendo
 desc:
-  es: Port nativo de Ocarina of Time basado en la decompilación de OoT + libultraship. Multiplataforma (Win/mac/Linux/Switch/Wii U). Aportas tu propia ROM.
-  en: Native port of Ocarina of Time based on the OoT decompilation + libultraship. Cross-platform (Win/mac/Linux/Switch/Wii U). You supply your own ROM.
+  es: "Port nativo de Ocarina of Time basado en la decompilación de OoT y en libultraship. Multiplataforma (Windows, macOS, Linux, Switch y Wii U). Necesita tu propia ROM."
+  en: "Native port of Ocarina of Time based on the OoT decompilation and libultraship. Cross-platform (Windows, macOS, Linux, Switch, and Wii U). You supply your own ROM."
 requirements:
   es: Una ROM legal de Ocarina of Time (N64).
   en: A legal Ocarina of Time ROM (N64).

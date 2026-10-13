@@ -9,11 +9,11 @@ forkOf:
   label: nathanialf/ico
   url: https://github.com/nathanialf/ico
 desc:
-  es: "Port nativo del ICO de PS2 a Windows, Linux, Steam Deck, consolas portátiles ARM de 64 bits y Android, construido sobre la decompilación del mismo autor que está en el catálogo. Ejecuta el código del propio juego, así que se juega y suena como el PAL original. Los extras —imagen más nítida, panorámico, movimiento más suave— vienen apagados hasta que los enciendes, y la tasa de fotogramas solo queda atada a la de PS2 si eliges el modo Original."
-  en: "Native port of the PS2 ICO to Windows, Linux, the Steam Deck, 64-bit ARM handhelds and Android, built on the same author's decompilation, also in this catalogue. It runs the game's own code, so it plays and sounds like the PAL original. The extras — sharper picture, widescreen, smoother motion — stay off until you turn them on, and the frame rate is only held to the PS2's if you pick Original."
+  es: "Port nativo del ICO de PS2 a Windows, Linux, Steam Deck, consolas portátiles ARM de 64 bits y Android, construido sobre la decompilación del mismo autor, que también está en el catálogo. Ejecuta el código del propio juego, así que se juega y suena como el original PAL. Los extras (imagen más nítida, modo panorámico, movimiento más fluido) vienen desactivados hasta que los activas, y la tasa de fotogramas solo queda limitada a la de PS2 si eliges el modo Original."
+  en: "Native port of the PS2 ICO to Windows, Linux, the Steam Deck, 64-bit ARM handhelds, and Android, built on the same author’s decompilation, which is also in the catalog. It runs the game’s own code, so it plays and sounds like the PAL original. The extras (sharper picture, widescreen, smoother motion) stay off until you turn them on, and the frame rate is only locked to the PS2’s if you pick Original."
 requirements:
   es: "Tu propia copia del disco PAL de ICO. El juego no se incluye ni en el repositorio ni en las descargas."
-  en: "Your own copy of the PAL ICO disc. The game is included neither in the repository nor in the downloads."
+  en: "Your own copy of the PAL ICO disc. The game isn’t included in the repository or in the downloads."
 tags:
   - emotion-engine
   - android

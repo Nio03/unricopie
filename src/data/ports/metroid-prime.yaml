@@ -9,11 +9,11 @@ forkOf:
   label: PrimeDecomp/prime
   url: https://github.com/PrimeDecomp/prime
 desc:
-  es: "Port nativo para Linux, Windows y Android compilado directamente del código decompilado por PrimeDecomp, que ya tiene ficha propia en el catálogo, y renderizado a través de Aurora sobre SDL3 y WebGPU. Sin emulador por medio. Añade panorámico 4:3, 16:9 o siguiendo la ventana, con el HUD repartido hasta los bordes y los menús, la pausa y el mapa corregidos de relación de aspecto."
-  en: "Native Linux, Windows and Android port compiled straight from the source decompiled by PrimeDecomp, which has its own catalogue entry, and rendered through Aurora on SDL3 and WebGPU. No emulator involved. It adds 4:3, 16:9 or window-following widescreen, with the HUD spread to the edges and the menus, pause and map screens aspect-corrected."
+  es: "Port nativo para Linux, Windows y Android compilado directamente del código decompilado por PrimeDecomp, que tiene su propia ficha en el catálogo, y renderizado con Aurora sobre SDL3 y WebGPU. Sin emulador de por medio. Añade modo 4:3, 16:9 o adaptado a la ventana, con el HUD extendido hasta los bordes y los menús, la pausa y el mapa con la relación de aspecto corregida."
+  en: "Native Linux, Windows, and Android port compiled straight from the source decompiled by PrimeDecomp, which has its own catalog entry, and rendered through Aurora on SDL3 and WebGPU. No emulator involved. It adds 4:3, 16:9, or window-following widescreen, with the HUD spread to the edges and the menus, pause, and map screens aspect-corrected."
 requirements:
-  es: "Tu propia imagen de disco de Metroid Prime (GameCube, GM8E01_00, estadounidense v1.00)."
-  en: "Your own Metroid Prime disc image (GameCube, GM8E01_00, US v1.00)."
+  es: "Tu propia imagen de disco de Metroid Prime (GameCube, GM8E01_00, versión estadounidense 1.00)."
+  en: "Your own Metroid Prime disc image (GameCube, GM8E01_00, US version 1.00)."
 tags:
   - powerpc
   - aurora

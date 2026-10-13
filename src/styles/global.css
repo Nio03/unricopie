@@ -58,16 +58,18 @@ img { max-width: 100%; height: auto; }
   background: var(--bg2);
   border-bottom: 1px solid var(--line);
 }
-.nav-in { display: flex; align-items: center; gap: 16px; padding: 15px 0; }
+/* Solo el relleno vertical: el lateral lo pone .wrap, así el logo queda alineado
+   con el contenido de la página. */
+.nav-in { display: flex; align-items: center; gap: 16px; padding-top: 15px; padding-bottom: 15px; }
 .brand { display: inline-flex; align-items: baseline; gap: 10px; text-decoration: none; }
 .brand .mark { font-family: var(--pixel); font-size: 13px; color: var(--ink); letter-spacing: -1px; line-height: 1; }
 .brand .mark b { color: var(--gold); }
 .brand:hover .mark { color: var(--ink); }
 .brand .ver { font-family: var(--mono); font-size: 10px; color: var(--ink-3); border: 1px solid var(--line); border-radius: 999px; padding: 2px 7px; }
-.nav-links { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; align-items: center; }
+.nav-links { display: flex; gap: 2px; margin-left: auto; flex-wrap: wrap; align-items: center; }
 .nav-links a {
   text-decoration: none; color: var(--ink-2); font-size: 14px; font-weight: 600;
-  padding: 7px 9px; border-radius: var(--radius); transition: color 0.12s, background 0.12s;
+  padding: 7px 7px; border-radius: var(--radius); transition: color 0.12s, background 0.12s;
 }
 .nav-links a:hover { color: var(--ink); background: var(--panel); }
 .nav-links a[aria-current="page"] { color: var(--gold); }
@@ -242,7 +244,9 @@ select { font-family: var(--mono); }
 .sec-h p { color: var(--ink-3); font-family: var(--mono); font-size: 13px; margin: 0; }
 
 /* ---------- detail page ---------- */
-.detail { padding: 32px 0 56px; }
+/* Solo el relleno vertical: el lateral lo pone .wrap (sin él, en pantallas de
+   menos de 1164 px el texto quedaba pegado al borde). */
+.detail { padding-top: 32px; padding-bottom: 56px; }
 .crumb { font-family: var(--mono); font-size: 12px; color: var(--ink-3); margin-bottom: 18px; }
 .crumb a { color: var(--gold); }
 .card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
