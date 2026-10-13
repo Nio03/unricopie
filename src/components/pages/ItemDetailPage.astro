@@ -60,11 +60,9 @@ if (type === "recomp") {
   statusLabel = t(lang, `status.${dr.status}`); statusColor = sm.color;
   facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
   facts.push({ dt: t(lang, "detail.fact.arch"), dd: cm.arch });
-  facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
   if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
   if (d.year) facts.push({ dt: t(lang, "detail.fact.year"), dd: String(d.year) });
-  if (d.progress != null) facts.push({ dt: t(lang, "detail.fact.progress"), dd: t(lang, "card.progress", { n: d.progress }) });
 } else if (type === "tool") {
   const dl = entry.data as CollectionEntry<"tools">["data"];
   const km = toolKindMeta(dl.kind), ts = toolStatusMeta(dl.status);
@@ -73,7 +71,6 @@ if (type === "recomp") {
   if (ts && dl.status) { statusLabel = t(lang, `toolstatus.${dl.status}`); statusColor = ts.color; }
   facts.push({ dt: t(lang, "detail.fact.kind"), dd: t(lang, `toolkind.${dl.kind}`) });
   if (d.consoles?.length) facts.push({ dt: t(lang, "detail.fact.consoles"), dd: d.consoles.map((c: string) => consoleMeta(c, lang).label).join(" · ") });
-  if (statusLabel) facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
   related = await toolRelated(entry as CollectionEntry<"tools">, lang);
 } else if (type === "port") {
@@ -85,7 +82,6 @@ if (type === "recomp") {
   facts.push({ dt: t(lang, "detail.fact.category"), dd: badgeLabel });
   if (cm) facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
   if (d.engine) facts.push({ dt: t(lang, "detail.fact.engine"), dd: d.engine });
-  facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
   if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
   if (d.year) facts.push({ dt: t(lang, "detail.fact.year"), dd: String(d.year) });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
@@ -98,7 +94,6 @@ if (type === "recomp") {
   facts.push({ dt: t(lang, "detail.fact.kind"), dd: badgeLabel });
   facts.push({ dt: t(lang, "detail.fact.game"), dd: dm.game[lang] });
   facts.push({ dt: t(lang, "detail.fact.platform"), dd: cm.full });
-  if (statusLabel) facts.push({ dt: t(lang, "detail.fact.status"), dd: statusLabel });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
   if (dm.base) {
     const [col, id] = dm.base.split("/") as ["recomps" | "ports" | "decomps" | "tools", string];
@@ -114,8 +109,9 @@ if (type === "recomp") {
   facts.push({ dt: t(lang, "detail.fact.arch"), dd: cm.arch });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
 }
-facts.push({ dt: t(lang, "detail.fact.stars"), dd: fmtStars(s.stars) });
-facts.push({ dt: t(lang, "detail.fact.lastPush"), dd: s.pushedAt ? `${fmtDate(s.pushedAt)} · ${relDate(s.pushedAt, lang)}` : "—" });
+// Sin datos del bot (fichas nuevas, o enrich: false) no se muestran: un "—" no dice nada.
+if (s.stars != null) facts.push({ dt: t(lang, "detail.fact.stars"), dd: fmtStars(s.stars) });
+if (s.pushedAt) facts.push({ dt: t(lang, "detail.fact.lastPush"), dd: `${fmtDate(s.pushedAt)} · ${relDate(s.pushedAt, lang)}` });
 if (decompPct != null) facts.push({ dt: t(lang, "detail.fact.decomp"), dd: `${decompPct}%` });
 if (s.version) facts.push({ dt: t(lang, "detail.fact.version"), dd: s.versionAt ? `${s.version} · ${fmtDate(s.versionAt)}` : s.version });
 if (s.license) facts.push({ dt: t(lang, "detail.fact.license"), dd: s.license });
@@ -138,7 +134,7 @@ const barLabel: string = progress != null ? t(lang, "card.progress", { n: progre
   <main class="wrap detail">
     <div class="crumb"><a href={crumb.href}>{crumb.label}</a></div>
 
-    <div class="card-top" style="max-width:760px">
+    <div class="detail-top">
       <span class="console" style={`--rail:${badgeColor};color:${badgeColor}`}><span class="dot"></span>{badgeLabel}</span>
       {statusLabel && <span class="pill is-pill" style={`color:${statusColor}`}>{statusLabel}</span>}
       {stalledPill && (
@@ -209,7 +205,6 @@ const barLabel: string = progress != null ? t(lang, "card.progress", { n: progre
       )
     }
 
-    <p class="legal" style="margin-top:30px">{t(lang, "detail.legal")}</p>
   </main>
 </Base>
 

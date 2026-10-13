@@ -1,0 +1,34 @@
+---
+import "../styles/global.css";
+import { localePath } from "../i18n";
+import { href } from "../lib/url";
+
+// GitHub Pages sirve este archivo para cualquier dirección que no existe, a
+// cualquier profundidad: por eso todas las rutas son absolutas (con la base).
+// No pertenece a ningún idioma, así que lleva los dos.
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Página no encontrada · Page not found — Recompendium</title>
+    <link rel="icon" type="image/svg+xml" href={href("recompendium-icon.svg")} />
+  </head>
+  <body>
+    <main class="wrap lang-pick not-found">
+      <a class="nf-logo" href={href()}><img src={href("recompendium-logo-transparent.svg")} alt="Recompendium" height="36" /></a>
+      <h1>404</h1>
+      <div class="nf-text">
+        <p lang="es">No encontramos esta página. Puede que la dirección esté mal escrita o que la ficha haya cambiado de nombre.</p>
+        <p lang="en">We couldn’t find this page. The address may be mistyped, or the entry may have been renamed.</p>
+      </div>
+      <ul>
+        <li><a href={localePath("es")} hreflang="es" lang="es">Ir al catálogo</a></li>
+        <li><a href={localePath("en")} hreflang="en" lang="en">Go to the catalog</a></li>
+      </ul>
+    </main>
+  </body>
+</html>

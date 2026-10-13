@@ -30,6 +30,7 @@ export const ui = {
     "blog.kind.opinion": "Opinión",
     "nav.langLabel": "Idioma",
     "nav.search": "Buscar",
+    "nav.menu": "Menú",
     "search.placeholder": "Buscar en todo el catálogo…",
 
     "home.tagline":
@@ -143,12 +144,10 @@ export const ui = {
     "detail.crumbMods": "← Mods",
     "detail.fact.console": "Consola",
     "detail.fact.arch": "Arquitectura",
-    "detail.fact.status": "Estado",
     "detail.fact.category": "Categoría",
     "detail.fact.author": "Autor",
     "detail.fact.origDev": "Estudio original",
     "detail.fact.year": "Año",
-    "detail.fact.progress": "Avance",
     "detail.fact.stars": "Estrellas",
     "detail.fact.lastPush": "Última actividad",
     "detail.fact.version": "Última versión",
@@ -174,8 +173,6 @@ export const ui = {
     "detail.editCopy": "Copiar YAML",
     "detail.editCopied": "¡Copiado!",
     "detail.editDownload": "Descargar .yaml",
-    "detail.legal":
-      "Necesitas tu propia copia legal del juego. El proyecto es solo código: vuelca tu ROM o tu imagen de disco y úsala con él.",
 
     "footer.otherCatalogs": "Otros catálogos y listas",
     "footer.romList": "Read Only Memo · lista mensual",
@@ -221,6 +218,7 @@ export const ui = {
     "blog.kind.opinion": "Opinion",
     "nav.langLabel": "Language",
     "nav.search": "Search",
+    "nav.menu": "Menu",
     "search.placeholder": "Search the whole catalog…",
 
     "home.tagline":
@@ -334,12 +332,10 @@ export const ui = {
     "detail.crumbMods": "← Mods",
     "detail.fact.console": "Console",
     "detail.fact.arch": "Architecture",
-    "detail.fact.status": "Status",
     "detail.fact.category": "Category",
     "detail.fact.author": "Author",
     "detail.fact.origDev": "Original studio",
     "detail.fact.year": "Year",
-    "detail.fact.progress": "Progress",
     "detail.fact.stars": "Stars",
     "detail.fact.lastPush": "Last activity",
     "detail.fact.version": "Latest version",
@@ -365,8 +361,6 @@ export const ui = {
     "detail.editCopy": "Copy YAML",
     "detail.editCopied": "Copied!",
     "detail.editDownload": "Download .yaml",
-    "detail.legal":
-      "You need your own legal copy of the game. The project is code only: dump your own ROM or disc image and use it with the project.",
 
     "footer.otherCatalogs": "Other catalogs and lists",
     "footer.romList": "Read Only Memo · monthly list",

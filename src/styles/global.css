@@ -44,7 +44,6 @@ a:hover { color: var(--gold-2); }
 img { max-width: 100%; height: auto; }
 
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
-.mono { font-family: var(--mono); }
 
 :where(input, select, button, a, .chip):focus-visible {
   outline: 2px solid var(--gold);
@@ -61,21 +60,25 @@ img { max-width: 100%; height: auto; }
 /* Solo el relleno vertical: el lateral lo pone .wrap, así el logo queda alineado
    con el contenido de la página. */
 .nav-in { display: flex; align-items: center; gap: 16px; padding-top: 15px; padding-bottom: 15px; }
-.brand { display: inline-flex; align-items: baseline; gap: 10px; text-decoration: none; }
+.brand { display: inline-flex; align-items: baseline; gap: 10px; text-decoration: none; flex-shrink: 0; }
 .brand .mark { font-family: var(--pixel); font-size: 13px; color: var(--ink); letter-spacing: -1px; line-height: 1; }
 .brand .mark b { color: var(--gold); }
 .brand:hover .mark { color: var(--ink); }
 .brand .ver { font-family: var(--mono); font-size: 10px; color: var(--ink-3); border: 1px solid var(--line); border-radius: 999px; padding: 2px 7px; }
 .nav-links { display: flex; gap: 2px; margin-left: auto; flex-wrap: wrap; align-items: center; }
-.nav-links a {
+.nav-tools { display: flex; gap: 2px; align-items: center; flex-shrink: 0; white-space: nowrap; }
+.nav-toggle, .nav-links a.gh-menu { display: none; }
+.nav-links a, .nav-tools a {
   text-decoration: none; color: var(--ink-2); font-size: 14px; font-weight: 600;
   padding: 7px 7px; border-radius: var(--radius); transition: color 0.12s, background 0.12s;
 }
-.nav-links a:hover { color: var(--ink); background: var(--panel); }
+.nav-links a:hover, .nav-tools a:hover { color: var(--ink); background: var(--panel); }
 .nav-links a[aria-current="page"] { color: var(--gold); }
-.nav-links a.gh { border: 1px solid var(--line); color: var(--ink-2); }
-.nav-links a.gh:hover { border-color: var(--line-2); }
-.nav-links a.lang { font-weight: 600; min-width: 34px; text-align: center; font-family: var(--mono); font-size: 12px; }
+.nav-tools a.gh { border: 1px solid var(--line); color: var(--ink-2); }
+.nav-tools a.gh:hover { border-color: var(--line-2); }
+/* GitHub e idioma (y el botón del menú en móvil), de la misma altura */
+.nav-tools a.gh { height: 36px; box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; }
+.nav-tools a.lang { font-weight: 600; min-width: 34px; text-align: center; font-family: var(--mono); font-size: 12px; }
 
 /* ---------- hero ---------- */
 header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
@@ -89,11 +92,6 @@ header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
 .tag { color: var(--ink-2); margin: 18px 0 0; max-width: 64ch; font-size: 16px; line-height: 1.6; }
 
 .readout { font-family: var(--mono); font-size: 12px; color: var(--ink-3); margin-top: 14px; }
-
-/* what-is explainer */
-.whatis { margin-top: 22px; border: 1px solid var(--line); background: var(--panel); border-radius: var(--radius); padding: 15px 18px; max-width: 80ch; }
-.whatis h2 { font-family: var(--sans); font-weight: 700; font-size: 16px; margin: 0 0 6px; color: var(--ink); }
-.whatis p { margin: 0; color: var(--ink-2); font-size: 14.5px; line-height: 1.6; }
 
 /* stat boxes */
 .stat-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 26px; }
@@ -151,7 +149,7 @@ select { font-family: var(--mono); }
 .note { color: var(--gold); font-family: var(--mono); font-size: 12px; margin: 6px 0 0; }
 
 /* ---------- catalog: card grid ---------- */
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; padding: 14px 0 48px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 14px; padding: 14px 0 48px; }
 .card {
   position: relative; display: flex; flex-direction: column;
   background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
@@ -170,8 +168,6 @@ select { font-family: var(--mono); }
 }
 .pill.is-pill { background: color-mix(in srgb, currentColor 14%, transparent); }
 .pills { display: inline-flex; gap: 6px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
-.fld-check label { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink); cursor: pointer; }
-.fld-check input { width: auto; }
 
 /* buscador central (overlay) */
 .nav-search { background: none; border: none; color: var(--ink-2); cursor: pointer; padding: 6px 8px; display: inline-flex; align-items: center; border-radius: 8px; }
@@ -204,10 +200,6 @@ select { font-family: var(--mono); }
 
 /* panel de edición in-site */
 .edit-pane { margin-top: 16px; max-width: 760px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg2); padding: 16px 18px; }
-.edit-intro { font-size: 13px; color: var(--ink-2); margin: 0 0 10px; line-height: 1.55; }
-.edit-yaml { width: 100%; min-height: 300px; resize: vertical; background: var(--bg); color: var(--ink); border: 1px solid var(--line-2); border-radius: var(--radius); padding: 12px 14px; font-family: var(--mono); font-size: 12.5px; line-height: 1.6; tab-size: 2; }
-.edit-yaml:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
-.edit-path { font-size: 11px; color: var(--ink-3); margin: 8px 0 0; }
 
 .prog { margin: 0 0 12px; }
 .prog .bar { height: 5px; border-radius: 99px; background: var(--bg2); overflow: hidden; border: 1px solid var(--line); }
@@ -249,16 +241,20 @@ select { font-family: var(--mono); }
 .detail { padding-top: 32px; padding-bottom: 56px; }
 .crumb { font-family: var(--mono); font-size: 12px; color: var(--ink-3); margin-bottom: 18px; }
 .crumb a { color: var(--gold); }
-.card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
-.console { font-family: var(--mono); font-size: 12px; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 6px; color: var(--rail); }
-.console .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--rail); }
+/* Cabecera de la ficha: tipo y estado juntos, a la izquierda. (Antes reutilizaba
+   .card-top y .console de las tarjetas y, al redefinirlas aquí, cambiaba también
+   las tarjetas de todas las listas.) */
+.detail-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+.detail .console { font-size: 12px; }
 .detail h1 { font-family: var(--sans); font-weight: 700; font-size: clamp(26px, 4.5vw, 40px); margin: 10px 0 6px; letter-spacing: -0.5px; line-height: 1.1; color: var(--ink); }
 .detail .lead { color: var(--ink-2); font-size: 17px; max-width: 70ch; line-height: 1.6; }
 .facts {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px;
-  background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin: 26px 0;
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin: 26px 0;
 }
-.facts div { background: var(--panel); padding: 13px 16px; }
+/* Las líneas entre datos las dibuja la sombra de cada celda sobre el hueco de 1 px:
+   así las celdas que sobran al final de la última fila quedan del color del panel. */
+.facts div { background: var(--panel); padding: 13px 16px; box-shadow: 0 0 0 1px var(--line); }
 .facts dt { font-family: var(--mono); font-size: 10px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 5px; }
 .facts dd { margin: 0; font-size: 15px; font-weight: 500; color: var(--ink); }
 .detail .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
@@ -273,6 +269,9 @@ select { font-family: var(--mono); }
 .prose a { color: var(--gold); }
 .prose h3 { font-family: var(--sans); font-weight: 700; font-size: 16px; color: var(--ink); margin: 22px 0 6px; }
 .prose blockquote { margin: 0 0 12px; padding-left: 14px; border-left: 2px solid var(--line-2); color: var(--ink-3); }
+/* Párrafos de la página Acerca de, entre títulos .sec-h */
+.about-copy { color: var(--ink-2); max-width: 72ch; }
+.about-copy a { color: var(--gold); }
 
 /* ---------- raíz: elegir idioma ---------- */
 .lang-pick { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; }
@@ -280,6 +279,13 @@ select { font-family: var(--mono); }
 .lang-pick ul { list-style: none; display: flex; gap: 12px; margin: 0; padding: 0; }
 .lang-pick a { display: inline-block; padding: 10px 22px; border: 1px solid var(--line); border-radius: var(--radius); color: var(--ink); font-weight: 600; text-decoration: none; }
 .lang-pick a:hover { border-color: var(--gold); color: var(--gold); }
+/* 404: misma composición que la raíz, con el aviso en los dos idiomas */
+.not-found h1 { font-family: var(--pixel); font-size: 34px; color: var(--gold); margin: 0; text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.45); }
+.not-found .nf-text { max-width: 52ch; text-align: center; color: var(--ink-2); line-height: 1.6; }
+.not-found .nf-text p { margin: 0 0 8px; }
+.not-found .nf-text p[lang="en"] { color: var(--ink-3); }
+.not-found ul { flex-wrap: wrap; justify-content: center; }
+.not-found a.nf-logo { border: 0; padding: 0; }
 
 /* ---------- blog ---------- */
 .posts { list-style: none; margin: 30px 0 0; padding: 0; }
@@ -306,11 +312,9 @@ select { font-family: var(--mono); }
 }
 .fld textarea { resize: vertical; min-height: 60px; }
 .fld input::placeholder, .fld textarea::placeholder { color: var(--ink-3); }
-
-/* type chip + kind line (compat) */
-.kindline { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.5px; }
-.type-chip { font-size: 9.5px; font-weight: 600; letter-spacing: 0.6px; text-transform: uppercase; padding: 2px 6px; border-radius: 4px; border: 1px solid currentColor; }
-.kindlabel { color: var(--rail); }
+/* Casillas: la etiqueta a la derecha de la casilla, no estirada a todo el ancho. */
+.fld.fld-check label { display: flex; align-items: center; gap: 8px; cursor: pointer; font-family: var(--sans); font-size: 13px; color: var(--ink); text-transform: none; letter-spacing: 0; }
+.fld.fld-check input { width: auto; margin: 0; accent-color: var(--gold); }
 
 /* ---------- contribute ---------- */
 .contrib-form { display: grid; gap: 12px; }
@@ -334,9 +338,30 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
 .legal { font-family: var(--mono); font-size: 12px; color: var(--ink-2); max-width: 78ch; line-height: 1.6; }
 .foot-meta { margin-top: 22px; font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); }
 
+/* Menú desplegable: por debajo de 1180 px los enlaces no caben en una fila (en
+   español) y se partían en dos, con alguno suelto. Arriba quedan el logo, el
+   buscador, el idioma y el botón; los enlaces, en un panel. Solo con JavaScript
+   (clase .js en <html>): sin él, los enlaces se ven siempre, en su propia fila. */
+@media (max-width: 1179px) {
+  .nav-in { flex-wrap: wrap; gap: 10px; }
+  .nav-tools { margin-left: auto; order: 2; }
+  .nav-links { order: 3; width: 100%; margin-left: 0; }
+  .js .nav-toggle { display: inline-flex; align-items: center; justify-content: center; height: 36px; box-sizing: border-box; background: none; border: 1px solid var(--line); color: var(--ink-2); border-radius: var(--radius); padding: 0 9px; cursor: pointer; }
+  /* GitHub pasa al panel: en 320 px no cabe arriba. */
+  .js .nav-tools a.gh-repo { display: none; }
+  .js .nav-links a.gh-menu { display: block; }
+  .js .nav-links { display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 6px 0 4px; border-top: 1px solid var(--line); }
+  .js .nav.nav-open .nav-links { display: flex; }
+  .js .nav-links a { padding: 11px 4px; border-radius: 0; border-bottom: 1px solid var(--line); }
+  .js .nav-links a:last-child { border-bottom: 0; }
+}
+@media (max-width: 760px) {
+  .brand .ver { display: none; }
+  /* Con los filtros en varias filas, la barra fija ocupaba más de media pantalla. */
+  .controls { position: static; }
+}
 @media (max-width: 560px) {
   header.hero { padding: 34px 0 22px; }
-  .controls { top: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
