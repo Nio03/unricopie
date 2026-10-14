@@ -63,7 +63,7 @@ export const ui = {
     "ctl.typePorts": "Ports y remakes",
     "ctl.typeDecomps": "Decompilaciones",
     "ctl.typeMods": "Mods",
-    "guide.title": "Cuatro tipos de proyecto, un solo catálogo",
+    "guide.title": "Cinco tipos de proyecto, un solo catálogo",
     "guide.recomp.t": "Recomp",
     "guide.recomp.b": "Recompilación estática: traduce el binario original del juego a C/C++ y lo compila a código nativo. No es emulación ni decompilación. (N64Recomp, XenonRecomp, ReXGlue…)",
     "guide.port.t": "Port / remake",
@@ -131,7 +131,7 @@ export const ui = {
 
     "ports.title": "Ports y remakes",
     "ports.intro":
-      "Ports nativos construidos sobre una decompilación, remakes hechos por fans y capas nativas como la de Bloodborne. No son recompilaciones estáticas del binario, pero llevan los mismos juegos a PC. Aquí están proyectos como Ship of Harkinian o P-06 (Sonic ’06).",
+      "Juegos que llegan a PC por un camino distinto de la recompilación estática: ports construidos sobre una decompilación, como Ship of Harkinian; reimplementaciones hechas por fans, como P-06 (Sonic ’06); y capas nativas, como las de Bloodborne y God of War III, en las que el código original corre tal cual en la CPU. Cada ficha dice cómo llega a PC y, si parte de una decompilación del catálogo, la enlaza.",
     "decomps.title": "Decompilaciones",
     "decomps.intro":
       "Las decompilaciones de la escena: el código fuente de cada juego, reconstruido por ingeniería inversa, con su avance (el porcentaje de código que ya coincide con el original) actualizado a diario desde decomp.dev. Es el trabajo previo del que nacen muchos ports.",
@@ -144,7 +144,15 @@ export const ui = {
     "detail.crumbMods": "← Mods",
     "detail.fact.console": "Consola",
     "detail.fact.arch": "Arquitectura",
-    "detail.fact.category": "Categoría",
+    // «Cómo llega a PC»: el camino por el que el juego corre en PC, que es lo que
+    // separa un recomp de un port (los dos dan un ejecutable nativo).
+    "detail.fact.method": "Cómo llega a PC",
+    "method.recomp": "Recompilación estática",
+    "method.decomp-port": "Port de una decompilación",
+    "method.fan-remake": "Reimplementación de fans",
+    "method.native-layer": "Capa nativa",
+    "detail.basedOnDecomp": "Basado en la decompilación",
+    "detail.portsOfDecomp": "Ports basados en esta decompilación",
     "detail.fact.author": "Autor",
     "detail.fact.origDev": "Estudio original",
     "detail.fact.year": "Año",
@@ -251,7 +259,7 @@ export const ui = {
     "ctl.typePorts": "Ports & remakes",
     "ctl.typeDecomps": "Decompilations",
     "ctl.typeMods": "Mods",
-    "guide.title": "Four kinds of project, one catalog",
+    "guide.title": "Five kinds of project, one catalog",
     "guide.recomp.t": "Recomp",
     "guide.recomp.b": "Static recompilation: translates the game’s original binary to C/C++ and compiles it to native code. It’s neither emulation nor decompilation. (N64Recomp, XenonRecomp, ReXGlue…)",
     "guide.port.t": "Port / remake",
@@ -319,7 +327,7 @@ export const ui = {
 
     "ports.title": "Ports & remakes",
     "ports.intro":
-      "Native ports built on a decompilation, fan-made remakes, and native layers like Bloodborne’s. They aren’t static recompilations of the binary, but they bring the same games to PC. This is where you’ll find projects like Ship of Harkinian and P-06 (Sonic ’06).",
+      "Games that reach PC by a path other than static recompilation: ports built on a decompilation, like Ship of Harkinian; fan-made reimplementations, like P-06 (Sonic ’06); and native layers, like the ones for Bloodborne and God of War III, where the original code runs as is on the CPU. Each entry says how it gets to PC and, if it starts from a decompilation in the catalog, links to it.",
     "decomps.title": "Decompilations",
     "decomps.intro":
       "The scene’s decompilations: each game’s source code, rebuilt through reverse engineering, with its progress (the share of code that already matches the original) updated daily from decomp.dev. It’s the groundwork many ports grow out of.",
@@ -332,7 +340,13 @@ export const ui = {
     "detail.crumbMods": "← Mods",
     "detail.fact.console": "Console",
     "detail.fact.arch": "Architecture",
-    "detail.fact.category": "Category",
+    "detail.fact.method": "How it gets to PC",
+    "method.recomp": "Static recompilation",
+    "method.decomp-port": "Port of a decompilation",
+    "method.fan-remake": "Fan reimplementation",
+    "method.native-layer": "Native layer",
+    "detail.basedOnDecomp": "Built on the decompilation",
+    "detail.portsOfDecomp": "Ports built on this decompilation",
     "detail.fact.author": "Author",
     "detail.fact.origDev": "Original studio",
     "detail.fact.year": "Year",

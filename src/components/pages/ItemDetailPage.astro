@@ -1,5 +1,5 @@
 ---
-import { getEntry, type CollectionEntry } from "astro:content";
+import { getEntry, getCollection, type CollectionEntry } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import Card from "../Card.astro";
 import ProjectForm from "../ProjectForm.astro";
@@ -50,6 +50,10 @@ const facts: { dt: string; dd: string }[] = [];
 let related: { items: Item[]; titleKey: string } | null = null;
 // Ficha del catálogo sobre la que se monta un mod ("ports/perfect-dark").
 let base: { label: string; href: string } | null = null;
+// Port ↔ decompilación: el campo `decomp` de un port es el repo de su
+// decompilación; si esa decompilación tiene ficha, se enlazan en los dos sentidos.
+let fromDecomp: { label: string; href: string } | null = null;
+let portsOfDecomp: { label: string; href: string }[] = [];
 
 if (type === "recomp") {
   // `type` discrimina qué colección llega; estrechamos para que las claves
@@ -59,6 +63,7 @@ if (type === "recomp") {
   crumb = { label: t(lang, "detail.crumbCatalog"), href: localePath(lang, "") };
   badgeLabel = cm.label; badgeColor = cm.color;
   statusLabel = t(lang, `status.${dr.status}`); statusColor = sm.color;
+  facts.push({ dt: t(lang, "detail.fact.method"), dd: t(lang, "method.recomp") });
   facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
   facts.push({ dt: t(lang, "detail.fact.arch"), dd: cm.arch });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
@@ -80,7 +85,11 @@ if (type === "recomp") {
   crumb = { label: t(lang, "detail.crumbPorts"), href: localePath(lang, "ports") };
   badgeLabel = t(lang, `category.${dp.category}`); badgeColor = CAT_COLOR[dp.category] ?? "#9AA0B5";
   statusLabel = t(lang, `status.${dp.status}`); statusColor = sm.color;
-  facts.push({ dt: t(lang, "detail.fact.category"), dd: badgeLabel });
+  facts.push({ dt: t(lang, "detail.fact.method"), dd: t(lang, `method.${dp.category}`) });
+  if (dp.decomp) {
+    const de = (await getCollection("decomps")).find((x) => x.data.repo?.toLowerCase() === dp.decomp!.toLowerCase());
+    if (de) fromDecomp = { label: de.data.name, href: localePath(lang, `decomp/${de.id}`) };
+  }
   if (cm) facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
   if (d.engine) facts.push({ dt: t(lang, "detail.fact.engine"), dd: d.engine });
   if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
@@ -105,6 +114,10 @@ if (type === "recomp") {
 } else {
   const cm = consoleMeta(d.console, lang);
   crumb = { label: t(lang, "detail.crumbDecomps"), href: localePath(lang, "decompilaciones") };
+  const repo = typeof d.repo === "string" ? d.repo.toLowerCase() : null;
+  if (repo) portsOfDecomp = (await getCollection("ports"))
+    .filter((p) => p.data.decomp?.toLowerCase() === repo)
+    .map((p) => ({ label: p.data.name, href: localePath(lang, `port/${p.id}`) }));
   badgeLabel = cm.label; badgeColor = cm.color;
   facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
   facts.push({ dt: t(lang, "detail.fact.arch"), dd: cm.arch });
@@ -146,6 +159,10 @@ const barLabel: string = progress != null ? t(lang, "card.progress", { n: progre
     </div>
 
     {base && (<p class="forkline"><a href={base.href}>{t(lang, "detail.fact.base")}: {base.label}</a></p>)}
+    {fromDecomp && (<p class="forkline"><a href={fromDecomp.href}>{t(lang, "detail.basedOnDecomp")}: {fromDecomp.label}</a></p>)}
+    {portsOfDecomp.length > 0 && (
+      <p class="forkline">{t(lang, "detail.portsOfDecomp")}: {portsOfDecomp.map((p, i) => (<>{i > 0 && " · "}<a href={p.href}>{p.label}</a></>))}</p>
+    )}
     {forkOf && (<p class="forkline"><a href={forkOf.url} target="_blank" rel="noopener">⑂ {t(lang, "detail.fork")} {forkOf.label} ↗</a></p>)}
 
     <h1>{d.name}</h1>
