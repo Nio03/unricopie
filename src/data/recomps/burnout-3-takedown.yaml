@@ -1,0 +1,24 @@
+name: "Burnout 3: Takedown"
+console: xbox
+status: playable
+repo: xenophobentx/takedawn
+forkOf:
+  label: sp00nznet/burnout3
+  url: https://github.com/sp00nznet/burnout3
+author: xenophobentx
+originalDeveloper: Criterion Games
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Takedawn: port nativo para Mac, Windows, Linux y Steam Deck por recompilación estática. El ejecutable x86 de la Xbox original se traduce a C y se compila para x86-64 y arm64, y un entorno de ejecución dibuja los comandos gráficos de la NV2A con Metal o Vulkan. Añade escala de render hasta 4x, HUD panorámico corregido, ultrapanorámico, música propia y sonido 5.1."
+  en: "Takedawn: native Mac, Windows, Linux and Steam Deck port by static recompilation. The original Xbox x86 executable is translated to C and compiled for x86-64 and arm64, and a runtime draws the NV2A graphics commands with Metal or Vulkan. Adds render scale up to 4x, a widescreen HUD fix, ultrawide, your own music and 5.1 surround."
+requirements:
+  es: "Tu propia copia del disco norteamericano (NTSC-U) de Xbox. El proyecto no distribuye ningún archivo del juego."
+  en: "Your own copy of the North American (NTSC-U) Xbox disc. The project ships no game files."
+tags:
+  - x86
+  - racing
+  - widescreen
+links:
+  - label: { es: "xboxrecomp (rama takedawn)", en: "xboxrecomp (takedawn branch)" }
+    url: https://github.com/xenophobentx/xboxrecomp/tree/takedawn
