@@ -1,0 +1,17 @@
+name: God of War III Remastered
+category: native-layer
+console: ps4
+status: fully
+repo: FelipePrado0/gow3_pc
+author: Felipe Prado
+originalDeveloper: Santa Monica Studio
+year: 2015
+desc:
+  es: "Port para Windows de God of War III Remastered de PS4, de la misma familia que el de Bloodborne: es un fork de la versión para Windows de Supermedo. El código x86-64 original del juego corre directamente en la CPU, con un entorno de ejecución escrito para este juego que sustituye las bibliotecas del sistema de la PS4, y los gráficos pasan a Vulkan con el núcleo de vídeo de shadPS4 y los arreglos que cuesta4 hizo para este juego. El autor lo da por jugable de principio a fin a 1080p nativos, con parches para que el motor vaya a 120 o 240 fps, launcher propio, menú dentro del juego con trucos y una caché de shaders que se carga en segundo plano. A otras resoluciones algunas texturas se ven rotas, y la versión para Linux (AppImage) es experimental."
+  en: "Windows port of God of War III Remastered for PS4, from the same family as the Bloodborne one: it’s a fork of Supermedo’s Windows version. The game’s original x86-64 code runs directly on the CPU, with a runtime written for this game replacing the PS4 system libraries, and the graphics go to Vulkan through shadPS4’s video core with cuesta4’s fixes for this game. The author calls it playable from start to finish at native 1080p, with patches that run the engine at 120 or 240 fps, its own launcher, an in-game menu with cheats, and a shader cache that loads in the background. At other resolutions some textures look broken, and the Linux build (AppImage) is experimental."
+requirements:
+  es: "Tu propio volcado de PS4 del juego (la carpeta con eboot.bin, sce_module y sce_sys), probado con CUSA01623 (Estados Unidos) y CUSA01715 (Europa) en las versiones 01.00 y 01.02. Además, Windows 10 u 11 de 64 bits, un procesador con AVX y una tarjeta gráfica con Vulkan 1.3. No se incluye ningún archivo del juego."
+  en: "Your own PS4 dump of the game (the folder with eboot.bin, sce_module, and sce_sys), tested with CUSA01623 (US) and CUSA01715 (EU), versions 01.00 and 01.02. Plus 64-bit Windows 10 or 11, a CPU with AVX, and a Vulkan 1.3 graphics card. No game files are included."
+tags:
+  - x86
+  - vulkan

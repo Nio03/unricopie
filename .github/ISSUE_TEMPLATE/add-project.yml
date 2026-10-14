@@ -1,6 +1,6 @@
 name: "Añadir un proyecto al catálogo"
-description: "Propón un recomp (juego) o una herramienta/launcher para Recompendium."
-title: "[recomp] <Nombre del proyecto>"
+description: "Propón un recomp, un port, una decompilación, una herramienta o un mod para Recompendium."
+title: "[nuevo] <Nombre del proyecto>"
 labels: ["nuevo-proyecto"]
 body:
   - type: markdown
@@ -8,15 +8,21 @@ body:
       value: |
         ¡Gracias por aportar! Si sabes editar YAML, lo más rápido es abrir un Pull Request
         copiando un archivo de `src/data/` (ver `CONTRIBUTING.md`). Si no, llena esto y alguien
-        lo añade. **Solo recompilaciones estáticas** — no decompilaciones ni reimplementaciones.
+        lo añade. También puedes usar el formulario de la página Contribuir del sitio.
+
+        Entran recomps, ports, decompilaciones, herramientas y mods que **pidan tu propia copia
+        del juego**: nada que incluya ROMs, imágenes de disco ni recursos del juego. Los
+        emuladores y los núcleos FPGA no entran.
   - type: dropdown
     id: type
     attributes:
       label: Tipo
       options:
-        - "Juego (recomp)"
+        - "Recomp (juego)"
+        - "Port o remake de fans"
+        - "Decompilación"
         - "Herramienta / launcher / recompilador"
-        - "Port (decomp) / remake de fans"
+        - "Mod, editor o gestor de mods"
     validations:
       required: true
   - type: input
@@ -35,13 +41,47 @@ body:
   - type: dropdown
     id: console
     attributes:
-      label: Consola (si es juego)
-      options: [N64, GameCube, Wii, "Wii U", PS2, PS1, PSP, "Xbox 360", Dreamcast, Otra]
+      label: Consola original (si es un juego o un mod)
+      # Misma lista y mismo orden que src/lib/consoles.ts.
+      options:
+        - "NES / Famicom"
+        - "SNES / Super Famicom"
+        - "N64"
+        - "GameCube"
+        - "Wii"
+        - "PS5"
+        - "PS4"
+        - "PS3"
+        - "PS2"
+        - "PS1"
+        - "PSP"
+        - "Xbox 360"
+        - "Wii U"
+        - "Dreamcast"
+        - "Saturn"
+        - "Mega Drive / Genesis"
+        - "Game Boy"
+        - "GBC"
+        - "GBA"
+        - "DS"
+        - "3DS"
+        - "Switch"
+        - "Xbox"
+        - "Arcade"
+        - "PC"
+        - "Otra"
   - type: dropdown
     id: status
     attributes:
       label: Estado
-      options: ["Jugable", "En progreso", "Experimental"]
+      description: "Para juegos: Experimental, Jugable o Totalmente jugable (de principio a fin). Para herramientas: Experimental, Beta, Usable o Estable."
+      options:
+        - "Experimental"
+        - "Jugable"
+        - "Totalmente jugable"
+        - "Beta (herramienta)"
+        - "Usable (herramienta)"
+        - "Estable (herramienta)"
   - type: input
     id: author
     attributes:
