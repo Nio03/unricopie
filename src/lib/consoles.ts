@@ -5,8 +5,10 @@
 // Colores de consola vivos (estilo "boxart"), legibles sobre el tema oscuro.
 // `tag` es el código corto para la mini-portada del catálogo.
 export const CONSOLES = {
-  nes: { label: 'NES', tag: 'NES', full: 'Nintendo Entertainment System', arch: '6502', color: '#9E5A4F' },
-  snes: { label: 'SNES', tag: 'SNES', full: 'Super Nintendo', arch: '65816', color: '#9B7BD4' },
+  // Una consola con dos nombres según la región lleva los dos, también en la
+  // etiqueta: así se encuentra por cualquiera de ellos en los filtros y el buscador.
+  nes: { label: 'NES / Famicom', tag: 'NES', full: 'Nintendo Entertainment System / Famicom', arch: '6502', color: '#9E5A4F' },
+  snes: { label: 'SNES / Super Famicom', tag: 'SNES', full: 'Super Nintendo / Super Famicom', arch: '65816', color: '#9B7BD4' },
   n64: { label: 'N64', tag: 'N64', full: 'Nintendo 64', arch: 'MIPS', color: '#C9252B' },
   gamecube: { label: 'GameCube', tag: 'GC', full: 'Nintendo GameCube', arch: 'PowerPC', color: '#6A5FA5' },
   wii: { label: 'Wii', tag: 'WII', full: 'Nintendo Wii', arch: 'PowerPC', color: '#4FA8D8' },
@@ -22,6 +24,7 @@ export const CONSOLES = {
   // comparten clave: la ficha del juego aclara en cuál de las dos salió.
   dreamcast: { label: 'Dreamcast', tag: 'DC', full: 'Sega Dreamcast / NAOMI', arch: 'SH-4', color: '#E07A3A' },
   saturn: { label: 'Saturn', tag: 'SAT', full: 'Sega Saturn', arch: 'SH-2 x2', color: '#2C7D8C' },
+  megadrive: { label: 'Mega Drive / Genesis', tag: 'MD', full: 'Sega Mega Drive / Genesis', arch: '68000', color: '#E64980' },
   gb: { label: 'Game Boy', tag: 'GB', full: 'Game Boy', arch: 'Sharp SM83', color: '#8A9A3B' },
   gbc: { label: 'GBC', tag: 'GBC', full: 'Game Boy Color', arch: 'Sharp SM83', color: '#2E9E78' },
   gba: { label: 'GBA', tag: 'GBA', full: 'Game Boy Advance', arch: 'ARM7', color: '#5B3A9C' },

@@ -7,3 +7,4 @@ desc:
   en: "In-progress matching decompilation of Parasite Eve II for PS1, targeting the US executable SLUS_010.42 (discs SLUS-01042 and SLUS-01055). It uses GCC 2.8.1 with maspsx and Psy-Q 4.5 objects, and tracks the main executable and the gameplay and title overlays separately. The project code is CC0. The repository includes tooling for AI-assisted matching."
 tags:
   - matching
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "Shinobi III: Return of the Ninja Master"
+category: fan-remake
+console: megadrive
+status: experimental
+repo: krazyjakee/ninja-master
+author: krazyjakee
+originalDeveloper: Sega
+year: 1993
+desc:
+  es: "Ninja Master: reimplementación nativa en Rust y SDL2 para Windows, Linux y macOS, que carga los gráficos, la música y las fases de tu propio cartucho al arrancar. No es un recomp ni una decompilación, y el autor la presenta como un port en curso: se puede entrar en las siete rondas, pero el movimiento, los enemigos y el sonido pueden diferir del original, y no garantiza que se pueda terminar el juego. Añade modo panorámico real, controles reasignables, ocho ranuras de guardado y efectos CRT opcionales."
+  en: "Ninja Master: a native reimplementation in Rust and SDL2 for Windows, Linux, and macOS that loads the graphics, music, and stages from your own cartridge at startup. It’s not a recomp or a decomp, and the author presents it as a work-in-progress port: all seven rounds are reachable, but movement, enemies, and sound can differ from the original, and a full playthrough isn’t guaranteed. It adds true widescreen, rebindable controls, eight save slots, and optional CRT effects."
+requirements:
+  es: "Tu propio volcado del cartucho estadounidense de 1993 (MPR-15674-F): un .bin plano de 1 MiB con CRC32 5381506f. No valen la versión europea, la japonesa (The Super Shinobi II) ni las imágenes modificadas o intercaladas."
+  en: "Your own dump of the 1993 US cartridge (MPR-15674-F): a plain 1 MiB .bin with CRC32 5381506f. The European and Japanese (The Super Shinobi II) versions, and modified or interleaved images, aren’t accepted."
+tags:
+  - widescreen
+  - rust
+  - ai-assisted

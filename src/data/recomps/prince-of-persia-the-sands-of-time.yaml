@@ -1,0 +1,17 @@
+name: "Prince of Persia: The Sands of Time"
+console: xbox
+status: experimental
+repo: FulGerNet/rePOP
+author: FulGer
+originalDeveloper: Ubisoft Montreal
+year: 2003
+toolchain: xboxrecomp
+desc:
+  es: "reSOT: recompilación estática de las versiones de Xbox de The Sands of Time para Windows, con una copia modificada de xboxrecomp que traduce a C todo el default.xbe; los comandos gráficos de la NV2A se dibujan con Direct3D 11. Por ahora solo funciona la demo del E3 2003: películas, menús y los primeros tramos del nivel, a 60 fps y en 16:9, pero sin sombras y sin que una persona haya revisado todavía el sonido ni la jugabilidad. La versión comercial aún no se ha empezado a recompilar; el objetivo es poder jugarla entera desde tus propios discos."
+  en: "reSOT: a static recompilation of the original Xbox builds of The Sands of Time for Windows, using a patched copy of xboxrecomp that lifts all of default.xbe to C; the NV2A graphics commands are drawn with Direct3D 11. For now only the E3 2003 demo runs: movies, menus, and the first level sections, at 60 fps and in 16:9, but without shadows, and with sound and gameplay not yet checked by a person. Work on the retail version hasn’t started; the goal is the whole game playable from your own discs."
+requirements:
+  es: "Los archivos de tus propios discos de Xbox; por ahora, los de la demo del E3 2003, identificada por el SHA-256 de su default.xbe. No hay releases: hay que compilarlo en Windows con MSVC y CMake."
+  en: "Files from your own Xbox discs; for now, the E3 2003 demo, identified by the SHA-256 of its default.xbe. There are no releases: you build it on Windows with MSVC and CMake."
+tags:
+  - x86
+  - widescreen

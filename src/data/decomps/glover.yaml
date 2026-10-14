@@ -5,3 +5,5 @@ decomp: bigyoshi51/glover-decomp
 desc:
   es: "Decompilación en curso de Glover para N64, hecha en su mayor parte por Claude, algo que el README declara abiertamente. Usa el repositorio bigyoshi51/decomp para las herramientas comunes de N64 y las skills de Claude."
   en: "In-progress decompilation of Glover for N64, mostly driven by Claude, which the README states openly. It uses the bigyoshi51/decomp repository for common N64 tooling and Claude skills."
+tags:
+  - ai-assisted

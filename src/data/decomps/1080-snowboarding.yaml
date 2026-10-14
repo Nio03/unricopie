@@ -7,3 +7,4 @@ desc:
   en: "Decompilation of 1080° Snowboarding for N64, largely driven by Claude, which the project states openly. The build already produces a ROM identical to the original, and a verification step fails on any regression. It decompiles twenty segments, including USO overlays in a custom relocatable format (some Yay0-compressed)."
 tags:
   - matching
+  - ai-assisted

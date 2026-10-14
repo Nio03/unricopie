@@ -4,3 +4,5 @@ repo: tangosdev/sm64ds-decomp
 desc:
   es: "Decompilación desde cero de Super Mario 64 DS a C que busca la coincidencia byte a byte, con un atlas del avance en tiempo real y herramientas para buscar la coincidencia."
   en: From-scratch, byte-matching decompilation of Super Mario 64 DS into C, with a live progress atlas and matching tools.
+tags:
+  - ai-assisted

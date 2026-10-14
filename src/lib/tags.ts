@@ -7,6 +7,8 @@ import type { Lang } from "../i18n";
 const LABELS: Record<string, Partial<Record<Lang, string>>> = {
   "matching": { es: "decompilación exacta" },
   "human-driven": { es: "sin IA" },
+  // Solo cuando el propio proyecto declara que se hizo con agentes o modelos de IA.
+  "ai-assisted": { es: "con ayuda de IA" },
   "widescreen": { es: "modo panorámico" },
   "decomp": { es: "decompilación" },
   "downloader": { es: "descargas" },

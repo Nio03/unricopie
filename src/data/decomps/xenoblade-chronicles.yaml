@@ -5,3 +5,5 @@ decomp: xbret/xenoblade
 desc:
   es: "Decompilación en curso de Xenoblade Chronicles para Wii. Reconstruye los ejecutables de las tres regiones (Japón, Europa y Estados Unidos), identificados por su hash SHA-1. Rechaza cualquier contribución hecha con ayuda de modelos de lenguaje."
   en: "Work-in-progress decompilation of Xenoblade Chronicles for Wii. It rebuilds the executables for all three regions (Japan, Europe, and US), each identified by its SHA-1 hash. No LLM-assisted contributions are accepted."
+tags:
+  - human-driven

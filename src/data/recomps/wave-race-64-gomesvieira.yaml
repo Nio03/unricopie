@@ -13,6 +13,7 @@ requirements:
   en: "Your own Wave Race 64 ROM, which must be the US Rev A (v1.1, 8 MiB .z64). The US v1.0, Japanese, European, and Shindou versions won’t work: their code is laid out differently, and every address in the project is tied to Rev A."
 tags:
   - mips
+  - ai-assisted
 links:
   - label:
       es: "Fork de elliotttate (macOS, texturas HD)"

@@ -1,0 +1,17 @@
+name: Super Mario Galaxy
+console: wii
+status: playable
+repo: keepvaibin/nebula
+author: keepvaibin
+originalDeveloper: Nintendo EAD
+year: 2007
+desc:
+  es: "Nebula: recompilación estática de Super Mario Galaxy para Windows, con macOS y Android previstos. El instalador traduce a C++ el código PowerPC del juego y lo compila en tu PC a partir de tu propia copia, así que la descarga no trae nada de Nintendo; el entorno de ejecución dibuja con Direct3D 12. Admite de 4:3 a 32:9, resolución interna de hasta 16x, teclado y ratón, mandos de Xbox y los Pro Controller de Switch y Switch 2, que apuntan con el giroscopio. Se juega desde el principio, pero el autor todavía lo considera un trabajo en curso: algunas zonas bajan de 60 fps en equipos modestos y quedan errores."
+  en: "Nebula: a static recompilation of Super Mario Galaxy for Windows, with macOS and Android planned. The installer translates the game’s PowerPC code to C++ and compiles it on your PC from your own copy, so the download contains nothing from Nintendo; the runtime renders with Direct3D 12. It supports 4:3 to 32:9, internal resolution up to 16x, keyboard and mouse, Xbox controllers, and the Switch and Switch 2 Pro Controllers, which aim with the gyro. It’s playable from the start, but the author still calls it a work in progress: some areas drop below 60 fps on weaker hardware, and bugs remain."
+requirements:
+  es: "Tu propia copia de la versión estadounidense (RMGE01, revisión 0) en ISO, RVZ o carpeta extraída. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica compatible con Direct3D 12 y conexión a internet para la primera instalación."
+  en: "Your own copy of the US version (RMGE01, revision 0) as an ISO, RVZ, or extracted folder, plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, and an internet connection for the first install."
+tags:
+  - powerpc
+  - widescreen
+  - ai-assisted
