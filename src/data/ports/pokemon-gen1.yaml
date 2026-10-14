@@ -3,8 +3,12 @@ category: fan-remake
 console: gb
 status: playable
 repo: bryanthaboi/gen1recomp
+homepage: https://gen1re.com
 originalDeveloper: Game Freak
 engine: LOVE2D
 desc:
-  es: "Recreación nativa en Lua y LÖVE de Pokémon Rojo, Azul, Oro, Plata y Cristal: pese a su nombre, ya no se limita a la primera generación. El motor y el comportamiento de los mapas están escritos a mano; los datos y los gráficos se decodifican de la ROM que aporta el jugador. Es una recreación, no una recompilación estática."
-  en: "A native Lua/LÖVE recreation of Pokémon Red, Blue, Gold, Silver, and Crystal: despite the name, it no longer stops at the first generation. The engine and map behavior are hand-written; the game data and graphics are decoded from a ROM the player supplies. It’s a recreation, not a static recompilation."
+  es: "Recreación nativa en Lua y LÖVE de los Pokémon de las tres primeras generaciones: Rojo, Azul, Amarillo, Oro, Plata, Cristal, Rojo Fuego, Verde Hoja, Rubí, Zafiro y Esmeralda. Pese a su nombre, ya no se limita a la primera. El motor y el comportamiento de los mapas están escritos a mano; los datos y los gráficos se decodifican de la ROM que aporta el jugador. Es una recreación, no una recompilación estática. Hay versiones para Windows, macOS, Linux, Android e iOS, entre otras. Ojo: la web gen1recomp.com no es del proyecto, y su autor pide no descargar nada de ella."
+  en: "A native Lua/LÖVE recreation of the first three generations of Pokémon: Red, Blue, Yellow, Gold, Silver, Crystal, FireRed, LeafGreen, Ruby, Sapphire, and Emerald. Despite the name, it no longer stops at the first generation. The engine and map behavior are hand-written; the game data and graphics are decoded from a ROM the player supplies. It’s a recreation, not a static recompilation. There are Windows, macOS, Linux, Android, and iOS builds, among others. Beware: the gen1recomp.com website isn’t the project’s, and its author asks people not to download anything from it."
+tags:
+  - pokemon
+  - ai-assisted

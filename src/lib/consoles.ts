@@ -32,6 +32,7 @@ export const CONSOLES = {
   '3ds': { label: '3DS', tag: '3DS', full: 'Nintendo 3DS', arch: 'ARM11', color: '#B03A5B' },
   switch: { label: 'Switch', tag: 'NSW', full: 'Nintendo Switch', arch: 'ARM64', color: '#E0392B' },
   xbox: { label: 'Xbox', tag: 'XBX', full: 'Xbox', arch: 'x86', color: '#0E7A0E' },
+  xboxone: { label: 'Xbox One', tag: 'XB1', full: 'Xbox One', arch: 'x86-64', color: '#52B043' },
   // Placas de recreativa sin consola hermana (CPS-3, Sega OutRun…). NAOMI NO va
   // aquí: comparte silicio con la Dreamcast y se queda en esa clave.
   arcade: { label: 'Arcade', tag: 'ARC', full: 'Arcade board', arch: '—', color: '#B8873B' },

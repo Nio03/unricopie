@@ -1,9 +1,10 @@
-name: Namco System 22
+name: "Namco System 21 / 22 / 23"
 console: arcade
 repo: spacestate1/namco22-decompile
 desc:
-  es: "Decompilación de la placa recreativa Namco System 22, con los juegos reconstruidos para funcionar en un PC normal, con Linux o Windows. Cubre cuatro títulos de los años noventa: Prop Cycle (1996), jugable de principio a fin y con sonido; Rave Racer (1995), con carreras y sonido, y Tokyo Wars (1996) y Dirt Dash (1995), ambos jugables, con sonido y modo panorámico. Necesitas los archivos de cada juego por tu cuenta, en un conjunto de ROMs de MAME 0.271 o posterior."
-  en: "Decompilation of the Namco System 22 arcade board, with the games rebuilt to run on an ordinary PC, on Linux or Windows. It covers four 1990s titles: Prop Cycle (1996), playable from start to finish with sound; Rave Racer (1995), with races and sound; and Tokyo Wars (1996) and Dirt Dash (1995), both playable, with sound and widescreen. You supply each game’s files yourself, from a MAME 0.271 or later ROM set."
+  es: "Namco 2x Systems: juegos de recreativa de Namco de los años noventa, de las placas System 21, 22 y 23, reconstruidos para funcionar en un PC normal, con Linux o Windows. Cubre diez juegos de 1993 a 1997: Prop Cycle, Rave Racer, Tokyo Wars, Dirt Dash, Armadillo Racing, Time Crisis, Ace Driver y Cyber Commando, de la System 22; Cyber Sled, de la System 21, y Time Crisis II, de la System 23. Todos se pueden jugar (Prop Cycle, de principio a fin), los Time Crisis admiten ratón o pistola de luz, y Rave Racer y Cyber Sled tienen juego en línea. Prop Cycle se decompiló a mano a partir de la salida de Ghidra; los demás se traducen a C con una herramienta del propio proyecto y se comprueban contra MAME. Necesitas los archivos de cada juego por tu cuenta, de un conjunto de ROM de MAME 0.271 o posterior."
+  en: "Namco 2x Systems: 1990s Namco arcade games from the System 21, 22, and 23 boards, rebuilt to run on an ordinary PC, on Linux or Windows. It covers ten games from 1993 to 1997: Prop Cycle, Rave Racer, Tokyo Wars, Dirt Dash, Armadillo Racing, Time Crisis, Ace Driver, and Cyber Commando on System 22; Cyber Sled on System 21; and Time Crisis II on System 23. All of them are playable (Prop Cycle from start to finish), the Time Crisis games support a mouse or a light gun, and Rave Racer and Cyber Sled have online play. Prop Cycle was hand-decompiled from Ghidra’s output; the others are translated to C by the project’s own tool and checked against MAME. You supply each game’s files yourself, from a MAME 0.271 or later ROM set."
 tags:
   - arcade
   - mame
+  - online

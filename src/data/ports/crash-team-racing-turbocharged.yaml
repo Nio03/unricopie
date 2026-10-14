@@ -1,0 +1,17 @@
+name: "Crash Team Racing: Turbocharged"
+category: decomp-port
+console: ps1
+status: playable
+repo: CameronRedmore/Crash-Team-Racing-Turbocharged
+homepage: https://ctr.cmzi.uk/
+author: Cameron Redmore
+originalDeveloper: Naughty Dog
+year: 1999
+desc:
+  es: "Port para PC de Crash Team Racing construido sobre la decompilación de la comunidad: es un fork de High Octane, de Rinnegatamante, que a su vez parte de ctr-native. Se centra en Windows y Linux, con un renderizador 3D nativo de precisión subpíxel (sin polígonos que tiemblan), hasta 240 fps, cualquier relación de aspecto de 4:3 a 32:9 con el HUD adaptado, antialiasing y el máximo nivel de detalle en todas las pistas. Mantiene la lógica, las pistas y el manejo originales, y también permite volver al aspecto de PS1. Las descargas están en su web."
+  en: "PC port of Crash Team Racing built on the community decompilation: it’s a fork of Rinnegatamante’s High Octane, which in turn comes from ctr-native. It focuses on Windows and Linux, with a native 3D renderer with sub-pixel precision (no more wobbling polygons), up to 240 fps, any aspect ratio from 4:3 to 32:9 with an adapted HUD, anti-aliasing, and maximum detail on every track. It keeps the original logic, tracks, and handling, and can switch back to the PS1 look. Downloads are on its website."
+requirements:
+  es: "Tu propia copia de la versión estadounidense (NTSC-U), volcada como imagen BIN en bruto (MODE2/2352): una .iso de 2048 bytes no sirve. Las versiones para PC son de 32 bits y piden una tarjeta gráfica con OpenGL 3.3."
+  en: "Your own copy of the US (NTSC-U) release, dumped as a raw BIN image (MODE2/2352): a 2048-byte .iso won’t work. The PC builds are 32-bit and need an OpenGL 3.3 graphics card."
+tags:
+  - widescreen

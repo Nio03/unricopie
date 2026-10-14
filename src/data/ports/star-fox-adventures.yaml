@@ -1,0 +1,18 @@
+name: Star Fox Adventures
+category: decomp-port
+console: gamecube
+status: fully
+repo: JackPriceBurns/foxhollow
+decomp: zcanann/SFA-Decomp
+homepage: https://foxhollow.dev
+author: JackPriceBurns
+originalDeveloper: Rare
+year: 2002
+desc:
+  es: "Foxhollow: port nativo de Star Fox Adventures construido sobre su decompilación y sobre la biblioteca Aurora. Intenta ser fiel al original, errores incluidos. Su autor lo da por totalmente jugable en Windows, macOS y Linux; no hay planes de publicarlo para iOS ni Android. Se juega con un launcher oficial que lo mantiene al día, gestiona las partidas guardadas y trae una biblioteca de mods."
+  en: "Foxhollow: a native port of Star Fox Adventures built on its decompilation and the Aurora library. It tries to stay true to the original, bugs included. Its author calls it fully playable on Windows, macOS, and Linux; there are no plans to release it for iOS or Android. You play it through an official launcher that keeps it up to date, manages your saves, and offers a mod library."
+requirements:
+  es: "Tu propia copia legal de Star Fox Adventures; según el autor, cualquier versión sirve. No se incluye ningún recurso del juego."
+  en: "Your own legal copy of Star Fox Adventures; according to the author, any version works. No game assets are included."
+tags:
+  - rare

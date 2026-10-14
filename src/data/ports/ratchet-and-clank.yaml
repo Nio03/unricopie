@@ -1,0 +1,21 @@
+name: Ratchet & Clank
+category: fan-remake
+console: ps2
+status: experimental
+repo: re-rac/rerac
+homepage: https://re-rac.github.io
+author: ReRAC
+originalDeveloper: Insomniac Games
+year: 2002
+engine: Bevy
+desc:
+  es: "ReRAC: reescritura de Ratchet & Clank (2002) como juego nativo para PC, en Rust y sobre el motor Bevy. Los sistemas del juego se portan y corren de forma nativa, sin emulador, con el objetivo de que se vea, suene y se juegue como el original. Está en una fase temprana: todos los niveles cargan y se dibujan, pero todavía no se puede jugar de principio a fin. Hay versiones alfa para Windows, Linux y macOS, y un launcher aparte que prepara el juego a partir de tu disco."
+  en: "ReRAC: a rewrite of Ratchet & Clank (2002) as a native PC game, in Rust on the Bevy engine. The game’s systems are ported and run natively, with no emulator in between, aiming to look, sound, and play like the original. It’s at an early stage: every level loads and renders, but it isn’t playable from start to finish yet. There are alpha builds for Windows, Linux, and macOS, and a separate launcher that sets the game up from your disc."
+requirements:
+  es: "Tu propia copia del disco estadounidense de PS2 (SCUS-97199, versión 1.00). No se incluye ningún archivo del juego."
+  en: "Your own copy of the US PS2 disc (SCUS-97199, version 1.00). No game files are included."
+tags:
+  - rust
+links:
+  - label: "ReRAC Launcher"
+    url: https://github.com/re-rac/rerac-launcher

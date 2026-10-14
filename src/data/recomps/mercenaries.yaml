@@ -1,0 +1,18 @@
+name: "Mercenaries: Playground of Destruction"
+console: xbox
+status: playable
+repo: KraftMacAndChee/Mercenaries-Recompiled
+author: Trenton Turner
+originalDeveloper: Pandemic Studios
+year: 2005
+toolchain: xboxrecomp
+desc:
+  es: "Mercenaries Recompiled: port nativo para Windows hecho con xboxrecomp, que traduce a C el ejecutable de la Xbox original y añade capas de compatibilidad para los gráficos, el sonido, los controles, la memoria y los servicios del sistema. Admite teclado y ratón o mando con controles configurables, opciones de resolución y de relación de aspecto, un límite de 30 a 120 fps o sin límite, y permite elegir si se conservan los errores del juego original. El lanzador extrae y verifica tu ISO la primera vez. Solo hay versión para Windows de 64 bits."
+  en: "Mercenaries Recompiled: a native Windows port built with xboxrecomp, which translates the original Xbox executable to C and adds compatibility layers for graphics, audio, input, memory, and system services. It supports keyboard and mouse or a controller with configurable controls, resolution and aspect-ratio options, a frame cap from 30 to 120 fps or uncapped, and a choice of whether to keep the original game’s bugs. The launcher extracts and verifies your ISO on first launch. There’s only a 64-bit Windows build."
+requirements:
+  es: "Tu propia ISO de la versión estadounidense de Xbox. El disco de PS2 no sirve."
+  en: "Your own ISO of the US Xbox retail release. The PS2 disc won’t work."
+tags:
+  - x86
+  - widescreen
+  - ai-assisted

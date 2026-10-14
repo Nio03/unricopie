@@ -1,0 +1,19 @@
+name: "Super Mario 64 (sm64coopdx)"
+category: decomp-port
+console: n64
+status: fully
+repo: coop-deluxe/sm64coopdx
+homepage: https://sm64coopdx.com
+author: Coop Deluxe Team
+originalDeveloper: Nintendo
+year: 1996
+desc:
+  es: "Juego en línea para el port a PC de Super Mario 64: sincroniza a todos los enemigos y cada nivel para hasta 16 jugadores, que comparten el mismo mundo a la vez. Es la continuación oficial de sm64ex-coop, de djoslin0, mantenida por el Coop Deluxe Team, con una API de mods en Lua de la que salen mods de la comunidad como Day Night Cycle DX. Tiene versiones para Windows, macOS, Linux y SteamOS, con actualizador automático."
+  en: "Online play for the Super Mario 64 PC port: it syncs every enemy and every level for up to 16 players, who share the same world at the same time. It’s the official continuation of djoslin0’s sm64ex-coop, maintained by the Coop Deluxe Team, with a Lua modding API behind community mods such as Day Night Cycle DX. There are Windows, macOS, Linux, and SteamOS builds, with an automatic updater."
+requirements:
+  es: "Tu propia ROM .z64 de Super Mario 64: la primera vez se arrastra a la ventana del juego."
+  en: "Your own Super Mario 64 .z64 ROM: drag it onto the game window the first time."
+tags:
+  - online
+  - multiplayer
+  - mods

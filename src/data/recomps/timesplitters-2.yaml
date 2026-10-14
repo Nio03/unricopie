@@ -1,0 +1,16 @@
+name: TimeSplitters 2
+console: xbox
+status: experimental
+repo: phobos665/split2-recomp
+author: phobos665
+originalDeveloper: Free Radical Design
+year: 2002
+toolchain: xboxrecomp
+desc:
+  es: "split2-recomp: recompilación estática de la versión de Xbox de TimeSplitters 2 para Windows, con xboxrecomp. No hay ejecutables publicados: el código del juego se traduce a C en tu propio PC a partir de tu copia, y después se compila. Se han jugado el menú y un nivel del modo historia, a 60 fps, con más resolución interna, contador de fotogramas y controles reasignables; los demás modos todavía no se han probado."
+  en: "split2-recomp: a static recompilation of the Xbox version of TimeSplitters 2 for Windows, using xboxrecomp. There are no prebuilt executables: the game’s code is translated to C on your own PC from your copy, then compiled. The front end and a story mode level have been played, at 60 fps, with higher internal resolution, a frame counter, and rebindable controls; the other modes haven’t been tested yet."
+requirements:
+  es: "Tu propia copia de TimeSplitters 2 para Xbox, versión PAL o estadounidense, extraída del disco. Para compilarlo hacen falta Windows 10 u 11, Visual Studio, CMake, Python y Git."
+  en: "Your own copy of TimeSplitters 2 for Xbox, PAL or US release, extracted from the disc. Building it requires Windows 10 or 11, Visual Studio, CMake, Python, and Git."
+tags:
+  - x86

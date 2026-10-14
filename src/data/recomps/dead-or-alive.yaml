@@ -1,0 +1,17 @@
+name: Dead or Alive
+console: ps1
+status: experimental
+repo: 3dge7161/Jiggle-or-Physics
+author: 3DGE
+originalDeveloper: Team Ninja
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "Jiggle or Physics: recompilación estática para Windows de la versión estadounidense de Dead or Alive para PS1. El ejecutable MIPS del juego se traduce a C y se compila enlazado al entorno de ejecución de PSXRecomp, que se encarga de los gráficos, el sonido, el disco y los mandos. Añade formato 16:9, controles configurables, tarjetas de memoria portátiles y mejoras opcionales del entorno de PS1. Incluye OpenBIOS, una BIOS libre, pero los datos del juego salen de tu disco. Es experimental."
+  en: "Jiggle or Physics: a static recompilation for Windows of the US PS1 release of Dead or Alive. The game’s MIPS executable is translated to C and compiled against the PSXRecomp runtime, which handles graphics, sound, disc access, and controllers. It adds 16:9 presentation, configurable controls, portable memory-card saves, and optional PS1 runtime enhancements. It bundles OpenBIOS, a free BIOS, but the game data comes from your own disc. It’s experimental."
+requirements:
+  es: "Tu propia imagen de disco de la versión estadounidense (SLUS-00606). No se han probado otras regiones ni revisiones."
+  en: "Your own disc image of the US release (SLUS-00606). Other regions and revisions haven’t been tested."
+tags:
+  - mips
+  - widescreen

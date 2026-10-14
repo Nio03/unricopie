@@ -1,0 +1,18 @@
+name: Banjo-Tooie
+console: n64
+status: playable
+repo: some-scurvy-dog/banjo-tooie-scurvy-dog-port
+author: some-scurvy-dog
+originalDeveloper: Rare
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Scurvy Dog Port: recompilación estática independiente de Banjo-Tooie para Windows, hecha con N64Recomp y N64ModernRuntime y dibujada con RT64. No tiene relación con el equipo de Banjo: Recompiled. Está en alfa: un lanzador valida tu ROM, pero todavía no se ha comprobado que se pueda terminar el juego, y quedan errores visuales y pausas al cambiar de escena. Por ahora no hay versiones para Linux ni macOS."
+  en: "Scurvy Dog Port: an independent static recompilation of Banjo-Tooie for Windows, built with N64Recomp and N64ModernRuntime and rendered with RT64. It isn’t affiliated with the Banjo: Recompiled team. It’s in alpha: a launcher validates your ROM, but a full playthrough hasn’t been verified yet, and visual glitches and scene-transition pauses remain. There are no Linux or macOS builds yet."
+requirements:
+  es: "Tu propia ROM estadounidense 1.0 en formato .z64 (big-endian), identificada por su SHA-256. No valen otras regiones ni ROM modificadas."
+  en: "Your own US 1.0 ROM in .z64 (big-endian) format, identified by its SHA-256. Other regions and modified ROMs aren’t supported."
+tags:
+  - mips
+  - rare
+  - ai-assisted

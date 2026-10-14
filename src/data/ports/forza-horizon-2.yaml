@@ -1,0 +1,18 @@
+name: Forza Horizon 2
+category: native-layer
+console: xboxone
+status: playable
+homepage: https://almost-there-games.itch.io/azimuth
+author: Almost There Games
+originalDeveloper: Playground Games
+year: 2014
+enrich: false
+desc:
+  es: "Azimuth: envoltorio que hace funcionar la versión de Xbox One de Forza Horizon 2 en Windows 10 y 11, y en Linux a través de Proton. Traduce las llamadas WinRT de la consola a Win32, y DirectX 11.X a DirectX 12 de escritorio. Es la primera ficha de Xbox One del catálogo. Admite la versión 1.0.0.64 del juego y la expansión Storm Island, y de forma experimental la de Fast & Furious. Su autor la publica como versión 0.9 en itch.io, con precio libre y sin código fuente, y avisa de que todavía puede tener asperezas."
+  en: "Azimuth: a wrapper that runs the Xbox One version of Forza Horizon 2 on Windows 10 and 11, and on Linux through Proton. It translates the console’s WinRT calls to Win32, and DirectX 11.X to desktop DirectX 12. It’s the first Xbox One entry in this catalog. It supports game version 1.0.0.64 and the Storm Island expansion, plus the Fast & Furious one as experimental. Its author publishes it as version 0.9 on itch.io, pay what you want and without source code, and warns that rough edges are to be expected."
+requirements:
+  es: "Tus propios archivos de la versión de Xbox One (la carpeta con era.vbi, Mount y EmbeddedXvd). No incluye archivos del juego ni descifra nada."
+  en: "Your own files from the Xbox One version (the folder with era.vbi, Mount, and EmbeddedXvd). It includes no game files and doesn’t decrypt anything."
+tags:
+  - x86
+  - compat-layer

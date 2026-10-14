@@ -1,0 +1,16 @@
+name: "Sonic 3 & Knuckles"
+console: megadrive
+status: experimental
+repo: mstan/Sonic3AndKnucklesRecomp
+author: mstan
+originalDeveloper: Sega Technical Institute
+year: 1994
+toolchain: segagenesisrecomp
+desc:
+  es: "Recompilación estática de Sonic 3, Sonic & Knuckles y la combinación de los dos cartuchos, con segagenesisrecomp. Cada uno sale como un ejecutable aparte para Windows y Linux. Está en una fase temprana: en Sonic 3, la primera zona (Angel Island) ya se puede jugar y las partidas se guardan. El modo panorámico y Knuckles se activan como opciones."
+  en: "Static recompilation of Sonic 3, Sonic & Knuckles, and the two cartridges combined, using segagenesisrecomp. Each one ships as a separate executable for Windows and Linux. It’s at an early stage: in Sonic 3, the first zone (Angel Island) is already playable and saves work. Widescreen and Knuckles are opt-in options."
+requirements:
+  es: "Tu propia ROM de cada juego que quieras jugar: Sonic 3, Sonic & Knuckles o las dos para la versión combinada."
+  en: "Your own ROM of each game you want to play: Sonic 3, Sonic & Knuckles, or both for the combined version."
+tags:
+  - widescreen

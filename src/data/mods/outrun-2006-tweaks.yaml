@@ -1,0 +1,18 @@
+name: OutRun2006Tweaks
+kind: mod
+console: pc
+game:
+  es: "OutRun 2006: Coast 2 Coast (PC)"
+  en: "OutRun 2006: Coast 2 Coast (PC)"
+repo: emoose/OutRun2006Tweaks
+author: emoose
+status: usable
+desc:
+  es: "DLL envoltorio que añade arreglos y mejoras a la versión de PC de OutRun 2006: Coast 2 Coast y la conecta con nuevos servidores para el juego en línea. Fija la lógica a 60 Hz e interpola a tasas de refresco más altas en lugar de acelerar el juego, recupera efectos de las versiones de consola y recreativa como el resplandor (bloom) y la sombra de los coches, escala la interfaz a cualquier relación de aspecto sin estirarla, permite cambiar las texturas por otras en alta resolución y corrige cierres y la corrupción de partidas guardadas. Ojo: las versiones publicadas son antiguas; las compilaciones al día salen de GitHub Actions."
+  en: "A wrapper DLL that adds fixes and tweaks to the PC version of OutRun 2006: Coast 2 Coast and points it to new multiplayer servers. It locks the game logic to 60 Hz and interpolates at higher frame rates instead of speeding the game up, brings back effects from the console and arcade versions such as bloom and the car base shadow, scales the UI to any aspect ratio without stretching, lets you replace textures with higher-resolution ones, and fixes crashes and save corruption. Note that the published releases are old; up-to-date builds come from GitHub Actions."
+requirements:
+  es: "Tu propia copia de OutRun 2006: Coast 2 Coast para PC."
+  en: "Your own copy of OutRun 2006: Coast 2 Coast for PC."
+tags:
+  - widescreen
+  - online

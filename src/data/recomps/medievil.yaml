@@ -1,0 +1,17 @@
+name: MediEvil
+console: ps1
+status: playable
+repo: BlackLabelHQ/MediEvilRecomp
+author: BlackLabelHQ
+originalDeveloper: SCE Cambridge Studio
+year: 1998
+toolchain: RecompOne
+desc:
+  es: "MediEvilRecomp: recompilación estática de la versión estadounidense de MediEvil para PS1, hecha con RecompOne por BlackLabelHQ, el mismo equipo de la recompilación de Symphony of the Night. También se apoyó en la decompilación del juego para nombrar funciones y hacer parches. Hay versiones para Windows, macOS y Linux, que necesitan el entorno de ejecución de .NET 10. Está en beta abierta y sus autores avisan de que puede haber fallos graves, así que conviene guardar a menudo."
+  en: "MediEvilRecomp: a static recompilation of the US PS1 release of MediEvil, made with RecompOne by BlackLabelHQ, the same team behind the Symphony of the Night recomp. It also drew on the game’s decompilation to name functions and write patches. There are Windows, macOS, and Linux builds, which need the .NET 10 runtime. It’s an open beta, and its authors warn of possible game-breaking bugs, so save often."
+requirements:
+  es: "Tu propia copia de la versión norteamericana de PS1, en formato bin/cue o CHD."
+  en: "Your own copy of the North American PS1 release, as bin/cue or CHD."
+tags:
+  - mips
+  - human-driven
