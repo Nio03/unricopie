@@ -31,3 +31,5 @@ bnunu/halo-1                       # fork de punpckhdq/halo (ya fichado); el por
 Supermedo/bloodborne_pc            # fork de deadinside28; enlazado desde ports/bloodborne.yaml
 RobGreenUK/wave-race-64-recomp     # fork de danielgomesvieira2000, sin releases ni cambios propios
 DabDavis/perfect-dark-dabs-mod     # fork con mods de fgsfdsfgs/perfect_dark, que ya tiene ficha en ports/
+stenzek/duckstation                  # emulador de PS1; lo enlaza la web de CTR Turbocharged
+re-rac/rerac-launcher                # launcher de ReRAC, enlazado desde ports/ratchet-and-clank.yaml
