@@ -1,0 +1,20 @@
+name: "Crash Team Racing: High Octane"
+category: decomp-port
+console: ps1
+status: playable
+repo: Rinnegatamante/Crash-Team-Racing-High-Octane
+decomp: CTR-tools/CTR-ModSDK
+author: Rinnegatamante
+originalDeveloper: Naughty Dog
+year: 1999
+desc:
+  es: "High Octane: port avanzado de Crash Team Racing para Windows, PS Vita y navegador, construido sobre ctr-native, el port de la decompilación del juego. Suma opciones propias: modo espejo, pistas al revés en contrarreloj y en la carrera de reliquias, jefes en cualquier pista, dificultades Súper y Ultra en el modo arcade, pantalla dividida para hasta cuatro jugadores y mods de la comunidad como Nitrous Oxide jugable. En PS Vita admite juego en red local entre dos consolas. Turbocharged, también en el catálogo, es su fork centrado en PC."
+  en: "High Octane: an advanced Crash Team Racing port for Windows, PS Vita, and the web browser, built on ctr-native, the port of the game’s decompilation. It adds options of its own: mirror mode, reverse tracks in Time Trial and Relic Race, boss fights on any track, Super and Ultra Hard difficulties in Arcade mode, split screen for up to four players, and community mods such as playable Nitrous Oxide. On PS Vita it supports ad hoc local play between two consoles. Turbocharged, also in this catalog, is its PC-focused fork."
+requirements:
+  es: "Tu propia copia de la versión estadounidense de PS1, volcada como archivo .bin (ctr-u.bin); la versión para navegador te lo pide al empezar. De una copia PAL se pueden extraer además las voces europeas."
+  en: "Your own copy of the US PS1 release, dumped as a .bin file (ctr-u.bin); the browser version asks for it when you start. You can also extract the European voices from a PAL copy."
+tags:
+  - multiplayer
+links:
+  - label: { es: "Versión para navegador", en: "Web browser build" }
+    url: https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane/

@@ -1,8 +1,9 @@
-name: Crash Team Racing
+name: "Crash Team Racing (ctr-native)"
 category: decomp-port
 console: ps1
 status: playable
 repo: CTR-tools/ctr-native
+decomp: CTR-tools/CTR-ModSDK
 originalDeveloper: Naughty Dog
 year: 1999
 desc:

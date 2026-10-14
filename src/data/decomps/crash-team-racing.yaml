@@ -1,0 +1,10 @@
+name: Crash Team Racing
+console: ps1
+repo: CTR-tools/CTR-ModSDK
+author: CTR-tools
+desc:
+  es: "CTR-ModSDK: el kit para hacer mods en C para Crash Team Racing de PS1, que además aloja el esfuerzo por decompilar el juego entero y reconstruir su código fuente. Sobre esa decompilación se construyó ctr-native, el port nativo del mismo equipo, y de él salen High Octane y Turbocharged, que también están en el catálogo. Los mods del kit se compilan con psx-modding-toolchain y corren en el juego original de PS1; varios de ellos, como el de Nitrous Oxide jugable, se incorporaron después a esos ports para PC."
+  en: "CTR-ModSDK: the toolkit for writing Crash Team Racing mods in C for the PS1 game, which also houses the effort to decompile the whole game and rebuild its source code. ctr-native, the same team’s native port, was built on that decompilation, and High Octane and Turbocharged, also in this catalog, come from it. The toolkit’s mods are built with psx-modding-toolchain and run on the original PS1 game; several of them, such as playable Nitrous Oxide, were later folded into those PC ports."
+tags:
+  - mips
+  - mods
