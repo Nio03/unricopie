@@ -1,0 +1,19 @@
+name: "BattleTanx: Global Assault PC Port"
+console: n64
+status: playable
+repo: TheGh0stShip/BattleTanx-Global-Assault-PC-Port
+author: TheGh0stShip
+originalDeveloper: The 3DO Company
+year: 1999
+progress: 100
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para Windows y Linux mediante recompilación estática, con N64ModernRuntime, RT64 y SDL2. Llega a los menús originales y a la campaña con imagen, sonido y controles de teclado y mando; el multijugador y una validación más amplia siguen en desarrollo."
+  en: "Native Windows and Linux port built through static recompilation with N64ModernRuntime, RT64 and SDL2. It reaches the original menus and campaign with rendering, audio, keyboard and controller support; multiplayer and broader validation remain in development."
+requirements:
+  es: "Una copia obtenida legalmente de la ROM estadounidense, revisión 0 (NBQE), de BattleTanx: Global Assault."
+  en: "A legally obtained USA revision 0 (NBQE) BattleTanx: Global Assault ROM."
+tags:
+  - windows
+  - linux
+  - multiplayer
