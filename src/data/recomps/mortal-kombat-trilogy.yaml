@@ -1,0 +1,15 @@
+name: Mortal Kombat Trilogy
+console: ps1
+status: experimental
+repo: alexbeavs-ps1-ports/mortal-kombat-trilogy-recomp
+author: Alexbeav
+year: 1996
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense de PS1 con psxrecomp y el launcher compartido recomp-ui, publicada como candidata a versión estable para Windows, Linux y macOS. El asistente de instalación toma tu disco y la BIOS, genera el código y compila el juego en tu PC; en Windows puede descargar las herramientas de compilación. Su README no detalla hasta dónde se puede jugar."
+  en: "Static recompilation of the US PS1 release with psxrecomp and the shared recomp-ui launcher, published as a release candidate for Windows, Linux, and macOS. The setup wizard takes your disc and BIOS, generates the code, and builds the game on your PC; on Windows it can download the build tools. Its README doesn’t say how far the game can be played."
+requirements:
+  es: "Tu propio disco estadounidense (SLUS-00330, en CUE con sus archivos) y una BIOS europea de PS1 (SCPH-5502 o 5552), identificada por su SHA-256. En Linux y macOS hacen falta CMake, Ninja, Python 3 y un compilador de C/C++."
+  en: "Your own US disc (SLUS-00330, as a CUE with its files) and a European PS1 BIOS (SCPH-5502 or 5552), identified by its SHA-256. On Linux and macOS you need CMake, Ninja, Python 3, and a C/C++ compiler."
+tags:
+  - mips

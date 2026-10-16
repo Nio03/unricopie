@@ -1,0 +1,14 @@
+name: ScarletNX
+kind: recompiler
+consoles:
+  - switch
+repo: scarletnx/ScarletNX
+homepage: https://scarletnx.github.io/
+author: ScarletNX
+status: experimental
+desc:
+  es: "Recompilador estático de ARM64 a x86 con una capa de traducción para Nintendo Switch, para Linux, Windows y FreeBSD. Le das tu propio volcado (XCI o NSP; los cifrados, con las claves de tu consola) y él extrae el juego, recompila su código y lo ejecuta, con un menú propio para elegir los juegos. El recompilador también funciona como biblioteca aparte, y tiene un modo experimental para juegos de 3DS. Es un fork de SwitchRecomp, de MZLab, y publica compilaciones nocturnas."
+  en: "Static ARM64-to-x86 recompiler with a Nintendo Switch translation layer, for Linux, Windows, and FreeBSD. You give it your own dump (XCI or NSP; encrypted ones with your console’s keys) and it extracts the game, recompiles its code, and runs it, with its own menu for picking games. The recompiler also works as a standalone library, and there’s an experimental mode for 3DS games. It’s a fork of MZLab’s SwitchRecomp and publishes nightly builds."
+tags:
+  - arm64
+  - static-recomp

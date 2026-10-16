@@ -1,0 +1,20 @@
+name: "Disgaea D2: A Brighter Darkness"
+console: ps3
+status: experimental
+repo: LUUKASR1/disgaea-d2-recomp-windows
+author: LUUKASR1
+originalDeveloper: Nippon Ichi Software
+year: 2013
+toolchain: ps3recomp
+desc:
+  es: "Adaptación para Windows de la recompilación estática de Disgaea D2 hecha con ps3recomp, con Direct3D 12 y un launcher que prepara el juego a partir de tu copia. Tiene opciones de resolución interna y de salida, ventana o pantalla completa sin bordes, sincronización vertical y escalado FSR 1; la importación de partidas de PS3 es experimental. Parte del proyecto original de Sean13128 para macOS con Apple Silicon, que su autor dejó de mantener y que, según él, construyeron casi por completo agentes de IA (Claude y Codex)."
+  en: "Windows adaptation of the Disgaea D2 static recompilation made with ps3recomp, with Direct3D 12 and a launcher that prepares the game from your copy. It has internal and output resolution options, windowed or borderless full-screen display, VSync, and FSR 1 upscaling; importing PS3 saves is experimental. It builds on Sean13128’s original Apple Silicon macOS project, which its author no longer maintains and says was built almost entirely by AI coding agents (Claude and Codex)."
+requirements:
+  es: "Tu propia ISO de la versión estadounidense (BLUS31313) actualizada a la 1.40. Ni el proyecto ni las descargas incluyen datos del juego, actualizaciones, firmware ni claves."
+  en: "Your own ISO of the US release (BLUS31313) updated to 1.40. Neither the project nor the downloads include game data, updates, firmware, or keys."
+tags:
+  - powerpc
+  - ai-assisted
+links:
+  - label: { es: "Versión original para macOS (Sean13128)", en: "Original macOS version (Sean13128)" }
+    url: https://github.com/Sean13128/disgaea-d2-recomp

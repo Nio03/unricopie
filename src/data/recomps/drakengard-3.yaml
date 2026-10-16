@@ -1,0 +1,16 @@
+name: Drakengard 3
+console: ps3
+status: playable
+repo: soyjxck/dod3-recomp
+author: soyjxck
+originalDeveloper: Access Games
+year: 2013
+toolchain: ps3recomp
+desc:
+  es: "Drakengard 3 Recompiled: recompilación estática de la versión estadounidense de PS3 para Windows y macOS, con ps3recomp. Se juega en Windows con Direct3D 12 (60 fps a 4K en un equipo de gama alta, y 120 a resoluciones más bajas) y en Mac con Apple Silicon y Metal; el modo Vulkan de Windows es experimental. Añade cualquier resolución interna, con supermuestreo, ventana o pantalla completa y límite de fotogramas a elegir. Admite los 20 DLC, incluido el pack de voces en japonés. Está en alfa y se ha probado en pocos equipos."
+  en: "Drakengard 3 Recompiled: a static recompilation of the US PS3 release for Windows and macOS, using ps3recomp. It’s playable on Windows with Direct3D 12 (60 fps at 4K on a high-end machine, 120 at lower resolutions) and on Apple Silicon Macs with Metal; the Windows Vulkan mode is experimental. It adds any internal resolution, including supersampling, windowed or full-screen display, and a frame cap of your choice. All 20 DLC packs are supported, including the Japanese voice pack. It’s in alpha and has been tested on few machines."
+requirements:
+  es: "Tu propio disco estadounidense (BLUS31197), volcado a una carpeta o como ISO descifrada, con la actualización 1.01 (obligatoria) y los DLC que tengas. Además, Windows 10 u 11 de 64 bits con Direct3D 12, o macOS 13 o posterior en un Mac con Apple Silicon, y unos 16 GB libres."
+  en: "Your own US disc (BLUS31197), dumped to a folder or as a decrypted ISO, with the 1.01 update (required) and any DLC you own. Plus 64-bit Windows 10 or 11 with Direct3D 12, or macOS 13 or later on an Apple Silicon Mac, and about 16 GB of free space."
+tags:
+  - powerpc

@@ -1,0 +1,18 @@
+name: "The Legend of Zelda: Link's Awakening"
+console: switch
+status: playable
+repo: peiikai/LASRecomp
+author: peiikai
+originalDeveloper: Grezzo
+year: 2019
+desc:
+  es: "LAS Recomp: recompilación estática del Link's Awakening de Switch para Windows, Linux y macOS con Apple Silicon (Vulkan en Windows y Linux, Metal y MetalFX en Mac). La recompilación se hace en tu PC la primera vez, a partir de tus archivos del juego. Tiene la relación de aspecto desbloqueada (por ejemplo, a 21:9), teclado y mando con todo reasignable, un menú dentro del juego y semillas de randomizer, que se pueden cambiar sin reiniciar. Está en beta. Su autor avisa de que casi todo el código, las herramientas y la documentación los escribió una IA (Claude, a través de Claude Code)."
+  en: "LAS Recomp: a static recompilation of the Switch version of Link’s Awakening for Windows, Linux, and Apple Silicon macOS (Vulkan on Windows and Linux, Metal and MetalFX on Mac). The recompilation runs on your PC on first launch, from your own game files. It has an unlocked aspect ratio (21:9, for example), keyboard and controller with everything remappable, an in-game menu, and randomizer seeds you can switch without restarting. It’s in beta. Its author notes that nearly all of the code, tooling, and documentation was written by an AI (Claude, through Claude Code)."
+requirements:
+  es: "Tus propios archivos extraídos de Link's Awakening, versión 1.0.0. El proyecto no explica cómo obtenerlos."
+  en: "Your own extracted game files of Link’s Awakening, version 1.0.0. The project doesn’t explain how to obtain them."
+tags:
+  - arm64
+  - widescreen
+  - zelda
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "The Simpsons Arcade Game"
+console: ps3
+status: playable
+repo: sp00nznet/simpsonsarcade-ps3
+author: sp00nznet
+originalDeveloper: Backbone Entertainment
+year: 2012
+toolchain: ps3recomp
+desc:
+  es: "Recompilación estática de la versión de PS3 (PSN) de The Simpsons Arcade Game a un ejecutable nativo de PC con ps3recomp, sin emulador. Se juega: la introducción, los menús, las partidas guardadas y el juego en sí, con teclado o mando, y también en línea a través de psnr, un sustituto del emparejamiento de PSN del mismo autor. Va a 60 fps en los menús y entre 35 y 57 durante el juego. No hay ejecutables publicados: se compila desde el código fuente. Tiene un proyecto hermano para la versión de Xbox 360."
+  en: "Static recompilation of the PS3 (PSN) version of The Simpsons Arcade Game into a native PC executable with ps3recomp, with no emulator. It’s playable: the intro, menus, saves, and the game itself, with keyboard or controller, and also online through psnr, the same author’s stand-in for PSN matchmaking. It runs at 60 fps in menus and 35 to 57 during gameplay. There are no prebuilt executables: you build it from source. It has a sibling project for the Xbox 360 version."
+requirements:
+  es: "Tu propia copia de la versión de PS3: hay que descifrar tu EBOOT.BIN y preparar los datos del juego."
+  en: "Your own copy of the PS3 version: you need to decrypt your EBOOT.BIN and lay out the game data."
+tags:
+  - powerpc
+  - online
+  - multiplayer

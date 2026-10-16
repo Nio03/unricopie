@@ -1,0 +1,16 @@
+name: "Mortal Kombat vs. DC Universe"
+console: x360
+status: playable
+repo: KawaiiBunga/MKVDCU-Recomp
+author: KawaiiBunga
+originalDeveloper: Midway Games
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port no oficial para PC de la versión de Xbox 360, hecho con una recompilación estática con ReXGlue. El launcher te pide la carpeta del juego, descarga una vez las herramientas de compilación y genera el ejecutable en tu PC. Probado en un solo equipo: arranca, se juegan combates completos del modo arcade con mando y sonido, y mantiene 60 fps en una GTX 1650 SUPER; los demás modos todavía necesitan pruebas. Trae un menú de opciones, un indicador de rendimiento y un cargador de mods."
+  en: "Unofficial PC port of the Xbox 360 version, made by static recompilation with ReXGlue. The launcher asks for your game folder, downloads the build tools once, and generates the executable on your PC. Tested on a single machine: it boots, plays full Arcade matches with controller and sound, and holds 60 fps on a GTX 1650 SUPER; the other modes still need testing. It comes with a settings menu, a performance overlay, and a mod loader."
+requirements:
+  es: "Tu propia copia de la versión comercial de Xbox 360, con su default.xex (identificado por su SHA-256). Por ahora solo hay versión para Windows."
+  en: "Your own copy of the Xbox 360 retail release, with its default.xex (identified by its SHA-256). For now there’s only a Windows build."
+tags:
+  - powerpc
