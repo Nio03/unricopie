@@ -1,0 +1,17 @@
+name: Tekken 6
+console: x360
+status: experimental
+repo: Ekspym/Tekken6-native-online
+author: Ekspym
+originalDeveloper: Namco Bandai Games
+year: 2009
+desc:
+  es: "Tekken 6 Native Online: Tekken 6 de Xbox 360 recompilado para Windows, sin emulador, con netcode de rollback (al estilo de GGPO) y una sala en línea en el launcher. El launcher comprueba tu imagen de disco, copia los datos del juego, traduce su código a partir de tu copia y lo compila en tu PC en unos minutos. Está pensado para los combates en línea: el juego arranca directamente en la pelea y gana quien se lleva tres rondas. Su autor lo presenta como versión de prueba. El código fuente no está publicado: el repositorio solo contiene el README y las descargas."
+  en: "Tekken 6 Native Online: Tekken 6 for Xbox 360 recompiled for Windows, with no emulator, rollback netcode (on the GGPO principle), and an online lobby in the launcher. The launcher checks your disc image, copies the game data, translates the game’s code from your copy, and compiles it on your PC in a few minutes. It’s built for online matches: the game starts straight into the fight, and the first player to win three rounds takes the match. Its author calls it a test release. The source code isn’t published: the repository only holds the README and the downloads."
+requirements:
+  es: "Tu propia imagen de disco de Tekken 6 para Xbox 360, la versión de Estados Unidos y Europa en su revisión 1 (.iso o la carpeta del disco extraída). Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con DirectX 12 y unos 10 GB libres. Los dos jugadores deben usar la misma versión."
+  en: "Your own Tekken 6 Xbox 360 disc image, the USA and Europe release, revision 1 (.iso or the extracted disc folder). Plus 64-bit Windows 10 or 11, a DirectX 12 graphics card, and about 10 GB of free space. Both players must use the same version."
+tags:
+  - powerpc
+  - online
+  - multiplayer

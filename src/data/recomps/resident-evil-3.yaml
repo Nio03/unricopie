@@ -1,0 +1,17 @@
+name: "Resident Evil 3: Nemesis"
+console: ps1
+status: playable
+repo: BrazilianHobbyist/Project-RE-Visited-RE3
+author: BrazilianHobbyist
+originalDeveloper: Capcom
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Project RE-Visited: recompilación estática de Resident Evil 3: Nemesis para Windows. Las instrucciones MIPS del ejecutable original se traducen a C y corren como código nativo, con un asistente que extrae ese ejecutable de tu propio disco la primera vez. Suma controles analógicos con carrera automática, interpolación hasta 240 fps, imagen 16:9 estirada o 4:3 original, corrección de geometría y de texturas (PGXP), resolución interna de hasta 4K y suavizado. Incluye OpenBIOS, así que no hace falta una BIOS de PlayStation."
+  en: "Project RE-Visited: a static recompilation of Resident Evil 3: Nemesis for Windows. The original executable’s MIPS instructions are translated to C and run as native code, with a setup wizard that extracts that executable from your own disc on first run. It adds analog controls with auto-run, interpolation up to 240 fps, stretched 16:9 or original 4:3 display, geometry and texture correction (PGXP), internal resolution up to 4K, and anti-aliasing. It bundles OpenBIOS, so no PlayStation BIOS is needed."
+requirements:
+  es: "Tu propia imagen del disco estadounidense (SLUS-00923), en .bin, .cue o .iso."
+  en: "Your own image of the US disc (SLUS-00923), as .bin, .cue, or .iso."
+tags:
+  - mips
+  - horror

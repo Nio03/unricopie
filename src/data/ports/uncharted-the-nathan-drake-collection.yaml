@@ -1,0 +1,17 @@
+name: "Uncharted: The Nathan Drake Collection"
+category: native-layer
+console: ps4
+status: playable
+repo: Supermedo/uncharted_pc
+author: Supermedo
+originalDeveloper: Bluepoint Games / Naughty Dog
+year: 2015
+desc:
+  es: "Uncharted 1, 2 y 3, de la colección de PS4, funcionando de forma nativa en Windows 10 y 11. Es la misma idea que el port de Bloodborne del mismo autor: el código original del juego corre directamente en el PC y los gráficos se traducen a Vulkan. Los tres juegos salen de un solo launcher, a 60 fps como en PS4 o a 120 (más es experimental), con antialiasing TAA, FSR 3.1, FSR 4 o DLSS, generación de fotogramas, y teclado, ratón y mando a la vez, todo reasignable. Quedan problemas conocidos, sobre todo en Uncharted 3."
+  en: "Uncharted 1, 2, and 3 from the PS4 collection running natively on Windows 10 and 11. It’s the same idea as the author’s Bloodborne port: the original game code runs directly on the PC and the graphics are translated to Vulkan. All three games launch from one launcher, at 60 fps like on PS4 or at 120 (higher is experimental), with TAA, FSR 3.1, FSR 4, or DLSS anti-aliasing, frame generation, and keyboard, mouse, and controller together, all remappable. Known problems remain, mostly in Uncharted 3."
+requirements:
+  es: "Tu propio volcado descifrado de la colección (CUSA02343, CUSA02320…: la carpeta con eboot.bin y los datos de los tres juegos). Además, Windows 10 (1903 o posterior) u 11 de 64 bits y una tarjeta gráfica con Vulkan 1.3 y al menos 6 GB de memoria de vídeo."
+  en: "Your own decrypted dump of the collection (CUSA02343, CUSA02320…: the folder with eboot.bin and the data for all three games). Plus 64-bit Windows 10 (1903 or later) or 11 and a Vulkan 1.3 graphics card with at least 6 GB of video memory."
+tags:
+  - x86
+  - vulkan

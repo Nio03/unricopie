@@ -3,8 +3,8 @@ console: n64
 repo: TheGh0stShip/BattleTanx
 decomp: TheGh0stShip/BattleTanx
 desc:
-  es: "Descompilación coincidente de BattleTanx para Nintendo 64, centrada en la revisión 0 estadounidense (NBXE). Verifica el código y los datos reconstruidos byte por byte y no incluye la ROM ni recursos extraídos del juego."
-  en: "Matching decompilation of BattleTanx for Nintendo 64, targeting USA revision 0 (NBXE). It verifies reconstructed code and data byte for byte and includes neither the ROM nor extracted game assets."
+  es: "Decompilación exacta y completa de BattleTanx para Nintendo 64, de la versión estadounidense revisión 0 (NBXE): sus 1738 funciones, el código y los datos coinciden byte a byte con la ROM original, y la región de recursos está identificada entera. No incluye la ROM ni recursos extraídos del juego. El repositorio está archivado porque el trabajo terminó."
+  en: "Complete matching decompilation of BattleTanx for Nintendo 64, USA revision 0 (NBXE): all 1,738 functions, the code, and the data match the retail ROM byte for byte, and the whole asset region is accounted for. It includes neither the ROM nor any extracted game assets. The repository is archived because the work is done."
 tags:
   - mips
   - matching

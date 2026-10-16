@@ -1,19 +1,18 @@
-name: "BattleTanx: Global Assault PC Port"
+name: "BattleTanx: Global Assault"
 console: n64
 status: playable
 repo: TheGh0stShip/BattleTanx-Global-Assault-PC-Port
+decomp: TheGh0stShip/BattleTanx-Global-Assault
 author: TheGh0stShip
 originalDeveloper: The 3DO Company
 year: 1999
-progress: 100
 toolchain: N64Recomp
 desc:
-  es: "Port nativo para Windows y Linux mediante recompilación, con N64ModernRuntime, RT64 y SDL2. Llega a los menús originales y a la campaña con imagen, sonido y controles de teclado y mando; el multijugador y una validación más amplia siguen en desarrollo."
-  en: "Native Windows and Linux port built through recompilation with N64ModernRuntime, RT64 and SDL2. It reaches the original menus and campaign with rendering, audio, keyboard and controller support; multiplayer and broader validation remain in development."
+  es: "Port nativo para Windows y Linux por recompilación con N64Recomp, construido sobre su decompilación exacta y con N64ModernRuntime, RT64 y SDL2. Ya se juegan los menús originales y la campaña, con imagen, sonido, teclado y mando, en cualquier formato de 4:3 a 32:9; el multijugador y una validación más amplia siguen en desarrollo."
+  en: "Native Windows and Linux port by recompilation with N64Recomp, built on its matching decompilation and using N64ModernRuntime, RT64, and SDL2. The original menus and the campaign are playable, with graphics, sound, keyboard, and controller support, in any aspect ratio from 4:3 to 32:9; multiplayer and broader validation are still in development."
 requirements:
-  es: "Una copia obtenida legalmente de la ROM estadounidense, revisión 0 (NBQE), de BattleTanx: Global Assault."
-  en: "A legally obtained USA revision 0 (NBQE) BattleTanx: Global Assault ROM."
+  es: "Tu propia copia legal de la ROM estadounidense, revisión 0 (NBQE), de BattleTanx: Global Assault."
+  en: "Your own legally obtained USA revision 0 (NBQE) BattleTanx: Global Assault ROM."
 tags:
-  - windows
-  - linux
-  - multiplayer
+  - mips
+  - widescreen

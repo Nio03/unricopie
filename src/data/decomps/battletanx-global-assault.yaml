@@ -3,9 +3,8 @@ console: n64
 repo: TheGh0stShip/BattleTanx-Global-Assault
 decomp: TheGh0stShip/BattleTanx-Global-Assault
 desc:
-  es: "Descompilación coincidente completa de la revisión 0 estadounidense (NBQE) de BattleTanx: Global Assault. Las funciones catalogadas y los datos inicializados propios del código fuente se reconstruyen byte por byte, con una verificación independiente del cartucho completo."
-  en: "Complete matching decompilation of BattleTanx: Global Assault USA revision 0 (NBQE). Catalogued functions and source-owned initialized data rebuild byte for byte, with independent whole-cartridge verification."
+  es: "Decompilación exacta y completa de BattleTanx: Global Assault para Nintendo 64, de la versión estadounidense revisión 0 (NBQE): sus 1879 funciones coinciden byte a byte con la ROM original. Es la base del port para PC que también está en el catálogo y de VitaTanxGA, un port para PS Vita. No incluye la ROM ni recursos extraídos del juego. El repositorio está archivado: el trabajo de los ports sigue en sus propios repositorios."
+  en: "Complete matching decompilation of BattleTanx: Global Assault for Nintendo 64, USA revision 0 (NBQE): all 1,879 functions match the retail ROM byte for byte. It’s the base of the PC port, also in this catalog, and of VitaTanxGA, a PS Vita port. It includes neither the ROM nor any extracted game assets. The repository is archived: work on the ports continues in their own repositories."
 tags:
   - mips
   - matching
-  - complete
