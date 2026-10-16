@@ -1,0 +1,11 @@
+name: "BattleTanx: Global Assault"
+console: n64
+repo: TheGh0stShip/BattleTanx-Global-Assault
+decomp: TheGh0stShip/BattleTanx-Global-Assault
+desc:
+  es: "Descompilación coincidente completa de la revisión 0 estadounidense (NBQE) de BattleTanx: Global Assault. Las funciones catalogadas y los datos inicializados propios del código fuente se reconstruyen byte por byte, con una verificación independiente del cartucho completo."
+  en: "Complete matching decompilation of BattleTanx: Global Assault USA revision 0 (NBQE). Catalogued functions and source-owned initialized data rebuild byte for byte, with independent whole-cartridge verification."
+tags:
+  - mips
+  - matching
+  - complete
