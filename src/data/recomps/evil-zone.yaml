@@ -1,0 +1,16 @@
+name: Evil Zone
+console: ps1
+status: playable
+repo: SrIgorM/Evil_Zone_ps1_PC-
+author: SrIgorM
+originalDeveloper: Yuke's
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática del Evil Zone de PS1 (Eretzvaju en Japón), el juego de lucha de Yuke's, para Windows x64, hecha con psxrecomp. Descarga la versión «Sem Disco» de la release: es la única que no trae el juego y la que pide tu propia imagen del disco, que el lanzador comprueba antes de arrancar. Usa la BIOS libre OpenBIOS, así que no hace falta la de Sony. Se juega con teclado o con mando en modo digital. La documentación está en portugués."
+  en: "A static recompilation of the PS1’s Evil Zone (Eretzvaju in Japan), Yuke’s fighting game, for Windows x64, built with psxrecomp. Download the release’s “Sem Disco” (no disc) build: it’s the only one that doesn’t include the game, and it asks for your own disc image, which the launcher checks before starting. It uses the free OpenBIOS, so Sony’s BIOS isn’t needed. It plays with keyboard or a gamepad in digital mode. The documentation is in Portuguese."
+requirements:
+  es: "Tu propia imagen del disco de Evil Zone, versión estadounidense (SLUS-00855), en CUE + BIN (recomendado), BIN, IMG o ISO. Usa la descarga «Sem Disco»."
+  en: "Your own Evil Zone disc image, US version (SLUS-00855), as CUE + BIN (recommended), BIN, IMG, or ISO. Use the “Sem Disco” download."
+tags:
+  - mips
