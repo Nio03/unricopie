@@ -1,0 +1,17 @@
+name: "Crackdown (Unowa001)"
+console: x360
+status: playable
+repo: Unowa001/crackdown-recomp
+author: Unowa001
+originalDeveloper: Realtime Worlds
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Crackdown Recomp: port nativo no oficial para Windows del Crackdown de Xbox 360, por recompilación estática con el SDK de ReXGlue. Va a 60 fps por defecto y trae un launcher que instala el juego a partir de tu propio volcado del disco, comprueba tus archivos y se actualiza solo. De forma experimental, admite cooperativo para dos por System Link y un randomizer de Archipelago. Está en beta."
+  en: "Crackdown Recomp: an unofficial native Windows port of Crackdown for Xbox 360, by static recompilation with the ReXGlue SDK. It runs at 60 fps by default and comes with a launcher that installs the game from your own disc dump, checks your files, and updates itself. Two-player co-op over System Link and an Archipelago randomizer are available as experimental features. It’s in beta."
+requirements:
+  es: "Tu propio volcado del disco de Crackdown para Xbox 360: el código recompilado se genera en tu PC a partir de tu default.xex. Ni el repositorio ni las descargas incluyen datos del juego."
+  en: "Your own dump of the Crackdown Xbox 360 disc: the recompiled code is generated on your PC from your default.xex. Neither the repository nor the downloads include any game data."
+tags:
+  - powerpc
+  - multiplayer
