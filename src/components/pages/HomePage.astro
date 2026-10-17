@@ -25,6 +25,15 @@ const stats = [
   { n: items.filter((i) => i.type === "mod").length, label: t(lang, "home.stat.mods") },
   { n: consoles.size, label: t(lang, "home.stat.platforms") },
 ];
+// Datos estructurados del sitio para buscadores.
+const siteLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Recompendium",
+  url: Astro.site ? new URL(localePath(lang, ""), Astro.site).href : undefined,
+  inLanguage: lang,
+  description: t(lang, "home.tagline"),
+};
 ---
 
 <CatalogView
@@ -36,4 +45,5 @@ const stats = [
   guide
   typeFilter
   stats={stats}
+  jsonLd={siteLd}
 />

@@ -1,0 +1,42 @@
+---
+import CatalogView from "./CatalogView.astro";
+import { getAllItems, sortItems } from "../../lib/catalog";
+import { consoleMeta } from "../../lib/consoles";
+import { t, localePath, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+  console: string;
+}
+// Una página por consola con todo lo que hay para ella (recomps, ports,
+// decompilaciones, herramientas y mods). Es la página que responde a búsquedas
+// como «juegos de N64 en PC» o «Xbox 360 recompiled games list».
+const { lang, console: key } = Astro.props;
+const cm = consoleMeta(key, lang);
+const items = (await getAllItems(lang)).filter((i) => i.consoleKeys.includes(key));
+const h1 = t(lang, "console.h1", { console: cm.full });
+const title = `${t(lang, "console.title", { console: cm.full })} — Recompendium`;
+const intro = t(lang, "console.intro", { console: cm.full });
+
+const site = Astro.site ? new URL(localePath(lang, `consola/${key}`) + "/", Astro.site).href : undefined;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: h1,
+  description: intro,
+  inLanguage: lang,
+  url: site,
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: items.length,
+    itemListElement: sortItems(items).slice(0, 100).map((it, n) => ({
+      "@type": "ListItem",
+      position: n + 1,
+      name: it.name,
+      url: Astro.site ? new URL(it.href.endsWith("/") ? it.href : it.href + "/", Astro.site).href : it.href,
+    })),
+  },
+};
+---
+
+<CatalogView lang={lang} items={items} h1={h1} tagline={intro} countTmpl={t(lang, "count.of")} typeFilter title={title} jsonLd={jsonLd} />

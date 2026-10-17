@@ -11,9 +11,21 @@ interface Props {
 const { lang, entry } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data;
+// Datos estructurados: una entrada de blog con su fecha.
+const postLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: d.title,
+  description: d.summary,
+  datePublished: d.date.toISOString().slice(0, 10),
+  inLanguage: lang,
+  url: Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined,
+  author: { "@type": "Organization", name: "Recompendium" },
+  publisher: { "@type": "Organization", name: "Recompendium" },
+};
 ---
 
-<Base lang={lang} title={`${d.title} — Recompendium`} description={d.summary}>
+<Base lang={lang} title={`${d.title} — Recompendium`} description={d.summary} jsonLd={postLd}>
   <main class="wrap detail">
     <a class="post-back" href={localePath(lang, "blog")}>← {t(lang, "blog.back")}</a>
     <div class="post-meta" style="margin-top:18px">

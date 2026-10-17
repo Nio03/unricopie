@@ -1,0 +1,13 @@
+---
+import type { GetStaticPaths } from "astro";
+import ConsolePage from "../../../components/pages/ConsolePage.astro";
+import { consolePageKeys } from "../../../lib/console-pages";
+
+export const getStaticPaths = (async () => {
+  return (await consolePageKeys()).map((key) => ({ params: { key } }));
+}) satisfies GetStaticPaths;
+
+const { key } = Astro.params;
+---
+
+<ConsolePage lang="en" console={key} />

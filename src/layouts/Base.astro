@@ -3,14 +3,18 @@ import "../styles/global.css";
 import { t, localePath, swapLocalePath, type Lang } from "../i18n";
 import { href } from "../lib/url";
 import { GITHUB_URL } from "../lib/site";
+import { consolePageKeys } from "../lib/console-pages";
+import { consoleMeta } from "../lib/consoles";
 
 interface Props {
   lang: Lang;
   title?: string;
   description?: string;
+  // Datos estructurados (schema.org) para buscadores: uno o varios objetos JSON-LD.
+  jsonLd?: object | object[];
 }
 
-const { lang } = Astro.props;
+const { lang, jsonLd } = Astro.props;
 const title = Astro.props.title ?? t(lang, "site.title");
 const description = Astro.props.description ?? t(lang, "site.desc");
 
@@ -43,6 +47,9 @@ const nav = [
   { label: t(lang, "nav.contribute"), to: localePath(lang, "contribuir") },
   { label: t(lang, "nav.about"), to: localePath(lang, "acerca") },
 ];
+// Enlaces del pie a la página de cada consola: ayudan a que los buscadores las encuentren.
+const byConsole = (await consolePageKeys()).map((k) => ({ label: consoleMeta(k, lang).label, href: localePath(lang, `consola/${k}`) }));
+
 function isActive(to: string) {
   const tt = to.replace(/\/+$/, "") || "/";
   return tt === localePath(lang, "").replace(/\/+$/, "") || tt === "/"
@@ -75,6 +82,7 @@ function isActive(to: string) {
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={href("recompendium-logo.png")} />
     <meta name="twitter:card" content="summary_large_image" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -127,6 +135,10 @@ function isActive(to: string) {
           <li><a href="https://djcube.co.uk/n64-pc-port-directory/" target="_blank" rel="noopener">N64 PC Port Directory ↗</a></li>
           <li><a href="https://readonlymemo.com/decompilation-projects-and-n64-recompiled-list/" target="_blank" rel="noopener">{t(lang, "footer.romList")} ↗</a></li>
           <li><a href="https://gamicus.fandom.com/wiki/List_of_GameCube_Decompiled_and_Recompiled_Games" target="_blank" rel="noopener">Codex Gamicus · GameCube ↗</a></li>
+        </ul>
+        <h4>{t(lang, "footer.byConsole")}</h4>
+        <ul class="links">
+          {byConsole.map((c) => <li><a href={c.href}>{c.label}</a></li>)}
         </ul>
         <p class="legal">{t(lang, "footer.legal")}</p>
         <p class="foot-meta">{t(lang, "footer.meta")}</p>

@@ -15,8 +15,11 @@ interface Props {
   guide?: boolean;
   typeFilter?: boolean;
   stats?: { n: number; label: string }[];
+  // Título para buscadores, si no basta con el h1; y datos estructurados.
+  title?: string;
+  jsonLd?: object | object[];
 }
-const { lang, items, h1, tagline, countTmpl, readout = false, guide = false, typeFilter = false, stats } = Astro.props;
+const { lang, items, h1, tagline, countTmpl, readout = false, guide = false, typeFilter = false, stats, title, jsonLd } = Astro.props;
 
 const ordered = sortItems(items);
 
@@ -59,7 +62,7 @@ const guideCards = [
 ] as const;
 ---
 
-<Base lang={lang} title={h1.includes("<") ? t(lang, "site.title") : `${h1} — Recompendium`} description={tagline}>
+<Base lang={lang} title={title ?? (h1.includes("<") ? t(lang, "site.title") : `${h1} — Recompendium`)} description={tagline} jsonLd={jsonLd}>
   <header class="hero">
     <div class="wrap">
       <div class="brandrow"><h1 class="logo" set:html={h1} /></div>

@@ -9,6 +9,7 @@ import { statFor, fmtStars, fmtDate, relDate, repoUrlOf } from "../../lib/stats"
 import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/catalog";
 import { tagLabel } from "../../lib/tags";
 import { t, localePath, type Lang } from "../../i18n";
+import { consolePageKeys } from "../../lib/console-pages";
 
 interface Props {
   lang: Lang;
@@ -46,7 +47,10 @@ const stalledPill = (() => {
 let crumb: { label: string; href: string };
 let badgeLabel: string, badgeColor: string;
 let statusLabel: string | null = null, statusColor = "";
-const facts: { dt: string; dd: string }[] = [];
+const facts: { dt: string; dd: string; href?: string }[] = [];
+// La consola enlaza a su página (/consola/<clave>/), si la tiene.
+const consolePages = await consolePageKeys();
+const consoleHref = (k?: string) => (k && consolePages.includes(k) ? localePath(lang, `consola/${k}`) : undefined);
 let related: { items: Item[]; titleKey: string } | null = null;
 // Ficha del catálogo sobre la que se monta un mod ("ports/perfect-dark").
 let base: { label: string; href: string } | null = null;
@@ -64,7 +68,7 @@ if (type === "recomp") {
   badgeLabel = cm.label; badgeColor = cm.color;
   statusLabel = t(lang, `status.${dr.status}`); statusColor = sm.color;
   facts.push({ dt: t(lang, "detail.fact.method"), dd: t(lang, "method.recomp") });
-  facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
+  facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full, href: consoleHref(dr.console) });
   facts.push({ dt: t(lang, "detail.fact.arch"), dd: cm.arch });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
   if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
@@ -90,7 +94,7 @@ if (type === "recomp") {
     const de = (await getCollection("decomps")).find((x) => x.data.repo?.toLowerCase() === dp.decomp!.toLowerCase());
     if (de) fromDecomp = { label: de.data.name, href: localePath(lang, `decomp/${de.id}`) };
   }
-  if (cm) facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
+  if (cm) facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full, href: consoleHref(dp.console) });
   if (d.engine) facts.push({ dt: t(lang, "detail.fact.engine"), dd: d.engine });
   if (d.originalDeveloper) facts.push({ dt: t(lang, "detail.fact.origDev"), dd: d.originalDeveloper });
   if (d.year) facts.push({ dt: t(lang, "detail.fact.year"), dd: String(d.year) });
@@ -103,7 +107,7 @@ if (type === "recomp") {
   if (ts && dm.status) { statusLabel = t(lang, `toolstatus.${dm.status}`); statusColor = ts.color; }
   facts.push({ dt: t(lang, "detail.fact.kind"), dd: badgeLabel });
   facts.push({ dt: t(lang, "detail.fact.game"), dd: dm.game[lang] });
-  facts.push({ dt: t(lang, "detail.fact.platform"), dd: cm.full });
+  facts.push({ dt: t(lang, "detail.fact.platform"), dd: cm.full, href: consoleHref(dm.console) });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
   if (dm.base) {
     const [col, id] = dm.base.split("/") as ["recomps" | "ports" | "decomps" | "tools", string];
@@ -119,7 +123,7 @@ if (type === "recomp") {
     .filter((p) => p.data.decomp?.toLowerCase() === repo)
     .map((p) => ({ label: p.data.name, href: localePath(lang, `port/${p.id}`) }));
   badgeLabel = cm.label; badgeColor = cm.color;
-  facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full });
+  facts.push({ dt: t(lang, "detail.fact.console"), dd: cm.full, href: consoleHref(d.console) });
   facts.push({ dt: t(lang, "detail.fact.arch"), dd: cm.arch });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
 }
@@ -142,9 +146,57 @@ const links: { label: { es: string; en: string }; url: string }[] = d.links ?? [
 const progress: number | null = type === "recomp" ? d.progress ?? null : null;
 const barPct: number | null = progress ?? decompPct;
 const barLabel: string = progress != null ? t(lang, "card.progress", { n: progress }) : decompPct != null ? t(lang, "card.decomp", { n: decompPct }) : "";
+
+// Título para buscadores: el juego, «en PC» y cómo llega, que es lo que se busca.
+const cLabel = (k?: string) => (k ? consoleMeta(k, lang).label : "");
+const lower = (x: string) => x.charAt(0).toLowerCase() + x.slice(1);
+const seoTitle =
+  type === "recomp" ? t(lang, "seo.recomp", { name: d.name, console: cLabel(d.console) })
+  : type === "port" ? (d.console
+      ? t(lang, "seo.port", { name: d.name, method: lower(t(lang, `method.${d.category}` as any)), console: cLabel(d.console) })
+      : t(lang, "seo.portNoConsole", { name: d.name, method: lower(t(lang, `method.${d.category}` as any)) }))
+  : type === "decomp" ? t(lang, "seo.decomp", { name: d.name, console: cLabel(d.console) })
+  : type === "tool" ? t(lang, "seo.tool", { name: d.name, kind: lower(t(lang, `toolkind.${d.kind}` as any)) })
+  // Mods: el juego solo si es corto (algunos son listas largas, como los de Melty).
+  : d.game[lang].length <= 40
+    ? t(lang, "seo.mod", { name: d.name, kind: lower(t(lang, `modkind.${d.kind}` as any)), game: d.game[lang] })
+    : t(lang, "seo.tool", { name: d.name, kind: lower(t(lang, `modkind.${d.kind}` as any)) });
+
+// Datos estructurados: el proyecto (código fuente) y el juego del que trata.
+const abs = (p: string) => (Astro.site ? new URL(p.endsWith("/") ? p : p + "/", Astro.site).href : p);
+const consoleKey: string | undefined = type === "tool" ? undefined : d.console;
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    name: d.name,
+    description: d.desc[lang],
+    url: abs(Astro.url.pathname),
+    inLanguage: lang,
+    codeRepository: repoUrl || undefined,
+    programmingLanguage: s.language || undefined,
+    license: s.license || undefined,
+    about: type === "tool" ? undefined : {
+      "@type": "VideoGame",
+      name: type === "mod" ? d.game[lang] : d.name,
+      gamePlatform: consoleKey ? consoleMeta(consoleKey, lang).full : undefined,
+      datePublished: d.year ? String(d.year) : undefined,
+      author: d.originalDeveloper ? { "@type": "Organization", name: d.originalDeveloper } : undefined,
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Recompendium", item: abs(localePath(lang, "")) },
+      { "@type": "ListItem", position: 2, name: crumb.label.replace(/^[^\p{L}\p{N}]+/u, ""), item: abs(crumb.href) },
+      { "@type": "ListItem", position: 3, name: d.name, item: abs(Astro.url.pathname) },
+    ],
+  },
+];
 ---
 
-<Base lang={lang} title={`${d.name} — Recompendium`} description={d.desc[lang]}>
+<Base lang={lang} title={`${seoTitle} — Recompendium`} description={d.desc[lang]} jsonLd={jsonLd}>
   <main class="wrap detail">
     <div class="crumb"><a href={crumb.href}>{crumb.label}</a></div>
 
@@ -186,7 +238,7 @@ const barLabel: string = progress != null ? t(lang, "card.progress", { n: progre
     }
 
     <dl class="facts">
-      {facts.map((f) => (<div><dt>{f.dt}</dt><dd>{f.dd}</dd></div>))}
+      {facts.map((f) => (<div><dt>{f.dt}</dt><dd>{f.href ? <a href={f.href}>{f.dd}</a> : f.dd}</dd></div>))}
     </dl>
 
     {
