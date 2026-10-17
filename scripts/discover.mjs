@@ -110,7 +110,7 @@ async function reposFromPage(url) {
     const isReddit = /(^|\.)reddit\.com$/i.test(url.hostname) && url.pathname.includes("/comments/");
     const target = isReddit ? `https://www.reddit.com${url.pathname.replace(/\/+$/, "")}.json` : url.href;
     const res = await fetch(target, {
-      headers: { "User-Agent": "Mozilla/5.0 (compatible; RecompendiumDiscover/1.0; +https://nio03.github.io/unricopie/)" },
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; RecompendiumDiscover/1.0; +https://recompendium.com/)" },
       signal: AbortSignal.timeout(15000),
     });
     if (res.ok) {

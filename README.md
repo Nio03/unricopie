@@ -2,11 +2,11 @@
 
 A live, filterable, multi-console catalogue of static recompilations of console games into native PC executables.
 
-**Site:** https://nio03.github.io/unricopie/
+**Site:** https://recompendium.com/
 
 Since *Unleashed Recompiled*, static recompilation has spread across N64, Xbox 360, GameCube, Wii and PS2, but the projects remained scattered. The existing references each cover part of the ground: Read Only Memo is editorial and monthly, PCGamingWiki is a manually maintained wiki, Codex Gamicus covers GameCube only. Recompendium aims at the gap: hand-curated entries, verified against the source repository, enriched daily from the GitHub API.
 
-The repository is named `unricopie` because that name determines the GitHub Pages URL, not because of the launcher. [`unricopie-launcher/`](./unricopie-launcher) holds the Tauri scaffold of a multi-console launcher that reached Phase 0 and is **no longer under development**. The code is kept in case it is resumed; it is not shipped, advertised or listed in the catalogue.
+The repository is named `unricopie` because that name determined the original GitHub Pages URL, not because of the launcher. [`unricopie-launcher/`](./unricopie-launcher) holds the Tauri scaffold of a multi-console launcher that reached Phase 0 and is **no longer under development**. The code is kept in case it is resumed; it is not shipped, advertised or listed in the catalogue.
 
 Recompendium hosts no ROMs, assets or copyrighted material, and links to none. Every recompilation listed here is source code only: running any of them requires your own legal copy of the game. See [Terms](./src/pages/en/terms.astro) and [Privacy](./src/pages/en/privacy.astro).
 
@@ -84,7 +84,7 @@ unricopie/
 
 ```bash
 npm install
-npm run dev            # http://localhost:4321/unricopie/
+npm run dev            # http://localhost:4321/
 npm run build          # writes dist/ and validates the data schema on the way
 npm run preview        # serves dist/
 npm run validate-data  # fast YAML checks
@@ -107,12 +107,12 @@ Four scheduled or triggered workflows, none of which requires a secret beyond th
 
 ## Deployment
 
-The site is published as a project page at `https://nio03.github.io/unricopie/`, which is why [`astro.config.mjs`](./astro.config.mjs) sets `base: '/unricopie'`. To enable it on a fresh fork:
+The site is published on GitHub Pages under the custom domain `https://recompendium.com/`, so [`astro.config.mjs`](./astro.config.mjs) sets `site` to that domain and `base: '/'`. The DNS lives in Cloudflare (four `A` records to GitHub Pages and a `www` CNAME, all DNS-only). The old address, `https://nio03.github.io/unricopie/`, redirects to the domain. To enable it on a fresh fork:
 
 1. **Settings → Pages → Source: GitHub Actions.**
 2. **Settings → Actions → General → Workflow permissions → Read and write**, so the stats bot can commit `stats.json`.
 
-The workflows handle the rest. For a custom domain or a root deployment, change `site` and set `base: '/'`.
+The workflows handle the rest. A fork without a custom domain is served as a project page at `https://<user>.github.io/<repo>/`: set `site` to `https://<user>.github.io` and `base` to `'/<repo>'`.
 
 ## Contributing
 

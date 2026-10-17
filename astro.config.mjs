@@ -4,13 +4,12 @@ import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { parse } from 'yaml';
 
-// Recompendium se publica como sitio estático en GitHub Pages como "project
-// page": https://nio03.github.io/unricopie/  → site = el dominio, base = /unricopie.
+// Recompendium se publica como sitio estático en GitHub Pages con dominio propio:
+// https://recompendium.com/  → site = el dominio, base = '/'. Hasta octubre de
+// 2026 vivía en https://nio03.github.io/unricopie/ (base /unricopie); GitHub
+// redirige esas direcciones al dominio.
 //
-// Si algún día usas dominio propio o lo publicas en la raíz
-// (https://nio03.github.io/), cambia site a tu dominio y base a '/'.
-//
-// Ver README.md → "Despliegue" para el detalle.
+// Ver README.md → "Deployment" para el detalle.
 
 // lastmod del sitemap: cada ficha lleva la fecha del último push de su repo (lo
 // que trae el bot a stats.json) y cada entrada del blog, su fecha. Así el
@@ -28,7 +27,7 @@ function lastmodMap() {
       const doc = parse(readFileSync(`${path}/${f}`, 'utf8')) || {};
       const at = typeof doc.repo === 'string' ? stats[doc.repo]?.pushedAt : undefined;
       if (!at) continue;
-      for (const lang of ['es', 'en']) map.set(`/unricopie/${lang}/${seg}/${f.replace(/\.yaml$/, '')}/`, at);
+      for (const lang of ['es', 'en']) map.set(`/${lang}/${seg}/${f.replace(/\.yaml$/, '')}/`, at);
     }
   }
   for (const lang of ['es', 'en']) {
@@ -36,7 +35,7 @@ function lastmodMap() {
     if (!existsSync(path)) continue;
     for (const f of readdirSync(path).filter((x) => x.endsWith('.md'))) {
       const date = (readFileSync(`${path}/${f}`, 'utf8').match(/^date:\s*(\S+)/m) || [])[1];
-      if (date) map.set(`/unricopie/${lang}/blog/${f.replace(/\.md$/, '')}/`, new Date(date).toISOString());
+      if (date) map.set(`/${lang}/blog/${f.replace(/\.md$/, '')}/`, new Date(date).toISOString());
     }
   }
   return map;
@@ -44,15 +43,15 @@ function lastmodMap() {
 const LASTMOD = lastmodMap();
 
 export default defineConfig({
-  site: 'https://nio03.github.io',
-  base: '/unricopie',
+  site: 'https://recompendium.com',
+  base: '/',
   trailingSlash: 'ignore',
-  // Sitemap para buscadores: genera /unricopie/sitemap-index.xml con todas las páginas.
+  // Sitemap para buscadores: genera /sitemap-index.xml con todas las páginas.
   // Las páginas antiguas del español en la raíz (src/pages/[...legacy].astro) son
   // solo redirecciones: fuera del sitemap.
   integrations: [
     sitemap({
-      filter: (page) => /\/unricopie\/((es|en)\/.*)?$/.test(page),
+      filter: (page) => /^\/((es|en)\/.*)?$/.test(new URL(page).pathname),
       serialize(item) {
         const at = LASTMOD.get(new URL(item.url).pathname);
         if (at) item.lastmod = at;
