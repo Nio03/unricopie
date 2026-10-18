@@ -1,0 +1,19 @@
+name: Monster Hunter Tri
+console: wii
+status: playable
+homepage: https://mh3pc.app/
+author: rebecca-davies (?)
+originalDeveloper: Capcom
+year: 2009
+enrich: false
+desc:
+  es: "Port de Monster Hunter Tri, de Wii, que se juega en el navegador, compilado a WebAssembly, con teclado y ratón completos. Su autor lo presenta como un port nativo y moderno, y por ahora solo tiene el modo para un jugador. La primera vez importas tu propio disco extraído al almacenamiento del navegador, y la página comprueba que sea la versión estadounidense. También importa y exporta partidas de Dolphin o de la tarjeta SD de la Wii. Se anunció el 25 de septiembre de 2026 en Reddit, desde la cuenta u/i_hate_blackpink; el código todavía es cerrado, y su autor dice que lo abrirá más adelante. La autoría no está confirmada: quien lo propuso para el catálogo la atribuye a rebecca-davies, de GitHub, pero no hay ningún repositorio público del proyecto."
+  en: "A port of the Wii game Monster Hunter Tri that plays in the browser, compiled to WebAssembly, with full keyboard and mouse support. Its author presents it as a modern, native port, and for now it has single player only. The first time, you import your own extracted disc into the browser’s storage, and the page checks that it’s the US version. It also imports and exports saves from Dolphin or from the Wii’s SD card. It was announced on Reddit on September 25, 2026, from the account u/i_hate_blackpink; the code is still closed, and its author says it will be opened later. The authorship isn’t confirmed: whoever proposed it for the catalog attributes it to rebecca-davies on GitHub, but there’s no public repository for the project."
+requirements:
+  es: "Tu propio disco de Monster Hunter Tri, versión estadounidense (RMHE08), extraído con Dolphin (clic derecho en el juego → Propiedades → Sistema de archivos → Extraer disco entero, o dolphin-tool extract): la carpeta con DATA/sys y DATA/files. Además, espacio libre en el navegador para copiarlo."
+  en: "Your own Monster Hunter Tri disc, US version (RMHE08), extracted with Dolphin (right-click the game → Properties → Filesystem → Extract Entire Disc, or dolphin-tool extract): the folder with DATA/sys and DATA/files. Plus enough free browser storage to copy it."
+tags:
+  - powerpc
+links:
+  - label: { es: "Anuncio en Reddit", en: "Reddit announcement" }
+    url: https://www.reddit.com/r/MonsterHunterTri/comments/1wpplkx/monster_hunter_3_tri_pc_port/
