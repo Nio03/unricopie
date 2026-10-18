@@ -1,0 +1,12 @@
+name: "BattleTanx: Global Assault (PS1)"
+console: ps1
+repo: TheGh0stShip/BattleTanx-Global-Assault-PS1
+desc:
+  es: "Decompilación de la versión estadounidense de PlayStation (SLUS-01044), del mismo autor que la decompilación exacta de la versión de Nintendo 64. El ejecutable ya se reconstruye entero y exacto, byte por byte, a partir de 1869 unidades de código, pero la mayor parte siguen siendo instrucciones en bruto: a 18 de octubre, solo el 8,7 % del código está escrito en C. Además tiene decodificadores para todos los formatos de archivo del disco (texturas, modelos, niveles, sonido y vídeo). No incluye el ejecutable, la imagen del disco ni ningún recurso extraído."
+  en: "Decompilation of the US PlayStation release (SLUS-01044), by the same author as the matching decompilation of the Nintendo 64 version. The executable already rebuilds whole and exact, byte for byte, from 1,869 source units, but most of them are still raw instructions: as of October 18, only 8.7% of the code is written in C. It also has decoders for every file format on the disc (textures, models, levels, sound, and video). It includes neither the executable, the disc image, nor any extracted asset."
+tags:
+  - mips
+  - matching
+links:
+  - label: ByteMatch
+    url: https://bytematch.dev/TheGh0stShip/BattleTanx-Global-Assault-PS1

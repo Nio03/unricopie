@@ -1,12 +1,16 @@
 name: Blue Dragon
 console: x360
-status: experimental
+status: playable
 repo: zolaware/reblue
 originalDeveloper: Mistwalker / Artoon
 toolchain: ReXGlue
 desc:
-  es: "«re:Blue», recompilación del JRPG de Mistwalker: arranca y la pantalla de título funciona (v0.1.0). Según su autor, es «jugable para curiosear, no para terminarlo»."
-  en: "“re:Blue,” a recompilation of Mistwalker’s JRPG: it boots and the title screen works (v0.1.0). In its author’s words, it’s “playable to poke at, not to play through.”"
+  es: "«re:Blue», recompilación estática del JRPG de Mistwalker, hecha con el SDK de ReXGlue. Llegó a la 1.0 el 27 de agosto de 2026 y va por la 1.3.1 (5 de octubre). Un asistente copia el juego desde las imágenes de sus tres discos y, a partir de ahí, ofrece hasta 4K en formatos de 4:3 a 32:9, MSAA hasta 8x, FPS sin límite o con tope, guardar en cualquier sitio desde el campamento, ajuste del campo de visión, teclado y ratón nativos, gestor de mods y los DLC oficiales. Hay versiones para Windows (DirectX 12), Linux (x86-64 y ARM64, Steam Deck incluida) y macOS con Apple Silicon, con menús en inglés, francés, alemán, italiano y español."
+  en: "“re:Blue,” a static recompilation of Mistwalker’s JRPG, built with the ReXGlue SDK. It reached 1.0 on August 27, 2026, and is now at 1.3.1 (October 5). A setup wizard copies the game from the images of its three discs, and from there it offers up to 4K at aspect ratios from 4:3 to 32:9, up to 8x MSAA, an unlocked or capped frame rate, saving anywhere from the camp menu, a field-of-view setting, native keyboard and mouse, a mod manager, and the official DLC. There are builds for Windows (DirectX 12), Linux (x86-64 and ARM64, Steam Deck included), and Apple Silicon macOS, with menus in English, French, German, Italian, and Spanish."
 requirements:
-  es: "Tu propia copia de Blue Dragon (Xbox 360)."
-  en: "Your own copy of Blue Dragon (Xbox 360)."
+  es: "Imágenes de los tres discos de tu propia copia de Blue Dragon (Xbox 360), de la edición global (EE. UU. y Europa); el soporte de la versión japonesa y asiática está en camino."
+  en: "Images of all three discs from your own copy of Blue Dragon (Xbox 360), global release (US and Europe); support for the Japanese and Asian release is coming."
+tags:
+  - powerpc
+  - widescreen
+  - mods
