@@ -64,7 +64,6 @@ img { max-width: 100%; height: auto; }
 .brand .mark { font-family: var(--pixel); font-size: 13px; color: var(--ink); letter-spacing: -1px; line-height: 1; }
 .brand .mark b { color: var(--gold); }
 .brand:hover .mark { color: var(--ink); }
-.brand .ver { font-family: var(--mono); font-size: 10px; color: var(--ink-3); border: 1px solid var(--line); border-radius: 999px; padding: 2px 7px; }
 .nav-links { display: flex; gap: 2px; margin-left: auto; flex-wrap: wrap; align-items: center; }
 .nav-tools { display: flex; gap: 2px; align-items: center; flex-shrink: 0; white-space: nowrap; }
 .nav-toggle, .nav-links a.gh-menu { display: none; }
@@ -358,7 +357,6 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
   .js .nav-links a:last-child { border-bottom: 0; }
 }
 @media (max-width: 760px) {
-  .brand .ver { display: none; }
   /* Con los filtros en varias filas, la barra fija ocupaba más de media pantalla. */
   .controls { position: static; }
 }
