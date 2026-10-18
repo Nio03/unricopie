@@ -1,0 +1,17 @@
+name: Forza Motorsport 5
+category: native-layer
+console: xboxone
+status: playable
+repo: LoZazaMastro/RaceOneHub
+author: LoZazaMastro
+originalDeveloper: Turn 10 Studios
+year: 2013
+desc:
+  es: "Race One Hub: un generador que, a partir de tus propios archivos de la versión de Xbox One de Forza Motorsport 5, crea un ejecutable para Windows 10 y 11. Se apoya en una versión adaptada de Azimuth, el motor de compatibilidad del port de Forza Horizon 2, que también está en el catálogo. Eliges resolución, de 1080p a 8K, 30, 60 o 120 fps, cuatro ajustes gráficos (el original, bajo, alto y ultra), MSAA de hasta 4x, idioma y sonido estéreo o multicanal. Tus archivos originales no se modifican. Su autor lo publica como versión 0.1.0, con código fuente bajo GPL-3.0, y queda un fallo conocido: el menú del modo Career puede verse con los colores desvaídos después de una carrera."
+  en: "Race One Hub: a builder that takes your own files from the Xbox One version of Forza Motorsport 5 and creates a Windows 10 and 11 executable from them. It relies on an adapted version of Azimuth, the compatibility engine behind the Forza Horizon 2 port, also in this catalog. You choose the resolution, from 1080p to 8K, a 30, 60, or 120 fps target, four graphics presets (original, low, high, and ultra), MSAA up to 4x, the language, and stereo or multichannel sound. Your original files aren’t modified. Its author publishes it as version 0.1.0, with source code under GPL-3.0, and one known issue remains: the Career menu can look washed out after a race."
+requirements:
+  es: "Tu propia copia de la versión de Xbox One, completa y extraída, en la versión 1.0.0.20 (la carpeta con Mount y EmbeddedXvd), y Windows 10 u 11 de 64 bits. No incluye ni descarga archivos del juego; la única imagen del juego que trae es el fondo de la pantalla de ajustes previa."
+  en: "Your own complete, extracted copy of the Xbox One version, at version 1.0.0.20 (the folder with Mount and EmbeddedXvd), and 64-bit Windows 10 or 11. It neither includes nor downloads any game files; the only game artwork it ships is the background of the pre-game settings screen."
+tags:
+  - x86
+  - compat-layer
