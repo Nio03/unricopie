@@ -206,6 +206,9 @@ export const ui = {
     "footer.faq": "Preguntas frecuentes",
     "footer.terms": "Términos",
     "footer.privacy": "Privacidad",
+    "footer.licData": "Fichas y textos:",
+    "footer.licCode": "código:",
+    "footer.ccUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
 
     "rel.today": "hoy",
     "rel.days": "hace {n} días",
@@ -410,6 +413,9 @@ export const ui = {
     "footer.faq": "FAQ",
     "footer.terms": "Terms",
     "footer.privacy": "Privacy",
+    "footer.licData": "Entries and texts:",
+    "footer.licCode": "code:",
+    "footer.ccUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
 
     "rel.today": "today",
     "rel.days": "{n} days ago",

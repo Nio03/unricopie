@@ -1,0 +1,34 @@
+Recompendium — catalogue data and texts
+
+Copyright (c) 2026 Recompendium contributors
+
+Since 17 October 2026, the catalogue data and the written content of this
+repository are licensed under the Creative Commons Attribution-ShareAlike 4.0
+International licence (CC BY-SA 4.0):
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+    Legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+This covers:
+
+  - src/data/      the catalogue entries (recomps, ports, decomps, tools and
+                   mods), including their descriptions in both languages
+  - src/content/   the blog posts
+
+Everything else in the repository (the site's code) remains under the MIT
+licence in LICENSE.
+
+How to reuse them: you may copy, adapt and use them for any purpose, including
+commercially, as long as you
+  - credit "Recompendium" with a link to https://recompendium.com/,
+  - say whether you made changes, and
+  - share what you build from them under CC BY-SA 4.0.
+
+Earlier versions: up to the commit tagged `mit-final-2026-10-17`, the whole
+repository, data included, was published under the MIT licence, and those
+versions remain available under it. Material contributed under MIT before that
+date is included here under the permission to sublicense that the MIT licence
+grants; its notice is kept in LICENSE.
+
+Facts drawn from public APIs (stars, versions, dates in src/data/stats.json)
+are provided as-is, and every linked project keeps its own licence.

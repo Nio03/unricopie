@@ -78,8 +78,12 @@ npm run build           # validación completa del esquema + sitio bilingüe
 
 En la descripción del PR, enlaza algo que permita **verificar** el proyecto (un release jugable, un vídeo, un hilo). Mejor `experimental` honesto que `playable` optimista.
 
+## Licencia de lo que aportas
+
+Las fichas (`src/data/`) y los textos del blog (`src/content/`) se publican con licencia [CC BY-SA 4.0](./LICENSE-DATA); el código, con [MIT](./LICENSE). Al abrir un PR o un issue con una ficha, aceptas que se publique con esa licencia.
+
 ---
 
 ## English (summary)
 
-The catalog lives in `src/data/` — one YAML per project across four collections: `recomps/` (static recompilations only), `tools/` (recompilers/launchers/libraries), `ports/` (decomp ports & fan remakes — not recomps) and `decomps/` (decomp.dev registry). Statuses are `experimental` | `playable` | `fully` for recomps/ports and `experimental` | `beta` | `usable` | `stable` for tools (there is no `wip` — the build rejects it); console keys are the ones in `src/lib/consoles.ts`; `requirements: { es, en }` says what the user must supply (ROM/ISO, BIOS…); a dead or removed project keeps its file with `abandoned: true` / `takedown: true`. Descriptions are **bilingual** (`desc: { es, en }`). Don't add stars/dates — a daily GitHub Action fills `stats.json`. Run `npm run validate-data` and `npm run build` before opening a PR, and link something that lets us **verify** the project. Prefer an honest `experimental` over an optimistic `playable`.
+The catalog lives in `src/data/` — one YAML per project across four collections: `recomps/` (static recompilations only), `tools/` (recompilers/launchers/libraries), `ports/` (decomp ports & fan remakes — not recomps) and `decomps/` (decomp.dev registry). Statuses are `experimental` | `playable` | `fully` for recomps/ports and `experimental` | `beta` | `usable` | `stable` for tools (there is no `wip` — the build rejects it); console keys are the ones in `src/lib/consoles.ts`; `requirements: { es, en }` says what the user must supply (ROM/ISO, BIOS…); a dead or removed project keeps its file with `abandoned: true` / `takedown: true`. Descriptions are **bilingual** (`desc: { es, en }`). Don't add stars/dates — a daily GitHub Action fills `stats.json`. Run `npm run validate-data` and `npm run build` before opening a PR, and link something that lets us **verify** the project. Prefer an honest `experimental` over an optimistic `playable`. Entries and blog texts are published under [CC BY-SA 4.0](./LICENSE-DATA) and code under [MIT](./LICENSE); by submitting an entry you agree to that licence.

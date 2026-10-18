@@ -142,6 +142,10 @@ function isActive(to: string) {
         </ul>
         <p class="legal">{t(lang, "footer.legal")}</p>
         <p class="foot-meta">{t(lang, "footer.meta")}</p>
+        <p class="foot-meta foot-lic">
+          {t(lang, "footer.licData")} <a href={t(lang, "footer.ccUrl")} target="_blank" rel="noopener license">CC BY-SA 4.0</a> ·
+          {t(lang, "footer.licCode")} <a href={`${GITHUB_URL}/blob/main/LICENSE`} target="_blank" rel="noopener license">MIT</a>
+        </p>
         <p class="foot-meta foot-links">
           <a href={localePath(lang, "faq")}>{t(lang, "footer.faq")}</a> ·
           <a href={localePath(lang, "terms")}>{t(lang, "footer.terms")}</a> ·

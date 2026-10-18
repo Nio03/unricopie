@@ -120,4 +120,4 @@ Missing projects and corrections are welcome; an entry is one YAML file and a pu
 
 ## Licence
 
-Code under [MIT](./LICENSE). Catalogue entries are public facts about third-party projects; each linked project keeps its own licence. See the Terms of Use and Privacy Policy linked in the site footer.
+The site's code is under [MIT](./LICENSE). Since 17 October 2026, the catalogue entries (`src/data/`) and the blog posts (`src/content/`) are under [CC BY-SA 4.0](./LICENSE-DATA): reuse them freely, crediting Recompendium with a link to https://recompendium.com/ and sharing what you build from them under the same licence. Versions up to the tag `mit-final-2026-10-17` were entirely MIT and remain so. Each linked project keeps its own licence. See the Terms of Use and Privacy Policy linked in the site footer.
