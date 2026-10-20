@@ -1,0 +1,20 @@
+name: Stunts
+console: dos
+status: playable
+repo: mr-finster/stunts-hd
+homepage: https://stunts-recomp.pages.dev
+author: mr-finster
+originalDeveloper: Distinctive Software
+year: 1990
+desc:
+  es: "Stunts HD: el GAME.EXE de tu copia de Stunts 1.1 (también conocido como 4D Sports Driving) se traduce instrucción por instrucción a JavaScript y corre sin cambios sobre un pequeño PC emulado (los servicios de DOS y de la BIOS, el modo de vídeo VGA, el temporizador y un sintetizador AdLib). Un renderizador nuevo vuelve a dibujar lo que dibuja el juego en 3D a la resolución de tu pantalla, en panorámico e interpolado entre sus fotogramas, sin cambiar lo que hace el juego; la tecla H vuelve al aspecto de 1990. La conducción, los rivales, las repeticiones y los choques son los del original: las 6907 repeticiones del paquete de pruebas de Chocolate Stunts se reproducen exactamente igual que en DOS. Funcionan el editor de circuitos, los circuitos propios, los coches añadidos, el coche fantasma y el intercambio de circuitos. Se juega en el navegador o como aplicación para macOS, Windows y Linux; en la Steam Deck, solo en modo escritorio. La primera vez necesita conexión para descargar el mapa de la traducción. Declara que se hizo con ayuda de herramientas de IA."
+  en: "Stunts HD: the GAME.EXE from your copy of Stunts 1.1 (also known as 4D Sports Driving) is translated instruction by instruction into JavaScript and runs unmodified on a small emulated PC (DOS and BIOS services, VGA video mode, the timer, and an AdLib synth). A new renderer redraws what the game draws in 3D at your display’s resolution, in widescreen and interpolated between its frames, without changing what the game does; the H key switches back to the 1990 look. The handling, opponents, replays, and crashes are the original’s: all 6,907 replays in Chocolate Stunts’ test pack play back exactly as in DOS. The track editor, custom tracks, add-on cars, the ghost car, and track sharing all work. It plays in the browser or as a desktop app for macOS, Windows, and Linux; on the Steam Deck, only in desktop mode. The first start needs a connection to fetch the translation map. It states it was made with the help of AI coding tools."
+requirements:
+  es: "Tu propia copia de Stunts 1.1 (la carpeta del juego o un zip con ella); otras versiones, como 4D Sports Driving, todavía no sirven. Además, Chrome, Edge o Firefox, o macOS, Windows o Linux para la aplicación."
+  en: "Your own copy of Stunts 1.1 (the game folder, or a zip of it); other versions, such as 4D Sports Driving, aren’t supported yet. Plus Chrome, Edge, or Firefox, or macOS, Windows, or Linux for the desktop app."
+tags:
+  - x86
+  - racing
+  - widescreen
+  - track-editor
+  - ai-assisted

@@ -1,0 +1,21 @@
+name: Virtua Fighter 3
+console: arcade
+status: experimental
+repo: mr-finster/vf3-recomp
+homepage: https://vf3-recomp.pages.dev
+author: mr-finster
+originalDeveloper: Sega AM2
+year: 1996
+desc:
+  es: "Recompilación de Virtua Fighter 3 de recreativa (placa Sega Model 3), del mismo autor que las de Virtua Fighter 1 y 2, todavía en alfa. Cada vez que arranca, el programa del PowerPC 603e de tu ROM se recompila a código nativo (ARM64 o x86-64), y se comprueba fotograma a fotograma contra su propio intérprete, que a su vez coincide con el de referencia de Supermodel en 173.000 fotogramas de prueba. El resto de la placa es código propio del port (el mapa de memoria, las interrupciones, el controlador SCSI, el generador de tiles y el renderizador Real3D, en CPU y en GPU); solo la placa de sonido, con su 68000 y sus dos SCSP, corre con código de MAME. Ofrece escala de renderizado hasta 6x, antialiasing, panorámico y ultrapanorámico (los fondos de los escenarios se extienden con los panoramas del propio juego) y hasta 120 imágenes por segundo. Se probó sobre todo en Mac con Apple Silicon y en la Steam Deck, donde va a 60 estables; la versión de Windows solo se probó con Wine. Virtua Fighter 3 Team Battle todavía no funciona. Declara que se hizo con ayuda de herramientas de IA."
+  en: "A recompilation of the arcade Virtua Fighter 3 (Sega Model 3 board), by the same author as the Virtua Fighter 1 and 2 ones, still in alpha. Every time it starts, the PowerPC 603e program from your ROM is recompiled to native code (ARM64 or x86-64) and checked frame by frame against its own interpreter, which in turn matches the Supermodel reference over 173,000 test frames. The rest of the board is the port’s own code (the memory map, interrupts, the SCSI controller, the tile generator, and the Real3D renderer, on the CPU and on the GPU); only the sound board, with its 68000 and two SCSPs, runs on MAME’s code. It offers render scales up to 6x, anti-aliasing, widescreen and ultrawide (the stage backgrounds carry on from the game’s own panoramas), and up to 120 pictures a second. It has mostly been tested on Apple silicon Macs and on the Steam Deck, where it holds a steady 60; the Windows build has only been tested under Wine. Virtua Fighter 3 Team Battle isn’t supported yet. It states it was made with the help of AI coding tools."
+requirements:
+  es: "Tu propio volcado del juego como el conjunto vf3 de MAME (vf3.zip, revisión D). Además, un Mac, Windows de 64 bits, o Linux o una Steam Deck."
+  en: "Your own dump of the game as MAME’s vf3 set (vf3.zip, Revision D). Plus a Mac, 64-bit Windows, or Linux or a Steam Deck."
+tags:
+  - powerpc
+  - arcade
+  - model-3
+  - widescreen
+  - multiplayer
+  - ai-assisted

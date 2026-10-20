@@ -1,0 +1,20 @@
+name: Virtual Pro Wrestling 2
+console: n64
+status: playable
+repo: jessetbh/VPW2Recomp
+author: jessetbh
+originalDeveloper: AKI Corporation
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Recompilación estática para Windows de Virtual Pro Wrestling 2: Ōdō Keishō, la secuela de Virtual Pro Wrestling 64 que solo salió en Japón, con N64Recomp, N64ModernRuntime y RT64. Es la sexta y última de la familia de juegos de lucha libre de AKI del mismo autor. Está en beta: arranca, se juega en menús y combates completos con música y sonido, con dos mandos probados, y guarda sola la partida del cartucho. Es independiente de la decompilación de AKI-Club: los símbolos salen de un desensamblado propio. El juego sale en japonés, tal como se publicó, aunque varias traducciones de fans al inglés funcionan como mods sobre tu ROM. Añade panorámico, alta resolución, controles adaptados al esquema de AKI y, de forma experimental, 60 y 120 fps por interpolación, trazado de rayos, filtro CRT y HDR, además de un menú de mods con cámara libre y trucos."
+  en: "A static recompilation of Virtual Pro Wrestling 2: Ōdō Keishō, the Japan-only sequel to Virtual Pro Wrestling 64, for Windows, with N64Recomp, N64ModernRuntime, and RT64. It’s the sixth and last in the same author’s family of AKI wrestling games. It’s in beta: it boots, plays through menus and full matches with music and sound, with two controllers verified, and saves the cartridge save automatically. It’s independent of the AKI-Club decompilation: the symbols come from the author’s own disassembly. The game is in Japanese, as released, though several English fan translations run as mods on top of your ROM. It adds widescreen, high resolution, controls tailored to the AKI scheme, and, experimentally, 60 and 120 fps through interpolation, ray tracing, a CRT filter, and HDR, plus a mods menu with a free camera and cheats."
+requirements:
+  es: "Tu propia ROM japonesa de Virtual Pro Wrestling 2: Ōdō Keishō (NA2J), sin parchear. Además, Windows con una tarjeta gráfica con Direct3D 12 (Shader Model 6) o Vulkan 1.2 y un procesador con SSE4.1."
+  en: "Your own unpatched Japanese ROM of Virtual Pro Wrestling 2: Ōdō Keishō (NA2J). Plus Windows with a Direct3D 12 (Shader Model 6) or Vulkan 1.2 graphics card and a CPU with SSE4.1."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - ray-tracing
+  - mods

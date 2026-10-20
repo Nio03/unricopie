@@ -1,0 +1,16 @@
+name: Fate/Unlimited Codes
+console: psp
+status: playable
+repo: elprogramadorloco-arch/fuc-recomp
+author: ElProgramadorLoco
+originalDeveloper: Cavia / Eighting
+year: 2009
+toolchain: PSPRecomp
+desc:
+  es: "FateUnlimitedCodesRecomp: versión nativa para Windows de la versión europea de PSP, por recompilación estática con un PSPRecomp modificado para este juego. Un asistente comprueba tu ISO, tus fuentes de PSP y PPSSPP, usa PPSSPP solo para volcar el EBOOT descifrado y genera la versión privada en tu equipo; para jugar ya no hace falta. La base de PSP funciona, aunque puede tener errores y falta corregir el volumen de las voces en combate; por ahora solo va a la resolución nativa de PSP. Los planes son combinarla con los recursos más detallados y los controles de la versión de PS2, más resoluciones, juego en línea y mods, y su autor trabaja también en versiones para Android, PS4, PS5, PS Vita y Linux que todavía no están publicadas."
+  en: "FateUnlimitedCodesRecomp: a native Windows version of the European PSP release, made by static recompilation with a PSPRecomp build modified for this game. A wizard checks your ISO, your PSP fonts, and PPSSPP, uses PPSSPP only to dump the decrypted EBOOT, and generates the private build on your machine; it isn’t needed to play. The PSP base works, though it may have errors and the battle voice volume still needs fixing; for now it only runs at the PSP’s native resolution. The plans are to combine it with the more detailed assets and the controls of the PS2 version, more resolutions, online play, and mods, and its author is also working on Android, PS4, PS5, PS Vita, and Linux versions that aren’t published yet."
+requirements:
+  es: "Tu propia ISO de la versión europea de PSP de Fate/Unlimited Codes (NPEH00007, versión 1.01), las 18 fuentes PGF de una PSP en un font.zip y el ZIP portátil oficial de PPSSPP para Windows (1.20.4 o posterior). Además, Windows de 64 bits, CMake 3.22 o posterior e internet la primera vez."
+  en: "Your own ISO of the European PSP release of Fate/Unlimited Codes (NPEH00007, version 1.01), the 18 PGF fonts from a PSP in a font.zip, and the official portable PPSSPP ZIP for Windows (1.20.4 or later). Plus 64-bit Windows, CMake 3.22 or later, and an internet connection the first time."
+tags:
+  - mips

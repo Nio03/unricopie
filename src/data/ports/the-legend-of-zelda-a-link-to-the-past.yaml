@@ -1,0 +1,17 @@
+name: "The Legend of Zelda: A Link to the Past"
+category: fan-remake
+console: snes
+status: fully
+repo: snesrev/zelda3
+author: snesrev
+originalDeveloper: Nintendo
+year: 1991
+desc:
+  es: "zelda3: reimplementación de A Link to the Past en C, hecha por ingeniería inversa, de unas 70.000 a 80.000 líneas, que reproduce todas las partes del juego original y se juega de principio a fin. La primera vez extrae de tu ROM los recursos (niveles e imágenes); después la ROM ya no hace falta. Usa la PPU y el DSP de LakeSnes, con muchas optimizaciones, y puede ejecutar al mismo tiempo el código máquina original y comparar la memoria en cada fotograma para comprobar que el C es correcto. Añade una pantalla panorámica básica, shaders, 240 líneas verticales, el mapa en modo 7 en alta resolución, audio MSU-1, cambio rápido de objetos y más de 30 errores del original corregidos, además de estados guardados con el historial de controles para repetir partidas. Por ahora se compila uno mismo."
+  en: "zelda3: a reverse-engineered reimplementation of A Link to the Past in C, around 70,000 to 80,000 lines, that reimplements every part of the original game and is playable from start to end. On first use it extracts the resources (levels and images) from your ROM; after that the ROM is no longer needed. It uses LakeSnes’s PPU and DSP, with many speed optimizations, and it can run the original machine code side by side and compare RAM every frame to verify that the C is correct. It adds basic widescreen, shaders, 240 vertical lines, a high-resolution Mode 7 map, MSU-1 audio, item switching, and over 30 fixes to the original’s bugs, plus snapshots that keep the input history so playthroughs can be replayed. For now you build it yourself."
+requirements:
+  es: "Tu propia ROM estadounidense de The Legend of Zelda: A Link to the Past (zelda3.sfc). Para compilarlo en Windows, Python, TCC y SDL2; hay instrucciones para otros sistemas."
+  en: "Your own US The Legend of Zelda: A Link to the Past ROM (zelda3.sfc). To build it on Windows, Python, TCC, and SDL2; there are instructions for other systems."
+tags:
+  - zelda
+  - widescreen

@@ -1,0 +1,16 @@
+name: White Knight Chronicles II
+console: ps3
+status: experimental
+repo: WK2D/White-Knight-Chronicles-2-Recomp
+author: WK2D
+originalDeveloper: Level-5
+year: 2010
+toolchain: ps3recomp
+desc:
+  es: "Port nativo en C++ de White Knight Chronicles II (PS3), por recompilación del código del juego con ps3recomp. El desarrollo empieza por White Knight Chronicles I, que viene en el mismo disco. Es una versión temprana para Windows: llega al pueblo inicial del primer juego y carga una partida guardada. Ya funcionan las pantallas de inicio, los menús, los vídeos, la creación del avatar y el paso a las llanuras de Balastor con movimiento corto y cámara. El código SPU se va sustituyendo por C++ legible escrito por el proyecto. Usa Vulkan, con Direct3D 12 en pruebas, y tiene un panel de ajustes gráficos dentro del juego: modo de ventana, resolución, VSync, filtrado anisotrópico, FXAA, límites de 30 a 144 fps o sin límite y un contador. Conviene jugar a 30 fps, porque por encima hay fallos en las transiciones, las escenas y al caminar. Todavía no se han probado el combate ni una partida completa."
+  en: "A native C++ port of White Knight Chronicles II (PS3), by recompiling the game’s code with ps3recomp. Development starts with White Knight Chronicles I, which is on the same disc. It’s an early Windows build: it reaches the first game’s starting town and loads a save. The startup screens, menus, movies, avatar creation, and the move to the Balastor Plain with short movement and camera control already work. The SPU code is being replaced with readable C++ written by the project. It uses Vulkan, with Direct3D 12 in testing, and has an in-game graphics settings panel: window mode, resolution, VSync, anisotropic filtering, FXAA, caps from 30 to 144 fps or unlocked, and a counter. Playing at 30 fps is advised, since above it there are faults in transitions, cutscenes, and walking. Combat and a complete playthrough haven’t been tested yet."
+requirements:
+  es: "Tu propio disco estadounidense de White Knight Chronicles II para PS3 (BLUS30784, versión 1.00), con los archivos preparados por ti. Además, Windows con una tarjeta gráfica con Vulkan."
+  en: "Your own US White Knight Chronicles II disc for PS3 (BLUS30784, version 1.00), with the files prepared yourself. Plus Windows with a Vulkan graphics card."
+tags:
+  - powerpc

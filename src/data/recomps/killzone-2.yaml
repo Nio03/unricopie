@@ -1,0 +1,18 @@
+name: Killzone 2
+console: ps3
+status: experimental
+repo: YYOzcan/tokisaki-port
+author: YYOzcan
+originalDeveloper: Guerrilla Games
+year: 2009
+toolchain: ps3recomp
+desc:
+  es: "Tokisaki Port: recompilación estática de Killzone 2 para PC con ps3recomp, con Linux y Vulkan como plataforma principal. Todavía no se puede jugar: arranca, lee sus datos, ejecuta los trabajos SPU y recorre los menús, con todo el texto, hasta empezar la campaña; el nivel se carga y se dibuja la pantalla de carga, pero las primeras imágenes de la partida se atascan, y el vídeo de introducción se bloquea. Ya están traducidas 67.196 funciones PPU, 23 programas SPU y 36 módulos de trabajos, en un ejecutable nativo de unos 118 MB. Su autor declara que lo desarrolla con un agente de IA (Claude)."
+  en: "Tokisaki Port: a static recompilation of Killzone 2 for PC with ps3recomp, with Linux and Vulkan as the main platform. It isn’t playable yet: it boots, reads its data, runs its SPU jobs, and walks its menus, with all their text, up to the start of a campaign; the level loads and its loading screen is drawn, but the first in-level frames stall, and the intro movie hangs. 67,196 PPU functions, 23 SPU programs, and 36 job modules are already translated, into a native executable of about 118 MB. Its author states it’s developed with an AI coding agent (Claude)."
+requirements:
+  es: "Tu propia copia de Killzone 2 para PS3, con el EBOOT.BIN descifrado como EBOOT.ELF; las fuentes del sistema salen de la carpeta dev_flash de RPCS3. Para compilarlo, Linux con clang, CMake, Ninja, Python 3.10 o posterior, SDL2, Vulkan, glslang y zlib."
+  en: "Your own copy of Killzone 2 for PS3, with EBOOT.BIN decrypted as EBOOT.ELF; the system fonts come from RPCS3’s dev_flash folder. To build it, Linux with clang, CMake, Ninja, Python 3.10 or later, SDL2, Vulkan, glslang, and zlib."
+tags:
+  - powerpc
+  - fps
+  - ai-assisted

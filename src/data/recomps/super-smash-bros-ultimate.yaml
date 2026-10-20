@@ -1,0 +1,19 @@
+name: Super Smash Bros. Ultimate
+console: switch
+status: playable
+repo: Denkishi/ssbu-recomp
+author: Denkishi
+originalDeveloper: Bandai Namco Studios / Sora Ltd.
+year: 2018
+desc:
+  es: "OpenSmash-Ultimate: port nativo para Windows de la versión 13.0.4 o 13.0.5 de Switch, por recompilación estática del código AArch64 a C, con un runtime propio que reimplementa las bibliotecas del sistema, la API gráfica NVN sobre Vulkan, el sonido, el vídeo, la entrada y el sistema de archivos. Un instalador busca tus claves y tu juego, aplica la actualización y los DLC y compila el juego en tu PC, sin Visual Studio ni firmware (las fuentes son libres). Va a 59-60 fps en los combates según las mediciones de su autor, con ajustes dentro del juego, cualquier mando y los guiones de los luchadores convertidos en C++ legible y comprobado contra el original, lo que permite mods. El juego en línea es experimental: el modo inalámbrico local funciona por red local, código de sala o servidor de salas; el rollback está en desarrollo. Su autor declara que casi todo el código lo escribieron agentes de IA (Claude) bajo su dirección."
+  en: "OpenSmash-Ultimate: a native Windows port of Switch version 13.0.4 or 13.0.5, made by statically recompiling the AArch64 code to C, with its own runtime reimplementing the system libraries, the NVN graphics API on Vulkan, audio, video, input, and the file system. An installer finds your keys and game, applies the update and DLC, and builds the game on your PC, with no Visual Studio and no firmware (the fonts are open source). It runs at 59–60 fps in fights by its author’s measurements, with in-game settings, any controller, and the fighter scripts converted into readable C++ checked against the original, which enables mods. Online play is experimental: Local Wireless works over a LAN, a room code, or a lobby server; rollback is in progress. Its author states that almost all of the code was written by AI coding agents (Claude) under the author’s direction."
+requirements:
+  es: "Tu propio volcado de Super Smash Bros. Ultimate (versión 13.0.4 o 13.0.5) y las claves de tu propia consola; los DLC son opcionales. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan."
+  en: "Your own dump of Super Smash Bros. Ultimate (version 13.0.4 or 13.0.5) and the keys from your own console; DLC is optional. Plus 64-bit Windows 10 or 11 and a graphics card with Vulkan."
+tags:
+  - arm64
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted

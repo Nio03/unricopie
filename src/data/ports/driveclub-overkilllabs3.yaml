@@ -1,0 +1,19 @@
+name: Driveclub (OverkillLabs3)
+category: native-layer
+console: ps4
+status: playable
+repo: OverkillLabs3/driveclub-recomp
+author: OverkillLabs3
+originalDeveloper: Evolution Studios
+year: 2014
+desc:
+  es: "DriveClub Recomp: pese al nombre, no es una recompilación. El código x86-64 original de la versión 1.28 de PS4 corre directamente en el procesador, las bibliotecas del sistema de PS4 están reimplementadas y los comandos gráficos se traducen a Vulkan, como hacen Wine y DXVK. Se juega en Windows desde los menús, con carreras, modo foto y partidas guardadas, a unos 60 fps en 4K en las escenas más pesadas de su equipo de pruebas. Desde la 0.2.0 cambia el antialiasing del juego por DLAA o FSR 3.1. Admite teclado, cualquier mando y volantes con force feedback, pedales con embrague y palanca en H. Ofrece salida de 720p a 8K, ultrapanorámico con el campo de visión corregido, fotogramas sin límite a la velocidad normal del juego, una carpeta de mods y un banco de pruebas en el launcher. Los DLC se pueden desbloquear a partir de tus propios archivos. Las funciones en línea no funcionan."
+  en: "DriveClub Recomp: despite the name, it isn’t a recompilation. The original x86-64 code of PS4 version 1.28 runs directly on the CPU, the PS4 system libraries are reimplemented, and GPU commands are translated to Vulkan, the way Wine and DXVK work. It’s playable on Windows from the menus through races, photo mode, and saves, at about 60 fps at 4K in the heaviest scenes on its test PC. Since 0.2.0 it replaces the game’s anti-aliasing with DLAA or FSR 3.1. It supports keyboard, any gamepad, and steering wheels with force feedback, pedals with a clutch, and an H-pattern shifter. It offers output from 720p to 8K, ultrawide with a field-of-view fix, an unlocked frame rate at normal game speed, a mods folder, and a benchmark in the launcher. DLC content can be unlocked from your own files. Online features don’t work."
+requirements:
+  es: "Tus propios volcados de Driveclub para PS4: la actualización 1.28 (con eboot.bin) y el juego base (con game000.dat). Está probado con la versión estadounidense (CUSA00093) y también acepta la europea (CUSA00003). Además, Windows 10 u 11 de 64 bits, un procesador Intel Haswell, AMD Excavator o Ryzen en adelante, una tarjeta gráfica con Vulkan 1.3 y unos 40 GB libres."
+  en: "Your own Driveclub PS4 dumps: the 1.28 update (with eboot.bin) and the base game (with game000.dat). It’s tested with the US release (CUSA00093) and also accepts the European one (CUSA00003). Plus 64-bit Windows 10 or 11, an Intel Haswell, AMD Excavator, or Ryzen CPU or newer, a Vulkan 1.3 graphics card, and about 40 GB of free space."
+tags:
+  - x86
+  - vulkan
+  - racing
+  - mods

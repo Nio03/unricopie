@@ -1,0 +1,16 @@
+name: Metropolismania
+console: ps2
+status: experimental
+repo: koaque/Metropolismania-PC
+author: koaque
+originalDeveloper: Indi
+year: 2001
+toolchain: PS2Recomp
+desc:
+  es: "Metropolismania PC: versión nativa para Windows de la versión estadounidense de PS2, que parte de una recompilación estática con PS2Recomp y la va reescribiendo a mano como C++ legible, función por función, al estilo de OpenRCT2. Cada función reescrita se compara con la original reproduciendo llamadas grabadas de una partida real, y solo cuenta como hecha si la memoria, los registros y los resultados coinciden. Ya están mapeadas las 1481 funciones del juego y reescritas y verificadas 1058 (un 71 %). Es un trabajo temprano y experimental: el juego arranca, pasa por los logos y la pantalla de título, comprueba la tarjeta de memoria y llega a la ciudad, con vídeos, música y efectos de sonido, pero todavía no se puede jugar de principio a fin. La pantalla panorámica, la alta frecuencia de refresco, la alta resolución, los controles de PC y la versión para Linux están propuestos, sin empezar. No hay versiones publicadas: se compila desde el código."
+  en: "Metropolismania PC: a native Windows version of the US PS2 release that starts from a static recompilation with PS2Recomp and rewrites it by hand into readable C++, one function at a time, in the style of OpenRCT2. Every rewritten function is checked against the original by replaying calls recorded from a running game, and only counts as done when memory, registers, and results match. All 1,481 of the game’s functions are mapped, and 1,058 (71%) are rewritten and verified. It’s early, experimental work: the game boots, shows the logos and title screen, passes the memory card check, and reaches the city, with movies, music, and sound effects, but it can’t be played through yet. Widescreen, high refresh rates, high resolution, PC controls, and a Linux build are proposed, not started. There are no releases: you build it from source."
+requirements:
+  es: "Tu propio volcado del disco estadounidense de Metropolismania (SLUS-20377, versión 1.02), como BIN/CUE o ISO. Para compilarlo, Windows con Visual Studio 2022, CMake, Python 3.11 o posterior, Git y Ghidra 12.1.4 con la extensión para el Emotion Engine."
+  en: "Your own dump of the US Metropolismania disc (SLUS-20377, version 1.02), as BIN/CUE or ISO. To build it, Windows with Visual Studio 2022, CMake, Python 3.11 or later, Git, and Ghidra 12.1.4 with the Emotion Engine extension."
+tags:
+  - emotion-engine

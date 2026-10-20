@@ -1,0 +1,19 @@
+name: "Midnight Club: Los Angeles (mzzvxm)"
+console: x360
+status: playable
+repo: mzzvxm/LARecomp
+author: mzzvxm
+originalDeveloper: Rockstar San Diego
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "LARecomp: recompilación estática de Midnight Club: Los Angeles Complete Edition para Windows x86-64, hecha con el SDK de ReXGlue. Arranca hasta el menú, el modo libre y las carreras funcionan y las partidas se cargan. Corre bien por encima de 30 fps: en lugar del truco habitual de Xenia, que acelera el juego, le pasa a la simulación el tiempo real de cada fotograma, y ajusta la cámara y la suspensión para que se comporten igual a cualquier tasa. Tiene un menú de ajustes dentro del juego con ocho pestañas, un asistente que instala el juego desde tu ISO, importación de partidas de Xenia y RPCS3, radio con tus propios MP3, un cargador de mods y acceso a las traducciones al alemán y al italiano. No publica versiones compiladas: se compila con el SDK de ReXGlue 0.10.0 y Clang. Quedan fallos conocidos, como el tramado visible en sombras y vegetación."
+  en: "LARecomp: a static recompilation of Midnight Club: Los Angeles Complete Edition for x86-64 Windows, built on the ReXGlue SDK. It boots to the menu, free roam and races work, and saves load. It runs properly above 30 fps: instead of the usual Xenia unlock, which makes the game run fast, it feeds the simulation the real frame time, and it adjusts the camera and suspension so they behave the same at any frame rate. It has an in-game settings menu with eight tabs, a wizard that installs the game from your ISO, save import from Xenia and RPCS3, a radio with your own MP3s, a mod loader, and access to the German and Italian translations. It doesn’t publish builds: it’s built with ReXGlue SDK 0.10.0 and Clang. Known issues remain, such as visible dithering on shadows and foliage."
+requirements:
+  es: "Los archivos extraídos de tu propia copia de Midnight Club: Los Angeles Complete Edition para Xbox 360 (default.xex y los archivos xarchive). Para compilarlo, Windows x86-64 con el SDK de ReXGlue 0.10.0, CMake 3.25 o posterior, Clang y Ninja."
+  en: "The extracted files from your own copy of Midnight Club: Los Angeles Complete Edition for Xbox 360 (default.xex and the xarchive files). To build it, x86-64 Windows with ReXGlue SDK 0.10.0, CMake 3.25 or later, Clang, and Ninja."
+tags:
+  - powerpc
+  - racing
+  - 60fps+
+  - mods

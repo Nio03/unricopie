@@ -1,0 +1,18 @@
+name: "Geometry Wars: Retro Evolved 2"
+category: fan-remake
+console: x360
+status: playable
+repo: techknight/geow2
+homepage: https://geow2.com
+author: techknight
+originalDeveloper: Bizarre Creations
+year: 2008
+desc:
+  es: "geow2: port nativo para Windows, macOS, Linux y Steam Deck del juego de Xbox Live Arcade, reconstruido por ingeniería inversa del ejecutable original. Es una reimplementación independiente: no contiene código, gráficos, sonido ni textos del juego, y una herramienta incluida convierte tu propio paquete de XBLA en la carpeta de datos que lee el juego, comprobando cada archivo. Se juegan los seis modos (Deadline, King, Evolved, Pacifism, Waves y Sequence) con todos sus enemigos, la malla, las partículas y el multiplicador, los menús, los desbloqueos, las puntuaciones y los logros locales, y el multijugador local de hasta cuatro jugadores, en versus y en cooperativo, a cualquier resolución. Tiene un servidor de puntuaciones opcional para un grupo de amigos, que sincroniza récords y logros entre equipos. Usa Vulkan en Windows y Linux y Metal en macOS, y necesita FFmpeg para el sonido (el Flatpak ya lo trae)."
+  en: "geow2: a native port of the Xbox Live Arcade game for Windows, macOS, Linux, and Steam Deck, rebuilt by reverse engineering the original executable. It’s an independent reimplementation: it contains none of the game’s code, graphics, sound, or text, and a bundled tool turns your own XBLA package into the data folder the game reads, checking every file. All six modes (Deadline, King, Evolved, Pacifism, Waves, and Sequence) play with all their enemies, the grid, particles, and multiplier, the menus, unlocks, local scores and achievements, and local multiplayer for up to four players, versus and co-op, at any resolution. An optional score server for a group of friends syncs high scores and achievements across devices. It uses Vulkan on Windows and Linux and Metal on macOS, and needs FFmpeg for the sound (the Flatpak brings its own)."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de Geometry Wars: Retro Evolved 2 (title ID 584108FF, versión 0x102), o sus archivos extraídos. Además, FFmpeg, y Windows o Linux x86-64 con Vulkan, o macOS 11 o posterior."
+  en: "Your own Xbox Live Arcade package of Geometry Wars: Retro Evolved 2 (title ID 584108FF, version 0x102), or its extracted files. Plus FFmpeg, and Windows or x86-64 Linux with Vulkan, or macOS 11 or later."
+tags:
+  - shmup
+  - multiplayer

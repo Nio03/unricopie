@@ -1,0 +1,16 @@
+name: inFAMOUS 2 (juans-collab)
+console: ps3
+status: experimental
+repo: juans-collab/infamous-2-recomp
+author: juans-collab
+originalDeveloper: Sucker Punch Productions
+year: 2011
+toolchain: ps3recomp
+desc:
+  es: "Proyecto de ingeniería inversa y recompilación estática de la versión estadounidense de PS3 (BCUS98125) para Windows, con ps3recomp. Todavía no se puede jugar: la introducción corre hasta el final y se dibujan parte de la geometría y un cielo con texturas, pero los materiales salen mal y no se han validado la interfaz, el control de Cole ni el juego en sí. Está pensado para colaborar: trae pruebas con datos sintéticos que funcionan sin el juego y 50 parches ordenados sobre una versión fija de ps3recomp. No hay instalador ni ejecutable para descargar."
+  en: "A reverse-engineering and static recompilation project for the US PS3 release (BCUS98125) on Windows, using ps3recomp. It isn’t playable yet: the introduction runs to its end and some geometry and a textured sky are drawn, but materials are wrong, and the interface, control of Cole, and gameplay haven’t been validated. It’s meant for collaboration: it has synthetic-data tests that run without the game and 50 ordered patches on a pinned ps3recomp revision. There’s no installer or downloadable executable."
+requirements:
+  es: "Tu propia copia estadounidense de inFAMOUS 2 para PS3 (BCUS98125) y Windows de 64 bits. Por ahora, la compilación completa depende de rutas de la máquina del autor."
+  en: "Your own US copy of inFAMOUS 2 for PS3 (BCUS98125) and 64-bit Windows. For now, the full build depends on paths from the author’s machine."
+tags:
+  - powerpc

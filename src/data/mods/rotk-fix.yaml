@@ -1,0 +1,21 @@
+name: ROTK Fix
+kind: mod
+console: pc
+game:
+  es: "The Lord of the Rings: The Return of the King (PC, 2003)"
+  en: "The Lord of the Rings: The Return of the King (PC, 2003)"
+repo: Shagg88/Athelas
+author: Shagg88
+status: usable
+enrich: false
+desc:
+  es: "Arreglo para la versión de PC de The Return of the King que viene dentro de Athelas, el launcher que también trae los ports de las versiones de Xbox de The Two Towers y The Return of the King. Unas DLL d3d8.dll y dinput8.dll junto al juego pasan los gráficos por DXVK (Vulkan) y el sonido 3D por DSOAL y OpenAL Soft, que recupera su reverberación EAX. Añade panorámico y ultrapanorámico sin estirar la interfaz, cualquier resolución, de 60 a 240 fps a la velocidad normal del juego, antialiasing, filtrado y nitidez, mandos de Xbox, PlayStation y Switch con botones reasignables, cooperativo para dos en el mismo PC o en línea por streaming, escenas a pantalla completa, paquetes de texturas, logros y opciones de juego como los trucos del propio juego, todo desactivado por defecto. No toca la protección anticopia del juego. Su autor declara que lo hizo con ayuda de Claude."
+  en: "A fix for the PC version of The Return of the King that comes inside Athelas, the launcher that also carries the ports of the Xbox versions of The Two Towers and The Return of the King. A d3d8.dll and a dinput8.dll next to the game route its graphics through DXVK (Vulkan) and its 3D sound through DSOAL and OpenAL Soft, which brings back its EAX reverb. It adds widescreen and ultrawide without stretching the HUD, any resolution, 60 to 240 fps at normal game speed, anti-aliasing, filtering and sharpening, Xbox, PlayStation, and Switch controllers with remappable buttons, two-player co-op on one PC or online by streaming, full-screen cutscenes, texture packs, achievements, and gameplay options such as the game’s own cheat codes, all off by default. It doesn’t touch the game’s copy protection. Its author states it was made with the help of Claude."
+requirements:
+  es: "Tu propia copia estadounidense de The Return of the King para PC, instalada. Además, Windows 10 u 11 de 64 bits, o Linux y Steam Deck con Proton; se recomienda un controlador con Vulkan 1.3."
+  en: "Your own US copy of The Return of the King for PC, installed. Plus 64-bit Windows 10 or 11, or Linux and Steam Deck through Proton; a Vulkan 1.3 driver is recommended."
+tags:
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - ai-assisted

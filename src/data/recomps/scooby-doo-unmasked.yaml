@@ -1,0 +1,19 @@
+name: Scooby-Doo! Unmasked
+console: gamecube
+status: playable
+repo: josiahg2502-glitch/Scooby-Doo-ReMasked
+author: JosiahG
+originalDeveloper: Artificial Mind and Movement
+year: 2005
+toolchain: Wiicompiled
+desc:
+  es: "Scooby-Doo: Re-Masked: port para Windows de la versión estadounidense de GameCube, por recompilación estática del código PowerPC a C++ con WiiCompiled; los gráficos, el sonido y las llamadas al sistema de la consola están reimplementados. Ofrece hasta 4K, pantalla panorámica (16:9, pantalla completa o cinematográfica 2.39:1) o el 4:3 original, 120 o 180 fps por interpolación (el juego sigue a sus 60), HDR, pantalla completa sin cortes de imagen, mandos de Xbox, PlayStation, Switch Pro y el adaptador de GameCube, y teclado, con controles reasignables y botones en pantalla que siguen tu mando. Guarda en tarjetas de memoria de GameCube y admite mods que sustituyen archivos o texturas. Un launcher instala el juego desde tu imagen de disco. La 1.0 salió el 17 de octubre."
+  en: "Scooby-Doo: Re-Masked: a Windows port of the US GameCube release, made by statically recompiling the PowerPC code to C++ with WiiCompiled; the console’s graphics, audio, and system calls are reimplemented. It offers up to 4K, widescreen (16:9, fill, or cinematic 2.39:1) or the original 4:3, 120 or 180 fps by interpolation (the game itself still runs at 60), HDR, tear-free fullscreen, Xbox, PlayStation, Switch Pro, and GameCube-adapter controllers plus keyboard, with rebindable controls and on-screen prompts that match your controller. It saves to GameCube memory cards and supports mods that replace game files or textures. A launcher installs the game from your disc image. Version 1.0 came out on October 17."
+requirements:
+  es: "Tu propio volcado de Scooby-Doo! Unmasked para GameCube, versión estadounidense (G5DE78), como .iso, .gcm o .ciso. Además, Windows 10 u 11 de 64 bits."
+  en: "Your own dump of Scooby-Doo! Unmasked for GameCube, US release (G5DE78), as an .iso, .gcm, or .ciso. Plus 64-bit Windows 10 or 11."
+tags:
+  - powerpc
+  - widescreen
+  - 60fps+
+  - mods

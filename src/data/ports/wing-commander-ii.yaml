@@ -1,0 +1,18 @@
+name: "Wing Commander II: Vengeance of the Kilrathi"
+category: decomp-port
+console: pc
+status: playable
+repo: neuromancer/wc2-re
+author: neuromancer
+originalDeveloper: Origin Systems
+year: 1991
+desc:
+  es: "Reconstrucción del código fuente de Wing Commander II tal como salió en Wing Commander: The Kilrathi Saga (1996), la reedición para Windows, del mismo autor que la de Wing Commander, con un port nativo en SDL2 y un launcher gráfico para Windows, Linux y macOS. Su autor la da por prácticamente completa: el código compila y enlaza como WC2.EXE, y sus 1501 funciones se parecen de media un 98 % al código máquina original; lo que queda es pulir la fidelidad. El port ejecuta la secuencia de título, la introducción de la campaña, la base de datos de pilotos, los menús de guardado, las escenas y el vuelo con disparos, objetivos, pantallas de la cabina y música. Con los datos de la versión de DOS suenan su música AdLib y sus efectos OriginFX. Añade un renderizador OpenGL opcional para las naves y tramado EGA de 16 colores. Declara que se usaron OpenAI Codex y Anthropic Claude en la reconstrucción."
+  en: "A source reconstruction of Wing Commander II as shipped in Wing Commander: The Kilrathi Saga (1996), the Windows re-release, by the same author as the Wing Commander one, with a native SDL2 port and a graphical launcher for Windows, Linux, and macOS. Its author calls it materially complete: the source compiles and links as WC2.EXE, and its 1,501 functions average 98% machine-code similarity to the original; what remains is fidelity polish. The port runs the title sequence, the campaign intro, the pilot database, the save menus, the cutscenes, and spaceflight with firing, targeting, cockpit displays, and music. With the DOS release’s data, it plays its AdLib music and OriginFX sound effects. It adds an optional OpenGL renderer for ships and 16-colour EGA dithering. It states that OpenAI Codex and Anthropic Claude were used during the reconstruction."
+requirements:
+  es: "Tu propia copia de Wing Commander II, de The Kilrathi Saga o la versión original de DOS (con soporte parcial). Además, Windows, Linux o macOS."
+  en: "Your own copy of Wing Commander II, from The Kilrathi Saga or the original DOS release (with partial support). Plus Windows, Linux, or macOS."
+tags:
+  - x86
+  - decomp
+  - ai-assisted

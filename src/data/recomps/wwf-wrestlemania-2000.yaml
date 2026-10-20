@@ -1,0 +1,20 @@
+name: WWF WrestleMania 2000
+console: n64
+status: playable
+repo: jessetbh/WWFWrestleMania2000Recomp
+author: jessetbh
+originalDeveloper: AKI Corporation
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Recompilación estática para Windows de WWF WrestleMania 2000, con N64Recomp, N64ModernRuntime y RT64; es la tercera de la familia de juegos de lucha libre de AKI del mismo autor, tras World Tour y Revenge. Está en beta: arranca, se juega en menús y combates con música y sonido, mando y teclado, vibra, y guarda sola tanto la partida del cartucho como el Controller Pak. No hay decompilación del juego: los símbolos salen de un desensamblado propio. Añade panorámico, alta resolución, menús con reasignación completa de controles y, de forma experimental, 60 y 120 fps por interpolación, trazado de rayos con iluminación para los recintos, filtro CRT y HDR. Trae un menú de mods con cámara libre y trucos, y muchos hacks de la ROM funcionan como mods sobre tu ROM limpia."
+  en: "A static recompilation of WWF WrestleMania 2000 for Windows, with N64Recomp, N64ModernRuntime, and RT64; it’s the third in the same author’s family of AKI wrestling games, after World Tour and Revenge. It’s in beta: it boots, plays through menus and matches with music and sound, controller and keyboard, rumbles, and saves both the cartridge save and the Controller Pak automatically. There’s no decompilation of the game: the symbols come from the author’s own disassembly. It adds widescreen, high resolution, menus with full control remapping, and, experimentally, 60 and 120 fps through interpolation, ray tracing with venue lighting, a CRT filter, and HDR. It comes with a mods menu with a free camera and cheats, and many ROM hacks run as mods on top of your clean ROM."
+requirements:
+  es: "Tu propia ROM estadounidense de WWF WrestleMania 2000, revisión 1.2; las 1.0 y 1.1 y las de otras regiones no sirven. Además, Windows con una tarjeta gráfica con Direct3D 12 (Shader Model 6) o Vulkan 1.2 y un procesador con SSE4.1."
+  en: "Your own US WWF WrestleMania 2000 ROM, revision 1.2; revisions 1.0 and 1.1 and other regions won’t work. Plus Windows with a Direct3D 12 (Shader Model 6) or Vulkan 1.2 graphics card and a CPU with SSE4.1."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - ray-tracing
+  - mods

@@ -1,0 +1,21 @@
+name: Virtua Fighter
+console: arcade
+status: playable
+repo: mr-finster/vf1-recomp
+homepage: https://vf1-recomp.pages.dev
+author: mr-finster
+originalDeveloper: Sega AM2
+year: 1993
+desc:
+  es: "Recompilación del Virtua Fighter original de recreativa (placa Sega Model 1) para Mac, Windows y Steam Deck o Linux. Al arrancar, el programa del procesador NEC V60 de tu ROM se recompila a código nativo en tu equipo; el resto de la placa (el coprocesador de geometría TGP, el rasterizador, las capas de tiles, la placa de sonido con su 68000 y la de entrada y salida) se reimplementa a partir del código de MAME. A 1x da los fotogramas de la recreativa píxel por píxel; por encima, escala de renderizado hasta 6x, panorámico y ultrapanorámico, y movimiento suave a la frecuencia de tu pantalla, con el 3D dibujado en la GPU (Metal, Direct3D 12 o Vulkan) y comprobado contra el de la CPU al arrancar. Tiene menú, teclado y mandos para dos jugadores, el juego en inglés o japonés, y trucos: luchadores aleatorios mezclados y los personajes que se quedaron fuera del juego, como Siba, Jeff o Dural. Todavía no hay juego en línea. Declara que se hizo con ayuda de herramientas de IA, y cada versión se compara fotograma a fotograma con MAME."
+  en: "A recompilation of the original arcade Virtua Fighter (Sega Model 1 board) for Mac, Windows, and Steam Deck or Linux. When it starts, the NEC V60 program from your ROM is recompiled to native code on your machine; the rest of the board (the TGP geometry coprocessor, the rasterizer, the tile layers, the sound board with its 68000, and the I/O board) is reimplemented from MAME’s code. At 1x it gives the arcade’s frames pixel for pixel; above that, render scales up to 6x, widescreen and ultrawide, and smooth motion at your screen’s refresh rate, with the 3D drawn on the GPU (Metal, Direct3D 12, or Vulkan) and checked against the CPU’s picture at startup. It has a menu, keyboard and gamepads for two players, the game in English or Japanese, and cheats: randomly mixed fighters and the characters cut from the game, such as Siba, Jeff, and Dural. There’s no online play yet. It states it was made with the help of AI coding tools, and every build is compared frame by frame with MAME."
+requirements:
+  es: "Tu propio volcado del juego como el conjunto vf de MAME (vf.zip). Además, macOS 11 o posterior (Apple Silicon o Intel), Windows 10 u 11 de 64 bits, o Steam Deck o Linux x86-64."
+  en: "Your own dump of the game as MAME’s vf set (vf.zip). Plus macOS 11 or later (Apple silicon or Intel), 64-bit Windows 10 or 11, or a Steam Deck or x86-64 Linux."
+tags:
+  - v60
+  - arcade
+  - model-1
+  - widescreen
+  - multiplayer
+  - ai-assisted

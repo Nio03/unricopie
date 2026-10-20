@@ -1,0 +1,19 @@
+name: International Superstar Soccer Deluxe
+console: snes
+status: playable
+repo: sergiomanzur/issd-native
+author: sergiomanzur
+originalDeveloper: Konami
+year: 1995
+toolchain: snesrecomp
+desc:
+  es: "ISSD Native: recompilación nativa de la versión estadounidense de Super Nintendo para Windows, Linux y Android. El código 65816 se traduce a C, con versiones nativas de la descompresión, la carga de memoria y los comandos de sonido; el vídeo, el sonido y los periféricos siguen corriendo sobre modelos del hardware. Está en beta, camino de la 1.0 (la última es la 0.5.0-beta.3, del 11 de octubre). Tiene todos los modos del original, multijugador local hasta para cuatro con mandos y multitap, controles reasignables con perfiles, guardado de campañas y estados, compatibilidad con las contraseñas del cartucho, vistas más anchas experimentales, filtros CRT y nítidos, una opción con seis errores del original corregidos, ajustes de juego y paquetes de mods para plantillas, equipaciones y estadios, con su propio editor. Su autor lo presenta como un proyecto de recompilación hecho con IA («AI-driven»)."
+  en: "ISSD Native: a native recompilation of the US Super Nintendo release for Windows, Linux, and Android. The 65816 code is translated into C, with native replacements for asset decompression, memory streaming, and audio commands; video, audio, and peripherals still run on hardware models. It’s a beta working toward 1.0 (the latest is 0.5.0-beta.3, from October 11). It has all of the original’s modes, local multiplayer for up to four with gamepads and multitap, rebindable controls with profiles, campaign saves and save states, compatibility with the cartridge’s passwords, experimental wider views, CRT and sharp filters, an option with six of the original’s bugs fixed, gameplay tweaks, and mod packs for rosters, kits, and stadiums, with their own editor. Its author describes it as an “AI-driven” recompilation project."
+requirements:
+  es: "Tu propia ROM estadounidense de International Superstar Soccer Deluxe, sin cabecera (.sfc de 2 MB, MD5 345ddedcd63412b9373dabb67c11fc05). Además, Windows x64, Linux x86-64 o Android 8.0 o posterior."
+  en: "Your own headerless US International Superstar Soccer Deluxe ROM (2 MB .sfc, MD5 345ddedcd63412b9373dabb67c11fc05). Plus x64 Windows, x86-64 Linux, or Android 8.0 or later."
+tags:
+  - "65816"
+  - multiplayer
+  - mods
+  - ai-assisted

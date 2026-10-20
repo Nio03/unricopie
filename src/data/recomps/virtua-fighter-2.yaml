@@ -1,0 +1,21 @@
+name: Virtua Fighter 2
+console: arcade
+status: playable
+repo: mr-finster/vf2-recomp
+homepage: https://vf2-recomp.pages.dev
+author: mr-finster
+originalDeveloper: Sega AM2
+year: 1994
+desc:
+  es: "Recompilación de Virtua Fighter 2 de recreativa (placa Sega Model 2A) para Mac, Windows y Linux o Steam Deck, del mismo autor que la de Virtua Fighter. Cada vez que arranca, el programa del procesador Intel i960 de tu ROM se recompila a código nativo (ARM64 o x86-64), comprobado instrucción por instrucción y ciclo por ciclo contra el intérprete de MAME. Solo se recompila ese programa: el resto de la placa (el procesador de geometría TGP, el geometrizador y el renderizador de polígonos, las capas de tiles y la placa de sonido con su 68000 y su SCSP) corre con código de MAME. A 1x da los fotogramas y el sonido de la recreativa tal como los saca MAME; por encima, escala de renderizado hasta 6x, panorámico y ultrapanorámico, y movimiento suave a la frecuencia de tu pantalla, con el 3D en la GPU. Tiene menú, teclado y mandos para dos jugadores, los ajustes de la recreativa y, como trucos, los personajes ocultos Dural, MUE y KOJAC. Todavía no hay juego en línea. Declara que se hizo con ayuda de herramientas de IA."
+  en: "A recompilation of the arcade Virtua Fighter 2 (Sega Model 2A board) for Mac, Windows, and Linux or Steam Deck, by the same author as the Virtua Fighter one. Every time it starts, the Intel i960 program from your ROM is recompiled to native code (ARM64 or x86-64), checked instruction for instruction and cycle for cycle against MAME’s interpreter. Only that program is recompiled: the rest of the board (the TGP geometry processor, the geometrizer and polygon renderer, the tile layers, and the sound board with its 68000 and SCSP) runs on MAME’s code. At 1x it gives the arcade’s frames and sound as MAME makes them; above that, render scales up to 6x, widescreen and ultrawide, and smooth motion at your screen’s refresh rate, with the 3D on the GPU. It has a menu, keyboard and gamepads for two players, the arcade’s settings, and, as cheats, the hidden characters Dural, MUE, and KOJAC. There’s no online play yet. It states it was made with the help of AI coding tools."
+requirements:
+  es: "Tu propio volcado del juego como el conjunto vf2 de MAME (vf2.zip, versión 2.1). Además, un Mac, Windows de 64 bits, o Linux o una Steam Deck."
+  en: "Your own dump of the game as MAME’s vf2 set (vf2.zip, Version 2.1). Plus a Mac, 64-bit Windows, or Linux or a Steam Deck."
+tags:
+  - i960
+  - arcade
+  - model-2
+  - widescreen
+  - multiplayer
+  - ai-assisted

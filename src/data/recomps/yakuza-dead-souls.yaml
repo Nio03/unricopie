@@ -1,0 +1,16 @@
+name: "Yakuza: Dead Souls"
+console: ps3
+status: experimental
+repo: canersaka/Yakuza-Dead-Souls-Recompiled
+author: canersaka
+originalDeveloper: Sega
+year: 2011
+toolchain: ps3recomp
+desc:
+  es: "Port nativo para Windows de la versión norteamericana de PS3 (BLUS30826), por recompilación estática del ejecutable original, con un recompilador que empezó como fork de ps3recomp. Sustituye el núcleo, las bibliotecas del sistema, SPURS, los gráficos, el sonido, la entrada y los archivos de la PS3 por un runtime nativo, sin necesitar ningún firmware. Reproduce los vídeos con sonido, llega al título, empieza una partida nueva y se juega la introducción, con un renderizador en directo en Direct3D 12. Las escenas ligeras van a los 30 fps del juego, pero el comienzo en exteriores con mucha gente ronda los 20. Su autor lo presenta como un proyecto experimental, no como un port terminado; empezó el 9 de junio de 2026, en el 15.º aniversario del original japonés."
+  en: "A native Windows port of the North American PS3 release (BLUS30826), by static recompilation of the original executable, with a recompiler that started as a fork of ps3recomp. It replaces the PS3’s kernel, system libraries, SPURS, graphics, audio, input, and filesystem with a native runtime, and needs no firmware at all. It plays the intro movies with sound, reaches the title screen, starts a new game, and plays through the opening, with a live Direct3D 12 renderer. Lighter scenes run at the game’s 30 fps cap, but the crowded outdoor opening runs at about 20. Its author presents it as an experimental project, not a finished port; it began on June 9, 2026, the 15th anniversary of the Japanese original."
+requirements:
+  es: "Tu propia copia norteamericana de Yakuza: Dead Souls para PS3 (BLUS30826, versión 1.00), con los archivos extraídos y descifrados como explica el proyecto. Para compilarlo, Windows 10 u 11 de 64 bits con una tarjeta gráfica con Direct3D 12, Visual Studio 2022 o posterior, CMake, Ninja y Python 3.10 o posterior; FFmpeg para los vídeos."
+  en: "Your own North American copy of Yakuza: Dead Souls for PS3 (BLUS30826, version 1.00), with the files extracted and decrypted as the project explains. To build it, 64-bit Windows 10 or 11 with a Direct3D 12 graphics card, Visual Studio 2022 or later, CMake, Ninja, and Python 3.10 or later; FFmpeg for the movies."
+tags:
+  - powerpc

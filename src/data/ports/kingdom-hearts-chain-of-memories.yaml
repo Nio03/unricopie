@@ -1,0 +1,19 @@
+name: "Kingdom Hearts: Chain of Memories"
+category: decomp-port
+console: gba
+status: playable
+repo: MatyMeatBoy/ReKHCoM
+homepage: https://matymeatboy.github.io/ReKHCoM/
+author: MatyMeatBoy
+originalDeveloper: Jupiter
+year: 2004
+decomp: Pheenoh/khcom
+desc:
+  es: "ReKHCoM: port para PC de Kingdom Hearts: Chain of Memories de Game Boy Advance, construido sobre la decompilación exacta de Pheenoh, que también está en el catálogo. El juego decompilado corre como programa nativo con renderizador, sonido y launcher propios, en Windows, Linux y Steam Deck, con versiones alfa para Android, consolas portátiles Anbernic, el navegador y PS5. Funciona con los cartuchos europeo, estadounidense y japonés, en todos sus idiomas. Añade pantalla panorámica y ultrapanorámica de 16:10 a 32:9 sin estirar, que muestra más mundo en el campo y los combates, texto en alta definición, sonido suavizado, vídeos a pantalla completa y, al empezar partida, una segunda versión, Re:Chain of Memories, con niveles de dificultad inspirados en el remake de PS2, diálogos más rápidos y esquivar y almacenar cartas con un solo botón. Su última versión incluye los 90 logros oficiales de RetroAchievements, sin necesidad de cuenta. En el navegador, tu ROM se queda en tu dispositivo."
+  en: "ReKHCoM: a PC port of the Game Boy Advance Kingdom Hearts: Chain of Memories, built on Pheenoh’s matching decompilation, which is also in this catalog. The decompiled game runs as a native program with its own renderer, audio, and launcher, on Windows, Linux, and Steam Deck, with alpha builds for Android, Anbernic handhelds, the browser, and PS5. It works with the European, US, and Japanese cartridges, in all their languages. It adds widescreen and ultrawide from 16:10 to 32:9 without stretching, showing more of the world in the field and in battles, HD text, smoothed audio, full-screen movies, and, when starting a new game, a second version, Re:Chain of Memories, with difficulty levels inspired by the PS2 remake, faster dialogue, and one-button dodge and stock. Its latest version includes the 90 official RetroAchievements achievements, no account required. In the browser, your ROM stays on your device."
+requirements:
+  es: "Tu propio volcado del cartucho de Kingdom Hearts: Chain of Memories, versión europea, estadounidense o japonesa, que el launcher comprueba por su SHA-1. Hay versiones para Windows, Linux y Steam Deck."
+  en: "Your own dump of the Kingdom Hearts: Chain of Memories cartridge, European, US, or Japanese release, which the launcher checks by its SHA-1. There are builds for Windows, Linux, and Steam Deck."
+tags:
+  - decomp
+  - widescreen

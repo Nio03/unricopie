@@ -1,0 +1,17 @@
+name: "Wing Commander: Privateer"
+category: fan-remake
+console: dos
+status: playable
+repo: schlangz/openprivateer-project
+homepage: https://openprivateer.org/
+author: schlangz
+originalDeveloper: Origin Systems
+year: 1993
+desc:
+  es: "OpenPrivateer: reimplementación moderna de Wing Commander: Privateer y de su expansión Righteous Fire, que funciona con los archivos de datos del juego original. Está en alfa pública, con versiones para Windows, macOS y Linux (x86-64 y ARM64). Su motor se desarrolla en un repositorio privado: el repositorio público es el de la web y las descargas. Según su web, las bases funcionan como en el original (compraventa de naves, equipo y mercancías, el bar, los gremios y los tablones de misiones), las misiones generadas usan los encuentros y guiones del original, y la campaña de Privateer se juega desde la primera oferta de Sandoval hasta los créditos finales; el vuelo, el combate y la IA se reconstruyeron a partir del ejecutable original. Las partidas son compatibles con las del juego original. Tiene un modo clásico, fiel al original, y otros que suman comodidades opcionales, además de varias naves por piloto, un universo abierto experimental ampliable con mods y controles reasignables para teclado, ratón, joystick y mando."
+  en: "OpenPrivateer: a modern reimplementation of Wing Commander: Privateer and its Righteous Fire add-on, running on the original game’s data files. It’s in public alpha, with builds for Windows, macOS, and Linux (x86-64 and ARM64). Its engine is developed in a private repository: the public repository holds the website and the downloads. According to the website, the bases work as in the original (the ship dealer, equipment, the commodity exchange, the bar, the guilds, and the mission boards), generated missions use the original’s encounters and scripts, and the Privateer campaign plays from Sandoval’s first offer to the closing credits; spaceflight, combat, and the AI were reconstructed from the original executable. Saves are compatible with the original game’s. It has a Classic mode, faithful to the original, and others that add optional conveniences, plus multiple ships per pilot, an experimental open universe that mods can extend, and remappable keyboard, mouse, joystick, and gamepad controls."
+requirements:
+  es: "Los archivos de datos de tu propia copia de Wing Commander: Privateer. Además, Windows, macOS o Linux de 64 bits."
+  en: "The data files from your own copy of Wing Commander: Privateer. Plus 64-bit Windows, macOS, or Linux."
+tags:
+  - mods

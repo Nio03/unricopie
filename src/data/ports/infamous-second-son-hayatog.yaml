@@ -1,0 +1,17 @@
+name: inFAMOUS Second Son (HayatoG)
+category: native-layer
+console: ps4
+status: playable
+repo: HayatoG/iss_pc
+author: HayatoG
+originalDeveloper: Sucker Punch Productions
+year: 2014
+desc:
+  es: "Port nativo para Linux y Windows de la versión estadounidense de PS4 (CUSA00223, juego base 1.00 con la actualización 1.07): el código original corre directamente en el procesador, el sistema de la PS4 está reimplementado y la GPU se traduce a Vulkan. Comparte núcleo con los ports de The Last Guardian y Gravity Rush 2 del mismo autor. Se juega: arranca, llega al juego y avanza por los primeros capítulos, con escalada, poderes, escenas, partidas guardadas, sonido propio sin archivos del firmware y mandos por SDL3. El giroscopio del DualShock 4 o del DualSense funciona, y en otros mandos o en el teclado un modo sensor hace de lata de spray para los grafitis. El rendimiento todavía es irregular, de 20 a 30 fps en una RTX 2060, y algunos efectos de niebla, agua y fuego parpadean. Tiene un launcher en portugués e inglés con mods y trucos, copias de seguridad de las partidas y correcciones experimentales que se activan una a una."
+  en: "A native Linux and Windows port of the US PS4 release (CUSA00223, base game 1.00 with the 1.07 update): the original code runs directly on the CPU, the PS4 system is reimplemented, and the GPU is translated to Vulkan. It shares its core with the same author’s ports of The Last Guardian and Gravity Rush 2. It’s playable: it boots, reaches gameplay, and gets through the first chapters, with climbing, powers, cutscenes, saves, its own audio with no firmware files, and SDL3 controllers. The DualShock 4 or DualSense gyro works, and on other controllers or the keyboard a sensor mode acts as the spray can for the graffiti. Performance is still uneven, 20–30 fps on an RTX 2060, and some fog, water, and fire effects flicker. It has a launcher in Portuguese and English with mods and cheats, save backups, and experimental fixes you can turn on one by one."
+requirements:
+  es: "Tu propio volcado de la versión estadounidense de inFAMOUS Second Son para PS4 (CUSA00223), con el juego base 1.00 y la actualización 1.07 en una sola carpeta, sacado de tu consola; no hace falta ningún archivo del firmware. Además, Windows 10 (1903 o posterior) u 11 de 64 bits o Linux x86-64 (glibc 2.39 o posterior), una tarjeta gráfica con Vulkan 1.3 (se recomiendan 6 GB de memoria de vídeo) y unos 33 GB libres."
+  en: "Your own dump of the US release of inFAMOUS Second Son for PS4 (CUSA00223), with base game 1.00 and the 1.07 update in one folder, taken from your console; no firmware files are needed. Plus 64-bit Windows 10 (1903 or later) or 11, or x86-64 Linux (glibc 2.39 or later), a Vulkan 1.3 graphics card (6 GB of VRAM recommended), and about 33 GB of free space."
+tags:
+  - x86
+  - vulkan

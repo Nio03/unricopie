@@ -1,0 +1,16 @@
+name: "South Park: Let's Go Tower Defense Play! (superheher)"
+console: x360
+status: playable
+repo: superheher/south-park-tower-defence-recomp
+author: superheher
+originalDeveloper: Doublesix
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "El primer port nativo de este juego de Xbox Live Arcade, por recompilación estática del ejecutable de PowerPC sobre el SDK de ReXGlue, con XenonRecomp y XenosRecomp como referencias. La 1.0 (10 de junio de 2026) se juega entera de forma nativa en Linux con Vulkan, según su autor: arranque, menús, partidas y guardado, con sonido y controles, casi siempre a 60 fps, aunque las oleadas más pesadas todavía bajan. La versión de Windows tiene pendientes, recogidos en su hoja de ruta. El resultado principal es una serie de parches para el SDK de ReXGlue. El port de TekRantGaming, también en el catálogo, reutiliza hallazgos de este."
+  en: "The first native port of this Xbox Live Arcade game, by static recompilation of its PowerPC executable on the ReXGlue SDK, with XenonRecomp and XenosRecomp as references. Version 1.0 (June 10, 2026) is fully playable natively on Linux with Vulkan, according to its author: boot, menus, matches, and saves, with sound and input, mostly at 60 fps, though the heaviest waves still dip. The Windows build has open items, listed in its roadmap. The main result is a patch series for the ReXGlue SDK. TekRantGaming’s port, also in this catalog, reuses findings from this one."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de South Park: Let's Go Tower Defense Play! (Title ID 58410931), del que se extrae el default.xex. Además, Linux con Vulkan (la versión 1.0 es para Linux)."
+  en: "Your own Xbox Live Arcade package of South Park: Let’s Go Tower Defense Play! (Title ID 58410931), from which default.xex is extracted. Plus Linux with Vulkan (version 1.0 targets Linux)."
+tags:
+  - powerpc

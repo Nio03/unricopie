@@ -1,0 +1,14 @@
+name: xboxrecomp
+kind: recompiler
+consoles:
+  - xbox
+repo: sp00nznet/xboxrecomp
+author: sp00nznet
+status: usable
+desc:
+  es: "Herramienta pública de recompilación estática para juegos de la Xbox original: traduce cada función del código x86 del ejecutable XBE a C, que se compila en un programa nativo para Windows, y también para Linux y macOS (x86-64 y ARM64). Un proceso en Python analiza el XBE, desensambla, identifica las funciones de biblioteca, recupera las convenciones de llamada y genera el C. Sus bibliotecas de ejecución reimplementan el núcleo de la Xbox, Direct3D 8 sobre Direct3D 11, el sonido, la entrada, el USB y los vídeos; partes del procesador de sonido y de la GPU NV2A vienen de xemu. Se construyó con Burnout 3: Takedown como juego de referencia y está detrás de varios ports del catálogo, como Burnout 3, Mercenaries, Blinx 2, Jet Set Radio Future, Ninja Gaiden Black y SSX Tricky. Va por la 0.15.0 (19 de octubre). Su autor declara que se hizo con Claude Code."
+  en: "A public static recompilation toolkit for original Xbox games: it translates every function of the XBE executable’s x86 code into C, which compiles into a native program for Windows, and also for Linux and macOS (x86-64 and ARM64). A Python pipeline parses the XBE, disassembles it, identifies library functions, recovers calling conventions, and generates the C. Its runtime libraries reimplement the Xbox kernel, Direct3D 8 on Direct3D 11, sound, input, USB, and video playback; parts of the audio processor and the NV2A GPU come from xemu. It was built with Burnout 3: Takedown as its reference title and is behind several ports in this catalog, such as Burnout 3, Mercenaries, Blinx 2, Jet Set Radio Future, Ninja Gaiden Black, and SSX Tricky. It’s at 0.15.0 (October 19). Its author states it was built with Claude Code."
+tags:
+  - x86
+  - sdk
+  - ai-assisted

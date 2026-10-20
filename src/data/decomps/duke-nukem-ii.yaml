@@ -1,0 +1,9 @@
+name: Duke Nukem II
+console: dos
+repo: lethal-guitar/Duke2Reconstructed
+desc:
+  es: "Reconstrucción completa del código fuente de Duke Nukem II (Apogee Software, 1993) a partir del desensamblado del ejecutable original, en C y ensamblador comentados. Se compila con herramientas de la época, como Borland C++, y da un binario idéntico byte a byte al original tras comprimirlo con LZEXE. La hizo el autor de Rigel Engine, la reimplementación para jugar en sistemas modernos que también está en el catálogo, a partir de su trabajo de ingeniería inversa para aquel proyecto. Está pensada para documentar y preservar el código y para crear versiones modificadas que corran en DOS; para jugar en un PC actual, el propio autor remite a Rigel Engine. No incluye datos del juego."
+  en: "A complete reconstruction of Duke Nukem II’s source code (Apogee Software, 1993) from the disassembly of the original executable, in commented C and assembly. It builds with era-appropriate tools, such as Borland C++, into a binary that’s byte-for-byte identical to the original after LZEXE compression. It was made by the author of Rigel Engine, the reimplementation for playing on modern systems that’s also in this catalog, building on the reverse engineering done for that project. It’s meant to document and preserve the code and to make modified versions that run on DOS; for playing on a modern PC, the author points to Rigel Engine. It includes no game data."
+tags:
+  - x86
+  - matching

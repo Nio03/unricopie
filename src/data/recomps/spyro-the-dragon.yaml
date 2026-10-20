@@ -1,0 +1,20 @@
+name: Spyro the Dragon
+console: ps1
+status: playable
+homepage: https://openpete.com/
+author: tyscorp
+originalDeveloper: Insomniac Games
+year: 1998
+toolchain: psxrecomp
+enrich: false
+desc:
+  es: "OpenPete: port nativo de Spyro the Dragon para Windows y Linux, hecho por recompilación estática con PSXRecomp sobre la decompilación exacta del juego (spyro-1): las funciones ya decompiladas usan ese código, y la recompilación cubre el resto. Las llamadas a las bibliotecas de Sony las atiende un runtime basado en PsyCross, y un renderizador propio lee el estado del juego en lugar de los comandos de la GPU, lo que permite profundidad real, cualquier tasa de fotogramas con interpolación (el juego sigue a sus 29,913 Hz), pantalla panorámica Hor+, alta resolución y quitar el temblor y las texturas deformadas de la PlayStation, que se pueden volver a activar. Suma paquetes de texturas en alta definición, más distancia de dibujado, reemplazo de la música, estados guardados, rebobinado, mods en C y shaders que se compilan al arrancar y un menú de ajustes dentro del juego. Su autor es tyscorp. El código fuente todavía no está publicado («Source coming soon»); las versiones se descargan de su web."
+  en: "OpenPete: a native Windows and Linux port of Spyro the Dragon, made by static recompilation with PSXRecomp on top of the game’s matching decompilation (spyro-1): functions already decompiled use that code, and recompilation covers the rest. Calls into Sony’s libraries go to a runtime based on PsyCross, and a custom renderer reads the game state instead of the GPU commands, which allows true depth, any frame rate with interpolation (the game still ticks at 29.913 Hz), Hor+ widescreen, high resolution, and removing the PlayStation’s wobble and warped textures, which can be turned back on. It adds HD texture packs, extended draw distance, music replacement, save states, rewind, mods written in C and shaders that compile at startup, and an in-game settings menu. It’s made by tyscorp. The source code isn’t published yet (“Source coming soon”); builds are downloaded from its website."
+requirements:
+  es: "Tu propio disco estadounidense de Spyro the Dragon (SCUS-94228). Además, Windows 10 u 11 de 64 bits o Linux x86-64, y una tarjeta gráfica con Vulkan 1.2. La primera vez copia tu disco y compila el código, y ocupa en total unos 1,2 GB; la versión para macOS llegará más adelante."
+  en: "Your own US Spyro the Dragon disc (SCUS-94228). Plus 64-bit Windows 10 or 11 or x86-64 Linux, and a graphics card with Vulkan 1.2. On first run it copies your disc and compiles the code, taking about 1.2 GB in total; a macOS build will come later."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods

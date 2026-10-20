@@ -1,0 +1,18 @@
+name: Wing Commander
+category: decomp-port
+console: pc
+status: playable
+repo: neuromancer/wc1-re
+author: neuromancer
+originalDeveloper: Origin Systems
+year: 1990
+desc:
+  es: "Reconstrucción del código fuente de Wing Commander tal como salió en Wing Commander: The Kilrathi Saga (1996), la reedición para Windows, con un port nativo en SDL2 para Windows, Linux y macOS. La compilación de referencia, con Microsoft Visual C++ 4.20, busca reproducir el ejecutable original lo más fielmente posible, aunque la reconstrucción byte a byte todavía no está completa. El port funciona con los datos de The Kilrathi Saga y, en parte, con los del Wing Commander original de DOS: su música OriginFX y AdLib y sus efectos sintetizados funcionan, otras cosas propias de DOS quizá no. Tiene un launcher gráfico y añade ventana redimensionable, mandos, un renderizador OpenGL opcional que dibuja las naves a la resolución de salida, tramado EGA de 16 colores, vista sin cabina, modos de joystick con vibración y arreglos de fallos del original, como aterrizar en el Tiger's Claw desde cualquier ángulo. Declara que se usaron OpenAI Codex y Anthropic Claude en la reconstrucción."
+  en: "A source reconstruction of Wing Commander as shipped in Wing Commander: The Kilrathi Saga (1996), the Windows re-release, with a native SDL2 port for Windows, Linux, and macOS. The reference build, with Microsoft Visual C++ 4.20, aims to reproduce the original executable as closely as possible, though the byte-for-byte reconstruction isn’t complete yet. The port runs on The Kilrathi Saga’s data and, partly, on the original DOS Wing Commander’s: its OriginFX and AdLib music and synthesized sound effects work, other DOS-specific things may not. It has a graphical launcher and adds a resizable window, gamepads, an optional OpenGL renderer that draws ships at output resolution, 16-colour EGA dithering, a cockpitless view, joystick modes with rumble, and fixes for bugs in the original, such as landing on the Tiger’s Claw from any bearing. It states that OpenAI Codex and Anthropic Claude were used during the reconstruction."
+requirements:
+  es: "Tu propia copia de Wing Commander: The Kilrathi Saga (con los archivos STREAMS), o del Wing Commander original de DOS, con soporte parcial. Además, Windows, Linux o macOS."
+  en: "Your own copy of Wing Commander: The Kilrathi Saga (with its STREAMS files), or of the original DOS Wing Commander, with partial support. Plus Windows, Linux, or macOS."
+tags:
+  - x86
+  - decomp
+  - ai-assisted

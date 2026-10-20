@@ -1,0 +1,16 @@
+name: inFAMOUS
+console: ps3
+status: playable
+repo: whompay/inFAMOUSreborn
+author: whompay
+originalDeveloper: Sucker Punch Productions
+year: 2009
+toolchain: ps3recomp
+desc:
+  es: "Port nativo no oficial para Windows de la versión europea de PS3 (BCES00220), por recompilación estática con ps3recomp: el código PowerPC y SPU se traduce a C/C++ y los gráficos van por Direct3D 12. Un instalador toma tu imagen de disco o tu carpeta, comprueba Python y las herramientas de compilación de C++ y ofrece instalarlas, regenera el código recompilado a partir de tu copia y lo compila en tu equipo. Las actualizaciones descargan solo lo que cambió. Se juega con mando, como en la consola, o con teclado y ratón, y F10 abre los ajustes de VSync, límite de fotogramas y resolución. En procesadores sin AVX2, el instalador compila una versión compatible más lenta. La 1.0 salió el 18 de octubre."
+  en: "An unofficial native Windows port of the European PS3 release (BCES00220), by static recompilation with ps3recomp: the PowerPC and SPU code is translated to C/C++ and graphics go through Direct3D 12. An installer takes your disc image or folder, checks for Python and the C++ build tools and offers to install them, regenerates the recompiled code from your copy, and builds it on your machine. Updates download only what changed. It plays with a controller, as on the console, or with keyboard and mouse, and F10 opens the settings for VSync, frame cap, and resolution. On CPUs without AVX2, the installer builds a slower compatibility version. Version 1.0 came out on October 18."
+requirements:
+  es: "Tu propia copia europea de inFAMOUS para PS3 (BCES00220), como imagen (si está cifrada, con su .dkey al lado) o como carpeta con PS3_GAME; si solo tienes el EBOOT.BIN cifrado, RPCS3 para descifrarlo. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12, un procesador con SSE4.1, Python 3.10 o posterior, las Build Tools de Visual Studio 2022 con Clang, unos 10 GB libres y 16 GB de RAM."
+  en: "Your own European copy of inFAMOUS for PS3 (BCES00220), as an image (if encrypted, with its .dkey next to it) or a folder with PS3_GAME; if you only have the encrypted EBOOT.BIN, RPCS3 to decrypt it. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, a CPU with SSE4.1, Python 3.10 or later, the Visual Studio 2022 Build Tools with Clang, about 10 GB of free space, and 16 GB of RAM."
+tags:
+  - powerpc

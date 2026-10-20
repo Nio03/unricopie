@@ -1,0 +1,18 @@
+name: Twisted Metal 1–4
+console: ps1
+status: playable
+repo: jcoker85/TwistedMetal1234Recomp
+author: jcoker85
+originalDeveloper: SingleTrac / 989 Studios
+year: 1995
+toolchain: psxrecomp
+desc:
+  es: "Recompilaciones estáticas de los cuatro Twisted Metal de PlayStation (Twisted Metal, Twisted Metal 2, Twisted Metal III y Twisted Metal 4, versiones estadounidenses) como programas nativos para Windows, hechas con psxrecomp y recomp-ui y reunidas en un launcher común. Añade pantalla panorámica 16:9 o 21:9 (en III y 4, dibujando también el terreno que el juego recortaba para la vista 4:3), modos de 30 y 60 fps en los dos primeros, con la conducción y las armas ajustadas para que se comporten igual que a los 20 originales, Smooth Motion en el cuarto y ajustes de pantalla, sonido y controles compartidos entre los cuatro. Las descargas traen los programas ya compilados, con el código de cada juego traducido y la BIOS libre OpenBIOS, pero ningún dato de los discos; el código recompilado también se puede generar en tu equipo. La 1.0.0 salió el 13 de octubre."
+  en: "Static recompilations of the four PlayStation Twisted Metal games (Twisted Metal, Twisted Metal 2, Twisted Metal III, and Twisted Metal 4, US releases) as native Windows programs, built with psxrecomp and recomp-ui and gathered in one launcher. It adds 16:9 or 21:9 widescreen (in III and 4 it also draws the terrain the game left out of the 4:3 view), 30 and 60 fps modes in the first two, with handling and weapons adjusted to behave as they did at the original 20, Smooth Motion in the fourth, and display, audio, and control settings shared by all four. The downloads include the built programs, with each game’s code machine-translated, plus the free OpenBIOS, but no disc data; the recompiled code can also be generated on your own machine. Version 1.0.0 came out on October 13."
+requirements:
+  es: "Tu propia imagen de disco (.chd, o .cue con su .bin) de cada juego que quieras jugar, en la versión estadounidense indicada: Twisted Metal (SCUS-94304), Twisted Metal 2 (SCUS-94306), Twisted Metal III (SCUS-94249, Rev 1) y Twisted Metal 4 (SCUS-94560, Rev 1). Además, Windows."
+  en: "Your own disc image (.chd, or .cue with its .bin) of each game you want to play, in the listed US version: Twisted Metal (SCUS-94304), Twisted Metal 2 (SCUS-94306), Twisted Metal III (SCUS-94249, Rev 1), and Twisted Metal 4 (SCUS-94560, Rev 1). Plus Windows."
+tags:
+  - mips
+  - widescreen
+  - 60fps+

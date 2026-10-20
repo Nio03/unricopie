@@ -1,0 +1,12 @@
+name: F-15 Strike Eagle II
+console: dos
+repo: neuviemeporte/f15se2-re
+desc:
+  es: "Reconstrucción completa del código fuente de F-15 Strike Eagle II (MicroProse) para DOS, versión 451.03, la de la expansión Desert Storm de 1991. El C original se compiló con Microsoft C 5.1, y la reconstrucción busca ser fiel hasta en los fallos: sus rutinas en C dan el mismo código que el original instrucción por instrucción. Se reconstruyeron el cargador, el programa de configuración, las tres etapas del juego (la introducción y las misiones, el motor de vuelo en 3D y el informe final) y los controladores de vídeo, y los ejecutables funcionan con el juego original. Su autor la da por terminada y la deja solo para corregir diferencias con el original; el port a sistemas modernos, con mejoras, sigue en otro proyecto, f15se2-ex. La reconstrucción de F-19 Stealth Fighter, que comparte mucho código con este juego, también está en el catálogo. No incluye datos del juego."
+  en: "A complete source reconstruction of MicroProse’s F-15 Strike Eagle II for DOS, version 451.03, the 1991 Desert Storm expansion release. The original C was compiled with Microsoft C 5.1, and the reconstruction aims to be faithful down to the bugs: its C routines produce the same code as the original, instruction for instruction. The loader, the setup program, the game’s three stages (the intro and missions, the 3D flight engine, and the debriefing), and the video drivers have been rebuilt, and the executables work with the original game. Its author considers it done and keeps it only for fixing divergences from the original; the port to modern systems, with improvements, continues in a separate project, f15se2-ex. The F-19 Stealth Fighter reconstruction, which shares a lot of code with this game, is also in the catalog. It includes no game data."
+tags:
+  - x86
+  - matching
+links:
+  - label: "f15se2-ex"
+    url: https://github.com/neuviemeporte/f15se2-ex

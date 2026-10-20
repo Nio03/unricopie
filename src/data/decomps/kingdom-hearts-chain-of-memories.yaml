@@ -1,0 +1,10 @@
+name: "Kingdom Hearts: Chain of Memories"
+console: gba
+repo: Pheenoh/khcom
+decomp: Pheenoh/khcom
+desc:
+  es: "Decompilación exacta de Kingdom Hearts: Chain of Memories para Game Boy Advance, que puede construir las versiones estadounidense, japonesa y europea. Según decomp.dev, la versión estadounidense está al 100 %. Es la base de ReKHCoM, el port para PC que también está en el catálogo. No incluye la ROM ni recursos del juego: los recursos se extraen de tu propia copia antes de compilar."
+  en: "Matching decompilation of Kingdom Hearts: Chain of Memories for the Game Boy Advance, able to build the US, Japanese, and European releases. According to decomp.dev, the US version is at 100%. It’s the base of ReKHCoM, the PC port also in this catalog. It includes neither the ROM nor any game assets: assets are extracted from your own copy before building."
+tags:
+  - arm7
+  - matching

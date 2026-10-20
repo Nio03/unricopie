@@ -1,0 +1,19 @@
+name: Skies of Arcadia Legends
+console: gamecube
+status: playable
+repo: ogdanimal/SkiesOfArcadiaLegends-Recomp
+author: ogdanimal
+originalDeveloper: Overworks
+year: 2002
+toolchain: DolRecomp
+desc:
+  es: "«Skies of Arcadia Legends: Recompiled», port nativo para Windows, Linux, macOS con Apple Silicon y Android, por recompilación estática del código PowerPC del juego con DolRecomp; los gráficos, el sonido y la entrada de la GameCube salen del código de hardware de Dolphin. Está en beta (0.60, del 20 de octubre). Añade pantalla panorámica 16:9 con el HUD en los bordes o cualquier formato hasta 32:9, 60 fps por interpolación, resolución interna y antialiasing, control de la cámara, combates hasta 4 veces más rápidos y escenas y navegación hasta 3 veces más rápidas, frecuencia de encuentros aleatorios ajustable (también desactivados), multiplicadores de experiencia y oro, invencibilidad, estados guardados, importación de partidas de Dolphin o de una GameCube y soporte para romhacks. Teclado y mando son reasignables, y en Android hay controles táctiles. El launcher comprueba e importa tu disco una sola vez."
+  en: "“Skies of Arcadia Legends: Recompiled,” a native port to Windows, Linux, Apple Silicon macOS, and Android, made by statically recompiling the game’s PowerPC code with DolRecomp; the GameCube’s graphics, sound, and input come from Dolphin’s hardware code. It’s in beta (0.60, October 20). It adds 16:9 widescreen with the HUD at the screen edges or any shape up to 32:9, 60 fps by interpolation, internal resolution and anti-aliasing, camera control, battles up to 4x faster and cutscenes and sailing up to 3x faster, an adjustable random encounter rate (including off), EXP and gold multipliers, invincibility, save states, save import from Dolphin or a GameCube, and romhack support. Keyboard and controller are rebindable, and Android has touch controls. The launcher checks and imports your disc once."
+requirements:
+  es: "Tu propio disco de Skies of Arcadia Legends para GameCube, versión estadounidense (GEAE8P) o europea (GEAP8P), como RVZ, ISO, GCM, GCZ, WIA o CISO; la japonesa no sirve. Además, Windows 10 u 11 de 64 bits, Linux x86-64 con Vulkan u OpenGL, macOS 13 o posterior en un Mac con Apple Silicon, o Android 7.0 o posterior de 64 bits."
+  en: "Your own Skies of Arcadia Legends GameCube disc, US (GEAE8P) or European (GEAP8P), as RVZ, ISO, GCM, GCZ, WIA, or CISO; the Japanese release isn’t supported. Plus 64-bit Windows 10 or 11, x86-64 Linux with Vulkan or OpenGL, macOS 13 or later on an Apple Silicon Mac, or 64-bit Android 7.0 or later."
+tags:
+  - powerpc
+  - widescreen
+  - 60fps+
+  - mods

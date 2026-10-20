@@ -1,0 +1,17 @@
+name: Final Fantasy Tactics Advance
+console: gba
+status: playable
+repo: Jorge262007/FFTARecomp
+author: Jorge262007
+originalDeveloper: Square
+year: 2003
+toolchain: gba-recomp
+desc:
+  es: "FFTARecomp: recompilación nativa de Final Fantasy Tactics Advance para Windows, Linux, Steam Deck y Android, basada en gba-recomp, de JRickey. Un instalador de un clic recompila el juego desde tu ROM y no hace falta la BIOS de la consola. Añade pantalla panorámica (de 16:10 a 32:9), zoom, opciones de imagen y sonido, avance rápido con tres modos de audio, un menú rediseñado, burbujas de texto ajustables, mando XInput y, de forma experimental, ratón y controles táctiles. La 3.0 (18 de octubre) trajo la versión para Android, la compatibilidad con la ROM europea y un instalador mucho más ligero. Sigue en desarrollo."
+  en: "FFTARecomp: a native recompilation of Final Fantasy Tactics Advance for Windows, Linux, Steam Deck, and Android, based on JRickey’s gba-recomp. A one-click installer recompiles the game from your ROM, and no console BIOS is needed. It adds widescreen (16:10 to 32:9), zoom, video and audio options, fast forward with three audio modes, a redesigned menu, adjustable text bubbles, XInput gamepad support, and, experimentally, mouse and touch controls. Version 3.0 (October 18) brought the Android build, European ROM support, and a much lighter installer. It’s still a work in progress."
+requirements:
+  es: "Tu propia ROM de Final Fantasy Tactics Advance, versión estadounidense o europea. Además, Windows 10 u 11, Linux x86-64, Steam Deck o Android."
+  en: "Your own Final Fantasy Tactics Advance ROM, US or European release. Plus Windows 10 or 11, x86-64 Linux, a Steam Deck, or Android."
+tags:
+  - arm7
+  - widescreen

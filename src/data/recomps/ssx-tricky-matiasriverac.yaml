@@ -1,0 +1,19 @@
+name: SSX Tricky (MatiasRiveraC)
+console: xbox
+status: playable
+repo: MatiasRiveraC/SSX-Tricky-PC
+author: MatiasRiveraC
+originalDeveloper: EA Canada
+year: 2001
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo para Windows de la versión de Xbox, por recompilación estática con xboxrecomp, con Direct3D 11, XAudio2 y XInput. Es el proyecto que continúa OpenTricky, que también está en el catálogo. Está en desarrollo: arranca, reproduce los vídeos de introducción con sonido, recorre todos los menús y corre carreras contra la IA a 60 fps hasta la meta y la pantalla de resultados, y las partidas guardadas funcionan. Añade cualquier resolución dibujada de forma nativa, el modo panorámico 16:9 propio del juego, mipmaps completos, filtrado anisotrópico hasta 16x, antialiasing hasta 8x, un launcher con ajustes y controles reasignables para teclado y mando. Declara que Claude Code escribió la mayor parte del código, dirigido y probado por su autor."
+  en: "A native Windows port of the Xbox version, by static recompilation with xboxrecomp, with Direct3D 11, XAudio2, and XInput. It’s the project OpenTricky, also in this catalog, continues. It’s a work in progress: it boots, plays the intro movies with sound, runs the whole front end, and races against the AI at 60 fps through the finish and the results screen, and saves work. It adds any resolution drawn natively, the game’s own 16:9 widescreen mode, full mipmaps, up to 16x anisotropic filtering, up to 8x anti-aliasing, a launcher with settings, and remappable keyboard and controller controls. It states that Claude Code wrote most of the code, directed and tested by its author."
+requirements:
+  es: "Una imagen .iso de tu propio disco estadounidense de SSX Tricky para Xbox, de la versión exacta que usa el port; las de PS2 y GameCube no sirven. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Direct3D 11."
+  en: "An .iso image of your own US SSX Tricky Xbox disc, of the exact build the port was made from; the PS2 and GameCube versions won’t work. Plus 64-bit Windows 10 or 11 and a Direct3D 11 graphics card."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - ai-assisted

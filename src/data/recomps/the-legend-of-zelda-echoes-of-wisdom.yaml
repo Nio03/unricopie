@@ -1,0 +1,17 @@
+name: "The Legend of Zelda: Echoes of Wisdom"
+console: switch
+status: experimental
+repo: Nycolazs/EoWRecomp
+author: Nycolazs
+originalDeveloper: Grezzo
+year: 2024
+desc:
+  es: "EoWRecomp: recompilación estática en curso de la versión 1.0.0 de Switch a un programa nativo de PC. El código ARM64 del juego se traduce a C y se compila para x86-64, y un runtime sustituye el sistema operativo de la Switch y su API gráfica NVN, dibujando con Vulkan. Parte de LAS Recomp, el proyecto equivalente para Link's Awakening, también de Grezzo. Todavía no se puede jugar: arranca, muestra el prólogo y llega a la primera escena controlable con la entrada funcionando, pero faltan rendimiento, sonido verificado, partidas guardadas y varios efectos. No hay versiones para descargar; la de Windows se compila desde Linux y todavía no se ha probado. Su autor declara que lo desarrolla casi entero con IA (Claude, a través de Claude Code), con su dirección y sus pruebas."
+  en: "EoWRecomp: a work-in-progress static recompilation of the Switch version 1.0.0 into a native PC program. The game’s ARM64 code is translated to C and compiled for x86-64, and a runtime replaces the Switch’s operating system and its NVN graphics API, drawing with Vulkan. It builds on LAS Recomp, the equivalent project for Link’s Awakening, also by Grezzo. It isn’t playable yet: it boots, shows the prologue, and reaches the first controllable scene with working input, but performance, verified audio, saves, and several effects are still missing. There are no builds to download; the Windows build is cross-compiled from Linux and hasn’t been tested yet. Its author states that it’s developed almost entirely with AI (Claude, through Claude Code), directed and tested by the author."
+requirements:
+  es: "Tu propia copia de The Legend of Zelda: Echoes of Wisdom, versión 1.0.0 (título 01008CF01BAAC000, sin actualizaciones), y las claves de tu propia consola. Para compilarlo, Linux con Python 3 y las dependencias que indica el proyecto."
+  en: "Your own copy of The Legend of Zelda: Echoes of Wisdom, version 1.0.0 (title 01008CF01BAAC000, no updates), and the keys from your own console. To build it, Linux with Python 3 and the dependencies the project lists."
+tags:
+  - arm64
+  - zelda
+  - ai-assisted

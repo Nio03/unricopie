@@ -1,0 +1,17 @@
+name: "Woody Woodpecker: Escape from Buzz Buzzard Park"
+category: fan-remake
+console: pc
+status: playable
+repo: jjmhalew/WoodyRE
+author: jjmhalew
+originalDeveloper: Eko Software
+year: 2001
+desc:
+  es: "WoodyRE: reimplementación del motor del juego de PC de 2001, reconstruida por ingeniería inversa, que ejecuta los datos originales de tu propio CD. Su autor documentó la máquina virtual de guiones del juego y todos los formatos de los 28 niveles, comprobados byte a byte. La primera vez busca el CD (o una imagen ISO montada), copia y comprueba unos 640 MB de archivos y después ya no lo necesita. Hay versiones para Windows, Linux y Steam Deck, Android con controles táctiles y, de forma experimental, Switch con homebrew. Añade cualquier resolución, panorámico, ventana o pantalla completa, sincronización vertical y tope de fotogramas, y como opciones oclusión ambiental, SMAA, MSAA y ajustes de dificultad, además de mandos de PlayStation y Xbox con vibración, controles reasignables y paquetes de texturas HD. Las partidas usan el formato del original, que se puede importar."
+  en: "WoodyRE: a reimplementation of the 2001 PC game’s engine, rebuilt by reverse engineering, that runs the original data from your own CD. Its author documented the game’s script virtual machine and every format of its 28 levels, validated byte for byte. On first start it looks for the CD (or a mounted ISO image), copies and checks about 640 MB of files, and no longer needs it after that. There are builds for Windows, Linux and Steam Deck, Android with touch controls, and, experimentally, a homebrew Switch. It adds any resolution, widescreen, windowed or fullscreen, vsync and a frame cap, and, as options, ambient occlusion, SMAA, MSAA, and difficulty tweaks, plus PlayStation and Xbox controllers with rumble, remappable controls, and HD texture packs. Saves use the original’s format, which can be imported."
+requirements:
+  es: "Tu propio CD de Woody Woodpecker: Escape from Buzz Buzzard Park para PC: la versión inglesa 1.00, la española o las brasileña, polaca y rusa de 2002; otras sin probar. Además, Windows, Linux con SDL2, o Android 7.0 o posterior de 64 bits."
+  en: "Your own CD of Woody Woodpecker: Escape from Buzz Buzzard Park for PC: the English 1.00 release, the Spanish one, or the 2002 Brazilian, Polish, and Russian ones; others are untested. Plus Windows, Linux with SDL2, or 64-bit Android 7.0 or later."
+tags:
+  - widescreen
+  - hd-assets

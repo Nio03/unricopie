@@ -1,0 +1,11 @@
+name: Fate/Unlimited Codes
+console: ps2
+repo: Harskov/fate-unlimited-codes-jp
+decomp: Harskov/fate-unlimited-codes-jp
+desc:
+  es: "Decompilación exacta en curso de la versión japonesa de PS2 de Fate/Unlimited Codes (SLPM_551.08), compilada con el compilador original del juego, Metrowerks CodeWarrior, hasta reproducir el ejecutable byte a byte. Lleva 716 de 5827 funciones del juego, alrededor del 1 % del código; el avance en vivo sale de ByteMatch. No incluye nada del juego: hace falta el ejecutable de tu propio disco. Su autor declara que buena parte del código se escribió con ayuda de IA (Claude), y que cada función solo se acepta cuando la compilación coincide con el original."
+  en: "Work-in-progress matching decompilation of the Japanese PS2 release of Fate/Unlimited Codes (SLPM_551.08), built with the game’s original compiler, Metrowerks CodeWarrior, until it reproduces the executable byte for byte. It has 716 of 5,827 game functions, about 1% of the code; live progress comes from ByteMatch. It includes nothing from the game: you need the executable from your own disc. Its author states that much of the code was drafted with AI assistance (Claude), and that each function is accepted only when the build matches the original."
+tags:
+  - emotion-engine
+  - matching
+  - ai-assisted

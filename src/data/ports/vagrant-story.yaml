@@ -1,0 +1,17 @@
+name: Vagrant Story
+category: decomp-port
+console: ps1
+status: experimental
+repo: JEschete/VS-NativePort
+author: JEschete
+originalDeveloper: Square
+year: 2000
+decomp: ser-pounce/rood-reverse
+desc:
+  es: "Vagrant Story Native: port de código fuente nativo para Windows x64 de la versión estadounidense, escrito en C++ moderno a partir de la decompilación rood-reverse, que también está en el catálogo. No emula la PlayStation: la lógica del juego se reorganiza en sistemas propios de C++, sin BIOS, sin memoria simulada y sin código MIPS. Un extractor convierte de antemano todos los archivos de tu disco a formatos abiertos (JSON, glTF, PNG, WAV y vídeo AV1) y el juego solo lee esa conversión. Está en una fase temprana: arranca el código original del inicio y la pantalla de título, con los logos, el vídeo de introducción y la música, y se ven escenas de la demo y del comienzo de la partida, pero el combate interactivo, la paridad gráfica, el sonido completo y la tarjeta de memoria todavía no están."
+  en: "Vagrant Story Native: a native source port of the US release for x64 Windows, written in modern C++ from the rood-reverse decompilation, which is also in this catalog. It doesn’t emulate the PlayStation: the game logic is reorganized into its own C++ systems, with no BIOS, no emulated memory, and no MIPS code. An extractor converts every file on your disc up front into open formats (JSON, glTF, PNG, WAV, and AV1 video), and the game reads only that output. It’s at an early stage: it runs the original boot and title code, with the logos, intro movie, and music, and attract and early New Game scenes render, but interactive combat, rendering parity, full sound, and memory cards aren’t there yet."
+requirements:
+  es: "Una copia 1:1 de tu propio disco estadounidense de Vagrant Story (SLUS-01040), en .bin y .cue. Para compilarlo, Windows 10 u 11 de 64 bits con Visual Studio 2026 y su compilador Clang, Git, internet la primera vez y FFmpeg 6.0 o posterior para convertir los vídeos."
+  en: "A 1:1 dump of your own US Vagrant Story disc (SLUS-01040), as .bin and .cue. To build it, 64-bit Windows 10 or 11 with Visual Studio 2026 and its Clang toolset, Git, an internet connection the first time, and FFmpeg 6.0 or later to convert the movies."
+tags:
+  - decomp

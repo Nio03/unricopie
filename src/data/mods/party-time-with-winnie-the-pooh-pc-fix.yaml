@@ -1,0 +1,19 @@
+name: Party Time with Winnie the Pooh PC Fix
+kind: mod
+console: pc
+game:
+  es: "Disney's Party Time with Winnie the Pooh (PC, 2002)"
+  en: "Disney's Party Time with Winnie the Pooh (PC, 2002)"
+repo: kayliox/Party-Time-with-Winnie-the-Pooh-PC
+author: kayliox
+status: usable
+desc:
+  es: "Arreglo no oficial con instalador para jugar tu copia de Disney's Party Time with Winnie the Pooh en Windows 10 y 11. El instalador encuentra y comprueba tu CD o imagen de disco y copia el juego. Una DLL d3d8.dll junto al juego añade panorámico y ultrapanorámico (16:9, 21:9 y 32:9) con los tableros a pantalla completa y los menús en proporción, 120 fps sin cambiar la velocidad del juego (el original va a 30), supermuestreo 2x, filtrado anisotrópico y texto más nítido, un menú de ajustes dentro del juego con F1 y guardado automático, que el original no tenía. Admite texturas HD, pero el paquete no viene incluido: lo generas tú a partir de tu copia. Declara que se hizo con ayuda de IA."
+  en: "An unofficial fix with an installer for playing your copy of Disney’s Party Time with Winnie the Pooh on Windows 10 and 11. The installer finds and checks your CD or disc image and copies the game. A d3d8.dll next to the game adds widescreen and ultrawide (16:9, 21:9, and 32:9) with the boards filling the screen and the menus in proportion, 120 fps with the game speed unchanged (the original runs at 30), 2x supersampling, anisotropic filtering and crisper text, an in-game settings menu on F1, and autosave, which the original lacked. It supports HD textures, but the pack isn’t included: you make it yourself from your copy. It states it was made with the help of AI."
+requirements:
+  es: "Tu propio CD de Disney's Party Time with Winnie the Pooh para PC, la edición inglesa del Reino Unido (o una imagen .iso o .bin de él); otras ediciones no están probadas. Además, Windows 10 u 11 y unos 600 MB libres."
+  en: "Your own CD of Disney’s Party Time with Winnie the Pooh for PC, the UK English edition (or an .iso or .bin image of it); other editions are untested. Plus Windows 10 or 11 and about 600 MB of free space."
+tags:
+  - widescreen
+  - 60fps+
+  - ai-assisted

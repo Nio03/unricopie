@@ -1,0 +1,18 @@
+name: Mother 3
+console: gba
+status: playable
+repo: josiahg2502-glitch/Mother3Recomp
+author: JosiahG
+originalDeveloper: Brownie Brown / HAL Laboratory
+year: 2006
+toolchain: gbarecomp
+desc:
+  es: "MOTHER 3 Recomp: recompilación para Windows, Linux, Steam Deck y Android, hecha con gbarecomp y recomp-ui, con soporte para parches de traducción de fans. Trae un launcher propio con el grupo caminando por el cruce de las afueras de Tazmily, dibujado a partir de tu ROM, que también hace la configuración inicial. Añade pantalla panorámica 16:9 real en el campo, los combates y las escenas, botones en pantalla que siguen tu mando o tu teclado, opciones de ventanas, escalado y color, mezcla de audio de alta calidad y mods como parches .ips, .bps o .ups. La 1.0.7 salió el 18 de octubre. La descarga no trae arte del juego: todo sale de tu ROM."
+  en: "MOTHER 3 Recomp: a recompilation for Windows, Linux, Steam Deck, and Android, built with gbarecomp and recomp-ui, with support for fan translation patches. It has its own launcher showing the party walking through the crossroads outside Tazmily, drawn from your ROM, which also handles first-time setup. It adds true 16:9 widescreen in the field, battles, and cutscenes, on-screen buttons that match your controller or keyboard, window, scaling, and color options, high-quality audio mixing, and mods as .ips, .bps, or .ups patches. Version 1.0.7 came out on October 18. The download contains no game art: everything comes from your ROM."
+requirements:
+  es: "Tu propia ROM japonesa de MOTHER 3 y la BIOS de tu Game Boy Advance; para jugar en otro idioma, un parche de traducción de fans (hay uno en español). Además, Windows x64, Linux x86-64 o Android."
+  en: "Your own Japanese MOTHER 3 ROM and your Game Boy Advance BIOS; to play in another language, a fan translation patch. Plus x64 Windows, x86-64 Linux, or Android."
+tags:
+  - arm7
+  - widescreen
+  - mods

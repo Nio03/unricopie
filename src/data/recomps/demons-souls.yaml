@@ -1,0 +1,18 @@
+name: "Demon's Souls"
+console: ps3
+status: experimental
+repo: JonathanDC64/DemonsSoulsRecomp
+author: JonathanDC64
+originalDeveloper: FromSoftware
+year: 2009
+toolchain: ps3recomp
+desc:
+  es: "Port nativo para Windows de la versión estadounidense de PS3 (BLUS30443), por recompilación estática con un fork de ps3recomp: el código PowerPC y SPU del juego se traduce a C de antemano, y los gráficos van por Direct3D 12. Por ahora se juega el primer nivel: el arranque y los vídeos, la creación de personaje, el tutorial, el Nexo y el Palacio de Boletaria 1-1, con sombras, efectos, sonido, partidas guardadas, DualSense y teclado y ratón al estilo de los Souls de PC. Va a los 30 fps del juego por defecto, con un límite ajustable de 30 a 500 o sin límite (en el palacio, unos 120 fps), shaders compilados de antemano, formatos ultrapanorámicos, un menú de ajustes con controles reasignables y juego en línea en un servidor de la comunidad, The Archstones. Algunos efectos transparentes desaparecen algún fotograma. No hay versión publicada: se compila desde el código, con tu ejecutable descifrado con RPCS3."
+  en: "A native Windows port of the US PS3 release (BLUS30443), by static recompilation with a fork of ps3recomp: the game’s PowerPC and SPU code is translated to C ahead of time, and graphics go through Direct3D 12. For now the first level is playable: boot and the movies, character creation, the tutorial, the Nexus, and Boletarian Palace 1-1, with shadows, effects, sound, saves, DualSense, and Souls-on-PC-style keyboard and mouse. It runs at the game’s 30 fps by default, with a cap you can set from 30 to 500 or remove (about 120 fps in the Palace), precompiled shaders, ultrawide aspect ratios, a settings menu with remappable controls, and online play on a community server, The Archstones. Some transparent effects vanish for single frames. There’s no release: it’s built from source, with your executable decrypted using RPCS3."
+requirements:
+  es: "Tu propia copia estadounidense de Demon's Souls para PS3 (BLUS30443), con el EBOOT.BIN descifrado con RPCS3, y tu propio libsre.prx descifrado del firmware de tu PS3. Para compilarlo, Windows 10 u 11 con una tarjeta gráfica con Direct3D 12, Visual Studio 2022 o sus Build Tools, LLVM (clang-cl), CMake, Ninja, Python 3 y Git Bash."
+  en: "Your own US copy of Demon’s Souls for PS3 (BLUS30443), with EBOOT.BIN decrypted using RPCS3, and your own decrypted libsre.prx from your PS3’s firmware. To build it, Windows 10 or 11 with a Direct3D 12 graphics card, Visual Studio 2022 or its Build Tools, LLVM (clang-cl), CMake, Ninja, Python 3, and Git Bash."
+tags:
+  - powerpc
+  - widescreen
+  - online
