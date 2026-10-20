@@ -1,0 +1,19 @@
+name: "Marvel Nemesis: Rise of the Imperfects"
+console: xbox
+status: experimental
+repo: 15Cyber/marvel-nemesis-recomp
+author: 15Cyber
+originalDeveloper: EA Canada
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port no oficial para Windows de la versión de Xbox, por recompilación estática con XboxXBE-Recomp. Es una alfa que solo se distribuye como código: compilas el juego tú, a partir de tus archivos. En el equipo de su autor se probaron una compilación desde cero, partidas de la campaña, el versus local para dos jugadores y guardar y cargar, sin afirmar que la campaña se pueda terminar. Añade un menú de ajustes de PC dentro del propio juego, resolución y escala de renderizado, MSAA y SMAA, filtrado anisotrópico, oclusión ambiental, sombras de los personajes más nítidas, bloom, más distancia de visibilidad, teclado y mandos reasignables, trucos opcionales, un selector para entrar en escenas de prueba que quedaron en el disco y una carpeta experimental de mods para reemplazar archivos. Declara que se hizo con ayuda de OpenAI Codex y Anthropic Claude, con las pruebas y la aprobación de su autor."
+  en: "An unofficial Windows port of the Xbox version by static recompilation with XboxXBE-Recomp. It’s an alpha distributed as source only: you build the game yourself from your own files. On its author’s PC, a fresh build, campaign gameplay, two-player local Versus, and saving and loading have been tested, without claiming the campaign can be finished. It adds a PC settings menu inside the game itself, resolution and render scale, MSAA and SMAA, anisotropic filtering, ambient occlusion, sharper character shadows, bloom, longer visibility distance, remappable keyboard and controllers, optional cheats, a selector for test scenes left on the disc, and an experimental mods folder for replacing files. It states it was made with help from OpenAI Codex and Anthropic Claude, with testing and approval by its author."
+requirements:
+  es: "Los archivos extraídos de tu propia copia de Marvel Nemesis para Xbox, con un default.xbe de la versión exacta que admite (SHA-1 66481feb…); otras versiones no sirven. Para compilarlo, Windows de 64 bits con Visual Studio, Clang, CMake, Ninja, el SDK de Windows y Git; para jugar, una tarjeta gráfica con Direct3D 12."
+  en: "The extracted files from your own copy of Marvel Nemesis for Xbox, with a default.xbe from the exact supported release (SHA-1 66481feb…); other releases won’t work. To build it, 64-bit Windows with Visual Studio, Clang, CMake, Ninja, the Windows SDK, and Git; to play, a Direct3D 12 graphics card."
+tags:
+  - x86
+  - multiplayer
+  - mods
+  - ai-assisted

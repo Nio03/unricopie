@@ -1,0 +1,20 @@
+name: Jet Force Gemini (VibinToast)
+console: n64
+status: fully
+repo: VibinToast/JetForceGemini-Recomp
+homepage: https://vibintoast.com/projects/jfg-recomp
+author: VibinToast
+originalDeveloper: Rare
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "«Jet Force Gemini: Recompiled», recompilación estática para Windows y Linux de la versión estadounidense, hecha con N64Recomp, N64ModernRuntime y RT64 sobre la base del recomp de Diddy Kong Racing de cyscott. Su autor la da por jugable al 100 % y dice que ya solo le queda pulir detalles. Añade ratón y teclado, controles de doble stick con el movimiento relativo a la cámara, apuntado por encima del hombro, 60 fps, panorámico, oclusión ambiental y bloom, más distancia de dibujado, saltar escenas, un editor de armas, una opción sin sangre, trucos (incluido saltarse la exigencia de rescatar Tribals) y una barra de herramientas para viajar a cualquier nivel y editar objetos. Admite paquetes de texturas en alta definición; el suyo se descarga aparte. Hay una versión portátil ya compilada para Windows; en Linux se compila. Declara que se hizo con mucha ayuda de IA (Claude), dirigida por su autor y sin una revisión independiente del código."
+  en: "“Jet Force Gemini: Recompiled,” a static recompilation of the US release for Windows and Linux, built with N64Recomp, N64ModernRuntime, and RT64 on top of cyscott’s Diddy Kong Racing recomp. Its author calls it 100% playable and says only quality-of-life work is left. It adds mouse and keyboard, dual-stick controls with camera-relative movement, over-the-shoulder aiming, 60 fps, widescreen, ambient occlusion and bloom, longer draw distance, cutscene skipping, a weapons editor, a no-blood option, cheats (including skipping the Tribal requirement), and a toolbar to warp to any level and edit items. It supports HD texture packs; its own is a separate download. There’s a prebuilt portable Windows version; on Linux you build it. It states it was built with heavy help from AI (Claude), directed by its author and without an independent code review."
+requirements:
+  es: "Tu propia ROM estadounidense de Jet Force Gemini en formato .z64. Además, Windows 10 u 11 con una tarjeta gráfica con Direct3D 12, o Linux con Vulkan (donde hay que compilarlo)."
+  en: "Your own US Jet Force Gemini ROM in .z64 format. Plus Windows 10 or 11 with a Direct3D 12 graphics card, or Linux with Vulkan (where you have to build it)."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - ai-assisted

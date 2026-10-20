@@ -1,0 +1,20 @@
+name: Virtual Pro Wrestling 64
+console: n64
+status: playable
+repo: jessetbh/VPW64Recomp
+author: jessetbh
+originalDeveloper: AKI Corporation
+year: 1997
+toolchain: N64Recomp
+desc:
+  es: "Recompilación estática para Windows de Virtual Pro Wrestling 64, el juego de lucha libre de AKI que solo salió en Japón, con N64Recomp, N64ModernRuntime y RT64; es hermano de los ports de World Tour y Revenge del mismo autor. Está en beta: arranca, se juega en menús y combates con sonido, mando y teclado, vibra y guarda solo. No hay decompilación del juego: los símbolos salen de un desensamblado propio. El juego sale tal como se publicó, en japonés, aunque una traducción de fans se puede aplicar como mod sobre tu ROM. Añade panorámico, alta resolución, menús en inglés con reasignación de controles, un Controller Pak virtual que guarda y vibra a la vez y, de forma experimental, 60 y 120 fps por interpolación, trazado de rayos con iluminación para las siete arenas, filtro CRT y HDR, más un menú de mods con cámara libre y trucos."
+  en: "A static recompilation of Virtual Pro Wrestling 64, AKI’s Japan-only wrestling game, for Windows, with N64Recomp, N64ModernRuntime, and RT64; it’s a sibling of the same author’s World Tour and Revenge ports. It’s in beta: it boots, plays through menus and matches with sound, controller, and keyboard, rumbles, and saves automatically. There’s no decompilation of the game: its symbols come from its own disassembly. The game runs as it shipped, in Japanese, though a fan translation can be applied as a mod on top of your ROM. It adds widescreen, high resolution, English config menus with control rebinding, a virtual Controller Pak that saves and rumbles at once, and, as experimental options, 60 and 120 fps through interpolation, ray tracing with lighting for all seven arenas, a CRT filter, and HDR, plus a mods menu with a free camera and cheats."
+requirements:
+  es: "Tu propia ROM japonesa de Virtual Pro Wrestling 64, sin parchear. Además, Windows con una tarjeta gráfica con Direct3D 12 (Shader Model 6) o Vulkan 1.2 y un procesador con SSE4.1."
+  en: "Your own unpatched Japanese Virtual Pro Wrestling 64 ROM. Plus Windows with a Direct3D 12 (Shader Model 6) or Vulkan 1.2 graphics card and a CPU with SSE4.1."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - ray-tracing
+  - mods

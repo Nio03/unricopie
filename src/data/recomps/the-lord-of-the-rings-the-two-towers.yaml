@@ -1,0 +1,18 @@
+name: "The Lord of the Rings: The Two Towers"
+console: xbox
+status: playable
+repo: Shagg88/Athelas
+author: Shagg88
+originalDeveloper: Stormfront Studios
+year: 2002
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo para Windows de la versión estadounidense de Xbox, por recompilación estática con XboxXBE-Recomp. Se distribuye dentro de Athelas, un launcher para tres juegos de El Señor de los Anillos que también trae el port de la versión de Xbox de The Return of the King y ROTK Fix, un parche para la versión de PC de ese juego. Por defecto se juega como en la Xbox, y como opción suma pantalla panorámica, más fotogramas, gráficos más nítidos, teclado y ratón y un menú de ajustes dentro del juego. Hay informes de que funciona en la Steam Deck con Proton. Su autor declara que lo hizo con ayuda de Claude."
+  en: "A native Windows port of the US Xbox release by static recompilation with XboxXBE-Recomp. It ships inside Athelas, a launcher for three Lord of the Rings games that also includes the port of the Xbox version of The Return of the King and ROTK Fix, a patch for that game’s PC version. By default it plays as it did on the Xbox, and as options it adds widescreen, higher frame rates, sharper graphics, keyboard and mouse, and an in-game settings menu. It has been reported working on the Steam Deck through Proton. Its author states it was made with help from Claude."
+requirements:
+  es: "Tu propia copia estadounidense de The Two Towers para Xbox, como imagen .iso o extraída. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con DirectX 12."
+  en: "Your own US copy of The Two Towers for Xbox, as an .iso image or extracted. Plus 64-bit Windows 10 or 11 and a DirectX 12 graphics card."
+tags:
+  - x86
+  - widescreen
+  - ai-assisted

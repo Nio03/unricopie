@@ -1,0 +1,17 @@
+name: Jet Force Gemini (riseio)
+console: n64
+status: playable
+repo: riseio/Jet-Force-Capricorn
+author: riseio
+originalDeveloper: Rare
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "«Children and Dog go Pew Pew» (CadgPP, antes Jet Force Capricorn): recompilación estática para Windows, Linux y Steam Deck hecha con N64Recomp, N64ModernRuntime, RecompFrontend y RT64. Es una versión temprana para recoger comentarios: su autor avisa de que nunca jugó el original y de que puede haber fallos. Añade panorámico y ultrapanorámico con los menús y el marcador recolocados, más resolución, antialiasing, renderizado interpolado para pantallas de alta frecuencia, apuntado con ratón y controles de doble stick, campo de visión y distancia de cámara ajustables, guardados rápidos, más puntos de guardado y una larga lista de opciones de calidad de vida que se pueden desactivar: contadores de coleccionables, saltar escenas, cambio rápido de personaje, armas mejoradas, ayudas contra los jefes y un requisito final de Tribals rebajable. Las texturas mejoradas y las fuentes limpias se generan en tu equipo a partir de tu propia ROM."
+  en: "“Children and Dog go Pew Pew” (CadgPP, formerly Jet Force Capricorn): a static recompilation for Windows, Linux, and Steam Deck built with N64Recomp, N64ModernRuntime, RecompFrontend, and RT64. It’s an early release for feedback: its author warns that they never played the original and that there may be bugs. It adds widescreen and ultrawide with repositioned menus and HUD, higher resolutions, anti-aliasing, interpolated rendering for high-refresh displays, mouse aiming and twin-stick controls, adjustable field of view and camera distance, save states, more save points, and a long list of quality-of-life options that can be turned off: collectible counters, cutscene skipping, quick character switching, upgraded weapons, boss-fight aids, and a lower final Tribal requirement. The enhanced textures and clean fonts are generated on your machine from your own ROM."
+requirements:
+  es: "Tu propia ROM de Jet Force Gemini, revisión 0. Hay versiones para Windows y para Linux y Steam Deck."
+  en: "Your own Jet Force Gemini ROM, revision 0. There are builds for Windows and for Linux and Steam Deck."
+tags:
+  - mips
+  - widescreen

@@ -1,0 +1,17 @@
+name: Virtual Pro Wrestling 64 Deluxe
+console: n64
+status: playable
+repo: TanookiStudios/VPW64DeluxeRecomp
+homepage: https://vpw64deluxe.tanookistudios.com
+author: Tanooki Studios
+originalDeveloper: AKI Corporation
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para Mac y Linux de Virtual Pro Wrestling 64 Deluxe, la edición de fans de 2026 hecha por Lowwater sobre Virtual Pro Wrestling 2 (AKI, N64, Japón, 2000), con más luchadores, arenas nuevas y menús en inglés. Es una recompilación estática con N64Recomp y los forks de jessetbh de N64ModernRuntime, RecompFrontend y RT64, con el mapa de funciones del recomp de Virtual Pro Wrestling 2 de jessetbh. La 0.1.0 (18 de octubre) trae el juego entero: título, menús y todos los tipos de combate de la exhibición, con partidas guardadas y copias automáticas, un launcher con ajustes, controles y trucos, mandos que funcionan sin configurar y un menú dentro del juego. La versión de Windows llegará más adelante."
+  en: "A native Mac and Linux port of Virtual Pro Wrestling 64 Deluxe, Lowwater’s 2026 fan edition of Virtual Pro Wrestling 2 (AKI, N64, Japan, 2000), with a bigger roster, new arenas, and English menus. It’s a static recompilation with N64Recomp and jessetbh’s forks of N64ModernRuntime, RecompFrontend, and RT64, using the function map from jessetbh’s Virtual Pro Wrestling 2 recomp. Version 0.1.0 (October 18) has the whole game: title, menus, and every match type reachable from Exhibition, with saves and automatic backups, a launcher with settings, controls, and cheats, controllers that work with no setup, and an in-game menu. A Windows version is coming in a later release."
+requirements:
+  es: "Tu propia ROM de Virtual Pro Wrestling 64 Deluxe, la edición de fans (.z64 big-endian de 63,7 MB); el cartucho original de Virtual Pro Wrestling 2 y la edición FreeM no sirven. Además, macOS 13 o posterior (Apple Silicon o Intel) o Linux de 64 bits de 2022 o posterior."
+  en: "Your own Virtual Pro Wrestling 64 Deluxe ROM, the fan edition (63.7 MB big-endian .z64); the retail Virtual Pro Wrestling 2 cartridge and the FreeM edition won’t work. Plus macOS 13 or later (Apple silicon or Intel) or a 64-bit Linux desktop from 2022 or later."
+tags:
+  - mips

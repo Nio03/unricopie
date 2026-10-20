@@ -1,0 +1,13 @@
+name: XboxXBE-Recomp
+kind: recompiler
+consoles:
+  - xbox
+repo: TGP482/XboxXBE-Recomp
+author: TGP482
+status: usable
+desc:
+  es: "Herramienta para hacer ports nativos no oficiales de juegos de la Xbox original: recompila de forma estática el ejecutable XBE, de x86 a C++, en un ejecutable de 64 bits para Windows, e implementa el núcleo de la Xbox y las bibliotecas del XDK (Direct3D 8, DirectSound, XAPI y XNet) sobre Windows, con un renderizador nativo en Direct3D 12 y sonido por XAudio2. Las versiones publicadas no traen código del juego: lo compilan en el equipo del jugador la primera vez, a partir de su propio XBE. Se hizo para Splinter Cell: Double Agent, después se usó en Black, y hoy está detrás de otros ports del catálogo, como Shaolin Monks, The Urbz, Marvel Nemesis y los de El Señor de los Anillos. Incluye además system link por red local o por IP, arreglos para los vídeos Bink y un modo sin ventana para hacer pruebas en Linux."
+  en: "A tool for making unofficial native ports of original Xbox games: it statically recompiles the XBE executable, from x86 to C++, into a 64-bit Windows executable, and implements the Xbox kernel and the XDK libraries (Direct3D 8, DirectSound, XAPI, and XNet) on Windows, with a native Direct3D 12 renderer and XAudio2 audio. Published releases ship no game code: it’s compiled on the player’s machine on first launch, from their own XBE. It was made for Splinter Cell: Double Agent, then used for Black, and today it’s behind other ports in this catalog, such as Shaolin Monks, The Urbz, Marvel Nemesis, and the Lord of the Rings ones. It also includes system link over LAN or by IP, fixes for Bink movies, and a headless mode for testing on Linux."
+tags:
+  - x86
+  - sdk

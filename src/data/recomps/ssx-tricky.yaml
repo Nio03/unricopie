@@ -1,0 +1,19 @@
+name: SSX Tricky
+console: xbox
+status: fully
+repo: GiZcesi/OpenTricky
+homepage: https://opentricky.com
+author: GiZcesi
+originalDeveloper: EA Canada
+year: 2001
+toolchain: xboxrecomp
+desc:
+  es: "OpenTricky: port no oficial para PC de la versión de Xbox, por recompilación estática con xboxrecomp; continúa SSX Tricky PC, de MatiasRiveraC. Los gráficos, el sonido y la entrada de la Xbox se reimplementan sobre Direct3D 11, XAudio2 y XInput. Es una versión inestable, pero se juega de principio a fin. Recupera la niebla, los destellos, los colores y el sonido 5.1 del original, y añade cualquier resolución, ultrapanorámico, altas tasas de fotogramas, los controles originales de PS2 con sus 15 agarres, controles reasignables, bordes suavizados, sombras suaves, más distancia de dibujado y texturas HD opcionales, que no vienen incluidas. Un launcher con preajustes, incluido uno para Steam Deck, reúne los ajustes y se actualiza con descargas firmadas. En Linux y Steam Deck va con Proton."
+  en: "OpenTricky: an unofficial PC port of the Xbox version by static recompilation with xboxrecomp; it continues MatiasRiveraC’s SSX Tricky PC. The Xbox’s graphics, sound, and input are reimplemented on Direct3D 11, XAudio2, and XInput. It’s an unstable release, but it plays from start to finish. It restores the original’s fog, lens flares, colors, and 5.1 sound, and adds any resolution, ultrawide, high frame rates, the original PS2 controls with all 15 grabs, remappable controls, smoother edges, soft shadows, longer draw distance, and optional HD textures, which aren’t included. A launcher with presets, including one for the Steam Deck, gathers the settings and updates itself with signed downloads. On Linux and the Steam Deck it runs through Proton."
+requirements:
+  es: "Una imagen (.iso o .xiso) de tu propio disco estadounidense de SSX Tricky para Xbox; las versiones de PS2, GameCube, PAL y japonesa no sirven. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Direct3D 11; en Linux y Steam Deck, Proton."
+  en: "An image (.iso or .xiso) of your own US SSX Tricky Xbox disc; the PS2, GameCube, PAL, and Japanese versions won’t work. Plus 64-bit Windows 10 or 11 and a Direct3D 11 graphics card; on Linux and the Steam Deck, Proton."
+tags:
+  - x86
+  - widescreen
+  - 60fps+

@@ -1,0 +1,9 @@
+name: "Call of Duty 2: Big Red One"
+console: xbox
+repo: SmokeDoggy044/CoD2-BRO-Decomp
+desc:
+  es: "Decompilación en curso de la versión de Xbox, del mismo autor que el cargador nativo, que también está en el catálogo. Cada función se reescribe en C++ y se compara byte a byte con la original dentro del juego en marcha antes de sustituirla; el objetivo es un port nativo para Linux y Windows que solo necesite los archivos del juego. A 19 de octubre llevaba 288 de 14.540 funciones reescritas, empezando por el renderizador, y 1633 con nombre, muchas emparejadas con el código de Quake III Arena, del que desciende el motor. Las casi 5000 funciones de los guiones de las misiones se convertirán con un traductor automático. Todavía no hay nada que jugar. Declara que los nombres, el código decompilado y las herramientas los produjo Claude, con la revisión y las pruebas de su autor."
+  en: "Work-in-progress decompilation of the Xbox version, by the same author as the native loader, also in this catalog. Each function is rewritten in C++ and compared byte for byte with the original inside the running game before it replaces it; the goal is a native Linux and Windows port that only needs the game’s files. As of October 19, 288 of 14,540 functions had been rewritten, starting with the renderer, and 1,633 named, many matched to the code of Quake III Arena, which the engine descends from. The nearly 5,000 functions of the mission scripts will be converted by an automatic translator. There’s nothing to play yet. It states that the names, the decompiled code, and the tools were produced by Claude, reviewed and tested by its author."
+tags:
+  - x86
+  - ai-assisted

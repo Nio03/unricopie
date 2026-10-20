@@ -1,0 +1,19 @@
+name: Jet Force Gemini (ravenx444)
+console: n64
+status: experimental
+repo: ravenx444/RGO-Recomp
+author: ravenx444
+originalDeveloper: Rare
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Rocket Group Orion (RGO): fork del recomp de Jet Force Gemini de TK22-26 que añade mejoras modernas sobre aquel port fiel al original. Suma panorámico sin estirar con el marcador anclado a los bordes, un modo con la lógica del juego a 60 fps reales y otro con interpolación, cualquier resolución y formato, MSAA, ratón con apuntado directo, controles de doble stick, mandos de PlayStation con vibración y apuntado por giroscopio, ratón y mando a la vez, restos y sangre que no desaparecen y una rueda de armas configurable; todo es opcional. Es una vista previa de pruebas para Windows, no una versión estable: el launcher instala las herramientas, descarga el código y compila el juego en tu equipo a partir de tu ROM, y la primera vez puede tardar una hora o más. Quedan caídas a 30 fps en algunas escenas y posibles fallos de carga. Declara que se desarrolla con ayuda de IA, dirigida y probada por su autor."
+  en: "Rocket Group Orion (RGO): a fork of TK22-26’s Jet Force Gemini recomp that adds modern improvements on top of that faithful port. It adds unstretched widescreen with the HUD anchored to the screen edges, a mode with the game logic at true 60 fps and another with interpolation, any resolution and aspect ratio, MSAA, direct mouse aiming, twin-stick controls, PlayStation controllers with rumble and gyro aiming, mouse and controller at the same time, persistent gore, and a configurable weapon wheel; every feature is optional. It’s an early testing preview for Windows, not a stable release: the launcher installs the tools, downloads the source, and builds the game on your PC from your ROM, and the first time can take an hour or more. Some scenes still drop to 30 fps, and loading failures may remain. It states it’s developed with AI assistance, directed and tested by its author."
+requirements:
+  es: "Tu propia ROM norteamericana de Jet Force Gemini, en .z64 big-endian de 32 MiB. Además, Windows 10 u 11 de 64 bits y espacio para las herramientas de compilación que instala el launcher."
+  en: "Your own North American Jet Force Gemini ROM, as a 32 MiB big-endian .z64. Plus 64-bit Windows 10 or 11 and room for the build tools the launcher installs."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - ai-assisted

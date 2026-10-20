@@ -1,0 +1,20 @@
+name: "The Lord of the Rings: The Return of the King"
+console: xbox
+status: playable
+repo: Shagg88/Athelas
+author: Shagg88
+originalDeveloper: EA Redwood Shores
+year: 2003
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo para Windows de la versión estadounidense de Xbox, por recompilación estática con XboxXBE-Recomp, distribuido dentro del launcher Athelas junto al de The Two Towers y a ROTK Fix, un parche para la versión de PC del mismo juego. Añade hasta 240 fps, con arreglos para las ralentizaciones y los enemigos que desaparecían a tasas altas, pantalla panorámica y ultrapanorámica, textos y menús más nítidos (con los de la versión de PC si también la tienes instalada), teclado y ratón, y cooperativo para dos en el mismo PC o en línea por streaming. Su autor declara que lo hizo con ayuda de Claude."
+  en: "A native Windows port of the US Xbox release by static recompilation with XboxXBE-Recomp, shipped inside the Athelas launcher alongside the Two Towers port and ROTK Fix, a patch for the same game’s PC version. It adds up to 240 fps, with fixes for slowdowns and vanishing enemies at high frame rates, widescreen and ultrawide, sharper text and menus (using the PC version’s if you also have it installed), keyboard and mouse, and two-player co-op on one PC or online by streaming. Its author states it was made with help from Claude."
+requirements:
+  es: "Tu propia copia estadounidense de The Return of the King para Xbox, como imagen .iso o extraída. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con DirectX 12."
+  en: "Your own US copy of The Return of the King for Xbox, as an .iso image or extracted. Plus 64-bit Windows 10 or 11 and a DirectX 12 graphics card."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - ai-assisted

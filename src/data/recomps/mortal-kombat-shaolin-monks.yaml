@@ -1,0 +1,18 @@
+name: "Mortal Kombat: Shaolin Monks"
+console: xbox
+status: fully
+repo: OAleex/ShaolinMonksRecomp
+author: OAleex
+originalDeveloper: Midway
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port para PC de la versión de Xbox, por recompilación estática con XboxXBE-Recomp: el código original de la Xbox corre nativo. Hay versiones para Windows, con Direct3D 12, y desde la 0.2.0 (19 de octubre) también para Linux, con Vulkan. Su autor dice haber terminado la campaña entera, aunque quedan fallos gráficos; Mortal Kombat II y la demo de The Suffering, que venían en el disco, no funcionan. Añade resolución y escala de renderizado, modos de pantalla, teclado y ratón, y botones del mando reasignables. Tiene seis idiomas con su doblaje, algunos con paquetes de idioma aparte, y un catálogo oficial de mods, el Krypt, que el launcher instala y actualiza. Declara que usa IA para el análisis, el código, la depuración, las pruebas y la documentación, con revisión del autor."
+  en: "A PC port of the Xbox version by static recompilation with XboxXBE-Recomp: the original Xbox code runs natively. There are Windows builds, with Direct3D 12, and since 0.2.0 (October 19) Linux builds too, with Vulkan. Its author reports finishing the whole campaign, though some graphical issues remain; Mortal Kombat II and The Suffering demo, both on the disc, don’t run. It adds resolution and render scale settings, display modes, keyboard and mouse, and remappable controller buttons. It has six languages with their voice acting, some of them as separate language packs, and an official mod catalog, the Krypt, that the launcher installs and updates. It states that AI is used for analysis, code changes, debugging, tests, and documentation, reviewed by the maintainer."
+requirements:
+  es: "Tu propia copia de Mortal Kombat: Shaolin Monks para Xbox, versión de EE. UU. o Europa (ISO, XISO, ZIP, carpeta extraída o default.xbe). Además, Windows 10 (1903 o posterior) o Linux (glibc 2.38 o posterior), un procesador x64 con SSE4.2 y POPCNT, y una tarjeta gráfica con Direct3D 12 o Vulkan 1.3."
+  en: "Your own copy of Mortal Kombat: Shaolin Monks for Xbox, US or European release (ISO, XISO, ZIP, extracted folder, or default.xbe). Plus Windows 10 (1903 or later) or Linux (glibc 2.38 or later), an x64 CPU with SSE4.2 and POPCNT, and a Direct3D 12 or Vulkan 1.3 graphics card."
+tags:
+  - x86
+  - mods
+  - ai-assisted

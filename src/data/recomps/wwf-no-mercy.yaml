@@ -1,0 +1,20 @@
+name: WWF No Mercy
+console: n64
+status: playable
+repo: jessetbh/WWFNoMercyRecomp
+author: jessetbh
+originalDeveloper: AKI Corporation
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Recompilación estática para Windows de WWF No Mercy, con N64Recomp, N64ModernRuntime y RT64, del mismo autor que los ports de World Tour y Revenge que ya están en el catálogo. Está en beta: arranca, se juega en menús y combates con sonido, mando y teclado, vibra y guarda sola la memoria flash del cartucho. No hay decompilación del juego: los símbolos salen de un desensamblado propio. Añade panorámico, alta resolución, menús con reasignación completa de controles y, de forma experimental, 60 y 120 fps por interpolación, trazado de rayos con iluminación propia para cada escenario, filtro CRT y HDR. Trae un menú de mods con cámara libre, trucos y un modo de combate rápido, y muchos hacks de la ROM funcionan como mods aplicados sobre tu ROM limpia."
+  en: "A static recompilation of WWF No Mercy for Windows, with N64Recomp, N64ModernRuntime, and RT64, by the same author as the World Tour and Revenge ports already in this catalog. It’s in beta: it boots, plays through menus and matches with sound, controller, and keyboard, rumbles, and saves the cartridge’s flash memory automatically. There’s no decompilation of the game: its symbols come from its own disassembly. It adds widescreen, high resolution, menus with full control rebinding, and, as experimental options, 60 and 120 fps through interpolation, ray tracing with a lighting rig for every venue, a CRT filter, and HDR. It has a mods menu with a free camera, cheats, and a Quick Match tool, and many ROM hacks run as mods applied to your clean ROM."
+requirements:
+  es: "Tu propia ROM estadounidense de WWF No Mercy, revisión 1; la revisión 0 y las de otras regiones no sirven. Además, Windows con una tarjeta gráfica con Direct3D 12 (Shader Model 6) o Vulkan 1.2 y un procesador con SSE4.1."
+  en: "Your own US WWF No Mercy ROM, revision 1; revision 0 and other regions won’t work. Plus Windows with a Direct3D 12 (Shader Model 6) or Vulkan 1.2 graphics card and a CPU with SSE4.1."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - ray-tracing
+  - mods

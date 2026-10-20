@@ -1,0 +1,19 @@
+name: "Splinter Cell: Double Agent"
+console: xbox
+status: playable
+repo: TGP482/SCDA-XBERecomp
+author: TGP482
+originalDeveloper: Ubisoft Shanghai
+year: 2006
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo para Windows de 64 bits de la versión de Xbox, hecho con XboxXBE-Recomp, la herramienta del mismo autor, que nació para este juego. La primera vez que arranca compila el código del juego para tu equipo. Cambia los 640×480 originales por la resolución de tu monitor y añade escala de renderizado del 20 al 200 %, campo de visión de 45 a 140 grados, fotogramas sin el tope de 30, HDR, MSAA hasta 8x y SMAA, sombras de hasta 8192×8192 que llegan más lejos, oclusión ambiental y un modo Shader Model 3 con los efectos de la versión de PC de Chaos Theory. El cooperativo se juega en línea conectando por IP, en red local o a pantalla partida, con más frecuencia de actualización y menos retraso que el original, y el versus también va en línea. Tiene teclado y ratón con entrada directa y mando por SDL3. La V2 salió el 18 de octubre."
+  en: "A native 64-bit Windows port of the Xbox version, built with XboxXBE-Recomp, the same author’s tool, which was first made for this game. On first launch it compiles the game’s code for your machine. It replaces the original 640×480 with your monitor’s resolution and adds a 20–200% render scale, a 45–140° field of view, frame rates beyond the 30 fps cap, HDR, up to 8x MSAA and SMAA, shadows up to 8192×8192 that reach farther, ambient occlusion, and a Shader Model 3 mode with the effects of Chaos Theory’s PC version. Co-op plays online by connecting to an IP address, over LAN, or in split screen, with a higher update rate and less delay than the original, and Versus also works online. It has keyboard and mouse with raw input and SDL3 controller support. V2 came out on October 18."
+requirements:
+  es: "Tu propia copia de Splinter Cell: Double Agent para Xbox, como ISO o extraída; para compilarlo hay que extraerla (default.xbe, sc4_adv.xbe y las carpetas Default, Media y adv). Además, Windows 10 de 64 bits, un procesador con SSE4.2, una tarjeta gráfica con Direct3D 12 y unos 6 GB libres."
+  en: "Your own copy of Splinter Cell: Double Agent for Xbox, as an ISO or extracted; building it requires the extracted files (default.xbe, sc4_adv.xbe, and the Default, Media, and adv folders). Plus 64-bit Windows 10, a CPU with SSE4.2, a Direct3D 12 graphics card, and about 6 GB of free space."
+tags:
+  - x86
+  - widescreen
+  - multiplayer
+  - online

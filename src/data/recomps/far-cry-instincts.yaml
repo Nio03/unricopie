@@ -1,0 +1,19 @@
+name: Far Cry Instincts
+console: xbox
+status: playable
+repo: VinceIP/fci-recomp
+author: VinceIP
+originalDeveloper: Ubisoft Montreal
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo para Windows de la versión de Xbox, por recompilación estática con una versión de XboxXBE-Recomp adaptada a este juego. Las descargas no traen el juego: un script toma tu imagen de disco, descarga lo que falte (Python y el SDK) y compila el juego en tu equipo en 15 a 25 minutos. En la 0.1.2 funcionan el modo historia, con sus partidas guardadas, y el editor de mapas, opcional, con mapas propios que se guardan y se cargan. Añade filtrado anisotrópico, antialiasing, oclusión ambiental, escala de renderizado, sombras suaves y de más resolución, más distancia de dibujado, pantalla panorámica 16:9 y teclado y ratón, todo ajustable en fci.ini. Por ahora va fijo a 30 fps, el juego en línea y el system link no funcionan, y la campaña no se ha probado de principio a fin. Su autor declara que lo hizo con mucha ayuda de IA y que revisa el código él mismo."
+  en: "A native Windows port of the Xbox version by static recompilation with a version of XboxXBE-Recomp adapted to this game. The downloads don’t include the game: a script takes your disc image, downloads whatever is missing (Python and the SDK), and builds the game on your machine in 15 to 25 minutes. In 0.1.2 the story mode works, with its saves, and so does the optional map editor, with custom maps that save and load. It adds anisotropic filtering, anti-aliasing, ambient occlusion, render scaling, soft and higher-resolution shadows, longer draw distances, 16:9 widescreen, and keyboard and mouse, all set in fci.ini. For now it’s locked to 30 fps, Xbox Live and system link don’t work, and the campaign hasn’t been tested end to end. Its author states it was made with extensive AI assistance, with the code reviewed by them."
+requirements:
+  es: "Un volcado de tu propio disco de Far Cry Instincts para Xbox (title ID 55530008, versión 1), como ISO o extraído. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12, unos 10 GB libres y conexión a internet para la primera compilación."
+  en: "A dump of your own Far Cry Instincts Xbox disc (title ID 55530008, version 1), as an ISO or extracted. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, about 10 GB of free space, and an internet connection for the first build."
+tags:
+  - x86
+  - fps
+  - widescreen
+  - ai-assisted

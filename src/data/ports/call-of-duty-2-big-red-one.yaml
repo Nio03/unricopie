@@ -1,0 +1,21 @@
+name: "Call of Duty 2: Big Red One"
+category: native-layer
+console: xbox
+status: playable
+repo: SmokeDoggy044/CoD2-BRO-Native-Loader
+author: SmokeDoggy044
+originalDeveloper: Treyarch
+year: 2005
+desc:
+  es: "Cargador nativo para Linux y Windows: como la Xbox tiene un procesador x86, el ejecutable original del juego se carga en memoria y corre directamente en el procesador del PC, sin recompilar nada. Lo que se reemplaza es todo lo demás: el núcleo de la Xbox y las bibliotecas que usa el juego (Direct3D 8 sobre Direct3D 9 con DXVK, DirectSound sobre OpenAL Soft, y mandos, teclado y ratón con SDL3), más unos pocos parches. En la 0.1.4, todavía un prototipo, la campaña se juega desde los menús: las misiones 1 a 5 están probadas enteras y la 6, empezada. Va a 60 fps, con pantalla panorámica, más resolución y multijugador por System Link en red local; Xbox Live no está. Es la prueba de concepto de un port nativo completo, que avanza en la decompilación del mismo autor. Declara que la mayor parte del código y de la ingeniería inversa la escribió Claude, dirigido y probado por el autor."
+  en: "A native loader for Linux and Windows: since the Xbox has an x86 CPU, the game’s original executable is loaded into memory and runs directly on the PC’s CPU, with nothing recompiled. Everything around it is replaced: the Xbox kernel and the libraries the game uses (Direct3D 8 on Direct3D 9 through DXVK, DirectSound on OpenAL Soft, and controllers, keyboard, and mouse through SDL3), plus a few patches. In 0.1.4, still a prototype, the campaign plays from the menus: missions 1 to 5 are tested through and mission 6 started. It runs at 60 fps, with widescreen, higher resolutions, and System Link multiplayer over LAN; Xbox Live isn’t available. It’s the proof of concept for a full native port, which is progressing in the same author’s decompilation. It states that most of the code and the reverse engineering were written by Claude, directed and playtested by the author."
+requirements:
+  es: "Los archivos de tu propia copia de Call of Duty 2: Big Red One para Xbox. Además, Linux x86 de 32 o 64 bits (glibc 2.30 o posterior) con Vulkan 1.3 y las bibliotecas de 32 bits, o Windows 10 u 11 de 64 bits."
+  en: "The files from your own copy of Call of Duty 2: Big Red One for Xbox. Plus 32- or 64-bit x86 Linux (glibc 2.30 or later) with Vulkan 1.3 and the 32-bit libraries, or 64-bit Windows 10 or 11."
+tags:
+  - x86
+  - compat-layer
+  - fps
+  - widescreen
+  - multiplayer
+  - ai-assisted
