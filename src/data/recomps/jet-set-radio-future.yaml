@@ -1,0 +1,17 @@
+name: Jet Set Radio Future
+console: xbox
+status: playable
+repo: JuMatt/JetSetRadioFuture-Unleashed
+author: JuMatt
+originalDeveloper: Smilebit
+year: 2002
+toolchain: xboxrecomp
+desc:
+  es: "JSRF Unleashed: recompilación estática de la versión estadounidense de Xbox sobre xboxrecomp. El código x86 del juego se traduce a C, y el hardware gráfico y de sonido sale de los modelos de xemu. La versión principal es la de Mac con Apple Silicon (con Metal u OpenGL); también hay versiones para Linux, Windows (probada solo con Wine), iPhone y iPad, y Android (probada solo en el emulador de Android). Su autor lo describe como jugable pero temprano: el comienzo, el tutorial y Dogenzaka Hill son lo más probado, y las zonas posteriores casi no se han probado. Tiene pantalla panorámica 16:9 sin estirar la imagen, resolución interna de 1x a 4x y mandos por SDL."
+  en: "JSRF Unleashed: a static recompilation of the US Xbox release on xboxrecomp. The game’s x86 code is translated into C, and the graphics and audio hardware come from xemu’s models. The main build is for Apple Silicon Macs (with Metal or OpenGL); there are also builds for Linux, Windows (tested only under Wine), iPhone and iPad, and Android (tested only in the Android emulator). Its author calls it playable but early: the opening, the tutorial, and Dogenzaka Hill are the most tested parts, and later areas have seen little testing. It has unstretched 16:9 widescreen, a 1x–4x internal resolution, and SDL controller support."
+requirements:
+  es: "Tu propio disco estadounidense (NTSC-U) de Jet Set Radio Future, como carpeta extraída con default.xbe o como imagen ISO; los de otras regiones no sirven. En Mac, macOS 12 o posterior con Apple Silicon; en Windows y Linux, OpenGL 3.3."
+  en: "Your own US (NTSC-U) Jet Set Radio Future disc, as an extracted folder with default.xbe or as an ISO image; other regions’ discs won’t work. On Mac, macOS 12 or later on Apple Silicon; on Windows and Linux, OpenGL 3.3."
+tags:
+  - x86
+  - widescreen

@@ -1,0 +1,16 @@
+name: Spider-Man 3
+console: x360
+status: experimental
+repo: b4ttycre4se/Spider-Man-3-Recomp
+author: b4ttycre4se
+originalDeveloper: Treyarch
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Recompilación no oficial de la versión de Xbox 360, hecha con ReXGlue. La v0.2.1 es una versión de prueba temprana para Windows de 64 bits: en las pruebas de su autor la ciudad va estable a 30 fps y guardar y cargar funciona, pero la campaña completa no se ha probado y no se sabe cómo van las misiones posteriores. Puede haber tirones breves al compilar shaders y líneas visibles en algunas carreteras. Un modo a 60 fps está en estudio. Para reproducir la versión publicada hace falta un SDK de ReXGlue modificado que no está en el repositorio."
+  en: "An unofficial recompilation of the Xbox 360 version, built with ReXGlue. v0.2.1 is an early test build for 64-bit Windows: in its author’s testing the city runs stably at 30 fps and saving and loading work, but the full campaign hasn’t been tested and later missions are unknown. There may be brief shader-compilation hitches and visible seams on some roads. A 60 fps mode is being investigated. Reproducing the published build needs a modified ReXGlue SDK that isn’t in the repository."
+requirements:
+  es: "Los archivos extraídos de tu propia copia de Spider-Man 3 para Xbox 360, con default.xex en la carpeta assets. Además, Windows de 64 bits."
+  en: "The extracted files from your own copy of Spider-Man 3 for Xbox 360, with default.xex in the assets folder. Plus 64-bit Windows."
+tags:
+  - powerpc

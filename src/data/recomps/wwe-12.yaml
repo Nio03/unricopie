@@ -1,0 +1,17 @@
+name: WWE '12
+console: x360
+status: playable
+repo: iMrBurn/wwe12-pc
+author: iMrBurn
+originalDeveloper: Yuke’s
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue y con un renderizador nativo en Vulkan adaptado de los ports de SmackDown vs. Raw de nefariousjosiah, que a su vez parten de re:Blue. En la beta 0.8.0, los menús, los combates de 1 a 6 luchadores y las entradas se dibujan de forma nativa a 60 fps, con las entradas a 30 como en la consola o a 60 en modo experimental. Tiene un launcher con ajustes, controles, mods, copias de seguridad e importación de tus partidas de Xbox 360; resolución interna de 540p a 4K; DLC; los cinco idiomas de la versión europea; mandos de Xbox y PlayStation, y una carpeta de mods que reemplaza archivos del juego. Quedan fallos gráficos en algunas tarjetas de Intel y AMD."
+  en: "A native Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK and a native Vulkan renderer adapted from nefariousjosiah’s SmackDown vs. Raw ports, which in turn build on re:Blue. In beta 0.8.0, menus, matches with 1 to 6 wrestlers, and entrances render natively at 60 fps, with entrances at 30 like the console or at 60 in an experimental mode. It has a launcher with settings, controls, mods, backups, and import of your Xbox 360 saves; 540p to 4K internal resolution; DLC; all five languages of the European release; Xbox and PlayStation controllers; and a mods folder that replaces game files. Some graphics glitches remain on certain Intel and AMD cards."
+requirements:
+  es: "Una imagen (.iso) o los archivos de tu propia copia de WWE '12 para Xbox 360; los DLC, opcionales, también de tu consola. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan 1.2."
+  en: "An image (.iso) or the files of your own WWE '12 copy for Xbox 360; optional DLC also from your console. Plus 64-bit Windows 10 or 11 and a graphics card with Vulkan 1.2."
+tags:
+  - powerpc
+  - mods

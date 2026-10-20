@@ -1,0 +1,17 @@
+name: "South Park: Let's Go Tower Defense Play! (TekRantGaming)"
+console: x360
+status: playable
+repo: TekRantGaming/south-park-tower-defense-recompiled
+author: TekRantGaming
+originalDeveloper: Doublesix
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox Live Arcade para Windows y Linux, hecha con el SDK de ReXGlue y el launcher TRG del mismo autor. Arranca, reproduce sus vídeos y se juegan los niveles, pero todavía no se ha confirmado una partida completa; el juego en línea de Xbox LIVE no funciona, el local sí. Corrige un cierre poco después de la pantalla de título que ocurría con un mando conectado. Ofrece resolución de 720p a 8K, FXAA, MSAA 2x, filtrado hasta 16x, los 60 fps de la consola, mando o teclado con controles reasignables, los 12 logros con avisos y seis idiomas. Reutiliza hallazgos del primer port de este juego, el de superheher para Linux. Su autor declara que lo hizo casi entero con Claude Code."
+  en: "A static recompilation of the Xbox Live Arcade version for Windows and Linux, built with the ReXGlue SDK and the same author’s TRG launcher. It boots, plays its movies, and runs its levels, but a full play-through hasn’t been confirmed yet; Xbox LIVE online play doesn’t work, local play does. It fixes a crash shortly after the title screen that happened with a controller connected. It offers 720p to 8K resolution, FXAA, 2x MSAA, up to 16x filtering, the console’s 60 fps, controller or keyboard with remappable controls, all 12 achievements with pop-ups, and six languages. It reuses findings from the first port of this game, superheher’s Linux one. Its author states it was made almost entirely with Claude Code."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de South Park: Let's Go Tower Defense Play! (Title ID 58410931, default.xex 0.0.1.2); otras versiones y las actualizaciones no sirven. Además, Windows 10 u 11 de 64 bits con DirectX 12, o Linux de 64 bits o una Steam Deck con Vulkan, y 1 GB libre."
+  en: "Your own South Park: Let's Go Tower Defense Play! Xbox Live Arcade package (Title ID 58410931, default.xex 0.0.1.2); other versions and title updates won’t work. Plus 64-bit Windows 10 or 11 with DirectX 12, or 64-bit Linux or a Steam Deck with Vulkan, and 1 GB of free space."
+tags:
+  - powerpc
+  - ai-assisted

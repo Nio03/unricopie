@@ -1,0 +1,18 @@
+name: Super Street Fighter II Turbo HD Remix
+console: x360
+status: playable
+repo: saulob/ssf2t-hd-remix-recompiled
+author: saulob
+originalDeveloper: Backbone Entertainment
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión de Xbox Live Arcade, por recompilación estática con el SDK de ReXGlue, con el launcher TRG y una AppImage experimental para Linux. Corre a sus 60 actualizaciones por segundo originales, con resolución hasta 4x, formatos de 4:3 a 32:9, antialiasing y filtrado, partidas guardadas locales y los 12 logros guardados en el PC, cinco idiomas, mando de Xbox sin configurar y teclado. No tiene juego en línea. Su autor declara que usó herramientas de IA y que revisó cada cambio."
+  en: "A native Windows port of the Xbox Live Arcade version, by static recompilation with the ReXGlue SDK, with the TRG launcher and an experimental Linux AppImage. It runs at its original 60 updates per second, with up to 4x resolution, aspect ratios from 4:3 to 32:9, anti-aliasing and filtering, local saves, the 12 achievements kept on the PC, five languages, Xbox controllers with no setup, and keyboard play. There’s no online play. Its author states that AI tools were used and that every change was reviewed."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de Super Street Fighter II Turbo HD Remix (Title ID 584108A4, versión 0.0.1.3). Además, Windows 10 u 11 de 64 bits con DirectX 12, o Linux x86-64 con Vulkan."
+  en: "Your own Super Street Fighter II Turbo HD Remix Xbox Live Arcade package (Title ID 584108A4, version 0.0.1.3). Plus 64-bit Windows 10 or 11 with DirectX 12, or x86-64 Linux with Vulkan."
+tags:
+  - powerpc
+  - widescreen
+  - ai-assisted

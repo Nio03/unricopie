@@ -1,0 +1,17 @@
+name: LovePlus+
+category: game-engine
+console: nds
+status: playable
+repo: gage-marshall/lp-engine
+homepage: https://gage-marshall.github.io/lp-engine/
+author: gage-marshall
+originalDeveloper: Konami
+year: 2010
+desc:
+  es: "lp-engine: un motor en Rust hecho solo para LovePlus+, de Nintendo DS, que corre en Windows, macOS y Linux. El código del juego corre sin cambios en un intérprete de ARM propio, el hardware (gráficos, sonido, pantalla táctil, micrófono, reloj y partidas) está reimplementado, y las funciones del juego se van pasando poco a poco a código nativo, comprobadas contra el original mientras se juega. Trae el juego entero traducido al inglés (29.000 líneas de diálogo, menús y gráficos de la interfaz) como un parche que solo se aplica a tu copia. El 3D se dibuja hasta a 4x de resolución, con antialiasing, filtrado de texturas, animación a 30 fps y texturas escaladas con FSR. El reloj del juego sigue al de tu ordenador, como en la DS, y la pantalla táctil va con el ratón. Importa y exporta partidas del cartucho o de DeSmuME. Las funciones inalámbricas, que necesitan otra DS, no están. La primera versión, la 0.1.0, salió el 17 de octubre."
+  en: "lp-engine: a Rust engine built only for the Nintendo DS game LovePlus+, running on Windows, macOS, and Linux. The game’s code runs unchanged in its own ARM interpreter, the hardware (graphics, sound, touch screen, microphone, clock, and saves) is reimplemented, and the game’s functions are moved to native code bit by bit, checked against the original while it runs. It comes with the whole game translated into English (29,000 lines of dialogue, menus, and UI graphics) as a patch that only applies to your copy. The 3D is drawn at up to 4x resolution, with anti-aliasing, texture filtering, 30 fps animation, and FSR-upscaled textures. The in-game clock follows your computer’s, as it did the DS’s, and the touch screen works with the mouse. It imports and exports saves from the cartridge or from DeSmuME. The wireless features, which need a second DS, aren’t supported. The first release, 0.1.0, came out on October 17."
+requirements:
+  es: "Tu propio volcado de LovePlus+, versión japonesa (código BOXJ), como archivo .nds. Además, Windows 10 u 11 de 64 bits, macOS 11 o posterior (Apple Silicon o Intel) o Linux x86-64."
+  en: "Your own dump of LovePlus+, Japanese release (game code BOXJ), as an .nds file. Plus 64-bit Windows 10 or 11, macOS 11 or later (Apple silicon or Intel), or x86-64 Linux."
+tags:
+  - arm

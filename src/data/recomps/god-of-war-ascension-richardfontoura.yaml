@@ -1,0 +1,16 @@
+name: "God of War: Ascension (RichardFontoura)"
+console: ps3
+status: experimental
+repo: RichardFontoura/gowa-pc
+author: RichardFontoura
+originalDeveloper: SIE Santa Monica Studio
+year: 2013
+toolchain: ps3recomp
+desc:
+  es: "Port nativo para Linux de la versión estadounidense de PS3 (BCUS98232), por recompilación estática con un fork de ps3recomp: el código PPU y SPU del juego se traduce de antemano a C/C++ y corre sobre un runtime que reimplementa el hardware y las bibliotecas de la PS3, con los gráficos en Vulkan. Todavía no se puede jugar: arranca, muestra el vídeo inicial y los menús en 3D y empieza una partida nueva, pero el primer nivel va a unos 3 fps. Trae un launcher con copias de seguridad de las partidas, opciones de pantalla y controles reasignables, y un menú dentro del juego."
+  en: "A native Linux port of the US PS3 release (BCUS98232), by static recompilation with a fork of ps3recomp: the game’s PPU and SPU code is translated ahead of time into C/C++ and runs on a runtime that reimplements the PS3 hardware and libraries, with graphics on Vulkan. It isn’t playable yet: it boots, shows the opening video and the 3D menus, and starts a new game, but the first level runs at about 3 fps. It comes with a launcher with save backups, display options, and remappable controls, plus an in-game menu."
+requirements:
+  es: "Tu propio disco estadounidense (BCUS98232, versión 1.00) volcado como ISO, la actualización 1.12 en PKG y un ELF del ejecutable de la 1.12 que tienes que preparar tú. Además, Linux x86-64 con una tarjeta gráfica con Vulkan, y compilarlo con clang, CMake y Python."
+  en: "Your own US disc (BCUS98232, version 1.00) dumped as an ISO, the 1.12 update as a PKG, and an ELF of the 1.12 executable that you prepare yourself. Plus x86-64 Linux with a Vulkan graphics card, and building it with clang, CMake, and Python."
+tags:
+  - powerpc

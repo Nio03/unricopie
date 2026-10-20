@@ -1,0 +1,20 @@
+name: "50 Cent: Blood on the Sand"
+console: x360
+status: fully
+repo: nlwstein/skullburglar
+homepage: https://skullburglar.stz.sh
+author: nlwstein
+originalDeveloper: Swordfish Studios
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Skullburglar: port nativo para Windows, Mac con Apple Silicon, Linux y Steam Deck, por recompilación estática con el SDK de ReXGlue. La historia se juega entera en todas esas plataformas: una partida de 36 minutos por las nueve misiones mantuvo una mediana de 60 fps en cada una. En lugar de emular la GPU, un renderizador nativo dibuja las llamadas Direct3D del juego con Vulkan, mucho más rápido que Xenia. Añade teclado y ratón de verdad, iconos de mandos de PlayStation, compilación previa de shaders, imagen ultrapanorámica y cooperativo sin Xbox Live: en red local y, de forma experimental, a pantalla partida o en dos ventanas del mismo PC. Las versiones listas para jugar se descargan de su web, con un launcher que instala el juego desde tu disco. Su autor lo declara un proyecto generado con IA, dirigido y probado por una persona."
+  en: "Skullburglar: a native port for Windows, Apple Silicon Macs, Linux, and the Steam Deck, by static recompilation with the ReXGlue SDK. The story is playable from start to finish on all of them: a 36-minute run through all nine missions held a median of 60 fps in every mission. Instead of emulating the GPU, a native renderer draws the game’s Direct3D calls with Vulkan, much faster than Xenia. It adds proper keyboard and mouse, PlayStation controller prompts, shader precompilation, ultrawide, and co-op without Xbox Live: over a LAN and, experimentally, split-screen or two windows on one PC. Ready-to-play builds come from its website, with a launcher that sets the game up from your disc. Its author describes it as an AI-generated project, directed and play-tested by a human."
+requirements:
+  es: "Tu propio disco de 50 Cent: Blood on the Sand para Xbox 360. Hay versiones para Windows, Mac con Apple Silicon, Linux y Steam Deck."
+  en: "Your own 50 Cent: Blood on the Sand Xbox 360 disc. There are builds for Windows, Apple Silicon Macs, Linux, and the Steam Deck."
+tags:
+  - powerpc
+  - widescreen
+  - multiplayer
+  - ai-assisted

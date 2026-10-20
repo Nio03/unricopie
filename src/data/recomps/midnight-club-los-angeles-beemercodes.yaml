@@ -1,0 +1,18 @@
+name: "Midnight Club: Los Angeles (BeemerCodes)"
+console: x360
+status: playable
+repo: BeemerCodes/MidnightclubLA-Recomp
+author: BeemerCodes
+originalDeveloper: Rockstar San Diego
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue y DirectX 12, a partir de la infraestructura del recomp de Dante’s Inferno, Hells Gate. Trae un launcher que extrae tu ISO con extract-xiso, permite renderizar a 2K con FXAA y crea accesos directos; todo es portátil, sin instalador. Su autor recomienda limitar los fotogramas a 60 con una herramienta externa para evitar inestabilidades. Declara que el launcher, los scripts y buena parte del código se hicieron con ayuda de IA, salvo la ingeniería inversa, que fue humana. El README está en portugués."
+  en: "An unofficial native Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK and DirectX 12, built on the infrastructure of the Dante’s Inferno recomp, Hells Gate. It comes with a launcher that extracts your ISO with extract-xiso, renders at up to 2K with FXAA, and creates shortcuts; it’s all portable, with no installer. Its author recommends capping the frame rate at 60 with an external tool to avoid instability. It states that the launcher, scripts, and much of the code were made with AI help, except for the reverse engineering, which was done by hand. The README is in Portuguese."
+requirements:
+  es: "La ISO de tu propia copia de Midnight Club: Los Angeles para Xbox 360, y Windows 10 u 11."
+  en: "The ISO of your own copy of Midnight Club: Los Angeles for Xbox 360, and Windows 10 or 11."
+tags:
+  - powerpc
+  - racing
+  - ai-assisted

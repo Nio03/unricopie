@@ -1,0 +1,16 @@
+name: WWE '13
+console: x360
+status: playable
+repo: PromethenDev/wwe13-recomp
+author: PromethenDev
+originalDeveloper: Yuke’s
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática no oficial de la versión de Xbox 360 para Windows y Linux de 64 bits, hecha con el fork de ReXGlue preparado para los juegos de Yuke’s. Un launcher encuentra o extrae tus archivos, instala la title update y los DLC y comprueba cada archivo. Ofrece resoluciones de 480p a 1440p, tres modos de fotogramas (como la consola, 60 en todo o 30 fijos), idioma, pantalla completa y una página para añadir luchadores, entradas, arenas y logos creados en Xbox 360, además de tu propia música de entrada. Se actualiza solo desde GitHub. Quedan diferencias de sombras e iluminación respecto a la consola, y la opción de 1080p está oculta por fallos en el público."
+  en: "An unofficial static recompilation of the Xbox 360 version for 64-bit Windows and Linux, built on the ReXGlue fork prepared for Yuke’s games. A launcher finds or extracts your files, installs the title update and DLC, and checks every file. It offers 480p to 1440p resolutions, three frame-rate modes (console-like, 60 everywhere, or locked 30), language selection, fullscreen, and a page for adding Xbox 360 created superstars, entrances, arenas, and logos, plus your own entrance music. It updates itself from GitHub. Some shadow and lighting differences from the console remain, and the 1080p option is hidden because of crowd glitches."
+requirements:
+  es: "Los archivos de tu propia copia de WWE '13 para Xbox 360 (carpeta o ISO) y la title update 2.0.1.0, obligatoria; los DLC son opcionales. Además, Windows 10 u 11 de 64 bits o Linux (glibc 2.38 o posterior), un procesador con AVX2, una tarjeta gráfica con Vulkan y unos 10 GB libres."
+  en: "The files from your own copy of WWE '13 for Xbox 360 (folder or ISO) and title update 2.0.1.0, which is required; DLC is optional. Plus 64-bit Windows 10 or 11 or Linux (glibc 2.38 or newer), an AVX2 CPU, a Vulkan graphics card, and about 10 GB of free space."
+tags:
+  - powerpc

@@ -1,0 +1,19 @@
+name: "Need for Speed: Most Wanted"
+console: x360
+status: playable
+repo: SpeedBreakerProject/speedbreaker
+homepage: https://projectugarte.com/speedbreaker/
+author: project(u)
+originalDeveloper: EA Black Box
+year: 2005
+toolchain: XenonRecomp
+desc:
+  es: "SpeedBreaker: recompilación estática de la versión de Xbox 360 de Need for Speed: Most Wanted (2005), hecha con XenonRecomp y con un runtime que adapta partes del de Unleashed Recompiled. Hay versiones para Steam Deck y Steam Machine, Steam Frame, Linux x86-64 y Mac con Apple Silicon, más una versión experimental para iPhone y iPad; las de Windows y Android están anunciadas. Renderiza hasta 4K, amplía la vista en pantallas ultrapanorámicas sin estirarla, va hasta 60 fps, recupera el brillo del sol de la consola y suma FSR 1, nitidez y filtrado anisotrópico. Un instalador comprueba los 49 archivos de tu disco al copiarlos, y un menú de ajustes pausa la carrera. Las partidas de Xbox 360 no se pueden importar."
+  en: "SpeedBreaker: a static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005), built with XenonRecomp and a runtime that adapts parts of Unleashed Recompiled’s. There are builds for Steam Deck and Steam Machine, Steam Frame, x86-64 Linux, and Apple Silicon Macs, plus an experimental iPhone and iPad build; Windows and Android are announced. It renders up to 4K, widens the view on ultrawide screens instead of stretching it, runs up to 60 fps, brings back the console’s sun glare, and adds FSR 1, sharpening, and anisotropic filtering. An installer verifies the 49 files of your disc as it copies them, and a settings menu pauses the race. Xbox 360 saves can’t be imported."
+requirements:
+  es: "Una imagen de tu propio disco estadounidense (NTSC-U) de Need for Speed: Most Wanted para Xbox 360 (ISO completa, XISO o carpeta extraída) y unos 7,2 GB libres. En Linux y SteamOS, un procesador con AVX2 y Vulkan 1.2; en Mac, Apple Silicon con macOS 15 o posterior."
+  en: "An image of your own US (NTSC-U) Need for Speed: Most Wanted Xbox 360 disc (full ISO, XISO, or extracted folder) and about 7.2 GB of free space. On Linux and SteamOS, an AVX2 CPU and Vulkan 1.2; on Mac, Apple Silicon with macOS 15 or later."
+tags:
+  - powerpc
+  - racing
+  - widescreen

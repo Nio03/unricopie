@@ -1,0 +1,20 @@
+name: GoldenEye 007
+category: decomp-port
+console: n64
+status: playable
+repo: murkantor/Project-Midas
+author: murkantor
+originalDeveloper: Rare
+year: 1997
+desc:
+  es: "Project Midas: port de GoldenEye 007 para Windows y Linux construido sobre la decompilación de N64, todavía en desarrollo. Lee los datos de tu propio cartucho estadounidense. Tiene pantalla panorámica, cámara con el ratón, soporte moderno de mandos y ajustes dentro del juego, además de perfiles de jugador, estadísticas acumuladas del multijugador y conjuntos de armas personalizados. El cooperativo, el juego en red y la carga de mods están en desarrollo. Su autor declara que usó Claude para hacerlo."
+  en: "Project Midas: a work-in-progress GoldenEye 007 port for Windows and Linux built on the N64 decompilation. It reads the game data from your own US cartridge. It has widescreen, mouse look, modern controller support, and in-game settings, plus player profiles, lifetime multiplayer stats, and custom multiplayer weapon sets. Co-op, netplay, and mod loading are in development. Its author states that Claude was used to make it."
+requirements:
+  es: "Una imagen de tu propio cartucho estadounidense de GoldenEye 007. Hay versiones para Windows, Linux y Steam Deck; la de Linux necesita SDL2 y OpenGL de 32 bits."
+  en: "An image of your own US GoldenEye 007 cartridge. There are builds for Windows, Linux, and Steam Deck; the Linux one needs 32-bit SDL2 and OpenGL."
+tags:
+  - decomp
+  - fps
+  - widescreen
+  - multiplayer
+  - ai-assisted

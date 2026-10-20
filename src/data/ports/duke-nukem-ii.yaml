@@ -1,0 +1,20 @@
+name: Duke Nukem II
+category: fan-remake
+console: dos
+status: fully
+repo: lethal-guitar/RigelEngine
+author: lethal-guitar
+originalDeveloper: Interceptor Entertainment
+year: 1993
+desc:
+  es: "Rigel Engine: reimplementación de Duke Nukem II que sustituye al ejecutable original de DOS. Lee los archivos de datos del juego y se juega igual que el original, pero corre de forma nativa en Windows, Linux y macOS, y también se instala en la Steam Deck. Se hizo por ingeniería inversa, desensamblando el binario original. Los cuatro episodios, de la versión shareware y de la registrada, se juegan enteros y a la par del original. Añade modo panorámico, desplazamiento suave con más fotogramas, guardado rápido, mejor soporte de mandos y más opciones para mods. Su autor lo da por terminado: está en mantenimiento, sin funciones nuevas previstas. La reconstrucción completa del código original va aparte, en Duke2Reconstructed."
+  en: "Rigel Engine: a reimplementation of Duke Nukem II that replaces the original DOS executable. It reads the game’s data files and plays just like the original, but runs natively on Windows, Linux, and macOS, and can also be installed on the Steam Deck. It was made by reverse engineering, disassembling the original binary. All four episodes, from the shareware and registered versions, are fully playable and on par with the original. It adds a widescreen mode, smooth scrolling with a higher frame rate, quick saving, better controller support, and extended modding features. Its author considers it done: it’s in maintenance mode, with no new features planned. The complete reconstruction of the original code is a separate project, Duke2Reconstructed."
+requirements:
+  es: "Los archivos de datos de Duke Nukem II, de la versión registrada o de la shareware, que es gratuita: basta con NUKEM2.CMP, más los vídeos de introducción (NUKEM2.F1 a F5), que son opcionales. Además, una tarjeta gráfica con OpenGL 3.0 u OpenGL ES 2.0."
+  en: "The Duke Nukem II data files, from the registered version or the free shareware one: NUKEM2.CMP is enough, plus the optional intro movies (NUKEM2.F1 to F5). Plus a graphics card with OpenGL 3.0 or OpenGL ES 2.0."
+tags:
+  - widescreen
+  - mods
+links:
+  - label: "Duke2Reconstructed"
+    url: https://github.com/lethal-guitar/Duke2Reconstructed

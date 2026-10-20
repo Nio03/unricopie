@@ -1,0 +1,18 @@
+name: Army of Two
+console: x360
+status: fully
+repo: OpenPortroid/ArmyOfTwoRecompilation
+author: OpenPortroid
+originalDeveloper: EA Montreal
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port no oficial para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue y con un renderizador propio en Direct3D 12 en lugar de emular la GPU. El juego entero se puede terminar solo o en cooperativo sin cierres. El cooperativo funciona en línea sin los servidores de EA, en partidas públicas o privadas por red local o con una VPN como Radmin, ZeroTier o Tailscale, y también a pantalla partida en un mismo PC. Añade teclado y ratón con los iconos de las teclas en pantalla, controles reasignables, ajustes gráficos dentro del juego, resolución por encima de los 720p de la consola y vídeos que se pueden saltar. Un launcher instala el juego desde tu imagen de disco."
+  en: "An unofficial Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK and with its own Direct3D 12 renderer instead of GPU emulation. The whole game can be finished solo or in co-op without crashes. Co-op works online without EA’s servers, in public or private sessions over a LAN or a VPN such as Radmin, ZeroTier, or Tailscale, and also as split-screen on one PC. It adds keyboard and mouse with key glyphs in the on-screen prompts, remappable controls, in-game graphics settings, render resolutions above the console’s 720p, and skippable movies. A launcher installs the game from your disc image."
+requirements:
+  es: "Tu propia copia de Army of Two para Xbox 360, versión europea, como imagen de disco o extraída, con la Title Update 2; los DLC son opcionales. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y unos 6 GB libres."
+  en: "Your own copy of Army of Two for Xbox 360, European release, as a disc image or extracted, with Title Update 2; DLC is optional. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, and about 6 GB of free space."
+tags:
+  - powerpc
+  - multiplayer
+  - online

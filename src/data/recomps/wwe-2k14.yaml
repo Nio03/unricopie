@@ -1,0 +1,16 @@
+name: WWE 2K14
+console: x360
+status: playable
+repo: PromethenDev/wwe2k14-recomp
+author: PromethenDev
+originalDeveloper: Yuke’s
+year: 2013
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática no oficial de la versión de Xbox 360 para Windows y Linux de 64 bits, hecha con el SDK de ReXGlue por el mismo autor que el port de WWE '13. Un launcher encuentra o extrae tus archivos, instala la title update y los DLC, y comprueba cada archivo antes de jugar. Quedan diferencias de sombras e iluminación respecto a la consola y caídas de fotogramas en algunos equipos, y las gráficas integradas todavía no van bien."
+  en: "An unofficial static recompilation of the Xbox 360 version for 64-bit Windows and Linux, built with the ReXGlue SDK by the author of the WWE '13 port. A launcher finds or extracts your files, installs the title update and DLC, and checks every file before you play. Some shadow and lighting differences from the console remain, frame rates can dip on some systems, and integrated graphics aren’t well supported yet."
+requirements:
+  es: "Los archivos de tu propia copia de WWE 2K14 para Xbox 360 (carpeta o ISO) y la title update 1.0.3, obligatoria; los DLC son opcionales. Además, Windows 10 u 11 de 64 bits o Linux (glibc 2.38 o posterior), un procesador con AVX2, una tarjeta gráfica dedicada con Vulkan y unos 10 GB libres."
+  en: "The files from your own copy of WWE 2K14 for Xbox 360 (folder or ISO) and title update 1.0.3, which is required; DLC is optional. Plus 64-bit Windows 10 or 11 or Linux (glibc 2.38 or newer), an AVX2 CPU, a dedicated Vulkan graphics card, and about 10 GB of free space."
+tags:
+  - powerpc

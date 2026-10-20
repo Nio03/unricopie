@@ -1,0 +1,18 @@
+name: "Buzz Lightyear of Star Command …& Beyond"
+kind: mod
+console: pc
+game:
+  es: "Buzz Lightyear of Star Command (PC, 2000)"
+  en: "Buzz Lightyear of Star Command (PC, 2000)"
+repo: Runig006/And-Beyond
+author: Runig006
+status: stable
+desc:
+  es: "Parche no oficial para la versión de PC de Buzz Lightyear of Star Command, de Traveller’s Tales. Mete un motor gráfico nuevo con Direct3D 11 dentro de DDraw.dll, sin tocar los archivos del juego: 60 fps estables, cualquier resolución y pantalla panorámica. Suma mando y ratón con todos los controles reasignables, dos niveles de dificultad nuevos, «reiniciar nivel» en el menú de pausa, textos en seis idiomas y 22 opciones dentro del propio menú del juego. Trae además un instalador moderno, porque el original es de 16 bits y no funciona en Windows de 64 bits."
+  en: "An unofficial patch for the PC version of Traveller’s Tales’ Buzz Lightyear of Star Command. It puts a new Direct3D 11 graphics engine inside DDraw.dll, leaving the game files untouched: a steady 60 fps, any resolution, and widescreen. It adds gamepad and mouse support with fully remappable controls, two new difficulty levels, “Restart level” in the pause menu, texts in six languages, and 22 options in the game’s own menu. It also comes with a modern installer, since the original one is 16-bit and doesn’t run on 64-bit Windows."
+requirements:
+  es: "Tu propia copia de PC en inglés, español, italiano, alemán o francés, como imagen de disco (.iso o .bin/.cue), y Windows 10 u 11 con una tarjeta gráfica compatible con Direct3D 11. La versión portuguesa no se puede instalar, pero su disco sirve para las voces y los vídeos; la francesa tiene protección anticopia y necesita el disco original en la unidad."
+  en: "Your own PC copy in English, Spanish, Italian, German, or French, as a disc image (.iso or .bin/.cue), plus Windows 10 or 11 and a Direct3D 11 graphics card. The Portuguese version can’t be installed, but its disc still works for the voices and videos; the French version has copy protection and needs the original disc in the drive."
+tags:
+  - widescreen
+  - 60fps+

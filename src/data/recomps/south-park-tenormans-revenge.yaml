@@ -1,0 +1,17 @@
+name: "South Park: Tenorman's Revenge"
+console: x360
+status: playable
+repo: TekRantGaming/south-park-tenormans-revenge-recompiled
+author: TekRantGaming
+originalDeveloper: Other Ocean Interactive
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox Live Arcade para Windows y Linux, hecha con el SDK de ReXGlue y con el launcher TRG que su autor comparte entre sus ports. Arranca y se juegan sus niveles, aunque todavía no se ha confirmado una partida completa; las funciones de Xbox LIVE no funcionan. Ofrece resolución de 720p a 8K, FXAA, MSAA 2x, filtrado de texturas hasta 16x, los 60 fps de la consola con su mismo ritmo, cualquier mando o el teclado con controles reasignables, los 20 logros con avisos al estilo de Xbox 360, seis idiomas y actualizaciones automáticas. En Linux y Steam Deck va como AppImage con Vulkan. Su autor declara que lo hizo casi entero con Claude Code."
+  en: "A static recompilation of the Xbox Live Arcade version for Windows and Linux, built with the ReXGlue SDK and with the TRG launcher its author shares across their ports. It boots and its levels play, though a full play-through hasn’t been confirmed yet; Xbox LIVE features don’t work. It offers 720p to 8K resolution, FXAA, 2x MSAA, up to 16x texture filtering, the console’s 60 fps with the same pacing, any controller or the keyboard with remappable controls, all 20 achievements with Xbox 360-style pop-ups, six languages, and automatic updates. On Linux and the Steam Deck it runs as an AppImage with Vulkan. Its author states it was made almost entirely with Claude Code."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de South Park: Tenorman's Revenge (Title ID 58410B80, default.xex 0.0.0.1); otras versiones y las actualizaciones no sirven. Además, Windows 10 u 11 de 64 bits con DirectX 12, o Linux de 64 bits o una Steam Deck con Vulkan, y 1 GB libre."
+  en: "Your own South Park: Tenorman's Revenge Xbox Live Arcade package (Title ID 58410B80, default.xex 0.0.0.1); other versions and title updates won’t work. Plus 64-bit Windows 10 or 11 with DirectX 12, or 64-bit Linux or a Steam Deck with Vulkan, and 1 GB of free space."
+tags:
+  - powerpc
+  - ai-assisted

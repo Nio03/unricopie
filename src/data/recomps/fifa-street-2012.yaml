@@ -1,0 +1,19 @@
+name: FIFA Street (2012)
+console: x360
+status: playable
+repo: samuelit0davila/fifa-street-pc-port
+author: SamuelitoDaVila
+originalDeveloper: EA Canada
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: "ReStreet: recompilación para Windows de la versión de Xbox 360, hecha con el SDK de ReXGlue, con juego en línea gratuito en servidores de la comunidad (Europa y Sudamérica). Trae un instalador de un solo archivo y un launcher con amigos, chat y salas que llevan a los dos jugadores al mismo lobby, además de una guía de amigos dentro del juego. Desde la 2.0 usa un motor gráfico nuevo basado en el port «Deck» de AnDr3zF, con Direct3D 12 y Vulkan, FSR 1, resolución interna hasta 4x, oclusión ambiental, MSAA y FXAA. El instalador incluye los binarios del juego ya generados, pero no la ISO ni los archivos del juego. El juego en línea sigue en beta. Su autor declara que lo hizo con ayuda de ChatGPT, OpenAI Codex y Claude Code."
+  en: "ReStreet: a recompilation of the Xbox 360 version for Windows, built with the ReXGlue SDK, with free online play on community servers (Europe and South America). It comes with a one-file installer and a launcher with friends, chat, and rooms that bring both players to the same lobby, plus an in-game friends guide. Since 2.0 it uses a new graphics engine based on AnDr3zF’s “Deck” port, with Direct3D 12 and Vulkan, FSR 1, up to 4x internal resolution, ambient occlusion, MSAA, and FXAA. The installer includes the generated game binaries, but not the ISO or the game files. Online play is still in beta. Its author states it was developed with help from ChatGPT, OpenAI Codex, and Claude Code."
+requirements:
+  es: "Tu propia ISO de FIFA Street (2012) para Xbox 360. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 o Vulkan, 8 GB de RAM y unos 12 GB libres."
+  en: "Your own FIFA Street (2012) Xbox 360 ISO. Plus 64-bit Windows 10 or 11, a Direct3D 12 or Vulkan graphics card, 8 GB of RAM, and about 12 GB of free space."
+tags:
+  - powerpc
+  - online
+  - multiplayer
+  - ai-assisted

@@ -1,0 +1,16 @@
+name: WWE SmackDown vs. Raw 2007
+console: x360
+status: fully
+repo: HollywoodAkeem/SVR07-Recomp
+author: HollywoodAkeem
+originalDeveloper: Yuke’s
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática para Windows de la versión de Xbox 360, hecha con un fork de ReXGlue preparado para los juegos de Yuke’s. Según su autor, se juega de principio a fin a 60 fps estables, con el mismo ritmo que la consola: menús, tipos de combate, creación de luchadores, modo temporada y partidas guardadas, con mando XInput. La resolución interna y el formato de pantalla siguen fijos en los de la consola, aunque el renderizador puede sacar la imagen hasta en 4K. Hay artefactos ocasionales en los modelos de los luchadores y alrededor de un 10 % de probabilidades por sesión de un cierre por pérdida del dispositivo gráfico. La 1.0 salió el 24 de abril de 2026."
+  en: "A static recompilation of the Xbox 360 version for Windows, built on a ReXGlue fork prepared for Yuke’s games. According to its author, it plays from start to finish at a stable 60 fps, matching the console’s timing: menus, match types, create-a-superstar, season mode, and saves, with XInput controllers. The internal resolution and aspect ratio are still locked to the console’s, though the renderer can output up to 4K. There are occasional artifacts on the wrestlers’ models and roughly a 10% chance per session of a crash from a lost graphics device. Version 1.0 came out on April 24, 2026."
+requirements:
+  es: "Los archivos extraídos de tu propia copia de WWE SmackDown vs. Raw 2007 para Xbox 360 (se recomienda la de EE. UU. y Canadá). Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con DirectX 12."
+  en: "The extracted files from your own copy of WWE SmackDown vs. Raw 2007 for Xbox 360 (the US/Canada release is recommended). Plus 64-bit Windows 10 or 11 and a DirectX 12 graphics card."
+tags:
+  - powerpc

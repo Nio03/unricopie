@@ -1,0 +1,19 @@
+name: Jet Force Gemini (TK22-26)
+console: n64
+status: fully
+repo: TK22-26/JetForceGemini-Recomp
+author: TK22-26
+originalDeveloper: Rare
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Recompilación nativa para Windows de 64 bits. La v1 se juega entera: la campaña de principio a fin, el multijugador local original y el contenido opcional. Se descarga ya compilada: importas tu ROM una vez en el launcher y le das a jugar. Añade controles modernos, todavía experimentales, con ratón y teclado o doble stick y un editor visual de controles, y renderizado a alta tasa de fotogramas con interpolación, desenfoque de movimiento ajustable y niebla regulable. Trae además un mapa y un inventario en vivo como herramientas aparte. La 1.3.0 salió el 19 de octubre. Declara que se hizo con ayuda de IA (Codex), con dirección, revisión y pruebas humanas."
+  en: "A native recompilation for 64-bit Windows. Version 1 is complete: the campaign plays from start to finish, along with the original local multiplayer and optional content. It comes prebuilt: you import your ROM once in the launcher and click Play. It adds modern controls, still experimental, with mouse and keyboard or dual sticks and a visual controls editor, plus high-refresh rendering with interpolation, adjustable motion blur, and adjustable fog. It also has a live map and inventory as companion tools. Version 1.3.0 came out on October 19. It states it was written with the help of AI (Codex), with human direction, review, and playtesting."
+requirements:
+  es: "Tu propia ROM estadounidense de Jet Force Gemini en formato .z64 (big-endian), y Windows de 64 bits."
+  en: "Your own US Jet Force Gemini ROM in .z64 (big-endian) format, and 64-bit Windows."
+tags:
+  - mips
+  - widescreen
+  - multiplayer
+  - ai-assisted

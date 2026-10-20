@@ -1,0 +1,18 @@
+name: Tekken Tag Tournament 2
+console: x360
+status: playable
+repo: shihabal3amri/tekken-tag-tournament-2-pc
+author: shihabal3amri
+originalDeveloper: Bandai Namco Games
+year: 2012
+toolchain: XenonRecomp
+desc:
+  es: "Port nativo para Windows de la versión de Xbox 360, por recompilación estática con XenonRecomp, con gráficos, sonido y juego en línea escritos para PC. Un instalador construye el juego en tu equipo a partir de tu imagen de disco y la Title Update 3. Renderiza de 720p a 4K a 60 fps, trae los 59 luchadores desbloqueados, incluidos los 10 que dependían de los servidores de Namco, y tiene Player Match en línea a través de Steam, en beta. Por defecto quita los 2 fotogramas de retraso que el juego original añade en los modos sin conexión. Las clasificaciones, World Arena y las repeticiones dependían de servidores que ya no existen."
+  en: "A native Windows port of the Xbox 360 version, by static recompilation with XenonRecomp, with graphics, audio, and online code written for PC. An installer builds the game on your PC from your disc image and Title Update 3. It renders from 720p to 4K at 60 fps, has all 59 fighters unlocked, including the 10 that relied on Namco’s servers, and offers online Player Match over Steam, in beta. By default it removes the 2 frames of input delay the original game adds in offline modes. Leaderboards, World Arena, and replays relied on servers that no longer exist."
+requirements:
+  es: "Tu propia imagen de disco de Tekken Tag Tournament 2 para Xbox 360 (EE. UU. y Europa) y su Title Update 3. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con DirectX 11 y unos 13 GB libres; para jugar en línea, Steam abierto y con la sesión iniciada."
+  en: "Your own Tekken Tag Tournament 2 Xbox 360 disc image (USA, Europe) and its Title Update 3. Plus 64-bit Windows 10 or 11, a DirectX 11 graphics card, and about 13 GB of free space; for online play, Steam running and signed in."
+tags:
+  - powerpc
+  - online
+  - multiplayer

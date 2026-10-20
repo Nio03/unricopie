@@ -1,0 +1,18 @@
+name: Earthworm Jim HD
+console: x360
+status: playable
+repo: TekRantGaming/earthworm-jim-hd-recompiled
+author: TekRantGaming
+originalDeveloper: Gameloft
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows y Linux de la versión de Xbox Live Arcade, por recompilación estática con el SDK de ReXGlue y el launcher TRG. Ofrece resolución de 720p a 8K, FXAA, MSAA 2x, filtrado hasta 16x, tope de fotogramas de 30 a 240 o sin límite a la velocidad normal del juego, mando o teclado con controles reasignables, logros con avisos, seis idiomas, trucos para las fases de plataformas y actualizaciones automáticas. En Linux y Steam Deck va como AppImage con Vulkan. Su autor declara que se desarrolló con ayuda de herramientas de IA."
+  en: "A native Windows and Linux port of the Xbox Live Arcade version, by static recompilation with the ReXGlue SDK and the TRG launcher. It offers 720p to 8K resolution, FXAA, 2x MSAA, up to 16x filtering, a 30 to 240 fps or uncapped frame-rate cap at normal game speed, controller or keyboard with remappable controls, achievements with pop-ups, six languages, cheats for the platform levels, and automatic updates. On Linux and the Steam Deck it runs as an AppImage with Vulkan. Its author states it was developed with the help of AI tools."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de Earthworm Jim HD (Title ID 584109E2, default.xex 1.0.0.11, sin title update). Además, Windows 10 u 11 de 64 bits con DirectX 12, o Linux de 64 bits o una Steam Deck con Vulkan."
+  en: "Your own Earthworm Jim HD Xbox Live Arcade package (Title ID 584109E2, default.xex 1.0.0.11, no title update). Plus 64-bit Windows 10 or 11 with DirectX 12, or 64-bit Linux or a Steam Deck with Vulkan."
+tags:
+  - powerpc
+  - 60fps+
+  - ai-assisted

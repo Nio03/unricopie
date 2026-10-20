@@ -1,0 +1,17 @@
+name: "Midnight Club: Los Angeles (holdmysocks)"
+console: x360
+status: playable
+repo: holdmysocks/mcla-recomp
+author: holdmysocks
+originalDeveloper: Rockstar San Diego
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de Midnight Club: Los Angeles Complete Edition para Windows, Linux y PS5 con jailbreak, hecha con el SDK de ReXGlue y con arreglos traídos, con permiso, de LARecomp. En Windows con Direct3D 12 se juegan la carrera, las carreras, el garaje y las mejoras, con sonido y mando, a 30 fps por defecto y a 60, 120 o sin límite como opción; en Linux con Vulkan se compila y se juega, probado por un usuario. No publica el juego compilado: un script extrae lo necesario de tu ISO, instala las herramientas que falten y genera el código recompilado en tu equipo. El menú de pausa suma ajustes de pantalla."
+  en: "A static recompilation of Midnight Club: Los Angeles Complete Edition for Windows, Linux, and jailbroken PS5, built with the ReXGlue SDK and with fixes ported, with permission, from LARecomp. On Windows with Direct3D 12, the career, races, garage, and upgrades play with audio and a controller, at 30 fps by default and 60, 120, or uncapped as options; on Linux with Vulkan it builds and plays, tested by one user. It doesn’t publish a compiled game: a script extracts what it needs from your ISO, installs any missing tools, and generates the recompiled code on your machine. The pause menu adds display settings."
+requirements:
+  es: "Una ISO de tu propia copia de Midnight Club: Los Angeles Complete Edition para Xbox 360, versión de EE. UU. y Europa (Title ID 545407F8). En Windows, Windows 10 u 11 de 64 bits con Direct3D 12 y unos 20 GB libres; en Linux, Clang 20 y Vulkan 1.3."
+  en: "An ISO of your own Midnight Club: Los Angeles Complete Edition for Xbox 360, USA/Europe release (Title ID 545407F8). On Windows, 64-bit Windows 10 or 11 with Direct3D 12 and about 20 GB of free space; on Linux, Clang 20 and Vulkan 1.3."
+tags:
+  - powerpc
+  - racing

@@ -1,0 +1,17 @@
+name: "JoJo's Bizarre Adventure: Heritage for the Future"
+console: ps1
+status: playable
+repo: MenuuTUX/jojo-hftf-native
+author: MenuuTUX
+originalDeveloper: Capcom
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Port nativo para macOS de la versión estadounidense de PlayStation (SLUS-01060), hecho por recompilación estática con psxrecomp. Encima, el código del juego se va reemplazando por C nativo función por función, y cada reemplazo se compara con el original en miles de estados capturados antes de activarse. El motor de combate uno contra uno ya corre nativo (918 funciones, contrastadas con 97.634 estados sin diferencias). Los 22 personajes, los 4 jefes, los 33 escenarios y los modos versus y entrenamiento tienen código nativo, con 3573 de sus 7188 funciones verificadas; los modos historia y arcade corren sobre el código recompilado. Solo se ha probado en Mac con Apple Silicon. El repositorio incluye archivos extraídos del disco (el ejecutable, gráficos y audio): su autor afirma tener permiso de Capcom para incluirlos, y la imagen del disco la sigues poniendo tú. Declara que se hizo con agentes de IA (Claude Code y Codex), dirigidos y revisados por una persona."
+  en: "A native macOS port of the US PlayStation release (SLUS-01060), made by static recompilation with psxrecomp. On top of that, the game’s code is being replaced with native C one function at a time, and each replacement is checked against the original on thousands of captured game states before it’s allowed to run. The 1v1 fight engine already runs natively (918 functions, checked against 97,634 states with no mismatches). All 22 characters, the 4 bosses, the 33 stages, and the VS and training modes have native code, with 3,573 of their 7,188 functions verified; Story and Arcade modes run on the recompiled code. It has only been tested on Apple Silicon Macs. The repository includes files extracted from the disc (the executable, graphics, and audio): its author states they have Capcom’s permission to include them, and you still supply the disc image yourself. It states it was built with AI agents (Claude Code and Codex), directed and reviewed by a human."
+requirements:
+  es: "Tu propia copia estadounidense de JoJo's Bizarre Adventure para PlayStation (SLUS-01060), en .cue y .bin. Se compila en macOS (probado en Apple Silicon) con las herramientas de línea de comandos de Xcode, CMake, Ninja, Python 3, Git y Git LFS."
+  en: "Your own US copy of JoJo’s Bizarre Adventure for PlayStation (SLUS-01060), as a .cue and .bin. It builds on macOS (tested on Apple Silicon) with the Xcode command line tools, CMake, Ninja, Python 3, Git, and Git LFS."
+tags:
+  - mips
+  - ai-assisted

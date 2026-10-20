@@ -1,0 +1,9 @@
+name: F-19 Stealth Fighter
+console: dos
+repo: xor2003/f19re
+desc:
+  es: "Decompilación en curso de F-19 Stealth Fighter (MicroProse, 1988) para DOS. El ejecutable principal, EGAME.EXE, se reconstruye de dos formas que tienen que coincidir: un esqueleto en ensamblador, sacado del desensamblado, que da una copia idéntica byte a byte, y el código en C, que va sustituyendo al ensamblador rutina por rutina y se compila con Microsoft C 5.1 hasta generar exactamente las mismas instrucciones. Es proyecto hermano de la reconstrucción de F-15 Strike Eagle II, del mismo autor: los dos juegos comparten buena parte del código. Para probarlo hacen falta los archivos de tu propia copia y DOSBox; el compilador de Microsoft no se incluye."
+  en: "Work-in-progress decompilation of F-19 Stealth Fighter (MicroProse, 1988) for DOS. The main executable, EGAME.EXE, is rebuilt in two ways that must agree: an assembly skeleton, derived from the disassembly, that produces a byte-identical copy, and C code that replaces the assembly routine by routine and is compiled with Microsoft C 5.1 until it emits exactly the same instructions. It’s a sibling of the same author’s F-15 Strike Eagle II reconstruction: the two games share a large part of their code. Trying it needs the files from your own copy and DOSBox; the Microsoft compiler isn’t included."
+tags:
+  - x86
+  - matching

@@ -1,0 +1,18 @@
+name: Black
+console: xbox
+status: playable
+repo: TGP482/BLACK-XBERecomp
+author: TGP482
+originalDeveloper: Criterion Games
+year: 2006
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo para Windows de la versión de Xbox, hecho con XboxXBE-Recomp, la herramienta de recompilación estática del mismo autor. La primera vez que arranca compila el código del juego para tu equipo. Cambia los 640×480 originales por la resolución de tu monitor y añade escala de renderizado del 20 al 200 %, campo de visión de 45 a 140 grados, fotogramas sin el tope de 30 de la Xbox, HDR, MSAA hasta 8x y SMAA, oclusión ambiental (SSAO o GTAO) y distancia de dibujado hasta 16 veces mayor. Tiene teclado y ratón con entrada directa y controles reasignables, y mando por SDL3 con apuntado por giroscopio. La V2 (18 de octubre) sumó una página de opciones para el mando y puso todas las opciones en el menú de pausa."
+  en: "A native Windows port of the Xbox version, built with XboxXBE-Recomp, the same author’s static recompilation tool. On first launch it compiles the game’s code for your machine. It replaces the original 640×480 with your monitor’s resolution and adds a 20–200% render scale, a 45–140° field of view, frame rates beyond the Xbox’s 30 fps cap, HDR, up to 8x MSAA and SMAA, ambient occlusion (SSAO or GTAO), and up to 16x draw distance. It has keyboard and mouse with raw input and rebindable controls, and SDL3 controller support with gyro aiming. V2 (October 18) added a controller options page and put every option page in the pause menu."
+requirements:
+  es: "Los archivos de tu propia copia de Black para Xbox, versión estadounidense o europea, como ISO o extraídos. Además, Windows 10 de 64 bits, un procesador con SSE4.2 y una tarjeta gráfica con Direct3D 12. Para compilarlo hace falta el default.xbe de la versión estadounidense."
+  en: "The files from your own copy of Black for Xbox, US or European release, as an ISO or extracted. Plus 64-bit Windows 10, a CPU with SSE4.2, and a Direct3D 12 graphics card. Building it requires the US release’s default.xbe."
+tags:
+  - x86
+  - fps
+  - widescreen

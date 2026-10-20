@@ -1,0 +1,20 @@
+name: WWE All Stars
+console: x360
+status: playable
+repo: shaneomac1337/WWE-AllStars-Recomp
+author: shaneomac1337
+originalDeveloper: THQ San Francisco
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Versión no oficial para Windows de la versión de Xbox 360, recompilada con ReXGlue, con un renderizador nativo en Vulkan que dibuja las llamadas Direct3D 9 del juego en lugar de emular la GPU. Están probados y se juegan la exhibición 1 contra 1, Path of Champions, Fantasy Warfare, la creación de luchadores, cuatro jugadores locales, los luchadores del DLC y Player Match en línea, contra un servidor que sustituye a Xbox Live y a los de THQ. Añade supermuestreo, hasta 2160p, ajustes dentro del juego, vibración mejorada, entradas a 60 fps, una opción para desbloquearlo todo sin tocar tu partida, combates experimentales a 120 fps y un gestor de mods. En la Steam Deck va con Proton a 60 fps. Su autor declara que lo hizo con Claude Code."
+  en: "An unofficial Windows version of the Xbox 360 game, recompiled with ReXGlue, with a native Vulkan renderer that draws the game’s Direct3D 9 calls instead of emulating the GPU. Tested and playable: 1v1 Exhibition, Path of Champions, Fantasy Warfare, Create a Superstar, four local players, DLC wrestlers, and online Player Match, against a server that stands in for Xbox Live and THQ’s servers. It adds supersampling, up to 2160p, in-game settings, enhanced vibration, 60 fps entrances, an unlock-everything option that leaves your save alone, experimental 120 fps matches, and a mod manager. On the Steam Deck it runs through Proton at 60 fps. Its author states it was made with Claude Code."
+requirements:
+  es: "Tu propia imagen de disco de WWE All Stars para Xbox 360, versión de EE. UU. o Europa, y su Title Update 2, volcados de tu consola; los DLC son opcionales. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan y unos 8 GB libres."
+  en: "Your own WWE All Stars Xbox 360 disc image, US/Europe release, and its Title Update 2, dumped from your console; DLC is optional. Plus 64-bit Windows 10 or 11, a Vulkan graphics card, and about 8 GB of free space."
+tags:
+  - powerpc
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: Rockstar Games presents Table Tennis
+console: x360
+status: playable
+repo: davidptrssvea/Table-Tennis-Rockstar-PC
+author: davidptrssvea
+originalDeveloper: Rockstar San Diego
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Recompilación para Windows de 64 bits de la versión de Xbox 360, con el SDK de ReXGlue 0.10.0 y DirectX 12. Un instalador gráfico comprueba tu ISO, descarga lo necesario (un Python portátil, las Build Tools de Visual Studio si faltan y el SDK) y compila el juego en tu equipo: las descargas no traen el ejecutable del juego ni código generado. Añade salida hasta 4K con más resolución interna, objetivos de 60, 120, 144 o 240 fps o sin límite, FXAA, FSR y CAS, un launcher de ajustes, un contador de fotogramas y mando por SDL3. Quita Xbox Live del menú principal y deja el torneo, la exhibición, el entrenamiento y los extras. Guardar y cargar el progreso todavía no se ha revalidado del todo."
+  en: "A recompilation of the Xbox 360 version for 64-bit Windows, with ReXGlue SDK 0.10.0 and DirectX 12. A graphical installer checks your ISO, downloads what it needs (a portable Python, the Visual Studio Build Tools if missing, and the SDK), and builds the game on your PC: the downloads contain neither the game executable nor generated code. It adds up to 4K output with a higher internal resolution, 60, 120, 144, or 240 fps targets or uncapped, FXAA, FSR, and CAS, a settings launcher, a frame counter, and SDL3 controller support. It removes Xbox Live from the main menu, keeping Tournament, Exhibition, Training Mode, and Extras. Saving and loading progress hasn’t been fully revalidated yet."
+requirements:
+  es: "Tu propia ISO sin modificar de Table Tennis para Xbox 360, versión de EE. UU. o Europa (Title ID 545407DF), que el juego sigue leyendo al jugar. Además, Windows 10 u 11 de 64 bits, un procesador con AVX2, una tarjeta gráfica con DirectX 12, conexión a internet para la primera instalación y varios GB libres."
+  en: "Your own unmodified US or European Xbox 360 Table Tennis ISO (Title ID 545407DF), which the game keeps reading during play. Plus 64-bit Windows 10 or 11, an AVX2 CPU, a DirectX 12 graphics card, an internet connection for the first setup, and several GB of free space."
+tags:
+  - powerpc
+  - 60fps+

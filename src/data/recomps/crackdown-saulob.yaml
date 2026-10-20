@@ -1,0 +1,19 @@
+name: Crackdown (saulob)
+console: x360
+status: playable
+repo: saulob/crackdown-xbox360-recompiled
+author: saulob
+originalDeveloper: Realtime Worlds
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue, con el launcher TRG y soporte experimental de Linux y Steam Deck como AppImage con Vulkan. Ofrece resolución hasta 4x, escala interna, formatos de 4:3 a 32:9 que muestran más escena a los lados, de 30 a 240 fps o sin límite sin cambiar la velocidad del juego, teclado y ratón con apuntado, logros sin conexión con sus iconos originales, siete trucos opcionales y diez idiomas. Corrige el cierre que podía ocurrir al cargar una partida. Solo acepta el disco original sin actualizaciones. Su autor declara que usó herramientas de IA y que revisó cada cambio."
+  en: "A native Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK, with the TRG launcher and experimental Linux and Steam Deck support as a Vulkan AppImage. It offers up to 4x resolution, internal render scaling, aspect ratios from 4:3 to 32:9 that show more of the scene at the sides, 30 to 240 fps or uncapped without changing game speed, keyboard and mouse with mouse aiming, offline achievements with their original icons, seven optional cheats, and ten languages. It fixes the crash that could happen when loading a saved game. It only accepts the original disc without title updates. Its author states that AI tools were used and that every change was reviewed."
+requirements:
+  es: "Tu propio disco de Crackdown para Xbox 360 (2007), la versión original sin title update (Title ID 4D5307DC), como imagen o extraído. Además, Windows 10 u 11 de 64 bits con DirectX 12, o Linux x86-64 (glibc 2.31 o posterior) con Vulkan."
+  en: "Your own Crackdown Xbox 360 disc (2007), the original release without a title update (Title ID 4D5307DC), as an image or extracted. Plus 64-bit Windows 10 or 11 with DirectX 12, or x86-64 Linux (glibc 2.31 or newer) with Vulkan."
+tags:
+  - powerpc
+  - widescreen
+  - 60fps+
+  - ai-assisted

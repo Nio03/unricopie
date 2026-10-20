@@ -1,0 +1,19 @@
+name: "Naruto: Rise of a Ninja"
+console: x360
+status: playable
+repo: jorjbarbosa/naruto-rise-recomp
+author: Jorge Barbosa
+originalDeveloper: Ubisoft Montreal
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 para Windows de 64 bits, hecha con el SDK de ReXGlue. Tiene dos renderizadores: uno nativo en Direct3D 12, el predeterminado, que traduce las llamadas gráficas del juego y presenta a 60 o 120 fps interpolando entre los pasos de la lógica, que conserva su ritmo original; y Xenos, la emulación de la GPU de Xbox 360 que trae el SDK, como alternativa, con pantallas ultrapanorámicas 21:9 y 32:9. Añade resolución interna de 1x a 4x, MSAA, FXAA, FSR, DLC, selección de idioma y un launcher e instalador en siete idiomas que importa tu ISO. Sigue en desarrollo y su autor avisa de fallos, cierres y problemas gráficos. Declara que usa herramientas de IA y que revisa cada cambio."
+  en: "A static recompilation of the Xbox 360 version for 64-bit Windows, built with the ReXGlue SDK. It has two renderers: a native Direct3D 12 one, the default, which translates the game’s graphics calls and presents at 60 or 120 fps by interpolating between logic steps, which keep their original rate; and Xenos, the SDK’s Xbox 360 GPU emulation, as the alternative, with 21:9 and 32:9 ultrawide support. It adds 1x–4x internal resolution, MSAA, FXAA, FSR, DLC, language selection, and a launcher and installer in seven languages that imports your ISO. It’s still in development and its author warns of bugs, crashes, and visual issues. It states that AI tools assist development and that the maintainer reviews every change."
+requirements:
+  es: "Los archivos de tu propia copia de Naruto: Rise of a Ninja para Xbox 360, incluido default.xex, o su ISO. Además, Windows de 64 bits, una tarjeta gráfica con Direct3D 12 y el redistribuible de Visual C++ x64."
+  en: "The files from your own copy of Naruto: Rise of a Ninja for Xbox 360, including default.xex, or its ISO. Plus 64-bit Windows, a Direct3D 12 graphics card, and the Visual C++ x64 redistributable."
+tags:
+  - powerpc
+  - widescreen
+  - 60fps+
+  - ai-assisted
