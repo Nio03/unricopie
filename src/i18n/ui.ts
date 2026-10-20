@@ -67,9 +67,9 @@ export const ui = {
     "guide.recomp.t": "Recomp",
     "guide.recomp.b": "Recompilación estática: traduce el binario original del juego a C/C++ y lo compila a código nativo. No es emulación ni decompilación. (N64Recomp, XenonRecomp, ReXGlue…)",
     "guide.port.t": "Port / remake",
-    "guide.port.b": "Ports construidos sobre una decompilación, remakes hechos por fans y capas nativas: otras formas de llevar el mismo juego a PC. (Ship of Harkinian, P-06…)",
+    "guide.port.b": "Ports construidos sobre una decompilación, remakes hechos por fans, capas nativas y motores hechos para un solo juego: otras formas de llevar el mismo juego a PC. (Ship of Harkinian, P-06…)",
     "guide.decomp.t": "Decompilación",
-    "guide.decomp.b": "Reconstruye por ingeniería inversa el código fuente del juego (C/C++), casi siempre hasta que, al compilarlo, da el mismo binario que el original. Es la base de muchos ports; su avance se actualiza a diario desde decomp.dev.",
+    "guide.decomp.b": "Reconstruye por ingeniería inversa el código fuente del juego (C/C++), casi siempre hasta que, al compilarlo, da el mismo binario que el original. Es la base de muchos ports; su avance se actualiza a diario desde decomp.dev y ByteMatch.",
     "guide.tool.t": "Launcher / herramienta",
     "guide.tool.b": "Recompiladores, launchers y bibliotecas que hacen posible todo lo anterior. (RT64, N64RecompLauncher…)",
     "guide.mod.t": "Mod",
@@ -121,6 +121,7 @@ export const ui = {
     "category.decomp-port": "Port (decomp)",
     "category.fan-remake": "Remake de fans",
     "category.native-layer": "Capa nativa",
+    "category.game-engine": "Motor para un juego",
 
     "launchers.title": "Launchers y herramientas",
     "launchers.intro":
@@ -131,10 +132,10 @@ export const ui = {
 
     "ports.title": "Ports y remakes",
     "ports.intro":
-      "Juegos que llegan a PC por un camino distinto de la recompilación estática: ports construidos sobre una decompilación, como Ship of Harkinian; reimplementaciones hechas por fans, como P-06 (Sonic ’06); y capas nativas, como las de Bloodborne y God of War III, en las que el código original corre tal cual en la CPU. Cada ficha dice cómo llega a PC y, si parte de una decompilación del catálogo, la enlaza.",
+      "Juegos que llegan a PC por un camino distinto de la recompilación estática: ports construidos sobre una decompilación, como Ship of Harkinian; reimplementaciones hechas por fans, como P-06 (Sonic ’06); capas nativas, como las de Bloodborne y God of War III, en las que el código original corre tal cual en la CPU; y motores hechos para un solo juego, como el de LovePlus+, que ejecutan el código original en un intérprete propio y lo van pasando a código nativo. Cada ficha dice cómo llega a PC y, si parte de una decompilación del catálogo, la enlaza.",
     "decomps.title": "Decompilaciones",
     "decomps.intro":
-      "Las decompilaciones de la escena: el código fuente de cada juego, reconstruido por ingeniería inversa, con su avance (el porcentaje de código que ya coincide con el original) actualizado a diario desde decomp.dev. Es el trabajo previo del que nacen muchos ports.",
+      "Las decompilaciones de la escena: el código fuente de cada juego, reconstruido por ingeniería inversa, con su avance (el porcentaje de código que ya coincide con el original) actualizado a diario desde decomp.dev y ByteMatch. Es el trabajo previo del que nacen muchos ports.",
     "mods.title": "Mods",
     "mods.intro": "Mods y herramientas para modificar juegos: mods de juegos que ya están en el catálogo, editores para crear contenido nuevo y gestores que los instalan con un clic. Como en el resto del catálogo, todos necesitan tu propia copia del juego.",
 
@@ -151,6 +152,7 @@ export const ui = {
     "method.decomp-port": "Port de una decompilación",
     "method.fan-remake": "Reimplementación de fans",
     "method.native-layer": "Capa nativa",
+    "method.game-engine": "Motor hecho para el juego",
     "detail.basedOnDecomp": "Basado en la decompilación",
     "detail.portsOfDecomp": "Ports basados en esta decompilación",
     // Títulos para buscadores: el juego, «en PC» y cómo llega (lo que busca la gente).
@@ -196,8 +198,10 @@ export const ui = {
 
     "footer.otherCatalogs": "Otros catálogos y listas",
     "footer.romList": "Read Only Memo · lista mensual",
+    "footer.bytematch": "ByteMatch · avance actual",
+    "footer.decompdev": "decomp.dev · histórico",
     "footer.legal":
-      "Necesitas tu propia copia legal de cada juego. Estos proyectos contienen solo código, sin ningún recurso protegido por derechos de autor: tienes que volcar tu propia ROM o imagen de disco.",
+      "Necesitas tu propia copia legal de cada juego: tienes que volcar tu propia ROM o imagen de disco. Recompendium no aloja nada, y no enlaza proyectos que incluyan recursos protegidos por derechos de autor, salvo que declaren tener el permiso explícito de sus titulares.",
     "footer.meta":
       "Recompendium es un catálogo comunitario y de código abierto · fichas revisadas a mano y actualizadas a diario con los datos de GitHub",
     "footer.contribute": "¿Cómo contribuir? →",
@@ -278,9 +282,9 @@ export const ui = {
     "guide.recomp.t": "Recomp",
     "guide.recomp.b": "Static recompilation: translates the game’s original binary to C/C++ and compiles it to native code. It’s neither emulation nor decompilation. (N64Recomp, XenonRecomp, ReXGlue…)",
     "guide.port.t": "Port / remake",
-    "guide.port.b": "Ports built on a decompilation, fan-made remakes, and native layers: other ways to bring the same game to PC. (Ship of Harkinian, P-06…)",
+    "guide.port.b": "Ports built on a decompilation, fan-made remakes, native layers, and engines built for a single game: other ways to bring the same game to PC. (Ship of Harkinian, P-06…)",
     "guide.decomp.t": "Decompilation",
-    "guide.decomp.b": "Reverse-engineers the game’s source code (C/C++), usually until it compiles back into the exact original binary. It’s the groundwork for many ports; progress is updated daily from decomp.dev.",
+    "guide.decomp.b": "Reverse-engineers the game’s source code (C/C++), usually until it compiles back into the exact original binary. It’s the groundwork for many ports; progress is updated daily from decomp.dev and ByteMatch.",
     "guide.tool.t": "Launcher / tool",
     "guide.tool.b": "The recompilers, launchers, and libraries that make all of the above possible. (RT64, N64RecompLauncher…)",
     "guide.mod.t": "Mod",
@@ -332,6 +336,7 @@ export const ui = {
     "category.decomp-port": "Port (decomp)",
     "category.fan-remake": "Fan remake",
     "category.native-layer": "Native layer",
+    "category.game-engine": "Game-specific engine",
 
     "launchers.title": "Launchers & tools",
     "launchers.intro":
@@ -342,10 +347,10 @@ export const ui = {
 
     "ports.title": "Ports & remakes",
     "ports.intro":
-      "Games that reach PC by a path other than static recompilation: ports built on a decompilation, like Ship of Harkinian; fan-made reimplementations, like P-06 (Sonic ’06); and native layers, like the ones for Bloodborne and God of War III, where the original code runs as is on the CPU. Each entry says how it gets to PC and, if it starts from a decompilation in the catalog, links to it.",
+      "Games that reach PC by a path other than static recompilation: ports built on a decompilation, like Ship of Harkinian; fan-made reimplementations, like P-06 (Sonic ’06); native layers, like the ones for Bloodborne and God of War III, where the original code runs as is on the CPU; and engines built for a single game, like LovePlus+’s, which run the original code in their own interpreter and move it to native code bit by bit. Each entry says how it gets to PC and, if it starts from a decompilation in the catalog, links to it.",
     "decomps.title": "Decompilations",
     "decomps.intro":
-      "The scene’s decompilations: each game’s source code, rebuilt through reverse engineering, with its progress (the share of code that already matches the original) updated daily from decomp.dev. It’s the groundwork many ports grow out of.",
+      "The scene’s decompilations: each game’s source code, rebuilt through reverse engineering, with its progress (the share of code that already matches the original) updated daily from decomp.dev and ByteMatch. It’s the groundwork many ports grow out of.",
     "mods.title": "Mods",
     "mods.intro": "Mods and modding tools: mods for games already in the catalog, editors for building new content, and managers that install them in one click. As with the rest of the catalog, they all need your own copy of the game.",
 
@@ -360,6 +365,7 @@ export const ui = {
     "method.decomp-port": "Port of a decompilation",
     "method.fan-remake": "Fan reimplementation",
     "method.native-layer": "Native layer",
+    "method.game-engine": "Game-specific engine",
     "detail.basedOnDecomp": "Built on the decompilation",
     "detail.portsOfDecomp": "Ports built on this decompilation",
     "seo.recomp": "{name} on PC: {console} static recompilation",
@@ -403,8 +409,10 @@ export const ui = {
 
     "footer.otherCatalogs": "Other catalogs and lists",
     "footer.romList": "Read Only Memo · monthly list",
+    "footer.bytematch": "ByteMatch · current progress",
+    "footer.decompdev": "decomp.dev · historic",
     "footer.legal":
-      "You need your own legal copy of each game. These projects contain only code, with no copyrighted assets: you have to dump your own ROM or disc image.",
+      "You need your own legal copy of each game: you have to dump your own ROM or disc image. Recompendium hosts nothing, and doesn’t link to projects that include copyrighted assets unless they state they have the rights holder’s explicit permission.",
     "footer.meta":
       "Recompendium is a community-run, open-source catalog · entries reviewed by hand and updated daily with data from GitHub",
     "footer.contribute": "How to contribute →",

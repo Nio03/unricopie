@@ -61,22 +61,43 @@ async function collectDecomp() {
   return set;
 }
 
-// Progreso de decompilación (matched code %) desde decomp.dev/projects.json.
-async function fetchDecompPercents(keys) {
-  if (!keys.size) return {};
-  const out = {};
+// Progreso de decompilación (matched code %), proyecto a proyecto.
+// decomp.dev cerró su directorio (projects.json responde 410 desde el 15-10-2026),
+// pero sigue sirviendo el JSON de cada proyecto que ya tenía. ByteMatch usa las
+// mismas URLs y recibe los proyectos que migran. Se piden los dos y gana el
+// informe con el commit más reciente; si ninguno responde, se conserva el % anterior.
+const DECOMP_SOURCES = ["https://bytematch.dev", "https://decomp.dev"];
+
+async function fetchProjectReport(base, key) {
   try {
-    const res = await fetch("https://decomp.dev/projects.json", { headers: { "User-Agent": "recompendium-stats-bot" } });
-    if (!res.ok) { console.warn(`  ! decomp.dev: HTTP ${res.status}`); return {}; }
-    const { projects } = await res.json();
-    const byKey = new Map(projects.map((p) => [`${p.owner}/${p.repo}`.toLowerCase(), p]));
-    for (const key of keys) {
-      const p = byKey.get(key.toLowerCase());
-      const pct = p?.measures?.matched_code_percent;
-      if (typeof pct === "number") out[key] = Math.round(pct);
-      else console.warn(`  ! decomp.dev: sin datos para ${key}`);
+    const res = await fetch(`${base}/${key}.json`, {
+      headers: { "User-Agent": "recompendium-stats-bot" },
+      signal: AbortSignal.timeout(45000),
+    });
+    if (!res.ok) return null;
+    const j = await res.json();
+    const pct = j?.measures?.matched_code_percent;
+    if (typeof pct !== "number") return null;
+    return { pct, at: j.commit?.timestamp || "", base };
+  } catch { return null; }
+}
+
+async function fetchDecompPercents(keys, prev) {
+  const out = {};
+  for (const key of keys) {
+    const reports = [];
+    for (const base of DECOMP_SOURCES) {
+      const r = await fetchProjectReport(base, key);
+      if (r) reports.push(r);
+      await new Promise((ok) => setTimeout(ok, 500));
     }
-  } catch (e) { console.warn(`  ! decomp.dev: ${e.message}`); }
+    reports.sort((a, b) => b.at.localeCompare(a.at));
+    if (reports.length) out[key] = Math.round(reports[0].pct);
+    else if (typeof prev[key]?.decompPercent === "number") {
+      out[key] = prev[key].decompPercent;
+      console.warn(`  ! sin informe para ${key}: se conserva ${out[key]} %`);
+    } else console.warn(`  ! sin informe para ${key}`);
+  }
   return out;
 }
 
@@ -149,15 +170,15 @@ async function main() {
     }
   }
 
-  // Progreso de decompilación (decomp.dev) — se fusiona bajo la clave del proyecto decomp.
+  // Progreso de decompilación (ByteMatch / decomp.dev) — se fusiona bajo la clave del proyecto decomp.
   const decompKeys = await collectDecomp();
-  const decompPct = await fetchDecompPercents(decompKeys);
+  const decompPct = await fetchDecompPercents(decompKeys, prev);
   let decompN = 0;
   for (const [key, pct] of Object.entries(decompPct)) {
     out[key] = { ...(out[key] || {}), decompPercent: pct };
     decompN++;
   }
-  if (decompKeys.size) console.log(`  · decomp.dev: ${decompN}/${decompKeys.size} con % de decompilación`);
+  if (decompKeys.size) console.log(`  · decomps: ${decompN}/${decompKeys.size} con % de decompilación`);
 
   const sorted = Object.fromEntries(Object.keys(out).sort().map((k) => [k, out[k]]));
   await writeFile(statsPath, JSON.stringify(sorted, null, 2) + "\n");

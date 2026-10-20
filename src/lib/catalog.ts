@@ -49,7 +49,7 @@ export const TYPE_COLOR: Record<ItemType, string> = {
   decomp: "#5fb3c9",
   mod: "#e0a73a",
 };
-export const CAT_COLOR: Record<string, string> = { "decomp-port": "#3fb0a8", "fan-remake": "#cd7dd6", "native-layer": "#5f8fd4" };
+export const CAT_COLOR: Record<string, string> = { "decomp-port": "#3fb0a8", "fan-remake": "#cd7dd6", "native-layer": "#5f8fd4", "game-engine": "#d9a54a" };
 
 // Código corto para la mini-portada del catálogo (estilo RetroAchievements).
 const TOOL_BOX: Record<string, string> = { recompiler: "RCMP", launcher: "LNCH", patcher: "PTCH", library: "LIB" };

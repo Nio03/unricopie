@@ -36,6 +36,8 @@ export const CONSOLES = {
   // Placas de recreativa sin consola hermana (CPS-3, Sega OutRun…). NAOMI NO va
   // aquí: comparte silicio con la Dreamcast y se queda en esa clave.
   arcade: { label: 'Arcade', tag: 'ARC', full: 'Arcade board', arch: '—', color: '#B8873B' },
+  // Juegos de MS-DOS: van aparte de «pc» para que tengan su propia página.
+  dos: { label: 'DOS', tag: 'DOS', full: 'MS-DOS', arch: 'x86', color: '#5C7CFA' },
   pc: { label: 'PC', tag: 'PC', full: 'PC', arch: 'x86', color: '#6C7193' },
   other: { label: 'Other', tag: 'ETC', full: 'Other platform', arch: '—', color: '#9AA0B5' },
 } as const;

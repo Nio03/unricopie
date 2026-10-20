@@ -15,7 +15,7 @@ export interface RepoStat {
   version?: string;
   versionAt?: string;
   fork?: string; // "owner/repo" del repo padre si este es un fork de GitHub
-  decompPercent?: number; // % de decompilación (matched code) desde decomp.dev
+  decompPercent?: number; // % de decompilación (matched code) desde decomp.dev o ByteMatch
 }
 
 const stats = statsData as Record<string, RepoStat>;
