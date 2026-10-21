@@ -1,0 +1,22 @@
+name: Super Mario 64 (SM64Plus)
+category: decomp-port
+console: n64
+status: fully
+repo: MorsGames/sm64plus
+homepage: https://mfgg.net/index.php?act=resdb&param=02&c=2&id=38190
+originalDeveloper: Nintendo EAD
+year: 1996
+desc:
+  es: "SM64Plus: fork del port a PC sm64-port centrado en la personalización, con ajustes que corrigen problemas del original y amplían el juego, casi todos opcionales. Ofrece controles con mejor respuesta, una cámara mejorada, movimientos nuevos, la opción de seguir en el nivel después de conseguir una estrella, modos extra como Encore, Green Demon o el modo difícil, 60 fps por interpolación y correcciones de errores, además de preajustes como «Vanilla» para jugarlo como el original. No incluye recursos del juego: un launcher, hecho con GameMaker, compila el juego en tu equipo a partir de tu ROM y gestiona los ajustes. La 4.0 (11 de marzo de 2026) pasó a usar solo OpenGL, añadió V-Sync, antialiasing MSAA, filtrado anisótropo, un desenfoque al estilo de la N64 y la corrección de las erratas de los textos, y rehízo la resolución interna. Su autor lo da por completo en cuanto a funciones."
+  en: "SM64Plus: a fork of the sm64-port PC port focused on customization, with settings that fix problems in the original and expand the game, nearly all optional. It offers more responsive controls, an improved camera, an extended moveset, the option to stay in the level after getting a star, extra modes such as Encore, Green Demon, and Hard Mode, 60 fps through interpolation, and bug fixes, plus presets such as “Vanilla” to play it like the original. It includes no game assets: a launcher, made with GameMaker, builds the game on your machine from your ROM and manages the settings. Version 4.0 (March 11, 2026) switched to OpenGL only, added V-Sync, MSAA anti-aliasing, anisotropic filtering, an N64-style blur, and fixes for the text’s typos, and reworked the internal resolution. Its author considers it feature complete."
+requirements:
+  es: "Tu propia ROM estadounidense de Super Mario 64 (.z64) y conexión a internet al instalarlo, porque el launcher descarga lo que necesita para compilar el juego. El launcher es para Windows; para Linux hay versiones del launcher y una guía para compilarlo a mano, también en Steam Deck; para macOS no hay guía."
+  en: "Your own US Super Mario 64 ROM (.z64) and an internet connection during setup, since the launcher downloads what it needs to build the game. The launcher is for Windows; for Linux there are launcher builds and a guide to build it by hand, Steam Deck included; there’s no guide for macOS."
+tags:
+  - mario
+  - 60fps+
+links:
+  - label:
+      es: "Código del launcher"
+      en: "Launcher source"
+    url: https://github.com/MorsGames/sm64plus-launcher

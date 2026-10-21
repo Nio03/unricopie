@@ -1,0 +1,23 @@
+name: Bloodborne (Lantern Engine)
+category: native-layer
+console: ps4
+status: playable
+repo: Awakenchan/LanternEngine
+originalDeveloper: FromSoftware
+year: 2015
+forkOf:
+  label: DarkIzuku/bloodborne_pc
+  url: https://github.com/DarkIzuku/bloodborne_pc
+desc:
+  es: "Lantern Engine (anteriormente BloodBorneButPc): launcher y motor para jugar Bloodborne en Windows, derivado de bbport a través del fork de DarkIzuku y reescrito en buena parte por su autor. Funciona como bbport: el código x86-64 original corre directamente en la CPU, un entorno de ejecución hecho para este juego sustituye las bibliotecas del sistema de la PS4 y los gráficos se traducen a Vulkan con el núcleo de vídeo de shadPS4. Añade 30, 60, 90, 120 o 144 fps o sin límite, escalado con DLSS y con FSR 3.1, 4 y 4.1.1, generación de fotogramas con FSR 3.1, HDR, resoluciones de salida hasta 32:9, teclado y ratón con los iconos de las teclas, iconos de mando de Xbox, trucos, trofeos, mods, cooperativo en línea en los servidores de The Hunter's Dream y muchos arreglos de rendimiento y de memoria, también para tarjetas de 4 a 8 GB. El launcher se actualiza solo y el menú del juego está en varios idiomas. La última versión estable es la 0.9.36 (21 de octubre)."
+  en: "Lantern Engine (formerly BloodBorneButPc): a launcher and engine for playing Bloodborne on Windows, derived from bbport by way of DarkIzuku’s fork and largely reworked by its author. It works like bbport: the original x86-64 code runs directly on the CPU, a runtime made for this game replaces the PS4 system libraries, and the graphics are translated to Vulkan through shadPS4’s video core. It adds 30, 60, 90, 120, or 144 fps or uncapped, upscaling with DLSS and FSR 3.1, 4, and 4.1.1, FSR 3.1 frame generation, HDR, output resolutions up to 32:9, keyboard and mouse with key prompts, Xbox controller icons, cheats, trophies, mods, online co-op on The Hunter’s Dream servers, and many performance and memory fixes, including for 4–8 GB cards. The launcher updates itself and the in-game menu comes in several languages. The latest stable version is 0.9.36 (October 21)."
+requirements:
+  es: "Tu propio volcado descifrado de Bloodborne con la actualización 1.09 (la carpeta con eboot.bin): CUSA03173 o, desde la 0.9.34, la versión estadounidense CUSA00900. Además, Windows de 64 bits y una tarjeta gráfica con Vulkan. No se incluye ningún archivo del juego."
+  en: "Your own decrypted Bloodborne dump with update 1.09 (the folder with eboot.bin): CUSA03173 or, since 0.9.34, the US release CUSA00900. Plus 64-bit Windows and a Vulkan graphics card. No game files are included."
+tags:
+  - x86
+  - vulkan
+  - 60fps+
+  - widescreen
+  - online
+  - mods

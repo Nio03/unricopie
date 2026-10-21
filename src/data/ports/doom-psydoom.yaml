@@ -1,0 +1,24 @@
+name: "Doom / Final Doom (PsyDoom)"
+category: decomp-port
+console: ps1
+status: fully
+repo: BodbDearg/PsyDoom
+originalDeveloper: Williams Entertainment
+year: 1995
+desc:
+  es: "PsyDoom: Doom y Final Doom de PlayStation llevados de vuelta al PC por ingeniería inversa. El código sale directamente del código máquina de la PlayStation: empezó como instrucciones MIPS emuladas y se fue convirtiendo poco a poco en C++ estructurado que corre de forma nativa, con ayuda de PSXDOOM-RE, de Erick194, que recrea el código para la propia PlayStation. El renderizador clásico emula por dentro la GPU y el chip de sonido (SPU) de la consola para que se vea y suene como el original; el renderizador Vulkan, activo por defecto donde está disponible, dibuja en alta resolución y en panorámico. Reproduce exactamente cuatro partidas completas grabadas en demos (Doom y Final Doom, NTSC y PAL). Añade fotogramas sin límite con interpolación, partidas guardadas, un launcher, teclado y ratón, el multijugador del cable link por TCP (cooperativo y deathmatch, con una conexión de latencia muy baja), mods con scripts en Lua y límites del motor ampliados. La última versión estable es la 1.1.1 (13 de junio de 2023); la 1.2.0-preview1 (22 de marzo de 2025) es de prueba."
+  en: "PsyDoom: PlayStation Doom and Final Doom brought back to PC through reverse engineering. The code comes straight from the PlayStation machine code: it began as emulated MIPS instructions and was gradually turned into structured C++ that runs natively, with help from Erick194’s PSXDOOM-RE, which recreates the source for the PlayStation itself. The classic renderer emulates the console’s GPU and sound chip (SPU) internally so the game looks and sounds like the original; the Vulkan renderer, on by default where available, draws at high resolutions and in widescreen. It reproduces exactly four complete playthroughs recorded as demos (Doom and Final Doom, NTSC and PAL). It adds uncapped frame rates with interpolation, save files, a launcher, keyboard and mouse, the link cable multiplayer over TCP (co-op and deathmatch, on a very low-latency connection), Lua-scripted mods, and raised engine limits. The latest stable version is 1.1.1 (June 13, 2023); 1.2.0-preview1 (March 22, 2025) is a test build."
+requirements:
+  es: "Tu propio disco de Doom o Final Doom para PlayStation (de cualquier región y edición) como imagen con su archivo .cue; también vale la demo de un nivel. Además, Windows de 64 bits con el redistribuible de Visual C++, macOS (Intel o Apple Silicon) o Linux basado en Debian Buster o posterior (x86-64, ARM64 o ARMhf, con PulseAudio para el sonido). El renderizador Vulkan pide Vulkan 1.0 (en Mac, una tarjeta gráfica con Metal); sin él se usa el clásico."
+  en: "Your own Doom or Final Doom PlayStation disc (any region or edition) as an image with its .cue file; the one-level demo works too. Plus 64-bit Windows with the Visual C++ redistributable, macOS (Intel or Apple silicon), or Linux based on Debian Buster or later (x86-64, ARM64, or ARMhf, with PulseAudio for sound). The Vulkan renderer needs Vulkan 1.0 (on a Mac, a Metal-capable graphics card); without it, the classic renderer is used."
+tags:
+  - mips
+  - fps
+  - vulkan
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - mods
+links:
+  - label: PSXDOOM-RE (Erick194)
+    url: https://github.com/Erick194/PSXDOOM-RE

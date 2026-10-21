@@ -1,0 +1,19 @@
+name: New Super Mario Bros. Wii
+console: wii
+status: playable
+repo: WitherBlitz/NSMB-Wii-Multiplayer-Recompilation
+originalDeveloper: Nintendo EAD
+year: 2009
+toolchain: Wiicompiled
+desc:
+  es: "Port nativo de New Super Mario Bros. Wii para Windows, Linux y Android, hecho por recompilación estática con WiiCompiled: el código PowerPC del juego se traduce a C++ de antemano y se compila para tu equipo, sin emulador, intérprete ni JIT. Los gráficos pasan por aurora, con Direct3D 12 o Vulkan. Pese al nombre que tuvo el repositorio, no es una decompilación; su autor dice que planea decompilarlo más adelante. Añade multijugador por LAN para hasta cuatro jugadores, mezclando PC y móviles, y por internet con Tailscale: cada dispositivo ejecuta el juego y solo viajan los controles, en sincronía. También ofrece 4:3, 16:9 o un modo que, en pantallas ultrapanorámicas, muestra más nivel a los lados en lugar de estirarlo, resolución interna por encima de las 480 líneas, menús que se pueden pulsar con el ratón o el dedo, teclas reasignables, pantalla completa sin bordes o exclusiva, V-Sync y el juego en inglés, español o francés. La versión 0.2.2 (21 de octubre) arranca y se juega, pero todavía no tiene todos los niveles comprobados. Su autor declara que todo el código lo escribió Claude Opus 5.5, de Anthropic, y que su papel fue dirigirlo y probarlo."
+  en: "A native port of New Super Mario Bros. Wii for Windows, Linux, and Android, made by static recompilation with WiiCompiled: the game’s PowerPC code is translated to C++ ahead of time and compiled for your device, with no emulator, interpreter, or JIT. Graphics go through aurora, on Direct3D 12 or Vulkan. Despite the repository’s former name, it isn’t a decompilation; its author plans to decompile the game later. It adds LAN multiplayer for up to four players across PCs and phones, and online play through Tailscale: every device runs the game and only the inputs travel, in lockstep. It also offers 4:3, 16:9, or a mode that shows more of the level to the sides on ultrawide screens instead of stretching it, internal resolution above 480 lines, menus you can click or tap, rebindable keys, borderless or exclusive fullscreen, V-Sync, and the game in English, Spanish, or French. Version 0.2.2 (October 21) boots and plays, but not every level has been checked yet. Its author states that all the code was written by Claude Opus 5.5, by Anthropic, and that their own role was directing and testing it."
+requirements:
+  es: "Tu propia copia estadounidense de New Super Mario Bros. Wii (SMNE01, revisión 1), extraída entera con Dolphin; otras regiones y revisiones se rechazan, y en el juego por LAN cada jugador necesita la suya. Además, Windows 10 u 11 de 64 bits con una tarjeta gráfica con Direct3D 12 o Vulkan, o Linux x86-64 con Vulkan y glibc 2.35 o posterior (Fedora 36, Ubuntu 22.04, Debian 12 o posteriores); en procesadores sin AVX2 se abre sola una versión compatible. También hay versión para Android (arm64, Android 11 o posterior, con Vulkan)."
+  en: "Your own US copy of New Super Mario Bros. Wii (SMNE01, revision 1), fully extracted with Dolphin; other regions and revisions are rejected, and in LAN play every player needs their own. Plus 64-bit Windows 10 or 11 with a Direct3D 12 or Vulkan graphics card, or x86-64 Linux with Vulkan and glibc 2.35 or later (Fedora 36, Ubuntu 22.04, Debian 12, or newer); CPUs without AVX2 automatically get a compatibility build. There’s also an Android build (arm64, Android 11 or later, with Vulkan)."
+tags:
+  - powerpc
+  - widescreen
+  - multiplayer
+  - netplay
+  - ai-assisted

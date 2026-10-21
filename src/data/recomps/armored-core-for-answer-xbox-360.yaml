@@ -1,0 +1,16 @@
+name: "Armored Core for Answer (Xbox 360)"
+console: x360
+status: experimental
+repo: rensoftworks/Armored-core-ReAnswered
+author: flashfire199
+originalDeveloper: FromSoftware
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "AC_ReAnswered: proyecto para recompilar con ReXGlue la versión de Xbox 360, que su descripción presenta como «un intento» de conseguir una versión funcional del juego. Trae la configuración de ReXGlue, con funciones del juego ya identificadas (menú de título, cámara, enlace de sistema), y parches propios para la cámara y la carga de archivos. No hay versiones publicadas: tienes que compilarlo tú, en Windows con Visual Studio y Clang o en Linux. El README no dice cuánto del juego funciona. Lo empezó flashfire199 el 31 de marzo de 2026; su repositorio ya no está disponible, y la copia que sigue en línea es la de Ren Softworks, que añadió la compilación para Linux y lo actualizó por última vez el 13 de abril. No tiene relación con el port de la versión de PS3 del Project Glintburn."
+  en: "AC_ReAnswered: a project to recompile the Xbox 360 version with ReXGlue, which its description calls “an attempt” at a functioning version of the game. It holds the ReXGlue configuration, with game functions already identified (title menu, camera, system link), and its own patches for the camera and file loading. There are no releases: you have to build it yourself, on Windows with Visual Studio and Clang or on Linux. The README doesn’t say how much of the game works. flashfire199 started it on March 31, 2026; that repository is no longer available, and the copy still online is Ren Softworks’, who added the Linux build and last updated it on April 13. It isn’t related to Project Glintburn’s port of the PS3 version."
+requirements:
+  es: "Tu propia copia de Armored Core for Answer para Xbox 360, con el contenido de la ISO extraído (por ejemplo con extract-xiso), default.xex incluido; no se indica región. Además, el SDK de ReXGlue, CMake y Ninja; en Windows, Visual Studio Community con el compilador Clang."
+  en: "Your own copy of Armored Core for Answer for Xbox 360, with the ISO’s contents extracted (for example with extract-xiso), default.xex included; no region is stated. Plus the ReXGlue SDK, CMake, and Ninja; on Windows, Visual Studio Community with the Clang compiler."
+tags:
+  - powerpc

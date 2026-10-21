@@ -1,7 +1,8 @@
 name: Pokémon Battle Revolution
 console: wii
-repo: bgsamm/pbr-dtk
-decomp: bgsamm/pbr-dtk
+repo: pbr-ret/pbr-decomp
+authorFormerly: bgsamm
+decomp: pbr-ret/pbr-decomp
 desc:
   es: "Decompilación en curso de Pokémon Battle Revolution para Wii. Por ahora solo es compatible con la Rev 0 PAL (RPBP01)."
   en: "Work-in-progress decompilation of Pokémon Battle Revolution for Wii. For now only the PAL Rev 0 (RPBP01) is supported."

@@ -2,7 +2,8 @@ name: psxrecomp
 kind: recompiler
 consoles:
   - ps1
-repo: mstan/psxrecomp
+repo: RetroPortingToolKit/psxrecomp
+authorFormerly: mstan
 status: usable
 desc:
   es: "Recompilador de PS1 que traduce MIPS R3000A a C nativo y recompila la propia BIOS SCPH1001 como núcleo del sistema. Es la base de muchos recomps de PS1 del catálogo, como Crash Bandicoot 2, Ridge Racer Revolution, Valkyrie Profile o la serie Mega Man X."

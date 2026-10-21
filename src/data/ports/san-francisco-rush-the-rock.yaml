@@ -1,0 +1,26 @@
+name: "San Francisco Rush: The Rock / 2049 (ProjectR)"
+category: fan-remake
+console: arcade
+status: playable
+homepage: https://t3hd0gg.com/project-r/
+author: T3hD0gg
+originalDeveloper: Atari Games
+year: 1997
+desc:
+  es: "ProjectR: port nativo no oficial para Windows, macOS y Linux de dos juegos de recreativa de Atari Games, San Francisco Rush: The Rock (1997) y San Francisco Rush 2049 (1999). Está hecho por ingeniería inversa, corre en un motor propio con Vulkan y saca los datos del juego de tu volcado del disco duro de la recreativa. En 2049 usa la física, las colisiones y el manejo de los coches de la Special Edition, aunque también acepta el disco de la Tournament Edition. Se elige resolución y frecuencia de refresco, el HUD puede quedarse en 4:3 o llegar a los bordes de una pantalla panorámica, y hay distancia de dibujado, antialiasing y filtrado anisótropo. Se juega con mandos de Xbox o PlayStation, o con volante y pedales con force feedback; con teclado y ratón todavía no se puede conducir. Tiene un modo explorador sin límite de tiempo ni de vueltas cuando no hay rivales, y en 2049 un menú de trucos y la opción de importar perfiles, récords y fantasmas del disco o de MAME. Aún no se puede pausar. Es gratuito y de código cerrado, y su autor lo describe como un trabajo en curso sin fecha de final. La 0.7.1 (15 de julio de 2025) permite elegir, opción a opción, entre el diseño original de 2049 y el de la Tournament Edition."
+  en: "ProjectR: an unofficial native port of two Atari Games arcade racers, San Francisco Rush: The Rock (1997) and San Francisco Rush 2049 (1999), to Windows, macOS, and Linux. It’s built through reverse engineering, runs on its own Vulkan engine, and takes the game data from your own dump of the arcade hard drive. For 2049 it uses the Special Edition’s physics, collision, and car handling, though it also accepts the Tournament Edition drive. You can set resolution and refresh rate, keep the HUD at 4:3 or push it to the edges of a widescreen display, and adjust draw distance, anti-aliasing, and anisotropic filtering. It plays with Xbox or PlayStation controllers, or a wheel and pedals with force feedback; keyboard and mouse driving isn’t supported yet. It has an explorer mode with no time or lap limit when drones are off, and in 2049 a cheats menu and the option to import profiles, fast times, and ghosts from the drive or from MAME. Pausing isn’t possible yet. It’s free and closed source, and its author describes it as a work in progress without a finish date. Version 0.7.1 (July 15, 2025) lets you choose, option by option, between the original 2049 design and the Tournament Edition one."
+requirements:
+  es: "Tu propio volcado del disco duro de la recreativa, como CHD de MAME o imagen en bruto. Para The Rock, el de sfrushrk y las cuatro ROM de sonido (audio.u62, audio.u61, audio.u53 y audio.u49, sueltas o en un ZIP); el disco del San Francisco Rush original (sfrush) es opcional y añade el color blanco a los ocho coches de serie. Para 2049, el de la Special Edition (sf2049se) o el de la Tournament Edition (sf2049te o sf2049tea). Además, una tarjeta gráfica con Vulkan 1.2, un procesador x86-64-v2 (o Apple Silicon en Mac) y Windows 10 (1903) o posterior, macOS 10.15 o posterior, o Linux con glibc 2.35 y libstdc++ 12 o posteriores. Hace falta un mando o un volante con pedales."
+  en: "Your own dump of the arcade hard drive, as a MAME CHD or raw image. For The Rock, sfrushrk plus the four audio ROMs (audio.u62, audio.u61, audio.u53, and audio.u49, loose or in a ZIP); the original San Francisco Rush drive (sfrush) is optional and adds the white color to the eight original cars. For 2049, the Special Edition (sf2049se) or Tournament Edition (sf2049te or sf2049tea) drive. Plus a Vulkan 1.2 graphics card, an x86-64-v2 CPU (or Apple silicon on a Mac), and Windows 10 (1903) or later, macOS 10.15 or later, or Linux with glibc 2.35 and libstdc++ 12 or later. A controller or a wheel and pedals is required."
+tags:
+  - racing
+  - vulkan
+  - widescreen
+  - 60fps+
+  - reverse-engineering
+links:
+  - label:
+      es: "Preguntas frecuentes"
+      en: "FAQ"
+    url: https://t3hd0gg.com/project-r/help/
+enrich: false

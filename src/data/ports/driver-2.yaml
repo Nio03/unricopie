@@ -1,0 +1,19 @@
+name: Driver 2
+category: decomp-port
+console: ps1
+status: fully
+repo: OpenDriver2/REDRIVER2
+homepage: https://opendriver2.github.io/
+originalDeveloper: Reflections Interactive
+year: 2000
+desc:
+  es: "REDRIVER2: el juego de PlayStation desensamblado por completo y traducido a mano de MIPS a C, sin emulación (solo quedó fuera el menú de la tarjeta de memoria). Los nombres de funciones, variables y tipos salen de los símbolos de depuración (.SYM) de las versiones italiana y española, trabajados con Ghidra y, donde no bastaba, a mano con IDA. Corre en Windows y Linux sobre Psy-Cross, una capa del mismo equipo que reimplementa las bibliotecas de la PlayStation con OpenGL, SDL2 y OpenAL, con transformación de vértices precisa y búfer Z. Se puede jugar entero desde septiembre de 2020. Corrige fallos del original, mejora la IA de la policía y recupera cosas que no funcionaban o estaban sin terminar, como el monorraíl de Las Vegas, el humo de los tubos de escape, los pájaros y las cámaras del multijugador. Añade subtítulos en las escenas, más distancia de dibujado, campo de visión ajustable, HUD adaptado a panorámico, luces dinámicas en las farolas, fuentes en alta resolución, guardado automático de la campaña y cambio de texturas y modelos de coches. La 8.0 (2 de julio) se publicó como candidata a versión estable."
+  en: "REDRIVER2: the PlayStation game fully disassembled and translated by hand from MIPS back to C, with no emulation (only the memory card menu was left out). Function, variable, and type names come from the debug symbols (.SYM) of the Italian and Spanish releases, worked through in Ghidra and, where that fell short, by hand in IDA. It runs on Windows and Linux on Psy-Cross, the team’s own layer that reimplements the PlayStation libraries with OpenGL, SDL2, and OpenAL, with precise vertex transformation and a Z-buffer. It has been fully playable since September 2020. It fixes bugs from the original, improves the cop AI, and restores things that didn’t work or were left unfinished, such as the Las Vegas monorail, exhaust smoke, birds, and the multiplayer cameras. It adds cutscene subtitles, longer draw distance, adjustable field of view, a widescreen-aware HUD, dynamic street lights, high-resolution fonts, automatic campaign saving, and texture and car model replacement. Version 8.0 (July 2) was released as a stable release candidate."
+requirements:
+  es: "Tus propios dos CD de Driver 2 para PlayStation, volcados como ISO o BIN/CUE, de una versión admitida: la europea en inglés (SLES-02993 y SLES-12993, la 1.0 o la Platinum 1.1) o la estadounidense (SLUS-01161 y SLUS-01318, la 1.0 o la Greatest Hits 1.1). Además, Windows o Linux y Java, con el que se convierten los vídeos y el audio XA de tus discos; en Windows, un launcher aparte instala el juego a partir de las dos imágenes."
+  en: "Your own two Driver 2 PlayStation CDs, dumped as ISO or BIN/CUE, from a supported release: European English (SLES-02993 and SLES-12993, 1.0 or Platinum 1.1) or US (SLUS-01161 and SLUS-01318, 1.0 or Greatest Hits 1.1). Plus Windows or Linux and Java, used to convert the movies and XA audio from your discs; on Windows, a separate launcher installs the game from the two images."
+tags:
+  - mips
+  - racing
+  - widescreen
+  - mods

@@ -1,0 +1,21 @@
+name: "Star Fox 64 (sf64-dc, Dreamcast)"
+category: decomp-port
+console: n64
+status: playable
+repo: jnmartin84/sf64-dc
+originalDeveloper: Nintendo EAD
+year: 1997
+desc:
+  es: "Ojo: este port no es para PC, sino para la Sega Dreamcast. sf64-dc lleva Star Fox 64 a la Dreamcast a partir de la decompilación de sonicdcer, la misma en la que se basa Starship. Su autor lo hace para la consola real: en un emulador de Dreamcast no tiene soporte y puede no funcionar bien. No se distribuye ningún disco: tú generas el CDI a partir de tu ROM, en un cuaderno de Google Colab del autor (subes la ROM y descargas el CDI), con Docker o compilándolo con KallistiOS. La actualización del 23 de agosto trajo audio mezclado por el hardware, un renderizador propio para el PowerVR más fiel a la N64 y mejor rendimiento. Admite Puru Pack y otros paquetes de vibración, guarda la partida en la VMU (3 bloques) y adapta los controles al mando de la Dreamcast, también en el modo de entrenamiento y en los mensajes del juego."
+  en: "Note: this port isn’t for PC but for the Sega Dreamcast. sf64-dc brings Star Fox 64 to the Dreamcast from sonicdcer’s decompilation, the same one Starship is built on. Its author makes it for real hardware: running it in a Dreamcast emulator isn’t supported and may not work properly. No disc image is distributed: you generate the CDI from your own ROM, in the author’s Google Colab notebook (upload the ROM, download the CDI), with Docker, or by building it with KallistiOS. The August 23 update brought hardware-mixed audio, its own PowerVR renderer that’s closer to the N64, and better performance. It supports the Puru Pack and other rumble packs, saves to the VMU (3 blocks), and maps the controls to the Dreamcast pad, in the training mode and in-game messages too."
+requirements:
+  es: "Tu propia ROM estadounidense de Star Fox 64, revisión 1.1 (REV A, SHA-1 09f0d105f476b00efa5303a3ebc42e60a7753b7a), y una Dreamcast donde grabar o cargar el CDI. Para compilarlo a mano, KallistiOS 2.2.1 con GCC 14.3.0 y Python."
+  en: "Your own US Star Fox 64 ROM, revision 1.1 (REV A, SHA-1 09f0d105f476b00efa5303a3ebc42e60a7753b7a), and a Dreamcast to burn or load the CDI on. To build it by hand, KallistiOS 2.2.1 with GCC 14.3.0 and Python."
+tags:
+  - mips
+  - dreamcast
+links:
+  - label:
+      es: "Generar el CDI en Google Colab"
+      en: "Generate the CDI on Google Colab"
+    url: https://colab.research.google.com/drive/1Suq7tQBAULNhyqxRV6TTFjnrDPYgndGm

@@ -1,0 +1,18 @@
+name: Forza Horizon 2 Extra Options
+kind: mod
+console: xboxone
+game:
+  es: "Forza Horizon 2 (Xbox One)"
+  en: "Forza Horizon 2 (Xbox One)"
+base: ports/forza-horizon-2
+repo: RokkuDayo/ForzaHorizon2_ExtraOptions
+status: usable
+desc:
+  es: "Mod de mejoras para la versión de Xbox One de Forza Horizon 2 cuando corre en PC con Azimuth o con Mezcal, otra capa de traducción. Sus DLL, junto a Azimuth.exe o junto al ejecutable del juego, comprueban ese ejecutable y lo parchean en memoria. Añade cambiar de coche desde el menú de pausa, conducción automática hasta el destino del GPS, una cámara de derrape como la de Forza Horizon 4 a 6, campo de visión para cada cámara, techos que se quitan, luces, intermitentes y luces de emergencia en todos los coches, una categoría con todas las llantas de serie, modo foto sin límites, diseños de pintura a 4K, un avatar propio y una carpeta «mediapc» para cambiar archivos sin tocar los originales. Casi todo se ajusta en los menús del juego. Por defecto también se salta los vídeos de inicio y las comprobaciones de las partidas de Azimuth, y concede todo el DLC y el estado VIP. La 0.2.98 (17 de octubre) solo funciona con Azimuth 0.9.10. El autor avisa de que circulan instaladores falsos con el nombre del mod que meten un keylogger. Su autor declara que usó Codex para escribir la DLL y que la investigación la hizo a mano."
+  en: "A tweaks mod for the Xbox One version of Forza Horizon 2 when it runs on PC through Azimuth or Mezcal, another translation layer. Its DLLs, placed next to Azimuth.exe or next to the game executable, check that executable and patch it in memory. It adds changing cars from the pause menu, autodrive to your GPS destination, a drift camera like Forza Horizon 4 to 6’s, field-of-view sliders for every camera, removable roofs, lights, turn signals, and hazards on every car, a category with every stock rim, an unrestricted photo mode, 4K liveries, a custom gamerpic, and a “mediapc” folder for replacing files without touching the originals. Most of it is set in the game’s own menus. By default it also skips the intro videos and Azimuth’s save checks, and grants all DLC and VIP status. Version 0.2.98 (October 17) works only with Azimuth 0.9.10. The author warns that fake installers using the mod’s name carry a keylogger. Its author states Codex was used to write the DLL, and that the research was done by hand."
+requirements:
+  es: "Tu propia copia de la versión de Xbox One de Forza Horizon 2, funcionando con Azimuth (la 0.2.98 pide la 0.9.10) o con Mezcal. En Linux, con Wine o Proton, hay que añadir WINEDLLOVERRIDES=\"winmm.dll=n,b\"."
+  en: "Your own copy of the Xbox One version of Forza Horizon 2, running through Azimuth (0.2.98 needs 0.9.10) or Mezcal. On Linux, with Wine or Proton, add WINEDLLOVERRIDES=\"winmm.dll=n,b\"."
+tags:
+  - racing
+  - ai-assisted

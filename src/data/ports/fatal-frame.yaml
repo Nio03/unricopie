@@ -1,0 +1,18 @@
+name: Fatal Frame
+category: decomp-port
+console: ps2
+status: experimental
+repo: Mikompilation/MikuPan
+decomp: Mikompilation/Himuro
+originalDeveloper: Tecmo
+year: 2002
+desc:
+  es: "MikuPan: port nativo para PC de Fatal Frame (Project Zero) de PS2, construido sobre Himuro, la decompilación del mismo grupo; no es un emulador. Funciona con los datos de la versión estadounidense o de la europea, cada una con su propia compilación. Dibuja con SDL_GPU de SDL3 y tiene una interfaz nueva hecha con RmlUi, traducida al alemán, español, francés e italiano, con opciones de resolución, MSAA, HDR, filtro CRT, cámara en tercera persona y ratón en los menús. Sale para Windows y Linux, también para macOS sin soporte oficial, y se puede compilar para Android. Su README lo describe como un trabajo «todavía muy temprano». Solo hay compilaciones nightly, de la versión estadounidense; la última es del 18 de octubre. Alguno de sus commits lleva a Claude como coautor."
+  en: "MikuPan: a native PC port of the PS2 game Fatal Frame (Project Zero), built on Himuro, the same group’s decompilation; it isn’t an emulator. It runs on the data from the US or the European release, each with its own build. It renders through SDL3’s SDL_GPU and has a new RmlUi interface, translated into German, Spanish, French, and Italian, with options for resolution, MSAA, HDR, a CRT filter, a third-person camera, and mouse-driven menus. It runs on Windows and Linux, on macOS without official support, and can be built for Android. Its README calls it “still very early work.” There are only nightly builds, for the US release; the latest is from October 18. At least one of its commits lists Claude as a co-author."
+requirements:
+  es: "Los archivos IMG_HD.BIN e IMG_BD.BIN de tu propia ISO de Fatal Frame para PS2, estadounidense (SLUS_203.88) o europea (SLES_508.21), junto al ejecutable; la japonesa no funciona. Las nightly son para la estadounidense; para la europea hay que compilarlo con un preset «-eu». Windows, Linux o macOS."
+  en: "The IMG_HD.BIN and IMG_BD.BIN files from your own Fatal Frame PS2 ISO, US (SLUS_203.88) or European (SLES_508.21), next to the executable; the Japanese release doesn’t work. The nightlies are for the US release; the European one needs a build with an “-eu” preset. Windows, Linux, or macOS."
+tags:
+  - emotion-engine
+  - horror
+  - ai-assisted

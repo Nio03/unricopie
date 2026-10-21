@@ -4,7 +4,8 @@ consoles:
   - ps1
   - snes
   - nds
-repo: mstan/recomp-ui
+repo: RetroPortingToolKit/recomp-ui
+authorFormerly: mstan
 status: experimental
 desc:
   es: "Launcher e interfaz dentro del juego compartidos entre proyectos de recompilación estática. Forma parte de la comunidad R.A.I.D."

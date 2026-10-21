@@ -1,0 +1,16 @@
+name: "Destroy All Humans! Path of the Furon"
+console: x360
+status: experimental
+repo: masterspike52/reDAHM
+originalDeveloper: Sandblast Games
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "«reDAHM»: recompilación de la versión de Xbox 360 con el SDK de ReXGlue, del mismo autor que reNut (Banjo-Kazooie: Nuts & Bolts). Los gráficos siguen pasando por la emulación del chip Xenos que trae ReXGlue. Sobre el código ya nativo, el autor ha añadido 60 fps (el original se queda en 30), los trajes de los DLC, un arreglo para la pantalla de carga que se quedaba colgada y menús superpuestos de fps (F1), registro (F2) y comandos de depuración del motor (F5). Al arrancar, una ventana te pide la carpeta con los archivos extraídos de tu ISO. Hay versión para Windows, y la de julio («jank but works») trajo también una AppImage para Linux. La última, «new» (24 de agosto), quitó su arreglo de audio propio porque ReXGlue ya corrigió el sonido."
+  en: "“reDAHM”: a recompilation of the Xbox 360 version with the ReXGlue SDK, by the author of reNut (Banjo-Kazooie: Nuts & Bolts). Graphics still go through ReXGlue’s Xenos GPU emulation. On top of the now-native code, the author has added 60 fps (the original is capped at 30), the DLC costumes, a fix for the loading screen that got stuck, and overlays for fps (F1), logging (F2), and the engine’s debug commands (F5). On launch, a window asks for the folder with the files extracted from your ISO. There’s a Windows build, and the July release (“jank but works”) also brought a Linux AppImage. The latest, “new” (August 24), dropped its own audio workaround because ReXGlue fixed the sound."
+requirements:
+  es: "Los archivos extraídos de tu propia ISO de Destroy All Humans! Path of the Furon para Xbox 360, con el default.xex. El README actual no dice la región; hasta junio pedía la versión estadounidense. Para la AppImage de Linux: glibc 2.35 o posterior, un procesador x86-64-v2 (SSE4.2 y POPCNT), una tarjeta gráfica con Vulkan y PulseAudio, PipeWire o ALSA. Los requisitos de Windows no se detallan."
+  en: "The files extracted from your own Destroy All Humans! Path of the Furon ISO for Xbox 360, including default.xex. The current README doesn’t name a region; until June it asked for the US release. For the Linux AppImage: glibc 2.35 or later, an x86-64-v2 CPU (SSE4.2 and POPCNT), a Vulkan graphics card, and PulseAudio, PipeWire, or ALSA. Windows requirements aren’t listed."
+tags:
+  - powerpc
+  - 60fps+

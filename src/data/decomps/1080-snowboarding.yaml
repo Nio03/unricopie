@@ -1,7 +1,8 @@
 name: 1080° Snowboarding
 console: n64
-repo: bigyoshi51/1080-decomp
-decomp: bigyoshi51/1080-decomp
+repo: djsaunde/1080-decomp
+authorFormerly: bigyoshi51
+decomp: djsaunde/1080-decomp
 desc:
   es: "Decompilación de 1080° Snowboarding para N64, hecha en gran parte por Claude, algo que el proyecto declara abiertamente. La compilación ya produce una ROM idéntica a la original, y una comprobación falla ante cualquier regresión. Decompila veinte segmentos, incluidos los módulos USO que se cargan bajo demanda (overlays), en un formato reubicable propio y algunos comprimidos con Yay0."
   en: "Decompilation of 1080° Snowboarding for N64, largely driven by Claude, which the project states openly. The build already produces a ROM identical to the original, and a verification step fails on any regression. It decompiles twenty segments, including USO overlays in a custom relocatable format (some Yay0-compressed)."

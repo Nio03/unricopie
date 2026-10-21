@@ -1,0 +1,23 @@
+name: Streets of Rage 2 (New Era)
+category: fan-remake
+console: megadrive
+status: fully
+homepage: https://www.sor2newera.com/
+author: gsaurus
+originalDeveloper: Ancient / Sega
+engine: Unity
+year: 1992
+desc:
+  es: "Streets of Rage 2 New Era: port no oficial del juego de Mega Drive, reescrito a mano en Unity por ingeniería inversa del código original, sin emulación. Saca de tu propia ROM los personajes, la música, las voces y los efectos de sonido; la descarga incluye además fondos de escenario sacados del juego original. Tiene un modo Classic que reproduce el original 1:1 y un modo 30th Anniversary con pantalla panorámica, controles más fluidos y errores corregidos, además de un modo nuevo para un jugador, Ninpo Kage Bunshin, y las dificultades Mania Plus y Megamania. Admite hasta cuatro jugadores en local o en línea, repeticiones, guardado rápido, tiempos de speedrun, tablas de puntuación en línea y mods. Es un proyecto de una sola persona, Gil Costa (gsaurus), y su código no es público. La 3.0.0 (1 de enero de 2026) hizo jugable a Shiva y rehízo los menús. Su autor declara que el arte y la música de esos menús están generados con IA (la música, con Suno), y los retratos hechos con IA se pueden desactivar. La versión actual es la 3.1.0, de enero de 2026, para Windows, macOS, Linux y Android."
+  en: "Streets of Rage 2 New Era: an unofficial port of the Mega Drive game, rewritten by hand in Unity by reverse engineering the original code, with no emulation. It takes the characters, music, voices, and sound effects from your own ROM; the download also includes stage backgrounds taken from the original game. It has a Classic mode that recreates the original 1:1 and a 30th Anniversary mode with widescreen, smoother controls, and bug fixes, plus a new single-player mode, Ninpo Kage Bunshin, and the Mania Plus and Megamania difficulties. Up to four players can play locally or online, and it has replays, save states, speedrun splits, online score leaderboards, and mod support. It’s a one-person project by Gil Costa (gsaurus), and its code isn’t public. Version 3.0.0 (January 1, 2026) made Shiva playable and redid the menus. Its author states that the menus’ art and music are AI-generated (the music with Suno), and the AI-made portraits can be turned off. The current version is 3.1.0, from January 2026, for Windows, macOS, Linux, and Android."
+requirements:
+  es: "Tu propia ROM de Streets of Rage 2 para Mega Drive; encuentra sola la que trae la versión de Steam. Además, Windows, macOS o Linux; no indica más requisitos."
+  en: "Your own Streets of Rage 2 Mega Drive / Genesis ROM; it finds the one from the Steam version on its own. Plus Windows, macOS, or Linux; no further requirements are stated."
+tags:
+  - widescreen
+  - multiplayer
+  - online
+  - mods
+  - reverse-engineering
+  - ai-assisted
+enrich: false

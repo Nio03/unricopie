@@ -1,0 +1,19 @@
+name: Super Metroid
+category: fan-remake
+console: snes
+status: experimental
+repo: snesrev/sm
+originalDeveloper: Nintendo R&D1 / Intelligent Systems
+year: 1994
+desc:
+  es: "sm: reimplementación de Super Metroid en C hecha por ingeniería inversa, del mismo autor que zelda3. Su autor la presenta como una versión temprana, con errores y con el código desordenado. Lee los datos de tu ROM cada vez que arranca, y mientras juegas ejecuta también el juego original y compara los dos fotograma a fotograma: si no coinciden, guarda una instantánea en saves/ y muestra en pantalla una cuenta atrás desde 300. Tiene estados guardados que conservan el historial de controles para repetir partidas, modo turbo, ventana escalable y pantalla completa, un renderizador de la PPU optimizado, la opción de quitar el límite de sprites por línea, salida por OpenGL con shaders GLSL y guardado automático al salir. No hay versiones compiladas: se compila uno mismo, y el último cambio es de abril de 2023. El Super Metroid Launcher de RadzPrower lo descarga y lo compila en Windows casi con un solo clic."
+  en: "sm: a reverse-engineered reimplementation of Super Metroid in C, by the author of zelda3. Its author presents it as an early version, with bugs and messy code. It reads the game’s data from your ROM on every launch, and while you play it also runs the original game and compares the two frame by frame: on a mismatch it saves a snapshot in saves/ and shows a countdown from 300 on screen. It has snapshots that keep the input history so playthroughs can be replayed, turbo mode, window scaling and fullscreen, an optimized PPU renderer, an option to remove the per-scanline sprite limit, OpenGL output with GLSL shaders, and autosave on quit. There are no prebuilt releases: you build it yourself, and its last change dates from April 2023. RadzPrower’s Super Metroid Launcher downloads and builds it on Windows in nearly one click."
+requirements:
+  es: "Tu propia ROM estadounidense de Super Metroid, con el nombre sm.smc (SHA-1 da957f0d63d14cb441d215462904c4fa8519c613), que hace falta cada vez que juegas. Para compilarlo, SDL2 y, en Windows, MSYS2, Visual Studio 2022 o TCC; en Linux y macOS, make."
+  en: "Your own US Super Metroid ROM, named sm.smc (SHA-1 da957f0d63d14cb441d215462904c4fa8519c613), needed every time you play. To build it, SDL2 and, on Windows, MSYS2, Visual Studio 2022, or TCC; on Linux and macOS, make."
+tags:
+  - metroid
+  - reverse-engineering
+links:
+  - label: "Super Metroid Launcher (RadzPrower)"
+    url: https://github.com/RadzPrower/Super-Metroid-Launcher

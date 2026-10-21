@@ -1,0 +1,19 @@
+name: "Kameo: Elements of Power"
+console: x360
+status: playable
+repo: MaxDeadBear/KameoRePowered
+author: birabittoh / MaxDeadBear
+originalDeveloper: Rare
+year: 2005
+toolchain: ReXGlue
+desc:
+  es: "«Kameo: RePowered»: recompilación estática de la versión de Xbox 360 para Windows y Linux, sobre el SDK de ReXGlue. El default.xex de PowerPC se convierte en código x86-64 al compilar, y un pequeño entorno propio añade registro, menús superpuestos y ganchos para modificar el juego como un port de PC. Lo escribió sobre todo birabittoh, autor del launcher Goopie, junto con MaxDeadBear, a cuya cuenta pasó luego el repositorio. Trae teclado y ratón activados por defecto con teclas reasignables, siete idiomas, elección de tarjeta gráfica, un mezclador de volumen por canales (F9), una compilación aparte con la actualización del título y un script que extrae tus DLC para que el juego los detecte. Los ejecutables están en las versiones del repositorio y en Goopie. La última estable es la 0.2.1 (23 de junio); la 0.3.0 (19 de octubre) y la 0.3.1-beta.1 (20 de octubre) están marcadas como preliminares. Algunos de sus commits llevan a Copilot o a Claude como coautores."
+  en: "“Kameo: RePowered”: a static recompilation of the Xbox 360 version for Windows and Linux, on the ReXGlue SDK. The PowerPC default.xex is turned into x86-64 code at build time, and a small host runtime of its own adds logging, overlays, and hooks so the game can be modded like a PC port. It was written mostly by birabittoh, the author of the Goopie launcher, together with MaxDeadBear, whose account the repository later moved to. It has keyboard and mouse on by default with rebindable keys, seven languages, GPU selection, a per-channel volume mixer (F9), a separate build with the title update, and a script that extracts your DLC so the game detects it. The executables are in the repository’s releases and on Goopie. The latest stable one is 0.2.1 (June 23); 0.3.0 (October 19) and 0.3.1-beta.1 (October 20) are marked as pre-releases. Some of its commits list Copilot or Claude as co-authors."
+requirements:
+  es: "Tu propia copia de Kameo: Elements of Power para Xbox 360 (título 4D5307D2), con la ISO extraída en la carpeta assets; el README usa la versión estadounidense y no dice si otras regiones funcionan. Si quieres, la actualización del título y tus paquetes de DLC. Además, Windows o Linux x86-64; para compilarlo, Clang, CMake, Ninja y Python."
+  en: "Your own copy of Kameo: Elements of Power for Xbox 360 (title 4D5307D2), with the ISO extracted into the assets folder; the README uses the US release and doesn’t say whether other regions work. Optionally, the title update and your DLC packages. Plus x86-64 Windows or Linux; building it takes Clang, CMake, Ninja, and Python."
+tags:
+  - powerpc
+  - rare
+  - mods
+  - ai-assisted

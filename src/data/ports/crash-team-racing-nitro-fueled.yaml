@@ -1,0 +1,26 @@
+name: Crash Team Racing Nitro-Fueled
+category: native-layer
+console: ps4
+status: playable
+repo: GetLostIn/CTR-NitroFueled-PC
+originalDeveloper: Beenox
+year: 2019
+desc:
+  es: "Port para Windows del Crash Team Racing Nitro-Fueled de PS4, de la misma familia que el de Bloodborne: es el fork para Windows de SacredFire, el port nativo para Linux de T3CHNOLOG1C, cuyo repositorio original ya no está disponible. Como en bbport, del que parte, el código x86-64 del juego corre directamente en la CPU, un pequeño entorno de ejecución sustituye las bibliotecas del sistema de la PS4 y un renderizador derivado de shadPS4 traduce el trabajo de la GPU a Vulkan; la capa de Windows viene del port de Supermedo. El autor lo da por jugable: menús, Aventura y Arcade, carreras con sonido, escenas, mandos y teclado, guardado, pantalla dividida, los parches de la comunidad (60 fps, sin desenfoque de movimiento) y el contenido descargable a partir de tus propios paquetes. Dibuja de 480p a 4K nativo con FSR 1, 3.1 y 4 de AMD o DLSS de NVIDIA, tiene generación de fotogramas con FSR 3, límite de hasta 240 fps y formatos 21:9 y 32:9 con el HUD centrado, y su launcher gestiona los mandos y convierte los trofeos en logros. Las funciones en línea están desactivadas y el juego va sin conexión. Su autor declara que lo hizo con ayuda de Claude. La 0.4 (19 de octubre) añadió la edición europea."
+  en: "A Windows port of Crash Team Racing Nitro-Fueled for PS4, from the same family as the Bloodborne one: it’s the Windows fork of SacredFire, T3CHNOLOG1C’s native Linux port, whose original repository is no longer available. As in bbport, which it starts from, the game’s x86-64 code runs directly on the CPU, a small runtime replaces the PS4 system libraries, and a renderer derived from shadPS4 translates the GPU work to Vulkan; the Windows layer comes from Supermedo’s port. The author calls it playable: menus, Adventure and Arcade, races with sound, cutscenes, controllers and keyboard, saving, split screen, the community patches (60 fps, no motion blur), and DLC from your own packages. It renders from 480p to native 4K with AMD FSR 1, 3.1, and 4 or NVIDIA DLSS, has FSR 3 frame generation, an FPS limit of up to 240, and 21:9 and 32:9 with a centered HUD, and its launcher handles controllers and turns trophies into achievements. Online features are stubbed, so the game runs offline. Its author states it was made with the help of Claude. Version 0.4 (October 19) added the European edition."
+requirements:
+  es: "Tu propio volcado descifrado de Crash Team Racing Nitro-Fueled para PS4, en carpetas (de tu consola o extraído con PS4 PKG Tool): el juego base (01.00) y la actualización 1.21, de la edición estadounidense (CUSA13795) o, desde la 0.4, de la europea (CUSA14876); valen las dos compilaciones de la 1.21 (para firmware 5.05 y 6.72+). El contenido descargable es opcional, con tus propios .pkg. Además, Windows 10 (1903 o posterior) u 11 de 64 bits y una tarjeta gráfica con Vulkan 1.3. No se incluye ningún archivo del juego."
+  en: "Your own decrypted PS4 dump of Crash Team Racing Nitro-Fueled, as folders (from your console or extracted with PS4 PKG Tool): the base game (01.00) and the 1.21 update, from the US edition (CUSA13795) or, since 0.4, the European one (CUSA14876); both builds of 1.21 (for firmware 5.05 and 6.72+) work. DLC is optional, from your own .pkg files. Plus 64-bit Windows 10 (1903 or later) or 11 and a Vulkan 1.3 graphics card. No game files are included."
+tags:
+  - x86
+  - vulkan
+  - racing
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - ai-assisted
+links:
+  - label:
+      es: "Fork con juego en línea experimental (Ryu7w7)"
+      en: "Fork with experimental online play (Ryu7w7)"
+    url: https://github.com/Ryu7w7/OCTR-NitroFueled-PC

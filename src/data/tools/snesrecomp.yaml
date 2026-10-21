@@ -2,7 +2,8 @@ name: snesrecomp
 kind: recompiler
 consoles:
   - snes
-repo: mstan/snesrecomp
+repo: RetroPortingToolKit/snesrecomp
+authorFormerly: mstan
 status: experimental
 desc:
   es: "Ecosistema de recompilación estática para juegos de Super Nintendo. Forma parte de la comunidad R.A.I.D."

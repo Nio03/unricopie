@@ -2,7 +2,8 @@ name: ndsrecomp
 kind: recompiler
 consoles:
   - nds
-repo: mstan/ndsrecomp
+repo: RetroPortingToolKit/ndsrecomp
+authorFormerly: mstan
 status: experimental
 desc:
   es: "Investigación en fase prealfa muy temprana de un recompilador estático de Nintendo DS. Es la cadena de herramientas detrás del recomp de Metroid Prime Hunters."

@@ -1,0 +1,20 @@
+name: "Black (Spark198rus)"
+category: native-layer
+console: xbox
+status: fully
+repo: Spark198rus/black-pc
+originalDeveloper: Criterion Games
+year: 2006
+desc:
+  es: "Port nativo no oficial para Windows de la versión de Xbox, independiente del recomp de TGP482 y hecho de otra manera: no se recompila nada. Como la Xbox tiene un procesador x86, black.exe carga el default.xbe de tu copia y ejecuta el código original directamente en el procesador del PC; lo que se sustituye es lo que el juego usa de la consola: el núcleo, Direct3D 8 (sobre Direct3D 9), DirectSound (sobre XAudio2) y la biblioteca de mandos. Ofrece cualquier resolución de renderizado, antialiasing, panorámico 16:9 (el modo del propio juego) o 4:3, campo de visión ajustable, 60 fps por defecto o los 30 originales, vista con ratón, teclas asignadas a las acciones del juego, mandos XInput, reverberación de sala, vídeos que se pueden saltar y el autoapuntado desactivado por defecto. Sus ajustes están en los menús del propio juego (Options > PC SETTINGS y el menú de pausa). También corrige costuras parpadeantes en los objetos destructibles y una cuadrícula en los desenfoques, que la baja resolución de la Xbox escondía. A 60 fps algo puede ir a otra velocidad, los botones en pantalla son los del mando de Xbox y el sonido 3D es aproximado. En Linux funciona con Wine 9 y DXVK. Su README dice que el juego se puede jugar entero. La 0.2.0 (14 de octubre) es la única versión publicada, y su README dice que se desarrolló con Claude Code."
+  en: "An unofficial native Windows port of the Xbox version, independent from TGP482’s recomp and built a different way: nothing is recompiled. Since the Xbox has an x86 CPU, black.exe loads the default.xbe from your copy and runs the original code directly on the PC’s CPU; what gets replaced is what the game uses from the console: the kernel, Direct3D 8 (on Direct3D 9), DirectSound (on XAudio2), and the controller library. It offers any render resolution, anti-aliasing, 16:9 widescreen (the game’s own mode) or 4:3, an adjustable field of view, 60 fps by default or the original 30, mouse look, keys bound to the game’s actions, XInput controllers, room reverb, skippable movies, and auto-aim off by default. Its settings live in the game’s own menus (Options > PC SETTINGS and the pause menu). It also fixes flickering seams on destructible objects and a grid pattern in the blur effects, which the Xbox’s low resolution hid. At 60 fps something may still run at the wrong speed, on-screen prompts show Xbox controller buttons, and 3D sound is approximate. On Linux it runs through Wine 9 and DXVK. Its README says the game is fully playable. Version 0.2.0 (October 14) is the only release so far, and its README says it was developed with Claude Code."
+requirements:
+  es: "Tu propia copia de Black para Xbox, versión NTSC-U (título 45410083), volcada a ISO y extraída con extract-xiso en una carpeta game; el default.xbe tiene que dar el SHA-256 que indica el README. La versión PAL europea se admite desde el 21 de octubre en el código, todavía no en una versión publicada. Además, Windows 10 u 11 de 64 bits (el programa es de 32 bits) y una tarjeta gráfica con Direct3D 9 (Shader Model 3); en Linux, Wine 9 o posterior con DXVK y una tarjeta con Vulkan 1.1."
+  en: "Your own copy of Black for Xbox, NTSC-U release (title 45410083), dumped to an ISO and extracted with extract-xiso into a game folder; default.xbe must match the SHA-256 given in the README. The European PAL release is supported in the code since October 21, not yet in a published release. Plus 64-bit Windows 10 or 11 (the program is 32-bit) and a Direct3D 9 (Shader Model 3) graphics card; on Linux, Wine 9 or later with DXVK and a Vulkan 1.1 card."
+tags:
+  - x86
+  - compat-layer
+  - fps
+  - widescreen
+  - 60fps+
+  - ai-assisted

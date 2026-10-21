@@ -4,7 +4,7 @@ status: playable
 repo: gcsmith/Pilotwings64Recomp
 originalDeveloper: Paradigm / Nintendo
 toolchain: N64Recomp
-decomp: gcsmith/Pilotwings64Decomp
+decomp: n64decomp/pw64
 desc:
   es: "Recompilación del simulador de vuelo con el que se lanzó la N64: se puede jugar, pero está sin pulir (todavía no tiene modo panorámico)."
   en: "Recompilation of the N64 launch-title flight sim: playable but unpolished (no widescreen yet)."

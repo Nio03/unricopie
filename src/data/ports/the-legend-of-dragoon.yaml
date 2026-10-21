@@ -1,0 +1,21 @@
+name: The Legend of Dragoon
+category: decomp-port
+console: ps1
+status: fully
+repo: Legend-of-Dragoon-Modding/Severed-Chains
+homepage: https://legendofdragoon.org/projects/severed-chains/
+author: Monoxide
+originalDeveloper: Sony Computer Entertainment
+year: 2000
+desc:
+  es: "Severed Chains: The Legend of Dragoon llevado a PC a partir del código ensamblador del juego, desensamblado y reescrito a mano en Java. No es un emulador ni necesita BIOS: los recursos se extraen de tus discos la primera vez que arranca, y el código no incluye nada oficial del juego. Monoxide empezó a decompilarlo en diciembre de 2020 y hoy lo mantiene con un pequeño equipo. Se puede jugar entero sin fallos conocidos y corrige muchos errores del original. Siempre activos: cargas casi instantáneas, sin cambios de disco, 60 fps fuera de los combates, partidas guardadas sin límite y teclado o mando. Como opciones: 4K nativo y más, panorámico real en combate y en el mapa del mundo, filtro CRT, guardar casi en cualquier sitio, acelerar el juego, saltar vídeos, cambiar las Additions en pleno combate, quitar el tope de 9999 de daño o la obligación de llevar a Dart, y una API de mods que ya usan varios proyectos. Sus autores declaran que no se usó IA para hacerlo. La 3.0 (17 de octubre) es la primera versión recomendada desde julio de 2023."
+  en: "Severed Chains: The Legend of Dragoon brought to PC from the game’s assembly code, disassembled and rewritten by hand in Java. It isn’t an emulator and needs no BIOS: assets are extracted from your discs on first launch, and the code includes nothing official from the game. Monoxide began decompiling it in December 2020 and now maintains it with a small team. It’s fully playable with no known crashes and fixes many of the original’s bugs. Always on: near-instant loading, no disc swapping, 60 fps outside battles, unlimited save slots, and keyboard or controller. As options: native 4K and beyond, true widescreen in battle and on the world map, a CRT filter, saving almost anywhere, faster game speed, skippable movies, swapping Additions mid-battle, removing the 9,999 damage cap or the need to have Dart in the party, and a modding API that several projects already use. Its authors state that no AI was used to make it. Version 3.0 (October 17) is the first recommended build since July 2023."
+requirements:
+  es: "Tus propios cuatro discos de la versión norteamericana de The Legend of Dragoon (SCUS-94491, SCUS-94584, SCUS-94585 y SCUS-94586), volcados como imágenes ISO o BIN en bruto (2352 bytes por sector) en la carpeta isos; las versiones europeas y japonesa no sirven. Además, Windows, macOS (Intel o Apple Silicon), Linux (x86-64 o ARM64) o Steam Deck, una tarjeta gráfica con OpenGL 3.3 e internet en el primer arranque, cuando se descarga Java 25."
+  en: "Your own four discs of the North American release of The Legend of Dragoon (SCUS-94491, SCUS-94584, SCUS-94585, and SCUS-94586), dumped as raw ISO or BIN images (2,352 bytes per sector) in the isos folder; the European and Japanese releases won’t work. Plus Windows, macOS (Intel or Apple silicon), Linux (x86-64 or ARM64), or Steam Deck, an OpenGL 3.3 graphics card, and an internet connection on first launch, when Java 25 is downloaded."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - human-driven

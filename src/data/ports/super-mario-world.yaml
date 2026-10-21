@@ -1,0 +1,17 @@
+name: Super Mario World
+category: fan-remake
+console: snes
+status: fully
+repo: snesrev/smw
+originalDeveloper: Nintendo EAD
+year: 1990
+desc:
+  es: "smw: reimplementación de Super Mario World en C hecha por ingeniería inversa, del mismo autor que zelda3. Reproduce todas las partes del juego original y se juega de principio a fin. También reimplementa parte de lo que el editor de niveles Lunar Magic añade a las ROM, así que acepta algunas ROM editadas con él; los mods que usan ganchos en ensamblador no funcionan, salvo el salto en la pared. Usa la PPU y el DSP de LakeSnes, con muchas optimizaciones, y mientras juegas ejecuta una versión emulada y compara la memoria en cada fotograma; si no coinciden, guarda una instantánea para enviarla a los autores. Tiene estados guardados con el historial de controles para repetir partidas, modo turbo, dos mandos y salida por OpenGL con shaders. En el mismo repositorio están Super Mario Bros. y The Lost Levels, reimplementados desde Super Mario All-Stars: con tu ROM de ese juego se extraen y se juegan con el mismo programa. La versión 0.1 (16 de agosto de 2023) trae un ejecutable para Windows que parchea tu ROM al arrancar; si lo compilas tú, los recursos se extraen una vez y después la ROM ya no hace falta."
+  en: "smw: a reverse-engineered reimplementation of Super Mario World in C, by the author of zelda3. It reimplements every part of the original game and is playable from start to end. It also reimplements part of what the Lunar Magic level editor adds to ROMs, so it accepts some ROMs edited with it; mods that use ASM hooks don’t work, except wall jump. It uses LakeSnes’s PPU and DSP, with many speed optimizations, and while you play it runs an emulated version and compares RAM every frame; on a mismatch it saves a snapshot to send to the authors. It has snapshots that keep the input history so playthroughs can be replayed, turbo mode, two gamepads, and OpenGL output with shaders. The same repository holds Super Mario Bros. and The Lost Levels, reimplemented from Super Mario All-Stars: with your ROM of that game they’re extracted and played with the same program. Version 0.1 (August 16, 2023) includes a Windows executable that patches your ROM at startup; if you build it yourself, the assets are extracted once and the ROM is no longer needed."
+requirements:
+  es: "Tu propia ROM estadounidense de Super Mario World sin cabecera (smw.sfc, SHA-1 6B47BB75D16514B6A476AA0C73A683A2A4C18765). Para Super Mario Bros. y The Lost Levels, tu ROM estadounidense de Super Mario All-Stars, la que no incluye Super Mario World (SHA-1 c05817c5b7df2fbfe631563e0b37237156a8f6b6), y Python con zstandard. El ejecutable de la 0.1 es para Windows; para compilarlo, SDL2 y Python, con TCC, MSYS2 o Visual Studio en Windows, o make en Linux y macOS."
+  en: "Your own unheadered US Super Mario World ROM (smw.sfc, SHA-1 6B47BB75D16514B6A476AA0C73A683A2A4C18765). For Super Mario Bros. and The Lost Levels, your US Super Mario All-Stars ROM, the one without Super Mario World (SHA-1 c05817c5b7df2fbfe631563e0b37237156a8f6b6), and Python with zstandard. The 0.1 executable is for Windows; to build it, SDL2 and Python, with TCC, MSYS2, or Visual Studio on Windows, or make on Linux and macOS."
+tags:
+  - mario
+  - mods
+  - reverse-engineering

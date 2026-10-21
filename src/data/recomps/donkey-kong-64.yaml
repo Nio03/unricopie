@@ -1,0 +1,22 @@
+name: Donkey Kong 64
+console: n64
+status: fully
+repo: Rainchus/Donkey-Kong-64-Recompiled
+homepage: https://dk64recomp.com/
+author: Rainchus / Ballaam
+originalDeveloper: Rare
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "DK64 Rekongpiled: recompilación estática de la versión estadounidense, hecha con N64Recomp y con RT64 como renderizador. No parte de la decompilación, aunque usa sus cabeceras y algunas funciones para sus parches. Va a cualquier tasa de fotogramas (por defecto, la de tu monitor) sin cambiar la velocidad del juego, y en cualquier relación de aspecto, ultrapanorámica incluida, con la opción de dejar el HUD en 16:9. Añade menús de configuración dentro del juego, que se manejan con ratón, mando o teclado, más distancia de dibujado, apuntado con ratón y giroscopio, zona muerta e inversión de ejes ajustables, cargas casi instantáneas y poco retraso de entrada. Admite mods y paquetes de texturas, con una página dentro del juego para descubrir mods. Corrige el fallo que impedía recoger las medallas de Hideout Helm si salías sin cogerlas y, como el rendimiento actual cambió algunos tiempos, hace más lentas la segunda carrera del conejo de Fungi Forest y la versión difícil de Krazy Kong Klamour para que sigan siendo justas. Hay versiones para Windows, Linux (también en Flatpak y para ARM64) y macOS con Apple Silicon. La 1.0.0 salió el 29 de agosto y la última, la 1.0.3, el 30 de septiembre."
+  en: "DK64 Rekongpiled: a static recompilation of the US release, built with N64Recomp and with RT64 as its renderer. It isn’t based on the decompilation, though it uses its headers and some functions for its patches. It runs at any frame rate (your monitor’s by default) without changing game speed, and at any aspect ratio, ultrawide included, with an option to keep the HUD at 16:9. It adds in-game settings menus you can use with mouse, controller, or keyboard, longer draw distance, mouse and gyro aiming, adjustable deadzone and axis inversion, near-instant loading, and low input lag. It supports mods and texture packs, with an in-game page to discover mods. It fixes the bug that kept Hideout Helm medals from being collected if you left without picking them up, and since modern performance changed some timings, it slows down the second Fungi Forest rabbit race and the harder Krazy Kong Klamour so they stay fair. There are builds for Windows, Linux (also as a Flatpak and for ARM64), and Apple silicon macOS. 1.0.0 came out on August 29 and the latest, 1.0.3, on September 30."
+requirements:
+  es: "Tu propia ROM estadounidense 1.0 de Donkey Kong 64 para N64; si no está en .z64 se convierte sola, y no acepta otras ROM. Además, una tarjeta gráfica con Direct3D 12.0 (Shader Model 6) o Vulkan 1.2 (como mínimo, GeForce GT 630, Radeon HD 7750 o Intel HD 510) y un procesador con AVX."
+  en: "Your own US 1.0 Donkey Kong 64 ROM for N64; if it isn’t a .z64 it’s converted automatically, and no other ROM is accepted. Plus a graphics card with Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 (at least a GeForce GT 630, Radeon HD 7750, or Intel HD 510) and a CPU with AVX."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - rare
+  - human-driven
