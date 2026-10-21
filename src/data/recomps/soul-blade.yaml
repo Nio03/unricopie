@@ -1,0 +1,15 @@
+name: Soul Blade
+console: ps1
+status: playable
+repo: fabioap-cpu/SoulBlade_Recomp
+originalDeveloper: Namco
+year: 1996
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense para Windows, hecha con psxrecomp, que traduce a C el código MIPS del juego y lo compila en un único ejecutable nativo. Según su autor, arranca y se juega con todos los gráficos, el control y el guardado en tarjeta de memoria, con resolución alta configurable en settings.toml y supersampling 2x con filtrado por vecino más próximo para mantener los píxeles nítidos. Tiene un fallo gráfico menor en el agua, que el autor atribuye al runtime de psxrecomp, y solo se ha probado la versión estadounidense. El repositorio solo trae el README y los submódulos (su fork de psxrecomp y recomp-ui); lo que se juega es la versión ya compilada. La v1.1 (27 de agosto) corrige posibles cierres y añade una opción de juego en red aún sin probar."
+  en: "A static recompilation of the US release for Windows, built with psxrecomp, which translates the game’s MIPS code to C and compiles it into a single native executable. Its author says it boots and plays with full rendering, input, and memory card saves, with high resolution set in settings.toml and 2x supersampling with nearest-neighbor filtering to keep pixels sharp. There’s a minor graphical glitch with water, which the author attributes to the psxrecomp runtime, and only the US release has been tested. The repository holds just the README and the submodules (the author’s psxrecomp fork and recomp-ui); what you play is the prebuilt release. v1.1 (August 27) fixes possible crashes and adds a netplay option that hasn’t been tested yet."
+requirements:
+  es: "Tu propia imagen de disco estadounidense de Soul Blade, en .cue/.bin, dentro de la carpeta de la versión publicada y con su ruta indicada en game.toml. Además, Windows de 64 bits."
+  en: "Your own US Soul Blade disc image, as .cue/.bin, placed in the release folder with its path set in game.toml. Plus 64-bit Windows."
+tags:
+  - mips

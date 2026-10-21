@@ -1,0 +1,17 @@
+name: "Burnout 3: Takedown (mxmstr)"
+console: xbox
+status: experimental
+repo: mxmstr/Burnout3Recomp
+originalDeveloper: Criterion Games
+year: 2004
+toolchain: XenonRecomp
+desc:
+  es: "Port para Windows de la versión de Xbox, en una fase muy temprana según su propio autor. Sigue el método de recompilación estática de Unleashed Recompiled, con un fork de XenonRecomp del mismo autor que añade soporte experimental para los ejecutables x86 de la Xbox original, y reimplementa las bibliotecas de la consola (Direct3D 8, DirectSound, la entrada y los vídeos), con los shaders de la NV2A traducidos a HLSL. La única versión publicada es una prueba de concepto del 23 de mayo: trae unos scripts que, a partir de los archivos de tu disco, generan el ejecutable recompilado con el XBE original incrustado. No ha cambiado desde entonces. Es un proyecto distinto de Takedawn, que tiene su propia ficha. Su autor declara que lo hizo con ayuda de Claude, y dos de sus commits llevan a Copilot como coautor."
+  en: "A Windows port of the Xbox version, at a very early stage by its author’s own account. It follows Unleashed Recompiled’s static recompilation method, with the author’s own fork of XenonRecomp that adds experimental support for original Xbox x86 executables, and it reimplements the console’s libraries (Direct3D 8, DirectSound, input, and video playback), with the NV2A shaders translated to HLSL. The only release is a proof of concept from May 23: it comes with scripts that take the files from your disc and generate the recompiled executable, with the original XBE embedded in it. It hasn’t changed since then. It’s a different project from Takedawn, which has its own entry. Its author states it was developed with the help of Claude, and two of its commits list Copilot as co-author."
+requirements:
+  es: "Los archivos de tu propia copia estadounidense de Burnout 3: Takedown para Xbox, extraídos con extract-xiso (incluido) en la carpeta disc. Además, Windows."
+  en: "The files from your own US copy of Burnout 3: Takedown for Xbox, extracted with extract-xiso (included) into the disc folder. Plus Windows."
+tags:
+  - x86
+  - racing
+  - ai-assisted

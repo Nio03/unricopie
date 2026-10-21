@@ -1,0 +1,19 @@
+name: "Ogre Battle 64: Person of Lordly Caliber"
+console: n64
+status: fully
+repo: lfarroco/ogre-battle-64-recomp
+author: Leonardo Farroco
+originalDeveloper: Quest
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Recompilación estática de la versión estadounidense Rev A, hecha con N64Recomp sobre N64ModernRuntime y con RT64 como renderizador; no es una decompilación. Según su plan, el juego funciona de principio a fin: menús, mapa, misiones, batallas, tienda, pantalla de organización, créditos y final. Un panel de opciones, que se abre con Esc también durante la partida, tiene pestañas de mods, controles y ajustes. Añade pantalla panorámica 16:9 en el campo de las misiones, con las pantallas 2D en 4:3, velocidad de juego de 1x, 2x, 4x u 8x (con «-» y «=» o con R3 en el mando), control con ratón en el mapa del mundo y en las misiones (experimental y desactivado por defecto), volumen ajustable, y mando además de teclado. Trae tres mods de ejemplo: uno que salta los logotipos del arranque, otro que conserva la experiencia sobrante al subir de nivel y un aleatorizador de objetos experimental. Hay versiones para Windows, Linux y macOS con Apple Silicon; la última, la 0.8.3, salió el 14 de octubre y añadió la velocidad 8x. Su autor lo presenta como un experimento para ver hasta dónde llega DeepSeek."
+  en: "A static recompilation of the US Rev A release, built with N64Recomp on N64ModernRuntime with RT64 as its renderer; it isn’t a decompilation. According to its plan, the game runs end to end: menus, map, missions, battles, shop, Organize screen, credits, and ending. An options panel, which Esc also opens during play, has tabs for mods, controls, and settings. It adds 16:9 widescreen on the mission field, with the 2D screens kept at 4:3, a 1x, 2x, 4x, or 8x game speed (with “-” and “=” or R3 on a controller), mouse control on the world map and in missions (experimental and off by default), volume control, and controller as well as keyboard support. It ships three example mods: one that skips the boot logos, one that keeps leftover experience on level-up, and an experimental item randomizer. There are builds for Windows, Linux, and Apple silicon macOS; the latest, 0.8.3, came out on October 14 and added the 8x speed. Its author describes it as an experiment to see how far DeepSeek can go."
+requirements:
+  es: "Tu propia ROM estadounidense Rev A de Ogre Battle 64 (40 MB, en .z64, .n64 o .v64), que se comprueba por su hash. Además, Windows 10 u 11 de 64 bits, macOS 11 o posterior con Apple Silicon, o un Linux con glibc; una tarjeta gráfica con Direct3D 12.0 (Shader Model 6.0) o Vulkan 1.2 en Windows, Vulkan 1.2 en Linux o Metal en macOS (como mínimo, GeForce GT 630, Radeon HD 7750 o Intel HD 510), un procesador x86-64 con SSE4.1 y 2 GB de RAM."
+  en: "Your own US Rev A Ogre Battle 64 ROM (40 MB, as .z64, .n64, or .v64), which is checked by its hash. Plus 64-bit Windows 10 or 11, macOS 11 or later on Apple silicon, or a glibc-based Linux; a graphics card with Direct3D 12.0 (Shader Model 6.0) or Vulkan 1.2 on Windows, Vulkan 1.2 on Linux, or Metal on macOS (at least a GeForce GT 630, Radeon HD 7750, or Intel HD 510), an x86-64 CPU with SSE4.1, and 2 GB of RAM."
+tags:
+  - mips
+  - widescreen
+  - mods
+  - ai-assisted

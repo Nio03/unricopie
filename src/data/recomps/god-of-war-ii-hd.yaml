@@ -1,0 +1,18 @@
+name: God of War II HD
+console: ps3
+status: experimental
+repo: andrebrumdev/gow2-recomp
+author: André Brum
+originalDeveloper: Bluepoint Games / SCE Santa Monica Studio
+year: 2009
+toolchain: ps3recomp
+desc:
+  es: "Port nativo para macOS con Apple Silicon de la versión de PSN de PS3 (NPUA80491), por recompilación estática: el código del PPU (unas 69 000 funciones) y los siete programas de las SPU se traducen de antemano a C/C++ y se compilan para arm64, sin emulador ni JIT, sobre un fork del entorno de ejecución de ps3recomp con Metal para los gráficos, VideoToolbox para los vídeos y CoreAudio para el sonido. Llega del arranque al menú, las partidas guardadas y el juego en Rodas, con combate, HUD, partículas e iluminación a entre 45 y 60 fps en un Mac con Apple Silicon; la pelea con el Coloso de Rodas se puede jugar con un fallo gráfico, y el sonido todavía depende en parte del reloj del equipo. Un kit de instalación descifra el EBOOT.BIN con tu licencia, traduce y compila el juego en tu Mac y comprueba cada archivo generado con los hashes del proyecto; un launcher en SwiftUI gestiona las opciones, los mods y los parches al estilo de RPCS3, y dentro del juego hay un menú con pantalla, controles reasignables y sonido. Las versiones para iPhone y Android son experimentales, y la de Windows no se mantiene. Su documentación indica que se desarrolla con agentes de IA (Claude y Codex), y cuatro de sus 654 commits llevan a Claude como coautor. El último kit es del 30 de septiembre."
+  en: "A native port of the PS3 PSN release (NPUA80491) for Apple silicon macOS, made by static recompilation: the PPU code (about 69,000 functions) and the seven SPU programs are translated ahead of time to C/C++ and compiled for arm64, with no emulator or JIT, on a fork of the ps3recomp runtime with Metal for graphics, VideoToolbox for movies, and CoreAudio for sound. It gets from boot to the menu, saves, and gameplay in Rhodes, with combat, HUD, particles, and lighting at 45–60 fps on an Apple silicon Mac; the Colossus of Rhodes fight is playable with a graphical glitch, and audio still partly follows the host clock. A setup kit decrypts EBOOT.BIN with your license, translates and builds the game on your Mac, and checks every generated file against the project’s hashes; a SwiftUI launcher handles options, mods, and RPCS3-style patches, and an in-game menu covers display, remappable controls, and sound. The iPhone and Android builds are experimental, and the Windows one isn’t maintained. Its documentation indicates it’s developed with AI agents (Claude and Codex), and four of its 654 commits list Claude as a co-author. The latest kit is from September 30."
+requirements:
+  es: "Tu propia copia de God of War II HD para PS3 en su versión de PSN estadounidense (NPUA80491, 1.00): la carpeta PS3_GAME, con USRDIR/EBOOT.BIN y gow2.psarc, sacada de RPCS3 o de tu PS3, y tu licencia UP9000-NPUA80491_00-GODOFWARIIHDUS00.rap. Además, un Mac con Apple Silicon (M1 o posterior) y un macOS reciente, las Command Line Tools de Xcode y Homebrew con cmake, ninja, pkgconf y sdl2; la primera compilación tarda de 5 a 15 minutos."
+  en: "Your own copy of God of War II HD for PS3 in its US PSN release (NPUA80491, 1.00): the PS3_GAME folder, with USRDIR/EBOOT.BIN and gow2.psarc, taken from RPCS3 or your PS3, and your UP9000-NPUA80491_00-GODOFWARIIHDUS00.rap license. Plus an Apple silicon Mac (M1 or later) with a recent macOS, the Xcode Command Line Tools, and Homebrew with cmake, ninja, pkgconf, and sdl2; the first build takes 5 to 15 minutes."
+tags:
+  - powerpc
+  - mods
+  - ai-assisted

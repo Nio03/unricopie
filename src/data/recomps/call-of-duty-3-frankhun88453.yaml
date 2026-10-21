@@ -1,0 +1,19 @@
+name: "Call of Duty 3 (FrankHUN88453)"
+console: x360
+status: playable
+repo: FrankHUN88453/CoD3Recomp
+originalDeveloper: Treyarch
+year: 2006
+toolchain: XenonRecomp
+desc:
+  es: "CoD3Recomp: recompilación estática de la versión de Xbox 360 con XenonRecomp. Las 19.462 funciones del código PowerPC se traducen a C++, las 179 funciones del núcleo que importa el juego están implementadas, y un renderizador Direct3D 11 hecho para PC dibuja con los shaders del propio juego traducidos a HLSL. Solo incluye la campaña, porque el ejecutable del multijugador todavía no se ha recompilado: los quince niveles cargan y se juegan, y al terminar una misión se pasa a la siguiente, con sonido, vídeos y puntos de control. Dibuja a la resolución de tu ventana, con escala de resolución, relación de aspecto de 21:9, 32:9 o la de la ventana, campo de visión de 65 a 100, MSAA de 2x a 8x y FXAA, sombras de hasta 4096 y los modelos más detallados a cualquier distancia; en los niveles los fotogramas no tienen tope (unos 100 donde la consola daba 60). Se juega con mando o con teclado y ratón con entrada directa, también en los menús del juego, que muestran tus teclas en lugar de los botones, y recupera el sprint del multijugador. Las opciones están en una página VIDEO dentro del menú del juego y en un menú propio (F11). La 0.5.0 (21 de octubre) es un solo ejecutable que se actualiza solo. Sus 159 commits llevan a Claude como coautor."
+  en: "CoD3Recomp: a static recompilation of the Xbox 360 version with XenonRecomp. All 19,462 functions of the PowerPC code are translated to C++, all 179 kernel functions the game imports are implemented, and a Direct3D 11 renderer built for PC draws with the game’s own shaders translated to HLSL. It covers the campaign only, since the multiplayer executable hasn’t been recompiled yet: all fifteen levels load and play, and finishing a mission leads into the next, with sound, films, and checkpoints. It renders at your window’s resolution, with resolution scaling, a 21:9, 32:9, or window-fitting aspect ratio, a 65–100 field of view, 2x–8x MSAA and FXAA, shadows up to 4096, and the most detailed models at any distance; in levels the frame rate is uncapped (about 100 fps where the console ran at 60). It plays with a controller or with keyboard and mouse with raw input, in the game’s own menus too, which show your keys instead of the buttons, and it brings back the multiplayer’s sprint. The options are on a VIDEO page in the game’s own menu and in a separate menu (F11). Version 0.5.0 (October 21) is a single executable that updates itself. All 159 of its commits list Claude as co-author."
+requirements:
+  es: "Una imagen de tu propio disco de Call of Duty 3 para Xbox 360, la versión de Estados Unidos y Europa (sirven imágenes XGD1, XGD2, XGD3 y recortadas); la instalación comprueba que el default.xex del disco tiene el mismo tamaño que el que se recompiló y extrae el juego a la carpeta que elijas. Además, Windows de 64 bits y una tarjeta gráfica con Direct3D 11."
+  en: "An image of your own Call of Duty 3 Xbox 360 disc, the US and European release (XGD1, XGD2, XGD3, and trimmed images all work); setup checks that the disc’s default.xex is the same size as the one that was recompiled, and extracts the game to a folder you choose. Plus 64-bit Windows and a Direct3D 11 graphics card."
+tags:
+  - powerpc
+  - fps
+  - widescreen
+  - 60fps+
+  - ai-assisted

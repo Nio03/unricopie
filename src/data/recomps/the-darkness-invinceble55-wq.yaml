@@ -1,0 +1,25 @@
+name: "The Darkness (Estacado)"
+console: x360
+status: fully
+repo: invinceble55-wq/Estacado-The-Darkness-Recomp
+originalDeveloper: Starbreeze Studios
+year: 2007
+toolchain: XenonRecomp
+desc:
+  es: "Estacado: port no oficial para Windows de la versión de Xbox 360, por recompilación estática. XenonRecomp traduce a C++ el código PowerPC del juego, y la capa de sistema y de gráficos en Direct3D 12 parte del SDK de ReXGlue. Su autor indica que la campaña entera se puede jugar de principio a fin, aunque sigue en prerelease y solo se ha probado en un PC con Windows 11 y una tarjeta NVIDIA RTX; un jugador lo ha hecho funcionar en Steam Deck con Proton. Ofrece de 30 fps a la frecuencia de tu monitor o sin límite con la velocidad del juego intacta, la escena a 1x, 2x o 3x los 720p de la consola, SMAA o FXAA, FSR 1 o CAS, imagen panorámica experimental para 21:9, 32:9 y 16:10, teclado y ratón con vista directa y teclas reasignables, campo de visión ajustable, logros con aviso en pantalla y paquetes de texturas en HD hechos por jugadores (no incluye ninguno). Los ajustes están en un launcher con perfiles y en un menú dentro del juego (F1), en inglés o ruso. El multijugador no funciona: sus modos se quedan en el menú. La 0.9.8 (12 de octubre) añadió escalado temporal con DLSS, FSR 3.1 o XeSS y dos trucos de los desarrolladores, modo dios y todas las armas. 11 de sus 18 commits llevan a Claude como coautor."
+  en: "Estacado: an unofficial Windows port of the Xbox 360 version, by static recompilation. XenonRecomp translates the game’s PowerPC code to C++, and the Direct3D 12 system and graphics layer builds on the ReXGlue SDK. Its author says the whole campaign is playable from start to finish, though it’s still a pre-release tested on a single Windows 11 PC with an NVIDIA RTX card; a player has it working on the Steam Deck under Proton. It offers 30 fps up to your monitor’s refresh rate or uncapped with game timing kept intact, the scene at 1x, 2x, or 3x the console’s 720p, SMAA or FXAA, FSR 1 or CAS, experimental widescreen for 21:9, 32:9, and 16:10, keyboard and mouse with direct mouse look and rebindable keys, an adjustable field of view, achievements with an on-screen notification, and player-made HD texture packs (none included). Settings live in a launcher with presets and in an in-game menu (F1), in English or Russian. Multiplayer doesn’t work: its modes stay on the menu. Version 0.9.8 (October 12) added temporal upscaling with DLSS, FSR 3.1, or XeSS, plus two of the developers’ cheats, god mode and give all. 11 of its 18 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de The Darkness para Xbox 360, el disco de EE. UU. y Europa (En, Fr, De, Es, It; Title ID 545407EE), como imagen ISO o extraído. El launcher comprueba que el código de tu default.xex sea el mismo; otras ediciones con el mismo código también valen, pero una con title update aún no funciona. Además, Windows 10 u 11 de 64 bits, un procesador con AVX2, una tarjeta gráfica con Direct3D 12, el Visual C++ 2015-2022 Redistributable (x64) y unos 8 GB libres si usas una imagen de disco."
+  en: "Your own copy of The Darkness for Xbox 360, the USA/Europe disc (En, Fr, De, Es, It; Title ID 545407EE), as an ISO image or extracted. The launcher checks that your default.xex carries the same code; other releases with the same code work too, but one with a title update doesn’t yet. Plus 64-bit Windows 10 or 11, a CPU with AVX2, a Direct3D 12 graphics card, the Visual C++ 2015–2022 Redistributable (x64), and about 8 GB of free space if you use a disc image."
+tags:
+  - powerpc
+  - fps
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted
+links:
+  - label:
+      es: "Cambios en ReXGlue (Estacado-ReXGlue)"
+      en: "ReXGlue changes (Estacado-ReXGlue)"
+    url: https://github.com/invinceble55-wq/Estacado-ReXGlue

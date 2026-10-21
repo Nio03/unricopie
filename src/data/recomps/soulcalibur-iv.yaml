@@ -1,0 +1,15 @@
+name: Soulcalibur IV
+console: x360
+status: playable
+repo: FluffyQuack/rexglue-SoulCaliburIV
+originalDeveloper: Project Soul
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 con el SDK de ReXGlue: el repositorio es una copia del propio SDK con el proyecto del juego en la carpeta sciv. Su autor dice que el juego parece completamente jugable, con algunos fallos gráficos menores. Activa por defecto la lectura de los resultados de render a textura para que el bloom no salga exagerado. Un archivo sciv.ini permite saltarse los cinco logotipos de inicio y jugar con teclado, con teclas reasignables y un segundo jugador en el teclado numérico, y por defecto lo guarda todo en la carpeta del juego, como instalación portátil. F12 guarda una captura en PNG. La 0.9.1 (7 de julio), la única publicada, añadió el contenido descargable y los controles de teclado, corrigió un cierre al arrancar y se compiló para procesadores más antiguos (x86-64-v2)."
+  en: "A static recompilation of the Xbox 360 version with the ReXGlue SDK: the repository is a copy of the SDK itself with the game’s project in its sciv folder. Its author says the game seems fully playable, with some minor graphical issues. It turns on readback of render-to-texture results by default so the bloom isn’t blown out. A sciv.ini file lets you skip the five boot logos and play on the keyboard, with rebindable keys and a second player on the numpad, and by default it keeps everything in the game folder as a portable install. F12 saves a PNG screenshot. Version 0.9.1 (July 7), the only release, added DLC support and keyboard controls, fixed a crash at boot, and was built for older CPUs (x86-64-v2)."
+requirements:
+  es: "Tu propia copia de Soulcalibur IV para Xbox 360, con sus archivos en la carpeta desde la que se ejecuta; el autor indica que está pensado para usarse con «SCIV Patch #2»."
+  en: "Your own copy of Soulcalibur IV for Xbox 360, with its files in the folder it runs from; the author notes it’s meant to be used with “SCIV Patch #2”."
+tags:
+  - powerpc

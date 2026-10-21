@@ -1,0 +1,18 @@
+name: GoldenEye 007 (cblock85)
+console: n64
+status: playable
+repo: cblock85/GoldenEye64Recomp
+originalDeveloper: Rare
+year: 1997
+toolchain: N64Recomp
+desc:
+  es: "GoldenEye64Recomp: port nativo a macOS y Linux de GoldenEye 007, recompilado estáticamente con N64Recomp a partir de la decompilación completa y con RT64 como renderizador (Metal en macOS, Vulkan en Linux). Parte de GoldenRecomp, el recomp de kholdfuzion que también está en el catálogo y que solo funcionaba en Windows. Además del modo normal, con el código del juego generado al compilar, tiene un modo limpio en el que el ejecutable no lleva nada del código del juego: la primera vez que arranca recompila en memoria, a partir de tu ROM y en unos dos segundos, unas 3000 funciones del juego. Sirve un volcado normal: la aplicación lo convierte por sí sola al formato «TLBFREE» que necesita el recomp. Funcionan la introducción, los menús, la selección de partida, los informes de misión, las misiones, el sonido, el mando, la interpolación hasta la frecuencia de tu pantalla y el modo panorámico. Los cielos se ven negros y el agua plana, la interfaz del multijugador está incompleta y algunas armas disparan demasiado rápido. También corrige fallos de N64ModernRuntime, RT64 y N64Recomp que afectaban a todas las plataformas. La única versión publicada, la 1.0.0 del 20 de agosto, es para macOS con Apple Silicon; en Linux hay que compilarlo."
+  en: "GoldenEye64Recomp: a native macOS and Linux port of GoldenEye 007, statically recompiled with N64Recomp from the complete decompilation, with RT64 as its renderer (Metal on macOS, Vulkan on Linux). It builds on GoldenRecomp, kholdfuzion’s recomp also in the catalog, which only ran on Windows. Besides the standard mode, with the game code generated at build time, it has a clean mode where the executable carries none of the game’s code: on first launch it recompiles roughly 3,000 game functions from your ROM in memory, in about two seconds. A plain retail dump works: the app converts it on its own into the “TLBFREE” layout the recomp needs. The intro, menus, file select, briefings, missions, audio, controller, interpolation up to your display’s refresh rate, and widescreen all work. Skyboxes render black and water is flat, the multiplayer UI is incomplete, and some weapons fire too fast. It also fixes bugs in N64ModernRuntime, RT64, and N64Recomp that affected every platform. The only release, 1.0.0 from August 20, is for Apple silicon macOS; on Linux you have to build it."
+requirements:
+  es: "Tu propia ROM estadounidense (NTSC-U) de GoldenEye 007, SHA-1 abe01e4aeb033b6c0836819f549c791b26cfde83 en .z64; los volcados .v64 y .n64 se convierten solos, y no se aceptan otras regiones. Para la versión publicada, macOS 13 o posterior con Apple Silicon. Para compilarlo, macOS 13 o posterior (Apple Silicon o Intel) con Xcode completo y Homebrew, o Linux con una tarjeta gráfica con Vulkan."
+  en: "Your own US (NTSC-U) GoldenEye 007 ROM, SHA-1 abe01e4aeb033b6c0836819f549c791b26cfde83 as a .z64; .v64 and .n64 dumps are converted automatically, and other regions are rejected. For the released build, macOS 13 or later on Apple silicon. To build it, macOS 13 or later (Apple silicon or Intel) with full Xcode and Homebrew, or Linux with a Vulkan-capable graphics card."
+tags:
+  - mips
+  - fps
+  - widescreen
+  - 60fps+

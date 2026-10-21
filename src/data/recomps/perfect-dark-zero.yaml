@@ -1,0 +1,19 @@
+name: Perfect Dark Zero
+console: x360
+status: fully
+repo: nikolaygorb/PerfectDarkZeroRecomp
+originalDeveloper: Rare
+year: 2005
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión europea de Xbox 360 sobre el SDK de ReXGlue: el código PowerPC se traduce a C++ y se compila, sin emulador. Según su autor, se puede jugar entero en Windows, con vídeo, sonido, logros y partidas guardadas, y desde la 1.2 hay también versión para Linux. Trae los parches de 60 fps (activado por defecto) y de 16:9 de xenia-canary, teclado y ratón, Direct3D 12 o Vulkan, una cámara en tercera persona (tecla V), selección de idioma entre los que traiga tu copia, perfiles de jugador locales con partidas y logros separados (F9) y un panel de ajustes (F4). La última versión es la 1.6 (17 de octubre)."
+  en: "A static recompilation of the European Xbox 360 release on the ReXGlue SDK: the PowerPC code is translated to C++ and compiled, with no emulator. According to its author, it’s fully playable on Windows, with video, audio, achievements, and saves, and since 1.2 there’s a Linux build too. It includes xenia-canary’s 60 fps patch (on by default) and 16:9 patch, keyboard and mouse, Direct3D 12 or Vulkan, a third-person camera (V key), a choice among the languages your copy includes, local player profiles with their own saves and achievements (F9), and a settings overlay (F4). The latest release is 1.6 (October 17)."
+requirements:
+  es: "Los archivos de tu propia copia europea (PAL) de Perfect Dark Zero para Xbox 360 (título 4D5307D3, Media ID 750FF1D9, CRC del XEX 375EC9BB), extraídos del disco o la ISO con ABGX360 o extract-xiso. Además, Windows (probado en Windows 11) o Linux (probado en Ubuntu 26.04); para compilarlo, CMake 3.25 o posterior, Ninja y Clang/LLVM."
+  en: "The files from your own European (PAL) copy of Perfect Dark Zero for Xbox 360 (title 4D5307D3, Media ID 750FF1D9, XEX CRC 375EC9BB), extracted from the disc or ISO with ABGX360 or extract-xiso. Plus Windows (tested on Windows 11) or Linux (tested on Ubuntu 26.04); building it takes CMake 3.25 or later, Ninja, and Clang/LLVM."
+tags:
+  - powerpc
+  - fps
+  - 60fps+
+  - widescreen
+  - rare

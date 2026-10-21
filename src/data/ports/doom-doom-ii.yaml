@@ -1,0 +1,20 @@
+name: "Doom / Doom II (Woof!)"
+category: decomp-port
+console: dos
+status: fully
+repo: fabiangreffrath/woof
+homepage: https://fabiangreffrath.github.io/woof/
+originalDeveloper: id Software
+year: 1993
+desc:
+  es: "Woof!: continuación para sistemas actuales de MBF (Marine’s Best Friend), el port de Doom de Lee Killough, de la familia Boom/MBF, que parte del código fuente de Doom que id Software publicó en 1997. Se desarrolla sobre WinMBF, el port de MBF a Windows que hizo Team Eternity en 2004, y muchas de sus mejoras, entre ellas el código de red, vienen de Chocolate Doom; lo mantiene Fabian Greffrath, autor de Crispy Doom. Dibuja a cualquier resolución hasta la nativa de tu pantalla, con escalado dinámico para mantener la tasa de fotogramas que elijas, en panorámico, sin límite de fotogramas y con interpolación, y con campo de visión ajustable. Añade vóxeles, sonido 3D hasta 7.1 con HRTF, varios motores de música (MIDI, FluidSynth y un OPL3 emulado), mando con vibración, giroscopio y flick stick, y vista libre con el ratón. Tiene niveles de compatibilidad Vanilla, Boom, MBF y MBF21, carga las partidas de MBF.EXE y admite formatos de mods recientes como UMAPINFO, DEHEXTRA, DSDHacked, UDMF e ID24. La 16.0.0 (8 de septiembre) pasó a SDL3 y añadió rebobinado, un minimapa, un menú de dificultad personalizada y versiones para macOS."
+  en: "Woof!: a continuation of Lee Killough’s Doom source port MBF (Marine’s Best Friend) for modern systems, part of the Boom/MBF line, which builds on the Doom source code id Software released in 1997. It’s developed from WinMBF, Team Eternity’s 2004 Windows port of MBF, and many of its improvements, the network code among them, come from Chocolate Doom; it’s maintained by Fabian Greffrath, the author of Crispy Doom. It draws at any resolution up to your display’s native one, with dynamic resolution scaling to hold the frame rate you choose, in widescreen, uncapped with frame interpolation, and with an adjustable field of view. It adds voxels, 3D audio up to 7.1 with HRTF, several music backends (MIDI, FluidSynth, and an emulated OPL3), gamepads with rumble, gyro, and flick stick, and mouselook. It has Vanilla, Boom, MBF, and MBF21 compatibility levels, loads MBF.EXE saves, and supports recent modding formats such as UMAPINFO, DEHEXTRA, DSDHacked, UDMF, and ID24. Version 16.0.0 (September 8) moved to SDL3 and added rewinding, a minimap, a custom skill menu, and macOS builds."
+requirements:
+  es: "El archivo IWAD de tu propia copia de Doom, Doom II o Final Doom (doom.wad, doom2.wad, tnt.wad o plutonia.wad); también vale el doom1.wad de la versión shareware, que es gratuita, o las IWAD libres de Freedoom. Encuentra solo las instalaciones de Steam y GOG. Además, Windows 7 o posterior, Linux (en AppImage) o macOS."
+  en: "The IWAD file from your own copy of Doom, Doom II, or Final Doom (doom.wad, doom2.wad, tnt.wad, or plutonia.wad); the free shareware doom1.wad works too, as do the free Freedoom IWADs. It finds Steam and GOG installs on its own. Plus Windows 7 or later, Linux (as an AppImage), or macOS."
+tags:
+  - fps
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - mods

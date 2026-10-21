@@ -1,0 +1,25 @@
+name: "Yu-Gi-Oh! Forbidden Memories"
+console: ps1
+status: playable
+abandoned: true
+repo: Unchiga/YuGiOhForbiddenMemoriesRecomp
+originalDeveloper: Konami
+year: 2002
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense (SLUS-01411), hecha con PSXRecomp: el código MIPS del juego se traduce a C de antemano y se compila en un ejecutable nativo. La descarga es un instalador con el recompilador y el código del entorno de ejecución, sin nada del juego: la primera vez comprueba tu disco por su CRC32, descarga un compilador si hace falta y compila el juego en tu equipo en unos minutos. Hay versiones para Windows, Linux y macOS, esta última experimental. Añade el FM Editor, que cambia cartas, tablas de recompensas, fusiones, diálogos y duelistas de la CPU sin tocar el disco y exporta el resultado como un paquete .ygomods; una tienda de cartas con contraseñas, sobres y venta; juego en red por un vestíbulo en línea, red local o dirección directa, con la mano del rival oculta; un medidor en vivo del rango del duelo, un asistente de fusiones, recompensas ajustables de 0 a 99 cartas, una forma de conseguir las 82 cartas que no salen en ninguna tabla original, un campo de duelo panorámico experimental y trucos. También tiene estados guardados, rebobinado, turbo, carga rápida y un modo que mantiene la imagen a 59,94 fps mientras el juego corre acelerado. La última versión, la 0.6.2, salió el 20 de septiembre: el desarrollo siguió en Yu-Gi-Oh! Forbidden Memories Recompiled, un port nativo construido a partir de la decompilación, y este repositorio se conserva sin actualizaciones. 244 de sus 297 commits llevan como coautor a Claude o a Codex."
+  en: "A static recompilation of the US release (SLUS-01411), built with PSXRecomp: the game’s MIPS code is translated to C ahead of time and compiled into a native executable. The download is a setup program holding the recompiler and the runtime source, with nothing from the game: on first run it checks your disc by CRC32, downloads a compiler if needed, and builds the game on your machine in a few minutes. There are Windows, Linux, and macOS builds, the last one experimental. It adds the FM Editor, which changes cards, drop tables, fusions, dialogue, and CPU duelists without touching the disc and exports the result as a .ygomods package; a card shop with passwords, packs, and selling; netplay through an online lobby, LAN, or a direct address, with the opponent’s hand hidden; a live duel-rank meter, a fusion assistant, adjustable drops of 0–99 cards, a way to get the 82 cards missing from every stock drop table, an experimental widescreen duel field, and cheats. It also has save states, rewind, turbo, fast loading, and a mode that keeps the picture at 59.94 fps while the game runs sped up. The last version, 0.6.2, came out on September 20: development moved to Yu-Gi-Oh! Forbidden Memories Recompiled, a native port built from the decompilation, and this repository stays up without updates. Of its 297 commits, 244 list Claude or Codex as a co-author."
+requirements:
+  es: "Tu propia imagen del disco estadounidense de Yu-Gi-Oh! Forbidden Memories para PS1 (SLUS-01411), que se comprueba por su CRC32; mejor en .cue con su .bin, aunque también acepta .bin, .img, .iso y .car. Las ediciones europeas y japonesas y la Greatest Hits no sirven. Además, Windows, Linux o macOS; la primera compilación descarga un compilador si no tienes uno."
+  en: "Your own disc image of the US release of Yu-Gi-Oh! Forbidden Memories for PS1 (SLUS-01411), verified by CRC32; preferably a .cue with its .bin, though .bin, .img, .iso, and .car also work. PAL, Japanese, and Greatest Hits releases aren’t supported. Plus Windows, Linux, or macOS; the first build downloads a compiler if you don’t have one."
+tags:
+  - mips
+  - netplay
+  - widescreen
+  - mods
+  - ai-assisted
+links:
+  - label:
+      es: "Sucesor: port a partir de la decompilación"
+      en: "Successor: decompilation-based port"
+    url: https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled

@@ -1,0 +1,19 @@
+name: Ridge Racer V
+console: ps2
+status: playable
+repo: danisandoval/fukami
+originalDeveloper: Namco
+year: 2000
+toolchain: PS2Recomp
+desc:
+  es: "Fukami: port nativo de la versión estadounidense de PS2 (SLUS-20002) para Windows, macOS con Apple Silicon y Steam Deck, por recompilación estática: el código MIPS del juego se traduce de antemano a C++, sobre el entorno de ejecución de PS2Recomp, y el GS y el SPU2 se toman de PCSX2. Los microprogramas de las VU y las funciones más usadas también se compilan de antemano, sin JIT. Va a 60 fps en progresivo sin cambiar los tiempos del juego, con resolución interna hasta 8x, antialiasing, FXAA, nitidez CAS, filtrado anisotrópico y pantalla panorámica real (16:9, 16:10 y 21:9) en la que la cámara ve más, y como opciones, más coches con todo el detalle, más distancia de dibujado y cargas más rápidas. Tiene mando con vibración, teclado, dos jugadores y un menú de ajustes dentro del juego; los controles todavía no se pueden reasignar. Las versiones publicadas llevan el código del juego ya traducido y, la primera vez, sacan de tu disco los archivos que necesitan. Tres de sus nueve commits llevan a Claude como coautor. La 1.1.0 (14 de octubre) añadió Windows, con Direct3D 11 o Vulkan."
+  en: "Fukami: a native port of the US PS2 release (SLUS-20002) for Windows, Apple silicon macOS, and the Steam Deck, made by static recompilation: the game’s MIPS code is translated ahead of time to C++, on top of PS2Recomp’s runtime, and the GS and SPU2 come from PCSX2. The VU microcode and the hottest functions are compiled ahead of time too, with no JIT. It runs at 60 fps progressive without changing the game’s timing, with up to 8x internal resolution, anti-aliasing, FXAA, CAS sharpening, anisotropic filtering, and true widescreen (16:9, 16:10, and 21:9) where the camera sees more, plus optional extra full-detail cars, longer draw distance, and faster loading. It has controller support with rumble, keyboard, two players, and an in-game settings menu; controls can’t be remapped yet. The releases carry the game’s code already translated and, on first launch, take the files they need from your disc. Three of its nine commits list Claude as a co-author. Version 1.1.0 (October 14) added Windows, with Direct3D 11 or Vulkan."
+requirements:
+  es: "Tu propio volcado del disco estadounidense de Ridge Racer V (SLUS-20002) en CHD o en .cue/.bin; solo admite esa versión y comprueba sus hashes SHA-256. Además, unos 500 MB libres y, según el sistema, Windows 10 u 11 de 64 bits con una tarjeta gráfica con Direct3D 11 o Vulkan y el Visual C++ Redistributable (x64), un Mac con Apple Silicon y macOS 27 (la versión con la que se compiló la 1.1.0) o SteamOS 3.7 o posterior; otras distribuciones de Linux no se han probado."
+  en: "Your own dump of the US Ridge Racer V disc (SLUS-20002) as a CHD or .cue/.bin; only that release is accepted, and its SHA-256 hashes are checked. Plus about 500 MB of free space and, depending on the system, 64-bit Windows 10 or 11 with a Direct3D 11 or Vulkan graphics card and the Visual C++ Redistributable (x64); an Apple silicon Mac with macOS 27 (what 1.1.0 was built on); or SteamOS 3.7 or later. Other Linux distributions are untested."
+tags:
+  - emotion-engine
+  - racing
+  - widescreen
+  - multiplayer
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: "NBA Jam: On Fire Edition"
+console: x360
+status: playable
+repo: GTTeancum/OpenJam
+originalDeveloper: EA Canada
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "OpenJam: port nativo para Windows de la versión de Xbox Live Arcade, por recompilación estática con el SDK de ReXGlue. Arranca como versión completa, no como demo, y se puede jugar, con sus 12 logros. Su gestor de mods desempaqueta tu copia la primera vez y luego instala los mods de la escena de PS3, publicados como paquetes .pkg: convierte sus texturas al formato de esta versión y conserva la actualización de plantillas de 2013 que traen. Los tres que existen, las ediciones 1990s, 2020s y Legends de johnz1, se juegan, y cada uno tiene su carpeta y sus partidas guardadas. En el menú principal desaparecen las entradas de Xbox Live y el panel de JAMnet pasa a ser la lista de mods, que se cambian desde el propio juego. Se abre en una ventana de 1280×720. El autor plantea esta versión de PC como referencia para un futuro port a la Xbox original. La 1.0 salió el 26 de septiembre. De sus 29 commits, 28 llevan a Claude como coautor."
+  en: "OpenJam: a native Windows port of the Xbox Live Arcade release, by static recompilation with the ReXGlue SDK. It runs as the full version rather than the trial and is playable, with its 12 achievements. Its mod manager unpacks your copy on first run and then installs the PS3 scene’s mods, published as .pkg packages: it converts their textures to the format this version reads and keeps the 2013 roster update they bundle. All three that exist, johnz1’s 1990s, 2020s, and Legends editions, play, each with its own folder and saves. The main menu loses its Xbox Live entries and the JAMnet panel becomes the mod list, which you switch between from inside the game. It opens in a 1280×720 window. The author sees this PC version as a reference for a future original Xbox port. 1.0 came out on September 26. Of its 29 commits, 28 list Claude as co-author."
+requirements:
+  es: "Tu propia copia de NBA Jam: On Fire Edition de Xbox Live Arcade: el archivo contenedor de unos 850 MB que la consola guarda en su disco duro (ID de título 584111EC). Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12, alrededor de 1 GB libre más unos 700 MB por mod y un mando; los menús también admiten teclado."
+  en: "Your own Xbox Live Arcade copy of NBA Jam: On Fire Edition: the roughly 850 MB container file the console keeps on its hard drive (title ID 584111EC). Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, about 1 GB of free space plus about 700 MB per mod, and a controller; the menus also take the keyboard."
+tags:
+  - powerpc
+  - mods
+  - ai-assisted

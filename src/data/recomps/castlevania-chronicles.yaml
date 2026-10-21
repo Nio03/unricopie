@@ -1,0 +1,15 @@
+name: Castlevania Chronicles
+console: ps1
+status: playable
+repo: Spicywonda/castlevania-chronicles-recomp
+originalDeveloper: Konami
+year: 2001
+toolchain: RecompOne
+desc:
+  es: "Port nativo para Windows, macOS (Apple Silicon) y Linux de la versión estadounidense de PlayStation (SLUS-01384), hecho con RecompOne, que traduce a C# el código MIPS del juego, con parches propios sobre su runtime. Un launcher te pide la imagen de disco, la recuerda y prepara el código del juego en el primer arranque; las versiones publicadas no traen el disco ni datos del juego. Con F1 se abre un menú para reasignar el teclado y el mando y para activar trucos (invencibilidad, y vida, corazones o vidas infinitas), que empiezan desactivados en cada sesión; las caídas y las muertes instantáneas siguen contando. Funcionan la galería de ilustraciones y la entrevista, y puedes importar una tarjeta de memoria en bruto de 128 KB. La pantalla panorámica es experimental y viene desactivada: se han visto imágenes corruptas y objetos que aparecen y desaparecen en los márgenes. Las ocho fases están registradas, pero aún no se ha validado una partida completa, y sigue abierto un fallo de sonido al derrotar a un jefe y recoger el orbe. La 0.3.10 (12 de octubre) añadió las actualizaciones automáticas del launcher."
+  en: "A native Windows, macOS (Apple silicon), and Linux port of the US PlayStation release (SLUS-01384), built with RecompOne, which translates the game’s MIPS code to C#, with the project’s own patches on top of its runtime. A launcher asks for your disc image, remembers it, and prepares the game code on first launch; the released builds include no disc or game data. F1 opens a menu to rebind keyboard and controller and to turn on cheats (invincibility, plus infinite health, hearts, or lives), which start off every session; falls and instant deaths still apply. The illustration gallery and the interview work, and you can import a raw 128 KB memory card. Widescreen is experimental and off by default: corrupted images and objects popping in and out at the side margins have been reported. All eight stages are registered, but a full playthrough hasn’t been validated yet, and a sound bug when defeating a boss and collecting the orb is still open. Version 0.3.10 (October 12) added automatic launcher updates."
+requirements:
+  es: "Tu propia imagen de disco estadounidense de Castlevania Chronicles (SLUS-01384), en .cue con sus .bin o en .chd. Hay versiones para Windows x64, macOS con Apple Silicon y Linux x64; las tres traen el runtime de .NET. En Linux hacen falta glibc, controladores de OpenGL y GTK 3."
+  en: "Your own US Castlevania Chronicles disc image (SLUS-01384), as a .cue with its .bin files or as a .chd. There are builds for x64 Windows, Apple silicon macOS, and x64 Linux; all three include the .NET runtime. Linux needs glibc, OpenGL drivers, and GTK 3."
+tags:
+  - mips

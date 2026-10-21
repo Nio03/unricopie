@@ -1,0 +1,17 @@
+name: "Wet (nikolaygorb)"
+console: x360
+status: fully
+repo: nikolaygorb/WetRecomp
+originalDeveloper: Artificial Mind and Movement
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 a Windows y Linux x86-64, con el SDK de ReXGlue y Direct3D 12 o Vulkan. Su autor la da por jugable del todo: vídeo, sonido, jugabilidad, logros y progresión funcionan. Lleva como ganchos en el código recompilado los parches de la comunidad de Xenia Canary: 60 fps, activado por defecto, y opciones para quitar el desenfoque de movimiento, la profundidad de campo, el temblor de cámara y el efecto de película. Por defecto dibuja al doble de resolución con FSR, FXAA y MSAA 2x, y puede ajustar el modo de vídeo a la frecuencia del monitor. Tiene teclado y ratón y, desde la 1.4 (20 de octubre), vista directa con el ratón en la cámara en tercera persona. El juego se puede poner en inglés, alemán, francés, español o italiano. Los ajustes van en archivos TOML o en el menú del SDK dentro del juego. Hay versiones compiladas para Windows y Linux, probadas en Windows 11 y Ubuntu 26.04."
+  en: "A static recompilation of the Xbox 360 version to x86-64 Windows and Linux, with the ReXGlue SDK and Direct3D 12 or Vulkan. Its author calls it fully playable: video, audio, gameplay, achievements, and progression all work. It carries the Xenia Canary community patches as hooks in the recompiled code: 60 fps, on by default, and options to turn off motion blur, depth of field, camera shake, and the film effect. By default it renders at twice the resolution with FSR, FXAA, and 2x MSAA, and it can match the video mode to your monitor’s refresh rate. It has keyboard and mouse and, since 1.4 (October 20), direct mouse look for the third-person camera. The game can be set to English, German, French, Spanish, or Italian. Settings live in TOML files or the SDK’s in-game menu. There are prebuilt releases for Windows and Linux, tested on Windows 11 and Ubuntu 26.04."
+requirements:
+  es: "Tu propia copia de Wet para Xbox 360 (Title ID 425307DB, disco XA-2498, Media ID 3077A693, hash del módulo 9A084828F85F951B), extraída de la ISO con extract-xiso. Además, Windows o Linux de 64 bits y una tarjeta gráfica con Direct3D 12 o Vulkan."
+  en: "Your own copy of Wet for Xbox 360 (Title ID 425307DB, disc XA-2498, Media ID 3077A693, module hash 9A084828F85F951B), extracted from the ISO with extract-xiso. Plus 64-bit Windows or Linux and a Direct3D 12 or Vulkan graphics card."
+tags:
+  - powerpc
+  - 60fps+
+  - vulkan

@@ -1,0 +1,20 @@
+name: EA Sports UFC 3
+category: native-layer
+console: ps4
+status: playable
+repo: GNSB/UFC-3-PS4-PORT-LINUX-WINDOWS
+author: Gregori Sobrevía
+originalDeveloper: EA Vancouver
+year: 2018
+desc:
+  es: "Port nativo para Linux y Windows de la versión de PS4 (CUSA06534, actualización 1.14), de la familia de bbport: parte de SacredFire, el port de Crash Team Racing Nitro-Fueled, que a su vez sale de bbport. El código x86-64 original corre directamente en la CPU, un entorno de ejecución propio sustituye las bibliotecas del sistema de la PS4 y un renderizador derivado de shadPS4 traduce el trabajo de la GPU a Vulkan. Su autor lo da por jugable: menús, cargas, peleas, sonido, mando, partidas guardadas y el modo Carrera, con sangre y sudor en los golpes. El juego pide 30 Hz y el port no le hace caso, con límites de 60 a 240 fps o sin límite; el autor mide de 137 a 196 fps en peleas en Linux con una RTX 4070, y en Windows todavía va por detrás. Añade el modo PS4 Pro (1080p en vez de 900p), 2K y 4K experimentales, FSR 1 con nitidez RCAS, selector de idioma, launchers para los dos sistemas (también en AppImage) y juego en línea entre amigos, con un servidor privado que aloja uno de los jugadores. 102 de los 226 commits de su autor llevan a Claude como coautor. La última versión es la 0.1.14 (21 de octubre), con arreglos de estabilidad traídos de shadPS4."
+  en: "A native Linux and Windows port of the PS4 release (CUSA06534, update 1.14), from the bbport family: it starts from SacredFire, the Crash Team Racing Nitro-Fueled port, which in turn comes from bbport. The original x86-64 code runs directly on the CPU, a dedicated runtime replaces the PS4 system libraries, and a shadPS4-derived renderer translates the GPU work to Vulkan. Its author calls it playable: menus, loading, fights, sound, controller, saves, and Career mode, with blood and sweat on hits. The game asks for 30 Hz and the port ignores it, with limits from 60 to 240 fps or uncapped; the author measures 137–196 fps in fights on Linux with an RTX 4070, and Windows is still behind. It adds PS4 Pro mode (1080p instead of 900p), experimental 2K and 4K, FSR 1 with RCAS sharpening, a language selector, launchers for both systems (an AppImage too), and online play between friends, with a private server hosted by one of the players. 102 of its author’s 226 commits list Claude as a co-author. The latest version is 0.1.14 (October 21), with stability fixes brought in from shadPS4."
+requirements:
+  es: "Tu propio volcado de UFC 3 para PS4: la carpeta del juego base (CUSA06534, con eboot.bin) y la actualización 1.14, que se combinan solas. Además, Windows o Linux de 64 bits (en Linux, glibc 2.38 o posterior y Python 3), un procesador con AVX2, BMI1, MOVBE y LZCNT (Intel Haswell o posterior, o AMD Ryzen) y una tarjeta gráfica con Vulkan 1.3; se recomiendan 6 GB de memoria de vídeo o más. No se incluye ningún archivo del juego."
+  en: "Your own UFC 3 PS4 dump: the base game folder (CUSA06534, with eboot.bin) and the 1.14 update, which are merged automatically. Plus 64-bit Windows or Linux (on Linux, glibc 2.38 or later and Python 3), a CPU with AVX2, BMI1, MOVBE, and LZCNT (Intel Haswell or newer, or AMD Ryzen), and a Vulkan 1.3 graphics card; 6 GB of video memory or more is recommended. No game files are included."
+tags:
+  - x86
+  - vulkan
+  - 60fps+
+  - online
+  - ai-assisted

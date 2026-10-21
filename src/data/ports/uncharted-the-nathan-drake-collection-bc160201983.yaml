@@ -1,0 +1,20 @@
+name: "Uncharted: The Nathan Drake Collection (BilalReloaded)"
+category: native-layer
+console: ps4
+status: playable
+repo: bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port
+author: BilalReloaded
+originalDeveloper: Bluepoint Games / Naughty Dog
+year: 2015
+desc:
+  es: "Port para Windows de la colección de PS4 (Drake's Fortune, Among Thieves y Drake's Deception), independiente del de Supermedo: el código x86-64 de los tres juegos corre directamente en la CPU, un entorno de ejecución que parte del de gow3_pc (el port de God of War III) sustituye las bibliotecas del sistema de la PS4 y un renderizador derivado de shadPS4 ejecuta el trabajo de la GPU con Vulkan, con arreglos para este juego. Su autor da los tres juegos por jugables, con el menú de la colección, el cambio entre juegos, las partidas guardadas, el sonido, los vídeos y los mandos; Uncharted 3 se ha probado menos. Tiene un launcher con ajustes por juego y preajustes, resoluciones de 540p a 4K (Drake's Fortune dibuja como mucho a 2880×1620), formatos 16:10, 21:9 y 32:9, escalado con FSR 1, FSR 3.1, FSR 4 o DLSS con el HUD a la resolución final, TAA, límite de 30 a 120 fps, teclado y ratón reasignables a la vez que el mando, los 22 idiomas de texto de los juegos, un menú dentro del juego y una opción para desbloquear todos los capítulos. Usa la actualización 1.02 si la encuentra y se actualiza solo. 40 de sus 46 commits llevan a Claude como coautor. La última versión es la 0.4.1 (19 de octubre)."
+  en: "A Windows port of the PS4 collection (Drake’s Fortune, Among Thieves, and Drake’s Deception), separate from Supermedo’s: the three games’ x86-64 code runs directly on the CPU, a runtime that started from gow3_pc’s (the God of War III port) replaces the PS4 system libraries, and a shadPS4-derived renderer runs the GPU work on Vulkan, with fixes for this game. Its author calls all three games playable, with the collection menu, switching between games, saves, sound, movies, and controllers; Uncharted 3 has had less testing. It has a launcher with per-game settings and presets, resolutions from 540p to 4K (Drake’s Fortune renders at most at 2880×1620), 16:10, 21:9, and 32:9, upscaling with FSR 1, FSR 3.1, FSR 4, or DLSS with the HUD at the output resolution, TAA, a 30–120 fps limit, remappable keyboard and mouse alongside a controller, the games’ 22 text languages, an in-game menu, and an option to unlock every chapter. It uses update 1.02 when it finds it and updates itself. 40 of its 46 commits list Claude as a co-author. The latest version is 0.4.1 (October 19)."
+requirements:
+  es: "Tu propio volcado de la colección para PS4 (la carpeta CUSA02344, con eboot.bin y sce_sys) y, recomendada, la actualización 1.02; con la versión estadounidense (CUSA02320) y la 1.02, el juego se detiene al arrancar para algunos jugadores. Además, Windows 10 u 11 de 64 bits, un procesador Intel Haswell (Core de 4.ª generación) o posterior o cualquier AMD Ryzen, una tarjeta gráfica con Vulkan 1.3 y al menos 6 GB de memoria de vídeo, y 16 GB de RAM recomendados. No se incluye ningún archivo del juego."
+  en: "Your own dump of the PS4 collection (the CUSA02344 folder, with eboot.bin and sce_sys) and, recommended, update 1.02; with the US release (CUSA02320) and 1.02, the game stops at start for some players. Plus 64-bit Windows 10 or 11, an Intel Haswell (4th-gen Core) or newer CPU or any AMD Ryzen, a Vulkan 1.3 graphics card with at least 6 GB of video memory, and 16 GB of RAM recommended. No game files are included."
+tags:
+  - x86
+  - vulkan
+  - widescreen
+  - 60fps+
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Tekken 3 (FishB0nes98)"
+console: ps1
+status: playable
+repo: FishB0nes98/Tekken3Recompiled
+originalDeveloper: Namco
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "Tekken 3 Recompiled: recompilación híbrida de la versión estadounidense (SLUS-00402), hecha con una versión modificada de psxrecomp: el código traducido convive con un modelo del hardware de PS1 y un intérprete para el código dinámico que no cubre. Su gran añadido es Jun Kazama como luchadora jugable, con sus tres trajes de Tekken Tag Tournament y un escenario propio inspirado en el Heavenly Garden de Tekken Tag Tournament 2: el instalador la importa en tu equipo desde los ROM de recreativa de Tekken Tag Tournament y Tekken 3 que tú aportas, con una copia de MAME 0.289 que descarga él mismo. También trae un modo panorámico 16:9 activado por defecto, que muestra más escenario y adapta el menú principal, la selección de personaje y las pantallas de carga; un selector de trajes con siete diseños nuevos; texturas en alta definición para el bosque de Yoshimitsu; volumen separado de música y efectos, y los modos Tekken Ball y Theater desbloqueados. El lanzador gestiona los mods, los controles de cada jugador, una biblioteca de discos y las actualizaciones, y la instalación fácil descarga las herramientas y compila el juego en tu equipo. El repositorio incluye además el comienzo de un port nativo independiente, que por ahora usa luchadores y escenario provisionales, y herramientas para extraer y modificar texturas, sonidos y vídeos del disco. Es una versión preliminar para Windows x64; la última, la 0.1.4, salió el 23 de septiembre. Las texturas de los trajes nuevos y el escenario de Jun se hicieron con generación de imágenes por IA, según su documentación."
+  en: "Tekken 3 Recompiled: a hybrid recompilation of the US release (SLUS-00402), built with a modified psxrecomp: the translated code runs alongside a model of the PS1 hardware and an interpreter for the dynamic code it doesn’t cover. Its headline addition is Jun Kazama as a playable fighter, with her three Tekken Tag Tournament outfits and a stage of her own modeled on Tekken Tag Tournament 2’s Heavenly Garden: the installer imports her on your machine from the Tekken Tag Tournament and Tekken 3 arcade ROMs you provide, using a copy of MAME 0.289 it downloads itself. It also has 16:9 widescreen on by default, which shows more of the stage and adapts the main menu, character select, and loading screens; an outfit selector with seven new designs; HD textures for Yoshimitsu’s forest stage; separate music and effects volume; and Tekken Ball and Theater modes unlocked. The launcher handles mods, per-player controls, a disc library, and updates, and the easy setup downloads the tools and builds the game on your machine. The repository also holds the start of a separate native port, which for now uses placeholder fighters and stage, and tools to extract and modify the disc’s textures, sounds, and videos. It’s a Windows x64 preview; the latest, 0.1.4, came out on September 23. The new outfit textures and Jun’s stage were made with AI image generation, according to its documentation."
+requirements:
+  es: "Tu propia imagen de la versión estadounidense de Tekken 3 para PS1 (SLUS-00402), en .cue con su .bin. Para Jun hacen falta además los ROM de recreativa de Tekken Tag Tournament y Tekken 3 en versión no fusionada (tektagt.zip y tekken3.zip). Además, Windows de 64 bits, conexión a internet para la primera instalación y al menos 4 GB libres."
+  en: "Your own disc image of the US release of Tekken 3 for PS1 (SLUS-00402), as a .cue with its .bin. Jun also needs the non-merged Tekken Tag Tournament and Tekken 3 arcade ROM sets (tektagt.zip and tekken3.zip). Plus 64-bit Windows, an internet connection for the first setup, and at least 4 GB of free space."
+tags:
+  - mips
+  - widescreen
+  - mods
+  - hd-assets
+  - ai-assisted

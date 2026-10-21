@@ -1,0 +1,19 @@
+name: Body Harvest
+console: n64
+status: experimental
+repo: danielgomesvieira2000/body-harvest-recomp
+originalDeveloper: DMA Design
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Body Harvest: Recompiled, port nativo a Windows y Linux por recompilación estática con N64Recomp, sobre N64ModernRuntime, con RT64 para el renderizado y RecompFrontend para el launcher. El recompilador lee la compilación exacta de la decompilación del juego (body-harvest-decompilation), de la que también toma los nombres, y el launcher y las herramientas vienen del Wave Race 64: Recompiled del mismo autor. Añade modo panorámico a la relación de aspecto de tu ventana, con una vista realmente más ancha en la que el juego también dibuja lo que queda a los lados, interiores incluidos, y con el radar, las barras y el panel de armas pegados a los bordes; alta tasa de fotogramas por interpolación (la lógica sigue a sus 20 fps); ajustes de gráficos, sonido y controles con reasignación; una pestaña de mods; teclado y mando; partidas guardadas en EEPROM; Rumble Pak, y un menú de depuración con editor del HUD. La 0.1.0 (17 de septiembre) es muy temprana: solo se ha jugado el principio, hasta la primera parte de Grecia, y faltan por probar los vehículos, los niveles siguientes y cargar partidas. Su autor declara que lo hizo con Claude Code, y sus 36 commits llevan a Claude como coautor."
+  en: "Body Harvest: Recompiled, a native Windows and Linux port by static recompilation with N64Recomp, on N64ModernRuntime, with RT64 for rendering and RecompFrontend for the launcher. The recompiler reads the matching build of the game’s decompilation (body-harvest-decompilation), whose names it also uses, and the launcher and tooling come from the same author’s Wave Race 64: Recompiled. It adds widescreen at your window’s aspect ratio, a genuinely wider view in which the game also draws what’s at the sides, indoors included, with the radar, bars, and weapon panel anchored to the edges; a high frame rate through interpolation (the logic keeps its own 20 fps); graphics, sound, and controls settings with remapping; a mods tab; keyboard and controller; EEPROM saves; Rumble Pak; and a debug menu with a HUD editor. Version 0.1.0 (September 17) is very early: only the start, up to the first part of Greece, has been played, and vehicles, the later levels, and loading saves are untested. Its author states it was built with Claude Code, and all 36 of its commits carry Claude as co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Body Harvest (SHA-1 bbb6666f5014a473747ee4145f036d9fb25d7348), en .z64, .n64, .v64 o ZIP; no funciona ninguna otra versión. Además, Windows o Linux de 64 bits; la versión para Linux solo se ha probado en WSL."
+  en: "Your own US Body Harvest ROM (SHA-1 bbb6666f5014a473747ee4145f036d9fb25d7348), as .z64, .n64, .v64, or a ZIP; no other version works. Plus 64-bit Windows or Linux; the Linux build has only been run under WSL."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

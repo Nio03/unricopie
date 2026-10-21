@@ -1,0 +1,17 @@
+name: "Halo 3 Mythic (OpenH3M)"
+console: x360
+status: playable
+repo: GTTeancum/OpenH3M
+originalDeveloper: Bungie
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "OpenH3M: recompilación estática para Windows del disco multijugador de Halo 3 que venía con Halo 3: ODST (Halo 3 Mythic), hecha con el SDK de ReXGlue. En la beta 0.8 funcionan los menús completos con sus fondos en 3D, las partidas personalizadas (Custom Games), la pantalla dividida local de uno a cuatro jugadores y Forge; al modo Theater se puede entrar, pero grabar y reproducir partidas no está validado del todo, y System Link está sin probar. El emparejamiento y Xbox Live no se admiten ni se admitirán. El juego mantiene su límite original de 30 fps, muestra los fps en el título de la ventana y se abre en una ventana de 1280×720 con Direct3D 12. Admite mandos de Xbox y, para el jugador 1, teclado. La beta 0.8 salió el 17 de agosto."
+  en: "OpenH3M: a native Windows static recompilation of the Halo 3 multiplayer disc bundled with Halo 3: ODST (Halo 3 Mythic), built with the ReXGlue SDK. In beta 0.8 the full menus with their 3D backgrounds, Custom Games, one-to-four-player local split screen, and Forge all work; Theater can be entered, but recording and saved-film playback aren’t fully validated, and System Link is untested. Matchmaking and Xbox Live aren’t supported and never will be. The game keeps its original 30 fps cap, shows the frame rate in the window title, and opens in a 1280×720 Direct3D 12 window. It supports Xbox controllers and, for player 1, the keyboard. Beta 0.8 came out on August 17."
+requirements:
+  es: "Los archivos extraídos de tu propio disco multijugador de Halo 3: ODST (disco 2), en una carpeta game junto al ejecutable, con default.xex y la carpeta maps. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y mandos compatibles con Xbox, muy recomendables, sobre todo para la pantalla dividida."
+  en: "The files extracted from your own Halo 3: ODST Multiplayer Disc (Disc 2), in a game folder next to the executable, with default.xex and the maps folder. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, and Xbox-compatible controllers, strongly recommended, especially for split screen."
+tags:
+  - powerpc
+  - fps
+  - multiplayer

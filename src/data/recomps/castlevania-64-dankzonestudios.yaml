@@ -1,0 +1,18 @@
+name: Castlevania 64 (DankZoneStudios)
+console: n64
+status: playable
+repo: DankZoneStudios/CV64Recomp
+originalDeveloper: KCEK / Konami
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Fork para Windows del recomp de Castlevania 64 de RevoSucks, que también está en el catálogo, hecho con N64Recomp y con RT64 como renderizador. Añade un proceso reproducible para generar el código del juego a partir de tu ROM, correcciones de compilación y de funcionamiento, y un launcher con otro aspecto. Va a 60, 120 fps o más sin cambiar la velocidad del juego, tiene modo panorámico y carga paquetes de texturas y mods desde el launcher, aunque los mods casi no se han probado. La 0.6.1 (29 de septiembre) hizo que los objetos ya no desaparezcan en los laterales de la imagen panorámica: los límites de visibilidad, pensados para los 320×240 del original, se adaptan ahora a la relación de aspecto, y el modo 4:3 conserva el comportamiento original. Solo hay versión para Windows, y el propio proyecto se describe como en desarrollo."
+  en: "A Windows fork of the Castlevania 64 recomp by RevoSucks, also in the catalog, built with N64Recomp and with RT64 as its renderer. It adds a reproducible pipeline to generate the game code from your ROM, build and runtime fixes, and a restyled launcher. It runs at 60, 120 fps or higher without changing game speed, has widescreen, and loads texture packs and mods from the launcher, though mods have barely been tested. Version 0.6.1 (September 29) stopped objects from vanishing at the sides of the widescreen view: the visibility bounds, designed for the original’s 320×240, now adapt to the aspect ratio, and 4:3 mode keeps the original behavior. There’s only a Windows build, and the project describes itself as a work in progress."
+requirements:
+  es: "Tu propia ROM estadounidense 1.0 de Castlevania 64 (SHA-1 989A28782ED6B0BC489A1BBBD7BEC355D8F2707E); no admite otras regiones ni revisiones. Además, Windows de 64 bits y, quizá, el paquete redistribuible de Visual C++ 2015–2022 (x64). Para compilarlo, el código del juego se genera en Linux o WSL y hace falta la ROM en .z64."
+  en: "Your own US 1.0 Castlevania 64 ROM (SHA-1 989A28782ED6B0BC489A1BBBD7BEC355D8F2707E); other regions and revisions aren’t supported. Plus 64-bit Windows and possibly the Visual C++ 2015–2022 (x64) redistributable. To build it, the game code is generated on Linux or WSL and needs the ROM as a .z64."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods

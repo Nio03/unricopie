@@ -1,0 +1,21 @@
+name: "Army of Two (Genesis5500)"
+console: x360
+status: experimental
+repo: Genesis5500/ArmyOfTwo-Recomp
+originalDeveloper: EA Montreal
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port nativo experimental para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue 0.10.0 y Direct3D 12. El repositorio solo trae el código de unión; los cambios que necesita el juego están en un fork aparte del SDK. Su autor avisa de que solo se han probado las primeras zonas, de que nadie lo ha terminado y de que quedan fallos de gráficos y de estabilidad. Va a unos 30 fps fijos con la escala de resolución a 1; a 2 la imagen gana nitidez pero los fotogramas bajan a la mitad. Se juega con mando XInput o con teclado. Solo hay una versión, la 0.1.0 (10 de septiembre). Cinco de sus siete commits llevan a Claude como coautor."
+  en: "An experimental native Windows port of the Xbox 360 version, by static recompilation with ReXGlue SDK 0.10.0 and Direct3D 12. The repository only holds the glue code; the changes the game needs live in a separate fork of the SDK. Its author warns that only the opening areas have been tested, that no full playthrough has been done, and that rendering and stability issues remain. It holds about 30 fps at resolution scale 1; at 2 the image gets sharper but the frame rate halves. It plays with an XInput controller or the keyboard. There’s a single release, 0.1.0 (September 10). Five of its seven commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Army of Two para Xbox 360, volcada por ti: la carpeta extraída con AO2Game y default.xex, una ISO XDVDFS o un GOD. Además, Windows de 64 bits, un procesador con AVX y una tarjeta gráfica con Direct3D 12. La versión compilada es solo para Windows; en Linux y macOS se puede compilar con Vulkan, sin probar."
+  en: "Your own copy of Army of Two for Xbox 360, dumped yourself: the extracted folder with AO2Game and default.xex, an XDVDFS ISO, or a GOD. Plus 64-bit Windows, a CPU with AVX, and a Direct3D 12 graphics card. The prebuilt release is Windows-only; Linux and macOS can be built with Vulkan, untested."
+tags:
+  - powerpc
+  - ai-assisted
+links:
+  - label:
+      es: "Fork de ReXGlue para Army of Two"
+      en: "ReXGlue fork for Army of Two"
+    url: https://github.com/Genesis5500/ArmyOfTwo-Recomp-rexglue

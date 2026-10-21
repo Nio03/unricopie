@@ -1,0 +1,16 @@
+name: Fight Night Champion
+console: x360
+status: playable
+repo: whompay/FNCReborn
+originalDeveloper: EA Canada
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "FNC Reborn: port nativo no oficial para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue. No se distribuye ningún ejecutable: un instalador descarga las herramientas (unos 2,5 GB) y compila el juego en tu PC a partir de tu disco, en 15 a 60 minutos. Funcionan los menús, Fight Now, los modos Legacy y Champion, la creación de boxeadores y el guardado, con sonido. Va a 60 fps por defecto (30, 120 o 144 con un ajuste), añade una pestaña DISPLAY en la pantalla de ajustes del juego para los fotogramas, la sincronización vertical, la escala de resolución (720p o 1440p), el antialiasing y la pantalla completa, y una cámara detrás de tu boxeador que se activa con Back. Con cambios en el SDK corrige fallos que hacían desaparecer a los boxeadores, impedían encontrar las partidas guardadas o dejaban en negro los derribos y las repeticiones. Quedan fallos menores: boxeadores que desaparecen un momento tras saltar una cinemática, texto de menú que parpadea y la escena corta tras el combate, que sale sin imagen. La 1.0 salió el 7 de octubre."
+  en: "FNC Reborn: an unofficial native Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK. No executable is distributed: an installer downloads the tools (about 2.5 GB) and builds the game on your PC from your disc, in 15 to 60 minutes. Menus, Fight Now, Legacy and Champion modes, Create a Fighter, and saving work, with sound. It runs at 60 fps by default (30, 120, or 144 with one setting), adds a DISPLAY tab to the game’s Settings screen for frame rate, VSync, resolution scale (720p or 1440p), anti-aliasing, and fullscreen, and a camera behind your boxer toggled with Back. Through SDK changes it fixes bugs that made fighters vanish, kept saves from being found, or turned knockdowns and replays black. Minor issues remain: fighters can vanish for a moment after skipping a cinematic, some menu text flickers, and the short cutscene after a fight shows nothing. 1.0 came out on October 7."
+requirements:
+  es: "Tu propio disco de Fight Night Champion para Xbox 360, de la versión con la que se hizo el port (EE. UU. y Europa, 1.0), como ISO o carpeta con el default.xex y databigs; el instalador avisa si tu default.xex es distinto. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y unos 25 GB libres; para compilarlo a mano, 16 GB de RAM."
+  en: "Your own Fight Night Champion Xbox 360 disc, of the release the port was made with (USA/Europe, 1.0), as an ISO or a folder with default.xex and databigs; the installer warns you if your default.xex differs. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, and about 25 GB of free space; building it by hand needs 16 GB of RAM."
+tags:
+  - powerpc
+  - 60fps+

@@ -1,0 +1,20 @@
+name: "Xenogears (OpokXeno)"
+console: ps1
+status: playable
+repo: OpokXeno/xenogears-recomp
+originalDeveloper: Square
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "XenogearsRecomp: recompilación estática de la versión estadounidense, hecha con PSXRecomp. El ejecutable del juego y los overlays que carga desde el disco (campo, combate, mapa del mundo) se traducen a C y se compilan de antemano en un solo programa, junto con la BIOS libre OpenBIOS, que viene incluida; la BIOS original es opcional. Tiene un renderizador propio para Xenogears con Vulkan, el recomendado desde la 0.11.0 (18 de octubre), u OpenGL. Añade modo panorámico con parte de la interfaz recolocada, de 60 a 240 fps, supersampling, antialiasing (SSAA, MSAA, TAA, SMAA y FXAA), filtrado anisótropo, un búfer de profundidad real sin parpadeos entre polígonos, precisión subpíxel que elimina el temblor de los gráficos, texturas con corrección de perspectiva y sustitución de texturas compatible con los paquetes de RetroArch. Admite mods en paquetes .psxmod, incluidos los de Perfect Works convertidos con un script, y ganchos en C/C++. Acelera los menús, las transiciones entre mapas y la tarjeta de memoria, y trae cámara libre y avance rápido. Funciona con los dos discos. Está en alfa: arranca y se puede jugar, pero nadie lo ha terminado de principio a fin y el proyecto da por no verificado todo lo que va más allá del comienzo. Hay versiones para Windows y Linux. El proyecto declara que se desarrolla con ayuda de IA: agentes de programación participan en la ingeniería inversa, el código, la depuración y la documentación."
+  en: "XenogearsRecomp: a static recompilation of the US release, built with PSXRecomp. The game’s executable and the overlays it loads from disc (field, battle, world map) are translated to C and compiled ahead of time into a single program, along with the free OpenBIOS, which is included; the original BIOS is optional. It has its own Xenogears renderer on Vulkan, the recommended option since 0.11.0 (October 18), or OpenGL. It adds widescreen with part of the interface repositioned, 60–240 fps, supersampling, anti-aliasing (SSAA, MSAA, TAA, SMAA, and FXAA), anisotropic filtering, a true depth buffer with no z-fighting, subpixel precision that removes the graphics’ wobble, perspective-correct textures, and texture replacement compatible with RetroArch packs. It supports mods as .psxmod packages, including Perfect Works mods converted with a script, and C/C++ hooks. It speeds up menus, map transitions, and memory card access, and adds a free camera and fast-forward. Both discs work. It’s in alpha: it boots and is playable, but no one has finished it start to finish, and the project treats everything past the opening as unverified. There are Windows and Linux builds. The project states it’s developed with AI assistance: coding agents take part in reverse engineering, code generation, debugging, and documentation."
+requirements:
+  es: "Tus propias imágenes de los dos discos de la versión estadounidense de Xenogears para PS1, en .cue con su .bin o en .chd. Para compilarlo hacen falta además el ejecutable SLUS_006.64 del disco 1 y una BIOS SCPH1001.BIN volcada de tu consola. Las versiones publicadas son para Windows y Linux de 64 bits."
+  en: "Your own images of both discs of the US release of Xenogears for PS1, as a .cue with its .bin or as .chd. Building it also requires the SLUS_006.64 executable from disc 1 and an SCPH1001.BIN BIOS dumped from your own console. Published builds are for 64-bit Windows and Linux."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - vulkan
+  - mods
+  - ai-assisted

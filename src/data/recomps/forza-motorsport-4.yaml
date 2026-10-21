@@ -1,0 +1,16 @@
+name: Forza Motorsport 4
+console: x360
+status: playable
+repo: Alexbeav/fm4-recomp
+originalDeveloper: Turn 10 Studios
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática experimental de la versión de Xbox 360 con ReXGlue, sobre un fork del SDK del propio autor fijado en una versión concreta. Recompila el ejecutable principal y los dos módulos que carga el juego (XMediaFacade y SpeechFacade). En el equipo de prueba arranca, carga un perfil, completa carreras y guarda el avance del modo carrera, comprobado desde Amateur y Clubman hasta la entrada en Sportsman; más allá no está verificado. Instala los cuatro paquetes de contenido del disco 2. Usa un perfil gráfico conservador (resolución nativa, Direct3D 12 con ROV y lectura completa de los resolves) que va a trompicones y ronda los 30 fps en las escenas pesadas; no llega a 60 fps estables, y subir la resolución interna corrompe las texturas. Un perfil nuevo puede guardar miniaturas de coches en blanco. Los servicios en línea y la tienda quedan fuera de lo probado. La alpha.2 (15 de octubre) es la primera versión lista para jugar en Windows x64, aunque ese binario todavía no ha pasado una prueba completa de carrera y guardado; la primera solo traía el código para compilarlo en tu equipo."
+  en: "An experimental static recompilation of the Xbox 360 version with ReXGlue, on the author’s own fork of the SDK pinned to a specific commit. It recompiles the main executable and the two modules the game loads (XMediaFacade and SpeechFacade). On the test machine it boots, loads a profile, completes races, and saves career progress, verified from Amateur and Clubman into the Sportsman tier; beyond that it hasn’t been validated. It installs the four content packages from Disc 2. It uses a conservative graphics profile (native resolution, Direct3D 12 with ROV, and full resolve readback) that stutters and runs at around 30 fps in heavy scenes; stable 60 fps isn’t reached, and raising the internal resolution corrupts textures. A fresh profile can save blank car thumbnails. Online services and the marketplace are outside the tested scope. alpha.2 (October 15) is the first ready-to-play Windows x64 build, though that binary hasn’t had a full race-and-save test yet; the first release only had the source to build on your own machine."
+requirements:
+  es: "Tu propia copia europea de Forza Motorsport 4 Game of the Year para Xbox 360 (ID de título 4D530910, ID de soporte 42C67824): el disco 1 completo y extraído, con la carpeta Media y los archivos default.xex, XMediaFacade_default.xex y SpeechFacade_default.xex, que se comprueban por su SHA-256; una ISO sola no sirve. Si quieres, los cuatro paquetes de tu disco 2. Además, Windows 11 de 64 bits, un procesador con AVX2 y una tarjeta gráfica con Direct3D 12; otros sistemas no están probados."
+  en: "Your own European copy of Forza Motorsport 4 Game of the Year for Xbox 360 (title ID 4D530910, media ID 42C67824): the complete, extracted Disc 1, with the Media folder and default.xex, XMediaFacade_default.xex, and SpeechFacade_default.xex, which are checked by SHA-256; an ISO alone won’t do. Optionally, the four packages from your Disc 2. Plus 64-bit Windows 11, a CPU with AVX2, and a Direct3D 12 graphics card; other systems are untested."
+tags:
+  - powerpc
+  - racing

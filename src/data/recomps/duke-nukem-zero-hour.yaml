@@ -1,19 +1,16 @@
 name: "Duke Nukem: Zero Hour"
 console: n64
 status: playable
-abandoned: true
-author: sonicdcer
+repo: sonicdcer/DNZHRecomp
 originalDeveloper: Eurocom / GT Interactive
+year: 1999
 toolchain: N64Recomp
 desc:
-  es: "Recompilación del juego de disparos de N64 (apuntado con giroscopio, 60 fps). El repositorio (cuenta sonicdcer) se borró y no se ha encontrado ninguna copia; su ubicación actual se desconoce."
-  en: "Recompilation of the N64 shooter (gyro aiming, 60 fps). The repository (sonicdcer account) was deleted and no mirror has been found; its current location is unknown."
+  es: "Duke Nukem Zero Hour: Recompiled: recompilación estática con N64Recomp y RT64 como renderizador, que su README sigue presentando como un trabajo en curso. Cargas la ROM desde el menú y empiezas a jugar. Tiene menús de configuración que se manejan con ratón, mando o teclado y poco retraso de entrada. Es una alfa: la 0.0.3 (1 de noviembre de 2025) ya se puede jugar y guardar con el Controller Pak, pero por ahora va a la mitad de la frecuencia de tu pantalla (30 fps en una de 60 Hz) y faltan el modo panorámico y la interpolación. El repositorio de sonicdcer estuvo caído un tiempo y vuelve a estar disponible."
+  en: "Duke Nukem Zero Hour: Recompiled: a static recompilation with N64Recomp and RT64 as its renderer, which its README still calls a work in progress. You load your ROM from the menu and start playing. It has settings menus you can use with mouse, controller, or keyboard, and low input lag. It’s an alpha: 0.0.3 (November 1, 2025) is playable and can save with the Controller Pak, but for now it runs at half your display’s refresh rate (30 fps on a 60 Hz screen), and widescreen and interpolation are still missing. sonicdcer’s repository was down for a while and is available again."
 requirements:
-  es: "Una ROM de Duke Nukem: Zero Hour (N64)."
-  en: "A Duke Nukem: Zero Hour ROM (N64)."
-links:
-  - label:
-      es: "Estado en Read Only Memo"
-      en: "Status on Read Only Memo"
-    url: https://readonlymemo.com/decompilation-projects-and-n64-recompiled-list/
-enrich: false
+  es: "Tu propia ROM norteamericana de Duke Nukem: Zero Hour. Además, una tarjeta gráfica con Direct3D 12.0 (Shader Model 6), Vulkan 1.2 o Metal (como mínimo, GeForce GT 630, Radeon HD 7750 o Intel HD 510) y, en PC x86-64, un procesador con SSE4.1."
+  en: "Your own North American Duke Nukem: Zero Hour ROM. Plus a graphics card with Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal (at least a GeForce GT 630, Radeon HD 7750, or Intel HD 510) and, on x86-64 PCs, an SSE4.1 CPU."
+tags:
+  - mips
+  - fps

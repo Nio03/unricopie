@@ -1,0 +1,19 @@
+name: Resident Evil Gaiden
+console: gbc
+status: playable
+repo: sergiomanzur/regaiden-recomp
+originalDeveloper: M4
+year: 2001
+toolchain: gb-recompiled
+desc:
+  es: "Recompilación estática de la versión estadounidense de Game Boy Color, hecha con gb-recompiled: el código del cartucho se traduce a C y se enlaza con un entorno de ejecución sobre SDL2, OpenGL ES 3 y Dear ImGui. Arranca con el aspecto de una Game Boy Color sin modificar (10:9 y los colores originales), y todas las mejoras son opcionales o ajustables desde el menú F10: panorámica real a 16:9 (256×144) o 21:9 (336×144), que amplía la vista en lugar de estirarla; carrera opcional del 125 al 250 % de velocidad, que se desactiva en combates y menús; una linterna con luz dinámica; filtros de imagen (viñeta, grano, líneas de CRT y cinco perfiles de color); paquetes de texturas HD en PNG; música de sustitución en OGG o WAV con puntos de bucle; trucos y códigos GameShark, y diez ranuras de estado. Hay versiones para Windows y Android, y la de Linux está en preparación. La 0.4.1 (16 de septiembre) recuperó las voces de los zombis y añadió los puntos de bucle. Cinco de sus 26 commits llevan a Claude como coautor, y el README avisa de que el paquete HD incluido son imágenes de prueba generadas por IA que conviene sustituir."
+  en: "A static recompilation of the US Game Boy Color release, built with gb-recompiled: the cartridge code is translated to C and linked with a runtime on SDL2, OpenGL ES 3, and Dear ImGui. It boots looking like an unmodified Game Boy Color (10:9, original colors), and every enhancement is optional or adjustable from the F10 menu: true 16:9 (256×144) or 21:9 (336×144) widescreen that widens the view instead of stretching it; an optional sprint at 125–250% speed that switches off in battles and menus; a flashlight with dynamic lighting; image filters (vignette, film grain, CRT scanlines, and five color grading profiles); PNG HD texture packs; replacement music in OGG or WAV with loop points; cheats and GameShark codes; and ten save-state slots. There are Windows and Android builds, with Linux in the works. Version 0.4.1 (September 16) restored the zombie voices and added loop points. Five of its 26 commits list Claude as co-author, and the README warns that the bundled HD pack is AI-generated placeholder art meant to be replaced."
+requirements:
+  es: "Tu propia ROM estadounidense de Resident Evil Gaiden para Game Boy Color, «Resident Evil Gaiden (USA).gbc», de 2 097 152 bytes y con SHA-256 9a97678cbd8da02c8763e977674e17f460c06ea8b73bad35c52fe6817f506d44; en Windows va junto al ejecutable. Además, Windows de 64 bits."
+  en: "Your own US Resident Evil Gaiden ROM for Game Boy Color, “Resident Evil Gaiden (USA).gbc,” 2,097,152 bytes with SHA-256 9a97678cbd8da02c8763e977674e17f460c06ea8b73bad35c52fe6817f506d44; on Windows it goes next to the executable. Plus 64-bit Windows."
+tags:
+  - sm83
+  - widescreen
+  - horror
+  - hd-assets
+  - ai-assisted

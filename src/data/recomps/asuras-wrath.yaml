@@ -1,0 +1,15 @@
+name: "Asura's Wrath"
+console: x360
+status: experimental
+repo: PauloUbirajara/asuras-wrath-recomp
+originalDeveloper: CyberConnect2
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 (título 43430817): el código PowerPC del default.xex se traduce a C++23 sobre el SDK de ReXGlue, con compilaciones para Windows y Linux; el mismo repositorio tiene también una versión experimental para Android. El juego se lee de una carpeta «extracted» junto al ejecutable, y con opciones de línea de comandos se elige Vulkan o Direct3D 12, la resolución y la tarjeta gráfica. Su autor avisa de que el rendimiento todavía no es bueno: hay tirones mientras se compilan texturas y sombreadores, y en tarjetas NVIDIA hay que usar el modo de render FSI, más lento, para evitar un velo rojo sobre la imagen. Los DLC aún no funcionan. La última versión para escritorio es la 0.3.1 (5 de septiembre), marcada como preliminar; las posteriores son solo para Android."
+  en: "A static recompilation of the Xbox 360 version (title 43430817): the PowerPC code in default.xex is translated to C++23 on the ReXGlue SDK, with builds for Windows and Linux; the same repository also has an experimental Android build. The game is read from an “extracted” folder next to the executable, and command-line options pick Vulkan or Direct3D 12, the resolution, and the GPU. Its author warns that performance isn’t good yet: there’s stutter while textures and shaders compile, and NVIDIA cards need the slower FSI render path to avoid a red overlay on the picture. DLC doesn’t work yet. The latest desktop release is 0.3.1 (September 5), marked as a pre-release; the later ones are Android-only."
+requirements:
+  es: "Tu propia ISO de Asura's Wrath para Xbox 360, extraída con extract-xiso en la carpeta «extracted» junto al ejecutable (u otra indicada con --game_data_root). Además, Windows o Linux x86-64; para compilarlo, CMake 3.25 o posterior, Clang y Ninja."
+  en: "Your own Asura's Wrath ISO for Xbox 360, extracted with extract-xiso into the “extracted” folder next to the executable (or another one set with --game_data_root). Plus x86-64 Windows or Linux; building it takes CMake 3.25 or later, Clang, and Ninja."
+tags:
+  - powerpc

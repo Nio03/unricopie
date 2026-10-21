@@ -1,0 +1,22 @@
+name: Burnout Revenge
+console: x360
+status: fully
+repo: shipa-2/Xerenge
+originalDeveloper: Criterion Games
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Xerenge: recompilación estática de la versión de Xbox 360. El código PowerPC se traduce a C++ por adelantado y se enlaza en un ejecutable nativo, sin intérprete ni JIT, con un fork propio del SDK de ReXGlue como capa de sistema; una línea anterior, ya congelada, usaba XenonRecomp con un runtime propio. Dibuja por defecto con plume, un renderizador del proyecto que recibe las llamadas Direct3D del juego y usa sus shaders traducidos de antemano a partir de tu disco; la emulación de GPU de Xenia sigue disponible como referencia. Según el proyecto, se juega entero: carreras a 60 fps (el modo Crash, a 30 como en la consola), sonido completo con la banda sonora y vídeos de introducción. Dibuja a la resolución de la ventana, en ultrapanorámico, con FXAA, SMAA y nitidez CAS opcionales, generación de fotogramas para pantallas de 90 a 120 Hz y la opción de quitar el tope de fotogramas. El juego en línea funciona desde el principio con un servidor de salas compartido, o con uno propio, y en red local sin servidor. Hay instaladores para Windows, Linux y Mac con Apple Silicon, que traen el juego ya compilado y solo piden tu imagen del disco, además de una versión para Android. La 0.4.7 (17 de octubre) añadió la versión estadounidense y arregló las partidas en línea de tres o más jugadores. 194 de sus 557 commits llevan a Claude como coautor y otros 8, a Cursor."
+  en: "Xerenge: a static recompilation of the Xbox 360 version. The PowerPC code is translated to C++ ahead of time and linked into a native executable, with no interpreter or JIT, on the project’s own fork of the ReXGlue SDK as its system layer; an earlier line, now frozen, used XenonRecomp with a runtime of its own. By default it draws with plume, the project’s own renderer, which takes the game’s Direct3D calls and uses its shaders translated ahead of time from your disc; Xenia’s GPU emulation remains available as a reference. According to the project, it’s fully playable: races at 60 fps (Crash mode at 30, as on the console), complete audio including the soundtrack, and the intro videos. It renders at the window’s resolution, in ultrawide, with optional FXAA, SMAA, and CAS sharpening, frame generation for 90–120 Hz displays, and an option to lift the frame cap. Online play works out of the box through a shared lobby server, or your own, and on a LAN without any server. There are installers for Windows, Linux, and Apple silicon Macs that ship the game already built and only ask for your disc image, plus an Android build. Version 0.4.7 (October 17) added the US release and fixed online games with three or more players. 194 of its 557 commits list Claude as co-author, and another 8 list Cursor."
+requirements:
+  es: "Una imagen de tu propio disco de Burnout Revenge para Xbox 360, la versión europea (SHA-256 34c1bd4d549c2c53f29d814fa5e5d1c04c533c5ca0c39e57b6c2538f44ff59b4) o la estadounidense (SHA-256 7abf689f52b70666ba92052bd157cfcae9ed6290dae298fbf639baa1d169f92b); otras regiones y la beta no sirven. Además, una tarjeta gráfica con Vulkan, en Windows, Linux x86-64 o un Mac con Apple Silicon; los Mac con Intel no son compatibles."
+  en: "An image of your own Burnout Revenge Xbox 360 disc, the European release (SHA-256 34c1bd4d549c2c53f29d814fa5e5d1c04c533c5ca0c39e57b6c2538f44ff59b4) or the US one (SHA-256 7abf689f52b70666ba92052bd157cfcae9ed6290dae298fbf639baa1d169f92b); other regions and the beta aren’t supported. Plus a Vulkan graphics card, on Windows, x86-64 Linux, or an Apple silicon Mac; Intel Macs aren’t supported."
+tags:
+  - powerpc
+  - racing
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - online
+  - vulkan
+  - ai-assisted

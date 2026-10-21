@@ -1,0 +1,17 @@
+name: Perfect Dark (Xbox 360)
+console: x360
+status: playable
+repo: nikolaygorb/PerfectDarkRemasterRecomp
+originalDeveloper: 4J Studios
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de Perfect Dark para Xbox 360, la versión remasterizada de 2010 que 4J Studios hizo para Xbox Live Arcade a partir del juego de Rare para N64, sobre el SDK de ReXGlue y con versiones para Windows y Linux. Sus funciones llevan los nombres de la decompilación de N64, porque el código de 4J parte de la misma base, y sobre ella está hecha una cámara en tercera persona (tecla V, solo para un jugador) con el cuerpo animado de Joanna, su arma, la animación de recarga y colisión con las paredes. Corrige un cuelgue al reiniciar misiones, puede saltarse el aviso de Xbox LIVE al arrancar, deja elegir entre seis idiomas y entre Direct3D 12 y Vulkan, y aplica la corrección del ruido en las texturas de xenia-canary. El multijugador y el cooperativo aún no funcionan. La 1.4 (20 de octubre) añadió un control con ratón al estilo de PC, con los botones del ratón en los gatillos, y mejoras gráficas."
+  en: "A static recompilation of Perfect Dark for Xbox 360, the 2010 remaster 4J Studios made for Xbox Live Arcade from Rare’s N64 game, on the ReXGlue SDK, with builds for Windows and Linux. Its functions carry the names from the N64 decompilation, since 4J’s code shares the same base, and a third-person camera is built on top of it (V key, single player only) with Joanna’s animated body, her gun, the reload animation, and wall collision. It fixes a hang when restarting missions, can skip the Xbox LIVE prompt at startup, and lets you choose among six languages and between Direct3D 12 and Vulkan, and it applies xenia-canary’s texture noise fix. Multiplayer and co-op don’t work yet. Version 1.4 (October 20) added PC-style mouse controls, with the mouse buttons on the triggers, and graphics improvements."
+requirements:
+  es: "Los archivos de tu propia copia de Perfect Dark para Xbox 360 (título 584109C2), con el default.xex y la carpeta DataFiles; el README explica cómo sacarlos de la ISO del disco de Xbox One con XBLA-Extract (u otras herramientas como xplorer360 o extract-xiso). Además, Windows o Linux (probado en Windows 11 y Ubuntu 26.04); para compilarlo, CMake 3.25 o posterior, Ninja, Clang/LLVM y los SDK de Windows y de Vulkan."
+  en: "The files from your own copy of Perfect Dark for Xbox 360 (title 584109C2), with default.xex and the DataFiles folder; the README explains how to get them from the Xbox One disc ISO with XBLA-Extract (or tools such as xplorer360 or extract-xiso). Plus Windows or Linux (tested on Windows 11 and Ubuntu 26.04); building it takes CMake 3.25 or later, Ninja, Clang/LLVM, and the Windows and Vulkan SDKs."
+tags:
+  - powerpc
+  - fps
+  - rare

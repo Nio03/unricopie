@@ -1,0 +1,16 @@
+name: "X-Men: Destiny"
+console: x360
+status: fully
+repo: florinp93/xmd-recompiled
+originalDeveloper: Silicon Knights
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "«XMD Recompiled»: port nativo para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue. Según su primera alfa, el juego se puede jugar de principio a fin. Un instalador pide tu ISO, la extrae y crea un acceso directo a un launcher con ajustes de escala de resolución (sobre los 1280×720 originales), MSAA, FXAA, filtrado anisotrópico, sincronización vertical y pantalla completa, más opciones avanzadas; el launcher busca actualizaciones en GitHub y las instala. Admite teclado y ratón y mandos DualSense, DualShock y de Xbox por SDL3, y guarda un volcado de memoria si el juego se cierra. Sigue en alfa: el reemplazo de texturas de los iconos de botones está desactivado y algunos efectos pueden verse mal. La 0.1.0-alpha.2 corrigió un cierre al continuar la partida o empezar una nueva, y la última, la 0.1.0-alpha.3, salió el 31 de agosto. Su autor declara que usó IA para la documentación, la investigación y los mensajes de commit, y que el código y las decisiones son suyos; dos de sus commits llevan a Devin como coautor."
+  en: "“XMD Recompiled”: a native Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK. According to its first alpha, the game is playable from start to finish. An installer asks for your ISO, extracts it, and creates a shortcut to a launcher with settings for resolution scale (over the original 1280×720), MSAA, FXAA, anisotropic filtering, vsync, and fullscreen, plus advanced options; the launcher checks GitHub for updates and installs them. It supports keyboard and mouse plus DualSense, DualShock, and Xbox controllers through SDL3, and writes a crash dump if the game closes. It’s still in alpha: button icon texture replacement is disabled and some visual effects may render wrong. 0.1.0-alpha.2 fixed a crash when continuing or starting a new game, and the latest, 0.1.0-alpha.3, came out on August 31. Its author states that AI was used for documentation, research, and commit messages, and that the code and decisions are their own; two of its commits list Devin as co-author."
+requirements:
+  es: "Tu propia copia de X-Men: Destiny para Xbox 360 como ISO. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Direct3D 12."
+  en: "Your own copy of X-Men: Destiny for Xbox 360 as an ISO. Plus 64-bit Windows 10 or 11 and a Direct3D 12 graphics card."
+tags:
+  - powerpc
+  - ai-assisted

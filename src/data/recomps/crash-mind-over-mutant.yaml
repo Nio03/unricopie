@@ -1,0 +1,19 @@
+name: "Crash: Mind over Mutant"
+console: x360
+status: playable
+repo: Maxilure/MindOver-Recomp
+originalDeveloper: Radical Entertainment
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "«Mind over Recomp»: port no oficial para Linux y Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue. El proyecto va sustituyendo una a una las partes que aún imitan a la Xbox por código propio: los perfiles y el guardado ya son suyos, y tiene su propio renderizador en Vulkan, que se alterna con la imagen emulada con F9. Va a 60 fps a la velocidad original (120, 144 y sin límite, de forma experimental), con resolución de 720p a 4K, y amplía el cooperativo de dos a cuatro jugadores, con todos los trajes para todos y una cámara que los mantiene a la vista (experimental). Tiene partidas guardadas sin límite y con nombre, en archivos .sav, teclado y ratón con teclas reasignables y sus iconos en pantalla, cualquier mando que reconozca SDL y una pantalla de opciones con el aspecto del juego. Está en alfa: arranca y se juega, pero aún no se ha jugado hasta el final. El launcher descarga unos 550 MB de herramientas y compila el juego en tu equipo a partir de tu ISO. La única versión publicada, la 0.1.0-alpha, es del 7 de octubre; el desarrollo ha seguido después en el repositorio. Su autor declara que lo desarrolló con mucha ayuda de Claude, que escribió la mayor parte del código y la documentación, y sus 88 commits llevan a Claude como coautor."
+  en: "“Mind over Recomp”: an unofficial Linux and Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK. The project replaces the parts that still pretend to be an Xbox with its own code, one by one: profiles and saves are already its own, and it has its own Vulkan renderer, which F9 swaps with the emulated picture. It runs at 60 fps at the original game speed (120, 144, and uncapped are experimental), at 720p to 4K, and expands co-op from two to four players, with every outfit for everyone and a camera that keeps them all in view (experimental). It has unlimited, named saves as .sav files, keyboard and mouse with rebindable keys and on-screen key prompts, any controller SDL recognizes, and an options screen in the game’s own style. It’s in alpha: it boots and plays, but hasn’t been played through to the end yet. The launcher downloads about 550 MB of tools and builds the game on your machine from your ISO. The only release, 0.1.0-alpha, came out on October 7; development has continued in the repository since. Its author states it was developed with extensive help from Claude, which wrote most of the code and documentation, and all 88 of its commits list Claude as co-author."
+requirements:
+  es: "Tu propia copia estadounidense de Crash: Mind over Mutant para Xbox 360, volcada a .iso. Además, Windows 10 u 11 de 64 bits (en una unidad NTFS, no en una carpeta de OneDrive) o Linux x86-64 con glibc 2.39 o posterior (Ubuntu 24.04, Fedora 40, Mint 22, Arch o más recientes), una tarjeta gráfica con Vulkan (solo se ha probado en NVIDIA), 16 GB de RAM recomendados, unos 25 GB libres y conexión a internet para la primera instalación."
+  en: "Your own US copy of Crash: Mind over Mutant for Xbox 360, dumped to an .iso. Plus 64-bit Windows 10 or 11 (on an NTFS drive, not a OneDrive folder) or x86-64 Linux with glibc 2.39 or later (Ubuntu 24.04, Fedora 40, Mint 22, Arch, or newer), a Vulkan graphics card (only NVIDIA tested so far), 16 GB of RAM recommended, about 25 GB of free space, and an internet connection for the first setup."
+tags:
+  - powerpc
+  - vulkan
+  - multiplayer
+  - 60fps+
+  - ai-assisted

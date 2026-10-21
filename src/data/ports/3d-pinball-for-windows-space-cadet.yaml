@@ -1,0 +1,16 @@
+name: "3D Pinball for Windows – Space Cadet"
+category: decomp-port
+console: pc
+status: fully
+repo: k4zmu2a/SpaceCadetPinball
+originalDeveloper: Cinematronics
+year: 1995
+desc:
+  es: "Decompilación de 3D Pinball para Windows – Space Cadet, el pinball que venía con Windows, convertida en un port nativo. Parte del pinball.exe de Windows XP, con su PDB público, y del CADET.EXE de 32 bits de Full Tilt! Pinball: con Ghidra e IDA se decompilaron todas sus funciones y el pseudocódigo en C se pasó a C++ compilable. La versión 2 cambió las dependencias de Windows por SDL2, SDL2_mixer y Dear ImGui, y funciona en Windows, Linux y macOS; también está en Flathub y en Homebrew, y otros autores la han llevado a Switch, Vita, Wii, 3DS y más. Añade ventana redimensionable con gráficos escalados, escalado entero, los sprites de alta resolución de los datos de Full Tilt, mando y una opción para cambiar entre los datos de las dos versiones. Sobre el fallo de 64 bits que acabó con el juego (la bola dejaba de colisionar), su autor cuenta que no lo encontró: el código decompilado funcionó en 64 bits a la primera. La 2.1.0 (16 de octubre de 2023) se centró en la compatibilidad con Full Tilt (colisiones, multibola, tres pistas MIDI) y añadió un renderizador de ImGui acelerado por hardware y sonido estéreo experimental; no hay commits nuevos desde agosto de 2024."
+  en: "A decompilation of 3D Pinball for Windows – Space Cadet, the pinball game that came with Windows, turned into a native port. It starts from Windows XP’s pinball.exe, with its public PDB, and the 32-bit CADET.EXE from Full Tilt! Pinball: every function was decompiled with Ghidra and IDA, and the C pseudocode was turned into compilable C++. Version 2 replaced the Windows dependencies with SDL2, SDL2_mixer, and Dear ImGui, and runs on Windows, Linux, and macOS; it’s also on Flathub and Homebrew, and other authors have ported it to Switch, Vita, Wii, 3DS, and more. It adds a resizable window with scaled graphics, integer scaling, the high-resolution sprites from the Full Tilt data, gamepad support, and an option to switch between the two versions’ data. As for the 64-bit bug that killed the game (the ball stopped colliding), its author says they never found it: the decompiled code worked in 64-bit on the first try. Version 2.1.0 (October 16, 2023) focused on Full Tilt compatibility (collisions, multiball, three MIDI tracks) and added a hardware-accelerated ImGui renderer and experimental stereo sound; there have been no new commits since August 2024."
+requirements:
+  es: "Los archivos de tu propia copia de 3D Pinball para Windows (la carpeta con PINBALL.DAT y el resto de sus archivos, por ejemplo de Windows XP) o de Full Tilt! Pinball, cuya demo también sirve. Además, Windows (de 32 o 64 bits, también XP), macOS o Linux (en Flathub, en paquetes de distribuciones o compilándolo)."
+  en: "The files from your own copy of 3D Pinball for Windows (the folder with PINBALL.DAT and its other files, from Windows XP for example) or of Full Tilt! Pinball, whose demo also works. Plus Windows (32- or 64-bit, XP included), macOS, or Linux (on Flathub, as distro packages, or built from source)."
+tags:
+  - x86
+  - decomp

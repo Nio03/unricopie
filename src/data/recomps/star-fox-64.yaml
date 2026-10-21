@@ -1,16 +1,27 @@
 name: Star Fox 64
 console: n64
-status: playable
-abandoned: true
-repo: YTReviveMe/Starfox64Recomp-uwp
-author: sonicdcer (orig.) · fork UWP
+status: fully
+repo: sonicdcer/Starfox64Recomp
 originalDeveloper: Nintendo
+year: 1997
 toolchain: N64Recomp
 desc:
-  es: "Recompilación del juego de naves sobre raíles. El repositorio original (cuenta sonicdcer) se borró; solo sobrevive un fork para UWP."
-  en: "Recompilation of the on-rails shooter. The original repository (sonicdcer account) was deleted; only a UWP fork survives."
+  es: "Starfox 64: Recompiled: recompilación estática con N64Recomp y RT64 como renderizador, para Windows, Linux (también ARM64 y Flatpak) y macOS. Se hizo a la vez que Starship, el port de la decompilación, y los dos proyectos conviven con tecnologías distintas. Cargas la ROM desde el menú y empiezas a jugar, sin pasos de extracción. Conserva los efectos gráficos de la N64 sin trucos, va a cualquier tasa de fotogramas (por defecto, la de tu monitor) y en cualquier relación de aspecto, ultrapanorámica incluida, con opción de dejar el HUD en 16:9, y tiene menús de configuración que se manejan con ratón, mando o teclado, poco retraso de entrada, cargas instantáneas y mods. La 1.0 salió el 24 de diciembre de 2025 con un mod de desarrollo (selector de niveles, trucos y depuración), y la última es la 1.0.3 (30 de diciembre de 2025). El repositorio de sonicdcer estuvo caído un tiempo y vuelve a estar disponible; las descargas están en GitLab."
+  en: "Starfox 64: Recompiled: a static recompilation with N64Recomp and RT64 as its renderer, for Windows, Linux (ARM64 and Flatpak too), and macOS. It was made alongside Starship, the decompilation port, and the two projects coexist on different technologies. You load your ROM from the menu and start playing, with no extraction step. It keeps the N64’s graphical effects without hacks, runs at any frame rate (your monitor’s by default) and any aspect ratio, ultrawide included, with an option to keep the HUD at 16:9, and has settings menus you can use with mouse, controller, or keyboard, low input lag, instant loading, and mods. 1.0 came out on December 24, 2025 with a development mod (level select, cheats, and debug options), and the latest is 1.0.3 (December 30, 2025). sonicdcer’s repository was down for a while and is available again; the downloads are on GitLab."
 requirements:
-  es: "Una ROM de Star Fox 64 (N64, versión estadounidense 1.1, Rev A)."
-  en: "A Star Fox 64 ROM (N64, US version 1.1, Rev A)."
+  es: "Tu propia ROM norteamericana de Star Fox 64, versión 1.1 (Rev A). Además, una tarjeta gráfica con Direct3D 12.0 (Shader Model 6), Vulkan 1.2 o Metal (como mínimo, GeForce GT 630, Radeon HD 7750 o Intel HD 510) y, en PC x86-64, un procesador con SSE4.1; en Mac, Apple Silicon o un Intel de 7.ª generación con macOS 13."
+  en: "Your own North American Star Fox 64 ROM, version 1.1 (Rev A). Plus a graphics card with Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal (at least a GeForce GT 630, Radeon HD 7750, or Intel HD 510) and, on x86-64 PCs, an SSE4.1 CPU; on a Mac, Apple silicon or a 7th-gen Intel with macOS 13."
 tags:
+  - mips
   - widescreen
+  - 60fps+
+  - mods
+links:
+  - label:
+      es: "Descargas en GitLab"
+      en: "Downloads on GitLab"
+    url: https://gitlab.com/sonicdcer/Starfox64Recomp/-/releases
+  - label:
+      es: "Fork para UWP (YTReviveMe)"
+      en: "UWP fork (YTReviveMe)"
+    url: https://github.com/YTReviveMe/Starfox64Recomp-uwp

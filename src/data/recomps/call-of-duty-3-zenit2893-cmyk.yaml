@@ -1,0 +1,19 @@
+name: "Call of Duty 3 (Project 1944)"
+console: x360
+status: playable
+repo: zenit2893-cmyk/project-1944
+originalDeveloper: Treyarch
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Project 1944: port no oficial para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue, que genera un ejecutable y 15 DLL con los niveles de la campaña; desde la 2.0 también se recompila el multijugador, que en la consola es otro programa. El launcher acepta tu ISO, una carpeta extraída o un paquete de Games on Demand, comprueba la copia y en un minuto toma de ella solo el código del juego, porque los niveles, el sonido y los vídeos se leen directamente de la imagen. Tiene teclado y ratón con entrada directa, iconos de teclas en pantalla y cambio automático al mando, gatillos con vibración en los mandos de Xbox Series, salida a 720p, 1080p o 1440p con escala de 1x a 3x, modos de 60 y 120 Hz, FSR, CAS y FXAA, ajustes gráficos dentro del juego y una traducción propia al ruso, el ucraniano y el bielorruso. El multijugador admite partidas de hasta 24 jugadores en red local o por internet, con una lista de servidores integrada, conexión directa entre jugadores, servidor dedicado y un servidor permanente del proyecto; las clasificaciones de Xbox Live salen vacías. No se ha comprobado toda la campaña, y la hierba se dibuja con un arreglo provisional. GenryTheFox ayudó con el port y lo probó. La 2.0 salió el 30 de septiembre."
+  en: "Project 1944: an unofficial Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK, which produces an executable plus 15 DLLs holding the campaign levels; since 2.0 the multiplayer, a separate program on the console, is recompiled too. The launcher accepts your ISO, an extracted folder, or a Games on Demand package, checks your copy, and in about a minute takes only the game’s code from it, since levels, sound, and movies are read straight from the image. It has keyboard and mouse with raw input, on-screen key prompts and automatic switching to a controller, Impulse Triggers on Xbox Series controllers, 720p, 1080p, or 1440p output with 1x–3x render scale, 60 and 120 Hz modes, FSR, CAS, and FXAA, in-game graphics settings, and its own Russian, Ukrainian, and Belarusian translation. Multiplayer supports matches of up to 24 players over LAN or the internet, with a built-in server list, direct connections between players, a dedicated server, and a permanent project server; Xbox Live leaderboards are empty. The whole campaign hasn’t been verified, and grass is drawn with a workaround. GenryTheFox helped with the port and tested it. Version 2.0 came out on September 30."
+requirements:
+  es: "Tu propia copia estadounidense o europea de Call of Duty 3 para Xbox 360 (ID de título 415607E1, ID de soporte 2E07093A; SHA-256 del default.xex 2944EEC7D1231AD6798B5F9F8ADF8855F5E489296B22EAB45B27A577CEE23692), como ISO, carpeta extraída o paquete de Games on Demand; también sirve una edición rusa. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12, alrededor de 1 GB libre aparte de la descarga y, para jugar por internet, el puerto UDP 30700, que se abre solo por UPnP."
+  en: "Your own US or European copy of Call of Duty 3 for Xbox 360 (title ID 415607E1, media ID 2E07093A; default.xex SHA-256 2944EEC7D1231AD6798B5F9F8ADF8855F5E489296B22EAB45B27A577CEE23692), as an ISO, an extracted folder, or a Games on Demand package; a Russian edition works too. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, about 1 GB of free space beyond the download, and, for internet play, UDP port 30700, opened automatically through UPnP."
+tags:
+  - powerpc
+  - fps
+  - multiplayer
+  - online
+  - 60fps+

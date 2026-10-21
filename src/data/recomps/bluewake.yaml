@@ -1,0 +1,25 @@
+name: "The Legend of Zelda: The Wind Waker (BlueWake)"
+console: gamecube
+status: playable
+repo: chrissotraidis/bluewake
+author: Chris Sotraidis / Elliott Tate
+originalDeveloper: Nintendo EAD
+year: 2002
+toolchain: DolRecomp
+desc:
+  es: "BlueWake: recompilación estática de la versión de GameCube, distinta del recomp de Wind Waker de sp00nznet que ya está en el catálogo. Traduce de antemano a código nativo el programa principal y sus 415 módulos PowerPC, con un intérprete solo para unas pocas instrucciones raras; el resto del hardware (gráficos, sonido, tarjeta de memoria, tiempos) lo aporta RecompCore, un entorno derivado de Dolphin, y el traductor es un fork de DolRecomp. Wind Waker Recomp, de Elliott Tate, se trasladó aquí, y él lo mantiene ahora junto a Chris Sotraidis. La versión de Windows se descarga ya compilada: según sus autores, lleva el código del juego traducido desde su propio disco y nada más del juego; en Linux y Mac la compilas tú desde tu disco, y también hay versiones para iPhone e iPad (con PadMint), Apple TV y Android, estas dos experimentales. Tiene resolución interna hasta 4x, filtrado anisótropo 16x, panorámica 16:9, 16:10 o 21:9 con el HUD recolocado, paquetes de texturas HD (y un importador que las saca de tu propio Wind Waker HD), un aspecto opcional al estilo de Wind Waker HD, las opciones de Better Wind Waker, como Swift Sail o el texto instantáneo, y Smooth Motion, que interpola fotogramas hasta 240 fps con la lógica a 30. Se ha probado el prólogo, Outset Island, la navegación, Windfall y una partida avanzada en Hyrule; las mazmorras posteriores y los jefes apenas, y el README considera experimentales las versiones de escritorio. La 0.8.0 salió el 18 de octubre. Su README declara que se desarrolla con mucha ayuda de IA para el código, las pruebas, la documentación y la depuración."
+  en: "BlueWake: a static recompilation of the GameCube version, separate from sp00nznet’s Wind Waker recomp already in the catalog. It translates the main program and its 415 PowerPC modules to native code ahead of time, with an interpreter only for a few rare instructions; the rest of the hardware (graphics, sound, memory card, timing) comes from RecompCore, a Dolphin-derived runtime, and the translator is a fork of DolRecomp. Elliott Tate’s Wind Waker Recomp moved here, and Elliott now maintains it with Chris Sotraidis. The Windows build comes ready-made: according to its authors, it contains the game code translated from their own disc and nothing else from the game; on Linux and Mac you build it from your disc, and there are also iPhone and iPad (via PadMint), Apple TV, and Android versions, the last two experimental. It offers up to 4x internal resolution, 16x anisotropic filtering, 16:9, 16:10, or 21:9 widescreen with the HUD repositioned, HD texture packs (plus an importer that pulls them from your own Wind Waker HD), an optional Wind Waker HD–style look, Better Wind Waker options such as Swift Sail and instant text, and Smooth Motion, which interpolates frames up to 240 fps with game logic at 30. Tested areas include the prologue, Outset Island, sailing, Windfall, and a late-game Hyrule save; later dungeons and bosses are largely untested, and the README calls the desktop versions experimental. 0.8.0 came out on October 18. Its README states that it’s developed with substantial AI assistance for code, testing, documentation, and debugging."
+requirements:
+  es: "Tu propia imagen de disco de The Wind Waker para GameCube, versión estadounidense GZLE01 revisión 0, en .iso o .gcm (un .rvz de Dolphin hay que convertirlo antes a ISO); no acepta otras versiones. En Windows, Windows 10 u 11 con un procesador con AVX2 y una tarjeta gráfica con Direct3D 12 (desde la 0.8.0 prueba Direct3D 11 en las más antiguas). En Linux x86-64 y en Mac con Apple Silicon se compila a partir de tu disco."
+  en: "Your own disc image of The Wind Waker for GameCube, US version GZLE01 revision 0, as .iso or .gcm (a Dolphin .rvz must be converted to ISO first); other versions are rejected. On Windows, Windows 10 or 11 with an AVX2 CPU and a Direct3D 12 graphics card (since 0.8.0 it tries Direct3D 11 on older ones). On x86-64 Linux and Apple silicon Macs it’s built from your disc."
+tags:
+  - powerpc
+  - zelda
+  - widescreen
+  - 60fps+
+  - mods
+  - hd-assets
+  - ai-assisted
+links:
+  - label: PadMint
+    url: https://github.com/chrissotraidis/padmint

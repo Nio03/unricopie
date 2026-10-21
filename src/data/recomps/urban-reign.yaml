@@ -1,0 +1,21 @@
+name: Urban Reign
+console: ps2
+status: playable
+repo: thiagordsfx/urban-reign-recomp
+originalDeveloper: Namco
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo para Windows de la versión estadounidense de PS2 (SLUS-21209), por recompilación estática con PS2Recomp: las 9878 funciones del ejecutable se traducen a C++, el IOP ejecuta los módulos originales del juego en un intérprete y la imagen la dibuja el renderizador GS de PCSX2 con Direct3D 11. Parte del entorno de ejecución del port de Shadow of the Colossus de LightVelox y toma el decodificador de vídeo del de Ace Combat 5. Según su autor funcionan las peleas y el modo historia, con sonido, vídeos y tarjeta de memoria compatible con PCSX2. Va a 60 fps, también con ocho luchadores en pantalla, con resolución interna de 1x a 8x, FXAA, nitidez, shaders de televisión, paquetes de texturas HD en el formato de PCSX2 y el modo panorámico oculto del propio juego (16:9, con la cámara corregida), activado por defecto. Admite mandos con vibración y multitap para hasta ocho jugadores, estados de guardado, parches .pnach y mods en DLL con su propio kit; incluye CoopTool, que permite hasta ocho humanos en el multijugador y misiones del modo libre para cuatro. Un launcher pide tu imagen de disco y arranca el juego. Su documentación indica que se hizo con ayuda de Claude. La 1.3.0 salió el 13 de octubre."
+  en: "A native Windows port of the US PS2 release (SLUS-21209), made by static recompilation with PS2Recomp: the executable’s 9,878 functions are translated to C++, the IOP runs the game’s original modules on an interpreter, and the picture is drawn by PCSX2’s GS renderer with Direct3D 11. It builds on the runtime of LightVelox’s Shadow of the Colossus port and takes its video decoder from the Ace Combat 5 one. According to its author, fights and story mode work, with sound, movies, and a PCSX2-compatible memory card. It runs at 60 fps, eight fighters on screen included, with 1x–8x internal resolution, FXAA, sharpening, TV shaders, HD texture packs in PCSX2’s format, and the game’s own hidden widescreen mode (16:9, with the camera corrected), on by default. It supports controllers with rumble and a multitap for up to eight players, save states, .pnach patches, and DLL mods with their own kit; it includes CoopTool, which allows up to eight humans in multiplayer and Free Mode missions for four. A launcher asks for your disc image and starts the game. Its documentation indicates it was made with the help of Claude. Version 1.3.0 came out on October 13."
+requirements:
+  es: "Tu propia imagen de disco estadounidense de Urban Reign para PS2 (SLUS-21209) en .iso. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con DirectX 11, un procesador con SSE4.1 y Microsoft Edge WebView2 Runtime para el launcher (ya viene con Windows 11). El paquete de texturas HD, si lo quieres, se descarga aparte."
+  en: "Your own US Urban Reign PS2 disc image (SLUS-21209) as an .iso. Plus 64-bit Windows 10 or 11, a DirectX 11 graphics card, a CPU with SSE4.1, and the Microsoft Edge WebView2 Runtime for the launcher (already in Windows 11). The HD texture pack, if you want it, is downloaded separately."
+tags:
+  - emotion-engine
+  - widescreen
+  - 60fps+
+  - hd-assets
+  - mods
+  - multiplayer
+  - ai-assisted

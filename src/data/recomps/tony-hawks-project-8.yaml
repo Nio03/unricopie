@@ -1,0 +1,17 @@
+name: "Tony Hawk's Project 8"
+console: x360
+status: playable
+repo: theokyr/Project8Recomp
+originalDeveloper: Neversoft
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Project8Recomp: recompilación estática de la versión de Xbox 360 sobre el SDK de ReXGlue, con versiones para Linux x86-64, macOS con Apple Silicon y Windows, todas con Vulkan. El launcher lee directamente la imagen de tu disco, comprueba por el hash del default.xex que sea la edición admitida antes de copiar nada, copia los datos del juego y desde entonces arranca directamente el juego; partidas, ajustes y registros quedan en la misma carpeta. Tiene opciones de tamaño de ventana, monitor, pantalla completa y límite de fotogramas, y el launcher se maneja entero con mando. Linux es la plataforma principal y está probada, también en Steam Deck; en macOS funciona pero va lento en las escenas pesadas, y la versión de Windows es experimental: se compila desde Linux y solo se ha probado con Proton. Conviene dejar el límite de fotogramas, que viene activado: sin él, las escenas dentro de los niveles van de tres a cinco veces más rápido. La 0.3.0 (24 de agosto) pasó a ReXGlue 0.10 y mejoró el rendimiento en Steam Deck. Tres de sus 33 commits, entre ellos el de la primera versión, llevan a Claude como coautor."
+  en: "Project8Recomp: a static recompilation of the Xbox 360 version on the ReXGlue SDK, with builds for x86-64 Linux, Apple silicon macOS, and Windows, all using Vulkan. The launcher reads your disc image directly, checks by the default.xex hash that it’s the supported release before copying anything, copies the game data, and from then on starts the game straight away; saves, settings, and logs stay in the same folder. It has options for window size, monitor, fullscreen, and frame rate cap, and the launcher is fully usable with a controller. Linux is the main platform and is tested, Steam Deck included; on macOS it works but is slow in heavy scenes, and the Windows build is experimental: it’s cross-compiled from Linux and only tested under Proton. Leave the frame rate cap on, as it is by default: without it, in-level cutscenes run three to five times too fast. Version 0.3.0 (August 24) moved to ReXGlue 0.10 and improved Steam Deck performance. Three of its 33 commits, including the first release’s, list Claude as a co-author."
+requirements:
+  es: "Una imagen de disco (.iso o .img) de tu propia copia de Tony Hawk's Project 8 para Xbox 360, la edición mundial 1.0 (Estados Unidos y Europa, título 415607DD, Media ID 2CB96AE4); el launcher rechaza las demás, como la japonesa. Además, una tarjeta gráfica con Vulkan y unos 5 GB libres, en Linux x86-64, macOS con Apple Silicon o Windows x86-64."
+  en: "A disc image (.iso or .img) of your own copy of Tony Hawk's Project 8 for Xbox 360, the World 1.0 release (USA and Europe, title 415607DD, Media ID 2CB96AE4); the launcher refuses the others, such as the Japanese one. Plus a Vulkan graphics card and about 5 GB of free space, on x86-64 Linux, Apple silicon macOS, or x86-64 Windows."
+tags:
+  - powerpc
+  - vulkan
+  - ai-assisted

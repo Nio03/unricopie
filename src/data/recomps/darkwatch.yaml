@@ -1,0 +1,21 @@
+name: Darkwatch
+console: xbox
+status: playable
+repo: linkssy2/DarkwatchDarkerEdition
+originalDeveloper: High Moon Studios
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Darkwatch: Darker Edition: port no oficial para Windows de la versión de Xbox, hecho con XboxXBE-Recomp, de TGP482, con el código del juego recompilado de forma estática y gráficos en Direct3D 12. Un launcher importa tu ISO, reconstruye en tu equipo los archivos de los personajes y prepara los sombreadores. Añade menús para ratón, controles reasignables, apuntado con ratón, mandos de Xbox, PS4 y Switch con sus propios iconos, panorámico, escala interna, campo de visión del mundo y del arma por separado, MSAA y filtrado anisótropo, y corrige fallos de los scripts a tasas altas de fotogramas. Activa el capítulo War Train y las granadas Splitter que seguían en el disco, deja elegir a Jericho o a Cassidy en la campaña y suma un cooperativo local a pantalla partida en beta. La 0.4 salió el 21 de octubre; según el README, la campaña completa y el cooperativo aún no se han probado de principio a fin, y quedan fallos abiertos. La descarga de Windows incluye el código del juego ya recompilado y compilado y 68 imágenes de los menús, el HUD, la fuente y las vistas previas de las misiones redibujadas en alta resolución a partir del arte del juego, y la portada del launcher es la carátula original editada con un generador de imágenes. Desde la 0.4 publica aparte, como descarga opcional de unos 4,9 GB, un paquete de texturas HD para el juego cuyas 1176 texturas, según sus metadatos, se emparejaron con las de un paquete de texturas de sustitución para la versión de PS2 (SLES-53564)."
+  en: "Darkwatch: Darker Edition: an unofficial Windows port of the Xbox version, built with TGP482’s XboxXBE-Recomp, with the game’s code statically recompiled and Direct3D 12 graphics. A launcher imports your ISO, rebuilds the character archives on your machine, and prepares the shaders. It adds mouse-friendly menus, rebindable controls, mouse aiming, Xbox, PS4, and Switch controllers with matching prompts, widescreen, internal scale, separate world and weapon field of view, MSAA, and anisotropic filtering, and it fixes script bugs at high frame rates. It enables the War Train chapter and the Splitter grenades still on the disc, lets you pick Jericho or Cassidy in the campaign, and adds beta local split-screen co-op. Version 0.4 came out on October 21; according to the README, the full campaign and co-op haven’t been tested start to finish yet, and some issues remain open. The Windows download includes the game’s code, already recompiled and compiled, and 68 images of the menus, HUD, font, and mission previews redrawn in high resolution from the game’s artwork, and the launcher cover is the original box art edited with an image generator. Since 0.4 it also offers, as a separate optional download of about 4.9 GB, an HD texture pack for the game whose 1,176 textures, according to its metadata, were matched against a replacement texture pack for the PS2 release (SLES-53564)."
+requirements:
+  es: "Tu propia imagen de disco de Darkwatch para Xbox, de la revisión norteamericana admitida, como ISO completa o XISO recortada: el launcher comprueba sus 23 archivos y rechaza otras revisiones, y el default.xbe tiene que dar el SHA-256 72fc8033e01df4f22c703121cfd160969c642b18e841248224fc97a8f32050d7. Además, Windows 10 (1903 o posterior) u 11 de 64 bits, .NET Framework 4.8, un procesador x86-64-v2 (con SSE4.2 y POPCNT), una tarjeta gráfica con Direct3D 12 y nivel de funciones 11_0, y al menos 5 GB libres por importación, más el paquete HD si lo instalas."
+  en: "Your own Darkwatch disc image for Xbox, from the supported North American revision, as a full ISO or a trimmed XISO: the launcher checks its 23 files and rejects other revisions, and default.xbe must match the SHA-256 72fc8033e01df4f22c703121cfd160969c642b18e841248224fc97a8f32050d7. Plus 64-bit Windows 10 (1903 or later) or 11, .NET Framework 4.8, an x86-64-v2 CPU (with SSE4.2 and POPCNT), a Direct3D 12 graphics card with feature level 11_0, and at least 5 GB free per import, plus the HD pack if you install it."
+tags:
+  - x86
+  - fps
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - hd-assets
+  - ai-assisted

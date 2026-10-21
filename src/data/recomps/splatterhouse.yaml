@@ -1,0 +1,18 @@
+name: Splatterhouse
+console: x360
+status: fully
+repo: 0c0de/splatterhouse-decomp
+originalDeveloper: Namco Bandai Games
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "«Splatterhouse Recompiled»: port nativo para Windows de la versión de Xbox 360 de 2010, por recompilación estática con el SDK de ReXGlue. Aunque el repositorio se llama «decomp», no es una decompilación: el XEX original se traduce a unos 208 archivos de C++ que se compilan para tu PC. El autor lo da por jugable de principio a fin, con la campaña completa y los DLC. Basta con arrastrar tu ISO sobre el instalador, que la extrae y descifra el ejecutable. Va a 60 fps con el parche de la comunidad de Xenia Canary, escala la imagen con FSR, CAS o FXAA, dibuja de forma nativa en 21:9 y 32:9, muestra los textos en otros idiomas (las voces siguen en inglés) y desbloquea todos los capítulos. Las opciones del port están en una pantalla aparte (F5), con las etiquetas en español por ahora. Los DLC (Survival Arenas, máscaras) se instalan solos al dejarlos en una carpeta dlc. La primera vez que se carga una zona puede haber tirones si la caché de shaders está incompleta, y en tarjetas AMD e Intel el combate pesa más, por lo que el instalador elige 720p en ellas. La 0.3 (20 de octubre) mejoró el rendimiento y añadió el ultrapanorámico."
+  en: "“Splatterhouse Recompiled”: a native Windows port of the 2010 Xbox 360 version, by static recompilation with the ReXGlue SDK. Despite the repository’s “decomp” name, it isn’t a decompilation: the original XEX is translated into about 208 C++ files that are compiled for your PC. The author calls it playable end to end, with the full campaign and DLC. You just drag your ISO onto the installer, which extracts it and decrypts the executable. It runs at 60 fps with the Xenia Canary community’s patch, scales the image with FSR, CAS, or FXAA, renders natively at 21:9 and 32:9, shows the text in other languages (voices stay in English), and unlocks every chapter. The port’s options are on a separate screen (F5), labeled in Spanish for now. DLC (Survival Arenas, masks) installs itself when dropped into a dlc folder. The first visit to an area can stutter if the shader cache is incomplete, and combat is heavier on AMD and Intel cards, so the installer picks 720p for them. Version 0.3 (October 20) improved performance and added ultrawide."
+requirements:
+  es: "Tu propia copia de Splatterhouse para Xbox 360 como ISO (ID de título 4E4D07F0). Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y Rasterizer-Ordered Views (NVIDIA GTX 900 o posterior, AMD RX 400 o posterior, Intel Arc) y un mando compatible con Xbox."
+  en: "Your own copy of Splatterhouse for Xbox 360 as an ISO (title ID 4E4D07F0). Plus 64-bit Windows 10 or 11, a graphics card with Direct3D 12 and Rasterizer-Ordered Views (NVIDIA GTX 900 or later, AMD RX 400 or later, Intel Arc), and an Xbox-compatible controller."
+tags:
+  - powerpc
+  - horror
+  - widescreen
+  - 60fps+

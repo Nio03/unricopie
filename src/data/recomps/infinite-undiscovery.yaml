@@ -1,0 +1,20 @@
+name: Infinite Undiscovery
+console: x360
+status: playable
+repo: doc-haz/infinite-undiscovery-recomp
+originalDeveloper: tri-Ace
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 en un ejecutable nativo de Windows x64, sobre ReXGlue 0.10.0. Un asistente integrado importa tus discos (ISO o carpetas extraídas), reconoce la edición y el disco por su contenido y rechaza volcados modificados, mezclados o de otro juego. Admite las ediciones de Estados Unidos, Europa, Japón y Asia, y una «USA-UNDUB» con voces japonesas, cada una en su propio perfil con sus partidas, sombreadores y configuración dentro de una carpeta portátil. El paso del disco 1 al 2 dentro del juego funciona, y se pueden instalar los DLC A Voucher y B Voucher. F5 abre un menú con información de la sesión y herramientas de recuperación (guardar en cualquier sitio, avanzar un paso, deshacer el movimiento). El asistente y los menús están en inglés y español, y hay un editor de partidas aparte del mismo autor, IU Save Bridge. La 1.0.0-rc1 (7 de octubre) es una versión candidata: nadie ha terminado aún una partida completa, y hay un bloqueo conocido en la Vesplume Tower (Orb of Patience). El 20 de octubre el autor congeló el desarrollo: no lo da por abandonado, pero no prevé arreglos ni versiones nuevas."
+  en: "A static recompilation of the Xbox 360 version into a native Windows x64 executable, on ReXGlue 0.10.0. A built-in wizard imports your discs (ISO or extracted folders), identifies the edition and disc from their contents, and rejects modified, mixed, or foreign dumps. It supports the US, European, Japanese, and Asian editions, plus a “USA-UNDUB” one with Japanese voices, each in its own profile with its own saves, shaders, and settings inside a portable folder. The in-game switch from disc 1 to disc 2 works, and the A Voucher and B Voucher DLC can be installed. F5 opens a menu with session info and recovery tools (save anywhere, step forward, undo the move). The wizard and menus are in English and Spanish, and the same author has a separate save editor, IU Save Bridge. 1.0.0-rc1 (October 7) is a release candidate: nobody has finished a full playthrough yet, and there’s a known softlock at Vesplume Tower (Orb of Patience). On October 20 the author froze development: they don’t consider it abandoned, but no fixes or new releases are planned."
+requirements:
+  es: "Tu propia copia de Infinite Undiscovery para Xbox 360, de Estados Unidos, Europa, Japón o Asia, como ISO o carpetas extraídas con el default.xex, ud1.bin y ud2.bin de cada disco. El disco 1 es obligatorio y el 2 se puede añadir después, aunque hace falta para acabar el juego; los DLC son opcionales. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y el Visual C++ Redistributable 2015-2022 x64, que no viene incluido."
+  en: "Your own copy of Infinite Undiscovery for Xbox 360, US, European, Japanese, or Asian, as an ISO or extracted folders with each disc’s default.xex, ud1.bin, and ud2.bin. Disc 1 is required and disc 2 can be added later, though it’s needed to finish the game; the DLC is optional. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, and the x64 Visual C++ Redistributable 2015–2022, which isn’t bundled."
+tags:
+  - powerpc
+links:
+  - label:
+      es: "Editor de partidas IU Save Bridge"
+      en: "IU Save Bridge save editor"
+    url: https://github.com/doc-haz/iu-save-bridge

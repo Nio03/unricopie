@@ -1,0 +1,24 @@
+name: Diablo / Hellfire
+category: fan-remake
+console: pc
+status: fully
+repo: diasurgical/DevilutionX
+originalDeveloper: Blizzard North / Synergistic Software
+year: 1996
+desc:
+  es: "DevilutionX: port de Diablo y de su expansión Hellfire para sistemas actuales, construido sobre Devilution, el código fuente de Diablo reconstruido por ingeniería inversa a partir del ejecutable, con ayuda de los símbolos de depuración de la versión japonesa de PlayStation y de una versión de depuración del juego de PC. Hay versiones para Windows, Linux y macOS, y también para muchas otras plataformas. Añade resoluciones y relaciones de aspecto a medida, panorámico, más fotogramas por segundo, mando completo, multijugador por TCP/IP y por ZeroTier (sin abrir puertos), un alijo para guardar objetos y opciones como recoger el oro y las pociones automáticamente o mostrar barras de vida de los monstruos y de experiencia, desactivadas por defecto, además de muchos arreglos de fallos del original. Está traducido a más de 20 idiomas y trae herramientas para mods. La última versión es la 1.5.5 (30 de octubre de 2025). Desde mayo, 19 de sus más de 12 000 commits llevan a Claude como coautor."
+  en: "DevilutionX: a port of Diablo and its Hellfire expansion for modern systems, built on Devilution, Diablo’s source code reconstructed by reverse engineering the executable, with help from the debug symbols of the Japanese PlayStation release and a debug build of the PC game. There are builds for Windows, Linux, and macOS, and for many other platforms too. It adds custom resolutions and aspect ratios, widescreen, high frame rates, full gamepad support, multiplayer over TCP/IP and ZeroTier (no port forwarding needed), a stash for storing items, and options such as picking up gold and potions automatically or showing monster health and experience bars, off by default, plus many fixes for bugs in the original. It’s translated into more than 20 languages and comes with modding tools. The latest release is 1.5.5 (October 30, 2025). Since May, 19 of its more than 12,000 commits list Claude as a co-author."
+requirements:
+  es: "El archivo DIABDAT.MPQ de tu propia copia de Diablo, del CD o de la versión de GOG o Battle.net; para la parte shareware basta con spawn.mpq, que es gratuito. Para Hellfire, además, hellfire.mpq, hfmonk.mpq, hfmusic.mpq y hfvoice.mpq. Con la versión de GOG instalada en Windows no hace falta copiar nada. Además, Windows (también XP), Linux o macOS."
+  en: "The DIABDAT.MPQ file from your own copy of Diablo, from the CD or the GOG or Battle.net release; for the shareware portion, the free spawn.mpq is enough. For Hellfire, also hellfire.mpq, hfmonk.mpq, hfmusic.mpq, and hfvoice.mpq. With the GOG release installed on Windows, nothing needs copying. Plus Windows (XP included), Linux, or macOS."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - mods
+  - reverse-engineering
+  - ai-assisted
+links:
+  - label: Devilution
+    url: https://github.com/diasurgical/devilution

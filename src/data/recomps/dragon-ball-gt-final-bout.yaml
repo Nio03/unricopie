@@ -1,0 +1,20 @@
+name: "Dragon Ball GT: Final Bout"
+console: ps1
+status: playable
+repo: novapowers0/DB-Final-Bout-Recomp
+originalDeveloper: "TOSE / Bandai"
+year: 1997
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense (SLUS-00493) para Windows, hecha con PSXRecomp y recomp-ui: el código MIPS original se compila como código nativo en un ejecutable propio, con lanzador, mods y opciones de renderizado. Tiene modo panorámico 16:9 o adaptable, que por ahora solo estira la imagen; renderizador por software como referencia y Vulkan experimental; una variante con PGXP para más precisión geométrica, y juego en red por red local o IP directa, incluido pero sin probar a fondo. La 0.2.0 sumó dos mods opcionales: «Combate renovado», que añade ayuda en los controles, remates aéreos y cambios en el movimiento, la defensa, la pausa en los impactos y el ki, con una cámara algo más abierta, y otro que desbloquea a los 17 luchadores. La última, la 0.2.1 (19 de octubre), es una versión experimental que corrige una espera bloqueante, aunque en el modo original siguen produciéndose cierres intermitentes de causa desconocida; la última estable es la 0.1.1, del 26 de septiembre. Desde la 0.2.0 la descarga viene lista para jugar: solo hay que elegir el disco. Su documentación incluye informes de sesiones de trabajo hechas por Claude."
+  en: "A static recompilation of the US release (SLUS-00493) for Windows, built with PSXRecomp and recomp-ui: the original MIPS code is compiled into native code in a standalone executable with a launcher, mods, and rendering settings. It has 16:9 or adaptive widescreen, which for now only stretches the picture; a software renderer as the reference and experimental Vulkan; a PGXP variant for more geometric precision; and netplay over LAN or direct IP, built in but not fully tested. Version 0.2.0 added two optional mods: “Combate renovado” (renewed combat), which adds input assistance, aerial follow-ups, and changes to movement, defense, hit-stop, and ki, with a slightly wider camera; and one that unlocks all 17 fighters. The latest, 0.2.1 (October 19), is an experimental pre-release that fixes a blocking wait, though intermittent exits in the original mode remain with no known cause; the latest stable release is 0.1.1, from September 26. Since 0.2.0 the download is ready to play: you only pick your disc. Its documentation includes reports from work sessions carried out by Claude."
+requirements:
+  es: "Tu propia copia estadounidense de Dragon Ball GT: Final Bout para PS1 (SLUS-00493), con la pista de datos en .bin y su .cue; el archivo baserom.md da su tamaño y sus sumas MD5 y SHA-1. Además, Windows de 64 bits."
+  en: "Your own US copy of Dragon Ball GT: Final Bout for PS1 (SLUS-00493), with the data track as a .bin and its .cue; baserom.md lists its size and its MD5 and SHA-1 checksums. Plus 64-bit Windows."
+tags:
+  - mips
+  - widescreen
+  - netplay
+  - vulkan
+  - mods
+  - ai-assisted

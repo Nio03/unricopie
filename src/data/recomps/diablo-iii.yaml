@@ -1,0 +1,18 @@
+name: "Diablo III: Reaper of Souls – Ultimate Evil Edition"
+console: x360
+status: playable
+repo: Boron853/Souls-of-the-Reaper
+originalDeveloper: Blizzard Entertainment
+year: 2014
+toolchain: ReXGlue
+desc:
+  es: "Souls of the Reaper: recompilación estática para Windows de Diablo III: Reaper of Souls – Ultimate Evil Edition de Xbox 360, sobre el SDK de ReXGlue. El instalador pide tu imagen de disco y extrae una sola vez los datos del juego, unos 7,4 GB; el idioma del juego es el de tu disco. Tiene dos modos de render: ROV, el fiel, a 60 fps, y RTV, el rápido, de hasta 240 fps, con opciones de 120, 144 y 240 fps en el launcher. Admite teclado, teclado y ratón, y hasta cuatro mandos a la vez para el cooperativo local, con teclas reasignables dentro del juego (F4). Su autor lo da por jugable y estable. La beta 1.3 (25 de julio) cambió el zip por un instalador normal y añadió el cooperativo local. El código se publicó en un solo commit, y la descripción del repositorio dice que se hizo con IA."
+  en: "Souls of the Reaper: a static recompilation for Windows of Diablo III: Reaper of Souls – Ultimate Evil Edition for Xbox 360, on the ReXGlue SDK. The installer asks for your disc image and extracts the game data once, about 7.4 GB; the game’s language is your disc’s. It has two render paths: ROV, the faithful one, at 60 fps, and RTV, the fast one, at up to 240 fps, with 120, 144, and 240 fps options in the launcher. It supports keyboard, keyboard and mouse, and up to four controllers at once for local co-op, with in-game key rebinding (F4). Its author calls it playable and stable. Beta 1.3 (July 25) replaced the zip with a standard installer and added local co-op. The code was published in a single commit, and the repository description says it was made using AI."
+requirements:
+  es: "Tu propia imagen de disco de Diablo III: Reaper of Souls – Ultimate Evil Edition para Xbox 360; el autor la ha probado con los discos de Estados Unidos y de España. Además, Windows 10 u 11 de 64 bits y unos 7,4 GB libres para los datos del juego."
+  en: "Your own disc image of Diablo III: Reaper of Souls – Ultimate Evil Edition for Xbox 360; the author has tested the US and Spanish discs. Plus 64-bit Windows 10 or 11 and about 7.4 GB of free space for the game data."
+tags:
+  - powerpc
+  - multiplayer
+  - 60fps+
+  - ai-assisted

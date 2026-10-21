@@ -1,11 +1,13 @@
-name: Castlevania (N64)
+name: "Castlevania 64 (RevoSucks)"
 console: n64
-status: experimental
+status: playable
 repo: RevoSucks/CV64Recomp
+originalDeveloper: KCEK / Konami
+year: 1999
 toolchain: N64Recomp
 desc:
-  es: "Recompilación de Castlevania (N64) en una fase muy temprana: todavía no compila. Es un proyecto distinto del de Legacy of Darkness."
-  en: "Early work-in-progress recompilation of Castlevania (N64); it doesn’t build yet. A separate project from Legacy of Darkness."
+  es: "Castlevania 64: Recompiled: recompilación estática del Castlevania de N64 (1999) con N64Recomp. Su README todavía dice que no compila, pero la versión 0.5.0 (6 de octubre), su primera beta, se presenta como una compilación que funciona, para Windows, Linux (x86-64 y ARM64, también en AppImage y Flatpak) y macOS. Quedan pendientes los recursos de la interfaz, que aún son los del recomp de Banjo-Kazooie; las texturas animadas (agua, cielo) no se mueven por encima de 30 fps, y algunas animaciones en bucle fallan. Es un proyecto distinto del de Legacy of Darkness."
+  en: "Castlevania 64: Recompiled: a static recompilation of the 1999 N64 Castlevania with N64Recomp. Its README still says it doesn’t build, but version 0.5.0 (October 6), its first beta, is presented as a working build, for Windows, Linux (x86-64 and ARM64, AppImage and Flatpak too), and macOS. Still pending: the UI assets, which are still the Banjo-Kazooie recomp’s; scrolling textures (water, sky) don’t animate above 30 fps, and some looping animations glitch. It’s a separate project from Legacy of Darkness."
 requirements:
   es: "Una ROM de Castlevania (N64, .z64)."
   en: "A Castlevania ROM (N64, .z64)."

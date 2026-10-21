@@ -1,0 +1,19 @@
+name: "King's Field II / King's Field III"
+console: ps1
+status: fully
+repo: Voicedrew11/verdite3
+originalDeveloper: FromSoftware
+year: 1996
+toolchain: RecompOne
+desc:
+  es: "Verdite3: port a PC de King's Field II, la edición estadounidense (SLUS-00255) del King's Field III japonés, construido sobre RecompOne por el autor de Verdite2, el port de King's Field. Añade modo panorámico 16:9, 16:10 y 21:9 con el descarte de geometría ajustado, texturas con corrección de perspectiva sin el temblor de los vértices, filtrado anisótropo, oclusión ambiental, búfer Z, color de 24 bits, más de 60 fps con la velocidad de juego constante, más distancia de dibujado, iluminación por píxel, agua con olas y reflejos, niebla suave y mejor sonido. Tiene teclado y ratón, controles de doble stick o de tanque analógicos, apuntado del arco con giroscopio, vibración con el arco (con hápticos de DualSense en pruebas), un menú de ajustes dentro del juego, recarga automática de la partida al morir y mods en C#. Las versiones publicadas no traen código del juego: el launcher lo recompila a partir de tu imagen de disco en el primer arranque. Su autor lo da por jugable de principio a fin, con algún fallo ocasional, y lo describe como un intento dirigido por IA; 203 de sus 230 commits llevan a Claude como coautor. La 0.2.0 (18 de octubre) añadió una configuración inicial para elegir qué cambios de juego y de gráficos activar."
+  en: "Verdite3: a PC port of King’s Field II, the US edition (SLUS-00255) of Japan’s King’s Field III, built on RecompOne by the author of Verdite2, the King’s Field port. It adds 16:9, 16:10, and 21:9 widescreen with adjusted culling, perspective-correct textures without vertex wobble, anisotropic filtering, ambient occlusion, a Z-buffer, 24-bit color, 60+ fps at a consistent game speed, longer render distance, per-pixel lighting, water with waves and reflections, smooth fog, and better audio. It has keyboard and mouse, twin-stick or analog tank controls, gyro aiming for the bow, rumble on the bow (with DualSense haptics as a work in progress), an in-game settings menu, an automatic save reload on death, and C# mods. The released builds contain no game code: the launcher recompiles it from your disc image on first launch. Its author calls it playable from start to finish, with occasional issues, and describes it as an AI-driven attempt; 203 of its 230 commits list Claude as co-author. Version 0.2.0 (October 18) added a first-run setup to choose which gameplay and graphics changes to turn on."
+requirements:
+  es: "Tu propio volcado de King's Field II (PS1, edición norteamericana SLUS-00255), en .cue/.bin o .chd; el launcher rechaza el King's Field estadounidense (SLUS-00158), que es otro juego. Hay versiones para Windows de 64 bits (instalador o zip) y Linux x86-64 (AppImage)."
+  en: "Your own King’s Field II dump (PS1, North American edition SLUS-00255), as .cue/.bin or .chd; the launcher refuses the US King’s Field (SLUS-00158), which is a different game. There are builds for 64-bit Windows (installer or zip) and x86-64 Linux (AppImage)."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

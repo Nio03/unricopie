@@ -1,16 +1,24 @@
 name: Mario Kart 64
 console: n64
-status: experimental
-abandoned: true
-repo: SilverCard/MarioKart64Recomp
-author: sonicdcer (orig.) · mirror
+status: playable
+repo: sonicdcer/MarioKart64Recomp
 originalDeveloper: Nintendo
+year: 1996
 toolchain: N64Recomp
 desc:
-  es: "Port por recompilación del clásico de karts. El repositorio original (cuenta sonicdcer) se borró; esta es una de las copias que sobreviven."
-  en: "Recompiled port of the classic kart racer. The original repository (sonicdcer account) was deleted; this is one of the surviving mirrors."
+  es: "MarioKart 64: Recompiled: recompilación estática con N64Recomp y RT64 como renderizador, para Windows, Linux y macOS. Cargas la ROM desde el menú y empiezas a jugar, sin pasos de extracción. Conserva los efectos gráficos de la N64 sin trucos, va a cualquier tasa de fotogramas (por defecto, la de tu monitor) y en cualquier relación de aspecto, ultrapanorámica incluida, con opción de dejar el HUD en 16:9, y tiene menús de configuración que se manejan con ratón, mando o teclado, poco retraso de entrada y mods y paquetes de texturas, con una plantilla para crearlos. La última versión es la 0.9.2 (13 de febrero de 2026). El repositorio de sonicdcer estuvo caído un tiempo y vuelve a estar disponible; las descargas están en GitLab."
+  en: "MarioKart 64: Recompiled: a static recompilation with N64Recomp and RT64 as its renderer, for Windows, Linux, and macOS. You load your ROM from the menu and start playing, with no extraction step. It keeps the N64’s graphical effects without hacks, runs at any frame rate (your monitor’s by default) and any aspect ratio, ultrawide included, with an option to keep the HUD at 16:9, and has settings menus you can use with mouse, controller, or keyboard, low input lag, and mods and texture packs, with a template for making them. The latest version is 0.9.2 (February 13, 2026). sonicdcer’s repository was down for a while and is available again; the downloads are on GitLab."
 requirements:
-  es: "Una ROM de Mario Kart 64 (N64, versión estadounidense)."
-  en: "A Mario Kart 64 ROM (N64, US version)."
+  es: "Tu propia ROM norteamericana de Mario Kart 64. Además, una tarjeta gráfica con Direct3D 12.0 (Shader Model 6), Vulkan 1.2 o Metal (como mínimo, GeForce GT 630, Radeon HD 7750 o Intel HD 510) y, en PC x86-64, un procesador con SSE4.1; en Mac, Apple Silicon o un Intel de 7.ª generación con macOS 13."
+  en: "Your own North American Mario Kart 64 ROM. Plus a graphics card with Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal (at least a GeForce GT 630, Radeon HD 7750, or Intel HD 510) and, on x86-64 PCs, an SSE4.1 CPU; on a Mac, Apple silicon or a 7th-gen Intel with macOS 13."
 tags:
+  - mips
+  - racing
   - widescreen
+  - 60fps+
+  - mods
+links:
+  - label:
+      es: "Descargas en GitLab"
+      en: "Downloads on GitLab"
+    url: https://gitlab.com/sonicdcer/MarioKart64Recomp/-/releases

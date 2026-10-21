@@ -1,0 +1,18 @@
+name: Dead or Alive 3
+console: xbox
+status: fully
+repo: parkerallan/doa3-recomp
+originalDeveloper: Team Ninja
+year: 2001
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo para Windows por recompilación estática: el ejecutable x86 de la Xbox original se traduce a C y se compila como programa de 64 bits. Está hecho con xboxrecomp, el kit de recompilación de sp00nz, y sigue su port de Burnout 3, del que toma el traductor de los gráficos de la NV2A a Direct3D 11. Según su autor, todos los modos de juego se pueden jugar enteros. Añade un modo en línea para combates individuales y por parejas contra otro jugador: el anfitrión comparte un código, no hace falta configurar el router, y los dos equipos ejecutan la misma partida con un pequeño retardo de entrada, sin predicción ni rollback. Va a 60 fps como máximo, en ventana o a pantalla completa sin bordes, en 4:3 o 16:9, con escala interna de hasta 1440p (3x). La tecla Esc abre un menú con el juego en línea, la asignación de controles y los ajustes, y desde la 1.0.4 (18 de octubre) un actualizador. La primera vez que arranca extrae los archivos de tu imagen del disco. La última versión, la 1.0.6, es del 19 de octubre."
+  en: "A native Windows port by static recompilation: the original Xbox’s x86 executable is translated to C and built as a 64-bit program. It’s made with xboxrecomp, sp00nz’s recompilation kit, and follows sp00nz’s Burnout 3 port, from which it takes the translator from NV2A graphics to Direct3D 11. According to its author, every game mode is fully playable. It adds an online mode for single and tag matches against another player: the host shares a code, no router setup is needed, and both machines run the same match with a small input delay, with no prediction or rollback. It’s capped at 60 fps, windowed or borderless fullscreen, in 4:3 or 16:9, with internal resolution scaling up to 1440p (3x). The Esc key opens a menu with online play, controller mapping, and settings, and since 1.0.4 (October 18) an updater. On first launch it extracts the files from your disc image. The latest version, 1.0.6, came out on October 19."
+requirements:
+  es: "Tu propia copia estadounidense de Dead or Alive 3 para Xbox, como imagen .xiso. Además, Windows de 64 bits. Para jugar en línea, el equipo anfitrión necesita una regla de entrada en el Firewall de Windows, y detrás de una NAT simétrica hace falta una red como Tailscale o ZeroTier."
+  en: "Your own US copy of Dead or Alive 3 for Xbox, as an .xiso image. Plus 64-bit Windows. For online play, the host PC needs an inbound Windows Firewall rule, and behind a symmetric NAT a network such as Tailscale or ZeroTier is needed."
+tags:
+  - x86
+  - widescreen
+  - multiplayer
+  - online

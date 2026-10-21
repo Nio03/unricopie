@@ -1,0 +1,21 @@
+name: Bloodborne (bbhost)
+category: native-layer
+console: ps4
+status: playable
+repo: droogie/bbhost
+originalDeveloper: FromSoftware
+year: 2015
+desc:
+  es: "bbhost: capa de traducción para jugar Bloodborne en Windows y Linux, un proyecto independiente de bbport con el mismo enfoque. El ejecutable 1.09 del juego corre sin modificar en la CPU, bbhost reimplementa las 660 funciones del sistema de la PS4 que importa el juego, también las de PlayStation Network, y los gráficos van pasando de la emulación a código nativo: cada dibujo se construye a partir de los objetos del motor de FromSoftware y casi todos los shaders GCN se descompilan a SPIR-V, aunque el trabajo de cómputo todavía pasa por un procesador de comandos emulado. Unas 30 funciones del juego ya están reescritas como código fuente. Su autor lo da por jugable, con el mundo, los jefes y las sesiones en línea. Añade cualquier resolución, ultrapanorámica incluida (21:9 y 32:9), FSR 1, 30, 60, 90 o 120 fps o sin límite con los tiempos del juego corregidos, teclado y ratón con teclas reasignables, páginas de opciones de PC dentro de los menús del propio juego, el editor de apariencia que se quitó del juego final, mods que no tocan los archivos del juego (trae un aleatorizador, un boss rush y el menú de depuración de los desarrolladores) y juego en línea entre jugadores de bbhost en el servidor privado The Hunter's Dream, cuyo backend también usa bbport. Funciona en la Steam Deck. 194 de sus 224 commits llevan a Claude como coautor. La última versión es la 0.2.18 (10 de octubre)."
+  en: "bbhost: a translation layer for playing Bloodborne on Windows and Linux, a project separate from bbport with the same approach. The game’s 1.09 executable runs unmodified on the CPU, bbhost reimplements all 660 PS4 system functions the game imports, PlayStation Network ones included, and the graphics are being moved from emulation to native code: each draw is built from FromSoftware’s engine objects and nearly all GCN shaders are decompiled to SPIR-V, though compute work still goes through an emulated command processor. About 30 of the game’s functions are already rewritten as source. Its author calls it playable, with the world, the bosses, and online sessions. It adds any resolution, ultrawide included (21:9 and 32:9), FSR 1, 30, 60, 90, or 120 fps or uncapped with the game’s timing corrected, keyboard and mouse with rebindable keys, PC settings pages inside the game’s own menus, the character appearance editor cut from the final game, mods that leave the game files alone (a randomizer, a boss rush, and the developers’ debug menu come with it), and online play between bbhost players on the private server The Hunter’s Dream, whose backend bbport also uses. It runs on the Steam Deck. 194 of its 224 commits list Claude as a co-author. The latest version is 0.2.18 (October 10)."
+requirements:
+  es: "Tu propio volcado de Bloodborne con la actualización 1.09 (copiada encima o en su propia carpeta junto al juego, como CUSA00900 y CUSA00900-UPDATE) y el eboot.bin de la 1.09 descifrado a ELF, con el SHA-256 941f887a562aae054fac35af8cc8f27cf075f3d4cc2e029fb5ae2a663aaa5ae7; cualquier otro eboot no arranca. Además, Windows 10 u 11 o Linux de 64 bits, o una Steam Deck, y una tarjeta gráfica con Vulkan 1.3; se recomiendan 16 GB de RAM y 8 GB de memoria de vídeo (las NVIDIA de 6 GB juegan a 1080p). No se incluye ningún archivo del juego."
+  en: "Your own Bloodborne dump with the 1.09 update (copied over it or in its own folder beside the game, like CUSA00900 and CUSA00900-UPDATE) and the 1.09 eboot.bin decrypted to an ELF, with SHA-256 941f887a562aae054fac35af8cc8f27cf075f3d4cc2e029fb5ae2a663aaa5ae7; any other eboot won’t start. Plus 64-bit Windows 10 or 11 or Linux, or a Steam Deck, and a Vulkan 1.3 graphics card; 16 GB of RAM and 8 GB of video memory are recommended (6 GB NVIDIA cards play at 1080p). No game files are included."
+tags:
+  - x86
+  - vulkan
+  - widescreen
+  - 60fps+
+  - online
+  - mods
+  - ai-assisted

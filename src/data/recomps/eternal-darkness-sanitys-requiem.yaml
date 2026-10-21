@@ -1,0 +1,20 @@
+name: "Eternal Darkness: Sanity's Requiem"
+console: gamecube
+status: playable
+repo: griches/EternalDarknessRecomp
+originalDeveloper: Silicon Knights
+year: 2002
+toolchain: DolRecomp
+desc:
+  es: "Recompilación estática de la versión europea de GameCube (GEDP01) para Mac, Windows y Linux, Steam Deck incluida. DolRecomp traduce el código PowerPC a C, que corre sobre GXRuntime, encargado del estado de la CPU, los dispositivos y los servicios del SDK de la GameCube, y dibuja con su renderizador gxcore, basado en el GX de Dolphin, sobre Aurora y Dawn (Metal, Direct3D 12 o Vulkan). En Mac y Linux, la primera vez que arranca traduce tu disco y compila el juego; en Windows el programa ya viene compilado, y los gráficos, el sonido y la música salen de tu disco. Dibuja a la resolución de tu pantalla, hasta 4K, usa el propio modo 16:9 del juego con el HUD en los bordes, o 21:9, intercala fotogramas en pantallas de 90 o 120 Hz o más, y añade HDR con calibración, oclusión ambiental, resplandor, sombras precalculadas reconstruidas a cuatro veces su tamaño, textos redibujados, paquetes de texturas HD en el formato de Dolphin, cámaras en tercera y primera persona (en beta), modo foto, cuatro ranuras para guardar en cualquier momento, controles reasignables, avance rápido de las escenas y un launcher. Hay también una versión para PS5 en otro repositorio. La 0.9.4 y la 0.9.5 salieron el 19 de octubre. 260 de sus 263 commits llevan el enlace de una sesión de Claude Code."
+  en: "A static recompilation of the European GameCube release (GEDP01) for Mac, Windows, and Linux, Steam Deck included. DolRecomp translates the PowerPC code to C, which runs on GXRuntime, providing the CPU state, devices, and GameCube SDK services, and draws through its gxcore renderer, modeled on Dolphin’s GX, on Aurora and Dawn (Metal, Direct3D 12, or Vulkan). On Mac and Linux, the first launch translates your disc and builds the game; on Windows the program comes ready-built, and the graphics, sound, and music come from your disc. It renders at your screen’s resolution, up to 4K, uses the game’s own 16:9 mode with the HUD at the edges, or 21:9, adds in-between frames on 90 Hz, 120 Hz, or faster screens, and adds HDR with calibration, ambient occlusion, glow, baked shadows rebuilt at four times their size, redrawn text, HD texture packs in Dolphin’s format, third- and first-person cameras (beta), a photo mode, four save-anywhere slots, remappable controls, cutscene fast-forward, and a launcher. There’s also a PS5 version in a separate repository. Versions 0.9.4 and 0.9.5 came out on October 19. 260 of its 263 commits carry a Claude Code session link."
+requirements:
+  es: "Tu propia imagen de disco europea de Eternal Darkness para GameCube (GEDP01), en .iso o .gcm; la estadounidense (GEDE01) no sirve. Además, Windows de 64 bits, un Mac con Apple Silicon y macOS 13 o posterior, o Linux x86-64 o una Steam Deck. Los paquetes de texturas HD son opcionales y se descargan aparte."
+  en: "Your own European disc image of Eternal Darkness for GameCube (GEDP01), as .iso or .gcm; the US disc (GEDE01) isn’t supported. Plus 64-bit Windows, an Apple silicon Mac with macOS 13 or later, or x86-64 Linux or a Steam Deck. HD texture packs are optional and downloaded separately."
+tags:
+  - powerpc
+  - horror
+  - widescreen
+  - 60fps+
+  - hd-assets
+  - ai-assisted

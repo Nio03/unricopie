@@ -1,0 +1,16 @@
+name: "Dragon Quest VIII: Journey of the Cursed King"
+console: ps2
+status: experimental
+repo: Sinan-Karakaya/DQ8-Recompiled
+originalDeveloper: Level-5
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "DQ8Recomp: port nativo experimental de la versión estadounidense de PS2 (SLUS-21207), hecho con PS2Recomp. El código MIPS del juego se traduce a C++ en tu equipo y se enlaza con un entorno de ejecución que implementa los servicios de la PS2 que usa; los gráficos van por SDL3 GPU o por un renderizador por software de referencia, y el sonido sale de los propios controladores del juego, que corren en un IOP emulado. Su autor deja claro que es un proyecto en desarrollo, no un port terminado: arranca, carga partidas y llega a la exploración del mapa con música, efectos, voces y vídeos, y en un Apple M1 Pro el primer mapa mantiene los 30 fps a los que está limitado el juego, pero el resto del juego y otros equipos todavía no se han comprobado, y el soporte de la versión europea está incompleto. Añade un menú dentro del juego (F1) con resolución interna, sonido, controles reasignables, pausa, avance rápido y capturas. Un launcher para Windows, macOS y Linux (también ARM64) comprueba tu imagen de disco, instala lo que falte, como el compilador de C++, y compila el juego en unos diez minutos. 29 de sus 143 commits llevan a Claude como coautor. La última versión es del 11 de octubre."
+  en: "DQ8Recomp: an experimental native port of the US PS2 release (SLUS-21207), built with PS2Recomp. The game’s MIPS code is translated to C++ on your machine and linked to a runtime that implements the PS2 services it uses; graphics go through SDL3 GPU or a software reference renderer, and sound comes from the game’s own drivers, running on an emulated IOP. Its author is clear that it’s a development project, not a finished port: it boots, loads saves, and reaches field gameplay with music, effects, speech, and movies, and on an Apple M1 Pro the opening field holds the game’s 30 fps cap, but the rest of the game and other hardware haven’t been checked yet, and support for the European version is incomplete. It adds an in-game menu (F1) with internal resolution, sound, remappable controls, pause, fast-forward, and screenshots. A launcher for Windows, macOS, and Linux (ARM64 too) checks your disc image, installs anything missing, such as a C++ compiler, and builds the game in about ten minutes. 29 of its 143 commits list Claude as a co-author. The latest build is from October 11."
+requirements:
+  es: "Una imagen de disco (.iso) de tu propia copia estadounidense de Dragon Quest VIII para PS2 (SLUS-21207). Además, Windows, macOS o Linux con unos 8 GB libres; el launcher instala el compilador de C++ si falta (Visual Studio Build Tools en Windows, las Command Line Tools en macOS) y, en Windows, descarga FFmpeg una vez. No se incluye ningún archivo del juego."
+  en: "A disc image (.iso) of your own US copy of Dragon Quest VIII for PS2 (SLUS-21207). Plus Windows, macOS, or Linux with about 8 GB of free space; the launcher installs a C++ compiler if it’s missing (Visual Studio Build Tools on Windows, the Command Line Tools on macOS) and, on Windows, downloads FFmpeg once. No game files are included."
+tags:
+  - emotion-engine
+  - ai-assisted

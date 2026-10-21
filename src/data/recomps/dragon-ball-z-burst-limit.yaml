@@ -1,0 +1,24 @@
+name: "Dragon Ball Z: Burst Limit"
+console: x360
+status: playable
+repo: iExplosiveRage/DBZ-Burst-Limit-Recompiled
+originalDeveloper: Dimps
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión estadounidense de Xbox 360, por recompilación estática con un fork propio del SDK de ReXGlue que lleva los cambios de este juego. La primera vez instala el juego desde tu ISO y luego abre una pantalla de inicio con el estilo del juego, con mods, ajustes y actualizaciones. Desde la 0.7.0 (21 de octubre) usa por defecto un renderizador nativo que manda las llamadas de dibujo del juego directamente a Direct3D 12 en lugar de emular la GPU de la Xbox 360, con resoluciones de 720p a 8K. Añade de 30 fps a sin límite, imagen ultrapanorámica 21:9 y 32:9 con el HUD en los bordes, campo de visión del 50 al 200 %, DLSS, DLAA, FSR 4 y FSR 3.1.5, menos retraso de entrada sin conexión, cámara libre, iconos de mandos de PlayStation y Switch y un menú de ajustes dentro del juego (F1). Recupera cuatro trajes y tres escenarios que solo se usaban en Z Chronicles, deja empezar el combate transformado y, si lo activas, cargar el ki con L3. El juego en línea funciona sin VPN a través de un servidor de salas del proyecto, con partidas clasificatorias y tablas de puntuación. Admite mods, personajes nuevos hechos con su ModKit y paquetes de texturas. La versión para Linux y Steam Deck lo ejecuta con Wine o Proton. Sigue en alfa. 28 de sus 30 commits llevan a Claude como coautor."
+  en: "A native Windows port of the US Xbox 360 release, by static recompilation with the author’s own fork of the ReXGlue SDK carrying this game’s changes. On first launch it installs the game from your ISO, then opens a start screen in the game’s style with mods, settings, and updates. Since 0.7.0 (October 21) it defaults to a native renderer that sends the game’s draw calls straight to Direct3D 12 instead of emulating the Xbox 360 GPU, with resolutions from 720p to 8K. It adds 30 fps to uncapped, 21:9 and 32:9 ultrawide with the HUD at the edges, a 50–200% field of view, DLSS, DLAA, FSR 4, and FSR 3.1.5, lower offline input latency, a free camera, PlayStation and Switch button icons, and an in-game settings menu (F1). It brings back four costumes and three stages only used in Z Chronicles, lets you start a fight transformed, and, if enabled, charge ki with L3. Online play works without a VPN through the project’s lobby server, with ranked matches and leaderboards. It supports mods, new characters made with its ModKit, and texture packs. The Linux and Steam Deck build runs it through Wine or Proton. It’s still in alpha. 28 of its 30 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia estadounidense (NTSC-U) de Dragon Ball Z: Burst Limit para Xbox 360, como ISO o extraída; el default.xex debe ser el de esa versión (7.983.104 bytes, SHA-1 aec598f88cf51181fc377b148e0b1ad30db4485c). Las versiones europea y japonesa no funcionan. Además, Windows 10 u 11 de 64 bits con una tarjeta gráfica con Direct3D 12, o Linux con Wine o Proton (el paquete para Linux trae vkd3d-proton y DXVK)."
+  en: "Your own US (NTSC-U) copy of Dragon Ball Z: Burst Limit for Xbox 360, as an ISO or extracted; the default.xex must be that release’s (7,983,104 bytes, SHA-1 aec598f88cf51181fc377b148e0b1ad30db4485c). The European and Japanese releases don’t work. Plus 64-bit Windows 10 or 11 with a Direct3D 12 graphics card, or Linux with Wine or Proton (the Linux package bundles vkd3d-proton and DXVK)."
+tags:
+  - powerpc
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted
+links:
+  - label: "DBZ Burst Limit ModKit"
+    url: https://github.com/iExplosiveRage/DBZ-Burst-Limit-ModKit

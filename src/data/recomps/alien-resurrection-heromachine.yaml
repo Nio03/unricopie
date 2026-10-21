@@ -1,0 +1,17 @@
+name: Alien Resurrection (Heromachine)
+console: ps1
+status: playable
+repo: Heromachine/AlienResurrection-Recompilation
+originalDeveloper: Argonaut Games
+year: 2000
+toolchain: RecompOne
+desc:
+  es: "Port nativo para Linux de la versión estadounidense de PlayStation (SLUS-00633), independiente del de DiegoDeDios: un launcher recompila de forma estática el código del juego a C# con un fork de RecompOne que vive en un repositorio aparte. Las versiones publicadas no traen código ni datos del juego: la primera vez lee tu imagen de disco, genera el código en tu equipo y lo compila, y las siguientes reutilizan el resultado; el disco hace falta también al jugar. Tiene una pantalla de inicio que se maneja con ratón, teclado o mando, y una página de mods con modo dios y munición infinita (que activan el sistema de trucos del propio juego) y ajustes de la linterna: brillo, color, alcance, parpadeo y batería mayor o ilimitada. Admite tarjetas de memoria de DuckStation, ePSXe o PCSX. Es una versión temprana: una puerta de la esclusa puede no abrirse y dejarte atascado, el logotipo del menú suele verse corrupto, la pantalla puede quedarse en negro tras cargar una partida, el vídeo de introducción se cierra en algunos equipos, la demo y el fondo del menú van demasiado rápidos y activar la resolución nativa cuelga el juego al arrancar. La 0.3.0 (1 de octubre) arregló el cuelgue en la pantalla de carga. Siete de sus 20 commits llevan a Claude como coautor."
+  en: "A native Linux port of the US PlayStation release (SLUS-00633), separate from DiegoDeDios’s: a launcher statically recompiles the game’s code to C# with a fork of RecompOne kept in a separate repository. The released builds contain no game code or data: on first run it reads your disc image, generates the code on your machine, and compiles it, and later runs reuse the result; the disc is still needed to play. It has a front screen you can use with mouse, keyboard, or controller, and a Mods page with god mode and infinite ammo (which switch on the game’s own cheat system) and flashlight settings: brightness, color, reach, flicker, and a bigger or unlimited battery. It accepts memory cards from DuckStation, ePSXe, or PCSX. It’s an early release: one airlock door may not open and leave you stuck, the main menu logo is often garbled, the screen can go black after loading a save, the intro video crashes on some machines, the attract demo and menu background run too fast, and enabling native resolution hangs the game at boot. Version 0.3.0 (October 1) fixed the loading-screen hang. Seven of its 20 commits list Claude as co-author."
+requirements:
+  es: "Tu propia imagen de disco estadounidense de Alien Resurrection (SLUS-00633), como .cue con su .bin; el launcher rechaza cualquier otra. La BIOS es opcional. Además, Linux x86-64; el AppImage necesita FUSE (libfuse2), o puedes usar el .zip."
+  en: "Your own US Alien Resurrection disc image (SLUS-00633), as a .cue with its .bin; the launcher refuses any other. A BIOS is optional. Plus x86-64 Linux; the AppImage needs FUSE (libfuse2), or you can use the .zip."
+tags:
+  - mips
+  - mods
+  - ai-assisted

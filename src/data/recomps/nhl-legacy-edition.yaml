@@ -1,0 +1,18 @@
+name: NHL Legacy Edition
+console: x360
+status: playable
+repo: puckhead73/nhl-legacy-recomp
+originalDeveloper: EA Canada
+year: 2015
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 en un ejecutable nativo de Windows, sobre el SDK de ReXGlue y su renderizador Vulkan, con parches propios para este juego. El instalador comprueba tu volcado, extrae el disco, coloca los binarios ya compilados y desempaqueta los archivos .big del juego en carpetas sueltas para que se puedan examinar y sustituir. Añade AMD FidelityFX (escalado FSR y nitidez CAS), supersampling de hasta 2x, un pase de corrección de color (exposición, contraste, saturación, balance de blancos y mapeo de tonos), controles de calidad de las sombras, un editor de constantes del motor y un panel superpuesto con ajustes, monitor de rendimiento y opciones de pantalla. Los vídeos VP6 se decodifican con un ffmpeg incluido, porque el decodificador recompilado los mostraba corruptos; esa corrección es de alex-mcfadden. En Linux y Steam Deck funciona con Proton 11. La última versión es la 0.6.0 (22 de julio). 138 de sus 143 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Xbox 360 version into a native Windows executable, on the ReXGlue SDK and its Vulkan renderer, with patches of its own for this game. The installer checks your dump, extracts the disc, lays down the prebuilt binaries, and unpacks the game’s .big archives into loose folders so they can be inspected and replaced. It adds AMD FidelityFX (FSR upscaling and CAS sharpening), up to 2x supersampling, a color-grading pass (exposure, contrast, saturation, white balance, and tone mapping), shadow quality controls, an engine constants editor, and an overlay with settings, a performance HUD, and display options. VP6 movies are decoded by a bundled ffmpeg, because the recompiled decoder showed them corrupted; that fix is by alex-mcfadden. On Linux and Steam Deck it runs through Proton 11. The latest release is 0.6.0 (July 22). 138 of its 143 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de NHL Legacy Edition para Xbox 360, como .iso o como carpeta extraída con su default.xex. El port parte de una imagen concreta sin modificar y el instalador comprueba el default.xex por su hash: otra región, un volcado modificado o uno con la actualización del título no pasan. Además, Windows 10 u 11 de 64 bits (o Linux y Steam Deck con Proton 11), una tarjeta gráfica con Vulkan, un procesador con AVX2, el Visual C++ Redistributable x64 y unos 10 GB libres."
+  en: "Your own NHL Legacy Edition dump for Xbox 360, as an .iso or an extracted folder with its default.xex. The port is built from one specific unmodified image, and the installer checks default.xex by its hash: a different region, a modified dump, or one with the title update won’t pass. Plus 64-bit Windows 10 or 11 (or Linux and Steam Deck through Proton 11), a Vulkan graphics card, a CPU with AVX2, the x64 Visual C++ Redistributable, and about 10 GB of free space."
+tags:
+  - powerpc
+  - vulkan
+  - mods
+  - ai-assisted

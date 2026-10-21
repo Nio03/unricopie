@@ -1,0 +1,19 @@
+name: ActRaiser
+console: snes
+status: fully
+repo: DerrickGold/ar-recomp
+originalDeveloper: Quintet
+year: 1990
+toolchain: snesrecomp-go
+desc:
+  es: "Recompilación estática de la versión estadounidense del cartucho: el código 65816 se traduce a C con snesrecomp-go, el port a Go de snesrecomp que incluye el proyecto, y se enlaza con un entorno de ejecución en SDL3 escrito a mano. Un Builder para Windows (x64 y ARM64), macOS (Apple Silicon e Intel), Linux (x64 y ARM64) y Steam Deck trae el compilador, comprueba tu ROM y compila el juego en tu equipo, también sin conexión; las descargas no llevan código del juego. Según el proyecto, la campaña estadounidense completa se ha jugado de principio a fin: las seis ciudades, los 12 actos, Death Heim y el final. Arranca con el aspecto original en 4:3, y todo lo demás es opcional: panorámica real 16:9 o 16:10 que extiende los fondos, un modo Diorama que separa en planos 3D las fases de acción, las ciudades rehechas en 3D con relieve y modelos de vóxeles, un mundo esférico en 3D para viajar entre ellas, efectos de GPU y de CRT, Mode 7 en alta resolución, fotogramas interpolados en pantallas de alta frecuencia, un logotipo en HD, música de sustitución en OGG, paquetes de idioma con su propio editor, reglas regionales de Estados Unidos, Japón o Europa, diez ranuras de guardado y correcciones opcionales de fallos del original. La última versión previa es la 0.803 (17 de octubre), y hay una decompilación completa en marcha. Su README declara que varios asistentes de IA han contribuido a las herramientas, el entorno de ejecución, la depuración y la documentación, y 121 de sus 901 commits llevan a Claude como coautor."
+  en: "A static recompilation of the US cartridge: the 65816 code is translated to C with snesrecomp-go, the project’s own Go port of snesrecomp, and linked with a hand-written SDL3 runtime. A Builder for Windows (x64 and ARM64), macOS (Apple silicon and Intel), Linux (x64 and ARM64), and Steam Deck includes the compiler, verifies your ROM, and builds the game on your machine, offline too; the downloads contain no game code. According to the project, the full US campaign has been played from start to finish: all six towns, all 12 acts, Death Heim, and the ending. It boots with the original 4:3 look, and everything else is optional: true 16:9 or 16:10 widescreen that extends the backgrounds, a Diorama mode that splits the action stages into 3D planes, towns rebuilt in 3D with terrain relief and voxel models, a spherical 3D world for traveling between them, GPU and CRT effects, high-resolution Mode 7, interpolated frames on high-refresh displays, an HD title logo, replacement music in OGG, language packs with their own editor, US, Japanese, or European regional rules, ten save slots, and optional fixes for bugs in the original. The latest pre-release is 0.803 (October 17), and a full decompilation is in progress. Its README states that several AI coding assistants contributed to the tooling, runtime, debugging infrastructure, and documentation, and 121 of its 901 commits list Claude as co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de ActRaiser para SNES (título interno ACTRAISER-USA), de 1 048 576 bytes sin cabecera de copiadora, con suma interna 0x83DB y SHA-256 b8055844825653210d252d29a2229f9a3e7e512004e83940620173c57d8723f0. Además, Windows 10 u 11 (el Builder usa WebView2, que ya traen), macOS, Linux o una Steam Deck."
+  en: "Your own US ActRaiser ROM for SNES (internal title ACTRAISER-USA), 1,048,576 bytes without a copier header, internal checksum 0x83DB, SHA-256 b8055844825653210d252d29a2229f9a3e7e512004e83940620173c57d8723f0. Plus Windows 10 or 11 (the Builder uses WebView2, which they already include), macOS, Linux, or a Steam Deck."
+tags:
+  - "65816"
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

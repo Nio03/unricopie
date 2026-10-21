@@ -1,0 +1,19 @@
+name: "Wet (Supermedo)"
+console: x360
+status: playable
+repo: Supermedo/wet-recomp
+author: Mohammed Albarghouthi
+originalDeveloper: Artificial Mind and Movement
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Port no oficial para Windows de la versión de Xbox 360, hecho con ReXGlue, con un launcher propio que instala el juego desde tu ISO, guarda tus controles reasignados y descarga las actualizaciones desde GitHub. Trae teclado y ratón (WASD, el ratón para mirar, clic izquierdo para disparar y derecho para la espada), perfiles gráficos Quality (escala de renderizado 2x, FXAA y filtrado 16x) y Ultra (3x a 1080p), imagen ultrapanorámica real a 2560×1080 y 3440×1440, selector de idioma y renderizado con Direct3D 12 o Vulkan, este último para Linux y Wine. En Linux hay que compilarlo. La 0.6.0 (5 de octubre) corrigió el cierre en la escena del cine tras la persecución de la pagoda; versiones anteriores arreglaron los cierres al cargar el último punto de control o al morir. Uno de sus commits lleva a Cursor como coautor."
+  en: "An unofficial Windows port of the Xbox 360 version, built with ReXGlue, with its own launcher that installs the game from your ISO, saves your rebound controls, and downloads updates from GitHub. It has keyboard and mouse (WASD, mouse look, left click to shoot and right click for the sword), Quality (2x render scale, FXAA, and 16x filtering) and Ultra (3x at 1080p) graphics presets, true 2560×1080 and 3440×1440 ultrawide, a language picker, and Direct3D 12 or Vulkan rendering, the latter for Linux and Wine. On Linux you have to build it yourself. Version 0.6.0 (October 5) fixed the crash in the movie-theater cutscene after the pagoda chase; earlier versions fixed the crashes when loading the last checkpoint or dying. One of its commits lists Cursor as a co-author."
+requirements:
+  es: "Una ISO de Wet para Xbox 360 sacada de tu propio disco. Además, Windows 10 u 11 de 64 bits; en Linux x64 hay que compilarlo y usar Vulkan."
+  en: "A Wet Xbox 360 ISO dumped from your own disc. Plus 64-bit Windows 10 or 11; on x64 Linux you have to build it and use Vulkan."
+tags:
+  - powerpc
+  - widescreen
+  - vulkan
+  - ai-assisted

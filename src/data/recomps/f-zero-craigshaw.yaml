@@ -1,0 +1,18 @@
+name: F-Zero (craigshaw)
+console: snes
+status: playable
+repo: craigshaw/FZeroRecomp
+originalDeveloper: Nintendo EAD
+year: 1990
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense, hecha con snesrecomp y recomp-ui, e independiente del otro recomp de F-Zero del catálogo. Tiene modo original (8:7), 16:9 y 32:9, con el HUD recolocado para cada uno, también en el título, la presentación de las carreras, los resultados, el final del Grand Prix y los récords; filtros de imagen Enhanced, Vivid y blanco y negro, además de los colores originales, y récords ampliados: los diez mejores tiempos de carrera y las cinco mejores vueltas de cada coche en los 15 circuitos, con una tabla combinada, sin romper la compatibilidad de las partidas con el juego original. Incluye un launcher, importación de partidas .srm o .sav, una carpeta de guardado a elegir y capturas de pantalla. Hay versiones para Windows x64, Linux x86-64 y macOS con Apple Silicon que no necesitan compilar nada. La 0.6.0 (17 de octubre) añadió Linux y la carpeta de guardado a elegir. Su README declara que asistentes de IA han contribuido al runtime, las herramientas, las pruebas y la documentación, y 35 de sus 52 commits llevan a Codex como coautor."
+  en: "A static recompilation of the US release, built with snesrecomp and recomp-ui, and independent of the other F-Zero recomp in the catalog. It has Original (8:7), 16:9, and 32:9 modes with the HUD placed for each, including the title, race intro, results, Grand Prix ending, and Records screens; Enhanced, Vivid, and Black & White filters besides the original colors; and extended records: the ten best race times and five best laps for each car on all 15 tracks, with a combined leaderboard, while keeping saves compatible with the original game. It includes a launcher, .srm or .sav save import, a choice of save folder, and screenshots. There are Windows x64, x86-64 Linux, and Apple silicon macOS builds that need no compiling. 0.6.0 (October 17) added Linux and the save folder choice. Its README states that AI coding assistants contributed to the runtime, tooling, testing, and documentation, and 35 of its 52 commits list Codex as co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de F-Zero para SNES, sin cabecera: 524 288 bytes, LoROM, SHA-256 bf16c3c867c58e2ab061c70de9295b6930d63f29f81cc986f5ecae03e0ad18d2 (también acepta la misma ROM con cabecera de copiadora de 512 bytes). Además, Windows 10 u 11 de 64 bits (los filtros piden Direct3D 12 con Shader Model 6.0), un Mac con Apple Silicon y macOS 13 o posterior, o Linux x86-64 con glibc 2.38 o posterior."
+  en: "Your own headerless US F-Zero ROM for SNES: 524,288 bytes, LoROM, SHA-256 bf16c3c867c58e2ab061c70de9295b6930d63f29f81cc986f5ecae03e0ad18d2 (the same ROM with a 512-byte copier header is also accepted). Plus 64-bit Windows 10 or 11 (the filters need Direct3D 12 with Shader Model 6.0), an Apple silicon Mac with macOS 13 or later, or x86-64 Linux with glibc 2.38 or later."
+tags:
+  - "65816"
+  - racing
+  - widescreen
+  - ai-assisted

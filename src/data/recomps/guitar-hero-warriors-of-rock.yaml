@@ -1,0 +1,15 @@
+name: "Guitar Hero: Warriors of Rock"
+console: x360
+status: experimental
+repo: ronniecloud/re-wor
+originalDeveloper: Neversoft
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "re-wor: recompilación estática de la versión de Xbox 360 (título 41560883) para Windows, sobre el SDK de ReXGlue y basada en re-gh2, el recomp de Guitar Hero II de YoshiCrystal9. Reconoce solas las guitarras y los mandos XInput, decodifica el audio XMA2 original en 6 canales con SDL, cambia a pantalla completa con F11 y muestra tu actividad en Discord; la versión trae además un launcher hecho con Tauri. Su autor la presenta como versión de prueba: el audio puede ir algo retrasado respecto a las notas, la imagen está fija en los 720p originales y puede cerrarse al cambiar de canción o de escena. La última versión es la 1.1.0 (3 de marzo)."
+  en: "re-wor: a static recompilation of the Xbox 360 version (title 41560883) for Windows, on the ReXGlue SDK and based on re-gh2, YoshiCrystal9’s Guitar Hero II recomp. It detects XInput guitars and controllers automatically, decodes the original XMA2 audio in 6 channels through SDL, toggles fullscreen with F11, and shows your activity on Discord; the release also comes with a launcher built with Tauri. Its author presents it as a test version: audio can lag slightly behind the notes, rendering is locked to the original 720p, and it may crash on song or scene changes. The latest release is 1.1.0 (March 3)."
+requirements:
+  es: "Tu propia copia de Guitar Hero: Warriors of Rock para Xbox 360, con la ISO extraída en la carpeta assets (default.xex y la carpeta data). Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con DirectX 12; para compilarlo, Clang 20 o posterior, CMake 3.25 o posterior, Ninja y el SDK de ReXGlue."
+  en: "Your own copy of Guitar Hero: Warriors of Rock for Xbox 360, with the ISO extracted into the assets folder (default.xex and the data folder). Plus 64-bit Windows 10 or 11 and a DirectX 12 graphics card; building it takes Clang 20 or later, CMake 3.25 or later, Ninja, and the ReXGlue SDK."
+tags:
+  - powerpc

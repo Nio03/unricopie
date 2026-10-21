@@ -1,0 +1,16 @@
+name: "Tenchu: Stealth Assassins"
+console: ps1
+status: playable
+repo: Heromachine/Tenchu-SA-Recomp
+originalDeveloper: Acquire
+year: 1998
+toolchain: RecompOne
+desc:
+  es: "Tenchu SA Recomp: port nativo para Linux de la versión estadounidense de PlayStation (SLUS-00706), del mismo autor que una de las recompilaciones de Alien Resurrection y con el mismo motor, un fork de RecompOne que vive en un repositorio aparte. Un launcher lee tu imagen de disco y recompila el código del juego a C# en tu equipo; las versiones publicadas no traen código ni datos del juego, y el disco hace falta también al jugar. El juego arranca, se juega y guarda, pero nadie lo ha terminado: las misiones avanzadas no se han probado y los efectos de sonido no están verificados, aunque la música y los diálogos de las escenas suenan bien. La introducción no se puede saltar durante unos 20 segundos y el guardado automático viene desactivado, como en el original, hasta que lo activas en las opciones. Solo hay una versión, la 0.1.0 (24 de agosto), y nada se ha probado en Windows. Uno de sus 15 commits lleva a Claude como coautor."
+  en: "Tenchu SA Recomp: a native Linux port of the US PlayStation release (SLUS-00706), by the author of one of the Alien Resurrection recompilations and on the same engine, a fork of RecompOne kept in a separate repository. A launcher reads your disc image and recompiles the game’s code to C# on your machine; the released builds contain no game code or data, and the disc is still needed to play. The game boots, plays, and saves, but hasn’t been played through: later missions are untested and sound effects are unverified, though cutscene dialogue and music play correctly. The intro can’t be skipped for about 20 seconds, and auto-save is off by default, as in the original, until you turn it on in Options. There’s only one release, 0.1.0 (August 24), and nothing has been tested on Windows. One of its 15 commits lists Claude as co-author."
+requirements:
+  es: "Tu propia imagen de disco estadounidense de Tenchu: Stealth Assassins (SLUS-00706), con su .cue; el launcher rechaza cualquier otra, y el volcado de referencia es la edición Greatest Hits. La BIOS es opcional. Además, Linux x86-64."
+  en: "Your own US Tenchu: Stealth Assassins disc image (SLUS-00706), with its .cue; the launcher refuses any other, and the reference dump is the Greatest Hits edition. A BIOS is optional. Plus x86-64 Linux."
+tags:
+  - mips
+  - ai-assisted

@@ -1,0 +1,22 @@
+name: Gran Turismo Sport
+category: native-layer
+console: ps4
+status: playable
+repo: mlgprorektm8/RyGT
+originalDeveloper: Polyphony Digital
+year: 2017
+forkOf:
+  label: aarvsn/Ryty
+  url: https://github.com/aarvsn/Ryty
+desc:
+  es: "RyGT: Gran Turismo Sport de PS4 (CUSA03220, actualización 1.69) como programa nativo de Windows. No se emula: su conversor transforma el ejecutable del juego en GTSport.exe, el código corre directamente en la CPU y las bibliotecas de RyGT sustituyen las del sistema de la PS4; los gráficos van a Vulkan con el renderizador de shadGT, un fork de shadPS4, compilado como la biblioteca de salida de vídeo del juego. Es un fork de Ryty, una herramienta general para portar ejecutables de PS4 y PS5, con todo lo que necesita este juego. Funcionan el arranque, los menús, la elección de coche y circuito, las carreras (a entre 42 y 60 fps, según los coches en pantalla), los resultados, el sonido, los mandos y la pantalla dividida para dos jugadores; las funciones en línea no. El editor de decoraciones funciona sin conexión con scripts que se generan desde tus archivos con las herramientas de Nenkai, y el desafío de Lewis Hamilton está desbloqueado. El launcher convierte el juego a partir de tu volcado y ofrece FSR 3.1 o FSR 1 de AMD, y DLSS si añades tus propios archivos de NVIDIA. Las versiones de prueba más recientes añaden un renderizador nativo experimental, volantes y pedales con force feedback y Linux mediante Proton. 47 de sus 100 commits llevan a Claude como coautor. La última versión estable es del 18 de octubre."
+  en: "RyGT: Gran Turismo Sport for PS4 (CUSA03220, update 1.69) as a native Windows program. It isn’t emulated: its converter turns the game’s executable into GTSport.exe, the code runs directly on the CPU, and RyGT’s libraries replace the PS4 system ones; graphics go to Vulkan through the renderer of shadGT, a shadPS4 fork, built as the game’s video output library. It’s a fork of Ryty, a general tool for porting PS4 and PS5 executables, with everything this game needs. Boot, menus, car and track selection, races (at 42–60 fps, depending on the cars on screen), results, sound, controllers, and two-player split screen work; online features don’t. The livery editor works offline with scripts generated from your files with Nenkai’s tools, and the Lewis Hamilton Challenge is unlocked. The launcher converts the game from your dump and offers AMD FSR 3.1 or FSR 1, and DLSS if you add your own NVIDIA files. The latest test builds add an experimental native renderer, racing wheels and pedals with force feedback, and Linux through Proton. 47 of its 100 commits list Claude as a co-author. The latest stable build is from October 18."
+requirements:
+  es: "Tu propio volcado descifrado de Gran Turismo Sport para PS4 (CUSA03220) con la actualización 1.69, y los módulos del sistema y las fuentes del firmware de tu propia PS4. Además, Windows de 64 bits (o Linux con Proton 10 o posterior, en las versiones de prueba) y una tarjeta gráfica con Vulkan 1.3. No se incluye ningún archivo del juego ni del firmware."
+  en: "Your own decrypted Gran Turismo Sport PS4 dump (CUSA03220) with update 1.69, plus the system modules and fonts from your own PS4’s firmware. Plus 64-bit Windows (or Linux with Proton 10 or later, in the test builds) and a Vulkan 1.3 graphics card. No game or firmware files are included."
+tags:
+  - x86
+  - vulkan
+  - racing
+  - multiplayer
+  - ai-assisted
