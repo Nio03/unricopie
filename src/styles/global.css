@@ -255,7 +255,7 @@ select { font-family: var(--mono); }
    así las celdas que sobran al final de la última fila quedan del color del panel. */
 .facts div { background: var(--panel); padding: 13px 16px; box-shadow: 0 0 0 1px var(--line); }
 .facts dt { font-family: var(--mono); font-size: 10px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 5px; }
-.facts dd { margin: 0; font-size: 15px; font-weight: 500; color: var(--ink); }
+.facts dd { margin: 0; font-size: 15px; font-weight: 500; color: var(--ink); overflow-wrap: anywhere; }
 .detail .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
 .tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
 .tg { font-family: var(--mono); font-size: 11px; color: var(--ink-2); border: 1px solid var(--line-2); border-radius: 4px; padding: 3px 8px; }

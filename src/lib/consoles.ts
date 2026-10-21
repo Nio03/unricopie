@@ -38,7 +38,8 @@ export const CONSOLES = {
   arcade: { label: 'Arcade', tag: 'ARC', full: 'Arcade board', arch: '—', color: '#B8873B' },
   // Juegos de MS-DOS: van aparte de «pc» para que tengan su propia página.
   dos: { label: 'DOS', tag: 'DOS', full: 'MS-DOS', arch: 'x86', color: '#5C7CFA' },
-  pc: { label: 'PC', tag: 'PC', full: 'PC', arch: 'x86', color: '#6C7193' },
+  // Juegos de Windows (la clave sigue siendo «pc» para no cambiar datos ni URLs).
+  pc: { label: 'Windows', tag: 'WIN', full: 'Microsoft Windows', arch: 'x86', color: '#6C7193' },
   other: { label: 'Other', tag: 'ETC', full: 'Other platform', arch: '—', color: '#9AA0B5' },
 } as const;
 

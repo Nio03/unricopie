@@ -17,9 +17,9 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const APPLY = process.argv.includes("--apply");
 
 const ORDER = {
-  recomps: ["name", "console", "status", "repo", "repoUrl", "homepage", "author", "originalDeveloper", "year", "progress", "toolchain", "desc", "tags", "links", "featured", "enrich"],
-  tools: ["name", "kind", "consoles", "repo", "repoUrl", "homepage", "author", "status", "ours", "desc", "tags", "links", "featured", "enrich"],
-  ports: ["name", "category", "console", "status", "repo", "repoUrl", "homepage", "author", "originalDeveloper", "engine", "year", "desc", "tags", "links", "featured", "enrich"],
+  recomps: ["name", "console", "status", "repo", "repoUrl", "homepage", "author", "authorFormerly", "originalDeveloper", "year", "progress", "toolchain", "desc", "tags", "links", "featured", "enrich"],
+  tools: ["name", "kind", "consoles", "repo", "repoUrl", "homepage", "author", "authorFormerly", "status", "ours", "desc", "tags", "links", "featured", "enrich"],
+  ports: ["name", "category", "console", "status", "repo", "repoUrl", "homepage", "author", "authorFormerly", "originalDeveloper", "engine", "year", "desc", "tags", "links", "featured", "enrich"],
 };
 
 // tags que no aportan nada (basura o ruido editorial)

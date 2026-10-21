@@ -24,7 +24,8 @@ interface Props {
 const { lang, type, entry } = Astro.props;
 const d: any = entry.data;
 const s = d.enrich === false ? {} : statFor(d.repo);
-const ownerName: string = d.author ?? (typeof d.repo === "string" ? d.repo.split("/")[0] : "—");
+const ownerName: string = (d.author ?? (typeof d.repo === "string" ? d.repo.split("/")[0] : "—"))
+  + (d.authorFormerly ? ` (${t(lang, "detail.fact.formerly", { name: d.authorFormerly })})` : "");
 const decompPct: number | null = d.decomp ? statFor(d.decomp).decompPercent ?? null : null;
 
 // Mismo aviso de "parado" que en las tarjetas, con la regla unica de status.ts:

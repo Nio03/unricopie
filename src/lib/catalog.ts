@@ -98,7 +98,7 @@ export function recompItem(e: CollectionEntry<"recomps">, lang: Lang): Item {
     consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("recomp", d, s),
-    search: [d.name, d.repo, d.author, cm.label, cm.full, ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
+    search: [d.name, d.repo, d.author, d.authorFormerly, cm.label, cm.full, ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
 
@@ -115,7 +115,7 @@ export function toolItem(e: CollectionEntry<"tools">, lang: Lang): Item {
     status: ts && d.status ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
     consoleKeys: d.consoles, repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("tool", d, s),
-    search: [d.name, d.repo, d.author, t(lang, `toolkind.${d.kind}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
+    search: [d.name, d.repo, d.author, d.authorFormerly, t(lang, `toolkind.${d.kind}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
 
@@ -134,7 +134,7 @@ export function portItem(e: CollectionEntry<"ports">, lang: Lang): Item {
     consoleKeys: d.console ? [d.console] : [], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
     tags: [...(d.engine ? [d.engine] : []), ...d.tags], featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("port", d, s),
-    search: [d.name, d.repo, d.author, d.engine, cm?.label, t(lang, `category.${d.category}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
+    search: [d.name, d.repo, d.author, d.authorFormerly, d.engine, cm?.label, t(lang, `category.${d.category}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
 
@@ -150,7 +150,7 @@ export function decompItem(e: CollectionEntry<"decomps">, lang: Lang): Item {
     consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     ...metric(d, lang),
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("decomp", d, s),
-    search: [d.name, d.repo, cm.label, cm.full, ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
+    search: [d.name, d.repo, d.authorFormerly, cm.label, cm.full, ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
 
@@ -168,7 +168,7 @@ export function modItem(e: CollectionEntry<"mods">, lang: Lang): Item {
     status: ts && d.status ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
     consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("mod", d, s),
-    search: [d.name, d.repo, d.author, d.game[lang], cm.label, t(lang, `modkind.${d.kind}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
+    search: [d.name, d.repo, d.author, d.authorFormerly, d.game[lang], cm.label, t(lang, `modkind.${d.kind}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }
 

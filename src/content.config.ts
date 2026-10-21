@@ -36,6 +36,9 @@ const recomps = defineCollection({
     homepage: z.string().url().optional(),
     forkOf,
     author: z.string().optional(),
+    // Nombre anterior del autor o dueño del repo, si el repo cambió de dueño:
+    // la ficha lo muestra como «(anteriormente X)» / «(formerly X)».
+    authorFormerly: z.string().optional(),
     originalDeveloper: z.string().optional(),
     year: z.number().int().gte(1970).lte(2100).optional(),
     progress: z.number().min(0).max(100).optional(),
@@ -70,6 +73,7 @@ const mods = defineCollection({
     homepage: z.string().url().optional(),
     forkOf,
     author: z.string().optional(),
+    authorFormerly: z.string().optional(),
     status: z.enum(['experimental', 'beta', 'usable', 'stable']).optional(),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),
@@ -94,6 +98,7 @@ const tools = defineCollection({
     homepage: z.string().url().optional(),
     forkOf,
     author: z.string().optional(),
+    authorFormerly: z.string().optional(),
     status: z.enum(['experimental', 'beta', 'usable', 'stable']).optional(),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),
@@ -117,6 +122,8 @@ const ports = defineCollection({
     // game-engine: un motor hecho para un solo juego que ejecuta su codigo
     // original (en un interprete propio o recompilado en parte), reimplementa el
     // hardware y va pasando funciones a codigo nativo. Ej.: lp-engine (LovePlus+).
+    // Tambien los motores hechos a imagen de un solo juego, que no ejecutan su
+    // codigo pero sirven para jugarlo y crear juegos nuevos. Ej.: ZQuest Classic.
     category: z.enum(['decomp-port', 'fan-remake', 'native-layer', 'game-engine']),
     console: consoleEnum.optional(),
     status: z.enum(['experimental', 'playable', 'fully']).default('playable'),
@@ -127,6 +134,7 @@ const ports = defineCollection({
     homepage: z.string().url().optional(),
     forkOf,
     author: z.string().optional(),
+    authorFormerly: z.string().optional(),
     originalDeveloper: z.string().optional(),
     engine: z.string().optional(),
     decomp: z.string().optional(), // "owner/repo" del proyecto en decomp.dev (progreso en vivo)
@@ -149,6 +157,7 @@ const decomps = defineCollection({
     repo: repoSlug.optional(),
     repoUrl: z.string().url().optional(),
     forkOf,
+    authorFormerly: z.string().optional(),
     decomp: z.string().optional(),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),
