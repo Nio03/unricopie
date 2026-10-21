@@ -122,8 +122,6 @@ const ports = defineCollection({
     // game-engine: un motor hecho para un solo juego que ejecuta su codigo
     // original (en un interprete propio o recompilado en parte), reimplementa el
     // hardware y va pasando funciones a codigo nativo. Ej.: lp-engine (LovePlus+).
-    // Tambien los motores hechos a imagen de un solo juego, que no ejecutan su
-    // codigo pero sirven para jugarlo y crear juegos nuevos. Ej.: ZQuest Classic.
     category: z.enum(['decomp-port', 'fan-remake', 'native-layer', 'game-engine']),
     console: consoleEnum.optional(),
     status: z.enum(['experimental', 'playable', 'fully']).default('playable'),
