@@ -1,0 +1,16 @@
+name: "GoldenEye 007 XBLA (GoldenEye Metal)"
+console: x360
+status: playable
+repo: ysrdevs/goldeneye-metal
+originalDeveloper: Rare
+toolchain: ReXGlue
+desc:
+  es: "GoldenEye Metal: port nativo para Mac con Apple Silicon de la remasterización cancelada de GoldenEye 007 para Xbox 360 (XBLA). El código del juego se recompila de antemano para ARM64 y un runtime de compatibilidad aporta las API de la Xbox 360; los gráficos no pasan por Vulkan ni MoltenVK: los shaders de Xenos se traducen y se dibujan directamente con Metal. Está construido sobre un fork de ReXGlue y sobre el código de integración de GoldenEye-Recomp, el port para Windows de SunJaycy que también está en el catálogo, y añade el renderizador Metal, un launcher para macOS que importa tus archivos una sola vez, gestión de partidas guardadas, un modo seguro tras un cierre inesperado y exportación de diagnósticos. Se juega la campaña y el multijugador local a pantalla partida de dos a cuatro jugadores, con teclado y ratón o mandos modernos reasignables, y se puede cambiar en plena partida entre los gráficos originales y los remasterizados. Dibuja internamente a 1280×720 y escala a la ventana con MetalFX o con filtros; en un M3 Ultra midieron una media de 59,85 fps en Dam. Tiene una página de pruebas con 14 trucos y desbloqueo de niveles. La 0.5.1 salió el 9 de octubre. El código para Windows y Linux existe, pero sus cambios no están comprobados allí."
+  en: "GoldenEye Metal: a native Apple silicon Mac port of the canceled GoldenEye 007 remaster for Xbox 360 (XBLA). The game’s code is recompiled ahead of time for ARM64, and a compatibility runtime provides the Xbox 360 APIs; graphics skip Vulkan and MoltenVK entirely: the Xenos shaders are translated and drawn directly with Metal. It’s built on a fork of ReXGlue and on the game integration code of GoldenEye-Recomp, SunJaycy’s Windows port also in the catalog, and adds the Metal renderer, a macOS launcher that imports your files once, save management, a safe mode after a crash, and diagnostic export. The campaign and two- to four-player local split-screen are playable, with keyboard and mouse or modern controllers with remapping, and you can switch between the original and remastered graphics mid-game. It renders internally at 1280×720 and scales to the window with MetalFX or filters; on an M3 Ultra it averaged 59.85 fps in Dam. It has a testing page with 14 cheats and level unlocks. Version 0.5.1 came out on October 9. Code for Windows and Linux exists, but the project’s changes aren’t verified there."
+requirements:
+  es: "Tus propios archivos de GoldenEye 007 XBLA para Xbox 360: el ZIP de la copia de seguridad, el paquete STFS de Xbox Live que va dentro o una carpeta con default.xex, files/, music.xwb y sfx.xwb; el launcher comprueba que sea la revisión admitida. Además, un Mac con Apple Silicon y macOS 14 o posterior."
+  en: "Your own GoldenEye 007 XBLA files for Xbox 360: the backup ZIP, the Xbox Live STFS package inside it, or a folder with default.xex, files/, music.xwb, and sfx.xwb; the launcher checks it’s the supported revision. Plus an Apple silicon Mac with macOS 14 or later."
+tags:
+  - powerpc
+  - fps
+  - multiplayer

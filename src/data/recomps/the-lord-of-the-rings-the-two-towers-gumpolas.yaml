@@ -1,0 +1,19 @@
+name: "The Lord of the Rings: The Two Towers (Gumpolas)"
+console: xbox
+status: fully
+repo: Gumpolas/TooTawersRecomp
+originalDeveloper: Stormfront Studios
+year: 2002
+toolchain: xboxrecomp
+desc:
+  es: "The Two Towers Recompiled: port nativo de la versión estadounidense de Xbox por recompilación estática con xboxrecomp, independiente del que trae Athelas. Funciona en Windows y Linux, y en macOS de forma experimental (Intel, o Apple Silicon con Rosetta 2). Dibuja con Direct3D 11, Vulkan (DXVK, incluido) u OpenGL, con resolución interna de 1x a 12x, de 4:3 a 32:9 con el HUD en los bordes y escenas panorámicas, MSAA, FXAA y filtrado anisótropo. Va a 30 fps como en la Xbox o a 60, 75, 90, 100, 120, 144, 165, 200, 240 o 300, o sin límite de forma experimental. Tiene teclado y ratón con todo reasignable, apuntado y dirección con el ratón, mandos con vibración, páginas de opciones dentro del juego y un panel de ajustes (F10). Traduce todos los textos del juego, subtítulos incluidos, a 33 idiomas además del inglés. Sus «Ultra textures» traen los menús, textos y HUD del juego reescalados al 4x y pueden usar el paquete de texturas de GameCube GLOS69, que se descarga aparte. Incluye como mods el HUD de la demo de la ECTS 2002, botiquines naranjas y siete héroes jugables nuevos. Su README dice que se puede jugar entero, aunque no todo funciona aún perfectamente. La 1.9.5 (21 de octubre) pasó más partes del juego a código nativo y corrigió fallos a muchos fotogramas por segundo y cortes de sonido. Dos de sus commits, los de las versiones 1.9.2 y 1.9.4, llevan a Claude como coautor. El repositorio y la descarga incluyen las traducciones de los textos del juego a esos 33 idiomas; el texto original en inglés se toma de tu copia."
+  en: "The Two Towers Recompiled: a native port of the US Xbox release by static recompilation with xboxrecomp, separate from the one in Athelas. It runs on Windows and Linux, and experimentally on macOS (Intel, or Apple silicon through Rosetta 2). It draws with Direct3D 11, Vulkan (DXVK, included), or OpenGL, with 1x–12x internal resolution, 4:3 to 32:9 with the HUD at the screen’s edges and widescreen cutscenes, MSAA, FXAA, and anisotropic filtering. It runs at 30 fps as on the Xbox, or at 60, 75, 90, 100, 120, 144, 165, 200, 240, or 300, or experimentally uncapped. It has keyboard and mouse with everything rebindable, mouse aiming and steering, controllers with rumble, in-game options pages, and a settings panel (F10). It translates every text in the game, subtitles included, into 33 languages besides English. Its “Ultra textures” bring the game’s menus, text, and HUD upscaled 4x and can use the GLOS69 GameCube texture pack, downloaded separately. It includes as mods the ECTS 2002 demo’s HUD, orange health pickups, and seven new playable heroes. Its README says the game is fully playable, though not everything works perfectly yet. Version 1.9.5 (October 21) moved more of the game to native code and fixed bugs at high frame rates and sound dropouts. Two of its commits, those for versions 1.9.2 and 1.9.4, list Claude as co-author. The repository and the download include the translations of the game’s text into those 33 languages; the original English text is taken from your copy."
+requirements:
+  es: "Tu propia copia estadounidense de The Two Towers para Xbox, como imagen ISO o carpeta extraída. Además, Windows 7 SP1, 8.1, 10 u 11 de 64 bits, Linux de 64 bits con glibc 2.27 o posterior, o macOS 10.15 o posterior."
+  en: "Your own US copy of The Two Towers for Xbox, as an ISO image or an extracted folder. Plus 64-bit Windows 7 SP1, 8.1, 10, or 11, 64-bit Linux with glibc 2.27 or later, or macOS 10.15 or later."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

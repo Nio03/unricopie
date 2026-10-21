@@ -1,0 +1,18 @@
+name: "GoldenEye 007 XBLA (CaiusCodes)"
+console: x360
+status: playable
+repo: CaiusCodes/GoldenEye-007-XBLA-PC-Recomp
+originalDeveloper: Rare
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la remasterización de GoldenEye 007 para Xbox Live Arcade que nunca salió, por recompilación estática con ReXGlue. Continúa GoldenEye Recomp, de SunJaycy, que también está en el catálogo y no se actualiza desde junio, y le suma los arreglos de la comunidad (de mrfox-1 y de BeanTools Community Edition) y los suyos propios. Un único programa portátil comprueba tu paquete de XBLA la primera vez, importa de él los datos del juego y desde entonces arranca directamente. Va a 60 fps estables, la velocidad propia del juego, en ventana de 1024×768 a 3840×2160 o a pantalla completa, con escala de renderizado de 1x a 3x, formatos 16:9 y 21:9, campo de visión hasta 30 grados más amplio y una tecla para cambiar entre los gráficos originales y los mejorados. Tiene teclado y ratón con controles reasignables, mando de Xbox, un menú de opciones dentro del juego y multijugador por LAN, también en línea mediante servicios de LAN virtual como Radmin VPN, ZeroTier, Tailscale o Hamachi. Corrige, entre otros, fallos de la música, puertas y zonas de los mapas multijugador Frigate y Bunker y los disparos de escopeta en multijugador, y usa Vulkan en las tarjetas de AMD porque con ellas Direct3D 12 se cierra. Al instalar se puede desbloquear, si quieres, el juego al 100 %. La 0.9.6a (21 de octubre) hizo que la escala de renderizado funcionara de verdad y corrigió una pantalla congelada o negra. 39 de sus 47 commits llevan a Claude como coautor."
+  en: "A native Windows port of the unreleased Xbox Live Arcade remaster of GoldenEye 007, by static recompilation with ReXGlue. It continues SunJaycy’s GoldenEye Recomp, also in the catalog and not updated since June, adding community fixes (from mrfox-1 and BeanTools Community Edition) and its own. A single portable program checks your XBLA package the first time, imports the game data from it, and from then on starts the game directly. It runs at a steady 60 fps, the game’s own rate, windowed from 1024×768 to 3840×2160 or fullscreen, with a 1x–3x render scale, 16:9 and 21:9, a field of view up to 30° wider, and a key to switch between the original and enhanced graphics. It has keyboard and mouse with rebindable controls, Xbox controllers, an in-game options menu, and LAN multiplayer, also online through virtual LAN services such as Radmin VPN, ZeroTier, Tailscale, or Hamachi. Among other things it fixes music bugs, doors and areas in the Frigate and Bunker multiplayer maps, and shotgun shots in multiplayer, and it uses Vulkan on AMD cards because Direct3D 12 crashes on them. Setup can optionally unlock 100% completion. 0.9.6a (October 21) made the render scale actually work and fixed a frozen or black screen. 39 of its 47 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de GoldenEye 007 para Xbox 360 (Title ID 584108A9), con el ejecutable exacto del que se recompiló: el instalador rechaza otras versiones. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con DirectX 12."
+  en: "Your own GoldenEye 007 Xbox Live Arcade package for Xbox 360 (Title ID 584108A9), with the exact executable it was recompiled from: setup rejects other builds. Plus 64-bit Windows 10 or 11 and a DirectX 12 graphics card."
+tags:
+  - powerpc
+  - fps
+  - widescreen
+  - multiplayer
+  - ai-assisted

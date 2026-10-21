@@ -3,5 +3,7 @@ console: pc
 repo: openblack/bw1-decomp
 decomp: openblack/bw1-decomp
 desc:
-  es: "Decompilación en curso de Black & White (Lionhead Studios, 2001) para PC, a partir de la plantilla dtk adaptada a los formatos PE/COFF de Windows y PEF del Mac clásico. Admite las versiones 1.00, 1.10 y 1.20 de Windows (MSVC 6.0); la 1.30, Creature Isle y cuatro versiones para Mac OS clásico con PowerPC siguen en marcha."
-  en: "Work-in-progress decompilation of Black & White (Lionhead Studios, 2001) for PC, built on the dtk template adapted for Windows PE/COFF and Classic Mac OS PEF. It supports Windows versions 1.00, 1.10, and 1.20 (MSVC 6.0); version 1.30, Creature Isle, and four Classic Mac OS PowerPC builds are still in progress."
+  es: "Decompilación en curso de Black & White (Lionhead Studios, 2001) para PC, a partir de la plantilla dtk adaptada a los formatos PE/COFF de Windows y PEF del Mac clásico. Admite las versiones 1.00, 1.10 y 1.20 de Windows (MSVC 6.0); la 1.30, Creature Isle y cuatro versiones para Mac OS clásico con PowerPC siguen en marcha. 76 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Work-in-progress decompilation of Black & White (Lionhead Studios, 2001) for PC, built on the dtk template adapted for Windows PE/COFF and Classic Mac OS PEF. It supports Windows versions 1.00, 1.10, and 1.20 (MSVC 6.0); version 1.30, Creature Isle, and four Classic Mac OS PowerPC builds are still in progress. 76 of its last 100 commits list Claude as a co-author."
+tags:
+  - ai-assisted

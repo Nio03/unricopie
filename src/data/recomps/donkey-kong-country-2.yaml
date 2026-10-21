@@ -6,14 +6,15 @@ originalDeveloper: Rare
 year: 1995
 toolchain: snesrecomp
 desc:
-  es: "El recomp original de DKC2, surgido como subproducto del desarrollo de snesrecomp: el programa del 65816 se traduce a C allí donde el análisis puede demostrar el estado de entrada exacto (3475 variantes compiladas por adelantado), y un intérprete del 65816 compartido cubre el resto. Su autor lo considera una versión previa sin terminar. Hoy el más activo y usado es el fork de elliotttate, que añade una versión nativa para macOS en Apple Silicon y la opción de jugar con Donkey o con Kiddy Kong."
-  en: "The original DKC2 recomp, a byproduct of developing snesrecomp: the 65816 program is translated to C wherever the analysis can prove an exact entry state (3,475 ahead-of-time variants), and a shared 65816 interpreter covers the rest. Its author calls it an unfinished pre-release. Today the elliotttate fork is the actively developed and more widely used one: it adds a native Apple Silicon macOS build and the option to play as Donkey or Kiddy Kong."
+  es: "El recomp original de DKC2, surgido como subproducto del desarrollo de snesrecomp: el programa del 65816 se traduce a C allí donde el análisis puede demostrar el estado de entrada exacto (3475 variantes compiladas por adelantado), y un intérprete del 65816 compartido cubre el resto. Su autor lo considera una versión previa sin terminar. Hoy el más activo y usado es el fork de elliotttate, que añade una versión nativa para macOS en Apple Silicon y la opción de jugar con Donkey o con Kiddy Kong. Uno de sus 29 commits lleva a Claude como coautor."
+  en: "The original DKC2 recomp, a byproduct of developing snesrecomp: the 65816 program is translated to C wherever the analysis can prove an exact entry state (3,475 ahead-of-time variants), and a shared 65816 interpreter covers the rest. Its author calls it an unfinished pre-release. Today the elliotttate fork is the actively developed and more widely used one: it adds a native Apple Silicon macOS build and the option to play as Donkey or Kiddy Kong. One of its 29 commits lists Claude as a co-author."
 requirements:
   es: "Tu propia ROM de Donkey Kong Country 2 (SNES, versión estadounidense 1.0)."
   en: "Your own Donkey Kong Country 2 ROM (SNES, US version 1.0)."
 tags:
   - "65816"
   - rare
+  - ai-assisted
 links:
   - label:
       es: "Fork de elliotttate (activo, macOS)"

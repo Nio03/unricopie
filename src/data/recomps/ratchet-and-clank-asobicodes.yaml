@@ -1,0 +1,19 @@
+name: Ratchet & Clank (rac-rs)
+console: ps2
+status: fully
+repo: AsobiCodes/rac-rs
+homepage: https://asobicodes.dev
+originalDeveloper: Insomniac Games
+year: 2002
+desc:
+  es: "rac-rs: port no oficial para Windows escrito en Rust. Al instalarlo traduce a Rust el código de PS2 de tu disco (recompilación estática), y ese código se ejecuta sobre un núcleo de CPU de PS2 escrito también en Rust; los gráficos, el sonido, los vídeos, los controles y las partidas guardadas son código nativo hecho para el port. Solo se reescriben en Rust las funciones originales que necesitan un arreglo o una función de PC, y los cambios se prueban ejecutando los mismos fotogramas en las dos versiones y comparando la memoria del juego. Según su autor se juega entero, desde el encendido hasta los créditos, con la Nueva partida+ incluida. Añade panorámica, teclado y ratón, mandos de Xbox y de PlayStation, tres estilos de cámara (el clásico, uno fijo con vista libre y movimiento lateral, y uno suave), fijación de objetivo, controles reasignables y una página de gráficos con niveles de calidad para iluminación mejorada, iluminación global, oclusión ambiental, sombras dinámicas, agua con olas y reflejos, vegetación, partículas, rayos de sol, distancia de dibujado, fotogramas intermedios y un HUD nítido; los ajustes «Classic» mantienen el aspecto de PS2. El instalador descarga su propia copia de Rust, Python y el ensamblador de GNU (unos 220 MB), compila el juego en unos 12 a 30 minutos según el procesador y busca actualizaciones al arrancar. La 0.3.0 salió el 21 de octubre. Nueve de sus doce commits llevan a Claude como coautor."
+  en: "rac-rs: an unofficial Windows port written in Rust. On setup it translates the PS2 code from your disc into Rust (static recompilation), and that code runs on a PS2 CPU core also written in Rust; graphics, sound, movies, input, and saving are native code written for the port. Only the original functions that need a fix or a PC feature are rewritten in Rust, and changes are tested by playing the same frames on both versions and comparing the game’s memory. According to its author, the whole game is playable from power-on to the end credits, New Game+ included. It adds widescreen, keyboard and mouse, Xbox and PlayStation controllers, three camera styles (the classic one, a static one with free look and strafing, and a smooth one), lock-on, rebindable controls, and a graphics page with quality levels for enhanced lighting, global illumination, ambient occlusion, dynamic shadows, water with waves and reflections, vegetation, particles, sun rays, draw distance, in-between frames, and a sharp HUD; the “Classic” settings keep the PS2 look. Setup downloads its own copy of Rust, Python, and the GNU assembler (about 220 MB), builds the game in about 12 to 30 minutes depending on the CPU, and checks for updates at launch. Version 0.3.0 came out on October 21. Nine of its twelve commits list Claude as co-author."
+requirements:
+  es: "Tu propia imagen .iso del disco de Ratchet & Clank para PS2, europeo v1.00 (SCES-50916) o estadounidense v1.00 (SCUS-97199); la estadounidense se ha probado menos, y no admite la japonesa ni las reediciones Platinum y Greatest Hits. Además, Windows 10 u 11 de 64 bits, unos 5 GB libres (la instalación terminada ocupa unos 3,5 GB) y conexión a internet para la primera instalación."
+  en: "Your own .iso image of the Ratchet & Clank PS2 disc, European v1.00 (SCES-50916) or US v1.00 (SCUS-97199); the US one has had less testing, and the Japanese release and the Platinum and Greatest Hits reissues aren’t supported. Plus 64-bit Windows 10 or 11, about 5 GB of free space (the finished install takes about 3.5 GB), and an internet connection for the first setup."
+tags:
+  - emotion-engine
+  - rust
+  - widescreen
+  - 60fps+
+  - ai-assisted

@@ -4,8 +4,10 @@ status: playable
 repo: mstan/MegaManX6Recomp
 toolchain: psxrecomp
 desc:
-  es: "Recompilación nativa de Mega Man X6 (versión estadounidense) para PC con psxrecomp. Arranca desde la BIOS y llega a los niveles. Forma parte del ecosistema R.A.I.D."
-  en: "Native recompilation of Mega Man X6 (US version) for PC with psxrecomp. It boots from the BIOS and reaches the stages. Part of the R.A.I.D. ecosystem."
+  es: "Recompilación nativa de Mega Man X6 (versión estadounidense) para PC con psxrecomp. Arranca desde la BIOS y llega a los niveles. Forma parte del ecosistema R.A.I.D. 20 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Native recompilation of Mega Man X6 (US version) for PC with psxrecomp. It boots from the BIOS and reaches the stages. Part of the R.A.I.D. ecosystem. 20 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Una imagen de disco de Mega Man X6 (PS1, versión estadounidense)."
   en: "A disc image of Mega Man X6 (PS1, US version)."
+tags:
+  - ai-assisted

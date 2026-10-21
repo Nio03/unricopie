@@ -1,0 +1,16 @@
+name: "Gears of War: Judgment"
+console: x360
+status: playable
+repo: OverkillLabs3/gears-judgement-recomp
+originalDeveloper: People Can Fly / Epic Games
+year: 2013
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión de Xbox 360: el programa PowerPC del juego se traduce a C++ por adelantado con el SDK de ReXGlue y corre sobre su capa emulada de gráficos y sistema de la Xbox 360. Añade teclado y ratón que entran directamente en los controles del propio juego, con vista con ratón sin suavizado ni aceleración y todas las acciones reasignables, límite de 60 fps o fotogramas sin límite (quitando el tope de 62 del juego), SMAA y FSR 1.0, calidad automática según tu tarjeta gráfica, campo de visión y distancia de dibujado ajustables, una caché de shaders en disco, un menú de ajustes dentro del juego (F4) y una ventana de ajustes aparte. Desactiva por defecto el grano de película, el desenfoque de movimiento y el FXAA del juego, y ofrece como opciones los parches de la comunidad de xenia-canary para este juego. Dibuja a 720p por defecto, con 1440p como opción experimental. Su autor la presenta como una versión temprana: la campaña arranca y se juega, pero se ha probado sobre todo su primera parte y en un solo equipo, y el multijugador y las funciones en línea no funcionan. La 0.2.1 (11 de octubre) arregló la carga de partidas y añadió la elección de idioma entre los doce del disco."
+  en: "A native Windows build of the Xbox 360 version: the game’s PowerPC program is translated to C++ ahead of time with the ReXGlue SDK and runs on its emulated Xbox 360 graphics and system layer. It adds keyboard and mouse input that goes straight into the game’s own controls, with mouse look free of smoothing and acceleration and every action rebindable, a 60 fps limit or an unlocked frame rate (lifting the game’s 62 fps cap), SMAA and FSR 1.0, automatic quality based on your graphics card, adjustable field of view and draw distance, an on-disk shader cache, an in-game settings menu (F4), and a separate settings window. It turns off the game’s film grain, motion blur, and FXAA by default, and offers the xenia-canary community patches for this game as options. It renders at 720p by default, with 1440p as an experimental option. Its author presents it as an early release: the campaign boots and plays, but testing has mostly covered its first part and a single PC, and multiplayer and online features don’t work. Version 0.2.1 (October 11) fixed loading saves and added a choice among the twelve languages on the disc."
+requirements:
+  es: "La carpeta de tu propia copia comercial de Gears of War: Judgment para Xbox 360 (Title ID 4D530A26), con el default.xex y la carpeta GearGame; ocupa unos 7 GB. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con DirectX 12, 8 GB de RAM y un procesador rápido, porque el juego está limitado por la CPU: unos 90 a 110 fps sin límite con un Ryzen 7 5800X3D."
+  en: "The folder from your own retail copy of Gears of War: Judgment for Xbox 360 (title ID 4D530A26), with default.xex and the GearGame folder; it takes about 7 GB. Plus 64-bit Windows 10 or 11, a DirectX 12 graphics card, 8 GB of RAM, and a fast CPU, since the game is CPU-limited: about 90–110 fps unlocked on a Ryzen 7 5800X3D."
+tags:
+  - powerpc
+  - 60fps+

@@ -4,8 +4,10 @@ status: experimental
 repo: chronic8000/WaveRace64Recompiled
 toolchain: N64Recomp
 desc:
-  es: "Port nativo de Wave Race 64 mediante recompilación estática. Está en una fase muy temprana y todavía no se puede jugar."
-  en: "Native Wave Race 64 port via static recompilation. Very early, and not playable yet."
+  es: "Port nativo de Wave Race 64 mediante recompilación estática. Está en una fase muy temprana y todavía no se puede jugar. Uno de sus 2 commits lleva a Cursor como coautor."
+  en: "Native Wave Race 64 port via static recompilation. Very early, and not playable yet. One of its 2 commits lists Cursor as a co-author."
 requirements:
   es: Una ROM de Wave Race 64 (N64, .z64).
   en: A Wave Race 64 ROM (N64, .z64).
+tags:
+  - ai-assisted

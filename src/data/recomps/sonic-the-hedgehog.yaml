@@ -7,10 +7,11 @@ originalDeveloper: Sonic Team
 year: 1991
 toolchain: segagenesisrecomp
 desc:
-  es: "Recompilación estática de Sonic the Hedgehog de Mega Drive con segagenesisrecomp: el código 68000 de la ROM se traduce a C y corre sobre un entorno de ejecución de la consola escrito desde cero. Green Hill Zone se puede completar entera, con sus tres actos y el jefe; las zonas siguientes funcionan solo en parte. Tiene un lanzador que verifica tu ROM, controles reasignables para dos jugadores y modo panorámico experimental. Hay versión para Windows y otras experimentales para Linux y macOS."
-  en: "Static recompilation of Sonic the Hedgehog for the Mega Drive with segagenesisrecomp: the ROM’s 68000 code is translated to C and runs on a console runtime written from scratch. Green Hill Zone can be completed in full, all three acts and the boss; later zones only partly work. It has a launcher that verifies your ROM, rebindable two-player controls, and an experimental widescreen mode. There’s a Windows build, plus experimental Linux and macOS ones."
+  es: "Recompilación estática de Sonic the Hedgehog de Mega Drive con segagenesisrecomp: el código 68000 de la ROM se traduce a C y corre sobre un entorno de ejecución de la consola escrito desde cero. Green Hill Zone se puede completar entera, con sus tres actos y el jefe; las zonas siguientes funcionan solo en parte. Tiene un lanzador que verifica tu ROM, controles reasignables para dos jugadores y modo panorámico experimental. Hay versión para Windows y otras experimentales para Linux y macOS. 66 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Static recompilation of Sonic the Hedgehog for the Mega Drive with segagenesisrecomp: the ROM’s 68000 code is translated to C and runs on a console runtime written from scratch. Green Hill Zone can be completed in full, all three acts and the boss; later zones only partly work. It has a launcher that verifies your ROM, rebindable two-player controls, and an experimental widescreen mode. There’s a Windows build, plus experimental Linux and macOS ones. 66 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Tu propia ROM de Sonic the Hedgehog (versión mundial)."
   en: "Your own Sonic the Hedgehog ROM (World version)."
 tags:
   - widescreen
+  - ai-assisted

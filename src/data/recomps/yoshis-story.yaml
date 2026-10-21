@@ -1,0 +1,17 @@
+name: "Yoshi's Story"
+console: n64
+status: playable
+repo: wootbeer/dinotale
+originalDeveloper: Nintendo EAD
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "DinoTale: recompilación estática de la versión estadounidense, hecha con N64Recomp y N64ModernRuntime, con RT64 como renderizador. Para encontrar las funciones del juego se apoya en la decompilación de decompals (su mapa de la ROM, los nombres de los símbolos y su estudio del cargador de overlays). Ofrece cuatro relaciones de aspecto: la original en 4:3, estirada, una híbrida experimental que estira los fondos y deja los sprites en el centro, y Expand, también experimental, un panorámico real hasta 16:9 que muestra más de cada nivel, con el HUD en los bordes de la ventana o en su sitio. Añade filtros de pantalla (CRT, líneas de barrido, LCD y los escaladores xBR, xBRZ y HQ2x), teclado y mando con controles reasignables y menús de opciones dentro del juego. Hay versiones para Windows y Linux, Steam Deck incluida. Aún se están probando las páginas finales y los jefes, sobre todo en Expand. La 0.1.0 salió el 11 de octubre y la última, la 0.1.6, el 21 de octubre. 80 de sus 81 commits llevan a Claude como coautor."
+  en: "DinoTale: a static recompilation of the US release, built with N64Recomp and N64ModernRuntime, with RT64 as its renderer. It builds on the decompals decompilation (its ROM layout, symbol names, and overlay loader research) to find the game’s functions. It offers four aspect ratios: the original 4:3, stretched, an experimental hybrid that stretches the backgrounds and keeps the sprites in the middle, and Expand, also experimental, true widescreen up to 16:9 that shows more of each level, with the HUD at the window edges or in its original place. It adds screen filters (CRT, scanlines, LCD, and the xBR, xBRZ, and HQ2x upscalers), keyboard and controller support with remappable controls, and in-game settings menus. There are builds for Windows and Linux, Steam Deck included. Later pages and boss fights are still being tested, especially in Expand. 0.1.0 came out on October 11 and the latest, 0.1.6, on October 21. 80 of its 81 commits list Claude as co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Yoshi's Story para N64, «Yoshi's Story (USA) (En,Ja)»; vale en cualquier orden de bytes (.z64, .n64 o .v64), también dentro de un .zip o un .7z, y se comprueba sin modificarla (SHA-1 del .z64: B13072FEF6C6DF48C07D8822C01E5BC59036F6DA). Además, Windows o Linux."
+  en: "Your own US Yoshi’s Story ROM for N64, “Yoshi’s Story (USA) (En,Ja)”; any byte order works (.z64, .n64, or .v64), also inside a .zip or .7z, and it’s checked without being modified (SHA-1 of the .z64: B13072FEF6C6DF48C07D8822C01E5BC59036F6DA). Plus Windows or Linux."
+tags:
+  - mips
+  - widescreen
+  - ai-assisted

@@ -4,8 +4,10 @@ status: experimental
 repo: jessetbh/WCWnWoRevengeRecomp
 toolchain: N64Recomp
 desc:
-  es: "Port nativo a PC de WCW/nWo Revenge mediante recompilación estática. Es el proyecto hermano del port de World Tour y está en desarrollo activo."
-  en: "Native PC port of WCW/nWo Revenge via static recompilation. A sibling of the World Tour port, in active development."
+  es: "Port nativo a PC de WCW/nWo Revenge mediante recompilación estática. Es el proyecto hermano del port de World Tour y está en desarrollo activo. 2 de sus 100 commits enlazan una sesión de Claude Code."
+  en: "Native PC port of WCW/nWo Revenge via static recompilation. A sibling of the World Tour port, in active development. 2 of its 100 commits link a Claude Code session."
 requirements:
   es: Una ROM de WCW/nWo Revenge (N64, .z64).
   en: A WCW/nWo Revenge ROM (N64, .z64).
+tags:
+  - ai-assisted

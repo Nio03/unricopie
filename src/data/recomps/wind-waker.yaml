@@ -5,12 +5,13 @@ repo: sp00nznet/ww
 originalDeveloper: Nintendo EAD
 decomp: zeldaret/tww
 desc:
-  es: "Recompilación del Wind Waker de GameCube: traduce el DOL a C nativo con un entorno de ejecución que convierte GX en Direct3D 11. Renderiza geometría real a 60 fps, pero sigue atascado en la pantalla de título (al montar JKRArchive)."
-  en: "Recompilation of the GameCube Wind Waker: it translates the DOL to native C with a runtime that maps GX to Direct3D 11. It renders real geometry at 60 fps, but is still stuck on the title screen (JKRArchive mounting)."
+  es: "Recompilación del Wind Waker de GameCube: traduce el DOL a C nativo con un entorno de ejecución que convierte GX en Direct3D 11. Renderiza geometría real a 60 fps, pero sigue atascado en la pantalla de título (al montar JKRArchive). 94 de sus 96 commits llevan a Claude como coautor."
+  en: "Recompilation of the GameCube Wind Waker: it translates the DOL to native C with a runtime that maps GX to Direct3D 11. It renders real geometry at 60 fps, but is still stuck on the title screen (JKRArchive mounting). 94 of its 96 commits list Claude as a co-author."
 requirements:
   es: "Tu propia copia de The Wind Waker (GameCube, versión estadounidense GZLE01)."
   en: "Your own copy of The Wind Waker (GameCube, US version GZLE01)."
 tags:
   - powerpc
   - custom-toolchain
+  - ai-assisted
 featured: true

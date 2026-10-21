@@ -1,0 +1,17 @@
+name: Wipeout XL
+console: ps1
+status: playable
+repo: NJH-1001/Wipeout2K97XL
+originalDeveloper: Psygnosis
+year: 1996
+toolchain: psxrecomp
+desc:
+  es: "Wipeout XL Recompiled: proyecto no oficial hecho con psxrecomp para la versión estadounidense (SCUS-94351) del juego, conocido en Europa como Wipeout 2097. Cada descarga es un kit de instalación: un asistente puede obtener CMake, Ninja y Clang, genera el código del juego a partir de tu disco y lo compila en tu equipo, con la BIOS libre OpenBIOS. Hay kits para Windows 10 y 11, Linux x64 y macOS 15 (Intel y Apple Silicon); la carrera y los mandos se han probado en Windows, el autor ha probado la versión de Linux en Steam Deck y en macOS solo se ha comprobado que compila y abre el launcher. El mando emula siempre un NeGcon, con un perfil configurable de dos sticks: dirección y acelerador analógicos, y cabeceo y aerofrenos en el stick derecho. Los mods visuales, desactivados por defecto, añaden 16:9 con OpenGL (desde la 0.1.1, del 20 de octubre, con la opción de llevar los marcadores de la carrera a los bordes), más distancia de dibujado del circuito y de las naves rivales y filtros inspirados en televisores CRT de JVC y Sony Trinitron. El renderizador por defecto es OpenGL a 4 veces la resolución interna. El juego en red no está activado."
+  en: "Wipeout XL Recompiled: an unofficial psxrecomp project for the US release (SCUS-94351) of the game known in Europe as Wipeout 2097. Each download is a setup kit: a wizard can fetch CMake, Ninja, and Clang, generates the game code from your disc, and compiles it on your machine, with the free OpenBIOS. There are kits for Windows 10 and 11, x64 Linux, and macOS 15 (Intel and Apple Silicon); racing and controllers have been tested on Windows, the author has tested the Linux build on Steam Deck, and on macOS only the build and launcher have been checked. The controller always emulates a NeGcon, with a configurable dual-stick preset: analog steering and throttle, with pitch and air brakes on the right stick. The visual mods, off by default, add 16:9 with OpenGL (since 0.1.1, from October 20, with an option to move the race HUD out to the edges), longer draw distance for the track and the enemy ships, and CRT filters inspired by JVC and Sony Trinitron TVs. The default renderer is OpenGL at 4x internal resolution. Netplay isn’t enabled."
+requirements:
+  es: "Tu propia imagen estadounidense de Wipeout XL (SCUS-94351) al estilo de Redump: el .cue y las 12 pistas .bin (MD5 de la pista 01: bee4ab5e4835235ccf6f16bc8caea5e6). No admite otras regiones ni revisiones. Además, Python 3.11 o posterior y espacio para el disco y una compilación local, en Windows 10 u 11 de 64 bits, Linux x64 o macOS 15."
+  en: "Your own US Wipeout XL disc image (SCUS-94351) in Redump style: the .cue and all 12 .bin tracks (track 01 MD5: bee4ab5e4835235ccf6f16bc8caea5e6). Other regions and revisions aren’t supported. Plus Python 3.11 or later and room for the disc and a local build, on 64-bit Windows 10 or 11, x64 Linux, or macOS 15."
+tags:
+  - mips
+  - racing
+  - widescreen

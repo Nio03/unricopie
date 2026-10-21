@@ -3,7 +3,8 @@ console: ps1
 repo: Caesar0007/NFSHS-PSX-decomp
 decomp: Caesar0007/NFSHS-PSX-decomp
 desc:
-  es: "Decompilación exacta de la versión de PlayStation de Need for Speed: High Stakes (EA, 1999), con la misma estructura que el proyecto de decompilación de Silent Hill. El repositorio no tiene licencia abierta (todos los derechos reservados), y solo reconoce como autorizado el port de XProger."
-  en: "Matching decompilation of the PlayStation version of Need for Speed: High Stakes (EA, 1999), modeled on the Silent Hill decomp project’s layout. The repository carries no open license (all rights reserved), and the only port it recognizes as authorized is XProger’s."
+  es: "Decompilación exacta de la versión de PlayStation de Need for Speed: High Stakes (EA, 1999), con la misma estructura que el proyecto de decompilación de Silent Hill. El repositorio no tiene licencia abierta (todos los derechos reservados), y solo reconoce como autorizado el port de XProger. 19 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Matching decompilation of the PlayStation version of Need for Speed: High Stakes (EA, 1999), modeled on the Silent Hill decomp project’s layout. The repository carries no open license (all rights reserved), and the only port it recognizes as authorized is XProger’s. 19 of its last 100 commits list Claude as a co-author."
 tags:
   - matching
+  - ai-assisted

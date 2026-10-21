@@ -6,13 +6,14 @@ originalDeveloper: Namco
 year: 1997
 toolchain: psxrecomp
 desc:
-  es: "Recompilación estática del plataformas 2.5D de Namco, construida sobre psxrecomp y recomp-ui. Se puede usar por sí sola desde el zip de la versión publicada o gestionarla con RetComM Launcher, del mismo autor, que automatiza las actualizaciones, las compilaciones y la configuración de la ROM y la BIOS."
-  en: "Static recompilation of Namco’s 2.5D platformer, built on psxrecomp and recomp-ui. It runs standalone from the release zip, or it can be managed with RetComM Launcher, by the same author, which automates updates, builds, and the ROM and BIOS setup."
+  es: "Recompilación estática del plataformas 2.5D de Namco, construida sobre psxrecomp y recomp-ui. Se puede usar por sí sola desde el zip de la versión publicada o gestionarla con RetComM Launcher, del mismo autor, que automatiza las actualizaciones, las compilaciones y la configuración de la ROM y la BIOS. 2 de sus 42 commits llevan a Claude como coautor."
+  en: "Static recompilation of Namco’s 2.5D platformer, built on psxrecomp and recomp-ui. It runs standalone from the release zip, or it can be managed with RetComM Launcher, by the same author, which automates updates, builds, and the ROM and BIOS setup. 2 of its 42 commits list Claude as a co-author."
 requirements:
   es: "Tu propia imagen de disco de Klonoa: Door to Phantomile (edición estadounidense). Usa OpenBIOS, salvo que aportes tu propia BIOS SCPH."
   en: "Your own Klonoa: Door to Phantomile disc image (US edition). It uses OpenBIOS unless you supply your own SCPH BIOS."
 tags:
   - mips
+  - ai-assisted
 links:
   - label: RetComM Launcher
     url: https://github.com/TechnicallyComputers/RetComM-Launcher

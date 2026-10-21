@@ -1,0 +1,17 @@
+name: Shadow Tower
+console: ps1
+status: experimental
+repo: JFryy/reshadowtower
+author: James Fotherby
+originalDeveloper: FromSoftware
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "ReShadowTower: recompilación estática experimental de la versión estadounidense (SLUS-00863) para Windows y Linux, hecha con PSXRecomp. El código del juego se genera y se compila en tu equipo a partir de tu disco con herramientas que trae el propio paquete, sin descargar nada, y las partes que no se han traducido pasan por un intérprete; no hace falta la BIOS de la consola, porque incluye OpenBIOS. Añade vista con ratón y movimiento con WASD, escala de renderizado hasta 8x (3x por defecto), un filtrado más nítido para las texturas de los escenarios, panorámica por proyección (16:9 y 21:9, con el HUD estirado), FXAA, nitidez adaptativa, y gradación de color, grano, bloom y filtro CRT opcionales, además de estados de guardado en F7. Un launcher propio reúne los ajustes de gráficos, sonido y controles. El mando usa los controles digitales originales, y la lógica del juego sigue a su ritmo original de unas 20 actualizaciones por segundo: el autor no ha activado un desbloqueo porque la prueba aceleraba el juego. La 0.2.0 salió el 5 de octubre."
+  en: "ReShadowTower: an experimental static recompilation of the US release (SLUS-00863) for Windows and Linux, built with PSXRecomp. The game’s code is generated and compiled on your machine from your disc with tools bundled in the package, with nothing downloaded, and paths that haven’t been translated fall back to an interpreter; no console BIOS is needed, since it includes OpenBIOS. It adds mouse look and WASD movement, a render scale up to 8x (3x by default), sharper filtering for environment textures, projection-based widescreen (16:9 and 21:9, with a stretched HUD), FXAA, adaptive sharpening, and optional color grading, grain, bloom, and a CRT filter, plus save states on F7. Its own launcher holds the graphics, audio, and control settings. Controllers use the original digital controls, and the game logic keeps its original pace of about 20 updates per second: the author hasn’t enabled an unlock because the test version sped the game up. Version 0.2.0 came out on October 5."
+requirements:
+  es: "Tu propio volcado BIN/CUE de Shadow Tower (USA) para PS1 (SLUS-00863); no admite otras regiones, ni una ISO o un CHD con la extensión cambiada. Además, Windows de 64 bits (instalador) o Linux x86-64 (AppImage), con controladores OpenGL 3.3."
+  en: "Your own BIN/CUE dump of Shadow Tower (USA) for PS1 (SLUS-00863); other regions aren’t supported, nor an ISO or CHD with its extension changed. Plus 64-bit Windows (installer) or x86-64 Linux (AppImage), with OpenGL 3.3 drivers."
+tags:
+  - mips
+  - widescreen

@@ -3,7 +3,8 @@ console: gba
 repo: laqieer/fireemblem8u
 decomp: laqieer/fireemblem8u
 desc:
-  es: "Desensamblado y decompilación de Fire Emblem: The Sacred Stones (versión estadounidense) para GBA, que compila una ROM idéntica byte a byte. Según su README, casi todo el código está decompilado, todos los datos extraídos y todos los símbolos documentados. Otros proyectos de la comunidad, como mapas de datos o documentación de funciones, se apoyan en su ELF."
-  en: "Disassembly and decompilation of Fire Emblem: The Sacred Stones (US version) for GBA, building a byte-identical ROM. The README reports nearly all code decompiled, all data extracted, and all symbols documented. Other community projects, such as data maps and function documentation, build on its ELF."
+  es: "Desensamblado y decompilación de Fire Emblem: The Sacred Stones (versión estadounidense) para GBA, que compila una ROM idéntica byte a byte. Según su README, casi todo el código está decompilado, todos los datos extraídos y todos los símbolos documentados. Otros proyectos de la comunidad, como mapas de datos o documentación de funciones, se apoyan en su ELF. 70 de sus últimos 100 commits llevan a Claude o Copilot como coautor."
+  en: "Disassembly and decompilation of Fire Emblem: The Sacred Stones (US version) for GBA, building a byte-identical ROM. The README reports nearly all code decompiled, all data extracted, and all symbols documented. Other community projects, such as data maps and function documentation, build on its ELF. 70 of its last 100 commits list Claude or Copilot as a co-author."
 tags:
   - matching
+  - ai-assisted

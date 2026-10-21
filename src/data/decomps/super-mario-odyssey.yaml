@@ -3,5 +3,7 @@ console: switch
 repo: MonsterDruide1/OdysseyDecomp
 decomp: MonsterDruide1/OdysseyDecomp
 desc:
-  es: "Decompilación en curso de Super Mario Odyssey 1.0.0, con el objetivo de recrear desde cero una base de código. No produce un juego jugable: hace falta tener el juego original en una Switch."
-  en: "Work-in-progress decompilation of Super Mario Odyssey 1.0.0, aiming to recreate a source code base from scratch. It doesn’t produce a playable game: you still need the original on a Switch."
+  es: "Decompilación en curso de Super Mario Odyssey 1.0.0, con el objetivo de recrear desde cero una base de código. No produce un juego jugable: hace falta tener el juego original en una Switch. 4 de sus últimos 100 commits llevan a Claude o Devin como coautor."
+  en: "Work-in-progress decompilation of Super Mario Odyssey 1.0.0, aiming to recreate a source code base from scratch. It doesn’t produce a playable game: you still need the original on a Switch. 4 of its last 100 commits list Claude or Devin as a co-author."
+tags:
+  - ai-assisted

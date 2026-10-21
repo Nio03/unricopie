@@ -3,5 +3,7 @@ console: ps1
 repo: ser-pounce/rood-reverse
 decomp: ser-pounce/rood-reverse
 desc:
-  es: "Rood Reverse, la decompilación de Vagrant Story (PS1), con el objetivo de que el juego funcione con hardware moderno y de corregir errores del original. El código y los datos de los menús están decompilados por completo, y los ejecutables de los menús son reubicables, así que ese código se puede reescribir y los enlaces con otros módulos se vuelven a calcular."
-  en: "Rood Reverse, the Vagrant Story (PS1) decompilation, aiming at interoperability with modern hardware and at fixing the original game’s bugs. The menu code and data are fully decompiled and the menu executables are relocatable, so that code can be rewritten and links from other modules are re-resolved."
+  es: "Rood Reverse, la decompilación de Vagrant Story (PS1), con el objetivo de que el juego funcione con hardware moderno y de corregir errores del original. El código y los datos de los menús están decompilados por completo, y los ejecutables de los menús son reubicables, así que ese código se puede reescribir y los enlaces con otros módulos se vuelven a calcular. 48 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Rood Reverse, the Vagrant Story (PS1) decompilation, aiming at interoperability with modern hardware and at fixing the original game’s bugs. The menu code and data are fully decompiled and the menu executables are relocatable, so that code can be rewritten and links from other modules are re-resolved. 48 of its last 100 commits list Claude as a co-author."
+tags:
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: Final Fantasy Tactics Advance (james2doyle)
+console: gba
+status: playable
+repo: james2doyle/ffta-recomp
+author: James Doyle
+originalDeveloper: Square
+year: 2003
+toolchain: gbarecomp
+desc:
+  es: "FFTA Recomp: recompilación estática de la versión estadounidense para Windows, Linux, Steam Deck y Android, hecha con gbarecompx, el fork de gbarecomp de su mismo autor. Es un proyecto distinto del FFTARecomp de Jorge262007. Todo el código que se ejecuta está traducido de antemano, sin recurrir a un intérprete. No hace falta la BIOS de Nintendo, porque incluye emibios, una BIOS libre hecha en sala limpia. Añade vista panorámica de hasta 448 píxeles de ancho, una cadena de shaders (suavizado de bordes MMPX, escalado nítido, rejilla de píxeles, subpíxeles de LCD, tramado), interpolación de fotogramas experimental, imitación del rastro de la pantalla LCD y de varios modos de pantalla de la GBA, avance rápido de 2x a 10x, estados guardados y controles de teclado, mando y táctiles. La 2.0 (19 de octubre) cambió el motor de SDL a raylib, con una pantalla de inicio con la carátula, y trajo un AppImage para Steam Deck. Su README lo sitúa en R.A.I.D. (Retro AI Development), una comunidad de recompilación estática, y para más contexto remite a un artículo sobre cómo se hacen estas recompilaciones con IA."
+  en: "FFTA Recomp: a static recompilation of the US release for Windows, Linux, Steam Deck, and Android, built with gbarecompx, the same author’s fork of gbarecomp. It’s a separate project from Jorge262007’s FFTARecomp. All the code that runs is translated ahead of time, with no interpreter fallback. No Nintendo BIOS is needed, since it bundles emibios, a free clean-room BIOS. It adds a widescreen view up to 448 pixels wide, a shader stack (MMPX edge smoothing, sharp scaling, pixel grid, LCD subpixel grille, dithering), experimental frame interpolation, LCD ghosting and several GBA screen modes, 2–10x fast forward, save states, and keyboard, controller, and touch controls. Version 2.0 (October 19) moved the engine from SDL to raylib, with a launch screen showing the box art, and brought a Steam Deck AppImage. Its README places it in R.A.I.D. (Retro AI Development), a static recompilation community, and for context points to an article on making these recompilations with AI."
+requirements:
+  es: "Tu propia ROM estadounidense de Final Fantasy Tactics Advance (AFXE, SHA-1 4ac05441f4de70a4ec3dd932116346c61b8783d9). Además, Windows 10 o posterior de 64 bits, Linux x86-64 con OpenGL y X11 o XWayland, SteamOS 3 o Android 9 o posterior en arm64."
+  en: "Your own US Final Fantasy Tactics Advance ROM (AFXE, SHA-1 4ac05441f4de70a4ec3dd932116346c61b8783d9). Plus 64-bit Windows 10 or later, x86-64 Linux with OpenGL and X11 or XWayland, SteamOS 3, or Android 9 or later on arm64."
+tags:
+  - arm7
+  - widescreen
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Geometry Wars: Retro Evolved 2 (saulob)"
+console: x360
+status: playable
+repo: saulob/geometry-wars-retro-evolved-2-recompiled
+originalDeveloper: Bizarre Creations
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión de Xbox Live Arcade, por recompilación estática con el SDK de ReXGlue, con el launcher TRG y una AppImage experimental para Linux y Steam Deck. A diferencia de geow2, también en el catálogo, que reescribe el juego por ingeniería inversa, aquí corre el código original recompilado. Va de 30 a 240 fps o sin límite: por encima de 60 el juego sigue actualizándose 60 veces por segundo y las imágenes intermedias se interpolan, con unos 17 ms de retraso visual. Ofrece resolución hasta 4x (5120×2880), resolución interna del 50 al 100 %, elección de tarjeta gráfica en Windows, FXAA, MSAA 2x o 4x, filtrado de texturas hasta 16x, formatos nativos de 4:3 a 32:9 y el resplandor original, reducido o desactivado. Guarda en el equipo el perfil, las puntuaciones, las tablas de clasificación y los 12 logros, sin Xbox Live, y suma tres trucos, vibración del mando opcional (un añadido del port), reasignación del teclado y actualización del launcher desde GitHub. No tiene juego en línea. Linux solo se ha probado en un equipo real, y el arreglo de velocidad de la 0.4.0 está sin confirmar en él. La 0.5.0 salió el 21 de octubre. Su autor declara que usó herramientas de IA y que dirigió, probó y revisó los cambios."
+  en: "A native Windows port of the Xbox Live Arcade version, by static recompilation with the ReXGlue SDK, with the TRG launcher and an experimental Linux and Steam Deck AppImage. Unlike geow2, also in the catalog, which rewrites the game through reverse engineering, this runs the original code, recompiled. It goes from 30 to 240 fps or uncapped: above 60 the game still updates 60 times per second and the frames in between are interpolated, with about 17 ms of visual delay. It offers up to 4x resolution (5120×2880), a 50–100% internal render resolution, a graphics card choice on Windows, FXAA, 2x or 4x MSAA, up to 16x texture filtering, native aspect ratios from 4:3 to 32:9, and original, reduced, or no bloom. Profile, scores, leaderboards, and the 12 achievements are kept on the PC, with no Xbox Live, and it adds three cheats, optional controller rumble (a port addition), keyboard remapping, and launcher updates from GitHub. There’s no online play. Linux has only been tested on one real machine, and the 0.4.0 speed fix hasn’t been confirmed there. 0.5.0 came out on October 21. Its author states that AI tools were used and that the maintainer directed, tested, and reviewed the changes."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de Geometry Wars: Retro Evolved 2 (Title ID 584108FF, versión 0.0.1.2; default.xex con SHA-1 048B852E52A8C776C7AE752141591701B7EA5E69); rechaza otras versiones. Además, Windows 10 u 11 de 64 bits con DirectX 12, o Linux de 64 bits o Steam Deck con Vulkan (experimental)."
+  en: "Your own Geometry Wars: Retro Evolved 2 Xbox Live Arcade package (Title ID 584108FF, version 0.0.1.2; default.xex with SHA-1 048B852E52A8C776C7AE752141591701B7EA5E69); other versions are rejected. Plus 64-bit Windows 10 or 11 with DirectX 12, or 64-bit Linux or a Steam Deck with Vulkan (experimental)."
+tags:
+  - powerpc
+  - shmup
+  - widescreen
+  - 60fps+
+  - ai-assisted

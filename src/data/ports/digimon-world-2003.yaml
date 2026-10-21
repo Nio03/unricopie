@@ -1,0 +1,19 @@
+name: Digimon World 2003
+category: decomp-port
+console: ps1
+status: playable
+repo: gascarcella/dw2003recomp
+author: Gabriel Scarcella
+originalDeveloper: BEC / Boom
+year: 2002
+desc:
+  es: "Decompilación de Digimon World 2003 (SLES-03936), la edición europea de Digimon World 3, y port nativo para PC hecho con ella. Las 3606 funciones del juego están en C que reconstruye byte a byte el ejecutable y sus módulos, y ese mismo C, compilado para PC, ejecuta el juego sobre psxstack, el entorno del mismo autor, con su propio procesador de sonido, decodificador de vídeo y GPU por software. Tiene también un renderizador por hardware (Vulkan, o Direct3D 12 en Windows) con resolución interna hasta 8x, vértices con precisión subpíxel, filtros (nítido, scanlines, CRT y suavizado xBR), paquetes de texturas y combates en 16:9; por defecto dibuja por software. Un launcher gestiona el disco, los ajustes, los controles y los mods: avance rápido, modo de 60 Hz, saltar diálogos, quitar las animaciones de combate, guardar en cualquier sitio, idioma fijo (también los textos estadounidense y japonés del disco), experiencia para todo el grupo y multiplicador de experiencia. Las partidas son tarjetas de memoria en el formato de PCSX-Redux. Se ha jugado hasta el primer combate, una partida guardada y su carga; el resto del juego no se ha comparado todavía con el emulador, y la versión de Windows solo se ha probado con Wine y Proton. La 0.4.1 salió el 20 de octubre. Su guía para colaborar dice que la mayor parte del proyecto se escribió con agentes de IA."
+  en: "A decompilation of Digimon World 2003 (SLES-03936), the European edition of Digimon World 3, and a native PC port built from it. All 3,606 of the game’s functions are in C that rebuilds the executable and its modules byte for byte, and that same C, compiled for PC, runs the game on psxstack, the same author’s runtime, with its own sound processor, video decoder, and software GPU. There’s also a hardware renderer (Vulkan, or Direct3D 12 on Windows) with up to 8x internal resolution, sub-pixel vertex precision, filters (sharp, scanlines, CRT, and xBR smoothing), texture packs, and 16:9 battles; software rendering is the default. A launcher handles the disc, settings, controls, and mods: fast-forward, a 60 Hz mode, skipping dialogue, turning off battle animations, saving anywhere, a preset language (including the disc’s US and Japanese text), party-wide experience, and an experience multiplier. Saves are memory cards in PCSX-Redux’s format. It has been played through the first battle, a save, and its load; the rest of the game hasn’t been checked against the emulator yet, and the Windows build has only been tested under Wine and Proton. Version 0.4.1 came out on October 20. Its contributing guide says most of the project was written with AI coding agents."
+requirements:
+  es: "Tu propio volcado de Digimon World 2003 (Europe) (En,Fr,De,Es,It) para PS1 en .bin y .cue (MODE2/2352, una pista, SHA-1 457cb233349ba841e03b33d8060f8fbcadd45cb3); una .iso de 2048 bytes por sector no sirve, y no admite el Digimon World 3 estadounidense ni el japonés. Además, Linux x86-64 con glibc 2.39 o posterior (AppImage) o Windows 10 o posterior de 64 bits."
+  en: "Your own dump of Digimon World 2003 (Europe) (En,Fr,De,Es,It) for PS1 as .bin and .cue (MODE2/2352, one track, SHA-1 457cb233349ba841e03b33d8060f8fbcadd45cb3); a 2048-byte-sector .iso won’t work, and the US and Japanese Digimon World 3 aren’t supported. Plus x86-64 Linux with glibc 2.39 or newer (AppImage) or 64-bit Windows 10 or later."
+tags:
+  - mips
+  - widescreen
+  - mods
+  - ai-assisted

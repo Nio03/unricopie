@@ -6,10 +6,11 @@ base: ports/perfect-dark
 repo: DabDavis/perfect-dark-dabs-mod
 author: DabDavis
 desc:
-  es: "Fork del port para PC de Perfect Dark que añade movimientos que el juego de N64 nunca tuvo: salto, voltereta de combate, combos cuerpo a cuerpo y cámara en tercera persona. Sube el límite de simulantes del Combat Simulator de 8 a 80, deja los cuerpos donde caen y añade una cámara libre de espectador, una tecla para capturas de pantalla y una grabadora de vídeo. Todo vive en el ejecutable: no incluye niveles ni recursos, y admite otros mods. Para Windows, Linux y macOS."
-  en: "A fork of the Perfect Dark PC port that adds movement the N64 game never had: jumping, a combat roll, melee combos, and a third-person camera. It raises the Combat Simulator’s simulant cap from 8 to 80, keeps bodies where they fall, and adds a free-flying spectator camera, a screenshot key, and a video recorder. Everything lives in the executable: no levels or assets are bundled, and other mods drop in. For Windows, Linux, and macOS."
+  es: "Fork del port para PC de Perfect Dark que añade movimientos que el juego de N64 nunca tuvo: salto, voltereta de combate, combos cuerpo a cuerpo y cámara en tercera persona. Sube el límite de simulantes del Combat Simulator de 8 a 80, deja los cuerpos donde caen y añade una cámara libre de espectador, una tecla para capturas de pantalla y una grabadora de vídeo. Todo vive en el ejecutable: no incluye niveles ni recursos, y admite otros mods. Para Windows, Linux y macOS. 77 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A fork of the Perfect Dark PC port that adds movement the N64 game never had: jumping, a combat roll, melee combos, and a third-person camera. It raises the Combat Simulator’s simulant cap from 8 to 80, keeps bodies where they fall, and adds a free-flying spectator camera, a screenshot key, and a video recorder. Everything lives in the executable: no levels or assets are bundled, and other mods drop in. For Windows, Linux, and macOS. 77 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Tu propia ROM de Perfect Dark, versión estadounidense Rev 1 («ntsc-final», US V1.1), con el nombre pd.ntsc-final.z64. Las ROM europeas y japonesas no funcionan con este fork."
   en: "Your own Perfect Dark ROM, US Rev 1 (“ntsc-final,” US V1.1), named pd.ntsc-final.z64. PAL and Japanese ROMs don’t work with this fork."
 tags:
   - fork
+  - ai-assisted

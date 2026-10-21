@@ -1,0 +1,17 @@
+name: WWE SmackDown vs. Raw 2008
+console: x360
+status: playable
+repo: nefariousjosiah/WWE-SVR2008-RECOMP
+originalDeveloper: Yuke’s
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión de Xbox 360, por recompilación estática con el SDK de ReXGlue y con un renderizador nativo adaptado del de re:Blue, que en lugar de emular la GPU de la consola observa la biblioteca Direct3D del juego y dibuja las mismas escenas con Direct3D 12 o Vulkan; en Linux y Steam Deck funciona con Proton. Es del mismo autor que el de SmackDown vs. Raw 2010 y comparte con él el trabajo de rendimiento. Mantiene el modo propio del juego a 60 fps también en los combates, donde la consola bajaba a 30, con resolución de 480p a 8K, el desenfoque de bordes y el de fondo desactivados por defecto, aunque se pueden volver a activar, y sin tirones la primera vez. El disco trae el texto en inglés, español, alemán e italiano, pero el juego solo mostraba el inglés: el port deja elegir cualquiera de ellos (los comentarios, solo en inglés). Funciona con mandos de Xbox, PlayStation, Switch Pro y Steam Deck; el teclado está sin probar. Se actualiza desde el propio juego cuando tú lo decides, con copia de las partidas. La 1.0.9 (20 de octubre) arregló las fotos y los nombres de los luchadores creados, y la 2.0 salió el 21 de octubre. La descarga incluye, dentro del ejecutable, los shaders del juego ya convertidos para PC."
+  en: "A native Windows port of the Xbox 360 version, by static recompilation with the ReXGlue SDK and a native renderer adapted from re:Blue’s, which instead of emulating the console’s GPU watches the game’s Direct3D library and draws the same scenes with Direct3D 12 or Vulkan; on Linux and Steam Deck it runs through Proton. It’s by the same author as the SmackDown vs. Raw 2010 port and shares its performance work. It keeps the game’s own 60 fps mode in matches too, where the console dropped to 30, with 480p to 8K resolution, the edge blur and background blur off by default, though both can be turned back on, and no first-time stutters. The disc has the text in English, Spanish, German, and Italian, but the game only ever showed English: the port lets you pick any of them (commentary is English only). It works with Xbox, PlayStation, Switch Pro, and Steam Deck controllers; keyboard controls are untested. It updates from inside the game when you choose to, backing up your saves first. 1.0.9 (October 20) fixed created superstars’ photos and names, and 2.0 came out on October 21. The download includes, inside the executable, the game’s shaders already converted for PC."
+requirements:
+  es: "Una imagen .iso de tu propio disco de WWE SmackDown vs. Raw 2008 para Xbox 360, versión de EE. UU. o Europa (Title ID 5451080B, Media ID 5E35F037, unos 7,8 GB). Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Direct3D 12 o Vulkan, o Linux o Steam Deck con Proton Experimental."
+  en: "A .iso image of your own WWE SmackDown vs. Raw 2008 disc for Xbox 360, US or European release (Title ID 5451080B, Media ID 5E35F037, about 7.8 GB). Plus 64-bit Windows 10 or 11 and a Direct3D 12 or Vulkan graphics card, or Linux or Steam Deck with Proton Experimental."
+tags:
+  - powerpc
+  - 60fps+
+  - multiplayer

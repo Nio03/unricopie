@@ -1,0 +1,24 @@
+name: "Vampire Savior: The Lord of Vampire"
+console: arcade
+status: playable
+repo: tmcleroy/cps2recomp
+originalDeveloper: Capcom
+year: 1997
+toolchain: cps2recomp
+desc:
+  es: "Port nativo no oficial de la recreativa de Capcom (placa CPS-2) para Windows, macOS y Linux (también la Steam Deck), por recompilación estática: el programa del 68000 se traduce a C++ de antemano, y las partes que tocan sus funciones nuevas (la cámara, los escenarios, las colisiones y las reglas del combate; 123 rutinas por ahora) se reescribieron a mano como C++ legible. El vídeo, el chip QSound y la CPU de sonido de la placa son código propio, no un emulador. Tiene un modo de entrenamiento completo (cajas de impacto, datos de fotogramas con medidor, lo que pulsa cada jugador y un muñeco que graba, repite y se cubre), panorámico 16:9 opcional que muestra un tercio más de escenario, modos de supervivencia, combate sin fin y «ring out», visores de escenarios y de personajes, un editor de colores de los personajes que también acepta los de PalMod, estados guardados, los ajustes de operador de la placa y un modo «Pure» que juega exactamente como la placa. Empezó en su propio repositorio y el 16 de octubre pasó a CPS-2 Recomp, un launcher del mismo autor que reúne sus ports de otros juegos de CPS-2 y CPS-1, se actualiza solo y suma la temporización de la placa con sus ralentizaciones, «run-ahead» y bandas sonoras propias; la última versión es la 0.4.0-beta.3 (19 de octubre). Está en beta: el juego se completa de principio a fin, pero se ha probado en pocos equipos. Unos 150 de sus 180 commits llevan a Claude como coautor."
+  en: "An unofficial native port of Capcom’s arcade game (CPS-2 board) for Windows, macOS, and Linux (Steam Deck included), by static recompilation: the 68000 program is translated to C++ ahead of time, and the parts its new features touch (the camera, the stages, hit tests, and the fight’s rules; 123 routines so far) were rewritten by hand as readable C++. The board’s video, QSound chip, and sound CPU are the project’s own code, not an emulator. It has a full training mode (hit boxes, frame data with a frame meter, input display, and a dummy that records, replays, and guards), optional 16:9 widescreen showing a third more of the stage, survival, endless battle, and ring-out modes, stage and model viewers, a character color editor that also takes PalMod colors, save states, the board’s operator settings, and a “Pure” mode that plays exactly like the board. It started in its own repository and on October 16 moved into CPS-2 Recomp, the same author’s launcher that gathers their ports of other CPS-2 and CPS-1 games, updates itself, and adds the board’s original timing with its slowdowns, run-ahead, and custom soundtracks; the latest release is 0.4.0-beta.3 (October 19). It’s in beta: the game can be played from start to ending, but it has been tested on few machines. About 150 of its 180 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de la placa como el conjunto de ROM vsavj (Japón, 970519) con su archivo de clave (vsavj.key), en zip o en carpeta; el launcher comprueba cada archivo y rechaza los conjuntos de otras regiones y revisiones. Además, Windows 10 u 11 de 64 bits, macOS 13 o posterior (Apple Silicon o Intel), o Linux x86-64 o SteamOS. Se recomienda un mando o un stick de seis botones."
+  en: "Your own dump of the board as the vsavj ROM set (Japan, 970519) with its key file (vsavj.key), zipped or as a folder; the launcher checks every file and refuses sets from other regions and revisions. Plus 64-bit Windows 10 or 11, macOS 13 or later (Apple silicon or Intel), or x86-64 Linux or SteamOS. A gamepad or six-button stick is recommended."
+tags:
+  - "68000"
+  - arcade
+  - widescreen
+  - multiplayer
+  - ai-assisted
+links:
+  - label:
+      es: "Repositorio anterior (solo Vampire Savior)"
+      en: "Previous repository (Vampire Savior only)"
+    url: https://github.com/tmcleroy/vampire-savior-recomp

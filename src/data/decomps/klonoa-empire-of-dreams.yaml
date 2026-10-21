@@ -3,7 +3,8 @@ console: gba
 repo: Dream-Atelier/kl-eod-decomp
 decomp: Dream-Atelier/kl-eod-decomp
 desc:
-  es: "Decompilación exacta en curso de Klonoa: Empire of Dreams (GBA, 2001), con el objetivo de obtener código C que compile a un código máquina idéntico byte a byte. El README explica qué es una decompilación exacta y enlaza una charla de su autor sobre el tema."
-  en: "In-progress matching decompilation of Klonoa: Empire of Dreams (GBA, 2001), aiming for C code that compiles to byte-for-byte identical machine code. The README explains what matching decompilation is and links to the author’s talk on it."
+  es: "Decompilación exacta en curso de Klonoa: Empire of Dreams (GBA, 2001), con el objetivo de obtener código C que compile a un código máquina idéntico byte a byte. El README explica qué es una decompilación exacta y enlaza una charla de su autor sobre el tema. 40 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "In-progress matching decompilation of Klonoa: Empire of Dreams (GBA, 2001), aiming for C code that compiles to byte-for-byte identical machine code. The README explains what matching decompilation is and links to the author’s talk on it. 40 of its last 100 commits list Claude as a co-author."
 tags:
   - matching
+  - ai-assisted

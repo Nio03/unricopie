@@ -5,8 +5,10 @@ repo: sp00nznet/diddykongracing
 originalDeveloper: Rare
 toolchain: N64Recomp
 desc:
-  es: "Recompilación del juego de karts y aventura de Rare en una fase temprana: arranca y llega al mundo central, pero se cierra. Usa su propia emulación de alto nivel (HLE) del microcódigo, y el audio está desactivado."
-  en: "Early recompilation of Rare’s kart and adventure game: it boots to the hub world but then crashes. It uses its own high-level emulation (HLE) of the microcode, and audio is disabled."
+  es: "Recompilación del juego de karts y aventura de Rare en una fase temprana: arranca y llega al mundo central, pero se cierra. Usa su propia emulación de alto nivel (HLE) del microcódigo, y el audio está desactivado. 38 de sus 40 commits llevan a Claude como coautor."
+  en: "Early recompilation of Rare’s kart and adventure game: it boots to the hub world but then crashes. It uses its own high-level emulation (HLE) of the microcode, and audio is disabled. 38 of its 40 commits list Claude as a co-author."
 requirements:
   es: "Una ROM de Diddy Kong Racing (N64, versión estadounidense 1.1)."
   en: "A Diddy Kong Racing ROM (N64, US version 1.1)."
+tags:
+  - ai-assisted

@@ -7,11 +7,12 @@ author: lesca-191204
 originalDeveloper: Guerrilla Games
 year: 2013
 desc:
-  es: "Port nativo para Windows del Killzone Shadow Fall de PS4: el código del juego corre directamente en la CPU y los gráficos se traducen a Vulkan en tiempo real. Está en beta pública, pero la campaña entera se puede jugar de principio a fin. El launcher, en inglés y en español, comprueba tu volcado y permite elegir la resolución de 720p a 4K y el límite de fotogramas (30, 60 o, de forma experimental, más)."
-  en: "Native Windows port of Killzone Shadow Fall for PS4: the game’s code runs directly on the CPU, and the graphics are translated to Vulkan in real time. It’s a public beta, but the whole campaign is playable from start to finish. The launcher, in English and Spanish, checks your dump and lets you pick the render resolution from 720p to 4K and the frame rate limit (30, 60, or higher as an experimental option)."
+  es: "Port nativo para Windows del Killzone Shadow Fall de PS4: el código del juego corre directamente en la CPU y los gráficos se traducen a Vulkan en tiempo real. Está en beta pública, pero la campaña entera se puede jugar de principio a fin. El launcher, en inglés y en español, comprueba tu volcado y permite elegir la resolución de 720p a 4K y el límite de fotogramas (30, 60 o, de forma experimental, más). 15 de sus 30 commits llevan a Claude como coautor."
+  en: "Native Windows port of Killzone Shadow Fall for PS4: the game’s code runs directly on the CPU, and the graphics are translated to Vulkan in real time. It’s a public beta, but the whole campaign is playable from start to finish. The launcher, in English and Spanish, checks your dump and lets you pick the render resolution from 720p to 4K and the frame rate limit (30, 60, or higher as an experimental option). 15 of its 30 commits list Claude as a co-author."
 requirements:
   es: "Tu propio volcado de la versión de PS4 (CUSA00190, versión 01.81). Además, Windows 10 (1903 o posterior) u 11 de 64 bits, una tarjeta gráfica con Vulkan 1.3, 16 GB de RAM y, recomendados, 6 GB de memoria de vídeo."
   en: "Your own dump of the PS4 version (CUSA00190, version 01.81). Plus 64-bit Windows 10 (1903 or later) or 11, a Vulkan 1.3 graphics card, 16 GB of RAM, and 6 GB of video memory recommended."
 tags:
   - x86
   - vulkan
+  - ai-assisted

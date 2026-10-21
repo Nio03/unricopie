@@ -3,8 +3,9 @@ console: gamecube
 repo: doldecomp/melee
 decomp: doldecomp/melee
 desc:
-  es: "Decompilación exacta de la versión estadounidense: el código C que escriben compila a un binario idéntico al original. Su hito más útil es que el DOL que produce se puede reubicar, así que ya se puede añadir y quitar código para crear mods o investigar, no solo reproducir el juego tal cual. Es la base del port para PC melee-pc, que también está en el catálogo. El repositorio no incluye recursos: hace falta tu propia copia."
-  en: "Matching decompilation of the US version: the C they write compiles to a binary identical to the original. Its most useful milestone is that the DOL it produces is shiftable, so code can now be added and removed for modding or research instead of only reproducing the game as it was. It’s the base of the melee-pc port, also in this catalog. The repository ships no assets: you need your own copy."
+  es: "Decompilación exacta de la versión estadounidense: el código C que escriben compila a un binario idéntico al original. Su hito más útil es que el DOL que produce se puede reubicar, así que ya se puede añadir y quitar código para crear mods o investigar, no solo reproducir el juego tal cual. Es la base del port para PC melee-pc, que también está en el catálogo. El repositorio no incluye recursos: hace falta tu propia copia. 18 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Matching decompilation of the US version: the C they write compiles to a binary identical to the original. Its most useful milestone is that the DOL it produces is shiftable, so code can now be added and removed for modding or research instead of only reproducing the game as it was. It’s the base of the melee-pc port, also in this catalog. The repository ships no assets: you need your own copy. 18 of its last 100 commits list Claude as a co-author."
 tags:
   - powerpc
   - matching
+  - ai-assisted

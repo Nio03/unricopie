@@ -1,0 +1,21 @@
+name: "Super Paper Mario (New Super Paper Bros.)"
+console: wii
+status: playable
+repo: josiahg2502-glitch/NewSuperPaperBros
+originalDeveloper: Intelligent Systems
+year: 2007
+toolchain: Wiicompiled
+desc:
+  es: "New Super Paper Bros.: port nativo para Windows y Linux por recompilación estática con WiiCompiled, que traduce el código PowerPC del juego a C++; el entorno de ejecución reimplementa las bibliotecas de la Wii y los gráficos pasan por Aurora, sobre Direct3D 12 o Vulkan. Llega a 4K (1080p sin bordes por defecto), con 16:9, un modo cinematográfico 2.39:1 o el 4:3 original, interpolación de fotogramas a 120 fps, mandos de Xbox, PlayStation y Nintendo y teclado con controles reasignables, y el puntero del mando de Wii (Tippi, el menú HOME) en la palanca derecha o el ratón. Los botones en pantalla cambian según tu mando, admite mods que sustituyen archivos o texturas, y el launcher instala el juego desde tu imagen de disco e importa partidas de una Wii o de Dolphin. La 1.0.3 (18 de octubre) sumó la versión para Linux y el disco europeo en cinco idiomas. Sus 19 commits llevan a Claude como coautor. La descarga incluye ya integrados dos mods de la comunidad: la música del juego en mayor calidad, del mod «SPM High Definition Audio» (sus autores sacaron las pistas de la web khinsider), y un paquete de texturas HD a 4x convertido de «SPM Textures v1.0», que va siempre activado."
+  en: "New Super Paper Bros.: a native Windows and Linux port by static recompilation with WiiCompiled, which translates the game’s PowerPC code to C++; the runtime reimplements the Wii’s libraries, and graphics go through Aurora, on Direct3D 12 or Vulkan. It goes up to 4K (borderless 1080p by default), with 16:9, a cinematic 2.39:1 mode, or the original 4:3, 120 fps frame interpolation, Xbox, PlayStation, and Nintendo controllers and keyboard with remappable controls, and the Wii Remote pointer (Tippi, the HOME menu) on the right stick or the mouse. On-screen buttons follow your controller, it supports mods that replace files or textures, and the launcher installs the game from your disc image and imports saves from a Wii or Dolphin. Version 1.0.3 (October 18) added the Linux build and the European disc in five languages. All 19 of its commits list Claude as co-author. The download comes with two community mods built in: the game’s music at higher quality, from the “SPM High Definition Audio” mod (its authors took the tracks from the khinsider website), and a 4x HD texture pack converted from “SPM Textures v1.0”, which is always on."
+requirements:
+  es: "Tu propia copia de Super Paper Mario para Wii, disco estadounidense (R8PE01, revisión 0) o europeo (R8PP01), como .iso, .ciso o .wbfs. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con DirectX 12 o Vulkan, o Linux de 64 bits con glibc 2.35 o posterior y controladores Vulkan."
+  en: "Your own copy of Super Paper Mario for Wii, US disc (R8PE01, revision 0) or European disc (R8PP01), as .iso, .ciso, or .wbfs. Plus 64-bit Windows 10 or 11 and a DirectX 12 or Vulkan graphics card, or 64-bit Linux with glibc 2.35 or later and Vulkan drivers."
+tags:
+  - powerpc
+  - widescreen
+  - 60fps+
+  - mods
+  - hd-assets
+  - mario
+  - ai-assisted

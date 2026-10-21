@@ -1,0 +1,19 @@
+name: "Star Wars: X-Wing vs. TIE Fighter"
+category: fan-remake
+console: pc
+status: playable
+repo: elyosh/OpenXvT
+author: Adrien Moulin
+originalDeveloper: Totally Games
+year: 1997
+desc:
+  es: "OpenXvT: reimplementación de código abierto de X-Wing vs. TIE Fighter con su expansión Balance of Power, para Windows, macOS y Linux, que usa los datos de tu instalación del juego y no incluye ningún contenido suyo. Admite partidas en red de hasta ocho jugadores entre los tres sistemas, con combates, batallas por equipos y misiones cooperativas, incluidas las campañas rebelde e imperial de Balance of Power, y un buscador de partidas dentro del juego que evita programas externos como GameRanger. Tiene un modo gráfico clásico, que conserva el aspecto original, y uno moderno que dibuja los modelos y la cabina originales a alta resolución con sombras, oclusión ambiental, bloom, desenfoque de movimiento, filtrado anisotrópico, MSAA de 2x a 8x, FSR 3.1.4, HDR y suavizado opcional del tramado de la cabina; se cambia de uno a otro con TAB. El vuelo se simula a una frecuencia mayor para que se mueva con más fluidez, y añade control con el ratón como palanca virtual, además de mandos y joysticks con ejes, zonas muertas y botones configurables. Usa Direct3D 12 o Vulkan en Windows, Metal en macOS y Vulkan en Linux. Su autor, que también ha hecho OpenTIE y OpenXWA, avisa de que sigue en desarrollo y de que puede haber fallos y diferencias con el original. La 0.0.1 salió el 12 de septiembre y la última, la 0.0.5, el 10 de octubre."
+  en: "OpenXvT: an open-source reimplementation of X-Wing vs. TIE Fighter with its Balance of Power expansion, for Windows, macOS, and Linux, which uses the data from your installed game and includes none of its content. It supports online play for up to eight players across all three systems, with dogfights, team battles, and cooperative missions, including Balance of Power’s Rebel and Imperial campaigns, and an in-game server browser, so no external app like GameRanger is needed. It has a classic graphics mode that keeps the original look and a modern one that draws the original models and cockpit at high resolution with shadows, ambient occlusion, bloom, motion blur, anisotropic filtering, 2x to 8x MSAA, FSR 3.1.4, HDR, and optional smoothing of the dithered cockpit art; TAB switches between them. Flight is simulated at a higher rate for smoother motion, and it adds virtual-stick mouse flight, plus gamepads and joysticks with configurable axes, deadzones, and buttons. It uses Direct3D 12 or Vulkan on Windows, Metal on macOS, and Vulkan on Linux. Its author, who also made OpenTIE and OpenXWA, notes that it’s still in development and may have bugs and differences from the original. 0.0.1 came out on September 12 and the latest, 0.0.5, on October 10."
+requirements:
+  es: "Una instalación completa de tu propia copia de Star Wars: X-Wing vs. TIE Fighter con la expansión Balance of Power (se vende en GOG y Steam); al arrancar se elige la carpeta que contiene BalanceOfPower. Además, un sistema de 64 bits con una tarjeta gráfica moderna: Windows x86-64, macOS 13 o posterior (la versión publicada es para Apple Silicon) o Linux x86-64 con glibc 2.35 o posterior y libcurl."
+  en: "A complete installation of your own copy of Star Wars: X-Wing vs. TIE Fighter with the Balance of Power expansion (sold on GOG and Steam); at first launch you pick the folder that contains BalanceOfPower. Plus a 64-bit system with a modern graphics card: x86-64 Windows, macOS 13 or later (the published build is for Apple Silicon), or x86-64 Linux with glibc 2.35 or later and libcurl."
+tags:
+  - x86
+  - multiplayer
+  - online
+  - vulkan

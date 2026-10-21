@@ -5,10 +5,11 @@ repo: alondero/aerogauge-recomp
 originalDeveloper: Locomotive Games
 year: 1997
 desc:
-  es: "Recompilación estática del juego de carreras antigravedad de N64: ejecuta tu propia copia en una ventana nativa, con una pantalla de ajustes dentro del juego. Hay versiones para Windows 10 o posterior con Direct3D 12, para Linux con Vulkan y para Android 9 o posterior en ARM64, con controles táctiles. macOS no es una plataforma compatible en esta rama, y su autor advierte de que compilarlo en otro sistema no demuestra que el juego funcione allí."
-  en: "Static recompilation of the N64 anti-gravity racer: it runs your own copy in a native window, with an in-game settings screen. There are builds for Windows 10 or later with Direct3D 12, Linux with Vulkan, and Android 9 or later on ARM64 with touch controls. macOS isn’t a supported target on this branch, and its author warns that building it on another system doesn’t prove the game works there."
+  es: "Recompilación estática del juego de carreras antigravedad de N64: ejecuta tu propia copia en una ventana nativa, con una pantalla de ajustes dentro del juego. Hay versiones para Windows 10 o posterior con Direct3D 12, para Linux con Vulkan y para Android 9 o posterior en ARM64, con controles táctiles. macOS no es una plataforma compatible en esta rama, y su autor advierte de que compilarlo en otro sistema no demuestra que el juego funcione allí. 19 de sus 82 commits llevan a Claude como coautor."
+  en: "Static recompilation of the N64 anti-gravity racer: it runs your own copy in a native window, with an in-game settings screen. There are builds for Windows 10 or later with Direct3D 12, Linux with Vulkan, and Android 9 or later on ARM64 with touch controls. macOS isn’t a supported target on this branch, and its author warns that building it on another system doesn’t prove the game works there. 19 of its 82 commits list Claude as a co-author."
 requirements:
   es: "Tu propia copia de AeroGauge (N64)."
   en: "Your own copy of AeroGauge (N64)."
 tags:
   - mips
+  - ai-assisted

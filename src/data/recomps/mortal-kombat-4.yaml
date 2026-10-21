@@ -6,10 +6,11 @@ author: Alexbeav
 year: 1998
 toolchain: psxrecomp
 desc:
-  es: "Recompilación estática de la versión estadounidense de PS1 con psxrecomp y el launcher recomp-ui, con paquetes para Windows, Linux y macOS. El launcher se encarga de la imagen del disco, la BIOS, las partidas guardadas y la compilación del juego en tu PC. Su README no detalla hasta dónde se puede jugar."
-  en: "Static recompilation of the US PS1 release with psxrecomp and the recomp-ui launcher, with packages for Windows, Linux, and macOS. The launcher handles the disc image, the BIOS, saves, and building the game on your PC. Its README doesn’t say how far the game can be played."
+  es: "Recompilación estática de la versión estadounidense de PS1 con psxrecomp y el launcher recomp-ui, con paquetes para Windows, Linux y macOS. El launcher se encarga de la imagen del disco, la BIOS, las partidas guardadas y la compilación del juego en tu PC. Su README no detalla hasta dónde se puede jugar. Su README dice que se desarrolla con mucha ayuda de IA y que cada cambio se valida antes de publicarse."
+  en: "Static recompilation of the US PS1 release with psxrecomp and the recomp-ui launcher, with packages for Windows, Linux, and macOS. The launcher handles the disc image, the BIOS, saves, and building the game on your PC. Its README doesn’t say how far the game can be played. Its README says it’s developed with substantial AI assistance and that every change is validated before release."
 requirements:
   es: "Tu propio disco de la versión estadounidense y una BIOS SCPH-1001 volcada de tu consola: OpenBIOS no sirve para este juego."
   en: "Your own disc of the US release and an SCPH-1001 BIOS dumped from your console: OpenBIOS doesn’t work with this game."
 tags:
   - mips
+  - ai-assisted

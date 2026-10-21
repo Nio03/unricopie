@@ -1,0 +1,18 @@
+name: "007: The World Is Not Enough"
+console: n64
+status: playable
+repo: riseio/TWIPE_00Sheven
+originalDeveloper: Eurocom
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "I Could Have Given You the World: port nativo para Windows y Linux (también Steam Deck) de la versión estadounidense de N64, recompilado con N64Recomp y con RT64 como renderizador. No incluye código traducido del juego: la primera vez que arranca compila el juego en tu equipo a partir de tu ROM y después reutiliza el resultado, sin herramientas de desarrollo ni conexión. Añade pantalla panorámica y ultrapanorámica, campo de visión vertical de 40 a 100 grados, interpolación para pantallas de alta frecuencia, apuntado con ratón o con dos sticks, menús radiales para armas y artilugios, guardado y carga rápidos, objetivos en pantalla, fuentes más nítidas y texturas mejoradas que se generan en tu equipo. También cambia el equilibrio del juego: cargadores más grandes, el doble de munición para pistolas y subfusiles, recargas más rápidas en dos armas, el doble de daño para el fusil de arpones y el láser del reloj, y desactivar una bomba lleva la cuarta parte del tiempo. Otros cambios son opcionales, como el gancho al estilo de Nightfire, la salud que se regenera, los civiles con el doble de vida y los aliados invencibles, y hay trucos. Su autor lo hizo para su propia partida y lo comparte como proyecto personal. La 0.1.96 salió el 17 de octubre."
+  en: "I Could Have Given You the World: a native Windows and Linux (Steam Deck too) port of the US N64 release, recompiled with N64Recomp and with RT64 as its renderer. It ships no translated game code: on first launch it compiles the game on your machine from your ROM and reuses the result afterward, with no development tools or internet connection needed. It adds widescreen and ultrawide, a 40–100° vertical field of view, interpolation for high refresh rate displays, mouse or twin-stick aiming, radial menus for weapons and gadgets, quick save and load, on-screen objectives, sharper fonts, and enhanced textures generated on your machine. It also rebalances the game: bigger magazines, double pistol and SMG ammo, faster reloads on two weapons, double damage for the speargun and watch laser, and defusing a bomb takes a quarter of the time. Other changes are optional, such as a Nightfire-style grapple, regenerating health, civilians with double health, and invincible allies, and there are cheats. Its author made it for their own playthrough and shares it as a hobby project. Version 0.1.96 came out on October 17."
+requirements:
+  es: "Tu propia ROM estadounidense, revisión 0, de 007: The World Is Not Enough para N64, junto al ejecutable o elegida en el primer arranque. Hay un único EXE portátil para Windows y un AppImage para Linux y Steam Deck."
+  en: "Your own US revision 0 ROM of 007: The World Is Not Enough for N64, placed next to the executable or picked on first launch. There’s a single portable EXE for Windows and an AppImage for Linux and Steam Deck."
+tags:
+  - mips
+  - fps
+  - widescreen
+  - 60fps+

@@ -1,0 +1,21 @@
+name: "Scooby-Doo! Night of 100 Frights"
+console: gamecube
+status: playable
+repo: josiahg2502-glitch/Scooby-Doo-Refrightened
+author: JosiahG
+originalDeveloper: Heavy Iron Studios
+year: 2002
+toolchain: Wiicompiled
+desc:
+  es: "Scooby-Doo: Refrightened: port para Windows de la versión estadounidense de GameCube, por recompilación estática del código PowerPC a C++ con WiiCompiled; los gráficos, el sonido y las llamadas al sistema de la consola están reimplementados. Es del mismo autor que Scooby-Doo: Re-Masked, también en el catálogo. Ofrece hasta 4K, pantalla panorámica real (16:9, pantalla completa o cinematográfica 2.39:1), que abre la cámara del propio juego en lugar de estirar la imagen, o el 4:3 original, y 30, 60 o 120 fps sin cambiar la velocidad del juego. Suma MSAA, HDR, mandos y teclado con controles reasignables y botones en pantalla que siguen tu mando de Xbox, PlayStation o Nintendo. Guarda en tarjetas de memoria de GameCube, permite saltar los vídeos de inicio y admite mods que sustituyen archivos o texturas. Un launcher instala el juego desde tu imagen de disco. La descarga incluye un paquete de texturas HD de dogerki, publicado en los foros de Dolphin, que se puede desactivar. La 1.0 salió el 17 de octubre y la 1.0.2, al día siguiente. Sus nueve commits llevan a Claude como coautor."
+  en: "Scooby-Doo: Refrightened: a Windows port of the US GameCube release, made by statically recompiling the PowerPC code to C++ with WiiCompiled; the console’s graphics, audio, and system calls are reimplemented. It’s by the same author as Scooby-Doo: Re-Masked, also in the catalog. It offers up to 4K, true widescreen (16:9, fill, or cinematic 2.39:1) that widens the game’s own camera instead of stretching the picture, or the original 4:3, and 30, 60, or 120 fps without changing game speed. It adds MSAA, HDR, controllers and keyboard with rebindable controls, and on-screen prompts that match your Xbox, PlayStation, or Nintendo controller. It saves to GameCube memory cards, can skip the intro movies, and supports mods that replace game files or textures. A launcher installs the game from your disc image. The download includes an HD texture pack by dogerki, published on the Dolphin forums, which can be turned off. Version 1.0 came out on October 17 and 1.0.2 the next day. All nine of its commits list Claude as co-author."
+requirements:
+  es: "Tu propio volcado de Scooby-Doo! Night of 100 Frights para GameCube, versión estadounidense 1.01 (GIHE78, revisión 1), como .iso, .gcm o .ciso. Además, Windows 10 u 11 de 64 bits."
+  en: "Your own dump of Scooby-Doo! Night of 100 Frights for GameCube, US release 1.01 (GIHE78, revision 1), as an .iso, .gcm, or .ciso. Plus 64-bit Windows 10 or 11."
+tags:
+  - powerpc
+  - widescreen
+  - 60fps+
+  - mods
+  - hd-assets
+  - ai-assisted

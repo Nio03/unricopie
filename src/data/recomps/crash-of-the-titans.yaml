@@ -1,0 +1,17 @@
+name: Crash of the Titans
+console: x360
+status: playable
+repo: OAleex/MojoRecomp
+originalDeveloper: Radical Entertainment
+year: 2007
+toolchain: XenonRecomp
+desc:
+  es: "MojoRecomp: port nativo para Windows de la versión de Xbox 360, por recompilación estática con XenonRecomp y un entorno de ejecución propio con renderizador en Vulkan; no es un emulador. Un launcher instala y actualiza el runtime solo cuando tú lo pides, guarda versiones anteriores para volver atrás y prepara el juego a partir de tu ISO, que solo se lee durante la instalación. Por defecto se queda cerca del original, en ventana a 720p, 16:9 y 30 fps con FXAA y filtrado de texturas 8x, y permite otras resoluciones y formatos de pantalla y un modo de más de 30 fps todavía experimental. Admite dos jugadores locales, con mando o con teclado, los seis idiomas del disco y, como descarga opcional, la traducción al portugués de Brasil de su autor, que se aplica como parches sobre los archivos de tu copia. Tiene un modo de depuración con atajos para desbloquear movimientos y episodios. El mismo proyecto prepara Crash: Mind over Mutant, que aún no se puede jugar. El launcher 1.1.0, con el runtime 0.2.0-alpha (6 de octubre), corrigió pantallas negras, sombras y texturas. Su autor declara que usó herramientas de IA para investigar, programar partes repetitivas, depurar y redactar documentación, con revisión humana."
+  en: "MojoRecomp: a native Windows port of the Xbox 360 version, by static recompilation with XenonRecomp and its own runtime with a Vulkan renderer; it isn’t an emulator. A launcher installs and updates the runtime only when you ask it to, keeps earlier versions to roll back to, and sets the game up from your ISO, which is only read during setup. By default it stays close to the original, windowed at 720p, 16:9, and 30 fps with FXAA and 8x texture filtering, and it offers other resolutions and aspect ratios and a still-experimental mode above 30 fps. It supports two local players, on controllers or keyboard, the disc’s six languages, and, as an optional download, the author’s Brazilian Portuguese translation, applied as patches over your copy’s files. A debug mode has shortcuts to unlock moves and episodes. The same project is preparing Crash: Mind over Mutant, which isn’t playable yet. Launcher 1.1.0, with runtime 0.2.0-alpha (October 6), fixed black screens, shadows, and textures. Its author states that AI tools were used for research, repetitive implementation work, debugging, and documentation drafts, with human review."
+requirements:
+  es: "Una ISO de tu propia copia de Crash of the Titans para Xbox 360; el launcher comprueba su default.xex. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan 1.3 y Microsoft Edge WebView2 Runtime. Se recomienda un mando, aunque funciona con teclado."
+  en: "An ISO of your own Crash of the Titans copy for Xbox 360; the launcher checks its default.xex. Plus 64-bit Windows 10 or 11, a Vulkan 1.3 graphics card, and the Microsoft Edge WebView2 Runtime. A controller is recommended, but the keyboard works."
+tags:
+  - powerpc
+  - multiplayer
+  - ai-assisted

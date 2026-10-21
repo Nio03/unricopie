@@ -1,0 +1,18 @@
+name: "Grand Theft Auto: Chinatown Wars"
+category: fan-remake
+console: other
+status: experimental
+repo: official-kryo-to/ctw-native
+originalDeveloper: Rockstar Leeds
+year: 2014
+desc:
+  es: "CTW-Native: reimplementación nativa en C++, con SDL2 y OpenGL, de la versión de Android de GTA: Chinatown Wars, el juego que salió primero en Nintendo DS. Las rutinas del juego original se pasan a código propio una a una, con el nombre de clase y método del binario de Android, y una página de progreso mide qué parte del código original está ya portada. El propio proyecto lo describe como un prototipo jugable, no como el juego terminado: hay ciudad con tráfico y peatones, vehículos, radio, sonido y movimiento interpolado a cualquier frecuencia de refresco, pero faltan las misiones, las partidas guardadas, el nivel de búsqueda, los barcos y los helicópteros. Para jugar, el Porter, un ejecutable de Windows, convierte tu APK en una carpeta con el juego; en Linux se compila. Trae un menú de mods (F4) con su propia API, y el mod Enhancements incluido añade una cámara en tercera persona e iluminación al estilo de la versión de PSP; si le das tu propio APK de Liberty City Stories para Android, importa de él personajes en 3D. Lo último publicado es la 0.2.0, del 2 de octubre; el código posterior añade armas, el radar, mando y menú de pausa. Uno de sus 24 commits, el que añadió el Porter, lleva a Claude como coautor."
+  en: "CTW-Native: a native C++ reimplementation, with SDL2 and OpenGL, of the Android version of GTA: Chinatown Wars, the game that first came out on the Nintendo DS. The original game’s routines are moved to its own code one by one, under the class and method names of the Android binary, and a progress page measures how much of the original code has been ported. The project itself calls it a playable prototype, not the finished game: there’s a city with traffic and pedestrians, vehicles, radio, sound, and motion interpolated at any refresh rate, but missions, saved games, wanted levels, boats, and helicopters are missing. To play, the Porter, a Windows executable, turns your APK into a folder with the game; on Linux you build it. It has a mod menu (F4) with its own API, and the bundled Enhancements mod adds a third-person camera and PSP-style lighting; given your own Android Liberty City Stories APK, it imports 3D characters from it. The latest release is 0.2.0, from October 2; code added since then brings weapons, the radar, controller support, and a pause menu. One of its 24 commits, the one that added the Porter, lists Claude as co-author."
+requirements:
+  es: "Tu propio APK de GTA: Chinatown Wars para Android, versión 4.4.243 (la de arm64); para los personajes en 3D opcionales, también tu APK de Liberty City Stories para Android, versión 2.4.379. Además, Windows 10 u 11 de 64 bits; en Linux hay que compilarlo."
+  en: "Your own GTA: Chinatown Wars APK for Android, version 4.4.243 (the arm64 build); for the optional 3D characters, also your own Liberty City Stories APK for Android, version 2.4.379. Plus 64-bit Windows 10 or 11; on Linux you build it yourself."
+tags:
+  - arm64
+  - reverse-engineering
+  - mods
+  - ai-assisted

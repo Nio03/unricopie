@@ -1,0 +1,19 @@
+name: NBA Street V3
+console: ps2
+status: fully
+repo: recomp-code/street-recomp-v3
+originalDeveloper: EA Canada
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo para Windows y para macOS con Apple Silicon de la versión estadounidense de PS2 (SLUS-21126). El código del juego se recompila a código nativo con PS2Recomp, con cambios propios, y se dibuja en la tarjeta gráfica con el renderizador de PCSX2 (Vulkan, Direct3D 11 y 12 u OpenGL en Windows; Metal en Mac); el sonido lo mezcla el SPU2 de PCSX2. Según su documentación se juega de principio a fin sin conexión, con los partidos a unos 60 fps. Ofrece hasta 8x de resolución interna, 16:9, filtrado de texturas, AMD FSR 1 y NVIDIA DLSS con la profundidad real del juego y vectores de movimiento, mando y teclado, y un menú de gráficos dentro del juego. Recupera el juego en línea, que EA cerró hace años, con un servidor de la comunidad que reimplementa su protocolo y hace de relé del tráfico de las partidas, así que no hay que abrir puertos; el código del servidor no está en el repositorio. En Windows, el launcher descarga las herramientas y compila el juego a partir de tu ISO la primera vez (cerca de una hora); la versión para Mac ya trae el código recompilado y lee el resto de tu ISO. Hay además una versión experimental para navegador que tiene que compilar uno mismo. Al preparar el juego en Windows, el launcher descarga de la página de versiones del proyecto un paquete de texturas HD hecho por fans (unos 250 MB), que se puede desactivar. La 1.4.1 salió el 20 de octubre. Unos 39 de sus 54 commits llevan a Claude como coautor."
+  en: "A native port of the US PS2 release (SLUS-21126) for Windows and Apple silicon macOS. The game’s code is recompiled to native code with PS2Recomp, with the project’s own changes, and drawn on the GPU by PCSX2’s renderer (Vulkan, Direct3D 11 and 12, or OpenGL on Windows; Metal on Mac); PCSX2’s SPU2 mixes the sound. According to its documentation it plays start to finish offline, with matches at about 60 fps. It offers up to 8x internal resolution, 16:9, texture filtering, AMD FSR 1, and NVIDIA DLSS with the game’s real depth and motion vectors, controller and keyboard support, and an in-game graphics menu. It brings back online play, which EA shut down years ago, through a community server that reimplements its protocol and relays match traffic, so no port forwarding is needed; the server code isn’t in the repository. On Windows, the launcher downloads the tools and builds the game from your ISO the first time (about an hour); the Mac build already carries the recompiled code and reads everything else from your ISO. There’s also an experimental browser version you have to build yourself. While preparing the game on Windows, the launcher downloads a fan-made HD texture pack (about 250 MB) from the project’s releases page, and it can be turned off. Version 1.4.1 came out on October 20. About 39 of its 54 commits list Claude as co-author."
+requirements:
+  es: "Tu propia ISO estadounidense de NBA Street V3 para PS2 (SLUS-21126). En Windows, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan o Direct3D 11 o 12 y conexión a internet: preparar el juego descarga unos 6 GB, y su guía de compilación pide unos 40 GB libres y recomienda 16 GB de RAM. En Mac, Apple Silicon y macOS 14 o posterior."
+  en: "Your own US NBA Street V3 ISO for PS2 (SLUS-21126). On Windows, 64-bit Windows 10 or 11, a graphics card with Vulkan or Direct3D 11 or 12, and an internet connection: preparing the game downloads about 6 GB, and its build guide asks for about 40 GB of free space and recommends 16 GB of RAM. On Mac, Apple silicon and macOS 14 or later."
+tags:
+  - emotion-engine
+  - widescreen
+  - online
+  - hd-assets
+  - ai-assisted

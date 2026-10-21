@@ -4,8 +4,10 @@ status: experimental
 repo: mstan/MegaManX5Recomp
 toolchain: psxrecomp
 desc:
-  es: "Recompilación nativa de Mega Man X5 (versión estadounidense, SLUS-01334) con psxrecomp, en una fase temprana."
-  en: "Native recompilation of Mega Man X5 (US version, SLUS-01334) with psxrecomp, at an early stage."
+  es: "Recompilación nativa de Mega Man X5 (versión estadounidense, SLUS-01334) con psxrecomp, en una fase temprana. 22 de sus 46 commits llevan a Claude como coautor."
+  en: "Native recompilation of Mega Man X5 (US version, SLUS-01334) with psxrecomp, at an early stage. 22 of its 46 commits list Claude as a co-author."
 requirements:
   es: "Una imagen de disco de Mega Man X5 (PS1, versión estadounidense)."
   en: "A disc image of Mega Man X5 (PS1, US version)."
+tags:
+  - ai-assisted

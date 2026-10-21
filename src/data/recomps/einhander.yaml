@@ -6,11 +6,12 @@ originalDeveloper: Square
 year: 1997
 toolchain: psxrecomp
 desc:
-  es: "Recompilación de Einhander, el matamarcianos de Square para PlayStation."
-  en: "Recompilation of Einhander, Square’s shoot ’em up for PlayStation."
+  es: "Recompilación de Einhander, el matamarcianos de Square para PlayStation. 6 de sus 12 commits llevan a Claude como coautor."
+  en: "Recompilation of Einhander, Square’s shoot ’em up for PlayStation. 6 of its 12 commits list Claude as a co-author."
 requirements:
   es: "Una imagen de disco de Einhander (PS1) y la BIOS SCPH1001.BIN."
   en: "An Einhander disc image (PS1) and the SCPH1001.BIN BIOS."
 tags:
   - mips
   - shmup
+  - ai-assisted

@@ -1,0 +1,22 @@
+name: "Resident Evil - Code: Veronica X (aikatore)"
+category: decomp-port
+console: ps2
+status: playable
+repo: aikatore/recvx-enhanced-port
+originalDeveloper: Capcom
+year: 2001
+desc:
+  es: "recvx-enhanced-port: port nativo para Windows y Linux de la versión estadounidense de PS2 (SLUS-20184), construido sobre la decompilación recvx-decomp de AshfordFamily. El código del juego y su capa de PS2 se compilan para PC; el hardware de la consola se emula en sus bordes y las partes más costosas pasan a código nativo, y el juego lee tu imagen de disco tal cual. Tiene panorámica hor+ hasta ultrapanorámica, resolución interna hasta 8x y fotogramas intermedios hasta la frecuencia de tu pantalla con la lógica a 30 fps; cooperativo en línea para dos jugadores, con vestíbulo, códigos para unirse, intercambio de objetos y un servidor de enlace propio; un modo en tercera persona opcional con apuntado libre; controles modernos para las cámaras fijas; cambios de modelo para jugar con otros personajes y criaturas; más enemigos, otra colocación, un aleatorizador y un generador de enemigos; partidas sin límite en archivos sueltos; trucos, ajustes ampliados, reasignación completa de los controles, paquetes de texturas HD de PCSX2 (no incluye ninguno) y mods de salas. Las versiones son preliminares; la 0.6.5 salió el 21 de octubre. Su README dice que la mayor parte del código la escribieron agentes de IA (Claude y, en parte de las herramientas de mapas, Codex) dirigidos y revisados por su autor; 280 de sus 289 commits llevan a Claude como coautor. El repositorio incluye además, convertidos en tablas de C, los microprogramas de las unidades vectoriales del juego, que toma de la decompilación."
+  en: "recvx-enhanced-port: a native Windows and Linux port of the US PS2 release (SLUS-20184), built on AshfordFamily’s recvx-decomp decompilation. The game’s code and its PS2 platform layer are compiled for PC; the console hardware is emulated at its boundaries and the expensive parts move to native code, and the game reads your disc image in place. It has hor+ widescreen up to ultrawide, up to 8x internal resolution, and in-between frames up to your display’s refresh rate with the game logic at 30 fps; two-player online co-op, with a lobby, join codes, item trading, and its own relay server; an optional third-person mode with free aim; modern controls for the fixed cameras; model swaps to play as other characters and creatures; extra enemies, rearranged placements, a randomizer, and an enemy spawner; unlimited saves as separate files; cheats, extended settings, full control rebinding, PCSX2 HD texture packs (none included), and room mods. Releases are pre-releases; 0.6.5 came out on October 21. Its README says most of the code was written by AI coding agents (Claude and, for parts of the map tooling, Codex), directed and reviewed by its author; 280 of its 289 commits list Claude as co-author. The repository also includes the game’s vector unit microprograms, converted into C tables, which it takes from the decompilation."
+requirements:
+  es: "Tu propia imagen .iso del disco estadounidense de Resident Evil Code: Veronica X para PS2 (SLUS-20184). Además, una tarjeta gráfica con OpenGL 3.3 y Windows 10 o posterior (el ejecutable es de 32 bits) o Linux x86 con glibc 2.34 o posterior y las bibliotecas de 32 bits de OpenGL, X11 o Wayland y sonido."
+  en: "Your own .iso image of the US Resident Evil Code: Veronica X PS2 disc (SLUS-20184). Plus a graphics card with OpenGL 3.3 and Windows 10 or later (the executable is 32-bit) or x86 Linux with glibc 2.34 or newer and the 32-bit OpenGL, X11 or Wayland, and audio libraries."
+tags:
+  - emotion-engine
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - online
+  - horror
+  - mods
+  - ai-assisted

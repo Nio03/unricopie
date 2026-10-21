@@ -1,0 +1,19 @@
+name: "Conker's Bad Fur Day (Reloaded)"
+console: n64
+status: playable
+repo: DahSidiAbdallah/ConkerBFDReloaded
+originalDeveloper: Rare
+year: 2001
+toolchain: N64Recomp
+desc:
+  es: "Conker's Bad Fur Day: Reloaded: port nativo para Windows y Linux de la versión estadounidense, recompilado estáticamente con N64Recomp a partir de la decompilación mkst/conker y con RT64 como renderizador. Parte de CBFD-Recompiled, el recomp de sciaschi que también está en el catálogo, del que toma el apuntado con ratón y giroscopio, la vibración y varias correcciones, y añade mucho por su cuenta. Un interruptor elige entre el modo clásico, fiel a la N64 (4:3, 30 fps, la cámara y los controles originales, solo a más resolución), y el moderno: pantalla panorámica sin franjas también en menús y escenas, la tasa de refresco de tu pantalla con la lógica a 30 fps, cámara libre con ratón o stick derecho que no atraviesa paredes, apuntado con dos sticks, punto de mira y otras opciones, como saltar cualquier escena manteniendo L, agarrarse a los salientes o un medidor de aire bajo el agua. Acepta los hacks de ROM que conservan el código del juego, como la versión sin censura y las traducciones al francés, alemán y ruso, y carga paquetes de texturas de RT64 y mods de N64Recomp. Publica aparte, como descarga opcional, un paquete de iconos HD basado en el 4K Ultimate Texture Pack de GameBeast92. La versión para Linux es experimental y no hay versión para macOS. La 1.4.1 salió el 17 de octubre."
+  en: "Conker’s Bad Fur Day: Reloaded: a native Windows and Linux port of the US release, statically recompiled with N64Recomp from the mkst/conker decompilation, with RT64 as its renderer. It builds on CBFD-Recompiled, sciaschi’s recomp also in the catalog, taking its mouse and gyro aiming, rumble, and several fixes, and adds a lot of its own. One switch picks between Classic mode, true to the N64 (4:3, 30 fps, the original camera and controls, only at a higher resolution), and Modern mode: widescreen with no black bars in menus and cutscenes too, your display’s refresh rate with the logic at 30 fps, a free camera on the mouse or right stick that doesn’t clip through walls, twin-stick aiming, a crosshair, and other options such as skipping any cutscene by holding L, grabbing ledges, or an underwater air meter. It accepts ROM hacks that keep the game’s code, such as the uncensored version and the French, German, and Russian translations, and loads RT64 texture packs and N64Recomp mods. It also publishes, as an optional download, an HD icons pack based on GameBeast92’s 4K Ultimate Texture Pack. The Linux build is experimental and there’s no macOS build. Version 1.4.1 came out on October 17."
+requirements:
+  es: "Tu propia ROM estadounidense de Conker's Bad Fur Day (SHA-1 4cbadd3c4e0729dec46af64ad018050eada4f47a, en .z64). Además, Windows 10 u 11 de 64 bits con una tarjeta gráfica con DirectX 12 o Vulkan, o Linux de 64 bits con glibc 2.35 o posterior, un controlador de Vulkan y SDL2, GTK 3 y FreeType."
+  en: "Your own US Conker’s Bad Fur Day ROM (SHA-1 4cbadd3c4e0729dec46af64ad018050eada4f47a, as a .z64). Plus 64-bit Windows 10 or 11 with a DirectX 12 or Vulkan graphics card, or 64-bit Linux with glibc 2.35 or later, a Vulkan driver, and SDL2, GTK 3, and FreeType."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - rare

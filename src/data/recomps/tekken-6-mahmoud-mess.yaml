@@ -1,0 +1,15 @@
+name: "Tekken 6 (mahmoud-mess)"
+console: x360
+status: playable
+repo: mahmoud-mess/tekken6-recomp
+originalDeveloper: Namco Bandai Games
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 para Windows, hecha con ReXGlue, y la base de la que parte Tekken 6 Native Online, de Ekspym, que también está en el catálogo. Desde la 0.9.4 (16 de octubre), la descarga trae un constructor portátil: eliges tu ISO y los renderizadores que quieres, y compila el juego en tu PC con las herramientas que lleva dentro, sin instalar compiladores ni conectarse a internet; al terminar borra los archivos temporales. El renderizador por defecto es Direct3D 12 con ROV, el de más compatibilidad; hay además dos con Vulkan, experimentales y, según su autor, todavía con muchos fallos. Al arrancar se elige la resolución 3D interna, de 640×360 a los 1024×576 originales, y por defecto se reduce a 512×512 una superficie de 1024×1024 que el juego dibuja fuera de pantalla, lo que puede suavizar las sombras. Su autor dice que la 0.9.4 permite 60 fps estables en equipos modestos con gráficos integrados. F3 muestra un contador de fotogramas."
+  en: "A static recompilation of the Xbox 360 version for Windows, built with ReXGlue, and the base that Ekspym’s Tekken 6 Native Online, also in this catalog, builds on. Since 0.9.4 (October 16), the download includes a portable builder: you pick your ISO and the renderers you want, and it compiles the game on your PC with the tools it carries, with no compilers to install and no internet connection; it deletes the temporary files when it’s done. The default renderer is Direct3D 12 with ROV, the most compatible one; there are also two Vulkan ones, experimental and, according to the author, still very buggy. At startup you choose the internal 3D resolution, from 640×360 up to the original 1024×576, and by default a 1024×1024 surface the game draws off-screen is reduced to 512×512, which can soften shadows. The author says 0.9.4 allows a steady 60 fps on modest PCs with integrated graphics. F3 shows a frame counter."
+requirements:
+  es: "Tu propia imagen ISO de Tekken 6 para Xbox 360, la versión de Europa y Estados Unidos en su revisión 1; el constructor comprueba su default.xex y rechaza las demás. Además, Windows de 64 bits, una tarjeta gráfica con Direct3D 12 (la versión Vulkan FSI pide soporte de fragment shader interlock) y unos 20 GB libres para compilar, que después quedan en unos 8 GB."
+  en: "Your own Tekken 6 ISO for Xbox 360, the Europe and USA release, revision 1; the builder checks its default.xex and refuses other versions. Plus 64-bit Windows, a Direct3D 12 graphics card (the Vulkan FSI build needs fragment shader interlock support), and about 20 GB of free space to build, down to about 8 GB afterwards."
+tags:
+  - powerpc

@@ -7,8 +7,8 @@ originalDeveloper: Blue Castle Games
 year: 2010
 toolchain: XenonRecomp
 desc:
-  es: "Port nativo del epílogo de Dead Rising 2 exclusivo de Xbox 360 (XBLA) para Windows, Linux, Steam Deck y Mac con Apple Silicon. El código del juego se tradujo de antemano con XenonRecomp y XenosRecomp, y corre sobre un motor propio con renderizador Vulkan, sonido XMA real y teclado y ratón nativos. Su autor lo da por terminado con la versión 1.1.2: la campaña se puede jugar de principio a fin, y el cooperativo en línea para dos funciona a través del launcher de XenonLive. Ha dejado el desarrollo activo, pero invita a seguirlo con forks y pull requests."
-  en: "Native port of the Xbox 360 (XBLA) exclusive epilogue to Dead Rising 2 for Windows, Linux, Steam Deck, and Apple Silicon Macs. The game’s code was translated ahead of time with XenonRecomp and XenosRecomp, and runs on a purpose-built engine with a Vulkan renderer, real XMA audio, and native keyboard and mouse support. Its author calls it finished with version 1.1.2: the campaign is playable from start to finish, and two-player online co-op works through the XenonLive launcher. Active development has stopped, but the author invites others to carry it on with forks and pull requests."
+  es: "Port nativo del epílogo de Dead Rising 2 exclusivo de Xbox 360 (XBLA) para Windows, Linux, Steam Deck y Mac con Apple Silicon. El código del juego se tradujo de antemano con XenonRecomp y XenosRecomp, y corre sobre un motor propio con renderizador Vulkan, sonido XMA real y teclado y ratón nativos. Su autor lo da por terminado con la versión 1.1.2: la campaña se puede jugar de principio a fin, y el cooperativo en línea para dos funciona a través del launcher de XenonLive. Ha dejado el desarrollo activo, pero invita a seguirlo con forks y pull requests. 88 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Native port of the Xbox 360 (XBLA) exclusive epilogue to Dead Rising 2 for Windows, Linux, Steam Deck, and Apple Silicon Macs. The game’s code was translated ahead of time with XenonRecomp and XenosRecomp, and runs on a purpose-built engine with a Vulkan renderer, real XMA audio, and native keyboard and mouse support. Its author calls it finished with version 1.1.2: the campaign is playable from start to finish, and two-player online co-op works through the XenonLive launcher. Active development has stopped, but the author invites others to carry it on with forks and pull requests. 88 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Tu propia copia de Dead Rising 2: Case West (el paquete del juego de Xbox 360). Ni el repositorio ni las descargas incluyen datos del juego."
   en: "Your own copy of Dead Rising 2: Case West (the Xbox 360 game package). Neither the repository nor the downloads include any game data."
@@ -16,3 +16,4 @@ tags:
   - powerpc
   - online
   - multiplayer
+  - ai-assisted

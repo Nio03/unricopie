@@ -1,0 +1,20 @@
+name: "Grand Theft Auto: Vice City Stories"
+console: psp
+status: playable
+repo: OverkillLabs3/vice-city-stories-recomp
+author: OverkillLabs3 / Jessica Natalia
+originalDeveloper: Rockstar Leeds
+year: 2006
+toolchain: PSPRecomp
+desc:
+  es: "VCSNative: port nativo para Windows y para macOS con Apple Silicon de la versión estadounidense de PSP (ULUS-10160), por recompilación estática con PSPRecomp: el programa MIPS del juego se traduce a C++ por adelantado y corre sobre una reimplementación del procesador Allegrex y del motor gráfico de la PSP, sin intérprete ni JIT. El recompilador y el perfil del juego son obra de Jessica Natalia, la autora de PSPRecomp; este proyecto añade teclado y ratón con vista de ratón directa (los avisos del juego muestran tus teclas, o los botones de Xbox con mando), cualquier relación de aspecto entre 4:3 y 32:9 con el HUD bien colocado, 60 fps con un ritmo regular, un motor gráfico en Vulkan con SMAA o FXAA, gradación de color, cielos remapeados, nitidez, nubes volumétricas de CloudWorks y luces lejanas de Project2DFX, ajustes de distancia de dibujado, el arreglo del audio ATRAC3+ que dejaba sin sonido la segunda mitad de las escenas y un launcher de ajustes. Aparte publica un paquete opcional con más de 7000 texturas del juego y del HUD reescaladas, que se instala desde el launcher. Las misiones y las partidas guardadas se han probado menos que las primeras zonas, y solo se ha probado con tarjetas NVIDIA. La 1.0.0 salió el 5 de octubre. El repositorio incluye el código C++ generado a partir del ejecutable del juego."
+  en: "VCSNative: a native Windows and Apple silicon macOS port of the US PSP release (ULUS-10160), made by static recompilation with PSPRecomp: the game’s MIPS program is translated to C++ ahead of time and runs on a reimplementation of the PSP’s Allegrex CPU and Graphics Engine, with no interpreter or JIT. The recompiler and the game profile are the work of Jessica Natalia, PSPRecomp’s author; this project adds keyboard and mouse with raw mouse look (the game’s prompts show your keys, or Xbox buttons with a controller), any aspect ratio from 4:3 to 32:9 with a correctly placed HUD, evenly paced 60 fps, a Vulkan graphics stack with SMAA or FXAA, color grading, a sky palette remap, sharpening, CloudWorks volumetric clouds, and Project2DFX distant lights, draw distance settings, a fix for the ATRAC3+ audio that silenced the second half of cutscenes, and a settings launcher. It also publishes an optional pack of more than 7,000 upscaled game and HUD textures, installed from the launcher. Missions and saves have had less testing than the opening areas, and it has only been tested on NVIDIA cards. Version 1.0.0 came out on October 5. The repository includes the C++ code generated from the game’s executable."
+requirements:
+  es: "Tu propia copia estadounidense de GTA: Vice City Stories para PSP (ULUS-10160), en una carpeta PSP_DATA con PSP_GAME/SYSDIR/EBOOT_DECRYPTED.ELF (el ejecutable descifrado fuera de este proyecto) y PSP_GAME/USRDIR. Además, Windows 10 u 11 de 64 bits con un controlador Vulkan 1.1 y un procesador con AVX2, FMA, BMI1/BMI2, LZCNT, F16C, MOVBE y POPCNT, o macOS 13 o posterior en un Mac con Apple Silicon."
+  en: "Your own US copy of GTA: Vice City Stories for PSP (ULUS-10160), in a PSP_DATA folder with PSP_GAME/SYSDIR/EBOOT_DECRYPTED.ELF (the executable, decrypted outside this project) and PSP_GAME/USRDIR. Plus 64-bit Windows 10 or 11 with a Vulkan 1.1 driver and a CPU with AVX2, FMA, BMI1/BMI2, LZCNT, F16C, MOVBE, and POPCNT, or macOS 13 or later on an Apple silicon Mac."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - vulkan
+  - hd-assets

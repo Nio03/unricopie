@@ -1,0 +1,19 @@
+name: Snowboard Kids
+console: n64
+status: playable
+repo: cdlewis/snowboardkids-recomp
+originalDeveloper: Racdym
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Snowboard Kids: Recompiled, recompilación estática de la versión estadounidense, hecha con N64Recomp y con RT64 como renderizador. No parte de la decompilación del mismo autor, aunque usa sus cabeceras y algunas funciones para sus parches. Va a cualquier tasa de fotogramas (por defecto, la de tu monitor) sin cambiar la velocidad del juego, y en cualquier relación de aspecto, ultrapanorámica incluida, con la opción de dejar el HUD en 16:9. Añade menús de configuración dentro del juego, que se manejan con ratón, mando o teclado, zona muerta e inversión del eje Y ajustables, poco retraso de entrada y cargas casi instantáneas. Admite mods y paquetes de texturas, con una plantilla y documentación para crearlos. Hay versiones para Windows, Linux (también en Flatpak y para ARM64) y macOS. Tiene previsto añadir el multijugador a pantalla partida. La 1.0.4 salió el 4 de octubre y la última, la 1.0.6, el 13 de octubre, con más facilidades para hacer paquetes de texturas y arreglos en la pantalla de entrenamiento."
+  en: "Snowboard Kids: Recompiled, a static recompilation of the US release, built with N64Recomp and with RT64 as its renderer. It isn’t based on the same author’s decompilation, though it uses its headers and some functions for its patches. It runs at any frame rate (your monitor’s by default) without changing game speed, and at any aspect ratio, ultrawide included, with an option to keep the HUD at 16:9. It adds in-game settings menus you can use with mouse, controller, or keyboard, adjustable deadzone and Y-axis inversion, low input lag, and near-instant loading. It supports mods and texture packs, with a template and documentation for making them. There are builds for Windows, Linux (also as a Flatpak and for ARM64), and macOS. Split-screen multiplayer is planned. 1.0.4 came out on October 4 and the latest, 1.0.6, on October 13, making texture packs easier to create and fixing the training screen."
+requirements:
+  es: "Tu propia ROM estadounidense de Snowboard Kids para N64; si no está en .z64 se convierte sola, y no acepta otras ROM. Además, una tarjeta gráfica con Direct3D 12.0 (Shader Model 6), Vulkan 1.2 o Metal Argument Buffers Tier 2 (como mínimo, GeForce GT 630, Radeon HD 7750 o Intel HD 510), un procesador con SSE4.1 en x86-64 y, en Windows, el Visual C++ Redistributable. En Mac, Apple Silicon o un Intel de 7.ª generación con macOS 13 o posterior."
+  en: "Your own US Snowboard Kids ROM for N64; if it isn’t a .z64 it’s converted automatically, and no other ROM is accepted. Plus a graphics card with Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 (at least a GeForce GT 630, Radeon HD 7750, or Intel HD 510), a CPU with SSE4.1 on x86-64, and, on Windows, the Visual C++ Redistributable. On a Mac, Apple silicon or a 7th-gen Intel CPU with macOS 13 or later."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - racing

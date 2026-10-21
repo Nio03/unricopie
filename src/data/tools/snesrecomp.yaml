@@ -6,7 +6,8 @@ repo: RetroPortingToolKit/snesrecomp
 authorFormerly: mstan
 status: experimental
 desc:
-  es: "Ecosistema de recompilación estática para juegos de Super Nintendo. Forma parte de la comunidad R.A.I.D."
-  en: "Static recompilation ecosystem for Super Nintendo games. Part of the R.A.I.D. community."
+  es: "Ecosistema de recompilación estática para juegos de Super Nintendo. Forma parte de la comunidad R.A.I.D. 21 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Static recompilation ecosystem for Super Nintendo games. Part of the R.A.I.D. community. 21 of its last 100 commits list Claude as a co-author."
 tags:
   - "65816"
+  - ai-assisted

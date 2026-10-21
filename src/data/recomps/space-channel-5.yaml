@@ -1,0 +1,18 @@
+name: Space Channel 5
+console: dreamcast
+status: playable
+repo: ZoomiesZaggy/Space-Channel-5
+originalDeveloper: United Game Artists
+year: 2000
+desc:
+  es: "Port nativo no oficial de la versión estadounidense de Dreamcast para Windows, Linux y macOS. El código SH-4 del juego se traduce de antemano a módulos nativos, sin intérprete ni recompilador dinámico de reserva durante la partida, y Flycast aporta los componentes de dispositivos, gráficos y sonido. Las descargas ya traen los módulos compilados: un launcher importa los archivos de tu disco y no hace falta compilador. Por defecto mantiene el encuadre 4:3 original, y ofrece ajustar, recortar o estirar la imagen y, de forma experimental, una geometría ampliada a 16:9 en la que los fondos pregrabados siguen en 4:3. Añade interpolación opcional de la geometría a 60 Hz, que puede sumar unos 17 ms de retraso visual, controles reasignables para teclado y mando, ajuste manual del ritmo de entrada, paquetes de texturas y una interfaz experimental para mods nativos. Una versión anterior para Windows se jugó entera, hasta los créditos, en modo asistido; las de Linux y macOS solo tienen pruebas automáticas. La preview 2 (17 de septiembre) bajó el consumo de procesador. Dos de sus 33 commits llevan a Cursor Agent como coautor."
+  en: "An unofficial native port of the US Dreamcast release for Windows, Linux, and macOS. The game’s SH-4 code is translated ahead of time into native modules, with no interpreter or dynamic recompiler fallback during play, and Flycast provides the device, graphics, and audio components. The downloads already include the compiled modules: a launcher imports the files from your disc, and no compiler is needed. It keeps the original 4:3 framing by default and offers fit, crop, and stretch, plus an experimental expanded 16:9 geometry in which the prerecorded backgrounds stay 4:3. It adds optional 60 Hz geometry interpolation, which can add about 17 ms of visual delay, rebindable keyboard and controller input, a manual rhythm timing offset, texture packs, and an experimental native mod interface. An earlier Windows build was played through to the credits in assist mode; the Linux and macOS builds have only automated tests. Preview 2 (September 17) cut CPU overhead. Two of its 33 commits list Cursor Agent as co-author."
+requirements:
+  es: "Tu propia copia estadounidense de Space Channel 5 para Dreamcast en formato GDI, con todas sus pistas, que tiene que seguir disponible mientras juegas porque la música y los vídeos se leen de ella. Además, Windows x64, Linux x64 o ARM64, o macOS (Apple Silicon o Intel), y una tarjeta gráfica con OpenGL 3.3."
+  en: "Your own US copy of Space Channel 5 for Dreamcast as a GDI with all its tracks, which must stay available while you play because music and video are read from it. Plus x64 Windows, x64 or ARM64 Linux, or macOS (Apple Silicon or Intel), and an OpenGL 3.3 graphics card."
+tags:
+  - sh-4
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

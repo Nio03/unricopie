@@ -7,10 +7,11 @@ originalDeveloper: Backbone Entertainment
 year: 2012
 toolchain: XenonRecomp
 desc:
-  es: "Recompilación estática de la versión de Xbox 360 (XBLA) de The Simpsons Arcade Game a un ejecutable nativo de PC, con XenonRecomp y el SDK de ReXGlue. Se juega a velocidad completa: menús, gráficos (de Xenos a Direct3D 12 o Vulkan), sonido XMA2, y teclado y mando. No hay ejecutables publicados: el código del juego se genera en tu PC a partir de tu copia y se compila. Tiene un proyecto hermano para la versión de PS3."
-  en: "Static recompilation of the Xbox 360 (XBLA) version of The Simpsons Arcade Game into a native PC executable, using XenonRecomp and the ReXGlue SDK. It plays at full speed: menus, graphics (Xenos to Direct3D 12 or Vulkan), XMA2 audio, and keyboard and controller input. There are no prebuilt executables: the game code is generated on your PC from your copy and then compiled. It has a sibling project for the PS3 version."
+  es: "Recompilación estática de la versión de Xbox 360 (XBLA) de The Simpsons Arcade Game a un ejecutable nativo de PC, con XenonRecomp y el SDK de ReXGlue. Se juega a velocidad completa: menús, gráficos (de Xenos a Direct3D 12 o Vulkan), sonido XMA2, y teclado y mando. No hay ejecutables publicados: el código del juego se genera en tu PC a partir de tu copia y se compila. Tiene un proyecto hermano para la versión de PS3. Sus 12 commits llevan a Claude como coautor."
+  en: "Static recompilation of the Xbox 360 (XBLA) version of The Simpsons Arcade Game into a native PC executable, using XenonRecomp and the ReXGlue SDK. It plays at full speed: menus, graphics (Xenos to Direct3D 12 or Vulkan), XMA2 audio, and keyboard and controller input. There are no prebuilt executables: the game code is generated on your PC from your copy and then compiled. It has a sibling project for the PS3 version. All 12 of its commits list Claude as a co-author."
 requirements:
   es: "Tu propia copia de la versión de Xbox 360, con su default.xex extraído."
   en: "Your own copy of the Xbox 360 version, with its default.xex extracted."
 tags:
   - powerpc
+  - ai-assisted

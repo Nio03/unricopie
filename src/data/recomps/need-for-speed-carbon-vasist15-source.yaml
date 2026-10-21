@@ -1,0 +1,23 @@
+name: "Need for Speed: Carbon (vasist15-source)"
+console: pc
+status: fully
+repo: vasist15-source/nfs-carbon-mac
+originalDeveloper: EA Black Box
+year: 2006
+toolchain: recomp-kit
+desc:
+  es: "Port nativo para Mac con Apple Silicon de la versión de Windows, hecho por recompilación estática con recomp-kit, de veritr1x: el código x86 del NFSC.exe se traduce a C por adelantado y se compila para ARM, con un renderizador que pasa Direct3D 9 a Metal y audio y mandos nativos, sin Wine ni emulador. Sigue el método y gran parte de la instalación del port de Most Wanted de elforeign. El proyecto lo da por completamente jugable: la carrera, las pruebas, el garaje y los menús funcionan a 60 fps y con sonido. Una app de instalación compila el juego a partir de tu carpeta, tras analizar una sola vez el ejecutable con Ghidra. Incluye la corrección panorámica de ThirteenAG reimplementada (cualquier resolución de 640×480 a 4K, campo de visión Hor+, HUD en los bordes, vídeos y efectos ajustados), un menú de ajustes con F10 (pantalla completa, sin bordes o ventana, resolución de renderizado, límite de fotogramas original, de 40, de 60 o de 120 en pruebas, filtrado anisotrópico hasta 16x y contador de rendimiento), opciones para saltar los vídeos de inicio, ocultar los modos en línea, ya cerrados, quitar la ayuda a los rivales que se quedan atrás y activar trucos, y una adaptación de NFS-XtendedInput con la disposición de mando de consola, gatillos analógicos, iconos de botones de Xbox, PlayStation o Switch Pro y vibración. Usa el modo de juego de macOS. De forma opcional, la instalación descarga de nfsmods.xyz el mod NFS Carbon Remastered UI, de BadassBaboon, que pone en alta resolución los menús, el HUD, las tipografías y los mapas, y lo instala en la copia del juego que lleva la app (unos 300 MB). 62 de sus 63 commits llevan a Claude como coautor. La 0.1.0 salió el 10 de octubre y la última, la 0.1.13, el 19 de octubre."
+  en: "A native port of the Windows version for Apple Silicon Macs, made by static recompilation with veritr1x’s recomp-kit: the x86 code in NFSC.exe is translated to C ahead of time and compiled for ARM, with a renderer that turns Direct3D 9 into Metal and native audio and controller support, with no Wine or emulator. It follows the approach and much of the setup of elforeign’s Most Wanted port. The project calls it fully playable: career, races, the garage, and the menus work at 60 fps with sound. A setup app builds the game from your folder after a one-time analysis of the executable with Ghidra. It includes a reimplementation of ThirteenAG’s widescreen fix (any resolution from 640×480 to 4K, Hor+ field of view, HUD at the edges, adjusted movies and effects), an F10 settings menu (fullscreen, borderless, or windowed, render resolution, a frame limit of original, 40, 60, or an experimental 120, up to 16x anisotropic filtering, and a performance overlay), options to skip the intro movies, hide the closed online modes, turn off rubber-banding, and enable cheats, and a port of NFS-XtendedInput with the console controller layout, analog triggers, Xbox, PlayStation, or Switch Pro button prompts, and rumble. It uses macOS Game Mode. Optionally, setup downloads BadassBaboon’s NFS Carbon Remastered UI mod from nfsmods.xyz, which makes the menus, HUD, fonts, and maps high resolution, and installs it into the app’s copy of the game (about 300 MB). 62 of its 63 commits list Claude as co-author. 0.1.0 came out on October 10 and the latest, 0.1.13, on October 19."
+requirements:
+  es: "Tu propia copia instalada de Need for Speed: Carbon para PC, versión 1.4, con un NFSC.exe sin envoltorio de protección (SHA-256 baaaaec33873d4ba7e4dbae6a5212049ffdcf9679a35d865d7625b4189952fd3, que la compilación comprueba) y los msvcr71.dll y msvcp71.dll de la carpeta del juego. Además, un Mac con Apple Silicon, las Command Line Tools de Xcode y Python 3; la primera compilación descarga Ghidra y Java."
+  en: "Your own installed copy of Need for Speed: Carbon for PC, version 1.4, with an unwrapped NFSC.exe (SHA-256 baaaaec33873d4ba7e4dbae6a5212049ffdcf9679a35d865d7625b4189952fd3, which the build checks) and the msvcr71.dll and msvcp71.dll from the game folder. Plus an Apple Silicon Mac, Xcode Command Line Tools, and Python 3; the first build downloads Ghidra and Java."
+tags:
+  - x86
+  - racing
+  - widescreen
+  - 60fps+
+  - hd-assets
+  - ai-assisted
+links:
+  - label: "recomp-kit (veritr1x)"
+    url: https://github.com/veritr1x/recomp-kit

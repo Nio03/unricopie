@@ -1,0 +1,28 @@
+name: "Yu-Gi-Oh! Forbidden Memories (Recompiled)"
+category: decomp-port
+console: ps1
+status: playable
+repo: Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled
+originalDeveloper: Konami
+year: 2002
+desc:
+  es: "Port nativo para Windows, Linux y macOS con Apple Silicon de la versión estadounidense (SLUS-01411), construido a partir de una decompilación hecha a mano: las 1134 funciones de C del juego coinciden byte a byte con el ejecutable original, sobre la base de memories-decomp. No es una recompilación estática, pese al nombre, y es el sucesor del recomp del mismo autor hecho con PSXRecomp. Dibuja hasta a 4 veces la resolución interna, en panorámico y con texto en HD, y con 3D Monsters los monstruos boca arriba se alzan en el campo con sus modelos de combate. Tiene un sistema de mods (cartas nuevas más allá de las 722 originales, fusiones, efectos de cartas, texturas, música, tablas de juego) y el FM Editor para crearlos sin escribir JSON, además de ranuras de guardado, estados guardados, ayuda para fusiones, probabilidades de las cartas que se ganan, controles reasignables e importación de partidas de tarjetas de memoria de emuladores. Aparte publica, como descarga opcional, Forbidden Memories HD, un paquete con cartas, marcos y retratos redibujados. La última versión estable es la 0.3.0 (11 de octubre), y la 0.3.1-preview.1 (18 de octubre) añade un modo torre para mods. También tiene versión para Android. 6862 de sus 9353 commits llevan como coautor a Copilot o a Claude. El repositorio incluye además el texto de las cinco versiones europeas, sacado de los discos PAL, para jugar en inglés, francés, alemán, italiano o español."
+  en: "A native port for Windows, Linux, and Apple silicon macOS of the US release (SLUS-01411), built from a hand-made decompilation: all 1,134 of the game’s C functions match the original executable byte for byte, building on memories-decomp. Despite the name it isn’t a static recompilation, and it’s the successor to the same author’s PSXRecomp-based recomp. It renders at up to 4x internal resolution, in widescreen and with HD text, and with 3D Monsters face-up monsters stand on the field as their battle models. It has a mod system (new cards past the original 722, fusions, card effects, textures, music, gameplay tables) and the FM Editor to make mods without writing JSON, plus save slots, save states, a fusion helper, card drop rates, rebindable controls, and importing saves from emulator memory cards. Separately, it publishes Forbidden Memories HD as an optional download, a pack of redrawn cards, frames, and portraits. The latest stable release is 0.3.0 (October 11), and 0.3.1-preview.1 (October 18) adds a tower mode for mods. There’s also an Android build. 6,862 of its 9,353 commits list Copilot or Claude as a co-author. The repository also includes the text of the five European releases, taken from the PAL discs, to play in English, French, German, Italian, or Spanish."
+requirements:
+  es: "Tu propia imagen del disco estadounidense de Yu-Gi-Oh! Forbidden Memories para PS1 (SLUS-01411), el .bin. Además, Windows, Linux o macOS con Apple Silicon; para compilarlo en Linux, gcc y Python 3."
+  en: "Your own disc image of the US release of Yu-Gi-Oh! Forbidden Memories for PS1 (SLUS-01411), the .bin. Plus Windows, Linux, or Apple silicon macOS; building it on Linux takes gcc and Python 3."
+tags:
+  - mips
+  - matching
+  - widescreen
+  - mods
+  - ai-assisted
+links:
+  - label:
+      es: "Decompilación de base (memories-decomp)"
+      en: "Base decompilation (memories-decomp)"
+    url: https://github.com/krystalgamer/memories-decomp
+  - label:
+      es: "Predecesor: recomp con PSXRecomp"
+      en: "Predecessor: PSXRecomp-based recomp"
+    url: https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp

@@ -6,10 +6,11 @@ originalDeveloper: Visceral Games
 year: 2010
 toolchain: ReXGlue
 desc:
-  es: "Port nativo a PC de Dante's Inferno (Xbox 360) por recompilación estática con el SDK de ReXGlue: el ejecutable XEX de PowerPC se traduce a C++ portable y funciona sobre D3D12 en Windows o Vulkan en Linux, sin emulación ni compilación JIT durante la ejecución."
-  en: "Native PC port of Dante's Inferno (Xbox 360) by static recompilation with the ReXGlue SDK: the PowerPC XEX executable is translated to portable C++ and runs on D3D12 on Windows or Vulkan on Linux, with no emulation and no JIT at run time."
+  es: "Port nativo a PC de Dante's Inferno (Xbox 360) por recompilación estática con el SDK de ReXGlue: el ejecutable XEX de PowerPC se traduce a C++ portable y funciona sobre D3D12 en Windows o Vulkan en Linux, sin emulación ni compilación JIT durante la ejecución. 4 de sus últimos 100 commits llevan a Claude, Cursor o Devin como coautor."
+  en: "Native PC port of Dante's Inferno (Xbox 360) by static recompilation with the ReXGlue SDK: the PowerPC XEX executable is translated to portable C++ and runs on D3D12 on Windows or Vulkan on Linux, with no emulation and no JIT at run time. 4 of its last 100 commits list Claude, Cursor or Devin as a co-author."
 requirements:
   es: "Tu propia copia de Dante's Inferno para Xbox 360."
   en: "Your own copy of Dante's Inferno for Xbox 360."
 tags:
   - powerpc
+  - ai-assisted

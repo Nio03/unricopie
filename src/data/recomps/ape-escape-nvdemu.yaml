@@ -1,0 +1,22 @@
+name: Ape Escape (NVDEMU)
+console: ps1
+status: fully
+repo: NVDEMU/ApeEscapeRecomp-MacWindowsLinux
+forkOf:
+  label: mstan/ApeEscapeRecomp
+  url: https://github.com/mstan/ApeEscapeRecomp
+originalDeveloper: Sony Computer Entertainment
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Ape Escape Recompiled - Enhanced Edition: fork del port de mstan, hecho con PSXRecomp a partir de la versión estadounidense (SCUS-94423), que suma versiones para macOS (Apple Silicon e Intel) a las de Windows y Linux y amplía el launcher y los mods. Todos los mods vienen desactivados: panorámica 16:9, 21:9 o adaptable, fotogramas intermedios, PGXP, saltar los vídeos, cambio rápido de artilugio, triple salto con el Sky Flyer, vidas, salud y aire infinitos, todos los artilugios desbloqueados, más distancia de dibujado, reintento rápido y contadores, retos (cacerías con tiempo, sin daño, vidas limitadas) y un modo pesadilla. El launcher añade copias de seguridad de las partidas, un reto diario, fichas de los niveles, una Monkepedia con una lista de monos capturados, una prueba de mando, opciones de accesibilidad, un kit para crear mods y un actualizador para Windows y macOS. Incluye OpenBIOS, así que la BIOS de la consola es opcional. Su README dice que sigue en desarrollo, pero que se ha comprobado que el juego se completa al 100 %. La 1.0.0 salió el 17 de octubre, y desde entonces publica versiones nightly. Unos 46 de sus commits, todos del proyecto original, llevan a Claude como coautor. Su reproductor de la banda sonora descarga desde Archive.org, solo cuando eliges una pista, las canciones del juego; las descargas del proyecto no las incluyen."
+  en: "Ape Escape Recompiled - Enhanced Edition: a fork of mstan’s port, built with PSXRecomp from the US release (SCUS-94423), that adds macOS builds (Apple silicon and Intel) to the Windows and Linux ones and extends the launcher and the mods. Every mod is off by default: 16:9, 21:9, or adaptive widescreen, in-between frames, PGXP, skipping movies, quick gadget select, a Sky Flyer triple jump, infinite lives, health, and air, all gadgets unlocked, longer draw distance, quick retry and counters, challenges (timed hunts, no damage, limited lives), and a nightmare mode. The launcher adds save backups, a daily challenge, level cards, a Monkepedia with a caught-monkey checklist, a controller test, accessibility options, a modding kit, and an updater for Windows and macOS. It includes OpenBIOS, so the console BIOS is optional. Its README says it’s still in development, but that a 100% playthrough has been verified. Version 1.0.0 came out on October 17, and nightly builds have followed since. About 46 of its commits, all from the original project, list Claude as co-author. Its soundtrack player downloads the game’s songs from Archive.org, only when you pick a track; the project’s downloads don’t include them."
+requirements:
+  es: "Tu propia imagen de disco estadounidense de Ape Escape para PS1 (SCUS-94423), mejor en CUE/BIN, aunque también acepta CHD. La BIOS SCPH-1001 es opcional. Hay versiones para Windows de 64 bits, macOS con Apple Silicon o Intel (firmadas ad hoc, sin notarizar) y Linux x86-64 (AppImage)."
+  en: "Your own US disc image of Ape Escape for PS1 (SCUS-94423), preferably as CUE/BIN, though CHD is accepted too. The SCPH-1001 BIOS is optional. There are builds for 64-bit Windows, Apple silicon or Intel macOS (ad-hoc signed, not notarized), and x86-64 Linux (AppImage)."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

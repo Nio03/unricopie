@@ -6,10 +6,11 @@ originalDeveloper: Avalanche Software
 year: 1999
 toolchain: N64Recomp
 desc:
-  es: "Port para Windows, y experimental para Linux, construido con N64Recomp, N64ModernRuntime, RT64 y RecompFrontend. Imagen a 60 fps, nivel de detalle al máximo, modo panorámico, música personalizada y un multijugador en línea todavía experimental. Su autor dedica una sección del README a declarar que usó IA de forma extensa (en el código, la depuración, la documentación y parte del arte del launcher), y a explicar que prefiere admitirlo antes que dar a entender que todo está escrito a mano."
-  en: "Windows port, with experimental native Linux support, built with N64Recomp, N64ModernRuntime, RT64, and RecompFrontend. 60 fps output, maximum level of detail, widescreen, custom music, and still-experimental online multiplayer. Its author devotes a README section to stating that AI was used extensively (code, debugging, documentation, and part of the launcher artwork), and to saying they’d rather admit it than imply the work was entirely hand-written."
+  es: "Port para Windows, y experimental para Linux, construido con N64Recomp, N64ModernRuntime, RT64 y RecompFrontend. Imagen a 60 fps, nivel de detalle al máximo, modo panorámico, música personalizada y un multijugador en línea todavía experimental. Su autor dedica una sección del README a declarar que usó IA de forma extensa (en el código, la depuración, la documentación y parte del arte del launcher), y a explicar que prefiere admitirlo antes que dar a entender que todo está escrito a mano. 7 de sus 27 commits llevan a Claude como coautor."
+  en: "Windows port, with experimental native Linux support, built with N64Recomp, N64ModernRuntime, RT64, and RecompFrontend. 60 fps output, maximum level of detail, widescreen, custom music, and still-experimental online multiplayer. Its author devotes a README section to stating that AI was used extensively (code, debugging, documentation, and part of the launcher artwork), and to saying they’d rather admit it than imply the work was entirely hand-written. 7 of its 27 commits list Claude as a co-author."
 requirements:
   es: "Tu propia ROM de Road Rash 64 (N64, versión estadounidense 1.0). No se distribuyen ni la ROM ni la banda sonora."
   en: "Your own Road Rash 64 ROM (N64, US version 1.0). Neither the ROM nor the soundtrack is distributed."
 tags:
   - mips
+  - ai-assisted

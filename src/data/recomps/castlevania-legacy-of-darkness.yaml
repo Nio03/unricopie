@@ -5,8 +5,10 @@ repo: fliperama86/cvlod_recomp
 originalDeveloper: KCEK / Konami
 toolchain: N64Recomp
 desc:
-  es: "Recompilación del Castlevania: Legacy of Darkness de N64, ahora centrada en que el juego sea estable (v0.2.x)."
-  en: "Recompilation of the N64 Castlevania: Legacy of Darkness, currently focused on stabilizing gameplay (v0.2.x)."
+  es: "Recompilación del Castlevania: Legacy of Darkness de N64, ahora centrada en que el juego sea estable (v0.2.x). 11 de sus últimos 100 commits enlazan una sesión de Claude Code."
+  en: "Recompilation of the N64 Castlevania: Legacy of Darkness, currently focused on stabilizing gameplay (v0.2.x). 11 of its last 100 commits link a Claude Code session."
 requirements:
   es: "Una ROM sin modificar de Castlevania: Legacy of Darkness (N64)."
   en: "An unmodified Castlevania: Legacy of Darkness ROM (N64)."
+tags:
+  - ai-assisted

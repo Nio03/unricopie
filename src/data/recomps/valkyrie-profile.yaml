@@ -6,10 +6,11 @@ originalDeveloper: tri-Ace
 year: 1999
 toolchain: psxrecomp
 desc:
-  es: "Recompilación estática del RPG de tri-Ace, construida sobre psxrecomp y recomp-ui. Admite los dos discos (SLUS-01156 y SLUS-01179), que se eligen desde el launcher, modo panorámico 16:9 opcional sobre el 4:3 original, renderizado por OpenGL o por software, mando y tarjeta de memoria. Su autor lo considera un trabajo en curso, en fase de pruebas de compatibilidad."
-  en: "Static recompilation of tri-Ace’s RPG, built on psxrecomp and recomp-ui. It supports both discs (SLUS-01156 and SLUS-01179), selected from the launcher, optional 16:9 widescreen over the original 4:3, OpenGL or software rendering, and controller and memory card support. Its author calls it a work in progress, in compatibility testing."
+  es: "Recompilación estática del RPG de tri-Ace, construida sobre psxrecomp y recomp-ui. Admite los dos discos (SLUS-01156 y SLUS-01179), que se eligen desde el launcher, modo panorámico 16:9 opcional sobre el 4:3 original, renderizado por OpenGL o por software, mando y tarjeta de memoria. Su autor lo considera un trabajo en curso, en fase de pruebas de compatibilidad. Su README indica que puede usar herramientas de IA para el desarrollo, la documentación, el arte u otros materiales, siempre revisados antes de incluirse."
+  en: "Static recompilation of tri-Ace’s RPG, built on psxrecomp and recomp-ui. It supports both discs (SLUS-01156 and SLUS-01179), selected from the launcher, optional 16:9 widescreen over the original 4:3, OpenGL or software rendering, and controller and memory card support. Its author calls it a work in progress, in compatibility testing. Its README says it may use AI-assisted tools for development, documentation, artwork, or other materials, always reviewed before inclusion."
 requirements:
   es: "Tus propias imágenes de los dos discos de Valkyrie Profile (edición estadounidense, NTSC-U). Usa OpenBIOS a través de psxrecomp, así que no hace falta la BIOS de la consola."
   en: "Your own disc images for both Valkyrie Profile discs (US NTSC-U edition). It uses OpenBIOS through psxrecomp, so you don’t need a console BIOS."
 tags:
   - mips
+  - ai-assisted

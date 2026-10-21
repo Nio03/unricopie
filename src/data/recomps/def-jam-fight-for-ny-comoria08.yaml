@@ -1,0 +1,23 @@
+name: "Def Jam: Fight for NY (comoria08)"
+console: xbox
+status: playable
+repo: comoria08/defjam_recomp
+originalDeveloper: AKI Corporation / EA Canada
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense de Xbox en un programa nativo para Windows: el código del juego se traduce a C y se compila en tu equipo a partir de tu imagen de disco, con un fork de xboxrecomp que lleva los arreglos del port. La documentación está en francés, con un resumen en inglés. La versión 1.0.0 (9 de octubre) sale en dos paquetes: uno ligero, que compila con Visual Studio y admite DLSS en tarjetas NVIDIA RTX, y uno completo de unos 100 MB, sin DLSS, que trae Clang, Python, capstone y CMake y no necesita instalar nada. El instalador comprueba tu imagen, la extrae, traduce el código y lo compila en unos minutos; con el paquete ligero ofrece descargar NVIDIA Streamline 2.14.1 (276 MB) desde el repositorio oficial de NVIDIA y comprueba su huella antes de usarlo. Al arrancar se abre una ventana de ajustes con resolución, 4:3 o 16:9 (con la opción de dejar menús e interfaz en 4:3), pantalla completa, filtrado de texturas, efectos de render y mods, que son archivos que sustituyen a los del disco. Sus dos commits llevan a Claude como coautor."
+  en: "A static recompilation of the US Xbox release into a native Windows program: the game’s code is translated to C and compiled on your machine from your disc image, with a fork of xboxrecomp that carries the port’s fixes. The documentation is in French, with an English summary. Version 1.0.0 (October 9) comes in two packages: a light one, which builds with Visual Studio and supports DLSS on NVIDIA RTX cards, and a full one of about 100 MB, without DLSS, which bundles Clang, Python, capstone, and CMake and needs nothing installed. The installer checks your image, extracts it, translates the code, and compiles it in a few minutes; with the light package it offers to download NVIDIA Streamline 2.14.1 (276 MB) from NVIDIA’s official repository and checks its hash before using it. On launch a settings window opens with resolution, 4:3 or 16:9 (with an option to keep menus and HUD at 4:3), fullscreen, texture filtering, rendering effects, and mods, which are files that replace the disc’s. Both of its commits list Claude as co-author."
+requirements:
+  es: "La imagen de disco (.iso) de tu propia copia estadounidense de Def Jam: Fight for NY para Xbox; el instalador rechaza la europea y cualquier otra. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con DirectX 11, unos 4 GB libres y un mando tipo Xbox (XInput), porque el teclado no controla el juego. El paquete ligero necesita Visual Studio Build Tools (C++), Python 3 con capstone y CMake, que el instalador ofrece instalar con winget si aceptas."
+  en: "The disc image (.iso) of your own US copy of Def Jam: Fight for NY for Xbox; the installer refuses the European release and any other. Plus 64-bit Windows 10 or 11, a DirectX 11 graphics card, about 4 GB of free space, and an Xbox-style (XInput) controller, since the keyboard doesn’t control the game. The light package needs Visual Studio Build Tools (C++), Python 3 with capstone, and CMake, which the installer offers to install with winget if you agree."
+tags:
+  - x86
+  - widescreen
+  - mods
+  - ai-assisted
+links:
+  - label:
+      es: "xboxrecomp (rama defjam-bringup)"
+      en: "xboxrecomp (defjam-bringup branch)"
+    url: https://github.com/comoria08/xboxrecomp/tree/defjam-bringup

@@ -1,0 +1,20 @@
+name: Gran Turismo 2 (ianitsky)
+console: ps1
+status: playable
+repo: ianitsky/gt2-multiplayer
+author: Douglas Ianitsky
+originalDeveloper: Polyphony Digital
+year: 1999
+toolchain: RecompOne
+desc:
+  es: "GT2 Multiplayer: recompilación estática a C# del disco estadounidense SCUS-94488, hecha con RecompOne, que se compila como programa .NET nativo para Windows y añade lo que el original no tenía: carreras en línea contra otras personas. Según el proyecto, arranca y se juega en los menús y el modo arcade, con partidas guardadas en tarjetas de memoria emuladas. El multijugador, en alfa, tiene lista de salas, sala de espera, clasificación opcional de dos vueltas y carreras de hasta seis jugadores en 27 circuitos con 60 coches, por vueltas (de 1 a 99) o por tiempo (de 1 a 180 minutos). Las salas se encuentran en la red local o, por internet, abriendo un puerto UDP en el router del anfitrión (el juego lo intenta por UPnP) o a través de un relé que incluye el propio repositorio y que se puede montar en un servidor o detrás de un túnel UDP gratuito; con relé, también se puede entrar en una sala con un código de seis caracteres. Los coches remotos se dibujan interpolados entre las posiciones que llegan, y un corte largo de la conexión deja el coche parado en la última conocida. La vibración está desactivada en esta versión. 325 de sus 378 commits llevan a Claude como coautor. La última versión es la 1.0.1 (12 de septiembre)."
+  en: "GT2 Multiplayer: a static recompilation of the US SCUS-94488 disc into C#, built with RecompOne and compiled as a native .NET program for Windows, which adds something the original never had: online races against other people. According to the project, it boots and plays through the menus and arcade mode, with saves on emulated memory cards. Multiplayer, in alpha, has a room list, a lobby, optional two-lap qualifying, and races of up to six players on 27 courses with 60 cars, by laps (1–99) or by time (1–180 minutes). Rooms are found on the local network or, over the internet, by opening a UDP port on the host’s router (the game tries UPnP) or through a relay that ships in the same repository and can run on a server or behind a free UDP tunnel; with a relay, a room can also be joined with a six-character code. Remote cars are drawn interpolated between the positions that arrive, and a long connection drop leaves a car parked at its last known one. Rumble is turned off in this build. 325 of its 378 commits list Claude as co-author. The latest version is 1.0.1 (September 12)."
+requirements:
+  es: "Tu propia imagen del disco estadounidense de Gran Turismo 2 (SCUS-94488), en .cue/.bin o .chd; el proyecto pide en concreto el que llama «Gran Turismo 2 Combined Disc (USA)». Además, Windows; la descarga ya incluye .NET. Para compilarlo hace falta el SDK de .NET 10."
+  en: "Your own image of the US Gran Turismo 2 disc (SCUS-94488), as .cue/.bin or .chd; the project specifically asks for the one it calls “Gran Turismo 2 Combined Disc (USA).” Plus Windows; the download bundles .NET. Building it requires the .NET 10 SDK."
+tags:
+  - mips
+  - racing
+  - multiplayer
+  - online
+  - ai-assisted

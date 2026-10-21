@@ -6,7 +6,8 @@ repo: mstan/segagenesisrecomp
 author: mstan
 status: experimental
 desc:
-  es: "Recompilador estático de Mega Drive: traduce a C nativo el código 68000 de la ROM y lo hace correr sobre un entorno de ejecución de la consola escrito desde cero, con su propio procesador de vídeo, los chips de sonido YM2612 y SN76489 y el Z80. Cada juego vive en su propio repositorio, que aporta la configuración y el lanzador; de aquí salen las recompilaciones de Sonic 1, Sonic 2 y Sonic 3 & Knuckles del catálogo. Funciona en Windows, macOS y Linux."
-  en: "Static recompiler for the Mega Drive: it translates the ROM’s 68000 code to native C and runs it on a console runtime written from scratch, with its own video processor, the YM2612 and SN76489 sound chips, and the Z80. Each game lives in its own repository, which provides the configuration and the launcher; the Sonic 1, Sonic 2, and Sonic 3 & Knuckles recomps in this catalog come from it. It runs on Windows, macOS, and Linux."
+  es: "Recompilador estático de Mega Drive: traduce a C nativo el código 68000 de la ROM y lo hace correr sobre un entorno de ejecución de la consola escrito desde cero, con su propio procesador de vídeo, los chips de sonido YM2612 y SN76489 y el Z80. Cada juego vive en su propio repositorio, que aporta la configuración y el lanzador; de aquí salen las recompilaciones de Sonic 1, Sonic 2 y Sonic 3 & Knuckles del catálogo. Funciona en Windows, macOS y Linux. 18 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Static recompiler for the Mega Drive: it translates the ROM’s 68000 code to native C and runs it on a console runtime written from scratch, with its own video processor, the YM2612 and SN76489 sound chips, and the Z80. Each game lives in its own repository, which provides the configuration and the launcher; the Sonic 1, Sonic 2, and Sonic 3 & Knuckles recomps in this catalog come from it. It runs on Windows, macOS, and Linux. 18 of its last 100 commits list Claude as a co-author."
 tags:
   - static-recomp
+  - ai-assisted

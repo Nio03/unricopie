@@ -1,0 +1,22 @@
+name: "Super Smash Bros. Melee (Melee Unlocked)"
+category: decomp-port
+console: gamecube
+status: playable
+repo: Hero88go/melee-unlocked
+decomp: doldecomp/melee
+originalDeveloper: HAL Laboratory
+year: 2001
+desc:
+  es: "Melee Unlocked: port nativo para Windows de la versión NTSC 1.02 de GameCube, con dos motores que se eligen en el launcher. El principal es un port construido a partir de la decompilación de Melee: el código C se compila para Windows y un runtime propio sustituye a la consola, con los gráficos en Direct3D 12 u 11, un mezclador de sonido nativo y lectura directa de los mandos. El segundo, con el que empezó el proyecto, es una recompilación estática a C++ del código PowerPC original (con los códigos Gecko de Slippi), y se mantiene para los mods que necesitan el código original. En los dos, la lógica sigue a los 60 Hz de la consola y la imagen va a cualquier tasa de fotogramas: los fotogramas intermedios salen de los datos de animación y física del propio juego, no de interpolar la imagen. Tiene juego en línea de Slippi con rollback contra jugadores de Slippi Dolphin, DLSS y DLAA, resolución interna hasta 8x, 16:9 opcional, adaptador de GameCube, partidas guardadas en .gci y un panel de ajustes dentro del juego. Admite mods como 20XX TE, Training Mode CE, Akaneia, ACE, Melee 3D y Melee Maker, y trajes importados. Desde la 0.9.1 hay una versión experimental para Linux (solo el port, con OpenGL), y la última, la 0.9.15, salió el 21 de octubre. Su autor declara que lo desarrolló con ayuda de los modelos de IA Fable 5.1 y GPT 6 Astra, y unos 360 de sus 504 commits llevan a Claude como coautor."
+  en: "Melee Unlocked: a native Windows port of the GameCube NTSC 1.02 release, with two engines you pick in the launcher. The main one is a port built from the Melee decompilation: the C code is compiled for Windows and the project’s own runtime stands in for the console, with graphics through Direct3D 12 or 11, a native sound mixer, and controllers read directly. The second, which the project started with, is a static recompilation of the original PowerPC code (with Slippi’s Gecko codes) to C++, kept for the mods that need the original code. On both, the game logic stays at the console’s 60 Hz while the display runs at any frame rate: in-between frames come from the game’s own animation and physics data, not from image interpolation. It has Slippi online play with rollback against Slippi Dolphin players, DLSS and DLAA, up to 8x internal resolution, optional 16:9, GameCube adapter support, .gci memory card saves, and an in-game settings panel. It runs mods such as 20XX TE, Training Mode CE, Akaneia, ACE, Melee 3D, and Melee Maker, plus imported costumes. Since 0.9.1 there’s an experimental Linux build (the port only, on OpenGL), and the latest, 0.9.15, came out on October 21. Its author states it was developed with the help of the AI models Fable 5.1 and GPT 6 Astra, and about 360 of its 504 commits list Claude as co-author."
+requirements:
+  es: "Tu propia imagen de disco de Super Smash Bros. Melee, versión NTSC 1.02. Además, Windows de 64 bits con una tarjeta gráfica con Direct3D 12 (también funciona con Direct3D 11, sin DLSS) o, para la versión experimental, Linux x86-64 con un procesador con AVX2 y OpenGL 4.5. Para jugar en línea hace falta una cuenta de Slippi, que se crea en el Slippi Launcher."
+  en: "Your own Super Smash Bros. Melee disc image, NTSC 1.02. Plus 64-bit Windows with a Direct3D 12 graphics card (Direct3D 11 also works, without DLSS) or, for the experimental build, x86-64 Linux with an AVX2 CPU and OpenGL 4.5. Online play needs a Slippi account, created in the Slippi Launcher."
+tags:
+  - powerpc
+  - 60fps+
+  - widescreen
+  - online
+  - netplay
+  - mods
+  - ai-assisted

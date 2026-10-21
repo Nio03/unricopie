@@ -1,0 +1,18 @@
+name: Def Jam Vendetta
+console: ps2
+status: playable
+repo: jcsix694/def-jam-vendetta-recomp
+originalDeveloper: AKI Corporation
+year: 2003
+toolchain: PS2Recomp
+desc:
+  es: "Def Jam Vendetta Recompiled: port nativo para Windows de la versión estadounidense de PS2 (SLUS-20639). El código del juego se traduce a C++ con PS2Recomp y se compila en tu equipo, y el chip gráfico de la PS2 se dibuja en la tarjeta gráfica con Vulkan mediante paraLLEl-GS. Un programa de ajustes comprueba tu disco, instala si hace falta las herramientas de compilación de C++ de Microsoft, construye el juego (de 20 a 30 minutos la primera vez) y se actualiza solo. Ofrece resolución de 1x a 16x con escalado AMD FSR, combates en 16:9 con más arena a la vista (los menús y los vídeos siguen en 4:3), 2D nítido para el HUD, los textos y los menús, modelos de alto detalle en todos los combates (la PS2 los rebajaba con tres o cuatro luchadores), hasta cuatro jugadores con mando y el teclado como cualquiera de ellos, vibración, cámaras al estilo de WWF No Mercy y de Wrestle Kingdom 2, velocidad de combate ajustable (con el ritmo de No Mercy como opción) y la posibilidad de desbloquearlo todo sin tocar tu partida. Las partidas se guardan como tarjetas de memoria en el PC. El soporte de mods está en desarrollo. La 0.4.1 salió el 17 de octubre."
+  en: "Def Jam Vendetta Recompiled: a native Windows port of the US PS2 release (SLUS-20639). The game’s code is translated to C++ with PS2Recomp and compiled on your machine, and the PS2’s graphics chip is drawn on your graphics card with Vulkan through paraLLEl-GS. A settings program checks your disc, installs Microsoft’s C++ build tools if needed, builds the game (20 to 30 minutes the first time), and updates itself. It offers 1x–16x resolution with AMD FSR scaling, 16:9 matches showing more of the arena (menus and movies stay 4:3), sharp 2D for the HUD, text, and menus, high-detail models in every match (the PS2 lowered them with three or four fighters), up to four players on controllers with the keyboard as any of them, rumble, WWF No Mercy and Wrestle Kingdom 2 camera styles, adjustable match speed (with No Mercy’s pace as an option), and an option to unlock everything without touching your save. Saves are kept as memory card files on your PC. Mod support is in development. Version 0.4.1 came out on October 17."
+requirements:
+  es: "Tu propia copia estadounidense de Def Jam Vendetta para PS2 (SLUS-20639) en .iso o .chd. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan 1.3, unos 8 GB libres y conexión a internet una vez."
+  en: "Your own US copy of Def Jam Vendetta for PS2 (SLUS-20639) as an .iso or .chd. Plus 64-bit Windows 10 or 11, a graphics card with Vulkan 1.3, about 8 GB of free space, and an internet connection once."
+tags:
+  - emotion-engine
+  - widescreen
+  - multiplayer
+  - vulkan

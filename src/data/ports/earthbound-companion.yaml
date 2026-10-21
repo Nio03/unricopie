@@ -1,0 +1,19 @@
+name: "EarthBound (EarthBound Companion)"
+category: decomp-port
+console: snes
+status: playable
+repo: rages4calm/earthbound-companion
+author: Carl Prewitt Jr.
+originalDeveloper: Ape / HAL Laboratory
+year: 1995
+desc:
+  es: "EarthBound Companion: port nativo para Windows de la versión estadounidense, con versiones de prueba para Linux, macOS y Android. No tiene un motor propio: usa la recreación en C del código del juego de BrianPugh/earthbound, derivada del desensamblado ebsrc, a través del fork de seanstaggsQU, y le aplica sus propios parches y un launcher. Tiene dos ediciones con partidas separadas: el EarthBound original y una adaptación nativa del hack MaternalBound Redux, con sus textos y gráficos restaurados y sus cambios de jugabilidad. Ofrece salida de 720p a 4K y 3440×1440, vista ampliada en 4:3, 16:9 y 21:9, desplazamiento suave, filtros de imagen y efectos CRT, música MSU-1, teclado y mando reasignables, carrera, avance rápido de 2x a 16x, multiplicadores de experiencia y dinero, guardado rápido en cinco ranuras, copias de seguridad de las partidas, 46 logros sin conexión y Story Shuffle, un randomizer propio. Su autor terminó la edición Redux hasta los créditos y hay jugadores que dicen haber terminado las dos. La 1.0.0 (13 de octubre) dio por cerradas las funciones y la última, la 1.0.12, es del 20 de octubre. Su autor declara que lo hizo con ayuda de Codex de OpenAI. Para la edición Redux, la instalación descarga el código fuente del hack MaternalBound Redux, de ShadowOne333, fijado a una revisión de su repositorio, y lo compila sobre tu ROM. Si lo dejas marcado, descarga también de archive.org las 164 pistas del paquete de música MSU-1 de EarthBound de ShadowOne333; es opcional y sin él suena la música original."
+  en: "EarthBound Companion: a native Windows port of the US release, with preview builds for Linux, macOS, and Android. It has no engine of its own: it uses BrianPugh/earthbound’s C recreation of the game’s code, derived from the ebsrc disassembly, through seanstaggsQU’s fork, and adds its own patches and a launcher. It has two editions with separate saves: the original EarthBound and a native adaptation of the MaternalBound Redux hack, with its restored text and graphics and its gameplay changes. It offers 720p to 4K and 3440×1440 output, a wider view at 4:3, 16:9, and 21:9, smooth scrolling, image filters and CRT effects, MSU-1 music, remappable keyboard and controller, sprinting, 2x–16x fast-forward, experience and money multipliers, quick saves in five slots, save backups, 46 offline achievements, and Story Shuffle, its own randomizer. The author finished the Redux edition through the credits, and players report finishing both. Version 1.0.0 (October 13) completed the feature set, and the latest, 1.0.12, came out on October 20. Its author states it was made with help from OpenAI Codex. For the Redux edition, setup downloads the source of ShadowOne333’s MaternalBound Redux hack, pinned to one revision of its repository, and builds it on top of your ROM. If you leave it checked, it also downloads from archive.org the 164 tracks of ShadowOne333’s EarthBound MSU-1 music pack; it’s optional, and without it the original music plays."
+requirements:
+  es: "Tu propia ROM estadounidense de EarthBound sin modificar (3 MiB, con o sin la cabecera de 512 bytes); rechaza otras revisiones y ROM modificadas. Además, Windows x64, o, en las versiones de prueba, Linux x64 con glibc 2.38 o posterior, macOS 12 o posterior o Android 8.0 o posterior. La instalación necesita conexión a internet."
+  en: "Your own unmodified US EarthBound ROM (3 MiB, with or without the 512-byte header); other revisions and modified ROMs are rejected. Plus x64 Windows, or, for the preview builds, x64 Linux with glibc 2.38 or later, macOS 12 or later, or Android 8.0 or later. Setup needs an internet connection."
+tags:
+  - "65816"
+  - widescreen
+  - mods
+  - ai-assisted

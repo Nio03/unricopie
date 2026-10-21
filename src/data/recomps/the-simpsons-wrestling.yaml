@@ -1,0 +1,19 @@
+name: The Simpsons Wrestling
+console: ps1
+status: playable
+repo: TekRantGaming/simpsons-wrestling-recompiled
+originalDeveloper: Big Ape Productions
+year: 2001
+toolchain: psxrecomp
+desc:
+  es: "The Simpsons Wrestling Recompiled: recompilación estática de la versión norteamericana (SLUS-01227) como programa nativo para Windows y Linux, hecha con psxrecomp y con el TRG Launcher, del mismo autor, que pide tu imagen de disco, comprueba que sea la correcta y la lee donde está, sin copiarla. Añade 16:9 en los combates con imagen extra real (más arena y público a los lados, y las barras de vida y los retratos en los bordes), resolución de 240p a 8K o la de tu pantalla, suavizado de bordes, geometría estable sin el temblor de los polígonos de PlayStation, filtros CRT, compuesto o Trinitron con scanlines, y 60 fps en los combates a la velocidad original (el original va a entre 20 y 30), con un modo experimental de 120. Por defecto se salta la intro y desbloquea todos los luchadores, los dos circuitos y Bonus Match Up, ambas cosas desactivables, y tiene cargas rápidas, mandos que se detectan aunque se enciendan a mitad de partida, dos jugadores, botones reasignables y vibración. El launcher busca actualizaciones en GitHub y las instala conservando ajustes y partidas. Al pausar un combate en panorámica algunos rótulos vuelven a su posición 4:3, y la versión de Linux solo se ha probado en WSL. Su README declara que el port se hizo casi por completo con Claude Code: el dueño del repositorio dirigió y probó el trabajo, y la IA hizo el análisis, el código, las herramientas y la documentación. La 1.0.0 salió el 7 de octubre."
+  en: "The Simpsons Wrestling Recompiled: a static recompilation of the North American release (SLUS-01227) as a native Windows and Linux program, built with psxrecomp and with the same author’s TRG Launcher, which asks for your disc image, checks that it’s the right one, and reads it where it is, without copying it. It adds 16:9 in matches with real extra picture (more of the arena and crowd at the sides, and the health bars and portraits at the edges), render resolution from 240p to 8K or your screen’s own, anti-aliasing, stable geometry without the PlayStation’s wobbling polygons, CRT, composite, or Trinitron filters with scanlines, and 60 fps in matches at the original game speed (the original manages 20 to 30), with an experimental 120 fps mode. By default it skips the intro and unlocks every wrestler, both circuits, and Bonus Match Up, both of which can be turned off, and it has fast loading, controllers picked up even when switched on mid-game, two players, button remapping, and rumble. The launcher checks GitHub for updates and installs them, keeping your settings and saves. Pausing a match in widescreen puts some labels back at their 4:3 positions, and the Linux build has only been tested under WSL. Its README states that the port was made almost entirely with Claude Code: the repository owner directed and tested the work, and the AI did the analysis, code, tools, and documentation. 1.0.0 came out on October 7."
+requirements:
+  es: "Tu propia imagen de disco norteamericana de The Simpsons Wrestling (SLUS-01227): un .cue con su .bin al lado. Además, Windows 10 u 11 de 64 bits o Linux de 64 bits de 2023 o posterior (glibc 2.38), y una tarjeta gráfica con OpenGL 3.3."
+  en: "Your own North American The Simpsons Wrestling disc image (SLUS-01227): a .cue with its .bin next to it. Plus 64-bit Windows 10 or 11, or 64-bit Linux from 2023 or later (glibc 2.38), and an OpenGL 3.3 graphics card."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - ai-assisted

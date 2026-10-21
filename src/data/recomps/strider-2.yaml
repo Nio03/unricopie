@@ -9,7 +9,8 @@ desc:
   es: Recompilación estática de Strider 2 (SLUS-01163) construida sobre psxrecomp y recomp-ui.
   en: Static recompilation of Strider 2 (SLUS-01163) built on psxrecomp and recomp-ui.
 requirements:
-  es: "Una imagen de disco de Strider 2 (PS1, SLUS-01163) y la BIOS SCPH1001.BIN."
-  en: "A Strider 2 disc image (PS1, SLUS-01163) and the SCPH1001.BIN BIOS."
+  es: "Una imagen de disco de Strider 2 (PS1, SLUS-01163) y la BIOS SCPH1001.BIN. 3 de sus 6 commits llevan a Claude como coautor."
+  en: "A Strider 2 disc image (PS1, SLUS-01163) and the SCPH1001.BIN BIOS. 3 of its 6 commits list Claude as a co-author."
 tags:
   - mips
+  - ai-assisted

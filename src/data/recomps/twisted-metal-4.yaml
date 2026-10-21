@@ -1,0 +1,23 @@
+name: Twisted Metal 4 (TechnicallyComputers)
+console: ps1
+status: playable
+repo: TechnicallyComputers/TwistedMetal4Recomp
+author: Alex Vanderveen
+originalDeveloper: 989 Studios
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense (SCUS-94560, Rev 1), hecha con psxrecomp y el launcher recomp-ui, con versiones para Windows, Linux y macOS (Intel y Apple Silicon). Es un proyecto aparte del recopilatorio Twisted Metal 1–4 de jcoker85. Las descargas traen el juego ya compilado y la BIOS libre OpenBIOS; también se puede usar un volcado propio de la BIOS SCPH-1001. Tiene juego en red con rollback entre Windows y Linux, que su autor da por jugable aunque todavía en maduración, y el menú de mods del launcher acepta mods de terceros. También se puede instalar, actualizar y compilar desde Retro Launcher, un gestor de recomps que se compilan en tu equipo. Forma parte de la comunidad R.A.I.D. (Retro AI Development), y 25 de sus 174 commits llevan como coautor a Claude o a Cursor. La última versión es la 0.3.37 (11 de octubre). El repositorio incluye el C generado a partir del ejecutable del juego (SCUS_945.60), unos 26 MB."
+  en: "A static recompilation of the US release (SCUS-94560, Rev 1), built with psxrecomp and the recomp-ui launcher, with builds for Windows, Linux, and macOS (Intel and Apple Silicon). It’s a separate project from jcoker85’s Twisted Metal 1–4 collection. The downloads include the built game and the free OpenBIOS; your own SCPH-1001 BIOS dump can be used too. It has rollback netplay between Windows and Linux, which its author calls playable though still maturing, and the launcher’s mod menu takes third-party mods. It can also be installed, updated, and built from Retro Launcher, a manager for recomps that build on your machine. It’s part of the R.A.I.D. (Retro AI Development) community, and 25 of its 174 commits list Claude or Cursor as co-author. The latest version is 0.3.37 (October 11). The repository includes the C generated from the game’s executable (SCUS_945.60), about 26 MB of it."
+requirements:
+  es: "Tu propia imagen de disco estadounidense de Twisted Metal 4 (SCUS-94560, Rev 1): el .cue con sus 23 pistas .bin. Además, Windows, Linux o macOS de 64 bits."
+  en: "Your own US Twisted Metal 4 disc image (SCUS-94560, Rev 1): the .cue with its 23 .bin tracks. Plus 64-bit Windows, Linux, or macOS."
+tags:
+  - mips
+  - multiplayer
+  - netplay
+  - mods
+  - ai-assisted
+links:
+  - label: "Retro Launcher"
+    url: https://github.com/RetroPortingToolKit/Retro-Launcher

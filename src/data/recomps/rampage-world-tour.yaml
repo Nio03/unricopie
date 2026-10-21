@@ -5,10 +5,11 @@ repo: sp00nznet/Rampage
 originalDeveloper: Avalanche / Midway
 toolchain: N64Recomp
 desc:
-  es: "Recompilación del clásico de monstruos destructores, jugable a 60 fps. El audio todavía no está implementado."
-  en: "Recompilation of the monster-rampage classic, playable at 60 fps. Audio isn’t implemented yet."
+  es: "Recompilación del clásico de monstruos destructores, jugable a 60 fps. El audio todavía no está implementado. Sus 26 commits llevan a Claude como coautor."
+  en: "Recompilation of the monster-rampage classic, playable at 60 fps. Audio isn’t implemented yet. All 26 of its commits list Claude as a co-author."
 requirements:
   es: "Una ROM de Rampage World Tour (N64, versión estadounidense)."
   en: "A Rampage World Tour ROM (N64, US version)."
 tags:
   - 60fps+
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "MMRecompRando (Majora's Mask)"
+kind: mod
+console: n64
+game: "The Legend of Zelda: Majora's Mask"
+base: recomps/zelda-majoras-mask
+repo: RecompRando/MMRecompRando
+author: LittleCube / ThatHypedPerson
+status: beta
+desc:
+  es: "Randomizer de Archipelago para Majora's Mask: Recompiled, en forma de mod que se instala arrastrando su zip a la ventana de Zelda64Recomp. Reparte al azar los objetos del juego en partidas en solitario, con un generador de semillas dentro del propio juego, o en multimundo, conectado a un servidor de Archipelago junto a otros jugadores y otros juegos; para eso publica también su apworld. Las partidas del randomizer usan un archivo de guardado propio por sesión y no tocan los normales. Incluye otros mods de la comunidad, como los de color de ThatHypedPerson y Better SoDT de danielryb, y el progreso se puede seguir con un tracker de PopTracker. Está en beta, aunque sus autores lo consideran estable para jugar; la última versión, la 0.9.5a (7 de enero), solo corrige un fallo que reenviaba objetos en sesiones largas. Sus normas de contribución prohíben usar IA para generar código."
+  en: "An Archipelago randomizer for Majora’s Mask: Recompiled, as a mod you install by dragging its zip onto the Zelda64Recomp window. It shuffles the game’s items in solo games, with a seed generator inside the game itself, or in multiworld, connected to an Archipelago server alongside other players and other games; for that it also publishes its apworld. Randomizer games use their own per-session save file and leave your normal saves alone. It bundles other community mods, such as ThatHypedPerson’s color mods and danielryb’s Better SoDT, and progress can be followed with a PopTracker tracker. It’s in beta, though its authors consider it stable to play; the latest release, 0.9.5a (January 7), only fixes a bug that resent items in long sessions. Its contribution rules forbid using AI to generate code."
+requirements:
+  es: "Zelda64Recomp (Majora's Mask: Recompiled) con tu propia ROM estadounidense de Majora's Mask y, en Windows, el paquete redistribuible de Visual C++. Para el multimundo, un servidor de Archipelago."
+  en: "Zelda64Recomp (Majora’s Mask: Recompiled) with your own US Majora’s Mask ROM and, on Windows, the Visual C++ redistributable. For multiworld, an Archipelago server."
+tags:
+  - randomizer
+  - online
+  - zelda
+  - human-driven

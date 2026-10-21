@@ -11,11 +11,12 @@ forkOf:
   label: doldecomp/melee
   url: https://github.com/doldecomp/melee
 desc:
-  es: "Port nativo de Melee (NTSC-U 1.02) construido a partir de la decompilación doldecomp/melee sobre aurora (una capa de compatibilidad con GX que usa WebGPU) y SDL3. Es del mismo autor que Project Picori. Está en beta declarada: incluye partidas en red local, códigos de amigo por internet y emparejamiento al mejor de tres, y el netcode con rollback sigue en desarrollo. El código decompilado del juego no tiene licencia; solo la tiene el del port (GPL-3)."
-  en: "Native Melee port (NTSC-U 1.02) built from the doldecomp/melee decompilation on aurora (a GX compatibility layer with a WebGPU backend) and SDL3. By the same author as Project Picori. It’s in declared beta: it ships LAN play, internet friend codes, and best-of-three matchmaking, with rollback netcode still in development. The decompiled game code isn’t licensed; only the port code is (GPL-3)."
+  es: "Port nativo de Melee (NTSC-U 1.02) construido a partir de la decompilación doldecomp/melee sobre aurora (una capa de compatibilidad con GX que usa WebGPU) y SDL3. Es del mismo autor que Project Picori. Está en beta declarada: incluye partidas en red local, códigos de amigo por internet y emparejamiento al mejor de tres, y el netcode con rollback sigue en desarrollo. El código decompilado del juego no tiene licencia; solo la tiene el del port (GPL-3). 18 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Native Melee port (NTSC-U 1.02) built from the doldecomp/melee decompilation on aurora (a GX compatibility layer with a WebGPU backend) and SDL3. By the same author as Project Picori. It’s in declared beta: it ships LAN play, internet friend codes, and best-of-three matchmaking, with rollback netcode still in development. The decompiled game code isn’t licensed; only the port code is (GPL-3). 18 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Tu propia imagen de disco de Super Smash Bros. Melee (NTSC-U 1.02). No se distribuye ningún dato del juego."
   en: "Your own Super Smash Bros. Melee disc image (NTSC-U 1.02). No game data is distributed."
 tags:
   - powerpc
   - netplay
+  - ai-assisted

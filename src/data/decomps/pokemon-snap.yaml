@@ -3,5 +3,7 @@ console: n64
 repo: ethteck/pokemonsnap
 decomp: ethteck/pokemonsnap
 desc:
-  es: "Decompilación en curso de Pokémon Snap para N64. Necesitas tu propia ROM del juego para usar el repositorio."
-  en: "Work-in-progress decompilation of Pokémon Snap for N64. You need your own ROM of the game to use the repository."
+  es: "Decompilación en curso de Pokémon Snap para N64. Necesitas tu propia ROM del juego para usar el repositorio. 10 de sus últimos 100 commits llevan a Claude o Copilot como coautor."
+  en: "Work-in-progress decompilation of Pokémon Snap for N64. You need your own ROM of the game to use the repository. 10 of its last 100 commits list Claude or Copilot as a co-author."
+tags:
+  - ai-assisted

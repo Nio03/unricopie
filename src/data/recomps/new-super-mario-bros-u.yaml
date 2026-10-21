@@ -1,0 +1,18 @@
+name: "New Super Mario Bros. U"
+console: wiiu
+status: playable
+repo: nsmbu-recomp/nsmbu-recomp
+author: IrishBruse / lschaupp
+originalDeveloper: Nintendo EAD
+year: 2012
+desc:
+  es: "Recompilación estática de la versión de Wii U para Windows, Linux (x86-64 y ARM64) y macOS con Apple Silicon. Parte del recomp de The Wind Waker HD: el código PowerPC se traduce a C por adelantado, las bibliotecas de Cafe OS que usa el juego se reimplementan de forma nativa y los gráficos GX2 van directamente a Vulkan, o a Metal en macOS. La primera vez que arranca, el instalador extrae tu copia, traduce el código, lo compila y lo enlaza con el entorno de ejecución, lo que tarda unos minutos. Funciona con las versiones estadounidense y europea 1.3.0, con el disco estadounidense sin actualizar (sin mods) y con los packs que traen también New Super Luigi U. Tiene un menú de ajustes (la tecla ` o F12) con salida de audio por la TV o el GamePad y controles reasignables, estados de guardado en cinco ranuras, y admite mods en Lua y los paquetes de contenido de Cemu. La última versión, la 0.5.0, es del 19 de octubre. El proyecto declara que se hace con ayuda de agentes de IA, y 182 de sus 451 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Wii U version for Windows, Linux (x86-64 and ARM64), and Apple silicon macOS. It builds on the Wind Waker HD recomp: the PowerPC code is translated to C ahead of time, the Cafe OS libraries the game uses are reimplemented natively, and GX2 graphics go straight to Vulkan, or to Metal on macOS. On first launch the installer extracts your copy, translates the code, compiles it, and links it with the runtime, which takes a few minutes. It works with the US and European 1.3.0 releases, the un-updated US disc (without mods), and the packs that also include New Super Luigi U. It has a settings menu (the ` key or F12) with TV or GamePad audio output and remappable controls, save states in five slots, and support for Lua mods and Cemu content packs. The latest version, 0.5.0, came out on October 19. The project states it’s made with the help of AI agents, and 182 of its 451 commits list Claude as co-author."
+requirements:
+  es: "Tu propia copia de New Super Mario Bros. U para Wii U, estadounidense o europea: una imagen .wux o .wud con su clave de disco, la clave común de Wii U y la actualización 1.3.0; un archivo .wua de Cemu, o una carpeta extraída con la 1.3.0 aplicada. También sirven el disco estadounidense sin la actualización (sin mods) y los packs con New Super Luigi U; la versión japonesa, todavía no. Además, Windows 10 u 11 x86-64 con Vulkan, Linux x86-64 o ARM64 con glibc 2.35 o posterior y Vulkan, o macOS 14 o posterior con Apple Silicon."
+  en: "Your own copy of New Super Mario Bros. U for Wii U, US or European: a .wux or .wud image with its disc key, the Wii U common key, and the 1.3.0 update; a Cemu .wua archive; or an extracted folder with 1.3.0 applied. The un-updated US disc (without mods) and the packs with New Super Luigi U also work; the Japanese release doesn’t yet. Plus x86-64 Windows 10 or 11 with Vulkan, x86-64 or ARM64 Linux with glibc 2.35 or later and Vulkan, or macOS 14 or later on Apple silicon."
+tags:
+  - powerpc
+  - mods
+  - mario
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "Hard Corps: Uprising"
+console: x360
+status: playable
+repo: saulob/hard-corps-uprising-recompiled
+originalDeveloper: Arc System Works
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows del spin-off de Contra para Xbox Live Arcade, por recompilación estática con el SDK de ReXGlue, con el launcher TRG y una AppImage nativa experimental para Linux y Steam Deck con Vulkan. La 0.6.0 añadió formatos nativos de 4:3 a 32:9, que muestran más escena a los lados en lugar de estirar la imagen, resolución interna del 50 al 100 % y elección de tarjeta gráfica en Windows; además tiene resolución de 1x a 4x, FXAA, MSAA 2x o 4x y filtrado de texturas hasta 16x. El launcher instala los personajes descargables Harley Daniels, Sayuri y Leviathan desde tus propios paquetes y ofrece saltar la introducción y siete trucos, que también se cambian en partida con F10. Los 12 logros y las tablas de clasificación funcionan sin conexión con tus propias puntuaciones, y se puede jugar a dos con dos mandos de Xbox; no hay juego en línea. Linux sigue en pruebas: la 0.6.1 (16 de octubre) hizo que la AppImage arranque donde no se puede montar con FUSE, algo aún sin confirmar en SteamOS. Su autor declara que usó herramientas de IA y que dirigió, probó y revisó los cambios."
+  en: "A native Windows port of the Contra spin-off for Xbox Live Arcade, by static recompilation with the ReXGlue SDK, with the TRG launcher and an experimental native Linux and Steam Deck AppImage with Vulkan. 0.6.0 added native aspect ratios from 4:3 to 32:9, which show more of the scene at the sides instead of stretching the picture, a 50–100% internal render resolution, and a graphics card choice on Windows; it also has 1x–4x resolution, FXAA, 2x or 4x MSAA, and up to 16x texture filtering. The launcher installs the Harley Daniels, Sayuri, and Leviathan DLC characters from your own packages and offers an intro skip and seven cheats, which can also be changed in game with F10. The 12 achievements and the leaderboards work offline with your own scores, and two players can play with two Xbox controllers; there’s no online play. Linux is still experimental: 0.6.1 (October 16) made the AppImage start where it can’t be mounted with FUSE, not yet confirmed on SteamOS. Its author states that AI tools were used and that the maintainer directed, tested, and reviewed the changes."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de Hard Corps: Uprising (Title ID 58410A18, versión 0.0.0.3; default.xex con SHA-256 530EDE8ED5271051A2AB19C077A97FB167E4F30B094C292E8F59D37D0D2069DC); rechaza otras versiones. Los personajes descargables, opcionales, también de tus propios paquetes. Además, Windows 10 u 11 de 64 bits con DirectX 12, o Linux x86-64 con Vulkan y glibc 2.31 o posterior."
+  en: "Your own Hard Corps: Uprising Xbox Live Arcade package (Title ID 58410A18, version 0.0.0.3; default.xex with SHA-256 530EDE8ED5271051A2AB19C077A97FB167E4F30B094C292E8F59D37D0D2069DC); other versions are rejected. Optional DLC characters also from your own packages. Plus 64-bit Windows 10 or 11 with DirectX 12, or x86-64 Linux with Vulkan and glibc 2.31 or newer."
+tags:
+  - powerpc
+  - widescreen
+  - multiplayer
+  - ai-assisted

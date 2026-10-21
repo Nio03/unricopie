@@ -1,0 +1,23 @@
+name: "Pokémon Gold / Silver / Crystal (Gen2Recomped)"
+category: fan-remake
+console: gbc
+status: playable
+repo: UNDERdecoded/Gen2Recomped
+forkOf:
+  label: bryanthaboi/gen1recomp (Gen1Recomp)
+  url: https://github.com/bryanthaboi/gen1recomp
+originalDeveloper: Game Freak
+engine: LOVE2D
+year: 2000
+desc:
+  es: "Gen2Recomped: recreación nativa en Lua y LÖVE de Pokémon Oro, Plata y Cristal, fork de Gen1Recomp, que también está en el catálogo. Como en el original, el motor, la máquina virtual de scripts y el comportamiento de los mapas están escritos a mano, y los datos, los gráficos y el sonido se decodifican de tu ROM al importarla. Sobre el motor de Gen1Recomp añade su propia mitad de la segunda generación (la máquina virtual de scripts de Oro y Plata, Johto y Kanto, el día y la noche, la crianza, el Pokégear, los Pokémon variocolor y los objetos equipados) y ya va más allá: también importa Rojo Fuego y Esmeralda (en alfa), Platino, Oro HeartGold, Plata SoulSilver, Negro y Blanco (en prealfa) y los romhacks Polished Crystal y Prism. Alrededor de los juegos hay un Monster Walker inspirado en el Pokéwalker, editores de mapas y de partidas, traducción automática a 25 idiomas, guardado en la nube, el renderizador vóxel DRAMATIC_SHAPE y juego en enlace por UDP. Hay versiones para Windows, macOS, Linux, Steam Deck, Android e iOS, además de Switch con homebrew, Xbox en modo desarrollador y la Anbernic RG34XXSP. Los componentes de la segunda generación no son de código abierto, sino de código disponible. 65 de sus 378 commits llevan a Claude como coautor. La 0.8.45 salió el 20 de octubre."
+  en: "Gen2Recomped: a native Lua/LÖVE recreation of Pokémon Gold, Silver, and Crystal, forked from Gen1Recomp, which is also in this catalog. As in the original, the engine, script VM, and map behavior are hand-written, and the data, graphics, and sound are decoded from your ROM when you import it. On top of Gen1Recomp’s engine it adds its own Generation II half (the Gold and Silver script VM, Johto and Kanto, day and night, breeding, the Pokégear, shinies, and held items) and has gone further since: it also imports FireRed and Emerald (alpha), Platinum, HeartGold, SoulSilver, Black, and White (pre-alpha), and the Polished Crystal and Prism romhacks. Around the games there’s a Monster Walker inspired by the Pokéwalker, map and save editors, machine translation into 25 languages, cloud saves, the DRAMATIC_SHAPE voxel renderer, and link play over UDP. There are builds for Windows, macOS, Linux, Steam Deck, Android, and iOS, plus homebrew Switch, Xbox in Dev Mode, and the Anbernic RG34XXSP. The Generation II components aren’t open source but source-available. 65 of its 378 commits list Claude as co-author. Version 0.8.45 came out on October 20."
+requirements:
+  es: "Tu propio volcado de Pokémon Oro, Plata o Cristal (revisión 0 o 1) para Game Boy Color, o de otro de los juegos admitidos, que el importador comprueba por su SHA-1 antes de crear nada; solo hace falta al importarlo. Además, Windows, macOS, Linux, Android o iOS; para ejecutarlo desde el código fuente, LÖVE 11 y Python 3."
+  en: "Your own dump of Pokémon Gold, Silver, or Crystal (revision 0 or 1) for Game Boy Color, or of another supported game, which the importer checks by SHA-1 before creating anything; it’s only needed at import. Plus Windows, macOS, Linux, Android, or iOS; to run it from source, LÖVE 11 and Python 3."
+tags:
+  - pokemon
+  - mods
+  - voxel
+  - multiplayer
+  - ai-assisted

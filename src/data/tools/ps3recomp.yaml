@@ -5,8 +5,9 @@ consoles:
 repo: sp00nznet/ps3recomp
 status: experimental
 desc:
-  es: "Cadena de herramientas para la recompilación estática de juegos de PlayStation 3: traduce a C los binarios PowerPC del juego y aporta un entorno de ejecución de alto nivel (HLE), escrito en sala limpia, que sustituye las bibliotecas del sistema, con Direct3D 12 para los gráficos. Ya hay juegos jugables hechos con ella en el catálogo, como Drakengard 3 y The Simpsons Arcade Game, y otros que de momento solo arrancan, como Gran Turismo 5 Prologue."
-  en: "Toolchain for the static recompilation of PlayStation 3 games: it translates the game’s PowerPC binaries to C and provides a clean-room high-level (HLE) runtime that replaces the system libraries, with Direct3D 12 for graphics. There are already playable games built with it in this catalog, such as Drakengard 3 and The Simpsons Arcade Game, and others that only boot for now, such as Gran Turismo 5 Prologue."
+  es: "Cadena de herramientas para la recompilación estática de juegos de PlayStation 3: traduce a C los binarios PowerPC del juego y aporta un entorno de ejecución de alto nivel (HLE), escrito en sala limpia, que sustituye las bibliotecas del sistema, con Direct3D 12 para los gráficos. Ya hay juegos jugables hechos con ella en el catálogo, como Drakengard 3 y The Simpsons Arcade Game, y otros que de momento solo arrancan, como Gran Turismo 5 Prologue. 17 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Toolchain for the static recompilation of PlayStation 3 games: it translates the game’s PowerPC binaries to C and provides a clean-room high-level (HLE) runtime that replaces the system libraries, with Direct3D 12 for graphics. There are already playable games built with it in this catalog, such as Drakengard 3 and The Simpsons Arcade Game, and others that only boot for now, such as Gran Turismo 5 Prologue. 17 of its last 100 commits list Claude as a co-author."
 tags:
   - cell
   - powerpc
+  - ai-assisted

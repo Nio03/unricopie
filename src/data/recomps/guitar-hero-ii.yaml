@@ -1,0 +1,15 @@
+name: Guitar Hero II
+console: x360
+status: experimental
+repo: YoshiCrystal9/re-gh2
+originalDeveloper: Harmonix
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "re-gh2: recompilación estática de la versión de Xbox 360, hecha con el SDK de ReXGlue, para Windows y Linux. Su autor la presenta como prueba de concepto: depende de una versión de ReXGlue todavía en desarrollo que puede romperla en el futuro, el rendimiento no es el mejor y tiende a cerrarse. Llega a las partidas, como muestra un vídeo de prueba, y un parche de ihatecompvir le permite cargar archivos sueltos de la carpeta del juego en lugar de los del archivo ARK. No hay versiones publicadas: hay que compilarlo. En él se basa re-wor, el recomp de Guitar Hero: Warriors of Rock. El último commit es del 22 de febrero."
+  en: "re-gh2: a static recompilation of the Xbox 360 version, built with the ReXGlue SDK, for Windows and Linux. Its author presents it as a proof of concept: it depends on a still-in-development ReXGlue version that may break it in the future, performance isn’t great, and it’s prone to crashes. It reaches gameplay, as a test video shows, and a patch by ihatecompvir lets it load loose files from the game folder instead of the ones in the ARK archive. There are no releases: you have to build it. re-wor, the Guitar Hero: Warriors of Rock recomp, is based on it. The latest commit is from February 22."
+requirements:
+  es: "Tu propia copia de Guitar Hero II para Xbox 360, con la ISO extraída en la carpeta assets. Para compilarlo, Windows o Linux con el SDK de ReXGlue, CMake y Ninja."
+  en: "Your own copy of Guitar Hero II for Xbox 360, with the ISO extracted into the assets folder. To build it, Windows or Linux with the ReXGlue SDK, CMake, and Ninja."
+tags:
+  - powerpc

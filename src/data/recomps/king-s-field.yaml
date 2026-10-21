@@ -7,10 +7,11 @@ originalDeveloper: FromSoftware
 year: 1995
 toolchain: RecompOne
 desc:
-  es: "Verdite2: port a PC de King's Field (edición estadounidense SLUS-00158) construido sobre RecompOne. Añade modo panorámico 16:9, 16:10 y 21:9 con el descarte de geometría ajustado, texturas con corrección de perspectiva, una solución al temblor de los vértices, controles modernos con doble stick, teclado y ratón, y la recarga automática de la partida al morir. Su autor lo describe como un intento dirigido por IA y lo da por jugable de principio a fin, con algún fallo ocasional."
-  en: "Verdite2: a PC port of King's Field (US edition SLUS-00158) built on RecompOne. It adds 16:9, 16:10, and 21:9 widescreen with adjusted culling, perspective-correct textures, a fix for vertex wobble, modern twin-stick controls, keyboard and mouse, and an automatic save reload on death. Its author describes it as an AI-driven attempt and calls it playable from start to finish, with occasional issues."
+  es: "Verdite2: port a PC de King's Field (edición estadounidense SLUS-00158) construido sobre RecompOne. Añade modo panorámico 16:9, 16:10 y 21:9 con el descarte de geometría ajustado, texturas con corrección de perspectiva, una solución al temblor de los vértices, controles modernos con doble stick, teclado y ratón, y la recarga automática de la partida al morir. Su autor lo describe como un intento dirigido por IA y lo da por jugable de principio a fin, con algún fallo ocasional. 74 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Verdite2: a PC port of King's Field (US edition SLUS-00158) built on RecompOne. It adds 16:9, 16:10, and 21:9 widescreen with adjusted culling, perspective-correct textures, a fix for vertex wobble, modern twin-stick controls, keyboard and mouse, and an automatic save reload on death. Its author describes it as an AI-driven attempt and calls it playable from start to finish, with occasional issues. 74 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Tu propio volcado de King's Field (PS1, edición norteamericana SLUS-00158), en .cue/.bin o .chd."
   en: "Your own King's Field dump (PS1, North American edition SLUS-00158), as .cue/.bin or .chd."
 tags:
   - mips
+  - ai-assisted

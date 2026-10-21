@@ -1,0 +1,22 @@
+name: "Def Jam: Fight for NY (vyanhursky)"
+console: xbox
+status: playable
+repo: vyanhursky/DefJamFFNY-recomp
+originalDeveloper: AKI Corporation / EA Canada
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo no oficial para Windows, macOS con Apple Silicon y Linux x86-64 (Steam Deck incluida) por recompilación estática de la versión estadounidense de Xbox con xboxrecomp: el ejecutable se traduce a C y se compila por adelantado, y un entorno de ejecución de compatibilidad con la Xbox pone los gráficos, el sonido y los controles. Usa Direct3D 11 en Windows y Vulkan en Mac y Linux. Va a 60 fps, con resolución interna de 1x a 4x, ventana o pantalla completa sin bordes, panorámico 16:9 y 16:10 en beta (21:9 y 32:9, en pruebas), mandos con reasignación, vibración y conexión en caliente, teclado y hasta cuatro jugadores en local, sin juego en red. Tiene un launcher y un menú en partida (F1), una opción para saltarse los vídeos de inicio y, desde ese menú, el menú de desarrollo de EA, que estaba bloqueado en la versión comercial. El instalador comprueba tu copia y compila el juego en tu equipo, y como opción genera a partir de ella texturas HD a 4x. Su README dice que todo el juego funciona, aunque sus pruebas no cubren el modo historia completo. La última versión, la 0.10.6 (20 de octubre), estrenó un launcher nuevo. Su autor declara que lo desarrolla con ayuda de Claude Code y Codex."
+  en: "An unofficial native port for Windows, Apple silicon macOS, and x86-64 Linux (Steam Deck included) by static recompilation of the US Xbox release with xboxrecomp: the executable is translated to C and compiled ahead of time, and an Xbox compatibility runtime supplies graphics, sound, and input. It uses Direct3D 11 on Windows and Vulkan on Mac and Linux. It runs at 60 fps, with 1x–4x internal resolution, windowed or borderless fullscreen, 16:9 and 16:10 widescreen in beta (21:9 and 32:9 experimental), controllers with remapping, rumble, and hot-plugging, keyboard, and up to four local players, with no online play. It has a launcher and an in-game overlay (F1), an option to skip the startup movies, and, from that overlay, EA’s developer menu, which was locked away in the retail build. The installer checks your copy and builds the game on your machine, and can optionally generate 4x HD textures from it. Its README says all game functionality works, though its testing doesn’t cover a full Story campaign. The latest version, 0.10.6 (October 20), introduced a new launcher. Its author states it’s developed with help from Claude Code and Codex."
+requirements:
+  es: "Tu propia copia estadounidense de Def Jam: Fight for NY para Xbox, como imagen ISO o XISO o carpeta extraída, que coincida con el manifiesto del proyecto; las versiones de PS2 y GameCube no sirven. Además, Windows x64 (si faltan las Build Tools de Microsoft, el instalador puede instalarlas), macOS 11 o posterior con Apple Silicon y las Command Line Tools de Xcode, o Linux x86-64; unos 12 GB libres para compilar y 15 GB más si generas las texturas HD."
+  en: "Your own US copy of Def Jam: Fight for NY for Xbox, as an ISO or XISO image or an extracted folder, matching the project’s dump manifest; PS2 and GameCube copies won’t work. Plus x64 Windows (the installer can install Microsoft’s Build Tools if they’re missing), macOS 11 or later on Apple silicon with the Xcode Command Line Tools, or x86-64 Linux; about 12 GB free for the build, plus 15 GB more if you generate the HD textures."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - mods
+  - hd-assets
+  - vulkan
+  - ai-assisted

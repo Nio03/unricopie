@@ -1,0 +1,27 @@
+name: WWE SmackDown vs. Raw 2011
+console: x360
+status: playable
+repo: KaikoClanworth1/wwe-svr2011-pc
+originalDeveloper: Yuke’s
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial de la versión de Xbox 360 para Windows: el código del juego se recompila estáticamente a C++ con el SDK de ReXGlue y corre sobre su entorno derivado de Xenia, con un renderizador nativo que dibuja las llamadas Direct3D del juego con Direct3D 12 (y, en pruebas, con Vulkan o Direct3D 11). Un launcher instala el juego desde tu imagen de disco, se actualiza solo desde GitHub y gestiona ajustes, partidas, DLC, logos, vídeos y mods. Ofrece de 720p a 4K, 60 fps estables también en las entradas, imagen que llena las pantallas ultrapanorámicas sin estirarse, cinco idiomas, los 39 logros, música y vídeos de entrada propios, hasta 10 logos HD por luchador creado, paquetes de texturas y una cámara libre. Suma tipos de combate (Three Stages of Hell, Championship Scramble, Mystery Opponent, entre otros), mánagers jugables y combates en línea entre jugadores, con conexión directa o a través del servidor del proyecto. Su Mod Maker crea arenas, luchadores, movimientos y otros mods, y convierte contenido de tus propios discos de otros juegos de la serie, de SvR 2007 a WWE 2K17 y de los SmackDown de PS2. Funciona en Steam Deck y Linux a través de Proton, y hay versión para Android. La última es la 2.1.4.1 (21 de octubre). La descarga para PC, y aparte un zip de unos 415 MB, incluyen además mods desactivados por defecto con una veintena de luchadores sacados de SvR 2010, dos de SvR 2008 (Sabu y The Sandman, con su tema musical y su vídeo de entrada) y arenas de WWE ’13: RAW IS WAR, SmackDown 1999, Royal Rumble 1998 y King of the Ring 1998. Su autor declara que lo hizo con Claude Code, que escribió la mayor parte del código, y 1303 de sus 1632 commits llevan a Claude como coautor."
+  en: "An unofficial native Windows port of the Xbox 360 version: the game’s code is statically recompiled to C++ with the ReXGlue SDK and runs on its Xenia-derived runtime, with a native renderer that draws the game’s Direct3D calls with Direct3D 12 (and, experimentally, with Vulkan or Direct3D 11). A launcher installs the game from your disc image, updates itself from GitHub, and manages settings, saves, DLC, logos, movies, and mods. It offers 720p to 4K, a steady 60 fps even in entrances, a picture that fills ultrawide screens without stretching, five languages, all 39 achievements, your own entrance music and movies, up to 10 HD logos per created superstar, texture packs, and a free camera. It adds match types (Three Stages of Hell, Championship Scramble, and Mystery Opponent, among others), playable managers, and online matches between players, connected directly or through the project’s server. Its Mod Maker creates arenas, superstars, moves, and other mods, and converts content from your own discs of other games in the series, from SvR 2007 to WWE 2K17 and the PS2 SmackDowns. It runs on the Steam Deck and Linux through Proton, and there’s an Android version. The latest release is 2.1.4.1 (October 21). The PC download, and separately a zip of about 415 MB, also include mods, off by default, with about twenty superstars taken from SvR 2010, two from SvR 2008 (Sabu and The Sandman, with their theme music and entrance video), and arenas from WWE ’13: RAW IS WAR, SmackDown 1999, Royal Rumble 1998, and King of the Ring 1998. Its author states that it was made with Claude Code, which wrote most of the code, and 1,303 of its 1,632 commits list Claude as co-author."
+requirements:
+  es: "Una imagen de disco (.iso) de tu propia copia de WWE SmackDown vs. Raw 2011 para Xbox 360; las versiones de PS3, Wii, PS2 y PSP no sirven. Los DLC de Xbox 360 son opcionales, y las title updates no hacen falta. Además, Windows 10 u 11 de 64 bits (o 8.1, con la opción experimental de Direct3D 11), una tarjeta gráfica con Direct3D 12, un procesador con SSE4.2 y unos 6 GB libres. Los conversores de otros juegos del Mod Maker necesitan Python 3 con numpy y Pillow."
+  en: "A disc image (.iso) of your own copy of WWE SmackDown vs. Raw 2011 for Xbox 360; the PS3, Wii, PS2, and PSP versions won’t work. Xbox 360 DLC is optional, and title updates aren’t needed. Plus 64-bit Windows 10 or 11 (or 8.1, with the experimental Direct3D 11 option), a Direct3D 12 graphics card, a CPU with SSE4.2, and about 6 GB of free space. The Mod Maker’s converters for other games need Python 3 with numpy and Pillow."
+tags:
+  - powerpc
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - online
+  - mods
+  - vulkan
+  - ai-assisted
+links:
+  - label:
+      es: "Guía del Mod Maker"
+      en: "Mod Maker guide"
+    url: https://kaikoclanworth1.github.io/wwe-svr2011-pc/

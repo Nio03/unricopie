@@ -1,0 +1,19 @@
+name: "Star Wars: X-Wing Alliance"
+category: decomp-port
+console: pc
+status: playable
+repo: elyosh/OpenXWA
+originalDeveloper: Totally Games
+year: 1999
+desc:
+  es: "OpenXWA: reimplementación de código abierto de X-Wing Alliance para Windows, macOS y Linux que usa los datos del juego original. Su código sigue el del ejecutable original: cada función y cada variable global llevan anotada su dirección en él. Según el proyecto, ya están reimplementadas todas las funciones que no son del multijugador, incluido el motor de audio iMUSE digital; el multijugador no está hecho, y aún puede haber fallos y diferencias con el original. Tiene un modo gráfico clásico, igual al original, y uno moderno (se cambia con F5) con panorámico nativo a la resolución de tu pantalla, sombras, oclusión ambiental, bloom, desenfoque de movimiento, filtrado anisótropo, MSAA hasta 8x, FSR 3.1.4 y HDR, que además puede cargar modelos, texturas, arte de la interfaz y vídeos de sustitución sin tocar los datos originales. En un jugador, la simulación puede ir a más frecuencia para que el vuelo sea más fluido, y queda un modo con el tiempo original. Se puede volar con ratón (palanca virtual o control directo) y teclado, y con mandos y joysticks, con los efectos de force feedback convertidos en vibración del mando. La última versión es la 0.0.17 (31 de agosto)."
+  en: "OpenXWA: an open-source reimplementation of X-Wing Alliance for Windows, macOS, and Linux that runs on the original game’s data. Its code follows the original executable: every function and global variable is tagged with its address in it. According to the project, every original function not dedicated to multiplayer has been reimplemented, including the digital iMUSE audio engine; multiplayer isn’t implemented, and there may still be bugs and differences from the original. It has a classic graphics mode that matches the original and a modern one (toggled with F5) with native widescreen at your display’s resolution, shadows, ambient occlusion, bloom, motion blur, anisotropic filtering, up to 8x MSAA, FSR 3.1.4, and HDR, which can also load replacement models, textures, interface art, and videos without changing the original data. In single player, the simulation can run at a higher rate for smoother flight, with the original timing still available. You can fly with the mouse (virtual stick or direct mode) and keyboard, or with gamepads and joysticks, with force-feedback effects turned into gamepad rumble. The latest release is 0.0.17 (August 31)."
+requirements:
+  es: "Una instalación completa de tu propia copia de Star Wars: X-Wing Alliance, con la estructura de la versión de GOG o de Steam; si es una copia del CD, antes hay que pasar el contenido de la carpeta ALLIANCE a la raíz. Además, un sistema de 64 bits con una tarjeta gráfica moderna: Windows x86-64 (Direct3D 12 o Vulkan), macOS 13 o posterior (Metal) o Linux x86-64 con glibc 2.35 o posterior (Vulkan)."
+  en: "A complete installation of your own copy of Star Wars: X-Wing Alliance, with the layout of the GOG or Steam release; for a CD copy, first merge the contents of the ALLIANCE folder into the root. Plus a 64-bit system with a modern graphics card: x86-64 Windows (Direct3D 12 or Vulkan), macOS 13 or later (Metal), or x86-64 Linux with glibc 2.35 or later (Vulkan)."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - vulkan
+  - hd-assets

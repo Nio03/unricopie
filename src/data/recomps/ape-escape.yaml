@@ -1,11 +1,13 @@
-name: Ape Escape
+name: "Ape Escape (mstan)"
 console: ps1
 status: playable
 repo: mstan/ApeEscapeRecomp
 toolchain: psxrecomp
 desc:
-  es: "Recompilación nativa de Ape Escape (versión estadounidense) para PC, hecha con psxrecomp y con launcher propio. Forma parte del ecosistema R.A.I.D."
-  en: "Native recompilation of Ape Escape (US version) for PC, made with psxrecomp and shipped with its own launcher. Part of the R.A.I.D. ecosystem."
+  es: "Recompilación nativa de Ape Escape (versión estadounidense) para PC, hecha con psxrecomp y con launcher propio. Forma parte del ecosistema R.A.I.D. 39 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Native recompilation of Ape Escape (US version) for PC, made with psxrecomp and shipped with its own launcher. Part of the R.A.I.D. ecosystem. 39 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Una imagen de disco de Ape Escape (PS1, versión estadounidense)."
   en: "A disc image of Ape Escape (PS1, US version)."
+tags:
+  - ai-assisted

@@ -6,10 +6,11 @@ originalDeveloper: Capcom
 year: 1994
 toolchain: snesrecomp
 desc:
-  es: "Recompilación estática de la edición estadounidense sobre snesrecomp, con un launcher previo al arranque. Su estado está descrito con honestidad y es limitado: llega a las escenas de introducción, comprobado con capturas de pantalla desde la interfaz de depuración (capas de fondo, sprites, paletas y texto correctos, y avance entre escenas). Queda pendiente probar a fondo la partida, verificar el audio y lo demás."
-  en: "Static recompilation of the US edition on snesrecomp, with a pre-boot launcher. Its stated status is honest and narrow: it reaches the intro cutscenes, verified with screenshots through the debug interface (correct background layers, sprites, palettes, and text, and progress between scenes). Broad gameplay coverage and audio verification are still pending."
+  es: "Recompilación estática de la edición estadounidense sobre snesrecomp, con un launcher previo al arranque. Su estado está descrito con honestidad y es limitado: llega a las escenas de introducción, comprobado con capturas de pantalla desde la interfaz de depuración (capas de fondo, sprites, paletas y texto correctos, y avance entre escenas). Queda pendiente probar a fondo la partida, verificar el audio y lo demás. 39 de sus 65 commits llevan a Claude como coautor."
+  en: "Static recompilation of the US edition on snesrecomp, with a pre-boot launcher. Its stated status is honest and narrow: it reaches the intro cutscenes, verified with screenshots through the debug interface (correct background layers, sprites, palettes, and text, and progress between scenes). Broad gameplay coverage and audio verification are still pending. 39 of its 65 commits list Claude as a co-author."
 requirements:
   es: "Tu propia ROM de Mega Man X2 (SNES, versión estadounidense). También se aceptan las copias con la cabecera de copiadora de 512 bytes: se elimina automáticamente."
   en: "Your own Mega Man X2 ROM (SNES, US version). Dumps with a 512-byte copier header are fine: it’s stripped automatically."
 tags:
   - "65816"
+  - ai-assisted

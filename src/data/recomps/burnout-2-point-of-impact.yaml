@@ -1,0 +1,18 @@
+name: "Burnout 2: Point of Impact"
+console: xbox
+status: playable
+repo: timftw21/burnout2-recompilation
+originalDeveloper: Criterion Games
+year: 2003
+desc:
+  es: "Recompilación estática no oficial de la versión de Xbox para Windows. Un recompilador propio, escrito en C++, traduce por adelantado el código del juego a funciones nativas, y una capa escrita a mano sustituye los servicios de la Xbox: los gráficos pasan a Direct3D 11, y la ventana, los mandos y el sonido van con SDL3. Es un segundo intento: el autor retiró la primera versión, más lenta y compleja, y empezó de nuevo con otra más pequeña centrada en la velocidad. Funcionan el arranque, los menús, muchos circuitos y modos, la música, los efectos de sonido y las partidas guardadas; queda por probar todos los modos, circuitos y la progresión completa. Añade frecuencias de 60 Hz a sin límite con la velocidad de juego normal, resolución interna de 1x a 4x, 16:9 y 21:9 nativos con el HUD en sus proporciones, MSAA o FXAA, filtrado anisótropo hasta 16x, oclusión ambiental opcional, distancia de dibujado doble o cuádruple, música propia en el menú de selección de música del juego, teclado reasignable y DLSS, FSR y XeSS en fase experimental. La descarga es un paquete con el código fuente: un instalador comprueba tu imagen, descarga las dependencias y compila el juego en tu equipo. La 1.7 (19 de octubre) añadió el formato 21:9, la opción de desenfoque de movimiento y la repetición de canción. Su autor declara que lo hizo con ayuda de Codex."
+  en: "An unofficial static recompilation of the Xbox version for Windows. The project’s own recompiler, written in C++, translates the game’s code ahead of time into native functions, and a hand-written layer replaces the Xbox services: graphics go to Direct3D 11, and windowing, controllers, and sound go through SDL3. It’s a second attempt: the author pulled the first version, which was slower and more complex, and started over with a smaller one focused on speed. Startup, menus, many tracks and modes, music, sound effects, and saves work; testing every mode, every track, and full progression is still pending. It adds refresh rates from 60 Hz to unlimited at normal game speed, 1x–4x internal resolution, native 16:9 and 21:9 with the HUD in its proportions, MSAA or FXAA, up to 16x anisotropic filtering, optional ambient occlusion, 2x or 4x draw distance, your own music in the game’s music selection menu, rebindable keyboard controls, and experimental DLSS, FSR, and XeSS. The download is a source package: an installer checks your image, downloads the dependencies, and builds the game on your machine. Version 1.7 (October 19) added 21:9, a motion blur toggle, and song looping. Its author states that it was made with help from Codex."
+requirements:
+  es: "Una imagen XISO de tu propia copia estadounidense de Burnout 2: Point of Impact para Xbox (.iso o .xiso); los volcados del disco completo hay que convertirlos antes a XISO. Además, Windows de 64 bits, una tarjeta gráfica con DirectX 11 y, para compilarlo, Visual Studio 2026 con el desarrollo para escritorio con C++ y las herramientas de CMake para C++, CMake 4.2 o posterior, Git, LLVM 22.1 o posterior y Ninja. La primera compilación necesita conexión a internet."
+  en: "An XISO image of your own US copy of Burnout 2: Point of Impact for Xbox (.iso or .xiso); full-disc dumps must be converted to XISO first. Plus 64-bit Windows, a DirectX 11 graphics card, and, to build it, Visual Studio 2026 with Desktop development with C++ and the C++ CMake tools, CMake 4.2 or later, Git, LLVM 22.1 or later, and Ninja. The first build needs an internet connection."
+tags:
+  - x86
+  - racing
+  - widescreen
+  - 60fps+
+  - ai-assisted

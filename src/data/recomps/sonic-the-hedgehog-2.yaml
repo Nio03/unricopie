@@ -7,8 +7,8 @@ originalDeveloper: Sega Technical Institute
 year: 1992
 toolchain: segagenesisrecomp
 desc:
-  es: "Recompilación estática de Sonic the Hedgehog 2 de Mega Drive con segagenesisrecomp, el recompilador del mismo autor. Va bastante más allá del original: juego en línea con rollback para hasta cuatro jugadores y espectadores, partidas locales en grupo, formas Súper para todos los personajes y modo panorámico adaptable. Amy y Knuckles se pueden jugar si aportas además las ROM de las que salen. Solo hay versión para Windows."
-  en: "Static recompilation of Sonic the Hedgehog 2 for the Mega Drive with segagenesisrecomp, its author’s own recompiler. It goes well beyond the original: rollback online play for up to four players plus spectators, local party play, Super forms for every character, and adaptive widescreen. Amy and Knuckles are playable if you also supply the ROMs they come from. There’s only a Windows build."
+  es: "Recompilación estática de Sonic the Hedgehog 2 de Mega Drive con segagenesisrecomp, el recompilador del mismo autor. Va bastante más allá del original: juego en línea con rollback para hasta cuatro jugadores y espectadores, partidas locales en grupo, formas Súper para todos los personajes y modo panorámico adaptable. Amy y Knuckles se pueden jugar si aportas además las ROM de las que salen. Solo hay versión para Windows. 31 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Static recompilation of Sonic the Hedgehog 2 for the Mega Drive with segagenesisrecomp, its author’s own recompiler. It goes well beyond the original: rollback online play for up to four players plus spectators, local party play, Super forms for every character, and adaptive widescreen. Amy and Knuckles are playable if you also supply the ROMs they come from. There’s only a Windows build. 31 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Tu propia ROM de Sonic the Hedgehog 2 (versión mundial, revisión A o REV01). Para jugar en línea, todos deben usar la misma versión del recomp."
   en: "Your own Sonic the Hedgehog 2 ROM (World version, Rev A or REV01). For online play, everyone needs the same recomp version."
@@ -16,3 +16,4 @@ tags:
   - widescreen
   - online
   - multiplayer
+  - ai-assisted

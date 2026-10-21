@@ -4,8 +4,10 @@ status: playable
 repo: mstan/Tomba2Recomp
 toolchain: psxrecomp
 desc:
-  es: "Recompilación nativa de Tomba! 2 (versión estadounidense) con psxrecomp, compatible con 21:9 y con OpenGL a la tasa de fotogramas completa. Forma parte del ecosistema R.A.I.D."
-  en: "Native recompilation of Tomba! 2 (US version) with psxrecomp, with 21:9 support and full-frame-rate OpenGL. Part of the R.A.I.D. ecosystem."
+  es: "Recompilación nativa de Tomba! 2 (versión estadounidense) con psxrecomp, compatible con 21:9 y con OpenGL a la tasa de fotogramas completa. Forma parte del ecosistema R.A.I.D. 26 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Native recompilation of Tomba! 2 (US version) with psxrecomp, with 21:9 support and full-frame-rate OpenGL. Part of the R.A.I.D. ecosystem. 26 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Una imagen de disco de Tomba! 2 (PS1, versión estadounidense)."
   en: "A disc image of Tomba! 2 (PS1, US version)."
+tags:
+  - ai-assisted

@@ -1,0 +1,21 @@
+name: SSX 3
+console: xbox
+status: fully
+repo: koenhendriks/SSX3-recomp
+author: Koen Hendriks / Corné Dorrestijn
+originalDeveloper: EA Canada
+year: 2003
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática de la versión PAL de Xbox en un programa nativo para Windows y Linux, hecha con xboxrecomp (fijado en la 0.13.1, con parches propios): el código del juego corre como código nativo, y la GPU de la Xbox se emula sobre Vulkan. Según el proyecto, funciona el juego entero: todas las pruebas de carrera y estilo libre de los tres picos, Conquer the Mountain, la pantalla partida para dos jugadores y las partidas guardadas. Va a 60 fps, también en los tramos en que el original bajaba a 30, a la altura de tu monitor y en panorámico real (16:9, 21:9 o 32:9), con la cámara ensanchada y el HUD en los bordes. Añade MSAA hasta 8x, filtrado anisótropo, hasta el doble de distancia de visión, sombras más nítidas, sonido envolvente 5.1 en Windows, un filtro de televisor CRT opcional y teclas reasignables, y un launcher comprueba tu copia y reúne las opciones. Desde el 19 de octubre, el repositorio incluye el paquete de texturas HD que Bl4ckH4nd hizo para la versión de PS2, emparejado con las texturas de Xbox, que según el proyecto se distribuye con la aprobación de EA. La única versión publicada, la 0.1.0 (16 de octubre), es para Windows; en Linux hay que compilarlo, y en Linux para Mac con Apple Silicon (Asahi) llega a los menús. El procesador de efectos de audio no está implementado, así que no hay reverberación."
+  en: "A static recompilation of the PAL Xbox release into a native Windows and Linux program, built with xboxrecomp (pinned at 0.13.1, with the project’s own patches): the game’s code runs as native code, and the Xbox GPU is emulated on Vulkan. According to the project, the whole game works: every Race and Freestyle event on all three peaks, Conquer the Mountain, two-player split screen, and saves. It runs at 60 fps, including the stretches where the original dropped to 30, at your monitor’s height and in true widescreen (16:9, 21:9, or 32:9), with a widened camera and the HUD at the edges. It adds up to 8x MSAA, anisotropic filtering, up to double view distance, sharper shadows, 5.1 surround sound on Windows, an optional CRT TV filter, and rebindable keys, and a launcher checks your copy and gathers the options. Since October 19, the repository includes Bl4ckH4nd’s HD texture pack for the PS2 version, matched to the Xbox textures, which the project says is distributed with EA’s approval. The only release, 0.1.0 (October 16), is for Windows; on Linux you build it yourself, and on Linux for Apple silicon Macs (Asahi) it reaches the menus. The audio effects processor isn’t implemented, so there’s no reverb."
+requirements:
+  es: "Los archivos de tu propia copia PAL de SSX 3 para Xbox: el default.xbe y la carpeta data, extraídos del disco (por ejemplo, con extract-xiso); el launcher comprueba que sea la versión PAL. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan; en las ediciones N de Windows, el Media Feature Pack. Para compilarlo hacen falta Visual Studio 2022 con C++, el SDK de Vulkan, Git y Python 3.9 o posterior; en Linux, GCC o Clang, CMake, Ninja, SDL2 y las cabeceras de Vulkan."
+  en: "The files from your own PAL copy of SSX 3 for Xbox: default.xbe and the data folder, extracted from the disc (for example, with extract-xiso); the launcher checks that it’s the PAL release. Plus 64-bit Windows 10 or 11 and a Vulkan graphics card; on Windows N editions, the Media Feature Pack. Building it requires Visual Studio 2022 with C++, the Vulkan SDK, Git, and Python 3.9 or later; on Linux, GCC or Clang, CMake, Ninja, SDL2, and the Vulkan headers."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - vulkan
+  - hd-assets

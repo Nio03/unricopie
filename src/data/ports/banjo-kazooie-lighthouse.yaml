@@ -6,5 +6,7 @@ repo: HarbourMasters/Lighthouse
 originalDeveloper: Rare
 year: 1998
 desc:
-  es: "Port de Banjo-Kazooie hecho por Harbour Masters, el equipo de Ship of Harkinian. No incluye ningún recurso protegido por derechos de autor."
-  en: "Harbour Masters’ port of Banjo-Kazooie, from the Ship of Harkinian team. It ships no copyrighted assets."
+  es: "Port de Banjo-Kazooie hecho por Harbour Masters, el equipo de Ship of Harkinian. No incluye ningún recurso protegido por derechos de autor. Su README indica que el proyecto ha usado ayuda de IA para buscar información, sobre todo cuando la documentación de la decompilación era más escasa, y que acepta contribuciones hechas con IA dentro de las normas de HarbourMasters."
+  en: "Harbour Masters’ port of Banjo-Kazooie, from the Ship of Harkinian team. It ships no copyrighted assets. Its README says the project has used AI assistance for information gathering, particularly when the decomp documentation was younger, and accepts AI-assisted contributions within HarbourMasters’ policy."
+tags:
+  - ai-assisted

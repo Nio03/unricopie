@@ -5,11 +5,12 @@ status: fully
 repo: HarbourMasters/SpaghettiKart
 originalDeveloper: Nintendo
 desc:
-  es: "Port nativo de Mario Kart 64 a partir de la decompilación, con un editor de pistas incluido. Es la vía de la decompilación para llevar Mario Kart 64 a PC."
-  en: "Native port of Mario Kart 64 from the decompilation, with a built-in track editor. The decomp route to bringing Mario Kart 64 to PC."
+  es: "Port nativo de Mario Kart 64 a partir de la decompilación, con un editor de pistas incluido. Es la vía de la decompilación para llevar Mario Kart 64 a PC. 10 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Native port of Mario Kart 64 from the decompilation, with a built-in track editor. The decomp route to bringing Mario Kart 64 to PC. 10 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Una ROM de Mario Kart 64 (N64, versión estadounidense, .z64)."
   en: "A Mario Kart 64 ROM (N64, US version, .z64)."
 tags:
   - libultraship
   - track-editor
+  - ai-assisted

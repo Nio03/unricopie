@@ -2,8 +2,9 @@ name: Resident Evil 4
 console: gamecube
 repo: adonis-singh/re4
 desc:
-  es: "Decompilación completa y byte a byte de la versión de depuración de GameCube: la G4BE08, de dos discos, del 25 de noviembre de 2004. Fue posible porque esa versión traía los archivos de símbolos Bio4.sym, que dan nombre a cada función. Al compilar el repositorio se reconstruyen exactamente los archivos originales (main.dol y sus 114 módulos REL), comprobados contra sus SHA-1 en cada compilación. Son unas 570 000 líneas de C y C++, sin un solo archivo de ensamblador, compiladas con los compiladores originales."
-  en: "Complete, byte-identical decompilation of the GameCube debug build: G4BE08, the two-disc November 25, 2004 prototype. What made it possible is that this build shipped with Bio4.sym symbol files naming every function. Building the repository reproduces the exact original files (main.dol and its 114 REL overlays), checked against their SHA-1 hashes on every build. About 570,000 lines of C and C++, with not a single assembly file, built with the original compilers."
+  es: "Decompilación completa y byte a byte de la versión de depuración de GameCube: la G4BE08, de dos discos, del 25 de noviembre de 2004. Fue posible porque esa versión traía los archivos de símbolos Bio4.sym, que dan nombre a cada función. Al compilar el repositorio se reconstruyen exactamente los archivos originales (main.dol y sus 114 módulos REL), comprobados contra sus SHA-1 en cada compilación. Son unas 570 000 líneas de C y C++, sin un solo archivo de ensamblador, compiladas con los compiladores originales. Uno de sus últimos 100 commits lleva a Cursor como coautor."
+  en: "Complete, byte-identical decompilation of the GameCube debug build: G4BE08, the two-disc November 25, 2004 prototype. What made it possible is that this build shipped with Bio4.sym symbol files naming every function. Building the repository reproduces the exact original files (main.dol and its 114 REL overlays), checked against their SHA-1 hashes on every build. About 570,000 lines of C and C++, with not a single assembly file, built with the original compilers. One of its last 100 commits lists Cursor as a co-author."
 tags:
   - powerpc
   - matching
+  - ai-assisted

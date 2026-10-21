@@ -1,0 +1,18 @@
+name: "Wario Land: Super Mario Land 3"
+console: gb
+status: playable
+repo: GABRIELNNK/Bigodao
+originalDeveloper: Nintendo R&D1
+year: 1994
+toolchain: gb-recompiled
+desc:
+  es: "Bigodão: WL SM3: port nativo para Windows, Linux y Android hecho por recompilación estática con gb-recompiled, que su autor presenta como un proyecto de estudio. Parte del cartucho original con el parche de color DX 1.2 de korxo, que aplica en memoria sin tocar tu ROM. Desde la 1.0.0 el juego lo dibuja el propio port, sin la PPU emulada (una comparación completa con el modo emulado dio cero diferencias), con resolución interna de 1x a 4x y panorámica 16:9 activada por defecto, que muestra más nivel a los lados. Admite mods en archivos .o2r: paquetes de tiles y sprites en alta resolución, con herramientas para capturar escenas, pintarlas y empaquetarlas, y música en .ogg en lugar de la de la Game Boy, mientras los efectos siguen saliendo del sonido original. En Windows es un único ejecutable sin DLL. La 1.1.1 (20 de octubre) trajo un launcher más legible, bordes difuminados en las partes que no son panorámicas y 120 fps experimentales."
+  en: "Bigodão: WL SM3: a native Windows, Linux, and Android port made by static recompilation with gb-recompiled, which its author presents as a study project. It starts from the original cartridge with korxo’s DX 1.2 color patch, applied in memory without touching your ROM. Since 1.0.0 the game is drawn by the port itself instead of the emulated PPU (a full comparison with the emulated mode found zero differences), with 1x to 4x internal resolution and 16:9 widescreen on by default, showing more of the level at the sides. It supports mods as .o2r files: high-resolution tile and sprite packs, with tools to capture scenes, paint them, and pack them, and .ogg music in place of the Game Boy soundtrack, while sound effects still come from the original audio. On Windows it’s a single executable with no DLLs. Version 1.1.1 (October 20) brought a more readable launcher, blurred edges in the parts that aren’t widescreen, and experimental 120 fps."
+requirements:
+  es: "Tu propia ROM de Wario Land: Super Mario Land 3, versión mundial (SHA-256 ac1682f17abcf590311a233289ee325214c2d71ab3a5aa175004002d85075e56), y el parche IPS «Wario Land - Super Mario Land 3 DX (World)» 1.2 de korxo (SHA-256 599d9f59090df3e1e77c1678e069290a2cd9ce59c71cf58d66c4dc3db8b7facd). Además, Windows, Linux o Android en arm64."
+  en: "Your own Wario Land: Super Mario Land 3 ROM, World release (SHA-256 ac1682f17abcf590311a233289ee325214c2d71ab3a5aa175004002d85075e56), and korxo’s “Wario Land - Super Mario Land 3 DX (World)” 1.2 IPS patch (SHA-256 599d9f59090df3e1e77c1678e069290a2cd9ce59c71cf58d66c4dc3db8b7facd). Plus Windows, Linux, or arm64 Android."
+tags:
+  - sm83
+  - widescreen
+  - 60fps+
+  - mods

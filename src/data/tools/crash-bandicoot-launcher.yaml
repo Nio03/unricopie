@@ -5,8 +5,9 @@ consoles:
 repo: Matteo842/CrashBandicoot-Launcher
 status: experimental
 desc:
-  es: "Launcher no oficial que recompila Crash Bandicoot (SCUS-94900) en tu propio PC a partir de tu disco: le das el .cue/.bin, prepara la carpeta del juego y lo arranca. No distribuye el juego."
-  en: "Unofficial launcher that recompiles Crash Bandicoot (SCUS-94900) on your own PC from your disc: you supply the .cue/.bin, it prepares the game folder and launches it. It doesn’t distribute the game."
+  es: "Launcher no oficial que recompila Crash Bandicoot (SCUS-94900) en tu propio PC a partir de tu disco: le das el .cue/.bin, prepara la carpeta del juego y lo arranca. No distribuye el juego. Uno de sus últimos 100 commits lleva a Claude como coautor."
+  en: "Unofficial launcher that recompiles Crash Bandicoot (SCUS-94900) on your own PC from your disc: you supply the .cue/.bin, it prepares the game folder and launches it. It doesn’t distribute the game. One of its last 100 commits lists Claude as a co-author."
 tags:
   - mips
   - wrapper
+  - ai-assisted

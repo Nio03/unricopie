@@ -1,0 +1,17 @@
+name: Project Gotham Racing 4 (MTR-PGR4)
+console: x360
+status: playable
+repo: MissingThePixel/MTR-PGR4
+originalDeveloper: Bizarre Creations
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "MTR-PGR4 (MissingTheRecompilation): recompilación para Windows de la versión de Xbox 360, hecha con ReXGlue. Parte del PGR4-Recomp de beatrixzy, también en el catálogo, del que conserva la configuración inicial y las direcciones de funciones, y se mantiene por separado con arreglos propios del juego y del runtime y su propio launcher. En el launcher se eligen por separado 720p o 1440p, 30 o 60 fps, pantalla completa y desenfoque de movimiento; los cambios para los 60 fps y el desenfoque siguen los parches de Xenia Canary para este juego. Corrige la música y la mezcla de sonido de los menús, el cielo y el público, la carga del Lotus que congelaba el juego, el paseo por el garaje y muchos tirones, y recompila también el Geometry Wars del garaje, que se abre desde el launcher o desde el propio juego y vuelve a PGR4 al salir. A altas revoluciones pueden desaparecer el sonido del motor y la vibración, quedan pequeños tirones en algunos circuitos y defectos en algunas sombras, y las decoraciones de los coches no siempre coinciden con su vista previa. Usa, con cambios, el renderizador derivado de Xenia que trae ReXGlue, así que es probable que herede sus fallos gráficos. La 0.1.1 (8 de octubre) cambió el lanzador en PowerShell por uno nativo en C#."
+  en: "MTR-PGR4 (MissingTheRecompilation): a Windows recompilation of the Xbox 360 version, built with ReXGlue. It started from beatrixzy’s PGR4-Recomp, also in the catalog, keeping its initial configuration and recorded function addresses, and is maintained separately with its own game and runtime fixes and its own launcher. The launcher sets 720p or 1440p, 30 or 60 fps, fullscreen, and motion blur independently; the 60 fps and motion blur edits follow Xenia Canary’s patches for this game. It fixes menu music and sound mixing, the sky and crowd, the Lotus that froze the game on loading, garage walking, and many stutters, and it also recompiles the garage’s Geometry Wars, which opens from the launcher or the game itself and returns to PGR4 on exit. At high revs the engine sound and vibration can drop out, small hitches remain on some tracks, some shadows have minor glitches, and liveries don’t always match their menu previews. It uses ReXGlue’s Xenia-derived renderer with changes, so it’s likely to inherit Xenia’s graphics bugs. 0.1.1 (October 8) replaced the PowerShell game launcher with a native C# one."
+requirements:
+  es: "Los archivos extraídos completos de tu propia copia de Project Gotham Racing 4 para Xbox 360: la carpeta con default.xex, Game y UI, y para Geometry Wars también gw.xex y la carpeta gw. Además, Windows de 64 bits, una tarjeta gráfica con Direct3D 12 y .NET Framework 4.8. Se recomienda un mando, sobre todo para caminar por el garaje."
+  en: "The complete extracted files of your own Project Gotham Racing 4 copy for Xbox 360: the folder with default.xex, Game, and UI, plus gw.xex and the gw folder for Geometry Wars. Plus 64-bit Windows, a Direct3D 12 graphics card, and .NET Framework 4.8. A controller is recommended, especially for walking around the garage."
+tags:
+  - powerpc
+  - racing
+  - 60fps+

@@ -1,0 +1,18 @@
+name: Dark Cloud 2
+console: ps2
+status: playable
+abandoned: true
+repo: Red-tv141/DC2-PS2RECOMP
+originalDeveloper: Level-5
+year: 2003
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo para Windows de la versión estadounidense de PS2, por recompilación estática con PS2Recomp: el código del ejecutable (SCUS_972.13) se traduce a C++ y corre sobre el entorno de PS2Recomp, con un rasterizador propio del GS y los microprogramas de la VU1 compilados a código x86-64. Un launcher extrae los archivos de tu imagen .iso y deja elegir la resolución (de 720p a 4K, o personalizada), pantalla completa, un modo de 60 fps, saltar la introducción, el menú de depuración, las carpetas de las tarjetas de memoria, los controles y una carpeta de mods, que admite paquetes de texturas HD; la 0.9.4 añadió una relación de aspecto personalizada. La resolución alta todavía falla: estira la imagen en lugar de ampliar el campo de visión, y a veces desaparecen texturas o partes del HUD. La 0.9.5 (10 de octubre) mejoró el rendimiento y corrigió la velocidad a distintas tasas de fotogramas y el stick analógico, y es la última: el autor da el juego por jugable y cierra aquí el proyecto porque existe la decompilación de TealAlchemist. El repositorio no tiene instrucciones. Sus documentos de trabajo incluyen reglas para los agentes de IA que lo desarrollan, Gemini entre ellos."
+  en: "A native Windows port of the US PS2 release, made by static recompilation with PS2Recomp: the executable’s code (SCUS_972.13) is translated to C++ and runs on the PS2Recomp runtime, with its own GS rasterizer and the VU1 microprograms compiled to x86-64 code. A launcher extracts the files from your .iso image and lets you pick the resolution (720p to 4K, or custom), fullscreen, a 60 fps mode, skipping the intro, the debug menu, the memory card folders, the controls, and a mods folder that supports HD texture packs; 0.9.4 added a custom aspect ratio. High resolutions still have problems: they stretch the picture instead of widening the field of view, and textures or HUD parts sometimes disappear. Version 0.9.5 (October 10) improved performance and fixed the speed at different frame rates and the analog stick, and it’s the last one: the author calls the game playable and is ending the project here because TealAlchemist’s decompilation exists. The repository has no instructions. Its working documents include rules for the AI agents that develop it, Gemini among them."
+requirements:
+  es: "Tu propia imagen .iso del disco estadounidense de Dark Cloud 2 para PS2 (SCUS-97213); el launcher espera por defecto la v2.00. Además, Windows de 64 bits."
+  en: "Your own .iso image of the US Dark Cloud 2 PS2 disc (SCUS-97213); by default the launcher expects v2.00. Plus 64-bit Windows."
+tags:
+  - emotion-engine
+  - 60fps+
+  - ai-assisted

@@ -4,8 +4,10 @@ status: playable
 repo: ThiagoLira/trouble-makers-pc-recomp
 toolchain: N64Recomp
 desc:
-  es: "Recompilación nativa de Mischief Makers (Yuke Yuke!! Trouble Makers en Japón) para PC, con 60 fps, alta resolución y modo panorámico opcional."
-  en: "Native recompilation of Mischief Makers (Yuke Yuke!! Trouble Makers in Japan) for PC, with 60 fps, high resolution, and optional widescreen."
+  es: "Recompilación nativa de Mischief Makers (Yuke Yuke!! Trouble Makers en Japón) para PC, con 60 fps, alta resolución y modo panorámico opcional. 38 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Native recompilation of Mischief Makers (Yuke Yuke!! Trouble Makers in Japan) for PC, with 60 fps, high resolution, and optional widescreen. 38 of its last 100 commits list Claude as a co-author."
 requirements:
   es: Una ROM de Mischief Makers (N64, .z64).
   en: A Mischief Makers ROM (N64, .z64).
+tags:
+  - ai-assisted

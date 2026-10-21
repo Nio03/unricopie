@@ -1,0 +1,17 @@
+name: "Golden Sun / Golden Sun: The Lost Age"
+console: gba
+status: playable
+repo: Shmargus/GSRecomp
+originalDeveloper: Camelot Software Planning
+year: 2001
+toolchain: gbarecomp
+desc:
+  es: "Golden Sun Recompiled: ports nativos para Windows y Linux (Steam Deck incluida) de Golden Sun y Golden Sun: The Lost Age, hechos por recompilación estática con una copia modificada de gbarecomp y sin necesidad de la BIOS de la GBA. El código que aparece durante la partida sin haberse preparado de antemano pasa un momento por un intérprete mientras se compila. Un único launcher prepara cada juego desde tu ROM, con un compilador incluido en la descarga. Según su README, el primero se puede jugar hasta los créditos finales, y The Lost Age, añadido en la 0.5, sigue siendo experimental. Añade una vista panorámica ampliada, de 3:2 a 16:9, con un renderizador propio en la GPU para el campo, el mapa y los combates, perfiles de color, filtros de pantalla, ajustes para daltonismo, velocidad al caminar, frecuencia de combates, combates al doble de velocidad, un modo difícil, menú de trucos y controles reasignables; el modo Seamless pasa la partida terminada del primero al segundo sin contraseñas. Las dos son versiones de prueba con fallos conocidos. Su README avisa de que partes del proyecto se hicieron con herramientas de IA, y 26 de sus 28 commits llevan a Claude como coautor. La 0.5.3 salió el 20 de octubre."
+  en: "Golden Sun Recompiled: native Windows and Linux (Steam Deck included) ports of Golden Sun and Golden Sun: The Lost Age, made by static recompilation with a modified copy of gbarecomp, with no GBA BIOS needed. Code that shows up during play without having been prepared ahead of time runs briefly through an interpreter while it’s compiled. A single launcher prepares each game from your ROM, with a compiler included in the download. According to its README, the first game is playable through to the ending credits, while The Lost Age, added in 0.5, is still experimental. It adds an expanded widescreen view, from 3:2 to 16:9, with its own GPU renderer for the field, world map, and battles, color profiles, screen filters, color vision settings, walking speed, encounter rate, 2x battle speed, a hard mode, a cheat menu, and rebindable controls; Seamless mode carries the finished first game’s save into the second without passwords. Both are test builds with known bugs. Its README notes that parts of the project were made with AI tools, and 26 of its 28 commits list Claude as co-author. Version 0.5.3 came out on October 20."
+requirements:
+  es: "Tus propias ROM de Golden Sun (SHA-1 5c4695205413df7db52b9a184815a07783999971) y de Golden Sun: The Lost Age (SHA-1 b500663220cb9bf56b9f8e8c0c544f1d6fa3a824), versión estadounidense y europea; el launcher puede saltarse la comprobación para ROM parcheadas, sin soporte. Además, Windows 10 u 11, o Linux de 64 bits con SDL2 y OpenGL."
+  en: "Your own Golden Sun (SHA-1 5c4695205413df7db52b9a184815a07783999971) and Golden Sun: The Lost Age (SHA-1 b500663220cb9bf56b9f8e8c0c544f1d6fa3a824) ROMs, US/European release; the launcher can skip the check for patched ROMs, unsupported. Plus Windows 10 or 11, or 64-bit Linux with SDL2 and OpenGL."
+tags:
+  - arm7
+  - widescreen
+  - ai-assisted

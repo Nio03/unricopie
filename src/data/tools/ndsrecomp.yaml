@@ -6,7 +6,8 @@ repo: RetroPortingToolKit/ndsrecomp
 authorFormerly: mstan
 status: experimental
 desc:
-  es: "Investigación en fase prealfa muy temprana de un recompilador estático de Nintendo DS. Es la cadena de herramientas detrás del recomp de Metroid Prime Hunters."
-  en: Very early pre-alpha Nintendo DS static recompiler research. The toolchain behind the Metroid Prime Hunters recomp.
+  es: "Investigación en fase prealfa muy temprana de un recompilador estático de Nintendo DS. Es la cadena de herramientas detrás del recomp de Metroid Prime Hunters. 37 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Very early pre-alpha Nintendo DS static recompiler research. The toolchain behind the Metroid Prime Hunters recomp. 37 of its last 100 commits list Claude as a co-author."
 tags:
   - arm9
+  - ai-assisted

@@ -5,10 +5,11 @@ repo: mstan/TombaRecomp
 originalDeveloper: Whoopee Camp
 toolchain: psxrecomp
 desc:
-  es: "Tomba! llevado por completo a psxrecomp. Llega a la partida de verdad (saltar, agarrar, cumplir misiones), pero con fallos de sincronización del audio y bloqueos que impiden avanzar."
-  en: "Tomba! driven end to end through psxrecomp. It reaches real gameplay (jumping, grabbing, quests), but with audio timing glitches and softlocks."
+  es: "Tomba! llevado por completo a psxrecomp. Llega a la partida de verdad (saltar, agarrar, cumplir misiones), pero con fallos de sincronización del audio y bloqueos que impiden avanzar. 20 de sus últimos 100 commits llevan a Claude o Cursor como coautor."
+  en: "Tomba! driven end to end through psxrecomp. It reaches real gameplay (jumping, grabbing, quests), but with audio timing glitches and softlocks. 20 of its last 100 commits list Claude or Cursor as a co-author."
 requirements:
   es: "Una imagen de disco de Tomba! (PS1) y la BIOS SCPH1001.BIN."
   en: "A Tomba! disc image (PS1) and the SCPH1001.BIN BIOS."
 tags:
   - mips
+  - ai-assisted

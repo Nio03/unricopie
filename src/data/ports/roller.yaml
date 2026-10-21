@@ -1,0 +1,34 @@
+name: "Fatal Racing / Whiplash"
+category: decomp-port
+console: dos
+status: playable
+repo: FatalDecomp/ROLLER
+homepage: https://fatal.racing/
+author: "Zizin13 / deevus / schlangz"
+originalDeveloper: Gremlin Interactive
+year: 1995
+desc:
+  es: "ROLLER: port de Fatal Racing (Whiplash en Estados Unidos) hecho por ingeniería inversa del ejecutable original, con los nombres de los símbolos de depuración que este conservaba y las funciones de DOS sustituidas por SDL; la decompilación que reproduce el original instrucción por instrucción está en otro repositorio, ROLLER-matching. Saca los datos y las pistas de música de una imagen de tu CD, y la música puede sonar desde esas pistas o como MIDI. Además del renderizador por software tiene uno por GPU, mando en el juego y en los menús, circuitos de la comunidad hechos con su editor de circuitos y, desde finales de septiembre, un código de red nuevo para jugar por internet: el anfitrión manda y los clientes predicen su propio coche, con búsqueda de partidas en la red local, un servicio en fatal.racing para encontrarlas por internet, retransmisión de reserva y servidor dedicado; el modo de red original, por pasos sincronizados, sigue disponible. La tecla ` abre ajustes adicionales. Publica compilaciones de desarrollo automáticas para Windows, macOS y Linux (y Android); la última es la 0.1.1-dev.20261019 (19 de octubre). También se juega en el navegador, en play.fatal.racing. Esa versión para navegador trae los datos de la demo jugable de Whiplash que distribuyó Interplay, descargados de su copia en Internet Archive y servidos desde la web del proyecto; para el juego completo se importa la imagen de tu disco. Las versiones nativas no incluyen datos del juego."
+  en: "ROLLER: a port of Fatal Racing (Whiplash in North America) made by reverse engineering the original executable, using the names from the debug symbols it kept and replacing DOS functions with SDL; the decompilation that matches the original instruction for instruction lives in a separate repository, ROLLER-matching. It extracts the data and the music tracks from an image of your CD, and music can play from those tracks or as MIDI. Besides the software renderer it has a GPU one, controller support in game and menus, community tracks made with its track editor, and, since late September, new netcode for online play: the host is authoritative and clients predict their own car, with LAN discovery, a service on fatal.racing for finding games online, a relay fallback, and a dedicated server; the original lockstep network mode is still available. The ` key opens extra settings. It publishes automated development builds for Windows, macOS, and Linux (and Android); the latest is 0.1.1-dev.20261019 (October 19). It can also be played in the browser at play.fatal.racing. That browser version carries the data from the Whiplash playable demo that Interplay distributed, downloaded from its Internet Archive copy and served from the project’s site; for the full game you import an image of your disc. The native builds include no game data."
+requirements:
+  es: "Una imagen de tu propio CD del juego (CUE/BIN o ISO), de la que saca los datos la primera vez que arranca. Además, Windows x86-64, macOS (Apple Silicon o Intel) o Linux (x86-64 o ARM64)."
+  en: "An image of your own copy of the game’s CD (CUE/BIN or ISO), from which it extracts the data on first launch. Plus x86-64 Windows, macOS (Apple silicon or Intel), or Linux (x86-64 or ARM64)."
+tags:
+  - x86
+  - racing
+  - multiplayer
+  - online
+  - track-editor
+links:
+  - label:
+      es: "Decompilación exacta (ROLLER-matching)"
+      en: "Matching decompilation (ROLLER-matching)"
+    url: https://github.com/FatalDecomp/ROLLER-matching
+  - label:
+      es: "Editor de circuitos"
+      en: "Track editor"
+    url: https://github.com/FatalDecomp/TrackEditor
+  - label:
+      es: "Jugar en el navegador"
+      en: "Play in the browser"
+    url: https://play.fatal.racing/

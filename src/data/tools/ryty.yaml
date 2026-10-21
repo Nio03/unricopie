@@ -1,0 +1,16 @@
+name: Ryty
+kind: recompiler
+consoles:
+  - ps4
+  - ps5
+repo: aarvsn/Ryty
+status: experimental
+forkOf:
+  label: boykopovar/AnyPS5
+  url: https://github.com/boykopovar/AnyPS5
+desc:
+  es: "Fork de AnyPS5 que convierte ejecutables de PS4 y PS5 en programas nativos de Linux y Windows, y también, de forma experimental, de macOS con gráficos por Metal. Como AnyPS5, del que hereda el reenlazador, las bibliotecas del sistema y el recompilador de shaders, no emula: el código del juego corre como código del equipo, con el formato del ejecutable convertido y las bibliotecas PRX del sistema sustituidas por implementaciones propias. Añade la PS4, que detecta sola; la reescritura de las instrucciones exclusivas de AMD (la extensión SHA y otras) para poder ejecutar el resultado en procesadores Intel; una interfaz gráfica con Qt6; informes del proceso en JSON; mandos por SDL con teclado y ratón configurables, y, desde la 1.0.7 (21 de octubre), un modo en línea experimental que lleva las peticiones HTTP del juego a la red, sin ningún servicio de PSN detrás. Su lista de compatibilidad recoge un solo juego probado, Dreaming Sarah de PS5, jugable en Windows. RyGT, el port de Gran Turismo Sport del catálogo, es un fork suyo."
+  en: "An AnyPS5 fork that turns PS4 and PS5 executables into native Linux and Windows programs, and also, experimentally, macOS ones with Metal graphics. Like AnyPS5, from which it inherits the relinker, the system libraries, and the shader recompiler, it doesn’t emulate: the game’s code runs as host code, with the executable format converted and the PRX system libraries replaced by its own implementations. It adds the PS4, detected automatically; rewriting of AMD-only instructions (the SHA extension and others) so the result can run on Intel CPUs; a Qt6 GUI; JSON porting reports; SDL controllers with configurable keyboard and mouse; and, since 1.0.7 (October 21), an experimental online mode that passes the game’s HTTP requests to the network, with no PSN service behind it. Its compatibility list has a single tested game, Dreaming Sarah for PS5, playable on Windows. RyGT, the Gran Turismo Sport port in this catalog, is a fork of it."
+tags:
+  - x86
+  - compat-layer

@@ -6,10 +6,11 @@ originalDeveloper: Intelligent Systems
 year: 2001
 toolchain: gbarecomp
 desc:
-  es: "Recompilación estática de Mario Kart: Super Circuit para Windows, con mods opcionales de 60 fps y modo panorámico adaptable. Es un subproducto del desarrollo de gbarecomp: el juego sirve de banco de pruebas, y el objetivo real es el marco de trabajo reutilizable."
-  en: "Static recompilation of Mario Kart: Super Circuit for Windows, with optional 60 fps and adaptive widescreen mods. A byproduct of building gbarecomp: the game is the proving ground, and the reusable framework is the real goal."
+  es: "Recompilación estática de Mario Kart: Super Circuit para Windows, con mods opcionales de 60 fps y modo panorámico adaptable. Es un subproducto del desarrollo de gbarecomp: el juego sirve de banco de pruebas, y el objetivo real es el marco de trabajo reutilizable. 9 de sus 74 commits llevan a Claude como coautor."
+  en: "Static recompilation of Mario Kart: Super Circuit for Windows, with optional 60 fps and adaptive widescreen mods. A byproduct of building gbarecomp: the game is the proving ground, and the reusable framework is the real goal. 9 of its 74 commits list Claude as a co-author."
 requirements:
   es: "Tu propia ROM de Mario Kart: Super Circuit y la BIOS de GBA."
   en: "Your own Mario Kart: Super Circuit ROM and the GBA BIOS."
 tags:
   - arm7
+  - ai-assisted

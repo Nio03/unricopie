@@ -1,0 +1,17 @@
+name: "Skate 2 (christianortel)"
+console: x360
+status: playable
+repo: christianortel/skate2-recompile-pc
+author: Christian R. Ortel
+originalDeveloper: EA Black Box
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Port comunitario para Windows de la versión de Xbox 360, hecho con ReXGlue 0.10.0 y parches propios al SDK: el ejecutable PowerPC se traduce a C++ y se compila como código nativo, y los gráficos de la Xenos pasan a Direct3D 12 con el complemento de GPU que ReXGlue tomó de Xenia. La recompilación anterior del Skate-2-Team le sirvió de referencia para el análisis, sin heredar su código de ejecución. Se publica como paquete ya compilado: un script copia y comprueba tus archivos una sola vez, y un launcher arranca el juego con el perfil por defecto, a resolución interna 2x y fotogramas sin límite, con perfiles de 1x y de 4x (experimental) y límites de 60 a 240 fps. Funcionan Free Skate, la campaña, las repeticiones, las partidas guardadas, el mando (el DualSense por USB, de forma directa) y la elección de salida de audio. Se ha probado en un solo PC, con una hora de campaña sin fallos, sin haber completado el juego; no tiene soporte ultrapanorámico. La 0.1.1 (12 de octubre) añadió un launcher .exe para accesos directos y Armoury Crate."
+  en: "A community Windows port of the Xbox 360 version, built with ReXGlue 0.10.0 and its own patches to the SDK: the PowerPC executable is translated to C++ and compiled as native code, and the Xenos graphics are turned into Direct3D 12 by the GPU plugin ReXGlue took from Xenia. The earlier Skate-2-Team recompilation served as an analysis reference, without carrying over its runtime code. It’s released as a prebuilt package: a script copies and checks your files once, and a launcher starts the game with the default profile, 2x internal resolution and an unlocked frame rate, with 1x and (experimental) 4x profiles and 60–240 fps caps. Free Skate, the campaign, replays, saves, controllers (USB DualSense directly), and audio output selection work. It has been tested on a single PC, with an hour of the campaign free of glitches, without finishing the game; there’s no ultrawide support. Version 0.1.1 (October 12) added an .exe launcher for shortcuts and Armoury Crate."
+requirements:
+  es: "Los archivos extraídos de tu propia copia de Skate 2 para Xbox 360 (Title ID 4541087F, Media ID 6ADB5821, ejecutable 0.0.0.2): la carpeta con el default.xex y data. El default.xex debe tener el SHA-256 116ba3ee37fcf0d8db60b7d47c971fdb6d3eb2a7a4d3cfc3611a06704a588ae5, y una ISO o un archivo comprimido hay que extraerlos antes. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12, Windows PowerShell 5.1 (viene con Windows), el runtime x64 de Visual C++ y un mando."
+  en: "The extracted files from your own copy of Skate 2 for Xbox 360 (title ID 4541087F, media ID 6ADB5821, executable 0.0.0.2): the folder with default.xex and data. default.xex must have the SHA-256 116ba3ee37fcf0d8db60b7d47c971fdb6d3eb2a7a4d3cfc3611a06704a588ae5, and an ISO or compressed archive must be extracted first. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, Windows PowerShell 5.1 (included with Windows), the Visual C++ x64 runtime, and a controller."
+tags:
+  - powerpc
+  - 60fps+

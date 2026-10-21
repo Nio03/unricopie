@@ -6,10 +6,11 @@ originalDeveloper: Nintendo EAD
 year: 1990
 toolchain: snesrecomp
 desc:
-  es: "Versión nativa del F-Zero de SNES. Modos panorámicos 16:9, 21:9 y 32:9, además de uno ajustado a la ventana; imagen a 60, 90, 120, 144, 165, 240 o 360 fps; renderizado de la pista de 2x a 10x, independiente de lo anterior; filtros de pantalla (CRT suave, rejilla LCD, nítido, compuesto cálido o uno propio en GLSL); estados de guardado con miniaturas, rebobinado y compatibilidad con mandos mediante SDL. Opcionalmente admite el contenido de BS F-Zero Deluxe y los paquetes de música MSU-1."
-  en: "Native build of the SNES F-Zero. 16:9, 21:9, and 32:9 widescreen, plus a Fit mode; output at 60, 90, 120, 144, 165, 240, or 360 fps; 2x to 10x track rendering, independent of both; display shaders (CRT Soft, LCD Grid, Sharp, Warm Composite, or your own GLSL); save states with thumbnails, rewind, and SDL gamepad support. It optionally takes BS F-Zero Deluxe content and MSU-1 music packs."
+  es: "Versión nativa del F-Zero de SNES. Modos panorámicos 16:9, 21:9 y 32:9, además de uno ajustado a la ventana; imagen a 60, 90, 120, 144, 165, 240 o 360 fps; renderizado de la pista de 2x a 10x, independiente de lo anterior; filtros de pantalla (CRT suave, rejilla LCD, nítido, compuesto cálido o uno propio en GLSL); estados de guardado con miniaturas, rebobinado y compatibilidad con mandos mediante SDL. Opcionalmente admite el contenido de BS F-Zero Deluxe y los paquetes de música MSU-1. 33 de sus 66 commits llevan a Claude como coautor."
+  en: "Native build of the SNES F-Zero. 16:9, 21:9, and 32:9 widescreen, plus a Fit mode; output at 60, 90, 120, 144, 165, 240, or 360 fps; 2x to 10x track rendering, independent of both; display shaders (CRT Soft, LCD Grid, Sharp, Warm Composite, or your own GLSL); save states with thumbnails, rewind, and SDL gamepad support. It optionally takes BS F-Zero Deluxe content and MSU-1 music packs. 33 of its 66 commits list Claude as a co-author."
 requirements:
   es: "Tu propia ROM de F-Zero (SNES, edición estadounidense). El contenido de BS F-Zero y la música MSU-1 son opcionales, y los aportas tú."
   en: "Your own F-Zero ROM (SNES, US edition). BS F-Zero content and MSU-1 music are optional, and you supply them yourself."
 tags:
   - "65816"
+  - ai-assisted

@@ -1,0 +1,23 @@
+name: Total Annihilation
+category: fan-remake
+console: pc
+status: playable
+repo: open-annihilation/open-annihilation
+homepage: https://play.coreprime.net/
+author: Steve Gray
+originalDeveloper: Cavedog Entertainment
+year: 1997
+desc:
+  es: "Open Annihilation: motor de código abierto para jugar a Total Annihilation en sistemas actuales con los datos de tu propia copia; el soporte de Total Annihilation: Kingdoms está en sus planes. Busca reproducir el comportamiento y las partidas guardadas de la versión 3.1c: ya funcionan los menús, las escaramuzas, la campaña con sus informes de misión y las partidas en red, con unidades de tierra, barcos, submarinos, aerodeslizadores, aviones y transportes, aunque aún faltan partes del juego. Las partidas en red por TCP/IP usan el mismo protocolo que la 3.1c, así que se puede jugar con quien tenga el juego original, y reproduce y graba partidas en el formato .tad del antiguo grabador de demos. Añade cualquier resolución desde 640×480, hasta 120 fps con movimiento interpolado sin cambiar la velocidad del juego, antialiasing de hasta 16x, zoom hasta ver el mapa entero y una biblioteca integrada para instalar y actualizar mods, paquetes de mapas y traducciones; cada mod se describe en un solo archivo oamod.yaml. Hay versiones para Windows (de Windows 95 a Windows 11, de 32 y 64 bits y ARM), macOS 11 o posterior, Linux (también ARM y Raspberry Pi) y, de forma experimental, Steam Deck, y se puede compilar en tu propio Mac para iPhone y iPad. La última es la 0.8.4 (19 de octubre). Sus créditos declaran que se usó Claude como programador de apoyo durante todo el desarrollo. La biblioteca descarga del registro de Core Prime, integrado en el juego, solo lo que eliges: además de mods y traducciones de la comunidad, ofrece los 16 paquetes de mapas y las unidades extra que Cavedog publicó para descargar. Las descargas se pueden desactivar en los ajustes."
+  en: "Open Annihilation: an open-source engine for playing Total Annihilation on current systems with the data from your own copy; Total Annihilation: Kingdoms support is on its roadmap. It aims to match the 3.1c release’s behavior and save files: the frontend, skirmish, the campaign with its briefings, and network matches already run, with land units, ships, submarines, hovercraft, aircraft, and transports, though parts of the game are still missing. TCP/IP network games use the 3.1c protocol, so you can play with people on the original game, and it plays back and records games in the old demo recorder’s .tad format. It adds any screen size from 640×480 up, up to 120 fps with interpolated motion at the same game speed, up to 16x anti-aliasing, zooming out to the whole map, and a built-in Library to install and update mods, map packs, and translations; each mod is described in a single oamod.yaml file. There are builds for Windows (Windows 95 to 11, 32- and 64-bit and ARM), macOS 11 or later, Linux (ARM and Raspberry Pi included), and, experimentally, the Steam Deck, and it can be built on your own Mac for iPhone and iPad. The latest is 0.8.4 (October 19). Its credits state that Claude was used as an AI pair programmer throughout development. The Library downloads from Core Prime’s registry, built into the game, only what you choose: besides community mods and translations, it offers the 16 map packs and the bonus units Cavedog released as downloads. Downloads can be turned off in the settings."
+requirements:
+  es: "Una instalación de tu propia copia de Total Annihilation con la actualización 3.1, como la edición de GOG; el primer arranque lee directamente los instaladores de GOG para Windows y macOS y copia el juego una vez. Para probarlo sin el juego completo vale la demo gratuita de 1997, que descargas tú del Internet Archive (Total Annihilation.exe, 21 540 864 bytes), con las tres primeras misiones de la campaña Arm y sin escaramuzas ni multijugador. Además, Windows, macOS 11 o posterior, o Linux."
+  en: "An installation of your own copy of Total Annihilation with the 3.1 update, such as the GOG edition; the first start reads the GOG installers for Windows and macOS directly and copies the game once. To try it without the full game, the free 1997 demo works, which you download yourself from the Internet Archive (Total Annihilation.exe, 21,540,864 bytes), with the first three Arm campaign missions and no skirmish or multiplayer. Plus Windows, macOS 11 or later, or Linux."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - mods
+  - reverse-engineering
+  - ai-assisted

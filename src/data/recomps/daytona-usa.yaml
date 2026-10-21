@@ -5,8 +5,10 @@ repo: Subarasheese/daytona-xbla-recomp
 originalDeveloper: Sega / AM2
 toolchain: ReXGlue
 desc:
-  es: "Recompilación del relanzamiento XBLA (2011) del clásico de carreras de recreativa. Compila y funciona en Windows y Linux, pero las llamadas al sistema y el renderizado están sin terminar, y hay que compilarlo uno mismo."
-  en: "Recompilation of the 2011 XBLA re-release of the arcade racing classic. It builds and runs on Windows and Linux, but system calls and rendering are unfinished, and you have to build it yourself."
+  es: "Recompilación del relanzamiento XBLA (2011) del clásico de carreras de recreativa. Compila y funciona en Windows y Linux, pero las llamadas al sistema y el renderizado están sin terminar, y hay que compilarlo uno mismo. 15 de sus 36 commits llevan a Claude como coautor."
+  en: "Recompilation of the 2011 XBLA re-release of the arcade racing classic. It builds and runs on Windows and Linux, but system calls and rendering are unfinished, and you have to build it yourself. 15 of its 36 commits list Claude as a co-author."
 requirements:
   es: "Tu propio paquete XBLA de Daytona USA (Xbox 360)."
   en: "Your own Daytona USA XBLA package (Xbox 360)."
+tags:
+  - ai-assisted

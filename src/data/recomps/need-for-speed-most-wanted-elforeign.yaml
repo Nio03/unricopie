@@ -1,0 +1,28 @@
+name: "Need for Speed: Most Wanted (elforeign)"
+console: pc
+status: playable
+repo: elforeign/nfs-most-wanted-mac
+originalDeveloper: EA Black Box
+year: 2005
+toolchain: recomp-kit
+desc:
+  es: "Port nativo para Mac con Apple Silicon de la versión de Windows (Black Edition), hecho por recompilación estática: el código x86 de tu speed.exe se traduce a C por adelantado y se compila para ARM, con un renderizador que pasa Direct3D 9 a Metal y audio y mandos nativos, sin Wine ni emulador. El traductor, el runtime y el renderizador son recomp-kit, de veritr1x, y la configuración del juego partió de su nfsmw-recomp; este repositorio añade los arreglos, las funciones y el kit de instalación. Una app de instalación revisa la carpeta de tu juego, analiza el ejecutable una sola vez con Ghidra (que descarga, junto con Java y Python, en su propia carpeta) y compila la app en unos 10 minutos en un M5 Pro. Funciona a cualquier resolución y relación de aspecto, con panorámica real (campo de visión, HUD y minimapa llevados a los bordes), y su autor la ha probado a 4K y 60 fps. Trae un aspecto «Definitive» con efectos reconstruidos para el port (resplandor, desenfoque de movimiento, profundidad de campo, carreteras mojadas, reflejos, oclusión ambiental, rayos de sol, sombras más suaves), un filtro dorado como el de la consola y la versión de Xbox 360 de algunos efectos, ciclos opcionales de día y de clima, HDR, antialiasing 2x o 4x, sonido 5.1 en PCM o Dolby Digital, DualSense con vibración y gatillos analógicos, botones reasignables, un menú de ajustes con F10, una carpeta para mods de texturas y las opciones del mod Extra Options integradas (contenido de la Black Edition, nivel de persecución del 1 al 10 o desbloquearlo todo, entre otras). De forma opcional, la instalación genera en tu Mac texturas HD reescalando las de tu copia (en torno a 1¼ horas) y prepara los shaders para evitar tirones, y aprovecha el Stuff Pack de Xbox 360, XenonEffects y los vídeos de tu copia de Xbox 360 si los tienes. 24 de sus 44 commits llevan a Claude como coautor. La 1.0.0 salió el 7 de octubre y la última, la 3.0.4, el 16 de octubre."
+  en: "A native port of the Windows version (Black Edition) for Apple Silicon Macs, made by static recompilation: the x86 code in your speed.exe is translated to C ahead of time and compiled for ARM, with a renderer that turns Direct3D 9 into Metal and native audio and controller support, with no Wine or emulator. The translator, runtime, and renderer are veritr1x’s recomp-kit, and the game configuration started as their nfsmw-recomp; this repository adds the fixes, features, and setup kit. A setup app checks your game folder, analyzes the executable once with Ghidra (which it downloads, along with Java and Python, into its own folder), and builds the app in about 10 minutes on an M5 Pro. It runs at any resolution and aspect ratio, with true widescreen (field of view, HUD, and minimap moved out to the edges), and its author has tested it at 4K and 60 fps. It has a “Definitive” look with effects rebuilt for the port (glow, motion blur, depth of field, wet roads, reflections, ambient occlusion, sun rays, softer shadows), a golden color filter like the console’s and the Xbox 360 version of some effects, optional day and weather cycles, HDR, 2x or 4x anti-aliasing, 5.1 sound as PCM or Dolby Digital, DualSense with rumble and analog triggers, remappable buttons, an F10 settings menu, a folder for texture mods, and the Extra Options mod’s features built in (Black Edition content, police heat levels 1–10, or unlock everything, among others). Optionally, setup makes HD textures on your Mac by upscaling your copy’s own (about 1¼ hours) and prepares the shaders to avoid stutter, and it uses the Xbox 360 Stuff Pack, XenonEffects, and the movies from your Xbox 360 copy if you have them. 24 of its 44 commits list Claude as co-author. 1.0.0 came out on October 7 and the latest, 3.0.4, on October 16."
+requirements:
+  es: "Tu propia copia instalada de Need for Speed: Most Wanted (2005) para PC, Black Edition 1.3: la carpeta del juego con su speed.exe, que la instalación comprueba antes de compilar nada. Además, un Mac con Apple Silicon (M1 o posterior) y macOS 14.5 o posterior, las Command Line Tools de Xcode 16 o posteriores y unos 10 GB libres (unos 6 GB más con las texturas HD)."
+  en: "Your own installed copy of Need for Speed: Most Wanted (2005) for PC, Black Edition 1.3: the game folder with its speed.exe, which setup checks before building anything. Plus an Apple Silicon Mac (M1 or later) with macOS 14.5 or later, Xcode Command Line Tools 16 or later, and about 10 GB of free space (about 6 GB more with the HD textures)."
+tags:
+  - x86
+  - racing
+  - widescreen
+  - 60fps+
+  - mods
+  - hd-assets
+  - ai-assisted
+links:
+  - label: "recomp-kit (veritr1x)"
+    url: https://github.com/veritr1x/recomp-kit
+  - label:
+      es: "Proyecto de partida: nfsmw-recomp (veritr1x)"
+      en: "Starting project: nfsmw-recomp (veritr1x)"
+    url: https://github.com/veritr1x/nfsmw-recomp

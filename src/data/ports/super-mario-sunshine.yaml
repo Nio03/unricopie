@@ -7,10 +7,11 @@ author: chasem-dev
 originalDeveloper: Nintendo EAD
 year: 2002
 desc:
-  es: "Port nativo construido a partir de la decompilación de Super Mario Sunshine, que tiene su propia ficha en el catálogo. Se compila desde el código fuente y lee los modelos, las texturas, los niveles, la música y los vídeos de tu propia imagen de disco durante la ejecución. Hay versiones para Linux de 32 y 64 bits, macOS (Intel o Apple Silicon con Rosetta 2) y Windows mediante MSYS2, además de un launcher propio con botón de jugar para quien prefiera no compilar."
-  en: "Native port built from the Super Mario Sunshine decompilation, which has its own catalog entry. You build it from source, and it reads models, textures, levels, music, and movies from your own disc image at run time. There are 32- and 64-bit Linux builds, macOS (Intel, or Apple Silicon under Rosetta 2), and Windows via MSYS2, plus a dedicated launcher with a Play button for anyone who’d rather not compile."
+  es: "Port nativo construido a partir de la decompilación de Super Mario Sunshine, que tiene su propia ficha en el catálogo. Se compila desde el código fuente y lee los modelos, las texturas, los niveles, la música y los vídeos de tu propia imagen de disco durante la ejecución. Hay versiones para Linux de 32 y 64 bits, macOS (Intel o Apple Silicon con Rosetta 2) y Windows mediante MSYS2, además de un launcher propio con botón de jugar para quien prefiera no compilar. 4 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Native port built from the Super Mario Sunshine decompilation, which has its own catalog entry. You build it from source, and it reads models, textures, levels, music, and movies from your own disc image at run time. There are 32- and 64-bit Linux builds, macOS (Intel, or Apple Silicon under Rosetta 2), and Windows via MSYS2, plus a dedicated launcher with a Play button for anyone who’d rather not compile. 4 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Tu propia imagen de disco de Super Mario Sunshine (GameCube, versión estadounidense GMSE01)."
   en: "Your own Super Mario Sunshine disc image (GameCube, US version GMSE01)."
 tags:
   - powerpc
+  - ai-assisted

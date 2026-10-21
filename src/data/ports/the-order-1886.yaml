@@ -7,11 +7,12 @@ author: mateussmeneses
 originalDeveloper: Ready at Dawn
 year: 2015
 desc:
-  es: "Port para Windows del The Order: 1886 de PS4, todavía en desarrollo. Como en los de Bloodborne y God of War III, el ejecutable original corre directamente en la CPU del PC, con un entorno de ejecución propio que sustituye las bibliotecas del sistema de la PS4, y los gráficos se traducen a Vulkan con el núcleo de vídeo de shadPS4. Por ahora arranca, permite empezar una partida y reproduce el prólogo a los 30 fps del juego; el guardado, las tarjetas gráficas de AMD e Intel y otras versiones del juego aún no se han probado."
-  en: "Windows port of The Order: 1886 for PS4, still in development. As with the Bloodborne and God of War III ports, the original executable runs directly on the PC’s CPU, with a runtime of its own replacing the PS4 system libraries, and the graphics are translated to Vulkan through shadPS4’s video core. For now it boots, starts a new game, and plays the prologue at the game’s own 30 fps; saving, AMD and Intel graphics cards, and other versions of the game haven’t been tested yet."
+  es: "Port para Windows del The Order: 1886 de PS4, todavía en desarrollo. Como en los de Bloodborne y God of War III, el ejecutable original corre directamente en la CPU del PC, con un entorno de ejecución propio que sustituye las bibliotecas del sistema de la PS4, y los gráficos se traducen a Vulkan con el núcleo de vídeo de shadPS4. Por ahora arranca, permite empezar una partida y reproduce el prólogo a los 30 fps del juego; el guardado, las tarjetas gráficas de AMD e Intel y otras versiones del juego aún no se han probado. 76 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Windows port of The Order: 1886 for PS4, still in development. As with the Bloodborne and God of War III ports, the original executable runs directly on the PC’s CPU, with a runtime of its own replacing the PS4 system libraries, and the graphics are translated to Vulkan through shadPS4’s video core. For now it boots, starts a new game, and plays the prologue at the game’s own 30 fps; saving, AMD and Intel graphics cards, and other versions of the game haven’t been tested yet. 76 of its last 100 commits list Claude as a co-author."
 requirements:
   es: "Tu propio volcado de la versión de PS4 (CUSA00035, versión 01.02). Windows 10 u 11."
   en: "Your own dump of the PS4 version (CUSA00035, version 01.02). Windows 10 or 11."
 tags:
   - x86
   - vulkan
+  - ai-assisted

@@ -3,5 +3,7 @@ console: n64
 repo: MatBourgon/Gex64Decomp
 decomp: MatBourgon/Gex64Decomp
 desc:
-  es: "Decompilación en curso de Gex 64: Enter the Gecko para N64. El README no da más detalles sobre la versión ni sobre el estado."
-  en: "Work-in-progress decompilation of Gex 64: Enter the Gecko for N64. The README gives no further detail on version or status."
+  es: "Decompilación en curso de Gex 64: Enter the Gecko para N64. El README no da más detalles sobre la versión ni sobre el estado. 3 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Work-in-progress decompilation of Gex 64: Enter the Gecko for N64. The README gives no further detail on version or status. 3 of its last 100 commits list Claude as a co-author."
+tags:
+  - ai-assisted

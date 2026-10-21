@@ -6,11 +6,12 @@ author: sonsegajp
 originalDeveloper: Omega Force
 year: 2018
 desc:
-  es: "HWDER: recompilación estática de Hyrule Warriors: Definitive Edition de Switch a un ejecutable nativo de Windows. El código ARM64 del juego se traduce a C de antemano y se compila; el entorno de ejecución lee el código y los recursos directamente de tu propio volcado al arrancar, sin extraer nada al disco. Por ahora publica versiones de prueba, como la 0.1.2, que suaviza los 60 fps y corrige problemas con las tarjetas gráficas de AMD."
-  en: "HWDER: a static recompilation of Hyrule Warriors: Definitive Edition for Switch into a native Windows executable. The game’s ARM64 code is translated to C ahead of time and compiled; the runtime reads the code and assets straight out of your own dump at startup, without extracting anything to disk. For now it ships test builds, such as 0.1.2, which smooths out 60 fps and fixes issues on AMD graphics cards."
+  es: "HWDER: recompilación estática de Hyrule Warriors: Definitive Edition de Switch a un ejecutable nativo de Windows. El código ARM64 del juego se traduce a C de antemano y se compila; el entorno de ejecución lee el código y los recursos directamente de tu propio volcado al arrancar, sin extraer nada al disco. Por ahora publica versiones de prueba, como la 0.1.2, que suaviza los 60 fps y corrige problemas con las tarjetas gráficas de AMD. Sus 5 commits llevan a Claude como coautor."
+  en: "HWDER: a static recompilation of Hyrule Warriors: Definitive Edition for Switch into a native Windows executable. The game’s ARM64 code is translated to C ahead of time and compiled; the runtime reads the code and assets straight out of your own dump at startup, without extracting anything to disk. For now it ships test builds, such as 0.1.2, which smooths out 60 fps and fixes issues on AMD graphics cards. All 5 of its commits list Claude as a co-author."
 requirements:
   es: "Tu propio volcado del juego base (.nsp, título 0100AE00096EA000) y las prod.keys de tu consola. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan 1.2 y un procesador con AVX2."
   en: "Your own dump of the base game (.nsp, title 0100AE00096EA000) and your console’s prod.keys. Plus 64-bit Windows 10 or 11, a Vulkan 1.2 graphics card, and a CPU with AVX2."
 tags:
   - arm64
   - zelda
+  - ai-assisted

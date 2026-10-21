@@ -1,0 +1,19 @@
+name: "The Legend of Zelda: Skyward Sword HD"
+console: switch
+status: playable
+repo: Apolinario-coder/SkyRecomp
+originalDeveloper: Nintendo EPD / Tantalus Media
+year: 2021
+desc:
+  es: "Sky Recomp: recompilación estática del Skyward Sword HD de Switch para Windows, Linux y macOS. Las instrucciones ARM64 del juego se traducen a C y se compilan como código nativo (x86-64 con AVX2 y FMA, o ARM64 en los Mac con Apple Silicon), y los gráficos de la consola se traducen a Vulkan 1.3 en Windows y Linux y a Metal 3 con MetalFX en macOS. Buena parte de su arquitectura (el recompilador, la capa que traduce los gráficos, el entorno de ejecución y el launcher) viene de LAS Recomp, el port de Link's Awakening, adaptada a este juego. Va a 60 fps a la resolución que elijas, ultrapanorámica incluida, con escalado por FSR 1 o NVIDIA Image Scaling, mando o teclado y ratón, iconos de botones del mando que uses, un menú de ajustes dentro del juego (Esc) y un gestor de mods con LayeredFS. La 1.0.5 (20 de octubre) añadió un modo experimental a 120 fps y corrigió cuelgues con un NPC y al entrar en una cueva; su autor avisa de que aún puede haber cuelgues aleatorios."
+  en: "Sky Recomp: a static recompilation of the Switch version of Skyward Sword HD for Windows, Linux, and macOS. The game’s ARM64 instructions are translated to C and compiled as native code (x86-64 with AVX2 and FMA, or ARM64 on Apple silicon Macs), and the console’s graphics are translated to Vulkan 1.3 on Windows and Linux and to Metal 3 with MetalFX on macOS. Much of its architecture (the recompiler, the graphics translation layer, the runtime, and the launcher) comes from LAS Recomp, the Link’s Awakening port, adapted to this game. It runs at 60 fps at the resolution you choose, ultrawide included, with FSR 1 or NVIDIA Image Scaling upscaling, controller or keyboard and mouse, button icons for the controller you use, an in-game settings menu (Esc), and a mod manager with LayeredFS. Version 1.0.5 (October 20) added an experimental 120 fps mode and fixed crashes with an NPC and on entering a cave; the author notes random crashes may still happen."
+requirements:
+  es: "Tus propios archivos de Skyward Sword HD, versión 1.0.0 sin actualizaciones: la carpeta con los archivos extraídos o, según las instrucciones del repositorio, el .nsp o .xci con las claves prod.keys y title.keys de tu consola. El proyecto no explica cómo obtenerlos. Además, Windows 10 u 11 de 64 bits, Linux con glibc 2.35 o posterior o macOS 11 o posterior; un procesador con AVX2 y FMA o un Mac con Apple Silicon; una tarjeta gráfica con Vulkan 1.3 (Metal 3 en Mac); 8 GB de RAM (16 recomendados) y unos 15 GB libres."
+  en: "Your own Skyward Sword HD files, version 1.0.0 without updates: the folder of extracted files or, per the repository’s instructions, the .nsp or .xci with your console’s prod.keys and title.keys. The project doesn’t explain how to obtain them. Plus 64-bit Windows 10 or 11, Linux with glibc 2.35 or later, or macOS 11 or later; a CPU with AVX2 and FMA or an Apple silicon Mac; a Vulkan 1.3 graphics card (Metal 3 on Mac); 8 GB of RAM (16 recommended); and about 15 GB of free space."
+tags:
+  - arm64
+  - widescreen
+  - 60fps+
+  - mods
+  - vulkan
+  - zelda

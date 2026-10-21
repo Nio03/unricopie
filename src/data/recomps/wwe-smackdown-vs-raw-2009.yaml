@@ -1,0 +1,18 @@
+name: "WWE SmackDown vs. Raw 2009"
+console: x360
+status: playable
+repo: nefariousjosiah/WWE-SVR2009-RECOMP
+originalDeveloper: Yuke’s
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión de Xbox 360, hecho con ReXGlue, que traduce el ejecutable del juego a C++ y lee los datos directamente de tu imagen de disco. En lugar de emular la GPU de la consola, un renderizador adaptado del de re:Blue (Blue Dragon) dibuja las mismas escenas con Direct3D 12 o Vulkan, con los shaders convertidos de antemano. Todo va a 60 fps, también los combates y las escenas de Road to WrestleMania, con el propio modo de 60 fps del juego, que la consola bajaba a 30 en los combates; la resolución va de 480p a 8K. Los combates cargan en unos 20 segundos en lugar de casi un minuto; el texto y los menús se pueden poner en inglés, español, francés, alemán o italiano (los comentarios siguen en inglés); admite tu propia música de entrada en MP3 y los paquetes de DLC de tu consola, y se actualiza desde el propio juego. Funciona con mandos de Xbox, PlayStation, Switch Pro y el de la Steam Deck, con multijugador local, y en Linux y la Steam Deck mediante Proton (720p a 60 fps en la Deck). Su autor no cambia la plantilla ni la jugabilidad. La 1.0 salió el 19 de octubre y la 2.0, el 21 de octubre, con dos opciones de desenfoque (de bordes y de fondo) que vienen desactivadas. El ejecutable de la descarga incluye los shaders del juego convertidos para PC."
+  en: "A native Windows port of the Xbox 360 version, built with ReXGlue, which translates the game’s executable to C++ and reads its data straight from your disc image. Instead of emulating the console’s GPU, a renderer adapted from re:Blue’s (Blue Dragon) draws the same scenes through Direct3D 12 or Vulkan, with the shaders converted ahead of time. Everything runs at 60 fps, matches and Road to WrestleMania cutscenes included, using the game’s own 60 fps mode, which the console dropped to 30 for matches; resolution goes from 480p to 8K. Matches load in about 20 seconds instead of nearly a minute; text and menus can be set to English, Spanish, French, German, or Italian (commentary stays in English); it supports your own MP3 entrance music and the DLC packages from your console, and it updates from inside the game. It works with Xbox, PlayStation, Switch Pro, and Steam Deck controllers, with local multiplayer, and on Linux and the Steam Deck through Proton (720p at 60 fps on the Deck). Its author leaves the roster and gameplay unchanged. 1.0 came out on October 19 and 2.0 on October 21, with two blur options (edge and background) that are off by default. The download’s executable includes the game’s shaders, converted for PC."
+requirements:
+  es: "Tu propia imagen de disco (.iso, unos 7,3 GB) de WWE SmackDown vs. Raw 2009 para Xbox 360, versión de EE. UU. y Europa (título 54510826, medio 7AFA4596); los DLC, si los quieres, copiados de tu propia consola. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Direct3D 12 o Vulkan; en Linux y la Steam Deck, Proton Experimental."
+  en: "Your own disc image (.iso, about 7.3 GB) of WWE SmackDown vs. Raw 2009 for Xbox 360, US/Europe release (title 54510826, media 7AFA4596); DLC, if you want it, copied from your own console. Plus 64-bit Windows 10 or 11 and a Direct3D 12 or Vulkan graphics card; on Linux and the Steam Deck, Proton Experimental."
+tags:
+  - powerpc
+  - 60fps+
+  - vulkan
+  - multiplayer

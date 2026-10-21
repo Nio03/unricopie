@@ -8,7 +8,8 @@ repo: RetroPortingToolKit/recomp-ui
 authorFormerly: mstan
 status: experimental
 desc:
-  es: "Launcher e interfaz dentro del juego compartidos entre proyectos de recompilación estática. Forma parte de la comunidad R.A.I.D."
-  en: Shared launcher and in-game UI for static recompilation projects. Part of the R.A.I.D. community.
+  es: "Launcher e interfaz dentro del juego compartidos entre proyectos de recompilación estática. Forma parte de la comunidad R.A.I.D. 32 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Shared launcher and in-game UI for static recompilation projects. Part of the R.A.I.D. community. 32 of its last 100 commits list Claude as a co-author."
 tags:
   - ui
+  - ai-assisted

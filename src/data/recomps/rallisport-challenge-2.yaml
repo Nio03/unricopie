@@ -1,0 +1,19 @@
+name: RalliSport Challenge 2
+console: xbox
+status: playable
+repo: Mortify7612/RallisportChallenge2-decomp
+originalDeveloper: Digital Illusions CE
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática de la versión NTSC de Xbox (título 0x4D530039) para Linux y Windows, hecha con xboxrecomp y con trabajo propio en su entorno de ejecución: una capa para Linux, un renderizador de Vulkan para la GPU NV2A, sonido, entrada y arreglos del núcleo. Funcionan el arranque, los vídeos, los menús, los perfiles, el modo carrera, la carga de los tramos y las carreras. Dibuja hasta a 6 veces la resolución interna, con el modo panorámico 16:9 del propio juego y más de 60 fps (el juego mide el tiempo por el reloj), y añade MSAA, filtrado anisotrópico, oclusión ambiental y salida HDR. El sonido va por SDL2 con la reverberación por entorno del juego (túneles, bosque, valles, dentro del coche), aunque el DSP de audio de la Xbox no se emula. Admite teclado y mandos con vibración, y un launcher previo ajusta la resolución, el formato de imagen, la GPU, el modo de pantalla, el límite de fotogramas, el sonido y los controles, y puede añadir el juego a Steam. El código traducido del ejecutable se genera en tu equipo a partir de tu default.xbe. La versión de Windows se probó en un Windows real a partir de la 0.5.1; la última es la 0.6.0 (17 de octubre). Sus 73 commits llevan a Claude como coautor. El código fuente incluye además una función traducida del ejecutable, la de lectura del mando de la biblioteca XInput del kit de desarrollo de Xbox, que el port usa para grabar y reproducir la entrada."
+  en: "A static recompilation of the NTSC Xbox release (title 0x4D530039) for Linux and Windows, built with xboxrecomp plus its own runtime work: a Linux platform layer, a Vulkan renderer for the NV2A GPU, sound, input, and kernel fixes. Boot, intro movies, menus, profiles, career mode, stage loading, and racing work. It renders at up to 6x internal resolution, with the game’s own 16:9 widescreen mode and frame rates above 60 (the game keeps time by the clock), and adds MSAA, anisotropic filtering, ambient occlusion, and HDR output. Sound goes through SDL2 with the game’s per-environment reverb (tunnels, forest, valleys, in the car), though the Xbox audio DSP isn’t emulated. It supports keyboard and controllers with rumble, and a pre-game launcher sets resolution, aspect ratio, GPU, display mode, frame rate limit, audio, and controls, and can add the game to Steam. The code translated from the executable is generated on your machine from your default.xbe. The Windows build was tested on real Windows from 0.5.1 on; the latest release is 0.6.0 (October 17). All 73 of its commits list Claude as a co-author. The source also includes one function translated from the executable, the controller-reading function of the Xbox development kit’s XInput library, which the port uses to record and replay input."
+requirements:
+  es: "Los archivos de tu propia copia NTSC de RalliSport Challenge 2 para Xbox (la carpeta con default.xbe, Layer0, Layer1, Media, Movies…), en una carpeta game junto al programa. Además, Windows 10 u 11 de 64 bits con un controlador gráfico con Vulkan 1.3; la versión para Linux publicada pide una distribución basada en Arch al día (glibc 2.43 o posterior, SDL2, glslang 16…), y en otras distribuciones hay que compilarlo."
+  en: "The files from your own NTSC copy of RalliSport Challenge 2 for Xbox (the folder with default.xbe, Layer0, Layer1, Media, Movies…), in a game folder next to the program. Plus 64-bit Windows 10 or 11 with a Vulkan 1.3 graphics driver; the released Linux build needs an up-to-date Arch-based distribution (glibc 2.43 or later, SDL2, glslang 16…), and on other distributions you have to build it."
+tags:
+  - x86
+  - racing
+  - 60fps+
+  - vulkan
+  - ai-assisted

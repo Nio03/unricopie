@@ -6,10 +6,11 @@ originalDeveloper: Capcom
 year: 1998
 toolchain: psxrecomp
 desc:
-  es: "Street Fighter Alpha 3 recompilado con psxrecomp. Forma parte de la comunidad R.A.I.D."
-  en: "Street Fighter Alpha 3 recompiled with psxrecomp. Part of the R.A.I.D. community."
+  es: "Street Fighter Alpha 3 recompilado con psxrecomp. Forma parte de la comunidad R.A.I.D. 2 de sus 80 commits llevan a Claude como coautor."
+  en: "Street Fighter Alpha 3 recompiled with psxrecomp. Part of the R.A.I.D. community. 2 of its 80 commits list Claude as a co-author."
 requirements:
   es: "Una imagen de disco de Street Fighter Alpha 3 (PS1) y la BIOS SCPH1001.BIN."
   en: "A Street Fighter Alpha 3 disc image (PS1) and the SCPH1001.BIN BIOS."
 tags:
   - mips
+  - ai-assisted
