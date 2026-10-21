@@ -25,6 +25,8 @@ export const CONSOLES = {
   dreamcast: { label: 'Dreamcast', tag: 'DC', full: 'Sega Dreamcast / NAOMI', arch: 'SH-4', color: '#E07A3A' },
   saturn: { label: 'Saturn', tag: 'SAT', full: 'Sega Saturn', arch: 'SH-2 x2', color: '#2C7D8C' },
   megadrive: { label: 'Mega Drive / Genesis', tag: 'MD', full: 'Sega Mega Drive / Genesis', arch: '68000', color: '#E64980' },
+  // Unidad de CD de la Mega Drive, con su propio 68000: Mega-CD en Europa y Japón, Sega CD en América.
+  megacd: { label: 'Mega-CD / Sega CD', tag: 'MCD', full: 'Sega Mega-CD / Sega CD', arch: '68000 x2', color: '#BE185D' },
   // Accesorio de la Mega Drive con dos SH-2: Sega 32X en América y Europa, Super 32X en Japón.
   '32x': { label: '32X / Super 32X', tag: '32X', full: 'Sega 32X / Super 32X', arch: '68000 + SH-2 x2', color: '#C2410C' },
   gb: { label: 'Game Boy', tag: 'GB', full: 'Game Boy', arch: 'Sharp SM83', color: '#8A9A3B' },
