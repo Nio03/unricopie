@@ -1,0 +1,19 @@
+name: "Super Mario 64 DS (mstan)"
+console: nds
+status: experimental
+repo: mstan/supermario64dsrecomp
+originalDeveloper: Nintendo EAD
+year: 2004
+toolchain: ndsrecomp
+desc:
+  es: "Recompilación estática temprana de Super Mario 64 DS (versión europea) con ndsrecomp: compila el código del ARM9 y del ARM7 y arranca por la ruta real de BIOS, firmware y cartucho. Toma los nombres, tamaños y límites de las funciones de la decompilación de tangosdev, sin compilar su C. Es una versión preliminar: llega a la partida en los jardines del castillo con Mario controlable, pero va lento en las zonas que tiran del intérprete, hay partes sin probar y, en panorámico, algunos ángulos de cámara dejan huecos negros o estiran el cielo. La pantalla superior se puede ensanchar a 21:9, con la táctil en su propia ventana. La 0.0.3 (15 de agosto) es para Windows y funciona sin la BIOS ni el firmware de la DS, con FreeBIOS como sustituto; en Linux hay que compilarlo. 8 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An early static recompilation of Super Mario 64 DS (European version) with ndsrecomp: it compiles the ARM9 and ARM7 code and boots through the real BIOS, firmware, and cartridge path. It takes function names, sizes, and boundaries from tangosdev’s decompilation, without compiling its C. It’s a preview: it reaches controllable castle-grounds gameplay, but it runs slowly in areas that fall back to the interpreter, parts are untested, and in widescreen some camera angles show black voids or stretched sky. The top screen can be widened to 21:9, with the touchscreen in its own window. 0.0.3 (August 15) is for Windows and runs without the DS BIOS or firmware, using FreeBIOS instead; on Linux you build it yourself. 8 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM europea de Super Mario 64 DS, revisión 0 (ASMP, SHA-1 1367529f2cb23e76ef295cb1727333ae8f0a6cd7). La BIOS y el firmware de la DS son opcionales en Windows. Windows de 64 bits; en Linux hay que compilarlo y aportar tus volcados de la BIOS y el firmware."
+  en: "Your own European Super Mario 64 DS ROM, revision 0 (ASMP, SHA-1 1367529f2cb23e76ef295cb1727333ae8f0a6cd7). The DS BIOS and firmware are optional on Windows. 64-bit Windows; on Linux you build it yourself and supply your own BIOS and firmware dumps."
+tags:
+  - arm9
+  - arm7
+  - mario
+  - widescreen
+  - ai-assisted

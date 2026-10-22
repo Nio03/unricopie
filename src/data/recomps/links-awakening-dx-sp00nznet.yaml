@@ -1,0 +1,22 @@
+name: "The Legend of Zelda: Link's Awakening DX (sp00nznet)"
+console: gbc
+status: playable
+repo: sp00nznet/LinksAwakening
+originalDeveloper: Nintendo EAD
+year: 1998
+toolchain: gb-recompiled
+desc:
+  es: "Recompilación estática de Link's Awakening DX de Game Boy Color a un programa nativo de Windows, hecha con gb-recompiled (con los cambios del fork del autor): el código de la ROM se traduce a C, con un pequeño intérprete para los pocos saltos que el recompilador no resuelve de antemano. Funcionan la CPU y los bancos de memoria, los gráficos con sus paletas de color, el sonido, la partida guardada en la batería y los estados guardados, y el teclado y el mando, con controles reasignables. Según su README, se juega desde el arranque hasta las mazmorras; es solo para un jugador, y el modo cooperativo para cuatro está en otro repositorio, la-mp. La 0.1.0 salió el 21 de octubre con un instalador para Windows que descarga el código, instala MSYS2 si falta y compila el juego a partir de tu ROM (de 5 a 15 minutos la primera vez). Es un proyecto distinto de LADXHD, el remake del mismo juego que ya está en el catálogo. Sus 17 commits llevan a Claude como coautor."
+  en: "A static recompilation of Link’s Awakening DX for Game Boy Color into a native Windows program, built with gb-recompiled (with the author’s fork’s changes): the ROM’s code is translated to C, with a small interpreter for the few jumps the recompiler can’t resolve ahead of time. The CPU and memory banking, the graphics with their color palettes, sound, battery saves and save states, and keyboard and controller with rebindable controls all work. According to its README, it plays from boot through the dungeons; it’s single-player only, and the four-player co-op mode lives in a separate repository, la-mp. 0.1.0 came out on October 21 with a Windows installer that downloads the source, installs MSYS2 if it’s missing, and builds the game from your ROM (5 to 15 minutes the first time). It’s a different project from LADXHD, the remake of the same game already in the catalog. All 17 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Link's Awakening DX, la revisión 2 de Estados Unidos y Europa («Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2)», SHA-1 1c091225688d966928cc74336dbef2e07d12a47c), en .gbc o dentro de un .zip; las demás revisiones no están probadas. Además, Windows 10 u 11."
+  en: "Your own Link’s Awakening DX ROM, the US and European revision 2 (“Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2),” SHA-1 1c091225688d966928cc74336dbef2e07d12a47c), as a .gbc or inside a .zip; other revisions are untested. Plus Windows 10 or 11."
+tags:
+  - sm83
+  - zelda
+  - ai-assisted
+links:
+  - label:
+      es: "Modo cooperativo (la-mp)"
+      en: "Co-op mode (la-mp)"
+    url: https://github.com/sp00nznet/la-mp

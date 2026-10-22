@@ -1,0 +1,22 @@
+name: "Command & Conquer: Red Alert 2 / Yuri's Revenge"
+console: pc
+status: playable
+repo: sp00nznet/redalert2-recomp
+originalDeveloper: Westwood Pacific
+year: 2000
+toolchain: pcrecomp
+desc:
+  es: "Recompilación estática de Command & Conquer: Red Alert 2 y de su expansión Yuri's Revenge, hecha con pcrecomp, el kit del mismo autor para juegos de Windows: el código x86 de sus ejecutables (game.exe 1.006 y gamemd.exe 1.001) se traduce a C y se compila en tu equipo, y cada juego sale como su propio programa. Es el código de Westwood recompilado, no una reimplementación como OpenRA. Añade una ventana propia con Direct3D 11, redimensionable o a pantalla completa sin bordes, con escalado nítido, suave, CRT, al vecino más próximo o por múltiplos enteros; un menú de ajustes con F10; resoluciones de 1280×720 a 3840×2160, panorámicas y ultrapanorámicas, que muestran más campo de batalla; las unidades, sus sombras y los aviones dibujados al doble de resolución a partir de los propios modelos de vóxeles del juego; controles modernos opcionales (clic izquierdo para seleccionar y derecho para dar órdenes); mods en carpetas que se superponen a los archivos del juego sin cambiarlos, y el multijugador en red local tal como venía. Hay versiones nativas para Windows, Linux (un programa de 32 bits, sin Wine) y macOS con Apple Silicon. Los dos juegos pasan sus 30 pruebas automatizadas, que recorren los menús, escaramuzas hasta la pantalla de puntuación y el comienzo de las dos campañas, de 720p a 4K. La 0.1.0-alpha.1 salió el 19 de octubre con un instalador que encuentra el juego, instala las herramientas y lo compila (de 30 a 60 minutos la primera vez), y la última, la 0.1.0-alpha.4, el 22 de octubre. 71 de sus 72 commits llevan a Claude como coautor."
+  en: "A static recompilation of Command & Conquer: Red Alert 2 and its expansion Yuri’s Revenge, built with pcrecomp, the same author’s toolkit for Windows games: the x86 code of their executables (game.exe 1.006 and gamemd.exe 1.001) is translated to C and compiled on your machine, and each game comes out as its own program. It’s Westwood’s own code recompiled, not a reimplementation like OpenRA. It adds its own Direct3D 11 window, resizable or borderless fullscreen, with sharp, smooth, CRT, nearest-neighbor, or integer scaling; an F10 settings menu; resolutions from 1280×720 to 3840×2160, widescreen and ultrawide, showing more of the battlefield; units, their shadows, and aircraft drawn at twice the resolution from the game’s own voxel models; optional modern controls (left-click to select, right-click to give orders); mods as folders laid over the game’s files without changing them; and LAN multiplayer as shipped. There are native builds for Windows, Linux (a 32-bit program, no Wine), and Apple silicon macOS. Both games pass their 30 automated tests, which cover the menus, skirmishes through to the score screen, and the start of both campaigns, from 720p to 4K. 0.1.0-alpha.1 came out on October 19 with an installer that finds the game, installs the tools, and builds it (30 to 60 minutes the first time), and the latest, 0.1.0-alpha.4, on October 22. 71 of its 72 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Command & Conquer: Red Alert 2 and Yuri's Revenge de Steam o de la EA App (Origin): la carpeta con game.exe y gamemd.exe. El proyecto no incluye ni descarga nada del juego. Además, unos 6 GB libres; en Windows, Windows 10 u 11 y Visual Studio con las herramientas de C++ (el instalador instala las Build Tools si faltan); en Linux, gcc de 32 bits con SDL2 y FFmpeg de 32 bits, y en macOS, un Mac con Apple Silicon."
+  en: "Your own Steam or EA App (Origin) copy of Command & Conquer: Red Alert 2 and Yuri’s Revenge: the folder with game.exe and gamemd.exe. The project includes and downloads nothing from the game. Plus about 6 GB of free space; on Windows, Windows 10 or 11 and Visual Studio with the C++ tools (the installer installs the Build Tools if they’re missing); on Linux, 32-bit gcc with 32-bit SDL2 and FFmpeg; and on macOS, an Apple silicon Mac."
+tags:
+  - x86
+  - widescreen
+  - mods
+  - multiplayer
+  - ai-assisted
+links:
+  - label: pcrecomp
+    url: https://github.com/sp00nznet/pcrecomp

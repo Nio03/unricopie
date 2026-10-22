@@ -1,0 +1,17 @@
+name: "Super Mario Advance 4: Super Mario Bros. 3"
+console: gba
+status: experimental
+repo: mstan/SuperMarioAdvance4Recomp
+originalDeveloper: Nintendo R&D2
+year: 2003
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de Super Mario Advance 4: Super Mario Bros. 3 para Windows con gbarecomp: el código original de la Game Boy Advance funciona como una aplicación nativa. Arranca, llega a la pantalla de título y permite jugar a Super Mario Bros. 3, pero su autor lo presenta como una versión experimental, con fallos propios del juego aún por descubrir. Tiene un launcher para elegir la ROM y la BIOS y ajustar imagen, sonido y controles, mando, pantalla completa, un menú de opciones dentro del juego y estados guardados. La 0.0.3, del 18 de octubre, actualizó el motor y el launcher. 2 de sus 14 commits llevan a Claude como coautor."
+  en: "Static recompilation of Super Mario Advance 4: Super Mario Bros. 3 for Windows with gbarecomp: the original Game Boy Advance code runs as a native application. It boots, reaches the title screen, and lets you play Super Mario Bros. 3, but its author presents it as an experimental release, with game-specific bugs still to be found. It has a launcher to pick the ROM and BIOS and set up video, audio, and controls, controller support, fullscreen, an in-game settings menu, and save states. Version 0.0.3 (October 18) updated the engine and launcher. 2 of its 14 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Super Mario Advance 4 para Estados Unidos y Australia, revisión 1 (SHA-1 532f3307021637474b6dd37da059ca360f612337), y un volcado de la BIOS de tu Game Boy Advance. Además, Windows de 64 bits."
+  en: "Your own US/Australia revision 1 Super Mario Advance 4 ROM (SHA-1 532f3307021637474b6dd37da059ca360f612337) and a dump of your Game Boy Advance BIOS. Plus 64-bit Windows."
+tags:
+  - arm7
+  - mario
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: "Dragon Ball Z: The Legacy of Goku II"
+console: gba
+status: experimental
+repo: mstan/DragonBallZLegacyofGokuIIRecomp
+originalDeveloper: Webfoot Technologies
+year: 2003
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de Dragon Ball Z: The Legacy of Goku II para Windows con gbarecomp. La versión estadounidense arranca, pasa la demostración inicial y llega a la partida, y sus pruebas cubren la demostración, el juego y un recorrido automático de 6000 fotogramas en código nativo, sin pasar por el intérprete; aun así, su autor la presenta como una versión experimental que no se ha probado de principio a fin. Tiene un launcher para elegir la ROM y la BIOS y ajustar imagen, sonido, controles y mods, escalado nítido o filtrado opcional, un menú de opciones dentro del juego y estados guardados. Incluye un mod opcional de pantalla panorámica adaptable que, al ensanchar la ventana, amplía el mapa y el HUD hasta 480×160 sin estirar la imagen ni mover la cámara. La 0.0.3, del 18 de octubre, actualizó el motor y el launcher. 4 de sus 12 commits llevan a Claude como coautor."
+  en: "Static recompilation of Dragon Ball Z: The Legacy of Goku II for Windows with gbarecomp. The US release boots, goes through the attract sequence, and gets into gameplay, and its tests cover attract mode, gameplay, and a 6,000-frame automated traversal route in native code without falling back to the interpreter; even so, its author presents it as an experimental release that hasn’t been tested from start to finish. It has a launcher to pick the ROM and BIOS and set up video, audio, controls, and mods, sharp scaling or optional filtering, an in-game settings menu, and save states. It includes an optional adaptive widescreen mod that, as the window widens, expands the overworld and HUD up to 480×160 without stretching the image or moving the camera. Version 0.0.3 (October 18) updated the engine and launcher. 4 of its 12 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense (revisión 0) de Dragon Ball Z: The Legacy of Goku II (SHA-1 18e0715dec419f3501c301511530d2edcd590f8b) y un volcado de la BIOS de tu Game Boy Advance (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492). Además, Windows de 64 bits."
+  en: "Your own US (revision 0) Dragon Ball Z: The Legacy of Goku II ROM (SHA-1 18e0715dec419f3501c301511530d2edcd590f8b) and a dump of your Game Boy Advance BIOS (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492). Plus 64-bit Windows."
+tags:
+  - arm7
+  - widescreen
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: Vigilante 8 Arcade
+console: x360
+status: playable
+repo: sp00nznet/vig8
+originalDeveloper: Isopod Labs
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática a Windows del juego de Xbox Live Arcade, que nunca salió en PC: el código PowerPC del ejecutable se traduce a C++ con el SDK de ReXGlue (a través de un fork del autor con algunos arreglos) y se compila en tu equipo. Funciona el modo para un jugador: el arranque, los menús, el modo Quest y los combates completos, con gráficos, sonido y mando correctos; el teclado hace de mando 1. Funciona como la versión completa, no como la de prueba, y una opción desbloquea todos los vehículos. La pantalla dividida para hasta cuatro jugadores funcionaba en la versión anterior, sobre ReXGlue 0.1, pero no se ha vuelto a probar, y el juego en red local o por internet a través de xlive, un servidor de enlace del mismo autor, está escrito pero sin probar en esta versión. Los ajustes están en el menú F4 del SDK, y en el equipo de pruebas la ventana tarda unos 90 segundos en aparecer. La 0.1.0 salió el 21 de octubre con un instalador que descomprime tu paquete, instala las herramientas y compila el juego (de 20 a 40 minutos la primera vez). Sus 27 commits llevan a Claude como coautor."
+  en: "A static recompilation to Windows of the Xbox Live Arcade game, which never had a PC release: the executable’s PowerPC code is translated to C++ with the ReXGlue SDK (through the author’s fork with a few fixes) and compiled on your machine. Single-player works: boot, menus, Quest mode, and full battles, with correct graphics, audio, and controller input; the keyboard acts as controller 1. It runs as the full version rather than the trial, and an option unlocks every vehicle. Split-screen for up to four players worked in the previous version, on ReXGlue 0.1, but hasn’t been retested, and LAN or internet play through xlive, a relay server by the same author, is written but untested in this version. Settings are in the SDK’s F4 menu, and on the test machine the window takes about 90 seconds to appear. 0.1.0 came out on October 21 with an installer that unpacks your package, installs the tools, and builds the game (20 to 40 minutes the first time). All 27 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Vigilante 8 Arcade (ID de título 584108A8): el paquete de XBLA copiado del disco duro o de una memoria USB de una Xbox 360, o una carpeta ya extraída con default.xex. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y unos 10 GB libres; el instalador instala Git, CMake, Ninja, LLVM, Python y las Build Tools de Visual Studio si faltan."
+  en: "Your own copy of Vigilante 8 Arcade (title ID 584108A8): the XBLA package copied off an Xbox 360 hard drive or USB stick, or an already extracted folder with default.xex. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, and about 10 GB of free space; the installer installs Git, CMake, Ninja, LLVM, Python, and the Visual Studio Build Tools if they’re missing."
+tags:
+  - powerpc
+  - multiplayer
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: Rocket Knight Adventures
+console: megadrive
+status: playable
+repo: mstan/RocketKnightAdventuresRecomp
+originalDeveloper: Konami
+year: 1993
+toolchain: segagenesisrecomp
+desc:
+  es: "Recompilación estática de Rocket Knight Adventures de Mega Drive con segagenesisrecomp: el código del 68000 se traduce a C, y lo que aún no cubre corre en el intérprete del motor. Un renderizador propio reconstruye el decorado más ancho a partir de los mapas de los niveles, con pantalla panorámica ajustada a la ventana o fija a 16:9, 21:9 y 32:9 en las siete fases, y una opción para que los enemigos aparezcan antes o con su ritmo original. Tiene rebobinado, nueve ranuras de guardado con vista previa, controles reasignables y mods de trucos (fase inicial, vidas o salud infinitas, invencibilidad). Su autor lo considera una versión temprana: se ha probado en las 54 zonas de las siete fases, y quedan fallos visuales en los márgenes de algunas escenas y jefes. La 0.1.14 (18 de octubre) es solo para Windows; la 0.1.13 (5 de octubre) también salió para Linux. 15 de sus 56 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Mega Drive Rocket Knight Adventures with segagenesisrecomp: the 68000 code is translated to C, and whatever isn’t covered yet runs on the engine’s interpreter. A custom renderer rebuilds the wider scenery from the level layouts, with fit-to-window or fixed 16:9, 21:9, and 32:9 widescreen across all seven stages, and an option for enemies to activate earlier or on their original timing. It has rewind, nine save-state slots with previews, remappable controls, and cheat mods (start stage, infinite lives or health, invincibility). Its author calls it an early release: it has been tested across all 54 areas of the seven stages, and some visual glitches remain in the margins of a few scenes and bosses. 0.1.14 (October 18) is Windows-only; 0.1.13 (October 5) also shipped for Linux. 15 of its 56 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Rocket Knight Adventures (Mega Drive), sin modificar: 1.048.576 bytes, CRC32 A6EFEC47. Windows de 64 bits con OpenGL, o Linux con glibc 2.39 (Ubuntu 24.04 o compatible) con la versión 0.1.13."
+  en: "Your own unmodified US Rocket Knight Adventures ROM (Mega Drive): 1,048,576 bytes, CRC32 A6EFEC47. 64-bit Windows with OpenGL, or Linux with glibc 2.39 (Ubuntu 24.04 or compatible) with version 0.1.13."
+tags:
+  - "68000"
+  - widescreen
+  - mods
+  - ai-assisted

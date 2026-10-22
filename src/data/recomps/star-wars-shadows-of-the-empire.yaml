@@ -1,0 +1,20 @@
+name: "Star Wars: Shadows of the Empire"
+console: pc
+status: experimental
+repo: sp00nznet/shadows-recomp
+originalDeveloper: LucasArts
+year: 1997
+toolchain: pcrecomp
+desc:
+  es: "Recompilación estática de la versión de PC de 1997, hecha con pcrecomp, el kit del mismo autor para juegos de Windows: la instalación quita en tu equipo la protección SteamStub del ejecutable de Steam, traduce su código x86 a C (2806 funciones, sin errores) y lo compila. Es el código de LucasArts recompilado, no un remake. Arranca, muestra los menús, las cinemáticas y el 3D, y se juega el primer nivel, la batalla de Hoth; desde el menú F10 también cargan y corren Echo Base, Mos Eisley, Gall Spaceport y las cloacas, pero los demás niveles no se han jugado enteros, y la música y el sonido están sin probar. Añade controles nuevos (mandos XInput con un stick analógico lineal, un ratón que dirige y apunta según cuánto se mueve y cada acción en un botón con sentido), un menú F10 con salto a cualquier nivel, trucos (invencibilidad, vidas infinitas, todas las armas y el menú de depuración oculto del juego), campo de visión, filtrado anisótropo, sincronización vertical y resoluciones hasta 4K, y panorámica que amplía la vista en lugar de estirarla, con las cinemáticas centradas. Según su hoja de ruta, todo se ha comprobado en ejecuciones sin ventana con entradas programadas, y aún no se ha jugado en una pantalla con mando y ratón reales. La 0.1.0-alpha.1 salió el 19 de octubre con un instalador para Windows que encuentra el juego en Steam y lo compila. Sus 13 commits llevan a Claude como coautor."
+  en: "A static recompilation of the 1997 PC version, built with pcrecomp, the same author’s toolkit for Windows games: setup strips the SteamStub protection from the Steam executable on your machine, translates its x86 code to C (2,806 functions, no errors), and compiles it. It’s LucasArts’ own code recompiled, not a remake. It boots, shows the menus, cinematics, and 3D, and the first level, the Battle of Hoth, plays; from the F10 menu Echo Base, Mos Eisley, Gall Spaceport, and the Sewers also load and run, but the other levels haven’t been played through, and music and sound are untested. It adds new controls (XInput gamepads with a linear analog stick, a mouse that steers and aims by how far it moves, and every action on a sensible button), an F10 menu with a jump to any level, cheats (invincibility, infinite lives, all weapons, and the game’s hidden debug menu), field of view, anisotropic filtering, vsync, and resolutions up to 4K, and widescreen that widens the view instead of stretching it, with centered cutscenes. According to its roadmap, everything has been checked in headless runs with scripted input, and it hasn’t yet been played on a screen with a real controller and mouse. 0.1.0-alpha.1 came out on October 19 with a Windows installer that finds the game in Steam and builds it. All 13 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Steam de Star Wars: Shadows of the Empire, instalada (aplicación 560170). Además, Windows 10 u 11 y unos 2 GB libres; la instalación instala Python, CMake, Ninja y las herramientas de C++ de Visual Studio si faltan, y la compilación tarda de 15 a 45 minutos la primera vez."
+  en: "Your own installed Steam copy of Star Wars: Shadows of the Empire (app 560170). Plus Windows 10 or 11 and about 2 GB of free space; setup installs Python, CMake, Ninja, and the Visual Studio C++ tools if they’re missing, and the first build takes 15 to 45 minutes."
+tags:
+  - x86
+  - widescreen
+  - ai-assisted
+links:
+  - label: pcrecomp
+    url: https://github.com/sp00nznet/pcrecomp

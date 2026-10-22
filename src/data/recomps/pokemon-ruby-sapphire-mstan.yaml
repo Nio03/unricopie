@@ -1,0 +1,17 @@
+name: "Pokémon Ruby / Sapphire (mstan)"
+console: gba
+status: playable
+repo: mstan/RubySapphireRecomp
+originalDeveloper: Game Freak
+year: 2002
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de Pokémon Rubí y Zafiro para Windows con gbarecomp, con un ejecutable y una descarga para cada juego. El código ARM7TDMI de la ROM se traduce a C, y la BIOS real de la consola también se recompila y se ejecuta. Los dos juegos arrancan y llegan a la partida, pero su autor lo presenta como una versión preliminar y temprana, y avisa de que, al ser el motor más antiguo de la tercera generación, cabe esperar algo más de fallos al arrancar y con el guardado y el reloj que en sus recomps de Rojo Fuego y Esmeralda. El código que el recompilador no cubrió pasa la primera vez por un intérprete, se compila a nativo sobre la marcha y queda guardado en disco para los siguientes arranques. De la decompilación pret/pokeruby solo toma nombres y direcciones de funciones, no su código. Tiene un launcher previo para elegir la ROM y la BIOS y ajustar imagen, sonido y controles, estados guardados y un mod opcional, Absolute RTC, que hace que el reloj del juego siga la hora del equipo. La 0.0.5, del 18 de octubre, actualizó el motor y el launcher. 15 de sus 28 commits llevan a Claude como coautor."
+  en: "Static recompilation of Pokémon Ruby and Sapphire for Windows with gbarecomp, with a separate executable and download for each game. The ROM’s ARM7TDMI code is translated to C, and the console’s real BIOS is recompiled and run too. Both games boot and get into gameplay, but its author presents it as an early preview and warns that, as the oldest Generation III engine, it should have a few more boot, save, and clock quirks than their FireRed and Emerald recomps. Code the recompiler didn’t cover runs through an interpreter the first time, is compiled to native code on the fly, and is saved to disk for later launches. From the pret/pokeruby decompilation it only takes function names and addresses, not its code. It has a pre-boot launcher to pick the ROM and BIOS and set up video, audio, and controls, save states, and an optional Absolute RTC mod that makes the in-game clock follow your computer’s time. Version 0.0.5 (October 18) updated the engine and launcher. 15 of its 28 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense (revisión 1) de Pokémon Ruby (SHA-1 610b96a9c9a7d03d2bafb655e7560ccff1a6d894) o de Sapphire (SHA-1 4722efb8cd45772ca32555b98fd3b9719f8e60a9), según el juego, y un volcado de la BIOS de tu Game Boy Advance. Además, Windows de 64 bits."
+  en: "Your own US (revision 1) Pokémon Ruby (SHA-1 610b96a9c9a7d03d2bafb655e7560ccff1a6d894) or Sapphire (SHA-1 4722efb8cd45772ca32555b98fd3b9719f8e60a9) ROM, depending on the game, and a dump of your Game Boy Advance BIOS. Plus 64-bit Windows."
+tags:
+  - arm7
+  - pokemon
+  - ai-assisted

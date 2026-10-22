@@ -1,0 +1,19 @@
+name: "Star Fox (mstan)"
+console: snes
+status: experimental
+repo: mstan/StarFoxSNESRecomp
+originalDeveloper: Nintendo EAD / Argonaut Software
+year: 1993
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática de Star Fox (versión estadounidense 1.2) con snesrecomp, con el chip Super FX emulado a bajo nivel. Su autor lo presenta como una referencia de desarrollo y no como una versión para el público, y remite a quien quiera jugar a Star Fox Enhanced, de kandowontu. Arranca y ha pasado pruebas básicas de la demo, los menús, la elección de ruta, el entrenamiento y la partida; faltan sesiones largas, más rutas y los efectos completos. Como mods opcionales tiene la pantalla panorámica del renderizador nativo adaptado de Star Fox Enhanced (16:10, 16:9, 21:9 o 32:9) y la Arwing de Star Fox 64, con modelo y sonidos que se extraen de tu propia ROM de ese juego; además permite presentar de 20 a 480 fps sin cambiar el ritmo del juego, cambiar el color de la mira y activar un modo dios. Tiene estados guardados con miniaturas y rebobinado. La última versión, la 0.3.2 (18 de octubre), es solo para Windows; la 0.3.0 también salió para Linux. 18 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of Star Fox (US version 1.2) with snesrecomp, with the Super FX chip emulated at a low level. Its author presents it as a development reference rather than a release for players, and points anyone who wants to play to kandowontu’s Star Fox Enhanced. It boots and has passed basic testing of the attract sequence, menus, route selection, training, and gameplay; longer sessions, more routes, and full effects coverage are still missing. As optional mods it has widescreen through the native renderer adapted from Star Fox Enhanced (16:10, 16:9, 21:9, or 32:9) and the Star Fox 64 Arwing, with its model and sounds extracted from your own ROM of that game; it also lets you present at 20 to 480 fps without changing game timing, change the crosshair color, and enable a god mode. It has save states with thumbnails and rewind. The latest release, 0.3.2 (October 18), is Windows-only; 0.3.0 also shipped for Linux. 18 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Star Fox (SNES, versión estadounidense 1.2, sin cabecera, CRC32 8FC4E6D0). Para la Arwing de Star Fox 64, además tu ROM estadounidense 1.1 de Star Fox 64. Windows de 64 bits."
+  en: "Your own Star Fox ROM (SNES, US version 1.2, unheadered, CRC32 8FC4E6D0). For the Star Fox 64 Arwing, also your US 1.1 Star Fox 64 ROM. 64-bit Windows."
+tags:
+  - "65816"
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

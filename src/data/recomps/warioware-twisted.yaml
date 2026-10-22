@@ -1,0 +1,16 @@
+name: "WarioWare: Twisted!"
+console: gba
+status: experimental
+repo: mstan/WarioWareTwistedRecomp
+originalDeveloper: Nintendo SPD / Intelligent Systems
+year: 2004
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de WarioWare: Twisted! para Windows y Android con gbarecomp, que convierte en controles nativos el giroscopio que traía el cartucho. El juego arranca y funciona con sus menús, microjuegos, partidas guardadas y fases de giro; en escritorio se probaron sus 223 microjuegos, unos diez segundos cada uno, sin pasar por el intérprete. En Windows, el giro sale del sensor de movimiento de un mando compatible, como el DualSense, o, si no hay, de arrastrar el ratón en horizontal; en Android, del giroscopio del propio teléfono, con controles táctiles. Tiene un launcher para elegir la ROM y la BIOS y ajustar los controles y la sensibilidad del giro, pantalla completa y estados guardados. Su autor lo presenta como una versión experimental. La 0.0.2 para Windows y la 0.0.5 para Android salieron el 18 de octubre y pasaron a usar por defecto la BIOS real recompilada. 10 de sus 40 commits llevan a Claude como coautor."
+  en: "Static recompilation of WarioWare: Twisted! for Windows and Android with gbarecomp, turning the cartridge’s built-in gyroscope into native controls. The game boots and runs with its menus, microgames, saves, and gyro stages; on desktop, all 223 of its microgames were tested, about ten seconds each, without falling back to the interpreter. On Windows, tilt comes from a compatible controller’s motion sensor, such as a DualSense, or, failing that, from dragging the mouse horizontally; on Android, from the phone’s own gyroscope, with touch controls. It has a launcher to pick the ROM and BIOS and set up controls and gyro sensitivity, fullscreen, and save states. Its author presents it as an experimental release. Windows 0.0.2 and Android 0.0.5 came out on October 18 and switched to the real recompiled BIOS by default. 10 of its 40 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de WarioWare: Twisted! (SHA-1 f0102d0d6f7596fe853d5d0a94682718278e083a) y un volcado de la BIOS de tu Game Boy Advance (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492). Además, Windows de 64 bits o Android 9 o posterior en ARM64; para el giro en Windows, un mando con sensor de movimiento o el ratón."
+  en: "Your own US WarioWare: Twisted! ROM (SHA-1 f0102d0d6f7596fe853d5d0a94682718278e083a) and a dump of your Game Boy Advance BIOS (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492). Plus 64-bit Windows or Android 9 or later on ARM64; for tilt on Windows, a controller with a motion sensor, or the mouse."
+tags:
+  - arm7
+  - ai-assisted

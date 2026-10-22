@@ -1,0 +1,17 @@
+name: "Pokémon Red / Blue (mstan)"
+console: gb
+status: playable
+repo: mstan/PokemonRedAndBlueRecomp
+originalDeveloper: Game Freak
+year: 1996
+toolchain: gb-recompiled
+desc:
+  es: "Recompilación estática de Pokémon Rojo y Azul para Windows con la versión de gb-recompiled del propio autor, derivada de la de arcanite24: el código SM83 de la Game Boy se traduce a C y se compila a nativo, y la biblioteca de ejecución se encarga del vídeo, el sonido y el mapper. Un mismo ejecutable acepta las dos ROM, y los gráficos, los mapas y los textos se leen de la tuya al arrancar. Usa el desensamblado pret/pokered como referencia para los puntos de entrada y los símbolos. Su autor lo presenta como un prototipo temprano, jugable desde la pantalla de título hasta el Alto Mando; algunas animaciones pueden ir a tirones, el sonido puede cortarse un instante en escenas cargadas y no hay cable link, y el código que el análisis no encontró pasa por un intérprete más lento. La última versión, la 0.1.1, es del 7 de mayo. 28 de sus 31 commits llevan a Claude como coautor."
+  en: "A static recompilation of Pokémon Red and Blue for Windows with the author’s own version of gb-recompiled, derived from arcanite24’s: the Game Boy’s SM83 code is translated to C and compiled to native code, and the runtime library handles video, sound, and the mapper. One executable accepts both ROMs, and graphics, maps, and text are read from yours at launch. It uses the pret/pokered disassembly as a reference for entry points and symbols. Its author presents it as an early prototype, playable from the title screen through the Elite Four; some animations may stutter, sound may cut out briefly in busy scenes, and there’s no link cable support, while code the analysis didn’t find goes through a slower interpreter. The latest version, 0.1.1, is from May 7. 28 of its 31 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Pokémon Rojo (CRC32 9F7FDD53) o Azul (CRC32 D6DA8A1A), versión estadounidense y europea (UE). Además, Windows 10 u 11 de 64 bits."
+  en: "Your own Pokémon Red (CRC32 9F7FDD53) or Blue (CRC32 D6DA8A1A) ROM, US/European (UE) release. Plus 64-bit Windows 10 or 11."
+tags:
+  - sm83
+  - pokemon
+  - ai-assisted

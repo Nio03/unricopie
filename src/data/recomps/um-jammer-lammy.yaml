@@ -1,0 +1,17 @@
+name: Um Jammer Lammy
+console: ps1
+status: playable
+repo: mstan/UmJammerLammyRecomp
+originalDeveloper: NanaOn-Sha
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Um Jammer Lammy (versión estadounidense, SCUS-94448) con psxrecomp. Su pieza principal es el mod «Rhythm Timing Assist»: amplía por separado la tolerancia para pulsar antes o después, hasta 60 ms por lado, y compensa el retraso de la pantalla, el mando o el audio, sin tocar el reloj de la música ni las reglas de puntuación. Renderiza por defecto a 1080p, con pantalla panorámica adaptable o fija a 16:9 o 21:9 (los vídeos y los menús en 2D conservan su proporción), y tiene una carga rápida que prepara una caché a partir de tu disco: la carga de recursos de un menú bajó de unos 4,2 segundos a 0,2. Es una primera versión preliminar: la partida con mando se ha probado en Windows, pero no se han comprobado de forma sistemática todas las fases, los duetos ni el modo PaRappa. La 0.1.0 (8 de octubre) salió para Windows y Linux."
+  en: "A static recompilation of Um Jammer Lammy (US version, SCUS-94448) with psxrecomp. Its centerpiece is the “Rhythm Timing Assist” mod: it widens the early and late timing windows separately, up to 60 ms each, and compensates for display, controller, or audio delay, without touching the music clock or the scoring rules. It renders at 1080p by default, with adaptive or fixed 16:9 or 21:9 widescreen (movies and 2D menus keep their proportions), and it has fast loading that builds a cache from your disc: one menu’s resource load dropped from about 4.2 seconds to 0.2. It’s an initial preview: controller gameplay has been tested on Windows, but not every stage, the duets, or PaRappa mode have been checked systematically. 0.1.0 (October 8) shipped for Windows and Linux."
+requirements:
+  es: "Tu propia imagen de Um Jammer Lammy (PS1, versión estadounidense, SCUS-94448) en .cue y .bin, de una sola pista MODE2/2352 (SHA-1 86fc942a25063c56bb21a20db14961b9f0ac0039); una ISO de 2048 bytes por sector no sirve. La BIOS de la consola es opcional. Windows de 64 bits o Linux (Ubuntu 24.04 o compatible)."
+  en: "Your own Um Jammer Lammy disc image (PS1, US version, SCUS-94448) as .cue and .bin, a single MODE2/2352 track (SHA-1 86fc942a25063c56bb21a20db14961b9f0ac0039); a 2048-byte-per-sector ISO won’t work. A console BIOS is optional. 64-bit Windows or Linux (Ubuntu 24.04 or compatible)."
+tags:
+  - mips
+  - widescreen
+  - mods

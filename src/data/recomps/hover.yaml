@@ -1,0 +1,21 @@
+name: "Hover!"
+console: pc
+status: experimental
+repo: sp00nznet/hover
+originalDeveloper: Microsoft
+year: 1995
+toolchain: pcrecomp
+desc:
+  es: "Recompilación estática de Hover!, el juego de laberintos y captura de banderas del CD de Windows 95, hecha con pcrecomp, el kit del mismo autor para juegos de Windows: todo HOVER.EXE (5135 funciones, sin errores) se traduce a C y se compila en tu equipo, y no queda código original corriendo. Según su README, arranca, empieza una partida y se juega el nivel 1 hasta el final. El juego sigue dibujando con GDI, y una ventana propia con Direct3D 11 lo escala (nítido, suave, al vecino más próximo o por múltiplos enteros), con pantalla completa sin bordes, efecto CRT, tramado de 8 o 16 bits y color intenso; el aviso de 256 colores del arranque ya no sale. Añade pantalla dividida para 2 a 4 jugadores en un PC, cada uno con su vista y su panel, en el equipo del jugador 1 o en el de los robots; juego en línea por UDP para hasta 16 plazas, con robots en las vacías, entradas y salidas en plena partida, códigos para unirse y conexión directa; semillas de nivel que se pueden fijar, guardar y compartir como códigos, y mandos de Xbox, todavía sin probar con uno real. La 0.1.0-alpha.1 salió el 20 de octubre con un instalador para Windows, y la 0.1.0-alpha.2, el 21 de octubre, añadió uno para Linux, donde el juego se compila para Windows y se juega con Wine en su ventana original. Sus 20 commits llevan a Claude como coautor."
+  en: "A static recompilation of Hover!, the capture-the-flag maze racer from the Windows 95 CD, built with pcrecomp, the same author’s toolkit for Windows games: all of HOVER.EXE (5,135 functions, no errors) is translated to C and compiled on your machine, and none of the original code runs. According to its README, it boots, starts a game, and plays level 1 to the end. The game still draws with GDI, and its own Direct3D 11 window scales the result (sharp, smooth, nearest-neighbor, or integer), with borderless fullscreen, a CRT effect, 8- or 16-bit dithering, and vivid color; the 256-color warning at startup is gone. It adds split screen for 2 to 4 players on one PC, each with their own view and dashboard, on player 1’s side or the robots’; online play over UDP for up to 16 seats, with robots in the empty ones, players joining and leaving mid-game, join codes, and direct connections; level seeds you can pin, save, and share as codes; and Xbox controllers, not yet tried with a real one. 0.1.0-alpha.1 came out on October 20 with a Windows installer, and 0.1.0-alpha.2, on October 21, added one for Linux, where the game is built for Windows and played under Wine in its original window. All 20 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Hover!: el CD de Windows 95 (el juego está en FUNSTUFF\\HOVER), el CD de Hover!, una imagen ISO o BIN/CUE de cualquiera de los dos o un zip con la carpeta del juego; no se descarga nada del juego. Además, Windows 10 u 11 y 1 GB libre (la instalación instala Python y Visual Studio 2022 con C++ si faltan), o Linux con Wine de 32 bits, clang, lld, CMake y Ninja."
+  en: "Your own copy of Hover!: the Windows 95 CD (the game is in FUNSTUFF\\HOVER), the Hover! CD, an ISO or BIN/CUE image of either, or a zip of the game folder; nothing from the game is downloaded. Plus Windows 10 or 11 and 1 GB of free space (setup installs Python and Visual Studio 2022 with C++ if they’re missing), or Linux with 32-bit Wine, clang, lld, CMake, and Ninja."
+tags:
+  - x86
+  - multiplayer
+  - online
+  - ai-assisted
+links:
+  - label: pcrecomp
+    url: https://github.com/sp00nznet/pcrecomp

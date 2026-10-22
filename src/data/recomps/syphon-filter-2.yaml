@@ -1,0 +1,19 @@
+name: Syphon Filter 2
+console: ps1
+status: fully
+repo: alexbeavs-ps1-ports/syphon-filter-2-recomp
+author: Alexbeav
+originalDeveloper: Eidetic
+year: 2000
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense de Syphon Filter 2, con sus dos discos, hecha con psxrecomp: el ejecutable residente corre como código nativo de x64 sobre un entorno que reproduce el hardware de PlayStation, y los módulos que el juego carga por partes (overlays) que no están cubiertos pasan por un intérprete, así que algunas zonas pueden ir más lentas. Según su README, la campaña completa de los dos discos y el cambio de disco se han jugado y verificado. Conserva la lógica, los guiones, las colisiones, la IA y la actualización del mundo a 20 Hz del original, y no llega a 60 fps: su autor explica que, sin al menos una decompilación parcial, no se puede reconstruir un fotograma intermedio coherente. Como opciones, desactivadas por defecto, tiene panorámica 16:9 nativa, geometría PGXP y control directo de la cámara con el ratón; el launcher admite dos teclas o botones del ratón por cada control, y también mandos y, desde la 0.2.0, partidas locales para dos jugadores. La 0.2.0 (23 de septiembre) trajo un programa de instalación para Windows, Linux y macOS que pide la BIOS y los discos, los comprueba, genera el código y compila el juego en tu equipo; en Linux y en macOS de Intel solo se ha comprobado que arranca, y en macOS con Apple Silicon, solo que compila. Su README dice que se desarrolló con ayuda de IA, bajo la dirección de su autor."
+  en: "A static recompilation of the US release of Syphon Filter 2, both discs, built with psxrecomp: the resident executable runs as native x64 code on a runtime that reproduces the PlayStation hardware, and the streamed modules (overlays) not yet covered go through an interpreter, so some areas may run slower. According to its README, the full two-disc campaign and the disc change have been played and verified. It keeps the original’s logic, scripts, collision, AI, and 20 Hz world update, and doesn’t reach 60 fps: its author explains that without at least a partial decompilation, a coherent in-between frame can’t be rebuilt. As options, off by default, it has native 16:9 widescreen, PGXP geometry, and direct mouse camera control; the launcher allows two keys or mouse buttons per control, plus controllers and, since 0.2.0, local two-player games. 0.2.0 (September 23) brought a setup program for Windows, Linux, and macOS that asks for the BIOS and discs, verifies them, generates the code, and builds the game on your machine; on Linux and Intel macOS only startup has been checked, and on Apple silicon macOS only the build. Its README says it was developed with AI assistance, directed by its author."
+requirements:
+  es: "Tus propios discos estadounidenses de Syphon Filter 2, el 1 (SCUS-94451) y el 2 (SCUS-94492), en CUE/BIN de Redump o en CHD, y una BIOS SCPH-1001 volcada de tu consola (512 KiB, identificada por su SHA-256). Además, Python 3; si faltan CMake y Ninja, la instalación descarga un paquete portátil."
+  en: "Your own US Syphon Filter 2 discs, Disc 1 (SCUS-94451) and Disc 2 (SCUS-94492), as Redump CUE/BIN or CHD, and an SCPH-1001 BIOS dumped from your console (512 KiB, identified by its SHA-256). Plus Python 3; if CMake and Ninja are missing, setup downloads a portable pack."
+tags:
+  - mips
+  - widescreen
+  - multiplayer
+  - ai-assisted

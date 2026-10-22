@@ -1,0 +1,18 @@
+name: "Burnout 3: Takedown (sp00nznet)"
+console: xbox
+status: experimental
+repo: sp00nznet/burnout3
+originalDeveloper: Criterion Games
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática de la versión de Xbox a un ejecutable nativo de Windows con xboxrecomp, el kit del mismo autor: el código x86 del juego se traduce a C en tu equipo, arranca por su punto de entrada real y ejecuta sus propios menús, carreras y renderizador sobre el entorno de ejecución del kit, que aporta el núcleo de la Xbox, una GPU NV2A por software, el procesador de audio y el reproductor de vídeos. Todos los modos arrancan y se juegan, para uno o dos jugadores (carrera, contrarreloj, Road Rage, Crash, Double Impact, Team Crush y Party Crash, para 2 a 8 pasándose el mando), pero aún no es cómodo de jugar: con la GPU emulada por software, los menús van a unos 14 fps y las carreras a 2-4 fps en un procesador de 12 núcleos, y como no guarda el perfil, cada arranque repite los vídeos del tutorial. Xbox Live y System Link no se han intentado. Takedawn, de xenophobentx, que ya está en el catálogo, parte de este proyecto. La 0.1.0 salió el 20 de octubre con un instalador que descarga el código y el kit, instala las herramientas y compila el juego a partir de tu imagen de disco (de una a dos horas la primera vez). 99 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Xbox version into a native Windows executable with xboxrecomp, the same author’s toolkit: the game’s x86 code is translated to C on your machine, boots through its real entry point, and runs its own menus, races, and renderer on the toolkit’s runtime, which provides the Xbox kernel, a software NV2A GPU, the audio processor, and the video player. Every mode boots and plays, for one or two players (Race, Time Attack, Road Rage, Crash, Double Impact, Team Crush, and Party Crash for 2 to 8 passing the pad), but it isn’t comfortable to play yet: with the GPU emulated in software, menus run at about 14 fps and races at 2–4 fps on a 12-core CPU, and since it doesn’t save a profile, every launch replays the tutorial videos. Xbox Live and System Link haven’t been attempted. Takedawn, by xenophobentx, already in the catalog, is based on this project. 0.1.0 came out on October 20 with an installer that downloads the source and the toolkit, installs the tools, and builds the game from your disc image (one to two hours the first time). 99 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco (.iso) de Burnout 3: Takedown para Xbox, o una copia desempaquetada; el ejecutable que analiza el proyecto es el de la versión norteamericana. Además, Windows 10 u 11 de 64 bits, unos 12 GB libres y un mando de Xbox o XInput (dos para la pantalla dividida), porque no hay controles de teclado."
+  en: "Your own Burnout 3: Takedown disc image (.iso) for Xbox, or an unpacked copy; the executable the project analyzes is the North American release’s. Plus 64-bit Windows 10 or 11, about 12 GB of free space, and an Xbox or XInput controller (two for split screen), since there are no keyboard controls."
+tags:
+  - x86
+  - racing
+  - multiplayer
+  - ai-assisted

@@ -1,0 +1,16 @@
+name: Duck Hunt
+console: nes
+status: playable
+repo: mstan/DuckHuntNESRecomp
+originalDeveloper: Nintendo R&D1
+year: 1984
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática de Duck Hunt de NES con nesrecomp, el marco del mismo autor: el código 6502 de la ROM se traduce a C y se compila a nativo, y la PPU, el APU y el mapper se simulan en la biblioteca de ejecución. El ratón hace de pistola Zapper: apuntas con él y disparas con el botón izquierdo, con una mira en pantalla opcional, y la detección de luz del juego, con su pantalla en negro y el destello del blanco, se simula como en la consola. Funcionan los tres modos de juego (A, B y C), el vuelo de los patos, los impactos, la puntuación, el perro y el avance de rondas. Desde la 1.2.0 (5 de octubre) usa la CPU con precisión de ciclo; la última, la 1.2.1 (19 de octubre), es para Windows de 64 bits. 21 de sus 42 commits llevan a Claude como coautor."
+  en: "A static recompilation of the NES Duck Hunt with nesrecomp, the author’s own framework: the ROM’s 6502 code is translated to C and compiled to native code, and the PPU, APU, and mapper are simulated by the runtime library. The mouse stands in for the Zapper: you aim with it and fire with the left button, with an optional on-screen crosshair, and the game’s light detection, with its black screen and target flash, is simulated as on the console. All three game modes (A, B, and C), duck flight, hits, scoring, the dog, and round progression work. Since 1.2.0 (October 5) it uses the cycle-accurate CPU; the latest, 1.2.1 (October 19), is for 64-bit Windows. 21 of its 42 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Duck Hunt (World) para NES y un ratón. Además, Windows de 64 bits."
+  en: "Your own Duck Hunt (World) ROM for NES, and a mouse. Plus 64-bit Windows."
+tags:
+  - "6502"
+  - ai-assisted

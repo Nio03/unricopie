@@ -1,0 +1,19 @@
+name: The Legend of Zelda
+console: nes
+status: playable
+repo: mstan/LegendOfZeldaNESRecomp
+originalDeveloper: Nintendo R&D4
+year: 1986
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática de The Legend of Zelda de NES con nesrecomp, el marco del mismo autor: el código 6502 de la ROM se traduce a C y se compila a nativo, y la PPU, el APU y el mapper avanzan al ritmo de la CPU; el código que no se perfiló y el que se ejecuta desde la RAM del cartucho pasan por un intérprete. Usa los símbolos del desensamblado zelda1-disassembly de Aldo Nunez para cubrir todas las funciones. Funcionan el mundo exterior, las mazmorras con sus jefes y objetos, los combates, las cuevas, el inventario y las partidas guardadas en la batería del cartucho. La 1.0.0 (28 de marzo) se presentó como jugable entera, y la versión anterior al cambio de CPU se probó hasta la mazmorra 7; desde que usa la CPU con precisión de ciclo (1.9.0, 5 de octubre) se ha comprobado un recorrido corto y la revisión completa está pendiente. Como mods opcionales tiene dos vistas Voxel 3D experimentales, una maqueta de cada sala y otra en primera persona desde la posición de Link, y el mod HD «Zelda Remastered», que se crea a partir de un paquete HD de Mesen que ya tengas y se aplica en memoria sin tocar tu ROM. La 1.9.2 (19 de octubre) es para Windows de 64 bits; hubo versiones para Linux y macOS. 57 de sus 99 commits llevan a Claude como coautor."
+  en: "A static recompilation of the NES The Legend of Zelda with nesrecomp, the author’s own framework: the ROM’s 6502 code is translated to C and compiled to native code, and the PPU, APU, and mapper advance in step with the CPU; unprofiled code and code run from cartridge RAM go through an interpreter. It uses the symbols from Aldo Nunez’s zelda1-disassembly to cover every function. The overworld, dungeons with their bosses and items, combat, caves, the inventory, and battery-backed saves all work. Version 1.0.0 (March 28) was presented as fully playable, and the build before the CPU change was tested through dungeon 7; since moving to the cycle-accurate CPU (1.9.0, October 5) a short route has been checked and a full audit is pending. As optional mods it has two experimental Voxel 3D views, a diorama of each room and a first-person view from Link’s position, and the “Zelda Remastered” HD mod, built from a Mesen HD pack you already have and applied in memory without touching your ROM. Version 1.9.2 (October 19) is for 64-bit Windows; there were Linux and macOS builds. 57 of its 99 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de The Legend of Zelda (PRG0) para NES; valen la cabecera iNES y la NES 2.0. Para el mod HD, un paquete HD de Mesen de «Zelda Remastered» que aportas tú. Además, Windows de 64 bits."
+  en: "Your own US The Legend of Zelda ROM (PRG0) for NES; both iNES and NES 2.0 headers work. For the HD mod, a “Zelda Remastered” Mesen HD pack you supply yourself. Plus 64-bit Windows."
+tags:
+  - "6502"
+  - zelda
+  - mods
+  - hd-assets
+  - ai-assisted

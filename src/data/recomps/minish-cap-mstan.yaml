@@ -1,0 +1,18 @@
+name: "The Legend of Zelda: The Minish Cap (mstan)"
+console: gba
+status: playable
+repo: mstan/MinishCapRecomp
+originalDeveloper: Capcom / Flagship
+year: 2004
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de The Minish Cap para Windows con gbarecomp; fue el primer objetivo de ese marco de trabajo y, según su autor, es el más avanzado de sus recomps de GBA. El código ARM7TDMI de la ROM se traduce a C, y la BIOS real de la consola también se recompila y se ejecuta, en lugar de imitarla. Llega a la partida (el mapa, los diálogos y los estados guardados funcionan), pero sigue siendo una versión preliminar: el código que el recompilador no cubrió pasa la primera vez por un intérprete, se compila a nativo sobre la marcha y queda guardado en disco para los siguientes arranques. De la decompilación zeldaret/tmc solo toma nombres y direcciones de funciones, no su código, y es un proyecto distinto de Project Picori, el port basado en esa decompilación. Tiene un launcher previo para elegir la ROM y la BIOS y ajustar imagen, sonido y controles, estados guardados y un mod opcional de pantalla panorámica adaptable, que ensancha la vista de 240 hasta 480 píxeles a medida que la ventana se hace más ancha. La 0.0.6, del 18 de octubre, actualizó el motor y el launcher. 50 de sus 100 commits llevan a Claude como coautor, y otro dice haberse escrito en una sesión de Codex."
+  en: "Static recompilation of The Minish Cap for Windows with gbarecomp; it was that framework’s first target and, according to its author, the most mature of their GBA recomps. The ROM’s ARM7TDMI code is translated to C, and the console’s real BIOS is recompiled and run too instead of being imitated. It gets into gameplay (the overworld, dialogue, and save states work), but it’s still a preview: code the recompiler didn’t cover runs through an interpreter the first time, is compiled to native code on the fly, and is saved to disk for later launches. From the zeldaret/tmc decompilation it only takes function names and addresses, not its code, and it’s a separate project from Project Picori, the port built on that decompilation. It has a pre-boot launcher to pick the ROM and BIOS and set up video, audio, and controls, save states, and an optional adaptive widescreen mod that widens the view from 240 to up to 480 pixels as the window gets wider. Version 0.0.6 (October 18) updated the engine and launcher. 50 of its 100 commits list Claude as a co-author, and another says it was written in a Codex session."
+requirements:
+  es: "Tu propia ROM estadounidense de The Minish Cap (SHA-1 b4bd50e4131b027c334547b4524e2dbbd4227130) y un volcado de la BIOS de tu Game Boy Advance (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492). Además, Windows de 64 bits."
+  en: "Your own US Minish Cap ROM (SHA-1 b4bd50e4131b027c334547b4524e2dbbd4227130) and a dump of your Game Boy Advance BIOS (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492). Plus 64-bit Windows."
+tags:
+  - arm7
+  - widescreen
+  - zelda
+  - ai-assisted

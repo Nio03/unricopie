@@ -1,0 +1,20 @@
+name: "Super Mario World (mstan)"
+console: snes
+status: playable
+repo: mstan/SuperMarioWorldRecomp
+originalDeveloper: Nintendo EAD
+year: 1990
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática de Super Mario World (versión estadounidense) con snesrecomp, el marco del mismo autor: el código del 65816 se traduce a C, y el resto de la consola (vídeo, audio SPC700, DMA) corre en una reimplementación en C derivada de LakeSnes. Se apoya en el desensamblado SMWDisX para los nombres, el mapa de memoria y los límites de las funciones. Su autor lo cree jugable de principio a fin, pero solo ha comprobado a mano los dos primeros mundos, con el tercero en curso; del 4 al 7 y el contenido especial están sin verificar. En el launcher se activan como mods la pantalla panorámica adaptable (de 4:3 a 100:9, con el HUD anclado), la música MSU-1 si aportas un paquete de audio y, de forma experimental, Captain Falcon como personaje, con movimientos portados de la decompilación de Super Smash Bros. y gráficos y sonidos que se sacan de tu propia ROM de ese juego. La 0.15.0 (21 de octubre) añadió un cooperativo simultáneo experimental para dos jugadores, con Mario y Luigi en la misma pantalla. Tiene filtros de pantalla (CRT suave, rejilla LCD, nítido, compuesto cálido), estados guardados, turbo, mandos por SDL y un servidor Lua local opcional para scripts. Hay versiones para Windows y Linux. 8 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of Super Mario World (US version) with snesrecomp, the author’s own framework: the 65816 code is translated to C, and the rest of the console (video, SPC700 audio, DMA) runs on a C reimplementation derived from LakeSnes. It relies on the SMWDisX disassembly for names, the RAM map, and function boundaries. Its author believes it’s playable start to finish, but has only hand-verified the first two worlds, with the third in progress; worlds 4–7 and the special content are unverified. The launcher offers as mods adaptive widescreen (4:3 to 100:9, with an anchored HUD), MSU-1 music if you supply a music pack, and, experimentally, Captain Falcon as a playable character, with moves ported from the Super Smash Bros. decompilation and graphics and sounds taken from your own ROM of that game. Version 0.15.0 (October 21) added experimental simultaneous two-player co-op, with Mario and Luigi on the same screen. It has display shaders (CRT Soft, LCD Grid, Sharp, Warm Composite), save states, turbo, SDL controllers, and an optional local Lua server for scripts. There are Windows and Linux builds. 8 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Super Mario World (SNES, versión estadounidense), en .sfc o .smc. Para Captain Falcon, además tu ROM estadounidense 1.0 de Super Smash Bros. (N64); la música MSU-1 necesita un paquete de audio que aportas tú. Windows de 64 bits o Linux."
+  en: "Your own Super Mario World ROM (SNES, US version), as .sfc or .smc. For Captain Falcon, also your US 1.0 Super Smash Bros. ROM (N64); MSU-1 music needs a music pack you supply yourself. 64-bit Windows or Linux."
+tags:
+  - "65816"
+  - mario
+  - widescreen
+  - multiplayer
+  - mods
+  - ai-assisted

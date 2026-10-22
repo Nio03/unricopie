@@ -1,0 +1,19 @@
+name: "Super Mario Land 2: 6 Golden Coins"
+console: gb
+status: playable
+repo: mstan/SuperMarioLand2Recomp
+originalDeveloper: Nintendo R&D1
+year: 1992
+toolchain: gb-recompiled
+desc:
+  es: "Recompilación estática de Super Mario Land 2: 6 Golden Coins (versión 1.0) con la versión de gb-recompiled del propio autor y el launcher recomp-ui. Un mismo programa lleva dos versiones recompiladas del cartucho: la original de Game Boy y Super Mario Land 2 DX 1.8.1, el hack de color de toruzz, que se aplica a tu ROM en memoria al arrancar y corre como juego de Game Boy Color, con Luigi y sin ralentizaciones; se elige en la página de mods. Otro mod opcional añade pantalla panorámica adaptable (ajustada a la ventana, 16:9, 21:9 o 32:9): el centro sigue siendo la imagen de la consola y los márgenes se reconstruyen con los datos del nivel, con una opción para que los enemigos aparezcan en el borde de lo que ves. Tiene estados guardados y rebobinado manteniendo pulsada la R. Desde la 0.2.0 (19 de octubre), con versiones para Windows, Linux y Android, ejecuta la BIOS original de la consola. Las pruebas cubren recorridos de 6500 fotogramas en las dos versiones, no una partida completa. El repositorio y la descarga incluyen el parche BPS de Super Mario Land 2 DX. 59 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of Super Mario Land 2: 6 Golden Coins (version 1.0) with the author’s own version of gb-recompiled and the recomp-ui launcher. One program carries two recompiled versions of the cartridge: the original Game Boy one and Super Mario Land 2 DX 1.8.1, toruzz’s color hack, which is applied to your ROM in memory at boot and runs as a Game Boy Color game, with Luigi and no slowdown; you pick it on the Mods page. Another optional mod adds adaptive widescreen (fit to window, 16:9, 21:9, or 32:9): the center is still the console’s picture and the margins are rebuilt from the level data, with an option to spawn enemies at the edge of what you see. It has save states and rewind by holding R. Since 0.2.0 (October 19), with Windows, Linux, and Android builds, it runs the console’s original boot ROM. Testing covers 6,500-frame routes in both versions, not a full playthrough. The repository and the download include the Super Mario Land 2 DX BPS patch. 59 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Super Mario Land 2 - 6 Golden Coins (UE), versión 1.0 (CRC32 D5EC24E4); la versión DX se saca de ella. Además, la BIOS de la Game Boy (256 bytes) para la versión original y la de la Game Boy Color (2304 bytes) para la DX. Windows de 64 bits, Linux x86-64 o Android en ARM64."
+  en: "Your own Super Mario Land 2 - 6 Golden Coins (UE) ROM, version 1.0 (CRC32 D5EC24E4); the DX version is derived from it. Plus the Game Boy boot ROM (256 bytes) for the original version and the Game Boy Color one (2,304 bytes) for DX. 64-bit Windows, x86-64 Linux, or ARM64 Android."
+tags:
+  - sm83
+  - mario
+  - widescreen
+  - mods
+  - ai-assisted

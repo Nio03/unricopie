@@ -1,0 +1,20 @@
+name: Battle Arena Toshinden
+console: ps1
+status: playable
+repo: mstan/BattleArenaToshindenRecomp
+originalDeveloper: Tamsoft
+year: 1995
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Battle Arena Toshinden (versión estadounidense, SCUS-94200) con psxrecomp. Pasa por la introducción y la selección de personaje y llega a los combates; su autor la cree estable pese a ser una versión temprana. Trae mods opcionales: pantalla panorámica fija a 16:9 o adaptable hasta 32:9, con las barras de vida extendidas hasta los bordes; fusión de fotogramas para presentar de 60 a 240 Hz sin cambiar el ritmo del juego; «Extra Roster», que añade a Gaia y Sho como luchadores seleccionables, y otro que permite hacer los ataques desesperados con cualquier nivel de vida. Tiene juego en red con rollback para dos jugadores, en salas en línea o por red local o IP directa, y el mod de Gaia y Sho funciona también en línea. Usa OpenBIOS. La última versión es la 0.1.3 (8 de septiembre), para Windows y Linux. 2 de sus 22 commits llevan a Claude como coautor, y los retratos de Gaia y Sho se crearon con una herramienta de generación de imágenes."
+  en: "A static recompilation of Battle Arena Toshinden (US version, SCUS-94200) with psxrecomp. It goes through the intro and character select into combat; its author believes it’s stable despite being an early release. It comes with optional mods: fixed 16:9 or adaptive widescreen up to 32:9, with the health gauges extended to the edges; frame blending to present at 60–240 Hz without changing game timing; “Extra Roster”, which adds Gaia and Sho as selectable fighters; and one that lets you perform desperation moves at any health. It has two-player rollback netplay, through online rooms or over LAN or direct IP, and the Gaia and Sho mod also works online. It uses OpenBIOS. The latest release is 0.1.3 (September 8), for Windows and Linux. 2 of its 22 commits list Claude as a co-author, and the Gaia and Sho portraits were made with an image-generation tool."
+requirements:
+  es: "Tu propia imagen de Battle Arena Toshinden (PS1, versión estadounidense, SCUS-94200) en BIN/CUE, con sus 14 pistas junto al .cue para la música del CD. La BIOS de la consola es opcional. Windows de 64 bits o Linux con glibc 2.38 o posterior (como Ubuntu 24.04). Para jugar en red, los dos jugadores necesitan la misma versión y la misma imagen."
+  en: "Your own Battle Arena Toshinden disc image (PS1, US version, SCUS-94200) as BIN/CUE, with all 14 tracks next to the .cue for the CD music. A console BIOS is optional. 64-bit Windows or Linux with glibc 2.38 or newer (such as Ubuntu 24.04). For netplay, both players need the same release and the same disc image."
+tags:
+  - mips
+  - widescreen
+  - netplay
+  - online
+  - mods
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: Mega Man X3
+console: snes
+status: experimental
+repo: mstan/MegamanX3SNESRecomp
+originalDeveloper: Capcom
+year: 1995
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática de Mega Man X3 (versión estadounidense) con snesrecomp, montada sobre la capa del recomp de Mega Man X. La ejecución parte del intérprete y el código traducido a C (unas 6000 variantes) se suma como optimización; lo que no cubre se ejecuta desde la ROM. El chip Cx4 se emula a nivel de instrucción, sin necesidad de volcar su firmware. Arranca y llega a la partida: se han comprobado las escenas de la historia y la partida, y un recorrido de la 0.0.6 cargó las quince fases con movimiento y disparo, sin certificar cada jefe ni el final. Falta probar a fondo la partida y verificar el audio. Tiene pantalla panorámica 16:9 opcional, con el HUD anclado. La 0.0.6 (18 de octubre) es solo para Windows; la 0.0.3 también salió para Linux. 20 de sus 47 commits llevan a Claude como coautor."
+  en: "A static recompilation of Mega Man X3 (US version) with snesrecomp, built on the Mega Man X recomp’s host layer. Execution starts from the interpreter, and the code translated to C (about 6,000 variants) is layered on as an optimization; anything it doesn’t cover runs from the ROM. The Cx4 chip is emulated at the instruction level, with no firmware dump needed. It boots and reaches gameplay: the story scenes and gameplay have been checked, and a survey for 0.0.6 loaded all fifteen stages with movement and shooting, without certifying every boss or the ending. Broad gameplay testing and audio verification are still pending. It has optional 16:9 widescreen with an anchored HUD. 0.0.6 (October 18) is Windows-only; 0.0.3 also shipped for Linux. 20 of its 47 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Mega Man X3 (SNES, versión estadounidense, CRC32 FA0FE671); también se aceptan las copias con la cabecera de copiadora de 512 bytes. Windows de 64 bits."
+  en: "Your own Mega Man X3 ROM (SNES, US version, CRC32 FA0FE671); dumps with a 512-byte copier header are fine too. 64-bit Windows."
+tags:
+  - "65816"
+  - widescreen
+  - ai-assisted

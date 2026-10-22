@@ -1,0 +1,22 @@
+name: "Command & Conquer: Tiberian Sun / Firestorm"
+console: pc
+status: playable
+repo: sp00nznet/tiberiansun-recomp
+originalDeveloper: Westwood Studios
+year: 1999
+toolchain: pcrecomp
+desc:
+  es: "Recompilación estática de Command & Conquer: Tiberian Sun y de su expansión Firestorm, hecha con pcrecomp, el kit del mismo autor para juegos de Windows: el Game.exe de la versión de Steam se traduce a C (18 559 funciones, sin errores) y se compila en tu equipo. Es el código de Westwood recompilado, y comparte con su proyecto hermano, el de Red Alert 2, la ventana propia con Direct3D 11 y escalado nítido, suave, CRT o por múltiplos enteros, el menú de ajustes con F10, las resoluciones de 1280×720 a 3840×2160 (también 21:9 y 16:10), con los menús de 640×400 sobre un fondo desenfocado en lugar de franjas negras, las unidades, sus sombras y los restos al doble de resolución a partir de los modelos de vóxeles del juego, y los mods en carpetas que se superponen a los archivos del juego; los mods basados en DLL que parchean el ejecutable, como Ares o Phobos, no funcionan. Es nativo en Windows y en Linux, donde corre sin Wine como programa de 32 bits; en macOS se compila la versión de Windows para jugarla con CrossOver. Su batería de 29 pruebas automatizadas recorre los menús, guardar y cargar, escaramuzas de 640×400 a 4K, las cuatro campañas hasta su primera misión con sus vídeos y la construcción de una base. La 0.1.0-alpha.1 salió el 19 de octubre con un instalador que encuentra el juego en Steam, instala las herramientas y lo compila, y la 0.1.0-alpha.2, el 21 de octubre, llevó el menú F10 a Linux y añadió resoluciones. Sus 46 commits llevan a Claude como coautor."
+  en: "A static recompilation of Command & Conquer: Tiberian Sun and its expansion Firestorm, built with pcrecomp, the same author’s toolkit for Windows games: the Steam release’s Game.exe is translated to C (18,559 functions, no errors) and compiled on your machine. It’s Westwood’s own code recompiled, and it shares with its sibling project for Red Alert 2 its own Direct3D 11 window with sharp, smooth, CRT, or integer scaling, the F10 settings menu, resolutions from 1280×720 to 3840×2160 (21:9 and 16:10 included), with the 640×400 menus on a blurred backdrop instead of black bars, units, their shadows, and debris at twice the resolution from the game’s voxel models, and mods as folders laid over the game’s files; DLL-based mods that patch the executable, such as Ares or Phobos, don’t work. It’s native on Windows and on Linux, where it runs without Wine as a 32-bit program; on macOS the Windows build is compiled to play under CrossOver. Its suite of 29 automated tests covers the menus, saving and loading, skirmishes from 640×400 to 4K, all four campaigns up to their first mission with their videos, and building a base. 0.1.0-alpha.1 came out on October 19 with an installer that finds the game in Steam, installs the tools, and builds it, and 0.1.0-alpha.2, on October 21, brought the F10 menu to Linux and added resolutions. All 46 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Steam de Tiberian Sun con Firestorm (de The Ultimate Collection): la carpeta con Game.exe, Language.dll y los archivos .mix. El proyecto solo documenta esa versión, y no incluye ni descarga nada del juego. Además, unos 6 GB libres; en Windows, Windows 10 u 11 y Visual Studio 2019 o posterior con las herramientas de C++ para x86 (el instalador instala las Build Tools si faltan); en Linux, gcc de 32 bits y SDL2 de 32 bits, y en macOS, CrossOver con el juego instalado en una botella."
+  en: "Your own Steam copy of Tiberian Sun with Firestorm (from The Ultimate Collection): the folder with Game.exe, Language.dll, and the .mix files. The project documents only that version, and it includes and downloads nothing from the game. Plus about 6 GB of free space; on Windows, Windows 10 or 11 and Visual Studio 2019 or later with the x86 C++ tools (the installer installs the Build Tools if they’re missing); on Linux, 32-bit gcc and 32-bit SDL2; and on macOS, CrossOver with the game installed in a bottle."
+tags:
+  - x86
+  - widescreen
+  - mods
+  - multiplayer
+  - ai-assisted
+links:
+  - label: pcrecomp
+    url: https://github.com/sp00nznet/pcrecomp

@@ -1,0 +1,21 @@
+name: "Pokémon Emerald (mstan)"
+console: gba
+status: playable
+repo: mstan/EmeraldRecomp
+originalDeveloper: Game Freak
+year: 2004
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de Pokémon Esmeralda para Windows, Linux y Android con gbarecomp. El código ARM7TDMI de la ROM se traduce a C, y la BIOS real de la consola también se recompila y se ejecuta; el código que el recompilador no cubrió pasa la primera vez por un intérprete, se compila a nativo y queda guardado para los siguientes arranques. Llega a la partida, aunque su autor lo sigue presentando como una versión preliminar. De la decompilación pret/pokeemerald solo toma nombres y direcciones de funciones, no su código. Desde la 0.1.0 tiene juego en red para dos jugadores, por internet o en red local, con retardo de entrada o rollback: cada equipo simula las dos consolas y el cable link, que ya se probó jugando; la 0.1.1 sumó el adaptador inalámbrico para el Salón Unión, todavía experimental, sin intercambios ni combates comprobados por esa vía. Trae además un mod experimental de pantalla panorámica para el mapa (ajustada a la ventana, 16:9, 21:9 o 32:9, también en vertical) que muestra más escenario y personajes, otro que hace que el reloj del juego siga la hora del equipo y, en Android, controles táctiles propios: tocar para caminar, dibujar el camino con el dedo o elegir directamente en los combates. La 0.1.2 salió el 18 de octubre. 31 de sus 74 commits llevan a Claude como coautor."
+  en: "Static recompilation of Pokémon Emerald for Windows, Linux, and Android with gbarecomp. The ROM’s ARM7TDMI code is translated to C, and the console’s real BIOS is recompiled and run too; code the recompiler didn’t cover runs through an interpreter the first time, is compiled to native code, and is saved for later launches. It gets into gameplay, though its author still presents it as a preview. From the pret/pokeemerald decompilation it only takes function names and addresses, not its code. Since 0.1.0 it has two-player netplay, over the internet or LAN, with input delay or rollback: each machine simulates both consoles and the link cable, which has been play-tested; 0.1.1 added the Wireless Adapter for the Union Room, still experimental, with no trades or battles verified that way. It also has an experimental overworld widescreen mod (fit to window, 16:9, 21:9, or 32:9, portrait included) that shows more scenery and characters, another mod that makes the in-game clock follow your computer’s time, and, on Android, its own touch controls: tap to walk, draw a path with your finger, or pick moves directly in battle. Version 0.1.2 came out on October 18. 31 of its 74 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Pokémon Emerald (SHA-1 f3ae088181bf583e55daf962a92bb46f4f1d07b7) y un volcado de la BIOS de tu Game Boy Advance. Además, Windows de 64 bits, Linux x86-64 o Android 9 o posterior en ARM64. Para jugar en red, los dos jugadores necesitan la misma versión del recomp y la misma ROM."
+  en: "Your own US Pokémon Emerald ROM (SHA-1 f3ae088181bf583e55daf962a92bb46f4f1d07b7) and a dump of your Game Boy Advance BIOS. Plus 64-bit Windows, x86-64 Linux, or Android 9 or later on ARM64. For netplay, both players need the same recomp release and the same ROM."
+tags:
+  - arm7
+  - widescreen
+  - multiplayer
+  - online
+  - netplay
+  - pokemon
+  - ai-assisted

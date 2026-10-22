@@ -1,0 +1,17 @@
+name: "Pokémon FireRed / LeafGreen (mstan)"
+console: gba
+status: playable
+repo: mstan/FireRedLeafGreenRecomp
+originalDeveloper: Game Freak
+year: 2004
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de Pokémon Rojo Fuego y Verde Hoja (FireRed y LeafGreen) para Windows con gbarecomp, con un ejecutable y una descarga para cada juego. El código ARM7TDMI de la ROM se traduce a C, y la BIOS real de la consola también se recompila y se ejecuta. Los dos juegos arrancan y llegan a la partida, pero su autor lo presenta como una versión preliminar y temprana: el código que el recompilador no cubrió pasa la primera vez por un intérprete, se compila a nativo sobre la marcha y queda guardado en disco para los siguientes arranques. De la decompilación pret/pokefirered solo toma nombres y direcciones de funciones, no su código. Tiene un launcher previo para elegir la ROM y la BIOS y ajustar imagen, sonido y controles, y estados guardados. La 0.0.4, del 18 de octubre, actualizó el motor y el launcher. 18 de sus 29 commits llevan a Claude como coautor, y el primero se presenta como trabajo de una sesión de Codex."
+  en: "Static recompilation of Pokémon FireRed and LeafGreen for Windows with gbarecomp, with a separate executable and download for each game. The ROM’s ARM7TDMI code is translated to C, and the console’s real BIOS is recompiled and run too. Both games boot and get into gameplay, but its author presents it as an early preview: code the recompiler didn’t cover runs through an interpreter the first time, is compiled to native code on the fly, and is saved to disk for later launches. From the pret/pokefirered decompilation it only takes function names and addresses, not its code. It has a pre-boot launcher to pick the ROM and BIOS and set up video, audio, and controls, plus save states. Version 0.0.4 (October 18) updated the engine and launcher. 18 of its 29 commits list Claude as a co-author, and the first one describes itself as the work of a Codex session."
+requirements:
+  es: "Tu propia ROM estadounidense v1.0 de Pokémon FireRed (SHA-1 41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc) o de LeafGreen (SHA-1 574fa542ffebb14be69902d1d36f1ec0a4afd71e), según el juego, y un volcado de la BIOS de tu Game Boy Advance. Además, Windows de 64 bits."
+  en: "Your own US v1.0 Pokémon FireRed (SHA-1 41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc) or LeafGreen (SHA-1 574fa542ffebb14be69902d1d36f1ec0a4afd71e) ROM, depending on the game, and a dump of your Game Boy Advance BIOS. Plus 64-bit Windows."
+tags:
+  - arm7
+  - pokemon
+  - ai-assisted

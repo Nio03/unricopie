@@ -1,0 +1,17 @@
+name: "Star Wars: Yoda Stories"
+category: fan-remake
+console: pc
+status: fully
+repo: sp00nznet/YodaStoriesNG
+originalDeveloper: LucasArts
+year: 1997
+desc:
+  es: "Yoda Stories NG: reimplementación en C# y SDL2 del motor Desktop Adventures de LucasArts, que lee el archivo de datos de tu copia (casillas, zonas, personajes, puzles y guiones) y juega el juego sin el ejecutable original ni emulación. Yoda Stories se puede jugar de principio a fin: las 15 misiones, mundos generados en sus cuatro tamaños, cadenas de objetos y puzles, combate, puntuación y guardar y cargar, con todos los códigos de condición e instrucciones de los guiones implementados. También carga y juega Indiana Jones and His Desktop Adventures (1996), con menos soporte. Añade un tamaño de mundo extragrande de 15×15 con las 15 misiones a la vez, mandos SDL con movimiento analógico, un menú de pausa que se maneja con el mando, movimiento suave opcional en ocho direcciones con cámara que sigue al personaje, escalado 1x, 2x y 4x, teclas reasignables, partidas guardadas en JSON con su propio editor, un bot que juega las misiones y seis herramientas de depuración para examinar el archivo de datos. Hay versiones autónomas para Windows, Linux y macOS (Intel y Apple Silicon); la última, la 0.4.0, salió el 20 de octubre con arreglos de Emilio Castillo en armas, puzles y guiones. 66 de sus 91 commits llevan a Claude como coautor."
+  en: "Yoda Stories NG: a C# and SDL2 reimplementation of LucasArts’ Desktop Adventures engine that reads the data file from your copy (tiles, zones, characters, puzzles, and scripts) and plays the game with no original executable or emulation. Yoda Stories can be played start to finish: all 15 missions, generated worlds in its four sizes, item-chain puzzles, combat, scoring, and saving and loading, with every script condition and instruction opcode implemented. It also loads and plays Indiana Jones and His Desktop Adventures (1996), with less complete support. It adds an extra-large 15×15 world size holding all 15 missions at once, SDL controllers with analog movement, a controller-friendly pause menu, optional smooth eight-direction movement with a following camera, 1x, 2x, and 4x scaling, rebindable keys, JSON saves with their own editor, a bot that plays the missions, and six debug tools for taking the data file apart. There are self-contained builds for Windows, Linux, and macOS (Intel and Apple silicon); the latest, 0.4.0, came out on October 20 with fixes by Emilio Castillo to weapons, puzzles, and scripts. 66 of its 91 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Star Wars: Yoda Stories: el archivo YODESK.DTA (de la carpeta del juego instalado o, descomprimido, del CD) junto con las carpetas sfx y bitmaps que lo acompañan; para Indiana Jones, DESKTOP.DAW. No hace falta el ejecutable original. Además, Windows, Linux o macOS de 64 bits; las versiones publicadas no necesitan instalar .NET."
+  en: "Your own copy of Star Wars: Yoda Stories: the YODESK.DTA file (from the installed game folder or, decompressed, from the CD) along with the sfx and bitmaps folders next to it; for Indiana Jones, DESKTOP.DAW. The original executable isn’t needed. Plus 64-bit Windows, Linux, or macOS; the published builds don’t need .NET installed."
+tags:
+  - reverse-engineering
+  - csharp
+  - ai-assisted

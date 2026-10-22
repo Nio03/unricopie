@@ -1,0 +1,19 @@
+name: "Super Mario Bros.: The Lost Levels"
+console: nes
+status: playable
+repo: mstan/SuperMarioBros2JapanFDSRecomp
+originalDeveloper: Nintendo R&D4
+year: 1986
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática del Super Mario Bros. 2 japonés de Famicom Disk System, el que fuera de Japón se conoce como The Lost Levels, con el backend de precisión de ciclo de nesrecomp, el marco del mismo autor. Es el primer juego de Famicom Disk System hecho con ese marco: la BIOS real del FDS se ejecuta, así que se ven el arranque de Nintendo y la carga del disco como en la consola, y cada archivo de programa del disco se compila de antemano en su dirección de carga; el código que el juego monta en la RAM durante la partida pasa por un intérprete. Tiene un botón de disco para ver el estado de la unidad o volver a meter el disco, y guarda en una carpeta aparte sin escribir nunca en tu imagen. Como mod opcional y experimental tiene pantalla panorámica (ajustada a la ventana, 16:9, 21:9 o 32:9). En una pasada de octubre se entró, con ayuda, en las 54 zonas normales de los mundos 1 a 8 y A a D y en las cuatro del mundo 9, con las mismas imágenes que el intérprete; no es una partida completa sin ayuda. La 0.0.3 (19 de octubre) es para Windows de 64 bits. 8 de sus 13 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Japanese Famicom Disk System Super Mario Bros. 2, known outside Japan as The Lost Levels, with the cycle-accurate backend of nesrecomp, the author’s own framework. It’s the first Famicom Disk System game made with that framework: the real FDS BIOS runs, so you see the Nintendo boot screen and the disk load as on the console, and every program file on the disk is compiled ahead of time at its load address; code the game builds in RAM during play goes through an interpreter. It has a disk button to check the drive or reinsert the disk, and saves to a separate folder without ever writing to your image. As an optional, experimental mod it has widescreen (fit to window, 16:9, 21:9, or 32:9). An October pass entered, with assistance, all 54 regular areas of worlds 1–8 and A–D and the four World 9 areas, matching the interpreter’s pictures; it’s not an unassisted full playthrough. Version 0.0.3 (October 19) is for 64-bit Windows. 8 of its 13 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco Super Mario Bros. 2 (Japan) (Debug Value 0).fds (SHA-1 3b8c8998b4887d6dd676965943d69a320738ab9c) y la BIOS del adaptador de disco del Famicom (8192 bytes, CRC32 5E607DCF, a menudo llamada disksys.rom). Además, Windows de 64 bits."
+  en: "Your own Super Mario Bros. 2 (Japan) (Debug Value 0).fds disk image (SHA-1 3b8c8998b4887d6dd676965943d69a320738ab9c) and the Famicom Disk System RAM Adapter BIOS (8,192 bytes, CRC32 5E607DCF, often named disksys.rom). Plus 64-bit Windows."
+tags:
+  - "6502"
+  - mario
+  - widescreen
+  - mods
+  - ai-assisted

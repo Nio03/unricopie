@@ -1,0 +1,20 @@
+name: "Dragon Ball GT: Final Bout (mstan)"
+console: ps1
+status: playable
+repo: mstan/DragonBallGTFinalBoutRecomp
+originalDeveloper: "TOSE / Bandai"
+year: 1997
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Dragon Ball GT: Final Bout (versión estadounidense, SLUS-00493) para Windows con psxrecomp. Tiene pantalla panorámica adaptable hasta 21:9, con el HUD recolocado y los fondos de los escenarios ampliados; resolución interna más alta; estados guardados, y juego en red para dos jugadores, en salas en línea (que pueden pedir iniciar sesión con Discord) o por red local o IP directa, además del versus local. El mod opcional «FuniDub» cambia las voces originales por las grabaciones en inglés de Dragon Ball Z: Budokai Tenkaichi 3, que se extraen en tu equipo de tu propia ISO de ese juego, sin descargar ni distribuir audio; cubre 386 de 389 voces seleccionadas (presentaciones, golpes, ataques y victorias), no es una traducción literal y el movimiento de la boca no siempre encaja. La 1.0.0 (15 de octubre) es la primera versión: se han probado sobre todo los combates, el panorámico, el audio y el multijugador, y quedan escenas, efectos y rutas de progreso sin probar. Su documentación indica que se desarrolló con subagentes de IA GPT-6.1 Sol."
+  en: "A static recompilation of Dragon Ball GT: Final Bout (US version, SLUS-00493) for Windows with psxrecomp. It has adaptive widescreen up to 21:9, with a repositioned HUD and expanded stage backgrounds; higher internal resolution; save states; and two-player netplay, through online lobbies (which may ask you to sign in with Discord) or over LAN or direct IP, plus local versus. The optional “FuniDub” mod replaces the original voices with the English recordings from Dragon Ball Z: Budokai Tenkaichi 3, extracted on your machine from your own ISO of that game, with no audio downloaded or distributed; it covers 386 of 389 selected voice cues (introductions, combat sounds, attack calls, and victory lines), it isn’t a word-for-word translation, and mouth animation doesn’t always match. 1.0.0 (October 15) is the first release: testing has focused on combat, widescreen, audio, and multiplayer, and some scenes, effects, and progression routes remain untested. Its documentation states it was developed with GPT-6.1 Sol AI subagents."
+requirements:
+  es: "Tu propia imagen de Dragon Ball GT: Final Bout (PS1, versión estadounidense, SLUS-00493) en CUE + BIN. Para el mod FuniDub, además tu ISO estadounidense de Dragon Ball Z: Budokai Tenkaichi 3 para PS2 (SLUS-21678). No hace falta la BIOS de la consola ni instalar compiladores. Windows de 64 bits. Para jugar en red, los dos jugadores necesitan la misma versión y el mismo disco."
+  en: "Your own Dragon Ball GT: Final Bout disc image (PS1, US version, SLUS-00493) as CUE + BIN. For the FuniDub mod, also your US Dragon Ball Z: Budokai Tenkaichi 3 ISO for PS2 (SLUS-21678). No console BIOS or compiler install is needed. 64-bit Windows. For netplay, both players need the same release and the same disc."
+tags:
+  - mips
+  - widescreen
+  - netplay
+  - online
+  - mods
+  - ai-assisted

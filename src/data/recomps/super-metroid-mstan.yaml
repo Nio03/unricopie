@@ -1,0 +1,20 @@
+name: "Super Metroid (mstan)"
+console: snes
+status: playable
+repo: mstan/SuperMetroidRecomp
+originalDeveloper: Nintendo R&D1 / Intelligent Systems
+year: 1994
+toolchain: snesrecomp
+desc:
+  es: "Recompilación de Super Metroid con snesrecomp en la que la ROM y el intérprete mandan: las funciones del 65816 que se puede demostrar que son seguras se traducen a C, y el resto ejecuta el código original de la ROM en el intérprete; el vídeo, el audio y el resto del hardware se emulan. Toma los símbolos de la reimplementación sm de snesrev como referencia. Arranca, completa la demo, empieza partida, cruza puertas y guarda en la nave; una pasada asistida de octubre entró en 255 salas de Zebes y en las seis de Ceres, recogió los objetos y completó las muertes de Kraid, Phantoon y Ridley con ayuda, pero Mother Brain, la huida final y los créditos siguen sin validar. Como mods opcionales tiene pantalla panorámica (ajustada a la ventana, 16:9, 21:9 o 32:9, con el HUD en los bordes o centrado) y presentación por encima de 60 fps con interpolación, sin cambiar el ritmo del juego. Desde la 0.3.12 (17 de octubre) se descarga ya compilado para Windows, Linux y macOS (Apple Silicon e Intel), sin compilar nada. 37 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A recompilation of Super Metroid with snesrecomp where the ROM and the interpreter are the ground truth: 65816 functions that can be proven safe are translated to C, and everything else runs the original ROM code in the interpreter; video, audio, and the rest of the hardware are emulated. It uses snesrev’s sm reimplementation as its symbol reference. It boots, completes the attract demo, starts a new game, goes through doors, and saves at the ship; an assisted October pass entered 255 Zebes rooms and all six Ceres rooms, collected the items, and completed the Kraid, Phantoon, and Ridley death sequences with assistance, but Mother Brain, the final escape, and the credits remain unvalidated. As optional mods it has widescreen (fit to window, 16:9, 21:9, or 32:9, with the HUD at the edges or centered) and presentation above 60 fps with interpolation, without changing game timing. Since 0.3.12 (October 17) it downloads precompiled for Windows, Linux, and macOS (Apple silicon and Intel), with nothing to build. 37 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM sin modificar de Super Metroid (Japan, USA) (SHA-256 12b77c4bc9c1832cee8881244659065ee1d84c70c3d29e6eaf92e6798cc2ca72). Windows de 64 bits, Linux de 64 bits o macOS (Apple Silicon o Intel)."
+  en: "Your own unmodified Super Metroid (Japan, USA) ROM (SHA-256 12b77c4bc9c1832cee8881244659065ee1d84c70c3d29e6eaf92e6798cc2ca72). 64-bit Windows, 64-bit Linux, or macOS (Apple silicon or Intel)."
+tags:
+  - "65816"
+  - metroid
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

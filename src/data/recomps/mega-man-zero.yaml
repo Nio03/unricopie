@@ -1,0 +1,17 @@
+name: Mega Man Zero
+console: gba
+status: playable
+repo: mstan/MegaManZeroRecomp
+originalDeveloper: Inti Creates
+year: 2002
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de Mega Man Zero para Windows con gbarecomp. El código ARM y Thumb de la ROM se traduce a C++ de antemano, y la BIOS real de la consola también se recompila y se ejecuta. Según su README, llega a la partida con controles, sonido y guardado en la SRAM del cartucho, y se juega con comodidad; los recorridos probados de la primera misión funcionan enteros en código nativo, y si el juego llega a código no cubierto, ese tramo pasa por un intérprete, queda registrado y se puede compilar a nativo. Por defecto se salta la animación de arranque de la BIOS. Tiene un launcher previo para elegir la ROM y la BIOS y ajustar imagen, sonido y controles, estados guardados, avance rápido y un mod opcional de pantalla panorámica que ensancha las fases de 240 hasta 480 píxeles, con el HUD de Zero y la barra del jefe pegados a los bordes; es experimental, y en zonas no probadas los enemigos pueden aparecer de golpe. La 0.0.7 salió el 18 de octubre. 13 de sus 32 commits llevan a Claude como coautor."
+  en: "Static recompilation of Mega Man Zero for Windows with gbarecomp. The ROM’s ARM and Thumb code is translated to C++ ahead of time, and the console’s real BIOS is recompiled and run too. According to its README, it gets into gameplay with working controls, audio, and cartridge SRAM saves, and is comfortable to play; the tested routes through the opening mission run entirely as native code, and if the game reaches uncovered code, that stretch runs through an interpreter, gets logged, and can be compiled to native code. The BIOS boot animation is skipped by default. It has a pre-boot launcher to pick the ROM and BIOS and set up video, audio, and controls, save states, fast forward, and an optional widescreen mod that widens stages from 240 to up to 480 pixels, with Zero’s HUD and the boss gauge anchored to the edges; it’s experimental, and on untested routes enemies can pop in. Version 0.0.7 came out on October 18. 13 of its 32 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense (revisión 0) de Mega Man Zero (SHA-1 193b14120119162518a73c70876f0b8bffdbd96e) y un volcado de la BIOS de tu Game Boy Advance. Además, Windows de 64 bits."
+  en: "Your own US (revision 0) Mega Man Zero ROM (SHA-1 193b14120119162518a73c70876f0b8bffdbd96e) and a dump of your Game Boy Advance BIOS. Plus 64-bit Windows."
+tags:
+  - arm7
+  - widescreen
+  - ai-assisted

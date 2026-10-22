@@ -1,0 +1,16 @@
+name: Tetris
+console: gb
+status: fully
+repo: mstan/TetrisGBRecomp
+originalDeveloper: Nintendo R&D1
+year: 1989
+toolchain: gb-recompiled
+desc:
+  es: "Recompilación estática del Tetris de Game Boy con la versión de gb-recompiled del propio autor: el código SM83 se traduce a C y se compila a nativo, y la biblioteca de ejecución simula el vídeo, el sonido y el mapper. Su autor lo cree jugable al 100 %: funcionan los modos A-Type y B-Type, los menús, la demo, la música y los efectos, sin pasar por el intérprete gracias a 64 puntos de entrada recogidos en partidas reales. Usa el launcher compartido recomp-ui, que comprueba la ROM y abre un menú dentro del juego con F1. La 0.0.3 (17 de agosto) corrigió el error de la 0.0.2, que rechazaba todas las ROM. 10 de sus 13 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Game Boy Tetris with the author’s own version of gb-recompiled: the SM83 code is translated to C and compiled to native code, and the runtime library simulates video, sound, and the mapper. Its author believes it’s 100% playable: the A-Type and B-Type modes, the menus, the attract demo, music, and sound effects all work, without going through the interpreter thanks to 64 entry points harvested from real runs. It uses the shared recomp-ui launcher, which checks the ROM and opens an in-game menu with F1. Version 0.0.3 (August 17) fixed the bug in 0.0.2 that rejected every ROM. 10 of its 13 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Tetris (World) para Game Boy, versión 1.0 (CRC32 63F9407D); la revisión 1.1 no sirve. Además, Windows 10 u 11 de 64 bits."
+  en: "Your own Tetris (World) ROM for Game Boy, version 1.0 (CRC32 63F9407D); the 1.1 revision won’t work. Plus 64-bit Windows 10 or 11."
+tags:
+  - sm83
+  - ai-assisted

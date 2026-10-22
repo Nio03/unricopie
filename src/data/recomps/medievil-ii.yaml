@@ -1,0 +1,20 @@
+name: MediEvil II
+console: ps1
+status: playable
+repo: alexbeavs-ps1-ports/medievil-ii-recomp
+author: Alexbeav
+originalDeveloper: SCE Cambridge Studio
+year: 2000
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense para Windows y Linux, hecha con psxrecomp y el launcher recomp-ui. Desde la 0.2.0-alpha (5 de octubre) se publica ya compilada, con el motor y el código de los niveles conocidos traducidos de antemano y OpenBIOS incluida, así que solo hace falta el disco: no hay que compilar nada ni aportar una BIOS. Las mejoras vienen activadas por defecto: vista panorámica que se adapta a la ventana, sin límite de anchura, con el HUD anclado a los bordes, el terreno dibujado al triple de distancia y franjas de cinemática a todo lo ancho con los subtítulos sin deformar; resolución interna aumentada (5x con el ajuste de 1080p); precisión PGXP y filtrado de texturas para reducir el temblor; presentación suave, que interpola la cámara y los modelos hasta la frecuencia del monitor (o a 60, 120, 144, 240 o 360) sin cambiar la velocidad del juego, y una carga residente que prepara los datos de tu disco la primera vez y acorta las esperas (de 8,3 a 1,4 segundos en una carga medida). Tiene además controles opcionales de ratón y teclado, un gestor de mods y marcos decorativos opcionales. Es una alfa probada en el museo del principio y en muestras de otros niveles, no en una partida completa, y en Linux solo se ha probado bajo WSL. La última versión, la 0.2.4-alpha, salió el 20 de octubre. Su README dice que lo desarrolla un aficionado con mucha ayuda de IA, y 10 de sus 80 commits llevan a Claude como coautor."
+  en: "A static recompilation of the US release for Windows and Linux, built with psxrecomp and the recomp-ui launcher. Since 0.2.0-alpha (October 5) it ships prebuilt, with the engine and the known level code translated ahead of time and OpenBIOS included, so all you need is the disc: nothing to compile and no BIOS to supply. The enhancements are on by default: a widescreen view that adapts to the window with no width limit, with the HUD anchored to the edges, terrain drawn at three times the distance, and full-width cutscene bars with undistorted subtitles; higher internal resolution (5x with the 1080p preset); PGXP precision and texture filtering to reduce wobble; smooth presentation, which interpolates the camera and models up to the monitor’s refresh rate (or 60, 120, 144, 240, or 360) without changing game speed; and resident loading, which prepares data from your disc on first run and shortens waits (from 8.3 to 1.4 seconds in one measured load). It also has optional mouse and keyboard controls, a mod manager, and optional bezel artwork. It’s an alpha tested in the opening museum and in samples of other levels, not in a full playthrough, and on Linux it has only been tested under WSL. The latest release, 0.2.4-alpha, came out on October 20. Its README says it’s developed by a hobbyist with substantial AI assistance, and 10 of its 80 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio disco estadounidense de MediEvil II (SCUS-94564), como CUE con sus pistas BIN o en CHD, que sigue haciendo falta mientras juegas. Además, Windows de 64 bits o Linux x86-64 con glibc 2.39 o posterior (por ejemplo, Ubuntu 24.04)."
+  en: "Your own US MediEvil II disc (SCUS-94564), as a CUE with its BIN tracks or as a CHD, which is still needed while you play. Plus 64-bit Windows or x86-64 Linux with glibc 2.39 or later (Ubuntu 24.04, for example)."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

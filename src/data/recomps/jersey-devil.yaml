@@ -1,0 +1,22 @@
+name: Jersey Devil
+console: ps1
+status: playable
+repo: mstan/JerseyDevilRecomp
+originalDeveloper: Megatoon Studios
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Jersey Devil (versión estadounidense, SCUS-94907) con psxrecomp. La primera vez, el launcher genera y compila el código del juego a partir de tu disco, lo que tarda unos minutos. Arranca, muestra la introducción, carga los niveles y se puede jugar; hasta ahí llegan las pruebas, y su autor la considera una versión preliminar. Tiene pantalla panorámica adaptable o fija a 16:9, con el HUD en las esquinas, y resolución interna más alta. La 0.3.2 (20 de octubre) retiró la interpolación de fotogramas de versiones anteriores, porque estropeaba la imagen y podía colgar el juego. Usa OpenBIOS, sin BIOS de la consola. Hay versiones para Windows y Linux. 13 de sus 31 commits llevan a Claude como coautor."
+  en: "A static recompilation of Jersey Devil (US version, SCUS-94907) with psxrecomp. On first run, the launcher generates and compiles the game’s code from your disc, which takes a few minutes. It boots, plays the intro, loads levels, and is playable; that’s as far as testing has gone, and its author calls it a preview build. It has adaptive or fixed 16:9 widescreen, with the HUD in the corners, and higher internal resolution. 0.3.2 (October 20) withdrew the frame interpolation from earlier releases because it garbled the picture and could freeze the game. It uses OpenBIOS, with no console BIOS. There are Windows and Linux builds. 13 of its 31 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de Jersey Devil (PS1, versión estadounidense, SCUS-94907) en BIN/CUE, con sus 45 pistas junto al .cue para que suene la música. No hace falta la BIOS de la consola. Windows de 64 bits o Linux."
+  en: "Your own Jersey Devil disc image (PS1, US version, SCUS-94907) as BIN/CUE, with all 45 tracks next to the .cue so the music plays. No console BIOS is needed. 64-bit Windows or Linux."
+tags:
+  - mips
+  - widescreen
+  - ai-assisted
+links:
+  - label:
+      es: "Artículo en el blog del autor"
+      en: "Author’s blog post"
+    url: https://1379.tech/getting-into-the-halloween-spirit-with-recompilations/

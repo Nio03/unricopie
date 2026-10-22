@@ -1,0 +1,19 @@
+name: "The Legend of Zelda: A Link to the Past (mstan)"
+console: snes
+status: playable
+repo: mstan/ZeldaAlttPSNESRecomp
+originalDeveloper: Nintendo EAD
+year: 1991
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática de A Link to the Past (versión estadounidense) con snesrecomp: el código del 65816 se traduce a C, y el resto de la consola (vídeo, audio, DMA) corre en un núcleo de emulación integrado, derivado de snes9x. Se ha comprobado a mano hasta la primera mazmorra, con el combate con espada y el audio; lo que viene después (el castillo de Hyrule tras el prólogo, el Santuario, el Mundo Oscuro) no se ha verificado a mano, aunque un recorrido asistido de la 0.6.5 entró en catorce mazmorras y trece salas de jefe, sin certificar cada victoria ni el final. Como mods del launcher tiene pantalla panorámica adaptable, de hasta 446 píxeles de ancho lógico con el HUD anclado a los bordes, y música MSU-1 si aportas un paquete de audio, gracias al parche de qwertymodo, que se integra al compilar. Tiene estados guardados, turbo y mandos por SDL. La última versión, la 0.6.5 (18 de octubre), es solo para Windows; la última para Linux es la 0.6.1. 53 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of A Link to the Past (US version) with snesrecomp: the 65816 code is translated to C, and the rest of the console (video, audio, DMA) runs on an embedded emulation core derived from snes9x. It has been hand-verified up to the first dungeon, including sword combat and audio; later content (Hyrule Castle past the prologue, the Sanctuary, the Dark World) hasn’t been hand-verified, though an assisted survey for 0.6.5 entered fourteen dungeons and thirteen boss rooms, without certifying every boss defeat or the ending. As launcher mods it has adaptive widescreen, up to 446 logical pixels wide with the HUD anchored to the edges, and MSU-1 music if you supply a music pack, using qwertymodo’s patch, which is built in at compile time. It has save states, turbo, and SDL controllers. The latest release, 0.6.5 (October 18), is Windows-only; the latest Linux build is 0.6.1. 53 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de The Legend of Zelda: A Link to the Past (SNES, CRC32 777AAC2F, 1 MiB); sirve con o sin la cabecera de copiadora de 512 bytes. Windows de 64 bits, o Linux con la versión 0.6.1."
+  en: "Your own US The Legend of Zelda: A Link to the Past ROM (SNES, CRC32 777AAC2F, 1 MiB); it works with or without a 512-byte copier header. 64-bit Windows, or Linux with version 0.6.1."
+tags:
+  - "65816"
+  - zelda
+  - widescreen
+  - mods
+  - ai-assisted
