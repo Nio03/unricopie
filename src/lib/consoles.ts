@@ -29,9 +29,13 @@ export const CONSOLES = {
   megacd: { label: 'Mega-CD / Sega CD', tag: 'MCD', full: 'Sega Mega-CD / Sega CD', arch: '68000 x2', color: '#BE185D' },
   // Accesorio de la Mega Drive con dos SH-2: Sega 32X en América y Europa, Super 32X en Japón.
   '32x': { label: '32X / Super 32X', tag: '32X', full: 'Sega 32X / Super 32X', arch: '68000 + SH-2 x2', color: '#C2410C' },
-  gb: { label: 'Game Boy', tag: 'GB', full: 'Game Boy', arch: 'Sharp SM83', color: '#8A9A3B' },
+  // Master System en América y Europa; en Japón, su gemela Sega Mark III.
+  sms: { label: 'Master System / Mark III', tag: 'SMS', full: 'Sega Master System / Mark III', arch: 'Z80', color: '#3A7BD5' },
+  gamegear: { label: 'Game Gear', tag: 'GG', full: 'Sega Game Gear', arch: 'Z80', color: '#7E57C2' },
+  gb:{ label: 'Game Boy', tag: 'GB', full: 'Game Boy', arch: 'Sharp SM83', color: '#8A9A3B' },
   gbc: { label: 'GBC', tag: 'GBC', full: 'Game Boy Color', arch: 'Sharp SM83', color: '#2E9E78' },
   gba: { label: 'GBA', tag: 'GBA', full: 'Game Boy Advance', arch: 'ARM7', color: '#5B3A9C' },
+  virtualboy: { label: 'Virtual Boy', tag: 'VB', full: 'Nintendo Virtual Boy', arch: 'NEC V810', color: '#C62828' },
   nds: { label: 'DS', tag: 'DS', full: 'Nintendo DS', arch: 'ARM9', color: '#A33B86' },
   '3ds': { label: '3DS', tag: '3DS', full: 'Nintendo 3DS', arch: 'ARM11', color: '#B03A5B' },
   switch: { label: 'Switch', tag: 'NSW', full: 'Nintendo Switch', arch: 'ARM64', color: '#E0392B' },
@@ -40,6 +44,9 @@ export const CONSOLES = {
   // Placas de recreativa sin consola hermana (CPS-3, Sega OutRun…). NAOMI NO va
   // aquí: comparte silicio con la Dreamcast y se queda en esa clave.
   arcade: { label: 'Arcade', tag: 'ARC', full: 'Arcade board', arch: '—', color: '#B8873B' },
+  // La placa MVS y la consola AES son el mismo hardware, así que comparten clave
+  // (como NAOMI y Dreamcast): la ficha aclara de cuál sale la versión portada.
+  neogeo: { label: 'Neo Geo', tag: 'NEO', full: 'SNK Neo Geo (MVS / AES)', arch: '68000 + Z80', color: '#D4A017' },
   // Juegos de MS-DOS: van aparte de «pc» para que tengan su propia página.
   dos: { label: 'DOS', tag: 'DOS', full: 'MS-DOS', arch: 'x86', color: '#5C7CFA' },
   // Juegos de Windows (la clave sigue siendo «pc» para no cambiar datos ni URLs).
