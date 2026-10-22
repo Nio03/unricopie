@@ -79,7 +79,7 @@ body:
         - "Windows"
         - "PC-98"
         - "Mac OS clásico"
-        - "iOS / Android"
+        - "Móviles"
         - "Otra"
   - type: dropdown
     id: status

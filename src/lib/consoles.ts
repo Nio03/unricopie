@@ -55,8 +55,9 @@ export const CONSOLES = {
   pc98: { label: 'PC-98', tag: '98', full: 'NEC PC-9801 / PC-98', arch: 'x86', color: '#4F7A8C' },
   // Mac OS anterior a OS X (Marathon y otros juegos de Mac de los 90).
   mac: { label: 'Classic Mac OS', tag: 'MAC', full: 'Classic Mac OS', arch: '68k / PowerPC', color: '#7D8A99' },
-  // Juegos de móviles (iOS y Android) llevados a PC.
-  mobile: { label: 'iOS / Android', tag: 'MOB', full: 'iOS / Android', arch: 'ARM', color: '#3D9970' },
+  // Juegos de móviles llevados a PC: los de teléfonos con Java ME o BREW
+  // (Doom RPG, God of War: Betrayal) y los de iOS y Android.
+  mobile: { label: 'Mobile', tag: 'MOB', full: 'Java ME, BREW, iOS, and Android', arch: 'ARM / Java', color: '#3D9970' },
   other: { label: 'Other', tag: 'ETC', full: 'Other platform', arch: '—', color: '#9AA0B5' },
 } as const;
 
@@ -69,6 +70,7 @@ const ES_NAMES: Partial<Record<ConsoleKey, { label?: string; full?: string }>> =
   arcade: { full: 'Placa de recreativa' },
   other: { label: 'Otra', full: 'Otra plataforma' },
   mac: { label: 'Mac OS clásico', full: 'Mac OS clásico' },
+  mobile: { label: 'Móviles', full: 'Java ME, BREW, iOS y Android' },
 };
 
 export function consoleMeta(key: string, lang?: 'es' | 'en') {
