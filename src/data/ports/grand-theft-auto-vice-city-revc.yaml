@@ -1,0 +1,27 @@
+name: "Grand Theft Auto: Vice City (reVC)"
+category: decomp-port
+console: pc
+status: playable
+takedown: true
+repo: GTAmodding/re3
+originalDeveloper: Rockstar North
+year: 2003
+enrich: false
+desc:
+  es: "reVC: código fuente de la versión de PC de Grand Theft Auto: Vice City reconstruido por ingeniería inversa por el mismo equipo de re3, en la rama miami de su repositorio. Corría el juego de forma nativa en Windows, Linux y FreeBSD, también en ARM, a partir de tu propia copia, con el RenderWare original o con librw, una reimplementación libre. Cayó con re3: el 19 de febrero de 2021, Take-Two pidió por DMCA retirar el repositorio y toda su red de forks. Tras las contranotificaciones de abril a junio, el código volvió a GitHub; a principios de septiembre, Take-Two demandó a varios de sus autores, y el 29 de septiembre avisó a GitHub de la demanda, con lo que se retiró de nuevo."
+  en: "reVC: the PC version of Grand Theft Auto: Vice City’s source code, rebuilt by reverse engineering by the same team as re3, on the miami branch of its repository. It ran the game natively on Windows, Linux, and FreeBSD, ARM included, from your own copy, with the original RenderWare or with librw, a free reimplementation. It fell with re3: on February 19, 2021, Take-Two asked for the repository and its whole fork network to be taken down under the DMCA. After counter-notices from April to June the code came back to GitHub; in early September Take-Two sued several of its authors, and on September 29 it notified GitHub of the lawsuit, so it was taken down again."
+requirements:
+  es: "Tu propia copia de Grand Theft Auto: Vice City para PC."
+  en: "Your own copy of Grand Theft Auto: Vice City for PC."
+tags:
+  - x86
+  - reverse-engineering
+links:
+  - label:
+      es: "Aviso DMCA de Take-Two (19 de febrero de 2021)"
+      en: "Take-Two’s DMCA notice (February 19, 2021)"
+    url: https://github.com/github/dmca/blob/master/2021/02/2021-02-19-take-two.md
+  - label:
+      es: "Aviso de la demanda (29 de septiembre de 2021)"
+      en: "Notice of legal action (September 29, 2021)"
+    url: https://github.com/github/dmca/blob/master/2021/09/2021-09-29-take-two-legal-action/2021-09-29-take-two-legal-action.md

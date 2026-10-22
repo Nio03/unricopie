@@ -1,0 +1,21 @@
+name: "Doom RPG (DoomRPG-RE)"
+category: fan-remake
+console: mobile
+status: playable
+repo: Erick194/DoomRPG-RE
+author: "Erick Vásquez García ([GEC])"
+originalDeveloper: "id Software / Fountainhead Entertainment"
+year: 2005
+desc:
+  es: "DoomRPG-RE: reconstrucción en C de Doom RPG, el juego de rol por turnos de id Software y Fountainhead Entertainment de 2005 para teléfonos móviles, hecha por ingeniería inversa de su versión para BREW por Erick Vásquez García, del grupo [GEC], y llevada a PC con SDL2. No lee directamente el archivo de recursos de esa versión (doomrpg.bar): hay que convertirlo antes en un DoomRPG.zip con BarToZip, una herramienta cuyo código no está publicado (se pide en el issue #6). La música MIDI suena con FluidSynth y un banco de sonidos (gm.sf2). Tiene opciones de resolución, pantalla completa, sincronización vertical, escalado entero y mostrar u ocultar las teclas de función del móvil, y mando con zonas muertas y vibración; los controles se pueden reasignar desde el menú, aunque sigue abierto un fallo que cierra el juego al hacerlo (issue #10). El README recoge además los trucos del juego original, entre ellos el que abre su menú de depuración. La versión actual es la 0.2.2. El repositorio, abierto en diciembre de 2023, recibió hasta abril de 2024 aportaciones de otros autores, como arreglos para sistemas big-endian y soporte de mando en los diálogos de contraseña, y no publica versiones compiladas: el README remite a su hilo en Doomworld."
+  en: "DoomRPG-RE: a C reconstruction of Doom RPG, id Software and Fountainhead Entertainment’s 2005 turn-based RPG for mobile phones, reverse-engineered from its BREW version by Erick Vásquez García of the [GEC] group and brought to PC with SDL2. It doesn’t read that version’s resource file (doomrpg.bar) directly: you first convert it into a DoomRPG.zip with BarToZip, a tool whose source code isn’t published (it’s requested in issue #6). MIDI music plays through FluidSynth with a soundfont (gm.sf2). It has settings for resolution, fullscreen, vsync, integer scaling, and showing or hiding the phone’s soft keys, plus controller support with dead zones and rumble; controls can be rebound from the menu, though a bug that crashes the game when doing so is still open (issue #10). The README also lists the original game’s cheat codes, including the one that opens its debug menu. The current version is 0.2.2. The repository, opened in December 2023, took contributions from other authors until April 2024, such as big-endian fixes and controller support in password dialogs, and publishes no compiled builds: the README points to its Doomworld thread."
+requirements:
+  es: "El doomrpg.bar de tu propia copia de la versión para BREW de Doom RPG, convertido en DoomRPG.zip con BarToZip, y un banco de sonidos General MIDI con el nombre gm.sf2 para la música. Además, compilarlo con CMake, SDL2, SDL2_mixer, zlib y FluidSynth; nació en Windows, y hay correcciones pendientes para Linux, macOS y 64 bits (PR #14 y #15)."
+  en: "The doomrpg.bar from your own copy of Doom RPG’s BREW version, converted into DoomRPG.zip with BarToZip, and a General MIDI soundfont named gm.sf2 for the music. Plus building it with CMake, SDL2, SDL2_mixer, zlib, and FluidSynth; it started on Windows, and fixes for Linux, macOS, and 64-bit are still pending (PRs #14 and #15)."
+tags:
+  - reverse-engineering
+links:
+  - label:
+      es: "Hilo en Doomworld"
+      en: "Doomworld thread"
+    url: https://www.doomworld.com/forum/topic/129997
