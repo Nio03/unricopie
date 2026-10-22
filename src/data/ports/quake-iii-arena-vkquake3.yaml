@@ -1,0 +1,20 @@
+name: "Quake III Arena (vkQuake3)"
+category: source-port
+console: pc
+status: playable
+repo: suijingfeng/vkQuake3
+author: Sui Jingfeng
+originalDeveloper: id Software
+year: 1999
+desc:
+  es: "vkQuake3: ioquake3, el port que continúa el código fuente de Quake III Arena que id Software liberó en 2005, con un renderizador Vulkan añadido. Ese renderizador sale de Quake-III-Arena-Kenny-Edition, convertido de C++ a C para poder compilarlo dentro de ioquake3, y convive con los dos de OpenGL de ioquake3: se activa desde la consola con cl_renderer vulkan, y vkinfo muestra qué tarjeta gráfica y qué versión de Vulkan se están usando. Emula con shaders lo que el original hacía con la tubería fija de OpenGL, dibuja las sombras con el búfer de plantilla y aplica el brillo antes de subir las texturas a la GPU, en lugar de cambiar la gamma de todo el escritorio. Conserva lo que aporta ioquake3, como el sonido por OpenAL, el chat de voz, la captura de vídeo de las demos y las descargas por HTTP. Su única versión publicada es una preliminar para Windows de 64 bits (0.0.1, 23 de marzo de 2019) que su autor presenta como una versión para divertirse que puede tener fallos; desde 2024 ha recibido arreglos de otros colaboradores, como dejar de exigir ciertas funciones opcionales de Vulkan, un error de validación en Wayland y la compatibilidad con C23, el último en junio. El mismo autor tiene vkOpenArena, la versión para OpenArena."
+  en: "vkQuake3: ioquake3, the port that carries on the Quake III Arena source code id Software released in 2005, with an added Vulkan renderer. That renderer comes from Quake-III-Arena-Kenny-Edition, converted from C++ to C so it builds inside ioquake3, and sits alongside ioquake3’s two OpenGL renderers: you enable it from the console with cl_renderer vulkan, and vkinfo shows which graphics card and Vulkan version are in use. It emulates the original’s fixed-function OpenGL pipeline with shaders, draws shadows with the stencil buffer, and applies brightness before uploading textures to the GPU instead of changing the gamma of the whole desktop. It keeps what ioquake3 brings, such as OpenAL sound, voice chat, demo video capture, and HTTP downloads. Its only release is a preview for 64-bit Windows (0.0.1, March 23, 2019) that its author describes as a just-for-fun version that may have bugs; since 2024 it has received fixes from other contributors, such as no longer requiring certain optional Vulkan features, a validation error on Wayland, and C23 compatibility, the latest in June. The same author also has vkOpenArena, the OpenArena version."
+requirements:
+  es: "Los archivos .pk3 de tu propia copia de Quake III Arena, que van en la carpeta baseq3. Además, una tarjeta gráfica con Vulkan (o con OpenGL, para los otros renderizadores) y Windows, Linux o macOS (con MoltenVK); fuera de la versión preliminar para Windows, hay que compilarlo."
+  en: "The .pk3 files from your own copy of Quake III Arena, which go in the baseq3 folder. Plus a graphics card with Vulkan (or OpenGL, for the other renderers) and Windows, Linux, or macOS (with MoltenVK); apart from the Windows preview, you have to build it."
+tags:
+  - x86
+  - fps
+  - multiplayer
+  - online
+  - vulkan

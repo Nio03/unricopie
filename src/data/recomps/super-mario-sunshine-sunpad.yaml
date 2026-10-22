@@ -1,0 +1,21 @@
+name: "Super Mario Sunshine (SunPad)"
+console: gamecube
+status: experimental
+repo: chrissotraidis/sunpad
+author: Chris Sotraidis
+originalDeveloper: Nintendo EAD
+year: 2002
+toolchain: DolRecomp
+desc:
+  es: "SunPad: recompilación estática de Super Mario Sunshine pensada sobre todo para iPhone e iPad, distinta del port de la decompilación de chasem-dev que ya está en el catálogo, con el que no comparte código. Un fork de DolRecomp traduce de antemano el código PowerPC del juego a ARM64, y el resto de la GameCube (gráficos, sonido, memoria, tiempos y entrada) lo aporta RecompCore, un entorno derivado de Dolphin, con gráficos por Metal y ModernGekko como base de la integración; en Mac, el código que no está traducido pasa por el JIT de Dolphin para ARM64. En PC solo existe la versión para Mac con Apple Silicon: desde la 0.2.2 (19 de octubre) la compila PadMint, del mismo autor, a partir de tu disco y la guarda en un zip, o la compilas tú con sus scripts; el proyecto no publica el juego ya compilado. En Mac tiene ajustes de resolución interna y pantalla completa, teclado con controles predefinidos, mando compatible con SDL y guardado en la tarjeta de memoria. El modo admitido es el original a 30 fps; el de 60 fps es solo de prueba. Según su documentación, en Mac la app se ha compilado, firmado y arrancado, pero aún falta comprobar el juego en la plaza, los objetivos y el guardado. También hay versiones para iPhone e iPad, con controles táctiles, y una experimental para Apple TV. Su README declara que se desarrolla con mucha ayuda de IA para el código, las pruebas, la documentación, la depuración y el mantenimiento."
+  en: "SunPad: a static recompilation of Super Mario Sunshine aimed mainly at iPhone and iPad, separate from chasem-dev’s decomp-based port already in the catalog, with which it shares no code. A fork of DolRecomp translates the game’s PowerPC code to ARM64 ahead of time, and the rest of the GameCube (graphics, sound, memory, timing, and input) comes from RecompCore, a Dolphin-derived runtime, with Metal graphics and ModernGekko as the base of the integration; on Mac, code that isn’t translated goes through Dolphin’s ARM64 JIT. On PC there’s only the Apple silicon Mac version: since 0.2.2 (October 19), PadMint, by the same author, builds it from your disc and saves it as a zip, or you build it yourself with its scripts; the project doesn’t publish the game ready-built. On Mac it has internal resolution and fullscreen settings, keyboard with default controls, SDL-compatible controllers, and memory card saves. The supported mode is the original 30 fps; the 60 fps mode is for testing only. According to its documentation, on Mac the app has been built, signed, and launched, but gameplay in the plaza, objectives, and saving still have to be checked. There are also iPhone and iPad versions, with touch controls, and an experimental Apple TV version. Its README states that it’s developed with substantial AI assistance for code, tests, documentation, debugging, and maintenance."
+requirements:
+  es: "Tu propia imagen de disco de Super Mario Sunshine para GameCube, versión estadounidense GMSE01 revisión 0, en ISO o GCM sin comprimir; no admite otras regiones ni revisiones, imágenes modificadas ni formatos comprimidos, y el script de preparación comprueba su SHA-256. Además, un Mac con Apple Silicon (el objetivo configurado es macOS 14), Xcode completo, PadMint 0.5.5 o posterior (o CMake, Ninja, Git y Python 3 para compilarlo a mano) y unos 30 GB libres."
+  en: "Your own Super Mario Sunshine disc image for GameCube, US version GMSE01 revision 0, as an uncompressed ISO or GCM; other regions and revisions, modified images, and compressed formats aren’t supported, and the preparation script checks its SHA-256. Plus an Apple silicon Mac (the configured target is macOS 14), full Xcode, PadMint 0.5.5 or later (or CMake, Ninja, Git, and Python 3 to build it by hand), and about 30 GB of free space."
+tags:
+  - powerpc
+  - mario
+  - ai-assisted
+links:
+  - label: PadMint
+    url: https://github.com/chrissotraidis/padmint

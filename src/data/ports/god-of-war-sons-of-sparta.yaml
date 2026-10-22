@@ -1,0 +1,18 @@
+name: "God of War: Sons of Sparta"
+category: native-layer
+console: ps5
+status: playable
+repo: OverkillLabs3/SoS-PS5
+originalDeveloper: "Mega Cat Studios / Santa Monica Studio"
+year: 2026
+desc:
+  es: "SonsOfSparta-PS5 Native: el juego de PS5 funcionando en Windows a través de AnyPS5. El código x86-64 original corre directamente en el procesador, sin emulación de CPU, y las bibliotecas del sistema de PS5 y los comandos gráficos se reimplementan con una capa de compatibilidad, como hacen Wine y DXVK. Según el proyecto se juega desde el logotipo hasta la partida, con música y efectos, a unos 60 fps en menús y en el juego en su equipo de pruebas, y el launcher ofrece también 120 fps o una tasa sin límite, experimental. Dibuja la escena a 4K por defecto, o a 1440p o 1080p, en ventana o a pantalla completa sin bordes. Admite teclado, ratón, con un modo de apuntado que hace de stick derecho, y mandos XInput, DualSense o DualShock, con iconos de botones de Xbox o de PlayStation. Añade un menú de trucos con F10, un contador de fotogramas y opciones como saltar la introducción o los diálogos, y permite soplar con un botón en las escenas que piden el micrófono. El primer arranque prepara el juego a partir de tus archivos, sin modificarlos, y la primera partida compila los sombreadores mientras juegas, con fallos visuales y tirones hasta que quedan en caché. El juego no se ha probado entero, y en las zonas más avanzadas puede haber gráficos que faltan, problemas de audio o cierres; se ha probado sobre todo con tarjetas NVIDIA. La última versión es la 0.4.2 (16 de octubre)."
+  en: "SonsOfSparta-PS5 Native: the PS5 game running on Windows through AnyPS5. The original x86-64 code runs directly on the CPU, with no CPU emulation, and the PS5 system libraries and GPU commands are reimplemented through a compatibility layer, the way Wine and DXVK work. According to the project it plays from the logo through gameplay, with music and sound effects, at about 60 fps in menus and gameplay on its test PC, and the launcher also offers 120 fps or an experimental unlocked frame rate. It renders the scene at 4K by default, or at 1440p or 1080p, windowed or in borderless fullscreen. It supports keyboard, mouse, with an aiming mode that acts as the right stick, and XInput, DualSense, or DualShock controllers, with Xbox or PlayStation button icons. It adds an F10 cheat menu, a frame counter, and options such as skipping the intro or dialogue, and lets you blow with a button in scenes that ask for the microphone. The first launch prepares the game from your files without modifying them, and the first session compiles shaders as you play, with visual glitches and stutter until they’re cached. The whole game hasn’t been tested, and later areas may have missing graphics, audio problems, or crashes; it has mostly been tested on NVIDIA cards. The latest release is 0.4.2 (October 16)."
+requirements:
+  es: "Tu propio volcado descifrado de God of War Sons of Sparta para PS5 (PPSA28997, versión 01.008.001): eboot.bin o un eboot.elf descifrado, sce_sys, sce_module y Media; otras versiones, regiones o parches no se han probado. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan 1.3 y unos 25 GB libres."
+  en: "Your own decrypted dump of God of War Sons of Sparta for PS5 (PPSA28997, version 01.008.001): eboot.bin or a decrypted eboot.elf, sce_sys, sce_module, and Media; other versions, regions, or patches haven’t been tested. Plus 64-bit Windows 10 or 11, a Vulkan 1.3 graphics card, and about 25 GB of free space."
+tags:
+  - x86
+  - vulkan
+  - 60fps+
+  - unity

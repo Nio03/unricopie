@@ -1,0 +1,18 @@
+name: Serial Experiments Lain
+category: decomp-port
+console: ps1
+status: fully
+repo: Y0oshi/lain-psx-decompiled
+decomp: Y0oshi/lain-psx-decompiled
+originalDeveloper: Pioneer LDC
+year: 1998
+desc:
+  es: "Decompilación de Serial Experiments Lain, el juego de PlayStation de Pioneer LDC de 1998, y un cliente nativo para Windows, macOS y Linux construido a partir de ella. Las 321 funciones del juego están reescritas en C y, compiladas con la toolchain original de PsyQ, reproducen byte a byte el ejecutable comercial (las bibliotecas de PsyQ se enlazan desde su código original); el progreso se puede seguir en decomp.dev. El cliente ejecuta una copia de ese código adaptada a 64 bits sobre una reimplementación del SDK de PlayStation basada en PsyCross, sin emulador, y según el proyecto se juega entero: los dos sitios, todas las sesiones de voz y los vídeos, el cambio de disco y los cuatro finales; la lógica y el ritmo del juego se midieron en una consola real. Añade escalado de resolución, pantalla completa, interpolación opcional a 60 fps con la velocidad original, paquetes de subtítulos (.srt o .ass) y de doblaje, partidas en imágenes de tarjeta de memoria que sirven en emuladores, trucos, una pestaña con el contenido de los discos que el juego no usa y, desde la v0.2.0 (1 de octubre), mods: sustituir imágenes, textos, voces, vídeos y datos del juego, paquetes de texturas en HD, scripts en Lua que se enganchan a cualquier función del juego y plugins nativos. El launcher puede descargar de su fuente los subtítulos en inglés hechos por fans de laingame.net; no vienen incluidos. Aún quedan por probar una partida completa de una sola vez, los mandos reales y Linux en hardware real."
+  en: "A decompilation of Serial Experiments Lain, Pioneer LDC’s 1998 PlayStation game, and a native client for Windows, macOS, and Linux built from it. All 321 game functions are rewritten in C and, compiled with the original PsyQ toolchain, rebuild the retail executable byte for byte (the PsyQ libraries link from their original code); progress can be followed on decomp.dev. The client runs a 64-bit copy of that code on a reimplementation of the PlayStation SDK based on PsyCross, with no emulator, and according to the project it plays the whole game: both sites, every voice session and movie, the disc swap, and all four endings; game logic and pacing were measured on real hardware. It adds resolution scaling, fullscreen, optional 60 fps motion interpolation at the original speed, subtitle (.srt or .ass) and dub packs, memory card image saves that work in emulators, cheats, a tab showing disc content the game never uses, and, since v0.2.0 (October 1), mods: replacing pictures, text, voices, movies, and game data, HD texture packs, Lua scripts that hook any game function, and native plugins. The launcher can download the laingame.net English fan subtitles from their source; none are bundled. A full playthrough in a single run, real controllers, and Linux on real hardware are still untested."
+requirements:
+  es: "Tus propios volcados de los dos discos de la versión japonesa (SLPS-01603 y SLPS-01604) en formato Redump (.cue + .bin); el cliente los comprueba y los copia a su carpeta de datos. Además, Windows 10 u 11 de 64 bits, macOS con Apple silicon o Linux x86-64 con glibc 2.35 o posterior y OpenGL 3.2. Para compilar la decompilación, Python 3 y Docker."
+  en: "Your own dumps of both discs of the Japanese release (SLPS-01603 and SLPS-01604) in Redump format (.cue + .bin); the client verifies them and copies them to its data folder. Plus 64-bit Windows 10 or 11, Apple silicon macOS, or x86-64 Linux with glibc 2.35 or later and OpenGL 3.2. Building the decompilation requires Python 3 and Docker."
+tags:
+  - mips
+  - 60fps+
+  - mods

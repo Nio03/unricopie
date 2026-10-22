@@ -1,0 +1,21 @@
+name: "Master of Orion (1oom)"
+category: fan-remake
+console: dos
+status: playable
+repo: 1oom-fork/1oom
+author: "Kilgore Trout Mask Replicant / MyName"
+originalDeveloper: Simtex
+year: 1993
+desc:
+  es: "1oom: recreación del motor de Master of Orion (1993), de Simtex, que quiere reproducir con exactitud la versión 1.3 para DOS en ordenadores actuales y funciona con los archivos LBX del juego original. Parte del 1oom 1.0 de un programador que firmaba como Kilgore Trout Mask Replicant, y MyName (Duzh87_54MSU) lo rescató cuando estaba roto. Trae la interfaz clásica de 1993, una interfaz de texto como prueba de concepto y herramientas para ver y editar los archivos LBX, crear y volcar parches PBX y convertir partidas guardadas. Las versiones 1.11 son las más probadas, y el proyecto las recomienda mientras la nueva no sea estable; la 1.11.8 dejó siempre activos varios arreglos del parche 1.3a y la 1.11.9 (12 de agosto), la última, corrigió un fallo grave al encadenar un movimiento tras un ataque, pero esa rama ya no se desarrolla. El trabajo sigue en la versión «vanilla» (2.0), más fiel al original, que está en pruebas: la RC5 salió el 27 de agosto. Hay versiones para Windows de 32 y 64 bits y para MS-DOS, y el código también está en GitLab y en otros dos sitios. El proyecto prohíbe el uso directo de código generado por IA."
+  en: "1oom: a recreation of the engine of Simtex’s Master of Orion (1993) that aims to reproduce the v1.3 DOS release exactly on modern computers and runs on the original game’s LBX files. It started from 1oom 1.0 by a programmer going by Kilgore Trout Mask Replicant, and MyName (Duzh87_54MSU) restored it from a broken state. It comes with the classic 1993 interface, a proof-of-concept text interface, and tools to view and edit the LBX files, make and dump PBX patches, and convert saved games. The 1.11 releases are the most tested, and the project recommends them until the new version is stable; 1.11.8 made several fixes from patch 1.3a always active, and 1.11.9 (August 12), the latest, fixed a critical bug with queuing a move after an attack, but that branch is no longer developed. Work continues on the “vanilla” version (2.0), closer to the original, which is in testing: RC5 came out on August 27. There are builds for 32- and 64-bit Windows and for MS-DOS, and the code is also mirrored on GitLab and two other sites. The project prohibits the direct use of AI-generated code."
+requirements:
+  es: "Los archivos LBX de tu propia copia de Master of Orion, versión 1.3 para DOS; las versiones para Windows y MS-DOS se descomprimen en la carpeta del juego. Además, Windows o MS-DOS; en Linux se compila desde el código con SDL 2 y SDL2_mixer."
+  en: "The LBX files from your own copy of Master of Orion, v1.3 for DOS; the Windows and MS-DOS builds are extracted into the game’s folder. Plus Windows or MS-DOS; on Linux you build it from source with SDL 2 and SDL2_mixer."
+tags:
+  - human-driven
+links:
+  - label:
+      es: "1oom 1.0 original"
+      en: "Original 1oom 1.0"
+    url: https://kilgoretroutmaskreplicant.gitlab.io/plain-html

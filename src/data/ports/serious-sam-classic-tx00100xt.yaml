@@ -1,0 +1,24 @@
+name: "Serious Sam Classic (tx00100xt)"
+category: source-port
+console: pc
+status: fully
+repo: tx00100xt/SeriousSamClassic
+author: Alexander Pavlov
+originalDeveloper: Croteam
+year: 2001
+desc:
+  es: "Port de Serious Sam: The First Encounter (2001) y The Second Encounter (2002), los dos juegos clásicos de Croteam, sobre el código del Serious Engine 1.10 que Croteam publicó con licencia GPL-2.0 y sobre el port a Linux de icculus. Compila los dos juegos, el servidor dedicado y las herramientas del motor (Serious Editor, Serious Modeler, Serious Ska Studio y otras), y funciona en Windows, Linux, macOS, FreeBSD, OpenBSD, NetBSD y Raspberry Pi OS; además de x86 y ARM, publica versiones para RISC-V, PowerPC de 64 bits, s390x, LoongArch y MIPS. Añade pantallas 16:9, 16:10, 21:9 y 5:4, con el menú, NETRICSA y el HUD adaptados y el campo de visión del jugador y del arma corregido, resoluciones de hasta 8K, carga de mods desde el menú del juego y contadores de enemigos muertos y de ping; el juego en red entre Windows y los demás sistemas no es compatible. Las versiones publicadas traen también las bibliotecas para dos mods de fans, XPLUS (efectos, modelos y texturas en alta definición) y Serious Sam Alpha Remake, cuyos datos se descargan aparte. La última versión, la 1.10.7 (2 de febrero de 2025), sumó el modo ventana sin bordes en todas las resoluciones, una fuente grande para NETRICSA, la opción de volver al HUD clásico y versiones para Windows con DirectX 8 y 9 que funcionan incluso en Windows 95 OSR2 y 98 SE. Además de las descargas de GitHub, está en Flathub, Snap, un PPA de Ubuntu, AUR y Gentoo. Su autor mantiene aparte SeriousSamClassic-VK, el mismo código con un renderizador Vulkan. Los scripts para compilar la versión demo descargan de archive.org las demos oficiales para Windows de los dos juegos, que son gratuitas, y los parches oficiales 1.05 y 1.07 de Croteam."
+  en: "A port of Serious Sam: The First Encounter (2001) and The Second Encounter (2002), Croteam’s two classic games, built on the Serious Engine 1.10 code that Croteam released under the GPL-2.0 license and on icculus’s Linux port. It builds both games, the dedicated server, and the engine tools (Serious Editor, Serious Modeler, Serious Ska Studio, and others), and runs on Windows, Linux, macOS, FreeBSD, OpenBSD, NetBSD, and Raspberry Pi OS; besides x86 and ARM, it publishes builds for RISC-V, 64-bit PowerPC, s390x, LoongArch, and MIPS. It adds 16:9, 16:10, 21:9, and 5:4 screens, with the menu, NETRICSA, and HUD adapted and the player and weapon field of view fixed, resolutions up to 8K, mod loading from the game menu, and kill and ping counters; network play between Windows and the other systems isn’t compatible. The published builds also include the libraries for two fan mods, XPLUS (high-definition effects, models, and textures) and Serious Sam Alpha Remake, whose data is downloaded separately. The latest release, 1.10.7 (February 2, 2025), added borderless windowed mode at every resolution, a large font for NETRICSA, an option to switch back to the classic HUD, and Windows builds with DirectX 8 and 9 that run even on Windows 95 OSR2 and 98 SE. Besides the GitHub downloads, it’s on Flathub, Snap, an Ubuntu PPA, the AUR, and Gentoo. Its author maintains SeriousSamClassic-VK separately, the same code with a Vulkan renderer. The scripts that build the demo version download from archive.org the official Windows demos of both games, which are free, and Croteam’s official 1.05 and 1.07 patches."
+requirements:
+  es: "Tu propia copia para PC de Serious Sam Classic: The First Encounter, de The Second Encounter o de los dos, en CD, de GOG o de Steam, con todo su contenido: los archivos .gro y carpetas como Levels, Help, Data o Controls. Además, Windows (las versiones para DirectX 8 funcionan desde Windows 95 OSR2), Linux, macOS (la versión publicada es para Intel), FreeBSD, OpenBSD, NetBSD o Raspberry Pi OS."
+  en: "Your own PC copy of Serious Sam Classic: The First Encounter, The Second Encounter, or both, on CD, from GOG, or from Steam, with all of its content: the .gro files and folders such as Levels, Help, Data, or Controls. Plus Windows (the DirectX 8 builds run from Windows 95 OSR2 on), Linux, macOS (the published build is for Intel), FreeBSD, OpenBSD, NetBSD, or Raspberry Pi OS."
+tags:
+  - fps
+  - multiplayer
+  - widescreen
+  - mods
+links:
+  - label:
+      es: "Versión con Vulkan (SeriousSamClassic-VK)"
+      en: "Vulkan version (SeriousSamClassic-VK)"
+    url: https://github.com/tx00100xt/SeriousSamClassic-VK

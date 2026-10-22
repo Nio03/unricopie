@@ -1,0 +1,17 @@
+name: "Abuse (AntonioR)"
+category: source-port
+console: dos
+status: playable
+repo: antrad/Abuse_1996
+author: Antonio Radojkovic
+originalDeveloper: Crack dot Com
+year: 1996
+desc:
+  es: "Abuse_1996: versión de Abuse, el juego de plataformas y disparos de Crack dot Com, hecha por Antonio Radojkovic (AntonioR) a partir del port a SDL2 de Xenoveritas, que a su vez parte del port a SDL de abuse.zoy.org; Crack dot Com liberó el código y los datos del juego al dominio público. Admite resoluciones y tamaños de pantalla a medida, con la iluminación activa en alta resolución, vuelve a usar OpenGL para tener sincronización vertical y dibuja sin tope de fotogramas mientras la física sigue a su ritmo (15 por segundo por defecto, ajustable). Suma escalado de la imagen, ventana sin bordes, guardado y carga rápidos, mando de Xbox 360 con apuntado con el stick derecho y botones reasignables, trucos desde la consola, algunas imágenes en alta resolución de la versión de 1997 para Mac OS y el arreglo de la música de los niveles. Incluye abuse-tool, que extrae las imágenes de los archivos SPEC del juego a formatos actuales. Su README advierte de que a más resolución se ve más parte del mapa, incluidas algunas zonas secretas, y los enemigos se activan antes. La única versión, la 0.9a para Windows de 32 bits, salió el 9 de mayo de 2016, y el proyecto no ha cambiado desde entonces."
+  en: "Abuse_1996: a version of Abuse, Crack dot Com’s run-and-gun platformer, by Antonio Radojkovic (AntonioR), built on Xenoveritas’s SDL2 port, which in turn comes from abuse.zoy.org’s SDL port; Crack dot Com released the game’s code and data into the public domain. It supports custom resolutions and screen sizes, with lighting enabled at high resolutions, brings back OpenGL rendering for vsync, and renders with an uncapped frame rate while physics keeps its own pace (15 updates per second by default, adjustable). It adds screen scaling, a borderless window, quick save and quick load, Xbox 360 controller support with right-stick aiming and rebindable buttons, cheats from the console, some high-resolution images from the 1997 Mac OS release, and a fix for level music. It includes abuse-tool, which extracts the images in the game’s SPEC files to modern formats. Its README warns that higher resolutions show more of the map, some secret areas included, and that enemies get triggered sooner. The only release, 0.9a for 32-bit Windows, came out on May 9, 2016, and the project hasn’t changed since."
+requirements:
+  es: "Ninguna copia: Crack dot Com liberó el código y los datos del juego al dominio público. Los efectos de sonido y la música, de Bobby Prince, no están en el repositorio, y su README remite a la página de descargas de abuse.zoy.org. Además, Windows para la versión publicada; en Linux y macOS se compila desde el código con CMake."
+  en: "No copy needed: Crack dot Com released the game’s code and data into the public domain. The sound effects and music, by Bobby Prince, aren’t in the repository, and its README points to abuse.zoy.org’s download page for them. Plus Windows for the released build; on Linux and macOS you build it from source with CMake."
+tags:
+  - widescreen
+  - 60fps+

@@ -1,0 +1,16 @@
+name: "Legacy of Kain: Soul Reaver (KAIN2)"
+category: decomp-port
+console: ps1
+status: experimental
+repo: Gh0stBlade/KAIN2
+originalDeveloper: Crystal Dynamics
+year: 1999
+desc:
+  es: "KAIN2: decompilación de Legacy of Kain: Soul Reaver para PS1 con su propio port para Windows, Linux y macOS. Como el código fuente original se perdió, traduce a C el código MIPS del juego, y solo acepta funciones que, recompiladas con el compilador original, coincidan con el binario de una versión para la prensa del 14 de julio de 1999; su marcador indica un 78 % de la versión estadounidense (SLUS-00708). El juego corre sobre Valkyrie, una capa de emulación hecha para portar juegos de PS1 al PC, con SDL2. Frente al port oficial para PC, el proyecto plantea recuperar el sistema de música dinámica, permitir niveles nuevos y añadir soporte completo de mando y logros, y más adelante un menú para elegir la API gráfica. No tiene versiones publicadas: hay que compilarlo, y una compilación de depuración genera la lista de funciones que el juego llama y que aún faltan. Su último commit es de abril de 2024."
+  en: "KAIN2: a decompilation of Legacy of Kain: Soul Reaver for PS1 with its own port for Windows, Linux, and macOS. Since the original source code was lost, it translates the game’s MIPS code to C, and only accepts functions that, rebuilt with the original compiler, match the binary of a press review build from July 14, 1999; its progress badge shows 78% of the US release (SLUS-00708). The game runs on Valkyrie, an emulation layer made for porting PS1 games to PC, with SDL2. Compared with the official PC port, the project aims to restore the dynamic music system, allow new levels, and add full controller support and achievements, and later a menu to pick the graphics API. There are no releases: you have to build it, and a debug build generates the list of functions the game calls that are still missing. Its last commit is from April 2024."
+requirements:
+  es: "Los archivos BIGFILE.DAT y LOCALS.TBL de tu propia copia de Soul Reaver, junto al ejecutable; las compilaciones de depuración necesitan además el contenido de BIGFILE.DAT extraído con la herramienta del repositorio. Además, Windows 7 a 11, Linux o macOS, y compilarlo tú mismo con CMake 3.24.1 o posterior (en Linux, desde una distribución de 32 bits); el soporte de 64 bits está a medias."
+  en: "The BIGFILE.DAT and LOCALS.TBL files from your own copy of Soul Reaver, next to the executable; debug builds also need BIGFILE.DAT’s contents extracted with the repository’s tool. Plus Windows 7 to 11, Linux, or macOS, and building it yourself with CMake 3.24.1 or later (on Linux, from a 32-bit distribution); 64-bit support is a work in progress."
+tags:
+  - mips
+  - matching

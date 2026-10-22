@@ -1,0 +1,22 @@
+name: "Nanosaur II: Hatchling"
+category: source-port
+console: mac
+status: fully
+repo: jorio/Nanosaur2
+author: Iliyas Jorio
+originalDeveloper: Pangea Software
+year: 2004
+desc:
+  es: "Nanosaur II: Hatchling, el juego de Pangea Software de 2004 para Mac, puesto al día para Windows, macOS y Linux por Iliyas Jorio con permiso de Pangea. Sigue la historia del primer Nanosaur, pero esta vez se pilota un pterodáctilo cargado de armas: tiene un modo aventura de tres niveles en el que se abaten dinosaurios enemigos y se rescatan huevos, y seis niveles para dos jugadores con carreras, captura de la bandera y combate. Es un port de la versión original para Mac; frente a la última que publicó Pangea, la 2.0.7 de 2008, mejora el soporte de pantallas panorámicas, del ratón y del mando, une sin cortes las texturas del terreno, añade subtítulos opcionales en la historia, rehace los menús, permite escalar la barra de estado, corrige fallos menores de juego y muestra en alta resolución las imágenes de la historia. La única versión publicada es la 2.1.0 (17 de diciembre de 2022); desde entonces el código pasó a SDL 3, corrigió tirones de las animaciones a tasas altas de fotogramas y sumó la traducción al ruso, aún sin versión publicada. Las descargas, en GitHub y, gratuitas o a precio libre, en itch.io, traen el juego completo, que el autor publica con licencia CC BY-NC-SA 4.0 con permiso de Pangea Software."
+  en: "Nanosaur II: Hatchling, Pangea Software’s 2004 Mac game, updated for Windows, macOS, and Linux by Iliyas Jorio with Pangea’s permission. It continues the first Nanosaur’s story, but this time you fly a pterodactyl loaded with weapons: there’s a three-level adventure mode where you shoot down enemy dinosaurs and rescue eggs, and six two-player levels with racing, capture the flag, and battle. It’s a port of the original Mac version; compared with Pangea’s last release, 2.0.7 from 2008, it improves widescreen, mouse, and controller support, makes terrain texturing seamless, adds optional story subtitles, revamps the menus, lets you scale the status bar, fixes minor gameplay bugs, and shows the story slides in high resolution. The only release is 2.1.0 (December 17, 2022); since then the code has moved to SDL 3, fixed animation hiccups at high frame rates, and gained a Russian translation, not yet in a release. The downloads, on GitHub and, free or pay-what-you-want, on itch.io, include the whole game, which the author publishes under the CC BY-NC-SA 4.0 license with permission from Pangea Software."
+requirements:
+  es: "Ninguna copia: el juego se publica completo con permiso de Pangea Software, y cada descarga ya trae sus datos. Además, Windows (x64), macOS o Linux (x86-64 o ARM64)."
+  en: "No copy needed: the game is published in full with permission from Pangea Software, and each download already includes its data. Plus Windows (x64), macOS, or Linux (x86-64 or ARM64)."
+tags:
+  - widescreen
+  - multiplayer
+links:
+  - label:
+      es: "Descargas en itch.io"
+      en: "Downloads on itch.io"
+    url: https://jorio.itch.io/nanosaur2

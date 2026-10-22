@@ -1,0 +1,28 @@
+name: "Kingdom Hearts 358/2 Days"
+category: decomp-port
+console: nds
+status: playable
+repo: Yokimitsuro/khdays-port
+originalDeveloper: "h.a.n.d. / Square Enix"
+year: 2009
+desc:
+  es: "Port nativo para PC de Kingdom Hearts 358/2 Days construido sobre khdays-decomp, la decompilación exacta del juego de Nintendo DS del mismo autor. El código C de la decompilación se compila para el PC, y el port pone lo que hacía el hardware de la DS por debajo: gráficos, sonido, controles, la tarjeta, las interrupciones y las llamadas al sistema de su SDK. No ejecuta código máquina de la DS, porque no tiene intérprete de ARM. Según el proyecto, el juego entero funciona: el modo historia con sus vídeos y escenas, el modo misión, los combates y la magia, la tienda y las partidas guardadas, compatibles con las de la DS. Dibuja la imagen con Direct3D 12 o Vulkan, con el 3D hasta a ocho veces la resolución de la DS, antialiasing, panorámico de 16:9 o 16:10, imagen a la frecuencia del monitor aunque el juego siga a 30 fotogramas y un modo de una sola pantalla con el HUD recolocado. Tiene teclado y ratón, mandos y controles reasignables, mejoras opcionales como la cámara con el stick derecho o el ratón y la distribución de botones de Kingdom Hearts II, 99 ranuras de guardado con autoguardado, la opción de reintentar una misión desde la pausa y el multijugador del modo misión por red local o por internet a través de un servidor de emparejamiento, que se incluye para montar uno propio. Los mods pueden sustituir texturas, modelos, gráficos 2D, sonidos y vídeos y añadir scripts en Lua, y el repositorio trae khdays-studio, una herramienta para crearlos. Con tus copias de Kingdom Hearts HD 1.5+2.5 ReMIX y HD 2.8 Final Chapter Prologue, sus herramientas generan menús, HUD y pantallas al estilo de esas colecciones y reproducen sus vídeos en HD. Por ahora solo hay versión para Windows de 64 bits, con instalador; Linux y macOS están previstos. La última versión es la 0.1.3 (19 de octubre). Su autor declara que usó herramientas de programación con IA."
+  en: "A native PC port of Kingdom Hearts 358/2 Days built on khdays-decomp, the same author’s matching decompilation of the Nintendo DS game. The decompilation’s C code is compiled for the PC, and the port supplies what the DS hardware did underneath: graphics, sound, input, the game card, interrupts, and the system calls of its SDK. No DS machine code runs, since it has no ARM interpreter. According to the project, the whole game works: Story Mode with its movies and cutscenes, Mission Mode, combat and magic, the shop, and saves, which are compatible with DS saves. It draws the picture with Direct3D 12 or Vulkan, with the 3D at up to eight times the DS resolution, anti-aliasing, 16:9 or 16:10 widescreen, a picture at the monitor’s refresh rate while the game still runs at 30 frames, and a single-screen mode with a rearranged HUD. It has keyboard and mouse, controller support, and rebindable controls, optional enhancements such as camera control with the right stick or the mouse and the Kingdom Hearts II button layout, 99 save slots with autosave, an option to retry a mission from the pause menu, and Mission Mode multiplayer over a local network or over the internet through a matchmaking server, which is included so you can host your own. Mods can replace textures, models, 2D graphics, sounds, and videos and add Lua scripts, and the repository includes khdays-studio, a tool to make them. With your copies of Kingdom Hearts HD 1.5+2.5 ReMIX and HD 2.8 Final Chapter Prologue, its tools build menus, HUD, and screens in the style of those collections and play their HD videos. For now there’s only a 64-bit Windows build, with an installer; Linux and macOS are planned. The latest release is 0.1.3 (October 19). Its author states that AI-assisted coding tools were used."
+requirements:
+  es: "Tu propia ROM europea de Kingdom Hearts 358/2 Days para Nintendo DS (YKGP), que el instalador comprueba por su SHA-256 y también encuentra donde KH Melon Mix guarda una dentro de la carpeta de Kingdom Hearts HD 1.5+2.5 ReMIX. Para las piezas en HD, opcionalmente, tus copias de Kingdom Hearts HD 1.5+2.5 ReMIX y HD 2.8 Final Chapter Prologue, de Steam o de Epic Games Store; los vídeos en HD ocupan unos 6,5 GB. Además, Windows de 64 bits y una tarjeta gráfica con Direct3D 12 o Vulkan."
+  en: "Your own European Kingdom Hearts 358/2 Days ROM for Nintendo DS (YKGP), which the installer checks by its SHA-256 and also finds where KH Melon Mix keeps one inside the Kingdom Hearts HD 1.5+2.5 ReMIX folder. For the HD pieces, optionally, your copies of Kingdom Hearts HD 1.5+2.5 ReMIX and HD 2.8 Final Chapter Prologue, from Steam or the Epic Games Store; the HD videos take about 6.5 GB. Plus 64-bit Windows and a graphics card with Direct3D 12 or Vulkan."
+tags:
+  - arm9
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - online
+  - mods
+  - hd-assets
+  - vulkan
+  - ai-assisted
+links:
+  - label:
+      es: "Decompilación (khdays-decomp)"
+      en: "Decompilation (khdays-decomp)"
+    url: https://github.com/Yokimitsuro/khdays-decomp

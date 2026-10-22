@@ -1,0 +1,30 @@
+name: "Crimsonland"
+category: decomp-port
+console: pc
+status: fully
+repo: banteg/crimson
+homepage: https://crimson.land
+decomp: banteg/crimson
+originalDeveloper: 10tons
+year: 2003
+desc:
+  es: "Crimsonland reconstruido dos veces a partir de la versión 1.9.93, la «Crimsonland Classic» que GOG publicó en 2011. Por un lado, una decompilación exacta: código C/C++ que Visual C++ 6 vuelve a compilar en el crimsonland.exe y el grim.dll originales, instrucción por instrucción, y que según el proyecto ya está completa; el mismo código reconstruye también la versión shareware 1.9.8 y las gratuitas 1.4.0, 1.3.0 y 1.0.2. Por otro, una reimplementación en Python y raylib que reproduce tic a tic los tiempos, las tiradas aleatorias y el redondeo del original, y que es el port principal para PC: funciona en Windows, macOS y Linux a cualquier resolución, con pantalla completa sin bordes, cooperativo local de hasta cuatro jugadores con un mando cada uno, mandos de PlayStation, Xbox y Switch Pro con control de doble stick, repeticiones de cada partida que se pueden verificar o convertir en vídeo a 60 fps, misiones propias escritas en un lenguaje del proyecto y un modo RTX con iluminación dinámica. Corrige los fallos documentados del original, que se pueden recuperar con --preserve-bugs. La decompilación compilada a WebAssembly se juega también en el navegador, con cooperativo en línea para dos, y hay un cliente nativo con SDL3 para macOS y Linux, de momento solo en compilaciones de integración continua. Su web tiene una clasificación en la que el servidor vuelve a ejecutar cada partida con el código recuperado antes de contarla. Todos los clientes descargan en el primer arranque, desde el servidor del proyecto, los archivos del juego, que se distribuyen con permiso de 10tons, con el arte original sin comprimir en lugar de las texturas JPEG que traía el juego. La última versión publicada en GitHub es la 0.21.0 (22 de octubre). Su autor cuenta que hizo el trabajo con agentes de programación, en concreto Codex con GPT-5.2."
+  en: "Crimsonland rebuilt twice from version 1.9.93, the “Crimsonland Classic” release GOG published in 2011. On one side, a matching decompilation: C/C++ code that Visual C++ 6 compiles back into the original crimsonland.exe and grim.dll, instruction for instruction, and which the project reports as complete; the same code also rebuilds the 1.9.8 shareware release and the free 1.4.0, 1.3.0, and 1.0.2 releases. On the other, a reimplementation in Python and raylib that reproduces the original’s timings, random rolls, and rounding tick by tick, and which is the main PC port: it runs on Windows, macOS, and Linux at any resolution, with borderless fullscreen, local co-op for up to four players on their own controllers, PlayStation, Xbox, and Switch Pro controllers with twin-stick controls, replays of every run that can be verified or rendered to 60 fps video, custom quests written in a language of the project’s own, and an RTX mode with dynamic lighting. It fixes the original’s documented bugs, which can be brought back with --preserve-bugs. The decompilation compiled to WebAssembly also plays in the browser, with two-player online co-op, and there’s a native SDL3 client for macOS and Linux, for now only as continuous integration builds. Its website has a leaderboard where the server replays every run on the recovered code before it counts. Every client downloads the game files from the project’s server on first launch; they are distributed with permission from 10tons and carry the uncompressed original art instead of the game’s JPEG textures. The latest release on GitHub is 0.21.0 (October 22). Its author says the work was done with coding agents, specifically Codex with GPT-5.2."
+requirements:
+  es: "Ninguna copia del juego: los archivos de Crimsonland Classic se distribuyen con permiso de 10tons y se descargan solos en el primer arranque; los clientes web y nativo aceptan también tu propia carpeta del juego. Para el port en Python, uv y Python 3.13 o posterior, en Windows, macOS o Linux (en Linux, también libX11)."
+  en: "No copy of the game: the Crimsonland Classic files are distributed with permission from 10tons and download automatically on first launch; the web and native clients also accept your own game folder. For the Python port, uv and Python 3.13 or later, on Windows, macOS, or Linux (on Linux, libX11 too)."
+tags:
+  - x86
+  - matching
+  - multiplayer
+  - online
+  - ai-assisted
+links:
+  - label:
+      es: "Documentación del proyecto"
+      en: "Project documentation"
+    url: https://crimson.banteg.xyz/
+  - label:
+      es: "Cómo se hizo (artículo del autor)"
+      en: "How it was made (author’s article)"
+    url: https://banteg.xyz/posts/crimsonland/

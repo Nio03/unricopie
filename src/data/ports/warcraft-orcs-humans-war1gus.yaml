@@ -1,0 +1,21 @@
+name: "Warcraft: Orcs & Humans (War1gus)"
+category: fan-remake
+console: dos
+status: playable
+repo: Wargus/war1gus
+homepage: https://stratagus.com/war1gus.html
+originalDeveloper: Blizzard Entertainment
+year: 1994
+desc:
+  es: "War1gus: Warcraft: Orcs & Humans reimplementado sobre Stratagus, el motor libre de estrategia en tiempo real del mismo equipo que Wargus. Usa los gráficos y los sonidos del juego original, que la primera vez extrae de tu copia, y le suma comodidades del motor: controles de ratón modernos, grupos con nombre, selección de más unidades a la vez, más facciones en las partidas multijugador, varias ciudades y un editor de mapas. El repositorio contiene el extractor, los scripts en Lua que reproducen el juego, shaders para cambiar el aspecto y algunos mapas multijugador. La última versión estable es la 3.3.2 (10 de agosto de 2022), y hay compilaciones de desarrollo con cada commit; en 2026 siguió recibiendo arreglos, el último en junio, para la carga de partidas de campaña y el multijugador. En macOS el extractor propio todavía no funciona bien, y los datos se extraen con un script de terceros."
+  en: "War1gus: Warcraft: Orcs & Humans reimplemented on Stratagus, the free real-time strategy engine from the same team as Wargus. It uses the original game’s graphics and sounds, which it extracts from your copy on first launch, and adds the engine’s modern conveniences: modern mouse controls, named groups, larger group selection, more player factions in multiplayer games, multiple towns, and a map editor. The repository holds the extractor, the Lua scripts that recreate the game, shaders to change the look, and a few multiplayer maps. The latest stable release is 3.3.2 (August 10, 2022), and development builds are made from every commit; it kept getting fixes in 2026, the latest in June, for loading campaign saves and for multiplayer. On macOS its own extractor doesn’t work properly yet, and the data is extracted with a third-party script."
+requirements:
+  es: "Tu propia copia de Warcraft: Orcs & Humans para DOS, en CD o en disquetes; extraer los datos de la demo, de la versión shareware o de la de Mac OS todavía no funciona del todo. Además, Windows, Linux (paquetes para Ubuntu y Debian, openSUSE y otras distribuciones) o macOS."
+  en: "Your own copy of Warcraft: Orcs & Humans for DOS, on CD or floppy disks; extracting the data from the demo, the shareware release, or the Mac OS release isn’t fully supported yet. Plus Windows, Linux (packages for Ubuntu and Debian, openSUSE, and other distributions), or macOS."
+tags:
+  - multiplayer
+links:
+  - label:
+      es: "Motor Stratagus"
+      en: "Stratagus engine"
+    url: https://github.com/Wargus/stratagus

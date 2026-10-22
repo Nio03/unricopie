@@ -1,0 +1,21 @@
+name: "Dune II (Dune Dynasty)"
+category: decomp-port
+console: dos
+status: fully
+repo: gameflorist/dunedynasty
+author: "David Wang / Gerald Buttinger"
+originalDeveloper: Westwood Studios
+year: 1992
+desc:
+  es: "Dune Dynasty: versión mejorada de Dune II, el juego de estrategia en tiempo real de Westwood Studios, construida sobre el motor que OpenDUNE recreó por ingeniería inversa. No es un remake: conserva el aspecto y el comportamiento del original y añade controles al estilo de Command & Conquer, como la barra lateral desplazable con cola de construcción, la selección de varias unidades con un recuadro, los grupos de control, los puntos de reunión y el zoom con la rueda del ratón. Tiene gráficos panorámicos de alta resolución, con escalado independiente de la barra de menús, la barra lateral y el mapa, corrección de la relación de aspecto, animaciones más suaves opcionales y soporte para pantallas táctiles. Incluye escaramuzas y multijugador de hasta seis jugadores, humanos o de la IA, con tres facciones más (Fremen, Sardaukar y Mercenarios), alianzas libres y mapas aleatorios. Ofrece mejoras de juego opcionales, como barras de vida, niebla de guerra, una IA más dura o límites de unidades y edificios más altos, admite campañas hechas por fans y toca la música con AdLib emulado, MIDI o FluidSynth. También admite conjuntos de música que el jugador añade aparte, como grabaciones de la banda sonora original con distintas tarjetas de sonido, la de las versiones de Mega Drive y Amiga o la de otros juegos y películas de Dune; el README enlaza dónde conseguirlos. Lo creó David Wang, y su última versión de entonces fue la 1.5.7 (2013); gameflorist lo retomó en 2023 reuniendo las mejoras de otros forks. Hay versiones para Windows (32 y 64 bits y ARM64), macOS (Intel y Apple Silicon) y Linux (x86-64 y ARM64, también en Flatpak). La última es la 1.6.4 (31 de mayo de 2025), y el repositorio sigue recibiendo correcciones, las últimas en octubre. 7 de sus últimos 100 commits, de un colaborador, llevan a Claude como coautor."
+  en: "Dune Dynasty: an enhanced version of Dune II, Westwood Studios’ real-time strategy game, built on the engine OpenDUNE recreated through reverse engineering. It isn’t a remake: it keeps the original’s look and behavior and adds Command & Conquer-style controls, such as a scrollable sidebar with build queues, selecting several units with a rectangle, control groups, rally points, and mouse-wheel zoom. It has high-resolution widescreen graphics, with separate scaling for the menu bar, sidebar, and map, aspect-ratio correction, optional smoother animation, and touchscreen support. It includes skirmish and multiplayer for up to six human or AI players, with three extra factions (Fremen, Sardaukar, and Mercenaries), custom alliances, and random maps. It offers optional gameplay enhancements, such as health bars, fog of war, a tougher AI, or higher unit and structure limits, supports fan-made campaigns, and plays music through emulated AdLib, MIDI, or FluidSynth. It also supports music sets the player adds separately, such as recordings of the original soundtrack on different sound cards, the Mega Drive and Amiga soundtracks, or music from other Dune games and films; the README links to where to get them. David Wang created it, and its last release back then was 1.5.7 (2013); gameflorist picked it up in 2023, merging the improvements from other forks. There are builds for Windows (32- and 64-bit and ARM64), macOS (Intel and Apple silicon), and Linux (x86-64 and ARM64, also as a Flatpak). The latest is 1.6.4 (May 31, 2025), and the repository still gets fixes, most recently in October. 7 of its last 100 commits, from a contributor, list Claude as a co-author."
+requirements:
+  es: "Los archivos .PAK de la versión europea 1.07 de tu propia copia de Dune II (la lista completa está en FILELIST.TXT). Además, Windows, macOS o Linux; en Linux, con el paquete normal, las bibliotecas de Allegro 5, ENet, FluidSynth y libmad."
+  en: "The .PAK files from the European 1.07 release of your own copy of Dune II (the full list is in FILELIST.TXT). Plus Windows, macOS, or Linux; on Linux, with the regular package, the Allegro 5, ENet, FluidSynth, and libmad libraries."
+tags:
+  - x86
+  - widescreen
+  - multiplayer
+  - online
+  - reverse-engineering
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: "Rise of the Triad (rottexpr)"
+category: source-port
+console: dos
+status: fully
+repo: LTCHIPS/rottexpr
+originalDeveloper: Apogee Software
+year: 1994
+desc:
+  es: "rottexpr: port de Rise of the Triad: Dark War basado en el de icculus.org, que parte del código fuente que publicó Apogee. Funciona con SDL2 y admite resoluciones desde 320×200 hasta 3840×2160, con el HUD recolocado y escalable y ventana con o sin bordes. Añade opciones de juego nuevas: los Blitzguards pueden llevar cualquier arma de misiles o mágica, se puede recoger munición de las armas de misiles que sueltan los enemigos, el apuntado automático se puede desactivar y también funciona con los misiles, y ZomROTT es un modo en el que los enemigos vuelven si no los despedazas. En resoluciones altas se puede ver a través de las paredes al pegarse a ellas, algo que se corrige subiendo el ajuste «Adjust focal width». El multijugador no funciona. Publica ejecutables para Windows para las versiones shareware, comercial y de licencia de sitio (la que venden GOG y Steam); en Linux se compila. La última versión es la v0.01 (19 de enero de 2021), y el último cambio en el código es de ese mismo mes."
+  en: "rottexpr: a source port of Rise of the Triad: Dark War based on the icculus.org port, which builds on the source code Apogee released. It runs on SDL2 and supports resolutions from 320×200 up to 3840×2160, with a repositioned, scalable HUD and bordered or borderless windows. It adds new gameplay options: Blitzguards can carry any missile or magic weapon, ammo can be picked up from missile weapons that enemies drop, auto-aim can be turned off and also works with missiles, and ZomROTT is a mode where enemies come back unless you gib them. At high resolutions you can see through walls when standing against them, which is fixed by raising the “Adjust focal width” setting. Multiplayer doesn’t work. It publishes Windows executables for the shareware, commercial, and site license versions (the one GOG and Steam sell); on Linux you build it. The latest release is v0.01 (January 19, 2021), and the last code change is from that same month."
+requirements:
+  es: "Los archivos de tu propia copia de Rise of the Triad: Dark War (DARKWAR.WAD, DARKWAR.RTL y DARKWAR.RTC), o los de la versión shareware, The HUNT Begins (HUNTBGIN), que es gratuita, junto con DEMO1_3.DMO a DEMO4_3.DMO y REMOTE1.RTS. Además, Windows, con SDL2 y SDL2_mixer, o Linux, compilándolo."
+  en: "The files from your own copy of Rise of the Triad: Dark War (DARKWAR.WAD, DARKWAR.RTL, and DARKWAR.RTC), or those of the free shareware version, The HUNT Begins (HUNTBGIN), along with DEMO1_3.DMO to DEMO4_3.DMO and REMOTE1.RTS. Plus Windows, with SDL2 and SDL2_mixer, or Linux, building it yourself."
+tags:
+  - x86
+  - fps
+  - widescreen

@@ -1,0 +1,19 @@
+name: "NWNX:EE"
+kind: mod
+console: pc
+game:
+  es: "Neverwinter Nights: Enhanced Edition, su servidor dedicado (PC, 2018)"
+  en: "Neverwinter Nights: Enhanced Edition, its dedicated server (PC, 2018)"
+repo: nwnxee/unified
+homepage: https://nwnxee.github.io/unified
+status: stable
+desc:
+  es: "NWNX:EE (Neverwinter Nights Extender: Enhanced Edition): marco para ampliar el servidor dedicado de Neverwinter Nights: Enhanced Edition con funciones nuevas o para cambiar reglas que el juego trae fijas en el código, hecho por la comunidad. Es una biblioteca (NWNX_Core.so) que se carga en el servidor de Linux, nwserver-linux, con LD_PRELOAD y engancha sus funciones; sobre ella van unos 48 complementos, que se activan o se desactivan con variables de entorno. Entre ellos hay comandos nuevos para NWScript, el lenguaje de scripts del juego, que los módulos importan desde el NWScript.zip de cada versión; acceso a bases de datos como MySQL y a Redis, peticiones HTTP y webhooks; scripts del servidor en C# y otros lenguajes de .NET, o en Ruby; razas y subrazas nuevas, el nivel máximo subido de 40 a 60, cambios en dotes, armas y reglas de combate, y herramientas de perfilado y de detección de cuelgues. Solo funciona de forma nativa en Linux; en Windows se usa con Docker o con WSL. El README remite a las versiones de GitHub para descargar los binarios, pero ahora mismo no hay ninguna publicada: se compila con su script o con Docker, y hay imágenes de Docker ya compiladas (ghcr.io/nwnxee/unified) que parten de la imagen urothis/nwserver y traen el ejecutable del servidor. La versión actual sigue al build 8193.37.17 del juego, y el proyecto, que empezó en 2018, sigue recibiendo cambios: el último, del 19 de octubre."
+  en: "NWNX:EE (Neverwinter Nights Extender: Enhanced Edition): a community-made framework for extending Neverwinter Nights: Enhanced Edition’s dedicated server with new features or changing rules the game hardcodes. It’s a library (NWNX_Core.so) loaded into the Linux server, nwserver-linux, through LD_PRELOAD, which hooks its functions; on top of it sit some 48 plugins, each enabled or skipped through environment variables. They include new commands for NWScript, the game’s scripting language, which modules import from each build’s NWScript.zip; access to databases such as MySQL and to Redis, HTTP requests, and webhooks; server scripts in C# and other .NET languages, or in Ruby; new races and subraces, a level cap raised from 40 to 60, changes to feats, weapons, and combat rules, and profiling and hang-detection tools. It only runs natively on Linux; on Windows you use it through Docker or WSL. The README points to GitHub releases for prebuilt binaries, but none are published right now: you build it with its script or with Docker, and there are prebuilt Docker images (ghcr.io/nwnxee/unified) based on the urothis/nwserver image, which include the server executable. The current version tracks the game’s build 8193.37.17, and the project, which started in 2018, is still getting changes, the latest on October 19."
+requirements:
+  es: "El servidor dedicado de Neverwinter Nights: Enhanced Edition para Linux (nwserver-linux), del paquete de servidor dedicado que Beamdog publica en su web: NWNX:EE solo admite ese binario, aunque los de Steam y de Beamdog suelen ser idénticos (el README da su MD5). Los jugadores se conectan con su propia copia del juego. Además, Linux, o Windows con Docker o WSL."
+  en: "Neverwinter Nights: Enhanced Edition’s Linux dedicated server (nwserver-linux), from the dedicated server package Beamdog publishes on its website: NWNX:EE only supports that binary, though the Steam and Beamdog ones are usually identical (the README gives its MD5). Players connect with their own copy of the game. Plus Linux, or Windows with Docker or WSL."
+tags:
+  - online
+  - multiplayer
+  - mods

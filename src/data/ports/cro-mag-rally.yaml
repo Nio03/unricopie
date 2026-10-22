@@ -1,0 +1,23 @@
+name: Cro-Mag Rally
+category: source-port
+console: mac
+status: fully
+repo: jorio/CroMagRally
+author: Iliyas Jorio
+originalDeveloper: Pangea Software
+year: 2000
+desc:
+  es: "Cro-Mag Rally, el juego de carreras de Pangea Software de 2000 para Mac, puesto al día para Windows, macOS y Linux por Iliyas Jorio con permiso de Pangea. Es un port de la versión original para Mac OS 9 que quiere ser la mejor forma de jugarlo hoy: corrige fallos que estorbaban y añade algunas novedades en el espíritu del original, como pantalla partida para hasta cuatro jugadores en el mismo equipo (el original llegaba a dos), una interfaz con animaciones discretas y retocada para pantallas panorámicas, un cronómetro opcional en las carreras con tabla de récords, la opción de cambiar la ropa del personaje en la pantalla de selección, una fuente proporcional con los acentos de todos los idiomas del juego y un editor de físicas con nuevo aspecto. Falta el multijugador en red por NetSprockets de la versión para OS 9. La 3.0.0 (27 de junio de 2022) fue la primera versión del port, y la última, la 3.0.1 (7 de febrero de 2024), trajo controles reasignables para el stick izquierdo y la cruceta, Retina y el modo de juego de macOS Sonoma en Mac, Wayland en Linux y mejores traducciones al italiano y al español. Desde entonces el código pasó a SDL 3, aún sin versión publicada. Las descargas, gratuitas o a precio libre en itch.io, traen el juego completo, que el autor publica con licencia CC BY-NC-SA 4.0 con permiso de Pangea Software."
+  en: "Cro-Mag Rally, Pangea Software’s 2000 racing game for the Mac, updated for Windows, macOS, and Linux by Iliyas Jorio with Pangea’s permission. It’s a port of the original Mac OS 9 version that aims to be the best way to play it today: it fixes bugs that got in the way and adds a few new features in the spirit of the original, such as split screen for up to four players on one computer (the original topped out at two), a subtly animated interface tweaked for widescreen displays, an optional race timer with a scoreboard, the option to change the character’s outfit on the selection screen, a proportional font with the accented characters of every language in the game, and a restyled physics editor. The OS 9 version’s NetSprockets network multiplayer is missing. 3.0.0 (June 27, 2022) was the port’s first release, and the latest, 3.0.1 (February 7, 2024), brought rebindable left stick and D-pad controls, Retina and macOS Sonoma Game Mode support on the Mac, Wayland on Linux, and better Italian and Spanish translations. Since then the code has moved to SDL 3, not yet in a release. The downloads, free or pay-what-you-want on itch.io, include the whole game, which the author publishes under the CC BY-NC-SA 4.0 license with permission from Pangea Software."
+requirements:
+  es: "Ninguna copia: el juego se publica completo con permiso de Pangea Software, y cada descarga ya trae sus datos. Además, Windows, macOS o Linux (x86-64 o ARM64)."
+  en: "No copy needed: the game is published in full with permission from Pangea Software, and each download already includes its data. Plus Windows, macOS, or Linux (x86-64 or ARM64)."
+tags:
+  - racing
+  - multiplayer
+  - widescreen
+links:
+  - label:
+      es: "Descargas en itch.io"
+      en: "Downloads on itch.io"
+    url: https://jorio.itch.io/cromagrally

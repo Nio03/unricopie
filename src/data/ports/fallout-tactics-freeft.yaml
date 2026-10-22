@@ -1,0 +1,17 @@
+name: "Fallout Tactics (FreeFT)"
+category: fan-remake
+console: pc
+status: experimental
+repo: nadult/FreeFT
+author: Krzysztof Jakubowski
+originalDeveloper: Micro Forte
+year: 2001
+desc:
+  es: "FreeFT: motor de acción isométrico en tiempo real, de código abierto, muy inspirado en Fallout Tactics, el juego de 2001 del estudio australiano Micro Forte, y que funciona con sus recursos: los gráficos, los sonidos y los mapas salen de tu instalación del juego. No reimplementa la campaña: lo que hay es un juego de acción en tiempo real sobre los mapas originales, con movimiento, disparos y combate cuerpo a cuerpo, inventario, enemigos con una IA sencilla, multijugador con bots y un servidor de partidas, y un editor de mapas y de entidades; los mapas del proyecto son parches sobre los del juego original. El README avisa de que está lejos de terminarse y no se desarrolla de forma activa, y de que le faltan, entre otras cosas, la iluminación, los elementos de rol, los diálogos y los scripts. Nació en 2013 y publicó varias demos técnicas, y en 2025 su autor lo actualizó a su biblioteca libfwk, lo pasó a CMake y montó compilaciones automáticas para Windows y Linux en GitHub; las únicas versiones compiladas que publica son demos técnicas antiguas para Windows, en SourceForge (las últimas, de febrero de 2015)."
+  en: "FreeFT: an open-source, real-time isometric action game engine strongly inspired by Fallout Tactics, Australian studio Micro Forte’s 2001 game, that runs on its assets: the graphics, sounds, and maps come from your installed copy of the game. It doesn’t reimplement the campaign: what’s there is a real-time action game on the original maps, with movement, shooting and melee combat, an inventory, enemies with simple AI, multiplayer with bots and a lobby server, and a map and entity editor; the project’s own maps are patches on top of the original game’s. The README warns that it’s far from finished and not actively developed, and that it lacks, among other things, lighting, RPG elements, dialogue, and scripting. It started in 2013 and put out several tech demos, and in 2025 its author updated it to their libfwk library, moved it to CMake, and set up automated Windows and Linux builds on GitHub; the only compiled releases it publishes are old Windows tech demos on SourceForge (the latest from February 2015)."
+requirements:
+  es: "Tu propia copia de Fallout Tactics instalada (el README cita GOG, Steam y Epic). Su programa convert pide la ruta del juego y convierte los recursos en unos minutos; en Linux se le pasa la carpeta de la instalación de Wine. Además, Windows o Linux, compilándolo con CMake."
+  en: "Your own installed copy of Fallout Tactics (the README mentions GOG, Steam, and Epic). Its convert program asks for the game’s path and converts the resources in a few minutes; on Linux you point it at the Wine install folder. Plus Windows or Linux, building it with CMake."
+tags:
+  - x86
+  - multiplayer

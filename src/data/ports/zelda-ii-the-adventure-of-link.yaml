@@ -1,0 +1,21 @@
+name: "Zelda II: The Adventure of Link"
+category: game-engine
+console: nes
+status: playable
+repo: troyedwardsjr/z2rs
+originalDeveloper: Nintendo
+year: 1988
+desc:
+  es: "z2rs: reconstrucción de Zelda II: The Adventure of Link en Rust que funciona en Windows, macOS y Linux, y también en Android y en el navegador. Todavía no es una reimplementación independiente: ejecuta tu ROM en un intérprete de 6502 propio y, cuando el juego llama a una rutina que ya tiene versión en Rust, ejecuta esa en su lugar. Para comprobarlo, el juego original corre en un emulador de referencia junto a z2rs, y los dos tienen que coincidir fotograma a fotograma en memoria, sprites, paleta e imagen. Los gráficos, mapas, textos y música se leen de tu ROM mientras juegas; el repositorio solo guarda direcciones y tamaños, se apoya en el desensamblado comunitario del juego, publicado con licencia CC0, y explica en su archivo PROVENANCE.md de dónde sale cada archivo. Añade pantalla ancha con escenario real en los márgenes (16:10, 16:9 y 21:9), paquetes de gráficos HD de 2x a 8x pintados por los jugadores, cooperativo para dos con un segundo Link en el mismo equipo o en línea, estados de guardado, avance rápido, mando, un generador de partidas aleatorias a partir de tu ROM y mejoras opcionales, muchas inspiradas en ZALiA, el remake de HoverBat. Todo se configura desde un lanzador. Se publicó el 18 de septiembre, y la versión 0.6.0 (22 de octubre) sumó zonas nuevas opcionales, entre ellas una isla con un pueblo de monstruos y un octavo palacio, animaciones HD para enemigos y vecinos, y zum de cámara."
+  en: "z2rs: a Rust reconstruction of Zelda II: The Adventure of Link that runs on Windows, macOS, and Linux, as well as Android and the browser. It isn’t a standalone reimplementation yet: it runs your ROM in its own 6502 interpreter and, whenever the game calls a routine that already has a Rust version, runs that instead. To check the work, the original game runs in a reference emulator next to z2rs, and the two must match frame by frame in memory, sprites, palette, and picture. Graphics, maps, text, and music are read from your ROM as you play; the repository only holds addresses and sizes, relies on the community disassembly of the game, released under CC0, and its PROVENANCE.md file explains where every file comes from. It adds widescreen with real scenery in the margins (16:10, 16:9, and 21:9), player-painted HD graphics packs at 2x to 8x, two-player co-op with a second Link on one machine or online, save states, fast-forward, controller support, a randomizer that builds a new game from your ROM, and optional enhancements, many inspired by HoverBat’s ZALiA remake. Everything is set up from a launcher. It was released on September 18, and version 0.6.0 (October 22) added optional new areas, among them an island with a town of monsters and an eighth palace, HD animations for enemies and townspeople, and camera zoom."
+requirements:
+  es: "Tu propia ROM de Zelda II: The Adventure of Link, la versión estadounidense de NES (la de No-Intro: sin la cabecera iNES, CRC32 BA322865 y SHA-1 11333adb723a5975e0ecca3aee8f4747aa8d2d26); es la única que acepta. Además, Windows x64, macOS (Apple Silicon o Intel) o Linux x86-64."
+  en: "Your own ROM of Zelda II: The Adventure of Link, the US NES release (the No-Intro dump: without the iNES header, CRC32 BA322865 and SHA-1 11333adb723a5975e0ecca3aee8f4747aa8d2d26); it’s the only one accepted. Plus x64 Windows, macOS (Apple silicon or Intel), or x86-64 Linux."
+tags:
+  - "6502"
+  - zelda
+  - widescreen
+  - multiplayer
+  - online
+  - netplay
+  - mods

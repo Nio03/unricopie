@@ -1,0 +1,22 @@
+name: Mighty Mike
+category: source-port
+console: mac
+status: fully
+repo: jorio/MightyMike
+author: Iliyas Jorio
+originalDeveloper: Pangea Software
+year: 1995
+desc:
+  es: "Mighty Mike, el juego de acción con vista cenital de Pangea Software ambientado en una juguetería, puesto al día para Windows, macOS y Linux por Iliyas Jorio. Salió para Mac en 1995 con el nombre de Power Pete y se relanzó como Mighty Mike en 2000. Quiere ser lo más fiel posible al original en jugabilidad y gráficos, con algunas mejoras: modo panorámico, fotogramas sin tope con movimiento interpolado y control de doble stick con mando. La 3.0.0 (12 de abril de 2021) lo hizo funcionar en sistemas actuales; la 3.0.1 sumó una opción que pasa los colores del perfil Apple RGB, para el que se hizo el juego, a sRGB, y un zoom máximo para la ventana, y la 3.0.2 (28 de enero de 2023), un renderizador propio sobre OpenGL y versiones para Linux ARM64 y para Mac OS X Tiger en PowerPC, con un arreglo solo para Windows el 5 de febrero. Desde entonces el código pasó a SDL 3, aún sin versión publicada, y la próxima versión pedirá macOS 10.13. Las descargas, gratuitas o a precio libre en itch.io, traen el juego completo, que el autor publica con licencia CC BY-NC-SA 4.0 con permiso de Pangea Software."
+  en: "Mighty Mike, Pangea Software’s top-down action game set in a toy store, updated for Windows, macOS, and Linux by Iliyas Jorio. It came out for the Mac in 1995 as Power Pete and was re-released as Mighty Mike in 2000. It aims to stay as faithful as possible to the original in gameplay and graphics, with a few enhancements: a widescreen mode, an uncapped frame rate with movement interpolation, and twin-stick controller support. Version 3.0.0 (April 12, 2021) made it work on modern systems; 3.0.1 added an option that remaps colors from the Apple RGB profile the game was made for to sRGB, and a maximum windowed zoom setting; and 3.0.2 (January 28, 2023) added its own OpenGL-based renderer and builds for ARM64 Linux and for Mac OS X Tiger on PowerPC, with a Windows-only hotfix on February 5. Since then the code has moved to SDL 3, not yet in a release, and the next version will require macOS 10.13. The downloads, free or pay-what-you-want on itch.io, include the whole game, which the author publishes under the CC BY-NC-SA 4.0 license with permission from Pangea Software."
+requirements:
+  es: "Ninguna copia: el juego se publica completo con permiso de Pangea Software, y cada descarga ya trae sus datos. Además, Windows de 64 bits, macOS o Linux (x86-64 o ARM64)."
+  en: "No copy needed: the game is published in full with permission from Pangea Software, and each download already includes its data. Plus 64-bit Windows, macOS, or Linux (x86-64 or ARM64)."
+tags:
+  - widescreen
+  - 60fps+
+links:
+  - label:
+      es: "Descargas en itch.io"
+      en: "Downloads on itch.io"
+    url: https://jorio.itch.io/mightymike

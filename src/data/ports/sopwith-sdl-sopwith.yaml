@@ -1,0 +1,20 @@
+name: "Sopwith (SDL Sopwith)"
+category: source-port
+console: dos
+status: fully
+repo: fragglet/sdl-sopwith
+homepage: https://fragglet.github.io/sdl-sopwith
+author: Simon Howard
+originalDeveloper: BMB Compuscience
+year: 1984
+desc:
+  es: "SDL Sopwith: port de Sopwith, el juego de DOS de BMB Compuscience de los años 80 en el que pilotas un biplano Sopwith Camel para bombardear objetivos enemigos, basado en el código fuente que su programador original, David L. Clark, publicó en 2000 (no es una reescritura ni una recreación) y que hoy tiene licencia GPL 2. Usa SDL para la imagen y el sonido, que emula el altavoz del PC. Por defecto reproduce el comportamiento de Sopwith 2, más las novedades de la Author's Edition de Clark, como los aviones heridos, y se puede configurar para que se comporte como Sopwith 1. Cambia el multijugador original, que no funcionaba, por partidas para dos jugadores por TCP/IP, en red local o por internet. Añade paletas que imitan distintos monitores antiguos, medallas y tabla de récords, mandos (desde la 2.8.0) y archivos de misión .sop para niveles y mods, con objetivos y gráficos nuevos y la opción de sustituir los sprites, la música del título y, en la próxima versión, la pantalla de título. La última, la 2.9.0, es del 6 de diciembre de 2025. Publica versiones para Windows de 32 y 64 bits y macOS (Apple silicon e Intel), el código para compilarlo en Linux y otros sistemas, y una versión para navegador hecha con Emscripten que se juega en su web; como el juego es libre, no necesita ningún archivo aparte. El proyecto anuncia que deja de publicar la versión para macOS y remite a la de navegador."
+  en: "SDL Sopwith: a port of Sopwith, BMB Compuscience’s 1980s DOS game in which you fly a Sopwith Camel biplane to bomb enemy targets, based on the source code its original programmer, David L. Clark, released in 2000 (it’s not a rewrite or a recreation), now under the GPL 2. It uses SDL for video and sound, emulating the PC speaker. By default it behaves like Sopwith 2, plus the additions of Clark’s Author’s Edition such as wounded planes, and it can be set to behave like Sopwith 1. It replaces the original multiplayer, which didn’t work, with two-player games over TCP/IP, on a LAN or over the internet. It adds palettes that mimic various old monitors, medals and a high score table, gamepads (since 2.8.0), and .sop mission files for levels and mods, with new targets and graphics and the option to replace the sprites, the title music, and, in the next release, the title screen. The latest release, 2.9.0, is from December 6, 2025. It publishes builds for 32- and 64-bit Windows and macOS (Apple silicon and Intel), the source to build it on Linux and other systems, and an Emscripten browser version playable on its website; since the game is free, it needs no extra files. The project has announced that it’s dropping the macOS build and points Mac users to the browser version."
+requirements:
+  es: "Ninguna copia: el autor original publicó el código del juego, que hoy tiene licencia GPL 2, y todo lo necesario va incluido. Además, Windows de 32 o 64 bits, macOS, Linux u otro sistema con SDL donde se compile, o un navegador. Para jugar por internet hay que abrir el puerto TCP 3847."
+  en: "No copy needed: the original author released the game’s code, now under the GPL 2, and everything needed is included. Plus 32- or 64-bit Windows, macOS, Linux or another system with SDL where you build it, or a web browser. Playing over the internet requires forwarding TCP port 3847."
+tags:
+  - shmup
+  - multiplayer
+  - online
+  - mods

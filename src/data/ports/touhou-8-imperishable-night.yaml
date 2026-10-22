@@ -1,0 +1,27 @@
+name: "Touhou 8: Imperishable Night"
+category: decomp-port
+console: pc
+status: playable
+repo: N0zoM1z0/th08
+originalDeveloper: Team Shanghai Alice
+year: 2004
+desc:
+  es: "Reconstrucción del código fuente de Imperishable Night, el octavo juego de Touhou Project, en su versión japonesa 1.00d: C++ que, compilado con el Visual C++ .NET 2002 original, reproduce el código máquina del ejecutable. Según el proyecto, las 1107 funciones del juego tienen ya código fuente y 1106 son idénticas a las originales, el 99,92 % de los bytes; falta igualar el ejecutable completo, con su disposición y el código de bibliotecas enlazado. Además de la coincidencia, documenta el significado de las estructuras y de los códigos de operación de sus scripts. Sobre ese código se construyen los ports: el de Linux se puede jugar, en x86-64 (la versión recomendada, probada de principio a fin), i386 y AArch64 (experimental), y lee directamente th08.dat y thbgm.dat, sin el th08.exe original; el de Windows ya se ha compilado y jugado con el compilador original, pero le falta un paquete distribuible, y el de macOS está previsto. Un repositorio aparte, th08-web, lo compila a WebAssembly para jugarlo en el navegador con tus propios archivos. Continúa la reconstrucción de GensokyoClub/th08, cuyo historial conserva, después de que ese proyecto pasara a desarrollarse en privado. La última versión es la 0.2.1 (19 de septiembre), para Linux. Según su README, el trabajo nuevo lo hacen agentes de programación con IA, y el responsable dirige, revisa y publica; 38 de sus últimos 100 commits llevan el prefijo «gpt-6.1-sol»."
+  en: "A source reconstruction of Imperishable Night, the eighth Touhou Project game, in its Japanese 1.00d release: C++ that, compiled with the original Visual C++ .NET 2002, reproduces the executable’s machine code. According to the project, all 1,107 of the game’s functions now have source and 1,106 match the original exactly, 99.92% of the bytes; matching the whole executable, with its layout and linked library code, is still in progress. Beyond matching, it documents the meaning of the structures and of its script opcodes. The ports build on that code: the Linux one is playable, on x86-64 (the recommended build, tested start to finish), i386, and AArch64 (experimental), and reads th08.dat and thbgm.dat directly, without the original th08.exe; the Windows one has been built and played with the original compiler but still lacks a redistributable package, and macOS is planned. A separate repository, th08-web, compiles it to WebAssembly to play in the browser with your own files. It continues GensokyoClub/th08’s reconstruction, whose history it keeps, after that project moved to private development. The latest release is 0.2.1 (September 19), for Linux. According to its README, the new work is done by AI coding agents, while the maintainer sets direction, reviews, and publishes; 38 of its last 100 commits carry the “gpt-6.1-sol” prefix."
+requirements:
+  es: "La carpeta de datos de tu propia copia japonesa 1.00d de Touhou 8: Imperishable Night, con th08.dat y thbgm.dat. Además, Linux en x86-64, i386 o AArch64. Para la comparación exacta con el original hace falta el th08.exe japonés 1.00d (840 704 bytes), con el entorno de Visual Studio .NET 2002 bajo Wine o en Windows."
+  en: "The data folder from your own Japanese 1.00d copy of Touhou 8: Imperishable Night, with th08.dat and thbgm.dat. Plus Linux on x86-64, i386, or AArch64. The exact comparison with the original requires the Japanese 1.00d th08.exe (840,704 bytes), with the Visual Studio .NET 2002 environment under Wine or on Windows."
+tags:
+  - x86
+  - matching
+  - shmup
+  - ai-assisted
+links:
+  - label:
+      es: "Port para navegador (th08-web)"
+      en: "Browser port (th08-web)"
+    url: https://github.com/N0zoM1z0/th08-web
+  - label:
+      es: "Proyecto original (GensokyoClub)"
+      en: "Original project (GensokyoClub)"
+    url: https://github.com/GensokyoClub/th08

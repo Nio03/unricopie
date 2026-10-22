@@ -1,0 +1,18 @@
+name: EDGE-Classic
+category: source-port
+status: fully
+repo: edge-classic/EDGE-classic
+homepage: https://edge-classic.github.io/
+originalDeveloper: "id Software / Raven Software"
+year: 1993
+desc:
+  es: "EDGE-Classic: port de Doom que recupera el código de EDGE 1.35 para sistemas actuales, con funciones avanzadas, facilidad para crear mods y buen aspecto sin pedir un equipo potente. Además de Doom y Doom II ejecuta Heretic, Chex Quest y Chex Quest 3, HacX 1.2, Harmony y REKKR, y los IWAD libres de Freedoom y Blasphemer. Frente a EDGE 1.35 añade fotogramas sin tope, un renderizador nuevo con OpenGL 3.3 y GLES3 además del antiguo de OpenGL 1.3, recorrido del BSP en varios hilos, compatibilidad con Dehacked hasta MBF21, DSDehacked, Boom, UDMF y UMAPINFO, Lua como lenguaje de scripts principal (con una capa de compatibilidad para COAL), DDF y RTS ampliados, inventario, barra de estado, intermedios y pantallas de título panorámicos, reverberación dinámica opcional, MIDI con soundfonts, emulación OPL, muchos más formatos de música y sonido, y vídeo MPEG. Su README muestra mods hechos para él, como Operation: Arctic Wolf Revisited o Aliens: Stranded. La última versión es la 1.53 (11 de julio), con descargas para Windows de 32 y 64 bits y para Linux; en macOS y en BSD se compila desde el código. Su web tiene además una versión para navegador, que trae Freedoom Phase 2 y Blasphemer."
+  en: "EDGE-Classic: a Doom source port that revives the EDGE 1.35 codebase for modern systems, with advanced features, easy modding, and attractive visuals while keeping hardware requirements modest. Besides Doom and Doom II it runs Heretic, Chex Quest and Chex Quest 3, HacX 1.2, Harmony, and REKKR, plus the free Freedoom and Blasphemer IWADs. Compared with EDGE 1.35 it adds an uncapped frame rate, a new renderer with OpenGL 3.3 and GLES3 alongside the legacy OpenGL 1.3 one, multithreaded BSP traversal, Dehacked support up to MBF21, DSDehacked, Boom, UDMF, and UMAPINFO, Lua as its main scripting language (with a COAL compatibility layer), expanded DDF and RTS, an inventory system, widescreen status bar, intermission, and title screens, optional dynamic reverb, soundfont MIDI, OPL emulation, many more music and sound formats, and MPEG video. Its README showcases mods made for it, such as Operation: Arctic Wolf Revisited and Aliens: Stranded. The latest release is 1.53 (July 11), with downloads for 32- and 64-bit Windows and for Linux; on macOS and the BSDs you build it from source. Its website also has a browser version, which comes with Freedoom Phase 2 and Blasphemer."
+requirements:
+  es: "Los archivos de datos (IWAD) de tu propia copia de Doom, Doom II, Heretic u otro de los juegos que admite; con los IWAD libres de Freedoom o Blasphemer no hace falta ninguna copia. Además, Windows 7 o posterior, Linux (x86 o ARM), macOS (Intel o Apple Silicon) o BSD."
+  en: "The data files (IWADs) from your own copy of Doom, Doom II, Heretic, or another supported game; with the free Freedoom or Blasphemer IWADs no copy is needed. Plus Windows 7 or later, Linux (x86 or ARM), macOS (Intel or Apple silicon), or BSD."
+tags:
+  - fps
+  - mods
+  - 60fps+
+  - widescreen

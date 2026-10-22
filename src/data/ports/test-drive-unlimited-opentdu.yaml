@@ -1,0 +1,19 @@
+name: "Test Drive Unlimited (OpenTDU)"
+category: decomp-port
+console: pc
+status: experimental
+repo: opentestdriveunlimited/OpenTestDriveUnlimited
+originalDeveloper: Eden Games
+year: 2007
+desc:
+  es: "OpenTDU: port de la versión de PC de Test Drive Unlimited hecho por ingeniería inversa: las estructuras, clases y funciones se reconstruyen en Ghidra a partir del ejecutable x86 original y se reescriben en C++17. Quiere ser un cliente nuevo que corrija los problemas del juego en sistemas actuales (IA, gráficos, seguridad) y que funcione en varias plataformas: los gráficos pasan de Direct3D 9 a Vulkan, con partes de DXVK, y hay versiones nocturnas para Windows de 32 y 64 bits (también para Windows 7), Linux x86-64 y macOS con Apple Silicon. Está en desarrollo, y su progreso se mide por modos de juego: ya están hechos, entre otros, la conducción libre, el mapa, la casa, los concesionarios, el garaje, el taller, la tienda de ropa, las inmobiliarias, el inicio de sesión y el paseo en barco, y siguen en curso las misiones, los desafíos, el club, el lobby y la introducción. Tiene modo ventana, límite de fotogramas ajustable, contador de fotogramas y menús de depuración, y en octubre sumó el tráfico, las motos, la vibración del mando y la vuelta automática a la carretera. La última versión nocturna es del 19 de octubre. Uno de sus últimos 100 commits, el que añadió la opción -car, lleva a Claude como coautor. El repositorio incluye unos 11 MB de zonas de navegación para los peatones, calculadas a partir de las carreteras de la IA del juego."
+  en: "OpenTDU: a port of the PC version of Test Drive Unlimited made by reverse engineering: structures, classes, and functions are reconstructed in Ghidra from the original x86 executable and rewritten in C++17. It aims to be a new client that fixes the game’s problems on modern systems (AI, rendering, security) and runs on several platforms: graphics move from Direct3D 9 to Vulkan, with parts of DXVK, and there are nightly builds for 32- and 64-bit Windows (also for Windows 7), x86-64 Linux, and Apple silicon macOS. It’s a work in progress, and progress is tracked by game mode: done so far are, among others, free ride, the map, the home, the car dealerships, the garage, the tuning shop, the clothes shop, the real estate agencies, the login screen, and the boat tour, while missions, challenges, the club, the lobby, and the intro are still in progress. It has windowed mode, an adjustable frame rate cap, an FPS counter, and debug menus, and in October it added traffic, motorbikes, controller rumble, and the back-on-track reset. The latest nightly build is from October 19. One of its last 100 commits, the one that added the -car option, lists Claude as a co-author. The repository includes about 11 MB of pedestrian navigation zones, computed from the game’s AI roads."
+requirements:
+  es: "Tu propia copia de Test Drive Unlimited para PC, en la versión que el proyecto llama MC 1.66A. El ejecutable de OpenTDU y su carpeta EURO se copian en la carpeta del juego, y esa carpeta EURO se fusiona con la original, sin sustituirla. Además, Windows (también Windows 7), Linux x86-64 o macOS con Apple Silicon, y una tarjeta gráfica con Vulkan."
+  en: "Your own copy of Test Drive Unlimited for PC, in the version the project calls MC 1.66A. The OpenTDU executable and its EURO folder are copied into the game folder, and that EURO folder is merged with the original one, not replacing it. Plus Windows (also Windows 7), x86-64 Linux, or Apple silicon macOS, and a Vulkan graphics card."
+tags:
+  - x86
+  - racing
+  - vulkan
+  - reverse-engineering
+  - ai-assisted

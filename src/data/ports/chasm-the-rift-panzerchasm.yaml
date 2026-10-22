@@ -1,0 +1,17 @@
+name: "Chasm: The Rift (PanzerChasm)"
+category: fan-remake
+console: dos
+status: playable
+repo: Panzerschrek/Chasm-Reverse
+originalDeveloper: Action Forms
+year: 1997
+desc:
+  es: "PanzerChasm: recreación libre de Chasm: The Rift, el shooter en primera persona de Action Forms de 1997 para DOS, escrita desde cero en C++ con SDL2; carga los datos del juego desde el archivo CSM.BIN de tu instalación. El repositorio, Chasm-Reverse, incluye además herramientas para desempaquetar y convertir los archivos del juego (archivos comprimidos, modelos, mapas, paletas) y documentación de sus formatos, en ruso. Tiene dos renderizadores, uno por software y otro con OpenGL 3.3 (con sombras, iluminación dinámica, filtrado de texturas y MSAA), guardar y cargar partida, las escenas cinemáticas, minimapa, una consola de comandos y juego en red, con un diseño de cliente y servidor. También carga la versión rusa de los datos y el add-on del juego. Su lista de tareas aún recoge detalles de la lógica del juego por ajustar, como los jefes, y mejoras del juego en red. La última versión, la 0.3, es del 3 de diciembre de 2017 y mejoró el juego en red; desde entonces el proyecto solo ha recibido arreglos de compilación y, en abril de 2024, compatibilidad con macOS."
+  en: "PanzerChasm: a free recreation of Chasm: The Rift, Action Forms’ 1997 first-person shooter for DOS, written from scratch in C++ with SDL2; it loads the game data from the CSM.BIN file in your installation. The repository, Chasm-Reverse, also includes tools to unpack and convert the game’s files (archives, models, maps, palettes) and documentation of its formats, in Russian. It has two renderers, a software one and an OpenGL 3.3 one (with shadows, dynamic lighting, texture filtering, and MSAA), saving and loading, the cutscenes, a minimap, a command console, and network play built on a client-server design. It also loads the Russian version of the data and the game’s add-on. Its task list still includes game logic details to refine, such as the bosses, and network play improvements. The latest release, 0.3, is from December 3, 2017, and improved network play; since then the project has only received build fixes and, in April 2024, macOS support."
+requirements:
+  es: "El archivo CSM.BIN de tu propia copia de Chasm: The Rift para DOS; en la versión de GOG hay que montar la imagen de CD del juego original (CHASMPR.CUE) e instalarla con su dossetup.exe para obtenerlo. Para el add-on, sus archivos. Además, teclado y ratón, al menos 128 MB de memoria, un sistema con SDL2 (Windows, Linux o macOS, compilándolo con CMake) y, para el modo OpenGL, una tarjeta gráfica con OpenGL 3.3."
+  en: "The CSM.BIN file from your own copy of Chasm: The Rift for DOS; with the GOG release, you mount the original game’s CD image (CHASMPR.CUE) and install it with its dossetup.exe to get it. For the add-on, its files. Plus a keyboard and mouse, at least 128 MB of memory, a system with SDL2 (Windows, Linux, or macOS, building it with CMake), and, for OpenGL mode, a graphics card with OpenGL 3.3."
+tags:
+  - fps
+  - multiplayer
+  - reverse-engineering

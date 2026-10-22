@@ -1,0 +1,20 @@
+name: Little Big Adventure 2
+category: source-port
+console: dos
+status: playable
+repo: LBALab/lba2-classic-community
+originalDeveloper: Adeline Software International
+year: 1997
+desc:
+  es: "LBA2 Classic Community: fork comunitario del código fuente de Little Big Adventure 2 (Twinsen's Odyssey) que publicó 2.21, la dueña de la serie, un código sobre todo en ensamblador con la lógica del juego en C++. El fork lo lleva a 64 bits y a compiladores modernos, va pasando a C++ el ensamblador, con pruebas que comparan las dos versiones, cambia el Miles Sound System por SDL3 y reproduce los vídeos con libsmacker; publica compilaciones para Windows, Linux, macOS y Android. Añade pantalla ancha y resoluciones de hasta 1080p sin quitar el modo original de 640×480, movimiento independiente de la tasa de fotogramas con una simulación fija a 60 Hz, mando con controles reasignables, una cámara opcional en tercera persona para los exteriores, filtrado de texturas opcional y una consola de depuración. Lee los datos directamente de una imagen ISO/BIN o .cue, y carga las partidas del juego de 1997. Toma como referencia la versión original de DOS: sus fallos solo se corrigen si el jugador lo activa en las opciones. Aún no ha llegado a la 1.0, y las versiones no se prueban con una partida completa; la última es la 0.13.2 (22 de octubre). Su README acepta contribuciones hechas con ayuda de asistentes de IA, y el repositorio incluye instrucciones para ellos; ninguno de sus últimos 100 commits lleva a una IA como coautor. Para sus pruebas, el repositorio incluye 16 grabaciones de fotogramas del juego (unos 18 MB) con las texturas y la paleta que se dibujaban en ellos."
+  en: "LBA2 Classic Community: a community fork of the Little Big Adventure 2 (Twinsen’s Odyssey) source code released by 2.21, the series’ owner, code that is mostly assembly with the game logic in C++. The fork brings it to 64-bit and modern compilers, has been porting the assembly to C++, with tests that compare both versions, replaces the Miles Sound System with SDL3, and plays the videos with libsmacker; it publishes builds for Windows, Linux, macOS, and Android. It adds widescreen and resolutions up to 1080p while keeping the original 640×480 mode, frame-rate-independent movement with a fixed 60 Hz simulation, controller support with rebindable controls, an optional third-person camera outdoors, optional texture filtering, and a debug console. It reads the data straight from an ISO/BIN or .cue image, and loads saves from the 1997 game. The original DOS release is its reference: that version’s bugs are only fixed if the player turns that on in the options. It hasn’t reached 1.0 yet, and releases aren’t tested with a full playthrough; the latest is 0.13.2 (October 22). Its README accepts contributions made with AI assistants, and the repository includes instructions for them; none of its last 100 commits lists an AI as a co-author. For its tests, the repository includes 16 recordings of game frames (about 18 MB) with the textures and palette drawn in them."
+requirements:
+  es: "Tu propia copia de Little Big Adventure 2: la de GOG, la de Steam o el CD original, también como imagen ISO/BIN o .cue; el juego busca la carpeta con LBA2.HQR. Además, Windows x64, Linux x86-64 o ARM64, o macOS 11 o posterior (Apple Silicon o Intel)."
+  en: "Your own copy of Little Big Adventure 2: the GOG or Steam release or the original CD, also as an ISO/BIN or .cue image; the game looks for the folder with LBA2.HQR. Plus x64 Windows, x86-64 or ARM64 Linux, or macOS 11 or later (Apple silicon or Intel)."
+tags:
+  - widescreen
+links:
+  - label:
+      es: "Código original publicado por 2.21"
+      en: "Original source release by 2.21"
+    url: https://github.com/2point21/lba2-classic

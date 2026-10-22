@@ -1,0 +1,21 @@
+name: MechCommander 2
+category: source-port
+console: pc
+status: fully
+repo: alariq/mc2
+homepage: https://alariq.github.io/mc2-website/
+originalDeveloper: FASA Interactive
+year: 2001
+desc:
+  es: "Port de MechCommander 2 a Linux y Windows de 64 bits, con OpenGL. Microsoft publicó el código del juego con una licencia Shared Source, pero no el de su motor, GameOS, que venía solo como bibliotecas compiladas; este proyecto escribe un motor nuevo a partir de sus archivos de cabecera. Según su autor, funciona todo salvo el juego en red, el juego se ha terminado de principio a fin en Linux y se han corregido muchos fallos, también del juego original. El sonido no está completo (sin panorámica ni efecto Doppler), y entre lo pendiente están los vídeos, algunas fugas de memoria y pasar toda la iluminación a shaders. El autor da el proyecto por terminado de momento y avisa de que, por la guerra en Ucrania, tiene poco tiempo para él; aun así, los últimos commits son de agosto. No publica binarios: el juego se compila desde el código, y los datos se generan con herramientas del propio proyecto a partir del repositorio mc2srcdata. Su README declara que no tiene código escrito por modelos de lenguaje y que no quiere contribuciones generadas con IA."
+  en: "A port of MechCommander 2 to 64-bit Linux and Windows, with OpenGL. Microsoft released the game’s code under a Shared Source license, but not the code of its engine, GameOS, which came only as prebuilt libraries; this project writes a new engine from its header files. According to its author, everything works except networking, the game has been played through on Linux, and many bugs have been fixed, including some from the original game. Sound isn’t complete (no panning or Doppler effect), and what’s left includes movies, some memory leaks, and moving all lighting to shaders. The author considers the project finished for now and notes that, because of the war in Ukraine, there’s little time to support it; even so, the latest commits are from August. It ships no binaries: the game is built from source, and the data is generated with the project’s own tools from the mc2srcdata repository. Its README states that it contains no code written by language models and that AI-generated contributions aren’t welcome."
+requirements:
+  es: "No hace falta una copia del juego: Microsoft publicó su código y sus datos, con permiso para distribuir el arte sin fines comerciales. Los datos se descargan del repositorio mc2srcdata (con git-lfs) y se preparan con las herramientas que se compilan junto al juego. Además, Linux o Windows de 64 bits; para compilarlo, CMake, SDL2 con SDL2_mixer y SDL2_ttf, zlib y GLEW."
+  en: "No copy of the game is needed: Microsoft released its code and data, with permission to distribute the art for non-commercial use. The data is fetched from the mc2srcdata repository (with git-lfs) and prepared with tools built alongside the game. Plus 64-bit Linux or Windows; to build it, CMake, SDL2 with SDL2_mixer and SDL2_ttf, zlib, and GLEW."
+tags:
+  - human-driven
+links:
+  - label:
+      es: "Datos del juego (mc2srcdata)"
+      en: "Game data (mc2srcdata)"
+    url: https://github.com/alariq/mc2srcdata

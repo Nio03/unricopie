@@ -1,0 +1,27 @@
+name: "Quake 4 (openQ4)"
+category: source-port
+console: pc
+status: playable
+repo: themuffinator/openQ4
+originalDeveloper: Raven Software
+year: 2005
+desc:
+  es: "openQ4: sustituye el motor y las bibliotecas de juego de Quake 4 por un motor con licencia GPL, que parte del código de Doom 3 y Doom 3 BFG Edition que publicó id Software, y por el código de juego del SDK de Quake 4, que sigue sujeto a la licencia de ese SDK. Funciona con los archivos originales del juego y no admite los mods hechos sobre sus DLL originales. Está en beta. Va a cualquier resolución, en ultrapanorámico y con varios monitores, y en pantallas de 144 o 240 Hz dibuja la cámara, las armas y los objetos interpolados entre los 60 ciclos por segundo del juego sin cambiar sus tiempos. Añade efectos opcionales (bloom, HDR, antialiasing, partículas suaves, iluminación indirecta precalculada, sombreado cel, filtro CRT y mapas de sombras), una interfaz nueva junto a la clásica, líquidos en los que nadar en mapas hechos para ellos, audio por OpenAL con la reverberación del juego y sonido 3D para auriculares, volumen de diálogos aparte y subtítulos, mando, un modo experimental de realidad virtual para visores de PC, menús en doce idiomas, una campaña de arena con bots, la campaña de Quake 4: The Awakening, una expansión inacabada que no llegó a publicarse, si aportas su contenido, multijugador con navegador de servidores, bots y chat de voz, una biblioteca y un reproductor de demos, un renderizador Vulkan (estable en Windows y experimental en Linux y macOS) y materiales PBR para mods. Hay paquetes para Windows, Linux, Steam Deck y macOS con Apple Silicon (en pruebas), además de una APK experimental para Android. La última versión etiquetada es la 0.14.000 (12 de octubre). Su README se presenta como «proudly vibecoded», es decir, programado con IA, y uno de sus últimos 100 commits lleva a Claude como coautor. El repositorio incluye los textos del juego (diálogos y objetivos) en inglés y otros idiomas, y unos 3 GB de datos generados a partir de los mapas del juego: iluminación precalculada e imágenes para las pantallas de carga tomadas dentro de los propios mapas."
+  en: "openQ4: it replaces Quake 4’s engine and game libraries with a GPL-licensed engine, based on the Doom 3 and Doom 3 BFG Edition code that id Software released, and with game code from the Quake 4 SDK, which remains under that SDK’s license. It runs with the game’s original files and doesn’t support mods built on its original DLLs. It’s in beta. It runs at any resolution, on ultrawide and multi-monitor setups, and on 144 or 240 Hz displays it draws the camera, weapons, and objects interpolated between the game’s 60 ticks per second without changing its timing. It adds optional effects (bloom, HDR, anti-aliasing, soft particles, baked indirect lighting, cel shading, a CRT filter, and shadow maps), a new interface alongside the classic one, swimmable liquids in maps built for them, OpenAL audio with the game’s reverb and 3D headphone sound, a separate dialogue volume and subtitles, controller support, an experimental virtual reality mode for PC headsets, menus in twelve languages, an arena campaign with bots, the campaign of Quake 4: The Awakening, an unfinished expansion that was never released, if you supply its content, multiplayer with a server browser, bots, and voice chat, a demo library and player, a Vulkan renderer (stable on Windows and experimental on Linux and macOS), and PBR materials for mods. There are packages for Windows, Linux, Steam Deck, and Apple silicon macOS (preview), plus an experimental Android APK. The latest tagged version is 0.14.000 (October 12). Its README calls it “proudly vibecoded,” meaning written with AI, and one of its last 100 commits lists Claude as a co-author. The repository includes the game’s text (dialogue and objectives) in English and other languages, and about 3 GB of data generated from the game’s maps: baked lighting and loading screen images captured inside the maps themselves."
+requirements:
+  es: "Tu propia copia de Quake 4 para PC, de Steam o de GOG: la carpeta q4base completa, con el archivo de idioma sin número (como zpak_english.pk4); The Awakening necesita además su contenido, que se instala aparte. Además, Windows 7 o posterior (x64; ARM64 en pruebas), Linux de 64 bits (x86-64, o ARM64 en pruebas), SteamOS 3 en Steam Deck o macOS 11 o posterior con Apple Silicon (en pruebas); un procesador de 64 bits, 4 GB de RAM, una tarjeta gráfica con OpenGL de perfil de compatibilidad y unos 12 GB libres."
+  en: "Your own copy of Quake 4 for PC, from Steam or GOG: the complete q4base folder, with the unnumbered language archive (such as zpak_english.pk4); The Awakening also needs its own content, installed separately. Plus Windows 7 or later (x64; ARM64 experimental), 64-bit Linux (x86-64, or ARM64 as a preview), SteamOS 3 on Steam Deck, or macOS 11 or later on Apple silicon (preview); a 64-bit CPU, 4 GB of RAM, a graphics card with a compatibility-profile OpenGL driver, and about 12 GB of free space."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - widescreen
+  - 60fps+
+  - vulkan
+  - mods
+  - ai-assisted
+links:
+  - label:
+      es: "Página en ModDB"
+      en: "ModDB page"
+    url: https://www.moddb.com/mods/openq4

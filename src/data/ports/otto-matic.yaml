@@ -1,0 +1,22 @@
+name: Otto Matic
+category: source-port
+console: mac
+status: fully
+repo: jorio/OttoMatic
+author: Iliyas Jorio
+originalDeveloper: Pangea Software
+year: 2001
+desc:
+  es: "Otto Matic, el juego de Pangea Software de 2001 para Mac, puesto al día para Windows, macOS y Linux por Iliyas Jorio con permiso de Pangea. Salió como aplicación Carbon para Mac OS 9 y Mac OS X, venía incluido con algunos Mac de la época y más tarde se portó a los Mac Intel de 32 bits, pero dejó de funcionar cuando macOS 10.15 abandonó las aplicaciones de 32 bits y, con ellas, Carbon; la última versión oficial de Pangea fue la 3.0.9, de febrero de 2008. La 4.0.0 (21 de agosto de 2021) lo llevó a los sistemas actuales con la interfaz y las escenas rehechas para pantalla panorámica, soporte de mandos actuales, menús nuevos y muchos arreglos de juego y visuales. La 4.0.1 (31 de enero de 2023), la última publicada, estabilizó la física para jugar a tasas de fotogramas altas, con el tope sin sincronización vertical subido de 100 a 500 fps, y añadió texturas del terreno sin costuras, movimientos más suaves, opciones para centrar y escalar la barra de información y para desactivar el giro automático de la cámara detrás de Otto, Retina en Mac, una versión para Linux ARM64, abducciones más justas para que se pueda rescatar a todos los humanos y arreglos de bloqueos y de fallos concretos de cada nivel. Desde entonces el código pasó a SDL 3, aún sin versión publicada. Quiere ser fiel al original, con ligeros retoques en la presentación y el control. Las descargas son gratuitas y traen el juego completo, que el autor publica con licencia CC BY-NC-SA 4.0 con permiso de Pangea Software; en itch.io se puede pagar lo que quieras."
+  en: "Otto Matic, Pangea Software’s 2001 Mac game, updated for Windows, macOS, and Linux by Iliyas Jorio with Pangea’s permission. It came out as a Carbon app for Mac OS 9 and Mac OS X, shipped bundled with some Macs of the time, and was later ported to 32-bit Intel Macs, but it stopped working when macOS 10.15 dropped 32-bit apps and, with them, Carbon; Pangea’s last official release was 3.0.9, from February 2008. Version 4.0.0 (August 21, 2021) brought it to modern systems with the UI and scenes reworked for widescreen, modern controller support, new menus, and many gameplay and cosmetic fixes. 4.0.1 (January 31, 2023), the latest release, stabilized the physics for high frame rates, raising the non-vsync cap from 100 to 500 fps, and added seamless terrain texturing, smoother motion, settings to center and scale the infobar and to turn off automatic camera alignment behind Otto, Retina on the Mac, an ARM64 Linux build, fairer saucer abductions so every human can be rescued, and fixes for softlocks and level-specific bugs. Since then the code has moved to SDL 3, not yet in a release. It aims to stay faithful to the original, with slight updates to presentation and handling. The downloads are free and include the whole game, which the author publishes under the CC BY-NC-SA 4.0 license with permission from Pangea Software; on itch.io you can pay what you want."
+requirements:
+  es: "Ninguna copia: el juego se publica completo con permiso de Pangea Software, y cada descarga ya trae sus datos. Además, Windows (x86-64), macOS o Linux (x86-64 o ARM64)."
+  en: "No copy needed: the game is published in full with permission from Pangea Software, and each download already includes its data. Plus Windows (x86-64), macOS, or Linux (x86-64 or ARM64)."
+tags:
+  - widescreen
+  - 60fps+
+links:
+  - label:
+      es: "Descargas en itch.io"
+      en: "Downloads on itch.io"
+    url: https://jorio.itch.io/ottomatic

@@ -1,0 +1,16 @@
+name: "Knytt Stories (YKnytt)"
+category: fan-remake
+console: pc
+status: playable
+repo: youkaicountry/yknytt
+author: "youkaicountry, up-left"
+originalDeveloper: Nifflas
+year: 2007
+desc:
+  es: "YKnytt: reimplementación de código abierto de Knytt Stories, el juego de plataformas y exploración de Nifflas (Nicklas Nygren), escrita en C# con Godot 3. Knytt Stories es gratuito, y YKnytt trae sus gráficos, su música, sus sonidos y sus tilesets, además de los niveles de Nifflas, como The Machine o An Underwater Adventure, y los tutoriales. Desde el propio programa se pueden buscar, filtrar, valorar y descargar los niveles que ha hecho la comunidad, y enviar tu última partida guardada cuando un nivel falla. Añade un modo de desplazamiento lateral con fondos en paralaje y una cámara que deja más espacio por delante de Juni, la vista ajustable a tu pantalla, un mapa a pantalla completa con marcadores y llaves de colores, guardado de emergencia, el tiempo total y las muertes de cada partida, soporte de mando y un modo portátil para llevarlo en un USB. Hay versiones para Windows, macOS y Linux (x64, y ARM64 para consolas portátiles, también en PortMaster), otra para Android y una versión web en itch.io. La última es la 0.7.3 beta (8 de julio, actualizada el 5 de agosto). Las notas de la 0.7.1 dicen que el código contiene una función generada con IA."
+  en: "YKnytt: an open-source reimplementation of Knytt Stories, Nifflas’s (Nicklas Nygren’s) exploration platformer, written in C# with Godot 3. Knytt Stories is freeware, and YKnytt comes with its graphics, music, sounds, and tilesets, plus Nifflas’s levels, such as The Machine or An Underwater Adventure, and the tutorials. From inside the program you can search, filter, rate, and download community-made levels, and send your latest save when a level breaks. It adds a side-scrolling mode with parallax backgrounds and a camera that leaves more room ahead of Juni, a viewport you can fit to your screen, a full-screen map with markers and colored keys, emergency saves, total time and deaths for each save, controller support, and a portable mode for running it from a USB drive. There are builds for Windows, macOS, and Linux (x64, and ARM64 for handhelds, also on PortMaster), one for Android, and a web version on itch.io. The latest is 0.7.3 beta (July 8, updated August 5). The 0.7.1 release notes say the code contains one AI-generated function."
+requirements:
+  es: "Ninguna copia: Knytt Stories es un juego gratuito de Nifflas, y YKnytt trae sus archivos y sus niveles; los de la comunidad se descargan desde el programa. Además, Windows, macOS o Linux (x64, o ARM64 en consolas portátiles)."
+  en: "No copy needed: Knytt Stories is a free game by Nifflas, and YKnytt comes with its files and levels; community levels are downloaded from inside the program. Plus Windows, macOS, or Linux (x64, or ARM64 on handhelds)."
+tags:
+  - ai-assisted
