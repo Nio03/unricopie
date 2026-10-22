@@ -1,0 +1,19 @@
+# pendiente también de la decisión 1: el repositorio incluye código generado
+name: "Mario's Tennis"
+console: virtualboy
+status: playable
+repo: mstan/MarioTennisVirtualBoyRecomp
+originalDeveloper: Nintendo R&D1 / Tose
+year: 1995
+toolchain: vbrecomp
+desc:
+  es: "Recompilación estática de Mario's Tennis de Virtual Boy con vbrecomp, el marco del mismo autor: el código V810 del cartucho se traduce a C una sola vez, función a función, y se compila a nativo, mientras la biblioteca de ejecución reimplementa el vídeo (VIP), el sonido (VSU), las interrupciones y los temporizadores. Se completa un partido entero contra la CPU, y la pantalla de título coincide píxel a píxel con Beetle VB; la 0.2.0 (29 de junio) corrigió la velocidad, que iba al doble, y la dejó en los 50,27 Hz de la consola. Muestra la imagen de un ojo o, con una opción, los dos apilados. Tiene el launcher recomp-ui con un tema propio de Virtual Boy, controles reasignables para teclado y mando y un catálogo de mods que no toca la ROM; desde la 0.2.2 (8 de septiembre) incluye un mod experimental, desactivado de serie, que colorea personajes, retratos, pista y marcador con máscaras de material sobre el arte original. La 0.2.3 (19 de octubre) llegó a las pistas con los siete personajes en individuales y en dobles. La descarga es para Windows de 64 bits; hubo versiones para Linux y macOS. El repositorio incluye el código C generado a partir de la ROM (unos 17 MB). 7 de sus 23 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Virtual Boy Mario’s Tennis with vbrecomp, the author’s own framework: the cartridge’s V810 code is translated to C once, function by function, and compiled to native code, while the runtime library reimplements video (VIP), sound (VSU), interrupts, and timers. A full match against the CPU completes, and the title screen matches Beetle VB pixel for pixel; version 0.2.0 (June 29) fixed the speed, which ran at double, and locked it to the console’s 50.27 Hz. It shows one eye’s image or, with an option, both stacked. It has the recomp-ui launcher with its own Virtual Boy theme, rebindable keyboard and controller input, and a mod catalog that leaves the ROM untouched; since 0.2.2 (September 8) it includes an experimental mod, off by default, that colors characters, portraits, court, and scoreboard using material masks over the original art. Version 0.2.3 (October 19) reached the courts with all seven characters in singles and doubles. The download is for 64-bit Windows; there were Linux and macOS builds. The repository includes the C code generated from the ROM (about 17 MB). 7 of its 23 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado del cartucho de Mario's Tennis para Virtual Boy (524 288 bytes, CRC32 7CE7460D, SHA-256 5dc5e6b5d5f538f56b3b9727db1c7931d9dfe1bbd0743f698897e0fd90e70101). Además, Windows de 64 bits."
+  en: "Your own Mario’s Tennis cartridge dump for Virtual Boy (524,288 bytes, CRC32 7CE7460D, SHA-256 5dc5e6b5d5f538f56b3b9727db1c7931d9dfe1bbd0743f698897e0fd90e70101). Plus 64-bit Windows."
+tags:
+  - v810
+  - mario
+  - mods
+  - ai-assisted

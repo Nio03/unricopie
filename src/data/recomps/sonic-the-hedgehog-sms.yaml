@@ -1,0 +1,17 @@
+name: "Sonic the Hedgehog (Master System)"
+console: sms
+status: experimental
+repo: mstan/SonicTheHedgehogSMSRecomp
+originalDeveloper: Ancient
+year: 1991
+toolchain: smsggrecomp
+desc:
+  es: "Recompilación estática del Sonic the Hedgehog de 8 bits para Master System con smsggrecomp, el marco del mismo autor para Master System y Game Gear: el código Z80 se traduce a C de antemano y se compila a nativo, mientras la biblioteca de ejecución simula el VDP, el sonido SN76489, los puertos y el mapper de Sega; los saltos que el análisis no resuelve pasan por un intérprete de Z80. Todas sus versiones son preliminares. La primera, del 23 de junio, arrancaba y dejaba jugar Green Hill Zone; la 0.0.3 (18 de octubre) entra, con ayuda, en 27 selecciones de nivel y de fase de bonus y en los dos finales hasta los créditos sin pasar por el intérprete, aunque una partida completa sin ayuda sigue sin comprobarse. Se arranca desde la línea de órdenes con la ruta de la ROM o arrastrando la ROM sobre Play.cmd. La descarga es para Windows de 64 bits. 9 de sus 14 commits llevan a Claude como coautor."
+  en: "A static recompilation of the 8-bit Sonic the Hedgehog for Master System with smsggrecomp, the author’s own framework for Master System and Game Gear: the Z80 code is translated to C ahead of time and compiled to native code, while the runtime library simulates the VDP, SN76489 sound, the ports, and the Sega mapper; jumps the analysis can’t resolve go through a Z80 interpreter. Every release is a pre-release. The first, from June 23, booted and let you play Green Hill Zone; 0.0.3 (October 18) enters, with assistance, 27 level and bonus-stage selections and both endings through the credits without touching the interpreter, though an unassisted full playthrough remains unverified. You launch it from the command line with the ROM path, or by dragging the ROM onto Play.cmd. The download is for 64-bit Windows. 9 of its 14 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Sonic the Hedgehog para Master System (la misma imagen en EE. UU., Europa y Brasil: CRC32 B519E833, 256 KB). Además, Windows de 64 bits."
+  en: "Your own Sonic the Hedgehog ROM for Master System (the same image in the US, Europe, and Brazil: CRC32 B519E833, 256 KB). Plus 64-bit Windows."
+tags:
+  - z80
+  - sonic
+  - ai-assisted

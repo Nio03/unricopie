@@ -1,0 +1,16 @@
+name: Mega Man 3
+console: nes
+status: experimental
+repo: mstan/Megaman3NESRecomp
+originalDeveloper: Capcom
+year: 1990
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática de Mega Man 3 de NES con nesrecomp, el marco del mismo autor: el código 6502 de la ROM se traduce a C y se compila a nativo, y la PPU, el APU y el mapper MMC3 se simulan en la biblioteca de ejecución. Su autor lo da por trabajo en curso: funcionan la pantalla de título, el menú, la selección de Robot Master y las fases con desplazamiento, enemigos, movimiento, salto y el disparo del Mega Buster, pero los combates contra jefes, las armas especiales y las contraseñas no se han probado y pueden bloquearse. La 0.1.1 (18 de octubre) amplió la cobertura nativa con recorridos asistidos por las fases de los Robot Masters, Doc Robot, Break Man, la fortaleza y el final, sin dar por comprobadas todas las victorias de la fortaleza. Tiene una opción para reducir las ralentizaciones que da más tiempo de CPU al juego sin cambiar el ritmo de la imagen ni del sonido. La 0.1.3 (19 de octubre) es para Windows de 64 bits; hubo versiones para Linux y macOS. El repositorio incluye, para compilar con el backend anterior, el código C generado a partir de la ROM (unos 103 MB). 79 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of the NES Mega Man 3 with nesrecomp, the author’s own framework: the ROM’s 6502 code is translated to C and compiled to native code, and the PPU, APU, and MMC3 mapper are simulated by the runtime library. Its author calls it a work in progress: the title screen, the menu, Robot Master select, and stages with scrolling, enemies, movement, jumping, and the Mega Buster work, but boss fights, special weapons, and passwords are untested and may softlock. Version 0.1.1 (October 18) extended native coverage with assisted routes through the Robot Master stages, Doc Robot, Break Man, the fortress, and the ending, without claiming every fortress victory. It has a slowdown-reduction option that gives the game extra CPU time without changing the picture or sound rate. Version 0.1.3 (October 19) is for 64-bit Windows; there were Linux and macOS builds. For building with the previous backend, the repository includes the C code generated from the ROM (about 103 MB). 79 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Mega Man 3 para NES. Además, Windows de 64 bits."
+  en: "Your own US Mega Man 3 ROM for NES. Plus 64-bit Windows."
+tags:
+  - "6502"
+  - ai-assisted

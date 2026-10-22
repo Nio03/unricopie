@@ -1,0 +1,13 @@
+name: LEGO Island
+console: pc
+repo: isledecomp/isle
+desc:
+  es: "Decompilación completa de LEGO Island (Mindscape, 1997) para Windows, de la versión 1.1 en inglés. Sus tres binarios, CONFIG.EXE, ISLE.EXE y LEGO1.DLL, están decompilados del todo, y la compilación con ReproBit, que usa el compilador original (Microsoft Visual C++ 4.2), reproduce los tres ejecutables comerciales byte a byte. Cada subida a la rama principal se vuelve a compilar y a comprobar, y publica los ejecutables junto con los informes de precisión de cada función; el trabajo sigue en los nombres, la documentación y la claridad del código sin cambiar ese resultado. El código es fiel al original y solo compila para Windows de 32 bits: los ejecutables que genera sustituyen a los del juego en su carpeta. El port a sistemas actuales y a la web, isle-portable, va en otro repositorio. Para el ajuste byte a byte, el repositorio incluye las bibliotecas de terceros Smacker y SmartHeap reconstruidas en parte con bytes de los binarios comerciales. Desde septiembre, 28 de sus unos 1900 commits llevan a Claude como coautor, entre ellos el que añadió ReproBit."
+  en: "A complete decompilation of LEGO Island (Mindscape, 1997) for Windows, English version 1.1. Its three binaries, CONFIG.EXE, ISLE.EXE, and LEGO1.DLL, are fully decompiled, and the ReproBit build, which uses the original compiler (Microsoft Visual C++ 4.2), reproduces all three retail executables byte for byte. Every push to the main branch is rebuilt and checked again, and publishes the executables along with per-function accuracy reports; work continues on naming, documentation, and code clarity without changing that result. The code is true to the original and only compiles for 32-bit Windows: the executables it builds replace the game’s own in its folder. The port to modern systems and the web, isle-portable, lives in a separate repository. For the byte-for-byte match, the repository includes the third-party Smacker and SmartHeap libraries, rebuilt partly from bytes of the retail binaries. Since September, 28 of its roughly 1,900 commits list Claude as a co-author, including the one that added ReproBit."
+tags:
+  - x86
+  - matching
+  - ai-assisted
+links:
+  - label: "isle-portable"
+    url: https://github.com/isledecomp/isle-portable

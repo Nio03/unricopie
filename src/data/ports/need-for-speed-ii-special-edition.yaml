@@ -1,0 +1,17 @@
+name: "Need for Speed II: Special Edition"
+category: decomp-port
+console: pc
+status: fully
+repo: zaps166/NFSIISE
+originalDeveloper: EA Canada
+year: 1997
+desc:
+  es: "Port multiplataforma de Need for Speed II: Special Edition (1997) para Windows, Linux y macOS (hasta Mojave), y también Android. El código del juego es el original, sacado como desensamblado: en x86 se vuelve a ensamblar con Yasm y, en otros procesadores, se usa una traducción de ese ensamblador a C++, algo más lenta y menos estable según su autor. Alrededor va un envoltorio escrito desde cero que sustituye lo que el juego pedía a Windows: los gráficos de Glide, la API de 3dfx, pasan a OpenGL (o a OpenGL ES en Android), y el juego en red funciona por TCP y UDP. Funcionan los mandos, la vibración, la conexión por puerto serie, el brillo y el sonido; la conexión por módem no volverá a funcionar. Durante la carrera, las teclas F1 a F12 activan la lluvia, el detalle de los coches, la distancia de dibujado, el HUD de cada jugador, el retrovisor, la música o los efectos. La última versión, la 1.4.0, salió el 16 de marzo de 2024. El repositorio incluye, como submódulos, el desensamblado del ejecutable del juego (NFSIISE-ASM) y su traducción a C++ (NFSIISE-CPP), además de los textos del juego en seis idiomas adaptados a la versión TCP; los datos del juego salen de tu CD."
+  en: "A cross-platform port of Need for Speed II: Special Edition (1997) for Windows, Linux, and macOS (up to Mojave), plus Android. The game code is the original, taken as a disassembly: on x86 it’s reassembled with Yasm, and on other CPUs it uses a translation of that assembly to C++, which its author says is somewhat slower and less stable. Around it sits a wrapper written from scratch that replaces what the game asked of Windows: Glide graphics, 3dfx’s API, go to OpenGL (or OpenGL ES on Android), and network play runs over TCP and UDP. Game controllers, force feedback, serial-port connections, brightness, and sound work; modem play will never work again. During a race, F1 to F12 toggle rain, car detail, draw distance, each player’s HUD, the mirror, music, or sound effects. The latest release, 1.4.0, came out on March 16, 2024. The repository includes, as submodules, the disassembly of the game’s executable (NFSIISE-ASM) and its C++ translation (NFSIISE-CPP), plus the game’s text files in six languages adapted to the TCP version; the game data comes from your CD."
+requirements:
+  es: "Tu propio CD de Need for Speed II: Special Edition, del que se copian las carpetas fedata y gamedata (con el Need for Speed II normal sale el aviso «MOVIE FILE NOT FOUND»). Además, Windows XP o posterior, o Linux x86 con las bibliotecas de 32 bits de glibc, OpenGL y X11; en Linux, los archivos del CD tienen que ir en minúsculas, y el paquete trae un script que los renombra. En otros procesadores, se compila con Clang como programa de 32 bits."
+  en: "Your own Need for Speed II: Special Edition CD, from which you copy the fedata and gamedata folders (with the regular Need for Speed II you get a “MOVIE FILE NOT FOUND” message). Plus Windows XP or later, or x86 Linux with the 32-bit glibc, OpenGL, and X11 libraries; on Linux the files from the CD must be lowercase, and the package includes a script that renames them. On other CPUs, you build it with Clang as a 32-bit program."
+tags:
+  - x86
+  - racing
+  - multiplayer

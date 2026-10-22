@@ -1,0 +1,17 @@
+name: Dr. Mario
+console: nes
+status: playable
+repo: mstan/DrMarioNesRecomp
+originalDeveloper: Nintendo R&D1
+year: 1990
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática de Dr. Mario de NES con nesrecomp, el marco del mismo autor: el código 6502 de la ROM se traduce a C y se compila a nativo, y la PPU, el APU y el mapper se simulan en la biblioteca de ejecución. Usa el desensamblado dr-mario-disassembly de Nostaljipi para cubrir las funciones. Funcionan la pantalla de título, el menú de opciones (nivel, velocidad y música Fever o Chill) y el modo de un jugador; el de dos jugadores y las escenas de final de nivel y de final del juego no se han probado. Desde la 1.2.0 (24 de septiembre) hay dos versiones separadas: una para la ROM japonesa y estadounidense, con la temporización NTSC, y otra para la europea, con la temporización PAL a unos 50 fps. La 1.3.1 (19 de octubre) es para Windows de 64 bits; la 1.2.0 tuvo también versiones para Linux. El repositorio incluye, para compilar con el backend anterior, el código C generado a partir de las dos ROM (unos 47 MB). 30 de sus 51 commits llevan a Claude como coautor."
+  en: "A static recompilation of the NES Dr. Mario with nesrecomp, the author’s own framework: the ROM’s 6502 code is translated to C and compiled to native code, and the PPU, APU, and mapper are simulated by the runtime library. It uses Nostaljipi’s dr-mario-disassembly to cover the functions. The title screen, the options menu (level, speed, and Fever or Chill music), and single-player mode work; two-player mode and the level-clear and ending scenes haven’t been tested. Since 1.2.0 (September 24) there are two separate builds: one for the Japan/USA ROM with NTSC timing, and one for the European ROM with PAL timing at about 50 fps. Version 1.3.1 (October 19) is for 64-bit Windows; 1.2.0 also had Linux builds. For building with the previous backend, the repository includes the C code generated from both ROMs (about 47 MB). 30 of its 51 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Dr. Mario para NES que corresponda a la versión que descargues: Dr. Mario (Japan, USA) (Rev 1), CRC32 DE581355 sin cabecera, o Dr. Mario (Europe), CRC32 9735D267 sin cabecera. Además, Windows de 64 bits."
+  en: "Your own Dr. Mario ROM for NES matching the build you download: Dr. Mario (Japan, USA) (Rev 1), headerless CRC32 DE581355, or Dr. Mario (Europe), headerless CRC32 9735D267. Plus 64-bit Windows."
+tags:
+  - "6502"
+  - mario
+  - ai-assisted

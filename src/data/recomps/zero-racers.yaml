@@ -1,0 +1,17 @@
+name: Zero Racers
+console: virtualboy
+status: playable
+repo: mstan/ZeroRacersVirtualBoyRecomp
+originalDeveloper: Nintendo R&D1
+year: 2026
+toolchain: vbrecomp
+desc:
+  es: "Recompilación de Zero Racers de Virtual Boy para Windows con vbrecomp y el launcher recomp-ui, los dos del mismo autor: el código V810 se traduce a C y se compila a nativo, con un intérprete para el código no cubierto. El juego se terminó en 1996, pero se canceló tras el fracaso de la consola y salió por primera vez el 4 de agosto de 2026 en Nintendo Classics para Switch; el recomp parte de esa versión. Se juega con teclado o mando, con controles reasignables y partidas y ajustes que se conservan, y tiene un mod opcional de color, desactivado de serie, con túneles plateados, máquinas de colores distintos, menús y marcadores en color y zonas de reparación amarillas, sin perder las líneas originales. La 0.0.4 (19 de octubre) entra, con ayuda, en los 15 circuitos, de A1 a C5, y en la contrarreloj sin pasar por el intérprete; no da por comprobadas copas completas ni finales."
+  en: "A recompilation of the Virtual Boy Zero Racers for Windows with vbrecomp and the recomp-ui launcher, both by the same author: the V810 code is translated to C and compiled to native code, with an interpreter for uncovered code. The game was finished in 1996 but canceled after the console’s failure, and first came out on August 4, 2026, on Nintendo Classics for Switch; the recomp is based on that release. You play with keyboard or controller, with rebindable controls and saves and settings that persist, and there’s an optional color mod, off by default, with silver tunnels, distinctly colored machines, colored menus and HUDs, and yellow repair areas, keeping the original wireframes. Version 0.0.4 (October 19) enters, with assistance, all 15 courses, A1 to C5, and Time Trial without touching the interpreter; it doesn’t claim complete cups or endings."
+requirements:
+  es: "Tu propia ROM de Zero Racers, la revisión (Japan, USA) (En) (Switch Online), sin comprimir (1 048 576 bytes, CRC32 71553796, SHA-256 47421cd82dfd414d042d2f7f9db51e657d414d4ddfa46887efb544029fa11ce7). Además, Windows 10 u 11 de 64 bits."
+  en: "Your own Zero Racers ROM, the (Japan, USA) (En) (Switch Online) revision, uncompressed (1,048,576 bytes, CRC32 71553796, SHA-256 47421cd82dfd414d042d2f7f9db51e657d414d4ddfa46887efb544029fa11ce7). Plus 64-bit Windows 10 or 11."
+tags:
+  - v810
+  - racing
+  - mods

@@ -1,0 +1,17 @@
+name: Yoshi
+console: nes
+status: fully
+repo: mstan/YoshiNESRecomp
+originalDeveloper: Game Freak
+year: 1991
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática de Yoshi de NES (Mario & Yoshi en Europa, Yoshi no Tamago en Japón) con nesrecomp, el marco del mismo autor: el código 6502 de la ROM se traduce a C y se compila a nativo, y la PPU, el APU y el mapper MMC1 se simulan en la biblioteca de ejecución. Su autor lo cree jugable entero: la pantalla de título, el modo de puzle de un jugador (tipos A y B), el versus para dos jugadores y la demo funcionan de principio a fin. Como el juego no guarda partidas, los estados guardados sirven para retomarlas. La 1.2.1 (19 de octubre) pasó a la ROM estadounidense correcta (CRC32 E7EAD93B, 128 KiB de PRG y 32 KiB de CHR) y es para Windows de 64 bits; hubo versiones para Linux y macOS. El repositorio incluye, para compilar con el backend anterior, el código C generado a partir de la ROM (unos 117 MB). 30 de sus 50 commits llevan a Claude como coautor."
+  en: "A static recompilation of the NES Yoshi (Mario & Yoshi in Europe, Yoshi no Tamago in Japan) with nesrecomp, the author’s own framework: the ROM’s 6502 code is translated to C and compiled to native code, and the PPU, APU, and MMC1 mapper are simulated by the runtime library. Its author believes it’s fully playable: the title screen, single-player puzzle mode (types A and B), two-player versus, and the attract demo run end to end. Since the game has no saves, save states are the way to pick a session back up. Version 1.2.1 (October 19) moved to the correct US ROM (CRC32 E7EAD93B, 128 KiB PRG and 32 KiB CHR) and is for 64-bit Windows; there were Linux and macOS builds. For building with the previous backend, the repository includes the C code generated from the ROM (about 117 MB). 30 of its 50 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Yoshi para NES (datos de juego con CRC32 E7EAD93B); vale también la cabecera antigua que declara 64 KiB de CHR. Además, Windows de 64 bits."
+  en: "Your own US Yoshi ROM for NES (game data CRC32 E7EAD93B); the old header that declares 64 KiB of CHR also works. Plus 64-bit Windows."
+tags:
+  - "6502"
+  - multiplayer
+  - ai-assisted

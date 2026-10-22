@@ -1,0 +1,17 @@
+name: Sonic Blast
+console: gamegear
+status: experimental
+repo: mstan/SonicBlastGGRecomp
+originalDeveloper: Aspect
+year: 1996
+toolchain: smsggrecomp
+desc:
+  es: "Recompilación estática de Sonic Blast para Game Gear con smsggrecomp, el marco del mismo autor para Master System y Game Gear: el código Z80 se traduce a C de antemano y se compila a nativo, mientras la biblioteca de ejecución simula el VDP con la paleta y la ventana de la Game Gear, el sonido SN76489 en estéreo, los puertos y el mapper de Sega; los saltos que el análisis no resuelve pasan por un intérprete de Z80. Todas sus versiones son preliminares. La primera, del 23 de junio, solo llegaba a la pantalla de título; la 0.0.3 (18 de octubre) entra, con ayuda, en los 15 actos con Sonic y con Knuckles sin pasar por el intérprete, con una sola diferencia de un fotograma en el icono de los anillos, aunque una partida completa sin ayuda sigue sin comprobarse. Se arranca desde la línea de órdenes con la ruta de la ROM o arrastrando la ROM sobre Play.cmd. La descarga es para Windows de 64 bits. 8 de sus 13 commits llevan a Claude como coautor."
+  en: "A static recompilation of Sonic Blast for Game Gear with smsggrecomp, the author’s own framework for Master System and Game Gear: the Z80 code is translated to C ahead of time and compiled to native code, while the runtime library simulates the VDP with the Game Gear palette and viewport, stereo SN76489 sound, the ports, and the Sega mapper; jumps the analysis can’t resolve go through a Z80 interpreter. Every release is a pre-release. The first, from June 23, only reached the title screen; 0.0.3 (October 18) enters, with assistance, all 15 acts as both Sonic and Knuckles without touching the interpreter, with a single one-frame difference in the ring icon, though an unassisted full playthrough remains unverified. You launch it from the command line with the ROM path, or by dragging the ROM onto Play.cmd. The download is for 64-bit Windows. 8 of its 13 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Sonic Blast para Game Gear (World, que incluye la estadounidense: CRC32 031B9DA9, 1 MB). Además, Windows de 64 bits."
+  en: "Your own Sonic Blast ROM for Game Gear (World, which covers the US release: CRC32 031B9DA9, 1 MB). Plus 64-bit Windows."
+tags:
+  - z80
+  - sonic
+  - ai-assisted

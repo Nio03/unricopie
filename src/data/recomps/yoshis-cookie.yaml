@@ -1,0 +1,17 @@
+name: "Yoshi's Cookie"
+console: nes
+status: fully
+repo: mstan/YoshisCookieRecomp
+originalDeveloper: Tose
+year: 1992
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática del Yoshi's Cookie de NES con nesrecomp, el marco del mismo autor: el código 6502 de la ROM se traduce a C y se compila a nativo. Su autor lo cree jugable al 100 %: los modos de un jugador y VS se probaron en partidas completas sin diferencias con Nestopia como referencia. Funcionan los menús, el modo de puzle de un jugador con todas sus rondas, velocidades y músicas, el VS para dos jugadores en un mismo teclado y las opciones de ronda, velocidad, hándicap y música. La 1.0.0 (1 de julio) corrigió, con un arreglo en el recompilador, los bloques corruptos que aparecían sobre el marcador al superar una fase; la 1.1.1 (19 de octubre) es para Windows de 64 bits. El repositorio incluye, para compilar con el backend anterior, el código C generado a partir de la ROM (unos 40 MB). 36 de sus 52 commits llevan a Claude como coautor."
+  en: "A static recompilation of the NES Yoshi’s Cookie with nesrecomp, the author’s own framework: the ROM’s 6502 code is translated to C and compiled to native code. Its author believes it’s 100% playable: single-player and VS modes were tested through full games with no divergence from Nestopia as the reference. The menus, single-player puzzle mode with all its rounds, speeds, and music, two-player VS on one keyboard, and the round, speed, handicap, and music options work. Version 1.0.0 (July 1) fixed, through a recompiler change, the corrupted blocks that appeared over the HUD on stage clear; 1.1.1 (October 19) is for 64-bit Windows. For building with the previous backend, the repository includes the C code generated from the ROM (about 40 MB). 36 of its 52 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Yoshi's Cookie para NES. Además, Windows de 64 bits."
+  en: "Your own US Yoshi’s Cookie ROM for NES. Plus 64-bit Windows."
+tags:
+  - "6502"
+  - multiplayer
+  - ai-assisted

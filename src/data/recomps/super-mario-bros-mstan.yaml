@@ -1,0 +1,23 @@
+name: "Super Mario Bros. (mstan)"
+console: nes
+status: fully
+repo: mstan/SuperMarioBrosNESRecomp
+originalDeveloper: Nintendo R&D4
+year: 1985
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática de Super Mario Bros. de NES con nesrecomp, el marco del mismo autor: el código 6502 de la ROM se traduce a C y se compila a nativo; desde la 1.12.0 (5 de octubre) usa por defecto la CPU con precisión de ciclo y, en Windows, un renderizador de alto nivel más rápido que el de bajo nivel, que sigue como referencia. Su autor lo da por jugable entero: todos los mundos deberían poder completarse, aunque no se ha probado cada camino. Trae mods opcionales: pantalla panorámica experimental (ajustada a la ventana, 16:9, 21:9 o 32:9) con enemigos que se cargan en toda la vista; Voxel 3D, una vista en primera persona que levanta el nivel en vertical; cooperativo simultáneo de dos a cuatro jugadores con Mario, Luigi, Wario y Waluigi, en local o en línea con rollback; paquetes de texturas HD, y personajes experimentales que sustituyen a Mario: Captain Falcon y Pikachu de Super Smash Bros., Samus de Metroid, Link de Zelda II y Sonic de Sonic 3 & Knuckles, cuyos gráficos y sonidos se sacan de tu propia ROM de cada juego. Una pasada de octubre recorrió con ayuda las 32 zonas en 32:9 hasta el final de 8-4. La 1.12.3 (19 de octubre) es para Windows de 64 bits; hasta la 1.11.0 hubo también versión para Linux. El repositorio incluye, para compilar con el backend anterior, el código C generado a partir de la ROM (unos 15 MB). 10 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of the NES Super Mario Bros. with nesrecomp, the author’s own framework: the ROM’s 6502 code is translated to C and compiled to native code; since 1.12.0 (October 5) it uses the cycle-accurate CPU by default and, on Windows, a high-level renderer that is faster than the low-level one, which remains the reference. Its author considers it fully playable: every world should be completable, though not every path has been tested. It comes with optional mods: experimental widescreen (fit to window, 16:9, 21:9, or 32:9) with enemies loading across the whole view; Voxel 3D, a first-person view that stands the level upright; two- to four-player simultaneous co-op with Mario, Luigi, Wario, and Waluigi, locally or online with rollback; HD texture packs; and experimental characters that replace Mario: Captain Falcon and Pikachu from Super Smash Bros., Samus from Metroid, Link from Zelda II, and Sonic from Sonic 3 & Knuckles, whose graphics and sounds are taken from your own ROM of each game. An October pass went through all 32 areas at 32:9 with assistance, up to the end of 8-4. Version 1.12.3 (October 19) is for 64-bit Windows; up to 1.11.0 there was also a Linux build. For building with the previous backend, the repository includes the C code generated from the ROM (about 15 MB). 10 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Super Mario Bros. (World) para NES, con la cabecera iNES antigua (CRC32 3337EC46) o la NES 2.0 (CRC32 393A432F). Cada personaje sustituto pide además tu ROM del juego del que sale: Super Smash Bros. (EE. UU., 1.0) de N64, Metroid (EE. UU. o Europa), Zelda II: The Adventure of Link (EE. UU.) o Sonic 3 & Knuckles de Mega Drive, y, si quieres, Sonic the Hedgehog 2 (World, Rev A) para el escudo de Sonic. Además, Windows de 64 bits."
+  en: "Your own Super Mario Bros. (World) ROM for NES, with either the old iNES header (CRC32 3337EC46) or the NES 2.0 one (CRC32 393A432F). Each replacement character also needs your ROM of the game it comes from: Super Smash Bros. (US, 1.0) for N64, Metroid (US or Europe), Zelda II: The Adventure of Link (US), or Sonic 3 & Knuckles for Mega Drive, plus, optionally, Sonic the Hedgehog 2 (World, Rev A) for Sonic’s shield. Plus 64-bit Windows."
+tags:
+  - "6502"
+  - mario
+  - widescreen
+  - multiplayer
+  - online
+  - netplay
+  - mods
+  - hd-assets
+  - ai-assisted

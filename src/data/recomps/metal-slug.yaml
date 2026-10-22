@@ -1,0 +1,20 @@
+name: Metal Slug
+console: neogeo
+status: experimental
+repo: sp00nznet/metalslug
+originalDeveloper: Nazca Corporation
+year: 1996
+toolchain: neogeorecomp
+desc:
+  es: "Recompilación estática de Metal Slug para Neo Geo (MVS) a un programa nativo para PC, hecha con neogeorecomp, el kit del mismo autor para esta placa: el código del 68000 se traduce a C a partir de tus ROM y corre sobre un modelo de la placa. Es el juego de referencia del kit. Arranca con la BIOS real del MVS, pasa por la demo y la pantalla de título, acepta créditos y se juega la misión 1, con sus continuaciones; las misiones siguientes aún no se han comprobado con un guion de prueba. Tras una pasada de perfilado, una partida automática de 5 minutos corre entera en código recompilado, y la comprobación contra el intérprete Musashi no da ninguna diferencia en 14,06 millones de bloques. Tiene sonido (la síntesis del YM2610 que aportó danilopaulinodasilva al kit) y admite dos mandos como jugadores 1 y 2. La 0.1.0 salió el 21 de octubre con instaladores para Windows, Linux y macOS que descargan el código, instalan lo que falte y compilan el juego a partir de tus ROM; en Mac todavía no se ha jugado. Sus 13 commits llevan a Claude como coautor."
+  en: "A static recompilation of Metal Slug for Neo Geo (MVS) into a native PC program, built with neogeorecomp, the same author’s toolkit for this board: the 68000 code is translated to C from your ROMs and runs on a model of the board. It’s the toolkit’s reference game. It boots through the real MVS BIOS, runs the attract demo and title screen, takes coins, and plays Mission 1 with its continues; later missions haven’t been checked by a test script yet. After a profiling pass, a 5-minute automated session runs entirely in recompiled code, and verification against the Musashi interpreter finds no mismatches across 14.06 million blocks. It has sound (the YM2610 synthesis danilopaulinodasilva contributed to the toolkit) and supports two controllers as players 1 and 2. 0.1.0 came out on October 21 with installers for Windows, Linux, and macOS that download the source, install whatever is missing, and build the game from your ROMs; it hasn’t been played on a Mac yet. All 13 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propios volcados de Metal Slug y de la BIOS de Neo Geo como conjuntos de MAME, mslug.zip (NGH-201) y neogeo.zip, que la instalación comprueba por su CRC32. Además, Windows, Linux o macOS; la instalación ofrece instalar Git, CMake, el compilador de C y C++ y SDL2 si faltan."
+  en: "Your own Metal Slug and Neo Geo BIOS dumps as MAME sets, mslug.zip (NGH-201) and neogeo.zip, which setup checks by CRC32. Plus Windows, Linux, or macOS; setup offers to install Git, CMake, the C and C++ compiler, and SDL2 if they’re missing."
+tags:
+  - "68000"
+  - arcade
+  - ai-assisted
+links:
+  - label: neogeorecomp
+    url: https://github.com/sp00nznet/neogeorecomp

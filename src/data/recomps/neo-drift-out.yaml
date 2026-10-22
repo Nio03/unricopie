@@ -1,0 +1,21 @@
+name: "Neo Drift Out: New Technology"
+console: neogeo
+status: experimental
+repo: sp00nznet/neodriftout
+originalDeveloper: Visco
+year: 1996
+toolchain: neogeorecomp
+desc:
+  es: "Recompilación estática de Neo Drift Out para Neo Geo (MVS) a un programa nativo para PC, hecha con neogeorecomp, el kit del mismo autor para esta placa: el código del 68000 se traduce a C a partir de tus ROM y corre sobre un modelo de la placa, sin código propio de este juego en el kit. Arranca con la BIOS real del MVS, pasa por la presentación de los coches, el título y la entrada del nombre, acepta créditos y se corren la carrera de práctica y la primera etapa; las etapas siguientes aún no se han comprobado con un guion de prueba. Una partida automática de 6 minutos corre entera en código recompilado, y la comprobación contra el intérprete Musashi no da ninguna diferencia en 46,67 millones de bloques. Esta versión sustituye a una anterior, hecha a mano para este juego, que nunca pasó del título con los gráficos correctos. Tiene sonido (la síntesis del YM2610 que aportó danilopaulinodasilva al kit) y admite dos mandos como jugadores 1 y 2. La 0.2.0 salió el 21 de octubre con instaladores para Windows, Linux y macOS que descargan el código, instalan lo que falte y compilan el juego a partir de tus ROM; en Mac todavía no se ha jugado. 36 de sus 37 commits llevan a Claude como coautor."
+  en: "A static recompilation of Neo Drift Out for Neo Geo (MVS) into a native PC program, built with neogeorecomp, the same author’s toolkit for this board: the 68000 code is translated to C from your ROMs and runs on a model of the board, with no game-specific code in the toolkit. It boots through the real MVS BIOS, runs the car showcase, title, and name entry, takes coins, and races the practice run and Stage 1; later stages haven’t been checked by a test script yet. A 6-minute automated session runs entirely in recompiled code, and verification against the Musashi interpreter finds no mismatches across 46.67 million blocks. This version replaces an earlier one, hand-built for this game, that never got past the title with correct graphics. It has sound (the YM2610 synthesis danilopaulinodasilva contributed to the toolkit) and supports two controllers as players 1 and 2. 0.2.0 came out on October 21 with installers for Windows, Linux, and macOS that download the source, install whatever is missing, and build the game from your ROMs; it hasn’t been played on a Mac yet. 36 of its 37 commits list Claude as a co-author."
+requirements:
+  es: "Tus propios volcados de Neo Drift Out y de la BIOS de Neo Geo como conjuntos de MAME, neodrift.zip y neogeo.zip, que la instalación comprueba por su CRC32 (driftout.zip es Drift Out, de Taito, otro juego). Además, Windows, Linux o macOS; la instalación ofrece instalar Git, CMake, el compilador de C y C++ y SDL2 si faltan."
+  en: "Your own Neo Drift Out and Neo Geo BIOS dumps as MAME sets, neodrift.zip and neogeo.zip, which setup checks by CRC32 (driftout.zip is Taito’s Drift Out, a different game). Plus Windows, Linux, or macOS; setup offers to install Git, CMake, the C and C++ compiler, and SDL2 if they’re missing."
+tags:
+  - "68000"
+  - arcade
+  - racing
+  - ai-assisted
+links:
+  - label: neogeorecomp
+    url: https://github.com/sp00nznet/neogeorecomp

@@ -1,0 +1,19 @@
+name: Metroid
+console: nes
+status: playable
+repo: mstan/MetroidNESRecomp
+originalDeveloper: Nintendo R&D1 / Intelligent Systems
+year: 1986
+toolchain: nesrecomp
+desc:
+  es: "Recompilación estática de Metroid de NES con nesrecomp, el marco del mismo autor: el código 6502 de la ROM se traduce a C y se compila a nativo, y la PPU, el APU y el mapper MMC1 se simulan en la biblioteca de ejecución. Los símbolos y las regiones de datos salen del desensamblado m1disasm. Guarda con el sistema de contraseñas del juego. Como mods opcionales y experimentales tiene pantalla panorámica adaptable (ajustada a la ventana, 16:9, 21:9 o 32:9) que muestra las salas vecinas, con opciones para activar enemigos y objetos en la vista ampliada, ampliar el límite de sprites y reducir las ralentizaciones, y una vista Voxel 3D en primera persona. La 0.2.1 (18 de octubre) amplió la cobertura nativa en la versión estadounidense: con ayuda se comprobaron las victorias sobre Kraid y Ridley, el daño a Mother Brain, la cuenta atrás de la huida, el final y los créditos, aunque el recorrido completo de la huida queda aparte. La 0.2.3 (19 de octubre) se publica para la ROM estadounidense en Windows de 64 bits; la versión europea (PAL) se compila desde el código, y la 0.2.0 trajo también un ZIP para ella. El repositorio incluye, para compilar con el backend anterior, el código C generado a partir de la ROM estadounidense (unos 17 MB). 59 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of the NES Metroid with nesrecomp, the author’s own framework: the ROM’s 6502 code is translated to C and compiled to native code, and the PPU, APU, and MMC1 mapper are simulated by the runtime library. Symbols and data regions come from the m1disasm disassembly. It saves through the game’s password system. As optional, experimental mods it has adaptive widescreen (fit to window, 16:9, 21:9, or 32:9) that shows the neighboring rooms, with options to activate enemies and items in the wider view, raise the sprite limit, and reduce slowdown, plus a first-person Voxel 3D view. Version 0.2.1 (October 18) extended native coverage on the US version: with assistance, the Kraid and Ridley victories, damage to Mother Brain, the escape timer, the ending, and the credits were checked, though the full escape run is separate. Version 0.2.3 (October 19) is published for the US ROM on 64-bit Windows; the European (PAL) version is built from source, and 0.2.0 also shipped a ZIP for it. For building with the previous backend, the repository includes the C code generated from the US ROM (about 17 MB). 59 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Metroid para NES: la estadounidense (CRC32 70080810 sin cabecera) para la descarga, o la europea (CRC32 7751588D sin cabecera) si compilas la versión PAL. Además, Windows de 64 bits."
+  en: "Your own Metroid ROM for NES: the US one (headerless CRC32 70080810) for the download, or the European one (headerless CRC32 7751588D) if you build the PAL version. Plus 64-bit Windows."
+tags:
+  - "6502"
+  - metroid
+  - widescreen
+  - mods
+  - ai-assisted
