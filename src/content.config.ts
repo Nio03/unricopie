@@ -122,7 +122,9 @@ const ports = defineCollection({
     // game-engine: un motor hecho para un solo juego que ejecuta su codigo
     // original (en un interprete propio o recompilado en parte), reimplementa el
     // hardware y va pasando funciones a codigo nativo. Ej.: lp-engine (LovePlus+).
-    category: z.enum(['decomp-port', 'fan-remake', 'native-layer', 'game-engine']),
+    // source-port: port del codigo fuente que el propio estudio libero (Doom,
+    // Quake, Warzone 2100…), no de una decompilacion ni de una reimplementacion.
+    category: z.enum(['decomp-port', 'fan-remake', 'native-layer', 'game-engine', 'source-port']),
     console: consoleEnum.optional(),
     status: z.enum(['experimental', 'playable', 'fully']).default('playable'),
     abandoned: z.boolean().default(false),

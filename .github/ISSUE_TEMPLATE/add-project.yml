@@ -73,6 +73,9 @@ body:
         - "Arcade"
         - "DOS"
         - "Windows"
+        - "PC-98"
+        - "Mac OS clásico"
+        - "iOS / Android"
         - "Otra"
   - type: dropdown
     id: status

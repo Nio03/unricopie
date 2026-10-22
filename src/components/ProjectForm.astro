@@ -87,7 +87,7 @@ const cfg = {
   </div>
   <div class="fld" data-row="category" style={`display:${mode === "edit" ? showFor(curType, ["port"]) : "none"}`}>
     <label for="pf-category">{L.category}</label>
-    <select id="pf-category">{(["decomp-port", "fan-remake", "native-layer", "game-engine"] as const).map((k) => <option value={k} selected={d.category === k}>{t(lang, `category.${k}`)}</option>)}</select>
+    <select id="pf-category">{(["decomp-port", "fan-remake", "native-layer", "game-engine", "source-port"] as const).map((k) => <option value={k} selected={d.category === k}>{t(lang, `category.${k}`)}</option>)}</select>
   </div>
   <div class="fld" data-row="status" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "tool", "mod"]) : ""}`}>
     <label for="pf-status">{L.status}</label>

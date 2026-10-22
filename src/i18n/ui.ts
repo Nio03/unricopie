@@ -122,6 +122,7 @@ export const ui = {
     "category.fan-remake": "Remake de fans",
     "category.native-layer": "Capa nativa",
     "category.game-engine": "Motor para un juego",
+    "category.source-port": "Port del código fuente",
 
     "launchers.title": "Launchers y herramientas",
     "launchers.intro":
@@ -132,7 +133,7 @@ export const ui = {
 
     "ports.title": "Ports y remakes",
     "ports.intro":
-      "Juegos que llegan a PC por un camino distinto de la recompilación estática: ports construidos sobre una decompilación, como Ship of Harkinian; reimplementaciones hechas por fans, como P-06 (Sonic ’06); capas nativas, como las de Bloodborne y God of War III, en las que el código original corre tal cual en la CPU; y motores hechos para un solo juego, como el de LovePlus+, que ejecutan el código original en un intérprete propio y lo van pasando a código nativo. Cada ficha dice cómo llega a PC y, si parte de una decompilación del catálogo, la enlaza.",
+      "Juegos que llegan a PC por un camino distinto de la recompilación estática: ports construidos sobre una decompilación, como Ship of Harkinian; reimplementaciones hechas por fans, como P-06 (Sonic ’06); capas nativas, como las de Bloodborne y God of War III, en las que el código original corre tal cual en la CPU; y motores hechos para un solo juego, como el de LovePlus+, que ejecutan el código original en un intérprete propio y lo van pasando a código nativo; y source ports, que parten del código fuente que el propio estudio liberó, como los de Doom y Quake. Cada ficha dice cómo llega a PC y, si parte de una decompilación del catálogo, la enlaza.",
     "decomps.title": "Decompilaciones",
     "decomps.intro":
       "Las decompilaciones de la escena: el código fuente de cada juego, reconstruido por ingeniería inversa, con su avance (el porcentaje de código que ya coincide con el original) actualizado a diario desde decomp.dev y ByteMatch. Es el trabajo previo del que nacen muchos ports.",
@@ -153,6 +154,7 @@ export const ui = {
     "method.fan-remake": "Reimplementación de fans",
     "method.native-layer": "Capa nativa",
     "method.game-engine": "Motor hecho para el juego",
+    "method.source-port": "Port del código fuente liberado",
     "detail.basedOnDecomp": "Basado en la decompilación",
     "detail.portsOfDecomp": "Ports basados en esta decompilación",
     // Títulos para buscadores: el juego, «en PC» y cómo llega (lo que busca la gente).
@@ -165,7 +167,7 @@ export const ui = {
     // Una página por consola, con todo lo que hay para esa consola.
     "console.h1": "Juegos de {console} en PC",
     "console.title": "Juegos de {console} en PC: recompilaciones, ports y decompilaciones",
-    "console.intro": "Todos los proyectos del catálogo para jugar a juegos de {console} de forma nativa en PC, sin emulador: recompilaciones estáticas, ports, decompilaciones y las herramientas que los hacen posibles. Revisados a mano, con los datos de GitHub al día, y todos piden tu propia copia del juego.",
+    "console.intro": "Todos los proyectos del catálogo para jugar a juegos de {console} de forma nativa en PC, sin emulador: recompilaciones estáticas, ports, decompilaciones y las herramientas que los hacen posibles. Revisados a mano, con los datos de GitHub al día, y todos piden tu propia copia del juego, salvo los que sus autores liberaron.",
     "footer.byConsole": "Por consola",
     "detail.fact.author": "Autor",
     "detail.fact.formerly": "anteriormente {name}",
@@ -202,7 +204,7 @@ export const ui = {
     "footer.bytematch": "ByteMatch · avance actual",
     "footer.decompdev": "decomp.dev · histórico",
     "footer.legal":
-      "Necesitas tu propia copia legal de cada juego: tienes que volcar tu propia ROM o imagen de disco. Recompendium no aloja nada, y no enlaza proyectos que incluyan recursos protegidos por derechos de autor, salvo que declaren tener el permiso explícito de sus titulares.",
+      "Necesitas tu propia copia legal de cada juego, salvo los que sus autores liberaron: tienes que volcar tu propia ROM o imagen de disco. Recompendium no aloja nada, y no enlaza proyectos que incluyan recursos protegidos por derechos de autor, salvo que declaren tener el permiso explícito de sus titulares.",
     "footer.meta":
       "Recompendium es un catálogo comunitario y de código abierto · fichas revisadas a mano y actualizadas a diario con los datos de GitHub",
     "footer.contribute": "¿Cómo contribuir? →",
@@ -338,6 +340,7 @@ export const ui = {
     "category.fan-remake": "Fan remake",
     "category.native-layer": "Native layer",
     "category.game-engine": "Game-specific engine",
+    "category.source-port": "Source port",
 
     "launchers.title": "Launchers & tools",
     "launchers.intro":
@@ -348,7 +351,7 @@ export const ui = {
 
     "ports.title": "Ports & remakes",
     "ports.intro":
-      "Games that reach PC by a path other than static recompilation: ports built on a decompilation, like Ship of Harkinian; fan-made reimplementations, like P-06 (Sonic ’06); native layers, like the ones for Bloodborne and God of War III, where the original code runs as is on the CPU; and engines built for a single game, like LovePlus+’s, which run the original code in their own interpreter and move it to native code bit by bit. Each entry says how it gets to PC and, if it starts from a decompilation in the catalog, links to it.",
+      "Games that reach PC by a path other than static recompilation: ports built on a decompilation, like Ship of Harkinian; fan-made reimplementations, like P-06 (Sonic ’06); native layers, like the ones for Bloodborne and God of War III, where the original code runs as is on the CPU; and engines built for a single game, like LovePlus+’s, which run the original code in their own interpreter and move it to native code bit by bit; and source ports, built on source code the studio itself released, like the ones for Doom and Quake. Each entry says how it gets to PC and, if it starts from a decompilation in the catalog, links to it.",
     "decomps.title": "Decompilations",
     "decomps.intro":
       "The scene’s decompilations: each game’s source code, rebuilt through reverse engineering, with its progress (the share of code that already matches the original) updated daily from decomp.dev and ByteMatch. It’s the groundwork many ports grow out of.",
@@ -367,6 +370,7 @@ export const ui = {
     "method.fan-remake": "Fan reimplementation",
     "method.native-layer": "Native layer",
     "method.game-engine": "Game-specific engine",
+    "method.source-port": "Port of the released source code",
     "detail.basedOnDecomp": "Built on the decompilation",
     "detail.portsOfDecomp": "Ports built on this decompilation",
     "seo.recomp": "{name} on PC: {console} static recompilation",
@@ -377,7 +381,7 @@ export const ui = {
     "seo.mod": "{name}: {kind} for {game}",
     "console.h1": "{console} games on PC",
     "console.title": "{console} games on PC: recompilations, native ports, and decompilations",
-    "console.intro": "Every project in the catalog for playing {console} games natively on PC, with no emulator: static recompilations, ports, decompilations, and the tools behind them. Reviewed by hand, with GitHub data kept up to date, and every one asks for your own copy of the game.",
+    "console.intro": "Every project in the catalog for playing {console} games natively on PC, with no emulator: static recompilations, ports, decompilations, and the tools behind them. Reviewed by hand, with GitHub data kept up to date, and every one asks for your own copy of the game, except the ones their makers released for free.",
     "footer.byConsole": "By console",
     "detail.fact.author": "Author",
     "detail.fact.formerly": "formerly {name}",
@@ -414,7 +418,7 @@ export const ui = {
     "footer.bytematch": "ByteMatch · current progress",
     "footer.decompdev": "decomp.dev · historic",
     "footer.legal":
-      "You need your own legal copy of each game: you have to dump your own ROM or disc image. Recompendium hosts nothing, and doesn’t link to projects that include copyrighted assets unless they state they have the rights holder’s explicit permission.",
+      "You need your own legal copy of each game, except the ones their makers released for free: you have to dump your own ROM or disc image. Recompendium hosts nothing, and doesn’t link to projects that include copyrighted assets unless they state they have the rights holder’s explicit permission.",
     "footer.meta":
       "Recompendium is a community-run, open-source catalog · entries reviewed by hand and updated daily with data from GitHub",
     "footer.contribute": "How to contribute →",
