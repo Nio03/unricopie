@@ -1,0 +1,17 @@
+name: "Supaplex (OpenSupaplex)"
+category: decomp-port
+console: dos
+status: fully
+repo: sergiou87/open-supaplex
+author: Sergio Padrino
+originalDeveloper: Think!Ware Development
+year: 1991
+desc:
+  es: "OpenSupaplex: reimplementación 1:1 en C y SDL de Supaplex, el juego de puzles de 1991, cuyo código fuente se perdió; unos aficionados lo desensamblaron, corrigieron fallos y añadieron funciones (el llamado SpeedFix), y OpenSupaplex reproduce esa versión. Solo cambia lo necesario para jugar con mando y llevarlo a cualquier plataforma, y las novedades que alteren el juego tienen que ser opcionales. Tiene versiones para Windows, Linux y macOS, y también para PSP, PS Vita, PS2, PS3, Nintendo DS, 3DS, Wii, Wii U, Switch y RISC OS. Sus pruebas reproducen miles de soluciones de niveles grabadas por jugadores para comprobar que se comporta como el original, y en octubre siguió ajustando detalles para igualarlo. La 7.2 (22 de marzo) sumó Nintendo DS, RISC OS y PS2 y pasó la música a MOD y los efectos a WAV para gastar menos CPU; la última es la 7.2.2 (30 de marzo). Dos de sus últimos 100 commits llevan a Copilot como coautor. Supaplex es freeware, y el repositorio incluye los archivos del juego original y paquetes de niveles, además del desensamblado del ejecutable (unos 670 KB) y una base de datos de IDA con él."
+  en: "OpenSupaplex: a 1:1 reimplementation in C and SDL of Supaplex, the 1991 puzzle game, whose source code was lost; fans disassembled it, fixed bugs, and added features (the so-called SpeedFix), and OpenSupaplex recreates that version. It only changes what’s needed to play with a controller and to port it to any platform, and new features that alter the game must be optional. There are builds for Windows, Linux, and macOS, as well as PSP, PS Vita, PS2, PS3, Nintendo DS, 3DS, Wii, Wii U, Switch, and RISC OS. Its tests replay thousands of level solutions recorded by players to check that it behaves like the original, and in October it kept tweaking details to match it. Version 7.2 (March 22) added Nintendo DS, RISC OS, and PS2 and moved the music to MOD and the sound effects to WAV to use less CPU; the latest is 7.2.2 (March 30). Two of its last 100 commits list Copilot as a co-author. Supaplex is freeware, and the repository includes the original game’s files and level packs, plus the disassembly of the executable (about 670 KB) and an IDA database with it."
+requirements:
+  es: "Ninguna copia: Supaplex es freeware y los archivos del juego vienen incluidos. Windows de 64 bits, Linux o macOS."
+  en: "No copy needed: Supaplex is freeware and the game files are included. 64-bit Windows, Linux, or macOS."
+tags:
+  - reverse-engineering
+  - ai-assisted

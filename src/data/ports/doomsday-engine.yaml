@@ -1,0 +1,19 @@
+name: Doomsday Engine
+category: source-port
+status: fully
+repo: skyjake/Doomsday-Engine
+homepage: https://dengine.net/
+author: Jaakko Keränen
+originalDeveloper: "id Software / Raven Software"
+year: 1993
+desc:
+  es: "Doomsday Engine: port de Doom y Doom II, de id Software, y de Heretic y Hexen, de Raven Software, con gráficos mejorados, que quiere renovar la tecnología de estos juegos sin cambiar su forma de jugar. Está escrito en C++ sobre Qt 5 y OpenGL, y las extensiones de los tres juegos van juntas en la biblioteca libgamekit. Tiene perfiles de juego con selección de complementos, una superposición dentro del juego con los ajustes y la consola, partículas y luces dinámicas, bloom y viñeteado, oclusión ambiental calculada a partir de la geometría, modelos 3D para los objetos (FBX y MD5), cielos con skybox, un filtro de escalado de texturas y modos estereoscópicos. El sonido 3D con reverberación va por el complemento de FMOD, y admite música en MP3 y MIDI con FluidSynth (solo en Unix). En multijugador detecta los servidores de la red local, tiene un servidor maestro para las partidas públicas y una herramienta para mantener servidores en segundo plano. La última versión estable es la 2.3.1, de febrero de 2021; la 2.3 mejoró la compatibilidad con los trucos de renderizado del Doom original que usan TNT: Evilution y The Plutonia Experiment, y amplió Doomsday Script, su lenguaje de guiones. Después solo han salido compilaciones candidatas de la 2.3.2, y el último commit es de enero de 2024. Hay versiones para Windows, macOS y Linux."
+  en: "Doomsday Engine: a port of id Software’s Doom and Doom II and Raven Software’s Heretic and Hexen with enhanced graphics, meant to refresh these games’ technology while keeping their gameplay. It’s written in C++ on Qt 5 and OpenGL, and the three games’ extensions live together in the libgamekit library. It has game profiles with add-on selection, an in-game overlay with settings and the console, particle effects and dynamic lights, bloom and vignette, geometry-based ambient occlusion, 3D models for objects (FBX and MD5), skyboxes, an upscaling texture filter, and stereoscopic rendering modes. 3D sound with reverb comes through the FMOD plugin, and it supports MP3 music and MIDI with FluidSynth (Unix only). In multiplayer it discovers LAN servers, has a master server for public games, and a tool for running servers in the background. The latest stable release is 2.3.1, from February 2021; 2.3 improved support for the original Doom render hacks used by TNT: Evilution and The Plutonia Experiment and expanded Doomsday Script, its scripting language. Since then only 2.3.2 candidate builds have come out, and the latest commit is from January 2024. There are builds for Windows, macOS, and Linux."
+requirements:
+  es: "Los archivos de datos (IWAD) de tu propia copia de alguno de los juegos, como Doom II; puede encontrar solas las versiones de Steam y GOG de The Ultimate Doom, Doom II, Final Doom, Heretic y Hexen. Además, una tarjeta gráfica con OpenGL 3.3 y Windows, macOS o Linux."
+  en: "The data files (IWADs) from your own copy of one of the games, such as Doom II; it can find the Steam and GOG releases of The Ultimate Doom, Doom II, Final Doom, Heretic, and Hexen on its own. Plus a graphics card with OpenGL 3.3 and Windows, macOS, or Linux."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - mods

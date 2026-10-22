@@ -1,0 +1,19 @@
+name: DarkPlaces
+category: source-port
+status: fully
+repo: DarkPlacesEngine/DarkPlaces
+homepage: https://icculus.org/twilight/darkplaces/
+author: LadyHavoc
+originalDeveloper: id Software
+year: 1996
+desc:
+  es: "DarkPlaces: motor de juego basado en el de Quake. Empezó como un mod de Quake y, cuando id Software publicó el código fuente del motor, LadyHavoc lo convirtió en un motor propio, que añade funciones gráficas modernas, amplía QuakeC, el lenguaje en que se programa la lógica del juego, y admite más formatos de mapas y modelos sin perder la compatibilidad con los mods de Quake. Ejecuta Quake y sus dos expansiones, The Scourge of Armagon y The Dissolution of Eternity, mods como Nehahra, Quoth, Arcane Dimensions o Quake 1.5, y juegos independientes hechos con él, como Nexuiz, Xonotic, Transfusion o Steel Storm; el juego se elige con un parámetro o cambiando el nombre del ejecutable. Entre sus funciones están la iluminación y las sombras en tiempo real con relieve, que se mejoran con archivos .rtlights; efectos de humo, sangre y explosiones rehechos, calcomanías, niebla y skyboxes; texturas de sustitución, también en JPEG; pistas de audio en Ogg Vorbis en lugar de las del CD; sonido envolvente hasta 7.1, y un navegador de servidores. Su última versión publicada, de 2014, el proyecto la volvió a subir a GitHub en diciembre de 2023, aunque no la recomienda para proyectos nuevos. Desde 2021 se desarrolla en GitHub, con compilaciones para Linux x86-64 en su integración continua; las más completas, para Windows, Linux y macOS, son las que se publican en los paquetes del motor de Xonotic, aunque el proyecto aclara que no tiene una relación especial con Xonotic."
+  en: "DarkPlaces: a game engine based on Quake’s. It began as a Quake mod and, when id Software released the engine’s source code, LadyHavoc turned it into an engine of its own, which adds modern rendering features, extends QuakeC, the language the game logic is written in, and supports more map and model formats while staying compatible with Quake mods. It runs Quake and its two expansions, The Scourge of Armagon and The Dissolution of Eternity, mods such as Nehahra, Quoth, Arcane Dimensions, or Quake 1.5, and standalone games built with it, such as Nexuiz, Xonotic, Transfusion, or Steel Storm; the game is picked with a command-line option or by renaming the executable. Its features include real-time bump-mapped lighting and shadows, improved with .rtlights files; redesigned smoke, blood, and explosion effects, decals, fog, and skyboxes; replacement textures, JPEG included; Ogg Vorbis audio tracks instead of the CD ones; surround sound up to 7.1; and a server browser. Its latest published release, from 2014, was re-uploaded by the project to GitHub in December 2023, though it advises against it for new projects. Since 2021 it has been developed on GitHub, with Linux x86-64 builds in its continuous integration; the most complete builds, for Windows, Linux, and macOS, are the ones published in Xonotic’s engine packages, though the project points out it has no special relationship with Xonotic."
+requirements:
+  es: "Los archivos de tu propia copia de Quake (la carpeta id1 con sus .pak) y, para las expansiones, sus carpetas hipnotic y rogue; los juegos independientes hechos con DarkPlaces traen sus propios datos. Además, Windows, Linux o macOS; para compilarlo, GCC o Clang con SDL2 (en Windows, con MSYS2 y MinGW)."
+  en: "The files from your own copy of Quake (the id1 folder with its .pak files) and, for the expansions, their hipnotic and rogue folders; standalone games built with DarkPlaces come with their own data. Plus Windows, Linux, or macOS; to build it, GCC or Clang with SDL2 (on Windows, through MSYS2 and MinGW)."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - mods

@@ -1,0 +1,20 @@
+name: "One Must Fall 2097 (OpenOMF)"
+category: fan-remake
+console: dos
+status: playable
+repo: omf2097/openomf
+homepage: https://www.openomf.org/
+originalDeveloper: Diversions Entertainment
+year: 1994
+desc:
+  es: "OpenOMF: reimplementación desde cero, en C, del motor de One Must Fall 2097, el juego de lucha de robots de Diversions Entertainment que publicó Epic MegaGames para MS-DOS, que usa los archivos de datos del original. El equipo la ha hecho combinando desensamblado, inspección de la memoria y prueba y error, y busca la máxima compatibilidad con el original: admite sus partidas de torneo, sus tablas de puntuación y sus grabaciones REC. Nació porque el multijugador original iba por IPX y era difícil de montar: OpenOMF lo sustituye por juego en red con rollback sobre UDP. Tiene renderizador OpenGL, todos los modos (un jugador, dos jugadores y torneo) y soporte de mods. Se considera una alfa, con casi todo implementado y el modo torneo jugable entero. La 0.8.6 (5 de julio) añadió mods en archivos ZIP que cambian sprites, fondos y retratos, también a 2x o 4x, y atributos de robots, arenas y torneos (casi todos se desactivan en red), mods de música en OGG u Opus, con remezclas de Shady Monk y DeBisco incluidas, una paleta opcional de 1024 colores, filtros de escalado, pilotos rivales que gastan su dinero en el torneo y una versión AppImage; desde entonces publica una compilación de prueba que se va actualizando, la última del 21 de octubre. Hay versiones para Windows (x64 y ARM64), Linux (AppImage, .deb, .tar.gz y Flathub) y macOS 14 o posterior en ARM. Las descargas incluyen los archivos de datos del juego original, que se publicó después como freeware; el proceso de compilación del proyecto los descarga de omf2097.com."
+  en: "OpenOMF: a from-scratch C reimplementation of the engine of One Must Fall 2097, the robot fighting game by Diversions Entertainment, published by Epic MegaGames for MS-DOS, that uses the original’s data files. The team built it through a mix of disassembly, memory inspection, and trial and error, and aims for the closest possible compatibility with the original: it supports its tournament saves, scoreboard files, and REC recordings. It was started because the original multiplayer ran over IPX and was a pain to set up: OpenOMF replaces it with rollback netcode over UDP. It has an OpenGL renderer, every mode (one player, two players, and tournament), and mod support. It calls itself an alpha, with nearly everything implemented and tournament mode fully playable. Version 0.8.6 (July 5) added mods packed as ZIP files that replace sprites, backgrounds, and portraits, also at 2x or 4x, and change robot, arena, and tournament attributes (most are disabled in netplay), music mods in OGG or Opus, with remixes by Shady Monk and DeBisco included, an optional 1024-color palette, scaling filters, rival pilots who spend their money in tournaments, and an AppImage build; since then it has published a rolling test build, last updated on October 21. There are builds for Windows (x64 and ARM64), Linux (AppImage, .deb, .tar.gz, and Flathub), and ARM macOS 14 or later. The downloads include the original game’s data files, since the game was later released as freeware; the project’s build process downloads them from omf2097.com."
+requirements:
+  es: "No hace falta ninguna copia: One Must Fall 2097 se publicó después como freeware, y las versiones de OpenOMF ya traen sus archivos de datos. Si lo compilas tú, necesitas esos archivos en la carpeta de recursos. Además, Windows, Linux o macOS 14 o posterior con Apple Silicon."
+  en: "No copy needed: One Must Fall 2097 was later released as freeware, and OpenOMF’s builds already include its data files. If you build it yourself, you need those files in the resources folder. Plus Windows, Linux, or macOS 14 or later on Apple silicon."
+tags:
+  - x86
+  - multiplayer
+  - netplay
+  - mods
+  - reverse-engineering

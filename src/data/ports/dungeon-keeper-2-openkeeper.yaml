@@ -1,0 +1,18 @@
+name: "Dungeon Keeper 2 (OpenKeeper)"
+category: fan-remake
+console: pc
+status: experimental
+repo: tonihele/OpenKeeper
+author: Toni Helenius
+originalDeveloper: Bullfrog Productions
+year: 1999
+desc:
+  es: "OpenKeeper: remake de código abierto y multiplataforma de Dungeon Keeper 2 y de su motor, escrito en Java con jMonkeyEngine. Su objetivo es reimplementar el juego entero, en su versión 1.7 con los tres bonus packs, con pocos cambios o ninguno y usando los recursos originales, así que hace falta el juego para jugar; más adelante podría tener gráficos hechos por fans, que permitirían una versión independiente, y funciones nuevas. Incluye un conversor que pasa los recursos de tu instalación al formato del motor. Está en desarrollo desde 2014 y no tiene versiones estables: publica una compilación de desarrollo que se actualiza con los cambios, la última del 20 de octubre, y también se puede ejecutar desde el código con Gradle. Desde septiembre ha sumado un minimapa, un mapa a pantalla completa, techos, efectos visuales, los vídeos de nivel superado y un menú de opciones dentro de la partida. Dos de sus últimos 100 commits, de septiembre, llevan a Claude como coautor."
+  en: "OpenKeeper: an open-source, cross-platform remake of Dungeon Keeper 2 and its engine, written in Java with jMonkeyEngine. Its goal is to reimplement the whole game, version 1.7 with the three bonus packs, with few or no changes and using the original assets, so you need the game to play; later on it could get fan-made graphics, which would allow a standalone version, and new features. It includes a converter that turns the assets from your install into the engine’s format. It has been in development since 2014 and has no stable releases: it publishes a development build that is updated as changes come in, the latest on October 20, and it can also be run from source with Gradle. Since September it has added a minimap, a full-screen map, ceilings, visual effects, the level-won movies, and an in-game options menu. Two of its last 100 commits, from September, list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Dungeon Keeper 2 instalada; el proyecto toma como referencia la versión 1.7 con los tres bonus packs. Además, para ejecutarlo desde el código, el JDK 25 de Java y conexión a internet; en Arch Linux hay un paquete en AUR."
+  en: "Your own installed copy of Dungeon Keeper 2; the project targets version 1.7 with the three bonus packs. Plus, to run it from source, the Java JDK 25 and an internet connection; Arch Linux has an AUR package."
+tags:
+  - x86
+  - reverse-engineering
+  - ai-assisted

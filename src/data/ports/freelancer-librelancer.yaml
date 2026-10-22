@@ -1,0 +1,21 @@
+name: "Freelancer (Librelancer)"
+category: fan-remake
+console: pc
+status: experimental
+repoUrl: https://codeberg.org/Librelancer/Librelancer
+homepage: https://librelancer.net
+originalDeveloper: Digital Anvil
+year: 2003
+enrich: false
+desc:
+  es: "Librelancer: reimplementación de código abierto y multiplataforma del motor de Freelancer, el juego de comercio y combate espacial de 2003, escrita en C# con OpenGL. Usa los archivos de tu instalación del juego y no incluye ninguno de sus recursos. Según su web, todavía no permite jugar Freelancer como es debido: desde 2024 se puede completar la primera misión de la historia y en 2025 llegó a la segunda; el multijugador funciona, y cada vez hay más misiones jugables. Incluye LancerEdit, un conjunto de herramientas para hacer mods que viene en la descarga del SDK. La 2025.11 (7 de noviembre de 2025), la última versión estable, deja jugar de la misión M01A a la M01B y una parte de la M02, si los fallos lo permiten, añade rayos tractores, escaneo de carga y estadísticas del jugador, pasa a SDL3 y reescribe los shaders en HLSL; LancerEdit suma un importador de audio y editores, en pruebas, de sistemas y de guiones de misión. Además publica compilaciones diarias. Funciona en Windows 10 o posterior y en Linux x86-64 o ARM64 (las versiones publicadas son para Windows de 64 bits y Ubuntu x86-64); la de macOS está pendiente de que alguien la mantenga. En octubre trasladó su desarrollo de GitHub a Codeberg, y desde el 11 de julio no acepta contribuciones escritas con LLM o herramientas de IA."
+  en: "Librelancer: an open-source, cross-platform reimplementation of the engine of Freelancer, the 2003 space trading and combat game, written in C# with OpenGL. It uses the files from your install of the game and ships none of its assets. According to its website, it can’t play Freelancer properly yet: since 2024 the first story mission can be completed, and in 2025 it reached the second; multiplayer works, and more and more missions are becoming playable. It includes LancerEdit, a modding toolkit that comes in the SDK download. 2025.11 (November 7, 2025), the latest stable release, makes the game playable from mission M01A through M01B and part of M02, bugs allowing, adds tractor beams, cargo scanning, and player statistics, moves to SDL3, and rewrites the shaders in HLSL; LancerEdit gains an audio importer and beta system and mission script editors. Daily builds are published too. It runs on Windows 10 or later and on x86-64 or ARM64 Linux (the published builds are for 64-bit Windows and x86-64 Ubuntu); a macOS version is waiting for someone to maintain it. In October its development moved from GitHub to Codeberg, and since July 11 it doesn’t accept contributions written with LLMs or AI tools."
+requirements:
+  es: "Los archivos de tu propia instalación de Freelancer; se recomienda el juego sin modificar, aunque algunos mods pueden funcionar. Además, una tarjeta gráfica con OpenGL 3.1 u OpenGL ES 3.2 y Windows 10 o posterior de 64 bits o Linux x86-64 o ARM64; las versiones para Ubuntu están compiladas en la 24.04, y en distribuciones más antiguas hay que compilarlo. No funciona bien en sistemas de 32 bits."
+  en: "The files from your own install of Freelancer; the unmodified game is recommended, though some mods may work. Plus a graphics card with OpenGL 3.1 or OpenGL ES 3.2 and 64-bit Windows 10 or later or x86-64 or ARM64 Linux; the Ubuntu builds are compiled on 24.04, and older distributions need to build it from source. It doesn’t run well on 32-bit systems."
+tags:
+  - x86
+  - multiplayer
+  - mods
+  - reverse-engineering
+  - human-driven

@@ -1,0 +1,18 @@
+name: MadnessPatch
+kind: mod
+console: pc
+game:
+  es: "Alice: Madness Returns (PC, 2011)"
+  en: "Alice: Madness Returns (PC, 2011)"
+repo: Wemino/MadnessPatch
+status: usable
+desc:
+  es: "Parche no oficial para la versión de PC de Alice: Madness Returns: una DLL (dinput8.dll) que se copia junto al ejecutable del juego, con todas las opciones en MadnessPatch.ini. Hace que Alice, los enemigos, la cámara y los objetos de PhysX se comporten a cualquier tasa de fotogramas igual que a 30 fps, corrige cierres y pantallas de carga infinitas al cambiar de mapa, y quita las bandas negras laterales en ultrapanorámico y las horizontales en 16:10, ajustando el campo de visión. Añade una lista de logros dentro del juego con los de las versiones de Xbox 360 y PS3, mandos de PlayStation y Switch por SDL3 con sus iconos de botones, MSAA de 2x a 16x, supermuestreo, niebla corregida con el antialiasing activado, vídeos escalados con FSR 1, texturas siempre a máxima resolución, modo ventana y ventana sin bordes, límite de fotogramas, guardado más seguro con copia de respaldo, el audio pasado a XAudio 2.9 para que no se pierda al cambiar de dispositivo, el contenido de la Complete Edition desbloqueado, la consola de desarrollador y carga de mods desde archivos sueltos, además de arreglos en los scripts y los mapas del juego, como el bloqueo del ascensor del Sombrerero en el capítulo 1. La 4.0.1 salió el 21 de octubre."
+  en: "An unofficial patch for the PC version of Alice: Madness Returns: a DLL (dinput8.dll) you copy next to the game’s executable, with every option in MadnessPatch.ini. It makes Alice, the enemies, the camera, and PhysX objects behave at any frame rate exactly as they do at 30 fps, fixes crashes and endless loading screens during map transitions, and removes the pillarboxing on ultrawide and the letterboxing on 16:10, adjusting the field of view. It adds an in-game achievement list with the Xbox 360 and PS3 versions’ achievements, PlayStation and Switch controllers through SDL3 with matching button prompts, 2x to 16x MSAA, supersampling, fog fixed with anti-aliasing on, cutscenes upscaled with FSR 1, textures always at full resolution, windowed and borderless modes, a frame rate limit, safer saving with a backup, audio moved to XAudio 2.9 so it isn’t lost when the output device changes, the Complete Edition content unlocked, the developer console, and mod loading from loose files, plus fixes to the game’s scripts and maps, such as the Chapter 1 softlock on the Hatter’s elevator. 4.0.1 came out on October 21."
+requirements:
+  es: "Tu propia copia de Alice: Madness Returns para PC, de Steam o de la EA App. Además, Windows; si el juego no arranca con el parche, hay que actualizar el redistribuible de Visual C++ (x86)."
+  en: "Your own copy of Alice: Madness Returns for PC, from Steam or the EA app. Plus Windows; if the game doesn’t start with the patch, update the Visual C++ (x86) redistributable."
+tags:
+  - widescreen
+  - 60fps+
+  - mods

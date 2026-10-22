@@ -1,0 +1,13 @@
+name: "Diablo (DGEngine)"
+category: fan-remake
+console: pc
+status: experimental
+repo: dgcor/DGEngine
+originalDeveloper: Blizzard North
+year: 1996
+desc:
+  es: "DGEngine: implementación del motor de Diablo, escrita en C++ con SFML, en la que todo el juego se describe en archivos JSON y que se juega con los archivos de datos del original. Con ellos arranca Diablo y su expansión Hellfire; también Diablo Flare, con los recursos libres del juego Flare, y Diablo Extended, que mezcla los de Diablo y Flare. De Diablo II carga los recursos, salvo las texturas de los niveles. Según su wiki, editada por última vez en mayo de 2021, reproduce los menús originales y deja entrar en los niveles desde el pueblo, pero falta casi todo lo que pasa dentro del juego (objetos, jugadores, hechizos) y el multijugador. La última versión es la 1.2 (22 de diciembre de 2023), para Windows de 32 y 64 bits y Linux (AppImage, también en una variante con FFmpeg), y el último commit, de julio de 2025, arregla la compilación. El repositorio incluye los textos en inglés de los diálogos de los habitantes del pueblo y de las misiones de Diablo (unos 60 KB)."
+  en: "DGEngine: an implementation of the Diablo engine, written in C++ with SFML, in which the whole game is described in JSON files, played with the original game’s data files. With them it runs Diablo and its Hellfire expansion; also Diablo Flare, with the free assets of the game Flare, and Diablo Extended, which mixes Diablo’s and Flare’s. From Diablo II it loads the assets, except the level textures. According to its wiki, last edited in May 2021, it reproduces the original menus and lets you enter levels from the town, but nearly everything inside the game itself (items, players, spells) is missing, as is multiplayer. The latest release is 1.2 (December 22, 2023), for 32- and 64-bit Windows and Linux (AppImage, also in a variant with FFmpeg), and the last commit, from July 2025, fixes the build. The repository includes the English text of Diablo’s townspeople dialogue and quests (about 60 KB)."
+requirements:
+  es: "El archivo DIABDAT.MPQ de tu propia copia de Diablo; para Hellfire, también hellfire.mpq, hfmonk.mpq, hfmusic.mpq y hfvoice.mpq. Además, Windows o Linux."
+  en: "The DIABDAT.MPQ file from your own copy of Diablo; for Hellfire, also hellfire.mpq, hfmonk.mpq, hfmusic.mpq, and hfvoice.mpq. Plus Windows or Linux."

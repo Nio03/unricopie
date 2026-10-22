@@ -1,0 +1,21 @@
+name: "Doom / Doom II (Odamex)"
+category: source-port
+console: dos
+status: fully
+repo: odamex/odamex
+homepage: https://odamex.net
+originalDeveloper: id Software
+year: 1993
+desc:
+  es: "Odamex: port de Doom centrado en el multijugador por internet, con arquitectura cliente/servidor, que quiere conservar la jugabilidad original y a la vez añade muchas mejoras. Parte del código fuente que id Software publicó en diciembre de 1997, a través de CSDoom 0.62, de Sergey Makovkin, que a su vez salió de ZDoom 1.22, de Marisa Heit. Admite hasta 255 jugadores, con compensación de latencia (unlagged, e interpolación y predicción en el cliente), y además del deathmatch y el cooperativo clásicos tiene deathmatch por equipos, captura de la bandera (también a tres bandos), Horde, Survival, Last Man Standing y Attack & Defend, con calentamiento, rondas y cola de jugadores para partidas competitivas. Tiene ajustes de compatibilidad para imitar la física de Doom original, de Boom o de ZDoom, reproduce las demos originales, graba demos de red con control de reproducción, quita casi todos los límites del motor original y admite casi todo lo de Boom y MBF, el formato de mapas de Hexen, DeHackEd, BEX, DEHEXTRA, MBF21 y ACS. Dibuja en color verdadero, en panorámico, hasta 8K y con fotogramas sin límite, carga WAD sobre la marcha y los descarga desde el propio juego, y viene con su servidor, odasrv, y con Odalaunch, un lanzador que lista los servidores. La 12.0.0 (26 de diciembre de 2025) añadió DSDHacked, que abre mods como Eviternity II o Legacy of Rust; la última, la 12.3.0 (6 de agosto), sumó una opción de 90 fps, navegación con el ratón por los menús, una cámara libre para las demos de red y para quien se queda sin vidas en Survival, y los portales de sectores apilados de ZDoom. Hay versiones para Windows (instalador y versiones portátiles de 32 y 64 bits), Linux (Flatpak para x86-64 y ARM64) y macOS."
+  en: "Odamex: a Doom source port focused on online multiplayer, with a client/server architecture, that aims to keep the original gameplay while adding many enhancements. It builds on the source code id Software released in December 1997, by way of Sergey Makovkin’s CSDoom 0.62, which itself came from Marisa Heit’s ZDoom 1.22. It supports up to 255 players, with lag compensation (unlagged, plus client-side interpolation and prediction), and besides classic deathmatch and co-op it has team deathmatch, capture the flag (three-way too), Horde, Survival, Last Man Standing, and Attack & Defend, with warmup, rounds, and a player queue for competitive play. It has compatibility settings to emulate vanilla Doom, Boom, or ZDoom physics, plays back vanilla demos, records netdemos with playback controls, removes most of the original engine’s static limits, and supports most Boom and MBF features, the Hexen map format, DeHackEd, BEX, DEHEXTRA, MBF21, and ACS. It renders in true color, widescreen, up to 8K, and at uncapped frame rates, loads WADs on the fly and downloads them from within the game, and comes with its own server, odasrv, and Odalaunch, a launcher that lists servers. Version 12.0.0 (December 26, 2025) added DSDHacked, which opens up mods such as Eviternity II and Legacy of Rust; the latest, 12.3.0 (August 6), added a 90 fps option, mouse navigation in the menus, a free camera for netdemos and for players out of lives in Survival, and ZDoom’s stacked sector portals. There are builds for Windows (an installer plus 32- and 64-bit portable builds), Linux (Flatpak for x86-64 and ARM64), and macOS."
+requirements:
+  es: "La IWAD de tu propia copia de Doom, Doom II o Final Doom; también valen las IWAD libres de Freedoom y la de Chex Quest. Además, Windows, Linux o macOS."
+  en: "The IWAD from your own copy of Doom, Doom II, or Final Doom; the free Freedoom IWADs and the Chex Quest IWAD work too. Plus Windows, Linux, or macOS."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - mods
+  - widescreen
+  - 60fps+

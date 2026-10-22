@@ -1,0 +1,21 @@
+name: "Quake (Chocolate Quake)"
+category: source-port
+console: dos
+status: fully
+repo: Henrique194/chocolate-quake
+originalDeveloper: id Software
+year: 1996
+desc:
+  es: "Chocolate Quake: port minimalista de Quake que busca conservar la experiencia original de la versión 1.09 (WinQuake) y de las versiones de DOS anteriores, con la misma filosofía que Chocolate Doom. Reproduce con mucha fidelidad su comportamiento, fallos y rarezas incluidos, y el control, el dibujado y los tiempos están pensados para sentirse como entonces, sin aceleración por hardware ni efectos modernos. Lo que añade es lo justo para los sistemas actuales: 64 bits, mandos modernos y ratones de cinco botones, un menú de vídeo con 15 modos a pantalla completa o en ventana, música desde archivos MP3, Ogg, FLAC o WAV en lugar de las pistas del CD y, al salir, la pantalla final de la versión de DOS. Algunas partes del sonido y la entrada vienen de QuakeSpasm Spiked. La 2.0.0 (14 de diciembre de 2025) añadió el multijugador, y la última, la 2.1.0, reorganizó parte del código para hacerlo más portable y cambió las carpetas donde busca el juego en Linux y macOS. No publica versiones en GitHub: en Windows y Linux se compila desde el código, y las versiones para macOS, firmadas, las publica Mac Source Ports."
+  en: "Chocolate Quake: a minimalist Quake port that aims to preserve the original experience of version 1.09 (WinQuake) and earlier DOS releases, following the same philosophy as Chocolate Doom. It reproduces their behavior with high accuracy, original bugs and quirks included, and input, rendering, and timing are designed to feel the way they did back then, with no hardware acceleration or modern visual effects. What it adds is just what modern systems need: 64-bit support, modern controllers and five-button mice, a video menu with 15 fullscreen and windowed modes, music from MP3, Ogg, FLAC, or WAV files in place of the CD tracks, and, on quitting, the DOS version’s end screen. Parts of the sound and input code come from QuakeSpasm Spiked. 2.0.0 (December 14, 2025) added multiplayer, and the latest, 2.1.0, reworked part of the code to make it more portable and changed where it looks for the game on Linux and macOS. It publishes no releases on GitHub: on Windows and Linux it’s built from source, and signed macOS builds are published by Mac Source Ports."
+requirements:
+  es: "Los datos de tu propia copia de Quake, la carpeta id1 con sus archivos PAK; basta con el pak0.pak de la versión shareware. En Windows, la carpeta va junto al ejecutable, y en Linux y macOS, en su carpeta de datos del usuario, aunque se puede indicar otra con -basedir. Además, Windows, Linux o macOS."
+  en: "The data from your own copy of Quake, the id1 folder with its PAK files; the shareware pak0.pak is enough. On Windows the folder goes next to the executable, and on Linux and macOS in its user data folder, though another one can be set with -basedir. Plus Windows, Linux, or macOS."
+tags:
+  - fps
+  - multiplayer
+links:
+  - label:
+      es: "Versión para macOS (Mac Source Ports)"
+      en: "macOS build (Mac Source Ports)"
+    url: https://www.macsourceports.com/sourceport/chocolatequake

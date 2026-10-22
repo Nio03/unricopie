@@ -1,0 +1,18 @@
+name: "Counter-Strike (CS16Client)"
+category: fan-remake
+console: pc
+status: playable
+repo: Velaron/cs16-client
+originalDeveloper: Valve
+year: 2000
+desc:
+  es: "CS16Client: cliente de Counter-Strike 1.6 hecho por ingeniería inversa, pensado para plataformas móviles y otras que el juego no admite oficialmente, que funciona sobre Xash3D FWGS, el motor compatible con el de Half-Life. Lo empezó a1batross y lo mantiene Velaron. Además de la biblioteca del cliente, compila la del servidor, con ReGameDLL_CS, para las partidas propias, los bots de YaPB, con los grafos de navegación de los mapas oficiales que descarga al compilar, y el menú. Añade opciones de retícula (color, tamaño, grosor, separación, punto, forma de T y retícula dinámica), color del HUD, armas centradas y balanceo del arma, además de controles táctiles. Publica compilaciones continuas; la última es del 18 de octubre, y este mes ha corregido el marcador y el contador de dinero del HUD. Hay versiones para Windows (x86 y x64), Linux (i386 y x86-64) y macOS (Apple Silicon e Intel), las de macOS sin probar, además de para Android y PS Vita. El repositorio, y con él las descargas, incluye además archivos para el juego: cuatro mapas de entrenamiento (tr_1, tr_1a, tr_2 y tr_3) con 25 locuciones, 487 sonidos de radio de los bots con sus archivos de perfiles y de frases, y gráficos y sonidos de menú."
+  en: "CS16Client: a reverse-engineered Counter-Strike 1.6 client, designed for mobile platforms and others the game doesn’t officially support, that runs on Xash3D FWGS, the Half-Life-compatible engine. It was started by a1batross and is maintained by Velaron. Besides the client library, it builds the server library, with ReGameDLL_CS, for your own games, the YaPB bots, with navigation graphs for the official maps that it downloads at build time, and the menu. It adds crosshair options (color, size, thickness, gap, dot, T shape, and dynamic crosshair), HUD color, centered weapons, and weapon sway, plus touch controls. It publishes continuous builds; the latest is from October 18, and this month’s changes fixed the HUD’s scoreboard and money counter. There are builds for Windows (x86 and x64), Linux (i386 and x86-64), and macOS (Apple silicon and Intel), the macOS ones untested, plus Android and PS Vita. The repository, and with it the downloads, also includes files for the game: four training maps (tr_1, tr_1a, tr_2, and tr_3) with 25 voice lines, 487 bot radio sounds with their profile and chatter files, and menu graphics and sounds."
+requirements:
+  es: "Tu propia copia de Counter-Strike en Steam: sus carpetas valve y cstrike, copiadas en la carpeta de Xash3D FWGS, del que hace falta la última compilación de desarrollo. Además, Windows, Linux o macOS."
+  en: "Your own copy of Counter-Strike on Steam: its valve and cstrike folders, copied into the Xash3D FWGS folder, which must be the latest development build. Plus Windows, Linux, or macOS."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - reverse-engineering

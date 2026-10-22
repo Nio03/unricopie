@@ -1,0 +1,21 @@
+name: NeoHabitat
+kind: launcher
+consoles: []
+repo: frandallfarmer/neohabitat
+status: beta
+desc:
+  es: "Ojo: esto no es un port a PC. NeoHabitat recrea el servidor de Habitat, el mundo en línea que Lucasfilm hizo para Commodore 64 en 1986 y que funcionaba sobre QuantumLink, para que el cliente original vuelva a tener a dónde conectarse. Lo dirige F. Randall Farmer, uno de los creadores del juego, y empezó en 2017. El servidor de juego (Elko, en Java, con el mundo en MongoDB), un puente en Go que habla el protocolo de 1986 y el de los clientes nuevos, y un servidor web en Node.js con Docent, una guía interactiva para el jugador, arrancan juntos con Docker Compose. El cliente de Commodore 64 es el software original, reconstruido a partir del código de Lucasfilm por Gary Lake-Schaal: se juega en el emulador VICE, con paquetes para Windows (un instalador) y macOS que lo traen configurado, o a mano en Linux y BSD; también funciona en un Ultimate 64 o en un Commodore 64 real con un módem wifi, y la documentación explica cómo apuntarlo a tu propio servidor. El proyecto ha escrito además un cliente web en JavaScript que no necesita emulador, un cliente 3D experimental, un cliente de texto y bots, entre ellos Sagebot, que usa un modelo de lenguaje y se activa con una clave de la API de Anthropic. Avisa de que sigue en desarrollo y puede ser inestable. 29 de sus últimos 100 commits llevan a Claude como coautor. El repositorio incluye las imágenes de disco del cliente de Commodore 64 (Habitat-Boot.d64 y Habitat-B.d64, en pushserver/public/disks), reconstruidas a partir del código original que The MADE publicó con licencia MIT y modificadas para saltarse el paso por QuantumLink."
+  en: "Note: this isn’t a PC port. NeoHabitat recreates the server for Habitat, the online world Lucasfilm made for the Commodore 64 in 1986, which ran on QuantumLink, so the original client has somewhere to connect to again. It’s led by F. Randall Farmer, one of the game’s creators, and started in 2017. The game server (Elko, in Java, with the world in MongoDB), a Go bridge that speaks both the 1986 protocol and the new clients’ protocol, and a Node.js web server with Docent, an interactive guide for the player, start together with Docker Compose. The Commodore 64 client is the original software, rebuilt from Lucasfilm’s source code by Gary Lake-Schaal: you play it in the VICE emulator, with packages for Windows (an installer) and macOS that come preconfigured, or by hand on Linux and BSD; it also runs on an Ultimate 64 or a real Commodore 64 with a Wi-Fi modem, and the documentation explains how to point it at your own server. The project has also written a JavaScript web client that needs no emulator, an experimental 3D client, a text client, and bots, among them Sagebot, which runs on a language model and is enabled with an Anthropic API key. It warns that it’s still in development and may be unstable. 29 of its last 100 commits list Claude as a co-author. The repository includes the Commodore 64 client’s disk images (Habitat-Boot.d64 and Habitat-B.d64, in pushserver/public/disks), rebuilt from the original source code The MADE released under the MIT license and modified to skip the QuantumLink step."
+tags:
+  - online
+  - multiplayer
+  - ai-assisted
+links:
+  - label:
+      es: "Montar tu propio servidor (guía)"
+      en: "Run your own server (guide)"
+    url: https://github.com/frandallfarmer/neohabitat/blob/master/docs/run-your-own-server.md
+  - label:
+      es: "Código original de Habitat (The MADE)"
+      en: "Original Habitat source code (The MADE)"
+    url: https://github.com/Museum-of-Art-and-Digital-Entertainment/habitat

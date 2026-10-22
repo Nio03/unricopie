@@ -1,0 +1,18 @@
+name: "Doom / Doom II (Eternity Engine)"
+category: source-port
+console: dos
+status: fully
+repo: team-eternity/eternity
+homepage: http://eternity.youfailit.net/wiki/Main_Page
+author: James Haley / Ioan Chera
+originalDeveloper: id Software
+year: 1993
+desc:
+  es: "Eternity Engine: port avanzado de Doom que mantiene James «Quasar» Haley, descendiente de SMMU, el port de Simon «fraggle» Howard, de la familia Boom/MBF; la mayor parte del trabajo reciente es de Ioan Chera. Está pensado tanto para jugar como para crear mapas y mods: tiene ACS con muchas de las ampliaciones de ZDoom; EDF (Eternity Definition File), un lenguaje para definir y modificar monstruos, decoraciones, sonidos, textos, menús y tipos de terreno, y portales para cielos y falsa arquitectura 3D, por los que pueden pasar los objetos. Admite resoluciones prácticamente ilimitadas, PNG, ENDOOM y pantallas de arranque animadas, UMAPINFO, MBF21 y DSDHacked, y juega Master Levels y No Rest for the Living sin opciones de línea de comandos. También ejecuta Heretic, con sus reglas puestas al día según la versión de 2025, y tiene en marcha Hexen y Strife. La 4.06.00 «Nidhogg» (13 de junio) es una gran versión de correcciones y mejoras, con escalado de texturas de pared, texturas de suelo de tamaños que no son potencia de dos y nuevas funciones de ACS para el inventario."
+  en: "Eternity Engine: an advanced Doom source port maintained by James “Quasar” Haley, descended from Simon “fraggle” Howard’s SMMU, part of the Boom/MBF line; most of the recent work is by Ioan Chera. It’s built for players and mappers alike: it has ACS with many of ZDoom’s enhancements; EDF (Eternity Definition File), a language to define and modify monsters, decorations, sounds, text strings, menus, and terrain types; and portals for skyboxes and fake 3D architecture that objects can pass through. It supports practically unlimited resolutions, PNG, ENDOOM and animated startup screens, UMAPINFO, MBF21, and DSDHacked, and plays Master Levels and No Rest for the Living without command-line options. It also runs Heretic, with its rules updated to match the 2025 release, and Hexen and Strife support is in progress. Version 4.06.00 “Nidhogg” (June 13) is a big bug-fix and improvement release, with wall texture scaling, non-power-of-two flats, and new ACS inventory functions."
+requirements:
+  es: "El IWAD de tu propia copia de Doom, Doom II, Final Doom o Heretic. Además, Windows (32 o 64 bits) o macOS (Intel o Apple Silicon); en Linux y BSD se compila desde el código."
+  en: "The IWAD from your own copy of Doom, Doom II, Final Doom, or Heretic. Plus Windows (32- or 64-bit) or macOS (Intel or Apple silicon); on Linux and the BSDs you build it from source."
+tags:
+  - fps
+  - mods

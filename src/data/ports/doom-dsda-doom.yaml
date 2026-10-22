@@ -1,0 +1,22 @@
+name: "Doom / Doom II (DSDA-Doom)"
+category: source-port
+console: dos
+status: fully
+repo: dsda-org/dsda-doom
+author: "kraflab, fabiangreffrath, rfomin, Pedro-Beirao, …"
+originalDeveloper: id Software
+year: 1993
+desc:
+  es: "DSDA-Doom: port de Doom sucesor de PrBoom+, de la familia Boom, que parte del código fuente que id Software publicó en 1997 y añade herramientas para grabar y reproducir demos, con la mirada puesta en el speedrunning y en la comodidad. Lo creó kraflab, que lo mantuvo de 2020 a 2024; hoy lo mantienen Fabian Greffrath, autor de Crispy Doom y Woof!, y otros cuatro desarrolladores. Además de Doom juega Heretic y Hexen, compatibles con sus demos originales, y admite MBF21, UDMF, UMAPINFO y DSDHacked. Tiene una consola con scripts, soporte completo de mando, un renderizador OpenGL basado en paletas, rebobinado, un modo estricto para speedruns, herramientas avanzadas para TAS y funciones de depuración para probar mapas; hay además un launcher propio, dsda-launcher, en otro repositorio. La 0.30.0 (29 de septiembre) pasó UMAPINFO a la revisión 3, con soporte para Heretic, quitó el soporte del MAPINFO de ZDoom, añadió navegación con el ratón por los menús y recuperó la ventana ENDOOM; la última, la 0.30.1 (9 de octubre), permite elegir el dispositivo de salida de audio. Hay versiones para Windows de 64 bits (desde Windows 7), Linux (AppImage) y macOS (binario universal)."
+  en: "DSDA-Doom: a Doom source port, the successor of PrBoom+ in the Boom line, which builds on the source code id Software released in 1997 and adds tools for recording and playing back demos, with a focus on speedrunning and quality of life. It was created by kraflab, who maintained it from 2020 to 2024; it’s now maintained by Fabian Greffrath, the author of Crispy Doom and Woof!, and four other developers. Besides Doom, it plays Heretic and Hexen, compatible with their original demos, and supports MBF21, UDMF, UMAPINFO, and DSDHacked. It has a console with scripting, full controller support, a palette-based OpenGL renderer, rewind, a strict mode for speedrunning, advanced TAS tools, and debugging features for testing maps; there’s also a dedicated launcher, dsda-launcher, in a separate repository. Version 0.30.0 (September 29) moved UMAPINFO to revision 3, with Heretic support, removed ZDoom MAPINFO support, added mouse navigation in the menus, and brought back the ENDOOM window; the latest, 0.30.1 (October 9), lets you choose the audio output device. There are builds for 64-bit Windows (Windows 7 and later), Linux (AppImage), and macOS (universal binary)."
+requirements:
+  es: "La IWAD de tu propia copia: doom.wad, doom2.wad, tnt.wad o plutonia.wad para Doom, Doom II y Final Doom; heretic.wad para Heretic, o hexen.wad, y hexdd.wad para su expansión, para Hexen. También reconoce las IWAD libres de Freedoom y las de Chex Quest. Además, Windows de 64 bits, Linux de 64 bits o macOS."
+  en: "The IWAD from your own copy: doom.wad, doom2.wad, tnt.wad, or plutonia.wad for Doom, Doom II, and Final Doom; heretic.wad for Heretic; or hexen.wad, plus hexdd.wad for its expansion, for Hexen. It also recognizes the free Freedoom IWADs and the Chex Quest ones. Plus 64-bit Windows, 64-bit Linux, or macOS."
+tags:
+  - fps
+  - mods
+links:
+  - label:
+      es: "dsda-launcher (launcher del port)"
+      en: "dsda-launcher (the port’s launcher)"
+    url: https://github.com/dsda-org/dsda-launcher

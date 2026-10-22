@@ -1,0 +1,19 @@
+name: "Romanov's Vengeance (Red Alert 2)"
+kind: mod
+console: pc
+game:
+  es: "Command & Conquer: Red Alert 2 y Yuri's Revenge (OpenRA)"
+  en: "Command & Conquer: Red Alert 2 and Yuri’s Revenge (OpenRA)"
+base: ports/openra
+repo: MustaphaTR/Romanovs-Vengeance
+author: Mustafa Alperen Seki
+status: beta
+desc:
+  es: "Mod de terceros para OpenRA, basado en su mod de Red Alert 2, que busca un Red Alert 2 con el multijugador equilibrado, las mejoras propias de OpenRA y otras tomadas de juegos de Command & Conquer más recientes. Se instala como cualquier mod hecho con el OpenRAModSDK, y sus versiones ya traen el motor: instaladores y versiones portátiles para Windows de 32 y 64 bits, una AppImage para Linux y un DMG para macOS. En el primer arranque copia los archivos base y la música de Red Alert 2 y de Yuri's Revenge de tu copia del juego. Incluye arte nuevo de unidades, edificios, iconos y animaciones hecho por la comunidad, con cada autor acreditado, y conjuntos de terreno ampliados. Su autor avisa de que sigue en desarrollo: incluso las versiones de prueba tienen fallos, faltan algunas funciones del juego original, parte del arte es provisional y apenas ha empezado la campaña propia que planea. La última versión es la playtest-20241215 (15 de diciembre de 2024), y el último commit es de julio de 2025."
+  en: "A third-party OpenRA mod, based on OpenRA’s Red Alert 2 mod, that aims for a Red Alert 2 with balanced multiplayer, OpenRA’s own improvements, and others taken from more recent Command & Conquer games. It installs like any other mod made with the OpenRAModSDK, and its releases bundle the engine: installers and portable builds for 32- and 64-bit Windows, a Linux AppImage, and a macOS DMG. On first launch it copies Red Alert 2’s and Yuri’s Revenge’s base files and music from your copy of the game. It includes new community-made artwork for units, buildings, icons, and animations, with each author credited, and expanded terrain sets. Its author warns that it’s still in development: even the playtest builds have bugs, a few features of the original game are missing, some artwork is a placeholder, and the planned custom campaign has barely been started. The latest release is playtest-20241215 (December 15, 2024), and the last commit is from July 2025."
+requirements:
+  es: "Tu propia copia de Command & Conquer: Red Alert 2 y de Yuri's Revenge: los archivos de Red Alert 2 se pueden copiar de un disco en inglés (Aliados o Soviéticos), y los de los dos juegos, de una instalación de The First Decade, de Origin o de Steam. La música es opcional. Además, Windows, Linux o macOS."
+  en: "Your own copy of Command & Conquer: Red Alert 2 and Yuri’s Revenge: Red Alert 2’s files can be copied from an English disc (Allied or Soviet), and both games’ files from a The First Decade, Origin, or Steam install. The music is optional. Plus Windows, Linux, or macOS."
+tags:
+  - multiplayer
+  - online

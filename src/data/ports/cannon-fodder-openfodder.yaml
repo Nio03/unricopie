@@ -1,0 +1,20 @@
+name: "Cannon Fodder (Open Fodder)"
+category: fan-remake
+console: dos
+status: fully
+repo: OpenFodder/openfodder
+homepage: https://openfodder.com/
+author: Robert Crossfield
+originalDeveloper: Sensible Software
+year: 1993
+desc:
+  es: "Open Fodder: reimplementación de código abierto del motor de Cannon Fodder, el juego de acción y estrategia de Sensible Software de 1993, y de Cannon Fodder 2, para sistemas actuales. Según el proyecto, respeta el ritmo, el manejo de los soldados y la física de las armas del original. Lee los datos de Cannon Fodder para DOS en CD, Amiga y Amiga CD32, y de Cannon Fodder 2 para DOS en CD y Amiga; si tienes ambas versiones, con F1 y F2 se cambia entre la de Amiga y la de PC. Añade un generador de mapas aleatorios escrito en JavaScript, con rehenes, tiendas de rescate, vehículos y helicóptero, juego en ventana con escalado, opciones para saltarse la introducción y las sesiones informativas, y la reproducción del vídeo de introducción de la versión CD32 si lo extraes de tu disco; las campañas y mapas nuevos se crean con OpenFodder Editor, un proyecto aparte. Hay instalador para Windows y Flatpak para Linux, y se compila en otros sistemas, como OpenBSD o RetroPie. La 2.0.0 (16 de diciembre de 2025) añadió los helicópteros desarmados que faltaban y corrigió fallos de animación de los soldados que venían del motor original. El instalador de Windows incluye siete demos de revistas (seis de Amiga y una de PC) y los datos de las campañas, que el juego original llevaba dentro del ejecutable; en Linux o al compilarlo, esos datos hay que descargarlos aparte del repositorio OpenFodder/data en GitHub."
+  en: "Open Fodder: an open-source reimplementation of the engine of Cannon Fodder, Sensible Software’s 1993 action strategy game, and of Cannon Fodder 2, for modern systems. According to the project, it keeps the original’s timing, soldier handling, and weapon physics. It reads the data from Cannon Fodder for DOS CD, Amiga, and Amiga CD32, and from Cannon Fodder 2 for DOS CD and Amiga; if you have both versions, F1 and F2 switch between the Amiga and PC ones. It adds a random map generator written in JavaScript, with hostages, rescue tents, vehicles, and a helicopter, windowed play with scaling, options to skip the intro and the briefings, and playback of the CD32 version’s intro video if you extract it from your disc; new campaigns and maps are made with OpenFodder Editor, a separate project. There’s a Windows installer and a Flatpak for Linux, and it builds on other systems such as OpenBSD or RetroPie. Version 2.0.0 (December 16, 2025) added the missing unarmed helicopters and fixed soldier animation bugs carried over from the original engine. The Windows installer includes seven magazine cover-disk demos (six Amiga, one PC) and the campaign data, which the original game kept inside its executable; on Linux or when building from source, that data has to be downloaded separately from the OpenFodder/data repository on GitHub."
+requirements:
+  es: "Para las campañas completas, los archivos de tu propia copia de Cannon Fodder o Cannon Fodder 2: de la versión DOS en CD (por ejemplo, la de GOG), el CF_ENG.DAT de Cannon Fodder o todos los archivos de Cannon Fodder 2; de Amiga, los discos desempaquetados con SOS Unpacker o instalados con WHDLoad, y de CD32, la carpeta Fodder del CD. Sin copia solo se pueden jugar las demos incluidas. Además, Windows, Linux u otro sistema tipo Unix."
+  en: "For the full campaigns, the files from your own copy of Cannon Fodder or Cannon Fodder 2: from the DOS CD version (GOG’s, for example), Cannon Fodder’s CF_ENG.DAT or all of Cannon Fodder 2’s files; from Amiga, the disks unpacked with SOS Unpacker or installed with WHDLoad; and from CD32, the CD’s Fodder folder. Without a copy, only the bundled demos are playable. Plus Windows, Linux, or another Unix-like system."
+tags:
+  - mods
+links:
+  - label: OpenFodder Editor
+    url: https://github.com/OpenFodder/editor

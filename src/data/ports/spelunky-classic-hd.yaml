@@ -1,0 +1,24 @@
+name: "Spelunky Classic (Spelunky Classic HD)"
+category: source-port
+console: pc
+status: fully
+repo: yancharkin/SpelunkyClassicHD
+originalDeveloper: Derek Yu
+year: 2008
+desc:
+  es: "Spelunky Classic HD: versión modificada de Spelunky Classic, el juego gratuito de Derek Yu, hecha sobre el código fuente en GameMaker que se publicó en el Humble Weekly Bundle: Play and Create with GameMaker, no sobre la versión 1.1 original. Lo lleva a una versión actual de GameMaker con ejecutables para varios sistemas y añade relaciones de aspecto hasta 21:9 (el original solo era 4:3), mejor soporte de mandos, con selección de mando cuando hay varios, controles táctiles, reinicio instantáneo y traducciones hechas por colaboradores, entre ellas al español. La licencia de Derek Yu permite modificar y redistribuir el juego y su código siempre que no se vendan. La última versión es la 1.2.2 (3 de septiembre de 2025), para Windows y Linux (x86-64 y ARM64) y Android; desde entonces el repositorio ha añadido el griego y actualizado GameMaker. Hay además una versión para navegador, en un repositorio aparte."
+  en: "Spelunky Classic HD: a modified version of Spelunky Classic, Derek Yu’s free game, built on the GameMaker source code published in the Humble Weekly Bundle: Play and Create with GameMaker rather than on the original 1.1 release. It moves the game to a current version of GameMaker with builds for several systems and adds aspect ratios up to 21:9 (the original was 4:3 only), better controller support, with controller selection when several are connected, touch controls, instant restart, and translations by contributors, Spanish among them. Derek Yu’s license allows modifying and redistributing the game and its code as long as they aren’t sold. The latest release is 1.2.2 (September 3, 2025), for Windows and Linux (x86-64 and ARM64) and Android; since then the repository has added Greek and updated GameMaker. There’s also a browser version, in a separate repository."
+requirements:
+  es: "Ninguna copia: Spelunky Classic es gratuito y su licencia permite redistribuirlo modificado, así que la descarga trae el juego completo. Además, Windows o Linux, en x86-64 o ARM64."
+  en: "No copy needed: Spelunky Classic is free and its license allows redistributing it modified, so the download includes the whole game. Plus Windows or Linux, on x86-64 or ARM64."
+tags:
+  - widescreen
+links:
+  - label:
+      es: "Versión para navegador"
+      en: "Browser version"
+    url: https://github.com/yancharkin/SpelunkyClassicHDhtml5
+  - label:
+      es: "Página en itch.io"
+      en: "itch.io page"
+    url: https://yancharkin.itch.io/spelunky-classic-hd

@@ -1,0 +1,17 @@
+name: "Street Fighter III: 3rd Strike (3SX)"
+category: decomp-port
+console: ps2
+status: playable
+repo: crowded-street/3sx
+originalDeveloper: Capcom
+year: 2004
+desc:
+  es: "3SX: port nativo de Street Fighter III: 3rd Strike, continuación de 3s-decomp, la decompilación con coincidencia exacta de la versión de PS2. No es un recomp ni emulación: es código C que corre directamente en tu equipo, con SDL3. Quiere ser la mejor versión de 3rd Strike, con soporte de primera para Windows, macOS y Linux, código de red con rollback mediante GekkoNet y la opción de recuperar el equilibrio de la recreativa, que la versión de PS2 cambió (todavía en desarrollo e inestable). Se configuran la pantalla completa, el escalado del búfer interno de 384×224 (píxeles nítidos, entero o píxeles cuadrados para CRT), un filtro de líneas de barrido y que los personajes se dibujen por delante del HUD, como en Street Fighter IV. Para la 1.0 se propone una experiencia estable en PC, juego en línea fácil, actualizaciones automáticas y que la única dependencia sea la ROM de la recreativa. En octubre siguió recuperando comportamientos de la recreativa y corrigiendo el modo entrenamiento y los combates contra la CPU. Ahora mismo no hay versiones publicadas en GitHub, así que hay que compilarlo. El repositorio incluye, escritas como código C, tablas de datos sacadas del juego, entre ellas las de su sistema de sonido (unos 2,5 MB)."
+  en: "3SX: a native port of Street Fighter III: 3rd Strike, a continuation of 3s-decomp, the matching decompilation of the PS2 version. It’s neither a recomp nor emulation: it’s C code running directly on your machine, with SDL3. It aims to be the ultimate version of 3rd Strike, with first-class support for Windows, macOS, and Linux, rollback netcode through GekkoNet, and an option to restore the arcade balance that the PS2 version changed (still in development and unstable). You can set fullscreen, how the internal 384×224 buffer is scaled (sharp pixels, integer, or square pixels for CRTs), a scanline filter, and drawing the characters in front of the HUD, as in Street Fighter IV. The goals for 1.0 are a stable PC experience, easy online play, automatic updates, and the arcade ROM as the only dependency. In October it kept restoring arcade behavior and fixing training mode and CPU matches. Right now there are no releases on GitHub, so you have to build it. The repository includes data tables taken from the game, written as C code, among them those of its sound system (about 2.5 MB)."
+requirements:
+  es: "Tu propia copia de Street Fighter III: 3rd Strike o de Street Fighter Anniversary Collection para PS2: el asistente del primer arranque te la pide, o copias a mano el archivo THIRD/SF33RD.AFS del disco a la carpeta resources. El equilibrio de la recreativa necesita además la ROM de la recreativa, sfiii3nr1.zip. Además, Windows, macOS o Linux."
+  en: "Your own copy of Street Fighter III: 3rd Strike or Street Fighter Anniversary Collection for PS2: the startup wizard asks for it, or you copy THIRD/SF33RD.AFS from the disc into the resources folder by hand. Arcade balance also needs the arcade ROM, sfiii3nr1.zip. Plus Windows, macOS, or Linux."
+tags:
+  - emotion-engine
+  - multiplayer
+  - netplay

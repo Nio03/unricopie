@@ -1,0 +1,20 @@
+name: "Descent / Descent II (DXX-Rebirth)"
+category: source-port
+console: dos
+status: fully
+repo: dxx-rebirth/dxx-rebirth
+originalDeveloper: Parallax Software
+year: 1995
+desc:
+  es: "DXX-Rebirth: port de Descent y Descent II que continúa los ya abandonados D1X y D2X, que partían a su vez del código fuente original de Descent y de LDescent. Trae un motor para cada juego, D1X-Rebirth y D2X-Rebirth, que funcionan por separado, y es compatible con los dos juegos completos, todas sus expansiones y los niveles de terceros, además de con los pilotos, partidas guardadas, demos y misiones de las versiones de DOS. Dibuja con OpenGL, con transparencias, iluminación de color, filtrado de texturas y FSAA opcionales, a cualquier resolución y relación de aspecto que admita tu monitor y con sincronización vertical. Admite varios joysticks a la vez junto con el teclado y el ratón, música MIDI, de CD o tus propios archivos, y paquetes que sustituyen o amplían el contenido de los juegos. El multijugador va por UDP, en red local o por internet. Graba demos con menos fallos y más pequeñas, aún compatibles con las de los juegos originales, y evita los fallos que causaba jugar a más velocidad, como misiles teledirigidos demasiado rápidos o daños desmesurados por choques. Las últimas versiones numeradas en GitHub son de 2016 y 2018 (la 0.60 beta 2); para jugar sin compilar, el proyecto remite a las compilaciones de GitHub Actions para Windows x86-64, macOS 14 con Apple Silicon y Linux x86-64 (AppImage). Cuatro de sus últimos 100 commits, de agosto y de un mismo colaborador, declaran en su mensaje que se hicieron con ayuda de OpenAI Codex."
+  en: "DXX-Rebirth: a Descent and Descent II port that continues the discontinued D1X and D2X, which in turn built on the original Descent source code and LDescent. It has one engine per game, D1X-Rebirth and D2X-Rebirth, which work independently, and it’s compatible with both full games, all of their expansions, and third-party levels, as well as with the pilot files, savegames, demos, and missions from the DOS versions. It renders with OpenGL, with optional transparency, colored lighting, texture filtering, and FSAA, at any resolution and aspect ratio your monitor supports, with VSync. It supports several joysticks at once alongside keyboard and mouse, MIDI, CD, or your own music files, and add-on packs that replace or expand the games’ content. Multiplayer runs over UDP, on a LAN or over the internet. It records smaller, less glitchy demos that stay compatible with the original games’, and it avoids the glitches that higher game speeds used to cause, such as overly fast homing missiles or excessive collision damage. The latest numbered releases on GitHub date from 2016 and 2018 (0.60 beta 2); to play without building it, the project points to the GitHub Actions builds for x86-64 Windows, macOS 14 on Apple silicon, and x86-64 Linux (AppImage). Four of its last 100 commits, from August and by a single contributor, state in their messages that they were made with help from OpenAI Codex."
+requirements:
+  es: "Los archivos de datos de tu propia copia de Descent (descent.hog y descent.pig) o de Descent II (descent2.ham, descent2.hog, descent2.s22 y los .pig de sus escenarios), por ejemplo los de la versión de GOG; los vídeos de Descent II son opcionales. También valen los datos gratuitos del shareware de Descent y de la demo de Descent II, de PC o de Mac. Además, Windows, macOS o Linux."
+  en: "The data files from your own copy of Descent (descent.hog and descent.pig) or Descent II (descent2.ham, descent2.hog, descent2.s22, and its environments’ .pig files), for example from the GOG release; Descent II’s movies are optional. The free Descent shareware and Descent II demo data, PC or Mac, work too. Plus Windows, macOS, or Linux."
+tags:
+  - fps
+  - widescreen
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted

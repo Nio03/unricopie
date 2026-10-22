@@ -1,0 +1,16 @@
+name: "Tyrian (OpenTyrian)"
+category: source-port
+console: dos
+status: fully
+repo: opentyrian/opentyrian
+originalDeveloper: Eclipse Software
+year: 1995
+desc:
+  es: "OpenTyrian: port de Tyrian, el matamarcianos de scroll vertical para DOS que desarrolló Eclipse Software y publicó Epic MegaGames en 1995. Jason Emery, que en 2004 lo liberó como freeware, dio a los desarrolladores de OpenTyrian una copia del código fuente de Tyrian 2.1, que pasaron de Turbo Pascal a C y llevaron a SDL para que funcione en sistemas actuales. Tiene el modo historia, los modos arcade para uno y dos jugadores y multijugador en red: la partida se inicia desde la línea de comandos con la dirección IP del otro jugador y, gracias al UDP hole punching, normalmente no hace falta abrir puertos. La v2.1.20260912 (13 de septiembre) trajo versiones autónomas para Windows, macOS y Linux que ya incluyen los datos del juego, y rehízo el control con teclado y ratón en menús y escenas; la última, la v2.1.20260913 (14 de septiembre), guarda la configuración y las partidas junto al ejecutable si ya hay allí un opentyrian.cfg."
+  en: "OpenTyrian: a port of Tyrian, the vertical scrolling shooter for DOS developed by Eclipse Software and published by Epic MegaGames in 1995. Jason Emery, who released it as freeware in 2004, gave the OpenTyrian developers a copy of the Tyrian 2.1 source code, which they ported from Turbo Pascal to C and moved to SDL so it runs on modern systems. It has the story mode, one- and two-player arcade modes, and networked multiplayer: a game is started from the command line with the other player’s IP address and, thanks to UDP hole punching, usually no ports need to be opened. v2.1.20260912 (September 13) brought self-contained builds for Windows, macOS, and Linux that already include the game data, and reworked keyboard and mouse input in menus and cutscenes; the latest, v2.1.20260913 (September 14), keeps settings and saves next to the executable if an opentyrian.cfg is already there."
+requirements:
+  es: "Ninguna copia: Tyrian 2.1 es freeware desde que Jason Emery lo liberó en 2004, y las versiones publicadas traen sus datos. Si lo compilas tú, el script get_data.sh descarga los datos de Tyrian 2.1 desde camanis.net, el sitio que indica el proyecto. Además, Windows (x86-64 o ARM64), macOS (universal) o Linux (x86-64 o ARM64)."
+  en: "No copy needed: Tyrian 2.1 has been freeware since Jason Emery released it in 2004, and the published builds include its data. If you build it yourself, the get_data.sh script downloads the Tyrian 2.1 data from camanis.net, the site the project points to. Plus Windows (x86-64 or Arm64), macOS (universal), or Linux (x86-64 or Arm64)."
+tags:
+  - shmup
+  - multiplayer

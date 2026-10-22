@@ -1,0 +1,19 @@
+name: Mr.Boom
+category: source-port
+console: dos
+status: fully
+repo: Javanaise/mrboom-libretro
+homepage: https://mrboom.mumblecore.org/
+originalDeveloper: Remdy Software
+year: 1997
+desc:
+  es: "Mr.Boom: port a sistemas actuales del juego de MS-DOS Mr.Boom, un clon de Bomberman para hasta ocho jugadores de Remdy Software; su versión 3.0 para DOS (1997-1999) se sigue descargando gratis en la web del proyecto. El código ensamblador original, que está en el repositorio con licencia MIT de Remdy Software, se convirtió a C con la herramienta asm2c. Funciona como núcleo de libretro en todas las plataformas de RetroArch (Windows, Linux, macOS, Android, Switch, PS3, Raspberry Pi y muchas más) y también como programa independiente con SDL2, o con SDL 1.2 en el Atari Falcon. Tiene hasta ocho jugadores, empujar bombas, bombas por control remoto, montar en canguro, modos por equipos (por colores, por sexo o «Skynet»), juego en red a través de RetroArch y, como novedad de esta versión, bots controlados por la máquina, escritos en C++ con árboles de comportamiento. La última versión es la 5.5 (19 de mayo de 2024), con el código fuente; los ejecutables para Windows están en la web, y hay paquetes para muchas distribuciones de Linux y para Homebrew en macOS. Uno de sus últimos 100 commits, el de la versión para Linux en ARM64, de marzo de 2026, lleva a Claude como coautor."
+  en: "Mr.Boom: a port to modern systems of the MS-DOS game Mr.Boom, a Bomberman clone for up to eight players by Remdy Software; its DOS version 3.0 (1997–99) is still a free download on the project’s website. The original assembly source, kept in the repository under an MIT license from Remdy Software, was converted to C with the asm2c tool. It runs as a libretro core on every RetroArch platform (Windows, Linux, macOS, Android, Switch, PS3, Raspberry Pi, and many more) and also as a standalone SDL2 program, or SDL 1.2 on the Atari Falcon. It has up to eight players, bomb pushing, remote-control bombs, kangaroo riding, team modes (color, sex, or “Skynet”), netplay through RetroArch, and, new in this version, computer-controlled bots written in C++ with behavior trees. The latest release is 5.5 (May 19, 2024), as source code; Windows binaries are on the website, and there are packages for many Linux distributions and for Homebrew on macOS. One of its last 100 commits, the one adding the ARM64 Linux build in March 2026, lists Claude as a co-author."
+requirements:
+  es: "No hace falta ninguna copia: Mr.Boom es un juego gratuito de Remdy Software y todos sus datos van incluidos. Para el núcleo de libretro, RetroArch; la versión SDL2 funciona sola en Windows, Linux y macOS."
+  en: "No copy needed: Mr.Boom is a free game by Remdy Software and all its data is included. For the libretro core, RetroArch; the SDL2 version runs on its own on Windows, Linux, and macOS."
+tags:
+  - x86
+  - multiplayer
+  - netplay
+  - ai-assisted

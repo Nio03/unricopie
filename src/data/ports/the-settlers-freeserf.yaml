@@ -1,0 +1,15 @@
+name: "The Settlers (Freeserf)"
+category: fan-remake
+console: dos
+status: playable
+repo: freeserf/freeserf
+originalDeveloper: Blue Byte
+year: 1994
+desc:
+  es: "Freeserf: reimplementación de código abierto de The Settlers (también conocido como Serf City), el juego de estrategia de Blue Byte, que usa los datos de la versión de DOS o de la de Amiga del original y carga también sus partidas guardadas. La 0.4 (4 de octubre), la primera versión desde la 0.3 de 2019, pasó el proyecto a SDL3, corrigió muchos fallos de la lógica comparándola con el original de Amiga y sumó el clic especial del original y sonidos ambientales; la 0.5, del día siguiente, añadió la IA del original de Amiga para los rivales de las misiones y de las partidas personalizadas, el programa de emergencia del castillo, los seis tutoriales, el final del juego, zoom, autoguardado y la opción de mezclar gráficos, sonidos y música de versiones distintas. Después ha añadido traducciones de los textos y una fuente TrueType hecha a partir de la del original de DOS. La música MIDI de la versión de DOS suena con un SoundFont libre, TimGM6mb, que se incluye. Hay versiones para Windows (32 y 64 bits), Linux y macOS. Unos 50 de sus últimos 100 commits, del 4 al 6 de octubre, llevan a Claude como coautor."
+  en: "Freeserf: an open-source reimplementation of The Settlers (also known as Serf City), Blue Byte’s strategy game, that uses the data from the original’s DOS or Amiga version and loads its saved games too. Version 0.4 (October 4), the first release since 0.3 in 2019, moved the project to SDL3, fixed many game logic bugs by comparing it with the Amiga original, and added the original’s special click and ambient sounds; 0.5, the next day, added the Amiga original’s AI for opponents in missions and custom games, the castle’s emergency program, the six tutorials, the end of the game, zoom, autosave, and an option to mix graphics, sounds, and music from different versions. Since then it has added translations of the texts and a TrueType font made from the DOS original’s. The DOS version’s MIDI music plays through a free SoundFont, TimGM6mb, which is included. There are builds for Windows (32- and 64-bit), Linux, and macOS. About 50 of its last 100 commits, from October 4 to 6, list Claude as a co-author."
+requirements:
+  es: "Los archivos de datos de tu propia copia de The Settlers: de la versión de DOS, el archivo SPAE.PA, SPAD.PA, SPAF.PA o SPAU.PA, según el idioma, o de la de Amiga, los archivos gfxheader, gfxfast, gfxchip, gfxpics, sounds y music. Se copian junto al ejecutable o en ~/.local/share/freeserf, y se pueden instalar los de varias versiones a la vez. Además, Windows, Linux o macOS."
+  en: "The data files from your own copy of The Settlers: from the DOS version, the SPAE.PA, SPAD.PA, SPAF.PA, or SPAU.PA file, depending on the language, or from the Amiga version, the gfxheader, gfxfast, gfxchip, gfxpics, sounds, and music files. They go next to the executable or in ~/.local/share/freeserf, and data from several versions can be installed together. Plus Windows, Linux, or macOS."
+tags:
+  - ai-assisted

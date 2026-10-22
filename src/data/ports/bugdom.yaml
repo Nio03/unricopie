@@ -1,0 +1,22 @@
+name: Bugdom
+category: source-port
+console: mac
+status: fully
+repo: jorio/Bugdom
+author: Iliyas Jorio
+originalDeveloper: Pangea Software
+year: 1999
+desc:
+  es: "Bugdom, el juego de Pangea Software de 1999 para Mac, puesto al día para Windows, macOS y Linux por Iliyas Jorio con la aprobación de Pangea, que le ofreció portarlo después de su port de Nanosaur. El original usaba QuickDraw 3D, que no pasó de Mac OS 9, así que hasta este port hacía falta un Mac PowerPC con OS 9 para jugarlo. La 1.3.0 (29 de diciembre de 2020) lo hizo funcionar en sistemas actuales a cualquier resolución por encima de los 640×480 originales, con retoques para pantalla panorámica y diálogos propios para guardar y para los ajustes, y la 1.3.1 sustituyó el código de QuickDraw 3D, que hasta entonces corría sobre Quesa, por un renderizador hecho para el juego. Versiones posteriores sumaron movimientos más suaves a tasas altas de fotogramas, menús con mando, la opción de limitar la imagen a 4:3, Retina y Apple Silicon en Mac y Linux para ARM64; la última, la 1.3.4 (3 de enero de 2024), corrigió diferencias de juego que aparecían por encima de los 100 fps. Desde entonces el código pasó a SDL 3, aún sin versión publicada. Corrige fallos de juego pero quiere ser fiel al original, sin cambios en su diseño. Las descargas, gratuitas o a precio libre en itch.io, traen el juego completo, que el autor publica con licencia CC BY-NC-SA 4.0 con permiso de Pangea Software."
+  en: "Bugdom, Pangea Software’s 1999 Mac game, updated for Windows, macOS, and Linux by Iliyas Jorio with Pangea’s approval, after Pangea offered to let them port it once their Nanosaur port was done. The original used QuickDraw 3D, which never went past Mac OS 9, so until this port, playing it required a PowerPC Mac running OS 9. Version 1.3.0 (December 29, 2020) made it work on modern systems at any resolution beyond the original 640×480, with widescreen touch-ups and built-in save and settings dialogs, and 1.3.1 replaced the QuickDraw 3D code, which had been running on Quesa, with a renderer made for the game. Later releases added smoother movement at high frame rates, controller-driven menus, an option to constrain the picture to 4:3, Retina and Apple silicon on the Mac, and ARM64 Linux; the latest, 1.3.4 (January 3, 2024), fixed gameplay differences that showed up above 100 fps. Since then the code has moved to SDL 3, not yet in a release. It fixes gameplay bugs but aims to stay faithful to the original, with no changes to its design. The downloads, free or pay-what-you-want on itch.io, include the whole game, which the author publishes under the CC BY-NC-SA 4.0 license with permission from Pangea Software."
+requirements:
+  es: "Ninguna copia: el juego se publica completo con permiso de Pangea Software, y cada descarga ya trae sus datos. Además, Windows, macOS o Linux (x86-64 o ARM64)."
+  en: "No copy needed: the game is published in full with permission from Pangea Software, and each download already includes its data. Plus Windows, macOS, or Linux (x86-64 or ARM64)."
+tags:
+  - widescreen
+  - 60fps+
+links:
+  - label:
+      es: "Descargas en itch.io"
+      en: "Downloads on itch.io"
+    url: https://jorio.itch.io/bugdom

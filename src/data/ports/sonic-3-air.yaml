@@ -1,0 +1,25 @@
+name: "Sonic 3 & Knuckles (Sonic 3 A.I.R.)"
+category: decomp-port
+console: megadrive
+status: fully
+repo: Eukaryot/sonic3air
+homepage: https://sonic3air.org/
+originalDeveloper: Sega Technical Institute
+year: 1994
+desc:
+  es: "Sonic 3 A.I.R. (Angel Island Revisited): remasterización panorámica de Sonic 3 & Knuckles hecha por fans. Corre sobre el Oxygen Engine, un motor propio que emula, en lo que el juego necesita, partes del hardware de la Mega Drive, y la lógica del juego está reescrita función por función en lemonscript, el lenguaje de scripts del mismo autor, a partir del código 68000 del original: son unos 7 MB de scripts en el repositorio, que señalan la dirección de la ROM de cada función. Los gráficos, los niveles y el sonido se leen de tu ROM. Añade modo panorámico, filtros de escalado (xBRZ, HQ3x y HQ4x), contrarreloj, el modo competición, el minijuego Blue Sphere por separado, selección de acto, logros y secretos desbloqueables, habilidades nuevas como el drop dash, vibración del mando y un modo experimental, Ghost Sync, que muestra a otros jugadores conectados a un servidor. Admite mods, que pueden traer sus propios scripts, con documentación y un modo de desarrollo. La banda sonora remasterizada de SpinnRG se descarga desde el menú de opciones. Hay versiones para Windows y Linux; la de macOS la publica Sappharad. La última estable es la v26.03.28.0 (28 de marzo), que sumó un explorador de archivos para importar mods, más escenas que se pueden saltar y menús de pausa y de selección de acto escritos en scripts, y después han salido versiones de prueba, la última el 15 de agosto. El repositorio incluye además, del juego y de la serie, músicas de la versión prototipo de Sonic 3, los temas de jefe de Sonic 1 y Sonic 2, el tema de Super Sonic de Sonic 2 y los sonidos del peel-out de Sonic CD."
+  en: "Sonic 3 A.I.R. (Angel Island Revisited): a fan-made widescreen remaster of Sonic 3 & Knuckles. It runs on the Oxygen Engine, its own engine that emulates the parts of the Mega Drive hardware the game needs, and the game logic is rewritten function by function in lemonscript, the same author’s scripting language, from the original’s 68000 code: about 7 MB of scripts in the repository, each function marked with its ROM address. Graphics, levels, and sound are read from your ROM. It adds widescreen, upscaling filters (xBRZ, HQ3x, and HQ4x), Time Attack, Competition mode, the Blue Sphere minigame on its own, Act Select, achievements and unlockable secrets, new moves such as the drop dash, controller rumble, and an experimental mode, Ghost Sync, that shows other players connected to a server. It supports mods, which can bring their own scripts, with documentation and a dev mode. SpinnRG’s remastered soundtrack is downloaded from the options menu. There are builds for Windows and Linux; the macOS one is published by Sappharad. The latest stable release is v26.03.28.0 (March 28), which added a file browser for importing mods, more skippable cutscenes, and pause and Act Select menus written in scripts, and test builds have followed since, the latest on August 15. The repository also includes, from the game and the series, music from the Sonic 3 prototype, the Sonic 1 and Sonic 2 boss themes, Sonic 2’s Super Sonic theme, and Sonic CD’s peel-out sounds."
+requirements:
+  es: "Una ROM compatible de tu propia copia de Sonic 3 & Knuckles, como la de Sonic 3 & Knuckles en Steam (dentro de SEGA Mega Drive & Genesis Classics), que ya no está a la venta. Además, Windows (32 o 64 bits) o Linux; en macOS, la versión de Sappharad."
+  en: "A compatible ROM from your own copy of Sonic 3 & Knuckles, such as the one from Sonic 3 & Knuckles on Steam (part of SEGA Mega Drive & Genesis Classics), which is no longer sold. Plus Windows (32- or 64-bit) or Linux; on macOS, Sappharad’s build."
+tags:
+  - "68000"
+  - sonic
+  - widescreen
+  - mods
+  - online
+links:
+  - label:
+      es: "Versión para macOS (Sappharad)"
+      en: "macOS build (Sappharad)"
+    url: https://projects.sappharad.com/s3air_mac/

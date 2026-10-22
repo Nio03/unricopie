@@ -1,0 +1,25 @@
+name: "FreeSpace 2 (FS2Open)"
+category: source-port
+console: pc
+status: fully
+repo: scp-fs2open/fs2open.github.com
+author: FreeSpace Source Code Project
+originalDeveloper: Volition
+year: 1999
+desc:
+  es: "FreeSpace Open (FSO): continuación del código fuente de FreeSpace 2 que Dave Baranec, uno de sus desarrolladores, publicó en 2002, mantenida desde entonces por el FreeSpace Source Code Project. Al código publicado le faltaban partes como el multijugador de PXO y la reproducción de vídeo; con los años el proyecto añadió un sistema de red nuevo para el multijugador, mapas de brillo y de reflejo, OpenGL, iluminación diferida con sombras (3.7.4, 2016), vídeo con FFmpeg, renderizado basado en física, fuentes TrueType y texto Unicode, una interfaz basada en libRocket, un API de scripting en Lua, multijugador por IPv6 y decenas de operadores nuevos (SEXP) para las misiones. El código actual incluye además un renderizador Vulkan junto al de OpenGL y realidad virtual con OpenXR, y los editores de misiones FRED2 y qtFRED. Sobre él se construyen muchos mods y conversiones totales. Hay versiones para Windows (x86, x64 y, desde la 26.2, ARM64), Linux (x86-64 y ARM64) y macOS (Intel y Apple Silicon); la última estable es la 26.0.1 (15 de septiembre), y la 26.2.0 está en fase de candidata (RC2, 19 de octubre). Su wiki recomienda instalarlo, junto con los mods, con el gestor Knossos.NET. 44 de sus últimos 100 commits llevan a Claude como coautor, y uno a Codex."
+  en: "FreeSpace Open (FSO): the continuation of the FreeSpace 2 source code that Dave Baranec, one of its developers, released in 2002, maintained ever since by the FreeSpace Source Code Project. The released code lacked parts such as the PXO multiplayer code and video playback; over the years the project added a new multiplayer network system, glow and shine mapping, OpenGL, deferred lighting with shadows (3.7.4, 2016), FFmpeg video playback, physically based rendering, TrueType fonts and Unicode text, a libRocket-based interface, a Lua scripting API, IPv6 multiplayer, and dozens of new mission operators (SEXPs). The current code also includes a Vulkan renderer alongside the OpenGL one and virtual reality through OpenXR, plus the FRED2 and qtFRED mission editors. Many mods and total conversions are built on it. Releases come for Windows (x86, x64, and, from 26.2, ARM64), Linux (x86-64 and ARM64), and macOS (Intel and Apple silicon); the latest stable release is 26.0.1 (September 15), and 26.2.0 is at the release-candidate stage (RC2, October 19). Its wiki recommends installing it, along with mods, through the Knossos.NET manager. 44 of its last 100 commits list Claude as a co-author, and one lists Codex."
+requirements:
+  es: "Los archivos de tu propia copia de FreeSpace 2 (está en GOG y en Steam). FreeSpace 1 se juega con el mod FreeSpace Port, que necesita FreeSpace 2 instalado. Además, Windows 7 o posterior, Linux o macOS."
+  en: "The files from your own copy of FreeSpace 2 (it’s on GOG and Steam). FreeSpace 1 is played through the FreeSpace Port mod, which needs FreeSpace 2 installed. Plus Windows 7 or later, Linux, or macOS."
+tags:
+  - x86
+  - multiplayer
+  - mods
+  - vulkan
+  - ai-assisted
+links:
+  - label:
+      es: "Knossos.NET (instalador y gestor de mods)"
+      en: "Knossos.NET (installer and mod manager)"
+    url: https://github.com/KnossosNET/Knossos.NET

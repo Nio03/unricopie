@@ -1,0 +1,18 @@
+name: "Ace of Spades (BetterSpades)"
+category: fan-remake
+console: pc
+status: playable
+repo: xtreme8000/BetterSpades
+originalDeveloper: Ben Aksoy
+desc:
+  es: "BetterSpades: cliente de código abierto para Ace of Spades clásico (la 0.75, basada en Voxlap), el shooter en línea de vóxeles de Ben Aksoy, sin nada de código de Jagex. Está pensado para equipos modestos: funciona con OpenGL 1.1 y OpenGL ES, su autor asegura que rinde igual o mejor que el cliente Voxlap original y llegó a tener una versión para el Steam Link. Tiene lista de servidores con banderas de país, búsqueda de partidas en la red local y modo espectador en primera persona, y puede abrir enlaces aos:// como el cliente original o sustituirlo si se copia en su carpeta. La última versión publicada es la 0.1.5 (14 de mayo de 2021), solo para Windows; en Linux y macOS se compila, y hay compilaciones nocturnas. Los últimos cambios en el código son de julio de 2025. Al compilarlo, CMake descarga de aos.party, un sitio de la comunidad, un paquete de recursos que el repositorio no incluye porque, según su autor, no está claro el copyright de los recursos de la 0.75."
+  en: "BetterSpades: an open-source client for classic Ace of Spades (the Voxlap-based 0.75), Ben Aksoy’s online voxel shooter, with no Jagex code at all. It targets modest hardware: it runs on OpenGL 1.1 and OpenGL ES, its author says it performs as well as or better than the original Voxlap client, and it once had a Steam Link build. It has a server list with country flags, local network game discovery, and first-person spectating, and it can open aos:// links like the original client or replace it when copied into its folder. The latest release is 0.1.5 (May 14, 2021), for Windows only; on Linux and macOS you build it, and there are nightly builds. The latest code changes are from July 2025. When building, CMake downloads a resource pack from aos.party, a community site, which the repository doesn’t include because, according to its author, the copyright status of the 0.75 assets is unknown."
+requirements:
+  es: "No hace falta ninguna copia: Ace of Spades 0.75 era un juego gratuito y la descarga funciona sola, descomprimida en una carpeta nueva. Se juega en línea, así que necesitas conexión a internet. Según su README, basta con Windows 98 o Linux, un procesador de un núcleo a 1 GHz, 256 MB de RAM y una gráfica con 64 MB (Intel 945GM o equivalente); en macOS hay que compilarlo."
+  en: "No copy needed: Ace of Spades 0.75 was a free game, and the download works on its own, extracted into a new folder. It’s played online, so you need an internet connection. According to its README, Windows 98 or Linux, a 1 GHz single-core CPU, 256 MB of RAM, and a graphics chip with 64 MB (Intel 945GM or equivalent) are enough; on macOS you have to build it."
+tags:
+  - x86
+  - fps
+  - multiplayer
+  - online
+  - voxel

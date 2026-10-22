@@ -1,0 +1,23 @@
+name: "Warcraft II (Wargus)"
+category: fan-remake
+console: dos
+status: fully
+repo: Wargus/wargus
+homepage: https://stratagus.com/
+originalDeveloper: Blizzard Entertainment
+year: 1995
+desc:
+  es: "Wargus: Warcraft II: Tides of Darkness y su expansión Beyond the Dark Portal sobre Stratagus, un motor libre de estrategia en tiempo real. El repositorio contiene el importador, que la primera vez te pide tu copia de Warcraft II y extrae y convierte sus datos (gráficos, sonido, música, vídeos y campañas), y los scripts en Lua que reproducen el juego. Se ve y suena casi exactamente como Warcraft II, con una jugabilidad muy parecida y pequeñas mejoras al estilo de StarCraft y de otros juegos de estrategia más modernos. Funciona en Windows, Linux y macOS, juega en alta resolución con shaders de OpenGL para cambiar el aspecto, tiene multijugador en red local y en línea y permite ajustar muchos parámetros del juego en Lua o desde la línea de comandos. La última versión estable es la 3.3.2, de julio de 2022, y hay compilaciones de desarrollo con cada commit. En macOS se usa una compilación de GitHub Actions y, mientras el extractor propio no funcione bien allí, los datos se extraen con un script de terceros."
+  en: "Wargus: Warcraft II: Tides of Darkness and its Beyond the Dark Portal expansion on Stratagus, a free real-time strategy engine. The repository holds the importer, which on first launch asks for your copy of Warcraft II and extracts and converts its data (graphics, sound, music, videos, and campaigns), and the Lua scripts that recreate the game. It looks and sounds almost exactly like Warcraft II, with very similar gameplay and slight enhancements in the style of StarCraft and other more modern strategy games. It runs on Windows, Linux, and macOS, plays in high resolution with OpenGL shaders to change the look, has LAN and online multiplayer, and lets you tweak many game parameters in Lua or from the command line. The latest stable release is 3.3.2, from July 2022, and development builds are made from every commit. On macOS you use a GitHub Actions build and, until its own extractor works properly there, the data is extracted with a third-party script."
+requirements:
+  es: "Tu propia copia de Warcraft II: Tides of Darkness, con Beyond the Dark Portal si quieres su campaña; el importador reconoce, entre otras, la versión de DOS en CD y la Battle.net Edition. Además, Windows, Linux (PPA para Ubuntu y paquetes para openSUSE) o macOS."
+  en: "Your own copy of Warcraft II: Tides of Darkness, with Beyond the Dark Portal if you want its campaign; the importer recognizes, among others, the DOS CD release and the Battle.net Edition. Plus Windows, Linux (an Ubuntu PPA and openSUSE packages), or macOS."
+tags:
+  - multiplayer
+  - online
+  - mods
+links:
+  - label:
+      es: "Motor Stratagus"
+      en: "Stratagus engine"
+    url: https://github.com/Wargus/stratagus

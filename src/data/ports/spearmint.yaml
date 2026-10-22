@@ -1,0 +1,25 @@
+name: Spearmint
+category: source-port
+status: fully
+repo: clover-moe/spearmint
+homepage: https://clover.moe/spearmint
+author: Zack Middleton
+originalDeveloper: id Software
+year: 1999
+desc:
+  es: "Spearmint: versión muy modificada del motor de Quake III Arena, basada directamente en ioquake3, el port que continúa el código fuente que liberó id Software, y con código también de Return to Castle Wolfenstein, Wolfenstein: Enemy Territory, OpenArena y otros proyectos. Nació para crear juegos y mods nuevos sin tocar el motor, para lo que pasó buena parte de sus funciones al código de juego, pero sigue pudiendo jugar con los datos de Quake 3: ejecuta Quake III Arena, Quake III: Team Arena y Turtle Arena, y ha avanzado hacia Return to Castle Wolfenstein (multijugador) y Wolfenstein: Enemy Territory, que todavía no funcionan. No es compatible con los servidores, los mods (archivos QVM o DLL) ni las demos de Quake III Arena. Para quien juega añade panorámico con la relación de aspecto correcta, fuentes TrueType en alta resolución, pantalla dividida para cuatro jugadores, mejor IA de los bots, mejor soporte de mando, el modo Instagib y armas de impacto instantáneo con compensación de latencia opcional, además de detalles como cadáveres que se hunden poco a poco o sombras que siguen la animación del personaje. El código de juego para Quake 3 está en un repositorio aparte, mint-arena. Su autor dejó el desarrollo activo en octubre de 2018 y solo publica arreglos de vez en cuando: la última versión es la 1.0.3, del 10 de julio de 2020, y la rama principal, la de la 1.1, recibió commits hasta mayo de este año. Sus normas de contribución dicen que no quieren aportaciones hechas con LLM («IA»)."
+  en: "Spearmint: a heavily modified version of the Quake III Arena engine, based directly on ioquake3, the port that carries on the source code id Software released, with code from Return to Castle Wolfenstein, Wolfenstein: Enemy Territory, OpenArena, and other projects as well. It was made for creating new games and mods without modifying the engine, so much of its functionality moved into the game code, but it can still play the Quake 3 data: it runs Quake III Arena, Quake III: Team Arena, and Turtle Arena, and progress has been made toward Return to Castle Wolfenstein (multiplayer) and Wolfenstein: Enemy Territory, which don’t work yet. It isn’t compatible with Quake III Arena servers, mods (QVM or DLL files), or demos. For players it adds aspect-correct widescreen, high-resolution TrueType fonts, four-player split screen, improved bot AI, better gamepad support, an Instagib mode, and optional unlagged instant-hit weapons, plus touches such as smoothly sinking corpses and player shadows that follow the model’s animation. The Quake 3 game code lives in a separate repository, mint-arena. Its author stopped active development in October 2018 and only releases occasional fixes: the latest release is 1.0.3, from July 10, 2020, and the main branch, for 1.1, received commits as recently as May this year. Its contribution rules say LLM (“AI”) contributions aren’t wanted."
+requirements:
+  es: "Los archivos pak0.pk3 a pak8.pk3 de tu propia copia de Quake III Arena, que se copian en la carpeta baseq3 de Spearmint (y los de Team Arena en missionpack, para jugarla); también funciona con los datos gratuitos de la demo de Quake 3, de la demo de Team Arena o de OpenArena 0.8.8. Además, Windows XP o posterior (32 o 64 bits), macOS 10.5 o posterior (PowerPC o Intel) o Linux x86 o x86-64 con glibc 2.7 o posterior."
+  en: "The pak0.pk3 to pak8.pk3 files from your own copy of Quake III Arena, copied into Spearmint’s baseq3 folder (and Team Arena’s into missionpack to play it); it also works with the free data from the Quake 3 demo, the Team Arena demo, or OpenArena 0.8.8. Plus Windows XP or later (32- or 64-bit), macOS 10.5 or later (PowerPC or Intel), or x86 or x86-64 Linux with glibc 2.7 or later."
+tags:
+  - fps
+  - multiplayer
+  - widescreen
+  - mods
+  - human-driven
+links:
+  - label:
+      es: "Código de juego (mint-arena)"
+      en: "Game code (mint-arena)"
+    url: https://github.com/clover-moe/mint-arena

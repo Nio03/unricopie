@@ -1,0 +1,23 @@
+name: "Mario Kart Wii (KartPad)"
+console: wii
+status: experimental
+repo: chrissotraidis/kartpad
+author: Chris Sotraidis
+originalDeveloper: Nintendo EAD
+year: 2008
+toolchain: Wiicompiled
+desc:
+  es: "KartPad: recompilación estática de Mario Kart Wii basada en Wiicompiled, el proyecto de patchzyy que ya está en el catálogo y que aporta el traductor y el entorno de ejecución; KartPad, que se mantiene por separado, añade la integración con Apple y Android, los controles, el selector de juego, la gestión de los datos del juego y las versiones publicadas. El código PowerPC se traduce de antemano y se compila como código ARM64 nativo, sin emulador ni JIT, y los gráficos van por Metal en los sistemas de Apple y por Vulkan en Android. En PC solo existe la versión para Mac con Apple Silicon, que su documentación considera experimental y menos probada que las de Android, iPhone y iPad: la compila PadMint, del mismo autor, a partir de tu disco, y de la 0.7.9 a la 0.7.13 hubo además una descarga ya compilada que ya no se actualiza. En Mac se juega con teclado o mando, con controles reasignables, mandos para hasta cuatro jugadores en pantalla partida (el juego a tres y cuatro aún no está del todo probado) y un modo experimental para conectar el Wiimote y el Nunchuk por Bluetooth. También arranca Retro Rewind, un mod de circuitos de la comunidad: PadMint descarga su paquete al compilar la app y traduce también su código, y jugarlo es opcional; el juego en línea por Retro WFC se ha probado en Android. La 0.8.5 (21 de octubre) actualizó Retro Rewind a la 6.13.4. Su README declara que se desarrolla con mucha ayuda de IA para el código, las pruebas, la documentación, la depuración y el mantenimiento."
+  en: "KartPad: a static recompilation of Mario Kart Wii based on Wiicompiled, patchzyy’s project already in the catalog, which provides the translator and runtime; KartPad, maintained separately, adds the Apple and Android integration, the controls, the game chooser, game data management, and the releases. The PowerPC code is translated ahead of time and compiled as native ARM64 code, with no emulator or JIT, and graphics go through Metal on Apple platforms and Vulkan on Android. On PC there’s only the Apple silicon Mac version, which its documentation calls experimental and less tested than the Android, iPhone, and iPad ones: PadMint, by the same author, builds it from your disc, and 0.7.9 through 0.7.13 also had a ready-made download that no longer gets updates. On Mac you play with keyboard or controller, with remappable controls, controller support for up to four players in split screen (three- and four-player play isn’t fully tested yet), and an experimental mode for connecting a Wii Remote and Nunchuk over Bluetooth. It also runs Retro Rewind, a community track mod: PadMint downloads its pack when building the app and translates its code too, and playing it is optional; online play through Retro WFC has been tested on Android. 0.8.5 (October 21) updated Retro Rewind to 6.13.4. Its README states that it’s developed with substantial AI assistance for code, tests, documentation, debugging, and maintenance."
+requirements:
+  es: "Tu propia copia PAL de Mario Kart Wii (RMCP01, revisión 0); no admite otras regiones. PadMint la necesita como imagen de disco para compilar la app, y KartPad pide después la carpeta DATA extraída con Dolphin o la que prepara PadMint. Además, un Mac con Apple Silicon (M1 o posterior) y macOS 14 o posterior, PadMint 0.5.1 o posterior y Xcode."
+  en: "Your own PAL copy of Mario Kart Wii (RMCP01, revision 0); other regions aren’t supported. PadMint needs it as a disc image to build the app, and KartPad then asks for the DATA folder extracted with Dolphin or the one PadMint prepares. Plus an Apple silicon Mac (M1 or later) with macOS 14 or later, PadMint 0.5.1 or later, and Xcode."
+tags:
+  - powerpc
+  - racing
+  - multiplayer
+  - retro-rewind
+  - ai-assisted
+links:
+  - label: PadMint
+    url: https://github.com/chrissotraidis/padmint

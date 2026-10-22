@@ -1,0 +1,23 @@
+name: "Jazz Jackrabbit 2 (Jazz² Resurrection)"
+category: fan-remake
+console: pc
+status: playable
+repo: deathkiller/jazz2
+homepage: https://de4th.dev/jazz2/
+originalDeveloper: Epic MegaGames / Orange Games
+year: 1998
+desc:
+  es: "Jazz² Resurrection: reimplementación libre de Jazz Jackrabbit 2, escrita en C++ sobre una versión muy modificada del motor nCine; el código está en el repositorio jazz2-native y este publica las versiones. Funciona con la demo shareware, Holiday Hare '98, The Secret Files y Christmas Chronicles, y admite en parte funciones de la extensión JJ2+ y de MLLE. En el primer arranque convierte los archivos del juego en una caché mientras pasan las cinemáticas de introducción. Tiene mejoras de jugabilidad opcionales (Reforged), multijugador en línea desde la 3.7.0 (1 de agosto), que también añadió colores personalizables para el jugador y renderizadores Direct3D 11 y Vulkan, y un servidor dedicado en Docker. Hay versiones para Windows, Linux y macOS, además de Android, iOS, Switch, Xbox y otras consolas. La 3.9.0 (17 de octubre) mejoró mucho la precisión de la física y del movimiento sin Reforged y añadió la opción Reforged Camera y el Rev Up. Su versión para navegador, en la web del proyecto, se juega con los datos de la demo shareware gratuita de Jazz Jackrabbit 2 y puede importar los episodios de tu copia."
+  en: "Jazz² Resurrection: a free reimplementation of Jazz Jackrabbit 2, written in C++ on a heavily modified version of the nCine engine; the code lives in the jazz2-native repository, and this one hosts the releases. It works with the Shareware Demo, Holiday Hare ’98, The Secret Files, and Christmas Chronicles, and partially supports features of the JJ2+ extension and MLLE. On first launch it converts the game files into a cache while the intro cinematics play. It has optional gameplay enhancements (Reforged), online multiplayer since 3.7.0 (August 1), which also added player color customization and Direct3D 11 and Vulkan backends, and a dedicated server as a Docker image. There are builds for Windows, Linux, and macOS, plus Android, iOS, Switch, Xbox, and other consoles. Version 3.9.0 (October 17) greatly improved the accuracy of physics and movement outside Reforged and added the Reforged Camera option and Rev Up. Its browser version, on the project’s website, plays with the data from the free Jazz Jackrabbit 2 Shareware Demo and can import the episodes from your copy."
+requirements:
+  es: "El contenido de la carpeta de tu propia copia de Jazz Jackrabbit 2, que se copia en la subcarpeta Source; se recomienda The Secret Files, y también vale la demo shareware gratuita. Además, Windows 7 o posterior con el Visual C++ Redistributable, Linux o macOS, y una tarjeta gráfica con OpenGL 3.3 (OpenGL ES 3.0 en ARM)."
+  en: "The contents of your own Jazz Jackrabbit 2 folder, copied into the Source subfolder; The Secret Files is recommended, and the free Shareware Demo works too. Plus Windows 7 or later with the Visual C++ Redistributable, Linux, or macOS, and a graphics card with OpenGL 3.3 (OpenGL ES 3.0 on ARM)."
+tags:
+  - multiplayer
+  - online
+  - vulkan
+links:
+  - label:
+      es: "Código fuente (jazz2-native)"
+      en: "Source code (jazz2-native)"
+    url: https://github.com/deathkiller/jazz2-native

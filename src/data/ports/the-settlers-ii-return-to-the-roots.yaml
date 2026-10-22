@@ -1,0 +1,19 @@
+name: "The Settlers II (Return to the Roots)"
+category: fan-remake
+console: dos
+status: playable
+repo: Return-To-The-Roots/s25client
+homepage: https://www.rttr.info/
+author: Settlers Freaks
+originalDeveloper: Blue Byte
+year: 1996
+desc:
+  es: "Return to the Roots (RTTR): reimplementación de código abierto de The Settlers II hecha por fans, que reescribe el juego entero y conserva sus gráficos y sonidos originales, que lee de tu copia. Según el proyecto, ya está implementada casi toda la funcionalidad del juego original, incluidas la campaña romana y la mundial, cuyas misiones se programan con guiones en Lua. Añade multijugador por internet con un servidor de partidas propio, resoluciones altas, jugadores controlados por la IA, repeticiones, un generador de mapas aleatorios y una lista de complementos (addons) que cambian reglas del juego, como la economía del cuero que llegó a las compilaciones nocturnas en febrero, con pieles, curtidurías y armaduras para los soldados. La última versión estable es la 0.9.5 (28 de febrero de 2022); según el proyecto, la mayoría de los jugadores usa las compilaciones nocturnas, para Windows de 32 y 64 bits, macOS y Linux, la última del 21 de octubre. Siete de sus últimos 100 commits, todos de 2026, llevan a Claude como coautor."
+  en: "Return to the Roots (RTTR): a fan-made open-source reimplementation of The Settlers II that rewrites the whole game and keeps its original graphics and sounds, which it reads from your copy. According to the project, almost all of the original game’s features are already implemented, including the Roman and world campaigns, whose missions are scripted in Lua. It adds online multiplayer through its own game lobby server, higher resolutions, AI players, replays, a random map generator, and a list of add-ons that change game rules, such as the leather economy that reached the nightly builds in February, with skins, tanneries, and armor for soldiers. The latest stable release is 0.9.5 (February 28, 2022); according to the project, most players use the nightly builds, for 32- and 64-bit Windows, macOS, and Linux, the latest from October 21. Seven of its last 100 commits, all from 2026, list Claude as a co-author."
+requirements:
+  es: "Las carpetas DATA y GFX de tu propia copia de The Settlers II Gold Edition, copiadas en la carpeta que indica RTTR. Además, Windows (Vista o posterior), macOS o Linux con SDL2 y SDL2_mixer."
+  en: "The DATA and GFX folders from your own copy of The Settlers II Gold Edition, copied into the folder RTTR points to. Plus Windows (Vista or later), macOS, or Linux with SDL2 and SDL2_mixer."
+tags:
+  - multiplayer
+  - online
+  - ai-assisted

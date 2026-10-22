@@ -1,0 +1,16 @@
+name: "Grand Theft Auto (Carnage3D)"
+category: fan-remake
+console: pc
+status: experimental
+repo: codenamecpp/carnage3d
+originalDeveloper: DMA Design
+year: 1997
+desc:
+  es: "Carnage3D: remake de código abierto del primer Grand Theft Auto, escrito en C++ con OpenGL, Box2D para la física y OpenAL para el sonido, que se juega con los archivos de datos del original. Su autor lo describe como un proyecto en una fase muy temprana. Los controles imitan los del original, admite mandos compatibles con los de Xbox, pantalla dividida para hasta cuatro jugadores y una cámara libre, y el nivel se elige desde la línea de órdenes. Funciona en Windows y Linux, y en diciembre de 2021 se añadió la compilación para macOS; no hay versiones publicadas, así que se compila uno mismo. Ese es también el último cambio en el código: después solo se ha tocado la configuración de donaciones del repositorio. El Makefile tiene una orden que descarga la demo gratuita del juego desde una copia de la web de Rockstar guardada en archive.org, y el README enlaza una versión para navegador que se juega sin aportar archivos del juego."
+  en: "Carnage3D: an open-source remake of the first Grand Theft Auto, written in C++ with OpenGL, Box2D for physics, and OpenAL for sound, played with the original game’s data files. Its author describes it as being at a very early stage. The controls mimic the original’s, and it supports Xbox-compatible controllers, split screen for up to four players, and a free-look camera; the level is chosen on the command line. It runs on Windows and Linux, and macOS build support was added in December 2021; there are no published releases, so you build it yourself. That is also the last change to the code: since then only the repository’s funding settings have been touched. The Makefile has a target that downloads the game’s free demo from a copy of Rockstar’s website saved on archive.org, and the README links to a browser version that plays without supplying any game files."
+requirements:
+  es: "Los archivos de datos (la carpeta GTADATA) de tu propia copia de Grand Theft Auto, la versión completa o la demo; su ruta se indica en gamedata/config/sys_config.json. Además, Windows, Linux o macOS, y compilarlo tú mismo: en Linux, con clang, GLEW, GLM y OpenAL; en Windows, con Visual Studio 2015."
+  en: "The data files (the GTADATA folder) from your own copy of Grand Theft Auto, the full game or the demo; their path goes in gamedata/config/sys_config.json. Plus Windows, Linux, or macOS, and building it yourself: on Linux, with clang, GLEW, GLM, and OpenAL; on Windows, with Visual Studio 2015."
+tags:
+  - multiplayer
+  - reverse-engineering

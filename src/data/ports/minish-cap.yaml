@@ -10,3 +10,8 @@ desc:
   en: "Project Picori: a native PC port (Linux, Windows, and macOS) of The Minish Cap, built on the zeldaret/tmc decompilation. 8 of its last 100 commits list Claude as a co-author."
 tags:
   - ai-assisted
+links:
+  - label:
+      es: "Repositorio original del port (MatheoVignaud)"
+      en: "Original port repository (MatheoVignaud)"
+    url: https://github.com/MatheoVignaud/tmc

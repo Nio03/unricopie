@@ -1,0 +1,17 @@
+name: "Cave Story (NXEngine-evo)"
+category: fan-remake
+console: pc
+status: fully
+repo: nxengine/nxengine-evo
+originalDeveloper: Studio Pixel
+year: 2004
+desc:
+  es: "NXEngine-evo: versión ampliada y reorganizada de NXEngine, el clon completo de código abierto del motor de Cave Story que escribió Caitlin Shaw. Pasa el motor a SDL2 y añade más resoluciones con panorámico real hasta 1080p, retratos animados en los diálogos, un menú principal nuevo, los gráficos de créditos propios del final con la máscara de Mimiga, traducciones (ruso, japonés, francés, alemán, polaco, italiano, chino, árabe y coreano, entre otras), vibración del mando, un modo para moverse sin girarse (strafe), botones de aceptar y cancelar configurables, volúmenes separados de música y efectos, bandas sonoras personalizadas (también las «New» y «Remastered» de Cave Story+), un reproductor de Organya y Pixtone más fiel, efectos de luz opcionales y soporte básico de mods, como el boss rush de Seriousface; además corrige muchos fallos de jugabilidad, armas e IA. La última versión es la 2.6.5-1 (8 de julio de 2021), para Windows de 64 bits, Linux (AppImage) y macOS, además de PS Vita y Switch; el desarrollo sigue a ritmo lento, con el último commit del 3 de marzo."
+  en: "NXEngine-evo: an extended and refactored version of NXEngine, Caitlin Shaw’s complete open-source clone of the Cave Story engine. It moves the engine to SDL2 and adds more resolutions with proper widescreen up to 1080p, animated character portraits, a new main menu, credits graphics specific to the Mimiga Mask ending, translations (Russian, Japanese, French, German, Polish, Italian, Chinese, Arabic, and Korean, among others), controller rumble, strafing, configurable OK and Cancel buttons, separate music and sound volumes, custom soundtracks (Cave Story+’s “New” and “Remastered” ones too), a more accurate Organya and Pixtone player, optional lighting effects, and basic mod support, such as Seriousface’s boss rush; it also fixes many gameplay, weapon, and AI bugs. The latest release is 2.6.5-1 (July 8, 2021), for 64-bit Windows, Linux (AppImage), and macOS, plus PS Vita and Switch; development continues at a slow pace, with the last commit on March 3."
+requirements:
+  es: "No hace falta comprar nada: usa la versión gratuita original de Cave Story con la traducción al inglés de los fans, que el wiki del proyecto enlaza en su repositorio translations; se copian el motor y su carpeta data a la carpeta del juego y se ejecuta una vez extract, que saca los recursos del ejecutable original. Para las bandas sonoras «New» o «Remastered», las carpetas Ogg u Ogg11 de tu propia copia de Cave Story+. Además, Windows de 64 bits, Linux o macOS."
+  en: "No purchase needed: it uses the original freeware release of Cave Story with the fans’ English translation, which the project’s wiki links in its translations repository; you copy the engine and its data folder into the game folder and run extract once, which pulls the resources out of the original executable. For the “New” or “Remastered” soundtracks, the Ogg or Ogg11 folders from your own copy of Cave Story+. Plus 64-bit Windows, Linux, or macOS."
+tags:
+  - x86
+  - widescreen
+  - mods

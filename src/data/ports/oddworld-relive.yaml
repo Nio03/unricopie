@@ -1,0 +1,17 @@
+name: "Oddworld: Abe's Oddysee / Abe's Exoddus (R.E.L.I.V.E.)"
+category: decomp-port
+console: pc
+status: fully
+repo: AliveTeam/alive_reversing
+homepage: https://aliveteam.github.io/
+originalDeveloper: Oddworld Inhabitants
+year: 1997
+desc:
+  es: "R.E.L.I.V.E.: motor de código abierto hecho por fans que sustituye a los ejecutables de las versiones para PC de Oddworld: Abe's Oddysee y Abe's Exoddus, los ports de Digital Dialect (AbeWin.exe y Exoddus.exe). Nació como ingeniería inversa: el equipo decompiló el código máquina de esos ejecutables y pasó años reescribiendo el resultado en código legible, corrigiendo fallos por el camino; para no romper nada graba partidas completas con una versión estable y las reproduce con las de desarrollo, que avisan si algo se desincroniza. Según el proyecto, los dos juegos se pueden jugar enteros con él, aunque todavía puede haber fallos, cierres y diferencias con el original. Corrige más de cien fallos de los originales y los tirones de las cinemáticas, funciona en ventana, admite mandos sin herramientas externas y cualquier resolución, y tiene teclas para el filtro de pantalla, mantener la relación de aspecto y la pantalla completa, más guardado y carga rápidos en Exoddus. El equipo hizo además un editor de niveles nuevo, que sustituye al Paul's Level Editor; los niveles editados con él no funcionan en el motor original. No es compatible con el mod Abe HD, que es de otro equipo. La última versión estable es la 1.0.9 (21 de marzo de 2025), para Windows (32 y 64 bits) y Linux (.deb), también en AUR; el desarrollo sigue, y en agosto pasó a SDL3."
+  en: "R.E.L.I.V.E.: a fan-made, open-source engine that replaces the executables of the PC versions of Oddworld: Abe’s Oddysee and Abe’s Exoddus, Digital Dialect’s ports (AbeWin.exe and Exoddus.exe). It started as reverse engineering: the team decompiled those executables’ machine code and spent years rewriting the output into readable code, fixing bugs along the way; to avoid regressions it records full playthroughs with a stable build and replays them on development builds, which flag any desync. According to the project, both games can be played through in their entirety with it, though bugs, crashes, and differences from the original can still occur. It fixes over a hundred bugs in the originals and the stuttering cutscenes, runs in a window, supports controllers without third-party tools and any resolution, and has keys for the screen filter, keeping the aspect ratio, and fullscreen, plus quicksave and quickload in Exoddus. The team also made a new level editor that replaces Paul’s Level Editor; levels edited with it don’t work in the original engine. It isn’t compatible with the Abe HD mod, which comes from a different team. The latest stable release is 1.0.9 (March 21, 2025), for Windows (32- and 64-bit) and Linux (.deb), also on the AUR; development continues, and in August it moved to SDL3."
+requirements:
+  es: "Tu propia copia de Abe's Oddysee o Abe's Exoddus para PC, de Steam, de GOG o en disco (también la primera versión); relive.exe y la DLL de SDL se copian en la carpeta del juego. Además, Windows, Linux o macOS (con SDL instalado por Homebrew)."
+  en: "Your own PC copy of Abe’s Oddysee or Abe’s Exoddus, from Steam, GOG, or disc (the early disc release too); relive.exe and the SDL DLL go in the game’s folder. Plus Windows, Linux, or macOS (with SDL installed through Homebrew)."
+tags:
+  - x86
+  - reverse-engineering

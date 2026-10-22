@@ -1,0 +1,19 @@
+name: "Quake (ezQuake)"
+category: source-port
+console: dos
+status: fully
+repo: QW-Group/ezquake-source
+homepage: https://www.ezquake.com/
+originalDeveloper: id Software
+year: 1996
+desc:
+  es: "ezQuake: cliente moderno de QuakeWorld, la versión de Quake para jugar por internet, que parte del código de Quake y QuakeWorld que id Software publicó en 1999. Reúne las funciones de los demás clientes modernos de QuakeWorld y está pensado para el juego competitivo: gráficos modernos, menús completos, vista múltiple (multiview), compatibilidad con QuakeTV, navegador de servidores integrado, explorador de partidas grabadas, control del reproductor de MP3, personalización de todos los elementos gráficos, HUD incluido, y muchas posibilidades de scripts. Funciona en Windows, Linux, macOS y FreeBSD con SDL2, y trae solo lo mínimo en recursos del juego. La 3.6.9 (1 de marzo) llevó el renderizador moderno a macOS, y en octubre sigue el trabajo en el renderizador, con interpolación entre fotogramas de los modelos y partículas que se comportan igual a cualquier tasa de fotogramas. 63 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "ezQuake: a modern client for QuakeWorld, the version of Quake built for online play, based on the Quake and QuakeWorld source code id Software released in 1999. It combines the features of the other modern QuakeWorld clients and is geared toward competitive play: modern graphics, rich menus, multiview, QuakeTV support, a built-in server browser, a recorded games browser, MP3 player control, customization of every graphical element including the HUD, and extensive scripting. It runs on Windows, Linux, macOS, and FreeBSD with SDL2, and comes with only the bare minimum of game media. Version 3.6.9 (March 1) brought the modern renderer to macOS, and work in October continues on the renderer, with interpolation between model frames and particles that behave the same at any frame rate. 63 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Los archivos pak0.pak y pak1.pak de tu propia copia de Quake, en la subcarpeta id1; también puedes descomprimir ezQuake en una instalación de Quake. Además, Windows de 64 bits, Linux x86-64 o macOS."
+  en: "The pak0.pak and pak1.pak files from your own copy of Quake, in the id1 subfolder; you can also unzip ezQuake into an existing Quake install. Plus 64-bit Windows, x86-64 Linux, or macOS."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - ai-assisted

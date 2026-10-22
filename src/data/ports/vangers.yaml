@@ -1,0 +1,22 @@
+name: Vangers
+category: source-port
+console: pc
+status: fully
+repo: KranX/Vangers
+originalDeveloper: K-D Lab
+year: 1998
+desc:
+  es: "Código fuente de Vangers (también Vangers: One for the Road), el juego de K-D Lab de 1998 que mezcla carreras y rol, publicado con licencia GPLv3 en el repositorio de KranX. Para jugar hacen falta los recursos de una copia comprada del juego (mapas, sonidos, texturas), y el README remite a las versiones de Steam y GOG. En julio pasó a SDL 3, cambió los antiguos options.dat y controls.dat por un archivo settings.toml, que los importa en el primer arranque sin modificarlos, y añadió mandos por SDL 3, con conexión en caliente, botones reasignables y vibración en los choques fuertes. Para el multijugador, en septiembre dejó de compilar su antiguo servidor en C++: ahora hay que usar vangers-srv, un servidor aparte escrito en Rust con el mismo protocolo de red, y los clientes nativos se conectan por TCP. No publica versiones en GitHub: las compilaciones para Windows de 64 bits, Linux (también como paquete Flatpak) y macOS salen de GitHub Actions, y en septiembre se sumaron scripts para compilarlo en Windows con MSVC o MSYS2. El repositorio incluye además unos 55 MB de datos del juego: el mundo de Fostral (unos 28 MB), que Association K-D Lab publicó en agosto con licencia CC BY-SA 4.0, y textos, guiones, gráficos de la interfaz y 12 vídeos."
+  en: "The source code of Vangers (also Vangers: One for the Road), K-D Lab’s 1998 game that mixes racing and role-playing, published under the GPLv3 in KranX’s repository. Playing requires the resources from a purchased copy of the game (maps, sounds, textures), and the README points to the Steam and GOG releases. In July it moved to SDL 3, replaced the old options.dat and controls.dat with a settings.toml file, which imports them on first launch without changing them, and added SDL 3 controller support with hot-plugging, rebindable buttons, and rumble on strong collisions. For multiplayer, it stopped building its old C++ server in September: you now use vangers-srv, a separate server written in Rust with the same network protocol, and native clients connect over TCP. It doesn’t publish releases on GitHub: the builds for 64-bit Windows, Linux (also as a Flatpak bundle), and macOS come from GitHub Actions, and September added scripts to build it on Windows with MSVC or MSYS2. The repository also includes about 55 MB of game data: the Fostral world (about 28 MB), which Association K-D Lab released in August under the CC BY-SA 4.0 license, plus text, scripts, interface graphics, and 12 videos."
+requirements:
+  es: "Los recursos de tu propia copia de Vangers (mapas, sonidos, texturas), como la de Steam o la de GOG; el juego se arranca desde su carpeta de datos. Además, Windows de 64 bits, Linux o macOS; para compilarlo, SDL 3.2 y SDL_net 3.2, libvorbis, clunk, FFmpeg 6.0 o posterior, toml11 4.4 y zlib."
+  en: "The resources from your own copy of Vangers (maps, sounds, textures), such as the Steam or GOG release; the game is launched from its data folder. Plus 64-bit Windows, Linux, or macOS; to build it, SDL 3.2 and SDL_net 3.2, libvorbis, clunk, FFmpeg 6.0 or later, toml11 4.4, and zlib."
+tags:
+  - racing
+  - multiplayer
+  - online
+links:
+  - label:
+      es: "vangers-srv (servidor multijugador)"
+      en: "vangers-srv (multiplayer server)"
+    url: https://github.com/stalkerg/vangers-srv

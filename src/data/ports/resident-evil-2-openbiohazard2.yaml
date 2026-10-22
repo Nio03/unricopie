@@ -1,0 +1,17 @@
+name: "Resident Evil 2 (OpenBiohazard2)"
+category: fan-remake
+console: pc
+status: experimental
+repo: OpenBiohazard2/OpenBiohazard2
+author: Samuel Yuan
+originalDeveloper: Capcom
+year: 1999
+desc:
+  es: "OpenBiohazard2: reimplementación de código abierto del motor del Resident Evil 2 original (Biohazard 2), escrita en Go con OpenGL, que usa los archivos de la versión para PC. Según su lista de tareas, ya funcionan la detección de colisiones, los disparadores de eventos, las animaciones, los fondos prerrenderizados y la prueba de profundidad; faltan el audio (música y sonidos), el sistema de inventario, la IA de los enemigos, los puzles, las transiciones de las puertas, los sprites y las sombras. Se maneja con el teclado. Su única versión publicada es la 0.1.0 (17 de mayo de 2024), una primera compilación de prueba para Windows de 64 bits; si no, hay que compilarlo con Go. En septiembre de 2025 y en agosto se reorganizó buena parte del código y se le añadieron pruebas, una exportación de modelos a OBJ y marcadores de depuración para los enemigos; el último cambio es del 17 de agosto. Trae herramientas para desempaquetar y convertir los archivos del juego, y el proyecto tiene aparte un visor de los guiones de Biohazard 2."
+  en: "OpenBiohazard2: an open-source reimplementation of the original Resident Evil 2 (Biohazard 2) engine, written in Go with OpenGL, that uses the files from the PC version. According to its task list, collision detection, event triggers, animation, pre-rendered backgrounds, and depth testing already work; still missing are audio (music and sound), the inventory system, enemy AI, puzzles, door transitions, sprites, and shadows. It’s played with the keyboard. Its only published release is 0.1.0 (May 17, 2024), an initial pre-release build for 64-bit Windows; otherwise it has to be built with Go. In September 2025 and in August, much of the code was reorganized and gained tests, OBJ model export, and debug markers for enemies; the latest change is from August 17. It comes with tools to unpack and convert the game’s files, and the project keeps a separate viewer for Biohazard 2’s scripts."
+requirements:
+  es: "Los archivos de tu propia copia de Resident Evil 2 para PC, copiados de la carpeta donde lo instalaste a la carpeta data del proyecto. Además, Windows de 64 bits para la versión publicada o Go para compilarlo, y una tarjeta gráfica con OpenGL."
+  en: "The files from your own copy of Resident Evil 2 for PC, copied from its install folder into the project’s data folder. Plus 64-bit Windows for the published build, or Go to build it, and a graphics card with OpenGL."
+tags:
+  - x86
+  - horror

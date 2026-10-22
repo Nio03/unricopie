@@ -23,7 +23,7 @@
     "decompPercent": 28
   },
   "2ship2harkinian/2ship2harkinian": {
-    "stars": 2359,
+    "stars": 2360,
     "pushedAt": "2026-10-20T23:21:41Z",
     "createdAt": "2023-11-15T03:06:29Z",
     "license": "CC0-1.0",
@@ -51,7 +51,7 @@
     "language": "C"
   },
   "999sian/melee-pc": {
-    "stars": 535,
+    "stars": 536,
     "pushedAt": "2026-10-20T23:52:18Z",
     "createdAt": "2026-09-14T03:42:52Z",
     "language": "C",
@@ -85,7 +85,7 @@
     "decompPercent": 93
   },
   "AjncSystem/ShadowOfTheColossus-PC": {
-    "stars": 1350,
+    "stars": 1355,
     "pushedAt": "2026-10-22T01:10:26Z",
     "createdAt": "2026-10-12T13:11:53Z",
     "license": "GPL-2.0",
@@ -121,6 +121,21 @@
     "language": "C",
     "decompPercent": 1
   },
+  "AlisterT/openjazz": {
+    "stars": 412,
+    "pushedAt": "2026-09-01T10:44:44Z",
+    "createdAt": "2014-07-29T22:22:06Z",
+    "license": "GPL-2.0",
+    "language": "C"
+  },
+  "AliveTeam/alive_reversing": {
+    "stars": 443,
+    "pushedAt": "2026-09-28T19:45:52Z",
+    "createdAt": "2018-06-05T14:15:42Z",
+    "language": "C++",
+    "version": "github-v1.0.9",
+    "versionAt": "2025-03-21T21:05:57Z"
+  },
   "AngheloAlf/drmario64": {
     "stars": 81,
     "pushedAt": "2026-08-13T23:21:16Z",
@@ -146,7 +161,7 @@
     "language": "C++"
   },
   "Apolinario-coder/SkyRecomp": {
-    "stars": 378,
+    "stars": 380,
     "pushedAt": "2026-10-22T04:04:44Z",
     "createdAt": "2026-10-17T09:17:49Z",
     "language": "C",
@@ -154,8 +169,8 @@
     "versionAt": "2026-10-22T02:31:03Z"
   },
   "AshfordFamily/recvx-decomp": {
-    "stars": 294,
-    "pushedAt": "2026-10-22T12:13:29Z",
+    "stars": 295,
+    "pushedAt": "2026-10-22T12:23:29Z",
     "createdAt": "2024-07-24T00:46:51Z",
     "license": "MIT",
     "language": "C",
@@ -164,7 +179,7 @@
     "decompPercent": 83
   },
   "AsobiCodes/rac-rs": {
-    "stars": 108,
+    "stars": 110,
     "pushedAt": "2026-10-22T00:00:39Z",
     "createdAt": "2026-10-14T22:57:53Z",
     "license": "GPL-3.0",
@@ -173,11 +188,11 @@
     "versionAt": "2026-10-22T00:00:53Z"
   },
   "Awakenchan/LanternEngine": {
-    "stars": 799,
-    "pushedAt": "2026-10-22T09:28:38Z",
+    "stars": 812,
+    "pushedAt": "2026-10-22T12:46:59Z",
     "createdAt": "2026-10-11T19:52:46Z",
     "license": "GPL-2.0",
-    "language": "C#",
+    "language": "C++",
     "version": "v0.9.36",
     "versionAt": "2026-10-21T11:38:18Z"
   },
@@ -200,7 +215,7 @@
     "versionAt": "2026-09-09T01:45:05Z"
   },
   "BlackLabelHQ/MediEvilRecomp": {
-    "stars": 198,
+    "stars": 199,
     "pushedAt": "2026-10-03T21:52:59Z",
     "createdAt": "2026-08-16T09:28:48Z",
     "language": "C#",
@@ -215,7 +230,7 @@
     "language": "C#"
   },
   "BlackLabelHQ/SymphonyRecomp": {
-    "stars": 947,
+    "stars": 949,
     "pushedAt": "2026-10-21T03:46:06Z",
     "createdAt": "2026-07-03T20:37:09Z",
     "language": "C#",
@@ -254,6 +269,16 @@
     "version": "v1.7.0",
     "versionAt": "2026-10-20T23:48:00Z"
   },
+  "C7-Game/OpenCiv3": {
+    "stars": 675,
+    "pushedAt": "2026-10-20T21:14:02Z",
+    "createdAt": "2021-02-25T04:14:53Z",
+    "license": "MIT",
+    "homepage": "https://www.openciv3.org",
+    "language": "C#",
+    "version": "v0.3-dutch-preview-1",
+    "versionAt": "2025-12-07T03:13:38Z"
+  },
   "CTR-tools/CTR-ModSDK": {
     "stars": 455,
     "pushedAt": "2026-07-05T11:20:07Z",
@@ -265,7 +290,7 @@
     "versionAt": "2023-03-26T16:14:18Z"
   },
   "CTR-tools/ctr-native": {
-    "stars": 422,
+    "stars": 423,
     "pushedAt": "2026-10-20T17:28:22Z",
     "createdAt": "2026-05-16T22:07:46Z",
     "license": "GPL-3.0",
@@ -296,7 +321,7 @@
     "fork": "Rinnegatamante/Crash-Team-Racing-High-Octane"
   },
   "Castlesea/infamous-second-son-pc-port": {
-    "stars": 111,
+    "stars": 112,
     "pushedAt": "2026-10-21T22:05:50Z",
     "createdAt": "2026-10-19T20:22:29Z",
     "language": "C++"
@@ -335,7 +360,7 @@
     "versionAt": "2026-10-18T08:12:50Z"
   },
   "CorsixTH/CorsixTH": {
-    "stars": 4609,
+    "stars": 4611,
     "pushedAt": "2026-10-20T21:22:39Z",
     "createdAt": "2013-08-25T18:16:56Z",
     "language": "Lua",
@@ -352,7 +377,7 @@
     "versionAt": "2026-10-21T01:00:10Z"
   },
   "DahSidiAbdallah/ConkerBFDReloaded": {
-    "stars": 108,
+    "stars": 113,
     "pushedAt": "2026-10-22T10:44:53Z",
     "createdAt": "2026-10-01T00:50:54Z",
     "license": "MIT",
@@ -370,6 +395,16 @@
     "fork": "RevoSucks/CV64Recomp",
     "version": "v0.6.1",
     "versionAt": "2026-09-29T19:28:45Z"
+  },
+  "DarkPlacesEngine/DarkPlaces": {
+    "stars": 451,
+    "pushedAt": "2026-10-21T03:27:41Z",
+    "createdAt": "2021-05-23T19:28:09Z",
+    "license": "GPL-2.0",
+    "homepage": "https://icculus.org/twilight/darkplaces/",
+    "language": "C",
+    "version": "v20140513",
+    "versionAt": "2023-12-30T16:29:00Z"
   },
   "DarkRTA/rb3": {
     "stars": 125,
@@ -390,13 +425,6 @@
     "pushedAt": "2026-10-01T19:49:47Z",
     "createdAt": "2020-05-28T00:18:50Z",
     "license": "CC0-1.0",
-    "language": "C"
-  },
-  "Denkishi/ssbu-recomp": {
-    "stars": 376,
-    "pushedAt": "2026-10-21T18:31:37Z",
-    "createdAt": "2026-10-12T10:30:45Z",
-    "license": "GPL-3.0",
     "language": "C"
   },
   "DerrickGold/ar-recomp": {
@@ -442,10 +470,10 @@
   },
   "Drahsid/mischief-makers": {
     "stars": 72,
-    "pushedAt": "2026-10-10T17:26:44Z",
+    "pushedAt": "2026-10-22T15:19:13Z",
     "createdAt": "2021-06-10T10:20:35Z",
     "language": "C",
-    "decompPercent": 54
+    "decompPercent": 62
   },
   "Dream-Atelier/kl-eod-decomp": {
     "stars": 16,
@@ -458,7 +486,7 @@
   },
   "Dyotson/ForzaHorizon1-ReImagined": {
     "stars": 257,
-    "pushedAt": "2026-10-22T11:51:41Z",
+    "pushedAt": "2026-10-22T15:02:30Z",
     "createdAt": "2026-10-10T13:37:16Z",
     "license": "MIT",
     "homepage": "http://forza.dyotson.dev/",
@@ -490,7 +518,7 @@
     "decompPercent": 7
   },
   "Ekspym/Tekken6-native-online": {
-    "stars": 298,
+    "stars": 300,
     "pushedAt": "2026-10-21T15:47:44Z",
     "createdAt": "2026-10-11T20:42:37Z",
     "version": "v2.3.5",
@@ -504,6 +532,15 @@
     "language": "C",
     "version": "v2.2",
     "versionAt": "2026-10-18T09:05:14Z"
+  },
+  "Eukaryot/sonic3air": {
+    "stars": 663,
+    "pushedAt": "2026-10-18T19:52:00Z",
+    "createdAt": "2021-10-21T17:40:07Z",
+    "license": "GPL-3.0",
+    "language": "C++",
+    "version": "v26.03.28.0-stable",
+    "versionAt": "2026-03-28T15:37:07Z"
   },
   "ExpansionPak/DolRecomp": {
     "stars": 200,
@@ -522,13 +559,13 @@
     "versionAt": "2026-07-22T13:03:43Z"
   },
   "FWGS/xash3d-fwgs": {
-    "stars": 2874,
+    "stars": 2875,
     "pushedAt": "2026-10-21T10:13:29Z",
     "createdAt": "2018-04-02T21:33:02Z",
     "language": "C"
   },
   "Fable2Recomp/Fable2Recomp": {
-    "stars": 391,
+    "stars": 392,
     "pushedAt": "2026-09-12T02:09:57Z",
     "createdAt": "2025-03-07T03:00:11Z",
     "license": "MIT",
@@ -542,7 +579,7 @@
     "language": "C"
   },
   "FelipePrado0/SpartanPort": {
-    "stars": 3869,
+    "stars": 3888,
     "pushedAt": "2026-10-22T04:32:04Z",
     "createdAt": "2026-10-08T01:55:21Z",
     "license": "GPL-2.0",
@@ -573,7 +610,7 @@
     "language": "C++"
   },
   "FulGerNet/rePOP": {
-    "stars": 50,
+    "stars": 51,
     "pushedAt": "2026-10-22T10:27:30Z",
     "createdAt": "2026-10-13T17:06:43Z",
     "language": "C",
@@ -646,7 +683,7 @@
     "decompPercent": 100
   },
   "Genesis5500/ArmyOfTwo-Recomp": {
-    "stars": 20,
+    "stars": 21,
     "pushedAt": "2026-09-10T20:23:53Z",
     "createdAt": "2026-09-10T15:26:11Z",
     "license": "GPL-3.0",
@@ -695,7 +732,7 @@
     "versionAt": "2026-10-21T15:55:25Z"
   },
   "HarbourMasters/Ghostship": {
-    "stars": 842,
+    "stars": 843,
     "pushedAt": "2026-09-11T05:06:37Z",
     "createdAt": "2023-09-12T15:12:59Z",
     "license": "MIT",
@@ -725,7 +762,7 @@
     "versionAt": "2026-10-11T17:56:48Z"
   },
   "HarbourMasters/Shipwright": {
-    "stars": 5716,
+    "stars": 5718,
     "pushedAt": "2026-10-21T23:07:36Z",
     "createdAt": "2022-03-22T01:42:52Z",
     "homepage": "https://shipofharkinian.com",
@@ -734,7 +771,7 @@
     "versionAt": "2026-10-18T21:06:27Z"
   },
   "HarbourMasters/SpaghettiKart": {
-    "stars": 2436,
+    "stars": 2438,
     "pushedAt": "2026-10-11T19:22:02Z",
     "createdAt": "2024-04-07T15:49:14Z",
     "homepage": "https://harbourmasters.github.io/SpaghettiKart/",
@@ -743,7 +780,7 @@
     "versionAt": "2026-02-25T02:26:04Z"
   },
   "HarbourMasters/Starship": {
-    "stars": 2111,
+    "stars": 2113,
     "pushedAt": "2026-09-15T21:17:12Z",
     "createdAt": "2024-05-21T03:28:06Z",
     "license": "CC0-1.0",
@@ -769,13 +806,22 @@
     "versionAt": "2026-09-25T21:17:14Z"
   },
   "HayatoG/iss_pc": {
-    "stars": 782,
-    "pushedAt": "2026-10-22T11:05:13Z",
+    "stars": 784,
+    "pushedAt": "2026-10-22T15:19:30Z",
     "createdAt": "2026-10-13T21:48:17Z",
     "homepage": "https://www.youtube.com/@hayatog-dev",
     "language": "C++",
-    "version": "v2026.10.22-cde38af",
+    "version": "v1.0",
     "versionAt": "2026-10-22T07:11:21Z"
+  },
+  "HayatoG/tlg_pc": {
+    "stars": 376,
+    "pushedAt": "2026-10-22T02:25:25Z",
+    "createdAt": "2026-10-13T02:46:25Z",
+    "homepage": "https://www.youtube.com/@hayatog-dev",
+    "language": "C++",
+    "version": "v2026.10.22-3232792",
+    "versionAt": "2026-10-22T02:25:26Z"
   },
   "HaydnTrigg/Castaway": {
     "stars": 18,
@@ -791,6 +837,16 @@
     "createdAt": "2026-06-13T06:11:50Z",
     "language": "C++",
     "decompPercent": 4
+  },
+  "Henrique194/chocolate-quake": {
+    "stars": 227,
+    "pushedAt": "2026-09-07T13:07:49Z",
+    "createdAt": "2025-05-31T14:50:08Z",
+    "license": "GPL-3.0",
+    "homepage": "https://www.doomworld.com/forum/topic/153415",
+    "language": "C",
+    "version": "chocolate-quake-2.1.0",
+    "versionAt": "2026-02-22T20:09:49Z"
   },
   "Hero88go/melee-unlocked": {
     "stars": 128,
@@ -849,9 +905,7 @@
     "pushedAt": "2026-10-18T08:55:30Z",
     "createdAt": "2018-04-10T03:14:35Z",
     "license": "GPL-3.0",
-    "language": "C",
-    "version": "v0.7.7",
-    "versionAt": "2019-04-08T16:40:50Z"
+    "language": "C"
   },
   "JACoders/OpenJK": {
     "stars": 2309,
@@ -863,8 +917,8 @@
     "versionAt": "2026-09-29T09:22:50Z"
   },
   "JEschete/VS-NativePort": {
-    "stars": 20,
-    "pushedAt": "2026-10-22T12:18:23Z",
+    "stars": 22,
+    "pushedAt": "2026-10-22T15:12:14Z",
     "createdAt": "2026-07-23T04:23:08Z",
     "language": "C"
   },
@@ -886,7 +940,7 @@
     "versionAt": "2026-10-12T18:03:29Z"
   },
   "JHDev2006/Super-Mario-Bros.-Remastered-Public": {
-    "stars": 3254,
+    "stars": 3255,
     "pushedAt": "2026-10-17T14:33:08Z",
     "createdAt": "2025-09-13T15:29:58Z",
     "license": "GPL-3.0",
@@ -895,8 +949,8 @@
     "versionAt": "2026-09-04T19:56:56Z"
   },
   "JRickey/BattleShip": {
-    "stars": 507,
-    "pushedAt": "2026-10-21T13:54:19Z",
+    "stars": 506,
+    "pushedAt": "2026-10-22T13:52:50Z",
     "createdAt": "2026-04-04T19:48:25Z",
     "homepage": "https://discord.gg/bAE73kxKXY",
     "language": "C++",
@@ -913,7 +967,7 @@
     "versionAt": "2026-10-20T23:37:28Z"
   },
   "JackandBeans/Snap64Recomp": {
-    "stars": 120,
+    "stars": 119,
     "pushedAt": "2026-10-21T17:00:20Z",
     "createdAt": "2026-09-05T16:28:12Z",
     "license": "GPL-3.0",
@@ -921,6 +975,16 @@
     "language": "C++",
     "version": "v1.1.5",
     "versionAt": "2026-10-17T21:01:57Z"
+  },
+  "Javanaise/mrboom-libretro": {
+    "stars": 229,
+    "pushedAt": "2026-03-31T10:46:38Z",
+    "createdAt": "2017-01-21T13:46:48Z",
+    "license": "MIT",
+    "homepage": "https://mrboom.mumblecore.org",
+    "language": "C",
+    "version": "5.5",
+    "versionAt": "2024-05-19T04:28:47Z"
   },
   "JeanxPereira/CrystalOSD": {
     "stars": 3,
@@ -930,8 +994,8 @@
     "language": "JavaScript"
   },
   "JonathanDC64/DemonsSoulsRecomp": {
-    "stars": 82,
-    "pushedAt": "2026-10-22T12:00:32Z",
+    "stars": 83,
+    "pushedAt": "2026-10-22T14:43:14Z",
     "createdAt": "2026-06-29T19:19:04Z",
     "language": "C++"
   },
@@ -953,7 +1017,7 @@
     "versionAt": "2026-10-21T18:56:23Z"
   },
   "K0NL/B2recomp": {
-    "stars": 338,
+    "stars": 344,
     "pushedAt": "2026-10-22T06:07:17Z",
     "createdAt": "2026-10-17T16:04:18Z",
     "license": "GPL-3.0",
@@ -978,7 +1042,7 @@
   },
   "KawaiiBunga/MKVDCU-Recomp": {
     "stars": 45,
-    "pushedAt": "2026-09-30T10:25:58Z",
+    "pushedAt": "2026-10-22T13:04:36Z",
     "createdAt": "2026-09-23T00:16:38Z",
     "language": "C++",
     "version": "v0.2.1",
@@ -1026,6 +1090,16 @@
     "language": "C",
     "version": "v1.1.1",
     "versionAt": "2026-10-06T02:41:57Z"
+  },
+  "KranX/Vangers": {
+    "stars": 740,
+    "pushedAt": "2026-10-06T03:15:02Z",
+    "createdAt": "2014-04-01T11:48:08Z",
+    "license": "GPL-3.0",
+    "homepage": "https://store.steampowered.com/app/264080/Vangers/",
+    "language": "C++",
+    "version": "2.0",
+    "versionAt": "2021-11-27T06:20:23Z"
   },
   "LLONSIT-glitch/wonder": {
     "stars": 8,
@@ -1088,7 +1162,7 @@
     "versionAt": "2026-09-02T22:18:50Z"
   },
   "LoreanXavier/pt-pc": {
-    "stars": 2097,
+    "stars": 2104,
     "pushedAt": "2026-10-19T18:16:56Z",
     "createdAt": "2026-10-07T09:33:31Z",
     "language": "C++",
@@ -1097,7 +1171,7 @@
   },
   "LostArtefacts/TRX": {
     "stars": 1017,
-    "pushedAt": "2026-10-22T10:43:32Z",
+    "pushedAt": "2026-10-22T15:11:11Z",
     "createdAt": "2021-02-07T22:17:54Z",
     "license": "GPL-3.0",
     "homepage": "https://lostartefacts.dev/",
@@ -1106,8 +1180,8 @@
     "versionAt": "2026-09-22T15:24:08Z"
   },
   "LucasPicoli/god-hand-decomp": {
-    "stars": 66,
-    "pushedAt": "2026-10-21T21:09:49Z",
+    "stars": 68,
+    "pushedAt": "2026-10-22T13:35:42Z",
     "createdAt": "2026-06-03T06:14:48Z",
     "license": "MIT",
     "language": "C",
@@ -1120,7 +1194,7 @@
     "license": "CC0-1.0"
   },
   "Mabec-games/iss2000-recomp": {
-    "stars": 13,
+    "stars": 14,
     "pushedAt": "2026-10-18T18:40:49Z",
     "createdAt": "2026-10-17T06:12:56Z",
     "license": "GPL-3.0",
@@ -1139,7 +1213,7 @@
   },
   "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled": {
     "stars": 44,
-    "pushedAt": "2026-10-18T23:09:20Z",
+    "pushedAt": "2026-10-22T14:09:47Z",
     "createdAt": "2026-08-14T02:44:53Z",
     "language": "C"
   },
@@ -1170,7 +1244,7 @@
   },
   "MatyMeatBoy/ReKHCoM": {
     "stars": 57,
-    "pushedAt": "2026-10-22T09:45:37Z",
+    "pushedAt": "2026-10-22T15:07:48Z",
     "createdAt": "2026-10-12T09:12:03Z",
     "license": "CC0-1.0",
     "homepage": "https://matymeatboy.github.io/ReKHCoM/",
@@ -1182,9 +1256,7 @@
     "stars": 64,
     "pushedAt": "2026-10-21T07:36:16Z",
     "createdAt": "2026-04-23T18:34:27Z",
-    "language": "Python",
-    "version": "v0.2.1",
-    "versionAt": "2026-06-23T20:53:54Z"
+    "language": "Python"
   },
   "MaxDeadBear/NaughtyBear_ReStuff": {
     "stars": 58,
@@ -1202,7 +1274,7 @@
   },
   "Maxilure/MindOver-Recomp": {
     "stars": 27,
-    "pushedAt": "2026-10-21T22:16:59Z",
+    "pushedAt": "2026-10-22T15:04:11Z",
     "createdAt": "2026-09-30T14:38:39Z",
     "license": "GPL-3.0",
     "language": "C++",
@@ -1243,7 +1315,7 @@
     "language": "C++"
   },
   "MissingThePixel/MTR-PGR4": {
-    "stars": 28,
+    "stars": 29,
     "pushedAt": "2026-10-11T16:40:23Z",
     "createdAt": "2026-10-01T19:08:03Z",
     "language": "C#",
@@ -1282,6 +1354,15 @@
     "version": "v0.6.0-windows",
     "versionAt": "2026-10-17T12:45:42Z"
   },
+  "MustaphaTR/Romanovs-Vengeance": {
+    "stars": 345,
+    "pushedAt": "2025-07-26T17:44:53Z",
+    "createdAt": "2018-12-15T10:54:06Z",
+    "license": "GPL-3.0",
+    "language": "C#",
+    "version": "playtest-20241215",
+    "versionAt": "2024-12-15T20:29:05Z"
+  },
   "N64Recomp/N64ModernRuntime": {
     "stars": 182,
     "pushedAt": "2026-09-29T19:42:14Z",
@@ -1290,7 +1371,7 @@
     "language": "C++"
   },
   "N64Recomp/N64Recomp": {
-    "stars": 8285,
+    "stars": 8286,
     "pushedAt": "2026-05-27T05:21:25Z",
     "createdAt": "2022-11-16T00:57:41Z",
     "license": "MIT",
@@ -1382,7 +1463,7 @@
   },
   "NoRain211/doaxvb-re": {
     "stars": 203,
-    "pushedAt": "2026-10-22T10:30:31Z",
+    "pushedAt": "2026-10-22T15:20:22Z",
     "createdAt": "2026-08-16T09:52:22Z",
     "license": "GPL-3.0",
     "homepage": "https://github.com/NoRain211/doaxbv-re/releases/latest",
@@ -1408,13 +1489,13 @@
     "versionAt": "2026-10-12T03:36:06Z"
   },
   "Nycolazs/EoWRecomp": {
-    "stars": 17,
+    "stars": 18,
     "pushedAt": "2026-10-21T10:01:17Z",
     "createdAt": "2026-10-19T14:19:00Z",
     "language": "C"
   },
   "OAleex/MojoRecomp": {
-    "stars": 57,
+    "stars": 58,
     "pushedAt": "2026-10-06T13:13:24Z",
     "createdAt": "2026-09-28T09:44:28Z",
     "license": "ISC",
@@ -1423,7 +1504,7 @@
     "versionAt": "2026-10-06T13:13:56Z"
   },
   "OAleex/ShaolinMonksRecomp": {
-    "stars": 170,
+    "stars": 173,
     "pushedAt": "2026-10-19T00:32:38Z",
     "createdAt": "2026-10-17T14:29:52Z",
     "license": "GPL-2.0",
@@ -1433,23 +1514,40 @@
   },
   "Odrannnn/MetroidPrimePort": {
     "stars": 494,
-    "pushedAt": "2026-10-22T12:16:43Z",
+    "pushedAt": "2026-10-22T13:43:02Z",
     "createdAt": "2026-09-19T14:13:16Z",
     "homepage": "https://github.com/Odrannnn/MetroidPrimePort/releases/latest",
     "language": "C++",
     "version": "v0.31.1",
     "versionAt": "2026-10-21T20:22:37Z"
   },
+  "OpenApoc/OpenApoc": {
+    "stars": 600,
+    "pushedAt": "2026-09-16T16:46:38Z",
+    "createdAt": "2014-07-06T14:16:54Z",
+    "license": "GPL-3.0",
+    "homepage": "http://openapoc.org",
+    "language": "C++",
+    "version": "20260408",
+    "versionAt": "2026-04-10T18:20:54Z"
+  },
+  "OpenBiohazard2/OpenBiohazard2": {
+    "stars": 297,
+    "pushedAt": "2026-08-17T03:22:59Z",
+    "createdAt": "2020-01-06T05:06:33Z",
+    "license": "MIT",
+    "language": "Go"
+  },
   "OpenCommunityEdition/OpenCE": {
-    "stars": 1762,
-    "pushedAt": "2026-10-22T11:33:13Z",
+    "stars": 1764,
+    "pushedAt": "2026-10-22T13:06:00Z",
     "createdAt": "2026-09-26T06:12:04Z",
     "license": "AGPL-3.0",
     "homepage": "https://halocombatevolved.com/",
     "language": "C",
     "fork": "bnunu/halo-1",
-    "version": "build-253",
-    "versionAt": "2026-10-22T11:01:54Z"
+    "version": "build-256",
+    "versionAt": "2026-10-22T12:42:38Z"
   },
   "OpenDUNE/OpenDUNE": {
     "stars": 1696,
@@ -1466,9 +1564,7 @@
     "createdAt": "2020-11-03T08:04:42Z",
     "license": "MIT",
     "homepage": "https://opendriver2.github.io/",
-    "language": "C",
-    "version": "7.4-rc2",
-    "versionAt": "2022-02-04T19:01:30Z"
+    "language": "C"
   },
   "OpenEnroth/OpenEnroth": {
     "stars": 874,
@@ -1477,8 +1573,18 @@
     "license": "LGPL-3.0",
     "language": "C++"
   },
+  "OpenFodder/openfodder": {
+    "stars": 610,
+    "pushedAt": "2026-10-20T21:37:19Z",
+    "createdAt": "2012-12-08T01:11:46Z",
+    "license": "GPL-3.0",
+    "homepage": "http://openfodder.com",
+    "language": "C++",
+    "version": "2.0.0",
+    "versionAt": "2025-12-16T21:23:17Z"
+  },
   "OpenLoco/OpenLoco": {
-    "stars": 1951,
+    "stars": 1950,
     "pushedAt": "2026-10-14T22:04:07Z",
     "createdAt": "2018-01-06T23:35:23Z",
     "license": "MIT",
@@ -1488,7 +1594,7 @@
     "versionAt": "2026-09-18T19:13:09Z"
   },
   "OpenMW/openmw": {
-    "stars": 6662,
+    "stars": 6663,
     "pushedAt": "2026-10-22T10:11:21Z",
     "createdAt": "2009-08-23T14:46:21Z",
     "license": "GPL-3.0",
@@ -1506,8 +1612,8 @@
     "language": "C++"
   },
   "OpenPortroid/ArmyOfTwoRecompilation": {
-    "stars": 96,
-    "pushedAt": "2026-10-22T05:43:18Z",
+    "stars": 98,
+    "pushedAt": "2026-10-22T15:13:06Z",
     "createdAt": "2026-10-16T18:05:56Z",
     "license": "MIT",
     "language": "C++",
@@ -1515,7 +1621,7 @@
     "versionAt": "2026-10-22T05:43:18Z"
   },
   "OpenRA/OpenRA": {
-    "stars": 17624,
+    "stars": 17626,
     "pushedAt": "2026-10-20T13:10:56Z",
     "createdAt": "2010-10-04T07:38:05Z",
     "license": "GPL-3.0",
@@ -1525,7 +1631,7 @@
     "versionAt": "2025-03-30T17:36:43Z"
   },
   "OpenRCT2/OpenRCT2": {
-    "stars": 16484,
+    "stars": 16483,
     "pushedAt": "2026-10-21T09:06:21Z",
     "createdAt": "2014-04-01T23:32:25Z",
     "license": "GPL-3.0",
@@ -1542,8 +1648,8 @@
     "language": "C#"
   },
   "OpenSC2K/OpenSC2K": {
-    "stars": 5315,
-    "pushedAt": "2026-10-21T13:45:16Z",
+    "stars": 5316,
+    "pushedAt": "2026-10-22T13:46:58Z",
     "createdAt": "2018-02-03T02:38:07Z",
     "license": "MIT",
     "homepage": "http://opensc2k.net",
@@ -1551,8 +1657,22 @@
     "version": "v0.3.0",
     "versionAt": "2026-10-09T19:27:55Z"
   },
+  "OpenSmash-Ultimate/WindowSmash": {
+    "stars": 338,
+    "pushedAt": "2026-10-22T11:09:01Z",
+    "createdAt": "2026-10-18T00:50:53Z",
+    "license": "GPL-3.0",
+    "language": "C"
+  },
+  "OpenSmash-Ultimate/ssbu-recomp": {
+    "stars": 381,
+    "pushedAt": "2026-10-21T18:31:37Z",
+    "createdAt": "2026-10-12T10:30:45Z",
+    "license": "GPL-3.0",
+    "language": "C"
+  },
   "OpenTTD/OpenTTD": {
-    "stars": 8410,
+    "stars": 8409,
     "pushedAt": "2026-10-22T11:52:47Z",
     "createdAt": "2018-04-06T18:06:22Z",
     "homepage": "https://www.openttd.org/",
@@ -1568,7 +1688,7 @@
     "language": "C"
   },
   "OverkillLabs3/driveclub-recomp": {
-    "stars": 529,
+    "stars": 540,
     "pushedAt": "2026-10-21T22:19:42Z",
     "createdAt": "2026-10-16T20:43:28Z",
     "license": "GPL-2.0",
@@ -1595,7 +1715,7 @@
     "versionAt": "2026-10-05T11:52:08Z"
   },
   "PauloUbirajara/asuras-wrath-recomp": {
-    "stars": 61,
+    "stars": 62,
     "pushedAt": "2026-09-11T20:04:32Z",
     "createdAt": "2026-08-30T16:08:46Z",
     "language": "C++"
@@ -1639,6 +1759,16 @@
     "language": "C++",
     "version": "v1.0.1",
     "versionAt": "2026-10-19T14:55:39Z"
+  },
+  "QW-Group/ezquake-source": {
+    "stars": 421,
+    "pushedAt": "2026-10-21T12:25:40Z",
+    "createdAt": "2010-10-15T13:35:34Z",
+    "license": "GPL-2.0",
+    "homepage": "https://www.ezquake.com/",
+    "language": "C",
+    "version": "3.6.9",
+    "versionAt": "2026-03-01T19:45:47Z"
   },
   "RSDKModding/RSDKv3-Decompilation": {
     "stars": 712,
@@ -1724,7 +1854,7 @@
     "fork": "sm64pc/sm64ex"
   },
   "RetroPortingToolKit/ndsrecomp": {
-    "stars": 61,
+    "stars": 62,
     "pushedAt": "2026-10-19T05:07:21Z",
     "createdAt": "2026-07-15T07:37:23Z",
     "homepage": "https://discord.gg/Ad9BwSzctP",
@@ -1754,6 +1884,14 @@
     "language": "C",
     "version": "v0.3.0-alpha",
     "versionAt": "2026-10-14T19:27:10Z"
+  },
+  "Return-To-The-Roots/s25client": {
+    "stars": 600,
+    "pushedAt": "2026-10-20T20:15:33Z",
+    "createdAt": "2013-07-07T09:38:04Z",
+    "license": "GPL-2.0",
+    "homepage": "http://www.rttr.info",
+    "language": "C++"
   },
   "RevoSucks/BM64Recomp": {
     "stars": 307,
@@ -1826,7 +1964,7 @@
     "versionAt": "2025-05-10T16:32:44Z"
   },
   "RokkuDayo/ForzaHorizon2_ExtraOptions": {
-    "stars": 359,
+    "stars": 360,
     "pushedAt": "2026-10-19T13:11:48Z",
     "createdAt": "2026-10-10T22:17:00Z",
     "license": "GPL-3.0",
@@ -1843,7 +1981,7 @@
     "versionAt": "2026-10-17T18:01:39Z"
   },
   "SFTtech/openage": {
-    "stars": 14534,
+    "stars": 14536,
     "pushedAt": "2026-10-20T16:22:34Z",
     "createdAt": "2013-11-03T22:35:23Z",
     "homepage": "http://openage.dev",
@@ -1859,7 +1997,7 @@
     "language": "Rust"
   },
   "SMCGames/Paper-Mario-ReCut-Deprecated": {
-    "stars": 306,
+    "stars": 305,
     "pushedAt": "2026-10-21T09:32:47Z",
     "createdAt": "2026-05-24T00:47:21Z",
     "license": "MIT",
@@ -1882,12 +2020,12 @@
     "decompPercent": 100
   },
   "SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port": {
-    "stars": 269,
-    "pushedAt": "2026-10-22T10:15:05Z",
+    "stars": 270,
+    "pushedAt": "2026-10-22T13:46:58Z",
     "createdAt": "2026-09-03T14:10:16Z",
     "language": "Assembly",
-    "version": "1.0.7",
-    "versionAt": "2026-10-21T15:33:51Z"
+    "version": "1.0.8",
+    "versionAt": "2026-10-22T13:46:59Z"
   },
   "SeekyCt/spm-decomp": {
     "stars": 103,
@@ -1913,7 +2051,7 @@
     "decompPercent": 3
   },
   "Shagg88/Athelas": {
-    "stars": 96,
+    "stars": 97,
     "pushedAt": "2026-10-21T16:23:44Z",
     "createdAt": "2026-10-16T18:15:13Z",
     "license": "MIT",
@@ -1937,7 +2075,7 @@
     "versionAt": "2026-10-11T15:44:45Z"
   },
   "SirDiabo/GithubLauncher": {
-    "stars": 1945,
+    "stars": 1947,
     "pushedAt": "2026-06-26T12:10:10Z",
     "createdAt": "2025-08-20T23:19:38Z",
     "license": "MIT",
@@ -1968,7 +2106,7 @@
     "language": "C++"
   },
   "SlickAmogus/silent-hill-decomp": {
-    "stars": 746,
+    "stars": 747,
     "pushedAt": "2026-10-21T00:30:46Z",
     "createdAt": "2026-03-06T02:58:47Z",
     "license": "GPL-3.0",
@@ -1979,7 +2117,7 @@
   },
   "SmokeDoggy044/CoD2-BRO-Decomp": {
     "stars": 5,
-    "pushedAt": "2026-10-22T03:18:13Z",
+    "pushedAt": "2026-10-22T15:17:28Z",
     "createdAt": "2026-10-17T21:43:35Z",
     "license": "GPL-2.0",
     "language": "C++"
@@ -2000,7 +2138,7 @@
     "versionAt": "2026-10-01T22:35:45Z"
   },
   "Spark198rus/black-pc": {
-    "stars": 306,
+    "stars": 307,
     "pushedAt": "2026-10-21T19:41:02Z",
     "createdAt": "2026-10-14T13:00:33Z",
     "license": "GPL-2.0",
@@ -2009,14 +2147,14 @@
     "versionAt": "2026-10-14T13:00:57Z"
   },
   "SpeedBreakerProject/speedbreaker": {
-    "stars": 442,
-    "pushedAt": "2026-10-18T05:25:42Z",
+    "stars": 443,
+    "pushedAt": "2026-10-22T15:12:20Z",
     "createdAt": "2026-10-05T17:31:24Z",
     "license": "GPL-3.0",
     "homepage": "https://projectugarte.com/speedbreaker/",
     "language": "C++",
-    "version": "v0.1.7",
-    "versionAt": "2026-10-18T05:25:42Z"
+    "version": "v0.1.8",
+    "versionAt": "2026-10-22T15:12:21Z"
   },
   "Spicywonda/WLauncher": {
     "stars": 3,
@@ -2049,7 +2187,7 @@
     "versionAt": "2026-10-12T19:17:39Z"
   },
   "Subarasheese/daytona-xbla-recomp": {
-    "stars": 214,
+    "stars": 215,
     "pushedAt": "2026-07-26T06:03:15Z",
     "createdAt": "2026-05-23T00:34:30Z",
     "language": "C++"
@@ -2091,7 +2229,7 @@
     "versionAt": "2026-09-23T16:20:41Z"
   },
   "Supermedo/uncharted_pc": {
-    "stars": 1814,
+    "stars": 1824,
     "pushedAt": "2026-10-17T23:37:21Z",
     "createdAt": "2026-10-15T00:17:23Z",
     "license": "GPL-2.0",
@@ -2151,13 +2289,20 @@
     "language": "C++"
   },
   "TK22-26/JetForceGemini-Recomp": {
-    "stars": 61,
+    "stars": 62,
     "pushedAt": "2026-10-22T03:54:27Z",
     "createdAt": "2026-10-01T18:26:25Z",
     "license": "MIT",
     "language": "Python",
     "version": "v1.4.0",
     "versionAt": "2026-10-22T03:37:17Z"
+  },
+  "TOMB5/TOMB5": {
+    "stars": 520,
+    "pushedAt": "2022-02-03T17:20:35Z",
+    "createdAt": "2017-06-21T10:56:53Z",
+    "license": "MIT",
+    "language": "C"
   },
   "TanookiStudios/VPW64DeluxeRecomp": {
     "stars": 2,
@@ -2268,7 +2413,7 @@
     "createdAt": "2026-10-09T20:49:27Z"
   },
   "Teraflopping/xrevive": {
-    "stars": 462,
+    "stars": 463,
     "pushedAt": "2026-10-21T18:24:55Z",
     "createdAt": "2026-10-11T14:17:34Z",
     "homepage": "https://teraflopping.github.io/xrevive/",
@@ -2284,7 +2429,7 @@
     "versionAt": "2026-04-21T16:17:38Z"
   },
   "ThatGuyMcd/DKR-R": {
-    "stars": 233,
+    "stars": 235,
     "pushedAt": "2026-10-21T19:43:15Z",
     "createdAt": "2026-08-05T10:01:34Z",
     "license": "MIT",
@@ -2300,6 +2445,12 @@
     "language": "C++",
     "version": "v.1.0.1",
     "versionAt": "2026-09-27T22:48:32Z"
+  },
+  "TheAssemblyArmada/Vanilla-Conquer": {
+    "stars": 467,
+    "pushedAt": "2026-07-16T13:57:31Z",
+    "createdAt": "2020-06-03T19:51:17Z",
+    "language": "C++"
   },
   "TheForceEngine/TheForceEngine": {
     "stars": 1169,
@@ -2402,6 +2553,16 @@
     "version": "weekly-2026-10-16",
     "versionAt": "2026-10-16T19:17:55Z"
   },
+  "TheXTech/TheXTech": {
+    "stars": 419,
+    "pushedAt": "2026-10-21T01:53:57Z",
+    "createdAt": "2020-02-12T20:02:49Z",
+    "license": "GPL-3.0",
+    "homepage": "https://wohlsoft.ru/projects/TheXTech/",
+    "language": "C++",
+    "version": "v1.7.4.1",
+    "versionAt": "2026-10-18T17:26:09Z"
+  },
   "ThiagoLira/trouble-makers-pc-recomp": {
     "stars": 97,
     "pushedAt": "2026-10-05T03:50:47Z",
@@ -2410,14 +2571,14 @@
     "language": "C++"
   },
   "Try/OpenGothic": {
-    "stars": 1628,
+    "stars": 1630,
     "pushedAt": "2026-10-18T23:14:20Z",
     "createdAt": "2019-01-11T18:32:20Z",
     "license": "MIT",
     "language": "C++"
   },
   "TwilitRealm/dusklight": {
-    "stars": 6018,
+    "stars": 6020,
     "pushedAt": "2026-10-20T11:30:29Z",
     "createdAt": "2025-11-30T01:27:51Z",
     "license": "CC0-1.0",
@@ -2427,7 +2588,7 @@
     "versionAt": "2026-09-30T07:06:44Z"
   },
   "UNDERdecoded/Gen2Recomped": {
-    "stars": 408,
+    "stars": 409,
     "pushedAt": "2026-10-21T00:50:34Z",
     "createdAt": "2026-08-08T23:22:45Z",
     "language": "Lua",
@@ -2460,6 +2621,12 @@
     "version": "v1.2.1",
     "versionAt": "2026-10-21T05:35:56Z"
   },
+  "Velaron/cs16-client": {
+    "stars": 465,
+    "pushedAt": "2026-10-18T20:23:49Z",
+    "createdAt": "2023-04-13T07:42:54Z",
+    "language": "C++"
+  },
   "VetriTheRetri/ssb-decomp-re": {
     "stars": 271,
     "pushedAt": "2026-10-20T21:20:01Z",
@@ -2468,7 +2635,7 @@
     "decompPercent": 100
   },
   "VibinToast/JetForceGemini-Recomp": {
-    "stars": 19,
+    "stars": 20,
     "pushedAt": "2026-10-22T06:43:09Z",
     "createdAt": "2026-10-13T23:45:52Z",
     "license": "GPL-3.0",
@@ -2478,7 +2645,7 @@
     "versionAt": "2026-10-22T06:43:09Z"
   },
   "VinceIP/fci-recomp": {
-    "stars": 47,
+    "stars": 49,
     "pushedAt": "2026-10-20T23:19:42Z",
     "createdAt": "2026-10-17T18:48:28Z",
     "license": "MIT",
@@ -2511,6 +2678,13 @@
     "license": "MIT",
     "language": "C++"
   },
+  "Wargus/wargus": {
+    "stars": 443,
+    "pushedAt": "2026-10-10T14:27:35Z",
+    "createdAt": "2015-11-19T15:48:27Z",
+    "license": "GPL-2.0",
+    "language": "C"
+  },
   "Warzone2100/warzone2100": {
     "stars": 4005,
     "pushedAt": "2026-10-22T00:46:04Z",
@@ -2520,6 +2694,24 @@
     "language": "C++",
     "version": "4.7.0",
     "versionAt": "2026-04-07T15:47:54Z"
+  },
+  "Wemino/MadnessPatch": {
+    "stars": 451,
+    "pushedAt": "2026-10-21T20:12:28Z",
+    "createdAt": "2025-11-14T15:39:35Z",
+    "license": "GPL-2.0",
+    "language": "C++",
+    "version": "4.0.1",
+    "versionAt": "2026-10-21T20:12:29Z"
+  },
+  "Wemino/VorpalFix": {
+    "stars": 336,
+    "pushedAt": "2026-10-22T11:07:18Z",
+    "createdAt": "2024-10-06T08:19:55Z",
+    "license": "GPL-3.0",
+    "language": "C++",
+    "version": "4.2.1",
+    "versionAt": "2026-10-22T11:07:19Z"
   },
   "WistfulHopes/DBZ1": {
     "stars": 130,
@@ -2538,7 +2730,7 @@
     "language": "C++"
   },
   "WitherBlitz/NSMB-Wii-Multiplayer-Recompilation": {
-    "stars": 59,
+    "stars": 60,
     "pushedAt": "2026-10-21T07:54:20Z",
     "createdAt": "2026-10-07T15:35:41Z",
     "license": "GPL-3.0",
@@ -2575,7 +2767,7 @@
     "language": "C++"
   },
   "YYOzcan/tokisaki-port": {
-    "stars": 55,
+    "stars": 56,
     "pushedAt": "2026-10-22T01:33:24Z",
     "createdAt": "2026-10-15T20:27:43Z",
     "language": "C++"
@@ -2615,12 +2807,12 @@
   },
   "YuutaTsubasa/Free-Riders-Recompiled": {
     "stars": 97,
-    "pushedAt": "2026-10-22T10:28:33Z",
+    "pushedAt": "2026-10-22T13:07:26Z",
     "createdAt": "2026-09-22T02:29:49Z",
     "license": "GPL-3.0",
     "language": "C++",
-    "version": "v0.10.22",
-    "versionAt": "2026-10-22T10:28:34Z"
+    "version": "v0.10.23",
+    "versionAt": "2026-10-22T13:07:26Z"
   },
   "ZDoom/Raze": {
     "stars": 891,
@@ -2640,7 +2832,7 @@
     "versionAt": "2026-07-06T02:27:14Z"
   },
   "Zelda64Recomp/Zelda64Recomp": {
-    "stars": 7499,
+    "stars": 7500,
     "pushedAt": "2026-09-25T18:57:57Z",
     "createdAt": "2023-10-23T19:54:50Z",
     "license": "GPL-3.0",
@@ -2649,8 +2841,8 @@
     "versionAt": "2025-08-27T00:58:35Z"
   },
   "ZeldaWWHDRecomp/ZeldaWWHDRecomp": {
-    "stars": 943,
-    "pushedAt": "2026-10-22T11:41:35Z",
+    "stars": 953,
+    "pushedAt": "2026-10-22T15:22:05Z",
     "createdAt": "2026-10-01T12:28:45Z",
     "license": "MPL-2.0",
     "language": "C++",
@@ -2668,7 +2860,7 @@
     "versionAt": "2026-09-17T20:35:54Z"
   },
   "Zorkats/G-Diffuser": {
-    "stars": 292,
+    "stars": 293,
     "pushedAt": "2026-10-22T03:38:45Z",
     "createdAt": "2026-06-20T21:09:55Z",
     "language": "C",
@@ -2709,6 +2901,15 @@
     "version": "v0.6.0",
     "versionAt": "2026-10-20T02:16:02Z"
   },
+  "adamstark1/inFAMOUS-Reborn-PS3": {
+    "stars": 58,
+    "pushedAt": "2026-10-20T19:44:53Z",
+    "createdAt": "2026-09-03T11:57:07Z",
+    "homepage": "https://linktr.ee/inFAMOUSReborn",
+    "language": "C#",
+    "version": "1.0.3",
+    "versionAt": "2026-09-29T17:35:27Z"
+  },
   "adonis-singh/re4": {
     "stars": 355,
     "pushedAt": "2026-10-02T12:31:14Z",
@@ -2724,6 +2925,15 @@
     "version": "opentesarena-0.18.0",
     "versionAt": "2026-08-13T03:56:58Z"
   },
+  "afwbkbc/glsmac": {
+    "stars": 644,
+    "pushedAt": "2026-10-21T20:28:25Z",
+    "createdAt": "2023-01-08T16:34:07Z",
+    "license": "AGPL-3.0",
+    "language": "C++",
+    "version": "v0.3-db4dbc9",
+    "versionAt": "2026-05-31T22:59:45Z"
+  },
   "aharonahdoot/RecompCore": {
     "stars": 22,
     "pushedAt": "2026-07-21T12:10:52Z",
@@ -2733,8 +2943,8 @@
     "versionAt": "2026-07-08T15:43:30Z"
   },
   "aikatore/recvx-enhanced-port": {
-    "stars": 63,
-    "pushedAt": "2026-10-21T17:03:56Z",
+    "stars": 64,
+    "pushedAt": "2026-10-22T15:12:11Z",
     "createdAt": "2026-10-13T15:10:42Z",
     "license": "MIT",
     "language": "C"
@@ -2773,12 +2983,21 @@
     "versionAt": "2024-03-03T19:08:06Z"
   },
   "alexbatalov/fallout2-ce": {
-    "stars": 2469,
+    "stars": 2470,
     "pushedAt": "2025-02-17T17:21:50Z",
     "createdAt": "2022-05-19T07:01:09Z",
     "language": "C++",
     "version": "v1.3.0",
     "versionAt": "2024-04-21T10:16:02Z"
+  },
+  "alexbeavs-ps1-ports/medievil-ii-recomp": {
+    "stars": 12,
+    "pushedAt": "2026-10-20T04:38:47Z",
+    "createdAt": "2026-09-03T10:10:28Z",
+    "license": "GPL-3.0",
+    "language": "C++",
+    "version": "v0.2.4-alpha",
+    "versionAt": "2026-10-20T00:20:29Z"
   },
   "alexbeavs-ps1-ports/mortal-kombat-4-recomp": {
     "stars": 4,
@@ -2796,6 +3015,14 @@
     "language": "Python",
     "version": "v0.1.1",
     "versionAt": "2026-09-30T11:32:36Z"
+  },
+  "alexbeavs-ps1-ports/syphon-filter-2-recomp": {
+    "stars": 39,
+    "pushedAt": "2026-09-30T12:23:59Z",
+    "createdAt": "2026-08-06T11:03:44Z",
+    "language": "Python",
+    "version": "v0.2.0",
+    "versionAt": "2026-09-23T17:20:48Z"
   },
   "alondero/aerogauge-recomp": {
     "stars": 41,
@@ -2816,14 +3043,14 @@
     "versionAt": "2026-10-17T20:36:29Z"
   },
   "alphanu1/daytona-arcade-recomp": {
-    "stars": 218,
+    "stars": 219,
     "pushedAt": "2026-10-17T21:58:24Z",
     "createdAt": "2026-09-24T18:15:43Z",
     "license": "BSD-3-Clause",
     "language": "C++"
   },
   "andrebrumdev/gow2-recomp": {
-    "stars": 52,
+    "stars": 55,
     "pushedAt": "2026-10-19T21:26:01Z",
     "createdAt": "2026-07-08T15:17:08Z",
     "license": "MIT",
@@ -2832,7 +3059,7 @@
     "versionAt": "2026-09-30T19:28:53Z"
   },
   "andrei-drexler/ironwail": {
-    "stars": 1133,
+    "stars": 1134,
     "pushedAt": "2026-09-09T22:15:09Z",
     "createdAt": "2021-11-06T16:46:59Z",
     "license": "GPL-2.0",
@@ -2852,7 +3079,7 @@
     "versionAt": "2026-10-21T21:59:26Z"
   },
   "arnaldolima1/gow-ascension-pc": {
-    "stars": 160,
+    "stars": 162,
     "pushedAt": "2026-10-22T01:36:54Z",
     "createdAt": "2026-10-16T00:13:07Z",
     "license": "MIT",
@@ -2875,7 +3102,7 @@
     "language": "CMake"
   },
   "bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port": {
-    "stars": 438,
+    "stars": 447,
     "pushedAt": "2026-10-21T16:49:51Z",
     "createdAt": "2026-10-14T21:04:05Z",
     "homepage": "https://www.patreon.com/cw/bilalreloaded",
@@ -2909,6 +3136,14 @@
     "language": "C++",
     "decompPercent": 6
   },
+  "bibendovsky/bstone": {
+    "stars": 372,
+    "pushedAt": "2026-08-08T20:23:29Z",
+    "createdAt": "2013-07-17T05:47:08Z",
+    "language": "C",
+    "version": "v1.3.4",
+    "versionAt": "2026-05-27T17:55:04Z"
+  },
   "birabittoh/EternalSonataReprise": {
     "stars": 158,
     "pushedAt": "2026-10-21T17:24:22Z",
@@ -2928,7 +3163,7 @@
     "versionAt": "2026-10-16T16:56:42Z"
   },
   "birabittoh/NocturneRecomp": {
-    "stars": 380,
+    "stars": 381,
     "pushedAt": "2026-08-27T23:11:36Z",
     "createdAt": "2026-06-06T16:40:31Z",
     "license": "MIT",
@@ -2946,8 +3181,8 @@
     "decompPercent": 7
   },
   "boykopovar/AnyPS5": {
-    "stars": 46624,
-    "pushedAt": "2026-10-22T11:31:29Z",
+    "stars": 46698,
+    "pushedAt": "2026-10-22T14:22:55Z",
     "createdAt": "2026-08-03T21:30:25Z",
     "license": "GPL-2.0",
     "homepage": "https://boykopovar.github.io/AnyPS5/",
@@ -2981,7 +3216,7 @@
     "versionAt": "2026-07-04T20:31:31Z"
   },
   "bryanthaboi/gen1recomp": {
-    "stars": 4006,
+    "stars": 4008,
     "pushedAt": "2026-10-21T02:42:54Z",
     "createdAt": "2026-07-18T00:29:27Z",
     "language": "Lua",
@@ -3019,6 +3254,14 @@
     "createdAt": "2026-06-09T16:46:32Z",
     "license": "MIT",
     "language": "C"
+  },
+  "carlosrmz009/littleplanet": {
+    "stars": 49,
+    "pushedAt": "2026-10-19T02:02:40Z",
+    "createdAt": "2026-10-11T03:31:40Z",
+    "language": "Assembly",
+    "version": "1.0",
+    "versionAt": "2026-10-11T04:49:59Z"
   },
   "cblock85/GoldenEye64Recomp": {
     "stars": 21,
@@ -3072,7 +3315,7 @@
   },
   "chasem-dev/sms-pc-port": {
     "stars": 165,
-    "pushedAt": "2026-10-22T12:14:38Z",
+    "pushedAt": "2026-10-22T14:52:42Z",
     "createdAt": "2026-09-24T00:17:05Z",
     "license": "MIT",
     "language": "C++",
@@ -3104,6 +3347,15 @@
     "version": "v0.8.0",
     "versionAt": "2026-10-18T02:27:37Z"
   },
+  "chrissotraidis/kartpad": {
+    "stars": 702,
+    "pushedAt": "2026-10-21T15:00:59Z",
+    "createdAt": "2026-08-28T18:56:34Z",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "version": "v0.8.5",
+    "versionAt": "2026-10-21T02:06:27Z"
+  },
   "christianortel/skate2-recompile-pc": {
     "stars": 72,
     "pushedAt": "2026-10-12T15:22:21Z",
@@ -3129,11 +3381,26 @@
     "version": "v0.4.1",
     "versionAt": "2026-10-20T01:31:21Z"
   },
+  "clover-moe/spearmint": {
+    "stars": 282,
+    "pushedAt": "2026-05-25T08:41:02Z",
+    "createdAt": "2013-01-03T22:28:11Z",
+    "license": "GPL-3.0",
+    "homepage": "https://clover.moe/spearmint",
+    "language": "C"
+  },
   "coccofresco/TriAevum": {
-    "stars": 544,
-    "pushedAt": "2026-10-18T08:50:16Z",
+    "stars": 545,
+    "pushedAt": "2026-10-22T15:12:13Z",
     "createdAt": "2026-09-07T20:47:12Z",
     "license": "GPL-3.0",
+    "language": "C++"
+  },
+  "codenamecpp/carnage3d": {
+    "stars": 573,
+    "pushedAt": "2026-08-09T15:35:07Z",
+    "createdAt": "2019-09-29T16:29:43Z",
+    "license": "MIT",
     "language": "C++"
   },
   "collinsmith/riiablo": {
@@ -3170,12 +3437,19 @@
     "versionAt": "2026-06-01T02:00:11Z"
   },
   "craigshaw/FZeroRecomp": {
-    "stars": 41,
+    "stars": 42,
     "pushedAt": "2026-10-18T15:47:00Z",
     "createdAt": "2026-09-11T16:58:43Z",
     "language": "C",
     "version": "v0.6.0",
     "versionAt": "2026-10-17T20:12:52Z"
+  },
+  "crowded-street/3sx": {
+    "stars": 361,
+    "pushedAt": "2026-10-21T16:55:15Z",
+    "createdAt": "2025-10-07T00:22:29Z",
+    "license": "AGPL-3.0",
+    "language": "C"
   },
   "cxong/cdogs-sdl": {
     "stars": 1098,
@@ -3256,7 +3530,7 @@
     "decompPercent": 14
   },
   "deadinside28/bloodborne_pc": {
-    "stars": 3496,
+    "stars": 3505,
     "pushedAt": "2026-10-19T06:31:22Z",
     "createdAt": "2026-10-01T05:50:31Z",
     "license": "GPL-2.0",
@@ -3264,8 +3538,17 @@
     "version": "0.6",
     "versionAt": "2026-10-19T06:34:04Z"
   },
+  "deathkiller/jazz2": {
+    "stars": 582,
+    "pushedAt": "2026-10-17T13:17:01Z",
+    "createdAt": "2017-07-03T16:16:01Z",
+    "license": "GPL-3.0",
+    "homepage": "https://de4th.dev/jazz2/",
+    "version": "3.9.0",
+    "versionAt": "2026-10-17T10:14:54Z"
+  },
   "denzi-gh/crashwoc-decomp-gc": {
-    "stars": 14,
+    "stars": 15,
     "pushedAt": "2026-10-12T05:59:11Z",
     "createdAt": "2026-02-26T08:33:24Z",
     "homepage": "https://decomp.dev/denzi-gh/crashwoc-decomp-gc",
@@ -3282,8 +3565,16 @@
     "version": "v0.10.1",
     "versionAt": "2026-02-22T21:40:00Z"
   },
+  "dgcor/DGEngine": {
+    "stars": 271,
+    "pushedAt": "2025-07-21T21:48:21Z",
+    "createdAt": "2016-06-19T10:26:16Z",
+    "language": "C++",
+    "version": "v1.2",
+    "versionAt": "2023-12-22T12:42:04Z"
+  },
   "dhewm/dhewm3": {
-    "stars": 2186,
+    "stars": 2187,
     "pushedAt": "2026-06-08T13:46:34Z",
     "createdAt": "2012-01-14T17:25:06Z",
     "license": "GPL-3.0",
@@ -3311,7 +3602,7 @@
   },
   "djsaunde/1080-decomp": {
     "stars": 18,
-    "pushedAt": "2026-10-21T21:30:55Z",
+    "pushedAt": "2026-10-22T15:18:01Z",
     "createdAt": "2026-04-17T22:17:08Z",
     "language": "Assembly",
     "decompPercent": 57
@@ -3330,9 +3621,7 @@
     "pushedAt": "2023-12-26T05:20:49Z",
     "createdAt": "2012-09-24T20:01:25Z",
     "homepage": "http://reassembler.blogspot.com",
-    "language": "C++",
-    "version": "v0.34",
-    "versionAt": "2021-04-26T11:11:52Z"
+    "language": "C++"
   },
   "dkfans/keeperfx": {
     "stars": 1024,
@@ -3345,7 +3634,7 @@
     "versionAt": "2026-07-04T20:55:01Z"
   },
   "doc-haz/infinite-undiscovery-recomp": {
-    "stars": 42,
+    "stars": 43,
     "pushedAt": "2026-10-20T12:56:23Z",
     "createdAt": "2026-10-01T18:23:42Z",
     "license": "BSD-3-Clause",
@@ -3360,7 +3649,7 @@
     "decompPercent": 1
   },
   "doldecomp/melee": {
-    "stars": 2438,
+    "stars": 2439,
     "pushedAt": "2026-10-16T20:09:18Z",
     "createdAt": "2020-06-30T23:27:55Z",
     "language": "C",
@@ -3399,7 +3688,7 @@
     "decompPercent": 50
   },
   "doldecomp/ttyd": {
-    "stars": 146,
+    "stars": 147,
     "pushedAt": "2026-09-27T22:35:18Z",
     "createdAt": "2021-01-21T02:56:55Z",
     "license": "MIT",
@@ -3456,6 +3745,18 @@
     "version": "v0.2.18",
     "versionAt": "2026-10-10T09:53:43Z"
   },
+  "dsda-org/dsda-doom": {
+    "stars": 513,
+    "pushedAt": "2026-10-22T03:50:14Z",
+    "createdAt": "2021-01-15T23:13:58Z",
+    "language": "C"
+  },
+  "dxx-rebirth/dxx-rebirth": {
+    "stars": 641,
+    "pushedAt": "2026-10-11T19:20:47Z",
+    "createdAt": "2013-01-01T20:14:24Z",
+    "language": "C++"
+  },
   "dyzz/srw64-recomp": {
     "stars": 28,
     "pushedAt": "2026-10-22T10:34:24Z",
@@ -3500,7 +3801,7 @@
     "versionAt": "2026-10-16T22:20:50Z"
   },
   "elliotttate/DKC1Recomp": {
-    "stars": 258,
+    "stars": 259,
     "pushedAt": "2026-09-19T16:18:44Z",
     "createdAt": "2026-08-16T01:45:02Z",
     "license": "MIT",
@@ -3509,7 +3810,7 @@
     "versionAt": "2026-09-19T16:19:27Z"
   },
   "elliotttate/DKC3Recomp": {
-    "stars": 134,
+    "stars": 135,
     "pushedAt": "2026-09-13T04:22:22Z",
     "createdAt": "2026-09-03T22:13:04Z",
     "license": "MIT",
@@ -3601,6 +3902,16 @@
     "version": "2026-09",
     "versionAt": "2026-09-20T01:58:08Z"
   },
+  "exult/exult": {
+    "stars": 694,
+    "pushedAt": "2026-10-22T12:50:52Z",
+    "createdAt": "2016-03-12T16:38:09Z",
+    "license": "GPL-2.0",
+    "homepage": "http://exult.info",
+    "language": "C++",
+    "version": "v1.12.1",
+    "versionAt": "2026-01-08T11:51:22Z"
+  },
   "fabiangreffrath/crispy-doom": {
     "stars": 964,
     "pushedAt": "2026-10-12T09:48:29Z",
@@ -3618,9 +3929,7 @@
     "createdAt": "2016-08-19T19:25:01Z",
     "license": "GPL-2.0",
     "homepage": "https://fabiangreffrath.github.io/woof/",
-    "language": "C",
-    "version": "woof_16.0.0",
-    "versionAt": "2026-09-08T06:14:38Z"
+    "language": "C"
   },
   "fabioap-cpu/SoulBlade_Recomp": {
     "stars": 28,
@@ -3656,7 +3965,7 @@
     "versionAt": "2026-10-22T05:58:53Z"
   },
   "florinp93/hells-gate-recomp": {
-    "stars": 639,
+    "stars": 642,
     "pushedAt": "2026-10-16T11:21:36Z",
     "createdAt": "2026-08-31T08:32:13Z",
     "language": "C++",
@@ -3672,7 +3981,7 @@
     "versionAt": "2026-08-31T22:56:15Z"
   },
   "flyngmt/ACGC-PC-Port": {
-    "stars": 1509,
+    "stars": 1510,
     "pushedAt": "2026-08-02T00:56:51Z",
     "createdAt": "2026-03-09T20:31:09Z",
     "language": "C"
@@ -3686,13 +3995,32 @@
     "decompPercent": 85
   },
   "freefrank/LostOdysseyRecomp": {
-    "stars": 776,
+    "stars": 777,
     "pushedAt": "2026-10-22T05:40:19Z",
     "createdAt": "2026-09-05T07:01:47Z",
     "license": "GPL-3.0",
     "language": "C++",
     "version": "v1.0.6",
     "versionAt": "2026-10-19T04:32:05Z"
+  },
+  "freeserf/freeserf": {
+    "stars": 341,
+    "pushedAt": "2026-10-22T10:10:29Z",
+    "createdAt": "2011-06-21T21:28:03Z",
+    "license": "GPL-3.0",
+    "language": "C++",
+    "version": "v0.5",
+    "versionAt": "2026-10-05T15:26:55Z"
+  },
+  "fte-team/fteqw": {
+    "stars": 355,
+    "pushedAt": "2026-06-04T07:07:14Z",
+    "createdAt": "2021-05-05T23:24:16Z",
+    "license": "GPL-2.0",
+    "homepage": "https://www.fteqw.org/",
+    "language": "C",
+    "version": "2025-09-27",
+    "versionAt": "2025-09-27T08:03:30Z"
   },
   "gage-marshall/lp-engine": {
     "stars": 10,
@@ -3705,7 +4033,7 @@
     "versionAt": "2026-10-17T22:00:48Z"
   },
   "gamboozino/ngbrecomp": {
-    "stars": 125,
+    "stars": 126,
     "pushedAt": "2026-10-21T23:56:24Z",
     "createdAt": "2026-10-15T14:54:44Z",
     "license": "GPL-3.0",
@@ -3763,7 +4091,7 @@
     "versionAt": "2026-10-04T20:43:09Z"
   },
   "griches/EternalDarknessRecomp": {
-    "stars": 111,
+    "stars": 116,
     "pushedAt": "2026-10-19T23:23:05Z",
     "createdAt": "2026-10-15T22:30:00Z",
     "license": "GPL-3.0",
@@ -3789,13 +4117,20 @@
     "versionAt": "2026-10-21T23:25:24Z"
   },
   "hachi23/unicorn_overlord_pc": {
-    "stars": 103,
+    "stars": 104,
     "pushedAt": "2026-10-20T09:41:53Z",
     "createdAt": "2026-10-13T10:25:36Z",
     "license": "GPL-2.0",
     "language": "C++",
     "version": "v1.2.0",
     "versionAt": "2026-10-20T07:45:47Z"
+  },
+  "hankmorgan/UnderworldGodot": {
+    "stars": 332,
+    "pushedAt": "2026-09-30T20:13:16Z",
+    "createdAt": "2023-09-16T16:17:04Z",
+    "license": "MIT",
+    "language": "C#"
   },
   "hansbonini/psx_tomba": {
     "stars": 28,
@@ -3804,8 +4139,17 @@
     "language": "C",
     "decompPercent": 63
   },
+  "harvestwhisperer/hm64-decomp": {
+    "stars": 224,
+    "pushedAt": "2026-10-14T22:54:56Z",
+    "createdAt": "2023-08-20T23:33:53Z",
+    "license": "CC0-1.0",
+    "language": "C",
+    "version": "sprite-editor-v0.1.0",
+    "versionAt": "2026-05-26T23:25:25Z"
+  },
   "hedge-dev/UnleashedRecomp": {
-    "stars": 5245,
+    "stars": 5248,
     "pushedAt": "2026-06-29T11:05:43Z",
     "createdAt": "2024-09-30T07:47:13Z",
     "license": "GPL-3.0",
@@ -3814,7 +4158,7 @@
     "versionAt": "2025-04-03T22:04:45Z"
   },
   "hedge-dev/XenonRecomp": {
-    "stars": 6598,
+    "stars": 6600,
     "pushedAt": "2025-08-04T13:56:30Z",
     "createdAt": "2024-09-07T11:26:54Z",
     "license": "MIT",
@@ -3828,7 +4172,7 @@
     "language": "C++"
   },
   "himdo/Fable-2-Recomp": {
-    "stars": 518,
+    "stars": 519,
     "pushedAt": "2026-10-21T19:11:38Z",
     "createdAt": "2026-08-30T18:16:58Z",
     "license": "MIT",
@@ -3837,7 +4181,7 @@
     "versionAt": "2026-10-11T22:03:26Z"
   },
   "holdmysocks/mcla-recomp": {
-    "stars": 130,
+    "stars": 132,
     "pushedAt": "2026-10-19T14:45:43Z",
     "createdAt": "2026-10-03T19:57:05Z",
     "license": "GPL-3.0",
@@ -3846,12 +4190,12 @@
     "versionAt": "2026-10-19T14:45:46Z"
   },
   "iExplosiveRage/DBZ-Burst-Limit-Recompiled": {
-    "stars": 93,
-    "pushedAt": "2026-10-21T18:00:14Z",
+    "stars": 92,
+    "pushedAt": "2026-10-22T12:30:10Z",
     "createdAt": "2026-09-28T01:10:56Z",
     "language": "C++",
-    "version": "v0.7.1-alpha",
-    "versionAt": "2026-10-21T18:00:35Z"
+    "version": "v0.7.2-alpha",
+    "versionAt": "2026-10-22T12:30:26Z"
   },
   "iMrBurn/wwe12-pc": {
     "stars": 43,
@@ -3885,9 +4229,7 @@
     "createdAt": "2019-08-30T15:05:31Z",
     "license": "GPL-2.0",
     "homepage": "https://ihhub.github.io/fheroes2/",
-    "language": "C++",
-    "version": "1.1.17",
-    "versionAt": "2026-06-30T14:33:54Z"
+    "language": "C++"
   },
   "in0finite/SanAndreasUnity": {
     "stars": 2662,
@@ -3895,9 +4237,7 @@
     "createdAt": "2018-05-17T21:51:27Z",
     "license": "MIT",
     "homepage": "https://discord.gg/p6jjud5",
-    "language": "C#",
-    "version": "v4.0",
-    "versionAt": "2022-05-24T03:08:40Z"
+    "language": "C#"
   },
   "inspectredc/fzerox": {
     "stars": 109,
@@ -3930,6 +4270,24 @@
     "language": "C",
     "version": "1.51c",
     "versionAt": "2019-03-16T21:15:16Z"
+  },
+  "isledecomp/isle": {
+    "stars": 3497,
+    "pushedAt": "2026-09-18T23:29:27Z",
+    "createdAt": "2023-04-28T02:15:26Z",
+    "license": "LGPL-3.0",
+    "language": "C++",
+    "version": "continuous",
+    "versionAt": "2026-09-18T23:29:27Z"
+  },
+  "ja2-stracciatella/ja2-stracciatella": {
+    "stars": 545,
+    "pushedAt": "2026-10-21T06:59:00Z",
+    "createdAt": "2016-02-14T20:26:01Z",
+    "homepage": "https://ja2-stracciatella.github.io/",
+    "language": "C++",
+    "version": "v0.22.1",
+    "versionAt": "2025-10-05T09:26:01Z"
   },
   "jackpoison-prog/RingOut": {
     "stars": 169,
@@ -4030,6 +4388,16 @@
     "version": "v1.0.11",
     "versionAt": "2026-10-18T12:05:57Z"
   },
+  "jkdansereau/goldeneye-pc-port": {
+    "stars": 284,
+    "pushedAt": "2026-10-21T01:32:04Z",
+    "createdAt": "2026-08-30T23:02:49Z",
+    "license": "MIT",
+    "homepage": "https://jkdansereau.github.io/goldeneye-pc-port/",
+    "language": "C",
+    "version": "v0.5.0",
+    "versionAt": "2026-10-07T15:42:22Z"
+  },
   "jnmartin84/sf64-dc": {
     "stars": 49,
     "pushedAt": "2026-08-24T02:48:54Z",
@@ -4037,8 +4405,17 @@
     "license": "CC0-1.0",
     "language": "C"
   },
+  "jorio/Bugdom": {
+    "stars": 515,
+    "pushedAt": "2025-03-08T12:20:00Z",
+    "createdAt": "2020-12-29T14:52:04Z",
+    "homepage": "https://pangeasoft.net/bug",
+    "language": "C",
+    "version": "1.3.4",
+    "versionAt": "2024-01-03T19:11:58Z"
+  },
   "jorjbarbosa/naruto-rise-recomp": {
-    "stars": 114,
+    "stars": 116,
     "pushedAt": "2026-10-21T15:39:23Z",
     "createdAt": "2026-10-01T23:32:33Z",
     "license": "GPL-3.0",
@@ -4056,8 +4433,8 @@
     "versionAt": "2026-10-18T19:35:02Z"
   },
   "josiahg2502-glitch/NewSuperPaperBros": {
-    "stars": 73,
-    "pushedAt": "2026-10-22T03:31:53Z",
+    "stars": 87,
+    "pushedAt": "2026-10-22T14:30:08Z",
     "createdAt": "2026-10-17T06:26:46Z",
     "language": "C++",
     "version": "v1.0.3",
@@ -4097,7 +4474,7 @@
     "decompPercent": 100
   },
   "k4zmu2a/SpaceCadetPinball": {
-    "stars": 4727,
+    "stars": 4728,
     "pushedAt": "2024-08-21T06:56:55Z",
     "createdAt": "2021-01-29T14:15:43Z",
     "license": "MIT",
@@ -4106,7 +4483,7 @@
     "versionAt": "2023-10-16T06:31:47Z"
   },
   "kandowontu2/starfox-enhanced": {
-    "stars": 103,
+    "stars": 104,
     "pushedAt": "2026-10-21T02:09:25Z",
     "createdAt": "2026-09-29T00:03:05Z",
     "license": "GPL-3.0",
@@ -4131,7 +4508,7 @@
     "versionAt": "2026-08-17T20:52:25Z"
   },
   "keepvaibin/nebula": {
-    "stars": 298,
+    "stars": 299,
     "pushedAt": "2026-10-21T06:59:59Z",
     "createdAt": "2026-10-06T08:38:48Z",
     "license": "GPL-3.0",
@@ -4155,7 +4532,7 @@
     "language": "C++"
   },
   "klorfmorf/Goemon64Recomp": {
-    "stars": 326,
+    "stars": 325,
     "pushedAt": "2026-09-19T19:36:05Z",
     "createdAt": "2025-02-13T00:38:29Z",
     "license": "GPL-3.0",
@@ -4172,7 +4549,7 @@
   },
   "koenhendriks/SSX3-recomp": {
     "stars": 30,
-    "pushedAt": "2026-10-22T06:19:32Z",
+    "pushedAt": "2026-10-22T15:17:27Z",
     "createdAt": "2026-10-16T10:41:01Z",
     "license": "GPL-2.0",
     "language": "C",
@@ -4254,7 +4631,7 @@
     "fork": "hedge-dev/XenonRecomp"
   },
   "lesca-191204/killzone-shadowfall-pc": {
-    "stars": 236,
+    "stars": 237,
     "pushedAt": "2026-10-21T14:59:13Z",
     "createdAt": "2026-10-16T15:32:27Z",
     "license": "GPL-2.0",
@@ -4293,7 +4670,7 @@
     "language": "PHP"
   },
   "linkssy2/DarkwatchDarkerEdition": {
-    "stars": 77,
+    "stars": 79,
     "pushedAt": "2026-10-21T13:30:18Z",
     "createdAt": "2026-10-18T13:09:32Z",
     "language": "C++",
@@ -4351,7 +4728,7 @@
     "versionAt": "2026-08-24T04:41:11Z"
   },
   "masterspike52/reNut": {
-    "stars": 163,
+    "stars": 164,
     "pushedAt": "2026-10-22T09:33:10Z",
     "createdAt": "2026-02-28T00:14:49Z",
     "language": "C++",
@@ -4359,8 +4736,8 @@
     "versionAt": "2026-10-22T08:36:20Z"
   },
   "mateussmeneses/theorder1886-port": {
-    "stars": 291,
-    "pushedAt": "2026-10-20T21:18:37Z",
+    "stars": 293,
+    "pushedAt": "2026-10-22T15:20:11Z",
     "createdAt": "2026-10-14T18:09:43Z",
     "license": "GPL-2.0",
     "language": "C++",
@@ -4382,7 +4759,7 @@
     "versionAt": "2026-07-24T21:21:06Z"
   },
   "mdomangue26/thebigs2": {
-    "stars": 4,
+    "stars": 5,
     "pushedAt": "2026-10-21T17:26:14Z",
     "createdAt": "2026-10-16T18:31:11Z",
     "language": "C++",
@@ -4398,8 +4775,8 @@
     "language": "C"
   },
   "mlgprorektm8/RyGT": {
-    "stars": 490,
-    "pushedAt": "2026-10-22T11:58:59Z",
+    "stars": 491,
+    "pushedAt": "2026-10-22T13:35:44Z",
     "createdAt": "2026-10-10T19:44:10Z",
     "license": "GPL-2.0",
     "language": "C++",
@@ -4409,12 +4786,12 @@
   },
   "mr-finster/stunts-hd": {
     "stars": 30,
-    "pushedAt": "2026-10-22T12:23:24Z",
+    "pushedAt": "2026-10-22T14:01:16Z",
     "createdAt": "2026-10-10T10:57:20Z",
     "homepage": "https://stunts-recomp.pages.dev",
     "language": "JavaScript",
-    "version": "v1.5.18",
-    "versionAt": "2026-10-22T04:33:25Z"
+    "version": "v1.5.20",
+    "versionAt": "2026-10-22T13:52:21Z"
   },
   "mr-finster/vf1-recomp": {
     "stars": 56,
@@ -4435,7 +4812,7 @@
     "versionAt": "2026-10-22T05:28:29Z"
   },
   "mr-finster/vf3-recomp": {
-    "stars": 31,
+    "stars": 32,
     "pushedAt": "2026-10-21T13:07:55Z",
     "createdAt": "2026-10-19T00:27:03Z",
     "homepage": "https://vf3-recomp.pages.dev",
@@ -4452,6 +4829,14 @@
     "version": "v0.5.2",
     "versionAt": "2026-10-08T23:09:56Z"
   },
+  "mstan/BattleArenaToshindenRecomp": {
+    "stars": 13,
+    "pushedAt": "2026-10-07T19:33:35Z",
+    "createdAt": "2026-09-07T16:30:50Z",
+    "language": "C",
+    "version": "v0.1.3",
+    "versionAt": "2026-09-08T18:20:56Z"
+  },
   "mstan/DKC2Recomp": {
     "stars": 9,
     "pushedAt": "2026-09-14T05:47:10Z",
@@ -4462,6 +4847,65 @@
     "version": "v0.0.2",
     "versionAt": "2026-08-23T19:02:21Z"
   },
+  "mstan/DrMarioNesRecomp": {
+    "stars": 13,
+    "pushedAt": "2026-10-19T19:23:33Z",
+    "createdAt": "2026-03-28T17:39:21Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v1.3.1",
+    "versionAt": "2026-10-19T18:24:14Z"
+  },
+  "mstan/DragonBallGTFinalBoutRecomp": {
+    "stars": 1,
+    "pushedAt": "2026-10-15T16:31:15Z",
+    "createdAt": "2026-10-13T19:01:43Z",
+    "language": "Python",
+    "version": "v1.0.0",
+    "versionAt": "2026-10-15T16:31:20Z"
+  },
+  "mstan/DragonBallZBuusFuryRecomp": {
+    "stars": 33,
+    "pushedAt": "2026-10-19T22:09:56Z",
+    "createdAt": "2026-08-02T12:37:10Z",
+    "language": "C++",
+    "version": "v0.0.4",
+    "versionAt": "2026-10-18T20:21:27Z"
+  },
+  "mstan/DragonBallZLegacyOfGokuRecomp": {
+    "stars": 10,
+    "pushedAt": "2026-10-19T22:10:27Z",
+    "createdAt": "2026-08-02T05:42:53Z",
+    "language": "C++",
+    "version": "v0.0.3",
+    "versionAt": "2026-10-18T20:24:18Z"
+  },
+  "mstan/DragonBallZLegacyofGokuIIRecomp": {
+    "stars": 14,
+    "pushedAt": "2026-10-19T22:10:12Z",
+    "createdAt": "2026-08-02T07:13:52Z",
+    "language": "C++",
+    "version": "v0.0.3",
+    "versionAt": "2026-10-18T20:24:27Z"
+  },
+  "mstan/DuckHuntNESRecomp": {
+    "stars": 12,
+    "pushedAt": "2026-10-19T19:24:44Z",
+    "createdAt": "2026-04-10T16:51:32Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v1.2.1",
+    "versionAt": "2026-10-19T18:24:08Z"
+  },
+  "mstan/EmeraldRecomp": {
+    "stars": 38,
+    "pushedAt": "2026-10-19T22:11:06Z",
+    "createdAt": "2026-06-22T20:25:21Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C++",
+    "version": "v0.1.2",
+    "versionAt": "2026-10-18T20:24:48Z"
+  },
   "mstan/FZeroSNESRecomp": {
     "stars": 80,
     "pushedAt": "2026-10-16T23:53:29Z",
@@ -4471,6 +4915,32 @@
     "version": "v1.8.3",
     "versionAt": "2026-09-22T03:42:21Z"
   },
+  "mstan/FireRedLeafGreenRecomp": {
+    "stars": 29,
+    "pushedAt": "2026-10-19T22:11:31Z",
+    "createdAt": "2026-06-22T20:25:01Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "Python",
+    "version": "v0.0.4",
+    "versionAt": "2026-10-18T20:25:05Z"
+  },
+  "mstan/JerseyDevilRecomp": {
+    "stars": 5,
+    "pushedAt": "2026-10-20T04:30:32Z",
+    "createdAt": "2026-09-07T23:28:36Z",
+    "language": "C",
+    "version": "v0.3.2",
+    "versionAt": "2026-10-20T00:45:38Z"
+  },
+  "mstan/LegendOfZeldaNESRecomp": {
+    "stars": 40,
+    "pushedAt": "2026-10-19T19:30:37Z",
+    "createdAt": "2026-03-15T22:19:00Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v1.9.2",
+    "versionAt": "2026-10-19T18:26:27Z"
+  },
   "mstan/MarioKartSuperCircuitRecomp": {
     "stars": 71,
     "pushedAt": "2026-10-19T22:59:29Z",
@@ -4478,6 +4948,15 @@
     "language": "C++",
     "version": "v0.1.8",
     "versionAt": "2026-10-19T22:59:53Z"
+  },
+  "mstan/MarioTennisVirtualBoyRecomp": {
+    "stars": 19,
+    "pushedAt": "2026-10-19T00:59:11Z",
+    "createdAt": "2026-05-20T23:43:44Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.2.3",
+    "versionAt": "2026-10-19T00:59:12Z"
   },
   "mstan/MegaManX2Recomp": {
     "stars": 47,
@@ -4488,7 +4967,7 @@
     "versionAt": "2026-10-18T20:43:48Z"
   },
   "mstan/MegaManX4Recomp": {
-    "stars": 105,
+    "stars": 106,
     "pushedAt": "2026-10-22T11:23:07Z",
     "createdAt": "2026-07-06T00:43:24Z",
     "license": "MIT",
@@ -4522,6 +5001,41 @@
     "version": "v2.3.1",
     "versionAt": "2026-10-22T01:15:09Z"
   },
+  "mstan/MegaManZeroRecomp": {
+    "stars": 21,
+    "pushedAt": "2026-10-19T22:13:54Z",
+    "createdAt": "2026-07-14T19:43:33Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C++",
+    "version": "v0.0.7",
+    "versionAt": "2026-10-18T20:26:40Z"
+  },
+  "mstan/Megaman3NESRecomp": {
+    "stars": 11,
+    "pushedAt": "2026-10-19T19:26:10Z",
+    "createdAt": "2026-04-27T06:44:35Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.1.3",
+    "versionAt": "2026-10-19T18:24:26Z"
+  },
+  "mstan/MegamanX3SNESRecomp": {
+    "stars": 12,
+    "pushedAt": "2026-10-18T20:43:54Z",
+    "createdAt": "2026-07-27T00:09:01Z",
+    "language": "C",
+    "version": "v0.0.6",
+    "versionAt": "2026-10-18T20:43:55Z"
+  },
+  "mstan/MetroidNESRecomp": {
+    "stars": 24,
+    "pushedAt": "2026-10-19T19:28:38Z",
+    "createdAt": "2026-04-03T06:09:16Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.2.3",
+    "versionAt": "2026-10-19T18:26:38Z"
+  },
   "mstan/MetroidPrimeHuntersRecomp": {
     "stars": 265,
     "pushedAt": "2026-10-19T02:33:51Z",
@@ -4531,6 +5045,15 @@
     "version": "v0.7.3-alpha",
     "versionAt": "2026-09-10T02:14:59Z"
   },
+  "mstan/MinishCapRecomp": {
+    "stars": 25,
+    "pushedAt": "2026-10-19T22:15:12Z",
+    "createdAt": "2026-05-25T03:01:54Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C++",
+    "version": "v0.0.6",
+    "versionAt": "2026-10-18T20:27:12Z"
+  },
   "mstan/PocketMonstersStadiumRecomp": {
     "stars": 3,
     "pushedAt": "2026-07-21T06:35:20Z",
@@ -4539,8 +5062,17 @@
     "homepage": "https://discord.gg/Ad9BwSzctP",
     "language": "C++"
   },
+  "mstan/PokemonRedAndBlueRecomp": {
+    "stars": 10,
+    "pushedAt": "2026-07-23T06:52:37Z",
+    "createdAt": "2026-04-01T00:33:14Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.1.1",
+    "versionAt": "2026-05-07T04:50:52Z"
+  },
   "mstan/PokemonStadiumRecomp": {
-    "stars": 122,
+    "stars": 121,
     "pushedAt": "2026-08-15T21:40:05Z",
     "createdAt": "2026-05-04T05:34:40Z",
     "archived": true,
@@ -4550,6 +5082,23 @@
     "version": "v0.4.7-beta",
     "versionAt": "2026-08-15T21:40:43Z"
   },
+  "mstan/RocketKnightAdventuresRecomp": {
+    "stars": 2,
+    "pushedAt": "2026-10-18T14:30:45Z",
+    "createdAt": "2026-07-13T05:01:28Z",
+    "language": "C",
+    "version": "v0.1.14",
+    "versionAt": "2026-10-18T14:30:45Z"
+  },
+  "mstan/RubySapphireRecomp": {
+    "stars": 22,
+    "pushedAt": "2026-10-19T22:15:43Z",
+    "createdAt": "2026-06-22T20:25:15Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "Python",
+    "version": "v0.0.5",
+    "versionAt": "2026-10-18T20:27:28Z"
+  },
   "mstan/Sonic3AndKnucklesRecomp": {
     "stars": 18,
     "pushedAt": "2026-10-22T03:52:00Z",
@@ -4558,6 +5107,13 @@
     "language": "C",
     "version": "v0.5.3",
     "versionAt": "2026-10-18T14:30:37Z"
+  },
+  "mstan/SonicBlastGGRecomp": {
+    "stars": 6,
+    "pushedAt": "2026-10-18T23:32:37Z",
+    "createdAt": "2026-06-23T02:21:34Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "PowerShell"
   },
   "mstan/SonicTheHedgehog2Recomp": {
     "stars": 19,
@@ -4576,6 +5132,80 @@
     "language": "Python",
     "version": "v0.7.1",
     "versionAt": "2026-10-18T14:30:29Z"
+  },
+  "mstan/SonicTheHedgehogSMSRecomp": {
+    "stars": 9,
+    "pushedAt": "2026-10-18T23:32:32Z",
+    "createdAt": "2026-06-23T02:21:32Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "PowerShell"
+  },
+  "mstan/StarFoxSNESRecomp": {
+    "stars": 30,
+    "pushedAt": "2026-10-18T20:44:05Z",
+    "createdAt": "2026-07-15T05:44:03Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.3.2",
+    "versionAt": "2026-10-18T20:44:05Z"
+  },
+  "mstan/SuperMarioAdvance4Recomp": {
+    "stars": 17,
+    "pushedAt": "2026-10-19T22:17:33Z",
+    "createdAt": "2026-07-31T18:59:00Z",
+    "language": "PowerShell"
+  },
+  "mstan/SuperMarioBros2JapanFDSRecomp": {
+    "stars": 3,
+    "pushedAt": "2026-10-19T15:54:20Z",
+    "createdAt": "2026-09-28T05:45:58Z",
+    "language": "C",
+    "version": "v0.0.3",
+    "versionAt": "2026-10-19T15:54:21Z"
+  },
+  "mstan/SuperMarioBrosNESRecomp": {
+    "stars": 39,
+    "pushedAt": "2026-10-22T06:49:11Z",
+    "createdAt": "2026-03-15T04:16:16Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v1.12.3",
+    "versionAt": "2026-10-19T17:32:34Z"
+  },
+  "mstan/SuperMarioLand2Recomp": {
+    "stars": 15,
+    "pushedAt": "2026-10-19T02:57:58Z",
+    "createdAt": "2026-09-16T17:52:10Z",
+    "language": "Python",
+    "version": "v0.2.0",
+    "versionAt": "2026-10-19T02:58:07Z"
+  },
+  "mstan/SuperMarioWorldRecomp": {
+    "stars": 129,
+    "pushedAt": "2026-10-21T21:18:43Z",
+    "createdAt": "2026-04-01T02:46:34Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.15.0",
+    "versionAt": "2026-10-21T21:18:43Z"
+  },
+  "mstan/SuperMetroidRecomp": {
+    "stars": 118,
+    "pushedAt": "2026-10-20T07:48:51Z",
+    "createdAt": "2026-06-08T20:17:18Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.3.12",
+    "versionAt": "2026-10-17T22:09:41Z"
+  },
+  "mstan/TetrisGBRecomp": {
+    "stars": 7,
+    "pushedAt": "2026-08-17T21:25:13Z",
+    "createdAt": "2026-04-01T00:33:23Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.0.3",
+    "versionAt": "2026-08-17T21:25:13Z"
   },
   "mstan/Tomba2Recomp": {
     "stars": 19,
@@ -4604,6 +5234,55 @@
     "version": "v0.1.0",
     "versionAt": "2026-10-08T19:00:59Z"
   },
+  "mstan/UmJammerLammyRecomp": {
+    "stars": 2,
+    "pushedAt": "2026-10-08T05:12:39Z",
+    "createdAt": "2026-10-08T04:58:28Z",
+    "language": "C",
+    "version": "v0.1.0",
+    "versionAt": "2026-10-08T05:13:01Z"
+  },
+  "mstan/WarioWareTwistedRecomp": {
+    "stars": 19,
+    "pushedAt": "2026-10-19T22:18:35Z",
+    "createdAt": "2026-07-29T03:19:30Z",
+    "language": "Python"
+  },
+  "mstan/YoshiNESRecomp": {
+    "stars": 9,
+    "pushedAt": "2026-10-19T19:26:11Z",
+    "createdAt": "2026-03-29T05:14:49Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v1.2.1",
+    "versionAt": "2026-10-19T18:26:26Z"
+  },
+  "mstan/YoshisCookieRecomp": {
+    "stars": 10,
+    "pushedAt": "2026-10-19T19:27:27Z",
+    "createdAt": "2026-03-29T23:49:08Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v1.1.1",
+    "versionAt": "2026-10-19T18:26:32Z"
+  },
+  "mstan/ZeldaAlttPSNESRecomp": {
+    "stars": 55,
+    "pushedAt": "2026-10-20T13:38:18Z",
+    "createdAt": "2026-05-19T18:14:45Z",
+    "homepage": "https://discord.gg/Ad9BwSzctP",
+    "language": "C",
+    "version": "v0.6.5",
+    "versionAt": "2026-10-18T20:44:01Z"
+  },
+  "mstan/ZeroRacersVirtualBoyRecomp": {
+    "stars": 3,
+    "pushedAt": "2026-10-19T00:59:17Z",
+    "createdAt": "2026-09-10T21:29:55Z",
+    "language": "Python",
+    "version": "v0.0.4",
+    "versionAt": "2026-10-19T00:59:17Z"
+  },
   "mstan/gbarecomp": {
     "stars": 60,
     "pushedAt": "2026-10-21T19:21:36Z",
@@ -4622,8 +5301,17 @@
     "version": "v0.1.1",
     "versionAt": "2026-10-18T14:30:22Z"
   },
+  "mstan/supermario64dsrecomp": {
+    "stars": 14,
+    "pushedAt": "2026-09-09T20:55:24Z",
+    "createdAt": "2026-07-15T22:11:53Z",
+    "license": "MIT",
+    "language": "Python",
+    "version": "v0.0.3",
+    "versionAt": "2026-08-15T05:43:10Z"
+  },
   "murkantor/Project-Midas": {
-    "stars": 321,
+    "stars": 322,
     "pushedAt": "2026-10-22T02:15:13Z",
     "createdAt": "2026-10-16T12:23:00Z",
     "homepage": "https://discord.gg/Hb8tUsaHrW",
@@ -4656,7 +5344,7 @@
     "versionAt": "2026-10-21T07:42:14Z"
   },
   "n0madic/StarCraft64-recomp": {
-    "stars": 24,
+    "stars": 25,
     "pushedAt": "2026-10-16T16:43:59Z",
     "createdAt": "2026-10-11T13:21:19Z",
     "language": "C++",
@@ -4672,14 +5360,12 @@
     "decompPercent": 100
   },
   "n64decomp/sm64": {
-    "stars": 8916,
+    "stars": 8917,
     "pushedAt": "2024-02-04T10:26:16Z",
     "createdAt": "2019-06-08T04:30:49Z",
     "license": "CC0-1.0",
     "homepage": "https://discord.gg/DuYH3Fh",
-    "language": "C",
-    "version": "irix2",
-    "versionAt": "2019-08-25T06:36:31Z"
+    "language": "C"
   },
   "natebag/Sims2DECOMP": {
     "stars": 23,
@@ -4697,12 +5383,12 @@
     "versionAt": "2026-10-19T17:34:08Z"
   },
   "nathanialf/ico-pc": {
-    "stars": 420,
-    "pushedAt": "2026-10-22T01:15:05Z",
+    "stars": 421,
+    "pushedAt": "2026-10-22T14:06:37Z",
     "createdAt": "2026-10-03T02:06:56Z",
     "language": "C",
-    "version": "v0.8.3",
-    "versionAt": "2026-10-22T01:15:06Z"
+    "version": "v0.8.4",
+    "versionAt": "2026-10-22T13:24:00Z"
   },
   "nefariousjosiah/WWE-SVR2008-RECOMP": {
     "stars": 30,
@@ -4733,7 +5419,7 @@
   },
   "neuromancer/wc1-re": {
     "stars": 58,
-    "pushedAt": "2026-10-22T11:57:32Z",
+    "pushedAt": "2026-10-22T14:50:51Z",
     "createdAt": "2026-08-08T18:21:23Z",
     "license": "GPL-3.0",
     "language": "C",
@@ -4759,7 +5445,7 @@
     "versionAt": "2026-06-22T23:31:34Z"
   },
   "new-coke/strikers": {
-    "stars": 350,
+    "stars": 351,
     "pushedAt": "2026-10-22T12:17:07Z",
     "createdAt": "2026-09-10T12:26:34Z",
     "language": "C++",
@@ -4775,7 +5461,7 @@
     "fork": "N64Recomp/N64Recomp"
   },
   "nikolaygorb/ArmyOfTwoRecomp": {
-    "stars": 80,
+    "stars": 81,
     "pushedAt": "2026-10-18T08:05:48Z",
     "createdAt": "2026-09-15T18:02:27Z",
     "license": "MIT",
@@ -4812,7 +5498,7 @@
   },
   "nlwstein/skullburglar": {
     "stars": 44,
-    "pushedAt": "2026-10-22T04:09:25Z",
+    "pushedAt": "2026-10-22T14:34:37Z",
     "createdAt": "2026-10-11T20:00:59Z",
     "homepage": "https://skullburglar.stz.sh",
     "language": "C++"
@@ -4845,7 +5531,7 @@
     "versionAt": "2026-09-26T16:39:37Z"
   },
   "novapowers0/DBZ-Budokai-3-HD-Collection": {
-    "stars": 193,
+    "stars": 194,
     "pushedAt": "2026-10-21T22:36:11Z",
     "createdAt": "2026-08-18T14:10:06Z",
     "license": "MIT",
@@ -4862,6 +5548,14 @@
     "version": "v0.5.0",
     "versionAt": "2026-10-19T17:42:37Z"
   },
+  "nxengine/nxengine-evo": {
+    "stars": 552,
+    "pushedAt": "2026-03-04T02:13:55Z",
+    "createdAt": "2014-04-04T20:48:42Z",
+    "license": "GPL-3.0",
+    "homepage": "https://discord.gg/jnwmA7DhQh",
+    "language": "C"
+  },
   "obaidr1/hercules-recompiled": {
     "stars": 97,
     "pushedAt": "2026-10-18T11:19:52Z",
@@ -4869,6 +5563,16 @@
     "language": "Python",
     "version": "v0.5.5",
     "versionAt": "2026-10-18T11:19:53Z"
+  },
+  "odamex/odamex": {
+    "stars": 306,
+    "pushedAt": "2026-10-19T18:42:20Z",
+    "createdAt": "2015-03-11T19:20:36Z",
+    "license": "GPL-2.0",
+    "homepage": "https://odamex.net",
+    "language": "C++",
+    "version": "12.3.0",
+    "versionAt": "2026-08-06T03:54:45Z"
   },
   "official-kryo-to/ctw-native": {
     "stars": 46,
@@ -4896,15 +5600,35 @@
     "versionAt": "2026-10-04T23:53:17Z"
   },
   "ogdanimal/SkiesOfArcadiaLegends-Recomp": {
-    "stars": 83,
+    "stars": 84,
     "pushedAt": "2026-10-22T12:19:46Z",
     "createdAt": "2026-10-12T03:02:49Z",
     "license": "GPL-3.0",
     "language": "C"
   },
+  "olcayseygan/CnCGeneralsZH-Reforged": {
+    "stars": 246,
+    "pushedAt": "2026-10-22T08:10:37Z",
+    "createdAt": "2026-02-24T17:45:03Z",
+    "homepage": "https://zerohour.gg",
+    "language": "C++",
+    "fork": "electronicarts/CnC_Generals_Zero_Hour",
+    "version": "v3.2.0",
+    "versionAt": "2026-10-20T18:30:34Z"
+  },
+  "omf2097/openomf": {
+    "stars": 486,
+    "pushedAt": "2026-10-22T01:34:34Z",
+    "createdAt": "2013-01-06T22:58:13Z",
+    "license": "MIT",
+    "homepage": "http://www.openomf.org",
+    "language": "C",
+    "version": "0.8.6",
+    "versionAt": "2026-07-05T19:33:20Z"
+  },
   "open-annihilation/open-annihilation": {
     "stars": 61,
-    "pushedAt": "2026-10-22T12:04:56Z",
+    "pushedAt": "2026-10-22T13:42:26Z",
     "createdAt": "2026-09-25T08:48:39Z",
     "license": "GPL-3.0",
     "homepage": "https://play.coreprime.net",
@@ -4913,8 +5637,8 @@
     "versionAt": "2026-10-19T19:57:04Z"
   },
   "open-goal/jak-project": {
-    "stars": 3599,
-    "pushedAt": "2026-10-19T21:36:36Z",
+    "stars": 3600,
+    "pushedAt": "2026-10-22T14:55:31Z",
     "createdAt": "2020-08-22T23:55:21Z",
     "license": "ISC",
     "homepage": "https://opengoal.dev",
@@ -4924,7 +5648,7 @@
   },
   "openblack/bw1-decomp": {
     "stars": 108,
-    "pushedAt": "2026-10-22T02:33:26Z",
+    "pushedAt": "2026-10-22T12:34:16Z",
     "createdAt": "2022-06-09T13:53:57Z",
     "license": "CC0-1.0",
     "language": "C++",
@@ -4948,6 +5672,15 @@
     "language": "C",
     "version": "v0.82.1",
     "versionAt": "2025-08-05T17:01:23Z"
+  },
+  "opentyrian/opentyrian": {
+    "stars": 595,
+    "pushedAt": "2026-10-18T19:44:31Z",
+    "createdAt": "2020-02-22T18:32:49Z",
+    "license": "GPL-2.0",
+    "language": "C",
+    "version": "v2.1.20260913",
+    "versionAt": "2026-09-14T00:00:40Z"
   },
   "parappadev/parappa2": {
     "stars": 206,
@@ -4973,7 +5706,7 @@
   },
   "patchzyy/Wiicompiled": {
     "stars": 1237,
-    "pushedAt": "2026-10-22T11:31:39Z",
+    "pushedAt": "2026-10-22T14:43:50Z",
     "createdAt": "2026-08-10T08:51:02Z",
     "license": "GPL-3.0",
     "language": "C++",
@@ -4989,15 +5722,15 @@
     "decompPercent": 21
   },
   "peiikai/LASRecomp": {
-    "stars": 1601,
-    "pushedAt": "2026-10-22T09:32:31Z",
+    "stars": 1606,
+    "pushedAt": "2026-10-22T14:29:42Z",
     "createdAt": "2026-10-08T22:42:12Z",
     "language": "C",
     "version": "beta_4",
     "versionAt": "2026-10-15T03:07:44Z"
   },
   "perfect-dark-pc-port/perfect_dark": {
-    "stars": 2071,
+    "stars": 2072,
     "pushedAt": "2026-08-13T05:58:19Z",
     "createdAt": "2023-07-21T15:52:32Z",
     "license": "MIT",
@@ -5015,15 +5748,15 @@
     "versionAt": "2026-10-20T15:54:56Z"
   },
   "portingpete/Black-2006-Recomp": {
-    "stars": 170,
-    "pushedAt": "2026-10-20T20:03:52Z",
+    "stars": 169,
+    "pushedAt": "2026-10-22T14:54:57Z",
     "createdAt": "2026-10-05T15:32:24Z",
     "license": "MIT",
     "language": "C"
   },
   "portingpete/The-Darkness-Recomp": {
     "stars": 334,
-    "pushedAt": "2026-10-16T17:31:54Z",
+    "pushedAt": "2026-10-22T15:23:18Z",
     "createdAt": "2026-09-15T22:41:10Z",
     "license": "GPL-3.0",
     "language": "C++"
@@ -5085,6 +5818,15 @@
     "language": "C",
     "decompPercent": 32
   },
+  "raceintospace/raceintospace": {
+    "stars": 233,
+    "pushedAt": "2026-10-22T02:46:38Z",
+    "createdAt": "2011-12-19T20:31:39Z",
+    "license": "GPL-2.0",
+    "language": "C++",
+    "version": "v2.0.0",
+    "versionAt": "2025-03-27T17:48:52Z"
+  },
   "rages4calm/earthbound-companion": {
     "stars": 32,
     "pushedAt": "2026-10-22T11:17:15Z",
@@ -5095,7 +5837,7 @@
     "versionAt": "2026-10-20T23:42:09Z"
   },
   "ran-j/PS2Recomp": {
-    "stars": 3645,
+    "stars": 3646,
     "pushedAt": "2026-10-14T13:47:18Z",
     "createdAt": "2025-04-12T06:48:01Z",
     "license": "GPL-3.0",
@@ -5185,12 +5927,12 @@
     "decompPercent": 52
   },
   "rob646464/luigis-mansion-recompiled": {
-    "stars": 187,
-    "pushedAt": "2026-10-22T11:37:18Z",
+    "stars": 189,
+    "pushedAt": "2026-10-22T14:53:25Z",
     "createdAt": "2026-10-14T04:54:29Z",
     "language": "C++",
-    "version": "v1.1.3",
-    "versionAt": "2026-10-22T03:04:51Z"
+    "version": "v1.1.4",
+    "versionAt": "2026-10-22T14:53:25Z"
   },
   "roeming/mssb-dtk": {
     "stars": 16,
@@ -5239,7 +5981,7 @@
     "versionAt": "2026-10-02T22:21:54Z"
   },
   "samuelit0davila/fifa-street-pc-port": {
-    "stars": 401,
+    "stars": 402,
     "pushedAt": "2026-10-22T01:04:05Z",
     "createdAt": "2026-10-07T03:15:23Z",
     "license": "MIT",
@@ -5249,8 +5991,8 @@
     "versionAt": "2026-10-21T14:40:07Z"
   },
   "samwhosung/benilla": {
-    "stars": 778,
-    "pushedAt": "2026-10-22T11:45:57Z",
+    "stars": 780,
+    "pushedAt": "2026-10-22T15:11:23Z",
     "createdAt": "2026-07-24T05:31:27Z",
     "license": "Apache-2.0",
     "language": "Rust",
@@ -5258,7 +6000,7 @@
     "versionAt": "2026-09-27T08:11:18Z"
   },
   "saulob/crackdown-xbox360-recompiled": {
-    "stars": 44,
+    "stars": 46,
     "pushedAt": "2026-10-21T14:35:50Z",
     "createdAt": "2026-10-12T01:58:32Z",
     "license": "GPL-2.0",
@@ -5267,7 +6009,7 @@
     "versionAt": "2026-10-21T03:05:39Z"
   },
   "saulob/geometry-wars-retro-evolved-2-recompiled": {
-    "stars": 49,
+    "stars": 50,
     "pushedAt": "2026-10-21T03:58:28Z",
     "createdAt": "2026-10-11T00:11:36Z",
     "license": "GPL-2.0",
@@ -5294,8 +6036,8 @@
     "versionAt": "2026-10-18T22:14:50Z"
   },
   "scarletnx/ScarletNX": {
-    "stars": 206,
-    "pushedAt": "2026-10-22T12:15:48Z",
+    "stars": 207,
+    "pushedAt": "2026-10-22T15:26:21Z",
     "createdAt": "2026-10-11T00:50:46Z",
     "license": "GPL-3.0",
     "homepage": "https://scarletnx.github.io/",
@@ -5311,7 +6053,7 @@
     "versionAt": "2026-10-21T01:54:12Z"
   },
   "sciaschi/CBFD-Recompiled": {
-    "stars": 301,
+    "stars": 300,
     "pushedAt": "2026-10-21T22:33:31Z",
     "createdAt": "2026-09-26T00:23:25Z",
     "license": "MIT",
@@ -5319,9 +6061,18 @@
     "version": "V0.1.6",
     "versionAt": "2026-10-13T21:55:43Z"
   },
+  "scp-fs2open/fs2open.github.com": {
+    "stars": 496,
+    "pushedAt": "2026-10-19T01:05:28Z",
+    "createdAt": "2013-01-19T06:10:53Z",
+    "homepage": "https://www.hard-light.net/",
+    "language": "C++",
+    "version": "release_26_2_0-RC2",
+    "versionAt": "2026-10-19T01:05:35Z"
+  },
   "scummvm/scummvm": {
     "stars": 2862,
-    "pushedAt": "2026-10-22T11:19:14Z",
+    "pushedAt": "2026-10-22T13:18:34Z",
     "createdAt": "2011-02-12T15:50:57Z",
     "license": "GPL-3.0",
     "homepage": "https://www.scummvm.org",
@@ -5363,6 +6114,14 @@
     "version": "v0.4.1",
     "versionAt": "2026-09-16T17:45:50Z"
   },
+  "sergiou87/open-supaplex": {
+    "stars": 310,
+    "pushedAt": "2026-10-20T15:11:25Z",
+    "createdAt": "2020-03-06T00:10:38Z",
+    "language": "C",
+    "version": "v7.2.2",
+    "versionAt": "2026-03-30T23:08:13Z"
+  },
   "shaneomac1337/WWE-AllStars-Recomp": {
     "stars": 41,
     "pushedAt": "2026-10-17T12:57:27Z",
@@ -5380,7 +6139,7 @@
     "decompPercent": 100
   },
   "shihabal3amri/tekken-tag-tournament-2-pc": {
-    "stars": 124,
+    "stars": 128,
     "pushedAt": "2026-10-18T07:43:26Z",
     "createdAt": "2026-10-12T21:33:56Z",
     "language": "C++",
@@ -5388,13 +6147,20 @@
     "versionAt": "2026-10-18T07:43:26Z"
   },
   "shipa-2/Xerenge": {
-    "stars": 130,
+    "stars": 131,
     "pushedAt": "2026-10-22T06:18:22Z",
     "createdAt": "2026-09-06T13:48:00Z",
     "license": "GPL-3.0",
     "language": "C++",
     "version": "v0.4.8",
     "versionAt": "2026-10-22T06:18:22Z"
+  },
+  "skyjake/Doomsday-Engine": {
+    "stars": 306,
+    "pushedAt": "2026-06-03T10:02:32Z",
+    "createdAt": "2011-11-28T16:19:23Z",
+    "homepage": "https://dengine.net/",
+    "language": "C++"
   },
   "sm64-port/sm64-port": {
     "stars": 1324,
@@ -5420,7 +6186,7 @@
     "versionAt": "2023-08-16T22:38:38Z"
   },
   "snesrev/zelda3": {
-    "stars": 4892,
+    "stars": 4893,
     "pushedAt": "2026-10-02T23:58:23Z",
     "createdAt": "2022-08-11T01:11:41Z",
     "homepage": "https://discord.gg/AJJbJAzNNJ",
@@ -5454,7 +6220,7 @@
     "versionAt": "2026-02-13T17:30:04Z"
   },
   "sonicdcer/Starfox64Recomp": {
-    "stars": 392,
+    "stars": 394,
     "pushedAt": "2026-08-11T17:36:21Z",
     "createdAt": "2024-08-25T13:30:07Z",
     "license": "GPL-3.0",
@@ -5463,7 +6229,7 @@
     "versionAt": "2025-12-30T04:13:00Z"
   },
   "sonicfreak1337/SARecomp": {
-    "stars": 100,
+    "stars": 101,
     "pushedAt": "2026-10-18T20:12:44Z",
     "createdAt": "2026-09-11T14:00:29Z",
     "language": "C++",
@@ -5492,10 +6258,19 @@
     "language": "C"
   },
   "soyjxck/dod3-recomp": {
-    "stars": 110,
+    "stars": 112,
     "pushedAt": "2026-10-22T08:24:46Z",
     "createdAt": "2026-10-03T03:24:07Z",
     "language": "C++"
+  },
+  "sp00nznet/LinksAwakening": {
+    "stars": 9,
+    "pushedAt": "2026-10-21T01:45:58Z",
+    "createdAt": "2026-02-16T06:39:31Z",
+    "license": "MIT",
+    "language": "C",
+    "version": "v0.1.0",
+    "versionAt": "2026-10-21T01:45:59Z"
   },
   "sp00nznet/Rampage": {
     "stars": 5,
@@ -5503,11 +6278,54 @@
     "createdAt": "2026-02-17T08:22:23Z",
     "language": "C"
   },
+  "sp00nznet/YodaStoriesNG": {
+    "stars": 7,
+    "pushedAt": "2026-10-20T22:34:44Z",
+    "createdAt": "2026-01-28T23:21:53Z",
+    "license": "MIT",
+    "language": "C#",
+    "version": "v0.4.0",
+    "versionAt": "2026-10-20T22:36:21Z"
+  },
+  "sp00nznet/burnout3": {
+    "stars": 134,
+    "pushedAt": "2026-10-20T09:47:43Z",
+    "createdAt": "2026-02-17T08:35:48Z",
+    "license": "MIT",
+    "language": "C",
+    "version": "v0.1.0",
+    "versionAt": "2026-10-20T09:49:10Z"
+  },
   "sp00nznet/diddykongracing": {
     "stars": 7,
     "pushedAt": "2026-10-14T08:36:20Z",
     "createdAt": "2026-02-17T08:20:05Z",
     "language": "C"
+  },
+  "sp00nznet/hover": {
+    "stars": 1,
+    "pushedAt": "2026-10-21T21:34:41Z",
+    "createdAt": "2026-09-30T10:25:48Z",
+    "license": "MIT",
+    "language": "C"
+  },
+  "sp00nznet/metalslug": {
+    "stars": 1,
+    "pushedAt": "2026-10-21T00:07:59Z",
+    "createdAt": "2026-03-21T11:53:59Z",
+    "license": "MIT",
+    "language": "PowerShell",
+    "version": "v0.1.0",
+    "versionAt": "2026-10-21T00:07:42Z"
+  },
+  "sp00nznet/neodriftout": {
+    "stars": 2,
+    "pushedAt": "2026-10-21T00:08:02Z",
+    "createdAt": "2026-03-21T11:54:17Z",
+    "license": "MIT",
+    "language": "PowerShell",
+    "version": "v0.2.0",
+    "versionAt": "2026-10-21T00:07:46Z"
   },
   "sp00nznet/ps3recomp": {
     "stars": 549,
@@ -5517,6 +6335,20 @@
     "language": "C",
     "version": "v0.17.0",
     "versionAt": "2026-10-21T02:24:43Z"
+  },
+  "sp00nznet/redalert2-recomp": {
+    "stars": 62,
+    "pushedAt": "2026-10-22T09:11:16Z",
+    "createdAt": "2026-10-04T03:11:52Z",
+    "license": "MIT",
+    "language": "C"
+  },
+  "sp00nznet/shadows-recomp": {
+    "stars": 1,
+    "pushedAt": "2026-10-20T02:38:11Z",
+    "createdAt": "2026-10-19T13:03:34Z",
+    "license": "MIT",
+    "language": "C"
   },
   "sp00nznet/simpsonsarcade": {
     "stars": 9,
@@ -5530,6 +6362,28 @@
     "pushedAt": "2026-10-14T08:36:06Z",
     "createdAt": "2026-05-31T08:04:44Z",
     "language": "C"
+  },
+  "sp00nznet/themepark-recomp": {
+    "stars": 6,
+    "pushedAt": "2026-10-22T08:05:32Z",
+    "createdAt": "2026-10-10T12:38:36Z",
+    "language": "C"
+  },
+  "sp00nznet/tiberiansun-recomp": {
+    "stars": 6,
+    "pushedAt": "2026-10-21T21:26:14Z",
+    "createdAt": "2026-10-04T10:49:42Z",
+    "license": "MIT",
+    "language": "C"
+  },
+  "sp00nznet/vig8": {
+    "stars": 13,
+    "pushedAt": "2026-10-21T01:02:11Z",
+    "createdAt": "2026-02-17T21:36:41Z",
+    "license": "MIT",
+    "language": "C++",
+    "version": "v0.1.0",
+    "versionAt": "2026-10-21T01:03:10Z"
   },
   "sp00nznet/ww": {
     "stars": 17,
@@ -5580,6 +6434,14 @@
     "version": "v0.1.0",
     "versionAt": "2026-08-29T15:23:00Z"
   },
+  "sulix/omnispeak": {
+    "stars": 317,
+    "pushedAt": "2026-07-12T09:03:41Z",
+    "createdAt": "2012-12-24T09:41:50Z",
+    "license": "GPL-2.0",
+    "homepage": "https://davidgow.net/keen/omnispeak.html",
+    "language": "C"
+  },
   "superheher/south-park-tower-defence-recomp": {
     "stars": 0,
     "pushedAt": "2026-06-14T12:27:46Z",
@@ -5588,9 +6450,18 @@
     "version": "v1.0",
     "versionAt": "2026-06-10T06:45:33Z"
   },
+  "swfans/syndwarsfx": {
+    "stars": 265,
+    "pushedAt": "2026-10-22T12:20:14Z",
+    "createdAt": "2015-07-25T09:31:28Z",
+    "homepage": "https://discord.gg/cnHmWqe49t",
+    "language": "C",
+    "version": "0.3.8.3283",
+    "versionAt": "2025-10-13T21:25:30Z"
+  },
   "tangosdev/sm64ds-decomp": {
-    "stars": 222,
-    "pushedAt": "2026-10-22T09:43:44Z",
+    "stars": 223,
+    "pushedAt": "2026-10-22T14:15:01Z",
     "createdAt": "2026-06-14T00:45:48Z",
     "license": "MIT",
     "homepage": "https://tangos.dev",
@@ -5603,6 +6474,16 @@
     "license": "CC0-1.0",
     "language": "C++",
     "decompPercent": 3
+  },
+  "team-eternity/eternity": {
+    "stars": 274,
+    "pushedAt": "2026-10-22T06:00:45Z",
+    "createdAt": "2014-02-04T02:04:24Z",
+    "license": "GPL-3.0",
+    "homepage": "http://eternity.youfailit.net/wiki/Main_Page",
+    "language": "C++",
+    "version": "4.06.00",
+    "versionAt": "2026-06-13T20:22:07Z"
   },
   "techknight/geow2": {
     "stars": 3,
@@ -5621,7 +6502,7 @@
     "language": "C++"
   },
   "tgeorgiadis/quiver-launcher": {
-    "stars": 2776,
+    "stars": 2791,
     "pushedAt": "2026-10-22T01:21:13Z",
     "createdAt": "2026-06-18T10:53:02Z",
     "license": "MIT",
@@ -5685,13 +6566,20 @@
     "versionAt": "2026-10-22T03:35:40Z"
   },
   "tmcleroy/cps2recomp": {
-    "stars": 67,
-    "pushedAt": "2026-10-22T05:35:56Z",
+    "stars": 68,
+    "pushedAt": "2026-10-22T15:18:30Z",
     "createdAt": "2026-10-13T14:38:26Z",
     "license": "GPL-3.0",
     "language": "C++",
     "version": "v0.4.0-beta.3",
     "versionAt": "2026-10-19T06:24:02Z"
+  },
+  "tonihele/OpenKeeper": {
+    "stars": 509,
+    "pushedAt": "2026-10-20T17:41:24Z",
+    "createdAt": "2014-08-03T18:35:18Z",
+    "license": "GPL-3.0",
+    "language": "Java"
   },
   "toowasmir/WebOfShadowsRecomp": {
     "stars": 45,
@@ -5717,7 +6605,7 @@
     "versionAt": "2026-10-19T22:35:46Z"
   },
   "vcmi/vcmi": {
-    "stars": 5972,
+    "stars": 5973,
     "pushedAt": "2026-10-22T10:04:56Z",
     "createdAt": "2014-04-06T13:42:23Z",
     "license": "GPL-2.0",
@@ -5727,15 +6615,15 @@
     "versionAt": "2026-08-15T12:02:44Z"
   },
   "vladtrc/iw4L": {
-    "stars": 1142,
+    "stars": 1143,
     "pushedAt": "2026-10-16T14:32:02Z",
     "createdAt": "2026-09-13T11:54:59Z",
     "license": "Apache-2.0",
     "language": "Rust"
   },
   "vyanhursky/DefJamFFNY-recomp": {
-    "stars": 120,
-    "pushedAt": "2026-10-21T15:34:20Z",
+    "stars": 121,
+    "pushedAt": "2026-10-22T15:22:57Z",
     "createdAt": "2026-10-04T18:08:36Z",
     "language": "Python",
     "version": "v0.10.6",
@@ -5751,7 +6639,7 @@
     "versionAt": "2020-03-06T18:41:03Z"
   },
   "whompay/FNCReborn": {
-    "stars": 80,
+    "stars": 81,
     "pushedAt": "2026-10-07T00:54:34Z",
     "createdAt": "2026-10-07T00:30:25Z",
     "license": "Apache-2.0",
@@ -5829,7 +6717,7 @@
     "decompPercent": 11
   },
   "xenophobentx/takedawn": {
-    "stars": 328,
+    "stars": 332,
     "pushedAt": "2026-10-22T12:08:32Z",
     "createdAt": "2026-10-12T17:33:06Z",
     "license": "MIT",
@@ -5854,6 +6742,25 @@
     "version": "v0.0.6",
     "versionAt": "2020-08-03T16:50:18Z"
   },
+  "xtreme8000/BetterSpades": {
+    "stars": 286,
+    "pushedAt": "2025-07-30T16:18:47Z",
+    "createdAt": "2016-09-08T14:35:43Z",
+    "license": "GPL-3.0",
+    "homepage": "https://aos.party/jenkins/job/BetterSpades/",
+    "language": "C",
+    "version": "v0.1.5",
+    "versionAt": "2021-05-14T18:41:51Z"
+  },
+  "yancharkin/SpelunkyClassicHD": {
+    "stars": 230,
+    "pushedAt": "2026-08-25T13:38:47Z",
+    "createdAt": "2017-06-29T16:56:46Z",
+    "homepage": "https://yancharkin.github.io/SpelunkyClassicHDhtml5/",
+    "language": "Game Maker Language",
+    "version": "1.2.2",
+    "versionAt": "2025-09-03T15:37:03Z"
+  },
   "yannicksuter/smstrikers-decomp": {
     "stars": 105,
     "pushedAt": "2026-09-17T11:30:28Z",
@@ -5875,9 +6782,7 @@
     "createdAt": "2013-08-18T06:56:25Z",
     "license": "GPL-3.0",
     "homepage": "http://openspades.yvt.jp/",
-    "language": "C++",
-    "version": "v0.1.3",
-    "versionAt": "2019-01-04T13:43:00Z"
+    "language": "C++"
   },
   "z2442/oot-PSP": {
     "stars": 90,
@@ -5895,6 +6800,15 @@
     "language": "C",
     "version": "v0.1.38.1",
     "versionAt": "2026-10-21T18:03:05Z"
+  },
+  "zaps166/NFSIISE": {
+    "stars": 774,
+    "pushedAt": "2026-05-01T20:02:23Z",
+    "createdAt": "2014-10-01T16:16:03Z",
+    "license": "MIT",
+    "language": "C",
+    "version": "v1.4.0",
+    "versionAt": "2024-03-16T22:56:02Z"
   },
   "zcanann/FFCC-Decomp": {
     "stars": 45,

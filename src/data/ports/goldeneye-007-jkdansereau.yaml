@@ -1,0 +1,21 @@
+name: "GoldenEye 007 (jkdansereau)"
+category: decomp-port
+console: n64
+status: fully
+repo: jkdansereau/goldeneye-pc-port
+homepage: https://jkdansereau.github.io/goldeneye-pc-port/
+originalDeveloper: Rare
+year: 1997
+desc:
+  es: "Port nativo de GoldenEye 007 para Windows, Linux y Steam Deck construido sobre la decompilación de N64 (n64decomp/007), de la que parte su repositorio: el código C reconstruido del juego se compila para tu PC, y un RSP por software adaptado del port de Perfect Dark traduce sus gráficos a OpenGL. En el primer arranque saca de tu ROM texturas, sonido, modelos, niveles y textos. Según su autor es totalmente jugable, con algunos fallos conocidos: las 20 misiones y los créditos funcionan sin cierres, y la campaña entera se jugó de principio a fin con la 0.4.0. Tiene panorámico nativo con el HUD en los bordes, 60 fps estables incluso en una Intel HD 3000, pantalla dividida para 2 a 4 jugadores en todos los mapas multijugador, apuntado con ratón al estilo de N64 o de FPS, mandos modernos con vibración, controles reasignables, los estilos de control de N64 y de la versión de Xbox, campo de visión y distancia de dibujado ajustables, MSAA hasta 16x, un modo «Original N64» y un menú de opciones dentro del juego, y carga partidas de emuladores como Project64. La 0.5.0 (7 de octubre) añadió la pantalla dividida y acercó a la N64 la niebla, el agua y el zoom. Su autor declara que lo desarrolló con agentes de IA (Claude Code y un modelo local de pesos abiertos) dirigidos por una sola persona, y que el proyecto es también un estudio de ese proceso. Como la decompilación de la que parte, el repositorio incluye en forma de código C los datos de los niveles del juego (geometría, colisiones y guiones de misión) y todos sus textos, unos 25 MB."
+  en: "A native GoldenEye 007 port for Windows, Linux, and Steam Deck built on the N64 decompilation (n64decomp/007), which its repository starts from: the game’s reconstructed C code is compiled for your PC, and a software RSP adapted from the Perfect Dark port translates its graphics to OpenGL. On first launch it extracts textures, audio, models, levels, and text from your ROM. According to its author it’s fully playable, with a few known issues: all 20 missions and the credits run without crashes, and the whole campaign was played start to finish on 0.4.0. It has native widescreen with the HUD at the screen edges, a steady 60 fps even on an Intel HD 3000, 2–4 player split-screen on every multiplayer map, mouse aiming in N64 or FPS style, modern controllers with rumble, rebindable controls, the N64’s and the Xbox release’s control styles, adjustable field of view and draw distance, up to 16x MSAA, an “Original N64” mode, and an in-game options menu, and it loads saves from emulators such as Project64. Version 0.5.0 (October 7) added split-screen and brought fog, water, and zoom closer to the N64. Its author states it was developed with AI coding agents (Claude Code and a local open-weight model) directed by one person, and that the project is also a study of that process. Like the decompilation it starts from, the repository includes the game’s level data (geometry, collision, and mission scripts) and all of its text as C code, about 25 MB."
+requirements:
+  es: "Tu propia ROM estadounidense (NTSC-U) de GoldenEye 007 para N64 en formato .z64 (SHA-1 abe01e4aeb033b6c0836819f549c791b26cfde83), copiada como data/ge007.ntsc-final.z64; las europeas y japonesas aún no funcionan. Además, Windows 10 u 11 de 64 bits o Linux x86-64 con glibc 2.31 o posterior (Steam Deck incluida), y una tarjeta gráfica con OpenGL 3.0. Para macOS todavía no hay versión."
+  en: "Your own US (NTSC-U) GoldenEye 007 ROM for N64 in .z64 format (SHA-1 abe01e4aeb033b6c0836819f549c791b26cfde83), copied as data/ge007.ntsc-final.z64; European and Japanese ROMs don’t work yet. Plus 64-bit Windows 10 or 11 or x86-64 Linux with glibc 2.31 or later (Steam Deck included), and a graphics card with OpenGL 3.0. There’s no macOS build yet."
+tags:
+  - mips
+  - fps
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - ai-assisted
