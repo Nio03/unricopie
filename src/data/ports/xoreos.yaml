@@ -1,0 +1,24 @@
+name: xoreos
+category: fan-remake
+status: experimental
+repo: xoreos/xoreos
+homepage: https://xoreos.org/
+author: DrMcCoy
+originalDeveloper: BioWare
+desc:
+  es: "xoreos: reimplementación de código abierto del motor Aurora de BioWare y de sus derivados, con el objetivo de que todos los juegos que los usan funcionen en sistemas actuales, desde Neverwinter Nights hasta Dragon Age II. Sus juegos objetivo son Neverwinter Nights, Neverwinter Nights 2, Star Wars: Knights of the Old Republic y su segunda parte, The Sith Lords, Jade Empire, Sonic Chronicles: The Dark Brotherhood, The Witcher, Dragon Age: Origins y Dragon Age II. Por ahora está hecha la base: gestiona los recursos, lee muchos formatos de archivo, dibuja gráficos y reproduce sonido. Todos esos juegos muestran parte de sus escenarios y objetos, que se recorren con una cámara libre, y algunos, parte de sus menús, pero todavía no se puede jugar con normalidad a ninguno. La última versión, la 0.0.6 (3 de agosto de 2020), dejó el tutorial de Knights of the Old Republic jugable en parte (recoger el equipo, que Trask abra la primera puerta y un combate de práctica), permitió saltarse el prólogo de The Sith Lords y añadió música y un primer menú de creación de personaje a Jade Empire. No tiene interfaz gráfica: se arranca desde la línea de comandos con la ruta del juego. El desarrollo sigue en el repositorio; el último commit es del 4 de septiembre."
+  en: "xoreos: an open-source reimplementation of BioWare’s Aurora engine and its derivatives, aiming to get every game that uses them working on modern systems, from Neverwinter Nights to Dragon Age II. Its target games are Neverwinter Nights, Neverwinter Nights 2, Star Wars: Knights of the Old Republic and its sequel, The Sith Lords, Jade Empire, Sonic Chronicles: The Dark Brotherhood, The Witcher, Dragon Age: Origins, and Dragon Age II. So far the groundwork is done: it manages resources, reads many file formats, displays graphics, and plays sound. All of those games show part of their areas and objects, which you can fly around with a free camera, and some show part of their menus, but none of them can be played normally yet. The latest release, 0.0.6 (August 3, 2020), made the Knights of the Old Republic tutorial partly playable (collecting your gear, Trask opening the first door, and a practice fight), let you skip The Sith Lords’ prologue, and added music and an early character creation menu to Jade Empire. It has no GUI: you start it from the command line with the game’s path. Development continues in the repository; the latest commit is from September 4."
+requirements:
+  es: "Una instalación completa en el disco duro de tu propia copia del juego que quieras abrir. Además, Windows o Linux (x86 de 32 o 64 bits) o macOS 10.9 o posterior (Intel de 64 bits); también está en AUR, para Arch Linux, y en un overlay de Gentoo."
+  en: "A full installation on your hard drive of your own copy of the game you want to open. Plus Windows or Linux (32- or 64-bit x86) or macOS 10.9 or later (64-bit Intel); it’s also in the AUR, for Arch Linux, and in a Gentoo overlay."
+tags:
+  - reverse-engineering
+links:
+  - label:
+      es: "Estado de cada juego (wiki)"
+      en: "Status of each game (wiki)"
+    url: https://wiki.xoreos.org/index.php?title=Games
+  - label:
+      es: "Herramientas (xoreos-tools)"
+      en: "Tools (xoreos-tools)"
+    url: https://github.com/xoreos/xoreos-tools

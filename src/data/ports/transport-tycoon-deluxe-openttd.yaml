@@ -1,0 +1,20 @@
+name: "Transport Tycoon Deluxe (OpenTTD)"
+category: fan-remake
+console: dos
+status: fully
+repo: OpenTTD/OpenTTD
+homepage: https://www.openttd.org/
+originalDeveloper: Chris Sawyer
+year: 1995
+desc:
+  es: "OpenTTD: juego de simulación de transportes de código abierto basado en Transport Tycoon Deluxe, de Chris Sawyer, que intenta imitar el original lo más fielmente posible y lo amplía con funciones nuevas, muchas inspiradas en TTDPatch. Permite mapas hasta 64 veces más grandes y multijugador estable para hasta 255 jugadores en 15 compañías, con servidores dedicados. Añade algoritmos nuevos de búsqueda de rutas, trenes enormes y con varias cabezas tractoras, órdenes condicionales, presemáforos y señalización por rutas, canales y esclusas, estaciones más grandes que se pueden unir, puentes más largos y altos, construcción en pendientes, paradas pasantes para vehículos articulados y tranvías, y un zoom que aleja más la vista. Admite los NewGRF de TTDPatch para cambiar gráficos y comportamiento, IA escritas por los jugadores y scripts de juego, y descarga contenido adicional desde el propio juego. Está traducido a más de 50 idiomas, hay versiones para Windows, macOS y Linux, y también se distribuye gratis en Steam, GOG y la Microsoft Store. La versión estable es la 15.3 (4 de abril), y la 16.0 está en pruebas: su beta4 salió el 20 de septiembre. Su guía para colaborar prohíbe enviar código generado con IA."
+  en: "OpenTTD: an open-source transport simulation game based on Chris Sawyer’s Transport Tycoon Deluxe that tries to mimic the original as closely as possible while extending it with new features, many inspired by TTDPatch. It allows maps up to 64 times larger and stable multiplayer for up to 255 players in 15 companies, with dedicated servers. It adds new pathfinding algorithms, mammoth and multi-headed trains, conditional orders, pre-signals and path-based signalling, canals and ship lifts, larger stations that can be joined, longer and higher bridges, building on slopes, drive-through road stops for articulated vehicles and trams, and zooming further out. It supports TTDPatch NewGRFs to change graphics and behavior, player-written AIs, and game scripts, and it downloads add-on content from inside the game. It’s translated into more than 50 languages, there are Windows, macOS, and Linux builds, and it’s also distributed for free on Steam, GOG, and the Microsoft Store. The stable release is 15.3 (April 4), and 16.0 is in testing: its beta4 came out on September 20. Its contribution guidelines forbid submitting AI-generated code."
+requirements:
+  es: "No hace falta ninguna copia: funciona con OpenGFX, OpenSFX y OpenMSX, los gráficos, sonidos y música libres que publica el proyecto, y el instalador de Windows puede descargarlos. Si tienes Transport Tycoon Deluxe, para DOS o Windows, puede usar sus gráficos y sonidos (sample.cat y los archivos trg*.grf) y su música; el instalador de Windows puede copiarlos. Además, Windows, macOS o Linux."
+  en: "No copy is needed: it runs on OpenGFX, OpenSFX, and OpenMSX, the free graphics, sounds, and music the project publishes, and the Windows installer can download them. If you have Transport Tycoon Deluxe, for DOS or Windows, it can use its graphics and sounds (sample.cat and the trg*.grf files) and its music; the Windows installer can copy them. Plus Windows, macOS, or Linux."
+tags:
+  - x86
+  - multiplayer
+  - online
+  - mods
+  - human-driven

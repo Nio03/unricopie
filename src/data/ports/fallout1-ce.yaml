@@ -1,0 +1,21 @@
+name: "Fallout (Fallout CE)"
+category: decomp-port
+console: pc
+status: fully
+repo: alexbatalov/fallout1-ce
+originalDeveloper: Interplay Productions
+year: 1997
+desc:
+  es: "Fallout Community Edition: reimplementación completa de Fallout para sistemas actuales, con la jugabilidad original, correcciones de fallos del motor y algunas mejoras de comodidad. Parte de Fallout Reference Edition, la decompilación del mismo autor, que reconstruye el código de la versión 1.1 para Windows, de noviembre de 1997, y comparte mucho código con la de Fallout 2. En Windows, fallout-ce.exe sustituye a falloutw.exe dentro de la carpeta del juego; también hay versiones para Linux (x86 y x64) y para macOS 10.11 o posterior, nativa en Intel y en Apple Silicon, además de Android e iOS. El tamaño de la ventana, a cualquier resolución, y la pantalla completa se eligen en el archivo f1_res.ini. Entre sus objetivos pendientes están pasar a la versión 1.2 del juego, de marzo de 1998, que trae soporte multilingüe, y traer mejoras de Fallout 2. La última versión es la 1.1.0 (3 de marzo de 2024), y no hay commits nuevos desde enero de 2025."
+  en: "Fallout Community Edition: a fully working reimplementation of Fallout for modern systems, with the original gameplay, engine bug fixes, and some quality-of-life improvements. It builds on Fallout Reference Edition, the same author’s decompilation, which reconstructs the code of the November 1997 version 1.1 for Windows and shares much of its code with the Fallout 2 one. On Windows, fallout-ce.exe replaces falloutw.exe in the game folder; there are also builds for Linux (x86 and x64) and macOS 10.11 or later, native on Intel and Apple silicon, plus Android and iOS. The window size, at any resolution, and fullscreen mode are set in the f1_res.ini file. Among its open goals are moving to the game’s March 1998 version 1.2, which adds multilingual support, and backporting Fallout 2 improvements. The latest release is 1.1.0 (March 3, 2024), and there have been no new commits since January 2025."
+requirements:
+  es: "Los archivos de tu propia copia de Fallout (master.dat, critter.dat y la carpeta data), por ejemplo de GOG o de Steam; en Linux y macOS se pueden sacar del instalador de GOG con innoextract, y en macOS también sirven los de la versión de MacPlay. Además, Windows (de 32 o 64 bits), Linux con SDL2 o macOS 10.11 o posterior."
+  en: "The files from your own copy of Fallout (master.dat, critter.dat, and the data folder), from GOG or Steam for example; on Linux and macOS they can be extracted from the GOG installer with innoextract, and on macOS the MacPlay release’s files work too. Plus Windows (32- or 64-bit), Linux with SDL2, or macOS 10.11 or later."
+tags:
+  - x86
+  - widescreen
+links:
+  - label:
+      es: "Fallout Reference Edition (decompilación)"
+      en: "Fallout Reference Edition (decompilation)"
+    url: https://github.com/alexbatalov/fallout1-re

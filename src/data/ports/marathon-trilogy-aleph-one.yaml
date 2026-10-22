@@ -1,0 +1,20 @@
+name: "Marathon Trilogy (Aleph One)"
+category: source-port
+console: mac
+status: fully
+repo: Aleph-One-Marathon/alephone
+homepage: https://alephone.lhowon.org/
+originalDeveloper: Bungie
+year: 1994
+desc:
+  es: "Aleph One: continuación de código abierto del motor de Marathon 2 y Marathon Infinity, que nació del código fuente de Marathon 2 que Bungie publicó en 2000 con licencia GPL; Bungie publicó también el de Marathon Infinity en 2011. Juega a los tres Marathon, publicados originalmente para Mac, y a decenas de escenarios de la comunidad, desde niveles nuevos hasta conversiones totales, que se eligen con un selector de escenarios. Hay versiones para Windows, macOS y Linux (en Flatpak), y los tres juegos están en Steam como Classic Marathon, Classic Marathon 2 y Classic Marathon Infinity, con logros y Steam Workshop. Permite jugar a 30 fps como el original o con interpolación a 60 o 120 fps o sin límite, y añade audio 3D con HRTF, guiones en Lua, grabación de partidas con exportación a vídeo, y multijugador y cooperativo de hasta ocho jugadores en red local o por internet, con una sala para buscar partidas, servidores dedicados para no tener que configurar el router y clasificaciones mensuales con una cuenta opcional en lhowon.org. La última versión, la 1.11.1 (30 de septiembre), corrige fallos y problemas de seguridad. Las descargas de cada juego traen sus datos, que Bungie permitió distribuir gratis en 2005 y que el proyecto reparte con una licencia limitada que Bungie le concedió en 2021."
+  en: "Aleph One: an open-source continuation of the Marathon 2 and Marathon Infinity engine, born from the Marathon 2 source code Bungie released under the GPL in 2000; Bungie released Marathon Infinity’s source as well in 2011. It plays all three Marathon games, originally released for the Mac, and dozens of community scenarios, from new levels to total conversions, picked with a scenario chooser. There are builds for Windows, macOS, and Linux (as a Flatpak), and the three games are on Steam as Classic Marathon, Classic Marathon 2, and Classic Marathon Infinity, with achievements and Steam Workshop. It can run at 30 fps like the original or with interpolation at 60 or 120 fps or uncapped, and it adds 3D audio with HRTF, Lua scripting, game recording with video export, and multiplayer and co-op for up to eight players over LAN or the internet, with a lobby to find games, dedicated servers so no router setup is needed, and monthly leaderboards with an optional lhowon.org account. The latest release, 1.11.1 (September 30), fixes bugs and security issues. Each game’s download includes its data, which Bungie allowed to be distributed for free in 2005 and which the project distributes under a limited license Bungie granted it in 2021."
+requirements:
+  es: "Ninguna copia: Bungie permite distribuir gratis los tres juegos desde 2005, y cada descarga del proyecto ya trae los datos del juego, que también se pueden bajar aparte desde su web. Además, Windows, macOS o Linux."
+  en: "No copy needed: Bungie has allowed the three games to be distributed for free since 2005, and each of the project’s downloads already includes the game data, which can also be downloaded separately from its website. Plus Windows, macOS, or Linux."
+tags:
+  - fps
+  - 60fps+
+  - multiplayer
+  - online
+  - mods

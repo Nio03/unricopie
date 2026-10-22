@@ -1,0 +1,17 @@
+name: "Grand Theft Auto: San Andreas (San Andreas Unity)"
+category: fan-remake
+console: pc
+status: experimental
+repo: in0finite/SanAndreasUnity
+originalDeveloper: Rockstar North
+engine: Unity
+year: 2005
+desc:
+  es: "San Andreas Unity: reimplementación de código abierto del motor de GTA: San Andreas hecha en Unity, que carga los archivos de tu instalación del juego. No pretende reimplementar el juego entero: se centra en la jugabilidad, el multijugador y en ser una base fácil de ampliar con mods; los modos de juego se añaden como plugins, en DLL de C#. Se puede recorrer el mapa, con su ciclo de día y noche, sus interiores y las emisoras de radio, conducir y destrozar vehículos, que llegan a explotar, y usar armas como el lanzacohetes. Los peatones aparecen por todo el mapa y pasean, huyen, atacan, se rinden si les apuntas o se unen a ti. El multijugador funciona entero, como servidor dedicado, anfitrión o cliente, con búsqueda de partidas en la red local, servidor maestro, chat y un modo de combate a muerte. Hay versiones para Windows, Linux y Android, y se ha probado también en Mac. La última es la 4.0 (24 de mayo de 2022), y el último commit es del 30 de septiembre de 2022. El proyecto incluye, en un submódulo aparte, una malla de navegación precalculada del mapa del juego (unos 53 MB comprimidos), que los peatones usan desde la 4.0 para encontrar el camino."
+  en: "San Andreas Unity: an open-source reimplementation of the GTA: San Andreas engine made in Unity, which loads the files from your game install. It doesn’t aim to reimplement the whole game: it focuses on gameplay, multiplayer, and being a base that’s easy to extend with mods; game modes are added as plugins, as C# DLLs. You can roam the map, with its day-night cycle, interiors, and radio stations, drive and wreck vehicles, which can explode, and use weapons such as the rocket launcher. Pedestrians spawn all over the map and walk around, flee, attack, surrender when you aim at them, or join you. Multiplayer fully works, as a dedicated server, host, or client, with local network server discovery, a master server, chat, and a deathmatch mode. There are builds for Windows, Linux, and Android, and it has also been tested on Mac. The latest is 4.0 (May 24, 2022), and the last commit is from September 30, 2022. The project includes, in a separate submodule, a precomputed navigation mesh of the game’s map (about 53 MB compressed), which pedestrians have used since 4.0 to find their way."
+requirements:
+  es: "Tu propia copia de Grand Theft Auto: San Andreas para PC instalada: la primera vez que lo abres te pide la carpeta del juego. Además, Windows o Linux; para otros sistemas, Mac incluido, hay que compilarlo con Unity."
+  en: "Your own installed copy of Grand Theft Auto: San Andreas for PC: the first time you open it, it asks for the game folder. Plus Windows or Linux; for other systems, Mac included, you have to build it with Unity."
+tags:
+  - multiplayer
+  - mods

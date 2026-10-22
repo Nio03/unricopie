@@ -1,0 +1,21 @@
+name: "SimCity 2000 (OpenSC2K)"
+category: fan-remake
+console: pc
+status: playable
+repo: OpenSC2K/OpenSC2K
+homepage: http://opensc2k.net/
+author: Nicholas Ochoa
+originalDeveloper: Maxis
+year: 1996
+desc:
+  es: "OpenSC2K: reimplementación de código abierto de SimCity 2000 hecha con Rust y Godot; la simulación, los formatos de archivo, el dibujado, el audio y los scripts son bibliotecas nativas en Rust. Su comportamiento se ha determinado observando y probando el juego, analizando sus datos, con investigación pública e ingeniería inversa del ejecutable original, y aplica muchos de los arreglos de sc2kfix. Abre y guarda las ciudades .sc2 del original y añade ciudades de 16 a 4096 casillas de lado (el original solo tiene 128), mapas de datos a la resolución del mapa, muchos más MicroSims y objetos móviles, un generador de terreno configurable, nuevas vistas isométricas de datos y de trayectos, más niveles de zoom, paquetes externos de gráficos (también en HD), sonido y música, música MIDI con FluidSynth, controles reasignables, autoguardado cada minuto, una interfaz traducible (el coreano es la primera traducción) y mods en JavaScript, cada uno aislado, con consola de Chrome DevTools. Incluye el editor de edificios SCURK. Las ciudades de más de 128 casillas usan el formato .sc2x, que el juego original no abre. Hay versiones para Windows y Linux, en x64 y arm64, y para macOS. La primera versión pública, la 0.1.0, salió el 25 de septiembre, y la última, la 0.3.0, el 9 de octubre, con los mods en JavaScript, los gráficos HD y los desastres rehechos para comportarse como en el original. El proyecto declara que se desarrolla con ayuda sustancial de herramientas de IA, entre ellas modelos de lenguaje."
+  en: "OpenSC2K: an open-source reimplementation of SimCity 2000 built with Rust and Godot; the simulation, file formats, rendering, audio, and scripting are native Rust libraries. Its behavior was worked out by observing and testing the game, analyzing its data, from public research, and by reverse engineering the original executable, and it applies many of sc2kfix’s fixes. It opens and saves the original’s .sc2 cities and adds cities from 16 to 4096 tiles per side (the original only has 128), data maps at the map’s full resolution, many more MicroSims and moving objects, a configurable terrain generator, new isometric data and trip views, more zoom levels, external graphics (HD included), sound, and music packs, MIDI music through FluidSynth, rebindable controls, autosaves every minute, a translatable interface (Korean is the first translation), and JavaScript mods, each in its own sandbox, with a Chrome DevTools console. It includes the SCURK building editor. Cities larger than 128 tiles use the .sc2x format, which the original game can’t open. There are Windows and Linux builds, x64 and arm64, and a macOS build. The first public release, 0.1.0, came out on September 25, and the latest, 0.3.0, on October 9, with JavaScript mods, HD graphics, and disasters reworked to behave as in the original. The project states that it’s developed with substantial help from AI tools, large language models among them."
+requirements:
+  es: "Los archivos de tu propia copia de SimCity 2000; la Special Edition para Windows 95 (1996) es la que da la importación más completa, y parte de los gráficos de la interfaz y del SCURK solo salen de una instalación completa para Windows. También importa las versiones para Windows 3.x, DOS y Macintosh, la Network Edition y las demos, desde una carpeta instalada (también la de GOG), una app de macOS o un CD montado. Además, Windows x64 o arm64, Linux x64 o arm64 con glibc 2.34 o posterior, o macOS 11 o posterior en Intel y 13 o posterior en Apple Silicon."
+  en: "The files from your own copy of SimCity 2000; the Special Edition for Windows 95 (1996) gives the most complete import, and some interface graphics and the SCURK artwork only come from a complete Windows installation. It also imports the Windows 3.x, DOS, and Macintosh versions, the Network Edition, and the demos, from an installed folder (GOG’s included), a macOS app, or a mounted CD. Plus x64 or arm64 Windows, x64 or arm64 Linux with glibc 2.34 or later, or macOS 11 or later on Intel and 13 or later on Apple silicon."
+tags:
+  - x86
+  - mods
+  - hd-assets
+  - reverse-engineering
+  - ai-assisted

@@ -1,0 +1,22 @@
+name: "Medal of Honor: Allied Assault (OpenMoHAA)"
+category: fan-remake
+console: pc
+status: fully
+repo: openmoh/openmohaa
+homepage: https://docs.openmohaa.org/
+author: "smallmodel, Tim Angus, …"
+originalDeveloper: "2015, Inc."
+year: 2002
+desc:
+  es: "OpenMoHAA: reimplementación de código abierto de Medal of Honor: Allied Assault y de sus expansiones Spearhead y Breakthrough, construida sobre ioquake3 y el SDK de Heavy Metal: F.A.K.K.², y compatible con los recursos, los guiones y el multijugador del original. Hay versiones para Windows, Linux y macOS, también para ARM. Según el proyecto, la campaña completa de los tres juegos debería funcionar, y el multijugador está casi del todo estable, con todos los modos oficiales, incluidos Tug-of-War de Spearhead y Liberation de Breakthrough, y mods populares como Freeze-Tag; se puede jugar en servidores de OpenMoHAA o montar uno propio. Incluye todos los arreglos de Spearhead 2.15 y Breakthrough 2.40b, y añade bots para practicar sin conexión, soporte de 4K con escalado automático de la interfaz, campo de visión ajustable, animaciones más suaves, sonido por OpenAL, grabación de partidas, IPv6, varios servidores maestros a través de 333networks y, en los servidores, prohibición por IP y protección contra la inundación de paquetes, además de muchos arreglos de fallos y exploits del original. Todavía no ha llegado a la 1.0; la última versión es la 0.82.1 (5 de agosto de 2025). Sus normas de contribución prohíben usar IA para generar código."
+  en: "OpenMoHAA: an open-source reimplementation of Medal of Honor: Allied Assault and its Spearhead and Breakthrough expansions, built on ioquake3 and the Heavy Metal: F.A.K.K.² SDK, and compatible with the original’s assets, scripts, and multiplayer. There are builds for Windows, Linux, and macOS, ARM included. According to the project, the whole campaign of all three games should work, and multiplayer is almost fully stable, with every official mode, including Spearhead’s Tug-of-War and Breakthrough’s Liberation, and popular mods like Freeze-Tag; you can join OpenMoHAA servers or host your own. It includes every fix from Spearhead 2.15 and Breakthrough 2.40b, and adds bots for offline practice, 4K support with automatic UI scaling, an adjustable field of view, smoother animations, OpenAL sound, demo recording, IPv6, multiple master servers through 333networks, and, on servers, IP bans and packet flood protection, plus many fixes for bugs and exploits in the original. It hasn’t reached 1.0 yet; the latest release is 0.82.1 (August 5, 2025). Its contribution guidelines forbid using AI to generate code."
+requirements:
+  es: "Una instalación de tu propia copia de Medal of Honor: Allied Assault, mejor la War Chest de GOG, que trae las dos expansiones; si es la del CD, con los parches oficiales (1.11 para Allied Assault, 2.15 para Spearhead y 2.40b para Breakthrough). También funciona con las demos gratuitas. Los archivos de OpenMoHAA se copian en la carpeta del juego. Además, Windows (x64, x86 o ARM64), Linux o macOS (Apple Silicon o Intel)."
+  en: "An installation of your own copy of Medal of Honor: Allied Assault, preferably GOG’s War Chest, which includes both expansions; if it’s the CD release, with the official patches (1.11 for Allied Assault, 2.15 for Spearhead, and 2.40b for Breakthrough). The free demos work too. OpenMoHAA’s files are copied into the game folder. Plus Windows (x64, x86, or ARM64), Linux, or macOS (Apple silicon or Intel)."
+tags:
+  - x86
+  - fps
+  - multiplayer
+  - online
+  - mods
+  - human-driven

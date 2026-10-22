@@ -1,0 +1,17 @@
+name: "System Shock (Shockolate)"
+category: source-port
+console: dos
+status: playable
+repo: Interrupt/systemshock
+author: Chad Cuddigan
+originalDeveloper: Looking Glass Technologies
+year: 1994
+desc:
+  es: "Shockolate: port multiplataforma de System Shock con SDL2, basado en el código fuente de la versión para Mac PowerPC que publicó Night Dive Studios. Quiere ser para System Shock lo que Chocolate Doom es para Doom: una experiencia muy fiel al original, pero portable y con algunas comodidades. Funciona bien en Windows y Linux, aunque faltan algunas funciones que hay que recuperar porque no venían en el código publicado. Añade un renderizador OpenGL junto al original por software, controles WASD con vista libre con el ratón (se activa con la F) e inclinación con Q y E, pantalla completa, música MIDI con FluidSynth y una SoundFont o con síntesis FM por AdlMidi, y carga mods y misiones de fans (archivos .res y .dat adicionales). La última versión estable es la 0.7.7 (8 de abril de 2019), con versiones de prueba de 2020 para Windows, Linux y macOS; el desarrollo sigue, y el 18 de octubre se añadió la compilación con Zig, que se usa para macOS con Apple Silicon."
+  en: "Shockolate: a cross-platform System Shock port using SDL2, based on the source code of the PowerPC Mac version released by Night Dive Studios. It aims to be for System Shock what Chocolate Doom is for Doom: an experience that closely mimics the original, but portable and with some quality-of-life improvements. It runs well on Windows and Linux, though some features need reviving because they weren’t in the released code. It adds an OpenGL renderer alongside the original software one, WASD controls with mouselook (toggled with F) and leaning with Q and E, fullscreen, MIDI music through FluidSynth and a SoundFont or FM synthesis through AdlMidi, and loads mods and fan missions (extra .res and .dat files). The latest stable release is 0.7.7 (April 8, 2019), with 2020 test builds for Windows, Linux, and macOS; development continues, and on October 18 a Zig build was added, used for Apple silicon macOS."
+requirements:
+  es: "Los datos de tu propia copia de System Shock en CD-ROM o de System Shock: Enhanced Edition, en una carpeta res/data junto al ejecutable; los de la versión en disquetes son más antiguos y no se pueden cargar. Para la música MIDI, si quieres, una SoundFont (.sf2) en la carpeta res. Además, Windows, Linux o macOS."
+  en: "The data from your own copy of the CD-ROM System Shock or System Shock: Enhanced Edition, in a res/data folder next to the executable; the floppy version’s data is older and can’t be loaded. For MIDI music, optionally, a SoundFont (.sf2) in the res folder. Plus Windows, Linux, or macOS."
+tags:
+  - fps
+  - mods

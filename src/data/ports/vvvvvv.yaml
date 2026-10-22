@@ -1,0 +1,14 @@
+name: VVVVVV
+category: source-port
+console: pc
+status: fully
+repo: TerryCavanagh/VVVVVV
+homepage: https://thelettervsixtim.es/
+originalDeveloper: Terry Cavanagh
+year: 2010
+desc:
+  es: "El código fuente de VVVVVV, el juego de 2010 de Terry Cavanagh con música de Magnus Pålsson, que su autor publicó en enero de 2020 y en el que se sigue desarrollando la versión de escritorio con ayuda de la comunidad. Es el port a C++ que Simon Roth hizo para la versión 2.0, pasado a SDL2, PhysicsFS y Steamworks por Ethan Lee en la 2.2; el repositorio incluye también el código de la versión para móviles, y su rama principal ya usa SDL3. Contiene todo el código, los niveles y los textos del juego, pero no los gráficos ni la música. La 2.4 (10 de enero de 2024) lo dejó disponible en 21 idiomas y añadió glifos de botones según el mando, mejoras en el editor de niveles y nuevas órdenes para los niveles de la comunidad. Publica versiones compiladas en GitHub; la última es la 2.4.4 (21 de abril). Su licencia permite compilarlo gratis para uso personal; para distribuir versiones compiladas hace falta permiso, y el repositorio recoge las excepciones concedidas."
+  en: "The source code of VVVVVV, Terry Cavanagh’s 2010 game with music by Magnus Pålsson, released by its author in January 2020, where the desktop version is still developed with the community’s help. It’s the C++ port Simon Roth made for version 2.0, moved to SDL2, PhysicsFS, and Steamworks by Ethan Lee in 2.2; the repository also holds the mobile version’s code, and its main branch now uses SDL3. It contains all of the game’s code, levels, and text, but not its graphics or music. Version 2.4 (January 10, 2024) made it available in 21 languages and added controller-specific button glyphs, level editor improvements, and new commands for community levels. Compiled builds are published on GitHub; the latest is 2.4.4 (April 21). Its license lets you compile it for free for personal use; distributing compiled builds requires permission, and the repository lists the exceptions granted."
+requirements:
+  es: "No hace falta comprar el juego: el código se puede compilar gratis para uso personal, y los gráficos y la música están en el archivo data.zip de la Make and Play Edition, que se descarga gratis de la web del juego para uso personal; también vale el data.zip de tu propia copia. Además, Windows, macOS o Linux."
+  en: "You don’t need to buy the game: the code can be compiled for free for personal use, and the graphics and music are in the data.zip file of the Make and Play Edition, a free download from the game’s website for personal use; the data.zip from your own copy works too. Plus Windows, macOS, or Linux."

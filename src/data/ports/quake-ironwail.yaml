@@ -1,0 +1,20 @@
+name: "Quake (Ironwail)"
+category: source-port
+console: dos
+status: fully
+repo: andrei-drexler/ironwail
+forkOf:
+  label: sezero/quakespasm
+  url: https://github.com/sezero/quakespasm
+originalDeveloper: id Software
+year: 1996
+desc:
+  es: "Ironwail: fork de QuakeSpasm, el port de Quake descendiente de GLQuake, que antepone el rendimiento a la máxima compatibilidad. Pasa trabajo de la CPU a la GPU (descartar lo que no se ve y actualizar los mapas de luz) y usa funciones modernas de OpenGL 4.3, como instancing, compute shaders, dibujado indirecto múltiple y texturas bindless, para mover a muchos fotogramas los mapas de la comunidad con muchos más polígonos que los originales; el renderizado va separado de la simulación para evitar problemas de física, con código de QSS que llega a través de vkQuake. Si tienes la versión de 2021 en Steam, basta con descomprimirlo en cualquier carpeta y ejecutarlo para jugarla, con los complementos que ya hayas descargado, logros, tiempo de juego y los modelos remasterizados. Añade un menú de mods, teclas de armas reasignables desde los menús, menús que se manejan con el ratón, HUD alternativos basados en los de Quake 64 y QuakeWorld, paletizado en tiempo real con tramado opcional para un aspecto más fiel, el efecto clásico de distorsión bajo el agua, mando con giroscopio, flick stick y vibración, controles para reproducir demos, un indicador de velocidad y herramientas para quien hace mapas. Necesita menos memoria y carga antes los mapas enormes. La 0.8.2 (11 de agosto) añadió una primera compatibilidad con la actualización del 30.º aniversario de Quake y su expansión MG3: Dawn of the Machine."
+  en: "Ironwail: a fork of QuakeSpasm, the GLQuake-descended Quake port, that puts performance ahead of maximum compatibility. It moves work from the CPU to the GPU (culling and lightmap updates) and uses modern OpenGL 4.3 features such as instancing, compute shaders, indirect multi-draw, and bindless textures to run community maps with far more polygons than the originals at very high frame rates; rendering is decoupled from the simulation to avoid physics issues, with code from QSS by way of vkQuake. If you have the 2021 release on Steam, you just unzip it into any folder and run it to play that version, with any add-ons you’ve already downloaded, achievements, time tracking, and the remastered models. It adds a Mods menu, weapon key bindings in the menus, mouse-driven menus, alternative HUDs based on Quake 64’s and QuakeWorld’s, real-time palettization with optional dithering for a more authentic look, the classic underwater warp effect, controller support with gyro, flick stick, and rumble, demo playback controls, a speed indicator, and tools for mappers. It uses less memory and loads huge maps faster. Version 0.8.2 (August 11) added initial compatibility with Quake’s 30th anniversary update and its MG3: Dawn of the Machine expansion."
+requirements:
+  es: "Una instalación de tu propia copia de Quake, en cuya carpeta se descomprime; si tienes la versión de 2021 en Steam, basta con descomprimirlo en otra carpeta cualquiera y la encuentra solo. Además, Windows (32 o 64 bits) o Linux x64 (glibc 2.31 o posterior) y una tarjeta gráfica con OpenGL 4.3: como mínimo, GeForce GT 420, Radeon HD 5450 o Intel HD Graphics 4200. No funciona en macOS, que se queda en OpenGL 4.1."
+  en: "An installation of your own copy of Quake, which you unzip it into; if you have the 2021 release on Steam, you just unzip it into any other folder and it finds the game on its own. Plus Windows (32- or 64-bit) or x64 Linux (glibc 2.31 or later) and an OpenGL 4.3 graphics card: at least a GeForce GT 420, Radeon HD 5450, or Intel HD Graphics 4200. It doesn’t run on macOS, which stops at OpenGL 4.1."
+tags:
+  - fps
+  - 60fps+
+  - mods

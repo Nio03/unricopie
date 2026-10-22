@@ -1,0 +1,16 @@
+name: "Star Wars Jedi Knight: Jedi Academy / Jedi Outcast (OpenJK)"
+category: source-port
+console: pc
+status: fully
+repo: JACoders/OpenJK
+originalDeveloper: Raven Software
+year: 2003
+desc:
+  es: "OpenJK: proyecto de la comunidad para mantener y mejorar el juego y el motor de Jedi Academy y Jedi Outcast a partir del código que publicó Raven Software, sin perder la compatibilidad con los juegos y los mods que ya existen. No busca añadir grandes funciones, reequilibrar ni cambiar la jugabilidad: corrige fallos, mejora la estabilidad y el rendimiento, y lo lleva a más hardware (x86-64, ARM y Apple Silicon) y a más sistemas (Linux y macOS). También sirve de base limpia para hacer mods nuevos. Jedi Academy funciona de forma estable, tanto en un jugador como en multijugador; la campaña de Jedi Outcast (OpenJO) funciona pero necesita trabajo, y su multijugador no está soportado: para eso recomiendan JK2MV. No publica versiones numeradas, sino una compilación continua: la última es del 29 de septiembre, para Windows y Linux (32 y 64 bits) y macOS (Intel y Apple Silicon)."
+  en: "OpenJK: a community effort to maintain and improve the game and engine of Jedi Academy and Jedi Outcast from the code Raven Software released, while keeping full compatibility with the existing games and mods. It doesn’t aim to add major features, rebalance, or change the gameplay: it fixes bugs, improves stability and performance, and brings it to more hardware (x86-64, Arm, and Apple silicon) and more systems (Linux and macOS). It also serves as a clean base for new mods. Jedi Academy runs stably in both single player and multiplayer; the Jedi Outcast campaign (OpenJO) works but needs attention, and its multiplayer isn’t supported: for that they recommend JK2MV. It doesn’t publish numbered releases but a rolling build: the latest is from September 29, for Windows and Linux (32- and 64-bit) and macOS (Intel and Apple silicon)."
+requirements:
+  es: "Tu propia copia de Star Wars Jedi Knight: Jedi Academy instalada, por ejemplo de Steam o GOG; los archivos de OpenJK se extraen en su carpeta GameData. En Linux se usan los archivos de la versión de Windows, que se pueden descargar con SteamCMD, y en macOS sirve la versión de la Mac App Store, con SDL2 instalado mediante Homebrew. Para la campaña de Jedi Outcast, tu propia copia de Star Wars Jedi Knight II: Jedi Outcast. Además, Windows, Linux o macOS."
+  en: "Your own installed copy of Star Wars Jedi Knight: Jedi Academy, for example from Steam or GOG; the OpenJK files are extracted into its GameData folder. On Linux you use the Windows version’s files, which can be downloaded with SteamCMD, and on macOS the Mac App Store version works, with SDL2 installed through Homebrew. For the Jedi Outcast campaign, your own copy of Star Wars Jedi Knight II: Jedi Outcast. Plus Windows, Linux, or macOS."
+tags:
+  - multiplayer
+  - mods

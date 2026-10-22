@@ -1,0 +1,17 @@
+name: Raze
+category: source-port
+status: fully
+repo: ZDoom/Raze
+homepage: https://raze.zdoom.org/
+originalDeveloper: 3D Realms / Monolith / Xatrix / Lobotomy
+year: 1996
+desc:
+  es: "Raze: port de los juegos del motor Build respaldado por la tecnología de GZDoom, que reúne en un solo programa Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior y Exhumed/PowerSlave, y que también juega NAM y WW2 GI. Cada juego parte de un port anterior: Duke Nukem 3D, de JFDuke y EDuke 2.0, con las ampliaciones de World Tour de DukeGDX; Redneck Rampage, del código reconstruido por Nuke.YKT (Rednukem); Blood, de NBlood; Shadow Warrior, de SWP y VoidSW, y Exhumed, de PCExhumed, con mejoras inspiradas en PowerslaveGDX. Reconoce las versiones y expansiones de cada juego, como Atomic Edition, Plutonium Pak y World Tour de Duke Nukem 3D con Duke It Out in D.C., Duke Caribbean y Nuclear Winter, One Unit Whole Blood y Cryptic Passage, Redneck Rampage Rides Again y Route 66, o Wanton Destruction y Twin Dragon de Shadow Warrior, además de las versiones shareware. De GZDoom hereda los renderizadores OpenGL, Vulkan y OpenGL ES y un selector de juego al arrancar. La 1.11.0 (22 de febrero de 2025) trajo correcciones para todos los juegos y un fondo de menú panorámico para Shadow Warrior. Hay versiones para Windows y macOS, y se compila para Linux."
+  en: "Raze: a port of the Build engine games backed by GZDoom technology that brings Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior, and Exhumed/PowerSlave together in a single program, and can also play NAM and WW2 GI. Each game builds on an earlier port: Duke Nukem 3D on JFDuke and EDuke 2.0, with World Tour extensions from DukeGDX; Redneck Rampage on Nuke.YKT’s reconstructed source (Rednukem); Blood on NBlood; Shadow Warrior on SWP and VoidSW; and Exhumed on PCExhumed, with enhancements inspired by PowerslaveGDX. It recognizes each game’s versions and add-ons, such as Duke Nukem 3D’s Atomic Edition, Plutonium Pak, and World Tour with Duke It Out in D.C., Duke Caribbean, and Nuclear Winter, One Unit Whole Blood and Cryptic Passage, Redneck Rampage Rides Again and Route 66, or Shadow Warrior’s Wanton Destruction and Twin Dragon, plus the shareware versions. From GZDoom it inherits OpenGL, Vulkan, and OpenGL ES renderers and a game picker at startup. Version 1.11.0 (February 22, 2025) brought fixes for every game and a widescreen menu background for Shadow Warrior. There are builds for Windows and macOS, and it builds on Linux."
+requirements:
+  es: "Los archivos de datos de tu propia copia de alguno de los juegos (Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior, Exhumed/PowerSlave, NAM o WW2 GI), con sus expansiones si las tienes; también valen las versiones shareware, que son gratuitas. Además, Windows, macOS o Linux."
+  en: "The data files from your own copy of one of the games (Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior, Exhumed/PowerSlave, NAM, or WW2 GI), with their add-ons if you have them; the free shareware versions work too. Plus Windows, macOS, or Linux."
+tags:
+  - fps
+  - vulkan
+  - widescreen

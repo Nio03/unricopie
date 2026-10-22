@@ -1,0 +1,23 @@
+name: "Transport Tycoon Deluxe (JGR's Patchpack)"
+category: fan-remake
+console: dos
+status: fully
+repo: JGRennison/OpenTTD-patches
+author: Jonathan G Rennison
+forkOf:
+  label: OpenTTD
+  url: https://github.com/OpenTTD/OpenTTD
+originalDeveloper: Chris Sawyer
+year: 1995
+desc:
+  es: "JGR’s Patchpack: versión de OpenTTD, la reimplementación de código abierto de Transport Tycoon Deluxe, con una larga colección de funciones y cambios añadidos. Se instala y se juega aparte del OpenTTD normal; no es un mod que se cargue desde el juego. Se mantiene al día con el OpenTTD en desarrollo, y casi todos sus parches, muchos salidos de los foros de TT-Forums, están modificados o ampliados. Entre lo que añade: frenado realista de trenes, restricciones de rutas, preseñales programables, depósitos de trenes pasantes, reemplazo de trenes por plantillas, varios tipos de vía en una misma casilla, señales en túneles y puentes, túneles bajo el agua, carreteras de un solo sentido y adelantamientos, averías mejoradas, horarios automáticos y despacho programado, infraestructura compartida en multijugador, mapas de hasta 256 millones de casillas y más modos de distribución de carga. Avisa de que no está pensado para principiantes, y sus partidas guardadas no se pueden abrir en el OpenTTD normal. La primera versión salió en agosto de 2015 y la última, la 0.73.4, el 12 de octubre. Sus normas de contribución prohíben usar IA para generar código."
+  en: "JGR’s Patchpack: a version of OpenTTD, the open-source reimplementation of Transport Tycoon Deluxe, with a long collection of added features and changes. It’s installed and played separately from standard OpenTTD; it isn’t a mod loaded from inside the game. It keeps up with OpenTTD’s development branch, and nearly all of its patches, many of them from the TT-Forums boards, have been modified or extended. Among what it adds: realistic train braking, routing restrictions, programmable pre-signals, drive-through train depots, template-based train replacement, multiple rail types per tile, signals in tunnels and on bridges, tunnels under water, one-way roads and overtaking, improved breakdowns, automated timetables and scheduled dispatch, infrastructure sharing in multiplayer, maps of up to 256 million tiles, and more cargo distribution modes. It warns that it isn’t aimed at beginners, and its savegames can’t be opened in standard OpenTTD. The first release came out in August 2015 and the latest, 0.73.4, on October 12. Its contribution guidelines forbid using AI to generate code."
+requirements:
+  es: "No hace falta ninguna copia: como OpenTTD, funciona con OpenGFX, OpenSFX y OpenMSX, los gráficos, sonidos y música libres que publica OpenTTD. Si tienes Transport Tycoon Deluxe, para DOS o Windows, puede usar sus gráficos y sonidos (sample.cat y los archivos trg*.grf) y su música. Además, Windows (64 o 32 bits, o ARM), macOS o Linux."
+  en: "No copy is needed: like OpenTTD, it runs on OpenGFX, OpenSFX, and OpenMSX, the free graphics, sounds, and music OpenTTD publishes. If you have Transport Tycoon Deluxe, for DOS or Windows, it can use its graphics and sounds (sample.cat and the trg*.grf files) and its music. Plus Windows (64- or 32-bit, or ARM), macOS, or Linux."
+tags:
+  - x86
+  - multiplayer
+  - online
+  - mods
+  - human-driven

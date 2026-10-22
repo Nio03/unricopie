@@ -1,0 +1,19 @@
+name: Warzone 2100
+category: source-port
+console: pc
+status: fully
+repo: Warzone2100/warzone2100
+homepage: https://wz2100.net
+originalDeveloper: Pumpkin Studios
+year: 1999
+desc:
+  es: "El juego de estrategia en tiempo real en 3D de Pumpkin Studios, que mantiene la comunidad desde que Eidos, junto con el estudio, publicó su código fuente bajo la GPL el 6 de diciembre de 2004; más tarde liberó también la música y los vídeos, así que el juego se distribuye completo y gratis. Desde entonces el Warzone 2100 Project ha cambiado toda la tecnología propietaria por alternativas libres y lo ha ampliado mucho. Tiene la campaña para un jugador remasterizada, con bases persistentes que crecen y misiones lejos de la base, multijugador en línea de hasta 10 jugadores, por equipos o todos contra todos y entre sistemas distintos, escaramuzas contra bots, un árbol de más de 400 tecnologías y un sistema para diseñar tus propias unidades. Incluye además dos campañas nuevas, Reclamation y Fractured Kingdom, y admite mapas y mods. Dibuja con OpenGL, OpenGL ES o Vulkan, y la 4.6.3 (4 de febrero) añadió sombras proyectadas por el terreno. Hay versiones para Windows, macOS y Linux, y otra para navegador. La última, la 4.7.0 (6 de abril), estrenó un sistema nuevo de salas multijugador con IPv4 e IPv6, un mod de equilibrio de la campaña y una banda sonora para Reclamation."
+  en: "Pumpkin Studios’ 3D real-time strategy game, maintained by its community since Eidos, together with the studio, released its source code under the GPL on December 6, 2004; the music and videos followed later, so the complete game is distributed for free. Since then the Warzone 2100 Project has replaced every proprietary technology with open-source counterparts and expanded the game a great deal. It has the remastered single-player campaign, with expanding persistent bases and away missions, online multiplayer for up to 10 players, team-based or free-for-all and across platforms, skirmishes against bots, a tech tree with more than 400 technologies, and a system for designing your own units. It also includes two new campaigns, Reclamation and Fractured Kingdom, and supports maps and mods. It renders with OpenGL, OpenGL ES, or Vulkan, and 4.6.3 (February 4) added shadows cast by the terrain. There are builds for Windows, macOS, and Linux, plus one for the browser. The latest release, 4.7.0 (April 6), brought a new multiplayer lobby system with IPv4 and IPv6, a campaign balance mod, and a soundtrack for Reclamation."
+requirements:
+  es: "Ninguna copia: el juego es libre desde que Eidos publicó su código fuente en 2004, y después la música y los vídeos, y el proyecto lo distribuye entero. En algunas versiones, como los paquetes de Ubuntu, los vídeos se descargan aparte, del repositorio wz-sequences del proyecto. Además, Windows 7 o posterior (x86, x64 o ARM64), macOS 10.14 o posterior, o Linux (paquetes para Ubuntu 22.04 y 24.04, Flatpak, Snap o el código fuente)."
+  en: "No copy needed: the game has been free since Eidos released its source code in 2004, followed by the music and videos, and the project distributes it in full. In some builds, such as the Ubuntu packages, the videos are downloaded separately from the project’s wz-sequences repository. Plus Windows 7 or later (x86, x64, or ARM64), macOS 10.14 or later, or Linux (packages for Ubuntu 22.04 and 24.04, Flatpak, Snap, or the source code)."
+tags:
+  - multiplayer
+  - online
+  - vulkan
+  - mods

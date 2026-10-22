@@ -1,0 +1,17 @@
+name: "Quake II (vkQuake2)"
+category: source-port
+console: pc
+status: fully
+repo: kondrak/vkQuake2
+author: Krzysztof Kondrak
+originalDeveloper: id Software
+year: 1997
+desc:
+  es: "vkQuake2: el código oficial de Quake II de id Software, versión 3.21, con un renderizador Vulkan y las expansiones incluidas (The Reckoning y Ground Zero, más Zaero y Slight Mechanical Destruction). Quiere conservar la experiencia original de 1997, y por eso parte directamente del código de id, sin bibliotecas como SDL, así que puede mantener algunos de sus fallos. Añade 64 bits, más resoluciones con la interfaz escalada, colores del mundo algo retocados (se pueden desactivar), el efecto de distorsión bajo el agua del renderizador por software, MSAA y supermuestreo, filtrado anisotrópico, la dificultad Nightmare/Hard+ en el menú y música en OGG, FLAC, MP3 o WAV además de la del CD. El renderizador por software se cambió por KolorSoft 1.1, que añade luz de colores. Publica versión para Windows de 64 bits, y se compila también para Windows ARM64, Linux, macOS, FreeBSD y Raspberry Pi 4. La 1.5.10 (26 de agosto) corrigió cierres al cambiar de ventana, lo adaptó a los SDK de Vulkan recientes y dejó de publicar la versión de 32 bits. La descarga incluye además el contenido de la demo de Quake II."
+  en: "vkQuake2: id Software’s official Quake II code, version 3.21, with a Vulkan renderer and the mission packs included (The Reckoning and Ground Zero, plus Zaero and Slight Mechanical Destruction). It aims to keep the original 1997 experience, which is why it builds directly on id’s code with no SDL-like libraries, so some of the original bugs may remain. It adds 64-bit support, more resolutions with interface scaling, slightly upgraded world colors (which can be turned off), the software renderer’s underwater warp effect, MSAA and sample shading, anisotropic filtering, the Nightmare/Hard+ skill in the menu, and OGG, FLAC, MP3, or WAV music besides CD audio. The software renderer was replaced with KolorSoft 1.1, which adds colored lighting. It ships a 64-bit Windows build, and it also builds for Windows ARM64, Linux, macOS, FreeBSD, and Raspberry Pi 4. Version 1.5.10 (August 26) fixed crashes when switching windows, updated it for recent Vulkan SDKs, and dropped the 32-bit build. The download also includes the Quake II demo content."
+requirements:
+  es: "Los archivos de tu propia copia de Quake II: los .pak, los modelos y los vídeos de la versión comercial, copiados en la carpeta baseq2; para las expansiones, sus datos en rogue (Ground Zero), xatrix (The Reckoning), zaero o smd. Si no tienes el CD, la música en archivos trackXX (.ogg, .flac, .mp3 o .wav) en baseq2/music. Además, una tarjeta gráfica con Vulkan y, en Windows, el redistribuible de Visual C++."
+  en: "The files from your own copy of Quake II: the retail .pak files, models, and videos, copied into the baseq2 folder; for the mission packs, their data in rogue (Ground Zero), xatrix (The Reckoning), zaero, or smd. Without the CD, the music as trackXX files (.ogg, .flac, .mp3, or .wav) in baseq2/music. Plus a Vulkan graphics card and, on Windows, the Visual C++ Redistributable."
+tags:
+  - fps
+  - vulkan

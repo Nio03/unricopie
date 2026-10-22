@@ -1,0 +1,17 @@
+name: "Fallout 2 (Falltergeist)"
+category: fan-remake
+console: pc
+status: experimental
+abandoned: true
+repo: falltergeist/falltergeist
+author: "alexeevdv, iSage, phobos2077, …"
+originalDeveloper: Black Isle Studios
+year: 1998
+desc:
+  es: "Falltergeist: motor nuevo de código abierto para Fallout 2, escrito en C++ con SDL2 y OpenGL, para Windows, Linux y macOS. No parte del código del juego: reimplementa el motor desde cero y lee los archivos .dat originales, como OpenXcom u OpenTTD con sus juegos. En la 0.4.0 ya cargaba los mapas, permitía ir de un lugar a otro por el mapa del mundo, usar habilidades sobre objetos, abrir puertas y contenedores, subir por escaleras y ascensores y comerciar de forma básica, y tenía inventario y ventana de personaje; según su hoja de ruta, para llegar a un juego jugable faltaban todavía los PNJ, la IA de combate y la ejecución completa de los guiones. Esa 0.4.0, del 20 de mayo de 2022, es su última versión, sin ejecutables publicados, y el último commit es de julio de 2022. En 2024 uno de sus autores principales escribió que ya no tiene tiempo para el proyecto y que no cree que llegue a terminarse ni a ser jugable."
+  en: "Falltergeist: a new open-source engine for Fallout 2, written in C++ with SDL2 and OpenGL, for Windows, Linux, and macOS. It doesn’t start from the game’s code: it reimplements the engine from scratch and reads the original .dat files, the way OpenXcom or OpenTTD do with their games. By 0.4.0 it could load maps, travel between locations on the world map, use skills on objects, open doors and containers, take ladders, stairs, and elevators, and barter in a basic way, and it had an inventory and a character screen; according to its roadmap, NPCs, combat AI, and full script support were still missing before the game would be playable. That 0.4.0, from May 20, 2022, is its last release, with no published executables, and the last commit is from July 2022. In 2024 one of its main developers wrote that they no longer have time for the project and don’t think it will ever be finished or even playable."
+requirements:
+  es: "Los archivos master.dat y critter.dat de tu propia copia de Fallout 2, o el CD del juego montado. Además, Windows, Linux o macOS, y compilarlo tú mismo con SDL2, SDL2_mixer, SDL2_image, GLEW, GLM y zlib."
+  en: "The master.dat and critter.dat files from your own copy of Fallout 2, or the game’s CD mounted. Plus Windows, Linux, or macOS, and building it yourself with SDL2, SDL2_mixer, SDL2_image, GLEW, GLM, and zlib."
+tags:
+  - x86

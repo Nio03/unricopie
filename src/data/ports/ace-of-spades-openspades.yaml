@@ -1,0 +1,20 @@
+name: "Ace of Spades (OpenSpades)"
+category: fan-remake
+console: pc
+status: playable
+repo: yvt/openspades
+homepage: https://openspades.yvt.jp/
+originalDeveloper: Ben Aksoy
+desc:
+  es: "OpenSpades: cliente de código abierto compatible con Ace of Spades 0.75, el shooter en primera persona en línea y gratuito de Ben Aksoy, con terreno de vóxeles totalmente destructible y modos de juego creados por la comunidad, como capturar la bandera. Se conecta a los servidores originales y a los de pyspades y pysnip, y también admite el protocolo 0.76. Lo creó yvt y lo mantiene la comunidad. Usa OpenGL, con efectos como niebla volumétrica, y tiene un renderizador por software; el audio va por OpenAL o por el motor YSR. Incluye un buscador de servidores, admite mods de armas y está traducido a más de una docena de idiomas. La última versión es la 0.1.3 (4 de enero de 2019), con versiones para Windows y macOS; en Linux se instala con Snap o Flatpak. Los últimos cambios en el código son de mayo de 2023. Las descargas incluyen el paquete pak000-Nonfree.pak, que según yvt contiene los modelos de los jugadores y de los objetos del mapa extraídos del cliente original y un sonido de la 0.75. Al compilarlo, ese paquete se descarga del repositorio openspades-paks del autor en GitHub; se puede desactivar, pero entonces, según yvt, no es realmente jugable."
+  en: "OpenSpades: an open-source client compatible with Ace of Spades 0.75, Ben Aksoy’s free online first-person shooter, with fully destructible voxel terrain and community-made game modes such as Capture the Flag. It connects to vanilla servers and to pyspades and pysnip ones, and it also supports the 0.76 protocol. It was created by yvt and is maintained by the community. It uses OpenGL, with effects such as volumetric fog, and has a software renderer; audio goes through OpenAL or the YSR engine. It includes a server browser, supports weapon mods, and is translated into more than a dozen languages. The latest release is 0.1.3 (January 4, 2019), with builds for Windows and macOS; on Linux it’s installed with Snap or Flatpak. The latest code changes are from May 2023. The downloads include the pak000-Nonfree.pak package, which according to yvt contains the player and map object models extracted from the original client and one sound from 0.75. When building it, that package is downloaded from the author’s openspades-paks repository on GitHub; this can be turned off, but then, according to yvt, it isn’t really playable."
+requirements:
+  es: "No hace falta ninguna copia: Ace of Spades 0.75 era un juego gratuito y OpenSpades trae todo lo necesario para jugar. Se juega en línea, así que necesitas conexión a internet. Además, Windows Vista o posterior, macOS o Linux; como mínimo, un procesador de doble núcleo a 1 GHz, 1 GB de RAM y una tarjeta gráfica con 512 MB (Intel HD Graphics 3000, GeForce serie 9 o Radeon HD 7350)."
+  en: "No copy needed: Ace of Spades 0.75 was a free game and OpenSpades comes with everything needed to play. It’s played online, so you need an internet connection. Plus Windows Vista or later, macOS, or Linux; at minimum a 1 GHz dual-core CPU, 1 GB of RAM, and a graphics card with 512 MB (Intel HD Graphics 3000, GeForce 9 series, or Radeon HD 7350)."
+tags:
+  - x86
+  - fps
+  - multiplayer
+  - online
+  - voxel
+  - mods

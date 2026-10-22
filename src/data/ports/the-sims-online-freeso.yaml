@@ -1,0 +1,22 @@
+name: "The Sims Online (FreeSO)"
+category: fan-remake
+console: pc
+status: playable
+repo: riperiperi/FreeSO
+homepage: https://freeso.org
+originalDeveloper: Maxis
+year: 2002
+desc:
+  es: "FreeSO: reimplementación completa de The Sims Online hecha con MonoGame. Es fiel al original, pero dibuja por hardware a alta resolución, con una iluminación dinámica propia, y permite casas de más de dos plantas; añade además barrios, control en primera o tercera persona, límites de parcela abiertos y un modo 3D que reconstruye los objetos a partir de los búferes de profundidad de sus sprites, con modelos hechos por la comunidad para muchos de ellos. Incluye Volcanic, un editor para ver, modificar y crear objetos con la máquina virtual SimAntics en marcha, y su motor es la base de Simitone, la reimplementación de Los Sims del mismo autor, todavía incompleta. El servidor oficial de FreeSO cerró el 9 de diciembre de 2024; desde entonces el proyecto prepara FreeSO Archive, un cliente con el que montar tu propio servidor sin conocimientos técnicos o unirte al de otros, en beta para Windows, macOS y Linux. La última, la v0.8.5-beta, es del 20 de septiembre. El proyecto no acepta contribuciones hechas con ayuda de IA."
+  en: "FreeSO: a full reimplementation of The Sims Online built with MonoGame. It stays faithful to the original but renders in hardware at high resolutions, with its own dynamic lighting, and allows houses with more than two floors; it also adds neighborhoods, first- and third-person controls, open lot borders, and a 3D mode that rebuilds objects from their sprites’ depth buffers, with community-made models for many of them. It includes Volcanic, an editor for viewing, modifying, and creating objects alongside a live SimAntics virtual machine, and its engine is the base of Simitone, the same author’s reimplementation of The Sims, which is still incomplete. The official FreeSO server shut down on December 9, 2024; since then the project has been working on FreeSO Archive, a client for hosting your own server with no technical knowledge or joining someone else’s, in beta for Windows, macOS, and Linux. The latest, v0.8.5-beta, is from September 20. The project doesn’t accept AI-assisted contributions."
+requirements:
+  es: "Los archivos originales de The Sims Online (objetos, avatares e interfaz), que según el proyecto se pueden descargar de los servidores de EA; FreeSO no incluye ningún material del juego con derechos de autor. El instalador clásico del proyecto, FSOInstaller, los descarga de ahí. Además, Windows, macOS o Linux."
+  en: "The original The Sims Online files (objects, avatars, and interface), which according to the project can be downloaded from EA’s servers; FreeSO itself includes no copyrighted game material. The project’s classic installer, FSOInstaller, downloads them from there. Plus Windows, macOS, or Linux."
+tags:
+  - multiplayer
+  - online
+  - mods
+  - human-driven
+links:
+  - label: "Simitone"
+    url: https://github.com/riperiperi/Simitone

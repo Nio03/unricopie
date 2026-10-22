@@ -1,0 +1,10 @@
+name: Super Mario 64
+console: n64
+repo: n64decomp/sm64
+desc:
+  es: "Decompilación completa a C de Super Mario 64 en cinco versiones: la japonesa, la estadounidense, la europea, la Shindou y la de iQue Player. Compila ROM idénticas a las originales, comprobadas por su hash, mientras siguen en curso los nombres y la documentación del código y de las estructuras de datos. La opción NON_MATCHING usa versiones en C funcionalmente equivalentes donde el código no coincide byte a byte y evita comportamientos indefinidos. Se compila en Linux, en Windows con WSL, en macOS o con Docker, y por sí sola solo genera ROM de N64: el port a PC sm64-port parte de ella. Su última gran actualización, «Refresh 16», es del 17 de agosto de 2023. Las texturas, los sonidos y la música se extraen de tu propia ROM, pero el repositorio incluye, escritos en C, los modelos, las colisiones y los datos de los niveles del juego."
+  en: "A full C decompilation of Super Mario 64 in five versions: Japanese, US, European, Shindou, and iQue Player. It builds ROMs identical to the originals, checked by their hashes, while naming and documentation of the code and data structures are still in progress. The NON_MATCHING option uses functionally equivalent C where the code doesn’t match byte for byte and avoids undefined behavior. It builds on Linux, on Windows through WSL, on macOS, or with Docker, and on its own it only produces N64 ROMs: the sm64-port PC port is based on it. Its last major update, “Refresh 16,” is from August 17, 2023. Textures, sounds, and music are extracted from your own ROM, but the repository includes the game’s models, collision, and level data written as C."
+tags:
+  - mips
+  - matching
+  - mario

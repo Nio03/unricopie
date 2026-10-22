@@ -1,0 +1,18 @@
+name: "Command & Conquer: Generals / Zero Hour (GeneralsGameCode)"
+category: source-port
+console: pc
+status: fully
+repo: TheSuperHackers/GeneralsGameCode
+originalDeveloper: EA Pacific
+year: 2003
+desc:
+  es: "GeneralsGameCode: proyecto comunitario de TheSuperHackers para arreglar y mejorar Command & Conquer: Generals y su expansión Zero Hour, sobre el código fuente de los dos juegos que Electronic Arts liberó en 2025; se centra sobre todo en Zero Hour. Pasaron el código de Visual Studio 6 y C++98 a Visual Studio 2022 y C++20, aunque las versiones semanales se siguen compilando con Visual Studio 6. Por ahora mantiene la compatibilidad con la versión 1.08 de Generals y la 1.04 de Zero Hour, y deja para más adelante los arreglos que la romperían. Corrige fallos graves y muchos menores, y separa del paso de la lógica el dibujado de partículas, animaciones, agua, árboles y otros efectos, con interpolación, para que se muevan con fluidez a más de 30 fotogramas por segundo. Añade MSAA y filtrado anisótropo, recupera 481 texturas de mayor resolución que Zero Hour no llegaba a usar, rota la cámara de 45 en 45 grados, muestra los fotogramas, la latencia y el dinero por minuto, suma una lista con información de los jugadores y mejora las repeticiones con un archivo de partidas y sus fechas. Los arreglos de los datos del juego (INI, interfaz, mapas, texturas) van en un proyecto aparte, GeneralsGamePatch. Publica una versión cada semana, la última del 16 de octubre. 14 de sus unos 2000 commits, todos de septiembre, llevan a Claude como coautor."
+  en: "GeneralsGameCode: TheSuperHackers’ community project to fix and improve Command & Conquer: Generals and its Zero Hour expansion, built on the source code of both games that Electronic Arts released in 2025; its main focus is Zero Hour. The code was moved from Visual Studio 6 and C++98 to Visual Studio 2022 and C++20, though the weekly builds are still compiled with Visual Studio 6. For now it keeps compatibility with Generals 1.08 and Zero Hour 1.04, leaving the fixes that would break it for later. It fixes critical bugs and many minor ones, and decouples the drawing of particles, animations, water, trees, and other effects from the logic step, with interpolation, so they move smoothly above 30 frames per second. It adds MSAA and anisotropic filtering, recovers 481 higher-resolution textures Zero Hour never ended up using, rotates the camera in 45-degree steps, shows frame rate, latency, and money per minute, adds a player info list, and improves replays with a replay archive and their dates. Fixes to the game’s data (INI files, interface, maps, textures) live in a separate project, GeneralsGamePatch. It publishes a build every week, the latest on October 16. 14 of its roughly 2,000 commits, all from September, list Claude as a co-author."
+requirements:
+  es: "Una instalación de tu propia copia de Command & Conquer: Generals y Zero Hour, por ejemplo la de Command & Conquer: The Ultimate Collection en Steam; los archivos de la versión semanal se extraen en la carpeta del juego. Además, Windows; en Linux se puede compilar con Docker e instalar en el juego con sus scripts."
+  en: "An installation of your own copy of Command & Conquer: Generals and Zero Hour, such as the one in Command & Conquer: The Ultimate Collection on Steam; the weekly build’s files are extracted into the game folder. Plus Windows; on Linux it can be built with Docker and installed into the game with its scripts."
+tags:
+  - x86
+  - multiplayer
+  - 60fps+
+  - ai-assisted

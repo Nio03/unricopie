@@ -1,0 +1,23 @@
+name: "Doom / Doom II (Crispy Doom)"
+category: source-port
+console: dos
+status: fully
+repo: fabiangreffrath/crispy-doom
+homepage: https://fabiangreffrath.github.io/crispy-homepage
+forkOf:
+  label: chocolate-doom/chocolate-doom
+  url: https://github.com/chocolate-doom/chocolate-doom
+originalDeveloper: id Software
+year: 1993
+desc:
+  es: "Crispy Doom: fork «amistoso» de Chocolate Doom, el port fiel al original que parte del código de Doom que id Software publicó en 1997. Dobla la resolución interna a 640×400 (se puede volver a 320×200), quita los límites estáticos del motor y añade mejoras opcionales visuales, tácticas y físicas sin perder la compatibilidad con la configuración, las partidas guardadas, el juego en red y las demos del original. Tiene modo panorámico hasta 24:9, fotogramas sin límite con interpolación y sincronización vertical opcional, y admite las WAD «Doom Classic» de Doom 3: BFG Edition, con el episodio No Rest for the Living, y todas las versiones de SIGIL. Lo opcional, casi todo desactivado de serie, se activa en el menú «Crispness»: salto, vista libre con el ratón, mira, un HUD mínimo, translucidez, cadáveres reflejados al azar o avisos de secretos, entre otras cosas. También carga DEHACKED y BEX completos y mods que suavizan las animaciones, y juega los mapas que solo necesitan quitar límites, pero no los de Boom ni ZDoom. Con el mismo código se publican Crispy Heretic, Crispy Hexen y Crispy Strife. Hay versión para Windows y paquetes para macOS (MacPorts y Homebrew) y Linux (Debian y Ubuntu). La 7.2.0 (12 de octubre) llevó el formato BSP extendido a todos los juegos y corrigió fallos de demos y de partidas guardadas."
+  en: "Crispy Doom: a “friendly fork” of Chocolate Doom, the faithful port built on the Doom source code id Software released in 1997. It doubles the internal resolution to 640×400 (320×200 is still available), removes the engine’s static limits, and adds optional visual, tactical, and physical enhancements while staying compatible with the original’s config files, savegames, netplay, and demos. It has widescreen rendering up to 24:9, uncapped frame rates with interpolation and optional VSync, and supports the “Doom Classic” WADs from Doom 3: BFG Edition, with the No Rest for the Living episode, and every version of SIGIL. The optional features, mostly off by default, are enabled in the “Crispness” menu: jumping, mouselook, a crosshair, a minimal HUD, translucency, randomly mirrored corpses, and secret notifications, among others. It also loads full DEHACKED and BEX and animation-smoothing mods, and plays limit-removing maps, but not Boom or ZDoom ones. Crispy Heretic, Crispy Hexen, and Crispy Strife are released from the same code. There’s a Windows build and packages for macOS (MacPorts and Homebrew) and Linux (Debian and Ubuntu). Version 7.2.0 (October 12) extended the extended BSP format to all games and fixed demo and savegame bugs."
+requirements:
+  es: "El archivo IWAD de tu propia copia de Doom, Doom II o Final Doom, o las WAD de Doom 3: BFG Edition; también vale el DOOM1.WAD de la versión shareware, que es gratuita, o Freedoom. Para Crispy Heretic, Crispy Hexen y Crispy Strife, la IWAD de cada juego. Además, Windows, macOS o Linux."
+  en: "The IWAD file from your own copy of Doom, Doom II, or Final Doom, or the Doom 3: BFG Edition WADs; the free shareware DOOM1.WAD works too, as does Freedoom. For Crispy Heretic, Crispy Hexen, and Crispy Strife, each game’s IWAD. Plus Windows, macOS, or Linux."
+tags:
+  - fps
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - mods

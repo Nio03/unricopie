@@ -1,0 +1,23 @@
+name: "Skate 3 (Skate 3 Rust Engine)"
+category: fan-remake
+console: x360
+status: experimental
+repo: SK8-ENGINE/skate-3-rust-engine
+author: dumbad / Chasm
+originalDeveloper: EA Black Box
+year: 2010
+desc:
+  es: "Reimplementación de Skate 3 en Rust con el motor Bevy, construida a partir de la ingeniería inversa de la versión de Xbox 360. Se apoya en más de dos años de trabajo de dumbad, que estudió los formatos de archivo, las animaciones y los sistemas del juego y creó herramientas para mapas, modelos, colisiones, retos y DLC; Chasm trabajó después en una recompilación y en un renderizador propio antes de pasar a esta reescritura. Tiene patinaje, trucos, grinds, movimiento a pie, ajustes de dificultad y mapas personalizados en formato .skate, con una API de mods en Lua, y el sonido es un port nativo del sistema de audio del juego. La instalación convierte desde tu copia el patinador, las animaciones y todos los mapas del disco, y empieza en University; los mapas se cambian sin reiniciar. Se juega con mando y trae un actualizador integrado. En GitHub solo hay versiones de prueba, la última la compilación 49 (9 de octubre), y el propio proyecto avisa de que aún no se comporta en todo como el original. Su README declara que se usaron herramientas de IA para programar esta reescritura, y ocho de sus commits llevan a Cursor como coautor."
+  en: "A reimplementation of Skate 3 in Rust on the Bevy engine, built from reverse engineering the Xbox 360 version. It rests on more than two years of work by dumbad, who studied the game’s file formats, animations, and systems and built tools for maps, meshes, collision, challenges, and DLC; Chasm then worked on a recompilation and a custom renderer before moving to this rewrite. It has skating, tricks, grinds, off-board movement, difficulty settings, and custom maps in the .skate format, with a Lua modding API, and its sound is a native port of the game’s audio system. Setup converts the skater, animations, and every disc map from your copy, then starts in University; maps can be switched without restarting. It’s played with a controller and has a built-in updater. GitHub only has test builds, the latest being build 49 (October 9), and the project itself notes that not every system behaves exactly like the original yet. Its README states that AI coding tools were used to write this rewrite, and eight of its commits list Cursor as a co-author."
+requirements:
+  es: "Tu propia copia de Skate 3 para Xbox 360, como ISO o como carpeta extraída con su default.xex; la conversión de la ISO necesita conexión a internet, porque descarga extract-xiso desde GitHub, y la primera puede tardar. Además, Windows de 64 bits y un mando compatible con SDL3 (de Xbox, PlayStation, Switch o genérico); sin mando no se puede jugar."
+  en: "Your own copy of Skate 3 for Xbox 360, as an ISO or an extracted folder with its default.xex; converting the ISO needs an internet connection, since it downloads extract-xiso from GitHub, and the first conversion can take a while. Plus 64-bit Windows and an SDL3-compatible controller (Xbox, PlayStation, Switch, or generic); it can’t be played without one."
+tags:
+  - mods
+  - reverse-engineering
+  - ai-assisted
+links:
+  - label:
+      es: "Herramientas de modding de Skate 3 (dumbad)"
+      en: "Skate 3 modding tools (dumbad)"
+    url: https://github.com/Ethanw05/DumbadsSkate3ModdingTools

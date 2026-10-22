@@ -1,0 +1,23 @@
+name: "Star Wars: Dark Forces (The Force Engine)"
+category: fan-remake
+console: dos
+status: fully
+repo: TheForceEngine/TheForceEngine
+homepage: https://theforceengine.github.io/
+author: luciusDXL
+originalDeveloper: LucasArts
+year: 1995
+desc:
+  es: "The Force Engine: reconstrucción por ingeniería inversa del Jedi Engine, el motor de Star Wars: Dark Forces y de Outlaws, para sistemas actuales. Comparte origen con DarkXL, pero es una reescritura completa centrada en la fidelidad al original. Dark Forces se puede jugar de principio a fin, con toda la IA, las armas, los objetos y la música iMUSE, y con los mods de la comunidad, que se cargan desde la carpeta Mods; Outlaws todavía no es jugable y llegará con la versión 2.0. A 320×200 usa el renderizador por software original; aparte tiene otro por software en coma flotante con modo panorámico, ultrapanorámico incluido, y resoluciones mucho más altas, y uno por GPU. Amplía los límites del motor, lo que evita la mayoría de los fallos visuales de tipo HOM («hall of mirrors») en los mods más complejos, y añade controles reasignables, mando, vista libre con el ratón, retícula, una IA de Boba Fett mejorada, guardado libre compatible con los puntos de control y las vidas del original, subtítulos, SoundFonts y un OPL3 emulado. Todo eso se puede desactivar para jugar como en DOS, pero a más fotogramas. Desde la 1.10 (17 de julio de 2024) reconoce los datos de Dark Forces Remaster y usa sus texturas, sprites y HUD en alta definición, y desde la 1.22.000 (23 de marzo de 2025) incluye un editor de niveles en fase alfa. La última versión es la 1.22.420 (10 de septiembre de 2025), para Windows; en Linux se instala desde Flathub o se compila. Después, el repositorio sumó la compilación en macOS (enero) y las escenas en vídeo del Remaster (julio)."
+  en: "The Force Engine: a reverse-engineered rebuild of the Jedi Engine, the engine behind Star Wars: Dark Forces and Outlaws, for modern systems. It shares a legacy with DarkXL, but it’s a complete rewrite focused on accuracy. Dark Forces can be played from start to finish, with all the AI, weapons, items, and iMUSE music, along with community mods, which load from the Mods folder; Outlaws isn’t playable yet and is planned for version 2.0. At 320×200 it uses the original software renderer; besides that, it has a floating-point software renderer with widescreen, ultrawide included, and much higher resolutions, plus a GPU renderer. It raises the engine’s limits, which removes most HOM (“hall of mirrors”) glitches in advanced mods, and adds rebindable controls, controller support, mouselook, an aiming reticle, improved Boba Fett AI, free saving that works with the original checkpoints and lives, captions, SoundFonts, and an emulated OPL3. All of it can be turned off to play as on DOS, only at higher frame rates. Since 1.10 (July 17, 2024) it recognizes Dark Forces Remaster data and uses its HD textures, sprites, and HUD, and since 1.22.000 (March 23, 2025) it includes a level editor in alpha. The latest release is 1.22.420 (September 10, 2025), for Windows; on Linux it’s installed from Flathub or built from source. Since then, the repository has added macOS builds (January) and the Remaster’s video cutscenes (July)."
+requirements:
+  es: "Tu propia copia instalada de Star Wars: Dark Forces (a la venta en GOG y Steam) o de Dark Forces Remaster; encuentra sola las instalaciones de GOG y Steam. Además, una tarjeta gráfica con OpenGL 3.3 y Windows 7 o posterior de 64 bits, Linux o macOS (compilándolo); en Windows puede hacer falta el paquete redistribuible de Visual C++ (x64)."
+  en: "Your own installed copy of Star Wars: Dark Forces (sold on GOG and Steam) or Dark Forces Remaster; it finds GOG and Steam installs on its own. Plus an OpenGL 3.3 graphics card and 64-bit Windows 7 or later, Linux, or macOS (building it yourself); on Windows you may need the Visual C++ Redistributable (x64)."
+tags:
+  - x86
+  - fps
+  - widescreen
+  - 60fps+
+  - mods
+  - hd-assets
+  - reverse-engineering

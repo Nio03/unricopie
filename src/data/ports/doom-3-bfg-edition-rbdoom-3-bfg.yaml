@@ -1,0 +1,25 @@
+name: "Doom 3: BFG Edition (RBDOOM-3-BFG)"
+category: source-port
+console: pc
+status: fully
+repo: RobertBeckebans/RBDOOM-3-BFG
+originalDeveloper: id Software
+year: 2012
+desc:
+  es: "RBDOOM-3-BFG: port de Doom 3: BFG Edition que parte del código fuente que id Software publicó en 2012 y que Robert Beckebans moderniza desde ese año, con aportaciones de más de 40 personas; quiere acercar su tecnología a la de Doom (2016) sin cambiar la jugabilidad de Doom 3. Dibuja con Direct3D 12 o Vulkan a través de NVRHI y añade renderizado basado en física (PBR), iluminación global precalculada que aclara las zonas que quedaban completamente negras, sombras suaves, HDR con mapeo de tonos ACES, SMAA y TAA, oclusión ambiental, reflejos en espacio de pantalla y modos de imagen retro que imitan al Commodore 64, el Amstrad CPC, la Mega Drive y la PlayStation. Reproduce los vídeos Bink, permite saltar las cinemáticas y arregla el código de red para jugar con amigos por IP. Para mods admite mapas de TrenchBroom (con una versión adaptada del editor en la descarga), modelos glTF y OBJ, materiales PBR y paquetes .pk4. La 1.6.0 (10 de mayo de 2025) añadió los modos retro, la oclusión por software de Intel (MOC), sangre con reflejos y un editor de luces nuevo. Uno de sus más de 2700 commits, de julio de 2026, lleva a Claude como coautor. El repositorio incluye archivos de texto del juego (declaraciones de entidades, materiales y scripts), y la descarga, de unos 1,6 GB, trae además la iluminación global precalculada para sus mapas, que es opcional: sin ella, el motor usa una sonda de entorno de reserva incluida en el ejecutable."
+  en: "RBDOOM-3-BFG: a port of Doom 3: BFG Edition built on the source code id Software released in 2012, which Robert Beckebans has been modernizing since that year with contributions from more than 40 people; it aims to bring its technology closer to Doom (2016) without changing Doom 3’s gameplay. It renders with Direct3D 12 or Vulkan through NVRHI and adds physically based rendering (PBR), baked global illumination that lights up the formerly pitch-black areas, soft shadows, HDR with ACES tone mapping, SMAA and TAA, ambient occlusion, screen-space reflections, and retro rendering modes that mimic the Commodore 64, Amstrad CPC, Mega Drive/Genesis, and PlayStation. It plays the Bink videos, lets you skip cutscenes, and fixes the netcode for playing with friends over IP. For modding it supports TrenchBroom maps (with an adapted build of the editor in the download), glTF and OBJ models, PBR materials, and .pk4 packages. Version 1.6.0 (May 10, 2025) added the retro modes, Intel’s Masked Software Occlusion Culling (MOC), reflective blood, and a new light editor. One of its more than 2,700 commits, from July 2026, lists Claude as a co-author. The repository includes some of the game’s text files (entity declarations, materials, and scripts), and the roughly 1.6 GB download also carries precomputed global illumination for the game’s maps, which is optional: without it, the engine falls back to an environment probe built into the executable."
+requirements:
+  es: "La carpeta base de tu propia copia de Doom 3: BFG Edition, de Steam o GOG, actualizada a la última versión. Además, Windows de 64 bits con una tarjeta gráfica con Direct3D 12 o Vulkan; en Linux y macOS hay que compilarlo y copiar los archivos .pk4 de la descarga para Windows."
+  en: "The base folder from your own copy of Doom 3: BFG Edition, from Steam or GOG, patched to the latest version. Plus 64-bit Windows with a Direct3D 12 or Vulkan graphics card; on Linux and macOS you have to build it and copy the .pk4 files from the Windows download."
+tags:
+  - x86
+  - fps
+  - vulkan
+  - multiplayer
+  - mods
+  - ai-assisted
+links:
+  - label:
+      es: "Página en ModDB"
+      en: "ModDB page"
+    url: https://www.moddb.com/mods/rbdoom-3-bfg

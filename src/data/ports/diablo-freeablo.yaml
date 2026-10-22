@@ -1,0 +1,16 @@
+name: "Diablo (Freeablo)"
+category: fan-remake
+console: pc
+status: experimental
+abandoned: true
+repo: wheybags/freeablo
+originalDeveloper: Blizzard North
+year: 1996
+desc:
+  es: "Freeablo: reimplementación moderna y multiplataforma del motor de Diablo, que se juega con los archivos de datos del original. Se puede recorrer el pueblo, con sus personajes animados y sus diálogos, bajar por mazmorras generadas en todos los niveles, luchar cuerpo a cuerpo (a distancia y con magia, de forma limitada), recoger el botín de los monstruos, comprar y vender a Griswold, subir de nivel, guardar y cargar partidas y jugar en multijugador. El código posterior a la última versión suma la generación de objetos mágicos, pociones, la curación de Pepin, el hechizo de portal y zoom con la rueda del ratón. Su autor lo archivó el 13 de abril de 2023: perdió la motivación al ver el avance del equipo de Devilution, que llegó antes al final. La última versión es la 0.4 (6 de marzo de 2020), para Windows, Linux y macOS."
+  en: "Freeablo: a modern, cross-platform reimplementation of the Diablo engine, played with the original game’s data files. You can walk around town, with its animated characters and dialogue, go down through generated dungeons on every level, fight in melee (with limited ranged combat and magic), pick up monster loot, buy from and sell to Griswold, level up, save and load, and play multiplayer. The code after the latest release adds magic item generation, potions, healing at Pepin, the Town Portal spell, and mouse wheel zoom. Its author archived it on April 13, 2023, having lost motivation on seeing the progress of the Devilution team, who got to the finish first. The latest release is 0.4 (March 6, 2020), for Windows, Linux, and macOS."
+requirements:
+  es: "DIABDAT.MPQ y Diablo.exe de tu propia copia de Diablo, actualizada a la 1.09; también vale la versión de GOG. Además, Windows, Linux o macOS."
+  en: "DIABDAT.MPQ and Diablo.exe from your own copy of Diablo, patched to 1.09; the GOG release works too. Plus Windows, Linux, or macOS."
+tags:
+  - multiplayer

@@ -1,0 +1,20 @@
+name: "RollerCoaster Tycoon 2 (OpenRCT2)"
+category: fan-remake
+console: pc
+status: fully
+repo: OpenRCT2/OpenRCT2
+homepage: https://openrct2.io/
+originalDeveloper: Chris Sawyer
+year: 2002
+desc:
+  es: "OpenRCT2: reimplementación de código abierto de RollerCoaster Tycoon 2, el juego que Chris Sawyer escribió en ensamblador x86. Intenta ofrecer todo lo del original lo más fielmente posible y lo amplía con una interfaz mejorada, mejor comportamiento de visitantes y empleados, más herramientas de edición, límites más altos, fotogramas sin tope y multijugador cooperativo, con grupos y permisos. Recupera además mecánicas del primer RollerCoaster Tycoon que no estaban en la secuela, como la herramienta de montañas durante la partida, el objetivo «have fun» y las montañas rusas lanzadas que no pasan por la estación, y con los archivos del primer juego y sus expansiones puede cargar sus escenarios. Admite complementos escritos en JavaScript y hay versiones para Windows, macOS y Linux, además de un launcher que lo mantiene actualizado. La 0.5.6 (10 de octubre) permite cambiar el color de las superficies y los bordes del terreno, añade 18 colores, cinco de ellos de la primera versión de RollerCoaster Tycoon, y estrena secuencia de título. Uno de sus más de 30 000 commits, del 20 de julio, lleva al agente de Cursor como coautor."
+  en: "OpenRCT2: an open-source reimplementation of RollerCoaster Tycoon 2, the game Chris Sawyer wrote in x86 assembly. It aims to provide everything in the original as faithfully as possible and extends it with an improved interface, better guest and staff behavior, more editing tools, higher limits, uncapped frame rates, and cooperative multiplayer with groups and permissions. It also brings back mechanics from the first RollerCoaster Tycoon that the sequel dropped, such as the in-game mountain tool, the “have fun” objective, and launched coasters that don’t pass through the station, and with the first game’s files and its expansions it can load that game’s scenarios. It supports plugins written in JavaScript, and there are builds for Windows, macOS, and Linux, plus a launcher that keeps it up to date. Version 0.5.6 (October 10) lets you recolor terrain surfaces and edges, adds 18 colors, five of them from the original release of RollerCoaster Tycoon, and introduces a new title sequence. One of its more than 30,000 commits, from July 20, lists the Cursor agent as a co-author."
+requirements:
+  es: "Los archivos de tu propia copia de RollerCoaster Tycoon 2, del disco original o de las versiones de GOG o Steam; también vale RollerCoaster Tycoon Classic. Para los escenarios del primer juego hace falta también tu copia de RollerCoaster Tycoon con sus expansiones. Además, Windows 7 o posterior, macOS 10.13 o posterior, o Linux, en una arquitectura little-endian."
+  en: "The files from your own copy of RollerCoaster Tycoon 2, from the original disc or the GOG or Steam release; RollerCoaster Tycoon Classic works too. The first game’s scenarios also need your copy of RollerCoaster Tycoon with its expansions. Plus Windows 7 or later, macOS 10.13 or later, or Linux, on a little-endian architecture."
+tags:
+  - x86
+  - 60fps+
+  - multiplayer
+  - mods
+  - ai-assisted

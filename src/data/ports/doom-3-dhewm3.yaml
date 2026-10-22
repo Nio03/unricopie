@@ -1,0 +1,19 @@
+name: "Doom 3 (dhewm3)"
+category: source-port
+console: pc
+status: fully
+repo: dhewm/dhewm3
+homepage: https://dhewm3.org/
+originalDeveloper: id Software
+year: 2004
+desc:
+  es: "dhewm 3: port de Doom 3 a partir del código fuente que id Software publicó con licencia GPL, con el objetivo de llevarlo mediante SDL a todas las plataformas posibles; funciona al menos en Windows, Linux, macOS y FreeBSD. Corrige los fallos del original a medida que se identifican, sin cambiar la jugabilidad. Es de 64 bits, usa SDL para el sistema, OpenGL y la entrada, y OpenAL para el sonido, con reverberación al estilo EAX en cualquier equipo gracias a OpenAL EFX. Añade mando (sin vibración), mejor soporte de panorámico y de cualquier resolución, y un menú de opciones avanzado que se abre con F10. En la 1.5.1 recuperó las sombras por el método «Carmack’s Reverse», que el código publicado no incluía por una patente ya caducada. Admite mods, con su propio SDK, y cada versión trae aparte una descarga con mods adaptados, como Blood Mod, Grimm o LibreCoop. La 1.5.5 (8 de junio) eliminó varias causas de microtirones, admite interfaces panorámicas y texturas BC7, y sumó versiones para Linux ARM64. Sus normas solo aceptan código escrito por personas: no admiten contribuciones hechas con IA generativa. Aparte publica, como descarga opcional, versiones panorámicas de varias interfaces (menú principal, PDA y HUD) del juego base, de Resurrection of Evil y del mod The Lost Mission, que hizo Arl adaptando los archivos de interfaz del juego."
+  en: "dhewm 3: a Doom 3 port built on the source code id Software released under the GPL, aiming to bring the game through SDL to every suitable platform; it’s known to work on at least Windows, Linux, macOS, and FreeBSD. It fixes bugs from the original as they’re identified, without changing the gameplay. It’s 64-bit, uses SDL for OS support, OpenGL, and input, and OpenAL for audio, with EAX-like reverb on any hardware through OpenAL EFX. It adds gamepad support (no rumble), better widescreen and arbitrary resolution support, and an advanced settings menu opened with F10. In 1.5.1 it restored “Carmack’s Reverse” stencil shadows, which the released code left out because of a now-expired patent. It supports mods, with its own SDK, and every release comes with a separate download of adapted mods, such as Blood Mod, Grimm, and LibreCoop. Version 1.5.5 (June 8) removed several causes of microstutter, supports widescreen GUIs and BC7 textures, and added Linux Arm64 builds. Its rules only accept human-written code: contributions made with generative AI aren’t allowed. It also publishes, as an optional download, widescreen versions of several GUIs (main menu, PDA, and HUD) for the base game, Resurrection of Evil, and the mod The Lost Mission, made by Arl by adapting the game’s interface files."
+requirements:
+  es: "Los archivos de tu propia copia de Doom 3 (la carpeta base, con pak000.pk4 a pak008.pk4), actualizada a la 1.3.1; también admite Resurrection of Evil. No vale Doom 3: BFG Edition. Además, Windows (las versiones oficiales son de 32 bits), Linux x86-64 o ARM64 con SDL 2.0.12 o posterior, o macOS (Intel o Apple Silicon) con la versión firmada de Mac Source Ports."
+  en: "The files from your own copy of Doom 3 (the base folder, with pak000.pk4 to pak008.pk4), patched to 1.3.1; Resurrection of Evil is supported too. Doom 3: BFG Edition doesn’t work. Plus Windows (the official builds are 32-bit), x86-64 or Arm64 Linux with SDL 2.0.12 or later, or macOS (Intel or Apple silicon) with the signed build from Mac Source Ports."
+tags:
+  - fps
+  - widescreen
+  - mods
+  - human-driven

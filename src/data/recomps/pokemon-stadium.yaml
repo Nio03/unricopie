@@ -1,11 +1,12 @@
 name: Pokémon Stadium
 console: n64
 status: playable
+abandoned: true
 repo: mstan/PokemonStadiumRecomp
 toolchain: N64Recomp
 desc:
-  es: "Recompilación de Pokémon Stadium (versión estadounidense 1.0) con N64Recomp, compatible con el Transfer Pak y con la GB Tower. Forma parte del ecosistema R.A.I.D. 83 de sus últimos 100 commits llevan a Claude o Codex como coautor."
-  en: "Recompilation of Pokémon Stadium (US version 1.0) with N64Recomp, with Transfer Pak and GB Tower support. Part of the R.A.I.D. ecosystem. 83 of its last 100 commits list Claude or Codex as a co-author."
+  es: "Recompilación de Pokémon Stadium (versión estadounidense 1.0) con N64Recomp, compatible con el Transfer Pak y con la GB Tower. Forma parte del ecosistema R.A.I.D. 83 de sus últimos 100 commits llevan a Claude o Codex como coautor. Su autor archivó el repositorio en agosto de 2026: se puede descargar, pero ya no recibe cambios."
+  en: "Recompilation of Pokémon Stadium (US version 1.0) with N64Recomp, with Transfer Pak and GB Tower support. Part of the R.A.I.D. ecosystem. 83 of its last 100 commits list Claude or Codex as a co-author. Its author archived the repository in August 2026: it can still be downloaded but gets no further changes."
 requirements:
   es: "Una ROM de Pokémon Stadium (N64, versión estadounidense 1.0, .z64)."
   en: "A Pokémon Stadium ROM (N64, US version 1.0, .z64)."

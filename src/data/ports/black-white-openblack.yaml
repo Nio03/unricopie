@@ -1,0 +1,16 @@
+name: "Black & White (openblack)"
+category: fan-remake
+console: pc
+status: experimental
+repo: openblack/openblack
+originalDeveloper: Lionhead Studios
+year: 2001
+desc:
+  es: "openblack: reimplementación de código abierto de Black & White, el simulador de dios de Lionhead Studios, escrita en C++ moderno y que funciona con los archivos del juego original. Aún está en una fase temprana: la 0.1.0 (4 de septiembre de 2024), su primera versión, reproduce el movimiento de cámara del original, dibuja el terreno a más resolución gracias a una textura intermedia, tiene modelos con animaciones y mallas deformables, sonido, cielo dinámico, búsqueda de caminos para los aldeanos, física con Bullet, una primera máquina de estados para la IA y la máquina virtual LHVM de los scripts del juego, reconstruida por ingeniería inversa; los colores del cielo, el agua y otros elementos aún no coinciden con los del original, y no tiene lanzador ni opciones globales. Hay versiones para Windows, macOS y Linux de 64 bits, que se descargan de su integración continua, y versiones experimentales para Android, iOS y navegador. En octubre de 2026 pasó a SDL3 y cambió su renderizador basado en bgfx por uno sobre la API de gráficos de SDL3, con shaders escritos en Slang."
+  en: "openblack: an open-source reimplementation of Black & White, Lionhead Studios’ god game, written in modern C++ and running on the original game’s files. It’s still at an early stage: 0.1.0 (September 4, 2024), its first release, recreates the original’s camera movement, draws the landscape at a higher resolution thanks to an intermediate texture, and has animated models and morphable meshes, audio, a dynamic sky, pathfinding for villagers, physics through Bullet, an early AI state machine, and the LHVM virtual machine for the game’s scripts, reverse engineered; the colors of the sky, the water, and other elements don’t match the original yet, and there’s no launcher or global settings. There are 64-bit Windows, macOS, and Linux builds, downloaded from its continuous integration, and experimental builds for Android, iOS, and the browser. In October 2026 it moved to SDL3 and replaced its bgfx-based renderer with one built on SDL3’s GPU API, with shaders written in Slang."
+requirements:
+  es: "Las carpetas Audio, Data y Scripts de tu propia copia de Black & White, instalada desde el CD original con los parches oficiales 1.10 y 1.2 (el parche no oficial 1.42 también vale; el 1.3 no hay que instalarlo); en Linux y macOS se instala con Wine. La ruta se indica con el parámetro -g. Además, Windows, macOS o Linux de 64 bits."
+  en: "The Audio, Data, and Scripts folders from your own copy of Black & White, installed from the original CD with official patches 1.10 and 1.2 (the unofficial 1.42 patch is fine too; don’t install 1.3); on Linux and macOS you install it with Wine. The path is passed with the -g parameter. Plus 64-bit Windows, macOS, or Linux."
+tags:
+  - x86
+  - reverse-engineering

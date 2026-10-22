@@ -1,0 +1,17 @@
+name: "The Elder Scrolls II: Daggerfall (Daggerfall Unity)"
+category: fan-remake
+console: dos
+status: fully
+repo: Interkarma/daggerfall-unity
+homepage: https://www.dfworkshop.net
+originalDeveloper: Bethesda Softworks
+year: 1996
+desc:
+  es: "Daggerfall Unity: recreación de código abierto de Daggerfall en el motor Unity, hecha por Daggerfall Workshop, que toma de la versión de DOS las texturas, los modelos 3D y los sonidos. Funciona de forma nativa, sin emulación, en Windows, Linux y macOS. Dibuja a alta resolución y en panorámico manteniendo el estilo clásico, con la iluminación de un motor actual y mucha más distancia de dibujado, y tiene un modo retro opcional a 320×200 o 640×400 con paletas VGA. Añade controles en primera persona suaves, cientos de correcciones y mejoras de comodidad, y un sistema de mods con una comunidad activa que publica gráficos nuevos, misiones, gremios y cambios de reglas; las traducciones también llegan como mods. La 1.0 (30 de diciembre de 2023) dio por implementadas todas las funciones del juego y la 1.1 trajo un tutorial nuevo; la última es la 1.1.1 (9 de mayo de 2024), que se volvió a publicar el 5 de octubre de 2025 con un arreglo de seguridad del motor Unity. El repositorio incluye además los guiones de las misiones del juego convertidos a texto, los textos de las biografías de personaje (con correcciones) y la música del juego en MIDI."
+  en: "Daggerfall Unity: an open-source recreation of Daggerfall in the Unity engine, made by Daggerfall Workshop, that takes the textures, 3D models, and sounds from the DOS version. It runs natively, without emulation, on Windows, Linux, and macOS. It renders at high resolutions and in widescreen while keeping the classic style, with modern engine lighting and much longer draw distances, and has an optional retro mode at 320×200 or 640×400 with VGA palettes. It adds smooth first-person controls, hundreds of fixes and quality-of-life improvements, and mod support with an active community that publishes new graphics, quests, guilds, and rule changes; translations come as mods too. Version 1.0 (December 30, 2023) marked every game feature as implemented, and 1.1 brought a new tutorial; the latest release is 1.1.1 (May 9, 2024), re-uploaded on October 5, 2025 with a Unity engine security fix. The repository also includes the game’s quest scripts converted to text, the character biography texts (with fixes), and the game’s music as MIDI."
+requirements:
+  es: "Una instalación completa de Daggerfall para DOS (la carpeta ARENA2 con todos sus archivos .VID), que Bethesda regala: está gratis en Steam. Además, Windows, Linux o macOS, un procesador equivalente a un Intel i3 de la generación Skylake, una tarjeta gráfica con DirectX 11 y 1 GB de memoria de vídeo, y 2 GB de RAM; los mods pueden subir mucho los requisitos."
+  en: "A complete installation of DOS Daggerfall (the ARENA2 folder with all its .VID files), which Bethesda gives away: it’s free on Steam. Plus Windows, Linux, or macOS, a CPU equivalent to a Skylake Intel i3, a DirectX 11 graphics card with 1 GB of video memory, and 2 GB of RAM; mods can raise the requirements considerably."
+tags:
+  - widescreen
+  - mods

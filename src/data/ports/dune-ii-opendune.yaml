@@ -1,0 +1,16 @@
+name: "Dune II (OpenDUNE)"
+category: decomp-port
+console: dos
+status: fully
+repo: OpenDUNE/OpenDUNE
+originalDeveloper: Westwood Studios
+year: 1992
+desc:
+  es: "OpenDUNE: recreación de código abierto de Dune II, el juego de estrategia en tiempo real de Westwood Studios, para que funcione de forma nativa en sistemas actuales. Empezó en 2009 como una decompilación del ejecutable original, que al principio corría sobre un emulador de x86 (libemu) y que el equipo fue reescribiendo en C hasta que la 0.6 (2011) convirtió todo el juego y quitó el emulador. En su modo mejorado, el predeterminado, corrige decenas de fallos del original, como los refuerzos que solo llegaban una vez, los edificios que se degradaban aunque estuvieran sobre losas o la IA que apenas respondía cuando atacabas sus edificios, y un ajuste permite jugarlo exactamente como el original, fallos incluidos. Escala la imagen hasta 4x con filtros Scale2x o hqx, limita la tasa a 60 fps por defecto, tiene pantalla completa y toca la música por MIDI, también con una Roland MT-32 emulada (Munt) o con FluidSynth. Está en inglés, francés y alemán. Corre en Windows, Linux, FreeBSD y macOS, y también en Atari ST, STE, TT y Falcon, OS/2 y Haiku. La última versión publicada es la 0.9 (25 de mayo de 2018), y el proyecto sigue recibiendo cambios: en 2026 añadió la compatibilidad con los Atari ST y STE de serie."
+  en: "OpenDUNE: an open-source re-creation of Dune II, Westwood Studios’ real-time strategy game, so it runs natively on modern systems. It started in 2009 as a decompilation of the original executable, which at first ran on an x86 emulator (libemu) and which the team kept rewriting in C until version 0.6 (2011) converted the whole game and dropped the emulator. In its enhanced mode, the default, it fixes dozens of bugs in the original, such as reinforcements that only arrived once, buildings that degraded even on concrete slabs, or an AI that barely responded when you attacked its buildings, and a setting lets you play it exactly like the original, bugs included. It scales the image up to 4x with Scale2x or hqx filters, caps the frame rate at 60 fps by default, has fullscreen, and plays music over MIDI, including on an emulated Roland MT-32 (Munt) or with FluidSynth. It’s in English, French, and German. It runs on Windows, Linux, FreeBSD, and macOS, as well as Atari ST, STE, TT, and Falcon, OS/2, and Haiku. The latest release is 0.9 (May 25, 2018), and the project still gets changes: in 2026 it added support for stock Atari ST and STE machines."
+requirements:
+  es: "Los archivos de datos de la versión 1.07 de tu propia copia de Dune II para MS-DOS, incluido DUNE2.EXE; valen las tres variantes (eu, hs y us), pero el francés solo funciona con eu y hs, y el alemán solo con eu. Para la música de MT-32 con Munt, también las ROM de la CM-32L. Además, Windows (32 o 64 bits), Linux o FreeBSD con SDL, o macOS."
+  en: "The version 1.07 data files from your own copy of Dune II for MS-DOS, DUNE2.EXE included; all three variants (eu, hs, and us) work, but French only works with eu and hs, and German only with eu. For MT-32 music through Munt, the CM-32L ROMs too. Plus Windows (32- or 64-bit), Linux or FreeBSD with SDL, or macOS."
+tags:
+  - x86
+  - reverse-engineering

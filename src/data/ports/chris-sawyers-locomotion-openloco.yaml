@@ -1,0 +1,17 @@
+name: "Chris Sawyer's Locomotion (OpenLoco)"
+category: fan-remake
+console: pc
+status: fully
+repo: OpenLoco/OpenLoco
+homepage: https://openloco.io/
+originalDeveloper: Chris Sawyer
+year: 2004
+desc:
+  es: "OpenLoco: reimplementación de código abierto de Chris Sawyer’s Locomotion, el simulador de empresas de transporte y sucesor espiritual de Transport Tycoon, que funciona con los datos del juego original. El original estaba escrito en ensamblador x86 sobre el motor de RollerCoaster Tycoon 2; el proyecto fue pasando el juego a C++ función a función, con una capa de compatibilidad para convivir con el código original, y en diciembre de 2025 terminó: la 25.12 (20 de diciembre) trajo las primeras versiones nativas e independientes de 64 bits para Windows, Linux y macOS. Quiere mejorar el juego como OpenTTD mejoró Transport Tycoon y OpenRCT2 RollerCoaster Tycoon, y ya añade ventanas redimensionables, niveles de zoom de 2x y 4x, mapas de alturas en PNG de cualquier tamaño, colocación de señales a intervalos fijos a lo largo de la vía, una gramola para elegir la música y arreglos de fallos del original. Su subproyecto Open Graphics crea objetos de reemplazo libres para el contenido del juego (vehículos, estaciones, vías, carreteras, la interfaz) y en septiembre empezó a sumar objetos nuevos con la North American Expansion. Sigue limitado por el formato de partidas del original (SV5/SC5) hasta tener uno propio, y aún no tiene multijugador. Publica una versión casi cada mes; la última es la 26.09 (18 de septiembre)."
+  en: "OpenLoco: an open-source reimplementation of Chris Sawyer’s Locomotion, the transport company simulator and spiritual successor to Transport Tycoon, that runs on the original game’s data. The original was written in x86 assembly on top of the RollerCoaster Tycoon 2 engine; the project moved the game to C++ function by function, with a compatibility layer to coexist with the original code, and finished in December 2025: 25.12 (December 20) brought the first native, standalone 64-bit builds for Windows, Linux, and macOS. It aims to improve the game the way OpenTTD improved Transport Tycoon and OpenRCT2 improved RollerCoaster Tycoon, and it already adds resizable windows, 2x and 4x zoom levels, PNG heightmaps of any size, signal placement at fixed intervals along the track, a jukebox for choosing music, and fixes for bugs in the original. Its Open Graphics subproject creates free replacement objects for the game’s content (vehicles, stations, tracks, roads, the interface), and in September it started adding new objects with the North American Expansion. It’s still bound by the original save format (SV5/SC5) until it has its own, and it doesn’t have multiplayer yet. It puts out a release almost every month; the latest is 26.09 (September 18)."
+requirements:
+  es: "Los archivos de tu propia copia de Chris Sawyer’s Locomotion, que se vende en Steam y GOG; en Linux encuentra por sí mismo las instalaciones habituales de Steam y GOG. Además, Windows (de 64 o 32 bits), Linux de 64 bits (en AppImage) o macOS con Apple Silicon; las versiones para macOS no están firmadas ni notarizadas."
+  en: "The files from your own copy of Chris Sawyer’s Locomotion, sold on Steam and GOG; on Linux it looks for the usual Steam and GOG install locations on its own. Plus Windows (64- or 32-bit), 64-bit Linux (as an AppImage), or Apple silicon macOS; the macOS builds are unsigned and unnotarized."
+tags:
+  - x86
+  - reverse-engineering

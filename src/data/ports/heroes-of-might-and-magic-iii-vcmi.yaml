@@ -1,0 +1,20 @@
+name: "Heroes of Might and Magic III (VCMI)"
+category: fan-remake
+console: pc
+status: fully
+repo: vcmi/vcmi
+homepage: https://vcmi.eu/
+originalDeveloper: New World Computing
+year: 1999
+desc:
+  es: "VCMI - Open Heroes 3: reimplementación del motor de Heroes of Might and Magic III escrita desde cero, de la carga de archivos y el dibujado a la IA y las mecánicas, que usa los gráficos, los sonidos y los textos del juego original. Según su FAQ, casi todas las funciones del original ya están implementadas; corrige algunos fallos conocidos, deja otras cosas como opcionales y su IA para el mapa, Nullkiller, es completamente nueva. Añade resoluciones altas y mejoras de interfaz que rehacen las más populares de HD Mod, un editor de mapas, un generador de mapas aleatorios, multijugador en línea desde un vestíbulo global con turnos simultáneos y temporizadores, además de red local, y un sistema de mods para añadir ciudades, criaturas, héroes, artefactos y hechizos sin límites; el launcher descarga del repositorio del proyecto los mods que elijas, entre ellos partes de Horn of the Abyss y In the Wake of Gods adaptadas por la comunidad. Hay versiones para Windows, macOS y Linux, y también para Android e iOS. La última es la 1.7.5 (15 de agosto); la 1.8.0, en desarrollo, añade el dibujado por GPU, los primeros scripts en Lua y el soporte de la demo del juego. Desde noviembre de 2025, 36 de sus más de 25 000 commits llevan a Claude como coautor, y otros tres, de 2023 y 2025, atribuyen a ChatGPT una traducción y dos arreglos; su guía para colaborar admite la ayuda de la IA si quien envía el cambio lo entiende."
+  en: "VCMI - Open Heroes 3: a from-scratch reimplementation of the Heroes of Might and Magic III engine, from file loading and rendering to AI and game mechanics, that uses the original game’s graphics, sound, and text. According to its FAQ, almost every feature of the original is already implemented; it fixes some known bugs, makes other things optional, and its adventure map AI, Nullkiller, is entirely new. It adds high resolutions and interface improvements that remake the most popular HD Mod features, a map editor, a random map generator, online multiplayer from a global lobby with simultaneous turns and turn timers, plus local network play, and a mod system for adding towns, creatures, heroes, artifacts, and spells without limits; the launcher downloads the mods you choose from the project’s repository, among them community ports of parts of Horn of the Abyss and In the Wake of Gods. There are builds for Windows, macOS, and Linux, and also for Android and iOS. The latest is 1.7.5 (August 15); 1.8.0, in development, adds GPU rendering, initial Lua scripting, and support for the game’s demo. Since November 2025, 36 of its more than 25,000 commits list Claude as a co-author, and three others, from 2023 and 2025, credit ChatGPT with a translation and two fixes; its contribution guidelines accept AI help as long as the contributor understands the change."
+requirements:
+  es: "Los archivos de tu propia copia de Heroes of Might and Magic III, edición Complete o Shadow of Death: el launcher los extrae del instalador sin conexión de GOG (el .exe y el .bin) o los toma de una instalación existente (las carpetas Data, Maps y Mp3). También admite Heroes Chronicles. Además, Windows 7 SP1 o posterior, macOS (Intel o Apple Silicon) o Linux (AppImage para x64 o arm64, o Flathub)."
+  en: "The files from your own copy of Heroes of Might and Magic III, Complete or Shadow of Death edition: the launcher extracts them from the GOG offline installer (the .exe and the .bin) or takes them from an existing install (the Data, Maps, and Mp3 folders). Heroes Chronicles is supported too. Plus Windows 7 SP1 or later, macOS (Intel or Apple silicon), or Linux (AppImage for x64 or arm64, or Flathub)."
+tags:
+  - x86
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted

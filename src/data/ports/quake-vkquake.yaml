@@ -1,0 +1,19 @@
+name: "Quake (vkQuake)"
+category: source-port
+console: dos
+status: fully
+repo: Novum/vkQuake
+originalDeveloper: id Software
+year: 1996
+desc:
+  es: "vkQuake: port de Quake que dibuja con Vulkan en lugar de OpenGL, basado en los ports QuakeSpasm y QuakeSpasm-Spiked, que parten del código fuente que publicó id Software. Ejecuta todos los mods compatibles con QuakeSpasm, como Arcane Dimensions, y el contenido de la reedición de 2021. Frente a QuakeSpasm, renderiza y carga en varios hilos, pasa de 72 Hz sin romper la física, imita el efecto bajo el agua del renderizador por software y admite tanto los modelos clásicos como los mejorados (MD5, como los de la reedición, o MD3), texturas y pieles en color verdadero, antialiasing, filtrado anisotrópico, emulación de color de 8 bits y escalado pixelado, además de un menú de mods. Con una tarjeta gráfica con trazado de rayos añade sombras dinámicas y las luces dinámicas de la reedición. Las versiones de este año han sumado transparencia independiente del orden, SDL3, logros de Steam, un menú para elegir nivel y una consola mejorada; la última, la 1.37.0 (12 de octubre), añadió oclusión ambiental de monstruos y objetos sobre el escenario, una resolución de renderizado aparte de la de los menús y el HUD, mando con giroscopio, flick stick y vibración, y autoguardado en segundo plano. Muchas de estas novedades vienen de Ironwail, otro port de Quake. Hay versiones para Windows (x64, con instalador, y ARM64) y Linux (AppImage); las de macOS las publica Mac Source Ports."
+  en: "vkQuake: a Quake port that renders with Vulkan instead of OpenGL, based on the QuakeSpasm and QuakeSpasm-Spiked ports, which build on the source code id Software released. It runs every mod compatible with QuakeSpasm, such as Arcane Dimensions, and the 2021 re-release content. Compared with QuakeSpasm, it renders and loads on multiple threads, goes past 72 Hz without breaking physics, mimics the software renderer’s underwater effect, and supports both classic and enhanced models (MD5, like the re-release’s, or MD3), true-color textures and skins, anti-aliasing, anisotropic filtering, 8-bit color emulation, and pixelated scaling, plus a mods menu. With a ray-tracing graphics card it adds dynamic shadows and the re-release’s dynamic lights. This year’s releases have added order-independent transparency, SDL3, Steam achievements, a level-selection menu, and an improved console; the latest, 1.37.0 (October 12), added ambient occlusion from monsters and items onto the level, a render resolution separate from the menus and HUD, controller gyro aiming, flick stick, and rumble, and background autosaves. Many of these additions come from Ironwail, another Quake port. There are builds for Windows (x64, with an installer, and Arm64) and Linux (AppImage); the macOS builds are published by Mac Source Ports."
+requirements:
+  es: "Los archivos de tu propia copia de Quake (la carpeta id1 con sus .pak), de la versión original o de la reedición de 2021 (para esta, vkQuake se copia en su carpeta rerelease); encuentra solo las instalaciones de Steam, GOG y Epic Games Store. En Linux, los nombres de los archivos del juego deben ir en minúsculas. Además, una tarjeta gráfica con Vulkan y Windows de 64 bits (con el redistribuible de Visual C++) o Linux con glibc 2.31 o posterior; las sombras y luces dinámicas piden trazado de rayos."
+  en: "The files from your own copy of Quake (the id1 folder with its .pak files), from the original release or the 2021 re-release (for the latter, vkQuake goes into its rerelease folder); it finds Steam, GOG, and Epic Games Store installs on its own. On Linux, the game’s file names must be lowercase. Plus a Vulkan graphics card and 64-bit Windows (with the Visual C++ redistributable) or Linux with glibc 2.31 or later; dynamic shadows and lights need ray tracing."
+tags:
+  - fps
+  - vulkan
+  - ray-tracing
+  - 60fps+
+  - mods

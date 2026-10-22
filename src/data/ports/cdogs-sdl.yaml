@@ -1,0 +1,18 @@
+name: "C-Dogs (C-Dogs SDL)"
+category: source-port
+console: dos
+status: fully
+repo: cxong/cdogs-sdl
+homepage: https://cxong.github.io/cdogs-sdl/
+author: Cong Xu
+originalDeveloper: Ronny Wester
+year: 1997
+desc:
+  es: "C-Dogs SDL: continuación de C-Dogs, el juego de acción y disparos con vista cenital que Ronny Wester hizo para DOS entre 1997 y 2001 y regaló como freeware. Wester liberó el código en 2002; Jeremy Chin y Lucas Martin-King lo pasaron a SDL para los sistemas actuales, y hoy lo mantiene Cong Xu. En 2016 Wester relicenció también con CC BY los gráficos y las campañas originales. Juegan hasta cuatro personas, en cooperativo o a muerte, con pantalla dividida, en red local o con compañeros que lleva la máquina, y trae editores de campañas y de personajes, las campañas clásicas y otras nuevas, como una de Cyberdogs, el juego anterior de Wester; hay además más de 100 campañas hechas por jugadores. Desde la 1.0 carga como campañas los mapas de Wolfenstein 3D y Spear of Destiny de tu propia copia, y desde la 2.4.0, con «Super 2D Noah’s Ark», los de Super 3D Noah’s Ark. La 2.5.0 (16 de octubre) añadió un modo con la relación de aspecto de los píxeles de DOS y las instrucciones de la misión en el menú de pausa. La descarga incluye además los datos del episodio shareware de Wolfenstein 3D, que es de libre distribución."
+  en: "C-Dogs SDL: a continuation of C-Dogs, the overhead run-and-gun game Ronny Wester made for DOS between 1997 and 2001 and gave away as freeware. Wester released the source code in 2002; Jeremy Chin and Lucas Martin-King ported it to SDL for modern systems, and it’s now maintained by Cong Xu. In 2016 Wester also relicensed the original graphics and campaigns under CC BY. Up to four people can play, co-op or deathmatch, in split screen, over a LAN, or with computer-controlled teammates, and it comes with campaign and character editors, the classic campaigns, and new ones such as a Cyberdogs campaign, after Wester’s earlier game; over 100 player-made campaigns are also available. Since 1.0 it loads the Wolfenstein 3D and Spear of Destiny maps from your own copy as campaigns, and since 2.4.0, with “Super 2D Noah’s Ark,” those of Super 3D Noah’s Ark. Version 2.5.0 (October 16) added a DOS pixel aspect ratio mode and the mission briefing in the pause menu. The download also includes the data of the Wolfenstein 3D shareware episode, which is freely distributable."
+requirements:
+  es: "Ninguna copia: el código de C-Dogs es libre desde 2002 y sus gráficos y campañas tienen licencia CC BY desde 2016, así que la descarga trae el juego completo. Las campañas de Wolfenstein 3D, Spear of Destiny y Super 3D Noah’s Ark necesitan los archivos de tu propia copia de esos juegos (encuentra solo las instalaciones de Steam de Wolfenstein 3D y Spear of Destiny). Además, Windows, Linux o macOS."
+  en: "No copy needed: C-Dogs’ code has been free since 2002 and its graphics and campaigns have been CC BY since 2016, so the download contains the whole game. The Wolfenstein 3D, Spear of Destiny, and Super 3D Noah’s Ark campaigns need the files from your own copy of those games (it finds Steam installs of Wolfenstein 3D and Spear of Destiny on its own). Plus Windows, Linux, or macOS."
+tags:
+  - multiplayer
+  - mods

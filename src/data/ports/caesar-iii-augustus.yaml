@@ -1,0 +1,18 @@
+name: "Caesar III (Augustus)"
+category: fan-remake
+console: pc
+status: fully
+repo: Keriew/augustus
+forkOf:
+  label: bvschaik/julius
+  url: https://github.com/bvschaik/julius
+originalDeveloper: Impressions Games
+year: 1998
+desc:
+  es: "Augustus: fork de Julius, la reimplementación de código abierto de Caesar III, que añade cambios de jugabilidad sobre las mejoras de interfaz de Julius. Julius mantiene la lógica y las partidas del original; Augustus carga partidas de Caesar III y de Julius, pero las suyas solo funcionan en Augustus. Añade controles de carretera, pedidos especiales a los mercados, una reserva común de mano de obra, almacenamiento parcial en los almacenes, límites más altos y zoom, y con los años ha sumado monumentos y grandes templos, tabernas, arenas, nuevos recursos (piedra, arena, ladrillos, hormigón y oro), autopistas, depósitos de carros, imperios personalizados y eventos de escenario en el editor de mapas, con gráficos nuevos bajo licencia CC BY-SA 3.0. Todo se explica en un manual en inglés, traducido a otros idiomas. Hay versiones para Windows, Linux (AppImage) y macOS, además de Vita, Switch, Android y navegador. La última versión estable es la 4.0.0 (28 de diciembre de 2023); las compilaciones de desarrollo, que ya incluyen Windows de 64 bits y Flatpak, siguen saliendo, con el último cambio del 16 de octubre. Para actualizar el juego a la 1.0.1.0, el README remite a una página de Julius que ofrece, en otro repositorio de GitHub de ese proyecto, los parches del juego para cada idioma, en su mayoría los oficiales de Sierra."
+  en: "Augustus: a fork of Julius, the open-source reimplementation of Caesar III, that adds gameplay changes on top of Julius’s interface improvements. Julius keeps the original’s logic and saves; Augustus loads Caesar III and Julius saves, but its own saves only work in Augustus. It adds roadblocks, special market orders, a global labor pool, partial warehouse storage, higher limits, and zoom, and over the years it has added monuments and grand temples, taverns, arenas, new resources (stone, sand, bricks, concrete, and gold), highways, cart depots, custom empires, and scenario events in the map editor, with new graphics under a CC BY-SA 3.0 license. Everything is explained in an English manual, translated into other languages. There are builds for Windows, Linux (AppImage), and macOS, plus Vita, Switch, Android, and the browser. The latest stable release is 4.0.0 (December 28, 2023); development builds, which already include 64-bit Windows and Flatpak, keep coming, with the latest change on October 16. To update the game to 1.0.1.0, the README points to a Julius page that offers, in another of that project’s GitHub repositories, the game’s patches for each language, mostly the official Sierra ones."
+requirements:
+  es: "Los archivos de tu propia copia de Caesar III, actualizada a la 1.0.1.0. Augustus se puede copiar en la carpeta del juego o ejecutarse desde otra, y entonces te pide dónde está el juego; necesita poder escribir en esa carpeta, porque guarda allí las partidas. Si quieres, admite los MP3 de alta calidad que Sierra publicó en su web. Además, Windows, Linux o macOS."
+  en: "The files from your own copy of Caesar III, updated to 1.0.1.0. Augustus can be copied into the game folder or run from a separate one, in which case it asks where the game is; it needs write access to that folder, since saves are stored there. Optionally, it supports the high-quality MP3 files Sierra once published on its website. Plus Windows, Linux, or macOS."
+tags:
+  - widescreen

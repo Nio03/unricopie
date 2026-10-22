@@ -1,0 +1,19 @@
+name: "Call of Duty: Modern Warfare 2 (IW4L)"
+category: fan-remake
+console: pc
+status: experimental
+repo: vladtrc/iw4L
+originalDeveloper: Infinity Ward
+year: 2009
+desc:
+  es: "IW4L: entorno de ejecución de código abierto para el multijugador de Call of Duty: Modern Warfare 2 (2009), escrito en Rust con el motor Bevy y wgpu. Carga en su propio motor los mapas, modelos, texturas y armas de tu instalación del juego, sin parchear ni sustituir sus archivos: lee los FastFiles con sus propios lectores, traduce a WGSL los shaders Direct3D 9 originales y ejecuta los scripts GSC del juego, que llevan el desarrollo de la partida. Se pueden recorrer los mapas, jugar contra bots y grabar, reproducir y editar demos. El juego en red usa su propio tráfico UDP, con un servidor maestro QUIC para buscar partidas y retransmitirlas, y la máquina anfitriona simula la partida. Lee también los datos de Modern Warfare 3, Black Ops y Black Ops II si los tienes instalados, y puede cargar sus mapas y armas. La jugabilidad está incompleta: su autor avisa de que faltan cosas y hay fallos y desincronizaciones, y de que el protocolo cambia entre versiones, así que todos los jugadores deben usar la misma. El repositorio se abrió el 13 de septiembre y publica versiones de prueba para Windows cada pocos días; la última es la v0.1.0-demo.23 (16 de octubre). En Linux y macOS se compila desde el código. El zip de Windows va protegido con una contraseña que da el README. Para jugar en línea hace falta el archivo .iw4l-server que reparte el operador de cada servidor, y con él el programa se actualiza solo al arrancar con lo que publique ese servidor. Su README declara que todo el proyecto lo ha escrito un modelo de lenguaje, y 147 de sus 238 commits llevan una IA como coautora, 145 de ellos Claude."
+  en: "IW4L: an open-source runtime for the multiplayer of Call of Duty: Modern Warfare 2 (2009), written in Rust with the Bevy engine and wgpu. It loads the maps, models, textures, and weapons from your game installation into its own engine, without patching or replacing its files: it reads the FastFiles with its own readers, translates the original Direct3D 9 shaders to WGSL, and runs the game’s GSC scripts, which drive the match flow. You can explore maps, fight bots, and record, play back, and edit demos. Networking uses its own UDP traffic, with a QUIC master server for finding and relaying games, and the host simulates the match. It also reads Modern Warfare 3, Black Ops, and Black Ops II data if you have them installed, and can load their maps and weapons. Gameplay is incomplete: the author warns of missing behavior, bugs, and desyncs, and that the protocol changes between versions, so every player needs the same one. The repository opened on September 13 and publishes test builds for Windows every few days; the latest is v0.1.0-demo.23 (October 16). On Linux and macOS you build it from source. The Windows zip is password-protected, with the password given in the README. Online play needs the .iw4l-server file each server’s operator hands out, and with it the program updates itself on launch with whatever that server publishes. Its README states that the whole project is written by a language model, and 147 of its 238 commits list an AI as a co-author, 145 of them Claude."
+requirements:
+  es: "Tu propia instalación de Call of Duty: Modern Warfare 2 (2009) con los datos del multijugador; en Windows encuentra sola la de Steam. Modern Warfare 3, Black Ops y Black Ops II son opcionales. Además, Windows para la versión publicada; en Linux y macOS, compilarlo con Rust."
+  en: "Your own installation of Call of Duty: Modern Warfare 2 (2009) with its multiplayer data; on Windows it finds the Steam install on its own. Modern Warfare 3, Black Ops, and Black Ops II are optional. Plus Windows for the released build; on Linux and macOS, building it with Rust."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - reverse-engineering
+  - ai-assisted

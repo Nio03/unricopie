@@ -1,0 +1,19 @@
+name: "Dungeon Keeper (KeeperFX)"
+category: decomp-port
+console: pc
+status: fully
+repo: dkfans/keeperfx
+homepage: https://keeperfx.net/
+originalDeveloper: Bullfrog Productions
+year: 1997
+desc:
+  es: "KeeperFX (Dungeon Keeper Fan eXpansion): versión de Dungeon Keeper reescrita por sus fans que corrige, mejora y moderniza el juego. Tomasz Lis (Mefistotelis) la empezó en abril de 2008 como una DLL hecha a partir del ejecutable de Dungeon Keeper Gold, cuyo código se fue decompilando y reescribiendo; el 28 de diciembre de 2022 se reescribieron las últimas partes del código original y KeeperFX pasó a ser un programa propio, sin la DLL. Añade resoluciones más altas, más fotogramas con los gráficos separados de la lógica del juego, controles modernizados y mando, muchos fallos corregidos, una IA mejorada, multijugador por internet y campañas, mapas, criaturas y trampas nuevas, además de muchas opciones para hacer mapas y mods, con guiones en Lua. Está en 17 idiomas, algunos incompletos. La 1.4.0 (4 de julio) rehízo el multijugador: lista las partidas abiertas, admite hasta cuatro jugadores, aguanta latencias altas y no hace falta abrir puertos. Según su wiki, GOG también lo ofrece como «One-click Mod». También según su wiki, el paquete completo incluye parte de los datos originales de Dungeon Keeper, muchos de ellos modificados o rehechos. Dos de sus commits, de agosto de 2025, dicen que Claude Code puso nombre a campos que no lo tenían."
+  en: "KeeperFX (Dungeon Keeper Fan eXpansion): a fan-rewritten version of Dungeon Keeper that fixes, enhances, and modernizes the game. Tomasz Lis (Mefistotelis) started it in April 2008 as a DLL made from the Dungeon Keeper Gold executable, whose code was gradually decompiled and rewritten; on December 28, 2022, the last parts of the original code were rewritten and KeeperFX became a program of its own, with no DLL. It adds higher resolutions, higher frame rates with graphics decoupled from game logic, modernized controls and controller support, many bug fixes, improved AI, online multiplayer, and new campaigns, maps, creatures, and traps, plus many mapmaking and modding options, with Lua scripting. It’s available in 17 languages, some of them partial. Version 1.4.0 (July 4) reworked multiplayer: it lists open lobbies, supports up to four players, copes with high ping, and needs no port forwarding. According to its wiki, GOG also offers it as a “One-click Mod.” Also according to its wiki, the complete package includes some of the original Dungeon Keeper data, many of those files modified or remade. Two of its commits, from August 2025, say Claude Code named previously unnamed fields."
+requirements:
+  es: "Unos pocos archivos de tu propia copia de Dungeon Keeper: del CD original (en inglés o multilingüe, también el de Dungeon Keeper Gold) o de las versiones de GOG, Steam o EA. El launcher los copia solo; son 16 (paletas, los dos archivos slab y tres bancos de sonido). La expansión The Deeper Dungeons por sí sola no los trae. Además, Windows 7, 10 u 11; el instalador web necesita Windows 10 o posterior."
+  en: "A few files from your own copy of Dungeon Keeper: from the original CD (English or multilingual, Dungeon Keeper Gold included) or the GOG, Steam, or EA release. The launcher copies them on its own; there are 16 of them (palettes, the two slab files, and three sound banks). The Deeper Dungeons add-on alone doesn’t have them. Plus Windows 7, 10, or 11; the web installer needs Windows 10 or later."
+tags:
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted

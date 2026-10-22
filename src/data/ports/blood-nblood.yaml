@@ -1,0 +1,20 @@
+name: "Blood (NBlood)"
+category: fan-remake
+console: dos
+status: fully
+repo: NBlood/NBlood
+author: "Nuke.YKT, sirlemonhead, NoOne, tmyqlfpir, …"
+originalDeveloper: Monolith Productions
+year: 1997
+desc:
+  es: "NBlood: port de Blood y de su expansión Cryptic Passage reconstruido por ingeniería inversa y montado sobre la tecnología de EDuke32, el port de Duke Nukem 3D que usa el motor Build de Ken Silverman; en él trabajan también desarrolladores de EDuke32 como Hendricks266 y TerminX. Si tienes instalada la versión digital de Steam o GOG, la encuentra sin copiar nada, y admite los datos de Blood: Fresh Supply. Puede usar la música del CD en FLAC u OGG en lugar del MIDI y las escenas de vídeo del CD original, y trae gráficos adaptados a pantalla panorámica hechos por miembros de la comunidad. Tiene un modo vanilla estricto, vóxeles opcionales, mando con vibración y multijugador. En el mismo repositorio están Rednukem, para Duke Nukem 3D: Atomic Edition, Redneck Rampage, Redneck Rampage: Rides Again, Duke Nukem 64, NAM y World War II GI, y PCExhumed, para la versión de PC de Exhumed (PowerSlave). Publica compilaciones para Windows de 32 y 64 bits; la última, la r14388, es del 14 de septiembre."
+  en: "NBlood: a port of Blood and its Cryptic Passage expansion, rebuilt through reverse engineering on top of the technology of EDuke32, the Duke Nukem 3D port that uses Ken Silverman’s Build engine; EDuke32 developers such as Hendricks266 and TerminX work on it too. If you have the digital Steam or GOG release installed, it finds it without copying anything, and it supports the Blood: Fresh Supply data. It can use the CD music as FLAC or OGG instead of MIDI and the original CD’s cutscenes, and it ships graphics adapted to widescreen made by community members. It has a strict vanilla mode, optional voxels, controller rumble, and multiplayer. The same repository holds Rednukem, for Duke Nukem 3D: Atomic Edition, Redneck Rampage, Redneck Rampage: Rides Again, Duke Nukem 64, NAM, and World War II GI, and PCExhumed, for the PC version of Exhumed (PowerSlave). It publishes 32- and 64-bit Windows builds; the latest, r14388, is from September 14."
+requirements:
+  es: "Los archivos de tu propia copia de Blood 1.21: BLOOD.INI, BLOOD.RFF, GUI.RFF, SOUNDS.RFF, SURFACE.DAT, TILES000.ART a TILES017.ART y VOXEL.DAT, más los de Cryptic Passage si quieres jugarla; con la versión de Steam o GOG instalada no hace falta copiar nada. Además, Windows; en Linux y otros sistemas hay que compilarlo."
+  en: "The files from your own copy of Blood 1.21: BLOOD.INI, BLOOD.RFF, GUI.RFF, SOUNDS.RFF, SURFACE.DAT, TILES000.ART to TILES017.ART, and VOXEL.DAT, plus Cryptic Passage’s if you want to play it; with the Steam or GOG release installed, nothing needs copying. Plus Windows; on Linux and other systems you have to build it."
+tags:
+  - x86
+  - fps
+  - widescreen
+  - multiplayer
+  - reverse-engineering

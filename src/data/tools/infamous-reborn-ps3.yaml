@@ -1,0 +1,12 @@
+name: inFAMOUS Reborn PS3
+kind: launcher
+consoles:
+  - ps3
+repo: adamstark1/inFAMOUS-Reborn-PS3
+homepage: https://linktr.ee/inFAMOUSReborn
+status: usable
+desc:
+  es: "Ojo: esto no es un port a PC. inFAMOUS Reborn PS3 es un servidor propio, con su launcher, que devuelve el contenido creado por los jugadores (UGC) a inFAMOUS 2 y a inFAMOUS: Festival of Blood en una PS3: el juego corre en la consola y el servidor, en tu PC con Windows, macOS o Linux. El launcher libera los puertos 53 (DNS) y 80 (HTTP), descarga de Archive.org los archivos de las misiones y arranca el servidor; en la PS3 se pone como DNS primario la IP que muestra el launcher, y así la consola habla con tu PC en lugar de con los servidores originales. Recupera 205.364 misiones de jugadores entre los dos juegos y, con ellas, los trofeos ligados al UGC, así que el platino vuelve a estar a tu alcance. No incluye el juego: hace falta tu propia copia en la consola. Está escrito en C# y la versión 1.0.3 salió el 29 de septiembre. No es el mismo proyecto que inFAMOUSreborn de whompay, el port del primer inFAMOUS a Windows."
+  en: "Note: this isn’t a PC port. inFAMOUS Reborn PS3 is a custom server, with its own launcher, that brings user-generated content (UGC) back to inFAMOUS 2 and inFAMOUS: Festival of Blood on a PS3: the game runs on the console and the server on your Windows, macOS, or Linux PC. The launcher frees ports 53 (DNS) and 80 (HTTP), downloads the mission files from Archive.org, and starts the server; on the PS3 you set the IP the launcher shows as the primary DNS, so the console talks to your PC instead of the original servers. It brings back 205,364 player-made missions across the two games and, with them, the UGC-related trophies, so the Platinum is within reach again. It doesn’t include the game: you need your own copy on the console. It’s written in C#, and version 1.0.3 came out on September 29. It isn’t the same project as whompay’s inFAMOUSreborn, the port of the first inFAMOUS to Windows."
+tags:
+  - online

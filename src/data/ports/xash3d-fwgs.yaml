@@ -1,0 +1,18 @@
+name: Xash3D FWGS
+category: fan-remake
+status: playable
+repo: FWGS/xash3d-fwgs
+desc:
+  es: "Xash3D FWGS: motor compatible con el de Half-Life (GoldSrc) que amplía sus posibilidades, y un fork muy modificado del motor Xash3D original de Unkle Mike. Ejecuta el Half-Life de Steam (HLSDK 2.5), sus expansiones y cientos de mods y paquetes de mapas, que el proyecto recoge en una lista de compatibilidad; para los sistemas que no pueden cargar las bibliotecas originales de los juegos mantiene hlsdk-portable, su versión del SDK de Half-Life con el código restaurado de las expansiones y de algunos mods. Funciona en Windows, Linux, BSD y macOS, en x86 y ARM, y también en Android, iOS, PS Vita y Switch. Añade varios servidores maestros, servidor dedicado sin interfaz, chat de voz, compatibilidad con el protocolo de red de GoldSrc e IPv6; renderizadores OpenGL, GLES 1 y 2 y por software; paquetes .pk3; mando y controles táctiles; fuentes TrueType; imágenes PNG y KTX2, y audio Ogg Vorbis y Opus. Por defecto se compila en 32 bits para cargar las bibliotecas de los juegos de Steam; en 64 bits o fuera de x86 hay que compilar también el código de cada juego. La última versión numerada es la 0.20 (diciembre de 2019); desde entonces publica compilaciones continuas, la última del 21 de octubre."
+  en: "Xash3D FWGS: an engine compatible with Half-Life’s (GoldSrc) that extends it, and a heavily modified fork of Unkle Mike’s original Xash3D engine. It runs Steam Half-Life (HLSDK 2.5), its expansions, and hundreds of mods and map packs, which the project tracks in a compatibility list; for systems that can’t load the games’ original libraries it maintains hlsdk-portable, its own version of the Half-Life SDK with restored source code for the expansions and some mods. It runs on Windows, Linux, BSD, and macOS, on x86 and ARM, and on Android, iOS, PS Vita, and Switch too. It adds multiple master servers, a headless dedicated server, voice chat, GoldSrc network protocol support, and IPv6; OpenGL, GLES 1 and 2, and software renderers; .pk3 packages; gamepad and touch controls; TrueType fonts; PNG and KTX2 images; and Ogg Vorbis and Opus audio. By default it builds as 32-bit to load the Steam games’ libraries; on 64-bit or outside x86, each game’s code has to be compiled too. The latest numbered release is 0.20 (December 2019); since then it has published continuous builds, the latest on October 21."
+requirements:
+  es: "La carpeta valve de tu propia copia de Half-Life (sirve la de Steam), copiada junto al motor; para las expansiones y los mods, también sus carpetas. Además, Windows, Linux (también en AppImage o Flatpak), BSD o macOS, en x86 o ARM."
+  en: "The valve folder from your own copy of Half-Life (the Steam release works), copied next to the engine; for the expansions and mods, their folders too. Plus Windows, Linux (also as an AppImage or Flatpak), BSD, or macOS, on x86 or ARM."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - mods
+links:
+  - label: "hlsdk-portable"
+    url: https://github.com/FWGS/hlsdk-portable

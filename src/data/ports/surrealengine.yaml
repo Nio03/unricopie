@@ -1,0 +1,22 @@
+name: Surreal Engine
+category: fan-remake
+status: experimental
+repo: dpjudas/SurrealEngine
+author: Magnus Norddahl
+originalDeveloper: Epic Games
+desc:
+  es: "Surreal Engine: reimplementación del Unreal Engine 1, centrada por ahora en hacer jugables Unreal (y Unreal Gold) y Unreal Tournament (UT99); más adelante podría abarcar otros juegos del motor. Dibuja los mapas, y su máquina virtual de UnrealScript está casi completa (faltan los arrays y la ejecución condicional de red), pero aún quedan muchas funciones nativas por implementar. En Unreal (versiones 226 y 227i) se pueden jugar los mapas de un jugador y partidas con bots, y en Unreal Tournament (436 y 469c), partidas con bots; Deus Ex (1112fm) llega a la pantalla de título y deja jugar el principio del mapa de entrenamiento, y Klingon Honor Guard y NERF Arena Blast arrancan. Además detecta Rune Classic, Clive Barker’s Undying, Tactical-Ops, The Wheel of Time y TNN Outdoors Pro Hunter, aunque todavía no funcionan. No tiene juego en red, y los mods con código nativo no funcionarán nunca, por diseño. Tiene un lanzador en el que añades las carpetas de tus juegos y eliges a cuál jugar. Publica compilaciones nocturnas para Windows, Linux y macOS, y está en AUR y en Nix. Su norma de contribución pide no enviar cambios hechos sobre todo con herramientas de IA como Claude."
+  en: "Surreal Engine: a reimplementation of Unreal Engine 1, currently focused on making Unreal (and Unreal Gold) and Unreal Tournament (UT99) playable; its scope may later grow to other games on the engine. It renders the maps, and its UnrealScript VM is almost feature complete (only arrays and network conditional execution are missing), but many native functions still aren’t implemented. In Unreal (versions 226 and 227i) single-player maps and botmatches can be played, and in Unreal Tournament (436 and 469c), botmatches; Deus Ex (1112fm) boots to the title screen and lets you play the beginning of the training map, and Klingon Honor Guard and NERF Arena Blast boot. It also detects Rune Classic, Clive Barker’s Undying, Tactical-Ops, The Wheel of Time, and TNN Outdoors Pro Hunter, though they don’t work yet. There’s no networking at all, and mods with native code will never work, by design. It has a launcher where you add your game folders and pick one to play. It publishes nightly builds for Windows, Linux, and macOS, and it’s in the AUR and Nix. Its contribution rule asks people not to submit changes made mainly with AI tools such as Claude."
+requirements:
+  es: "Tu propia copia original de los juegos del Unreal Engine 1 que quieras ejecutar, en una versión que admita (por ejemplo, Unreal Tournament 436 o 469c, o Unreal Gold 226 o 227i). Además, Windows 10 o posterior, macOS 15 o posterior o una distribución de Linux actual, y una tarjeta gráfica con Direct3D 11, OpenGL 3.2 o Vulkan (en macOS, con Metal 2)."
+  en: "Your own original copies of the Unreal Engine 1 games you want to run, in a supported version (for example, Unreal Tournament 436 or 469c, or Unreal Gold 226 or 227i). Plus Windows 10 or later, macOS 15 or later, or a modern Linux distribution, and a graphics card with Direct3D 11, OpenGL 3.2, or Vulkan (on macOS, Metal 2)."
+tags:
+  - fps
+  - vulkan
+  - reverse-engineering
+  - human-driven
+links:
+  - label:
+      es: "Estado de cada juego"
+      en: "Status of each game"
+    url: https://github.com/dpjudas/SurrealEngine/blob/master/Docs/Status.md

@@ -1,0 +1,17 @@
+name: "Might and Magic VII: For Blood and Honor (OpenEnroth)"
+category: decomp-port
+console: pc
+status: playable
+repo: OpenEnroth/OpenEnroth
+originalDeveloper: New World Computing
+year: 1999
+desc:
+  es: "OpenEnroth: reimplementación de código abierto del motor de Might and Magic VI, VII y VIII que usa los datos originales del juego. Por ahora solo se puede jugar a Might and Magic VII; el soporte de VI y VIII está previsto. Viene de una decompilación del ejecutable mm7.exe de 2013, que el proyecto guarda aparte como su prehistoria y que el código actual ha ido reescribiendo. Hay versiones para Windows (64 y 32 bits), Linux (en Flatpak) y macOS (Apple Silicon e Intel), y una experimental para Android. Usa Lua para sus guiones y tiene una consola dentro del juego para ejecutar comandos. De momento solo publica compilaciones nocturnas, que pueden tener fallos, la última del 28 de septiembre; la primera versión estable, la 0.1, está en preparación. Desde marzo, 252 de sus commits llevan a Claude como coautor."
+  en: "OpenEnroth: an open-source reimplementation of the Might and Magic VI, VII, and VIII engine that uses the game’s original data. For now only Might and Magic VII is playable; VI and VIII support is planned. It comes from a 2013 decompilation of the mm7.exe executable, which the project keeps separately as its prehistory and which the current code has been rewriting. There are builds for Windows (64- and 32-bit), Linux (as a Flatpak), and macOS (Apple silicon and Intel), plus an experimental Android one. It uses Lua for its scripts and has an in-game console to run commands. So far it only publishes nightly builds, which may have bugs, the latest from September 28; the first stable release, 0.1, is in progress. Since March, 252 of its commits list Claude as a co-author."
+requirements:
+  es: "Los datos de tu propia copia de Might and Magic VII, la de GOG o la del disco original: como mínimo, las carpetas ANIMS, DATA, MUSIC y SOUNDS. En Windows basta con ejecutar el instalador de GOG; en Linux y macOS se extraen con innoextract. Además, Windows, Linux o macOS."
+  en: "The data from your own copy of Might and Magic VII, the GOG release or the original disc: at least the ANIMS, DATA, MUSIC, and SOUNDS folders. On Windows, running the GOG installer is enough; on Linux and macOS, extract them with innoextract. Plus Windows, Linux, or macOS."
+tags:
+  - x86
+  - reverse-engineering
+  - ai-assisted

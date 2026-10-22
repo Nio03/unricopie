@@ -1,0 +1,30 @@
+name: "World of Warcraft (benilla)"
+category: fan-remake
+console: pc
+status: fully
+repo: samwhosung/benilla
+originalDeveloper: Blizzard Entertainment
+year: 2006
+desc:
+  es: "benilla: un cliente de World of Warcraft 1.12.1 escrito desde cero en Rust con el motor Bevy, sin código del cliente original. Lee los datos del juego de tu propia instalación 1.12.1 y se conecta con el protocolo original a un servidor 1.12.1; se desarrolla contra vmangos y también funciona con cMaNGOS y otros núcleos que hablan el mismo protocolo. Reimplementa todos los formatos de archivo (MPQ, BLP, DBC, ADT, WDT, WDL, M2 y WMO), el protocolo de red y el motor de la interfaz: la interfaz original de la 1.12 corre en su propio motor de FrameXML y Lua a partir de los archivos de tu instalación, y funcionan addons como Questie, pfUI o Bagnon. Su autor lo da por completo y jugable: creación de personajes, misiones y profesiones, mazmorras y bandas, campos de batalla y honor, grupos, hermandades, comercio, correo y casa de subastas. No hay versiones compiladas: se compila con Rust desde la etiqueta de cada versión, en Windows, Linux o macOS. No responde a Warden, el antitrampas, así que los servidores que lo exigen cortan la sesión. La ingeniería inversa del cliente está en un repositorio aparte, benilla-re. La 0.2.0 salió el 27 de septiembre. 868 de sus 877 commits llevan a Claude como coautor."
+  en: "benilla: a World of Warcraft 1.12.1 client written from scratch in Rust on the Bevy engine, with no original client code. It reads the game data from your own 1.12.1 install and connects to a 1.12.1 server over the original protocol; it’s developed against vmangos and also works with cMaNGOS and other cores that speak the same protocol. It reimplements every file format (MPQ, BLP, DBC, ADT, WDT, WDL, M2, and WMO), the network protocol, and the interface engine: the stock 1.12 interface runs on its own FrameXML and Lua engine from your install’s files, and addons such as Questie, pfUI, or Bagnon work. Its author calls it complete and fully playable: character creation, quests and professions, dungeons and raids, battlegrounds and honor, groups, guilds, trade, mail, and the auction house. There are no prebuilt downloads: it’s built with Rust from each release tag, on Windows, Linux, or macOS. It doesn’t answer Warden, the anticheat, so servers that enforce it drop the session. The reverse engineering of the client lives in a separate repository, benilla-re. Version 0.2.0 came out on September 27. 868 of its 877 commits list Claude as a co-author."
+requirements:
+  es: "Los datos de tu propio cliente de World of Warcraft 1.12.1 (build 5875), en cualquier idioma, y un servidor 1.12.1 sin Warden, como vmangos o cMaNGOS. Para compilarlo, Rust estable y un compilador de C: en Windows, las herramientas de compilación de MSVC; en Linux, los paquetes de desarrollo de ALSA y udev y pkg-config; en macOS, las herramientas de línea de comandos de Xcode."
+  en: "The data from your own World of Warcraft 1.12.1 client (build 5875), in any locale, and a 1.12.1 server with Warden off, such as vmangos or cMaNGOS. To build it, stable Rust and a C compiler: on Windows, the MSVC build tools; on Linux, the ALSA and udev development packages and pkg-config; on macOS, the Xcode command line tools."
+tags:
+  - multiplayer
+  - online
+  - mods
+  - reverse-engineering
+  - ai-assisted
+links:
+  - label: benilla-re
+    url: https://github.com/samwhosung/benilla-re
+  - label:
+      es: "Código del servidor vmangos"
+      en: "vmangos server code"
+    url: https://github.com/vmangos/core
+  - label:
+      es: "Código del servidor cMaNGOS (Classic)"
+      en: "cMaNGOS server code (Classic)"
+    url: https://github.com/cmangos/mangos-classic

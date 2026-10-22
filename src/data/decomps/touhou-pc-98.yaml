@@ -1,0 +1,15 @@
+name: "Touhou PC-98 (ReC98)"
+console: pc98
+repo: nmlgc/ReC98
+desc:
+  es: "ReC98 (The Touhou PC-98 Restoration Project): reconstrucción del código fuente de los cinco primeros juegos de Touhou Project, que ZUN Soft publicó solo para el ordenador japonés NEC PC-9801 en 1997 y 1998: The Highly Responsive to Prayers, the Story of Eastern Wonderland, Phantasmagoria of Dim.Dream, Lotus Land Story y Mystic Square. Es una decompilación exacta: los ejecutables que salen de su código, compilado con el mismo Turbo C++ 4.0J que usó ZUN, son idénticos a los originales en cada commit, y el código se escribe para que se pueda leer y modificar. No es un port: genera programas de DOS para PC-98, que necesitan los archivos de tus juegos originales en un PC-98 o en un emulador. Según su web, a 19 de enero el primer juego está decompilado entero y, entre los cinco, el 61 % del código está terminado. Además de la rama fiel al original, mantiene la rama «debloated», más fácil de leer y pensada como base para ports a otras plataformas, y la «anniversary», que además corrige fallos; publica sus ejecutables como descargas, la última, la P0335, el 16 de marzo, con arreglos para TH03. Se financia por micromecenazgo y su blog documenta lo que va descubriendo del código de ZUN. El repositorio no incluye ningún recurso de los juegos, pero sí, como desensamblado, el código de los ejecutables originales que aún no está decompilado."
+  en: "ReC98 (The Touhou PC-98 Restoration Project): a reconstruction of the source code of the first five Touhou Project games, which ZUN Soft released only for NEC’s Japanese PC-9801 computer in 1997 and 1998: The Highly Responsive to Prayers, the Story of Eastern Wonderland, Phantasmagoria of Dim.Dream, Lotus Land Story, and Mystic Square. It’s a matching decompilation: the executables built from its code, with the same Turbo C++ 4.0J compiler ZUN used, are identical to the originals at every commit, and the code is written to be readable and moddable. It isn’t a port: it builds PC-98 DOS programs, which need your original game files on a PC-98 or in an emulator. According to its website, as of January 19 the first game is fully decompiled and 61% of the code across all five is finalized. Besides the branch faithful to the original, it maintains a “debloated” branch that’s easier to read and meant as the base for ports to other platforms, and an “anniversary” branch that also fixes bugs; it publishes their executables as downloads, the latest, P0335, on March 16, with TH03 fixes. It’s crowdfunded, and its blog documents what it finds in ZUN’s code. The repository includes none of the games’ assets, but it does include, as disassembly, the original executables’ code that hasn’t been decompiled yet."
+tags:
+  - x86
+  - matching
+  - shmup
+links:
+  - label:
+      es: "Web y blog del proyecto"
+      en: "Project website and blog"
+    url: https://rec98.nmlgc.net/

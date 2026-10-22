@@ -1,0 +1,19 @@
+name: "Carmageddon (dethrace)"
+category: decomp-port
+console: pc
+status: playable
+repo: dethrace-labs/dethrace
+originalDeveloper: Stainless Software
+year: 1997
+desc:
+  es: "Dethrace: reconstrucción del código de Carmageddon por ingeniería inversa para que funcione de forma nativa en sistemas actuales. Parte de los símbolos de depuración de Watcom de una versión interna anterior, que aparecieron en el CD de la expansión Splat Pack; crayzkirk los emparejó a mano con el ejecutable de DOS, y desde ahí se generó un esqueleto en C que se va completando función a función. Desde la 0.10.0 se compila también con Visual C++ 4.20 y se compara instrucción a instrucción con el CARM95.EXE de Windows 95 mediante reccmp, la herramienta de la decompilación de LEGO Island; cada función y cada variable global llevan anotada su dirección en él. Usa el código de BRender 1.3.2, ya liberado, en lugar de su versión reconstruida, con el renderizador por software original y la ruta original de 3dfx sobre OpenGL. Funcionan el juego completo, la expansión Splat Pack y las demos gratuitas, con la resolución alta original de 640×480, la música de CD en el formato de la versión de GOG, partidas en red, las escenas, las comprobaciones originales del CD y de la censura, que se pueden activar, y la opción de calcular la física en cada fotograma (el original lo hacía cada 40 ms, con tirones de cámara en las curvas lentas); el límite de fotogramas se puede cambiar o quitar. Hay versiones para Windows de 32 y 64 bits, Linux x86-64 y ARM64, y macOS. La última es la 0.10.1 (22 de febrero)."
+  en: "Dethrace: a reverse-engineered reconstruction of Carmageddon’s code so it runs natively on modern systems. It starts from the Watcom debug symbols of an earlier internal build, found on the Splat Pack expansion CD; crayzkirk matched them by hand to the DOS executable, and from there a C skeleton was generated that’s being filled in function by function. Since 0.10.0 it also builds with Visual C++ 4.20 and is compared instruction by instruction with the Windows 95 CARM95.EXE through reccmp, the LEGO Island decompilation’s tool; every function and global variable is tagged with its address in it. It uses the code of BRender 1.3.2, since released, instead of its reconstructed version, with the original software renderer and the original 3dfx path on OpenGL. The full game, the Splat Pack expansion, and the free demos work, with the original 640×480 high-resolution mode, CD music in the GOG release’s format, network play, cutscenes, the original CD and censorship checks, which can be turned on, and the option to run physics every frame (the original did it every 40 ms, causing camera judder in slow corners); the frame rate cap can be changed or removed. There are builds for 32- and 64-bit Windows, x86-64 and ARM64 Linux, and macOS. The latest is 0.10.1 (February 22)."
+requirements:
+  es: "Los archivos de tu propia copia de Carmageddon (del CD original o de la Carmageddon Max Pack de GOG), con Splat Pack si la tienes; también sirven las demos gratuitas de Carmageddon y de Splat Pack. Se pone en la carpeta del juego, junto a CARMA.EXE (en Windows, con SDL2.dll), o se indica la carpeta en un archivo dethrace.ini. Además, Windows, Linux o macOS."
+  en: "The files from your own copy of Carmageddon (from the original CD or GOG’s Carmageddon Max Pack), with Splat Pack if you have it; the free Carmageddon and Splat Pack demos work too. It goes in the game folder, next to CARMA.EXE (on Windows, with SDL2.dll), or the folder is set in a dethrace.ini file. Plus Windows, Linux, or macOS."
+tags:
+  - x86
+  - racing
+  - multiplayer
+  - decomp
+  - matching

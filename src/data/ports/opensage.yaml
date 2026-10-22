@@ -1,0 +1,16 @@
+name: OpenSAGE
+category: fan-remake
+status: experimental
+repo: OpenSAGE/OpenSAGE
+homepage: https://opensage.github.io/
+originalDeveloper: EA Pacific
+year: 2003
+desc:
+  es: "OpenSAGE: reimplementación libre, escrita en C#, de SAGE, el motor 3D de estrategia en tiempo real que EA Pacific usó en Command & Conquer: Generals y en otros juegos. Se centra en Generals y su expansión Zero Hour, y tiene también módulos para El Señor de los Anillos: La Batalla por la Tierra Media I y II. Nació como una reimplementación de caja negra, escrita a partir de los archivos de datos y de observar el juego en marcha; en marzo de 2025 cambió su licencia de LGPL v3 a GPL v3 y empezó a adaptar partes del código fuente de Generals y Zero Hour que publicó EA, como los disparadores de los mapas, el dinero, las máquinas de estados y los locomotores. Todavía no es jugable: carga la mayoría de los formatos de los primeros juegos SAGE, entra en los mapas y muestra la interfaz, pero apenas implementa la lógica de juego. Dibuja con Direct3D 11, OpenGL 4.3 o Metal en Windows, Linux y macOS, y trae un visor para explorar los archivos de cualquier juego SAGE instalado. La última versión publicada es la 0.3.0 (29 de octubre de 2018); desde abril de 2025 el código apenas ha cambiado, más allá de actualizaciones de dependencias. Uno de sus más de 3600 commits lleva a Copilot como coautor."
+  en: "OpenSAGE: a free reimplementation, written in C#, of SAGE, the 3D real-time strategy engine EA Pacific used in Command & Conquer: Generals and other games. It focuses on Generals and its Zero Hour expansion, and it also has modules for The Lord of the Rings: The Battle for Middle-earth I and II. It started as a black-box reimplementation, written from the data files and from watching the game run; in March 2025 it switched its license from LGPL v3 to GPL v3 and began adapting parts of the Generals and Zero Hour source code EA released, such as map triggers, money, state machines, and locomotors. It isn’t playable yet: it loads most file formats from the first SAGE games, loads into maps, and shows the user interface, but it implements very little of the gameplay. It renders with Direct3D 11, OpenGL 4.3, or Metal on Windows, Linux, and macOS, and comes with a viewer for browsing the files of any installed SAGE game. The latest release is 0.3.0 (October 29, 2018); since April 2025 the code has barely changed beyond dependency updates. One of its more than 3,600 commits lists Copilot as a co-author."
+requirements:
+  es: "Una instalación de tu propia copia de Command & Conquer: Generals o Zero Hour, por ejemplo de The First Decade o de The Ultimate Collection; en Linux y macOS, la carpeta del juego se indica con la variable de entorno CNC_GENERALS_PATH. Además, Windows, Linux o macOS de 64 bits; para compilar el código actual, .NET 8."
+  en: "An installation of your own copy of Command & Conquer: Generals or Zero Hour, for example from The First Decade or The Ultimate Collection; on Linux and macOS, the game folder is set with the CNC_GENERALS_PATH environment variable. Plus 64-bit Windows, Linux, or macOS; to build the current code, .NET 8."
+tags:
+  - x86
+  - ai-assisted

@@ -1,0 +1,23 @@
+name: "The Elder Scrolls III: Morrowind (OpenMW)"
+category: fan-remake
+console: pc
+status: fully
+repo: OpenMW/openmw
+homepage: https://openmw.org/
+originalDeveloper: Bethesda Softworks
+year: 2002
+desc:
+  es: "OpenMW: motor de rol de mundo abierto de código abierto, escrito desde cero, que permite jugar a Morrowind; el desarrollo principal y el seguimiento de fallos están en GitLab, y GitHub es una réplica. Las misiones principales de Morrowind, Tribunal y Bloodmoon se pueden completar y los fallos en misiones secundarias son raros; los mods hechos para el motor original funcionan de forma desigual, porque su compilador de scripts comprueba los errores con más rigor. Incluye OpenMW-CS, un sustituto del Construction Set de Bethesda. Funciona a cualquier resolución, con campo de visión ajustable, filtrado anisótropo, un agua nueva con reflejos y refracción, un motor de terreno sin cortes y con terreno lejano, mapas normales, especulares y de paralaje, fuentes TrueType, escalado de la interfaz y mando, y quita límites del original, como el de 255 archivos de contenido. Tiene además una API de scripts en Lua para mods. La 0.51.0 (19 de junio) permite crear efectos mágicos desde esa API, añade al editor el pintado de vértices del terreno y corrige muchos cierres relacionados con Lua. Uno de sus más de 39 000 commits, del 28 de julio, lleva a Claude como coautor."
+  en: "OpenMW: an open-source open-world RPG engine, written from scratch, that lets you play Morrowind; main development and the issue tracker are on GitLab, and GitHub is a mirror. The main quests of Morrowind, Tribunal, and Bloodmoon can all be completed, and side-quest issues are rare; mods made for the original engine are hit and miss, because its script compiler checks for errors more strictly. It includes OpenMW-CS, a replacement for Bethesda’s Construction Set. It runs at any resolution, with an adjustable field of view, anisotropic filtering, a new water shader with reflection and refraction, a seamless terrain engine with distant terrain, normal, specular, and parallax maps, TrueType fonts, UI scaling, and controller support, and it removes limits of the original, such as the 255 content file cap. It also has a Lua scripting API for mods. Version 0.51.0 (June 19) lets modders create magic effects through that API, adds terrain vertex painting to the editor, and fixes many Lua-related crashes. One of its more than 39,000 commits, from July 28, lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de The Elder Scrolls III: Morrowind, con Tribunal y Bloodmoon para sus expansiones; el launcher encuentra sus archivos si el juego está bien instalado (también bajo Wine). Además, un sistema de 64 bits: Windows 10 o posterior, macOS 14.8 o posterior (Intel o Apple Silicon) o Linux."
+  en: "Your own copy of The Elder Scrolls III: Morrowind, with Tribunal and Bloodmoon for their expansions; the launcher finds its files if the game is properly installed (under Wine too). Plus a 64-bit system: Windows 10 or later, macOS 14.8 or later (Intel or Apple silicon), or Linux."
+tags:
+  - x86
+  - mods
+  - ai-assisted
+links:
+  - label:
+      es: "Repositorio principal (GitLab)"
+      en: "Main repository (GitLab)"
+    url: https://gitlab.com/OpenMW/openmw

@@ -1,0 +1,20 @@
+name: "Return to Castle Wolfenstein (iortcw)"
+category: source-port
+console: pc
+status: fully
+repo: iortcw/iortcw
+author: Donny Springer / Zack Middleton / James Canete
+originalDeveloper: Gray Matter Interactive / Nerve Software
+year: 2001
+desc:
+  es: "iortcw: port de Return to Castle Wolfenstein que lleva al código fuente que publicó id Software las funciones y correcciones de ioquake3, con ejecutables separados para la campaña y el multijugador. Usa SDL y añade soporte completo de 64 bits, sonido por OpenAL con varios altavoces, Ogg Vorbis, VoIP dentro del juego y por Mumble, captura de vídeo AVI de las demos, texturas PNG, la resolución del escritorio, HUD e interfaz corregidos para pantalla panorámica y muchas correcciones de fallos. Incluye además rend2, un renderizador alternativo con HDR, mapeado de tonos, sombras en cascada, MSAA y oclusión ambiental (SSAO), compatible con la mayoría de los mods. En multijugador sigue siendo compatible con los servidores y clientes de la versión 1.4 original. Hay versiones para Windows, Linux y macOS; la última, la 1.51c, es del 16 de marzo de 2019, y el código recibió cambios hasta mayo de 2024. Cada versión publica aparte patch-data-141.zip, que reúne los archivos de datos de los parches oficiales hasta la 1.41 (sin ejecutables) y, según sus autores, no hace falta si tu copia ya está actualizada, y paquetes de idioma para la campaña en alemán, español, francés e italiano."
+  en: "iortcw: a Return to Castle Wolfenstein port that brings ioquake3’s features and fixes to the source code id Software released, with separate executables for the campaign and multiplayer. It uses SDL and adds full 64-bit support, OpenAL sound with multi-speaker support, Ogg Vorbis, in-game and Mumble VoIP, AVI video capture of demos, PNG textures, desktop resolution, an aspect-corrected HUD and interface for widescreen, and many bug fixes. It also includes rend2, an alternate renderer with HDR, tone mapping, cascaded shadow maps, MSAA, and screen-space ambient occlusion, compatible with most mods. In multiplayer it stays compatible with the original 1.4 servers and clients. There are builds for Windows, Linux, and macOS; the latest, 1.51c, is from March 16, 2019, and the code got changes until May 2024. Each release separately offers patch-data-141.zip, which collects the data files from the official patches up to 1.41 (without executables) and, according to its authors, isn’t needed if your copy is already up to date, plus language packs for the campaign in German, Spanish, French, and Italian."
+requirements:
+  es: "Los archivos .pk3 de la carpeta Main de tu propia copia de Return to Castle Wolfenstein: pak0.pk3 y sp_pak1 a sp_pak3 para la campaña; mp_bin.pk3, mp_pak0 a mp_pak5 y mp_pakmaps0 a mp_pakmaps6 para el multijugador. Tiene que estar actualizada a la 1.41. Además, Windows de 32 o 64 bits, Linux x86 o x86-64, o macOS."
+  en: "The .pk3 files from the Main folder of your own copy of Return to Castle Wolfenstein: pak0.pk3 and sp_pak1 through sp_pak3 for the campaign; mp_bin.pk3, mp_pak0 through mp_pak5, and mp_pakmaps0 through mp_pakmaps6 for multiplayer. It must be patched to 1.41. Plus 32- or 64-bit Windows, x86 or x86-64 Linux, or macOS."
+tags:
+  - fps
+  - multiplayer
+  - online
+  - widescreen
+  - mods

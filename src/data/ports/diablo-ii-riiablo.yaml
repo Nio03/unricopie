@@ -1,0 +1,15 @@
+name: "Diablo II (Riiablo)"
+category: fan-remake
+console: pc
+status: experimental
+repo: collinsmith/riiablo
+originalDeveloper: Blizzard North
+year: 2000
+desc:
+  es: "Riiablo: intento de reconstruir Diablo II desde cero en Java, con LibGDX, OpenGL, FlatBuffers y Netty, que funciona con los recursos originales del juego y no los incluye. Todavía no se puede jugar: arranca, carga partidas guardadas (de la 1.13c en adelante, sin modificarlas), deja caminar un poco y ver a tus personajes. Su autor quiere ser fiel al original, aunque con algunos cambios, como recoger el oro automáticamente, y ya admite casi cualquier relación de aspecto (4:3, 16:9, 18:9 o 21:9), con la altura fija en 480 píxeles, la de los recursos originales. Está pensado para PC y Android, y su lista de funciones incluye multijugador entre plataformas, servidores dedicados, partidas por TCP/IP y modo de un jugador, sin compatibilidad con el cliente original; tiene además consola con variables, teclas reasignables, mando e interfaz escalable. Incluye un visor de MPQ para examinar los archivos del juego y un visor de mapas. Las últimas versiones de prueba, en archivos .jar, son de la 0.0.4 (28 de mayo de 2021), y el último commit es del 13 de enero de 2025."
+  en: "Riiablo: an attempt to rebuild Diablo II from scratch in Java, with LibGDX, OpenGL, FlatBuffers, and Netty, that runs on the game’s original assets and doesn’t include them. It isn’t playable yet: it starts, loads save files (1.13c onward, without modifying them), and lets you walk around a bit and look at your characters. The author aims to stay faithful to the original, with some changes such as automatic gold pickup, and it already supports almost any aspect ratio (4:3, 16:9, 18:9, or 21:9), with the height fixed at 480 pixels, the original assets’ height. It’s meant for PC and Android, and its feature list includes cross-platform multiplayer, dedicated servers, TCP/IP games, and single player, with no compatibility with the original client; it also has a console with CVARs, rebindable keys, controller support, and a scalable UI. It includes an MPQ viewer for inspecting the game’s files and a map viewer. The latest test builds, as .jar files, are from 0.0.4 (May 28, 2021), and the latest commit is from January 13, 2025."
+requirements:
+  es: "Los archivos MPQ de tu propia instalación de Diablo II para Windows; en Windows encuentra sola las instalaciones habituales, con tus partidas guardadas. En Linux y macOS hay que copiar los MPQ de una instalación de Windows (o de Wine) y, a menudo, indicar dónde están. Además, Java para ejecutar los .jar de las versiones de prueba; para Android hay que compilarlo."
+  en: "The MPQ files from your own Windows installation of Diablo II; on Windows it finds typical installs on its own, along with your saves. On Linux and macOS you copy the MPQs from a Windows (or Wine) install and often have to point it at them. Plus Java to run the test builds’ .jar files; for Android you build it yourself."
+tags:
+  - widescreen

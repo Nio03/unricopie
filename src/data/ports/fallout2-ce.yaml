@@ -1,0 +1,22 @@
+name: "Fallout 2 (Fallout 2 CE)"
+category: decomp-port
+console: pc
+status: fully
+repo: alexbatalov/fallout2-ce
+originalDeveloper: Black Isle Studios
+year: 1998
+desc:
+  es: "Fallout 2 Community Edition: reimplementación completa de Fallout 2 que funciona en sistemas actuales, con la jugabilidad original, arreglos de fallos del motor y algunas mejoras de comodidad. Se basa en Fallout 2 Reference Edition, del mismo autor: el código fuente del juego reconstruido por ingeniería inversa a partir del ejecutable original, al que solo le faltan unas pocas funciones que el juego no usa. En Windows sustituye directamente a fallout2.exe en la carpeta del juego. Va incorporando funciones y arreglos de sfall, la extensión del motor que hizo la comunidad, como sus golpes críticos, libros, ascensores, ráfagas y explosiones, la barra de interfaz ancha y los paneles laterales, y añade la rueda del ratón para desplazarse y el peso del botín a la vista. El tamaño de la ventana y la pantalla completa se ajustan en f2_res.ini. Las conversiones totales Nevada y Sonora, en sus versiones originales, probablemente funcionan; Restoration Project, Fallout Et Tu y Olympus 2207 aún no. Hay versiones para Windows y Linux (32 y 64 bits) y para macOS 10.11 o posterior (Intel y Apple Silicon), además de Android e iOS. La última es la 1.3.0 (21 de abril de 2024), y el último commit es del 16 de febrero de 2025."
+  en: "Fallout 2 Community Edition: a fully working reimplementation of Fallout 2 for current systems, with the original gameplay, engine bug fixes, and some quality-of-life improvements. It’s based on Fallout 2 Reference Edition, by the same author: the game’s source code reconstructed by reverse engineering the original executable, missing only a few functions the game doesn’t use. On Windows it’s a drop-in replacement for fallout2.exe in the game folder. It keeps bringing in features and fixes from sfall, the community’s engine extension, such as its critical hits, books, elevators, burst fire, and explosions, the wide interface bar, and the side panels, and it adds mouse wheel scrolling and visible loot weight. Window size and fullscreen are set in f2_res.ini. The total conversions Nevada and Sonora, in their original versions, likely work; Restoration Project, Fallout Et Tu, and Olympus 2207 don’t yet. There are builds for Windows and Linux (32- and 64-bit) and for macOS 10.11 or later (Intel and Apple silicon), plus Android and iOS. The latest is 1.3.0 (April 21, 2024), and the last commit is from February 16, 2025."
+requirements:
+  es: "Los archivos de tu propia copia de Fallout 2 (master.dat, critter.dat, patch000.dat y la carpeta data), por ejemplo de GOG, Steam o Epic Games Store; en Linux y macOS se pueden sacar del instalador de GOG con innoextract, y en Mac también sirve la versión de Macplay. Además, Windows, Linux con SDL2 o macOS 10.11 o posterior."
+  en: "The files from your own copy of Fallout 2 (master.dat, critter.dat, patch000.dat, and the data folder), for example from GOG, Steam, or the Epic Games Store; on Linux and macOS they can be extracted from the GOG installer with innoextract, and on a Mac the Macplay release works too. Plus Windows, Linux with SDL2, or macOS 10.11 or later."
+tags:
+  - x86
+  - mods
+  - reverse-engineering
+links:
+  - label:
+      es: "Fallout 2 Reference Edition (decompilación)"
+      en: "Fallout 2 Reference Edition (decompilation)"
+    url: https://github.com/alexbatalov/fallout2-re

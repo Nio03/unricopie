@@ -1,0 +1,26 @@
+name: "Sonic the Hedgehog / Sonic the Hedgehog 2 (2013, decompilation)"
+category: decomp-port
+console: mobile
+status: fully
+repo: RSDKModding/RSDKv4-Decompilation
+author: "Rubberduckycooly / MegAmi24 / stxticOVFL"
+originalDeveloper: Christian Whitehead / Sega
+year: 2013
+desc:
+  es: "Decompilación completa del Retro Engine v4 (RSDKv4) y de los menús de las versiones de 2013 de Sonic the Hedgehog y Sonic the Hedgehog 2, que salieron para iOS y Android; es del mismo autor que las decompilaciones de Sonic CD y Sonic Mania. Funciona con los datos de las versiones para móvil, también las de Sega Forever, y en parte con los de Sonic Origins, a los que les faltan la música y los efectos de sonido (Origins no los guarda en esos archivos) y algunos recursos de los menús, que se pueden copiar de las versiones para móvil. Los scripts de los dos juegos están decompilados aparte, en otro repositorio, y corrigen fallos de algunas versiones, como el bloqueo al final de ciertos actos en pantallas muy anchas. Añade el compilador de scripts de RSDKv5U, un cargador de mods con su propia API, un archivo settings.ini con todos los ajustes, un menú de desarrollo con herramientas de depuración y el oscurecimiento de pantalla en reposo de Sonic Mania Plus, y deja jugar la Egg Gauntlet Zone de Sonic 2 en Contrarreloj si tu versión la incluye. Tiene además un modo 2P VS de Sonic 2 por red, con un servidor en Python que el propio proyecto define como una prueba de concepto inestable. Las versiones publicadas no permiten usar el DLC de Origins Plus ni jugar con Amy: para eso hay que compilarlo uno mismo. Hay versiones para Windows (32 y 64 bits), Linux y Android; la última es la 1.3.3 (2 de noviembre de 2025)."
+  en: "A complete decompilation of Retro Engine v4 (RSDKv4) and of the menus from the 2013 versions of Sonic the Hedgehog and Sonic the Hedgehog 2, released for iOS and Android; it comes from the same author as the Sonic CD and Sonic Mania decompilations. It works with data from the mobile versions, Sega Forever ones included, and partly with Sonic Origins data, which lacks the music and sound effects (Origins doesn’t keep them in those files) and some menu assets, which can be copied over from the mobile versions. Both games’ scripts are decompiled separately, in another repository, and fix bugs in some versions, such as the softlock at the end of certain acts on very wide screens. It adds the RSDKv5U script compiler, a mod loader with its own API, a settings.ini file with every setting, a dev menu with debugging tools, and Sonic Mania Plus’s idle screen dimming, and lets you play Sonic 2’s Egg Gauntlet Zone in Time Attack if your version includes it. It also has a networked 2P VS mode for Sonic 2, with a Python server the project itself calls an unstable proof of concept. The released builds don’t allow the Origins Plus DLC or playing as Amy: for that you have to build it yourself. There are builds for Windows (32- and 64-bit), Linux, and Android; the latest is 1.3.3 (November 2, 2025)."
+requirements:
+  es: "Los datos de tu propia copia oficial de Sonic the Hedgehog o Sonic the Hedgehog 2 de 2013: las versiones para iOS o Android (retiradas de las tiendas, pero se pueden volver a descargar desde tu historial de compras) o Sonic Origins para Windows (Steam o Epic Games Store) o Switch. Los de Origins hay que usarlos en modo carpeta o reempaquetarlos, y añadirles el audio de las versiones para móvil. Además, Windows, Linux o Android; en otros sistemas, compilarlo desde el código."
+  en: "The data from your own official copy of the 2013 Sonic the Hedgehog or Sonic the Hedgehog 2: the iOS or Android versions (delisted, but you can redownload them from your purchase history) or Sonic Origins for Windows (Steam or Epic Games Store) or Switch. Origins data has to be used in folder mode or repacked, with the audio from the mobile versions added. Plus Windows, Linux, or Android; on other systems, build it from source."
+tags:
+  - sonic
+  - rsdk
+  - decomp
+  - mods
+  - multiplayer
+  - online
+links:
+  - label:
+      es: "Scripts decompilados"
+      en: "Decompiled scripts"
+    url: https://github.com/RSDKModding/RSDKv4-Script-Decompilation

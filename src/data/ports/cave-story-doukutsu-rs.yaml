@@ -1,0 +1,20 @@
+name: "Cave Story (doukutsu-rs)"
+category: fan-remake
+console: pc
+status: fully
+repo: doukutsu-rs/doukutsu-rs
+homepage: https://doukutsu.rs
+originalDeveloper: Studio Pixel
+year: 2004
+desc:
+  es: "doukutsu-rs: reimplementación fiel del motor de Cave Story escrita en Rust, que empezó como un proyecto para aprender el lenguaje. Un mismo ejecutable usa los datos de la versión gratuita original, de Cave Story+ y de la versión de Switch. Separa la lógica de la tasa de fotogramas con interpolación del movimiento para pantallas de alta frecuencia, no tiene resolución fija (la cámara panorámica es código de Clownacy), permite elegir entre 50 y 60 pasos por segundo para igualar la versión gratuita o Cave Story+, tiene multijugador local para dos jugadores, deja saltar las escenas como la versión de Switch y añade efectos de iluminación algo más elaborados que los de esa versión. Con Cave Story+ sustituye directamente a su ejecutable, también en el Mac, donde el original ya no funciona en macOS 10.15 o posterior. La 1.0.0 (3 de junio) dejó atrás la etiqueta de beta: según sus autores, el juego está completo desde la 0.99.0, y desde entonces solo han corregido fallos y afinado la fidelidad. Esa versión rehízo el port de Android sobre SDL2 y añadió Wayland nativo en Linux. Hay versiones para Windows de 32 y 64 bits, macOS (Intel desde 10.14 y Apple silicon) y Linux (también en Flatpak), además de Android y Switch."
+  en: "doukutsu-rs: a faithful reimplementation of the Cave Story engine written in Rust, which started as a project to learn the language. A single executable uses the data from the original freeware release, Cave Story+, and the Switch version. It decouples game logic from frame rate with motion interpolation for high refresh rate displays, has no fixed resolution (the widescreen camera is Clownacy’s code), lets you switch between 50 and 60 ticks per second to match the freeware release or Cave Story+, has two-player local multiplayer, lets you skip cutscenes like the Switch version, and adds lighting effects slightly fancier than that version’s. With Cave Story+ it’s a drop-in replacement for its executable, on the Mac too, where the original no longer runs on macOS 10.15 or later. Version 1.0.0 (June 3) dropped the beta label: according to its authors, the game has been complete since 0.99.0, and since then they’ve only been fixing bugs and refining accuracy. That release rebuilt the Android port on SDL2 and added native Wayland support on Linux. There are builds for 32- and 64-bit Windows, macOS (Intel from 10.14, and Apple silicon), and Linux (also on Flatpak), plus Android and Switch."
+requirements:
+  es: "No hace falta comprar nada: basta con la versión gratuita original de 2004; doukutsu-rs se pone en la misma carpeta que su Doukutsu.exe y en el primer arranque extrae los recursos que este lleva dentro. También sirven los datos de tu propia copia de Cave Story+ (Steam, GOG, Epic o Humble; en la de Epic hay que borrar un opengl32.dll que sobra) o de la versión de Switch, volcada con su actualización. La versión remasterizada de Steam de 2026 todavía no funciona. Además, Windows, macOS 10.14 o posterior, o Linux."
+  en: "No purchase needed: the original 2004 freeware release is enough; doukutsu-rs goes in the same folder as its Doukutsu.exe and, on first launch, extracts the resources embedded in it. The data from your own copy of Cave Story+ (Steam, GOG, Epic, or Humble; the Epic one needs a stray opengl32.dll deleted) or of the Switch version, dumped with its update, works too. The 2026 remastered Steam release isn’t supported yet. Plus Windows, macOS 10.14 or later, or Linux."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - rust
