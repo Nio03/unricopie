@@ -1,0 +1,18 @@
+name: "Gravity Rush 2"
+category: native-layer
+console: ps4
+status: playable
+repo: HayatoG/gr2_pc
+author: "HayatoG"
+originalDeveloper: "Japan Studio"
+year: 2017
+desc:
+  es: "gr2_pc: port nativo de Gravity Rush 2 (PS4, CUSA03694, actualización 01.11) para Windows y Linux. El código original del juego corre en la CPU sin emulación, el sistema de la PS4 está reimplementado y la GPU se traduce a Vulkan. Va a 30 fps estables y 1080p nativo. Admite ratón (con el botón izquierdo como R1, el derecho como L1 y el central como R2, y un touchpad simulado), mandos DualSense, DualShock 4, Xbox y 8BitDo con giroscopio real o simulado, y un lanzador bilingüe (portugués e inglés) donde se elige el idioma del juego. Reescribe y emula las instrucciones SSE4A de la CPU de la PS4 para que funcione en Intel. Los contornos de geometry shader que dejaban trazos negros junto a los personajes están desactivados por defecto. Usa el mismo núcleo que el port de The Last Guardian del mismo autor. La última compilación automática es del 24 de octubre de 2026. 73 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "gr2_pc: a native port of Gravity Rush 2 (PS4, CUSA03694, update 01.11) for Windows and Linux. The game’s original code runs on the CPU without emulation, the PS4 system is reimplemented, and the GPU is translated to Vulkan. It runs at a steady 30 fps and native 1080p. It supports mouse (left button as R1, right as L1, middle as R2, plus a simulated touchpad), DualSense, DualShock 4, Xbox, and 8BitDo controllers with real or simulated gyro, and a bilingual launcher (Portuguese and English) where you pick the game language. It rewrites and emulates the PS4 CPU’s SSE4A instructions so it runs on Intel. The geometry shader outlines that left black strokes next to characters are off by default. It uses the same core as the author’s The Last Guardian port. The latest automatic build is from October 24, 2026. 73 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Gravity Rush 2 extraída de tu PS4 (CUSA03694, actualización 01.11); no se incluye ningún archivo del juego. Para el audio hace falta además el archivo libSceNgs2.sprx del firmware de tu consola. Windows x64 o Linux x86-64 con una GPU compatible con Vulkan (el autor prueba en Linux con una RTX 2060)."
+  en: "Your own copy of Gravity Rush 2 extracted from your PS4 (CUSA03694, update 01.11); no game files are included. Audio also needs the libSceNgs2.sprx file from your console’s firmware. Windows x64 or x86-64 Linux with a Vulkan-capable GPU (the author tests on Linux with an RTX 2060)."
+tags:
+  - x86
+  - vulkan
+  - ai-assisted

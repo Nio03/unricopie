@@ -1,0 +1,22 @@
+name: "Super Mario Maker 2"
+console: switch
+status: playable
+repo: smm2recomp/smm2recomp
+originalDeveloper: "Nintendo"
+year: 2019
+desc:
+  es: "SMM2 Recomp: port nativo de Super Mario Maker 2 (versión 3.0.3) para macOS, iOS/iPadOS, Windows, Linux y Android, hecho por recompilación estática: el código AArch64 del juego se traduce a C y se compila para tu plataforma, y un entorno propio sustituye a los servicios de la Switch, con gráficos en Metal o Vulkan. Lo que se descarga es un lanzador con el recompilador, no el juego: al primer arranque revisa tu volcado y recompila el código en tu equipo. Añade el Reto de los 100 Marios de Super Mario Maker 1, un Mundo de Cursos sin los servidores de Nintendo (con un servidor de código abierto que puedes alojar tú o con el archivo público de TGRCode), funciones de SMM1 como mods con interruptor propio, cooperativo en el Reto Interminable y en los 100 Marios, y la edición de cualquier curso descargado. La versión 0.5.1 (24 de octubre de 2026) trae paquetes para Windows x64, Linux x64 y arm64 y macOS con Apple Silicon. 92 de sus últimos 100 commits llevan a Claude como coautor. Licencia GPL-3.0."
+  en: "SMM2 Recomp: a native port of Super Mario Maker 2 (version 3.0.3) for macOS, iOS/iPadOS, Windows, Linux, and Android, made by static recompilation: the game’s AArch64 code is translated to C and compiled for your platform, and a runtime of its own stands in for the Switch’s system services, with graphics on Metal or Vulkan. What you download is a launcher with the recompiler, not the game: on first start it checks your dump and recompiles the code on your machine. It adds the 100 Mario Challenge from Super Mario Maker 1, a Course World without Nintendo’s servers (with an open-source server you can host yourself or TGRCode’s public archive), SMM1 features as mods with their own switches, co-op in Endless Challenge and 100 Mario, and editing any downloaded course. Version 0.5.1 (October 24, 2026) has packages for Windows x64, Linux x64 and arm64, and Apple silicon macOS. 92 of its last 100 commits list Claude as a co-author. Licensed GPL-3.0."
+requirements:
+  es: "Tu propia copia de Super Mario Maker 2 con la actualización 3.0.3 (NSP o XCI del juego y NSP de la actualización, o sus carpetas ExeFS y RomFS extraídas), además de los prod.keys y el firmware de tu consola, de donde salen las fuentes del juego. Windows 10 u 11 x64 con Vulkan 1.3, Linux (x64 o arm64) con SDL3 3.2 o posterior y Vulkan 1.3, o macOS 15 o posterior con Apple Silicon."
+  en: "Your own copy of Super Mario Maker 2 with the 3.0.3 update (the game’s NSP or XCI plus the update’s NSP, or their extracted ExeFS and RomFS folders), plus your console’s prod.keys and firmware, which the game’s fonts come from. Windows 10 or 11 x64 with Vulkan 1.3, Linux (x64 or arm64) with SDL3 3.2 or later and Vulkan 1.3, or macOS 15 or later on Apple silicon."
+tags:
+  - arm64
+  - vulkan
+  - online
+  - multiplayer
+  - mods
+  - mario
+  - build-android
+  - build-ios
+  - ai-assisted

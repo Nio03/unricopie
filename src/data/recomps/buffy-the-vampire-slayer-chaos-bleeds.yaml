@@ -1,0 +1,19 @@
+name: "Buffy the Vampire Slayer: Chaos Bleeds"
+console: xbox
+status: playable
+repo: KaikoClanworth1/buffy-chaos-bleeds-pc
+originalDeveloper: Eurocom
+year: 2003
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo para Windows de la versión de Xbox, con el código del juego traducido a C con xboxrecomp y compilado como un programa normal: no es un emulador. Dibuja con Vulkan, por defecto, o con Direct3D 11, a 720p, 1080p, 1440p o 4K además de los tamaños originales 4:3, a 60 fps estables o hasta 360 con el juego a su velocidad. Un launcher instala, configura y arranca el juego, activa mods con una casilla sin tocar los archivos del juego, y permite una segunda persona en la campaña, en dos ventanas o a pantalla partida, y paquetes de texturas HD, con volcado de las texturas del juego como en Dolphin y PCSX2. La misma base funciona en Android con controles táctiles. La 1.0.2 (2 de octubre) amplió los formatos de paquetes de texturas en PC y los hizo funcionar en Android. El propio README dice que el port lo escribió en su mayor parte Claude Code con la dirección y las pruebas de su autor, y los 15 commits del repositorio llevan a Claude como coautor. El repositorio no incluye el juego."
+  en: "A native Windows port of the Xbox version, with the game’s code translated to C using xboxrecomp and built as an ordinary program: it is not an emulator. It draws with Vulkan by default, or Direct3D 11, at 720p, 1080p, 1440p, or 4K as well as the original 4:3 sizes, at a steady 60 fps or up to 360 with the game still at its own speed. A launcher installs, configures, and starts the game, switches mods on and off with a checkbox without changing the game files, and supports a second player in the campaign, in two windows or split screen, and HD texture packs, with a dump of the game’s textures as in Dolphin and PCSX2. The same base runs on Android with touch controls. Version 1.0.2 (October 2) added more texture pack formats on PC and made them work on Android. The README itself says Claude Code wrote most of the port with its author directing and testing, and all 15 commits in the repository list Claude as a co-author. The repository does not include the game."
+requirements:
+  es: "Tu propia copia de Buffy the Vampire Slayer: Chaos Bleeds para Xbox (edición europea o norteamericana), como imagen de disco (.iso o .xiso). Además, Windows de 64 bits con una tarjeta gráfica con Vulkan o Direct3D 11 y, si quieres jugar con mando, un mando XInput."
+  en: "Your own copy of Buffy the Vampire Slayer: Chaos Bleeds for Xbox (European or North American release), as a disc image (.iso or .xiso). Plus 64-bit Windows with a Vulkan or Direct3D 11 graphics card and, if you want to use a controller, an XInput controller."
+tags:
+  - x86
+  - 60fps+
+  - multiplayer
+  - mods
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "FIFA 09"
+console: x360
+status: playable
+repo: ChunchunQ/fifa09-recomp
+originalDeveloper: "EA Canada"
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "FIFA 09 PC: port nativo para Windows de FIFA 09 (Xbox 360), con el código del juego traducido a código nativo con el SDK de ReXGlue, un lanzador moderno y los modos en línea de vuelta, sobre los servidores gratuitos de NOBK.Online (1 contra 1 clasificatorio con puntuación, ligas y campeones mensuales, y amigos dentro del juego con F1). Ofrece 720p o 1080p con AMD FSR o 2K y 4K nativos, límite de fotogramas, mando o teclado y ratón, logros con avisos al estilo Xbox 360 y un lanzador con comprobación de archivos, «Añadir a Steam» (también en Steam Deck) y actualización automática, en inglés y turco. La 1.4.0 es del 23 de octubre de 2026. Quedan fallos conocidos, como que a veces no arranca el juego en equipo con 3 o más jugadores. El código escrito para el port (ganchos, lanzador, parches del SDK y herramientas) es MIT; el juego y el código generado a partir de él no se incluyen. 5 de sus últimos 8 commits llevan a Claude como coautor."
+  en: "FIFA 09 PC: a native Windows port of FIFA 09 (Xbox 360), with the game’s code translated to native code with the ReXGlue SDK, a modern launcher, and the online modes back, on NOBK.Online’s free servers (ranked 1v1 with MMR, leagues, and monthly champions, plus in-game friends with F1). It offers 720p or 1080p with AMD FSR or native 2K and 4K, a frame rate limit, controller or keyboard and mouse, Xbox 360-style achievement pop-ups, and a launcher with file verification, “Add to Steam” (Steam Deck too), and self-update, in English and Turkish. 1.4.0 is from October 23, 2026. Known issues remain, such as Team Play with 3 or more players sometimes not starting. The code written for the port (hooks, launcher, SDK patches, and tools) is MIT; the game and the code generated from it aren’t included. 5 of its last 8 commits list Claude as a co-author."
+requirements:
+  es: "La carpeta de tu propia copia de FIFA 09 para Xbox 360 (default.xex, data0.big a data6.big, audiodata y data), con el ID de título 4541085B y el default.xex exacto cuyo SHA-256 da el README; otras regiones o actualizaciones se cuelgan. Windows 10 u 11 de 64 bits, una tarjeta gráfica DirectX 12 y mando o teclado y ratón. Para el modo en línea, una cuenta gratuita de NOBK.Online."
+  en: "The folder from your own copy of FIFA 09 for Xbox 360 (default.xex, data0.big to data6.big, audiodata, and data), with title ID 4541085B and the exact default.xex whose SHA-256 the README gives; other regions or title updates crash. 64-bit Windows 10 or 11, a DirectX 12 graphics card, and a controller or keyboard and mouse. For online play, a free NOBK.Online account."
+tags:
+  - powerpc
+  - online
+  - multiplayer
+  - 60fps+
+  - ai-assisted

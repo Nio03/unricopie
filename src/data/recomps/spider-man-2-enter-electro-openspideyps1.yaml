@@ -1,0 +1,17 @@
+name: "Spider-Man 2: Enter Electro (OpenSpideyPS1)"
+console: ps1
+status: playable
+repo: GTTeancum/SpideyPS1recomp
+originalDeveloper: Neversoft
+year: 2001
+toolchain: RecompOne
+desc:
+  es: "OpenSpideyPS1: recompilación nativa para Windows del Spider-Man 2: Enter Electro de PlayStation, hecha con RecompOne. El código de la consola se traduce de antemano a C# y se ejecuta sobre un entorno compartido que implementa los servicios originales, con renderizado moderno y personajes con más detalle. Los dos juegos del proyecto (este y el primer Spider-Man) van separados y solo comparten el recompilador y el entorno. Al arrancar, el instalador pide tu imagen BIN/CUE o ISO estadounidense y extrae los datos. Admite trajes como mods: el zip de la 1.1 (29 de septiembre), de unos 170 MB, trae 93 trajes externos con su atribución y los metadatos de cada uno, además de arreglos de renderizado, animación, tiempos y audio. El proyecto avisa de que está en desarrollo activo: ambos juegos llegan a jugarse, pero las pruebas no sustituyen a partidas completas. El repositorio incluye una carpeta «dreamcast» con herramientas y manifiestos (unos 42 MB de JSON) para trasladar trajes de la versión de Dreamcast del primer juego, que usa como referencia. 29 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "OpenSpideyPS1: a native Windows recompilation of the PlayStation Spider-Man 2: Enter Electro, built with RecompOne. The console’s code is translated ahead of time into C# and runs against a shared runtime that implements the original console services, with modern rendering and higher-detail characters. The project’s two games (this one and the first Spider-Man) are kept separate and share only the recompiler and runtime. On first launch, setup asks for your US BIN/CUE or ISO image and extracts the data. It supports costumes as mods: the 1.1 zip (September 29), about 170 MB, includes 93 external suits with per-suit attribution and metadata, along with rendering, animation, timing, and audio repairs. The project warns that it is in active development: both games reach gameplay, but targeted tests do not replace full playthroughs. The repository includes a “dreamcast” folder with tools and manifests (about 42 MB of JSON) for carrying costumes over from the first game’s Dreamcast version, which it uses as a reference. 29 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia estadounidense de Spider-Man 2: Enter Electro para PlayStation, como imagen BIN/CUE o ISO. Además, Windows de 64 bits; el ejecutable es autónomo y no necesita instalar ningún runtime."
+  en: "Your own US copy of Spider-Man 2: Enter Electro for PlayStation, as a BIN/CUE or ISO image. Plus 64-bit Windows; the executable is self-contained and needs no runtime installed."
+tags:
+  - mips
+  - mods
+  - ai-assisted

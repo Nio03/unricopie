@@ -1,0 +1,16 @@
+name: "Heart of Darkness"
+category: game-engine
+console: pc
+status: playable
+repo: MaximLopez/HeartOfDarkness-SDL
+originalDeveloper: "Amazing Studio"
+year: 1998
+desc:
+  es: "HeartOfDarkness-SDL: reimplementación con SDL2 del motor de Heart of Darkness, de Amazing Studio, y bifurcación de «hode», de Gregory Montoir. Quiere ser 100 % fiel al juego real y funcionar en cualquier sistema donde corra SDL2. La versión 0.2.9 (3 de agosto de 2020) trae paquetes para Windows, Xbox, Linux, Android, Switch, Wii, PS Vita y PSP; el README habla de la 0.2.9.1. Faltan los menús; se pueden usar los archivos de PSX, pero sin el sonido (SPU ADPCM) ni los fondos (MDEC), y Android no tiene control con interfaz. Tiene wiki, registro de cambios y tabla de compatibilidad."
+  en: "HeartOfDarkness-SDL: an SDL2 reimplementation of the Heart of Darkness engine, by Amazing Studio, and a fork of “hode” by Gregory Montoir. It aims to be 100% faithful to the real game and run on any system where SDL2 does. Version 0.2.9 (August 3, 2020) has packages for Windows, Xbox, Linux, Android, Switch, Wii, PS Vita, and PSP; the README mentions 0.2.9.1. Menus are missing; PSX files can be used, but without sound (SPU ADPCM) or backgrounds (MDEC), and Android has no GUI control. It has a wiki, a changelog, and a compatibility table."
+requirements:
+  es: "Los archivos de datos de tu propia copia de la versión de Windows de Heart of Darkness (del juego completo o de la demo): hod.paf (o hod_demo.paf y hod_demo2.paf), setup.dat y los archivos *_hod.lvl, *_hod.sss y *_hod.mst. Windows, Linux u otro sistema con SDL2."
+  en: "The data files from your own copy of the Windows version of Heart of Darkness (full game or demo): hod.paf (or hod_demo.paf and hod_demo2.paf), setup.dat, and the *_hod.lvl, *_hod.sss, and *_hod.mst files. Windows, Linux, or another system with SDL2."
+tags:
+  - reverse-engineering
+  - build-android

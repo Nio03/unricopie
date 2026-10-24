@@ -1,0 +1,18 @@
+name: "The Terminator: SkyNET / Future Shock"
+category: game-engine
+console: dos
+status: playable
+abandoned: true
+repo: nautilusbits/skynet-godot
+originalDeveloper: Bethesda Softworks
+year: 1996
+desc:
+  es: "Port en Godot 4 de los dos shooters de 1996 de Bethesda con el motor XnGine, SkyNET y Future Shock: el motor está reescrito en Godot y el juego se lee de los datos originales de tu copia (los archivos BSA, los mapas de altura WLD, las texturas, los mapas, los sonidos y la música HMI), decodificados en ejecución. Incluye la campaña completa de SkyNET, con sus ocho misiones, los guiones DOS, el contador de objetivos y los briefings con arte y voces originales; Future Shock, con su campaña de 17 misiones, vehículos y equipo inicial, que se juega desde NEW GAME → FUTURE SHOCK sobre el motor de SkyNET; los vehículos (el jeep y el HK); y partidas a muerte por LAN con bots, las clases HUMAN y TERMINATOR, visión de máquina y detector de movimiento. Las reglas se leen del ejecutable DOS, no se adivinan. Ofrece mejoras visuales opcionales, apagadas por defecto, como luces dinámicas de los disparos. El proyecto quedó congelado el 13 de octubre con la 0.5.0, versión final: el desarrollo continúa en un nuevo port en C# y SDL3, aún sin publicar. Sus últimos 100 commits llevan todos a Claude como coautor."
+  en: "A Godot 4 port of Bethesda’s two 1996 XnGine shooters, SkyNET and Future Shock: the engine is rewritten in Godot and the game is read from the original data of your copy (the BSA archives, the WLD heightmaps, the textures, the maps, the sounds, and the HMI music), decoded at run time. It includes SkyNET’s full campaign, with its eight missions, the DOS mission scripts, the objective counter, and briefings with the original art and voice lines; Future Shock, with its 17-mission campaign, vehicles, and start kit, played from NEW GAME → FUTURE SHOCK on SkyNET’s engine; the vehicles (the jeep and the HK); and LAN deathmatch with bots, the HUMAN and TERMINATOR classes, machine vision, and the motion detector. The rules are read out of the DOS executable, not guessed. It offers optional visual enhancements, off by default, such as dynamic lights from gunfire. The project was frozen on October 13 with 0.5.0, the final release: development continues in a new C# + SDL3 port, not yet published. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de SkyNET (The Terminator: SkyNET) y, si quieres jugar a Future Shock, también de Terminator: Future Shock; en el primer arranque el juego pide las carpetas. Además, Windows, Linux, macOS o Android (descargas SkyNET.exe, .x86_64, .zip y .apk)."
+  en: "Your own copy of SkyNET (The Terminator: SkyNET) and, to play Future Shock, also of Terminator: Future Shock; on first start the game asks for the folders. Plus Windows, Linux, macOS, or Android (downloads SkyNET.exe, .x86_64, .zip, and .apk)."
+tags:
+  - reverse-engineering
+  - multiplayer
+  - ai-assisted

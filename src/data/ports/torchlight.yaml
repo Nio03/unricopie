@@ -1,0 +1,15 @@
+name: Torchlight
+category: game-engine
+console: pc
+status: playable
+repo: GreenSwampDweller/torchlight-rekindled
+originalDeveloper: Runic Games
+year: 2009
+desc:
+  es: "Torchlight Rekindled: un motor que ejecuta Torchlight en un Nintendo Switch con homebrew, Android, iOS y ordenadores de escritorio (Windows y Linux). Su lógica de juego sigue la del port de Xbox 360 que hizo Runic (Xbox Live Arcade, 2011), que sí tenía mando e interfaz pensada para mando; dibuja con OGRE 14 y ParticleUniverse. Lee en tiempo de ejecución los archivos de tu copia: acepta el pak.zip de Xbox 360 como referencia o el Pak.zip de una versión de PC (Steam, GOG, Epic o en caja), con una interfaz de reserva básica para este último, y la carpeta de música, sin la cual el juego funciona en silencio. La 1.0.2 (23 de octubre) añadió una cámara libre opcional, un limitador de fotogramas por segundo y más velocidad en peleas con muchos monstruos. Su autor aclara que las versiones de escritorio solo se han probado en un portátil con mando, no en PC de bolsillo como la Steam Deck."
+  en: "Torchlight Rekindled: an engine that runs Torchlight on a homebrew Nintendo Switch, Android, iOS, and desktop (Windows and Linux). Its game logic follows Runic’s own Xbox 360 port (Xbox Live Arcade, 2011), which had gamepad support and a controller-designed interface; it draws with OGRE 14 and ParticleUniverse. It reads your copy’s files at run time: it accepts the Xbox 360 pak.zip as the reference or the Pak.zip from a PC release (Steam, GOG, Epic, or retail), with a basic fallback interface for the latter, plus the music folder, without which the game runs silently. 1.0.2 (October 23) added an optional free camera, a frame limiter, and faster big fights with many monsters. Its author notes the desktop builds have only been tested on a laptop with a gamepad, not on handheld PCs like the Steam Deck."
+requirements:
+  es: "Tu propia copia del juego completo: cualquier versión de PC comprada (Steam, GOG, Epic o en caja) o la de Xbox 360, de la que se toma pak.zip (o Pak.zip) y la carpeta de música. Además, Windows de 64 bits o Linux de 64 bits."
+  en: "Your own copy of the full game: any purchased PC release (Steam, GOG, Epic, or retail) or the Xbox 360 release, from which you take pak.zip (or Pak.zip) and the music folder. Plus 64-bit Windows or 64-bit Linux."
+tags:
+  - reverse-engineering

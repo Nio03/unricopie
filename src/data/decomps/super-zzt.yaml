@@ -1,0 +1,9 @@
+name: Super ZZT
+console: dos
+repo: asiekierka/reconstruction-of-super-zzt
+desc:
+  es: "The Reconstruction of Super ZZT: recreación mediante ingeniería inversa del código fuente de Super ZZT 2.0, la última versión oficial de la secuela de ZZT de Tim Sweeney (octubre de 1991), cuyo código original se perdió hace mucho. Está escrita en Pascal para Turbo Pascal 5.5 y se compila en un entorno DOS como DOSBox con BUILD.BAT; produce el ejecutable SUPERZ.EXE, junto con las herramientas del proceso. Casi todo el código es idéntico byte a byte al original; la excepción es la rutina de descompresión de imágenes ANSI de TheDraw (UNCRLIB.PAS), reemplazada por una implementación limpia por falta de una licencia clara, aunque se puede sustituir por la original para obtener un EXE idéntico. El repositorio incluye seis pantallas ANSI de 80x25 del juego original (.BIN) y herramientas de compresión de imágenes. La única versión, la 1.0 (16 de agosto de 2020), contiene solo el motor, SUPERZ.EXE."
+  en: "The Reconstruction of Super ZZT: a reverse-engineered recreation of the source code of Super ZZT 2.0, the last official release of the sequel to Tim Sweeney’s ZZT (October 1991), whose original source was lost long ago. It is written in Pascal for Turbo Pascal 5.5 and built in a DOS environment such as DOSBox with BUILD.BAT; it produces the SUPERZ.EXE executable, along with the tools for the process. Almost all of the code is byte-identical to the original; the exception is TheDraw’s ANSI image decompression routine (UNCRLIB.PAS), replaced with a clean implementation for lack of clear licensing, though it can be swapped for the original to get an identical EXE. The repository includes six 80x25 ANSI screens from the original game (.BIN files) and image compression tools. The only release, 1.0 (August 16, 2020), contains just the engine, SUPERZ.EXE."
+tags:
+  - matching
+  - reverse-engineering

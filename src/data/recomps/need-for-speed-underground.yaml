@@ -1,0 +1,16 @@
+name: Need for Speed Underground
+console: pc
+status: experimental
+repo: codepdbh/nfsu1-recompiled
+originalDeveloper: EA Black Box
+year: 2003
+toolchain: pcrecomp
+desc:
+  es: "Recompilación estática de la versión de PC (parche 1.4, Speed.exe): el ejecutable x86 se traduce función a función a C con un pcrecomp parcheado (lift32) y se compila para el sistema de destino, sin emulador, Wine ni JIT. Dibuja con Direct3D 9, y con DXVK sobre Vulkan en Android. Aprovecha las herramientas del mismo autor para Need for Speed Underground 2. Según la tabla de estado del proyecto, el anfitrión de Windows arranca, reproduce los vídeos de introducción y llega al menú principal, carga el perfil y alcanza el vídeo del modo historia, pero las carreras aún no se han probado; el APK de Android para arm64 se instala y llega a los menús. Las versiones publicadas son solo APK para Android (la 0.2.6, del 23 de octubre, estabilizó el sonido en varios chips); en Windows hay que compilarlo a partir del código, con Visual Studio y Python. Todo lo derivado de Speed.exe se genera en tu equipo y no se sube al repositorio."
+  en: "A static recompilation of the PC version (patch 1.4, Speed.exe): the x86 executable is translated function by function into C with a patched pcrecomp (lift32) and compiled for the target, with no emulator, Wine, or JIT. It draws with Direct3D 9, and with DXVK on Vulkan on Android. It builds on the same author’s tools for Need for Speed Underground 2. By the project’s own status table, the Windows host boots, plays the intro videos, reaches the main menu, loads the profile, and gets to the story-mode video, but races have not been tested yet; the arm64 Android APK installs and reaches the menus. The published releases are only Android APKs (0.2.6, from October 23, stabilized sound on several chips); on Windows you build it from the source, with Visual Studio and Python. Everything derived from Speed.exe is generated on your machine and is not committed to the repository."
+requirements:
+  es: "Tu propia copia de Need for Speed Underground para PC con el parche 1.4 (Speed.exe). Para compilarlo en Windows, Visual Studio (MSVC x86), Python 3 con capstone y pefile y una copia del pcrecomp parcheado; no hay versión de Windows ya compilada."
+  en: "Your own PC copy of Need for Speed Underground with patch 1.4 (Speed.exe). To build it on Windows, Visual Studio (MSVC x86), Python 3 with capstone and pefile, and a checkout of the patched pcrecomp; there is no prebuilt Windows version."
+tags:
+  - x86
+  - racing

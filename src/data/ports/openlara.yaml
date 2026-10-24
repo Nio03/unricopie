@@ -1,0 +1,17 @@
+name: "Tomb Raider (OpenLara)"
+category: game-engine
+status: playable
+repo: XProger/OpenLara
+author: "XProger"
+originalDeveloper: "Core Design"
+desc:
+  es: "OpenLara: motor de código abierto para los Tomb Raider clásicos, creado por XProger. El proyecto ofrece una versión web con un nivel de demostración y una versión independiente; la etiqueta «latest» de GitHub reúne compilaciones para muchísimas plataformas (Linux, macOS, Android, iOS, 3DS, PS Vita, Raspberry Pi, GBA, 32X, 3DO y otras) y sus notas dan la fecha de actualización de cada una: Windows, 23 de marzo de 2021; Linux y macOS, marzo de 2023. El README es escueto y remite a un plan de trabajo en los issues del repositorio. El repositorio incluye datos de niveles ya empaquetados para sus versiones de GBA y 32X (varios MB), unos controladores de sistema de 3DO (los cport*.rom, de apenas 1,5 KB cada uno) y DOS4GW.exe para la versión de DOS."
+  en: "OpenLara: an open-source engine for the classic Tomb Raider games, created by XProger. The project offers a web version with a demo level and a standalone version; GitHub’s “latest” tag gathers builds for a huge range of platforms (Linux, macOS, Android, iOS, 3DS, PS Vita, Raspberry Pi, GBA, 32X, 3DO, and others), and its notes give each one’s update date: Windows, March 23, 2021; Linux and macOS, March 2023. The README is terse and points to a roadmap in the repository’s issues. The repository includes already-packed level data for its GBA and 32X versions (several MB), a few 3DO system drivers (the cport*.rom files, barely 1.5 KB each), and DOS4GW.exe for the DOS version."
+requirements:
+  es: "Los archivos de datos de tu propia copia de uno de los Tomb Raider clásicos; el README no indica qué versiones ni qué archivos exactos. La versión web incluye un nivel de demostración. Windows, Linux o macOS."
+  en: "The data files from your own copy of one of the classic Tomb Raider games; the README doesn’t say which versions or exact files. The web version includes a demo level. Windows, Linux, or macOS."
+tags:
+  - reverse-engineering
+  - build-android
+  - build-ios
+  - build-web

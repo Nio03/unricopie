@@ -1,0 +1,19 @@
+name: "Naruto Shippuden: Ultimate Ninja Storm Generations"
+console: x360
+status: playable
+repo: Masterllgod/naruto-storm-generations-port-nativo
+originalDeveloper: "CyberConnect2"
+year: 2012
+toolchain: XenonRecomp
+desc:
+  es: "Port nativo de Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360) para Windows x64 y Android ARM64, hecho por recompilación estática del default.xex, con un backend Vulkan adaptado a las GPU de móvil. El proyecto es de código cerrado: el repositorio solo contiene documentación y capturas, y los ejecutables están en sus versiones. La 0.3.5 (18 de octubre de 2026) trae un APK y un zip para Windows; la 0.4, marcada como preliminar, solo el APK. Combates a 30 fps, un modo de rendimiento a 24 fps para móviles, resoluciones de hasta 4K en PC, FXAA, FSR 1 y CAS, controles en pantalla editables en Android, y ventana o pantalla completa, teclado y mandos en PC. Los 6 commits del repositorio llevan a Claude como coautor."
+  en: "A native port of Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360) for Windows x64 and Android ARM64, made by static recompilation of default.xex, with a Vulkan backend adapted to phone GPUs. The project is closed source: the repository only holds documentation and screenshots, and the executables are in its releases. Version 0.3.5 (October 18, 2026) has an APK and a Windows zip; 0.4, marked as a pre-release, only the APK. It has fights at 30 fps, a 24 fps performance mode for phones, resolutions up to 4K on PC, FXAA, FSR 1, and CAS, editable on-screen controls on Android, and windowed or fullscreen, keyboard, and controllers on PC. All 6 of the repository’s commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del disco norteamericano (NTSC-U) de Naruto Shippuden: Ultimate Ninja Storm Generations para Xbox 360, con un default.xex idéntico al de la versión 0.0.0.5 (ID de título 4E4D0842; el README da el SHA-1); no vale la versión PAL. Windows 10 de 64 bits con una CPU x86-64 con AVX y una GPU con Vulkan 1.1, o Android 11 o posterior con ARM64."
+  en: "Your own copy of the North American (NTSC-U) disc of Naruto Shippuden: Ultimate Ninja Storm Generations for Xbox 360, with a default.xex identical to version 0.0.0.5 (title ID 4E4D0842; the README gives the SHA-1); the PAL version doesn’t work. 64-bit Windows 10 with an x86-64 CPU with AVX and a Vulkan 1.1 GPU, or Android 11 or later on ARM64."
+tags:
+  - powerpc
+  - vulkan
+  - 60fps+
+  - build-android
+  - ai-assisted

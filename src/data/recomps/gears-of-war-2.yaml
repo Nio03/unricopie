@@ -1,0 +1,20 @@
+name: "Gears of War 2"
+console: x360
+status: playable
+repo: santiquiroz/gears-of-war-2-pc-port
+originalDeveloper: "Epic Games"
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial de Gears of War 2 para PC: el juego de Xbox 360 recompilado estáticamente a x64 con el SDK de ReXGlue, sin emulación. Según su README, un port anterior de aficionados («Hollow») salió de una compilación de desarrollo filtrada de 2008, y este ejecuta el juego comercial completo. El acto 1 se puede jugar con teclado y ratón o mando; trae resolución interna de 1440p o 4K, FSR 1, FSR 3.1 y FSR 4 temporales, CAS, paquetes de texturas, puntería con ratón sin zona muerta, pantalla ultrapanorámica de hasta 1680 píxeles de ancho, parches de la comunidad, cooperativo de campaña de hasta cuatro jugadores por System Link y en pantalla dividida, y Versus y Horda en pruebas. Aún no se ha comprobado la campaña entera. La 0.3.3 (24 de octubre de 2026) trae un zip para Windows y un APK experimental de Android. Licencia BSD-3-Clause."
+  en: "An unofficial native PC port of Gears of War 2: the Xbox 360 game statically recompiled to x64 with the ReXGlue SDK, with no emulation. According to its README, an earlier fan port (“Hollow”) came from a leaked 2008 development build, and this one runs the complete retail game. Act 1 is playable with keyboard and mouse or a controller; it brings 1440p or 4K internal resolution, FSR 1 and temporal FSR 3.1 and FSR 4, CAS, texture packs, mouse aim with no dead zone, ultrawide up to 1680 pixels wide, community game patches, campaign co-op for up to four players over System Link and split-screen, and Versus and Horde in testing. The full campaign hasn’t been checked yet. 0.3.3 (October 24, 2026) has a Windows zip and an experimental Android APK. Licensed BSD-3-Clause."
+requirements:
+  es: "Tu propia copia comercial de Gears of War 2 para Xbox 360 (ID de título 4D53082D), volcada a una carpeta con default.xex y la carpeta GearGame, por ejemplo extrayendo la ISO con xdvdfs; no se incluye nada del juego. Windows de 64 bits con una GPU con Direct3D 12 o Vulkan."
+  en: "Your own retail copy of Gears of War 2 for Xbox 360 (title ID 4D53082D), dumped to a folder with default.xex and the GearGame folder, for example by extracting the ISO with xdvdfs; nothing from the game is included. 64-bit Windows with a Direct3D 12 or Vulkan GPU."
+tags:
+  - powerpc
+  - widescreen
+  - multiplayer
+  - mods
+  - hd-assets
+  - build-android

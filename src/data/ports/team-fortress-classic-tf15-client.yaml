@@ -1,0 +1,20 @@
+name: "Team Fortress Classic (TF15-Client)"
+category: decomp-port
+console: pc
+status: playable
+repo: FWGS/tf15-client
+author: "Velaron"
+originalDeveloper: "Valve"
+year: 1999
+desc:
+  es: "TF15-Client: Team Fortress Classic con ingeniería inversa, para ejecutarlo sobre Xash3D FWGS en lugar del motor de Half-Life. El repositorio tiene las carpetas del cliente (cl_dll) y de las DLL del juego (dlls), entre otras, y se compila para Windows, Linux y Android. Las compilaciones continuas (la última, del 13 de agosto de 2025, marcada como preliminar) traen un APK de Android y paquetes para Windows (x64 y x86) y Linux (x64 e i386), aunque el propio README no recomienda las de Windows y Linux frente a la versión de Steam. Su autor dice que busca una implementación de servidor que funcione y aplicar la misma ingeniería inversa a otros mods."
+  en: "TF15-Client: a reverse-engineered Team Fortress Classic, to run on Xash3D FWGS instead of the Half-Life engine. The repository has the client (cl_dll) and game DLL (dlls) folders, among others, and builds for Windows, Linux, and Android. The continuous builds (the latest, from August 13, 2025, marked as a pre-release) come as an Android APK and packages for Windows (x64 and x86) and Linux (x64 and i386), although the README itself doesn’t recommend the Windows and Linux ones over the Steam version. Its author says they want a working server implementation and to reverse-engineer other mods the same way."
+requirements:
+  es: "Tu propia copia de Team Fortress Classic de Steam: hay que copiar las carpetas valve y tfc al directorio de Xash3D FWGS, en su última versión de desarrollo. Windows, Linux o Android."
+  en: "Your own copy of Team Fortress Classic from Steam: you copy the valve and tfc folders into the Xash3D FWGS directory, using its latest developer build. Windows, Linux, or Android."
+tags:
+  - x86
+  - fps
+  - multiplayer
+  - reverse-engineering
+  - build-android

@@ -1,0 +1,21 @@
+name: "ClassiCube"
+category: fan-remake
+console: pc
+status: playable
+repo: ClassiCube/ClassiCube
+originalDeveloper: "Mojang"
+year: 2009
+desc:
+  es: "ClassiCube: cliente compatible con Minecraft Classic escrito desde cero en C (antes ClassicalSharp, en C#). Quiere reproducir el cliente de 2009 de Minecraft Classic con una ingeniería inversa de «sala limpia» y ofrece mejoras opcionales, como bloques, modelos y colores de entorno personalizados. No intenta replicar el Minecraft actual: nunca tendrá supervivencia, cuentas de Minecraft ni servidores modernos. Tiene modo para un jugador y multijugador en red local y en los servidores de classicube.net (con una cuenta del sitio), y consume mucha menos memoria que el original. Funciona en Windows (desde el 95), macOS, Linux, Android, iOS y navegadores, además de en varios BSD, Haiku, IRIX y otros sistemas; para varias consolas hay versiones sin terminar. Al abrir el lanzador por primera vez descarga los recursos necesarios de minecraft.net y classicube.net. La última versión, la 1.3.9, es del 22 de octubre de 2026 y las compilaciones se bajan de classicube.net. El proyecto no está afiliado a Mojang, Minecraft ni Microsoft."
+  en: "ClassiCube: a Minecraft Classic-compatible client written from scratch in C (formerly ClassicalSharp, in C#). It aims to replicate the 2009 Minecraft Classic client through a “clean room” reverse-engineering approach, with optional enhancements such as custom blocks, models, and environment colors. It doesn’t try to replicate current Minecraft: it will never support survival, Minecraft accounts, or modern servers. It has a singleplayer mode and multiplayer on a LAN and on the classicube.net servers (with an account on the site), and it uses far less memory than the original. It runs on Windows (95 and later), macOS, Linux, Android, iOS, and web browsers, plus several BSDs, Haiku, IRIX, and other systems; there are unfinished versions for several consoles. On first launch the launcher downloads the assets it needs from minecraft.net and classicube.net. The latest version, 1.3.9, is from October 22, 2026, and builds are downloaded from classicube.net. The project isn’t affiliated with Mojang, Minecraft, or Microsoft."
+requirements:
+  es: "No hace falta ninguna copia del juego: el lanzador descarga por su cuenta los recursos necesarios de minecraft.net y classicube.net la primera vez. Windows, macOS, Linux u otro de los sistemas admitidos, con una tarjeta gráfica compatible con OpenGL o Direct3D 9; en Linux y los BSD hace falta OpenAL."
+  en: "No copy of the game is needed: the launcher downloads the required assets from minecraft.net and classicube.net by itself the first time. Windows, macOS, Linux, or another supported system, with a graphics card that supports OpenGL or Direct3D 9; Linux and the BSDs need OpenAL."
+tags:
+  - multiplayer
+  - online
+  - mods
+  - reverse-engineering
+  - build-android
+  - build-ios
+  - build-web

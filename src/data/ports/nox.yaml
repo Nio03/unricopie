@@ -1,0 +1,19 @@
+name: "Nox"
+category: decomp-port
+console: pc
+status: fully
+repo: opennox/opennox
+originalDeveloper: "Westwood Studios"
+year: 2000
+desc:
+  es: "OpenNox: proyecto comunitario de código abierto que amplía el motor de Nox. Admite todas las funciones de la versión original: se puede completar la campaña y jugar en línea. Añade nuevas funciones, listadas en la documentación del proyecto, y una API de scripts para mapas. Las versiones salen de la rama «dev»: la última, la 1.9.0 alfa 13 (27 de enero de 2024), trae ejecutable y zip para Windows, tar.gz y AppImage para Linux, y hay paquete Snap, paquetes en el AUR y compilaciones nocturnas. Licencia GPL-3.0; el proyecto sigue recibiendo cambios (septiembre de 2026) y dice no incluir recursos, textos ni arte del juego original. El repositorio incluye código C heredado (carpeta src/legacy, varios MB) y volcados de datos (src/common/memmap, unos 0,7 MB) del ejecutable original."
+  en: "OpenNox: an open-source community project that extends the Nox engine. It supports all of the original version’s features: you can complete the campaign and play online. It adds new features, listed in the project’s documentation, and a scripting API for maps. Releases come from the “dev” branch: the latest, 1.9.0 alpha 13 (January 27, 2024), has an executable and zip for Windows and a tar.gz and AppImage for Linux, and there’s a Snap package, AUR packages, and nightly builds. Licensed GPL-3.0; the project is still receiving changes (September 2026) and says it includes no assets, text, or art from the original game. The repository includes legacy C code (the src/legacy folder, several MB) and data dumps (src/common/memmap, about 0.7 MB) from the original executable."
+requirements:
+  es: "Tu propia copia de Nox; el README no da versiones ni sumas de comprobación. Windows o Linux."
+  en: "Your own copy of Nox; the README gives no versions or checksums. Windows or Linux."
+tags:
+  - rpg
+  - multiplayer
+  - online
+  - mods
+  - reverse-engineering

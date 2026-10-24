@@ -1,0 +1,19 @@
+name: "Command & Conquer: Red Alert 2 / Yuri's Revenge (VERA20K)"
+category: game-engine
+console: pc
+status: playable
+repo: YuriPlanet/vera20k
+originalDeveloper: "Westwood Studios"
+year: 2001
+desc:
+  es: "VERA20K: reescritura comunitaria en Rust de gamemd.exe, el motor de Yuri’s Revenge, que usa los archivos del juego original. Quiere conservar la jugabilidad, el aspecto y la atmósfera del original y añadir batallas más grandes (hasta 30 jugadores y 20.000 unidades en mapas de 500×500), funciones de RTS conocidas y un cliente multijugador integrado. Hoy se puede jugar a escaramuzas en Windows, Linux y macOS, con construcción de bases, recolección, combate y guardado; las campañas arrancan, pero su soporte es incompleto, y el multijugador en LAN y en línea está disponible en las compilaciones desde el código en macOS y Linux. Según el README, la mayor parte del código la escriben agentes de programación con IA, que estudian el motor original con Ghidra y comprueban el resultado con herramientas de comparación. La última versión, la 0.2.1 (23 de octubre de 2026), trae instalador para Windows de 64 bits, .dmg para macOS con Apple Silicon y AppImage para Linux. Licencia GPLv3. El repositorio incluye datos de comparación con el comportamiento del juego original (carpeta tools, unos 760 MB)."
+  en: "VERA20K: a community rewrite in Rust of gamemd.exe, the Yuri’s Revenge engine, which uses the original game’s files. It aims to keep the original’s gameplay, look, and atmosphere while adding bigger battles (up to 30 players and 20,000 units on 500×500 maps), familiar RTS features, and a built-in multiplayer client. Today skirmishes are playable on Windows, Linux, and macOS, with base building, harvesting, combat, and saving; campaigns launch but support is incomplete, and LAN and online multiplayer are available in source builds on macOS and Linux. According to the README, most of the code is written by AI coding agents, which study the original engine with Ghidra and check the result with comparison tools. The latest release, 0.2.1 (October 23, 2026), has an installer for 64-bit Windows, a .dmg for Apple silicon macOS, and a Linux AppImage. Licensed GPLv3. The repository includes data comparing against the original game’s behavior (the tools folder, about 760 MB)."
+requirements:
+  es: "Tu propia copia de Command & Conquer: Red Alert 2 – Yuri’s Revenge; el instalador busca la carpeta del juego. Windows de 64 bits, macOS con Apple Silicon o Linux x86-64."
+  en: "Your own copy of Command & Conquer: Red Alert 2 – Yuri’s Revenge; the installer looks for the game’s folder. 64-bit Windows, Apple silicon macOS, or x86-64 Linux."
+tags:
+  - rts
+  - multiplayer
+  - online
+  - reverse-engineering
+  - ai-assisted

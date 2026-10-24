@@ -1,0 +1,20 @@
+name: "Killzone"
+console: ps2
+status: experimental
+repo: drakolordx7/KillzoneRecomp
+originalDeveloper: "Guerrilla Games"
+year: 2004
+toolchain: PS2Recomp
+desc:
+  es: "KillzoneRecomp: port nativo para Windows de Killzone (PlayStation 2), hecho con recompilación estática. El código PS2 del juego se traduce a C++ con PS2Recomp y se enlazan como bibliotecas el renderizador por hardware, microVU, IPU y SPU2 de PCSX2. Aporta ratón y teclado totalmente reasignables (la puntería es un parche del motor), mandos por SDL3 con la disposición de PS2, imagen a la frecuencia del monitor (unos 117-120 fps a 120 Hz), resolución interna de hasta 8x, 16:9 nativo y 21:9 y 32:9 en pantalla ultrapanorámica, con Direct3D 11, 12 o Vulkan. Es una alfa: el arranque, los menús, la creación de perfil y el primer nivel se han verificado con pruebas automáticas, pero faltan partidas largas. La última, la 0.1.3-alpha (22 de octubre de 2026), es preliminar. Killzone Online no se incluye. 60 de sus últimos 100 commits llevan a Claude como coautor. Licencia GPL-3.0."
+  en: "KillzoneRecomp: a native Windows port of Killzone (PlayStation 2), made by static recompilation. The game’s PS2 code is translated to C++ with PS2Recomp, and PCSX2’s hardware renderer, microVU, IPU, and SPU2 are linked in as libraries. It adds fully rebindable mouse and keyboard (aiming is an engine patch), SDL3 controllers with the PS2 layout, frame rate matching the monitor (about 117-120 fps at 120 Hz), internal resolution up to 8x, native 16:9 plus 21:9 and 32:9 ultrawide, on Direct3D 11, 12, or Vulkan. It’s an alpha: boot, menus, profile creation, and the first level have been verified in automated runs, but longer playthroughs are still to come. The latest, 0.1.3-alpha (October 22, 2026), is a pre-release. Killzone Online isn’t included. 60 of its last 100 commits list Claude as a co-author. Licensed GPL-3.0."
+requirements:
+  es: "Tu propia imagen de disco de Killzone NTSC-U (SCUS-97402). Windows de 64 bits y una CPU con AVX2."
+  en: "Your own disc image of Killzone NTSC-U (SCUS-97402). 64-bit Windows and a CPU with AVX2."
+tags:
+  - mips
+  - emotion-engine
+  - fps
+  - 60fps+
+  - widescreen
+  - ai-assisted

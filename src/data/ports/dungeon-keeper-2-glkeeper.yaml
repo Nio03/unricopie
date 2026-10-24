@@ -1,0 +1,15 @@
+name: "Dungeon Keeper 2 (GLKeeper)"
+category: fan-remake
+console: pc
+status: experimental
+repo: codenamecpp/GLKeeper
+originalDeveloper: Bullfrog Productions
+year: 1999
+desc:
+  es: "Grim Lands Keeper (GLKeeper): reimplementación de código abierto de Dungeon Keeper 2 en C++ con OpenGL, que lee los formatos de archivo del juego original. El README la declara todavía no jugable. Publica versiones de desarrollo para Windows; la dev-8 (27 de septiembre) arregló el agrupamiento de la geometría del terreno y añadió la construcción y venta de salas por oro, el cursor, el minimapa, la generación de atlas de texturas al ejecutar, la selección de niveles de la campaña, sonidos y ambiente, transiciones de cámara en el menú principal y la reproducción de los vídeos de introducción; la dev-7 sumó la selección de niveles (escaramuza y «mi mazmorra de mascota») y la recogida básica de criaturas. Existe otro proyecto de reimplementación de este juego, OpenKeeper. El README no detalla qué datos necesita; por los formatos que documenta, el motor se alimenta de los archivos de tu copia de Dungeon Keeper 2."
+  en: "Grim Lands Keeper (GLKeeper): an open-source reimplementation of Dungeon Keeper 2 in C++ with OpenGL, which reads the original game’s file formats. The README states it is not yet playable. It publishes development builds for Windows; dev-8 (September 27) fixed terrain geometry batching and added building and selling rooms for gold, cursor logic, the minimap, runtime texture atlas generation, main campaign level selection, sounds and ambience, front-end camera transitions, and intro movie playback; dev-7 added level selection (skirmish and My Pet Dungeon) and basic creature pickup. Another reimplementation of this game exists, OpenKeeper. The README doesn’t say what data it needs; given the formats it documents, the engine is fed from the files of your copy of Dungeon Keeper 2."
+requirements:
+  es: "El README no lo detalla: se entiende que hace falta tu propia copia de Dungeon Keeper 2 para PC, de cuyos archivos lee el motor. Además, Windows (versiones de desarrollo en bin_win.zip)."
+  en: "The README doesn’t spell it out: your own PC copy of Dungeon Keeper 2 is presumably needed, since the engine reads its files. Plus Windows (development builds in bin_win.zip)."
+tags:
+  - reverse-engineering

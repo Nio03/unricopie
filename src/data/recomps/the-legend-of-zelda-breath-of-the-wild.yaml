@@ -1,0 +1,19 @@
+name: "The Legend of Zelda: Breath of the Wild"
+console: switch
+status: experimental
+repo: Revivedx/SavageWindRecomp
+originalDeveloper: "Nintendo"
+year: 2017
+desc:
+  es: "Savage Wind Recomp: recompilación estática, todavía en desarrollo, de Breath of the Wild (Switch, versión 1.8.2) hacia una aplicación nativa para Windows y Linux, construida sobre LAS Recomp. El README declara que el proyecto está hecho casi por completo con IA (Claude, mediante Claude Code), dirigida, probada y revisada por una persona. Al primer arranque pide tu juego ya extraído y recompila el código en tu equipo, unos 40 minutos con una CPU de 12 hilos. La alfa 2 (22 de octubre de 2026, preliminar y solo con paquete de Windows) juega a 60 fps el comienzo en el Santuario de la Resurrección y la Gran Meseta, con sonido, voces, interfaz, guardado, teclado y ratón, resolución nativa hasta 4K o FSR 1, 15 idiomas de texto y 8 de voz; nadie ha jugado más allá de la Gran Meseta, así que se esperan fallos. Aún no admite DLC. Los cambios en prueba están en la rama «test»."
+  en: "Savage Wind Recomp: a still-in-development static recompilation of Breath of the Wild (Switch, version 1.8.2) into a native application for Windows and Linux, built on LAS Recomp. The README states the project is made almost entirely with AI (Claude, through Claude Code), directed, tested, and reviewed by a human. On first launch it asks for your already-extracted game and recompiles the code on your machine, about 40 minutes on a 12-thread CPU. Alpha 2 (October 22, 2026, a pre-release with a Windows package only) plays the opening in the Shrine of Resurrection and the Great Plateau at 60 fps, with sound, voices, HUD, saving, keyboard and mouse, native resolution up to 4K or FSR 1, and 15 text and 8 voice languages; nobody has played past the Great Plateau, so bugs are expected. DLC isn’t supported yet. Changes under testing live on the “test” branch."
+requirements:
+  es: "Tu propia copia de Breath of the Wild para Switch con la actualización 1.8.2, extraída de tu consola: el ExeFS (main, main.npdm, rtld, sdk, subsdk0) y el RomFS con la actualización aplicada. Sin DLC. Windows 10 o posterior con una CPU con AVX2 y una GPU con Vulkan 1.3, y unos 35 GB libres; el README también cita Linux x86-64."
+  en: "Your own copy of Breath of the Wild for Switch with the 1.8.2 update, extracted from your console: the ExeFS (main, main.npdm, rtld, sdk, subsdk0) and the RomFS with the update applied. No DLC. Windows 10 or later with an AVX2 CPU and a Vulkan 1.3 GPU, plus about 35 GB of free space; the README also mentions x86-64 Linux."
+tags:
+  - arm64
+  - vulkan
+  - 60fps+
+  - mods
+  - zelda
+  - ai-assisted

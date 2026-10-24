@@ -1,0 +1,19 @@
+name: MDK
+category: game-engine
+console: pc
+status: playable
+repo: nautilusbits/mdk-sdl
+originalDeveloper: Shiny Entertainment
+year: 1997
+desc:
+  es: "Port de MDK a C# y SDL3 a partir de ingeniería inversa de los archivos de datos y del ejecutable MDKD3D.EXE; es el sucesor de un port anterior en Godot (mdk-godot) y reutiliza su trabajo. En lugar de apoyarse en el renderizador y la física de un motor ajeno, dibuja y calcula colisiones como el original: Kurt se mueve por los árboles BSP de las arenas con los mismos barridos de cajas. Incluye el juego completo (todos los niveles, la caída previa, el chorro posterior, los paseos, menús, resúmenes y estadísticas, partidas guardadas y vídeos finales) y mantiene el aspecto original píxel a píxel, con un aspecto mejorado opcional: texturas filtradas, luz solar y sombras en exteriores, luces dinámicas, oclusión ambiental, resplandor, neblina y antialiasing. Añade 3D estereoscópico en varios formatos, un visor de realidad virtual para un móvil en un visor tipo Cardboard o para gafas de PC, mandos, interpolación de fotogramas por encima de 60 Hz, mods (texturas, interfaz, fuentes y modelos glTF) y texturas HD opcionales que escala en tu GPU con Real-ESRGAN a partir de tu copia, sin distribuir nada escalado. La 1.2.0 es del 23 de octubre. 88 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A port of MDK to C# and SDL3 based on reverse engineering of the data files and of the MDKD3D.EXE executable; it is the successor to an earlier Godot port (mdk-godot) and reuses its work. Instead of relying on another engine’s renderer and physics, it draws and collides like the original: Kurt moves through the arenas’ BSP trees with the same box sweeps. It includes the whole game (every level, the fall before it and the stream after it, rides, menus, briefings and statistics, saves, and the end movies) and keeps the original look pixel-exact, with an optional enhanced look: filtered textures, sunlight and shadows outdoors, dynamic lights, ambient occlusion, glow, haze, and anti-aliasing. It adds stereoscopic 3D in several formats, a VR viewer for a phone in a Cardboard-style viewer or for PC VR glasses, gamepads, frame interpolation above 60 Hz, mods (textures, interface, fonts, and glTF models), and optional HD textures that it upscales on your own GPU with Real-ESRGAN from your copy, without distributing anything upscaled. 1.2.0 is from October 23. 88 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de MDK para PC (por ejemplo la de GOG o Steam, o el CD): el port no contiene niveles, texturas, modelos, sonidos, música ni vídeos y los lee de la instalación en tiempo de ejecución. Además, Windows (x64), Linux (x64 o ARM64, como una Raspberry Pi 5), macOS con Apple Silicon o Android."
+  en: "Your own PC copy of MDK (for example from GOG or Steam, or the CD): the port contains no levels, textures, models, sounds, music, or videos and reads them from the installation at run time. Plus Windows (x64), Linux (x64 or ARM64, such as a Raspberry Pi 5), macOS on Apple silicon, or Android."
+tags:
+  - reverse-engineering
+  - 60fps+
+  - mods
+  - widescreen
+  - ai-assisted

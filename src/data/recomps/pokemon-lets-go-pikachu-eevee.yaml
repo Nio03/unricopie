@@ -1,0 +1,18 @@
+name: "Pokémon: Let's Go, Pikachu! / Let's Go, Eevee!"
+console: switch
+status: experimental
+repo: raulzrrs/letsgo-recomp
+originalDeveloper: "Game Freak"
+year: 2018
+desc:
+  es: "Let’s Go Recomp: port nativo para Windows de Pokémon: Let’s Go, Eevee! y Let’s Go, Pikachu! (Switch), hecho por recompilación estática sobre LAS Recomp, de Peiikai: el código ARM64 del juego se traduce a C y se compila para tu PC, y un entorno propio sustituye a la consola (servicios del sistema, gráficos NVN sobre Vulkan, audio y mandos). El README avisa de que el juego aún no se ha completado de principio a fin con este port. La versión 0.7.0 (24 de octubre de 2026) trae resolución interna de hasta 4K, SMAA, TAA o AMD FSR 3.1, oclusión ambiental e iluminación global, los 30 fps del juego o 60 y 120 fps experimentales, generación de fotogramas, interfaz al doble de resolución, teclado y ratón, mandos y mods de LayeredFS como traducciones de aficionados; incluye capturas en combates salvajes (experimental) y un modo sin la pantalla de selección de mando. No admite funciones en línea, el Poké Ball Plus ni el segundo jugador. Código bajo licencia MIT."
+  en: "Let’s Go Recomp: a native Windows port of Pokémon: Let’s Go, Eevee! and Let’s Go, Pikachu! (Switch), made by static recompilation on top of Peiikai’s LAS Recomp: the game’s ARM64 code is translated to C and compiled for your PC, and a runtime of its own stands in for the console (system services, NVN graphics on Vulkan, audio, and controllers). The README warns that the game hasn’t been completed from start to finish on this port yet. Version 0.7.0 (October 24, 2026) has internal resolution up to 4K, SMAA, TAA, or AMD FSR 3.1, ambient occlusion and global illumination, the game’s 30 fps or experimental 60 and 120 fps, frame generation, a 2x-resolution interface, keyboard and mouse, controllers, and LayeredFS mods such as fan translations; it includes catching during wild battles (experimental) and an option to skip the controller selection screen. Online features, the Poké Ball Plus, and the second player aren’t supported. Code under the MIT license."
+requirements:
+  es: "Tu propio volcado de Let’s Go, Eevee! o Let’s Go, Pikachu!, de cualquier región, en la versión 1.0.0 (las actualizaciones 1.0.1 y 1.0.2 se aceptan, pero con menos pruebas y sin algunas opciones); los .xci y .nsp hay que extraerlos antes y señalar la carpeta con exefs y romfs. Windows 10 u 11 de 64 bits, CPU x86-64 con SSE4.2 (mejor con AVX2), GPU con Vulkan 1.3, unos 4 GB de RAM y 6 GB de disco."
+  en: "Your own dump of Let’s Go, Eevee! or Let’s Go, Pikachu!, from any region, at version 1.0.0 (the 1.0.1 and 1.0.2 updates are accepted but less tested and lack some options); .xci and .nsp files must be extracted first, and you point it at the folder with exefs and romfs. 64-bit Windows 10 or 11, an x86-64 CPU with SSE4.2 (AVX2 recommended), a Vulkan 1.3 GPU, about 4 GB of RAM, and 6 GB of disk."
+tags:
+  - arm64
+  - vulkan
+  - 60fps+
+  - mods
+  - pokemon

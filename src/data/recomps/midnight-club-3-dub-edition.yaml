@@ -1,0 +1,17 @@
+name: "Midnight Club 3: DUB Edition"
+console: xbox
+status: playable
+repo: laureladastra/mcdub3-nx
+originalDeveloper: Rockstar San Diego
+year: 2005
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación de la versión de la Xbox original, traducida instrucción a instrucción a C con xboxrecomp y compilada para Linux, macOS, Windows y también Nintendo Switch, sin emulación. Según el proyecto, en Mac y Linux se mantienen 30 fps con escalado a 5x (casi 4K) y la versión de Windows es experimental; en Switch se puede jugar hasta el 100 % de la carrera, con 20-25 fps de los 30 máximos del juego. Admite el disco estadounidense (NTSC-U) y el europeo (PAL), con una página de instalación guiada para Switch. Las versiones publicadas (la 0.2.0, del 24 de octubre) son solo los .nro de Switch: en Mac, Linux y Windows se compila a partir del código, con un instalador para Windows, y el código del juego se traduce en tu equipo. 79 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A recompilation of the original Xbox version, translated instruction by instruction into C with xboxrecomp and compiled for Linux, macOS, Windows, and also the Nintendo Switch, with no emulation. Per the project, on Mac and Linux 30 fps holds with 5x upscaling (close to 4K) and the Windows version is experimental; on Switch it can be played through to 100% career progress, at 20-25 of the game’s maximum 30 fps. It supports the US (NTSC-U) and European (PAL) discs, with a guided installation page for the Switch. The published releases (0.2.0, from October 24) are only the Switch .nro files: on Mac, Linux, and Windows you build it from the source, with an installer for Windows, and the game’s code is translated on your machine. 79 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia en disco de Midnight Club 3: DUB Edition para la Xbox original, estadounidense o europea, extraída (default.xbe y el resto de archivos; una herramienta del repositorio extrae la ISO). Además, macOS, Linux o Windows, con las herramientas de compilación que instalan el Makefile o el instalador de Windows."
+  en: "Your own disc copy of Midnight Club 3: DUB Edition for the original Xbox, US or European, extracted (default.xbe and the other files; a tool in the repository extracts the ISO). Plus macOS, Linux, or Windows, with the build tools that the Makefile or the Windows installer sets up."
+tags:
+  - x86
+  - racing
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Halo: Combat Evolved (Chupathingy)"
+category: decomp-port
+console: xbox
+status: playable
+repo: ChupathingyCE/chupathingyce
+originalDeveloper: "Bungie"
+year: 2001
+desc:
+  es: "Chupathingy: port nativo de la decompilación de Halo: Combat Evolved para Windows, Mac, Linux (también Steam Deck) y Android, pensado para la estabilidad y el juego comunitario, con servidores dedicados propios y la red Delta. Mantiene la campaña y los mapas multijugador de Xbox y también admite mapas de Halo PC y de Custom Edition. Es compatible en línea con OpenCE (compilación 244, versión de red 32): sus jugadores entran en partidas de las versiones de red 11 a 37 y al revés; las versiones web no. Hay compilaciones de 64 y 32 bits para Windows y Linux, Mac con Apple Silicon o Intel (macOS 13 o posterior) y Android 9 o posterior; la última, la 0.8.0h, es del 24 de octubre de 2026. Es un proyecto de aficionados que no incluye ni descarga archivos de Microsoft. Licencia GPL-3.0. El repositorio incluye el código fuente de la decompilación (carpeta source, unos 15 MB)."
+  en: "Chupathingy: a native port of the Halo: Combat Evolved decompilation for Windows, Mac, Linux (including Steam Deck), and Android, built for stability and community play, with its own dedicated servers and the Delta network. It keeps the Xbox campaign and multiplayer maps and also supports Halo PC and Custom Edition maps. It’s online-compatible with OpenCE (build 244, network version 32): its players join games on network versions 11 to 37 and the reverse; browser builds can’t. There are 64-bit and 32-bit builds for Windows and Linux, Mac on Apple silicon or Intel (macOS 13 or later), and Android 9 or later; the latest, 0.8.0h, is from October 24, 2026. It’s a fan project that includes and downloads no Microsoft files. Licensed GPL-3.0. The repository includes the decompilation’s source code (the source folder, about 15 MB)."
+requirements:
+  es: "Una imagen de disco (.iso o .xiso) de tu propia copia de Halo: Combat Evolved para Xbox, de cualquier región: al primer arranque copia la carpeta de mapas (unos 2 GB). Opcionalmente, la imagen del CD de Halo PC y el instalador de Custom Edition 1.00. Windows 10 o posterior, Linux (glibc 2.31 o posterior), macOS 13 o posterior o Android 9 o posterior; los dos primeros solo para x86 y x64."
+  en: "A disc image (.iso or .xiso) of your own copy of Halo: Combat Evolved for Xbox, from any region: on first start it copies out the maps folder (about 2 GB). Optionally, the Halo PC CD image and the Custom Edition 1.00 installer. Windows 10 or later, Linux (glibc 2.31 or later), macOS 13 or later, or Android 9 or later; the first two for x86 and x64 only."
+tags:
+  - x86
+  - fps
+  - multiplayer
+  - online
+  - build-android

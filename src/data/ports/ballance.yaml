@@ -1,0 +1,16 @@
+name: Ballance
+category: game-engine
+console: pc
+status: experimental
+repo: doyaGu/Ballanced
+originalDeveloper: Cyparade
+year: 2004
+desc:
+  es: "Ballanced: reimplementación a nivel de código fuente del entorno de ejecución de Ballance, el juego hecho sobre Virtools. Reconstruye desde el código el reproductor, las bibliotecas del motor, los bloques de construcción y los complementos en una estructura de carpetas compatible con la de Ballance, y se compila con CMake para Windows (x86, x64 y ARM64), Linux (x64 y ARM64) y macOS (x64 y ARM64) con SDL3. Para jugar se extrae el paquete publicado sobre la carpeta de tu instalación del juego, junto a sus carpetas de recursos, y se ejecuta Bin\\Player.exe en Windows o Bin/Player en Linux y macOS; en Windows no hacen falta modo de compatibilidad ni cambios en el registro. La única versión publicada es la 0.1.0 (13 de mayo), una distribución centrada en Windows. Los recursos originales no se incluyen."
+  en: "Ballanced: a source-level reimplementation of the runtime of Ballance, the game built on Virtools. It rebuilds the player, the engine libraries, the building blocks, and the plugins from source into a directory layout compatible with Ballance, and is built with CMake for Windows (x86, x64, and ARM64), Linux (x64 and ARM64), and macOS (x64 and ARM64) using SDL3. To play, you extract the published package over the folder of your game installation, next to its asset folders, and run Bin\\Player.exe on Windows or Bin/Player on Linux and macOS; on Windows no compatibility mode or registry edits are needed. The only published release is 0.1.0 (May 13), a Windows-focused distribution. The original assets are not included."
+requirements:
+  es: "Tu propia copia de Ballance: el paquete se extrae en la carpeta raíz del juego, junto a sus carpetas de recursos originales. Además, Windows (x86 o x64); Linux y macOS se compilan a partir del código, con CMake 3.25 o posterior y SDL3."
+  en: "Your own copy of Ballance: the package is extracted into the game’s root folder, next to its original asset folders. Plus Windows (x86 or x64); Linux and macOS are built from the source, with CMake 3.25 or later and SDL3."
+tags:
+  - reverse-engineering
+  - x86

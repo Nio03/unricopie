@@ -1,0 +1,17 @@
+name: Armored Core 4
+console: ps3
+status: playable
+repo: SulphurS16/AC4-Port
+homepage: https://project-glintburn.com/
+originalDeveloper: FromSoftware
+year: 2006
+desc:
+  es: "Port nativo no oficial para Windows de la versión estadounidense de PS3 (BLUS30027), parte del Project Glintburn. Un recompilador lee los unos 3,6 millones de instrucciones PowerPC del juego y los convierte en C++ (unas 54 000 funciones, con el 99,3 % del código cubierto y todos los saltos indirectos resueltos), que tu compilador construye como un programa de 64 bits. Los programas de las SPU también se traducen de antemano, con un intérprete de reserva; los comandos de la RSX pasan a Direct3D 11 y los sombreadores del juego a HLSL, y gráficos, audio, entrada, archivos y partidas se reimplementan en C++. Algunas partes complejas del firmware, como el sistema de tareas de las SPU y los decodificadores de vídeo y audio, se ejecutan recompiladas desde los archivos de sistema de tu propia consola. Ofrece resolución propia en ventana, sin bordes o pantalla completa, escala de renderizado del 50 al 200 %, 30, 60, 120, 144 fps, la frecuencia de tu monitor o sin límite con la misma velocidad de juego, ratón completo y una fila «PC SETTINGS» en el menú de sistema del juego. Comparte entorno con el port de Armored Core For Answer. La 0.5.0 es del 16 de octubre. 46 de sus últimos 52 commits llevan a Claude como coautor. El repositorio no incluye código del juego ni claves."
+  en: "An unofficial native Windows port of the US PS3 version (BLUS30027), part of Project Glintburn. A recompiler reads the game’s roughly 3.6 million PowerPC instructions and turns them into C++ (about 54,000 functions, with 99.3% of the code covered and every indirect jump resolved), which your compiler builds into a 64-bit program. SPU programs are also translated ahead of time, with an interpreter as a safety net; RSX commands become Direct3D 11 and the game’s shaders become HLSL, and graphics, audio, input, files, and saves are reimplemented in C++. A few complex firmware parts, such as the SPU task system and the movie and audio decoders, run as recompiled code from your own console’s system files. It offers your screen’s own resolution in windowed, borderless, or fullscreen modes, render scale from 50% to 200%, 30, 60, 120, 144 fps, your monitor’s refresh rate or uncapped at the same game speed, full mouse support, and a “PC SETTINGS” row in the game’s own SYSTEM menu. It shares its runtime with the Armored Core For Answer port. 0.5.0 is from October 16. 46 of its last 52 commits list Claude as a co-author. The repository contains no game code or keys."
+requirements:
+  es: "Tu propia copia de Armored Core 4 de PS3, versión estadounidense (BLUS30027): los archivos del disco, es decir, la carpeta que contiene PS3_GAME. Además, Windows 10 (1903 o posterior) u 11 de 64 bits y un procesador Intel Haswell o AMD Ryzen o posterior; la instalación descarga una vez unos 250 MB de herramientas de compilación y tarda unos minutos."
+  en: "Your own copy of Armored Core 4 for PS3, US release (BLUS30027): the disc’s files, meaning the folder that contains PS3_GAME. Plus 64-bit Windows 10 (1903 or later) or 11 and an Intel Haswell or AMD Ryzen CPU or newer; setup downloads about 250 MB of build tools once and takes a few minutes."
+tags:
+  - powerpc
+  - 60fps+
+  - ai-assisted

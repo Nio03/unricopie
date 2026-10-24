@@ -1,0 +1,16 @@
+name: "Animal Crossing (BellPad)"
+category: decomp-port
+console: gamecube
+status: experimental
+repo: chrissotraidis/bellpad
+originalDeveloper: Nintendo
+year: 2002
+decomp: ACreTeam/ac-decomp
+desc:
+  es: "BellPad: port nativo experimental de la versión estadounidense de Animal Crossing de GameCube para macOS con Apple Silicon, iPhone e iPad. No es un emulador de GameCube ni un port para el navegador: construye un núcleo del juego de 64 bits a partir de la ingeniería inversa y lo dibuja con Metal a través de Aurora, SDL3 y Dawn. Su base es el port de PC ACGC-PC-Port de birabittoh, que parte del de FlyingMeta y de la decompilación ac-decomp; BellPad aporta la integración con Apple, la importación de datos de juego desde Archivos, los controles táctiles, el manejo de partidas compatible con Dolphin y arreglos. Las versiones publicadas no contienen ninguna aplicación: se compila con PadMint, una herramienta aparte, en un Mac con Apple Silicon y Xcode, a partir de tu archivo del juego. La 0.2.2 (19 de octubre) añadió la compilación para el propio Mac, además de la de iPhone y iPad. El proyecto declara en su README un uso sustancial de IA para el código, las pruebas, la documentación, la depuración y el mantenimiento, y avisa de que algunas respuestas de soporte son automáticas."
+  en: "BellPad: an experimental native port of the US release of the GameCube Animal Crossing for Apple silicon macOS, iPhone, and iPad. It is not a GameCube emulator or a browser port: it builds a 64-bit game core from the reverse engineering and draws with Metal through Aurora, SDL3, and Dawn. Its foundation is birabittoh’s ACGC-PC-Port, which comes from FlyingMeta’s PC port and the ac-decomp decompilation; BellPad contributes the Apple integration, game-data import from Files, touch controls, Dolphin-compatible save handling, and fixes. The published releases contain no app: you build it with PadMint, a separate tool, on an Apple silicon Mac with Xcode, from your own game file. 0.2.2 (October 19) added building for the Mac itself, besides iPhone and iPad. The project’s README declares substantial AI assistance for code, tests, documentation, debugging, and maintenance, and notes that some support replies are automated."
+requirements:
+  es: "Tu propio archivo de Animal Crossing de GameCube, de la versión estadounidense. Además, un Mac con Apple Silicon con Xcode y las dependencias de compilación (cmake, ninja, ripgrep y sdl2 de Homebrew) para generar la aplicación con PadMint."
+  en: "Your own Animal Crossing for GameCube file, US release. Plus an Apple silicon Mac with Xcode and the build dependencies (cmake, ninja, ripgrep, and sdl2 from Homebrew) to generate the app with PadMint."
+tags:
+  - ai-assisted

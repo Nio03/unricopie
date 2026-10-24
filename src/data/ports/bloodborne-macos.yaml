@@ -1,0 +1,17 @@
+name: "Bloodborne (macOS)"
+category: native-layer
+console: ps4
+status: playable
+repo: Wooloomooloo2/bloodborne_mac_port
+originalDeveloper: "FromSoftware"
+year: 2015
+desc:
+  es: "bloodborne_mac_port: port para macOS con Apple Silicon del port nativo de Bloodborne para PC. Ejecuta el ejecutable original de PS4 del juego (CUSA03173, versión 1.09): su código x86-64 corre directamente bajo Rosetta 2, un entorno de ejecución ligero escrito en C sustituye a las bibliotecas del sistema de la PS4 y los comandos de la GPU los traduce a Metal nativo un núcleo de vídeo derivado de shadPS4 (desde la 0.5.0; antes, con MoltenVK), en un proceso arm64 aparte. El README afirma que no es un emulador y que no contiene código del juego. En un Apple M4 Max arranca, permite crear personaje y cargar partidas, y va a 60 fps fijos a 1080p y 1440p (también a 4K nativo), o reescalado con MetalFX, FSR 3.1 o TAA. Según el README, la versión actual es la mac-v0.5.5 (24 de octubre de 2026), una versión completa que reúne las preliminares 0.5.4.3 a 0.5.4.5 y arregla destellos rojos, un cierre raro y los ascensores; las descargas son una app y una herramienta para extraer paquetes. 93 de sus últimos 100 commits llevan a Claude como coautor. Licencia GPL-2.0."
+  en: "bloodborne_mac_port: a port to Apple silicon macOS of the native Bloodborne PC port. It runs the game’s original PS4 executable (CUSA03173, version 1.09): its x86-64 code runs directly under Rosetta 2, a lightweight runtime written in C replaces the PS4’s system libraries, and a shadPS4-derived video core translates GPU commands to native Metal (since 0.5.0; MoltenVK before), in a separate arm64 process. The README states it isn’t an emulator and contains no game code. On an Apple M4 Max it boots, lets you create a character and load saves, and runs at a locked 60 fps at 1080p and 1440p (and at native 4K), or upscaled with MetalFX, FSR 3.1, or TAA. According to the README, the current version is mac-v0.5.5 (October 24, 2026), a full release that rolls up the 0.5.4.3 to 0.5.4.5 pre-releases and fixes red flashes, a rare crash, and lifts; the downloads are an app and a package extraction tool. 93 of its last 100 commits list Claude as a co-author. Licensed GPL-2.0."
+requirements:
+  es: "Tu propio volcado descifrado de Bloodborne para PS4 (CUSA03173, versión 1.09); no se incluye ningún archivo del juego. Un Mac con Apple Silicon (el README prueba con un M4 Max); el juego corre bajo Rosetta 2."
+  en: "Your own decrypted dump of Bloodborne for PS4 (CUSA03173, version 1.09); no game files are included. An Apple silicon Mac (the README tests on an M4 Max); the game runs under Rosetta 2."
+tags:
+  - x86
+  - 60fps+
+  - ai-assisted

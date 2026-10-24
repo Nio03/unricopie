@@ -1,0 +1,16 @@
+name: 2014 FIFA World Cup Brazil
+console: x360
+status: playable
+repo: HossEz/fifa-world-cup-2014-recompiled
+originalDeveloper: EA Canada
+year: 2014
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 para Windows, hecha con ReXGlue: el código del juego se traduce de antemano a C++ y se compila para PC, sin emulación de CPU. Un launcher te pide tu copia del juego, ya sea la carpeta con default.xex o la imagen .iso, y comprueba que sea la correcta. Sus ajustes cubren ventana, resolución, tasa de fotogramas y contador de FPS, y se juega con mando (Xbox, PlayStation y otros) o con teclado. Se instala con un instalador o con una versión portable que guarda todo, partidas incluidas, en su carpeta, y el launcher avisa de las versiones nuevas y las instala. La última, la 0.1.8 (22 de octubre), mejoró el ritmo de fotogramas con G-SYNC y FreeSync, arregló los tirones en pantallas de 60 Hz y redujo mucho la carga del procesador. Como problema conocido, a 4K las escenas previas al partido, las repeticiones y las celebraciones pierden fotogramas. 10 de sus 60 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Xbox 360 version for Windows, built with ReXGlue: the game’s code is translated ahead of time into C++ and compiled for PC, with no CPU emulation. A launcher asks for your copy of the game, either the folder with default.xex or the .iso image, and checks that it is the right one. Its settings cover window, resolution, frame rate, and an FPS counter, and you play with a controller (Xbox, PlayStation, and others) or the keyboard. It comes as an installer or as a portable version that keeps everything, saves included, in its own folder, and the launcher announces new versions and installs them. The latest, 0.1.8 (October 22), improved frame pacing with G-SYNC and FreeSync, fixed stutter on 60 Hz screens, and cut CPU load considerably. As a known issue, at 4K the pre-match scenes, replays, and celebrations drop frames. 10 of its 60 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de 2014 FIFA World Cup Brazil para Xbox 360, como imagen de disco (.iso) o como carpeta con default.xex. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y controladores al día (el juego exige más a la gráfica que al procesador: con gráficos integrados va mal y a 1440p o 4K hace falta una potente) y un procesador con SSE4.2."
+  en: "Your own copy of 2014 FIFA World Cup Brazil for Xbox 360, as a disc image (.iso) or a folder with default.xex. Plus 64-bit Windows 10 or 11, a graphics card with Direct3D 12 and up-to-date drivers (the game is harder on the graphics card than on the processor: integrated graphics run it poorly and 1440p or 4K needs a strong card), and a processor with SSE4.2."
+tags:
+  - powerpc
+  - ai-assisted

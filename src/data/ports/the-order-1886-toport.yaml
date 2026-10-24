@@ -1,0 +1,17 @@
+name: "The Order: 1886 (TOport)"
+category: native-layer
+console: ps4
+status: experimental
+repo: IgorAugustoHH/The-Order-1886-PC-Port
+originalDeveloper: Ready at Dawn
+year: 2015
+desc:
+  es: "TOport: The Order: 1886 corriendo de forma nativa en Windows 10 y 11. El juego se ejecuta directamente en el procesador del PC, sin emulación de CPU; solo se traduce lo que cambia entre la PS4 y el PC, las funciones del sistema de Sony y la GPU, cuyos comandos y sombreadores pasan a Vulkan. Un launcher propio recibe la carpeta del juego y arranca. Ofrece un modo «Original de PS4» con la cámara cinematográfica 2,40:1 y las franjas negras, y opciones de pantalla completa en 16:9; NVIDIA DLSS en lugar de la resolución temporal del juego (DLAA, Calidad, Equilibrado, Rendimiento y Ultra Rendimiento); límite de 30, 60, 90 o 120 fps; carga acelerada de texturas e iluminación; precarga de sombreadores; 23 idiomas del sistema de la PS4; un menú dentro del juego con la tecla Insert; cámara libre en las escenas; y mando de PlayStation o Xbox o teclado. La versión actual, la 0.1.3 (19 de octubre), es un prelanzamiento. Con una RTX 2060 el proyecto mide unos 45-50 fps en escenas pesadas con el modo Original. 92 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "TOport: The Order: 1886 running natively on Windows 10 and 11. The game runs directly on the PC’s processor, with no CPU emulation; only what differs between the PS4 and the PC is translated, Sony’s system functions and the GPU, whose commands and shaders become Vulkan. A dedicated launcher takes the game folder and starts it. It offers an “Original PS4” mode with the 2.40:1 cinematic camera and black bars, and 16:9 fullscreen options; NVIDIA DLSS in place of the game’s own temporal resolution (DLAA, Quality, Balanced, Performance, and Ultra Performance); a 30, 60, 90, or 120 fps limit; faster texture and lighting loading; shader preloading; 23 PS4 system languages; an in-game menu on the Insert key; a free camera in cutscenes; and PlayStation or Xbox controllers or keyboard. The current version, 0.1.3 (October 19), is a pre-release. On an RTX 2060 the project measures about 45-50 fps in heavy scenes in Original mode. 92 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de The Order: 1886 (CUSA00785) de una copia que poseas, con la actualización 1.02 aplicada (versión 01.02): el port comprueba la versión y rechaza otras. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan; DLSS requiere una NVIDIA RTX."
+  en: "Your own dump of The Order: 1886 (CUSA00785) from a copy you own, with update 1.02 applied (version 01.02): the port checks the version and refuses others. Plus 64-bit Windows 10 or 11 and a Vulkan-capable graphics card; DLSS needs an NVIDIA RTX."
+tags:
+  - x86
+  - 60fps+
+  - ai-assisted

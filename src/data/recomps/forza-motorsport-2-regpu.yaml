@@ -1,0 +1,17 @@
+name: "Forza Motorsport 2 (ReGPU)"
+console: x360
+status: playable
+repo: zer0ducksgiven/Forza-Motorsport-2-ReGPU
+originalDeveloper: Turn 10 Studios
+year: 2007
+toolchain: XenonRecomp
+desc:
+  es: "Forza Motorsport 2 ReGPU: port nativo para Windows de la versión de Xbox 360. La CPU se recompila de forma estática: todo el ejecutable PowerPC (51 034 funciones) se convierte con XenonRecomp en C++ de 64 bits sobre una implementación propia del núcleo y de XAM de Xbox 360, sin intérprete ni JIT. La GPU se sustituye por un renderizador nativo de Direct3D 12 en lugar de emular Xenos: el microcódigo de los sombreadores se traduce a HLSL, el estado de dibujo a pipelines de D3D12, las resoluciones del EDRAM a copias de GPU y las texturas teseladas se decodifican de forma nativa. Un instalador (Windows) construye los archivos del juego a partir de tu disco y le aplica la actualización de título, y hay una versión de Linux, con diagnósticos para la Steam Deck. La 0.5.8 (24 de octubre) avisa en el launcher de un rendimiento reducido cuando la tarjeta no permite compartir memoria directamente con el juego, y la 0.5.7 devolvió las sombras de los coches. 80 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Forza Motorsport 2 ReGPU: a native Windows port of the Xbox 360 version. The CPU is statically recompiled: the whole PowerPC executable (51,034 functions) is converted with XenonRecomp into 64-bit C++ running on the project’s own implementation of the Xbox 360 kernel and XAM, with no interpreter or JIT. The GPU is replaced by a native Direct3D 12 renderer instead of Xenos emulation: shader microcode is translated to HLSL, render state to D3D12 pipelines, EDRAM resolves to GPU copies, and tiled textures are decoded natively. A Windows installer builds the game files from your disc and applies the title update, and there is a Linux build, with diagnostics for the Steam Deck. Version 0.5.8 (October 24) makes the launcher warn about reduced performance when the graphics card can’t share memory directly with the game, and 0.5.7 brought back the cars’ shadows. 80 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen .iso del disco europeo de Forza Motorsport 2 y el archivo de la actualización de título (con un nombre como TU_16L61VA_…); opcionalmente, una carpeta con tus paquetes de contenido descargable. Además, Windows con Direct3D 12 (el instalador incluye su propio Python y descarga el runtime .NET 10 Desktop si falta) o Linux."
+  en: "Your own .iso of the European Forza Motorsport 2 disc and the title update file (named like TU_16L61VA_…); optionally a folder with your downloadable content packages. Plus Windows with Direct3D 12 (the installer bundles its own Python and downloads the .NET 10 Desktop runtime if missing) or Linux."
+tags:
+  - powerpc
+  - racing
+  - ai-assisted

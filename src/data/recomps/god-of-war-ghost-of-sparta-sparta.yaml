@@ -1,0 +1,17 @@
+name: "God of War: Ghost of Sparta (Sparta)"
+console: psp
+status: experimental
+repo: arnaldolima1/gow-ghost-of-sparta-pc
+originalDeveloper: Ready at Dawn
+year: 2010
+toolchain: PortableKit
+desc:
+  es: "Sparta: recompilación estática de la versión de PSP, construida sobre PortableKit. El código de la consola se traduce de antemano a C++ y se compila para tu equipo, sobre una reimplementación del software de sistema de la PSP, y dibuja con Vulkan; no hay emulador ni JIT. Hay versiones para Windows de 64 bits, macOS con Apple Silicon (primero) y Android. La primera vez pide tu .iso, la comprueba y desde entonces va directo al juego. Es una alfa: según el proyecto solo se ha jugado el principio del juego, así que esperan fallos, defectos gráficos y cierres. La 0.1.7 (15 de octubre) es la última para Windows y la 0.1.8 (15 de octubre) la última con macOS y Android. 56 de sus 64 commits llevan a Claude como coautor."
+  en: "Sparta: a static recompilation of the PSP version, built on PortableKit. The console’s code is translated ahead of time into C++ and compiled for your machine, running on a reimplementation of the PSP’s system software and drawing through Vulkan; there is no emulator or JIT. There are builds for 64-bit Windows, macOS on Apple silicon (the first target), and Android. The first start asks for your .iso, checks it, and from then on goes straight to the game. It is an alpha: per the project only the beginning of the game has been played, so expect bugs, graphical glitches, and crashes. 0.1.7 (October 15) is the latest Windows build and 0.1.8 (October 15) the latest with macOS and Android. 56 of its 64 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de God of War: Ghost of Sparta de la versión europea (UCES-01401), como .iso sin comprimir de tu UMD. Además, Windows 10 u 11 de 64 bits con una tarjeta gráfica con Vulkan y controladores al día, o un Mac con Apple Silicon (M1 o posterior)."
+  en: "Your own copy of God of War: Ghost of Sparta, the European release (UCES-01401), as an uncompressed .iso of your UMD. Plus 64-bit Windows 10 or 11 with a Vulkan-capable graphics card and up-to-date drivers, or an Apple silicon Mac (M1 or later)."
+tags:
+  - mips
+  - vulkan
+  - ai-assisted

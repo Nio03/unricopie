@@ -1,0 +1,18 @@
+name: "Crash of the Titans (CrashRecomp)"
+console: x360
+status: playable
+repo: VitoMiguelF/crashott-pc
+originalDeveloper: Radical Entertainment
+year: 2007
+toolchain: XenonRecomp
+desc:
+  es: "CrashRecomp: «Definitive Edition» de Crash of the Titans para Windows, hecha recompilando estáticamente el código PowerPC de la versión de Xbox 360 a x86-64 con XenonRecomp, más un entorno de ejecución que sustituye gráficos, audio, entrada, archivos y partidas de la consola. Juega a los 30 fps originales o sin límite, en ventana o pantalla completa, con resolución interna de hasta 4K, DLSS y DLAA (RTX) o FSR 3.1, FXAA y SMAA, teclado y ratón reasignables y mandos de Xbox y PlayStation (DualSense). Añade traducción al portugués de Brasil y subtítulos de todos los diálogos y vídeos. La 1.04 (24 de octubre) dibuja la escena en una pasada en lugar de las tres teselas de la consola, ejecuta como código nativo la construcción de comandos de Direct3D y compila los sombreadores al instalar: en la escena más pesada, pasó de unos 180 a unos 500 fps en un Ryzen 7 5700X con una RTX 5080. La 1.0 (22 de octubre) ofreció además, como opción, un paquete «HD AI Remaster» de unos 3,3 GB con texturas ampliadas con IA y modelos suavizados. El instalador compila todo en tu equipo a partir de tu copia, sin instalar nada en el sistema. Los 31 commits del repositorio llevan a Claude como coautor."
+  en: "CrashRecomp: a Definitive Edition of Crash of the Titans for Windows, made by statically recompiling the Xbox 360 version’s PowerPC code to x86-64 with XenonRecomp, plus a runtime that replaces the console’s graphics, audio, input, files, and saves. It plays at the original 30 fps or unlimited, windowed or fullscreen, with internal resolutions up to 4K, DLSS and DLAA (RTX) or FSR 3.1, FXAA and SMAA, rebindable keyboard and mouse, and Xbox and PlayStation (DualSense) controllers. It adds a Brazilian Portuguese translation and subtitles for all dialogue and cutscenes. Version 1.04 (October 24) draws the scene in one pass instead of the console’s three tiles, runs the game’s Direct3D command building as native code, and compiles shaders at install: in the heaviest scene it went from about 180 to about 500 fps on a Ryzen 7 5700X with an RTX 5080. Version 1.0 (October 22) also offered, as an option, an “HD AI Remaster” pack of about 3.3 GB with AI-upscaled textures and smoothed models. The installer builds everything on your PC from your copy, installing nothing on the system. All 31 commits in the repository list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Crash of the Titans para Xbox 360, como carpeta del juego (default.xex, default.rcf…). Además, Windows de 64 bits; la versión 1.03 y posteriores traen sus propias herramientas de compilación. DLSS requiere una tarjeta NVIDIA RTX; FSR funciona con cualquier gráfica."
+  en: "Your own copy of Crash of the Titans for Xbox 360, as the game folder (default.xex, default.rcf…). Plus 64-bit Windows; version 1.03 and later bundle their own build tools. DLSS needs an NVIDIA RTX card; FSR works on any GPU."
+tags:
+  - powerpc
+  - 60fps+
+  - mods
+  - ai-assisted

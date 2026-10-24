@@ -1,0 +1,18 @@
+name: "Stronghold Crusader (OpenSHC)"
+category: fan-remake
+console: pc
+status: experimental
+repo: sourcehold/OpenSHC
+homepage: https://sourcehold.github.io/OpenSHC/
+originalDeveloper: Firefly Studios
+year: 2002
+desc:
+  es: "OpenSHC: reimplementación de código abierto de Stronghold Crusader 1 que se construye como una DLL cargada al arrancar el juego: las funciones que ya tienen una reimplementación funcionalmente idéntica se enganchan para que se ejecuten las nuevas en lugar de las originales. Avanza paso a paso hacia una reimplementación idéntica, con herramientas que miden el progreso y un tutorial para quien quiera contribuir; modificar el juego queda por ahora fuera de su alcance, aunque el proyecto lo cita como motivación. Pide el juego en su versión 1.41 con idioma latino (inglés, alemán…), preferiblemente de Steam o GOG. La única versión publicada, «latest-sarif» (actualizada el 27 de septiembre), no es un juego: trae archivos .cpp de partida y un archivo SARIF para trabajar con Ghidra, generados a partir del ejecutable del juego (unos 4 y 3 MB). 38 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "OpenSHC: an open-source reimplementation of Stronghold Crusader 1 that builds as a DLL loaded when the game starts: functions that have a functionally identical reimplementation are hooked so that the new versions run instead of the originals. It advances step by step toward an identical reimplementation, with tools that track progress and a tutorial for contributors; modding the game is for now beyond its scope, though the project cites it as a motivation. It requires the game at version 1.41 in a Latin-script language (English, German…), preferably from Steam or GOG. The only published release, “latest-sarif” (updated September 27), is not a game: it offers starter .cpp files and a SARIF file for working with Ghidra, generated from the game’s executable (about 4 and 3 MB). 38 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Stronghold Crusader 1 versión 1.41, con idioma de alfabeto latino, de Steam o GOG. Para compilarlo, CMake 3.24 o posterior, Python 3 y clang-format 22 o posterior; no hay versión ya compilada."
+  en: "Your own copy of Stronghold Crusader 1 version 1.41, in a Latin-script language, from Steam or GOG. To build it, CMake 3.24 or later, Python 3, and clang-format 22 or later; there is no prebuilt version."
+tags:
+  - reverse-engineering
+  - x86
+  - ai-assisted

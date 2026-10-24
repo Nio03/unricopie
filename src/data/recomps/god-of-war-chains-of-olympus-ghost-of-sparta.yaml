@@ -1,0 +1,18 @@
+name: "God of War: Chains of Olympus / Ghost of Sparta (gow-psp-recomp)"
+console: psp
+status: experimental
+repo: DrummingBird1/gow-psp-recomp
+originalDeveloper: "Ready at Dawn"
+year: 2008
+desc:
+  es: "Ports nativos no oficiales de God of War: Chains of Olympus y God of War: Ghost of Sparta (PSP) para Windows, hechos por recompilación estática: cada función del juego se recompila a C, sin emulador. Se descarga un único lanzador que localiza tus imágenes de disco, compila cada juego (la primera vez baja unas herramientas portátiles, llvm-mingw, CMake y Ninja, unos 246 MB) y los ejecuta, con resolución interna de 4K o más, MSAA, filtrado anisótropo, FXAA, HDR10, 60, 120 y 144 fps o más, 21:9, teclado y mandos, guardado y paquetes para volcar y sustituir texturas. La 1.2.1 (23 de octubre de 2026) es una vista previa: todos los niveles de ambos juegos cargan y funcionan, pero no se ha hecho aún una partida completa de ninguno. Solo Windows por ahora. 29 de sus últimos 100 commits llevan a Claude como coautor. Licencia GPL-3.0. El repositorio incluye archivos de análisis (JSON y CSV con huellas de funciones) generados a partir de los EBOOT de ambos juegos (carpeta re, unos 7 MB)."
+  en: "Unofficial native ports of God of War: Chains of Olympus and God of War: Ghost of Sparta (PSP) for Windows, made by static recompilation: every function of the game is recompiled to C, with no emulator. You download a single launcher that finds your disc images, builds each game (the first time it downloads portable tools, llvm-mingw, CMake, and Ninja, about 246 MB), and runs them, with internal resolution of 4K or more, MSAA, anisotropic filtering, FXAA, HDR10, 60, 120, and 144 fps or more, 21:9, keyboard and controllers, saving, and packs to dump and replace textures. 1.2.1 (October 23, 2026) is a preview: every level of both games loads and runs, but neither has had a full playthrough yet. Windows only for now. 29 of its last 100 commits list Claude as a co-author. Licensed GPL-3.0. The repository includes analysis files (JSON and CSV with function fingerprints) generated from both games’ EBOOTs (the re folder, about 7 MB)."
+requirements:
+  es: "Tu propia imagen de disco (.chd o .iso) de la versión estadounidense de Chains of Olympus (UCUS98653), de Ghost of Sparta (UCUS98737) o de ambos; no valen otras regiones. Windows de 64 bits."
+  en: "Your own disc image (.chd or .iso) of the US release of Chains of Olympus (UCUS98653), Ghost of Sparta (UCUS98737), or both; other regions aren’t supported. 64-bit Windows."
+tags:
+  - mips
+  - 60fps+
+  - widescreen
+  - hd-assets
+  - ai-assisted

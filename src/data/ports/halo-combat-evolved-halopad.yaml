@@ -1,0 +1,19 @@
+name: "Halo: Combat Evolved (HaloPad)"
+category: native-layer
+console: xbox
+status: playable
+repo: chrissotraidis/projectreach
+originalDeveloper: "Bungie"
+year: 2001
+desc:
+  es: "HaloPad: Halo: Combat Evolved para iPhone, iPad y Mac. Ofrece la campaña original de Xbox, partidas en línea de hasta 128 jugadores y los servidores comunitarios de Halo Custom Edition, con controles táctiles, mando, o teclado y ratón. Usa el motor OpenCE (la 0.3.11, del 21 de octubre de 2026, lleva la compilación 244, versión de red 32). No hay una app que descargar: la compilas tú, con PadMint en un Mac con Apple Silicon (macOS 14.4 o posterior para jugar en Mac) o con un flujo de GitHub Actions desde un fork, y luego añades tu imagen de disco de Xbox dentro de la app, que copia unos 2 GB de mapas. La edición Custom Edition solo se compila en un Mac con Apple Silicon y necesita Wine. El README avisa de que lo compilado contiene código de Halo y no debe compartirse, y de que el proyecto es una vista previa jugable, con el ritmo de fotogramas y algunos gráficos de Xbox aún en ajuste. Se desarrolla con ayuda sustancial de IA, según declara."
+  en: "HaloPad: Halo: Combat Evolved for iPhone, iPad, and Mac. It offers the original Xbox campaign, online matches of up to 128 players, and the Halo Custom Edition community servers, with touch controls, a controller, or keyboard and mouse. It uses the OpenCE engine (0.3.11, from October 21, 2026, carries build 244, network version 32). There’s no app to download: you build it yourself, with PadMint on an Apple silicon Mac (macOS 14.4 or later to play on a Mac) or with a GitHub Actions workflow from a fork, and then add your Xbox disc image inside the app, which copies about 2 GB of maps. Custom Edition can only be built on an Apple silicon Mac and needs Wine. The README warns that what you build contains Halo code and must not be shared, and that the project is a playable preview, with frame pacing and some Xbox graphics still being tuned. It states it’s developed with substantial AI assistance."
+requirements:
+  es: "Una imagen de disco (.iso o .xiso) de tu propia copia de Halo: Combat Evolved para la Xbox original (probado con la versión estadounidense); no valen Halo para PC, Custom Edition, Anniversary ni la Master Chief Collection. Para Custom Edition (opcional), el instalador HaloCESetup.exe 1.00, tu clave de producto y Wine. Un Mac con Apple Silicon y macOS 14.4 o posterior (o un iPhone/iPad con iOS 17.4 o posterior), Xcode 26 para compilar y unos 35 GB libres en la primera compilación."
+  en: "A disc image (.iso or .xiso) of your own copy of Halo: Combat Evolved for the original Xbox (tested with the US version); Halo for PC, Custom Edition, Anniversary, and the Master Chief Collection don’t work. For Custom Edition (optional), the HaloCESetup.exe 1.00 installer, your product key, and Wine. An Apple silicon Mac on macOS 14.4 or later (or an iPhone/iPad on iOS 17.4 or later), Xcode 26 to build, and about 35 GB free for the first build."
+tags:
+  - online
+  - multiplayer
+  - fps
+  - build-ios
+  - ai-assisted

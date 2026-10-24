@@ -1,0 +1,15 @@
+name: "GZDoom"
+category: source-port
+status: playable
+repo: ZDoom/gzdoom
+originalDeveloper: "id Software"
+desc:
+  es: "GZDoom: port «centrado en las funciones» para todos los juegos con el motor de Doom, basado en ZDoom, que añade un renderizador OpenGL y Vulkan y unas capacidades de scripting pensadas para quienes hacen mods. El código se publica con licencia GPL v3, con los derechos de los equipos de ZDoom y GZDoom desde 1998 y de sus colaboradores; el código original de Doom es de id Software, Raven Software y colaboradores. La última versión, la 4.14.2 (3 de mayo de 2025), trae compilaciones para Windows y macOS y paquetes .deb para amd64 y arm64; el repositorio sigue recibiendo cambios (el último commit revisado es de agosto de 2026). Para compilarlo, el README remite a la wiki de ZDoom."
+  en: "GZDoom: a “feature-centric” port for all Doom engine games, based on ZDoom, which adds an OpenGL and Vulkan renderer and scripting capabilities aimed at modders. The code is released under the GPL v3, with copyright held by the ZDoom and GZDoom teams since 1998 and their contributors; the original Doom code belongs to id Software, Raven Software, and contributors. The latest release, 4.14.2 (May 3, 2025), has builds for Windows and macOS and .deb packages for amd64 and arm64; the repository is still receiving changes (the latest commit reviewed is from August 2026). To build it, the README points to the ZDoom wiki."
+requirements:
+  es: "Los archivos WAD de tu propia copia del juego del motor de Doom que quieras jugar; el README no los enumera. Windows, macOS o Linux."
+  en: "The WAD files from your own copy of whichever Doom engine game you want to play; the README doesn’t list them. Windows, macOS, or Linux."
+tags:
+  - fps
+  - vulkan
+  - mods

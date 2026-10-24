@@ -1,0 +1,16 @@
+name: "Metal Gear Solid: Integral (RE:INTEGRAL)"
+category: decomp-port
+console: ps1
+status: experimental
+repo: Drommedhar/mgs-reintegral
+originalDeveloper: Konami
+year: 2000
+desc:
+  es: "RE:INTEGRAL: port de código fuente no oficial para Windows del Metal Gear Solid Integral de PlayStation, construido a partir del código C recuperado por FoxdieTeam (su decompilación del juego) y de la biblioteca de plataforma PsyZ. Godot se encarga de la presentación y de la modificación visual, y el entorno nativo se ocupa de la jugabilidad, las colisiones, el estado de las animaciones, el audio, las partidas y los tiempos. La 0.3.0 (15 de octubre) reúne el renderizador de Godot y un SDK de mods con el launcher y el renderizador anterior, «Legacy 0.2», conservado. Un paso previo, Prepare.cmd, extrae los datos de tus dos discos de la campaña a partir de las imágenes BIN/CUE. Los mods se instalan en zips portátiles y hay una guía para crearlos. El propio proyecto avisa de que la aceptación de aspecto, jugabilidad y rendimiento de toda la campaña sigue en curso. Windows es el único destino; Linux está planeado. El repositorio incluye código y parches del proyecto, y las versiones publican también los símbolos nativos de depuración."
+  en: "RE:INTEGRAL: an unofficial Windows source port of the PlayStation Metal Gear Solid Integral, built from the C code recovered by FoxdieTeam (their decompilation of the game) and the PsyZ platform library. Godot handles presentation and visual modding, and the native runtime handles gameplay, collision, animation state, audio, saves, and timing. 0.3.0 (October 15) brings the Godot renderer and a modding SDK together with the launcher and the preserved “Legacy 0.2” renderer. A preparation step, Prepare.cmd, extracts the data from your two campaign discs using the BIN/CUE images. Mods install as portable zips and there is a guide to making them. The project itself warns that campaign-wide acceptance of appearance, playability, and performance is still in progress. Windows is the only target; Linux is planned. The repository includes the project’s code and patches, and the releases also publish native debug symbols."
+requirements:
+  es: "Tus propios discos japoneses de la campaña de Metal Gear Solid Integral: el disco 1 (SLPM-86247) y el 2 (SLPM-86248), como imágenes BIN/CUE de una sola pista MODE2/2352; otras regiones y las ISO normales no sirven. Además, Windows 10 22H2 de 64 bits o Windows 11 y .NET Framework 4.8 para el launcher, y una tarjeta gráfica con Vulkan (Godot) o Direct3D 12 (renderizador Legacy)."
+  en: "Your own Japanese campaign discs of Metal Gear Solid Integral: disc 1 (SLPM-86247) and disc 2 (SLPM-86248), as single-track MODE2/2352 BIN/CUE images; other regions and plain ISO files are not substitutes. Plus 64-bit Windows 10 22H2 or Windows 11 and .NET Framework 4.8 for the launcher, and a graphics card with Vulkan (Godot) or Direct3D 12 (Legacy renderer)."
+tags:
+  - reverse-engineering
+  - mods

@@ -1,0 +1,18 @@
+name: "Command & Conquer: Generals / Zero Hour (Thyme)"
+category: decomp-port
+console: pc
+status: experimental
+repo: TheAssemblyArmada/Thyme
+author: "The Assembly Armada"
+originalDeveloper: "EA Pacific"
+year: 2003
+desc:
+  es: "Thyme: reimplementación de código abierto de Generals: Zero Hour en C++. Es una reescritura «de abajo arriba» del juego que usa el ejecutable original para las funciones que aún no están implementadas, con la intención de poder corregir fallos, añadir funciones y llevar el juego a plataformas que el original no admitía. Hoy solo funciona en Windows. Su lanzador propio solo admite la versión inglesa en disco de Generals: Zero Hour parcheada a la 1.04; para ejecutarlo de otra manera hay que seguir las instrucciones del README. No tiene relación con EA. Licencia GPL-2.0; la etiqueta «latest» y el último commit son del 31 de octubre de 2024."
+  en: "Thyme: an open-source reimplementation of Generals: Zero Hour in C++. It’s a bottom-up rewrite of the game that uses the original executable for functions not yet implemented, with the intent of fixing bugs, adding features, and porting the game to platforms the original didn’t support. Today it only runs on Windows. Its own launcher only supports the English disc version of Generals: Zero Hour patched to 1.04; running it any other way means following the README’s instructions. It has no affiliation with EA. Licensed GPL-2.0; the “latest” tag and the last commit are from October 31, 2024."
+requirements:
+  es: "Tu propia instalación de Command & Conquer: Generals – Zero Hour; con el lanzador del proyecto, la versión inglesa en disco para Windows parcheada a la 1.04 (el README enlaza el parche). Windows."
+  en: "Your own installation of Command & Conquer: Generals – Zero Hour; with the project’s launcher, the English Windows disc version patched to 1.04 (the README links the patch). Windows."
+tags:
+  - x86
+  - reverse-engineering
+  - rts

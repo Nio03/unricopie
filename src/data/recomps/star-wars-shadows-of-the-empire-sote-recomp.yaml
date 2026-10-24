@@ -1,0 +1,17 @@
+name: "Star Wars: Shadows of the Empire (N64)"
+console: n64
+status: playable
+repo: GTTeancum/SotE-Recomp
+originalDeveloper: LucasArts
+year: 1996
+toolchain: N64Recomp
+desc:
+  es: "Recompilación estática de la versión de Nintendo 64, hecha con N64Recomp, para Windows 10 y 11. Apunta a la edición estadounidense 1.2 (Rev 2) y comprueba la ROM por su SHA-256; convierte solas las ROM en formato v64 o n64. Incluye controles modernos y clásicos con teclas, ratón y mando reasignables, puntería moderna con convergencia de los disparos y asistencia opcional, cámara ajustable y trucos. De forma opcional, si copias a la carpeta Sdata los archivos ILB*.WAV de tu instalación de la versión de PC, los 31 mensajes del comunicador de Leebo suenan con las voces de PC, y con los archivos .SAN de esa versión se reproducen sus vídeos; sin ellos, usa los de la ROM. El zip de la 0.9.6 (22 de octubre), de unos 460 MB, trae también dos paquetes de texturas: el V1 de la comunidad, de interceptor427, y reescalados con IA, que se cargan solos y dejan la textura original donde falta un reemplazo. Pendientes, según el proyecto: parpadeos en la Steam Deck y fallos al cambiar al esquema de controles tradicional."
+  en: "A static recompilation of the Nintendo 64 version, built with N64Recomp, for Windows 10 and 11. It targets the US 1.2 (Rev 2) release and checks the ROM by SHA-256; v64 and n64 byte orders are converted automatically. It includes modern and classic control schemes with rebindable keyboard, mouse, and gamepad, modern aiming with shot convergence and optional aim assist, an adjustable camera, and cheats. Optionally, if you copy the ILB*.WAV files from your PC installation into the Sdata folder, Leebo’s 31 communicator messages play with the PC voices, and the .SAN files from that version play its movies; without them it uses the ROM’s. The 0.9.6 zip (October 22), about 460 MB, also bundles two texture packs: the community V1 pack by interceptor427 and AI upscales, both loaded automatically and falling back to the original texture where no replacement exists. Still being worked on, per the project: flickering on the Steam Deck and freezes when switching to the Traditional control preset."
+requirements:
+  es: "Tu propia ROM estadounidense de Star Wars: Shadows of the Empire (Rev 2, .z64; SHA-256 e7085e01…8642c), con el nombre sote.us.v1.2.z64 junto al ejecutable. Opcionalmente, los archivos de voz (ILB*.WAV) y de vídeo (.SAN) de tu copia de PC. Además, Windows 10 u 11 de 64 bits; el ejecutable trae SDL2 y el runtime de Visual C++."
+  en: "Your own US ROM of Star Wars: Shadows of the Empire (Rev 2, .z64; SHA-256 e7085e01…8642c), named sote.us.v1.2.z64 beside the executable. Optionally, the voice (ILB*.WAV) and movie (.SAN) files from your PC copy. Plus 64-bit Windows 10 or 11; the executable bundles SDL2 and the Visual C++ runtime."
+tags:
+  - mips
+  - widescreen
+  - mods

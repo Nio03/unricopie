@@ -1,0 +1,17 @@
+name: Super Mario All-Stars
+console: snes
+status: playable
+repo: TanookiStudios/SuperMarioAllStarsRecomp
+homepage: https://supermarioallstars.tanookistudios.com
+originalDeveloper: Nintendo
+year: 1993
+toolchain: snesrecomp
+desc:
+  es: "Recompilación del recopilatorio de Super Nintendo (Super Mario Bros., The Lost Levels, Super Mario Bros. 2 y Super Mario Bros. 3), convertido con snesrecomp en un programa nativo para macOS, Windows y Linux, y también en un APK para Android. Trae un launcher que pide tu archivo del juego y muestra «ROM verified» cuando es el correcto, píxeles nítidos a cualquier tamaño, mando, trucos y ajustes de sonido; el juego se elige en la pantalla de selección del propio cartucho. La 0.1.0 (20 de octubre) fue la primera versión y la 0.2.0 (21 de octubre) añadió Android, con un mando de SNES en pantalla. La versión de Mac está firmada y notarizada por Apple. Los 18 commits del repositorio llevan a Claude como coautor. El repositorio no incluye el juego."
+  en: "A recompilation of the Super Nintendo collection (Super Mario Bros., The Lost Levels, Super Mario Bros. 2, and Super Mario Bros. 3), turned with snesrecomp into a native program for macOS, Windows, and Linux, and also an Android APK. It comes with a launcher that asks for your game file and shows “ROM verified” when it is the right one, crisp pixels at any size, controller support, cheats, and sound switches; you pick the game on the cartridge’s own Select Game screen. Version 0.1.0 (October 20) was the first release and 0.2.0 (October 21) added Android, with an on-screen SNES controller. The Mac version is signed and notarized by Apple. All 18 commits in the repository list Claude as a co-author. The repository does not include the game."
+requirements:
+  es: "Tu propia copia en .sfc de Super Mario All-Stars (USA) (Super Mario All-Stars - 25th Anniversary), el relanzamiento de 2010: el cartucho de 1993, «Super Mario All-Stars (USA)» a secas, es otro archivo y no lo acepta. Además, macOS 11 o posterior (Apple o Intel), Windows de 64 bits o Linux de 64 bits."
+  en: "Your own .sfc copy of Super Mario All-Stars (USA) (Super Mario All-Stars - 25th Anniversary), the 2010 re-release: the 1993 cartridge, plain “Super Mario All-Stars (USA),” is a different file and isn’t accepted. Plus macOS 11 or later (Apple or Intel), 64-bit Windows, or 64-bit Linux."
+tags:
+  - 65816
+  - ai-assisted

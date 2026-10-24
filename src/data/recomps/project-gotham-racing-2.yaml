@@ -1,0 +1,18 @@
+name: Project Gotham Racing 2
+console: xbox
+status: playable
+repo: hk21x/pgr2-recomp
+originalDeveloper: Bizarre Creations
+year: 2003
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial de la versión de la Xbox original para Windows, con opciones gráficas ampliadas y otras mejoras. El código x86 del juego se recompila estáticamente con Xbox XBE Recomp a un ejecutable de Windows, y las bibliotecas de gráficos, sonido y sistema de la consola se reimplementan (Direct3D 12 u 11, XAudio2 y SDL); no es un emulador. Funciona con las ediciones europea (PAL) y norteamericana (NTSC), con sus variantes parcheadas para disco duro; la japonesa no se ha comprobado. El único archivo publicado es PGR2Launcher.exe, que construye el juego en tu equipo a partir de tu disco, sin Visual Studio, Git ni permisos de administrador: el código del juego nunca se descarga, solo las herramientas y el código del proyecto. La 1.0 salió el 22 de octubre y la 1.0.2 el 23 de octubre. 99 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial native port of the original Xbox version for Windows, with extended graphics options and other enhancements. The game’s x86 code is statically recompiled with Xbox XBE Recomp into a Windows executable, and the console’s graphics, sound, and system libraries are reimplemented (Direct3D 12 or 11, XAudio2, and SDL); it is not an emulator. It works with the European (PAL) and North American (NTSC) releases, including their hard-disk-patched variants; the Japanese release hasn’t been checked. The only published file is PGR2Launcher.exe, which builds the game on your PC from your disc, with no Visual Studio, Git, or administrator rights needed: the game’s code is never downloaded, only the tools and the project’s source. 1.0 came out on October 22 and 1.0.2 on October 23. 99 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Project Gotham Racing 2 para Xbox, europea o norteamericana, como imagen .iso o como carpeta con los archivos del disco. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 u 11, unos 15 GB libres y conexión a internet para descargar unos 1,4 GB de herramientas de compilación."
+  en: "Your own copy of Project Gotham Racing 2 for Xbox, European or North American, as an .iso image or a folder with the disc’s files. Plus 64-bit Windows 10 or 11, a graphics card with Direct3D 12 or 11, about 15 GB free, and an internet connection to download about 1.4 GB of build tools."
+tags:
+  - x86
+  - racing
+  - widescreen
+  - ai-assisted

@@ -1,0 +1,16 @@
+name: "Call of Duty: Finest Hour"
+console: xbox
+status: playable
+repo: crazyriddler/FinestHourRemastered
+originalDeveloper: Spark Unlimited
+year: 2004
+desc:
+  es: "Finest Hour Remastered: port nativo para Windows de Call of Duty: Finest Hour de la Xbox original, con un renderizador nuevo. El código x86 del juego se recompila de forma estática a C++, y Direct3D 8, DirectSound y el núcleo de la Xbox se sustituyen por Direct3D 12 (o Vulkan), XAudio2 y Win32. El renderizador añade iluminación por píxel, sombras y luces dinámicas, materiales físicos, reflejos y niebla volumétrica sin cambiar la dirección de arte, y los modelos se pueden elegir entre los originales, los suavizados o los remasterizados. Admite los cuatro idiomas del juego y añade textos en portugués. En Linux y Steam Deck funciona con Proton. La 1.0 salió el 17 de octubre y el 24 llegó una actualización. Las descargas, de unos 5 GB, incluyen además las texturas remasterizadas con IA y los modelos rehechos a partir de los del juego."
+  en: "Finest Hour Remastered: a native Windows port of Call of Duty: Finest Hour for the original Xbox, with a new renderer. The game’s x86 code is statically recompiled to C++, and Direct3D 8, DirectSound, and the Xbox kernel are replaced by Direct3D 12 (or Vulkan), XAudio2, and Win32. The renderer adds per-pixel lighting, dynamic shadows and lights, physically based materials, reflections, and volumetric fog without changing the art direction, and models can be set to the original, smoothed, or remastered ones. It supports the game’s four languages and adds Portuguese text. On Linux and Steam Deck it runs through Proton. Version 1.0 came out on October 17 and an update followed on the 24th. The downloads, about 5 GB, also include the AI-remastered textures and the models remade from the game’s own."
+requirements:
+  es: "Tu propia copia de Call of Duty: Finest Hour para Xbox, la versión PAL europea (título 4156002A, versión 3, default.xbe con SHA-1 938a7b1e17928de49cb3c5834d61abcd3d9081c8), como archivos, ISO o XISO: el instalador la lee de ahí. Además, Windows 10 u 11 de 64 bits, una tarjeta con Direct3D 12 o Vulkan 1.3 y al menos 4 GB de memoria de vídeo, y unos 10 GB libres."
+  en: "Your own copy of Call of Duty: Finest Hour for Xbox, the European PAL release (title 4156002A, version 3, default.xbe SHA-1 938a7b1e17928de49cb3c5834d61abcd3d9081c8), as files, an ISO, or an XISO: the installer reads it from there. Plus 64-bit Windows 10 or 11, a Direct3D 12 or Vulkan 1.3 GPU with at least 4 GB of video memory, and about 10 GB of free space."
+tags:
+  - x86
+  - fps
+  - hd-assets

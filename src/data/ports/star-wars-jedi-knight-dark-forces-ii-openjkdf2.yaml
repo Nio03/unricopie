@@ -1,0 +1,18 @@
+name: "Star Wars Jedi Knight: Dark Forces II (OpenJKDF2)"
+category: decomp-port
+console: pc
+status: playable
+repo: shinyquagsire23/OpenJKDF2
+originalDeveloper: "LucasArts"
+year: 1997
+desc:
+  es: "OpenJKDF2: reimplementación en C, función por función, de Jedi Knight: Dark Forces II, con versiones de 64 bits para Windows 7 o posterior, macOS 10.15 o posterior y Linux. Los archivos se organizan lo más cerca posible del juego original, a partir de los símbolos del port de Grim Fandango Remastered para Android, Linux y macOS y de aserciones de otros juegos, e incluye las versiones originales de byacc y flex para interpretar los scripts COG. Reproduce la banda sonora original desde archivos Ogg Vorbis (la versión de GOG es la recomendada) y tiene una demostración en WebAssembly. La última versión, la 0.9.9 (5 de julio de 2026, marcada como preliminar), trae compilaciones de depuración para Windows de 64 bits y macOS, un APK de Android y una versión para Nintendo DSi; sus notas incluyen arreglos del multijugador."
+  en: "OpenJKDF2: a function-by-function reimplementation in C of Jedi Knight: Dark Forces II, with 64-bit versions for Windows 7 or later, macOS 10.15 or later, and Linux. Its files are organized as closely as possible to the original game, based on symbols from the Grim Fandango Remastered port for Android, Linux, and macOS and on assertions from other games, and it includes the original versions of byacc and flex to parse COG scripts. It plays the original soundtrack from Ogg Vorbis files (the GOG version is recommended) and has a WebAssembly demo. The latest release, 0.9.9 (July 5, 2026, marked as a pre-release), has debug builds for 64-bit Windows and macOS, an Android APK, and a Nintendo DSi version; its notes include multiplayer fixes."
+requirements:
+  es: "Tu propia copia de Jedi Knight: Dark Forces II, que se compra en GOG (la versión recomendada, sin DRM y con la banda sonora en Ogg Vorbis) o en Steam; no se incluye ningún recurso original. Windows 7 o posterior, macOS 10.15 o posterior o Linux, de 64 bits."
+  en: "Your own copy of Jedi Knight: Dark Forces II, available from GOG (the recommended version, DRM-free and with the soundtrack in Ogg Vorbis) or Steam; no original assets are included. 64-bit Windows 7 or later, macOS 10.15 or later, or Linux."
+tags:
+  - fps
+  - reverse-engineering
+  - multiplayer
+  - build-android
