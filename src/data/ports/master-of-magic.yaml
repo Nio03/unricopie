@@ -1,0 +1,22 @@
+name: Master of Magic
+category: decomp-port
+console: dos
+status: experimental
+repo: jbalcomb/ReMoM
+originalDeveloper: SimTex
+year: 1994
+desc:
+  es: "ReMoM: Master of Magic (SimTex, 1994-95) reconstruido a partir de los ejecutables originales, que se desensamblaron, se reensamblaron y se tradujeron a C. Parte de la versión 1.31 y quiere dar a la comunidad un código fuente funcional con el que ampliar el universo de SimTex. Se compila con CMake y usa SDL2 y SDL2_mixer (SDL3 es opcional; en Windows hay además una variante con Win32 nativo y sin sonido). Las versiones publicadas traen solo el motor, sin los datos del juego: hay compilaciones para Windows (instalador .exe y .zip) y Linux (.deb, AppImage, .zip y .tar.gz), y el README describe también un .zip para macOS, sin firmar. La última, la 0.0.8, es del 31 de julio. El proyecto se coordina en el canal de ingeniería inversa del servidor de Discord «Master of Magic - Fans». Dos de sus últimos 100 commits llevan a Claude como coautor. El repositorio incluye en doc/ desensamblados de ejecutables de SimTex y otros materiales (unos 54 MB)."
+  en: "ReMoM: Master of Magic (SimTex, 1994-95) rebuilt from the original executables, which were disassembled, reassembled, and translated to C. It starts from version 1.31 and aims to give the community working source code to expand the SimTex universe. It builds with CMake and uses SDL2 and SDL2_mixer (SDL3 is optional; on Windows there is also a native Win32 variant with no sound). The published releases are engine-only, with no game data: there are builds for Windows (.exe installer and .zip) and Linux (.deb, AppImage, .zip, and .tar.gz), and the README also describes an unsigned .zip for macOS. The latest, 0.0.8, is from July 31. The project is coordinated in the reverse-engineering channel of the “Master of Magic - Fans” Discord server. Two of its last 100 commits list Claude as a co-author. The repository includes, in doc/, disassemblies of SimTex executables and other material (about 54 MB)."
+requirements:
+  es: "Tu propia copia de Master of Magic 1.31 para DOS: todos los archivos .LBX y CONFIG.MOM, en la misma carpeta que el ejecutable. Además, Windows, Linux o macOS."
+  en: "Your own copy of Master of Magic 1.31 for DOS: all the .LBX files and CONFIG.MOM, in the same folder as the executable. Plus Windows, Linux, or macOS."
+tags:
+  - x86
+  - reverse-engineering
+  - ai-assisted
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/jbalcomb/ReMoM/releases

@@ -1,0 +1,22 @@
+name: "The Legend of Zelda: The Wind Waker (WindowWaker)"
+category: decomp-port
+console: gamecube
+status: playable
+repo: MaskeZenY/WindowWaker
+forkOf:
+  label: "centollOS/SwitchWaker"
+  url: https://github.com/centollOS/SwitchWaker
+originalDeveloper: "Nintendo EAD"
+year: 2002
+desc:
+  es: "Fork dedicado a Windows de SwitchWaker, el port nativo de Wind Waker (disco GZLE01, EE. UU., revisión 0) hecho a partir de la decompilación en C++ de la comunidad y dibujado con Aurora (WebGPU/Dawn, con DirectX 12 o Vulkan), sin emulación de CPU. Añade la compilación para Windows con MSVC o Clang-cl y CMake, y un launcher sencillo; el audio sale del DSP de Dolphin con HLE, con mandos por SDL. Separa la lógica, que sigue a 30 Hz, de la presentación, que interpola matrices y esqueletos a 60 Hz, 120 Hz o la frecuencia máxima del monitor, y escala el búfer hasta 4K, con 16:9 real, texturas HD en formato Dolphin, filtrado anisótropo y bloom. No se han probado ni se mantienen aquí las compilaciones de macOS, Linux y Switch del original. La v1.0.0-win salió el 10 de octubre. El README declara que parte de la adaptación a Windows, la interpolación y el renderizado se hicieron con asistentes de IA, y 97 de sus últimos 100 commits llevan a Claude como coautor. El repositorio incluye el código C++ de la decompilación (unos 26 MB)."
+  en: "A Windows-only fork of SwitchWaker, the native port of Wind Waker (disc GZLE01, USA, revision 0) built from the community C++ decompilation and drawn with Aurora (WebGPU/Dawn, on DirectX 12 or Vulkan), with no CPU emulation. It adds the Windows build with MSVC or Clang-cl and CMake, and a simple launcher; audio comes from Dolphin’s DSP HLE, with controllers through SDL. It separates the logic, which stays at 30 Hz, from presentation, which interpolates matrices and skeletons at 60 Hz, 120 Hz, or the monitor’s maximum refresh rate, and scales the framebuffer up to 4K, with true 16:9, Dolphin-format HD texture packs, anisotropic filtering, and bloom. The original’s macOS, Linux, and Switch builds aren’t tested or maintained here. Version v1.0.0-win came out on October 10. The README says parts of the Windows adaptation, the interpolation, and the rendering were built with AI assistants, and 97 of its last 100 commits list Claude as a co-author. The repository includes the decompilation’s C++ code (about 26 MB)."
+requirements:
+  es: "Tu propia imagen ISO sin comprimir (1,4 GB) de The Legend of Zelda: The Wind Waker de GameCube, disco GZLE01 (EE. UU.), revisión 0. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con DirectX 12 o Vulkan; para compilar, Visual Studio 2022, CMake 3.28, Python 3.10 y Git."
+  en: "Your own uncompressed ISO (1.4 GB) of The Legend of Zelda: The Wind Waker for GameCube, disc GZLE01 (USA), revision 0. Plus 64-bit Windows 10 or 11 and a graphics card with DirectX 12 or Vulkan; to build, Visual Studio 2022, CMake 3.28, Python 3.10, and Git."
+tags:
+  - powerpc
+  - 60fps+
+  - widescreen
+  - 4k
+  - ai-assisted

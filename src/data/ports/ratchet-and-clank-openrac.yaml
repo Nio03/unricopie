@@ -1,0 +1,18 @@
+name: "Ratchet & Clank (OpenRAC)"
+category: decomp-port
+console: ps2
+status: experimental
+repo: OpenRAC/OpenRAC
+originalDeveloper: "Insomniac Games"
+year: 2002
+desc:
+  es: "Decompilación exacta de los juegos de Ratchet & Clank de PlayStation 2 (Ratchet & Clank, Going Commando, Up Your Arsenal y Deadlocked, además de Size Matters, Secret Agent Clank y otras versiones que enumera), emparejada función a función hasta que compila a una copia idéntica byte a byte, y un port nativo para PC que construye toda la decompilación en un solo programa, dibujado con un renderizador OpenGL propio, con efectos, música y voces; lo que sigue en ensamblador se registra y se omite. Es una forma de trabajar parecida a la de OpenGOAL con Jak and Daxter. Ratchet & Clank (PAL) es el primer juego en PC. Un launcher (Tauri) detecta las imágenes de tus discos y prepara y lanza el juego; hay también un editor de niveles con Godot 4 que convierte los niveles de tu disco en proyectos de Godot y un SDK de mods (la 1.3.0, 22 de octubre). Los compiladores propietarios no se incluyen. Las versiones que figuran en la página de lanzamientos son una compilación de depuración del launcher para Android y el SDK de mods."
+  en: "A matching decompilation of the PlayStation 2 Ratchet & Clank games (Ratchet & Clank, Going Commando, Up Your Arsenal, and Deadlocked, plus Size Matters, Secret Agent Clank, and other versions it lists), matched function by function until it compiles to a byte-identical copy, and a native PC port that builds the whole decompilation into one program, drawn by its own OpenGL renderer, with sound effects, music, and speech; what is still assembly is logged and skipped. The approach is similar to OpenGOAL’s with Jak and Daxter. Ratchet & Clank (PAL) is the first game on PC. A launcher (Tauri) finds your disc images and prepares and starts the game; there is also a Godot 4 level editor that turns your disc’s levels into Godot projects, and a mod SDK (1.3.0, October 22). The proprietary compilers are not included. The releases listed on the releases page are a debug build of the Android launcher and the mod SDK."
+requirements:
+  es: "Tus propias imágenes de disco (.iso) de los juegos de PlayStation 2: Ratchet & Clank (PAL, SCES_509.16) es el primero que corre en PC. Además, Windows, macOS o Linux; para trabajar en las decompilaciones, los compiladores propietarios que aporta cada usuario (consulta toolchains/README.md)."
+  en: "Your own PlayStation 2 disc images (.iso): Ratchet & Clank (PAL, SCES_509.16) is the first to run on PC. Plus Windows, macOS, or Linux; to work on the decompilations, the proprietary compilers you supply (see toolchains/README.md)."
+tags:
+  - mips
+  - platformer
+  - reverse-engineering
+  - mods

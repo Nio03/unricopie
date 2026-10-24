@@ -1,0 +1,24 @@
+name: Sonic R
+category: decomp-port
+console: pc
+status: playable
+repo: jnmartin84/sonic-r
+originalDeveloper: Traveller's Tales
+year: 1998
+desc:
+  es: "Sonic R, el juego de carreras de Sega de 1998 para PC, reconstruido a partir de su ejecutable: el código se descompiló con Ghidra y se tradujo de x86 a C moderno y portable, que corre con SDL2 en Windows, macOS y Linux y, con el mismo código de juego, en Sega Dreamcast con KallistiOS. La 1.0 salió el 12 de septiembre y la 1.0-bugfix1, el 15, que arregla sobre todo fallos gráficos; el único archivo publicado es SONICR.EXE (9,7 MB), para Windows 10 y 11 de 64 bits y sin dependencias. En los demás sistemas hay que compilarlo con las guías del repositorio, que cubren también el juego en red. El proyecto dice haberlo contrastado con sesiones de WinDbg sobre el SONICR.EXE original y con pruebas de aficionados, y que las únicas diferencias de comportamiento en un jugador que no ha podido atribuir a otra cosa vienen de pasar del coma flotante x87 de 80 bits a IEEE. Declara el uso de IA: la ingeniería inversa y la traducción se hicieron con Ghidra y Claude Code. El repositorio lleva solo unos pocos archivos de apoyo en DATA/ (los iconos de red y los efectos de sonido ya codificados)."
+  en: "Sonic R, Sega’s 1998 racing game for PC, rebuilt from its executable: the code was decompiled with Ghidra and translated from x86 to modern, portable C, which runs with SDL2 on Windows, macOS, and Linux and, sharing the same game code, on the Sega Dreamcast with KallistiOS. Version 1.0 came out on September 12 and 1.0-bugfix1 on September 15, mostly fixing graphical issues; the only published file is SONICR.EXE (9.7 MB), for 64-bit Windows 10 and 11 with no dependencies. On other systems you build it yourself with the repository’s guides, which also cover network play. The project says it was checked against WinDbg sessions on the original SONICR.EXE and by fan playtesting, and that the only single-player behavior differences it couldn’t attribute to something else come from moving from 80-bit x87 floating point to IEEE. It discloses its use of AI: the reverse engineering and translation were done with Ghidra and Claude Code. The repository carries only a few support files in DATA/ (the network icons and the pre-encoded sound effects)."
+requirements:
+  es: "Tu propia copia de Sonic R para PC (1998): las pistas, los modelos, las texturas y la música salen de ella. Windows 10 u 11 de 64 bits para el SONICR.EXE publicado; en macOS y Linux, compilando."
+  en: "Your own copy of Sonic R for PC (1998): the tracks, models, textures, and music come from it. 64-bit Windows 10 or 11 for the published SONICR.EXE; on macOS and Linux, you build it."
+tags:
+  - x86
+  - reverse-engineering
+  - multiplayer
+  - online
+  - ai-assisted
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/jnmartin84/sonic-r/releases

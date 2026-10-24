@@ -1,0 +1,9 @@
+name: "Donkey Kong Country (Yoshifanatic1)"
+console: snes
+repo: Yoshifanatic1/Donkey-Kong-Country-1-Disassembly
+desc:
+  es: "Desensamblado de Donkey Kong Country para SNES, en ensamblador para asar, basado en la versión estadounidense V1.0. Usa la versión 1.2.0 del marco de ROM de SNES del autor, cuyos archivos van en la descarga. Para usarlo hace falta una copia limpia de la ROM, sin cabecera, de la que un script por lotes extrae los recursos (MD5 30c5f292ff4cbbfcc00fd8fa96c2de3b). La V1.0 salió el 21 de noviembre de 2021 y el repositorio no se ha actualizado desde entonces. El repositorio no incluye recursos del juego."
+  en: "A disassembly of Donkey Kong Country for the SNES, in assembly for asar, based on the US V1.0 version. It uses version 1.2.0 of the author’s SNES ROM framework, whose files are included in the download. To use it you need a clean, headerless copy of the ROM, from which a batch script extracts the assets (MD5 30c5f292ff4cbbfcc00fd8fa96c2de3b). V1.0 came out on November 21, 2021 and the repository hasn’t been updated since. The repository includes no game assets."
+tags:
+  - "65816"
+  - reverse-engineering

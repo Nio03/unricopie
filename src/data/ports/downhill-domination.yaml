@@ -1,0 +1,26 @@
+name: Downhill Domination
+category: decomp-port
+console: ps2
+status: playable
+repo: skuza-oss/downhill-revived
+homepage: https://downhill-revived.pages.dev
+originalDeveloper: Incognito Entertainment
+year: 2003
+desc:
+  es: "Downhill Revived: port nativo para Windows de Downhill Domination (PlayStation 2, Incognito Entertainment / SCEA, 2003), construido sobre una decompilación que compila de vuelta al programa original byte a byte: el port compila ese código para PC y sustituye el hardware de PS2 por código nativo. dhd.exe contiene solo el código traducido y en cada arranque lee de la imagen de tu disco las cadenas, tablas y el microcódigo de la unidad vectorial, tras comprobar que es la original sin modificar. Ofrece un renderizador nativo en Direct3D 11 (el modo de emulación exacta se conserva como referencia), 60 fps con ritmo de fotogramas uniforme, resolución interna de 1x a 4x, pantalla panorámica con campo de visión Hor+, los vídeos del juego, un menú PC SETTINGS dentro de las opciones del propio juego, una fuente nítida generada en memoria, paquetes de texturas hechos para PCSX2, partidas guardadas en archivos, actualizaciones automáticas, mandos (Xbox, DualSense, DualShock 4, Switch Pro, 8BitDo…), carreras enteras con teclado y carreras en línea de 2 a 4 jugadores (experimental) con un servidor del proyecto. La 0.3.1 (24 de octubre) arregla un fallo de arranque cuando otro programa ocupaba memoria que el juego necesita; las salas en línea solo admiten la misma versión. Licencia GPL-3.0. Los 38 commits del repositorio llevan a Claude como coautor."
+  en: "Downhill Revived: a native Windows port of Downhill Domination (PlayStation 2, Incognito Entertainment / SCEA, 2003), built on a matching decompilation that compiles back to the original program byte for byte: the port builds that code for PC and replaces the PS2 hardware with native code. dhd.exe holds only the translated code, and at every start it reads strings, tables, and vector unit microcode from your disc image, after checking it is the unchanged original. It offers a native Direct3D 11 renderer (the exact emulation path is kept as a reference), 60 fps with even frame pacing, internal resolution from 1x to 4x, Hor+ widescreen, the game’s movies, a PC SETTINGS menu inside the game’s own options, a sharp font generated in memory, texture packs made for PCSX2, saves as plain files, automatic updates, controllers (Xbox, DualSense, DualShock 4, Switch Pro, 8BitDo, and more), whole races on the keyboard, and 2-to-4-player online races (experimental) on a project server. Version 0.3.1 (October 24) fixes a startup failure when another program held memory the game needs; online rooms only accept the same version. GPL-3.0 license. All 38 of the repository’s commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del disco estadounidense de Downhill Domination (SCUS-97177), volcada por ti a un .iso; no admite otras regiones ni imágenes modificadas. Además, Windows con Direct3D 11."
+  en: "Your own copy of the US disc of Downhill Domination (SCUS-97177), dumped by you to an .iso; other regions and modified images aren’t supported. Plus Windows with Direct3D 11."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - online
+  - multiplayer
+  - ai-assisted
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/skuza-oss/downhill-revived/releases

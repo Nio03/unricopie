@@ -1,0 +1,21 @@
+name: "Tony Hawk's Pro Skater"
+category: decomp-port
+console: ps1
+status: playable
+repo: LANCommander/TonyWasAProSkater
+forkOf:
+  label: "LANCommander/THPS"
+  url: https://github.com/LANCommander/THPS
+originalDeveloper: "Neversoft"
+year: 1999
+desc:
+  es: "Port nativo para Windows y Linux de la versión estadounidense de PlayStation (SLUS_008.60), construido a partir de una decompilación exacta del código del juego, bifurcada de LANCommander/THPS. Corre como programa de 32 bits con un renderizador OpenGL 3.3, teclado y mando, pantalla ancha, resoluciones altas y partidas guardadas como archivos normales. La campaña con los nueve niveles se puede jugar entera; la única laguna que cita es la reverberación de la PS1, que el port aproxima con la suya. Desde la 1.3.0 se puede cambiar en las opciones gráficas entre los recursos de PS1 y los de Dreamcast. En el primer arranque copia del disco unos 630 MB a una carpeta Data y después ya no necesita la imagen. Lo que la compilación toma del ejecutable son direcciones, que están en el repositorio. La 1.4.0 (24 de octubre) añadió filtrado bilineal y la 1.3.0 (22 de octubre), VSync y escritura con teclado. 23 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows and Linux port of the US PlayStation version (SLUS_008.60), built from a matching decompilation of the game’s code, forked from LANCommander/THPS. It runs as a 32-bit program with an OpenGL 3.3 renderer, keyboard and gamepad controls, widescreen, high resolutions, and saves as plain files. The career mode with all nine levels can be played through; the only gap it names is the PS1’s reverb, which the port approximates with its own. Since 1.3.0 the graphics options switch between PS1 and Dreamcast assets. On first start it copies about 630 MB from the disc into a Data folder and the image isn’t needed afterwards. What the build takes from the retail executable is addresses, which are committed in the repository. Version 1.4.0 (October 24) added bilinear filtering and 1.3.0 (October 22) added VSync and keyboard text entry. 23 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco en bruto (.bin MODE2/2352) del Tony Hawk's Pro Skater de PlayStation (EE. UU.), o el disco de la versión de Dreamcast (.gdi y sus pistas). Además, Windows 10 u 11 de 64 bits o Linux x86 con las bibliotecas de 32 bits de SDL 2 y OpenGL, y una tarjeta gráfica con OpenGL 3.3."
+  en: "Your own raw disc image (MODE2/2352 .bin) of the PlayStation Tony Hawk’s Pro Skater (USA), or the Dreamcast disc (.gdi and its tracks). Plus 64-bit Windows 10 or 11, or x86 Linux with the 32-bit SDL 2 and OpenGL libraries, and a graphics card with OpenGL 3.3."
+tags:
+  - mips
+  - sports
+  - widescreen
+  - ai-assisted

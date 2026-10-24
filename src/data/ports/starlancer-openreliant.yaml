@@ -1,0 +1,20 @@
+name: "StarLancer (OpenReliant)"
+category: game-engine
+console: pc
+status: playable
+repo: OpenReliant/openreliant
+homepage: https://openreliant.github.io/openreliant/
+originalDeveloper: "Warthog"
+year: 2000
+desc:
+  es: "OpenReliant: reimplementación abierta y fiel del motor de StarLancer, el simulador de combate espacial de Warthog y Digital Anvil que publicó Microsoft en 2000. Está escrito en Zig sobre SDL3 y dibuja con Vulkan (Metal en macOS) mediante la API de GPU de SDL, en Linux, macOS y Windows, con los datos de tu copia original. La campaña entera se puede jugar de la primera misión al final y las partidas guardadas del original siguen valiendo. Trae todas las naves con el modelo de vuelo, las armas, el daño, la IA y los instrumentos del original, ocho cámaras con cabinas 3D, misiones y guiones completos, sombreado por píxel, sombras en tiempo real, sonido posicional 3D, mandos y palancas con vibración, y la opción --original que restaura los gráficos y el sonido de entonces. Admite mods con scripts en Luau, que añaden naves, armas, pilotos, modos de juego y campañas. Está en beta; la 0.20.0 salió el 22 de octubre."
+  en: "OpenReliant: an open-source, faithful engine reimplementation of StarLancer, the space combat simulator by Warthog and Digital Anvil that Microsoft published in 2000. It is written in Zig on SDL3 and renders with Vulkan (Metal on macOS) through SDL’s GPU API, on Linux, macOS, and Windows, using the data from your own copy. The whole campaign is playable from the first mission to the end, and the original’s saved games carry on. It has all ships with the original flight model, weapons, damage, AI, and cockpit displays, eight camera views with 3D cockpits, full missions and scripts, per-pixel shading, real-time shadows, 3D positional audio, controllers and flight sticks with rumble, and an --original switch that restores the original graphics and sound. It supports mods with Luau scripts, which add ships, weapons, pilots, game modes, and campaigns. It is in beta; version 0.20.0 came out on October 22."
+requirements:
+  es: "Los archivos de tu propia copia comercial de StarLancer (el repositorio no incluye texturas, modelos, sonidos, música, vídeos ni binarios del juego). Además, Windows (x86-64 o ARM64), Linux (x86-64 o ARM64) o macOS (Intel o Apple Silicon); en macOS hay que quitar la cuarentena porque las compilaciones no están firmadas."
+  en: "The files from your own retail copy of StarLancer (the repository contains no textures, models, sound effects, music, videos, or game binaries). Plus Windows (x86-64 or ARM64), Linux (x86-64 or ARM64), or macOS (Intel or Apple Silicon); on macOS you need to remove the quarantine flag because the builds aren’t signed."
+tags:
+  - space
+  - vulkan
+  - mods
+  - 60fps+
+  - reverse-engineering

@@ -1,0 +1,23 @@
+name: The Wing of Madoola
+category: fan-remake
+console: nes
+status: playable
+repo: nfroggy/openmadoola
+originalDeveloper: Sunsoft
+year: 1986
+homepage: https://www.infochunk.com/madoola/openmadoola.html
+desc:
+  es: "OpenMadoola: reimplementación libre (GPL v2 o posterior) de The Wing of Madoola (Sunsoft, 1986), con arreglos de fallos y mejoras opcionales, pensada para quien tiene el juego en cartucho o en Steam. No es un juego independiente: lee todos los gráficos y los datos de los niveles de una imagen ROM y se niega a arrancar sin ella. El ajuste «tipo de juego» ofrece «Original», que imita el juego de NES con los arreglos importantes, y «Plus» (por defecto), con arreglos de fallos menores y retoques que el autor considera mejoras. Hay versiones para SDL2 y para SDL3. La última publicada, la 1.26 (11 de enero de 2026), es un zip para Windows de 64 bits; en Linux se instala desde Flathub y en macOS hay que compilarlo, porque el autor no quiere pagar el certificado de firma de Apple. Las notas de esa versión corrigen la inicialización de la magia y la animación del título en el modo arcade, entre otros detalles."
+  en: "OpenMadoola: a free-software (GPL v2 or later) reimplementation of The Wing of Madoola (Sunsoft, 1986), with bug fixes and optional enhancements, made for people who own the game on cartridge or on Steam. It isn’t a standalone game: it reads all graphics and level data from a ROM image and refuses to start without one. The “game type” setting offers “Original,” which imitates the NES game with the important bug fixes, and “Plus” (the default), with fixes for minor bugs and tweaks the author thinks improve the game. There are SDL2 and SDL3 versions. The latest release, 1.26 (January 11, 2026), is a 64-bit Windows zip; on Linux you install it from Flathub, and on macOS you have to build it, since the author doesn’t want to pay for Apple’s signing certificate. That release’s notes fix magic initialization and the title animation speed in arcade mode, among other details."
+requirements:
+  es: "Tu propia imagen ROM de The Wing of Madoola, como madoola.nes, o el archivo sharedassets0.assets de la colección «SUNSOFT is Back! Retro Game Selection» de Steam. Además, font.bin, 2c04.pal y nes.pal y las carpetas demo y mml del repositorio (la versión de Windows ya los trae). Windows, Linux (Flatpak) o macOS (compilando)."
+  en: "Your own ROM image of The Wing of Madoola, as madoola.nes, or the sharedassets0.assets file from Steam’s “SUNSOFT is Back! Retro Game Selection” collection. Plus font.bin, 2c04.pal, and nes.pal and the demo and mml folders from the repository (the Windows release already includes them). Windows, Linux (Flatpak), or macOS (built from source)."
+tags:
+  - sdl3
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/nfroggy/openmadoola/releases
+  - label: "Flathub"
+    url: https://flathub.org/apps/com.infochunk.OpenMadoola

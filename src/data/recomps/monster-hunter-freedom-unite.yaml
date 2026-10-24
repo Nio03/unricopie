@@ -1,0 +1,22 @@
+name: Monster Hunter Freedom Unite
+console: psp
+status: playable
+repo: Mango77x/MHForever
+homepage: https://mango77x.github.io/MHForever-site/
+originalDeveloper: Capcom
+year: 2008
+toolchain: PSPRecomp
+desc:
+  es: "MHForever: ports nativos no oficiales para PC de los Monster Hunter clásicos, por recompilación estática y sin emulador. De momento solo funciona Monster Hunter Freedom Unite (Monster Hunter Portable 2nd G en Japón), de PSP, en su versión europea (ULES01213, v1.01); las versiones estadounidense y japonesa y otros juegos de la serie están en los planes. Un lanzador lo prepara todo a partir de la imagen de tu disco. Va a 30 fps como la consola o a entre 60 y 180 fps (múltiplos de 30) con interpolación de fotogramas, algo experimental, con una resolución de varias veces los 480×272 originales y un filtro de texturas opcional; los mandos (probado con DualSense) y el teclado se reasignan. Las partidas guardadas usan el formato de PSP: se importan de una PSP o PPSSPP y se pueden copiar a PPSSPP. El juego en línea aún no existe; se está diseñando el multijugador por internet. La 0.4.1 (23 de octubre) añadió una descarga para Linux (Ubuntu 24.04 o posterior, probada por un colaborador; sin probar en Steam Deck) junto a la de Windows de 64 bits. Según el mantenedor, el modo de un jugador se puede pasar de principio a fin, pero hay fallos. Licencia GPL-3.0. No incluye ni descarga recursos del juego."
+  en: "MHForever: unofficial native PC ports of the classic Monster Hunter games through static recompilation, with no emulator. For now only Monster Hunter Freedom Unite (Monster Hunter Portable 2nd G in Japan), on PSP, in its European release (ULES01213, v1.01) works; the US and Japanese releases and other games in the series are planned. A launcher sets everything up from your disc image. It runs at 30 fps like the console or at 60 to 180 fps (multiples of 30) with frame interpolation, which is experimental, at several times the original 480×272 resolution and with an optional smoother texture filter; controllers (tested with a DualSense) and the keyboard are rebindable. Saves use the PSP format: you import them from a PSP or PPSSPP and can copy them to PPSSPP. Online play doesn’t exist yet; internet multiplayer is being designed. Version 0.4.1 (October 23) added a Linux download (Ubuntu 24.04 or later, tested by a contributor; untested on the Steam Deck) next to the 64-bit Windows one. According to the maintainer, single player can be played from start to finish, but there are bugs. GPL-3.0 license. It includes and downloads no game assets."
+requirements:
+  es: "Tu propia copia de Monster Hunter Freedom Unite para PSP, versión europea (ULES01213, v1.01), como imagen de disco. Además, Windows de 64 bits o Linux de 64 bits (Ubuntu 24.04 o posterior; el lanzador necesita WebKitGTK 4.1 y GTK 3, y el juego, OpenGL 3.3)."
+  en: "Your own copy of Monster Hunter Freedom Unite for PSP, European release (ULES01213, v1.01), as a disc image. Plus 64-bit Windows or 64-bit Linux (Ubuntu 24.04 or later; the launcher needs WebKitGTK 4.1 and GTK 3, and the game needs OpenGL 3.3)."
+tags:
+  - mips
+  - 60fps+
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/Mango77x/MHForever/releases

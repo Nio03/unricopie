@@ -1,0 +1,24 @@
+name: "OutRun 2006: Coast 2 Coast"
+category: decomp-port
+console: pc
+status: experimental
+repo: r4dius/outrun2-decomp
+originalDeveloper: Sumo Digital
+year: 2006
+desc:
+  es: "Port nativo de la versión de PC de OutRun 2006: Coast 2 Coast (Sumo Digital / Sega, 2006) a partir de una decompilación, que el proyecto describe como hecha con IA. El código del juego es una reconstrucción en C++ del ejecutable de PC, en parte todavía traducida de x86 con una herramienta propia (tools/x86tr) y el resto escrita a mano, sobre una capa de plataforma nativa para cada sistema: Nintendo Switch, macOS (Apple silicon), PS5 (homebrew) y Xbox One y Series (modo desarrollador). Aquí cuenta la de macOS. El README avisa de que no está terminado: hay menús incorrectos y efectos visuales, rendimiento y comportamientos que no son definitivos. Ya añade varios métodos de suavizado, opciones de resolución, pantalla panorámica y 120 fps, y promete incorporar más adelante funciones de OutRun2006Tweaks. El prelanzamiento test-1 (7 de octubre) trae las cuatro compilaciones, la de Xbox sin probar. En el primer arranque lee de OR2006C2C.EXE tablas de código y constantes, las comprueba con hashes SHA-256 y guarda una imagen preparada, OR2006C2C.cache, en la carpeta del juego. El repositorio solo contiene código."
+  en: "A native port of the PC version of OutRun 2006: Coast 2 Coast (Sumo Digital / Sega, 2006) built from a decompilation, which the project describes as made with AI. The game code is a C++ reconstruction of the PC executable, partly still translated from x86 by a tool of its own (tools/x86tr) and the rest written by hand, on top of a native platform layer for each system: Nintendo Switch, macOS (Apple silicon), PS5 (homebrew), and Xbox One and Series (Developer Mode). The macOS one is what counts here. The README warns it isn’t finished: some menus are incorrect, and some visual effects, performance, and behaviors aren’t final. It already adds several anti-aliasing methods, resolution options, widescreen, and 120 fps, and promises to bring in features from OutRun2006Tweaks later. The test-1 prerelease (October 7) ships all four builds, with the Xbox one untested. On first launch it reads code tables and constants from OR2006C2C.EXE, checks them against SHA-256 hashes, and keeps a prepared image, OR2006C2C.cache, in the game folder. The repository holds code only."
+requirements:
+  es: "Tu propia copia de OutRun 2006: Coast 2 Coast para PC (la de Steam): la carpeta de la instalación, con su OR2006C2C.EXE. La compilación publicada para este tipo de equipo es la de macOS con Apple silicon."
+  en: "Your own copy of OutRun 2006: Coast 2 Coast for PC (the Steam one): the installation folder, with its OR2006C2C.EXE. The published build for this kind of machine is the macOS one for Apple silicon."
+tags:
+  - x86
+  - reverse-engineering
+  - widescreen
+  - 60fps+
+  - ai-assisted
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/r4dius/outrun2-decomp/releases

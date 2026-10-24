@@ -1,0 +1,18 @@
+name: "Naruto: Rise of a Ninja (Port Nativo)"
+console: x360
+status: playable
+repo: Masterllgod/naruto-rise-of-a-ninja-port-nativo
+originalDeveloper: "Ubisoft Montreal"
+year: 2007
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 en la que el ejecutable (default.xex) y la biblioteca AI2C.dll se traducen de PowerPC a x86-64 para Windows (y a ARM64 para Android, que no entra en este catálogo). No es un emulador de Xbox 360. Ofrece seis resoluciones (de 360p a 4K), antialiasing FXAA y FXAA+, escalado FSR 1.0 y CAS de AMD, versión de PC con ventana o pantalla completa, teclado y mandos de Xbox o PlayStation, y un panel de rendimiento. Las luchas van a 60 fps; la 0.4 (20 de octubre), la primera de PC desde la 0.1, añadió el «modo historia» a 60 fps, que en una escena pesada de la aldea medía unos 47 fps en el equipo del autor. El 60 fps no se ha probado en cinemáticas, menús ni en el minijuego de sellos. El repositorio solo contiene la documentación y las capturas: el código no está publicado, y las descargas son binarios. Sus 4 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Xbox 360 version in which the executable (default.xex) and the AI2C.dll library are translated from PowerPC to x86-64 for Windows (and to ARM64 for Android, which isn’t covered by this catalog). It is not an Xbox 360 emulator. It offers six resolutions (360p to 4K), FXAA and FXAA+ anti-aliasing, AMD FSR 1.0 and CAS scaling, a PC version with windowed or fullscreen mode, keyboard and Xbox or PlayStation controllers, and a performance overlay. Fights run at 60 fps; version 0.4 (October 20), the first PC build since 0.1, added a “story mode” option at 60 fps, which measured about 47 fps in a heavy village scene on the author’s PC. 60 fps hasn’t been tested in cutscenes, menus, or the seals minigame. The repository holds only documentation and screenshots: the source code isn’t published, and the downloads are binaries. All 4 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Naruto: Rise of a Ninja para Xbox 360, del disco norteamericano (NTSC-U, ID de título 555307E5), extraída a una carpeta: default.xex (SHA-1 3174cb24c35a66019f38e5378a4da298ac1ebf31) y AI2C.dll (SHA-1 c412aaf5873f77394ab1e246189f43df423a9e6b) deben ser idénticos, con naruto.bf y el resto de archivos. Además, Windows 10 u 11 de 64 bits, un procesador x86-64 con AVX y una tarjeta gráfica con Vulkan 1.1."
+  en: "Your own copy of Naruto: Rise of a Ninja for Xbox 360, from the North American disc (NTSC-U, title ID 555307E5), extracted to a folder: default.xex (SHA-1 3174cb24c35a66019f38e5378a4da298ac1ebf31) and AI2C.dll (SHA-1 c412aaf5873f77394ab1e246189f43df423a9e6b) must be identical, along with naruto.bf and the other files. Plus 64-bit Windows 10 or 11, an x86-64 processor with AVX, and a Vulkan 1.1 graphics card."
+tags:
+  - powerpc
+  - vulkan
+  - 60fps+
+  - 4k
+  - ai-assisted

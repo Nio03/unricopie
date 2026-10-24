@@ -1,0 +1,19 @@
+name: "Digimon World 2"
+category: decomp-port
+console: ps1
+status: playable
+repo: Wyrelade/DW2-PC
+originalDeveloper: "Bandai"
+year: 2000
+desc:
+  es: "Digimon World 2 (PlayStation, 2000) corriendo de forma nativa en Windows y Linux, construido a partir de la decompilación del juego, que convirtió sus 1088 funciones en C que recompila el disco original byte a byte. El port compila ese mismo C para PC y sustituye las bibliotecas y el hardware de la PlayStation por una capa de PC sobre SDL3. No es un emulador ni un remake: la lógica del juego es la original. Cambia cómo se ve y cómo se juega: escala de render de 1x a 8x, vista panorámica 16:9 con la cámara ensanchada, polígonos sin temblor y texturas con perspectiva correcta, nitidez opcional, cuadros interpolados a la frecuencia del monitor, renderizador de GPU con Vulkan y otro por software, aceleración de 2x a 8x, modos de ventana, vídeos y audio de CD en streaming, mandos y partidas en archivos normales. Funciona también con la traducción al español de Alemito aplicada a la imagen. La v1.0.0-beta salió el 15 de octubre. La decompilación vive en otro repositorio, Wyrelade/Digimon-World-2-Decomp."
+  en: "Digimon World 2 (PlayStation, 2000) running natively on Windows and Linux, built from the game’s decompilation, which turned all 1088 of its functions into C that rebuilds the retail disc byte for byte. The port compiles that same C for PC and replaces the PlayStation’s libraries and hardware with a PC layer on SDL3. It is not an emulator or a remake: the game logic is the original. It changes how it looks and plays: render scale from 1x to 8x, 16:9 widescreen by widening the camera, polygons that no longer wobble and textures with correct perspective, optional sharpening, frames interpolated to the monitor’s refresh rate, a GPU renderer on Vulkan plus a software one, 2x to 8x speed-up, window modes, movies and streamed CD audio, controllers, and saves as plain files. It also runs with Alemito’s Spanish fan translation applied to the disc image. v1.0.0-beta came out on October 15. The decompilation lives in a separate repository, Wyrelade/Digimon-World-2-Decomp."
+requirements:
+  es: "Tu propia imagen de disco en bruto de Digimon World 2 para PlayStation (EE. UU., SLUS-01193), con sectores de 2352 bytes (.bin con .cue, .img de CloneCD o .iso en bruto; una .iso de 2048 bytes no sirve). El juego la comprueba archivo a archivo, crea un paquete de datos en el primer arranque y después ya no necesita la imagen. Para la versión en español, el disco de EE. UU. con la traducción de Alemito aplicada. Además, Windows (x64) o Linux (x64, con SDL3 3.4 o posterior y glibc 2.43 o posterior)."
+  en: "Your own raw disc image of Digimon World 2 for PlayStation (USA, SLUS-01193), with 2352-byte sectors (.bin with .cue, a CloneCD .img, or a raw .iso; a 2048-byte .iso doesn’t work). The game checks it file by file, builds a data pack on the first start, and doesn’t need the image afterwards. For the Spanish version, the USA disc with Alemito’s translation applied. Plus Windows (x64) or Linux (x64, with SDL3 3.4 or later and glibc 2.43 or later)."
+tags:
+  - mips
+  - rpg
+  - widescreen
+  - 60fps+
+  - vulkan

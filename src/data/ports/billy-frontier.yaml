@@ -1,0 +1,21 @@
+name: Billy Frontier
+category: source-port
+console: mac
+status: fully
+repo: jorio/BillyFrontier
+author: Iliyas Jorio
+originalDeveloper: Pangea Software
+year: 2003
+homepage: https://pangeasoft.net/billy
+desc:
+  es: "Billy Frontier, el juego «de vaqueros en el espacio» que Pangea Software publicó en 2003 para Mac PowerPC, puesto al día para macOS, Windows y Linux por Iliyas Jorio con permiso de Pangea. Es un juego de acción arcade con duelos, tiroteos y estampidas. En los tiroteos se gira llevando el cursor a los bordes de la pantalla, con la rueda del ratón, con el desplazamiento horizontal del trackpad o con las teclas. La última versión, la 1.1.1 (6 de septiembre de 2023), suavizó ese giro, añadió ajustes para la velocidad y el sentido de la rueda, corrigió fallos gráficos en el humo y las llamas, arregló el giro por el borde derecho en las pantallas Retina de Mac y actualizó SDL a la 2.28.3; hay descargas para Linux x86-64 y ARM64, macOS y Windows. Las descargas traen el juego completo, que el autor publica con licencia CC BY-NC-SA 4.0 con permiso de Pangea Software."
+  en: "Billy Frontier, the “cowboys in space” game Pangea Software released in 2003 for PowerPC Macs, updated for macOS, Windows, and Linux by Iliyas Jorio with Pangea’s permission. It’s an arcade-style action game with duels, shootouts, and stampedes. In shootouts you turn by slamming the cursor to the screen edges, with the mouse wheel, with horizontal trackpad scrolling, or with the keys. The latest version, 1.1.1 (September 6, 2023), smoothed that turning, added settings for wheel speed and direction, fixed graphical artifacts in smoke and flames, fixed right-edge turning on Retina Macs, and updated SDL to 2.28.3; there are downloads for Linux x86-64 and ARM64, macOS, and Windows. The downloads include the whole game, which the author publishes under the CC BY-NC-SA 4.0 license with permission from Pangea Software."
+requirements:
+  es: "Ninguna copia: el juego se publica completo con permiso de Pangea Software, y cada descarga ya trae sus datos. Además, Windows, macOS o Linux (x86-64; en Linux también ARM64)."
+  en: "No copy needed: the game is published in full with permission from Pangea Software, and each download already includes its data. Plus Windows, macOS, or Linux (x86-64; ARM64 too on Linux)."
+tags: []
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/jorio/BillyFrontier/releases

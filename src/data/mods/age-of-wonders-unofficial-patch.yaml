@@ -1,0 +1,17 @@
+name: "Age of Wonders unofficial patch"
+kind: mod
+console: pc
+game:
+  es: "Age of Wonders 1.36 (PC)"
+  en: "Age of Wonders 1.36 (PC)"
+repo: int19h/aow-patch
+status: usable
+desc:
+  es: "Parche no oficial para Age of Wonders 1.36 que arregla, de forma provisional, el error «Exception during MapViewer.ShowScene» que sale en Windows 8 y posteriores o con Wine en Linux. No arregla ningún otro error. A cambio deja pequeños defectos gráficos en la fila superior de casillas del mapa y en los objetos que la tocan, algo esperado que no debe notificarse como fallo. La v3 (14 de diciembre de 2022) se rehízo con ayuda de narzoul y pas-de-2 para no dejar artefactos molestos en los bordes del mapa; la v2 (2019) lo aplica de forma más genérica y admite versiones no inglesas del juego. Es un programa que se ejecuta y se apunta a Ilpack.dll, en la carpeta de Age of Wonders. No lo hizo ni lo respalda Triumph Studios."
+  en: "An unofficial patch for Age of Wonders 1.36 that tentatively fixes the “Exception during MapViewer.ShowScene” error seen on Windows 8 and later or under Wine on Linux. It fixes no other errors. The trade-off is minor graphical artifacts in the topmost row of map tiles and any objects overlapping it, which is expected and shouldn’t be reported as a bug. v3 (December 14, 2022) was reworked with help from narzoul and pas-de-2 to avoid annoying glitches at the edges of the map; v2 (2019) applies it more generically and supports non-English versions of the game. It is a program you run and point at Ilpack.dll in the Age of Wonders folder. It is not made or supported by Triumph Studios."
+requirements:
+  es: "Tu propia copia de Age of Wonders 1.36 para PC. El parche te pide la ubicación de Ilpack.dll, en la carpeta del juego; intenta encontrarla por el registro, pero puede fallar con las instalaciones de Steam y GOG. Windows 8 o posterior, o Wine en Linux."
+  en: "Your own copy of Age of Wonders 1.36 for PC. The patcher asks for the location of Ilpack.dll in the game folder; it tries to find it through the registry, which may not work for Steam and GOG installs. Windows 8 or later, or Wine on Linux."
+tags:
+  - patch
+  - reverse-engineering

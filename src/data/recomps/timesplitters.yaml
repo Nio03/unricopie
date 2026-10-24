@@ -1,0 +1,23 @@
+name: TimeSplitters
+console: ps2
+status: playable
+repo: GTTeancum/Timesplitters
+originalDeveloper: Free Radical Design
+year: 2000
+toolchain: PS2Recomp
+desc:
+  es: "Recompilación estática de TimeSplitters (PlayStation 2, Free Radical Design, 2000; versión estadounidense, SLUS-200.90) a código nativo para Windows, Linux y la Xbox original. El programa MIPS del juego y el microcódigo de las VU se tradujeron a C++ con PS2Recomp y se ejecutan sobre un runtime que sustituye el hardware de PS2: el Graphics Synthesizer se dibuja en la GPU (OpenGL 3.3 en PC), se modelan el chip de sonido y el IOP, y las tarjetas de memoria son carpetas. Incluye el juego completo (historia, arcade, retos, el creador de mapas, trucos y desbloqueos), de uno a cuatro jugadores en pantalla partida (con hasta cuatro mandos en PC), ventana de cualquier tamaño, pantalla panorámica 16:9, render hasta 4 veces la resolución de PS2, FXAA y sustitución de texturas con PNG. En la primera ejecución desempaqueta tu disco en una carpeta game-data (unos 600 MB). La versión de Xbox corre desde el disco duro de una consola modificada. La 1.0, del 23 de octubre, es la primera publicada. El repositorio incluye el código C++ generado a partir del juego, con análisis y un desensamblado (en project/, unos 65 MB). 79 de sus últimos 88 commits llevan a Claude como coautor."
+  en: "A static recompilation of TimeSplitters (PlayStation 2, Free Radical Design, 2000; the US release, SLUS-200.90) to native code for Windows, Linux, and the original Xbox. The game’s MIPS program and VU microcode were translated to C++ with PS2Recomp and run on a runtime that replaces the PS2 hardware: the Graphics Synthesizer is drawn on the GPU (OpenGL 3.3 on PC), the sound chip and IOP are modeled, and memory cards are folders. It includes the full game (story, arcade, challenges, the map maker, cheats and unlocks), one to four players in split screen (with up to four controllers on PC), any window size, 16:9 widescreen, rendering at up to 4 times the PS2 resolution, FXAA, and texture replacement from PNG files. On first run it unpacks your disc into a game-data folder (about 600 MB). The Xbox version runs from the hard disk of a modded console. Version 1.0, from October 23, is the first release. The repository includes the C++ code generated from the game, with analysis files and a disassembly (in project/, about 65 MB). 79 of its last 88 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de TimeSplitters para PS2 (versión estadounidense, SLUS-200.90) como .bin con su .cue, .bin suelto o .iso; el programa la desempaqueta la primera vez. Además, Windows 10 u 11 de 64 bits con OpenGL 3.3, o Linux x86-64 (el binario publicado se compiló en Ubuntu 26.04 y necesita su FFmpeg 8 y OpenGL; en otras distribuciones hay que compilarlo)."
+  en: "Your own copy of TimeSplitters for PS2 (US release, SLUS-200.90) as a .bin with its .cue, a lone .bin, or an .iso; the program unpacks it on first run. Plus 64-bit Windows 10 or 11 with OpenGL 3.3, or Linux x86-64 (the published binary was built on Ubuntu 26.04 and needs its FFmpeg 8 and OpenGL libraries; on other distributions you build it)."
+tags:
+  - mips
+  - widescreen
+  - multiplayer
+  - ai-assisted
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/GTTeancum/Timesplitters/releases

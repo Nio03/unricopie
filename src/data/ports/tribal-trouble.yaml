@@ -1,0 +1,23 @@
+name: "Tribal Trouble"
+category: source-port
+console: pc
+status: playable
+repo: Tribal-Trouble/tribaltrouble
+forkOf:
+  label: "sunenielsen/tribaltrouble"
+  url: https://github.com/sunenielsen/tribaltrouble
+homepage: https://tribaltrouble.org
+originalDeveloper: "Oddlabs"
+year: 2004
+engine: "Java"
+desc:
+  es: "Tribal Trouble, el juego de estrategia en tiempo real de Oddlabs de 2004, cuyo código fuente publicó el propio estudio en 2014 con licencia GPL-2. Esta bifurcación lo vuelve a poner en línea con servidor y multijugador, facilita compilarlo y contribuir, y apunta a remasterizar los gráficos y añadir funciones. Parte del trabajo de restauración de la bifurcación de bondolo, de la que toma opciones de accesibilidad: ampliación de la interfaz, filtro de alto contraste, corrección para daltonismo, colores de equipo editables, controles reasignables y superposiciones de color de equipo. La 2.2.139 (24 de octubre) añadió partidas nocturnas y sombras dinámicas que siguen al sol. Hay descargas para Windows, macOS y Linux (AppImage), un servidor y una edición en Steam, «Tribal Trouble: Resurrected». Está escrito en Java y se compila con Gradle y Java 26. El repositorio incluye los recursos del juego (unos 157 MB)."
+  en: "Tribal Trouble, Oddlabs’ 2004 real-time strategy game, whose source code the studio itself released in 2014 under the GPL-2. This fork brings it back online with a server and multiplayer, makes it easier to build and contribute to, and aims to remaster the graphics and add features. It builds on the restoration work in bondolo’s fork, from which it carries accessibility options: UI magnification, a high-contrast filter, color-vision-difference correction, editable team colors, keyboard remapping, and team-color overlays. Version 2.2.139 (October 24) added night games and dynamic shadows that follow the sun. There are downloads for Windows, macOS, and Linux (AppImage), a server, and a Steam edition, “Tribal Trouble: Resurrected.” It is written in Java and built with Gradle and Java 26. The repository includes the game’s assets (about 157 MB)."
+requirements:
+  es: "Ninguna copia: Oddlabs publicó el juego con su código fuente en 2014 y el repositorio y las descargas ya traen los datos. Además, Windows, macOS o Linux; para compilar, Java 26 y el Gradle incluido (y MySQL para el servidor)."
+  en: "No copy needed: Oddlabs released the game with its source code in 2014, and the repository and downloads already include the data. Plus Windows, macOS, or Linux; to build, Java 26 and the bundled Gradle (and MySQL for the server)."
+tags:
+  - rts
+  - multiplayer
+  - online
+  - accessibility

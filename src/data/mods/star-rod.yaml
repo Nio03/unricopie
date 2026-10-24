@@ -1,0 +1,25 @@
+name: Star Rod
+kind: editor
+console: n64
+game:
+  es: "Paper Mario (N64, 2000)"
+  en: "Paper Mario (N64, 2000)"
+repo: z64a/star-rod
+status: usable
+desc:
+  es: "Star Rod: conjunto de herramientas para editar los recursos de la decompilación de Paper Mario (2000), escrito en Java para Windows, Linux y macOS. Los archivos publicados traen un entorno de ejecución de Java propio de cada plataforma, así que no hay que instalar Java. Entre sus herramientas hay un editor de mapas, que desde la 0.10.0 (26 de marzo de 2025) importa formatos como fbx y gltf, un editor de sprites y un editor del mapa del mundo, ambos con deshacer y rehacer. La última versión, la 0.10.2 (21 de julio de 2025), arregla que los comandos «Set Raster» del editor de sprites se borraran al duplicarlos y el manejo de texturas de la pila de recursos. La guía para empezar a hacer mods de Paper Mario está en docs.starhaven.dev. Licencia MIT."
+  en: "Star Rod: a suite of tools for editing assets from the Paper Mario (2000) decompilation, written in Java for Windows, Linux, and macOS. The release archives bundle a platform-specific Java runtime, so you don’t need to install Java. Its tools include a map editor, which since 0.10.0 (March 26, 2025) imports formats such as fbx and gltf, a sprite editor, and a world map editor, both with undo and redo. The latest version, 0.10.2 (July 21, 2025), fixes Set Raster commands clearing when duplicated in the sprite editor and asset stack texture handling. The guide to getting started with Paper Mario modding is at docs.starhaven.dev. MIT license."
+requirements:
+  es: "La decompilación de Paper Mario (pmret/papermario), que se construye con tu propia ROM del juego (N64); la guía de instalación está en docs.starhaven.dev. Además, Windows, Linux o macOS; Java viene incluido."
+  en: "The Paper Mario decompilation (pmret/papermario), which builds from your own copy of the game’s ROM (N64); the setup guide is at docs.starhaven.dev. Plus Windows, Linux, or macOS; Java is bundled."
+tags:
+  - java
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/z64a/star-rod/releases/latest
+  - label:
+      es: "Guía de modding de Paper Mario"
+      en: "Paper Mario modding guide"
+    url: https://docs.starhaven.dev/tools/decomp/setup.html

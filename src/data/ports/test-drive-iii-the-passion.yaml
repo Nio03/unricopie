@@ -1,0 +1,22 @@
+name: "Test Drive III: The Passion"
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/testdrive3-enhanced
+originalDeveloper: Accolade
+year: 1990
+desc:
+  es: "Test Drive III Enhanced: port nativo con SDL3 de Test Drive III: The Passion (Accolade, 1990), una reimplementación fiel del TDIII.EXE original para Windows. No es un emulador: el motor carga la imagen del ejecutable y los archivos de datos del juego. Encima añade una vista 3D fluida a la frecuencia de tu pantalla, resolución de hasta 2560 × 1600 con suavizado, mayor distancia de dibujo con niebla gradual, dirección suave, faros con bordes suaves, una marca de meta en la brújula y arreglos de fallos de la policía y de los aterrizajes; el reloj de la carrera cuenta segundos reales. Un lanzador permite elegir coche, circuito, nivel de habilidad y opciones gráficas, y reasignar teclas, y el modo «clásico» deja la imagen original, con sonido AdLib o altavoz. La última versión, la 0.2.0 (30 de septiembre), es un zip para Windows de 64 bits (10,4 MB). Licencia MIT. Los 20 commits del repositorio llevan a Claude como coautor."
+  en: "Test Drive III Enhanced: a native SDL3 port of Test Drive III: The Passion (Accolade, 1990), a faithful reimplementation of the original TDIII.EXE for Windows. It isn’t an emulator: the engine loads the executable’s image and the game’s data files. On top of that it adds a smooth 3D view at your display’s refresh rate, resolution up to 2560 × 1600 with anti-aliasing, a longer draw distance with gradual fog, smooth steering, soft-edged headlight beams, a finish marker on the compass, and fixes for the police and landings; the race clock counts real seconds. A launcher lets you pick car, course, skill level, and graphics options, and remap keys, and the “classic” mode keeps the original picture, with AdLib or speaker sound. The latest version, 0.2.0 (September 30), is a 64-bit Windows zip (10.4 MB). MIT license. All 20 of the repository’s commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Test Drive III: The Passion para DOS: en una carpeta Game junto al programa, TDIII.EXE (o TD3.EXE), PLAYDISK.DAT, DATAA–C.DAT, INSTR.DAT y los archivos de coches (C*) y de escenarios (SCENE*). Además, Windows de 64 bits y una CPU de varios núcleos."
+  en: "Your own copy of Test Drive III: The Passion for DOS: in a folder named Game next to the program, TDIII.EXE (or TD3.EXE), PLAYDISK.DAT, DATAA–C.DAT, INSTR.DAT, and the car (C*) and scene (SCENE*) files. Plus 64-bit Windows and a multi-core CPU."
+tags:
+  - reverse-engineering
+  - 60fps+
+  - ai-assisted
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/kylofon/testdrive3-enhanced/releases

@@ -1,0 +1,21 @@
+name: Sensible World of Soccer 96/97
+category: decomp-port
+console: dos
+status: experimental
+repo: zlatkok/swos-port
+originalDeveloper: Sensible Software
+year: 1996
+desc:
+  es: "swos-port: port no oficial en C++ y SDL de la versión de DOS para PC de Sensible World of Soccer 96/97. Combina código C++ reescrito poco a poco, idiomático, con una traducción generada, sobre una máquina virtual, de las rutinas originales, para conservar el comportamiento mientras se convierte y se prueba cada sistema; algunas rutinas siguen generándose mecánicamente de swos/swos.asm. Se contrasta con grabaciones fotograma a fotograma del SWOS de DOS. Windows es la plataforma principal (Visual Studio 2022 y Meson) y existe también un proyecto de Android. El README dice que es un proyecto en desarrollo y no un sustituto acabado: buena parte del juego se puede jugar. La demo de desarrollo del 6 de septiembre (22 MB, Windows x64) trae gráficos, audio, comentarios y datos de relleno para probar el port, no el juego. Para jugar de verdad se indica con --swos-dir el directorio de una copia instalada de SWOS. El repositorio incluye el desensamblado de la versión de DOS (swos/swos.asm, unos 6 MB)."
+  en: "swos-port: an unofficial C++/SDL port of the PC DOS version of Sensible World of Soccer 96/97. It combines gradually rewritten, idiomatic C++ code with a generated, virtual-machine-backed translation of the original routines, to preserve behavior while each system is converted and tested; some routines are still mechanically generated from swos/swos.asm. It is checked against frame-by-frame recordings from DOS SWOS. Windows is the primary platform (Visual Studio 2022 and Meson), and an Android project also exists. The README says it is a development project rather than a finished replacement: much of the game is playable. The September 6 development demo (22 MB, Windows x64) ships placeholder graphics, audio, commentary, and data to test the port, not the game. To really play, --swos-dir points it at an installed copy of SWOS. The repository includes the disassembly of the DOS version (swos/swos.asm, about 6 MB)."
+requirements:
+  es: "Tu propia copia instalada de Sensible World of Soccer 96/97 para DOS, cuyo directorio se indica con --swos-dir=<ruta>; la demo de desarrollo funciona con datos de relleno. Además, Windows (x64) y, para compilar, Visual Studio 2022 o Meson, y Python 3.8 o posterior."
+  en: "Your own installed copy of Sensible World of Soccer 96/97 for DOS, whose directory you pass with --swos-dir=<path>; the development demo works with placeholder data. Plus Windows (x64) and, to build, Visual Studio 2022 or Meson, and Python 3.8 or later."
+tags:
+  - x86
+  - reverse-engineering
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/zlatkok/swos-port/releases

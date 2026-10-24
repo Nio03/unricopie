@@ -1,0 +1,20 @@
+name: "Tekken Tag Tournament 2 (Ultimate Edition)"
+console: wiiu
+status: playable
+repo: Petexy/Tekken-Tag-2-Ultimate-Edition
+author: "Petexy"
+originalDeveloper: "Bandai Namco Games"
+year: 2012
+toolchain: cafe-recomp
+desc:
+  es: "Port nativo no oficial de la edición de Wii U para Linux, hecho por recompilación estática: el código PowerPC del juego se traduce a C++ de antemano y corre como código x86-64 nativo sobre una reimplementación de las bibliotecas del sistema de la Wii U; no hay emulación de CPU, y las órdenes y sombreadores de la GPU se traducen a Vulkan en tiempo de ejecución. Se juega la intro, los menús, la selección de personaje, el modo arcade (pasado a mano de principio a fin) y los combates versus, con sonido y partidas guardadas. Ofrece 120 fps en pantallas de 100 Hz o más (se dibuja un cuadro intermedio entre cada dos; la lógica y las cajas de golpe siguen a 60 Hz), resoluciones de hasta 4x los 720p originales, ritmo de cuadros uniforme con VK_KHR_present_wait2 y los iconos del mando que uses. Un launcher (Ultimate Launcher, en AppImage) compila el juego en tu equipo a partir de tu copia y puede añadir luchadores de Tekken 7 sacados de tu propia copia de Steam. La 0.1.1 (23 de octubre) arregló la instalación en procesadores sin AVX-512, como la Steam Deck. 46 de sus 49 commits llevan a Claude como coautor."
+  en: "An unofficial native Linux port of the Wii U edition, made by static recompilation: the game’s PowerPC code is translated to C++ ahead of time and runs as native x86-64 code on a reimplementation of the Wii U’s system libraries; there is no CPU emulation, and the game’s GPU commands and shaders are translated to Vulkan at runtime. The intro, menus, character select, arcade mode (played through by hand), and versus matches work, with sound and saves. It offers 120 fps on displays of 100 Hz or more (an extra frame is drawn between each two; logic and hitboxes stay at 60 Hz), resolutions up to 4x the original 720p, even frame pacing with VK_KHR_present_wait2, and button icons that follow the controller in use. A launcher (Ultimate Launcher, as an AppImage) builds the game on your PC from your copy and can add Tekken 7 fighters taken from your own Steam copy of that game. Version 0.1.1 (October 23) fixed installing on processors without AVX-512, such as the Steam Deck. 46 of its 49 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Tekken Tag Tournament 2 Wii U Edition, europea (WUP-P-AKNP) con la actualización v16, como archivo .wua (Cemu lo crea desde un título instalado) o como carpeta con code, content y meta; el Tekken.rpx debe tener el SHA-256 fc0270465d384386f67804e48716e30bfbe85a5a1004e3a6bfe3ac75f9de5019. Opcionalmente, tu copia de Tekken 7 en Steam para los luchadores extra. Además, Linux x86-64 con AVX2 y FMA, y una GPU con Vulkan 1.3 y VK_EXT_external_memory_host."
+  en: "Your own copy of Tekken Tag Tournament 2 Wii U Edition, European (WUP-P-AKNP) with update v16, as a .wua archive (Cemu can create one from an installed title) or a folder with code, content, and meta; Tekken.rpx must have SHA-256 fc0270465d384386f67804e48716e30bfbe85a5a1004e3a6bfe3ac75f9de5019. Optionally, your Steam copy of Tekken 7 for the extra fighters. Plus x86-64 Linux with AVX2 and FMA, and a GPU with Vulkan 1.3 and VK_EXT_external_memory_host."
+tags:
+  - powerpc
+  - fighting
+  - vulkan
+  - 60fps+
+  - ai-assisted

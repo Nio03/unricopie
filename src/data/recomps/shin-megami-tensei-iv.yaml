@@ -1,0 +1,18 @@
+name: "Shin Megami Tensei IV"
+console: 3ds
+status: playable
+repo: Invictus-potens/smt4-recomp
+originalDeveloper: "Atlus"
+year: 2013
+toolchain: 3dsrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense de la 3DS para Windows de 64 bits: 3dsrecomp traduce de antemano el código ARM del juego a C, que se compila en un programa propio, y Zakuro hace de entorno de ejecución para el resto (núcleo, servicios, GPU y sonido). El código del juego corre de forma nativa, sin el intérprete ni el JIT de un emulador. Encima añade pantalla ancha 16:9 y 21:9 (una escena 3D más ancha, no una imagen estirada), multiplicadores x2, x3 y x5 de Macca, EXP del héroe y de los demonios y puntos de aplicación, reclutamiento fácil, 60 y 30 fps y trucos de la comunidad, todo desde el menú de trucos del juego; de Zakuro hereda Vulkan u OpenGL, distribuciones de pantalla, filtros, estados de guardado y mandos. Un launcher en Rust busca la ROM, instala con winget las herramientas que falten, descarga y actualiza el proyecto, compila el juego con una barra de progreso y lo lanza. El proyecto se declara en beta: se jugó más de 10 horas desde una partida nueva sin ningún cierre, pero el resto del juego aún no se ha probado. La 0.1.5 (23 de octubre) añadió las actualizaciones desde el launcher. Linux debería funcionar, pero no se ha probado."
+  en: "A static recompilation of the US 3DS version for 64-bit Windows: 3dsrecomp translates the game’s ARM code to C ahead of time, which is compiled into a program of its own, and Zakuro serves as the runtime for everything else (kernel, services, GPU, and sound). The game’s code runs natively, without an emulator’s interpreter or JIT. On top of that it adds 16:9 and 21:9 widescreen (a wider 3D scene, not a stretched picture), x2, x3, and x5 multipliers for Macca, hero and demon EXP, and App Points, easy recruiting, 60 and 30 fps, and community cheats, all from the game’s cheat menu; from Zakuro it inherits Vulkan or OpenGL, screen layouts, filters, save states, and controller support. A launcher written in Rust finds the ROM, installs missing tools with winget, downloads and updates the project, builds the game with a progress bar, and starts it. The project calls itself a beta: it was played for more than 10 hours from a new game with no crash, but the rest of the game hasn’t been played yet. Version 0.1.5 (October 23) added updates from the launcher. Linux should work too, but hasn’t been tried."
+requirements:
+  es: "Tu propio volcado descifrado de Shin Megami Tensei IV (EE. UU.), ID de título 00040000000E5C00, como .3ds o .cci. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan (o con OpenGL 3.3), unos 10 GB libres y 8 GB de RAM para la compilación, que tarda 20 minutos o más. Las herramientas (Rust con la cadena GNU, MinGW-w64 y git) las instala el launcher con winget."
+  en: "Your own decrypted dump of Shin Megami Tensei IV (USA), title ID 00040000000E5C00, as .3ds or .cci. Plus 64-bit Windows 10 or 11, a graphics card with Vulkan (or OpenGL 3.3), about 10 GB of free space, and 8 GB of RAM for the build, which takes 20 minutes or more. The tools (Rust with the GNU toolchain, MinGW-w64, and git) are installed by the launcher through winget."
+tags:
+  - arm
+  - rpg
+  - widescreen
+  - 60fps+

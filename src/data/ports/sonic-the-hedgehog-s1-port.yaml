@@ -1,0 +1,17 @@
+name: "Sonic the Hedgehog (s1-port)"
+category: decomp-port
+console: megadrive
+status: playable
+repo: foreverWIP/s1-port
+originalDeveloper: "Sonic Team"
+year: 1991
+desc:
+  es: "Port en C de Sonic the Hedgehog para Mega Drive (revisión 1), todavía en desarrollo. Se ha portado el código central (gestión de gráficos, colisiones de objeto con nivel y de objeto con objeto, código de cada nivel), todos los objetos, incluido el objeto de Sonic, y el controlador de sonido, con código del de CKDEV (usado con su permiso). Un programa generó C «casi correcto» a partir del código de la ROM, con un mapa de símbolos de un desensamblado, y luego se corrigió a mano. Lo ejecuta Speedshoes, un marco mínimo de emulación de Mega Drive que escribió el autor y que intercepta las llamadas a subrutinas del 68000 y compara el estado de la parte en C con el de la ROM. Falta la gestión de la interrupción horizontal, de modo que se corrompe el dibujado de tiles al interrumpir las demostraciones y con la superficie del agua en Labyrinth Zone. La versión de prueba del 23 de junio de 2025 es una alfa pública para Windows x64 con modo ancho experimental, jugable de principio a fin. El repositorio incluye el código C generado a partir de la ROM y corregido a mano (unos 2 MB) y un listado de ensamblador de unos 7,5 MB (sonic.lst)."
+  en: "A C port of Sonic the Hedgehog for the Mega Drive (revision 1), still a work in progress. The core code (graphics management, object-to-level and object-to-object collision, level-specific code), all game objects, including Sonic’s, and the sound driver, with code from CKDEV’s (used with permission), have been ported. A program generated “nearly-correct” C from the ROM’s code, using a symbol map from a disassembly, and it was then fixed by hand. It runs on Speedshoes, a minimal Mega Drive emulation framework the author wrote, which intercepts the 68000’s subroutine calls and compares the C side’s state with the ROM’s. Horizontal-blank handling is missing, so tile drawing is corrupted when demos are interrupted and when Labyrinth Zone’s water surface is onscreen. The June 23, 2025 test release is a public alpha for Windows x64 with an experimental widescreen mode, playable from start to finish. The repository includes the C code generated from the ROM and fixed by hand (about 2 MB) and an assembly listing of about 7.5 MB (sonic.lst)."
+requirements:
+  es: "Una ROM de tu propia copia de Sonic the Hedgehog (Mega Drive), revisión 1 (REV01), llamada sonic1.bin y colocada junto al ejecutable, de donde se leen los datos. Además, Windows de 64 bits."
+  en: "A ROM from your own copy of Sonic the Hedgehog (Mega Drive), revision 1 (REV01), named sonic1.bin and placed next to the executable, from which the data is read. Plus 64-bit Windows."
+tags:
+  - m68k
+  - platformer
+  - widescreen

@@ -1,0 +1,19 @@
+name: In Pursuit of Greed
+category: source-port
+console: dos
+status: playable
+repo: jval1972/xGreed
+year: 1996
+desc:
+  es: "xGreed: port del código fuente de In Pursuit of Greed, el juego de acción en primera persona para DOS, escrito en Delphi para Windows (binarios de 32 bits). Dibuja por software al doble de la resolución del original (640×400), con la de 320×200 como opción, y suma mirada con ratón, movimiento con WASD, un lanzador, DirectDraw para volcar la imagen, BASS.DLL para el audio y capturas en PNG. La última versión, la 1.1.12.55 (19 de marzo de 2022; publicada en GitHub el 24 de abril), evita el desplazamiento lateral cuando se piden los dos sentidos a la vez, hace que el gestor de memoria dé por hecha la ejecución con varios hilos para no corromper la memoria y sube de 700 a 4096 el límite de sprites del motor. Los binarios y el código fuente están también en SourceForge. El repositorio no incluye datos del juego."
+  en: "xGreed: a source port of In Pursuit of Greed, the first-person action game for DOS, written in Delphi for Windows (32-bit binaries). It renders in software at double the original resolution (640×400), with 320×200 as an option, and adds mouse look, WASD movement, a launcher, DirectDraw for blitting the image, BASS.DLL for audio, and PNG screenshots. The latest version, 1.1.12.55 (March 19, 2022; published on GitHub on April 24), stops strafing when both directions are pressed at once, makes the memory manager assume multithreaded execution to avoid memory corruption, and raises the engine’s sprite limit from 700 to 4096. The binaries and source are also on SourceForge. The repository includes no game data."
+requirements:
+  es: "Tu propia copia de In Pursuit of Greed: de lo que genera el instalador de DOS, el archivo GREED.BLO y todos los .mod y .s3m, en la carpeta de xGreed.exe (o localizando GREED.BLO desde el lanzador). Opcionalmente, la carpeta MOVIES del CD original, con los .fli de las animaciones. Además, Windows."
+  en: "Your own copy of In Pursuit of Greed: from what the DOS installer produces, the GREED.BLO file and all the .mod and .s3m files, in the folder with xGreed.exe (or locate GREED.BLO from the launcher). Optionally, the MOVIES folder from the original CD, with the animation .fli files. Plus Windows."
+tags:
+  - software-rendering
+links:
+  - label:
+      es: "Descargas en GitHub"
+      en: "Downloads on GitHub"
+    url: https://github.com/jval1972/xGreed/releases

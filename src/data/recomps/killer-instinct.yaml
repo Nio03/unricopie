@@ -1,0 +1,22 @@
+name: Killer Instinct
+console: arcade
+status: playable
+repo: thefixinhixon/UltraCombo
+originalDeveloper: Rare
+year: 1994
+desc:
+  es: "UltraCombo: ports nativos para PC de las recreativas Killer Instinct (1994) y Killer Instinct 2 (1996), para Windows y Linux. Es un solo programa que ejecuta el propio código de las recreativas, traducido a C para tu PC (se prepara en el primer arranque), con la placa de alrededor emulada: la placa de sonido DCS de Midway y el disco duro IDE. Encima añade lo que pide una versión doméstica: shaders y aspectos de CRT, mandos y controles reasignables, estados de guardado, rebobinado, run-ahead, modo de entrenamiento y juego en red con rollback. Admite Killer Instinct L1.5D (por defecto) y L1.4 y Killer Instinct 2 L1.4. La 1.1.0 (23 de octubre, prelanzamiento) traduce también el programa de la placa de sonido en lugar de emularlo instrucción a instrucción, con un sonido idéntico y un juego un 25 % más rápido (el primer arranque tras actualizar tarda un minuto más), arregla el cambio de pantalla completa y adapta las etiquetas de los botones al mando. Licencia MIT. 44 de sus 48 commits llevan a Claude como coautor."
+  en: "UltraCombo: native PC ports of the Killer Instinct (1994) and Killer Instinct 2 (1996) arcade games, for Windows and Linux. It is one program that runs the arcade games’ own code, translated to C for your PC (prepared on first launch), with the board around it emulated: Midway’s DCS sound board and the IDE hard disk. On top it adds what a home version needs: shaders and CRT looks, rebindable controllers and controls, save states, rewind, run-ahead, a training mode, and rollback netplay. It supports Killer Instinct L1.5D (default) and L1.4 and Killer Instinct 2 L1.4. Version 1.1.0 (October 23, prerelease) also translates the sound board’s program instead of emulating it instruction by instruction, with identical sound and a game about 25% faster (the first launch after updating takes about a minute longer), fixes fullscreen switching, and matches button labels to your controller. MIT license. 44 of its 48 commits list Claude as a co-author."
+requirements:
+  es: "Los archivos de tus propias copias de las recreativas, tal como los lista MAME, en la carpeta run/: para Killer Instinct (kinst), la ROM de arranque ki-l15d.u98 (o ki-l14.u98), las ROM de sonido u10-l1 a u13-l1 y u33-l1 a u36-l1 y el disco kinst.chd; para Killer Instinct 2 (kinst2), ki2-l14.u98, las ROM de sonido ki2_l1.u10 a u13 y u33 a u36 y kinst2.chd. El programa avisa si algún archivo no coincide. Además, Windows o Linux."
+  en: "The files from your own copies of the arcade games, as MAME lists them, in the run/ folder: for Killer Instinct (kinst), the boot ROM ki-l15d.u98 (or ki-l14.u98), the sound ROMs u10-l1 to u13-l1 and u33-l1 to u36-l1, and the kinst.chd disk; for Killer Instinct 2 (kinst2), ki2-l14.u98, the sound ROMs ki2_l1.u10 to u13 and u33 to u36, and kinst2.chd. The program warns if a file doesn’t match. Plus Windows or Linux."
+tags:
+  - mips
+  - online
+  - multiplayer
+  - ai-assisted
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/thefixinhixon/UltraCombo/releases

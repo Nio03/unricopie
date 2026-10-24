@@ -1,0 +1,22 @@
+name: Championship Manager 01/02
+console: pc
+status: playable
+repo: maxevans60/cm0102-bosman-edition
+homepage: https://maxevans60.github.io/cm0102-bosman-edition/
+originalDeveloper: Sports Interactive
+year: 2001
+desc:
+  es: "CM 01/02: Bosman Edition: la versión 3.9.68 del juego de 2002, traducida instrucción a instrucción de x86 a C y compilada para macOS 11 o posterior (Apple silicon e Intel), Windows 10 y 11 de 64 bits y Linux de 64 bits (un AppImage que también corre en Steam Deck, en modo escritorio). Sin emulador, sin Wine y sin CD. Las descargas traen los archivos de la edición gratuita que Eidos publicó en 2008, con el último parche oficial, así que no hace falta tu copia. Añade pantalla panorámica de 1280 × 800 redimensionable (y una distribución HD de 1920 × 1080), cualquier temporada de 2001/02 a 2025/26 con su base de datos, ligas, copas y reglas, un menú de Asistente que elige el mejor equipo, el más en forma o uno sub-21, nombres de jugadores y clubes en los que se puede hacer clic, atributos en colores, vacaciones hasta el próximo partido, copias de seguridad de las partidas y atajos de teclado. Cada mejora es una línea de settings.txt y se puede desactivar; en el juego base, ninguna cambia un resultado. Las descargas publicadas son prelanzamientos: la 0.5.0 (16 de octubre) para Windows, Mac y Linux y la 0.5.1 (18 de octubre), solo para Mac; el README ya anuncia la 0.6.0 (elegir temporada), y está previsto el juego en línea con amigos en la 0.7.0. Código bajo GPL-3.0 desde la 0.6.0. 91 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "CM 01/02: Bosman Edition: version 3.9.68 of the 2002 game, translated instruction by instruction from x86 to C and compiled for macOS 11 or later (Apple silicon and Intel), 64-bit Windows 10 and 11, and 64-bit Linux (an AppImage that also runs on the Steam Deck in desktop mode). No emulator, no Wine, and no CD. The downloads hold the files of the free edition that Eidos published in 2008, with the last official patch, so you don’t need your own copy. It adds a resizable 1280 × 800 widescreen window (and a 1920 × 1080 HD layout), any season from 2001/02 to 2025/26 with its own database, leagues, cups, and rules, an Assistant menu that picks the best team, the fittest team, or an under-21 team, clickable player and club names, colored attributes, holiday until the next match, save backups, and keyboard shortcuts. Each feature is a line in settings.txt and can be turned off; in the base game, none changes a match result. The published downloads are prereleases: 0.5.0 (October 16) for Windows, Mac, and Linux and 0.5.1 (October 18), Mac only; the README already announces 0.6.0 (Choose Season), and online play with friends is planned for 0.7.0. Code under GPL-3.0 from 0.6.0. 91 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Ninguna copia: las descargas ya traen los archivos del juego de la edición gratuita que Eidos publicó en 2008, con el último parche oficial (3.9.68). Además, macOS 11 o posterior, Windows 10 u 11 de 64 bits o Linux de 64 bits."
+  en: "No copy needed: the downloads already include the game files from the free edition Eidos published in 2008, with the last official patch (3.9.68). Plus macOS 11 or later, 64-bit Windows 10 or 11, or 64-bit Linux."
+tags:
+  - x86
+  - widescreen
+  - ai-assisted
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/maxevans60/cm0102-bosman-edition/releases

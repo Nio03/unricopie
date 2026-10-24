@@ -1,0 +1,20 @@
+name: Sonic Adventure 2
+console: pc
+status: experimental
+repo: kittycache9/OpenSA2
+originalDeveloper: Sonic Team
+year: 2012
+desc:
+  es: "OpenSA2: port nativo experimental de la versión de PC de 2012 de Sonic Adventure 2, hecho por recompilación estática: el código máquina x86 del juego se traduce a código nativo al compilar, y un runtime nuevo aporta los gráficos, el audio, la entrada y los servicios del sistema. Quiere conservar la lógica original. Según el proyecto, las compilaciones de Linux y Windows ya llegan a jugarse y las de Android han corrido en móviles reales con controles táctiles. La última, la 0.1.0-alpha.6 (22 de octubre), es un prelanzamiento con Windows (.zip), Linux (.deb) y Android (.apk): trae la lógica recompilada y el runtime, y el instalador toma de tu copia el ejecutable y los datos. Aún no cubre todos los niveles. Ofrece 67 ajustes opcionales, todos desactivados de serie, entre ellos saltarse la intro, vidas infinitas, mayor campo de visión, texturas más nítidas, un cronómetro para LiveSplit y arreglos de fallos; las repeticiones nunca los usan. El repositorio no incluye ejecutable, datos ni código traducido del juego, y por sí solo no compila un juego jugable."
+  en: "OpenSA2: an experimental native port of the 2012 PC release of Sonic Adventure 2, made by static recompilation: the game’s x86 machine code is translated to native code at build time, and a new runtime supplies graphics, audio, input, and operating-system services. It aims to preserve the original logic. According to the project, the Linux and Windows builds have reached live gameplay and the Android builds have run on real devices with touch controls. The latest, 0.1.0-alpha.6 (October 22), is a prerelease with Windows (.zip), Linux (.deb), and Android (.apk) packages: it carries the recompiled logic and the runtime, and the installer takes the executable and data from your copy. Stage coverage is still incomplete. It offers 67 optional tweaks, all off by default, including skipping the intro, infinite lives, a wider field of view, sharper textures, a LiveSplit timer feed, and bug fixes; replays never use them. The repository includes no game executable, assets, or translated game code, and the source cannot build a playable game on its own."
+requirements:
+  es: "Tu propia copia sin modificar de Sonic Adventure 2 para PC, la versión que vende e instala hoy Steam (el instalador del port toma de ella el ejecutable y los datos). Además, Windows o Linux (x86-64), o Android (arm64)."
+  en: "Your own unmodified copy of Sonic Adventure 2 for PC, the version Steam sells and installs today (the port’s installer takes the executable and data from it). Plus Windows or Linux (x86-64), or Android (arm64)."
+tags:
+  - x86
+  - sdl3
+links:
+  - label:
+      es: "Descargas"
+      en: "Downloads"
+    url: https://github.com/kittycache9/OpenSA2/releases

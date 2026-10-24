@@ -1,0 +1,9 @@
+name: "Super Mario RPG"
+console: snes
+repo: Yoshifanatic1/Super-Mario-RPG-Disassembly
+desc:
+  es: "Desensamblado de Super Mario RPG para SNES, en ensamblador (.asm) para asar, con el marco de ROM de SNES del autor y sus herramientas de apoyo (asar, compresión y conversión de BRR, entre otras, como ejecutables de terceros). El repositorio no tiene README ni notas en su única versión, la V1.0 del 10 de enero de 2021, y no incluye gráficos ni audio del juego: solo código fuente en ensamblador, definiciones y herramientas. La última actividad es de mayo de 2021."
+  en: "A disassembly of Super Mario RPG for the SNES, in assembly (.asm) for asar, with the author’s SNES ROM framework and its support tools (asar, BRR conversion, and compression tools, among others, as third-party executables). The repository has no README and no notes on its single release, V1.0 from January 10, 2021, and it includes no graphics or audio from the game: only assembly source, definitions, and tools. Its last activity was in May 2021."
+tags:
+  - "65816"
+  - reverse-engineering

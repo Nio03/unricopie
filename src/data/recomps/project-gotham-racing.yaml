@@ -1,0 +1,19 @@
+name: "Project Gotham Racing"
+console: xbox
+status: playable
+repo: hk21x/pgr1-recomp
+originalDeveloper: "Bizarre Creations"
+year: 2001
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial de la versión de la Xbox original para Windows, con opciones gráficas ampliadas y otras mejoras. El código x86 del juego se recompila estáticamente con Xbox XBE Recomp a un ejecutable de Windows, y las bibliotecas de gráficos, sonido y sistema de la consola se reimplementan (Direct3D 12 u 11, XAudio2 y SDL); no es un emulador. Funciona con la edición europea (PAL, versión 5, ID de título 4D530003); las demás no se han comprobado. La 1.0 (23 de octubre) incluye vídeos, menús, Kudos Challenge, Quick Race, Arcade Race, Time Attack, partidas, sonido y radio, a 60 cuadros por segundo, con pantalla ancha y ultrapanorámica (la vista 3D se ensancha; menús y HUD siguen en 4:3), escala de render del 25 % al 200 %, teclado, mandos de Xbox, PlayStation y Switch, y volantes. El único archivo publicado es PGR1Launcher.exe, que construye el juego en tu equipo a partir de tu disco: el código del juego nunca se descarga, solo las herramientas y el código del proyecto. Sus 32 commits llevan a Claude como coautor."
+  en: "An unofficial native port of the original Xbox version for Windows, with extended graphics options and other enhancements. The game’s x86 code is statically recompiled with Xbox XBE Recomp into a Windows executable, and the console’s graphics, sound, and system libraries are reimplemented (Direct3D 12 or 11, XAudio2, and SDL); it is not an emulator. It works with the European (PAL, version 5, title ID 4D530003) release; the others haven’t been checked. Version 1.0 (October 23) includes movies, menus, the Kudos Challenge, Quick Race, Arcade Race, Time Attack, saves, sound, and the radio, at 60 frames per second, with widescreen and ultrawide (the 3D view widens; menus and HUD stay 4:3), render scale from 25% to 200%, keyboard, Xbox, PlayStation, and Switch controllers, and racing wheels. The only published file is PGR1Launcher.exe, which builds the game on your PC from your disc: the game’s code is never downloaded, only the tools and the project’s source. All 32 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Project Gotham Racing para Xbox, europea (PAL), como imagen .iso o como carpeta con los archivos del disco (default.xbe con SHA-1 4878c3bdbd44663b64ce64986b313e8c6b7f8917). Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 u 11, unos 15 GB libres y conexión a internet para descargar unos 1,4 GB de herramientas de compilación."
+  en: "Your own copy of Project Gotham Racing for Xbox, European (PAL), as an .iso image or a folder with the disc’s files (default.xbe with SHA-1 4878c3bdbd44663b64ce64986b313e8c6b7f8917). Plus 64-bit Windows 10 or 11, a graphics card with Direct3D 12 or 11, about 15 GB free, and an internet connection to download about 1.4 GB of build tools."
+tags:
+  - x86
+  - racing
+  - widescreen
+  - 60fps+
+  - ai-assisted

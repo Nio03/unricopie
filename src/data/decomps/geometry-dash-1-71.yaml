@@ -1,0 +1,9 @@
+name: "Geometry Dash (1.71)"
+console: mobile
+repo: aloaf812/GD
+desc:
+  es: "Decompilación en curso de la versión 1.710 de Geometry Dash, elegida porque usa cocos2d-x 2.2.3, no tiene pendientes y emplea SimpleAudioEngine en lugar de FMOD. Admite iOS, Android, Mac, Windows y Linux, y se compila junto a una bifurcación de cocos2d-x. El README avisa de que parte de la funcionalidad central está implementada, pero no lo bastante para que sea utilizable. La 0.2.0-beta (29 de agosto de 2025) llegó a los menús y todavía no hay jugabilidad. El repositorio no incluye recursos del juego."
+  en: "A work-in-progress decompilation of Geometry Dash version 1.710, chosen because it uses cocos2d-x 2.2.3, has no slopes, and uses SimpleAudioEngine instead of FMOD. It supports iOS, Android, Mac, Windows, and Linux, and builds alongside a cocos2d-x fork. The README warns that some of the core functionality is implemented, but not enough for it to be usable. Version 0.2.0-beta (August 29, 2025) reached the menus and there is no gameplay yet. The repository includes no game assets."
+tags:
+  - arm
+  - reverse-engineering

@@ -1,0 +1,21 @@
+name: "WWE 2K14 (WWE2K14-PC)"
+console: x360
+status: playable
+repo: itsbybanshee/wwe2k14-pc
+author: "Banshee"
+originalDeveloper: "Yuke’s"
+year: 2013
+toolchain: ReXGlue
+desc:
+  es: "Recompilación para PC de WWE 2K14 (Xbox 360) con un launcher que añade opciones gráficas modernas, mods, logos propios, tu propia música y más. Ofrece resoluciones de 720p a 4K, AMD FSR, antialiasing FXAA 3.11 de NVIDIA, entradas y escenas de victoria a 60 fps, juego con teclado en una disposición al estilo de los WWE 2K actuales, mapeado de botones con exportación e importación de esquemas, ratón en los menús, cinco idiomas (inglés, francés, alemán, italiano y español), logros con avisos, DLC y mods (luchadores, escenarios, menús, vídeos y sonidos, cada uno con su interruptor), instalación en un clic de conversiones totales como «Wrestling Legends», música propia (MP3, WAV, FLAC, OGG) y logos propios, con importación desde un guardado de PS3. Funciona directamente desde la .iso o desde una carpeta extraída. La 1.1.0 salió el 18 de octubre y la 1.0.0 el 16. Sin funciones en línea; problema conocido: Bobby Heenan se ve completamente blanco. Usa el SDK ReXGlue, con parches propios."
+  en: "A PC recompilation of WWE 2K14 (Xbox 360) with a launcher that adds modern graphics options, mods, custom logos, your own music, and more. It offers resolutions from 720p to 4K, AMD FSR, NVIDIA FXAA 3.11 anti-aliasing, entrances and victory scenes at 60 fps, keyboard play with a layout in the style of current WWE 2K games, a button mapper with export and import of control schemes, mouse support in menus, five languages (English, French, German, Italian, and Spanish), achievements with notifications, DLC and mods (wrestlers, arenas, menus, videos, and sounds, each with its own switch), one-click installs of total conversions such as “Wrestling Legends,” custom music (MP3, WAV, FLAC, OGG), and custom logos, including import from a PS3 save. It runs straight from the .iso or from an extracted folder. Version 1.1.0 came out on October 18 and 1.0.0 on the 16th. Online features are not available; known issue: Bobby Heenan renders completely white. It uses the ReXGlue SDK, with its own patches."
+requirements:
+  es: "Tu propia copia de WWE 2K14 para Xbox 360, como imagen de disco (.iso) o como carpeta extraída del juego (una ISO de PS3 no sirve). Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan y un controlador al día, mando o teclado, y el runtime de Microsoft Edge WebView2."
+  en: "Your own copy of WWE 2K14 for Xbox 360, as a disc image (.iso) or an extracted game folder (a PS3 ISO doesn’t work). Plus 64-bit Windows 10 or 11, a Vulkan graphics card with an up-to-date driver, a controller or keyboard, and the Microsoft Edge WebView2 Runtime."
+tags:
+  - powerpc
+  - sports
+  - vulkan
+  - 60fps+
+  - mods
+  - widescreen

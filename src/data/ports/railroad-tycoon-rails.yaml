@@ -1,0 +1,18 @@
+name: "Railroad Tycoon (Rails)"
+category: fan-remake
+console: dos
+status: experimental
+repo: bluddy/rails
+originalDeveloper: "MicroProse"
+year: 1990
+engine: "OCaml"
+desc:
+  es: "Rails: remake en OCaml de Railroad Tycoon (1990), con SDL2. Se construyen ferrocarriles, se gestionan trenes, se compite con rivales de IA y se hace crecer el imperio por regiones históricas; docs/FEATURES.md lista lo que está implementado. Admite el zoom de pantalla sobre los 320x200 originales, sombreadores GLSL (CRT, VGA a 1080p y otros), ajuste de relación de aspecto de píxeles rectangulares, guardados y opciones de depuración. La 0.1.4 (11 de octubre) trae paquetes para Windows, Linux (AppImage y tar.gz) y macOS (arm64). El repositorio incluye archivos .ogg de música y efectos de sonido y algunos gráficos extra (el README no dice de dónde salen)."
+  en: "Rails: an OCaml remake of Railroad Tycoon (1990), built on SDL2. You build railroads, manage trains, compete with AI rivals, and grow your empire across historical regions; docs/FEATURES.md lists what is implemented. It supports display zoom over the original 320x200, GLSL shaders (CRT, VGA at 1080p, and others), a pixel aspect ratio adjustment for rectangular pixels, saves, and debug options. Version 0.1.4 (October 11) provides packages for Windows, Linux (AppImage and tar.gz), and macOS (arm64). The repository includes .ogg music and sound-effect files and some extra graphics (the README doesn’t say where they come from)."
+requirements:
+  es: "Los archivos de datos de tu propia copia de Railroad Tycoon para DOS (*.PIC, *.PAN y *.DTA), en la carpeta data junto al ejecutable o con --data-dir. Además, Windows (x86-64), Linux (x86-64) o macOS."
+  en: "The data files from your own copy of Railroad Tycoon for DOS (*.PIC, *.PAN, and *.DTA), in the data folder next to the executable or via --data-dir. Plus Windows (x86-64), Linux (x86-64), or macOS."
+tags:
+  - strategy
+  - simulation
+  - shaders

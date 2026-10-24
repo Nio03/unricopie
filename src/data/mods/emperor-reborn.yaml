@@ -1,0 +1,21 @@
+name: "Emperor Reborn"
+kind: mod
+console: pc
+game:
+  es: "Emperor: Battle for Dune (PC, 2001)"
+  en: "Emperor: Battle for Dune (PC, 2001)"
+repo: azmawee/EmperorReborn
+forkOf:
+  label: "wheybags/EmperorLauncher"
+  url: https://github.com/wheybags/EmperorLauncher
+status: usable
+desc:
+  es: "Emperor Reborn: launcher y parche de código abierto para jugar a Emperor: Battle for Dune en Windows actuales, tomado del parche de wheybags (EmperorLauncher), que instala y arranca el juego sin la comprobación del disco original. Añade 16:9 de verdad (ensancha la vista del campo de batalla en lugar de estirarla, y la barra lateral, el cursor, el desplazamiento por los bordes y los menús encajan), con la disposición del HUD basada en el parche de pantalla ancha de Moro, escalado a pantalla completa, modos de «ampliación 4K, 2K y 1K» que dejan la interfaz grande y legible en pantallas 4K, un menú de resoluciones, cinemáticas que se quedan en 4:3 con barras negras y multijugador con nombre de host o DDNS. No necesita el runtime de Visual C++ y construye su propia copia limpia del juego a partir de tus discos, sin tocar una instalación previa. La v2.5 salió el 17 de junio. Con una resolución 4:3 funciona como el original."
+  en: "Emperor Reborn: an open-source launcher and patch for playing Emperor: Battle for Dune on current Windows, taken from wheybags’ patch (EmperorLauncher), which installs and starts the game without the original disc check. It adds true 16:9 (it widens the battlefield view instead of stretching it, and the sidebar, cursor, edge scrolling, and menus line up), with the HUD layout built on Moro’s widescreen patch, fullscreen scaling, “Upscale 4K, 2K, and 1K” modes that keep the interface big and readable on 4K screens, a resolution menu, cutscenes that stay at 4:3 with black bars, and multiplayer by hostname or DDNS. It needs no Visual C++ runtime and builds its own clean copy of the game from your discs, without touching an existing install. v2.5 came out on June 17. Left at a 4:3 resolution it runs like the original."
+requirements:
+  es: "Tus propios discos de Emperor: Battle for Dune (versión en inglés: el disco 1 de instalación y los de Atreides, Harkonnen y Ordos) y el parche oficial v1.09 de EA (EM109EN.EXE), que no se incluye. EmperorReborn.exe, EmperorHooks.dll y EM109EN.EXE van en la misma carpeta. Además, Windows 11 (probado) o Windows 10."
+  en: "Your own Emperor: Battle for Dune discs (English version: install disc 1 and the Atreides, Harkonnen, and Ordos discs) and EA’s official v1.09 patch (EM109EN.EXE), which isn’t included. EmperorReborn.exe, EmperorHooks.dll, and EM109EN.EXE go in the same folder. Plus Windows 11 (tested) or Windows 10."
+tags:
+  - widescreen
+  - multiplayer
+  - rts

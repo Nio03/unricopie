@@ -1,0 +1,15 @@
+name: "Sheep, Dog 'n' Wolf (Rewooled)"
+category: decomp-port
+console: pc
+status: playable
+repo: SDW-Community/Sheep-Dog-n-Wolf-Rewooled
+desc:
+  es: "Rewooled: implementación abierta y multiplataforma de la versión de PC de Sheep, Dog 'n' Wolf, hecha a partir de una decompilación. Sustituye las API solo de Windows por SDL3, ofrece renderizadores Vulkan, DX12 y Metal, mandos modernos y texturas reescaladas (PNG de cualquier tamaño). Hay compilaciones para Windows (x64), macOS (arm64) y Linux (x86-64), con un launcher en el que eliges la carpeta del juego original. Los archivos de PSX también se admiten, pero no están bien probados y tienen fallos. La 1.1.3 (19 de octubre) añadió paquetes de idioma, que se exportan desde tu copia del juego o se dejan en la carpeta Languages, con menús para cambiar el idioma del texto y el de las voces. El README dice que la decompilación la hicieron Claude y Codex coordinados por un servidor MCP de buzón, leyendo el código máquina, poniendo nombres y escribiendo el código, y que las pruebas y el conocimiento técnico vinieron de la comunidad Sheep Raider. 4 de sus últimos 100 commits llevan a Claude como coautor. La licencia del README figura como «por determinar»."
+  en: "Rewooled: an open-source, multiplatform implementation of the PC version of Sheep, Dog ’n’ Wolf, made from a decompilation. It replaces the Windows-only APIs with SDL3, offers Vulkan, DX12, and Metal renderers, modern controller support, and rescaled textures (PNGs of any size). There are builds for Windows (x64), macOS (arm64), and Linux (x86-64), with a launcher where you pick your original game folder. PSX files are also supported, but they aren’t fully tested and have quirks. Version 1.1.3 (October 19) added language packs, which you export from your copy of the game or drop into the Languages folder, with menus to switch the text language and the voice language. The README says the decompilation was done with Claude and Codex coordinating through an MCP mailbox server, reading the machine code, naming, and writing the source, and that in-game testing and technical knowledge came from the Sheep Raider community. 4 of its last 100 commits list Claude as a co-author. The README lists the license as “TBD”."
+requirements:
+  es: "Los archivos de tu propia copia del juego original (el proyecto no incluye ningún recurso; sus datos se leen en tiempo de ejecución). Además, Windows (x64), macOS (Apple Silicon) o Linux (x86-64); en macOS hay que quitar la cuarentena de Rewooled.app porque las compilaciones no están firmadas."
+  en: "The files from your own copy of the original game (the project includes no assets; its data is read at run time). Plus Windows (x64), macOS (Apple Silicon), or Linux (x86-64); on macOS you need to remove the quarantine flag from Rewooled.app because the builds aren’t signed."
+tags:
+  - vulkan
+  - reverse-engineering
+  - ai-assisted

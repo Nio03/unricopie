@@ -1,0 +1,12 @@
+name: "Heroes of Might and Magic III (decompilation)"
+console: pc
+repo: sushi-shi/homm3-decomp
+desc:
+  es: "homm3-decomp: reconstrucción en C++ de Heroes of Might and Magic III Complete (HEROES3.EXE, New World Computing, 2000) hecha con la cadena de herramientas original, Visual C++ 6.0 SP3, bajo Wine, hasta que el resultado coincida con los bytes del ejecutable de venta. Las versiones de Dreamcast y de Mac clásico sirven de referencia para la estructura del código. En su última medición, el HEROES3.EXE de Windows coincide en un 98,93 % (4.543 de 4.785 funciones exactas), el editor de mapas h3maped.exe de GOG Complete en un 95,96 % y la referencia de Mac, Heroes_III_raw.pef, en un 64,14 %. El README la marca como trabajo en curso y pide que aportes tus propios ejecutables. Una versión publicada contiene la cadena de herramientas de VC6 SP3 (23 MB), que el comando homm3 init descarga sola. Licencia CC0-1.0. 20 de sus últimos 100 commits llevan a Claude como coautor. El repositorio incluye tablas de reubicaciones y de datos extraídas del ejecutable (en config/, unos 18 MB)."
+  en: "homm3-decomp: a C++ reconstruction of Heroes of Might and Magic III Complete (HEROES3.EXE, New World Computing, 2000) built with the original toolchain, Visual C++ 6.0 SP3, under Wine, until the result matches the retail executable’s bytes. The Dreamcast and Classic Mac versions serve as references for the code’s structure. In its latest measurement, the Windows HEROES3.EXE matches at 98.93% (4,543 of 4,785 functions exact), the GOG Complete map editor h3maped.exe at 95.96%, and the Mac reference, Heroes_III_raw.pef, at 64.14%. The README marks it as work in progress and asks you to supply your own executables. One release holds the VC6 SP3 toolchain (23 MB), which the homm3 init command downloads on its own. CC0-1.0 license. 20 of its last 100 commits list Claude as a co-author. The repository includes relocation and data tables extracted from the executable (in config/, about 18 MB)."
+tags:
+  - x86
+  - msvc
+  - reverse-engineering
+  - ai-assisted
+links: []
