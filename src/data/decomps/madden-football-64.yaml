@@ -1,0 +1,10 @@
+name: Madden Football 64
+console: n64
+repo: TheGh0stShip/Madden-64
+decomp: TheGh0stShip/Madden-64
+desc:
+  es: "Decompilación exacta de la versión estadounidense de Madden Football 64 para Nintendo 64 (N8ME, revisión 0), del mismo autor que las de BattleTanx: Global Assault. Está en su fase inicial: comprueba tu ROM, emula el cargador del juego para desempaquetar el programa comprimido, cataloga los límites de funciones y datos y verifica byte a byte cada unidad de código reconstruida. El código suele salir del compilador KMC GCC, y las bibliotecas, de IDO. El avance que mide ByteMatch se ve en esta ficha. No incluye la ROM ni ningún recurso extraído del juego."
+  en: "Matching decompilation of the US release of Madden Football 64 for the Nintendo 64 (N8ME, revision 0), by the same author as the BattleTanx: Global Assault decompilations. It’s in its early stage: it checks your ROM, emulates the game’s loader to unpack the compressed program, catalogues function and data boundaries, and verifies each rebuilt code unit byte for byte. The code mostly comes from the KMC GCC compiler, and the libraries from IDO. The progress measured by ByteMatch is shown on this page. It includes neither the ROM nor any extracted game asset."
+tags:
+  - mips
+  - matching
