@@ -1,0 +1,26 @@
+name: Mario Strikers Charged
+category: decomp-port
+console: wii
+status: fully
+repo: previouslevelgames/recharged
+author: Yannick Suter
+originalDeveloper: Next Level Games
+year: 2007
+desc:
+  es: "Recharged: port nativo para Windows, Linux, Steam Deck y macOS (Apple Silicon e Intel) construido sobre mscharged-decomp, la decompilación del mismo autor, cuyo código, con el compilador original de Wii, da el mismo código máquina que el juego comercial. No es un emulador ni una recompilación del binario de PowerPC: ese código se compila para PC con varios cientos de parches revisados que solo lo adaptan a un compilador actual y a 64 bits, y Recharged pone lo que ponía la Wii: los gráficos van por Aurora y Dawn sobre Vulkan, DirectX 12 o Metal, el audio del DSP se procesa de forma nativa y el disco se lee directamente de la imagen. Están todos los modos sin conexión, con hasta cuatro jugadores en cualquier mezcla de teclado y ratón, mandos (con el giroscopio como puntero) y Wii Remote reales por Bluetooth o con una DolphinBar. Dibuja el 3D a la resolución de la ventana, en 16:9 o 4:3 y con una vista más amplia opcional para pantallas más anchas, con MSAA, FXAA o SSAA, y va a 60, 120 o 144 fps, a la frecuencia de tu monitor o sin límite sin cambiar la velocidad del juego; carga paquetes de texturas HD de Dolphin. Corrige cuatro fallos del original y trae ajustes opcionales, apagados por defecto salvo uno que reparte con justicia los balones sueltos: saltar la intro, menús rápidos, sin Mega Strikes, todo desbloqueado, CPU contra CPU, partidos espejo y porteros robot, entre otros. Un launcher comprueba tu imagen, reúne los ajustes y actualiza el programa. El juego en línea todavía no está en las versiones publicadas: una versión de prueba de la 1.1.0 (22 de octubre) activa el código en línea original. La última versión es la 1.0.14 (21 de octubre)."
+  en: "Recharged: a native port for Windows, Linux, Steam Deck, and macOS (Apple silicon and Intel) built on mscharged-decomp, the same author’s decompilation, whose code produces the same machine code as the retail game when built with the original Wii compiler. It’s neither an emulator nor a recompilation of the PowerPC binary: that code is compiled for PC with several hundred reviewed patches that only adapt it to a modern compiler and to 64-bit, and Recharged supplies what the Wii used to: graphics go through Aurora and Dawn on Vulkan, DirectX 12, or Metal, the DSP audio is processed natively, and the disc is read straight from the image. Every offline mode is there, with up to four players in any mix of keyboard and mouse, gamepads (with gyro as the pointer), and real Wii Remotes over Bluetooth or a DolphinBar. It renders 3D at the window’s resolution, in 16:9 or 4:3 with an optional wider view for wider screens, with MSAA, FXAA, or SSAA, and runs at 60, 120, or 144 fps, your monitor’s refresh rate, or uncapped without changing game speed; it loads Dolphin HD texture packs. It fixes four bugs of the original and has optional tweaks, all off by default except one that settles loose-ball contests fairly: skip the intro, fast menus, no Mega Strikes, unlock everything, CPU vs. CPU, mirror matches, and robot goalies, among others. A launcher checks your image, keeps every setting in one place, and updates the program. Online play isn’t in the published releases yet: a 1.1.0 test build (October 22) enables the game’s original online code. The latest release is 1.0.14 (October 21)."
+requirements:
+  es: "Tu propia copia de Mario Strikers Charged para Wii como imagen .iso, .rvz o .wbfs: la versión estadounidense (R4QE01, revisión 1) o la europea, Mario Strikers Charged Football (R4QP01, revisión 1 o 2); la japonesa y la coreana todavía no funcionan. El equipo opcional Super Team pide además tu imagen de Super Mario Strikers para GameCube. Además, Windows 10 u 11 de 64 bits, Linux x86-64 (el paquete normal se hace en Ubuntu 26.04; para distribuciones más antiguas sirve el de Steam Deck), SteamOS 3.7 o posterior, o macOS con Apple Silicon o con Intel (macOS 15 o posterior), y una tarjeta gráfica con Vulkan, DirectX 12 o Metal."
+  en: "Your own copy of Mario Strikers Charged for Wii as an .iso, .rvz, or .wbfs image: the US release (R4QE01, revision 1) or the European one, Mario Strikers Charged Football (R4QP01, revision 1 or 2); the Japanese and Korean releases don’t work yet. The optional Super Team also needs your Super Mario Strikers image for GameCube. Plus 64-bit Windows 10 or 11, x86-64 Linux (the regular package is built on Ubuntu 26.04; the Steam Deck one works on older distributions), SteamOS 3.7 or later, or macOS on Apple silicon or Intel (macOS 15 or later), and a graphics card with Vulkan, DirectX 12, or Metal."
+tags:
+  - powerpc
+  - mario
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - vulkan
+links:
+  - label:
+      es: "Decompilación (mscharged-decomp)"
+      en: "Decompilation (mscharged-decomp)"
+    url: https://github.com/yannicksuter/mscharged-decomp

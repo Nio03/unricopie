@@ -1,0 +1,15 @@
+name: "Rise of the Triad (Taradino)"
+category: source-port
+console: dos
+status: playable
+repo: fabiangreffrath/taradino
+originalDeveloper: "Apogee Software"
+year: 1994
+desc:
+  es: "Taradino: port con SDL2 de Rise of the Triad, el juego de acción en 3D que Apogee publicó en 1994, a sistemas actuales (Linux, Windows y macOS). Reproduce el funcionamiento del juego original y arregla lo necesario para sistemas de 64 bits y big-endian. Lo mantiene Fabian Greffrath, y su primera versión con el nombre de taradino es del 15 de agosto de 2025, con soporte para los mapas de RottEX, un framerate más constante y muchos arreglos de dibujo. La última, la 20251222 (22 de diciembre de 2025), busca los archivos del juego también en las rutas de instalación de GOG Galaxy; la 20251216 había añadido la búsqueda de todos los paquetes de niveles oficiales para elegirlos en el menú de Nueva partida, sensibilidades de ratón separadas para girar, avanzar y mirar, borrar asignaciones de teclas con Supr, búsqueda de soundfonts en las carpetas habituales y, al compilar, música opcional por síntesis OPL/AdLib con libADLMIDI. Se compila con CMake, en versión registrada o shareware. Entre sus problemas conocidos, las demos se desincronizan y no hay juego en red. Las descargas publicadas son zips para Windows de 64 bits (unos 3 MB); en Linux y macOS se compila. El último cambio del código es del 20 de marzo de 2026."
+  en: "Taradino: an SDL2 port of Rise of the Triad, the 3D action game Apogee released in 1994, to current systems (Linux, Windows, and macOS). It duplicates the original game’s functionality and fixes what 64-bit and big-endian systems need. It’s maintained by Fabian Greffrath, and its first release under the taradino name is from August 15, 2025, with support for RottEX map files, a more consistent framerate, and many rendering fixes. The latest, 20251222 (December 22, 2025), also looks for the game files in GOG Galaxy install paths; 20251216 had added a search for all official level packs to pick in the New Game menu, separate mouse sensitivities for turning, moving, and looking, deleting key bindings with Del, soundfont lookup in common directories, and, at build time, optional music through OPL/AdLib synthesis with libADLMIDI. It builds with CMake, as a registered or a shareware version. Among its known issues, demos go out of sync and there is no netplay. The published downloads are 64-bit Windows zips (about 3 MB); on Linux and macOS you build it. The last code change is from March 20, 2026."
+requirements:
+  es: "Los archivos de tu propia copia de Rise of the Triad (versión registrada, como la de GOG, o la shareware, que exige compilar la variante shareware); el README no detalla los nombres de los archivos. Además, Windows de 64 bits, o Linux o macOS compilándolo, con SDL2 y SDL2_mixer."
+  en: "The files from your own copy of Rise of the Triad (the registered version, such as GOG’s, or the shareware one, which requires building the shareware variant); the README doesn’t list the file names. Plus 64-bit Windows, or Linux or macOS if you build it, with SDL2 and SDL2_mixer."
+tags:
+  - fps

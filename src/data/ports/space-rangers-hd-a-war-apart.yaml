@@ -1,0 +1,26 @@
+name: "Space Rangers HD: A War Apart"
+category: decomp-port
+console: pc
+status: experimental
+repo: pakompom/SpaceRangersHD_FPC
+originalDeveloper: SNK Games / Elemental Games / Katauri Interactive
+year: 2013
+desc:
+  es: "SpaceRangersHD_FPC: port experimental a Free Pascal de Space Rangers HD: A War Apart (Космические рейнджеры HD: Революция), hecho a partir del código Delphi que recupera SpaceRangersHD_decomp, la decompilación del mismo autor, con la que se compila un Rangers.exe idéntico byte a byte al original. Sigue la versión preliminar del juego del 6 de octubre (2.1.2500) e intenta conservar su comportamiento: mantiene la aritmética de Delphi en Win32, la precisión de 24 bits del x87 y el valor final de los bucles, y cambia el ensamblador x86 por Pascal. Se compila con un fork de Free Pascal y usa SDL2 y OKGF, una reimplementación en C de la okgf.dll del juego que hace de renderizador por software; además reimplementa en Pascal las DLL de Utility Functions Pack y AutoSearch, dos complementos de la comunidad. Funciona en Linux x86-64, macOS ARM64 y Windows de 32 y 64 bits, y también en Android, iOS, el navegador (WebAssembly) y Switch homebrew. Falta el motor de las batallas de robots: las batallas planetarias cuentan como ganadas, con su recompensa normal, y en Android parte de la interfaz todavía no se adapta bien a pantallas táctiles. Cada cambio en la rama principal publica una versión compilada; la última, del 15 de octubre, trae Windows y Linux x86-64 y Android. Una rama personal del autor añade optimizaciones y funciones extra. Su README dice que se desarrolla con modelos de lenguaje como GPT-6 Astra a través de Codex, y la decompilación declara que la hizo casi entera GPT-6 Astra en Codex, con algo de guía humana."
+  en: "SpaceRangersHD_FPC: an experimental Free Pascal port of Space Rangers HD: A War Apart (Космические рейнджеры HD: Революция), built from the Delphi source recovered by SpaceRangersHD_decomp, the same author’s decompilation, which builds a Rangers.exe byte-for-byte identical to the original. It follows the game’s October 6 prerelease build (2.1.2500) and tries to keep its behavior: it preserves Delphi Win32 arithmetic, 24-bit x87 precision, and final loop counter values, and replaces x86 assembly with Pascal. It’s built with a Free Pascal fork and uses SDL2 and OKGF, a C reimplementation of the game’s okgf.dll that acts as a software renderer; it also reimplements in Pascal the DLLs of Utility Functions Pack and AutoSearch, two community add-ons. It runs on x86-64 Linux, ARM64 macOS, and 32- and 64-bit Windows, as well as Android, iOS, the browser (WebAssembly), and Switch homebrew. The robot battle engine is missing: planetary battles count as won, with their normal rewards, and on Android parts of the interface don’t fit touchscreens well yet. Every change to the main branch publishes a compiled build; the latest, from October 15, has Windows and Linux x86-64 and Android. A personal branch by the author adds optimizations and extra features. Its README says it’s developed with LLMs such as GPT-6 Astra through Codex, and the decompilation states it was carried out almost entirely by GPT-6 Astra in Codex, with some human steering."
+requirements:
+  es: "Los archivos de tu propia copia de Space Rangers HD: A War Apart. Además, para las versiones publicadas, Windows o Linux de 64 bits (o Android 8.0 en ARM64); para compilarlo, Python 3.10, FPC 3.2.2, GNU Make, CMake 3.20 y Clang 14 o posteriores, y en Linux y macOS, SDL2 2.26, libogg, libvorbis, libjpeg y libpng. Los vídeos AVI necesitan Xvid."
+  en: "The files from your own copy of Space Rangers HD: A War Apart. Plus, for the published builds, 64-bit Windows or Linux (or Android 8.0 on ARM64); to build it, Python 3.10, FPC 3.2.2, GNU Make, CMake 3.20, and Clang 14 or later, and on Linux and macOS, SDL2 2.26, libogg, libvorbis, libjpeg, and libpng. AVI videos need Xvid."
+tags:
+  - x86
+  - mods
+  - ai-assisted
+links:
+  - label:
+      es: "Decompilación (SpaceRangersHD_decomp)"
+      en: "Decompilation (SpaceRangersHD_decomp)"
+    url: https://github.com/pakompom/SpaceRangersHD_decomp
+  - label:
+      es: "Rama personal con mejoras"
+      en: "Personal branch with enhancements"
+    url: https://github.com/pakompom/SpaceRangersHD_FPC/tree/personal

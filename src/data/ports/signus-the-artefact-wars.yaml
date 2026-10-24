@@ -1,0 +1,19 @@
+name: "Signus: The Artefact Wars"
+category: source-port
+console: pc
+status: fully
+repo: signus-game/signus
+author: Martin Doucha
+originalDeveloper: Valacirca
+year: 1998
+desc:
+  es: "Estrategia por turnos checa al estilo de Battle Isle, de Valacirca, que Zima Software publicó en 1998; sus autores originales liberaron el código en 2002 con licencia GPL, y el juego es libre desde entonces, datos incluidos. Este repositorio mantiene esa versión: usa SDL2 y funciona en Linux y en Windows, con pantalla completa escalada a la resolución del escritorio. Tiene 40 unidades (exploración, tanques, artillería, helicópteros, aviones, barcos y unidades de apoyo que reparan, repostan y rearman), nueve edificios y cinco torres defensivas. La 1.96.0 (28 de mayo de 2021) se publicó como versión libre completa, con todos los datos y un paquete aparte con el juego en checo; la última, la 1.96.1 (23 de diciembre de 2023), es un parche sobre ella que corrige dos fallos de la IA, añade el control con teclado en el menú principal y cambia los ajustes por defecto para los equipos actuales. También se distribuye en Flathub."
+  en: "A Czech turn-based strategy game in the style of Battle Isle, by Valacirca, published by Zima Software in 1998; its original authors released the source code under the GPL in 2002, and the game has been free since, data included. This repository maintains that release: it uses SDL2 and runs on Linux and Windows, with fullscreen scaled to the desktop resolution. It has 40 units (scouts, tanks, artillery, helicopters, planes, ships, and support units that repair, refuel, and rearm), nine buildings, and five defense towers. Version 1.96.0 (May 28, 2021) came out as a complete free release, with all the data and a separate package with the game in Czech; the latest, 1.96.1 (December 23, 2023), is a patch over it that fixes two AI bugs, adds keyboard control in the main menu, and changes the default settings for modern computers. It’s also distributed on Flathub."
+requirements:
+  es: "No hace falta ninguna copia: sus autores liberaron el juego con licencia GPL 2.0, código y datos, y las versiones publicadas los incluyen. Hay versiones para Windows de 32 y 64 bits y un paquete RPM para Linux; para compilarlo, SDL2, SDL2_mixer (con libmikmod para la música), SDL2_ttf, SDL2_image, libvorbis, libjpeg y libpng."
+  en: "No copy needed: its authors released the game, code and data, under the GPL 2.0, and the published releases include them. There are 32- and 64-bit Windows builds and an RPM package for Linux; building it takes SDL2, SDL2_mixer (with libmikmod for music), SDL2_ttf, SDL2_image, libvorbis, libjpeg, and libpng."
+tags:
+  - x86
+links:
+  - label: "Flathub"
+    url: https://flathub.org/apps/io.github.signus_game.signus

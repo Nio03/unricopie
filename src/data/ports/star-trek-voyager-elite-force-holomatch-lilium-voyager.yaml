@@ -1,0 +1,19 @@
+name: "Star Trek Voyager: Elite Force Holomatch (Lilium Voyager)"
+category: source-port
+console: pc
+status: playable
+repo: clover-moe/lilium-voyager
+homepage: https://clover.moe/lilium-voyager
+author: "Zack Middleton (zturtleman)"
+originalDeveloper: "Raven Software"
+year: 2000
+desc:
+  es: "Lilium Voyager: motor compatible con Star Trek Voyager: Elite Force Holomatch, la parte multijugador de Elite Force. Quiere mantener la jugabilidad, las imágenes y el sonido del original, dar una base de código fiable para proyectos derivados y seguir funcionando en Windows XP o posterior, macOS 10.5 o posterior y GNU/Linux. Parte de ioEF, de Thilo Schulz, que reimplementó el motor de Holomatch sobre el código GPL de Quake 3 de id Software que sigue desarrollando ioquake3; desde 2025 se basa en Lilium Arena en lugar de en ioquake3. Por defecto muestra el juego en 4:3 con barras, con el texto de la consola al tamaño relativo de 640×480; su pantalla flexible ofrece seis modos de presentación panorámica compatibles con mods basados en el SDK de Quake 3 y con servidores puros. Además, usa el codec Opus para la voz por IP, admite el renderizador OpenGL2 de ioquake3, lista los servidores dedicados en el servidor maestro oficial de Raven y es compatible en red con ioEF 1.37. La última versión es la 1.40 (2 de noviembre de 2019), con compilaciones para Linux, macOS y Windows, y el repositorio sigue activo (último cambio, el 20 de mayo de 2026). El código del juego, de cgame y de la interfaz de Holomatch no está en el repositorio, porque sigue bajo una licencia no libre. Su guía de contribución dice que no quiere contribuciones hechas con LLM."
+  en: "Lilium Voyager: an engine compatible with Star Trek Voyager: Elite Force Holomatch, the multiplayer part of Elite Force. It aims to keep the original’s gameplay, visuals, and audio, provide a reliable code base for derivative projects, and keep supporting Windows XP or later, macOS 10.5 or later, and GNU/Linux. It builds on ioEF by Thilo Schulz, which reimplemented the Holomatch engine on id Software’s GPL Quake 3 source code as further developed in ioquake3; since 2025 it’s based on Lilium Arena instead of ioquake3. By default it shows the game as 4:3 letterbox with console text at the relative size of 640×480; its Flexible Display offers six widescreen presentation modes compatible with mods based on the Quake 3 SDK and with pure servers. It also uses the Opus codec for VoIP, supports ioquake3’s OpenGL2 renderer, lists dedicated servers on Raven’s official master server, and is network compatible with ioEF 1.37. The latest release is 1.40 (November 2, 2019), with builds for Linux, macOS, and Windows, and the repository is still active (last change on May 20, 2026). The code of the Holomatch game, cgame, and UI isn’t in the repository because it remains under a non-free license. Its contribution guide says LLM contributions are not desired."
+requirements:
+  es: "Los archivos de datos de Star Trek Voyager: Elite Force Holomatch, que no tienen licencia libre y hay que comprar. Además, Windows XP o posterior, macOS 10.5 o posterior o Linux (con SDL 2 para compilar)."
+  en: "The data files of Star Trek Voyager: Elite Force Holomatch, which aren’t under a free license and must be purchased. Plus Windows XP or later, macOS 10.5 or later, or Linux (with SDL 2 to build)."
+tags:
+  - fps
+  - multiplayer
+  - widescreen

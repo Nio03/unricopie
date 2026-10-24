@@ -1,0 +1,15 @@
+name: "Tomb Raider: Chronicles (TOMB5, PC)"
+category: decomp-port
+console: pc
+status: playable
+repo: Trxyebeep/TOMB5
+originalDeveloper: Core Design
+year: 2000
+desc:
+  es: "TOMB5: decompilación de la versión de PC de Tomb Raider: Chronicles, de Troye (programador principal y líder del proyecto) con ChocolateFan, thatguyfrombb y Raildex. Se inspira en TR2Main, de Arsunt, y en la decompilación TOMB5 de Gh0stblade y zdimension (que apunta a PlayStation). Su objetivo declarado es conservar el código fuente original de la versión de PC; los nombres de variables, archivos, métodos y estructuras salen de los símbolos de depuración de PlayStation (.SYM y .MAP) y los de funciones propias de PC, del ejecutable de Mac. Las descargas son dos: el ejecutable más una DLL, o solo la DLL. La última versión es la 3.2.0 (5 de febrero de 2023) y el último commit del repositorio, de septiembre de 2023. El autor cuenta que empezó para ver si podía hacerlo y acabó siendo un proyecto completo que lleva en su tiempo libre."
+  en: "TOMB5: a decompilation of the PC version of Tomb Raider: Chronicles, by Troye (main programmer and project leader) with ChocolateFan, thatguyfrombb, and Raildex. It’s inspired by Arsunt’s TR2Main and by the TOMB5 decompilation by Gh0stblade and zdimension (which targets PlayStation). Its stated goal is to preserve the original source code of the PC version; variable, file, method, and structure names come from the PlayStation debug symbols (.SYM and .MAP), and PC-specific function names from the Mac executable. There are two downloads: the executable plus a DLL, or the DLL alone. The latest release is 3.2.0 (February 5, 2023) and the repository’s last commit is from September 2023. The author says it started as a test of whether it could be done and grew into a full project worked on in their free time."
+requirements:
+  es: "Tu propia copia de Tomb Raider: Chronicles para PC; el proyecto remite a su guía de uso (USING.md) para instalarlo sobre ella. Además, Windows."
+  en: "Your own copy of Tomb Raider: Chronicles for PC; the project points to its usage guide (USING.md) for installing it over the game. Plus Windows."
+tags:
+  - x86

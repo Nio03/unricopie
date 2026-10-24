@@ -1,0 +1,17 @@
+name: EEex
+kind: mod
+console: pc
+game:
+  es: "Baldur's Gate: Enhanced Edition, Baldur's Gate II: Enhanced Edition e Icewind Dale: Enhanced Edition (PC), de Beamdog"
+  en: "Baldur’s Gate: Enhanced Edition, Baldur’s Gate II: Enhanced Edition, and Icewind Dale: Enhanced Edition (PC), by Beamdog"
+repo: Bubb13/EEex
+status: stable
+desc:
+  es: "EEex: extensor del ejecutable de las Enhanced Edition del Infinity Engine de Beamdog. Su objetivo es sacar del ejecutable ciertas partes del motor para dar a quien hace mods más control sobre mecánicas que estaban fijadas en el código. El núcleo de EEex no cambia el juego por sí mismo, solo permite que otros mods lo hagan; el instalador ofrece además componentes con cambios de juego, como un módulo que muestra la probabilidad de acierto al pasar el cursor de ataque sobre un objetivo. Un cargador (InfinityLoader.exe o EEex.exe) modifica el ejecutable del juego una vez colocado en memoria, y el juego hay que arrancarlo con él: con el ejecutable normal se cierra. Se distribuye como instalador de Gibberlings3 (WeiDU), también como .iemod y ZIP. La última versión es la 1.3.1 (7 de octubre de 2026), para el motor v2.7 (desde la v1.1.0), y la v2.6 la admiten las versiones desde la 0.9.0-alpha. Funciona de forma nativa en Windows y parcialmente en Linux (Proton o Wine) y macOS (CrossOver). El repositorio incluye DLL ya compiladas del cargador y de EEex, y los archivos PDB de depuración (unos 88 MB)."
+  en: "EEex: an executable extender for Beamdog’s Enhanced Edition of the Infinity Engine. Its goal is to externalize certain parts of the engine to give modders more control over mechanics that were hardcoded. EEex’s core doesn’t change the game itself, it only lets other mods do so; the installer also offers components that make gameplay changes, such as a module that shows hit chances when hovering the attack cursor over a target. A loader (InfinityLoader.exe or EEex.exe) modifies the game’s executable after it’s placed in memory, and the game has to be started through it: the vanilla executable crashes. It’s distributed as a Gibberlings3 (WeiDU) installer, and also as an .iemod and a ZIP. The latest release is 1.3.1 (October 7, 2026), for engine v2.7 (from v1.1.0), and v2.6 is supported by versions from 0.9.0-alpha. It runs natively on Windows and partially on Linux (Proton or Wine) and macOS (CrossOver). The repository includes prebuilt DLLs of the loader and EEex, and the debug PDB files (about 88 MB)."
+requirements:
+  es: "Tu propia copia de Baldur's Gate: Enhanced Edition, Baldur's Gate II: Enhanced Edition o Icewind Dale: Enhanced Edition (motor v2.7 para las versiones actuales). Hace falta el Microsoft Visual C++ Redistributable; si el BG:EE de Steam trae Siege of Dragonspear en un ZIP, hay que fusionarlo antes con DLC Merger. Además, Windows (nativo), o Linux o macOS con Proton, Wine o CrossOver."
+  en: "Your own copy of Baldur’s Gate: Enhanced Edition, Baldur’s Gate II: Enhanced Edition, or Icewind Dale: Enhanced Edition (engine v2.7 for current versions). It needs the Microsoft Visual C++ Redistributable; if Steam’s BG:EE ships Siege of Dragonspear as a ZIP, it must be merged first with DLC Merger. Plus Windows (native), or Linux or macOS with Proton, Wine, or CrossOver."
+tags:
+  - mods
+  - reverse-engineering

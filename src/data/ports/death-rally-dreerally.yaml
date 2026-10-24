@@ -1,0 +1,17 @@
+name: "Death Rally (DreeRally)"
+category: fan-remake
+console: pc
+status: experimental
+repo: enriquesomolinos/DreeRally
+homepage: http://www.dreerally.com
+originalDeveloper: "Remedy Entertainment"
+year: 1996
+desc:
+  es: "DreeRally: reimplementación del motor de Death Rally (Remedy Entertainment, 1996) que recrea la versión de Windows y sustituye a DeathRally.exe. Sus planes son multijugador, mods y un port a Linux, y por ahora ofrece dibujo con OpenGL (-gl) y suavizado (-smooth), traducciones por idioma (-lang), modo ventana, sonido y efectos desactivables, y un sistema de mods sencillo: una carpeta mods/<nombre> con un config.txt y una carpeta files con archivos del juego modificados, que se activa con -mod. Todavía no tiene multijugador. Sus dos versiones, la 0.1.0 (22 de abril de 2019) y la 0.2.0 (20 de diciembre de 2019), son prelanzamientos, y el último cambio del código es de septiembre de 2021. Se compila con Visual Studio 2010 a 2017, con MinGW o, en Linux, con make. Death Rally es gratuito, porque Remedy lo distribuye como freeware, y el README remite a la versión completa para Windows; el proyecto no incluye ningún recurso del juego. Existe otro proyecto sobre el mismo juego, dRally, que parte del ensamblador del ejecutable de DOS."
+  en: "DreeRally: a reimplementation of the Death Rally engine (Remedy Entertainment, 1996) that recreates the Windows version and replaces DeathRally.exe. Its plans are multiplayer, mods, and a Linux port, and for now it offers OpenGL rendering (-gl) and smoothing (-smooth), per-language translations (-lang), windowed mode, sound and effects that can be turned off, and a simple mod system: a mods/<name> folder with a config.txt and a files folder with modified game files, enabled with -mod. It has no multiplayer yet. Its two versions, 0.1.0 (April 22, 2019) and 0.2.0 (December 20, 2019), are pre-releases, and the last code change is from September 2021. It builds with Visual Studio 2010 to 2017, with MinGW, or on Linux with make. Death Rally is free, since Remedy distributes it as freeware, and the README points to the full Windows version; the project includes no game assets. Another project covers the same game, dRally, which starts from the DOS executable’s assembly."
+requirements:
+  es: "Los archivos del Death Rally para Windows, que es gratuito (versión completa, que el README enlaza desde ModDB): ENDANI.haf, ENGINE.BPA, fmod.dll, IBFILES.BPA, MENU.BPA, msvcr71.dll, MUSICS.BPA, SANIM.haf, SDL.dll y TRX.BPA, en la carpeta donde se pone el ejecutable de DreeRally en lugar de DeathRally.exe. Además, Windows; en Linux se compila."
+  en: "The files of the Windows version of Death Rally, which is free (the full version, which the README links from ModDB): ENDANI.haf, ENGINE.BPA, fmod.dll, IBFILES.BPA, MENU.BPA, msvcr71.dll, MUSICS.BPA, SANIM.haf, SDL.dll, and TRX.BPA, in the folder where the DreeRally executable goes in place of DeathRally.exe. Plus Windows; on Linux you build it."
+tags:
+  - racing
+  - mods

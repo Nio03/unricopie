@@ -1,0 +1,18 @@
+name: OpenE2140
+category: fan-remake
+console: pc
+status: playable
+repo: OpenE2140/OpenE2140
+homepage: https://opene2140.net
+originalDeveloper: Reality Pump
+year: 1997
+engine: OpenRA
+desc:
+  es: "OpenE2140: remake de Earth 2140 sobre el motor de OpenRA, a partir del ModSDK de OpenRA. Sigue en desarrollo e incluye partidas de escaramuza y multijugador, con una IA básica de escaramuza, construcción de bases, minería, investigación de tecnologías y mapas propios. La versión más reciente es la del 20 de septiembre de 2026, con sonido y aviso de texto cuando atacan al Bantha o al Heavy Lifter, sonidos nuevos para el cañón del DETECTOR y el lanzamisiles del ORCA, ajustes de la IA y de la caja inicial del lobby, y arreglos de fallos; hay versiones anteriores en agosto. Las descargas, de entre 58 y 108 MB, son un instalador y una versión portátil para Windows x64, un AppImage de Linux y un dmg de macOS. El proyecto muestra su avance en vídeos de vista previa y en su canal de PeerTube, y se publica con licencia GPL-3.0. Sus archivos del juego los toma de una instalación de Earth 2140: la descarga no trae los datos originales."
+  en: "OpenE2140: a remake of Earth 2140 on the OpenRA engine, based on the OpenRA ModSDK. It’s still in development and has skirmish and multiplayer games, with a basic skirmish AI, base building, resource mining, technology research, and maps of its own. The most recent release is from September 20, 2026, with sound and text alerts when the Bantha or Heavy Lifter is attacked, new sounds for the DETECTOR’s machine gun and the ORCA’s missile launcher, AI and lobby starting cash tweaks, and bug fixes; earlier releases date from August. The downloads, between 58 and 108 MB, are an installer and a portable build for Windows x64, a Linux AppImage, and a macOS dmg. The project shows its progress in preview videos and on its PeerTube channel, and is published under the GPL-3.0. It takes its game files from an Earth 2140 installation: the download doesn’t bring the original data."
+requirements:
+  es: "Los archivos de tu propia copia de Earth 2140 (GOG, Steam, Topware Shop o Zoom), que el instalador de contenido de OpenRA toma de la instalación; la música y las bandas sonoras adicionales son paquetes aparte. Además, Windows x64, Linux o macOS."
+  en: "The files from your own copy of Earth 2140 (GOG, Steam, Topware Shop, or Zoom), which OpenRA’s content installer takes from your installation; the music and extra soundtracks are separate packages. Plus Windows x64, Linux, or macOS."
+tags:
+  - multiplayer
+  - online

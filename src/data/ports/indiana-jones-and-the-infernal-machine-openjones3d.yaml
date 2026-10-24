@@ -1,0 +1,17 @@
+name: "Indiana Jones and the Infernal Machine (OpenJones3D)"
+category: decomp-port
+console: pc
+status: playable
+repo: smlu/OpenJones3D
+originalDeveloper: "LucasArts"
+year: 1999
+desc:
+  es: "OpenJones3D: recreación del motor Jones3D de LucasArts, el que mueve Indiana Jones and the Infernal Machine (1999), reconstruido función a función en C a partir del ejecutable del juego, de sus símbolos de depuración y de sus cadenas de texto, y de lo que se sabe de motores emparentados, como Sith (el de Jedi Knight), el de Grim Fandango y proyectos como OpenJKDF2. Avanza por fases: primero un esqueleto de funciones que llaman a las del ejecutable original (Indy3D.exe), luego las sustituye una a una por código propio mediante enganches y, al final, también las variables globales. La versión 0.3.0 (30 de abril de 2025) dejó el motor, según el proyecto, en un 87 % completado, y añadió resoluciones QHD y 4K, fuentes en HD, modelos de las placas de fundido para 21:9, comandos de consola para desarrollo, el análisis y la compilación de scripts COG y hasta 128 sonidos a la vez. La 0.3.1 (8 de julio de 2025) corrige varios fallos, como el radio de las placas de fundido, pero no adjunta archivos: la última descarga es la 0.3.0. El README aclara que el proyecto no incluye ningún recurso del juego."
+  en: "OpenJones3D: a recreation of LucasArts’s Jones3D engine, which powers Indiana Jones and the Infernal Machine (1999), reconstructed function by function in C from the game’s executable, its debug symbols and strings, and what is known about related engines, such as Sith (Jedi Knight’s), Grim Fandango’s, and projects like OpenJKDF2. It advances in phases: first a shell of functions that call those of the original executable (Indy3D.exe), then it replaces them one by one with its own code through hooks and, at the end, the global variables too. Version 0.3.0 (April 30, 2025) left the engine, according to the project, 87% complete, and added QHD and 4K resolutions, HD fonts, fade plate models for 21:9, developer console commands, parsing and compiling of COG scripts, and up to 128 simultaneous sounds. Version 0.3.1 (July 8, 2025) fixes several bugs, such as the radius of the fade plates, but attaches no files: the latest download is 0.3.0. The README states that the project includes no game assets."
+requirements:
+  es: "Tu propia copia del juego (por ejemplo, la de Steam o la de GOG) y, además, el Indy3D.exe versión 1.0 de la edición en CD, cuyo SHA-256 da el README. Los archivos de OpenJones3D se descomprimen en la carpeta Resource de la instalación, junto a Indy3D.exe, y se arranca Jones3D.exe. Windows."
+  en: "Your own copy of the game (for example, from Steam or GOG) and, in addition, version 1.0 of Indy3D.exe from the CD edition, whose SHA-256 the README gives. OpenJones3D’s files are unzipped into the installation’s Resource folder, next to Indy3D.exe, and you launch Jones3D.exe. Windows."
+tags:
+  - x86
+  - reverse-engineering
+  - widescreen

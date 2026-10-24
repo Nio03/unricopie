@@ -1,0 +1,17 @@
+name: "Gish (freegish)"
+category: source-port
+console: pc
+status: playable
+repo: freegish/freegish
+originalDeveloper: Cryptic Sea
+year: 2004
+desc:
+  es: "FreeGish: versión libre de Gish, el plataformas de físicas de Cryptic Sea y Edmund McMillen, hecha a partir del código del juego, que se abrió en 2010. Como los recursos originales no se publicaron, la comunidad ha creado niveles y datos nuevos que se instalan como un paquete de datos propio, «freegish»; el proyecto también añadió, entre otras cosas, jugar los niveles de la campaña con varios jugadores. La 2.0.0 (13 de agosto) es la primera versión de FreeGish, para Windows: pasa el juego a SDL2 y trae el capítulo uno terminado, con siete niveles. Quien tenga los recursos del Gish original puede crear la carpeta datapacks/original, copiar ahí sus carpetas (animation, level, music, sound, texture y tile01 a tile07) y elegir ese paquete en las opciones. El último commit es del 20 de octubre y cuatro de los últimos 100 llevan a Claude como coautor. El repositorio incluye los datos propios del proyecto (unos 20 MB de niveles, música y texturas) y una herramienta de niveles en Java ya compilada."
+  en: "FreeGish: a free version of Gish, Cryptic Sea and Edmund McMillen’s physics platformer, built from the game’s code, which was opened in 2010. Since the original assets were never released, the community has created new levels and data, installed as a datapack of its own, “freegish”; the project also added, among other things, playing the campaign levels with several players. Version 2.0.0 (August 13) is FreeGish’s first release, for Windows: it ports the game to SDL2 and has chapter one finished, with seven levels. Anyone with the original Gish assets can create the datapacks/original folder, copy their folders there (animation, level, music, sound, texture, and tile01 to tile07), and pick that pack in the options. The last commit is from October 20, and four of the last 100 list Claude as a co-author. The repository includes the project’s own data (about 20 MB of levels, music, and textures) and a prebuilt Java level tool."
+requirements:
+  es: "Ninguna copia: el paquete «freegish» trae datos nuevos hechos por la comunidad y el juego se puede jugar con ellos. Si tienes los recursos del Gish original, puedes usarlos como paquete aparte. Además, Windows (la 2.0.0); en otros sistemas hay que compilarlo."
+  en: "No copy needed: the “freegish” datapack has new community-made data and the game is playable with it. If you own the original Gish assets, you can use them as a separate pack. Plus Windows (2.0.0); on other systems you have to build it."
+tags:
+  - ai-assisted
+  - multiplayer
+  - mods

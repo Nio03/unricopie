@@ -1,0 +1,15 @@
+name: "Sonic Nexus (RSDKv2)"
+category: decomp-port
+console: pc
+status: fully
+repo: RSDKModding/RSDKv2-Decompilation
+year: 2008
+desc:
+  es: "RSDKv2-Decompilation: decompilación completa del motor Retro-Sonic v2, el de la demo de 2008 de Sonic Nexus, un juego de fans. Añade un cargador de mods integrado, un archivo settings.ini con todos los ajustes (como en Sonic Mania) y un menú de desarrollo accesible desde cualquier punto con ESC si se activa en la configuración, con las funciones de depuración de Sonic Mania: pausa con F12 y avance paso a paso o rápido con F11. Se compila con CMake, con SDL2, libogg y libvorbis, en Windows, Linux y Mac (hay un proyecto de Xcode); no se debe descargar el ZIP del código fuente, porque no incluye los submódulos. La Nintendo Switch cuenta con una rama no oficial aparte. Las descargas, para Windows x86 y x64, son de mayo de 2021: la 1.0.2 (12 de mayo de 2021) corrigió un fallo al cargar varios personajes; el último commit es de julio de 2026. No incluye el juego: sin los recursos de la demo de 2008 no arranca."
+  en: "RSDKv2-Decompilation: a complete decompilation of the Retro-Sonic Engine v2, the one from the 2008 demo of Sonic Nexus, a fan game. It adds a built-in mod loader, a settings.ini file holding all settings (as in Sonic Mania), and a dev menu reachable from anywhere with ESC if enabled in the config, with Sonic Mania’s debug features: pause with F12 and step or fast-forward with F11. It builds with CMake, with SDL2, libogg, and libvorbis, on Windows, Linux, and Mac (there is an Xcode project); don’t download the source code ZIP, since it lacks the submodules. The Nintendo Switch has a separate unofficial branch. The downloads, for Windows x86 and x64, are from May 2021: 1.0.2 (May 12, 2021) fixed a bug when loading multiple characters; the last commit is from July 2026. It doesn’t include the game: without the assets of the 2008 demo it won’t run."
+requirements:
+  es: "El archivo data.bin de la demo de Sonic Nexus de 2008, que el README remite a descargar de Sonic Retro y que se coloca junto al ejecutable. Además, Windows, Linux o macOS."
+  en: "The data.bin file from the 2008 Sonic Nexus demo, which the README says to download from Sonic Retro and which goes next to the executable. Plus Windows, Linux, or macOS."
+tags:
+  - mods
+  - reverse-engineering

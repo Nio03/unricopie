@@ -1,0 +1,21 @@
+name: M2TWEOP
+kind: mod
+console: pc
+game:
+  es: "Medieval II: Total War (PC, 2006)"
+  en: "Medieval II: Total War (PC, 2006)"
+repo: EOP-Labs/M2TWEOP-library
+homepage: https://eop-labs.github.io/M2TWEOP-library/
+status: usable
+desc:
+  es: "M2TWEOP (Medieval II Total War Engine Overhaul Project): proyecto para ampliar las posibilidades de Medieval II: Total War, pensado para quien hace mods. Usa C++ y ensamblador para modificar el código del juego en memoria y lo expone mediante una API de Lua con más de mil funciones, con documentación y ejemplos, integración con los campaign_script ya existentes, recarga en caliente, consola propia y depuración desde VSCode. Quita límites del motor (tipos y tamaños de unidad, religiones y culturas, edificios y cadenas, ancilares, asentamientos y modelos personalizados), desbloquea todos los comandos de consola del juego base y corrige fallos como los berserkers que cierran el juego, los elefantes que rompen los asedios o los cañones de elefante que no atacan puertas. Añade también dibujar modelos cas a cualquier escala en el mapa de campaña, un lanzador configurable, presencia en Discord para más de treinta mods, un visor del mapa táctico al estilo de Rome: Total War, batallas de hotseat jugadas en línea cuyo resultado vuelve a la campaña, atajos de teclado propios y sonidos o música en WAV, OGG/Vorbis y FLAC. La última versión es la 3.3.1 (23 de agosto de 2024), no compatible con partidas guardadas de otras versiones, y el último commit es del 19 de octubre. El repositorio incluye DLL de terceros ya compiladas (FBX SDK, ffmpeg, Lua, SDL y otras) y la descarga pesa unos 188 MB."
+  en: "M2TWEOP (Medieval II Total War Engine Overhaul Project): a project to expand the capabilities of Medieval II: Total War, aimed at mod makers. It uses C++ and assembly to modify the game’s code in memory and exposes it through a Lua API with more than a thousand functions, with documentation and examples, integration with existing campaign_script scripts, hot reload, a custom console, and VSCode debugging. It removes engine limits (unit types and sizes, religions and cultures, buildings and chains, ancillaries, custom settlements and models), unlocks all of the base game’s console commands, and fixes bugs such as berserkers crashing the game, elephants breaking sieges, and elephant cannons unable to attack gates. It also adds drawing cas models at any scale on the campaign map, a configurable launcher, Discord Rich Presence for more than thirty mods, a Rome: Total War style tactical map viewer, hotseat battles played online whose result returns to the campaign, custom key bindings, and custom sounds or music in WAV, OGG/Vorbis, and FLAC. The latest release is 3.3.1 (August 23, 2024), not savegame compatible with other versions, and the last commit is from October 19. The repository includes prebuilt third-party DLLs (FBX SDK, ffmpeg, Lua, SDL, and others) and the download is about 188 MB."
+requirements:
+  es: "Tu propia copia de Medieval II: Total War para PC, de disco (versión 1.5) o de Steam (1.52). Además, Windows."
+  en: "Your own copy of Medieval II: Total War for PC, on disc (version 1.5) or from Steam (1.52). Plus Windows."
+tags:
+  - mods
+  - reverse-engineering
+links:
+  - label: "TWCenter"
+    url: https://www.twcenter.net/forums/forumdisplay.php?2296-M2TW-Engine-Overhaul-Project

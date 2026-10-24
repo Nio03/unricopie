@@ -1,0 +1,22 @@
+name: "Unofficial Crusader Patch 3"
+kind: mod
+console: pc
+game:
+  es: "Stronghold Crusader (Firefly Studios, PC, 2002)"
+  en: "Stronghold Crusader (Firefly Studios, PC, 2002)"
+repo: UnofficialCrusaderPatch/UnofficialCrusaderPatch
+homepage: https://unofficialcrusaderpatch.github.io/
+status: usable
+desc:
+  es: "Unofficial Crusader Patch 3 (UCP3): parche no oficial de Stronghold Crusader, de Firefly Studios; es un marco para aplicar correcciones de errores, reequilibrios de unidades y mejoras de comodidad hechos por la comunidad, y para añadir contenido nuevo, como mapas e IA. Se instala con un programa gráfico, UCP3-GUI (la 1.0.14, del 1 de enero de 2026, para Windows 10 o posterior, y paquetes .deb y AppImage para Linux), que instala el marco, descarga extensiones de una tienda y las activa por orden de prioridad: las de más arriba mandan sobre las de debajo cuando configuran lo mismo. La instalación no incluye archivos de Firefly: edita los del juego o añade archivos hechos por la comunidad. Este repositorio es el punto de entrada (README, noticias traducidas y ayuda con problemas); el código está en otros repositorios de la organización, como UCP3-GUI. Solo se da soporte oficial a las versiones 1.41 y 1.41.1 del juego; el equipo no desarrolla un UCP para la Definitive Edition y dice que no lo habrá si el juego completo sigue siendo igual de difícil de modificar. La versión anterior, UCP2, vive en otro repositorio."
+  en: "Unofficial Crusader Patch 3 (UCP3): an unofficial patch for Stronghold Crusader by Firefly Studios; it’s a framework for applying community bug fixes, unit rebalancing, and quality-of-life improvements, and for adding new content, such as maps and AI. It’s installed with a graphical program, UCP3-GUI (1.0.14, from January 1, 2026, for Windows 10 or later, and .deb and AppImage packages for Linux), which installs the framework, downloads extensions from a store, and activates them in priority order: those higher in the list override the ones below when they configure the same thing. The installation includes no Firefly files: it edits the game’s own or adds community-made files. This repository is the entry point (README, translated news, and help with problems); the code lives in other repositories of the organization, such as UCP3-GUI. Only versions 1.41 and 1.41.1 of the game are officially supported; the team isn’t developing a UCP for the Definitive Edition and says there won’t be one if the full game stays just as hard to mod. The previous version, UCP2, lives in another repository."
+requirements:
+  es: "Tu propia copia de Stronghold Crusader (la de Steam, Stronghold Crusader HD, o cualquier versión que se actualice a la 1.41 con el parche gratuito de Firefly); el soporte oficial es solo para las versiones 1.41 y 1.41.1 en idiomas latinos. Windows 10 o posterior, con WebView2 para la interfaz y el runtime de Visual C++ x86; también hay interfaz para Linux."
+  en: "Your own copy of Stronghold Crusader (Steam’s Stronghold Crusader HD, or any version that updates to 1.41 with Firefly’s free patch); official support is only for versions 1.41 and 1.41.1 in Latin languages. Windows 10 or later, with WebView2 for the interface and the Visual C++ x86 runtime; there is also an interface for Linux."
+tags:
+  - mods
+links:
+  - label: "UCP3-GUI"
+    url: https://github.com/UnofficialCrusaderPatch/UCP3-GUI
+  - label: "UCP2"
+    url: https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch2

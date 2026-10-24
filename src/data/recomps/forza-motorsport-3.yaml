@@ -1,0 +1,19 @@
+name: "Forza Motorsport 3"
+console: x360
+status: playable
+repo: 0herculabs/hl360-forza3
+originalDeveloper: "Turn 10 Studios"
+year: 2009
+toolchain: "ReXGlue"
+desc:
+  es: "Recompilación estática, todavía en desarrollo, de Forza Motorsport 3: Ultimate Collection (Xbox 360) para Windows: el código PowerPC se traduce a C++ con el SDK de ReXGlue y un runtime aporta los servicios de la consola (gráficos, audio, mando, perfiles, sistema de archivos y contenido descargable). Solo admite la edición estadounidense del Ultimate Collection (ID de título 4D53084D, default.xex 0.0.0.8). Un launcher propio, derivado del de la recompilación de Forza Motorsport 2 y en inglés y español, importa los dos discos (extrae unos 7 GB del primero y los ocho paquetes de coches y circuitos del segundo) y comprueba los archivos por SHA-256; gestiona perfiles locales con partidas separadas, ofrece ventana o pantalla completa, salida 16:9 a 720p, 1440p o 4K, resolución interna de 1× a 4×, filtrado anisótropo, FXAA y escalado bilineal, AMD CAS o FSR, mandos compatibles con Xbox y teclado reasignable, y precompila los sombreadores. También instala Project Forza Plus 3, un mod con 18 paquetes de contenido, y deja ajustar su modo carrera, una IA más difícil y el campo de visión. Dibuja con Direct3D 12. Los menús, los vídeos, la carrera libre y las carreras funcionan a 60 fps; el modo carrera completo y el multijugador local aún necesitan pruebas, y Xbox Live no está disponible. La 0.1.3 (17 de octubre) hace que aparezcan todos los coches de Project Forza Plus 3. Dos de sus 12 commits llevan a Claude como coautor."
+  en: "A work-in-progress static recompilation of Forza Motorsport 3: Ultimate Collection (Xbox 360) for Windows: the PowerPC code is translated to C++ with the ReXGlue SDK and a runtime provides the console services (graphics, audio, input, profiles, file system, and downloadable content). It only supports the US edition of the Ultimate Collection (title ID 4D53084D, default.xex 0.0.0.8). A launcher of its own, based on the one from the Forza Motorsport 2 recompilation and in English and Spanish, imports both discs (it extracts about 7 GB from the first and the eight car and track packages from the second) and checks the files by SHA-256; it manages local profiles with separate saves, offers windowed or fullscreen mode, 16:9 output at 720p, 1440p, or 4K, 1× to 4× internal resolution, anisotropic filtering, FXAA, and bilinear, AMD CAS, or FSR scaling, Xbox-compatible controllers and remappable keyboard controls, and precompiles shaders. It also installs Project Forza Plus 3, a mod with 18 content packages, and lets you set its career mode, harder AI, and field of view. It renders with Direct3D 12. Menus, videos, Free Play, and races run at 60 fps; the full career mode and local multiplayer still need testing, and Xbox Live isn’t available. Version 0.1.3 (October 17) makes all of Project Forza Plus 3’s cars show up. Two of its 12 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia estadounidense de Forza Motorsport 3: Ultimate Collection para Xbox 360, con sus dos discos como imágenes (.iso): el Play Disc (disco 1) y el Content Install Disc (disco 2). Otras regiones, ediciones o revisiones no están soportadas. Si quieres, los .zip de Project Forza Plus 3. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y espacio para unos 7 GB de datos del juego."
+  en: "Your own US copy of Forza Motorsport 3: Ultimate Collection for Xbox 360, with both discs as disc images (.iso): the Play Disc (disc 1) and the Content Install Disc (disc 2). Other regions, editions, or revisions aren’t supported. Optionally, the Project Forza Plus 3 .zip files. Plus 64-bit Windows 10 or 11, a Direct3D 12 graphics card, and room for about 7 GB of game data."
+tags:
+  - powerpc
+  - racing
+  - 60fps+
+  - mods
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: "Doom (Calico)"
+category: source-port
+console: other
+status: playable
+repo: team-eternity/calico-doom
+author: "James Haley"
+originalDeveloper: "id Software"
+year: 1994
+desc:
+  es: "Calico: port a PC del código de Doom para Atari Jaguar (la consola figura como «otra» en el catálogo), pensado para jugar a esa versión tal cual con los menos cambios posibles. Lo hace James Haley, de Team Eternity, a partir del código fuente de Jaguar Doom de id Software. Haley hizo ingeniería inversa de los ficheros en ensamblador GAS del renderizador, escritos en un ensamblador propio de los chips Tom y Jerry de la placa de la consola, y comprobó el código de juego con el de la versión de 3DO y el de Doom 64 EX, que comparten con él cerca del 99 %. Acepta la ROM del juego o el jagdoom.wad extraído de ella, y emula el EEPROM de la consola. La versión 2.0 (31 de enero de 2021) añadió mando y ratón, controles más flexibles (usar y esquivar por separado, esquivar direccional, arma anterior y siguiente), un renderizador opcional en OpenGL 4.0 con shaders, activado por defecto, los parámetros -fast, -nomonsters, -warp y -skill, y el programa de configuración calico-config. Todavía no tiene música ni multijugador, y las demos se desincronizan. El código original está bajo MIT, pero el procedente de Jaguar Doom sigue bajo la licencia de esa publicación, que no es compatible con el software libre."
+  en: "Calico: a PC port of the Atari Jaguar Doom codebase (the console is listed as “other” in the catalog), meant to play that version as it was with as few changes as possible. It’s by James Haley of Team Eternity, built from id Software’s Jaguar Doom source code. Haley reverse-engineered the renderer’s GAS assembly files, written in a custom assembly language for the Tom and Jerry chips on the console’s board, and checked the gameplay code against the 3DO version and Doom 64 EX, which share about 99% of it. It accepts the game’s ROM or the jagdoom.wad extracted from it, and emulates the console’s EEPROM. Version 2.0 (January 31, 2021) added gamepad and mouse support, more flexible controls (separate use and strafe-on, directional strafing, previous and next weapon), an optional OpenGL 4.0 renderer with shader support, enabled by default, the -fast, -nomonsters, -warp, and -skill parameters, and the calico-config setup utility. It still has no music or multiplayer, and demos desync. The original code is MIT-licensed, but code taken from Jaguar Doom remains under the license of that source release, which isn’t compatible with free software."
+requirements:
+  es: "Tu propia ROM sin comprimir de Doom para Atari Jaguar (se detecta sola si se llama doom.jag) o el jagdoom.wad extraído de ella; el README recuerda que hace falta un dispositivo de copia de cartuchos de Jaguar para obtenerla legalmente. Además, Windows (la versión 2.0 trae el ejecutable en un zip de 1,2 MB) o compilarlo."
+  en: "Your own uncompressed Atari Jaguar Doom ROM (autodetected if it’s named doom.jag) or the jagdoom.wad extracted from it; the README notes that you need a Jaguar cartridge backup device to get it legally. Plus Windows (version 2.0 ships the executable in a 1.2 MB zip) or build it yourself."
+tags:
+  - fps
+  - reverse-engineering

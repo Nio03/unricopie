@@ -1,0 +1,18 @@
+name: "Descent / Descent II (DXX-Redux)"
+category: source-port
+console: dos
+status: playable
+repo: dxx-redux/dxx-redux
+homepage: https://dxx-redux.com
+originalDeveloper: "Parallax Software"
+year: 1995
+desc:
+  es: "DXX-Redux: port de Descent y Descent II basado en DXX-Retro, que a su vez parte de DXX-Rebirth. Hay un motor para cada juego, D1X-Redux y D2X-Redux. Muchos de sus cambios son para el multijugador; entre lo que añade hay un modo de observador (con opciones separadas para cada modo de juego, vistas en tercera persona, temporizadores de bombas y listas de daño), mejoras de las demos, incluidas las demos automáticas, colores de equipo personalizables, ventana sin bordes, ejes de joystick usados como botones, una opción clásica sin autoselección de arma al quedarse sin munición, el registro de partida en archivos separados, una opción para ver solo los impactos confirmados y volcados de error al fallar. La versión 1.1 (25 de enero de 2025) trae compilaciones para Windows de 32 bits, Linux (también una con sdl12compat) y macOS (Intel y Apple Silicon); la carpeta de datos en Linux y macOS pasó a llamarse redux en lugar de rebirth, y desde la 1.0 el paquete de Linux funciona en la Steam Deck. Se compila con CMake y vcpkg en Visual Studio, o en Linux y con MSYS2. Su último cambio es del 14 de septiembre de 2026."
+  en: "DXX-Redux: a Descent and Descent II source port based on DXX-Retro, which in turn builds on DXX-Rebirth. There is one engine per game, D1X-Redux and D2X-Redux. Many of its changes are for multiplayer; among what it adds are an observer mode (with separate options per game mode, third-person views, bomb timers, and damage lists), demo improvements, including automatic demos, customizable team colors, a borderless window, joystick axes usable as buttons, a classic option with no ammo autoselect when you run out, game logs split into separate files, an option to show only confirmed hit sparks, and crash dumps. Version 1.1 (January 25, 2025) ships builds for 32-bit Windows, Linux (also one with sdl12compat), and macOS (Intel and Apple silicon); the data folder on Linux and macOS is now called redux instead of rebirth, and since 1.0 the Linux package works on the Steam Deck. It builds with CMake and vcpkg in Visual Studio, or on Linux and with MSYS2. Its last change is from September 14, 2026."
+requirements:
+  es: "Los archivos de datos de tu propia copia de Descent y de Descent II; el README no los detalla. Además, Windows, Linux o macOS."
+  en: "The data files from your own copy of Descent and Descent II; the README doesn’t list them. Plus Windows, Linux, or macOS."
+tags:
+  - fps
+  - multiplayer
+  - online

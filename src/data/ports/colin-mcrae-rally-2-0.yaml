@@ -1,0 +1,19 @@
+name: Colin McRae Rally 2.0
+category: decomp-port
+console: pc
+status: playable
+repo: pablocpas/OpenCMR2
+originalDeveloper: Codemasters
+year: 2000
+desc:
+  es: "OpenCMR2: port nativo de Colin McRae Rally 2.0 (PC, 2000) a plataformas actuales, construido sobre CMR2Decomp, la decompilación del juego. Ejecuta el código original del juego de forma nativa, sin emulación ni Wine ni envoltorio de DirectX: DirectDraw, Direct3D 7, DirectSound, DirectInput, DirectPlay y Bink se sustituyen por SDL3, por la API SDL GPU (Vulkan, Direct3D 12, Metal) o por OpenGL 3.3 y por código propio. Reproduce el pipeline de función fija de Direct3D 7 en shaders, decodifica los vídeos Bink con un decodificador propio y sustituye DirectPlay por UDP para el multijugador en red local y por internet. Incluye las mejoras de SilentPatch (resoluciones panorámicas con la perspectiva correcta, campo de visión configurable y tasas de fotogramas altas o variables sin cambiar la física) y se prueba contra el ejecutable original: 500 actualizaciones de vehículo en una etapa de Finlandia coinciden bit a bit con el juego original a 30, 60, 120, 144 y 240 fps. Todo lo probado funciona, pero sigue en desarrollo. La última versión es la 1.6.0 (22 de octubre), con paquetes para Windows x64, Linux (x86-64, i686 y ARM64), macOS ARM64 y Android; el repositorio se creó el 10 de octubre y 84 de sus últimos 100 commits llevan a Claude como coautor. Incluye volcados de estado del juego original que usan las pruebas (unos 8 MB)."
+  en: "OpenCMR2: a native port of Colin McRae Rally 2.0 (PC, 2000) to current platforms, built on CMR2Decomp, the game’s decompilation. It runs the game’s original code natively, with no emulation, Wine, or DirectX wrapper: DirectDraw, Direct3D 7, DirectSound, DirectInput, DirectPlay, and Bink are replaced with SDL3, the SDL GPU API (Vulkan, Direct3D 12, Metal) or OpenGL 3.3, and code of its own. It reproduces the Direct3D 7 fixed-function pipeline in shaders, decodes the Bink videos with its own decoder, and swaps DirectPlay for UDP for LAN and internet multiplayer. It builds in SilentPatch’s improvements (widescreen resolutions with the correct perspective, a configurable field of view, and high or variable frame rates without changing the physics) and is tested against the original executable: 500 vehicle updates of a Finland stage match the original game bit for bit at 30, 60, 120, 144, and 240 fps. Everything tested works, but it’s still in development. The latest release is 1.6.0 (October 22), with packages for Windows x64, Linux (x86-64, i686, and ARM64), macOS ARM64, and Android; the repository was created on October 10 and 84 of its last 100 commits list Claude as a co-author. It includes state dumps of the original game used by its tests (about 8 MB)."
+requirements:
+  es: "Tu propia copia de la versión de PC original de Colin McRae Rally 2.0; el proyecto no incluye ningún archivo del juego, y en el primer arranque un diálogo pide la carpeta de la instalación. Además, Windows x64, Linux (x86-64, i686 o ARM64) o macOS con Apple Silicon (estos dos últimos solo probados en compilación y pruebas); la GPU debe admitir Vulkan, Direct3D 12 o Metal, o al menos OpenGL 3.3."
+  en: "Your own copy of the original PC version of Colin McRae Rally 2.0; the project includes no game files, and on first launch a dialog asks for the installation folder. Plus Windows x64, Linux (x86-64, i686, or ARM64), or macOS on Apple silicon (the last two tested only by building and running the tests); the GPU needs to support Vulkan, Direct3D 12, or Metal, or at least OpenGL 3.3."
+tags:
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - ai-assisted
+  - reverse-engineering

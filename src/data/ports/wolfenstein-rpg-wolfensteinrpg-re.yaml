@@ -1,0 +1,19 @@
+name: "Wolfenstein RPG (WolfensteinRPG-RE)"
+category: fan-remake
+console: mobile
+status: playable
+repo: Erick194/WolfensteinRPG-RE
+author: "Erick Vásquez García ([GEC])"
+desc:
+  es: "WolfensteinRPG-RE: reconstrucción en C++ de Wolfenstein RPG, el juego de rol por turnos para móviles, hecha por ingeniería inversa por Erick Vásquez García, del grupo [GEC], con SDL2, zlib y OpenAL, y la misma mano que DoomRPG-RE. El programa abre el archivo «Wolfenstein RPG.ipa» de la versión de iOS para leer sus recursos. Se compila con CMake; el README explica cómo hacerlo en Ubuntu y cómo crear un AppImage, trae la lista de teclas predeterminadas y recoge los trucos del juego original, tanto de la versión J2ME y BREW como de la de iOS, entre ellos el que abre su menú de depuración. La única versión es la 0.1 (23 de febrero de 2025), con un AppImage para Linux x86-64 y un ZIP; el repositorio se abrió ese mismo día y su último commit es del día siguiente. El hilo del proyecto está en Doomworld. Licencia GPL-3.0."
+  en: "WolfensteinRPG-RE: a C++ reconstruction of Wolfenstein RPG, the turn-based mobile RPG, reverse-engineered by Erick Vásquez García of the [GEC] group, with SDL2, zlib, and OpenAL, and by the same hand as DoomRPG-RE. The program opens the “Wolfenstein RPG.ipa” file from the iOS version to read its resources. It builds with CMake; the README explains how to do it on Ubuntu and how to make an AppImage, lists the default keys, and collects the original game’s cheat codes, from both the J2ME and BREW version and the iOS one, including the one that opens its debug menu. The only release is 0.1 (February 23, 2025), with an x86-64 Linux AppImage and a ZIP; the repository was opened that same day and its last commit is from the next day. The project’s thread is on Doomworld. GPL-3.0 license."
+requirements:
+  es: "El archivo «Wolfenstein RPG.ipa» de tu propia copia de la versión de iOS de Wolfenstein RPG. El repositorio no incluye recursos del juego. Para compilarlo: CMake, SDL2, zlib y OpenAL; hay un AppImage para Linux x86-64."
+  en: "The “Wolfenstein RPG.ipa” file from your own copy of the iOS version of Wolfenstein RPG. The repository includes no game assets. To build it: CMake, SDL2, zlib, and OpenAL; there is an x86-64 Linux AppImage."
+tags:
+  - reverse-engineering
+links:
+  - label:
+      es: "Hilo en Doomworld"
+      en: "Doomworld thread"
+    url: https://www.doomworld.com/forum/topic/151475

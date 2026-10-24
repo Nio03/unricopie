@@ -1,0 +1,10 @@
+name: "Barnyard"
+console: pc
+repo: InfiniteC0re/OpenBarnyard
+desc:
+  es: "OpenBarnyard: decompilación de Barnyard (Blue Tongue Entertainment) para Windows y de TOSHI 2.0, el motor propio con el que se hizo. Reconstruye el código del juego y del motor, que se compila con Visual Studio 2026 para DirectX 8, y con cada cambio publica una compilación nocturna (OpenBarnyard.exe, de 12,8 MB; la última, del 22 de octubre). El README avisa de que ni el motor ni el juego son suyos, de que TOSHI pertenece hoy a THQ Nordic y de que no debe usarse para piratear el juego ni ningún otro de TOSHI. Las versiones numeradas incluyen además un cargador de mods (BYModCore.dll) y una herramienta para speedruns (BYSpeedrunHelper.dll), ambos del 4 de marzo de 2025, y el SDK del repositorio trae el código de varios mods, como BYEnhanced y BYWinterMod. El repositorio no incluye datos del juego, así que hace falta tu propia copia de Barnyard (el README no detalla cuál). Sí lleva, en Content/, el instalador de DirectX 8.1 y las bibliotecas FMOD y Bink (unos 27 MB)."
+  en: "OpenBarnyard: a decompilation of Barnyard (Blue Tongue Entertainment) for Windows and of TOSHI 2.0, the proprietary engine it was built on. It reconstructs the game and engine code, which builds with Visual Studio 2026 for DirectX 8, and every change publishes a nightly build (OpenBarnyard.exe, 12.8 MB; the latest from October 22). The README warns that it owns neither the engine nor the game, that TOSHI is now owned by THQ Nordic, and that it must not be used to pirate Barnyard or any other TOSHI game. The numbered releases also include a mod loader (BYModCore.dll) and a speedrun tool (BYSpeedrunHelper.dll), both from March 4, 2025, and the repository’s SDK carries the code of several mods, such as BYEnhanced and BYWinterMod. The repository includes no game data, so you need your own copy of Barnyard (the README doesn’t say which one). It does carry, in Content/, the DirectX 8.1 installer and the FMOD and Bink libraries (about 27 MB)."
+tags:
+  - x86
+  - reverse-engineering
+  - mods

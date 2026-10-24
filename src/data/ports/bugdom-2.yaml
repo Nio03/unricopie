@@ -1,0 +1,21 @@
+name: Bugdom 2
+category: source-port
+console: mac
+status: fully
+repo: jorio/Bugdom2
+author: Iliyas Jorio
+originalDeveloper: Pangea Software
+year: 2002
+desc:
+  es: "Bugdom 2, el juego de Pangea Software de 2002 para Mac (la secuela de Bugdom), puesto al día para sistemas actuales por Iliyas Jorio con el permiso de Pangea Software. La 4.0.0 (8 de octubre de 2023), su única versión publicada, trae soporte multiplataforma para macOS, Windows y Linux (x86-64 y ARM64), pantalla panorámica, mejor soporte de ratón y mando, texturizado continuo del terreno y arreglos menores de juego. El repositorio incluye el manual de instrucciones original en ocho idiomas y una lista de trucos, y su último commit es de febrero de 2025. El código y los datos se publican con licencia CC BY-NC-SA 4.0 con permiso de Pangea Software, y las descargas son gratuitas, con una opción de apoyo voluntario en itch.io. El repositorio incluye el juego completo con sus datos (unos 180 MB)."
+  en: "Bugdom 2, Pangea Software’s 2002 Mac game (the sequel to Bugdom), updated for current systems by Iliyas Jorio with Pangea Software’s permission. Version 4.0.0 (October 8, 2023), its only release, brings cross-platform support for macOS, Windows, and Linux (x86-64 and ARM64), widescreen, better mouse and controller support, seamless terrain texturing, and minor gameplay fixes. The repository includes the original instruction manual in eight languages and a list of cheat codes, and its last commit is from February 2025. The code and data are published under the CC BY-NC-SA 4.0 license with permission from Pangea Software, and the downloads are free, with an optional pay-what-you-want donation on itch.io. The repository includes the whole game with its data (about 180 MB)."
+requirements:
+  es: "Ninguna copia: el juego se publica completo con permiso de Pangea Software y cada descarga ya trae sus datos. Además, Windows, macOS o Linux (x86-64 o ARM64)."
+  en: "No copy needed: the game is published in full with permission from Pangea Software, and each download already includes its data. Plus Windows, macOS, or Linux (x86-64 or ARM64)."
+tags:
+  - widescreen
+links:
+  - label:
+      es: "Descargas en GitHub"
+      en: "Downloads on GitHub"
+    url: https://github.com/jorio/Bugdom2/releases

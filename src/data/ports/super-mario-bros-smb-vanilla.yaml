@@ -1,0 +1,23 @@
+name: "Super Mario Bros. / The Lost Levels (SMB Vanilla)"
+category: decomp-port
+console: nes
+status: fully
+repo: nukep/SMB-Vanilla
+homepage: https://www.otterstack.com/smbvanilla/
+author: Danny Spencer
+originalDeveloper: Nintendo R&D4
+year: 1985
+desc:
+  es: "SMB Vanilla: decompilación en C de Super Mario Bros. y del Super Mario Bros. 2 japonés de Famicom Disk System (The Lost Levels), con port a Windows y Linux sobre SDL3. Solo reimplementa la jugabilidad: los niveles, los gráficos y el sonido salen de tu ROM, y sin ella no arranca. Quiere comportarse igual que el original, fallos incluidos (conserva los que no rompen la partida, como el mundo menos uno y los de colisión y atravesar paredes), y servir además de referencia legible de la lógica del juego, con los nombres de etiquetas del desensamblado de doppelganger. Los dos juegos arrancan y se pueden terminar, con sonido salvo en el final de The Lost Levels, que usa el chip de audio 2C33 del Famicom Disk System. Las teclas se cambian en smbvanilla.ini, y en Super Mario Bros. se puede empezar en cualquier nivel desde la línea de órdenes. Parte del código todavía es la salida de Ghidra y se está reorganizando; faltan pruebas y una interfaz con controles configurables. Su web tiene además una versión para el navegador que también pide tu ROM. La primera versión, la 0.1.0, salió el 3 de octubre para Windows y Linux de 64 bits. Las incidencias y las aportaciones se llevan en Codeberg. El proyecto dice que no incluye código ni recursos generados con IA."
+  en: "SMB Vanilla: a C decompilation of Super Mario Bros. and the Japanese Famicom Disk System Super Mario Bros. 2 (The Lost Levels), ported to Windows and Linux on SDL3. It only reimplements the gameplay: levels, graphics, and sound come from your ROM, and it won’t start without one. It aims to behave exactly like the original, bugs included (it keeps the ones that don’t break the game, such as the minus world and the collision and clipping glitches), and to serve as a readable reference for the game’s logic, with label names from doppelganger’s disassembly. Both games boot and can be beaten, with sound except for The Lost Levels’ ending, which uses the Famicom Disk System’s 2C33 audio chip. Keys are changed in smbvanilla.ini, and in Super Mario Bros. you can start at any level from the command line. Part of the code is still Ghidra’s output and is being refactored; tests and a UI with configurable controls are still missing. Its website also has a browser version that likewise asks for your ROM. The first release, 0.1.0, came out on October 3 for 64-bit Windows and Linux. Issues and contributions are handled on Codeberg. The project states that it includes no AI-generated code or assets."
+requirements:
+  es: "Tu propia ROM de Super Mario Bros. para NES, versión NTSC, como smb.nes (SHA-1 ea343f4e445a9050d4b4fbac2c77d0693b1d0922), y, para The Lost Levels, tu imagen de disco smb2j.fds (SHA-1 3b8c8998b4887d6dd676965943d69a320738ab9c o 20e50128742162ee47561db9e82b2836399c880c); no admite ROM hacks que cambien el código ni otros datos. Además, Windows o Linux de 64 bits; en Linux, SDL 3 de tu gestor de paquetes."
+  en: "Your own NTSC Super Mario Bros. ROM for NES, as smb.nes (SHA-1 ea343f4e445a9050d4b4fbac2c77d0693b1d0922), and, for The Lost Levels, your smb2j.fds disk image (SHA-1 3b8c8998b4887d6dd676965943d69a320738ab9c or 20e50128742162ee47561db9e82b2836399c880c); ROM hacks that change code or other data aren’t supported. Plus 64-bit Windows or Linux; on Linux, SDL 3 from your package manager."
+tags:
+  - "6502"
+  - mario
+  - reverse-engineering
+  - human-driven
+links:
+  - label: "Codeberg"
+    url: https://codeberg.org/dannysp/SMB-Vanilla

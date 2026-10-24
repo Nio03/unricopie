@@ -1,0 +1,15 @@
+name: "Terraria (TerrariaOGC)"
+category: decomp-port
+console: x360
+status: playable
+repo: PPrism/TerrariaOGC
+originalDeveloper: "Engine Software / Re-Logic"
+year: 2013
+desc:
+  es: "TerrariaOGC: decompilación y port a PC de las versiones «de la vieja generación» de Terraria para consola, las de Xbox 360 y PS3 de 2013 hechas por Engine Software, que ya no se pueden comprar porque sus tiendas cerraron. Su autor pide apoyar las versiones oficiales y aclara que no pretende ser un sustituto gratuito. Permite jugar las versiones de consola 1.00 (lanzamiento), equivalente a la 1.1.2 de PC, y 1.01 (con novedades de la 1.2 de PC); la 1.03 (equivalente a la PC 1.2.1.2) y la 1.09 (la última, la PC 1.2.4.1) llegarán más adelante. Añade tamaños de pantalla variables, ajustes opcionales de juego en Settings.ini, un contador de FPS, un sistema de logros basado en el de Xbox 360 y PS3, copias de seguridad de los mundos al guardar y la posibilidad de traer partidas de las versiones originales si coinciden en versión. El código auxiliar usa una mezcla de FNA y MonoGame con red de Lidgren.Network. Arranca en modo de prueba para no fomentar la piratería. La última versión es la 1.03 del proyecto (30 de abril de 2026), solo con código, y el último commit es del 27 de mayo. Por ahora solo se compila en Windows con Visual Studio; no hay soporte para otros sistemas."
+  en: "TerrariaOGC: a decompilation and PC port of the “old-gen” console versions of Terraria, the 2013 Xbox 360 and PS3 releases made by Engine Software, which can no longer be bought because their stores closed. Its author asks people to support the official releases and says it isn’t meant as a free substitute. It can play console versions 1.00 (launch), equivalent to PC 1.1.2, and 1.01 (with some PC 1.2 additions); 1.03 (equivalent to PC 1.2.1.2) and 1.09 (the last one, PC 1.2.4.1) are planned for later. It adds variable screen sizes, optional gameplay tweaks in Settings.ini, an FPS counter, an achievement system based on the Xbox 360 and PS3 one, world backups on save, and the ability to bring over saves from the original versions if the version matches. The auxiliary code uses a mix of FNA and MonoGame with Lidgren.Network for networking. It starts in trial mode so as not to encourage piracy. The latest release is the project’s 1.03 (April 30, 2026), source only, and the last commit is from May 27. For now it builds only on Windows with Visual Studio; there is no support for other systems."
+requirements:
+  es: "Los recursos de tu propia copia de la versión de Xbox 360 o de PS3 de Terraria de la vieja generación; el repositorio no los incluye. No hay versiones compiladas: hay que compilarlo en Windows con Visual Studio, según el WINBUILD.md del proyecto."
+  en: "The assets from your own copy of the old-gen Xbox 360 or PS3 version of Terraria; the repository doesn’t include them. There are no compiled builds: you have to build it on Windows with Visual Studio, following the project’s WINBUILD.md."
+tags:
+  - dotnet

@@ -1,0 +1,17 @@
+name: ReHitman
+kind: mod
+console: pc
+game:
+  es: "Hitman: Blood Money (PC, 2006)"
+  en: "Hitman: Blood Money (PC, 2006)"
+repo: ReGlacier/ReHitman
+status: experimental
+desc:
+  es: "ReHitman: proyecto de ingeniería inversa del ejecutable de Hitman: Blood Money, hecho para su última compilación (la que lleva en el ejecutable la cadena blood-build3-20060616-26123). No es un port ni una decompilación que genere un ejecutable propio: se instala copiando NVCPL.dll y ReHitman.dll a la carpeta del juego y se arranca HitmanBloodMoney.exe, y la DLL se engancha al motor Glacier del juego. Su objetivo final es crear un modo multijugador parecido al de Mafia 2, y sus metas incluyen un SDK abierto para el motor Glacier 1 (hecho), una interfaz ImGui sobre el envoltorio del renderizador de Glacier (hecha), el estudio de la entrada (hecho), de la API de dibujo, de la interfaz y del formato de escenas, y un conjunto de herramientas para el juego. El repositorio recoge los resultados como cabeceras de C++ del motor y del juego, con herramientas como paneles de actores en pantalla. Hay una versión de prueba, la 1.1.0 (7 de junio de 2026), y versiones anteriores de 2020 y 2021; el último commit es de octubre. No indica licencia."
+  en: "ReHitman: a reverse-engineering project for the Hitman: Blood Money executable, made for its last build (the one carrying the string blood-build3-20060616-26123 in the executable). It isn’t a port or a decompilation that produces an executable of its own: you install it by copying NVCPL.dll and ReHitman.dll into the game folder and launching HitmanBloodMoney.exe, and the DLL hooks into the game’s Glacier engine. Its final goal is to build a multiplayer mode similar to Mafia 2’s, and its goals include an open SDK for the Glacier 1 engine (done), an ImGui interface over Glacier’s renderer wrapper (done), reversing the input (done), the rendering API, the GUI, and the scene format, and a toolset for the game. The repository collects the results as C++ headers of the engine and game, with tools such as on-screen actor panels. There is one pre-release, 1.1.0 (June 7, 2026), and earlier releases from 2020 and 2021; the last commit is from October. It states no license."
+requirements:
+  es: "Tu propia copia de Hitman: Blood Money para PC en su última versión (la compilación 20060616-26123). NVCPL.dll y ReHitman.dll van en la carpeta del juego. Además, Windows."
+  en: "Your own copy of Hitman: Blood Money for PC in its latest version (build 20060616-26123). NVCPL.dll and ReHitman.dll go in the game folder. Plus Windows."
+tags:
+  - reverse-engineering
+  - mods

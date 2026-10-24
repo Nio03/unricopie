@@ -1,0 +1,21 @@
+name: "Doom II RPG (DoomIIRPG-RE)"
+category: fan-remake
+console: mobile
+status: playable
+repo: Erick194/DoomIIRPG-RE
+author: "Erick Vásquez García ([GEC])"
+originalDeveloper: "id Software / Fountainhead Entertainment"
+year: 2010
+desc:
+  es: "DoomIIRPG-RE: reconstrucción en C++ de Doom II RPG, el juego de rol por turnos de id Software y Fountainhead Entertainment para teléfonos móviles, hecha por ingeniería inversa por Erick Vásquez García, del grupo [GEC], el mismo autor de DoomRPG-RE, y llevada a PC con SDL2 y OpenAL. Funciona con los datos de la versión para iPhone: lee directamente el archivo .ipa del juego, que tiene que llamarse «Doom 2 RPG.ipa» y estar junto al ejecutable (una PR abierta, la #7, permite indicar su ruta al arrancar). El README recoge la asignación de teclas por defecto y los trucos del juego original para Java ME y BREW, entre ellos el que abre su menú de depuración. La versión actual es la 0.1, publicada el 11 de diciembre de 2023 con una compilación para Windows. Después recibió aportaciones de otros autores: la compilación con MinGW y para Linux (abril de 2024), arreglos para sistemas big-endian y la compilación en macOS (julio de 2025). Dos PR de 2026 avisan de que la rama principal no compila desde una reorganización del código de julio de 2025 (#6 y #8, cerradas sin fusionar), y el autor de esa reorganización tiene abierta otra con correcciones (#9)."
+  en: "DoomIIRPG-RE: a C++ reconstruction of Doom II RPG, id Software and Fountainhead Entertainment’s turn-based RPG for mobile phones, reverse-engineered by Erick Vásquez García of the [GEC] group, the author of DoomRPG-RE, and brought to PC with SDL2 and OpenAL. It runs on the data from the iPhone version: it reads the game’s .ipa file directly, which has to be named “Doom 2 RPG.ipa” and sit next to the executable (an open PR, #7, lets you pass its path at launch). The README lists the default key bindings and the original game’s cheat codes for Java ME and BREW, including the one that opens its debug menu. The current version is 0.1, released on December 11, 2023 with a Windows build. It later took contributions from other authors: building with MinGW and for Linux (April 2024), big-endian fixes, and building on macOS (July 2025). Two PRs from 2026 report that the main branch hasn’t compiled since a July 2025 code refactor (#6 and #8, closed without merging), and the author of that refactor has another one open with fixes (#9)."
+requirements:
+  es: "El archivo .ipa de tu propia copia de Doom II RPG para iPhone, con el nombre «Doom 2 RPG.ipa» y junto al ejecutable. La compilación publicada es para Windows; para Linux o macOS hay que compilarlo con CMake, SDL2, zlib y OpenAL."
+  en: "The .ipa file from your own copy of Doom II RPG for iPhone, named “Doom 2 RPG.ipa” and placed next to the executable. The released build is for Windows; for Linux or macOS you build it with CMake, SDL2, zlib, and OpenAL."
+tags:
+  - reverse-engineering
+links:
+  - label:
+      es: "Hilo en Doomworld"
+      en: "Doomworld thread"
+    url: https://www.doomworld.com/forum/topic/135602

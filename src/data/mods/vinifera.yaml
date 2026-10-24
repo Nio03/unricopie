@@ -1,0 +1,19 @@
+name: "Vinifera"
+kind: mod
+console: pc
+game:
+  es: "Command & Conquer: Tiberian Sun (PC, 1999)"
+  en: "Command & Conquer: Tiberian Sun (PC, 1999)"
+repo: Vinifera-Developers/Vinifera
+homepage: https://vinifera.readthedocs.io/
+status: stable
+desc:
+  es: "Vinifera: extensión del motor de Command & Conquer: Tiberian Sun hecha por la comunidad, de código abierto (GPL-3.0), con funciones nuevas y arreglos de fallos pensados para quien hace mods. Un lanzador propio, LaunchVinifera.exe, arranca el juego con la DLL inyectada por SyringeEx en GAME.EXE; solo admite la versión 2.03 en inglés de EE. UU., por limitaciones técnicas al parchear el binario. Se integra en el TS Client, que tiene un canal «Vinifera Beta», y su documentación está en vinifera.readthedocs.io. La versión 1.0.0.0 (22 de agosto de 2026) añadió, entre otras cosas, personalización de la luz de los vóxeles, la opción de desactivar el almacenamiento de Tiberium, descripciones propias de las superarmas en la barra lateral, variables enteras y nuevas acciones y eventos de disparadores, balizas multijugador, mejoras del chat, ascensos de unidades con sonido y aviso de EVA y estelas personalizables, y cambió DirectDraw por SDL; la 1.0.0.1 (23 de agosto) corrige la carga de partidas guardadas desde el cliente. Hay compilaciones nocturnas de la rama develop. 5 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Vinifera: a community-made, open-source (GPL-3.0) engine extension for Command & Conquer: Tiberian Sun, with new features and bug fixes aimed at mod makers. A launcher of its own, LaunchVinifera.exe, starts the game with the DLL that SyringeEx injects into GAME.EXE; it only supports version 2.03 in US English, because of technical limitations in patching the binary. It integrates with the TS Client, which has a “Vinifera Beta” channel, and its documentation is at vinifera.readthedocs.io. Version 1.0.0.0 (August 22, 2026) added, among other things, voxel light customization, an option to disable Tiberium storage, custom superweapon descriptions in the sidebar, integer variables and new trigger actions and events, multiplayer beacons, chat improvements, unit promotions with sound and an EVA announcement, and customizable wakes, and it replaced DirectDraw with SDL; 1.0.0.1 (August 23) fixes loading saved games from the client. Nightly builds of the develop branch are available. 5 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Tiberian Sun actualizada a la versión 2.03 en inglés de EE. UU. (EA lo liberó como freeware en 2010, y el README enlaza espejos no oficiales de los discos de GDI, Nod y Firestorm; también se compra en la Command & Conquer: The Ultimate Collection de Steam). Los archivos de Vinifera se extraen en la carpeta del juego, donde está Game.exe, y se arranca con LaunchVinifera.exe. Windows."
+  en: "Your own copy of Tiberian Sun updated to version 2.03 in US English (EA released it as freeware in 2010, and the README links unofficial mirrors of the GDI, Nod, and Firestorm discs; it can also be bought in Steam’s Command & Conquer: The Ultimate Collection). Vinifera’s files are extracted into the game folder, where Game.exe is, and you launch with LaunchVinifera.exe. Windows."
+tags:
+  - mods
+  - reverse-engineering
+  - ai-assisted

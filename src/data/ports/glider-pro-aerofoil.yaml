@@ -1,0 +1,20 @@
+name: "Glider PRO (Aerofoil)"
+category: source-port
+console: mac
+status: fully
+repo: elasota/Aerofoil
+originalDeveloper: John Calhoun
+year: 1994
+desc:
+  es: "Aerofoil: port de Glider PRO, el clásico juego de avioncitos de papel para Macintosh de John Calhoun (1994), a partir del código fuente que el autor publicó con licencia GPL-2.0. Ofrece una interfaz al estilo de los noventa, mando, escalado de alta calidad con corrección de color, un port completo del editor de niveles, herramientas de importación que desempaquetan y convierten la mayoría del contenido de la comunidad y una interfaz táctil nueva para móviles. Los datos del juego (la aplicación y las casas, es decir, los niveles, de Calhoun, Kim Money, Jonathan Chin, Ward Hartenstein, Shawn Brenneman, Steve Sullivan y otros) se publican junto al código, por lo que el repositorio los incluye (unos 49 MB) y las descargas ya los traen. Las versiones de Windows llegan a la 1.1.2 (10 de noviembre de 2021); la de macOS es la 1.1.0 (14 de mayo de 2021). También hay versión de navegador (HTML5) en itch.io. La de Android se ha abandonado por su mantenimiento y su ficha de Google Play se retiró en agosto de 2025. El último commit es del 6 de septiembre de 2026."
+  en: "Aerofoil: a port of Glider PRO, John Calhoun’s classic paper airplane game for the Macintosh (1994), from the source code the author released under the GPL-2.0. It offers a 90s-style interface, gamepad support, high-quality upscaling with color correction, a full port of the level editor, import tools that unpack and convert most community content, and a new touchscreen interface for mobile devices. The game’s data (the application and the houses, meaning the levels, by Calhoun, Kim Money, Jonathan Chin, Ward Hartenstein, Shawn Brenneman, Steve Sullivan, and others) is published alongside the code, so the repository includes it (about 49 MB) and the downloads already bring it. The Windows releases go up to 1.1.2 (November 10, 2021); the macOS one is 1.1.0 (May 14, 2021). There’s also a browser (HTML5) version on itch.io. The Android version has been discontinued because of its maintenance demands, and its Google Play listing was retired in August 2025. The last commit is from September 6, 2026."
+requirements:
+  es: "Ninguna copia: el autor publicó el juego con su código y los datos van incluidos en las descargas. Además, Windows o macOS (o un navegador, en la versión de itch.io)."
+  en: "No copy needed: the author published the game with its code and the data comes with the downloads. Plus Windows or macOS (or a browser, with the itch.io version)."
+tags:
+  - mods
+links:
+  - label:
+      es: "Aerofoil en itch.io"
+      en: "Aerofoil on itch.io"
+    url: https://galeforcegames.itch.io/aerofoil

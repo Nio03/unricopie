@@ -1,0 +1,19 @@
+name: Sin and Punishment
+console: n64
+status: playable
+repo: wootbeer/snprecomp
+originalDeveloper: Treasure
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de Sin and Punishment (Tsumi to Batsu: Hoshi no Keishousha), hecho con N64Recomp, N64ModernRuntime y RT64. La última versión es la 0.2.1 Beta (24 de octubre de 2026). Ofrece pantalla ancha con el HUD anclado a los bordes (experimental), más de 30 fps (experimental), resoluciones altas, apuntado con ratón (absoluto o relativo) o con stick analógico, mandos de doble stick reasignables, paquetes de texturas RT64 y Rice, filtros de pantalla, desbloqueables y trucos en los ajustes. Puedes tener a la vez una ROM japonesa y otra con traducción al inglés, cada una con sus partidas. La compilación de Linux y Steam Deck está sin probar. 67 de sus últimos 68 commits llevan a Claude como coautor."
+  en: "Native PC port of Sin and Punishment (Tsumi to Batsu: Hoshi no Keishousha), made with N64Recomp, N64ModernRuntime and RT64. The latest release is 0.2.1 Beta (October 24, 2026). It offers widescreen with the HUD anchored to the screen edges (experimental), framerates above 30 fps (experimental), high resolutions, mouse aiming (absolute or relative) or analog stick aiming, remappable twin-stick controls, RT64 and Rice texture packs, screen filters, and unlocks and cheats in the settings. You can keep a Japanese ROM and an English-translated one at the same time, each with its own saves. The Linux and Steam Deck build is untested. 67 of its last 68 commits list Claude as a co-author."
+requirements:
+  es: "Una ROM de Tsumi to Batsu - Hoshi no Keishousha (Japón, SHA-1 581297b9d5c3a4c33169ae0aae218c742cd9cbcf) o una traducción al inglés parcheada sobre ella (.z64, .n64 o .v64). No se incluye ningún dato del juego. Windows; Linux y Steam Deck sin probar."
+  en: "A Tsumi to Batsu - Hoshi no Keishousha ROM (Japan, SHA-1 581297b9d5c3a4c33169ae0aae218c742cd9cbcf) or an English translation patched onto it (.z64, .n64 or .v64). No game data is included. Windows; Linux and Steam Deck untested."
+tags:
+  - widescreen
+  - 60fps+
+  - mods
+  - launcher
+  - ai-assisted

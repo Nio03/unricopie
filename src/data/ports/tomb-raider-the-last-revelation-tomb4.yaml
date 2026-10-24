@@ -1,0 +1,15 @@
+name: "Tomb Raider: The Last Revelation (TOMB4)"
+category: decomp-port
+console: pc
+status: playable
+repo: Trxyebeep/TOMB4
+originalDeveloper: Core Design
+year: 1999
+desc:
+  es: "TOMB4: decompilación de la versión de PC de Tomb Raider: The Last Revelation, de los autores de TOMB5, la de Chronicles. Se inspira en TR2Main, de Arsunt, y su objetivo declarado es conservar el código fuente original de la versión de PC. Empezó como una DLL que sustituía funciones del juego y, desde la 2.0.0 (17 de octubre de 2022), compila su propio ejecutable, ya sin DLL. Añade un menú de opciones nuevo con sombras de varios estilos, huellas, gateo flexible, barras de vida con los colores y posiciones de TR5 o de PlayStation, barras de enemigos, un menú de fin de partida como el de PlayStation, saltarse escenas con ESC y trucos. Desde la 2.2.0 (5 de mayo de 2023) admite el nivel exclusivo de The Times: la descarga The.Times.Exclusive.zip (unos 25 MB) es un paquete jugable con todo lo necesario para ese nivel, incluido un ejecutable modificado solo para él, que no se debe usar con el juego base. La última versión es la 2.2.1 (6 de mayo de 2023), con el último commit en septiembre de 2023."
+  en: "TOMB4: a decompilation of the PC version of Tomb Raider: The Last Revelation, by the authors of TOMB5, the Chronicles one. It’s inspired by Arsunt’s TR2Main, and its stated goal is to preserve the original source code of the PC version. It started as a DLL that replaced game functions and, since 2.0.0 (October 17, 2022), builds its own executable, with no DLL. It adds a new options menu with several shadow styles, footprints, flexible crawling, health bars with TR5 or PlayStation colors and positions, enemy bars, a PlayStation-style game-over menu, skipping cutscenes with ESC, and cheats. Since 2.2.0 (May 5, 2023) it supports The Times Exclusive level: the download The.Times.Exclusive.zip (about 25 MB) is a playable package with everything needed for that level, including an executable modified only for it, which must not be used with the base game. The latest release is 2.2.1 (May 6, 2023), with the last commit in September 2023."
+requirements:
+  es: "Para el juego completo, tu propia copia de Tomb Raider: The Last Revelation para PC, de Steam, GOG o en CD; con el CD hay que copiar a la carpeta del juego las carpetas audio, data y fmv, SCRIPT.DAT y el .dat del idioma. El contenido de la descarga se copia encima. Para el nivel de The Times no hace falta ninguna copia: su paquete lo trae todo. Además, Windows."
+  en: "For the full game, your own copy of Tomb Raider: The Last Revelation for PC, from Steam, GOG, or on CD; with the CD you also copy the audio, data, and fmv folders, SCRIPT.DAT, and your language’s .dat into the game folder. The download’s contents are copied over it. For The Times level no copy is needed: its package includes everything. Plus Windows."
+tags:
+  - x86

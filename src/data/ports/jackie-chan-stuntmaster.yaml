@@ -1,0 +1,17 @@
+name: "Jackie Chan Stuntmaster (ReChan)"
+category: fan-remake
+console: ps1
+status: playable
+repo: SilverwireGames/ReChan
+homepage: https://silverwiregames.com/rechan
+originalDeveloper: Radical Entertainment
+year: 2000
+desc:
+  es: "ReChan: reimplementación de Jackie Chan Stuntmaster, el juego de PlayStation, escrita en C++ para PC a partir de ingeniería inversa. No es un emulador de PS1: reescribe la lógica del juego, reconstruye sus estructuras y formatos de datos e intenta igualar su comportamiento original, tras un trabajo largo de documentación del código original. Empezó en octubre de 2025 y apunta a la versión NTSC-U (SLUS-00684). Añade ratón y teclado, pantalla panorámica HOR+, mayor resolución, opciones propias de PC y mejoras de comodidad. Al primer arranque comprueba la imagen de disco y extrae los recursos necesarios con un extractor propio, sin necesidad de otra herramienta; después se puede borrar la imagen. La versión de prueba más reciente es la 1.0.2 (13 de octubre de 2026), con arreglos de cierres, enemigos y guiones de escenas; funciona en Windows y Linux de 64 bits (x86-64) y el proyecto publica también una compilación para Switch. El paquete incluye archivos nuevos hechos por el autor del proyecto (textos, fuentes y texturas), no sacados del juego. Código con licencia MIT."
+  en: "ReChan: a reimplementation of Jackie Chan Stuntmaster, the PlayStation game, written in C++ for PC through reverse engineering. It isn’t a PS1 emulator: it rewrites the game logic, rebuilds its data structures and formats, and tries to match the original behavior, after a long effort of documenting the original code. It started in October 2025 and targets the NTSC-U version (SLUS-00684). It adds keyboard and mouse, HOR+ widescreen, higher resolution, PC-specific settings, and quality-of-life improvements. On first launch it checks the disc image and extracts the required assets with its own extractor, with no separate tool needed; afterward the image can be deleted. The most recent pre-release is 1.0.2 (October 13, 2026), with fixes for crashes, enemies, and cutscene scripts; it runs on 64-bit (x86-64) Windows and Linux, and the project also publishes a Switch build. The package includes new files made by the project’s author (text, fonts, and textures), not taken from the game. Code under the MIT license."
+requirements:
+  es: "Una imagen de disco (.bin o .iso) de tu propia copia estadounidense de Jackie Chan Stuntmaster para PS1 (SLUS-00684) en una carpeta discimage junto al ejecutable; la versión PAL no es compatible. Además, Windows o Linux de 64 bits (x86-64)."
+  en: "A disc image (.bin or .iso) of your own US copy of Jackie Chan Stuntmaster for PS1 (SLUS-00684) in a discimage folder beside the executable; the PAL version isn’t supported. Plus 64-bit Windows or Linux (x86-64)."
+tags:
+  - widescreen
+  - reverse-engineering

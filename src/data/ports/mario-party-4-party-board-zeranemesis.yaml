@@ -1,0 +1,24 @@
+name: "Mario Party 4 (Party Board, zeranemesis)"
+category: decomp-port
+console: gamecube
+status: playable
+repo: zeranemesis/Marioparty4
+originalDeveloper: "Hudson Soft"
+year: 2002
+desc:
+  es: "Party Board: port nativo de Mario Party 4 (GameCube) construido sobre la decompilación del juego; no es un emulador. Corre en Windows (con el gestor CubeShelf o con un zip), Linux (AppImage), macOS (Apple Silicon e Intel), móviles Android y Meta Quest, en estéreo 3D y realidad mixta; la versión para Switch como homebrew se compila, pero aún no se ha probado en una consola. El juego se arranca desde una imagen de disco (ISO, RVZ, WIA o GCZ) que se comprueba por hash. Admite de 60 a 240 fps sin acelerar el juego, HUD panorámico adaptable o 4:3 fijo, resolución interna y de sombras ajustables, varios motores gráficos (Direct3D 12 y 11, Vulkan, Metal, OpenGL…), mando, teclado y ratón, mando táctil en pantalla, tecla turbo, modo speedrun, desbloqueo de minijuegos sin tocar tu partida, RetroAchievements y mods aplicados sobre la imagen sin reescribirla (con CubeShelf). Tiene juego en línea de dos a cuatro jugadores desde Windows y Android, en red local o en salas privadas y públicas, con simulación sincronizada y comparación de estado en cada tick, y con un relé para quien no pueda abrir puertos. La 0.20.0 (16 de octubre) es la última versión, marcada como prelanzamiento. El README agradece su trabajo a la comunidad de decompilación de GameCube y Wii, a los desarrolladores de Aurora y de Dusk y a los colaboradores de mariopartyrd/partyboard, otro repositorio de Party Board. La carpeta dist/ guarda un ZIP de 30,7 MB con una copia de seguridad de una compilación de Windows (ejecutable y DLL del código del juego y de la interfaz, sin datos del juego). 83 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Party Board: a native port of Mario Party 4 (GameCube) built on the game’s decompilation; it isn’t an emulator. It runs on Windows (through the CubeShelf manager or from a zip), Linux (AppImage), macOS (Apple silicon and Intel), Android phones, and Meta Quest, in stereo 3D and mixed reality; the Switch homebrew version builds but hasn’t been run on a console yet. The game starts from a disc image (ISO, RVZ, WIA, or GCZ) that is checked by hash. It supports 60 to 240 fps without speeding the game up, an adaptive widescreen HUD or a locked 4:3, adjustable internal and shadow resolution, several graphics backends (Direct3D 12 and 11, Vulkan, Metal, OpenGL…), gamepad, keyboard, and mouse, an on-screen touch controller, a turbo key, a speedrun mode, unlocking minigames without touching your save, RetroAchievements, and mods applied on top of the image without rewriting it (through CubeShelf). It has online play for two to four players from Windows and Android, on a local network or in private and public rooms, with a lockstep simulation and a state comparison every tick, and a relay for anyone who can’t open ports. Version 0.20.0 (October 16) is the latest, marked as a pre-release. The README thanks the GameCube and Wii decompilation community, the Aurora and Dusk developers, and the contributors to mariopartyrd/partyboard, another Party Board repository. The dist/ folder holds a 30.7 MB ZIP with a backup of a Windows build (the executable and DLLs of the game code and the interface, with no game data). 83 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Mario Party 4 para GameCube como imagen de disco (ISO, RVZ, WIA o GCZ): la estadounidense GMPE01 (revisión 0 o 1) o la europea GMPP01; la japonesa GMPJ01 se reconoce, pero aún no está soportada. Para jugar en línea, todos los jugadores necesitan el mismo disco (la estadounidense revisión 1 o la europea). Además, Windows, Linux, macOS, Android o Meta Quest."
+  en: "Your own copy of Mario Party 4 for GameCube as a disc image (ISO, RVZ, WIA, or GCZ): the US GMPE01 (revision 0 or 1) or the European GMPP01; the Japanese GMPJ01 is recognized but not supported yet. To play online, all players need the same disc (US revision 1 or the European one). Plus Windows, Linux, macOS, Android, or Meta Quest."
+tags:
+  - powerpc
+  - online
+  - multiplayer
+  - 60fps+
+  - widescreen
+  - mods
+  - ai-assisted
+links:
+  - label: "mariopartyrd/partyboard"
+    url: https://github.com/mariopartyrd/partyboard

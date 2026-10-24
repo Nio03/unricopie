@@ -1,0 +1,21 @@
+name: "Descent 3 (Descent3)"
+category: source-port
+console: pc
+status: fully
+repo: DescentDevelopers/Descent3
+originalDeveloper: Outrage Entertainment
+year: 1999
+desc:
+  es: "Descent3: la versión comunitaria del motor de Descent 3, publicado como código abierto con licencia GPL-3.0 el 16 de abril de 2024. Incluye el parche 1.5 que escribieron Kevin Bentley y Jeff Slutter, que nunca llegó a salir, y la comunidad de Descent lo llevó a un estado estable. La 1.5.0 (16 de agosto de 2024), primera versión, es obra de 28 colaboradores en cuatro meses: completa lo que le faltaba al parche, da prioridad a la compatibilidad con CPU actuales y a la experiencia de desarrollo, y deja las funciones casi idénticas a las del código publicado. Funciona en Linux, Windows y macOS de 64 bits, con SDL2, en procesadores AMD64 y ARM64; se dejó el soporte de 32 bits. Trae también HogMaker, una utilidad que genera los archivos HOG con los scripts de los niveles para cada plataforma. Hay compilaciones oficiales para Windows x64, Linux x64 y macOS (Intel y Apple Silicon). El proyecto sigue activo: el último commit es del 23 de octubre. El repositorio incluye los scripts de los niveles y archivos de datos de demo (carpeta demohog) y no contiene los recursos del juego."
+  en: "Descent3: the community edition of the Descent 3 engine, released as open source under the GPL-3.0 on April 16, 2024. It includes the 1.5 patch that Kevin Bentley and Jeff Slutter wrote, which never shipped, brought to a stable state by the Descent community. Version 1.5.0 (August 16, 2024), the first release, is the work of 28 contributors over four months: it fills in what the patch was missing, prioritizes compatibility with current CPUs and the developer experience, and keeps features mostly identical to the released code. It runs on 64-bit Linux, Windows, and macOS using SDL2, on AMD64 and ARM64 processors; 32-bit support was dropped. It also ships HogMaker, a utility that builds platform-specific HOG files with the level scripts. There are official builds for Windows x64, Linux x64, and macOS (Intel and Apple silicon). The project is still active: the last commit is from October 23. The repository includes the level scripts and demo data files (the demohog folder) and does not contain the game’s assets."
+requirements:
+  es: "Los archivos de datos de tu propia copia de Descent 3, que se copian como explica el USAGE.md que acompaña al ejecutable; el proyecto no incluye recursos del juego. Además, Windows, Linux o macOS de 64 bits (x86-64 o ARM64)."
+  en: "The data files from your own copy of Descent 3, copied as described in the USAGE.md that ships with the executable; the project includes no game assets. Plus 64-bit Windows, Linux, or macOS (x86-64 or ARM64)."
+tags:
+  - fps
+  - mods
+links:
+  - label:
+      es: "Hoja de ruta colaborativa"
+      en: "Collaborative roadmap"
+    url: https://github.com/DescentDevelopers/Descent3/discussions/531

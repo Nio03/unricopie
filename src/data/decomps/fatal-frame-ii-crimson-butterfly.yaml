@@ -1,0 +1,13 @@
+name: "Fatal Frame II: Crimson Butterfly"
+console: ps2
+repo: Mikompilation/Mikompilation
+desc:
+  es: "Mikompilation: proyecto de decompilación del motor de Fatal Frame II: Crimson Butterfly (Project Zero 2, 零～紅い蝶) para PS2, hermano de Himuro, la decompilación del primer juego de la serie. Su objetivo declarado es tener un port completamente jugable en PC y quizá en otras plataformas. La documentación está en mikompilation.com, el código usa licencia BSD-2-Clause y la única versión marcada es la v0.0.1 (5 de enero de 2023), una etiqueta de la estructura antigua del proyecto, sin binarios. El último commit es de febrero de 2024. El repositorio incluye una carpeta reversing/ de unos 63 MB con un volcado en JSON de los símbolos de depuración del ejecutable del juego (unos 60 MB, con archivos fuente, funciones y tipos) y un archivo de cabeceras con sus funciones."
+  en: "Mikompilation: a decompilation project for the engine of Fatal Frame II: Crimson Butterfly (Project Zero 2, 零～紅い蝶) on PS2, a sibling of Himuro, the decompilation of the series’ first game. Its stated goal is a fully playable port on PC and perhaps other platforms. The documentation is at mikompilation.com, the code uses the BSD-2-Clause license, and the only tagged release is v0.0.1 (January 5, 2023), a tag of the project’s old structure, with no binaries. The last commit is from February 2024. The repository includes a reversing/ folder of about 63 MB with a JSON dump of the debug symbols from the game’s executable (about 60 MB, with source files, functions, and types) and a header file of its functions."
+tags:
+  - reverse-engineering
+links:
+  - label:
+      es: "Documentación"
+      en: "Documentation"
+    url: https://mikompilation.com

@@ -1,0 +1,23 @@
+name: "Moon Child (Moon Child FE)"
+category: source-port
+console: pc
+status: fully
+repo: MorsGames/MoonChildFE
+homepage: https://mors.games/projects/moon-child-fe
+originalDeveloper: "Reinier van Vliet / Metin Seven / Ramon Braumuller"
+year: 1997
+desc:
+  es: "Moon Child FE (Friend Edition): port a Windows, Linux y macOS del código fuente de Moon Child, el juego de plataformas de 1997 para Windows 95 de Reinier van Vliet (programación), Metin Seven (gráficos) y Ramon Braumuller (música y sonidos). Parte del código que Reinier van Vliet publicó en abril de 2026, una versión portable con SDL, con el código bajo licencia MIT y los gráficos, la música y los sonidos bajo CC BY-NC 4.0; según el proyecto, se basa en la versión posterior para iOS y recupera de la de Windows 95 cosas como la disposición de los menús y los vídeos. Lo hace Mors, con aportaciones de otros autores. Guarda y carga el progreso automáticamente, tiene mando, teclas separadas para «arriba» y «saltar», pantalla completa o ventana, cambio entre 50 y 60 fps con sincronización vertical, escalado sin parpadeos, audio de algo más de calidad, una música alternativa para la pantalla de título y los créditos actualizados, y añade un modo speedrun con cronómetro, una opción que hace más intuitivo disparar con la mochila propulsora y otra que hace el último nivel algo más llevadero para la vista. Tiene también una versión web que se juega en el navegador, con el juego completo, como las descargas. Salió el 22 de abril; la 1.1.0 (16 de mayo) añadió macOS y la última versión es la 1.1.1 (5 de junio). Después ha recibido música de más calidad y compatibilidad con SDL2 además de SDL3."
+  en: "Moon Child FE (Friend Edition): a port to Windows, Linux, and macOS of the source code of Moon Child, the 1997 Windows 95 platformer by Reinier van Vliet (programming), Metin Seven (graphics), and Ramon Braumuller (music and sound). It builds on the code Reinier van Vliet released in April 2026, a portable SDL version, with the code under the MIT license and the graphics, music, and sound under CC BY-NC 4.0; according to the project, it’s based on the later iOS release and restores things from the Windows 95 version such as the menu layout and the videos. It’s made by Mors, with contributions from other authors. It saves and loads progress automatically and has controller support, separate keys for “Up” and “Jump,” fullscreen or windowed modes, a 50/60 fps toggle with vsync, shimmer-free scaling, slightly higher-quality audio, alternate title screen music, and updated credits, and it adds a speedrun mode with a timer, an option that makes jetpack shooting more intuitive, and another that makes the final level slightly easier on the eyes. There’s also a web version you play in the browser, with the full game, like the downloads. It came out on April 22; 1.1.0 (May 16) added macOS, and the latest release is 1.1.1 (June 5). Since then it has received higher-quality music and SDL2 support alongside SDL3."
+requirements:
+  es: "No hace falta ninguna copia: el código de Moon Child se publicó con licencia MIT y sus gráficos, música y sonidos con CC BY-NC 4.0, así que las descargas traen el juego completo. Además, Windows de 64 o 32 bits, Linux x64 o macOS (binario universal para Intel y Apple Silicon); la versión web solo necesita un navegador."
+  en: "No copy needed: Moon Child’s code was released under the MIT license and its graphics, music, and sound under CC BY-NC 4.0, so the downloads include the full game. Plus 64- or 32-bit Windows, x64 Linux, or macOS (a universal binary for Intel and Apple Silicon); the web version only needs a browser."
+links:
+  - label:
+      es: "Versión web (itch.io)"
+      en: "Web version (itch.io)"
+    url: https://mors-games.itch.io/moon-child-fe
+  - label:
+      es: "Código original (Reinier van Vliet)"
+      en: "Original source code (Reinier van Vliet)"
+    url: https://bitbucket.org/rhinoid/moonchild

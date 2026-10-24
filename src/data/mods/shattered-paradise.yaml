@@ -1,0 +1,18 @@
+name: Shattered Paradise
+kind: mod
+console: pc
+game:
+  es: "Command & Conquer: Tiberian Sun y su expansión Firestorm (PC), a través de OpenRA"
+  en: "Command & Conquer: Tiberian Sun and its Firestorm expansion (PC), through OpenRA"
+repo: ABrandau/Shattered-Paradise-SDK
+homepage: http://www.moddb.com/mods/shattered-paradise
+status: beta
+desc:
+  es: "Shattered Paradise: mod de OpenRA ambientado en el universo de Tiberian Sun, con las facciones GDI, Nod, Mutantes, Cabal y Scrin, mapas de campaña y unidades, estructuras y mejoras propias. Este repositorio es su ModSDK y su kit de instalación: se puede compilar con make (Linux y macOS) o make.cmd (Windows), con las mismas dependencias que OpenRA. Las descargas de la página de versiones, de entre 200 y 290 MB, son versiones de prueba («playtest») para Windows (instalador y portátil, x86 y x64), Linux (AppImage) y macOS (dmg); la última es del 31 de diciembre de 2024 y el último commit del repositorio, de septiembre de 2025. Las descargas traen el motor de OpenRA con el mod y los recursos propios de Shattered Paradise, que publica con licencia CC BY-NC; los archivos de Tiberian Sun los toma de un instalador de contenido aparte. El código del motor y del SDK es GPLv3."
+  en: "Shattered Paradise: an OpenRA mod set in the Tiberian Sun universe, with the GDI, Nod, Mutant, Cabal, and Scrin factions, campaign maps, and units, structures, and upgrades of its own. This repository is its ModSDK and installation kit: it can be built with make (Linux and macOS) or make.cmd (Windows), with the same dependencies as OpenRA. The downloads on the releases page, between 200 and 290 MB, are playtest builds for Windows (installer and portable, x86 and x64), Linux (AppImage), and macOS (dmg); the latest is from December 31, 2024 and the repository’s last commit from September 2025. The downloads bring the OpenRA engine with the mod and Shattered Paradise’s own assets, which it publishes under CC BY-NC; the Tiberian Sun files come from a separate content installer. The engine and SDK code is GPLv3."
+requirements:
+  es: "Los archivos de Tiberian Sun y de la expansión Firestorm (cache.mix, conquer.mix, la carpeta firestorm, etc.), que el instalador de contenido del mod toma de una copia instalada (First Decade, Steam u Origin) o descarga; la música sale solo de una copia. Además, Windows, Linux o macOS."
+  en: "The files from Tiberian Sun and its Firestorm expansion (cache.mix, conquer.mix, the firestorm folder, and so on), which the mod’s content installer takes from an installed copy (First Decade, Steam, or Origin) or downloads; the music comes only from a copy. Plus Windows, Linux, or macOS."
+tags:
+  - mods
+  - multiplayer

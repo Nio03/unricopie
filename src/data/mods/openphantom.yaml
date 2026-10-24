@@ -1,0 +1,26 @@
+name: OpenPhantom
+kind: mod
+console: pc
+game:
+  es: "Star Wars Episodio I: La amenaza fantasma (PC, 1999)"
+  en: "Star Wars Episode I: The Phantom Menace (PC, 1999)"
+repo: OpenPhantom/OpenPhantom
+homepage: https://swopenphantom.org
+status: usable
+desc:
+  es: "OpenPhantom: proyecto de arreglos y herramientas de modding para Star Wars Episodio I: La amenaza fantasma (1999) en PC. Tiene dos partes. La que funciona hoy son los parches heredados (legacy/), un cargador y una DLL por función que modifican en memoria el ejecutable de la versión comercial: campo de visión, resoluciones panorámicas y ultrapanorámicas, tasa de fotogramas sin límite, mirada con ratón, mandos, música y vídeo que vuelven a funcionar, calcomanías, cámara libre y modo foto, y un modo cooperativo en línea de hasta cuatro jugadores. Los acompaña un instalador para Windows que instala el juego desde tu propio disco y aplica las partes del parche que marques; no lleva datos del juego, el disco se lee en tu equipo, y todo lo que instala viene dentro de él, sin descargar nada. Incluye componentes de terceros (ffmpeg, VLC, OpenAL Soft, DSOAL, dxwrapper y x264) con su código fuente. La segunda parte, un motor nuevo de código abierto y un editor de mapas y contenido, aún no se ha empezado. La última versión del parche es la 1.0.1 y la del instalador, la 2.0.1, las dos del 5 de octubre de 2026; el repositorio se creó el 4 de agosto. Funciona en Windows 10 y 11 y en Linux y Steam Deck con Proton. Licencia MIT."
+  en: "OpenPhantom: a fix and modding-tools project for Star Wars Episode I: The Phantom Menace (1999) on PC. It has two parts. The one that works today is the legacy patches (legacy/), a loader and one DLL per feature that modify the retail executable in memory: field of view, widescreen and ultrawide resolutions, uncapped frame rate, mouse look, controllers, music and video that work again, decals, a free camera and photo mode, and online co-op for up to four players. They come with a Windows installer that installs the game from your own disc and applies the parts of the patch you tick; it carries no game data, the disc is read on your machine, and everything it installs is inside it, with nothing downloaded. It includes third-party components (ffmpeg, VLC, OpenAL Soft, DSOAL, dxwrapper, and x264) with their source code. The second part, a new open source engine and a map and content editor, hasn’t been started. The latest patch is 1.0.1 and the latest installer 2.0.1, both from October 5, 2026; the repository was created on August 4. It runs on Windows 10 and 11, and on Linux and Steam Deck through Proton. MIT license."
+requirements:
+  es: "Tu propia copia del juego en disco: el instalador lee el CD y no incluye datos del juego. Además, Windows 10 u 11, o Linux y Steam Deck con Proton."
+  en: "Your own copy of the game on disc: the installer reads the CD and includes no game data. Plus Windows 10 or 11, or Linux and Steam Deck with Proton."
+tags:
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - mods
+  - reverse-engineering
+links:
+  - label:
+      es: "Guía de instalación"
+      en: "Installation guide"
+    url: https://github.com/OpenPhantom/OpenPhantom/wiki/Installation-Guide

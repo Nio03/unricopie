@@ -1,0 +1,17 @@
+name: "Death Rally (dRally)"
+category: decomp-port
+console: dos
+status: experimental
+repo: urxp/dRally
+originalDeveloper: "Remedy Entertainment"
+year: 1996
+desc:
+  es: "dRally: motor de código abierto de Death Rally (Remedy Entertainment, 1996) que busca un port nativo para Linux y sistemas BSD, y que también se compila para Windows. Parte del código reensamblado del ejecutable de DOS: la versión 0.1 (6 de mayo de 2019) fue un «reensamblado funcional» del juego de DOS, y la 0.2 (13 de enero de 2022), una alfa de 64 bits con compilaciones para Linux y para Windows. Se compila con GCC o Clang, make y SDL2. Todavía no tiene multijugador, y el último cambio es de julio de 2023. Death Rally es gratuito, porque Remedy lo distribuye como freeware, y el README remite a la versión registrada para Windows que ofrece la revista CHIP, de cuyo instalador se extraen los archivos con 7z. El proyecto no incluye ningún recurso del juego. Existe otro proyecto sobre el mismo juego, DreeRally, que reimplementa el motor de la versión de Windows."
+  en: "dRally: an open-source engine for Death Rally (Remedy Entertainment, 1996) that aims for a native port for Linux and BSD-based systems and also builds for Windows. It starts from reassembled code of the DOS executable: version 0.1 (May 6, 2019) was a “working reassembly” of the DOS game, and 0.2 (January 13, 2022) was a 64-bit alpha with Linux and Windows builds. It builds with GCC or Clang, make, and SDL2. It has no multiplayer yet, and the last change is from July 2023. Death Rally is free, since Remedy distributes it as freeware, and the README points to the registered Windows version offered by CHIP magazine, whose installer is unpacked with 7z. The project includes no game assets. Another project covers the same game, DreeRally, which reimplements the engine of the Windows version."
+requirements:
+  es: "Los archivos del Death Rally para Windows, que es gratuito (versión registrada, que el README descarga de CHIP): ENGINE.BPA, IBFILES.BPA, MENU.BPA, MUSICS.BPA y los TR0 a TR9 .BPA, más ENDANI.HAF, ENDANI0.HAF y SANIM.HAF en una carpeta CINEM a la que apunta un CDROM.INI, todo con los nombres en mayúsculas. Además, Linux, BSD o Windows de 64 bits."
+  en: "The files of the Windows version of Death Rally, which is free (the registered version, which the README downloads from CHIP): ENGINE.BPA, IBFILES.BPA, MENU.BPA, MUSICS.BPA, and the TR0 to TR9 .BPA files, plus ENDANI.HAF, ENDANI0.HAF, and SANIM.HAF in a CINEM folder that a CDROM.INI points to, all with uppercase names. Plus Linux, BSD, or 64-bit Windows."
+tags:
+  - racing
+  - x86
+  - reverse-engineering

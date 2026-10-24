@@ -1,0 +1,12 @@
+name: LEGO Racers
+console: pc
+repo: isledecomp/racers
+desc:
+  es: "Decompilación en curso de LEGO Racers (High Voltage Software, 1999) para Windows, hecha a imagen de la de LEGO Island por el mismo grupo, isledecomp. Busca que el código recompilado dé las mismas instrucciones que el original, y se compila con Microsoft Visual C++ 6.0, el compilador del juego, que es con el que se valora cada aportación; la mayoría de las funciones ya coinciden instrucción a instrucción. Sus dos binarios, LEGORacers.exe y GolDP.dll (ambos del 22 de julio de 1999), avanzan a distinto ritmo: el ejecutable está casi entero y la biblioteca, en su mayor parte. El juego recompilado ya se puede jugar, aunque el renderizador por software todavía no funciona. Cada cambio en la rama principal publica los dos binarios y los informes de precisión de cada función; en Linux y macOS se puede compilar con Docker. El código es fiel al original y solo compila para Windows de 32 bits: el port a los sistemas actuales y a la web, racers-portable, va en otro repositorio."
+  en: "A work-in-progress decompilation of LEGO Racers (High Voltage Software, 1999) for Windows, modeled on the LEGO Island one by the same group, isledecomp. It aims for recompiled code that produces the same instructions as the original, and it’s built with Microsoft Visual C++ 6.0, the game’s own compiler, which every contribution is graded against; most functions already match instruction for instruction. Its two binaries, LEGORacers.exe and GolDP.dll (both dated July 22, 1999), are at different stages: the executable is almost fully decompiled and the library mostly done. The recompiled game is already playable, though the software renderer doesn’t work yet. Every change to the main branch publishes both binaries and per-function accuracy reports; on Linux and macOS it can be built with Docker. The code is true to the original and only compiles for 32-bit Windows: the port to modern systems and the web, racers-portable, lives in a separate repository."
+tags:
+  - x86
+  - matching
+links:
+  - label: "racers-portable"
+    url: https://github.com/isledecomp/racers-portable
