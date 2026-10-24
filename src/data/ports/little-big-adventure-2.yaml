@@ -13,6 +13,9 @@ requirements:
   en: "Your own copy of Little Big Adventure 2: the GOG or Steam release or the original CD, also as an ISO/BIN or .cue image; the game looks for the folder with LBA2.HQR. Plus x64 Windows, x86-64 or ARM64 Linux, or macOS 11 or later (Apple silicon or Intel)."
 tags:
   - widescreen
+  - build-android
+  - build-switch
+  - build-vita
 links:
   - label:
       es: "Código original publicado por 2.21"

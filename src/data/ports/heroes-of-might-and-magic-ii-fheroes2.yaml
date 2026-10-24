@@ -14,3 +14,5 @@ requirements:
   en: "The files from your own copy of Heroes of Might and Magic II (the ANIM, DATA, MAPS, and MUSIC folders), from GOG or the Ubisoft Store for example; its bundled scripts find and extract them from an installation, and innoextract can pull them from the GOG installer. The map editor needs the resources of The Price of Loyalty expansion. The free demo works too. Plus Windows (32- or 64-bit), macOS (the released build is for Intel; on Apple silicon, via Homebrew, MacPorts, or building from source), or Linux (x86-64 or ARM64, also on Flatpak, AUR, Homebrew, or as Debian and Ubuntu packages)."
 tags:
   - multiplayer
+  - build-android
+  - build-switch

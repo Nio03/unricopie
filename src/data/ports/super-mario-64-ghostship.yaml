@@ -8,3 +8,7 @@ year: 1996
 desc:
   es: "Ghostship: el port de Super Mario 64 de Harbour Masters. No incluye recursos protegidos por derechos de autor; necesita tu propia ROM."
   en: "Ghostship: Harbour Masters’ port of Super Mario 64. It includes no copyrighted assets; you supply your own ROM."
+tags:
+  - build-android
+  - build-ios
+  - build-switch

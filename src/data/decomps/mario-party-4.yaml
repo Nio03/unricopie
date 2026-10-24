@@ -7,3 +7,4 @@ desc:
   en: "Work-in-progress decompilation in which both US versions already build fully identical to the original, though almost everything outside the game engine remains undocumented. The European and Japanese versions are deliberately on hold: they involve a lot of repetitive work that will be far easier once there is tooling to carry splits and symbols between versions."
 tags:
   - powerpc
+  - build-android

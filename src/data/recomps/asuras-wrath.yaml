@@ -13,3 +13,4 @@ requirements:
   en: "Your own Asura's Wrath ISO for Xbox 360, extracted with extract-xiso into the “extracted” folder next to the executable (or another one set with --game_data_root). Plus x86-64 Windows or Linux; building it takes CMake 3.25 or later, Clang, and Ninja."
 tags:
   - powerpc
+  - build-android

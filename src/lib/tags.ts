@@ -33,6 +33,14 @@ const LABELS: Record<string, Partial<Record<Lang, string>>> = {
   "ui": { es: "interfaz" },
   "renderer": { es: "renderizador" },
   "pokemon": { es: "pokémon", en: "pokémon" },
+  // El catálogo es de juegos en PC; estas marcan que el proyecto publica además
+  // versiones para otras plataformas (según los archivos de sus releases).
+  "build-android": { es: "versión para Android", en: "Android build" },
+  "build-ios": { es: "versión para iOS", en: "iOS build" },
+  "build-switch": { es: "versión para Switch", en: "Switch build" },
+  "build-3ds": { es: "versión para 3DS", en: "3DS build" },
+  "build-vita": { es: "versión para PS Vita", en: "PS Vita build" },
+  "build-web": { es: "versión para navegador", en: "browser build" },
 };
 
 export function tagLabel(tag: string, lang: Lang): string {

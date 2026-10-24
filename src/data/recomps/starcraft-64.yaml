@@ -13,3 +13,4 @@ requirements:
   en: "Your own US (NTSC-U) StarCraft 64 ROM; .z64, .v64, or .n64 work, and once normalized it must match SHA-1 a36d91b5aac7bb95df0d7de5f9814f5270e25c2b. Plus x86-64 Windows or Linux, or Apple silicon macOS, and, to build the game the first time, a C compiler (Xcode command line tools, gcc, or clang) or an internet connection to download zig."
 tags:
   - mips
+  - build-android

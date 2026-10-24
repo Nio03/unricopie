@@ -13,3 +13,7 @@ requirements:
   en: "The files from your own copy of Caesar III, from GOG, Steam, or the CD, updated to version 1.0.1.0; for the editor, the original editor files as well. Plus Windows, Linux (as an AppImage or Flatpak), or macOS."
 tags:
   - widescreen
+  - build-android
+  - build-switch
+  - build-vita
+  - build-web

@@ -15,6 +15,7 @@ requirements:
   en: "Your own copy of the US PS1 release, dumped as a .bin file (ctr-u.bin); the browser version asks for it when you start. You can also extract the European voices from a PAL copy."
 tags:
   - multiplayer
+  - build-vita
 links:
   - label: { es: "Versión para navegador", en: "Web browser build" }
     url: https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane/

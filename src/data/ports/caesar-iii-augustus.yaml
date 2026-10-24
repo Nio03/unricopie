@@ -16,3 +16,6 @@ requirements:
   en: "The files from your own copy of Caesar III, updated to 1.0.1.0. Augustus can be copied into the game folder or run from a separate one, in which case it asks where the game is; it needs write access to that folder, since saves are stored there. Optionally, it supports the high-quality MP3 files Sierra once published on its website. Plus Windows, Linux, or macOS."
 tags:
   - widescreen
+  - build-android
+  - build-switch
+  - build-vita
