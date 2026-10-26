@@ -12,8 +12,8 @@ export const getStaticPaths = (async () => {
   // Dentro de getStaticPaths: Astro lo ejecuta aislado y no ve el resto del módulo.
   const PAGINAS = ["recomps", "launchers", "ports", "decompilaciones", "contribuir", "acerca", "faq", "terms", "privacy"];
   // Los mods nacieron ya bajo /es/: no tienen dirección antigua que redirigir.
-  const fichas = (await getAllItems("es")).filter((i) => i.type !== "mod").map((i) => i.href.replace(localePath("es"), ""));
-  return [...PAGINAS, ...fichas].map((legacy) => ({ params: { legacy }, props: { to: localePath("es", legacy) + "/" } }));
+  const fichas = (await getAllItems("es")).filter((i) => i.type !== "mod").map((i) => i.href.replace(localePath("es"), "").replace(/\/$/, ""));
+  return [...PAGINAS, ...fichas].map((legacy) => ({ params: { legacy }, props: { to: localePath("es", legacy) } }));
 }) satisfies GetStaticPaths;
 
 const { to } = Astro.props;

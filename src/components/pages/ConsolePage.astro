@@ -18,7 +18,7 @@ const h1 = t(lang, "console.h1", { console: cm.full });
 const title = `${t(lang, "console.title", { console: cm.full })} — Recompendium`;
 const intro = t(lang, "console.intro", { console: cm.full });
 
-const site = Astro.site ? new URL(localePath(lang, `consola/${key}`) + "/", Astro.site).href : undefined;
+const site = Astro.site ? new URL(localePath(lang, `consola/${key}`), Astro.site).href : undefined;
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",

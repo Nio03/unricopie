@@ -67,7 +67,7 @@ export async function buildFeed(lang: Lang): Promise<string> {
   const lista = conFecha.length ? conFecha : items.slice(0, LIMIT).map((i) => ({ i, fecha: undefined }));
 
   const entradas = lista.map(({ i, fecha }) => {
-    const url = `${SITE}${i.href}/`;
+    const url = `${SITE}${i.href}`;
     const meta = [i.kindLabel, i.status?.label, i.repo].filter(Boolean).join(" · ");
     return `    <item>
       <title>${esc(i.name)}</title>

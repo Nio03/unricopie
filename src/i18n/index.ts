@@ -1,4 +1,5 @@
 import { ui, defaultLang, type Lang, type UIKey } from "./ui";
+import { withSlash } from "../lib/url";
 
 export { languages, locales, defaultLang } from "./ui";
 export type { Lang, UIKey } from "./ui";
@@ -19,9 +20,11 @@ export function useT(lang: Lang) {
 
 /**
  * Ruta interna respetando `base` y el idioma. Los dos idiomas llevan prefijo;
- * la raíz solo elige idioma (ver src/pages/index.astro).
- *   localePath('es', 'launchers')  -> /es/launchers
- *   localePath('en', 'launchers')  -> /en/launchers
+ * la raíz solo elige idioma (ver src/pages/index.astro). Las páginas llevan
+ * barra final (ver withSlash); los archivos no.
+ *   localePath('es', 'launchers')  -> /es/launchers/
+ *   localePath('en', 'launchers')  -> /en/launchers/
+ *   localePath('es', 'rss.xml')    -> /es/rss.xml
  *   localePath('es')               -> /es/
  *   localePath('en')               -> /en/
  */
@@ -31,7 +34,7 @@ export function localePath(lang: Lang, path = ""): string {
   const prefix = `${lang}/`;
   const joined = (base.endsWith("/") ? base : base + "/") + prefix + clean;
   const collapsed = joined.replace(/\/{2,}/g, "/");
-  return collapsed || "/";
+  return withSlash(collapsed || "/");
 }
 
 /** Devuelve la misma ruta lógica en el OTRO idioma (para el selector + hreflang).
