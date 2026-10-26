@@ -21,6 +21,7 @@ tsukina123/kitsune-releases        # emulador de recreativa, y encima es un repo
 # El catalogo solo enlaza codigo que exige tu propia copia. Esto no es un juicio
 # sobre el proyecto: es la linea que el README del sitio declara y hay que sostener.
 Aethermusicai/re2segasaturn        # port de RE2 a Saturn que empaqueta el disco jugable con los assets originales dentro
+mstan/FaxanaduRecomp               # sube la base de Ghidra (.rep), que guarda los bytes de la ROM; fuera desde el 22-10 (issue #47)
 
 # ── Forks de algo que ya está en el catálogo por su raíz ──
 J1mbo/cannonball-se                # fork de djyt/cannonball, que ya tiene ficha
