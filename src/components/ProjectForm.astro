@@ -6,7 +6,9 @@
 //   preserva la otra traducción si ya existía.
 // - Al enviar: abre un ISSUE de GitHub prellenado con el YAML + mensaje
 //   "gracias, en revisión". Nunca el editor de archivos.
+import { getCollection } from "astro:content";
 import { GITHUB_URL } from "../lib/site";
+import { href } from "../lib/url";
 import { CONSOLE_KEYS, consoleMeta } from "../lib/consoles";
 import { STATUS_KEYS, TOOL_STATUS_KEYS } from "../lib/status";
 import { t, type Lang } from "../i18n";
@@ -29,6 +31,9 @@ const toolStatusKeys = TOOL_STATUS_KEYS;
 const L = es
   ? { type: "Tipo", tRecomp: "Juego (recomp)", tTool: "Herramienta / launcher", tPort: "Port / remake", tDecomp: "Decompilación", tMod: "Mod / herramienta de mods",
       modKind: "Tipo de mod", game: "Juego sobre el que funciona",
+      games: "Juego o juegos", gamesPh: "Super Mario 64",
+      gamesHint: "Escribe y elige de la lista; si no está, escríbelo y pulsa Intro. En un launcher, los juegos que instala; en una herramienta genérica, déjalo vacío.",
+      remove: "Quitar",
       name: "Nombre", console: "Consola", kind: "Tipo de herramienta", category: "Categoría", status: "Estado",
       abandoned: "Abandonado", takedown: "Retirado (DMCA)", repo: "Repositorio (usuario/repo)", author: "Autor / mantenedor",
       desc: "Descripción", reqs: "Requisitos (qué ROM o versión del juego hace falta)", tags: "Etiquetas (separadas por comas)",
@@ -38,6 +43,9 @@ const L = es
       again: mode === "edit" ? "Editar de nuevo" : "Añadir otro" }
   : { type: "Type", tRecomp: "Game (recomp)", tTool: "Tool / launcher", tPort: "Port / remake", tDecomp: "Decompilation", tMod: "Mod / modding tool",
       modKind: "Mod type", game: "Game it works on",
+      games: "Game or games", gamesPh: "Super Mario 64",
+      gamesHint: "Type and pick from the list; if it isn’t there, type it and press Enter. For a launcher, the games it installs; for a generic tool, leave it empty.",
+      remove: "Remove",
       name: "Name", console: "Console", kind: "Tool type", category: "Category", status: "Status",
       abandoned: "Abandoned", takedown: "Taken down (DMCA)", repo: "Repository (owner/repo)", author: "Author / maintainer",
       desc: "Description", reqs: "Requirements (which ROM or game version is needed)", tags: "Tags (comma-separated)",
@@ -47,9 +55,14 @@ const L = es
       again: mode === "edit" ? "Edit again" : "Add another" };
 
 const showFor = (t: ItemType, set: ItemType[]) => (set.includes(t) ? "" : "none");
+// En edición, los juegos que ya tiene la ficha, con su nombre. La lista entera
+// se descarga de games.json solo cuando alguien escribe en el campo.
+const gameNames = new Map((await getCollection("games")).map((g) => [g.id, g.data.name]));
+const prevGames = ((d.games ?? []) as string[]).map((id) => ({ id, n: gameNames.get(id) ?? id }));
 const cfg = {
   mode, gh: GITHUB_URL, lang, otherLang, fixedType: fixedType ?? null,
   path: path ?? null, prevDesc: d.desc ?? null, prevReq: d.requirements ?? null, prevGame: d.game ?? null,
+  gamesSrc: href("games.json"), prevGames, removeLabel: L.remove,
 };
 ---
 
@@ -69,6 +82,14 @@ const cfg = {
     )
   }
   <div class="fld"><label for="pf-name">{L.name}</label><input id="pf-name" value={d.name ?? ""} placeholder="Conker's Bad Fur Day" /></div>
+
+  <div class="fld" data-row="games">
+    <label for="pf-games">{L.games}</label>
+    <div class="chips" id="pf-games-chips"></div>
+    <input id="pf-games" list="pf-games-list" autocomplete="off" placeholder={L.gamesPh} />
+    <datalist id="pf-games-list"></datalist>
+    <p class="fld-hint">{L.gamesHint}</p>
+  </div>
 
   <div class="fld" data-row="console" style={`display:${mode === "edit" ? showFor(curType, ["recomp", "port", "decomp", "mod"]) : ""}`}>
     <label for="pf-console">{L.console}</label>
@@ -173,6 +194,65 @@ const cfg = {
     if (typeEl) typeEl.addEventListener("change", sync);
     sync();
 
+    // Juegos: cada uno elegido se muestra como un chip. La lista se descarga la
+    // primera vez que alguien escribe en el campo; lo que no esté en ella entra
+    // como texto libre y lo añadimos al registro al revisar el issue.
+    type Picked = { id: string | null; n: string };
+    type Known = { id: string; n: string; y: number | null };
+    const chipsEl = $("pf-games-chips") as HTMLElement;
+    const gamesIn = $("pf-games") as HTMLInputElement;
+    const listEl = $("pf-games-list") as HTMLDataListElement;
+    const picked: Picked[] = [...(cfg.prevGames ?? [])];
+    let known: Known[] | null = null;
+    const label = (g: Known) => (g.y ? `${g.n} (${g.y})` : g.n);
+    async function loadGames() {
+      if (known) return;
+      known = [];
+      try {
+        known = (await (await fetch(cfg.gamesSrc)).json()).games as Known[];
+      } catch {
+        return;
+      }
+      listEl.replaceChildren(...known.map((g) => Object.assign(document.createElement("option"), { value: label(g) })));
+    }
+    function renderChips() {
+      chipsEl.replaceChildren(
+        ...picked.map((g, i) => {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "chip";
+          b.title = cfg.removeLabel;
+          b.textContent = `${g.n} ×`;
+          b.addEventListener("click", () => {
+            picked.splice(i, 1);
+            renderChips();
+          });
+          return b;
+        }),
+      );
+    }
+    function addGame() {
+      const v = gamesIn.value.trim();
+      if (!v) return;
+      const hit = known?.find((g) => label(g) === v || g.n.toLowerCase() === v.toLowerCase());
+      const g: Picked = hit ? { id: hit.id, n: hit.n } : { id: null, n: v };
+      if (!picked.some((p) => (p.id ?? p.n) === (g.id ?? g.n))) picked.push(g);
+      gamesIn.value = "";
+      renderChips();
+    }
+    gamesIn.addEventListener("focus", loadGames);
+    gamesIn.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        addGame();
+      }
+    });
+    // Elegir una opción de la lista deja en el campo su texto completo.
+    gamesIn.addEventListener("input", () => {
+      if (known?.some((g) => label(g) === gamesIn.value)) addGame();
+    });
+    renderChips();
+
     const slugify = (s: string) =>
       (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "nuevo";
 
@@ -191,6 +271,8 @@ const cfg = {
       $("pf-note").style.display = "none";
 
       const o: Record<string, any> = { name };
+      const gameIds = picked.filter((g) => g.id).map((g) => g.id);
+      if (gameIds.length) o.games = gameIds;
       if (ty === "recomp" || ty === "port" || ty === "decomp" || ty === "mod") o.console = $("pf-console").value;
       if (ty === "mod") { o.kind = $("pf-modkind").value; const g = localized($("pf-game").value.trim(), cfg.prevGame); if (g !== undefined) o.game = g; }
       if (ty === "tool") { o.kind = $("pf-kind").value; o.consoles = [$("pf-console").value]; }
@@ -210,7 +292,9 @@ const cfg = {
       const filePath = cfg.path ?? `src/data/${FOLDER[ty]}/${slugify(name)}.yaml`;
       const prefix = cfg.mode === "edit" ? `[editar ${ty}]` : `[${ty}]`;
       const pending = typeof o.desc === "string" ? `\n\n> ⚠️ Falta traducción (${cfg.otherLang}).` : "";
-      const body = `**Archivo:** \`${filePath}\`\n\n\`\`\`yaml\n${yaml}\`\`\`${pending}\n\n_Enviado desde el formulario de Recompendium._`;
+      const newGames = picked.filter((g) => !g.id).map((g) => g.n);
+      const unknown = newGames.length ? `\n\n**Juegos que no están en el registro (\`src/data/games.yaml\`):** ${newGames.join(", ")}` : "";
+      const body = `**Archivo:** \`${filePath}\`\n\n\`\`\`yaml\n${yaml}\`\`\`${unknown}${pending}\n\n_Enviado desde el formulario de Recompendium._`;
       const url = `${cfg.gh}/issues/new?title=${encodeURIComponent(prefix + " " + name)}&body=${encodeURIComponent(body)}`;
       window.open(url, "_blank", "noopener");
       form.style.display = "none";

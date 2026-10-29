@@ -32,7 +32,7 @@ const siteLd = {
   name: "Recompendium",
   url: Astro.site ? new URL(localePath(lang, ""), Astro.site).href : undefined,
   inLanguage: lang,
-  description: t(lang, "home.tagline"),
+  description: t(lang, "home.description"),
 };
 ---
 
@@ -45,5 +45,7 @@ const siteLd = {
   guide
   typeFilter
   stats={stats}
+  why
+  description={t(lang, "home.description")}
   jsonLd={siteLd}
 />

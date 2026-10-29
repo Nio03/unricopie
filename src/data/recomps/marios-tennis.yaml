@@ -1,5 +1,6 @@
 # pendiente también de la decisión 1: el repositorio incluye código generado
 name: "Mario's Tennis"
+games: [marios-tennis]
 console: virtualboy
 status: playable
 repo: mstan/MarioTennisVirtualBoyRecomp

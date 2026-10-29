@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
+import { parse } from 'yaml';
 import { CONSOLE_KEYS } from './lib/consoles';
 
 const consoleEnum = z.enum(CONSOLE_KEYS as [string, ...string[]]);
@@ -22,11 +23,29 @@ const linkList = z
 // Relación de fork curada (tiene prioridad sobre la detección automática del bot).
 const forkOf = z.object({ label: z.string(), url: z.string().url() }).optional();
 
+// Juego o juegos de la ficha, con los identificadores de src/data/games.yaml
+// (en un launcher: los juegos que instala). Las herramientas genéricas, como
+// un recompilador, no llevan ninguno. scripts/validate-data.mjs comprueba que
+// existan en el registro.
+const gameIds = z.array(z.string().regex(/^[a-z0-9-]+$/)).default([]);
+
+// ── Juegos: el registro que agrupa los proyectos de un mismo juego ──
+const games = defineCollection({
+  loader: file('src/data/games.yaml', { parser: (text) => parse(text) }),
+  schema: z.object({
+    name: z.string(),
+    igdb: z.number().int().positive().optional(),
+    year: z.number().int().gte(1970).lte(2100).optional(),
+    platforms: z.array(consoleEnum).default([]),
+  }),
+});
+
 // ── Recomps: un archivo YAML por juego en src/data/recomps/ ──
 const recomps = defineCollection({
   loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/recomps' }),
   schema: z.object({
     name: z.string(),
+    games: gameIds,
     console: consoleEnum,
     status: z.enum(['experimental', 'playable', 'fully']),
     abandoned: z.boolean().default(false),
@@ -61,6 +80,7 @@ const mods = defineCollection({
   loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/mods' }),
   schema: z.object({
     name: z.string(),
+    games: gameIds,
     kind: z.enum(['mod', 'editor', 'manager']),
     // Plataforma del juego al que se aplica (pc si es un juego de PC).
     console: consoleEnum,
@@ -91,6 +111,7 @@ const tools = defineCollection({
   loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/tools' }),
   schema: z.object({
     name: z.string(),
+    games: gameIds,
     kind: z.enum(['recompiler', 'launcher', 'patcher', 'library']),
     consoles: z.array(consoleEnum).default([]),
     repo: repoSlug.optional(),
@@ -115,6 +136,7 @@ const ports = defineCollection({
   loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/ports' }),
   schema: z.object({
     name: z.string(),
+    games: gameIds,
     // native-layer: el ejecutable ORIGINAL corre nativo y un runtime hecho para
     // ese juego sustituye las librerias de sistema de la consola. No hay
     // recompilacion (misma arquitectura) ni decompilacion: es el modelo de
@@ -153,6 +175,7 @@ const decomps = defineCollection({
   loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/decomps' }),
   schema: z.object({
     name: z.string(),
+    games: gameIds,
     console: consoleEnum,
     repo: repoSlug.optional(),
     repoUrl: z.string().url().optional(),
@@ -192,4 +215,4 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { recomps, tools, ports, decomps, mods, blog };
+export const collections = { games, recomps, tools, ports, decomps, mods, blog };

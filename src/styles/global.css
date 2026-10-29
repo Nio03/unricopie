@@ -104,6 +104,11 @@ header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
 .guide .g h3 { font-family: var(--sans); font-weight: 700; font-size: 16px; margin: 0 0 6px; color: var(--ink); }
 .guide .g p { margin: 0; color: var(--ink-2); font-size: 13px; line-height: 1.55; }
 @media (max-width: 760px) { .guide { grid-template-columns: 1fr; } }
+.why { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); }
+.why h2 { font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-3); margin: 0 0 12px; }
+.why ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px 26px; }
+.why li { color: var(--ink-2); font-size: 13px; line-height: 1.55; }
+.why li b { color: var(--ink); font-weight: 700; }
 
 /* ---------- controls ---------- */
 .controls {
@@ -310,6 +315,8 @@ select { font-family: var(--mono); }
   border-radius: var(--radius); padding: 9px 11px; font: inherit; font-size: 14px; width: 100%;
 }
 .fld textarea { resize: vertical; min-height: 60px; }
+.fld .fld-hint { margin: 0; color: var(--ink-3); font-size: 12px; line-height: 1.5; }
+.fld .chips:empty { display: none; }
 .fld input::placeholder, .fld textarea::placeholder { color: var(--ink-3); }
 /* Casillas: la etiqueta a la derecha de la casilla, no estirada a todo el ancho. */
 .fld.fld-check label { display: flex; align-items: center; gap: 8px; cursor: pointer; font-family: var(--sans); font-size: 13px; color: var(--ink); text-transform: none; letter-spacing: 0; }

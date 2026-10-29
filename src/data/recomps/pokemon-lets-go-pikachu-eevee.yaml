@@ -1,4 +1,5 @@
 name: "Pokémon: Let's Go, Pikachu! / Let's Go, Eevee!"
+games: [pokemon-lets-go-pikachu, pokemon-lets-go-eevee]
 console: switch
 status: experimental
 repo: raulzrrs/letsgo-recomp

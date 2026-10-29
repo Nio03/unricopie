@@ -42,6 +42,22 @@ export const ui = {
     "home.stat.decomps": "decompilaciones",
     "home.stat.tools": "herramientas",
     "home.stat.mods": "mods",
+    "home.description":
+      "Catálogo curado a mano de recompilaciones, decompilaciones y ports de juegos de consola para PC. Solo proyectos que piden tu copia del juego: sin ROMs ni datos del juego.",
+
+    "why.title": "Qué hace distinto a Recompendium",
+    "why.curated.t": "Curado a mano.",
+    "why.curated.b": "Un bot propone candidatos, pero cada ficha la escribe y la revisa una persona leyendo el proyecto. Nada se publica solo.",
+    "why.copy.t": "Tu copia, nunca el juego.",
+    "why.copy.b": "Solo enlazamos proyectos que piden tu propia copia. No alojamos nada ni enlazamos repos con ROMs, claves o datos del juego, salvo que su autor declare tener permiso explícito del titular de los derechos.",
+    "why.status.t": "Estados claros.",
+    "why.status.b": "Experimental, Jugable, Totalmente jugable, Abandonado y Retirado. Las fichas retiradas por DMCA se quedan como registro, pero sin enlace al código.",
+    "why.ai.t": "IA declarada, proyecto por proyecto.",
+    "why.ai.b": "Ponemos «con ayuda de IA» o «sin IA» solo cuando el proyecto lo declara, y lo explicamos en la ficha (por ejemplo, cuántos de sus últimos 100 commits firma Claude).",
+    "why.live.t": "Datos vivos.",
+    "why.live.b": "Las estrellas, la versión y la última actividad se actualizan a diario desde GitHub. El avance de las decompilaciones viene de decomp.dev y ByteMatch.",
+    "why.open.t": "Abierto.",
+    "why.open.b": "Los datos son CC BY-SA 4.0, y cualquiera puede proponer un proyecto desde {contribute}.",
 
     "ctl.search": "Buscar",
     "ctl.searchPlaceholder": "Filtrar esta sección: juego, repositorio o autor…",
@@ -215,6 +231,7 @@ export const ui = {
     "footer.privacy": "Privacidad",
     "footer.licData": "Fichas y textos:",
     "footer.licCode": "código:",
+    "footer.gameData": "datos de juegos:",
     "footer.ccUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
 
     "rel.today": "hoy",
@@ -260,6 +277,22 @@ export const ui = {
     "home.stat.decomps": "decompilations",
     "home.stat.tools": "tools",
     "home.stat.mods": "mods",
+    "home.description":
+      "A hand-curated catalog of console game recompilations, decompilations, and PC ports. Only projects that ask for your own copy of the game: no ROMs, no game data.",
+
+    "why.title": "What makes Recompendium different",
+    "why.curated.t": "Curated by hand.",
+    "why.curated.b": "A bot suggests candidates, but a person writes and reviews every entry after reading the project. Nothing gets published on its own.",
+    "why.copy.t": "Your copy, never the game.",
+    "why.copy.b": "We only link projects that ask for your own copy. We host nothing, and we don’t link repos with ROMs, keys, or game data unless their author states they have explicit permission from the rights holder.",
+    "why.status.t": "Clear statuses.",
+    "why.status.b": "Experimental, Playable, Fully playable, Abandoned, and Taken down. Entries taken down by DMCA stay as a record, without a link to the code.",
+    "why.ai.t": "AI use, declared per project.",
+    "why.ai.b": "We tag a project “ai-assisted” or “human-driven” only when it says so itself, and the entry explains it (for example, how many of its last 100 commits Claude co-authored).",
+    "why.live.t": "Live data.",
+    "why.live.b": "Stars, version, and last activity update daily from GitHub. Decompilation progress comes from decomp.dev and ByteMatch.",
+    "why.open.t": "Open.",
+    "why.open.b": "The data is CC BY-SA 4.0, and anyone can suggest a project from {contribute}.",
 
     "ctl.search": "Search",
     "ctl.searchPlaceholder": "Filter this section: game, repository, or author…",
@@ -429,6 +462,7 @@ export const ui = {
     "footer.privacy": "Privacy",
     "footer.licData": "Entries and texts:",
     "footer.licCode": "code:",
+    "footer.gameData": "game data:",
     "footer.ccUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
 
     "rel.today": "today",

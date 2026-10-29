@@ -12,6 +12,9 @@ const repoRe = /^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/;
 const errors = [];
 const warnings = [];
 const seenRepos = new Map();
+// Registro de juegos: cada identificador de `games` en una ficha tiene que estar aquí.
+const games = parse(await readFile(join(root, "src/data/games.yaml"), "utf8")) ?? {};
+const usedGames = new Set();
 
 async function check(dir, kind) {
   let files = [];
@@ -39,6 +42,10 @@ async function check(dir, kind) {
     if ((kind === "recomp" || kind === "decomp" || kind === "mod") && !doc.console) errors.push(`${path}: falta "console"`);
     if (kind === "mod" && (!doc.kind || !doc.game)) errors.push(`${path}: falta "kind" o "game"`);
     if (kind === "tool" && !doc.kind) errors.push(`${path}: falta "kind"`);
+    for (const g of doc.games ?? []) {
+      if (!games[g]) errors.push(`${path}: el juego "${g}" no está en src/data/games.yaml`);
+      usedGames.add(g);
+    }
     // Solo rastreamos repos que SÍ se enriquecen; si una entrada usa
     // enrich:false (comparte repo a propósito) no cuenta como duplicado.
     if (doc.repo && doc.enrich !== false) {
@@ -70,6 +77,9 @@ await check(join(root, "src/data/tools"), "tool");
 await check(join(root, "src/data/ports"), "port");
 await check(join(root, "src/data/decomps"), "decomp");
 await check(join(root, "src/data/mods"), "mod");
+
+const unused = Object.keys(games).filter((g) => !usedGames.has(g));
+if (unused.length) warnings.push(`${unused.length} juego(s) del registro sin ninguna ficha: ${unused.join(", ")}`);
 
 if (warnings.length) {
   console.warn(`⚠  ${warnings.length} aviso(s):`);

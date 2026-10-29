@@ -33,6 +33,12 @@ body:
     validations:
       required: true
   - type: input
+    id: games
+    attributes:
+      label: Juego o juegos
+      description: "El juego original sobre el que trabaja el proyecto, o los que instala si es un launcher. Si son varios, sepáralos con comas. Déjalo vacío si es una herramienta genérica."
+      placeholder: "Super Mario 64"
+  - type: input
     id: repo
     attributes:
       label: Repositorio GitHub (owner/repo)

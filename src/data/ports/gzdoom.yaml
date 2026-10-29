@@ -1,4 +1,5 @@
 name: "GZDoom"
+games: [doom, doom-ii-hell-on-earth, heretic, hexen-beyond-heretic, strife-quest-for-the-sigil]
 category: source-port
 status: playable
 repo: ZDoom/gzdoom

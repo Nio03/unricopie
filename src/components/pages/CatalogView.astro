@@ -15,11 +15,15 @@ interface Props {
   guide?: boolean;
   typeFilter?: boolean;
   stats?: { n: number; label: string }[];
-  // Título para buscadores, si no basta con el h1; y datos estructurados.
+  // Bloque «Qué hace distinto a Recompendium», solo en la portada.
+  why?: boolean;
+  // Título para buscadores, si no basta con el h1; descripción para
+  // buscadores, si no basta con el tagline; y datos estructurados.
   title?: string;
+  description?: string;
   jsonLd?: object | object[];
 }
-const { lang, items, h1, tagline, countTmpl, readout = false, guide = false, typeFilter = false, stats, title, jsonLd } = Astro.props;
+const { lang, items, h1, tagline, countTmpl, readout = false, guide = false, typeFilter = false, stats, why = false, title, description, jsonLd } = Astro.props;
 
 const ordered = sortItems(items);
 
@@ -53,6 +57,15 @@ const typeChips = (
   ] as const
 ).filter((c) => items.some((i) => i.type === c.key));
 
+// Va en el hero, antes de las fichas, a propósito: la portada pesa casi 3 MB
+// y los lectores de las IAs la cortan mucho antes del final. Lo que no esté en
+// los primeros KB no lo leen, y en octubre de 2026 un asistente dejó fuera el
+// sitio porque «solo vi su página de inicio».
+const whyItems = (["curated", "copy", "status", "ai", "live", "open"] as const).map((k) => ({
+  t: t(lang, `why.${k}.t`),
+  b: t(lang, `why.${k}.b`, { contribute: `<a href="${localePath(lang, "contribuir")}">${t(lang, "nav.contribute")}</a>` }),
+}));
+
 const guideCards = [
   { key: "recomp", color: TYPE_COLOR.recomp },
   { key: "port", color: TYPE_COLOR.port },
@@ -62,7 +75,7 @@ const guideCards = [
 ] as const;
 ---
 
-<Base lang={lang} title={title ?? (h1.includes("<") ? t(lang, "site.title") : `${h1} — Recompendium`)} description={tagline} jsonLd={jsonLd}>
+<Base lang={lang} title={title ?? (h1.includes("<") ? t(lang, "site.title") : `${h1} — Recompendium`)} description={description ?? tagline} jsonLd={jsonLd}>
   <header class="hero">
     <div class="wrap">
       <div class="brandrow"><h1 class="logo" set:html={h1} /></div>
@@ -85,6 +98,16 @@ const guideCards = [
           <div class="stat-row">
             {stats.map((s) => (<div class="stat"><b>{s.n}</b><span>{s.label}</span></div>))}
           </div>
+        )
+      }
+      {
+        why && (
+          <section class="why" aria-labelledby="why-title">
+            <h2 id="why-title">{t(lang, "why.title")}</h2>
+            <ul>
+              {whyItems.map((w) => (<li><b>{w.t}</b> <span set:html={w.b} /></li>))}
+            </ul>
+          </section>
         )
       }
     </div>
