@@ -2,6 +2,11 @@ name: WLauncher
 kind: launcher
 repo: Spicywonda/WLauncher
 status: beta
+manifests:
+  - url: https://raw.githubusercontent.com/Spicywonda/WLauncher/HEAD/Catalog/additions.json
+    format: ghl
+  - url: https://raw.githubusercontent.com/SirDiabo/GHLAppList/main/apps.json
+    format: ghl
 desc:
   es: "Launcher y actualizador para recompilaciones y ports a PC, con repositorios modulares que el usuario puede configurar."
   en: "Launcher and updater for recompilations and PC ports, with user-configurable modular repositories."

@@ -4,6 +4,9 @@ consoles:
   - n64
 repo: ZakyPew/ReCompLauncher
 status: beta
+manifests:
+  - url: https://raw.githubusercontent.com/ZakyPew/ReCompLauncher/HEAD/recomplauncher.py
+    format: known-recomps
 desc:
   es: "Launcher moderno para recompilaciones y ports de decompilaciones de Nintendo: carátulas, detección automática, descargas con un clic desde GitHub y registro del tiempo de juego. 9 de sus 10 commits llevan a Claude como coautor."
   en: "Modern launcher for Nintendo recompilations and decomp ports: box art, auto-detection, one-click GitHub downloads, and playtime tracking. 9 of its 10 commits list Claude as a co-author."

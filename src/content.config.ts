@@ -114,6 +114,11 @@ const tools = defineCollection({
     games: gameIds,
     kind: z.enum(['recompiler', 'launcher', 'patcher', 'library']),
     consoles: z.array(consoleEnum).default([]),
+    // Listas de juegos que publica un launcher. scripts/refresh-launchers.mjs
+    // las lee a diario para saber qué proyectos del catálogo instala.
+    manifests: z
+      .array(z.object({ url: z.string().url(), format: z.enum(['ghl', 'ports-launcher', 'quiver', 'known-recomps']) }))
+      .default([]),
     repo: repoSlug.optional(),
     repoUrl: z.string().url().optional(),
     homepage: z.string().url().optional(),

@@ -10,6 +10,7 @@ import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/cata
 import { tagLabel } from "../../lib/tags";
 import { t, localePath, type Lang } from "../../i18n";
 import { consolePageKeys } from "../../lib/console-pages";
+import { getGames, gamePageIds, projectsByGame, installedBy } from "../../lib/games";
 
 interface Props {
   lang: Lang;
@@ -53,6 +54,27 @@ const facts: { dt: string; dd: string; href?: string }[] = [];
 const consolePages = await consolePageKeys();
 const consoleHref = (k?: string) => (k && consolePages.includes(k) ? localePath(lang, `consola/${k}`) : undefined);
 let related: { items: Item[]; titleKey: string } | null = null;
+let installsNote: string | null = null;
+
+// Juego o juegos de la ficha, con enlace a su página si la tienen, y el resto
+// de proyectos de cada juego con página («Otros proyectos de X»).
+const gamesMap = await getGames();
+const withPage = new Set(await gamePageIds());
+const byGame = await projectsByGame(lang);
+const myGames = ((d.games ?? []) as string[]).map((g) => gamesMap.get(g)).filter((g) => g != null);
+const gameLinks = myGames.map((g) => ({
+  label: g.name,
+  meta: [g.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).label)[0], g.year].filter(Boolean).join(", "),
+  href: withPage.has(g.id) ? localePath(lang, `juego/${g.id}`) : undefined,
+}));
+const otherProjects = myGames
+  .filter((g) => withPage.has(g.id))
+  .map((g) => ({
+    name: g.name,
+    href: localePath(lang, `juego/${g.id}`),
+    items: (byGame.get(g.id) ?? []).filter((i) => !(i.type === type && i.id === entry.id)),
+  }))
+  .filter((o) => o.items.length > 0);
 // Ficha del catálogo sobre la que se monta un mod ("ports/perfect-dark").
 let base: { label: string; href: string } | null = null;
 // Port ↔ decompilación: el campo `decomp` de un port es el repo de su
@@ -83,7 +105,15 @@ if (type === "recomp") {
   facts.push({ dt: t(lang, "detail.fact.kind"), dd: t(lang, `toolkind.${dl.kind}`) });
   if (d.consoles?.length) facts.push({ dt: t(lang, "detail.fact.consoles"), dd: d.consoles.map((c: string) => consoleMeta(c, lang).label).join(" · ") });
   facts.push({ dt: t(lang, "detail.fact.author"), dd: ownerName });
-  related = await toolRelated(entry as CollectionEntry<"tools">, lang);
+  // Un launcher que publica su lista muestra lo que instala de verdad; si no
+  // la publica, los recomps de sus plataformas, como hasta ahora.
+  const inst = dl.kind === "launcher" ? await installedBy(entry.id, lang) : null;
+  if (inst && inst.items.length) {
+    related = { items: inst.items, titleKey: "detail.relatedInstalls" };
+    if (inst.checkedAt) installsNote = t(lang, "detail.installsNote", { date: fmtDate(inst.checkedAt) });
+  } else {
+    related = await toolRelated(entry as CollectionEntry<"tools">, lang);
+  }
 } else if (type === "port") {
   const dp = entry.data as CollectionEntry<"ports">["data"];
   const cm = dp.console ? consoleMeta(dp.console, lang) : null, sm = statusMeta(dp.status);
@@ -219,6 +249,14 @@ const jsonLd = [
     {forkOf && (<p class="forkline"><a href={forkOf.url} target="_blank" rel="noopener">⑂ {t(lang, "detail.fork")} {forkOf.label} ↗</a></p>)}
 
     <h1>{d.name}</h1>
+    {
+      gameLinks.length > 0 && (
+        <p class="forkline game-line">
+          {t(lang, gameLinks.length > 1 ? "detail.gamesLine" : "detail.gameLine")}:{" "}
+          {gameLinks.map((g, i) => (<>{i > 0 && " · "}{g.href ? <a href={g.href}>{g.label} →</a> : g.label}{g.meta && ` (${g.meta})`}</>))}
+        </p>
+      )
+    }
     <p class="lead">{d.desc[lang]}</p>
 
     {
@@ -264,9 +302,22 @@ const jsonLd = [
     {tags.length > 0 && (<div class="tagrow" style="margin-top:24px">{tags.map((tag) => <span class="tg">{tagLabel(tag, lang)}</span>)}</div>)}
 
     {
+      otherProjects.map((o) => (
+        <>
+          <div class="sec-h" style="margin-top:38px"><h2>{t(lang, "detail.otherProjects", { name: o.name })}</h2><p>{o.items.length}</p></div>
+          <p class="game-links">
+            {o.items.slice(0, 8).map((it, i) => (<>{i > 0 && " · "}<a href={it.href}>{it.name}</a></>))}
+            {" "}<a class="see-all" href={o.href}>{t(lang, "detail.seeAll")}</a>
+          </p>
+        </>
+      ))
+    }
+
+    {
       related && (
         <>
           <div class="sec-h" style="margin-top:38px"><h2>{t(lang, related.titleKey as any)}</h2><p>{related.items.length}</p></div>
+          {installsNote && <p class="game-meta">{installsNote}</p>}
           {related.items.length ? (
             <section class="grid" style="padding-top:8px">{related.items.map((it) => <Card item={it} lang={lang} />)}</section>
           ) : (

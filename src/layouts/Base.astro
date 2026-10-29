@@ -5,6 +5,7 @@ import { href } from "../lib/url";
 import { GITHUB_URL } from "../lib/site";
 import { consolePageKeys } from "../lib/console-pages";
 import { consoleMeta } from "../lib/consoles";
+import { gamePageIds } from "../lib/games";
 
 interface Props {
   lang: Lang;
@@ -49,6 +50,7 @@ const nav = [
 ];
 // Enlaces del pie a la página de cada consola: ayudan a que los buscadores las encuentren.
 const byConsole = (await consolePageKeys()).map((k) => ({ label: consoleMeta(k, lang).label, href: localePath(lang, `consola/${k}`) }));
+const gameCount = (await gamePageIds()).length;
 
 function isActive(to: string) {
   const tt = to.replace(/\/+$/, "") || "/";
@@ -140,6 +142,10 @@ function isActive(to: string) {
         <ul class="links">
           {byConsole.map((c) => <li><a href={c.href}>{c.label}</a></li>)}
         </ul>
+        <h4>{t(lang, "footer.byGame")}</h4>
+        <ul class="links">
+          <li><a href={localePath(lang, "juegos")}>{t(lang, "footer.allGames", { n: gameCount })}</a></li>
+        </ul>
         <p class="legal">{t(lang, "footer.legal")}</p>
         <p class="foot-meta">{t(lang, "footer.meta")}</p>
         <p class="foot-meta foot-lic">
@@ -187,8 +193,8 @@ function isActive(to: string) {
         const src = modal.dataset.src!;
         const lang = document.documentElement.lang === "en" ? "en" : "es";
         const TYPES: Record<string, Record<string, string>> = {
-          es: { recomp: "Recomp", tool: "Herramienta", port: "Port", decomp: "Decomp", mod: "Mod" },
-          en: { recomp: "Recomp", tool: "Tool", port: "Port", decomp: "Decomp", mod: "Mod" },
+          es: { game: "Juego", recomp: "Recomp", tool: "Herramienta", port: "Port", decomp: "Decomp", mod: "Mod" },
+          en: { game: "Game", recomp: "Recomp", tool: "Tool", port: "Port", decomp: "Decomp", mod: "Mod" },
         };
         const EMPTY = lang === "en" ? "No results." : "Sin resultados.";
         let index: any[] | null = null;

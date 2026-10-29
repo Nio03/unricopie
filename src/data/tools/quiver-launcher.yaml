@@ -6,6 +6,9 @@ status: stable
 forkOf:
   label: SirDiabo/GithubLauncher
   url: https://github.com/SirDiabo/GithubLauncher
+manifests:
+  - url: https://api.quiverlauncher.com/api/v1/apps
+    format: quiver
 desc:
   es: "Launcher genérico para descargar, instalar y ejecutar cualquier programa publicado como versión en GitHub o GitLab: no es específico de los recomps, pero la escena lo usa precisamente para eso. Tiene biblioteca personal, suscripción a catálogos de la comunidad, filtros por etiquetas y gestión de mods. Es un fork de GithubLauncher, renombrado para no usar la marca GitHub."
   en: "Generic launcher for downloading, installing, and running anything published as a GitHub or GitLab release: not recomp-specific, but the scene uses it for exactly that. It has a personal library, community catalog subscriptions, tag filters, and mod management. A fork of GithubLauncher, renamed to avoid using the GitHub trademark."

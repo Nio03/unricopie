@@ -1,0 +1,87 @@
+---
+import Base from "../../layouts/Base.astro";
+import { consoleMeta, CONSOLE_KEYS } from "../../lib/consoles";
+import { getGames, gamePageIds, projectsByGame } from "../../lib/games";
+import { t, localePath, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+// Índice de los juegos con página propia, de la A a la Z, con un filtro por
+// plataforma. Cada juego enlaza a /juego/<id>/.
+const { lang } = Astro.props;
+const games = await getGames();
+const byGame = await projectsByGame(lang);
+const rows = (await gamePageIds())
+  .map((id) => ({ id, game: games.get(id)!, n: byGame.get(id)?.length ?? 0 }))
+  .sort((a, b) => a.game.name.localeCompare(b.game.name, lang));
+const letterOf = (name: string) => {
+  const c = name.normalize("NFD").charAt(0).toUpperCase();
+  return /[A-Z]/.test(c) ? c : "#";
+};
+const groups = new Map<string, typeof rows>();
+for (const r of rows) groups.set(letterOf(r.game.name), [...(groups.get(letterOf(r.game.name)) ?? []), r]);
+const present = new Set(rows.flatMap((r) => r.game.platforms));
+const chips = CONSOLE_KEYS.filter((k) => present.has(k) && k !== "other").map((k) => ({ key: k, label: consoleMeta(k, lang).label }));
+
+const title = `${t(lang, "games.seoTitle")} — Recompendium`;
+const lead = t(lang, "games.lead", { n: rows.length });
+const abs = (p: string) => (Astro.site ? new URL(p, Astro.site).href : p);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: t(lang, "games.h1"),
+  description: lead,
+  inLanguage: lang,
+  url: abs(localePath(lang, "juegos")),
+};
+---
+
+<Base lang={lang} title={title} description={lead} jsonLd={jsonLd}>
+  <main class="wrap detail">
+    <h1>{t(lang, "games.h1")}</h1>
+    <p class="lead">{lead}</p>
+
+    <div class="chips game-filter" role="group" aria-label={t(lang, "games.filter")}>
+      <button class="chip" type="button" data-console="" aria-pressed="true">{t(lang, "games.all")}</button>
+      {chips.map((c) => <button class="chip" type="button" data-console={c.key} aria-pressed="false">{c.label}</button>)}
+    </div>
+
+    {
+      [...groups.entries()].map(([letter, list]) => (
+        <section class="game-group">
+          <h2>{letter}</h2>
+          <ul class="game-list">
+            {list.map((r) => (
+              <li data-consoles={r.game.platforms.join(" ")}>
+                <a href={localePath(lang, `juego/${r.id}`)}>{r.game.name}</a>
+                <span>{[...r.game.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).tag), t(lang, "games.projects", { n: r.n })].join(" · ")}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </main>
+</Base>
+
+<script>
+  // Filtro por plataforma: oculta los juegos de otras plataformas y las letras
+  // que se quedan vacías. Sin JavaScript se ve la lista entera.
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>(".game-filter .chip"));
+  for (const chip of chips) {
+    chip.addEventListener("click", () => {
+      const key = chip.dataset.console ?? "";
+      for (const c of chips) c.setAttribute("aria-pressed", String(c === chip));
+      for (const group of document.querySelectorAll<HTMLElement>(".game-group")) {
+        let shown = 0;
+        for (const li of group.querySelectorAll<HTMLElement>("li")) {
+          const ok = !key || (li.dataset.consoles ?? "").split(" ").includes(key);
+          li.hidden = !ok;
+          if (ok) shown++;
+        }
+        group.hidden = shown === 0;
+      }
+    });
+  }
+</script>

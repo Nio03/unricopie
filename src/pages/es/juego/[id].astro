@@ -1,0 +1,13 @@
+---
+import type { GetStaticPaths } from "astro";
+import GamePage from "../../../components/pages/GamePage.astro";
+import { gamePageIds } from "../../../lib/games";
+
+export const getStaticPaths = (async () => {
+  return (await gamePageIds()).map((id) => ({ params: { id } }));
+}) satisfies GetStaticPaths;
+
+const { id } = Astro.params;
+---
+
+<GamePage lang="es" id={id} />

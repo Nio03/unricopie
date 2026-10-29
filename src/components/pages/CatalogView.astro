@@ -100,6 +100,7 @@ const guideCards = [
           </div>
         )
       }
+      {why && (<p class="by-game"><a href={localePath(lang, "juegos")}>{t(lang, "home.byGame")}</a></p>)}
       {
         why && (
           <section class="why" aria-labelledby="why-title">

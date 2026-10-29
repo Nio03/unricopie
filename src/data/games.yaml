@@ -502,8 +502,8 @@ carmageddon:
   year: 1997
   platforms: [pc]
 
-castlevania:
-  name: Castlevania
+castlevania-64:
+  name: Castlevania 64
   igdb: 1130
   year: 1999
   platforms: [n64]
@@ -2243,7 +2243,7 @@ mario-kart-64:
   name: Mario Kart 64
   igdb: 2342
   year: 1996
-  platforms: [n64, wii]
+  platforms: [n64]
 
 mario-kart-double-dash:
   name: "Mario Kart: Double Dash!!"
@@ -3987,11 +3987,6 @@ super-3-d-noahs-ark:
   year: 1994
   platforms: [dos]
 
-super-mario-3d-all-stars:
-  name: Super Mario 3D All-Stars
-  igdb: 138225
-  year: 2020
-  platforms: [switch]
 
 super-mario-3d-world-bowsers-fury:
   name: "Super Mario 3D World + Bowser's Fury"
@@ -4003,7 +3998,7 @@ super-mario-64:
   name: Super Mario 64
   igdb: 1074
   year: 1996
-  platforms: [n64, wii]
+  platforms: [n64]
 
 super-mario-64-ds:
   name: Super Mario 64 DS
@@ -4325,11 +4320,6 @@ the-legend-of-zelda-breath-of-the-wild:
   year: 2017
   platforms: [switch]
 
-the-legend-of-zelda-collectors-edition:
-  name: "The Legend of Zelda: Collector's Edition"
-  igdb: 45139
-  year: 2003
-  platforms: [gamecube]
 
 the-legend-of-zelda-echoes-of-wisdom:
   name: "The Legend of Zelda: Echoes of Wisdom"
@@ -4353,13 +4343,13 @@ the-legend-of-zelda-majoras-mask:
   name: "The Legend of Zelda: Majora's Mask"
   igdb: 1030
   year: 2000
-  platforms: [gamecube, n64]
+  platforms: [n64]
 
 the-legend-of-zelda-ocarina-of-time:
   name: "The Legend of Zelda: Ocarina of Time"
   igdb: 1029
   year: 1998
-  platforms: [n64, wii]
+  platforms: [n64]
 
 the-legend-of-zelda-ocarina-of-time-3d:
   name: "The Legend of Zelda: Ocarina of Time 3D"
@@ -4367,11 +4357,6 @@ the-legend-of-zelda-ocarina-of-time-3d:
   year: 2011
   platforms: [3ds]
 
-the-legend-of-zelda-ocarina-of-time-master-quest:
-  name: "The Legend of Zelda: Ocarina of Time - Master Quest"
-  igdb: 45142
-  year: 2002
-  platforms: [gamecube]
 
 the-legend-of-zelda-oracle-of-ages:
   name: "The Legend of Zelda: Oracle of Ages"

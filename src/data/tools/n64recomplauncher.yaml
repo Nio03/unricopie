@@ -4,6 +4,9 @@ consoles:
   - n64
 repo: SirDiabo/GithubLauncher
 status: usable
+manifests:
+  - url: https://raw.githubusercontent.com/SirDiabo/GHLAppList/main/apps.json
+    format: ghl
 desc:
   es: "El primer launcher universal independiente (agosto de 2025): localiza, descarga y organiza ports por recompilación al estilo de Steam, y se actualiza solo. Hoy se ha convertido en un launcher genérico de versiones publicadas en GitHub (SirDiabo/GithubLauncher)."
   en: "The first standalone universal launcher (August 2025): it tracks, downloads, and organizes recomp ports Steam-style, with auto-update. It has since been renamed and turned into a generic launcher for GitHub releases (SirDiabo/GithubLauncher)."

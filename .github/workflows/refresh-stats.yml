@@ -27,14 +27,20 @@ jobs:
           # GITHUB_TOKEN del runner: ~1000 req/hora, sin tope de 60.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Qué proyectos del catálogo instala cada launcher, según la lista que
+      # publica. Si falla, el sitio sigue con la lista del día anterior.
+      - name: Refrescar las listas de los launchers
+        run: npm run refresh-launchers
+        continue-on-error: true
+
       - name: Commit si hubo cambios
         run: |
-          if [[ -n "$(git status --porcelain src/data/stats.json)" ]]; then
+          if [[ -n "$(git status --porcelain src/data/stats.json src/data/launchers.json)" ]]; then
             git config user.name "recompendium-bot"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add src/data/stats.json
+            git add src/data/stats.json src/data/launchers.json
             git commit -m "chore: refresh GitHub stats [skip ci]"
             git push
           else
-            echo "Sin cambios en stats.json."
+            echo "Sin cambios en stats.json ni en launchers.json."
           fi

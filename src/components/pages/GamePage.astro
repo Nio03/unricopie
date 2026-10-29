@@ -1,0 +1,147 @@
+---
+import Base from "../../layouts/Base.astro";
+import Card from "../Card.astro";
+import { consoleMeta } from "../../lib/consoles";
+import { getGames, projectsByGame, launchersFor } from "../../lib/games";
+import type { Item } from "../../lib/catalog";
+import { t, localePath, type Lang, type UIKey } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+  id: string;
+}
+// Una página por juego con todos sus proyectos: es la que responde a búsquedas
+// como «Super Mario 64 en PC» o a la pregunta a un asistente «¿se puede jugar X
+// en PC?». Las respuestas salen de los datos de las fichas, no se escriben a mano.
+const { lang, id } = Astro.props;
+const game = (await getGames()).get(id)!;
+const items = (await projectsByGame(lang)).get(id) ?? [];
+const installers = await launchersFor(id, items, lang);
+
+// «5 ports y 1 decompilación» / «5 ports and 1 decompilation».
+const ORDER = ["recomp", "port", "decomp", "mod", "tool"] as const;
+function joinList(parts: string[]): string {
+  if (parts.length <= 1) return parts.join("");
+  const and = t(lang, "game.and");
+  const head = parts.slice(0, -1).join(", ");
+  return lang === "en" && parts.length > 2 ? `${head}, ${and} ${parts.at(-1)}` : `${head} ${and} ${parts.at(-1)}`;
+}
+const listOf = (its: Item[]) =>
+  joinList(
+    ORDER.map((ty) => [ty, its.filter((i) => i.type === ty).length] as const)
+      .filter(([, n]) => n > 0)
+      .map(([ty, n]) => t(lang, `game.n.${ty}.${n === 1 ? "1" : "n"}` as UIKey, { n })),
+  );
+const summary = listOf(items);
+
+const platformLabel = (p: string) => (p === "other" ? "" : consoleMeta(p, lang).label);
+const platforms = game.platforms.map(platformLabel).filter(Boolean);
+// Un juego de PC ya se juega en PC: la pregunta útil es qué proyectos hay.
+const PC_LIKE = new Set(["pc", "dos", "mac", "pc98", "other", "mobile"]);
+const fromPc = game.platforms.length > 0 && game.platforms.every((p) => PC_LIKE.has(p));
+
+// Respuestas, a partir del estado de cada proyecto. Las fichas retiradas por
+// DMCA no cuentan: ya no se pueden descargar.
+const live = items.filter((i) => !i.takedown);
+const playables = live.filter((i) => i.type === "recomp" || i.type === "port");
+const full = playables.filter((i) => i.statusKey === "fully").length;
+const playable = playables.filter((i) => i.statusKey === "playable" || i.statusKey === "fully").length;
+function nativeAnswer(): string {
+  const n = playables.length;
+  const list = listOf(playables);
+  const pick = (kind: "full" | "playable", k: number) =>
+    t(lang, `game.a.${kind}.${n === 1 ? "single" : k === n ? "all" : k === 1 ? "one" : "many"}` as UIKey, { list, k });
+  if (!n) return t(lang, live.some((i) => i.type === "decomp") ? "game.a.decompOnly" : "game.a.projects", { list: listOf(live), name: game.name });
+  if (full) return pick("full", full);
+  if (playable) return pick("playable", playable);
+  return t(lang, "game.a.wip", { list });
+}
+const faqs: { q: string; a: string; link?: Item }[] = [];
+if (fromPc || !playables.length && !live.some((i) => i.type === "decomp")) {
+  faqs.push({ q: t(lang, "game.q.projects", { name: game.name }), a: t(lang, "game.a.projects", { list: summary, name: game.name }) });
+} else {
+  faqs.push({ q: t(lang, "game.q.native", { name: game.name }), a: nativeAnswer() });
+}
+const mainPlatform = platforms[0];
+faqs.push({
+  q: t(lang, "game.q.need"),
+  a: t(lang, "game.a.need", { name: game.name, platform: mainPlatform ?? "" }).replace(" ()", ""),
+});
+const top = [...(playables.length ? playables : live)].filter((i) => (i.stars ?? 0) > 0).sort((a, b) => b.stars! - a.stars!)[0];
+if (top) {
+  faqs.push({
+    q: t(lang, "game.q.top"),
+    a: t(lang, "game.a.top", { project: top.name, stars: top.stars!.toLocaleString(lang === "es" ? "es-ES" : "en-US") }),
+    link: top,
+  });
+}
+
+const title = `${t(lang, "game.seoTitle", { name: game.name, summary })} — Recompendium`;
+const description = faqs[0].a;
+const abs = (p: string) => (Astro.site ? new URL(p, Astro.site).href : p);
+const url = abs(localePath(lang, `juego/${id}`));
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    name: game.name,
+    url,
+    inLanguage: lang,
+    gamePlatform: game.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).full),
+    datePublished: game.year ? String(game.year) : undefined,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: summary,
+    numberOfItems: items.length,
+    itemListElement: items.map((it, n) => ({ "@type": "ListItem", position: n + 1, name: it.name, url: abs(it.href) })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Recompendium", item: abs(localePath(lang, "")) },
+      { "@type": "ListItem", position: 2, name: t(lang, "game.crumb"), item: abs(localePath(lang, "juegos")) },
+      { "@type": "ListItem", position: 3, name: game.name, item: url },
+    ],
+  },
+];
+---
+
+<Base lang={lang} title={title} description={description} jsonLd={jsonLd}>
+  <main class="wrap detail">
+    <div class="crumb"><a href={localePath(lang, "juegos")}>{t(lang, "game.crumb")}</a></div>
+    <h1>{game.name}</h1>
+    <p class="game-meta">{[...platforms, game.year, t(lang, "game.projects", { n: items.length })].filter(Boolean).join(" · ")}</p>
+
+    <div class="sec-h"><h2>{summary}</h2></div>
+    <section class="grid" style="padding-top:8px">{items.map((it) => <Card item={it} lang={lang} />)}</section>
+
+    {
+      installers.length > 0 && (
+        <>
+          <div class="sec-h" style="margin-top:6px"><h2>{t(lang, "game.installedWith")}</h2></div>
+          <p class="game-links">{installers.map((l, i) => (<>{i > 0 && " · "}<a href={l.href}>{l.name}</a></>))}</p>
+        </>
+      )
+    }
+
+    <div class="sec-h"><h2>{t(lang, "game.faq")}</h2></div>
+    <div class="prose">
+      {
+        faqs.map((f) => (
+          <>
+            <h3>{f.q}</h3>
+            <p>{f.link ? <><a href={f.link.href}>{f.link.name}</a>{f.a.slice(f.link.name.length)}</> : f.a}</p>
+          </>
+        ))
+      }
+    </div>
+  </main>
+</Base>

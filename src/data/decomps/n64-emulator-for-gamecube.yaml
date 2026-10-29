@@ -1,5 +1,4 @@
 name: N64 Emulator for GameCube
-games: [the-legend-of-zelda-collectors-edition, the-legend-of-zelda-ocarina-of-time-master-quest, the-legend-of-zelda-majoras-mask]
 console: gamecube
 repo: zeldaret/oot-gc
 decomp: zeldaret/oot-gc

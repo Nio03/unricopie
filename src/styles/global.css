@@ -109,6 +109,21 @@ header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
 .why ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px 26px; }
 .why li { color: var(--ink-2); font-size: 13px; line-height: 1.55; }
 .why li b { color: var(--ink); font-weight: 700; }
+.by-game { margin: 14px 0 0; font-family: var(--mono); font-size: 13px; }
+
+/* ---------- juegos ---------- */
+.game-meta { font-family: var(--mono); font-size: 12px; color: var(--ink-3); letter-spacing: 0.3px; margin: 0 0 6px; }
+.game-line { margin: 2px 0 10px; }
+.game-links { color: var(--ink-3); font-size: 14px; line-height: 1.8; max-width: 90ch; margin: 0; }
+.game-links .see-all { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
+.game-filter { margin: 22px 0 6px; }
+.game-group h2 { font-family: var(--pixel); font-size: 15px; color: var(--gold); margin: 30px 0 10px; }
+.game-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 6px 26px; }
+.game-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--line); }
+.game-list li[hidden], .game-group[hidden] { display: none; }
+.game-list a { color: var(--ink); }
+.game-list a:hover { color: var(--gold); }
+.game-list span { font-family: var(--mono); font-size: 11px; color: var(--ink-3); white-space: nowrap; }
 
 /* ---------- controls ---------- */
 .controls {

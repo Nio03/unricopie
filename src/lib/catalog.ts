@@ -13,6 +13,8 @@ export interface Item {
   type: ItemType;
   id: string;
   name: string;
+  /** Juegos de la ficha (identificadores de src/data/games.yaml). */
+  games: string[];
   desc: string;
   requirements?: string;
   forkOf?: { label: string; url: string };
@@ -90,7 +92,7 @@ export function recompItem(e: CollectionEntry<"recomps">, lang: Lang): Item {
   const sm = statusMeta(d.status);
   const s = liveStat(d);
   return {
-    type: "recomp", id: e.id, name: d.name, desc: d.desc[lang], requirements: d.requirements?.[lang], forkOf: forkInfo(d, s),
+    type: "recomp", id: e.id, name: d.name, games: d.games, desc: d.desc[lang], requirements: d.requirements?.[lang], forkOf: forkInfo(d, s),
     href: localePath(lang, `recomp/${e.id}`), external: false,
     railColor: cm.color, boxLabel: cm.tag, typeLabel: t(lang, "type.recomp"), typeColor: TYPE_COLOR.recomp,
     kindLabel: cm.label, statusKey: d.status,
@@ -108,7 +110,7 @@ export function toolItem(e: CollectionEntry<"tools">, lang: Lang): Item {
   const ts = toolStatusMeta(d.status);
   const s = liveStat(d);
   return {
-    type: "tool", id: e.id, name: d.name, desc: d.desc[lang], forkOf: forkInfo(d, s),
+    type: "tool", id: e.id, name: d.name, games: d.games, desc: d.desc[lang], forkOf: forkInfo(d, s),
     href: localePath(lang, `tool/${e.id}`), external: false,
     railColor: km.color, boxLabel: TOOL_BOX[d.kind] ?? "TOOL", typeLabel: t(lang, "type.tool"), typeColor: TYPE_COLOR.tool,
     kindLabel: t(lang, `toolkind.${d.kind}`), statusKey: d.status ?? "",
@@ -126,7 +128,7 @@ export function portItem(e: CollectionEntry<"ports">, lang: Lang): Item {
   const s = liveStat(d);
   const catColor = CAT_COLOR[d.category] ?? "#9AA0B5";
   return {
-    type: "port", id: e.id, name: d.name, desc: d.desc[lang], requirements: d.requirements?.[lang], forkOf: forkInfo(d, s),
+    type: "port", id: e.id, name: d.name, games: d.games, desc: d.desc[lang], requirements: d.requirements?.[lang], forkOf: forkInfo(d, s),
     href: localePath(lang, `port/${e.id}`), external: false,
     railColor: cm?.color ?? catColor, boxLabel: cm?.tag ?? "PRT", typeLabel: t(lang, "type.port"), typeColor: TYPE_COLOR.port,
     kindLabel: t(lang, `category.${d.category}`), statusKey: d.status,
@@ -143,7 +145,7 @@ export function decompItem(e: CollectionEntry<"decomps">, lang: Lang): Item {
   const cm = consoleMeta(d.console, lang);
   const s = liveStat(d);
   return {
-    type: "decomp", id: e.id, name: d.name, desc: d.desc[lang], forkOf: forkInfo(d, s),
+    type: "decomp", id: e.id, name: d.name, games: d.games, desc: d.desc[lang], forkOf: forkInfo(d, s),
     href: localePath(lang, `decomp/${e.id}`), external: false,
     railColor: cm.color, boxLabel: cm.tag, typeLabel: t(lang, "type.decomp"), typeColor: TYPE_COLOR.decomp,
     kindLabel: cm.label, statusKey: "", status: null,
@@ -161,7 +163,7 @@ export function modItem(e: CollectionEntry<"mods">, lang: Lang): Item {
   const ts = toolStatusMeta(d.status);
   const s = liveStat(d);
   return {
-    type: "mod", id: e.id, name: d.name, desc: d.desc[lang], requirements: d.requirements?.[lang], forkOf: forkInfo(d, s),
+    type: "mod", id: e.id, name: d.name, games: d.games, desc: d.desc[lang], requirements: d.requirements?.[lang], forkOf: forkInfo(d, s),
     href: localePath(lang, `mod/${e.id}`), external: false,
     railColor: mk.color, boxLabel: MOD_BOX[d.kind] ?? "MOD", typeLabel: t(lang, "type.mod"), typeColor: TYPE_COLOR.mod,
     kindLabel: t(lang, `modkind.${d.kind}`), statusKey: d.status ?? "",
