@@ -1,0 +1,22 @@
+name: "Dino Crisis Modern Edition"
+games: [dino-crisis]
+kind: mod
+console: ps1
+game:
+  es: "Dino Crisis"
+  en: "Dino Crisis"
+repo: Rotmill/Dino-Crisis-Modern-Edition
+status: usable
+desc:
+  es: "Mod de aficionados de Dino Crisis que reconstruye el juego a partir de tu propio disco en un programa nativo de Windows, con el aspecto y el manejo de los remakes de Resident Evil. El instalador lee tu imagen de disco, recompila el código del juego a C y lo compila en tu equipo junto con el mod (unos minutos), con el compilador incluido; el repositorio y el instalador no contienen nada del juego. Añade cámara sobre el hombro, controles y movimiento modernos, sombras, oclusión ambiental y antialiasing, animación facial con sincronización labial, pantalla ancha 16:9, 21:9 y 32:9 sin estirar (o 4:3 original), resolución de hasta 4K, de 30 a 1000 FPS y mando o teclado con teclas reasignables. Admite mods en una carpeta que el juego recoge en marcha y el editor aparte Dino Crisis ME Studio. Como problemas conocidos cita los gráficos integrados y Smart App Control de Windows 11. La 1.06 (28 de octubre) es la última versión. Sus 8 commits llevan a Claude como coautor."
+  en: "A fan mod of Dino Crisis that rebuilds the game from your own disc into a native Windows program, made to look and play like the Resident Evil remakes. The installer reads your disc image, recompiles the game’s code to C, and builds it on your PC together with the mod (a few minutes), with the compiler included; the repository and the installer contain nothing of the game. It adds an over-the-shoulder camera, modern controls and movement, shadows, ambient occlusion, and anti-aliasing, facial animation with lip sync, 16:9, 21:9, and 32:9 widescreen without stretching (or the original 4:3), resolution up to 4K, 30 to 1000 FPS, and gamepad or keyboard with remappable keys. It supports mods in a folder the game picks up while running, and the separate Dino Crisis ME Studio editor. Its known issues list integrated graphics and Windows 11 Smart App Control. Version 1.06 (October 28) is the latest release. All 8 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Dino Crisis (pista 1 en .bin o .cue): EE. UU. v1.0 o v1.1 (SLUS-00922), Europa en inglés, francés, alemán, italiano o español (SLES-02207 a SLES-02211, con su archivo .sbi) o Japón (SLPS-02180), además de varias traducciones al ruso y al árabe. Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan."
+  en: "Your own Dino Crisis disc image (Track 1 as .bin or .cue): USA v1.0 or v1.1 (SLUS-00922), Europe in English, French, German, Italian, or Spanish (SLES-02207 to SLES-02211, with their .sbi file), or Japan (SLPS-02180), plus several Russian and Arabic translations. 64-bit Windows 10 or 11 and a graphics card with Vulkan."
+tags:
+  - mips
+  - horror
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

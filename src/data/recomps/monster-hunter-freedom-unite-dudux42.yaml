@@ -1,0 +1,19 @@
+name: "Monster Hunter Freedom Unite (Dudux42)"
+games: [monster-hunter-freedom-unite]
+console: psp
+status: playable
+repo: Dudux42/FreedomUnbound
+originalDeveloper: "Capcom"
+year: 2008
+toolchain: PortableKit
+desc:
+  es: "Recompilación nativa para Windows de Monster Hunter Freedom Unite, hecha por Team Wyvern Works sobre PortableKit. Ofrece un lanzador propio en inglés y portugués de Brasil, juego a los 30 fotogramas originales con interpolación experimental opcional, tres tarjetas de guardado con copias de seguridad y compatibilidad con partidas de PSP, mando, teclado y ratón configurables, una relación de aspecto «Fill» que amplía la vista 3D, un gestor de mods (texturas, textos y jugabilidad) que se descargan aparte, y juego en red local en el Salón de Reunión. El README la llama alfa jugable: se han probado varias misiones del Anciano de la aldea hasta ★3, pero no se ha verificado una partida completa, y el juego en línea por internet no está comprobado. Declara el uso de flujos de trabajo asistidos por IA. La 0.1.5-alpha (20 de octubre) es la última."
+  en: "A native Windows recompilation of Monster Hunter Freedom Unite, made by Team Wyvern Works on PortableKit. It offers a launcher of its own in English and Brazilian Portuguese, play at the original 30 frames with optional experimental interpolation, three save cards with backups and PSP save compatibility, configurable gamepad, keyboard, and mouse controls, a “Fill” aspect ratio that widens the 3D view, a mod manager (textures, text, and gameplay) with mods downloaded separately, and LAN play in the Gathering Hall. The README calls it a playable alpha: several Village Elder quests have been tested through ★3, but a complete playthrough hasn’t been verified, and internet play is unchecked. It discloses the use of AI-assisted workflows. Version 0.1.5-alpha (October 20) is the latest."
+requirements:
+  es: "Tu propio volcado legal de Monster Hunter Freedom Unite de PSP, de EE. UU. (ULUS10391), en formato ISO. Además, Windows x64, una GPU con Vulkan, una CPU con AVX y el runtime de Visual C++ x64."
+  en: "Your own legally obtained dump of Monster Hunter Freedom Unite for the PSP, US release (ULUS10391), in ISO format. Plus Windows x64, a Vulkan-capable GPU, an AVX-capable CPU, and the Microsoft Visual C++ x64 runtime."
+tags:
+  - mips
+  - multiplayer
+  - mods
+  - ai-assisted

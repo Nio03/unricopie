@@ -1,0 +1,18 @@
+name: "SegaSonic the Hedgehog"
+games: [segasonic-the-hedgehog]
+category: decomp-port
+console: arcade
+status: playable
+repo: cheviman/segasonic-port
+originalDeveloper: "Sega"
+year: 1993
+desc:
+  es: "Port nativo para Windows, Linux y macOS del arcade de Sega System 32, construido a partir de la decompilación del programa del juego a C (segasonic-decomp) y compilado para cada sistema; no es un emulador. Hay una versión de consola, pensada para jugar en casa, junto a la de arcade, ambas del mismo programa, con pantalla ancha en 16:9, contrarreloj y selección de fases. El autor comprueba la versión arcade con 98 escenarios (el modo de atracción, partidas de uno a tres jugadores, todas las fases, el final y el modo de pruebas) que se ejecutan en el juego y en el programa original sobre el núcleo V60 de MAME, y los dos coinciden fotograma a fotograma. La 1.3.0 (29 de octubre) trae paquetes para Windows x64, Linux x64, macOS (Apple Silicon e Intel) y las portátiles Anbernic H700; con los recursos hechos en tu equipo también hay versiones para Switch y Android."
+  en: "A native port of Sega’s System 32 arcade game for Windows, Linux, and macOS, built from the decompilation of the game’s program to C (segasonic-decomp) and built for each system; it is not an emulator. A console version made for playing at home sits alongside the arcade one, both from the same program, with 16:9 widescreen, time attack, and a stage select. The author checks the arcade version with 98 scenarios (the attract mode, one- to three-player games, every stage, the ending, and the test mode) that run on the game and on the original program on MAME’s V60 core, and the two match frame by frame. Version 1.3.0 (October 29) provides packages for Windows x64, Linux x64, macOS (Apple Silicon and Intel), and Anbernic H700 handhelds; with the assets made on your computer there are also builds for the Switch and Android."
+requirements:
+  es: "Tu propio conjunto de ROM del arcade: el sonic.zip de MAME (SegaSonic The Hedgehog, Japón, rev. C), de 18 archivos, que el juego comprueba por CRC32 y del que extrae en el primer arranque un paquete de recursos (segasonic.assets) que es tuyo y no se debe compartir. Además, Windows x64, Linux x64 o macOS."
+  en: "Your own copy of the arcade ROM set: MAME’s sonic.zip (SegaSonic The Hedgehog, Japan, rev. C), 18 files, which the game checks by CRC32 and from which it extracts an asset pack (segasonic.assets) on first run that is yours and not to be shared. Plus Windows x64, Linux x64, or macOS."
+tags:
+  - v60
+  - multiplayer
+  - widescreen

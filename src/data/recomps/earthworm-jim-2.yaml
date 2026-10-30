@@ -1,0 +1,16 @@
+name: "Earthworm Jim 2"
+games: [earthworm-jim-2]
+console: ps1
+status: playable
+repo: elprogramadorloco-arch/jim2-recomp
+toolchain: psxrecomp
+desc:
+  es: "Versión nativa para Windows de Earthworm Jim 2 para PlayStation, producida por recompilación estática con psxrecomp: el código MIPS del juego se traduce a C y se compila en un ejecutable normal de Windows. No es un emulador ni incluye el juego: lo construyes en tu equipo a partir de tu disco. El cargador de arranque y los 19 ejecutables del juego (menú principal, los 17 niveles y el final) se recompilan por adelantado, y cada nivel se comparó con el emulador DuckStation durante el desarrollo. La primera compilación descarga una cadena de herramientas portátil y las fuentes del framework en commits fijados y tarda entre 30 y 60 minutos. Incluye una mejora parcial a 16:9, activada de serie: Puppy Love 1-3, Flyin’ King y Lorenzo’s Soil siguen en 4:3, igual que menús, transiciones, vídeos y final. La 0.2 (3 de octubre) es la última versión."
+  en: "A native Windows version of the PlayStation release of Earthworm Jim 2, produced by static recompilation with psxrecomp: the game’s MIPS code is translated to C and compiled into a normal Windows executable. It is not an emulator and does not include the game: you build it on your PC from your disc. The boot loader and all 19 game executables (main menu, the 17 levels, and the ending) are recompiled ahead of time, and every level was checked against the DuckStation emulator during development. The first build downloads a portable toolchain and the framework sources at pinned commits and takes roughly 30 to 60 minutes. It includes a partial 16:9 widescreen patch, on by default: Puppy Love 1-3, Flyin’ King, and Lorenzo’s Soil still play in 4:3, as do menus, transitions, videos, and the ending. Version 0.2 (October 3) is the latest release."
+requirements:
+  es: "Tu propio volcado de la edición europea (SLES-00343): el set de Redump con un .cue y 15 pistas .bin (SHA-256 de la pista 1: D251CF65BB60EE375778F4369CF74FB88371E07EAB51EC337C0AD34F8DEF932B). Además, Windows 10 u 11 de 64 bits, unos 6 GB libres (se recomiendan 16 GB de RAM para compilar) y conexión a internet en la primera compilación."
+  en: "Your own dump of the European release (SLES-00343): the Redump set with one .cue and 15 .bin tracks (track 1 SHA-256: D251CF65BB60EE375778F4369CF74FB88371E07EAB51EC337C0AD34F8DEF932B). Plus 64-bit Windows 10 or 11, about 6 GB free (16 GB of RAM recommended for the build), and an internet connection for the first build."
+tags:
+  - mips
+  - platformer
+  - widescreen

@@ -1,0 +1,15 @@
+name: "Sakura Wars"
+games: [sakura-wars]
+category: native-layer
+console: ps4
+status: playable
+repo: HekamiAeon/Sakura-Wars-PS4RT
+year: 2019
+desc:
+  es: "Runtime de compatibilidad experimental, específico de este juego, para Linux x86-64 (probado en Fedora). Prepara y ejecuta el código x86-64 original de la versión de PlayStation 4, aporta implementaciones de los servicios de la consola y usa un renderizador Vulkan derivado de shadPS4; el README aclara que no es un emulador de PS4 general. El lanzador incluye un instalador propio de la actualización 1.01 y de DLC, y los ajustes gráficos (resolución hasta 4K, FSR 3.1 o FSR 4, nitidez, filtrado anisotrópico) se cambian dentro del juego. El README lo describe como experimental y jugable hasta el capítulo 3, sin una partida completa verificada. La v1.0 (28 de octubre) es la última versión publicada."
+  en: "An experimental, game-specific compatibility runtime for x86-64 Linux (tested on Fedora). It prepares and runs the original x86-64 code of the PlayStation 4 version, supplies implementations of the console’s services, and uses a Vulkan renderer derived from shadPS4; the README states it is not a general-purpose PS4 emulator. The launcher includes its own installer for the 1.01 update and for DLC, and graphics settings (resolution up to 4K, FSR 3.1 or FSR 4, sharpening, anisotropic filtering) are changed in the game. The README describes it as experimental and playable through Chapter 3, without a verified full playthrough. Version 1.0 (October 28) is the latest release."
+requirements:
+  es: "Tu propia carpeta CUSA16429 extraída y sin cifrar (con sce_sys/param.sfo, eboot.bin y sce_module), versión 1.00 o 1.01; para jugar hace falta la 1.01, y si tienes la 1.00 el lanzador te pide tu propio PKG de la actualización 1.01 y modifica la carpeta en su sitio. Además, Linux x86-64 con glibc 2.35 o más reciente, Python 3 y un controlador Vulkan 1.3; no se admiten ARM64 ni capas de traducción de CPU."
+  en: "Your own extracted, unencrypted CUSA16429 folder (with sce_sys/param.sfo, eboot.bin, and sce_module), version 1.00 or 1.01; version 1.01 is required to play, and if you have 1.00 the launcher asks for your own 1.01 update PKG and modifies the folder in place. Plus x86-64 Linux with glibc 2.35 or newer, Python 3, and a Vulkan 1.3 driver; ARM64 and CPU translation layers are not supported."
+tags:
+  - x86

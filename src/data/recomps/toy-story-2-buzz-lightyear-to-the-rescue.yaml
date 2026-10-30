@@ -1,0 +1,20 @@
+name: "Toy Story 2: Buzz Lightyear to the Rescue"
+games: [toy-story-2-buzz-lightyear-to-the-rescue]
+console: n64
+status: fully
+repo: Capridog/SpaceRanger
+originalDeveloper: "Traveller’s Tales"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "SpaceRanger: port nativo para Windows de la versión de Nintendo 64 de Toy Story 2: Buzz Lightyear to the Rescue, hecho por recompilación estática con N64: Recompiled y dibujado con RT64; no es un emulador y no ejecuta ninguna otra ROM. Según el README, el juego se puede jugar de principio a fin, aunque es un prelanzamiento con fallos conocidos (una banda oscura en la cintura de Buzz, partículas y proyectiles que aún no se interpolan, sonidos que a veces desaparecen). Añade imagen en pantalla ancha, tasa de fotogramas alta mediante interpolación de RT64, distancia de dibujo completa y menús de gráficos, mando, teclado y sonido. La ROM se carga desde el propio juego; no hay paso de extracción. La 0.1.0 es del 12 de octubre. El README dice que se hizo con mucha ayuda de Claude y de ChatGPT/Codex, y 6 de sus 10 commits llevan a Claude como coautor."
+  en: "SpaceRanger: a native Windows port of the Nintendo 64 version of Toy Story 2: Buzz Lightyear to the Rescue, made by static recompilation with N64: Recompiled and rendered with RT64; it is not an emulator and cannot run any other ROM. According to the README, the game is playable from start to finish, though this is a pre-release with known issues (a thin dark band around Buzz’s waist, particles and projectiles that are not interpolated yet, sound effects that sometimes go away). It adds widescreen, a high frame rate through RT64 interpolation, full draw distance, and menus for graphics, controls, and sound. The ROM is loaded from within the game; there is no extraction step. Version 0.1.0 is from October 12. The README says it was built with heavy help from Claude and ChatGPT/Codex, and 6 of its 10 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Toy Story 2: Buzz Lightyear to the Rescue para Nintendo 64, norteamericana (EE. UU.), en .z64, .n64 o .v64; se elige con «Load ROM» en la pantalla de título. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Direct3D 12.0 (Shader Model 6) o Vulkan 1.2."
+  en: "Your own copy of Toy Story 2: Buzz Lightyear to the Rescue for Nintendo 64, North American (USA), as .z64, .n64, or .v64; you pick it with “Load ROM” on the title screen. Plus 64-bit Windows 10 or 11 and a graphics card with Direct3D 12.0 (Shader Model 6) or Vulkan 1.2."
+tags:
+  - mips
+  - platformer
+  - widescreen
+  - 60fps+
+  - ai-assisted

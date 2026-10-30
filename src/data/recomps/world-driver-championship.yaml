@@ -1,0 +1,18 @@
+name: "World Driver Championship"
+games: [world-driver-championship]
+console: n64
+status: experimental
+repo: alondero/worlddriverchampionship-recomp
+originalDeveloper: "Boss Game Studios"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Port nativo experimental de World Driver Championship para Windows, hecho con N64Recomp, N64ModernRuntime y RT64. El código de la CPU y el microcódigo gráfico propio del juego (BOSS) se recompilan estáticamente, y RT64 dibuja los comandos RDP resultantes. Según el README, está probado en Windows x64 con Direct3D 12 a lo largo de la intro, los menús y la práctica en Hawái (aceleración, dirección, marchas automáticas y pausa); es una versión temprana, con fallos de dibujo y con el audio SDL aún experimental. Admite mando y teclado reasignables, partidas en la Controller Pak, vibración, escala de resolución de 1 a 8×, MSAA, pantalla completa y trampas de sesión, y puede ensanchar la cámara de las carreras. Linux y Android no están validados. La 0.2.0 es del 29 de octubre. El repositorio no incluye ROM, código generado ni binarios."
+  en: "An experimental native port of World Driver Championship for Windows, made with N64Recomp, N64ModernRuntime, and RT64. The CPU code and the game’s custom BOSS graphics microcode are statically recompiled, and RT64 renders the resulting RDP commands. Per the README, it has been tested on Windows x64 with Direct3D 12 through the intro, the menus, and practice driving in Hawaii (acceleration, steering, automatic gears, and pause); it is an early build, with rendering glitches and SDL audio still experimental. It supports remappable gamepad and keyboard controls, Controller Pak saves, rumble, resolution scaling from 1 to 8×, MSAA, fullscreen, and session cheats, and can widen the camera in races. Linux and Android are not validated. Version 0.2.0 is from October 29. The repository includes no ROM, generated code, or binaries."
+requirements:
+  es: "Tu propia copia de World Driver Championship para Nintendo 64, estadounidense. Además, Windows de 64 bits y una tarjeta gráfica con Direct3D 12."
+  en: "Your own copy of World Driver Championship for Nintendo 64, US. Plus 64-bit Windows and a graphics card with Direct3D 12."
+tags:
+  - mips
+  - racing
+  - widescreen

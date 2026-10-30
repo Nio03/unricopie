@@ -1,0 +1,16 @@
+name: "Xenogears (Blizz127)"
+games: [xenogears]
+category: decomp-port
+console: ps1
+status: experimental
+repo: Blizz127/xenogears-decomp-port
+desc:
+  es: "Código fuente de una capa de port nativo para PC de Xenogears (PlayStation, EE. UU., SLUS-00664), construida sobre una decompilación equivalente del juego, a su vez derivada de ladysilverberg/xenogears-decomp (cuyos archivos no tienen licencia publicada y se listan aparte). No es un emulador y no hace falta BIOS. La única versión es una compilación de prueba temprana para Linux x86_64, la r5 (30 de septiembre); necesita seis archivos extraídos del disco con el extractor de la decompilación original, y contiene unos 6,6 KB de tablas de datos transcritas del juego, que la v0.6.0 cargará del disco. Según el README, arrancan el juego, la pantalla de título, Nueva partida, la introducción y Lahan, y está en curso la ruta del Black Moon Forest. 6 de sus 7 commits llevan a Claude como coautor."
+  en: "The source of a native PC port layer for Xenogears (PlayStation, USA, SLUS-00664), built on a matching decompilation of the game that itself derives from ladysilverberg/xenogears-decomp (whose files have no published license and are listed separately). It is not an emulator and no BIOS is needed. The only release is an early test build for Linux x86_64, r5 (September 30); it needs six files extracted from the disc with the original decompilation’s extractor, and it contains about 6.6 KB of data tables transcribed from the game, which v0.6.0 will load from the disc instead. According to the README, boot, the title screen, New Game, the opening, and Lahan play on the port, and the Black Moon Forest route is in progress. 6 of its 7 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del disco 1 de Xenogears (EE. UU.) como imagen BIN/CUE en bruto (la de Redump, de 718.738.272 bytes); el .iso no sirve. Linux x86_64."
+  en: "Your own copy of Xenogears (USA) Disc 1 as a raw BIN/CUE image (the Redump kind, 718,738,272 bytes); an .iso does not work. Linux x86_64."
+tags:
+  - mips
+  - rpg
+  - ai-assisted

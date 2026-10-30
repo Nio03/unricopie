@@ -1,0 +1,15 @@
+name: "Brave Fencer Musashi"
+games: [brave-fencer-musashi]
+category: decomp-port
+console: ps1
+status: experimental
+repo: Blizz127/Brave-Fencer-Musashi-decomp-port
+desc:
+  es: "Port experimental para PC de Brave Fencer Musashi (PlayStation, EE. UU., SLUS-00726), construido a partir de una decompilación. El entorno de ejecución actual es híbrido: código nativo compilado más un intérprete de CPU; el port totalmente nativo sigue siendo un objetivo. Hay compilaciones de prueba para Linux x86_64 y Windows x64, y la de Windows solo se ha probado bajo Wine. La última publicación es la r55 (20 de octubre), una prerrelease de prueba solo para Linux, y la última estable según el README es la r38 (2 de octubre). El README dice que no se han verificado ni terminar el juego ni la fidelidad completa de gráficos y audio; el siguiente hito es el capítulo 1 jugable de principio a fin, con guardado. 6 de sus 9 commits llevan a Claude como coautor."
+  en: "An experimental PC port of Brave Fencer Musashi (PlayStation, USA, SLUS-00726), built from a decompilation. The current runtime is hybrid: compiled native code plus a CPU interpreter; the fully native port remains a goal. There are test builds for Linux x86_64 and Windows x64, and the Windows build has only been run under Wine. The latest release is r55 (October 20), a Linux-only test prerelease, and the latest stable release according to the README is r38 (October 2). The README says that neither finishing the game nor full graphics and audio fidelity has been verified; the next milestone is Chapter 1 playable end to end, with saving. 6 of its 9 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio disco estadounidense (SLUS-00726) como volcado .cue/.bin (el .iso de 2048 bytes no sirve, y todas las pistas deben estar juntas); no hace falta BIOS. Linux x86_64 con glibc 2.38 o posterior y GLIBCXX_3.4.32, o Windows x64."
+  en: "Your own US disc (SLUS-00726) as a .cue/.bin dump (a 2048-byte .iso does not work, and all tracks must be kept together); no BIOS needed. Linux x86_64 with glibc 2.38 or later and GLIBCXX_3.4.32, or Windows x64."
+tags:
+  - mips
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "Marvel vs. Capcom: Clash of Super Heroes"
+games: [marvel-vs-capcom-clash-of-super-heroes]
+console: ps1
+status: experimental
+repo: TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp
+originalDeveloper: "Capcom"
+year: 1999
+toolchain: "psxrecomp"
+desc:
+  es: "Versión nativa no oficial de Marvel vs. Capcom: Clash of Super Heroes para PC, hecha por recompilación estática con PSXRecomp y el lanzador recomp-ui; no es un emulador. El proyecto del juego guarda la configuración, las semillas de funciones y el pegamento de compilación. El repositorio incluye el código C generado a partir del ejecutable del juego (unos 114 MB, carpeta generated), y las versiones publicadas lo llevan ya compilado; los datos del juego salen de tu disco. Hay compilaciones para Windows, Linux y macOS (Intel y Apple Silicon); la v0.3.19 (1 de octubre) es la última. El README no indica qué funciona y qué no. 2 de sus 81 commits llevan a Claude como coautor."
+  en: "An unofficial native PC version of Marvel vs. Capcom: Clash of Super Heroes, made by static recompilation with PSXRecomp and the recomp-ui launcher; it is not an emulator. The game project holds the configuration, function seeds, and build glue. The repository includes the C code generated from the game’s executable (about 114 MB, generated folder), and the published releases ship it already compiled; the game’s data comes from your disc. There are builds for Windows, Linux, and macOS (Intel and Apple Silicon); v0.3.19 (October 1) is the latest release. The README does not say what works and what doesn’t. 2 of its 81 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Marvel vs. Capcom: Clash of Super Heroes de EE. UU. (SLUS-01059) como imagen .cue/.bin."
+  en: "Your own US copy of Marvel vs. Capcom: Clash of Super Heroes (SLUS-01059) as a .cue/.bin image."
+tags:
+  - mips
+  - fighting
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "Quake II (Yamagi Quake II)"
+games: [quake-ii]
+category: source-port
+console: pc
+status: fully
+repo: yquake2/yquake2
+originalDeveloper: "id Software"
+year: 1997
+desc:
+  es: "Yamagi Quake II: cliente mejorado de Quake II de id Software, centrado en el juego sin conexión y cooperativo. El juego y los gráficos quedan sin cambios, pero corrige muchos fallos de la última versión oficial y añade pantalla panorámica, soporte fiable de altas tasas de fotogramas, un sistema de sonido moderno basado en OpenAL, mandos modernos y un renderizador OpenGL 3.2. Se apoya en Icculus Quake II, que a su vez parte de Quake II 3.21, es limpio en 64 bits y se publica con GPL v2. Los sistemas con soporte oficial son FreeBSD, Linux y Windows; macOS y otros sistemas tipo Unix tienen soporte de la comunidad. Las expansiones oficiales (The Reckoning, Ground Zero y CTF) y la variante Remaster tienen repositorios propios. Las versiones oficiales se publican en su web, y su integración continua compila binarios sin soporte en cada commit."
+  en: "Yamagi Quake II: an enhanced client for id Software’s Quake II with a focus on offline and co-op play. Gameplay and graphics are unchanged, but it fixes many bugs of the last official release and adds widescreen support, reliable high frame rates, a modern OpenAL-based sound backend, modern game controller support, and an OpenGL 3.2 renderer. It builds on Icculus Quake II, which itself derives from Quake II 3.21, is fully 64-bit clean, and is released under the GPL v2. Officially supported systems are FreeBSD, Linux, and Windows; macOS and other Unix-like systems have community support. The official add-ons (The Reckoning, Ground Zero, and CTF) and the Remaster variant live in their own repositories. Official releases are published on its homepage, and its continuous integration builds unsupported binaries on every commit."
+requirements:
+  es: "Los archivos de tu propia copia de Quake II; el README remite a la documentación del proyecto para la instalación. Windows, Linux o FreeBSD (macOS con soporte de la comunidad)."
+  en: "The files from your own copy of Quake II; the README points to the project’s documentation for installation. Windows, Linux, or FreeBSD (macOS with community support)."
+tags:
+  - fps
+  - widescreen
+  - 60fps+

@@ -1,0 +1,19 @@
+name: "NBA Street Vol. 2"
+games: [nba-street-vol-2]
+category: game-engine
+console: ps2
+status: playable
+repo: luckvj/streetball-revival
+originalDeveloper: "EA Sports BIG"
+year: 2003
+desc:
+  es: "Reconstrucción desde cero, en Rust, de NBA Street Vol. 2 para PC, llamada Streetball Revival, con el juego en línea que el original no tenía: hasta seis jugadores, tres por equipo, por internet o en red local. Es una reimplementación escrita para ser compatible con el juego de PS2, y lee los datos de tu imagen de disco en tiempo de ejecución; el repositorio no contiene discos, ejecutables, arte, modelos, música ni código del juego original. Está en beta pública: según el README, casi todo se juega como en el original, hay cosas por igualar y el juego en línea es un trabajo en curso que necesita pruebas. Hay compilaciones para Windows y Linux; la v0.1.4-beta es del 27 de octubre. El README declara que gran parte del código lo escribió Claude, y sus últimos 100 commits lo llevan como coautor."
+  en: "A from-scratch rebuild, in Rust, of NBA Street Vol. 2 for PC, called Streetball Revival, with the online play the original never had: up to six players, three a side, over the internet or a home network. It is a reimplementation written to be compatible with the PS2 game, and it reads the data from your disc image at run time; the repository contains no discs, executables, art, models, music, or code from the original game. It is a public beta: according to the README, most of the game plays like the original, some things are still being matched, and online play is a work in progress that needs testing. There are builds for Windows and Linux; v0.1.4-beta is from October 27. The README declares that Claude wrote much of the code, and all of its last 100 commits list it as a co-author."
+requirements:
+  es: "Tu propia imagen .iso de NBA Street Vol. 2 para PS2, edición estadounidense (serie SLUS-20651)."
+  en: "Your own .iso image of NBA Street Vol. 2 for PS2, US release (serial SLUS-20651)."
+tags:
+  - mips
+  - sports
+  - multiplayer
+  - ai-assisted

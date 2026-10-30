@@ -1,0 +1,19 @@
+name: "Vagrant Story"
+games: [vagrant-story]
+console: ps1
+status: playable
+repo: riotashley81-jpg/vagrantstory_recomp
+originalDeveloper: "Square"
+year: 2000
+toolchain: "psxrecomp"
+desc:
+  es: "Versión nativa no oficial de Vagrant Story para PC, hecha con psxrecomp y el lanzador recomp-ui. El repositorio no contiene datos del juego ni código traducido de él; la versión para Windows tampoco lleva código del juego: lo lee de tu disco al jugar. En el primer arranque compila en segundo plano, con un gcc incluido, el motor de combate, los menús y la pantalla de título a partir de tu disco (puede tardar una hora o más y queda en caché); mientras tanto, y para el resto, ejecuta el código con el intérprete de psxrecomp y TinyCC. Los extras son paquetes que se activan desde la página Mods del lanzador, todos por defecto: pantalla ancha (16:9 por defecto), barra de iconos de botones, cámara con el stick derecho, logos saltables, opciones de salida y PGXP; un modo de 60 FPS está marcado como experimental y desactivado. La 0.1.11 (25 de octubre) es la última versión. Sus 14 commits llevan a Claude como coautor."
+  en: "An unofficial native PC build of Vagrant Story, made with psxrecomp and the recomp-ui launcher. The repository contains no game data and no code translated from it; the Windows build carries none of the game’s code either: it reads it from your disc when you play. On first launch it compiles the battle engine, menus, and title screen from your disc in the background with a bundled gcc (it can take an hour or more and is cached); until then, and for everything else, it runs the code through psxrecomp’s interpreter and TinyCC. The extras are packages toggled from the launcher’s Mods page, all on by default: widescreen (16:9 by default), a button prompt bar, a right-stick camera, skippable logos, exit options, and PGXP; a 60 FPS mode is marked experimental and off. Version 0.1.11 (October 25) is the latest release. All 14 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Vagrant Story (EE. UU., SLUS-01040) como imagen .cue + .bin, y Windows de 64 bits (la versión publicada es VagrantStoryRecompiled-win-x64.zip)."
+  en: "Your own copy of Vagrant Story (USA, SLUS-01040) as a .cue + .bin image, and 64-bit Windows (the published build is VagrantStoryRecompiled-win-x64.zip)."
+tags:
+  - mips
+  - rpg
+  - widescreen
+  - ai-assisted

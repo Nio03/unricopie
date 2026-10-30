@@ -1,0 +1,20 @@
+name: "WipEout Omega Collection"
+games: [wipeout-omega-collection]
+category: native-layer
+console: ps4
+status: playable
+repo: AbdelmoumenDeghbouche/wipeout_pc
+originalDeveloper: "XDev, Clever Beans, EPOS Game Studios"
+year: 2017
+desc:
+  es: "Port nativo para Windows 10 y 11 de la versión de PS4, al estilo de bbport: el código x86-64 original del juego se ejecuta en el procesador del PC, un entorno de ejecución sustituye a las bibliotecas del sistema de la PS4 y los gráficos se traducen a Vulkan con el núcleo de vídeo de shadPS4; no hay emulador de CPU. El README lo da por jugable y en desarrollo activo: los menús y las carreras (HD y 2048) van a más de 60 fotogramas por segundo, con hasta 240, resoluciones de 1080p a 4K y ultrapanorámicas, HDR, sonido y música propia. El modo PS4 Pro es experimental, el modo PSVR no está previsto y no se han probado todos los tipos de partida y de evento. La versión de Linux se compila desde el código y aún no tiene paquete. La última versión de Windows, la 0.2.46, salió el 29 de octubre. 7 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native port of the PS4 version for Windows 10 and 11, in the style of bbport: the game’s original x86-64 code runs on the PC’s processor, a runtime replaces the PS4 system libraries, and the graphics are translated to Vulkan by shadPS4’s video core; there is no CPU emulator. The README calls it playable and in active development: menus and races (HD and 2048) run above 60 frames per second, up to 240, with resolutions from 1080p to 4K and ultrawide, HDR, sound, and a custom soundtrack. PS4 Pro mode is experimental, PSVR mode is not planned, and not every game and event type has been tested. The Linux build is compiled from source and has no package yet. The latest Windows version, 0.2.46, came out on October 29. 7 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de WipEout Omega Collection de tu PS4, con la carpeta que contiene eboot.bin (el programa extrae el juego y su actualización). Además, Windows 10 u 11 de 64 bits, una CPU con AVX y una GPU con Vulkan 1.3."
+  en: "Your own dump of WipEout Omega Collection from your own PS4, with the folder that contains eboot.bin (the program unpacks the game and its update). Plus 64-bit Windows 10 or 11, a CPU with AVX, and a GPU with Vulkan 1.3."
+tags:
+  - x86
+  - racing
+  - 60fps+
+  - widescreen
+  - ai-assisted

@@ -1,0 +1,21 @@
+name: "Gunstar Heroes"
+games: [gunstar-heroes]
+category: decomp-port
+console: megadrive
+status: playable
+repo: 1nputs/gunstars
+originalDeveloper: "Treasure"
+year: 1993
+desc:
+  es: "Reescritura en C de Gunstar Heroes (Mega Drive/Genesis, edición estadounidense) para Linux, Windows y macOS. Según su README, las unas 4.400 rutinas del cartucho, las del 68000 y las del Z80, se han reescrito en C y comprobado una a una contra el original con grabaciones de partidas hechas con Genesis Plus GX, que solo sirve como herramienta de desarrollo: el juego no emula ni el 68000 ni el Z80, y usa el submódulo pulseman para el VDP, el PSG, el YM2612 y los mandos, con SDL2. Corre a 60 fotogramas por segundo sin la ralentización del cartucho, con dos jugadores, estados guardados en cualquier punto (ocho ranuras), rebobinado, avance rápido, grabación de GIF, filtros de píxel y juego en línea con rollback. Entre lo pendiente está la comparación fotograma a fotograma con el original. La 0.2.2 es del 21 de octubre. Sus 82 commits llevan a Claude como coautor."
+  en: "A C rewrite of Gunstar Heroes (Mega Drive/Genesis, US release) for Linux, Windows, and macOS. According to its README, the cartridge’s roughly 4,400 routines, the 68000’s and the Z80’s, have been rewritten in C and checked one by one against the original using recordings of play made with Genesis Plus GX, which is only a development tool: the game emulates neither the 68000 nor the Z80, and uses the pulseman submodule for the VDP, PSG, YM2612, and pads, with SDL2. It runs at 60 frames per second without the cartridge’s slowdown, with two players, save states anywhere (eight slots), rewind, fast-forward, GIF capture, pixel filters, and online play with rollback. Still pending is, among other things, frame-by-frame lockstep against the original. Version 0.2.2 is from October 21. All 82 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del cartucho de Gunstar Heroes para Mega Drive/Genesis, estadounidense, de 1 MB (SHA-1 7721e302555f16e3242ad4a47ed87a1de1882122). Se elige la primera vez en el navegador de archivos del juego, o con --rom."
+  en: "Your own copy of the US Gunstar Heroes cartridge for Mega Drive/Genesis, 1 MB (SHA-1 7721e302555f16e3242ad4a47ed87a1de1882122). You pick it the first time in the game’s file browser, or with --rom."
+tags:
+  - "68000"
+  - z80
+  - platformer
+  - multiplayer
+  - 60fps+
+  - ai-assisted

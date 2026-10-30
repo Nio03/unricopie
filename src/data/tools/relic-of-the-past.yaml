@@ -1,0 +1,14 @@
+name: "Relic of the Past"
+games: [the-legend-of-zelda-a-link-to-the-past]
+kind: launcher
+consoles:
+  - snes
+repo: drizztdourden08/relic-of-the-past
+status: beta
+desc:
+  es: "Lanzador de escritorio multiplataforma para el port abierto de The Legend of Zelda: A Link to the Past, con la interfaz hecha en React dentro de Electron. Envuelve una reimplementación en C decompilada del juego, compilada a WebAssembly (el núcleo se publica ya compilado), y añade perfiles de guardado, reasignación de mandos con vibración, packs de música MSU-1, opciones de pantalla y HUD, y un rastreador de randomizer en desarrollo. No incluye datos del juego: en el primer arranque se indica tu ROM y la aplicación extrae en tu equipo los recursos que necesita. Hay versiones para Windows (portátil e instalador), macOS y Linux (AppImage y deb). El README la presenta como prerelease o beta, en desarrollo activo; la v0.21.2 es del 28 de octubre."
+  en: "A cross-platform desktop launcher for the open-source A Link to the Past PC port, with the interface built in React inside Electron. It wraps a decompiled C reimplementation of the game compiled to WebAssembly (the core is published prebuilt), and adds save profiles, controller remapping with haptics, MSU-1 music packs, display and HUD options, and a randomizer tracker in progress. It ships no game data: on first run you point it at your own ROM and the app extracts the assets it needs on your machine. There are builds for Windows (portable and installer), macOS, and Linux (AppImage and deb). The README presents it as pre-release or beta, under active development; v0.21.2 is from October 28."
+tags:
+  - "65816"
+  - randomizer
+  - mods

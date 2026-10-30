@@ -1,0 +1,17 @@
+name: "Super Bomberman"
+games: [super-bomberman]
+console: snes
+status: experimental
+repo: elliotttate/BombermanRecomp
+originalDeveloper: "Hudson Soft"
+year: 1993
+toolchain: "snesrecomp"
+desc:
+  es: "Recompilación nativa para Windows de la versión norteamericana, sin cabecera, de Super Bomberman, hecha con snesrecomp (incluido como submódulo de Git). El repositorio y sus versiones no contienen la ROM ni el C generado a partir de ella: generate.py lo produce en tu equipo desde tu ROM (el C generado queda ignorado por Git) y build.ps1 compila el resultado. Salen un ejecutable interactivo de Win32 con vídeo, audio, teclado y guardado de SRAM, y un ejecutable sin interfaz para validar de forma determinista. Los nombres de las etiquetas de config\\bank00.cfg (3304) se importaron del desensamblado LIJI32/superbomberman. La v0.1.1 es del 26 de agosto."
+  en: "A native Windows recompilation of the headerless North American release of Super Bomberman, made with snesrecomp (included as a Git submodule). The repository and its releases contain neither the ROM nor the C generated from it: generate.py produces it on your PC from your ROM (the generated C is ignored by Git) and build.ps1 compiles the result. The output is an interactive Win32 executable with video, audio, keyboard, and SRAM saves, and a headless executable for deterministic validation. The 3,304 labels in config\\bank00.cfg were imported from the LIJI32/superbomberman disassembly. Version v0.1.1 is from August 26."
+requirements:
+  es: "Tu propia ROM norteamericana de Super Bomberman, de 524 288 bytes, HiROM, título interno SUPER BOMBERMAN (SHA-256 4efab3f49cbe91ec77b6cba747ddfedfdc0b080c755a8b6ba51234f0676c000f, MD5 d83699a009a62480a7e7e9f1bb5bff6e); se admite una cabecera de copiador de 512 bytes, y la ROM Sample anterior se rechaza. Para compilar: Python 3, una cadena de herramientas de Rust y Visual Studio 2022 con la carga de trabajo de C++ para escritorio."
+  en: "Your own North American Super Bomberman ROM, 524,288 bytes, HiROM, internal title SUPER BOMBERMAN (SHA-256 4efab3f49cbe91ec77b6cba747ddfedfdc0b080c755a8b6ba51234f0676c000f, MD5 d83699a009a62480a7e7e9f1bb5bff6e); an optional 512-byte copier header is accepted, and the earlier Sample ROM is rejected. To build: Python 3, a Rust toolchain, and Visual Studio 2022 with the Desktop development with C++ workload."
+tags:
+  - "65816"
+  - multiplayer

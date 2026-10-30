@@ -1,0 +1,17 @@
+name: "Legend of Legaia"
+games: [legend-of-legaia]
+console: ps1
+status: playable
+repo: SamSteProjects/legend-of-legaia-recomp
+originalDeveloper: "Contrail"
+year: 1998
+toolchain: "psxrecomp"
+desc:
+  es: "Compilación de prueba para Windows de Legend of Legaia (EE. UU.) hecha con psxrecomp, que el propio README presenta como un playtest temprano y no una versión oficial. Entre lo que dice haber probado están el campo, los pueblos y el mapamundi, escenas y vídeos, guardar y cargar desde la pantalla de la tarjeta de memoria, ataques, combos, objetos, Spirit, Hyper Arts e invocaciones, y las actividades Muscle Dome, Sol Fever Disco, Baka Fighter, la tragaperras y la pesca. Incluye una superposición de diagnóstico opcional y guarda informes de tirones. El paquete es de Windows de 64 bits; en Steam Deck se puede usar con Proton, pero el README aclara que no es soporte nativo de Linux. La última versión es la v0.1.7, de diagnóstico (27 de agosto)."
+  en: "A Windows playtest build of Legend of Legaia (USA) made with psxrecomp, which the README itself presents as an early playtest and not an official release. What it says has been tested includes field, town, and world-map traversal, cutscenes and FMVs, saving and loading through the memory-card screen, attacks, combos, items, Spirit, Hyper Arts, and summons, and the Muscle Dome, Sol Fever Disco, Baka Fighter, slot machine, and fishing. It includes an optional diagnostic overlay and saves hitch reports. The package is 64-bit Windows; on Steam Deck it can be used through Proton, but the README states this is not native Linux support. The latest release is v0.1.7, a diagnostic build (August 27)."
+requirements:
+  es: "Tu propia copia de Legend of Legaia (EE. UU.): el SCUS_942.54 extraído del disco, en la carpeta disc, y la imagen .cue + .bin correspondiente en game (el .cue debe llamarse «Legend of Legaia (USA).cue»). También una BIOS estadounidense de PS1 (SCPH1001.BIN) en la carpeta bios, y Windows de 64 bits."
+  en: "Your own copy of Legend of Legaia (USA): SCUS_942.54 extracted from the disc, in the disc folder, and the matching .cue + .bin image in game (the .cue must be named “Legend of Legaia (USA).cue”). Also a US PS1 BIOS (SCPH1001.BIN) in the bios folder, and 64-bit Windows."
+tags:
+  - mips
+  - rpg

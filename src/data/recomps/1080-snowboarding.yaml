@@ -1,0 +1,19 @@
+name: "1080° Snowboarding"
+games: [1080-snowboarding]
+console: n64
+status: playable
+repo: thebradshaw/1080-Snowboarding-decomp
+originalDeveloper: "Nintendo EAD"
+year: 1998
+desc:
+  es: "Port nativo para PC de la versión de Nintendo 64, hecho por recompilación estática: el código del juego se recompila a C y se ejecuta solo junto a una ROM sin modificar. Añade, todo opcional, pantalla ancha, 60 y 120 fotogramas por segundo, mayor distancia de dibujado, tablas en alta definición y RetroAchievements. Se descomprime, se pulsa Load ROM, se elige la ROM y se pulsa Start Game. La versión de Linux es nueva y, según el README, no está probada en equipos reales. La 1.01 (28 de octubre) corrige errores y la 1.0 salió el 24 de octubre; el proyecto se presenta como obra de Vibe Slop Studios. 52 de sus 54 commits llevan a Claude como coautor."
+  en: "A native PC port of the Nintendo 64 version, made by static recompilation: the game’s code is recompiled to C and runs only alongside an unmodified ROM. It adds, all optional, widescreen, 60 and 120 frames per second, a longer draw distance, HD boards, and RetroAchievements. You unzip it, choose Load ROM, pick the ROM, and choose Start Game. The Linux build is new and, per the README, untested on real machines. Version 1.01 (October 28) fixes bugs and 1.0 came out on October 24; the project presents itself as the work of Vibe Slop Studios. 52 of its 54 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM sin modificar de 1080° Snowboarding (EE. UU.) en formato .z64 con MD5 fa27089c425dbab99f19245c5c997613. Además, Windows 10 u 11 de 64 bits y una GPU con Vulkan o Direct3D 12; en Linux, una distribución tan reciente como Ubuntu 24.04 con controladores Vulkan, SDL2 y GTK 3."
+  en: "Your own unmodified 1080° Snowboarding (USA) ROM as a .z64 with MD5 fa27089c425dbab99f19245c5c997613. Plus 64-bit Windows 10 or 11 and a GPU with Vulkan or Direct3D 12; on Linux, a distribution about as new as Ubuntu 24.04 with Vulkan drivers, SDL2, and GTK 3."
+tags:
+  - mips
+  - sports
+  - widescreen
+  - 60fps+
+  - ai-assisted

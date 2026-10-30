@@ -1,0 +1,17 @@
+name: "Link: The Faces of Evil"
+games: [link-the-faces-of-evil]
+console: other
+status: experimental
+repo: tools81/link-faces-of-evil-static-recomp
+year: 1993
+desc:
+  es: "Port nativo no oficial de Link: The Faces of Evil (Philips CD-i, 1993) para Windows, hecho por recompilación estática: el código de máquina 68000 del juego se traduce de antemano a C, y un entorno pequeño aporta lo que el código espera de la consola, es decir, el sistema CD-RTOS (OS-9), el gestor de archivos del CD, el decodificador de vídeo y el procesador de audio ADPCM. Se recompilan dos módulos, el juego (unas 39.000 instrucciones) y la animación del logotipo de Philips. La compilación produce dos programas con el mismo código y las mismas partidas: linkfoe.exe, con la imagen original y los filtros nítido, suave, CRT y vecino más cercano, y linkfoe_hd.exe, que añade los ampliadores Cartoon HD y Cartoon HD+. Dibuja con Direct3D 11 a la resolución completa de la ventana, incluido 4K, con modos de aspecto para pantalla ancha (la imagen del juego es 4:3), estados guardados en diez ranuras, run-ahead de hasta seis campos para reducir el retardo de entrada y movimiento suave de sprites a 60 cuadros por segundo. El README no declara un estado de avance. La 1.0.0 se publicó el 21 de octubre. Su único commit lleva a Claude como coautor."
+  en: "An unofficial native port of Link: The Faces of Evil (Philips CD-i, 1993) for Windows, made by static recompilation: the game’s 68000 machine code is translated ahead of time into C, and a small runtime provides what the code expects from the console, namely the CD-RTOS (OS-9) operating system, the CD file manager, the video decoder, and the ADPCM audio processor. Two modules are recompiled, the game itself (about 39,000 instructions) and the Philips logo animation. The build produces two programs that share the same code and saves: linkfoe.exe, with the original look and sharp, smooth, CRT, and nearest filters, and linkfoe_hd.exe, which adds the Cartoon HD and Cartoon HD+ upscalers. It draws with Direct3D 11 at the full window resolution, including 4K, with aspect modes for widescreen (the game’s picture is 4:3), save states in ten slots, run-ahead of up to six fields to reduce input lag, and smooth sprite motion at 60 frames per second. The README doesn’t state a progress level. Version 1.0.0 was published on October 21. Its only commit lists Claude as a co-author."
+requirements:
+  es: "Tu propia imagen del disco de Link: The Faces of Evil, como .bin y .cue (el README da como ejemplo «Link - The Faces of Evil (USA)»). El instalador y el zip portátil no incluyen el disco; la primera vez el juego pide la imagen y guarda la ruta en linkfoe.ini. Windows 10 o posterior; para compilar desde el código, Visual Studio 2022 con el compilador de C++, CMake 3.16 y Python 3.8."
+  en: "Your own image of the Link: The Faces of Evil disc, as a .bin and .cue (the README gives “Link - The Faces of Evil (USA)” as an example). The installer and the portable zip don’t include the disc; on first start the game asks for the image and saves its path in linkfoe.ini. Windows 10 or later; to build from source, Visual Studio 2022 with the C++ compiler, CMake 3.16, and Python 3.8."
+tags:
+  - "68000"
+  - 60fps+
+  - widescreen
+  - ai-assisted

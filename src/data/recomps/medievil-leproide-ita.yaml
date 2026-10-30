@@ -1,0 +1,19 @@
+name: "MediEvil (Leproide ITA)"
+games: [medievil]
+console: ps1
+status: experimental
+repo: Leproide/MediEvilRecomp-ITA
+forkOf:
+  label: "BlackLabelHQ/MediEvilRecomp"
+  url: https://github.com/BlackLabelHQ/MediEvilRecomp
+toolchain: RecompOne
+desc:
+  es: "Recompilación estática de la versión PAL italiana de MediEvil (SCES-01494) para PC, bifurcada de BlackLabelHQ/MediEvilRecomp, que recompila la versión estadounidense; el trabajo base (recompilación, parches de renderizado y de pantalla panorámica, entorno RecompOne) es de BlackLabelHQ. Esta bifurcación traduce a la versión PAL las configuraciones, los mapas de funciones (arranque, EXE y 26 overlays) y los parches de C# (direcciones, desplazamientos de $gp, constantes a 50 Hz y 256 líneas), y corrige los callbacks del CD, los vídeos que se saltaban tras un segundo y el fundido en iris en pantalla ancha. Está en beta y el README avisa de que puede haber errores graves. La v1.0-Stable (25 de octubre) trae zips para Windows y Linux. A diferencia del proyecto original, acepta contribuciones escritas con IA, y el README dice que el propio port PAL se hizo con ayuda de una herramienta de IA."
+  en: "A static recompilation of the Italian PAL release of MediEvil (SCES-01494) for PC, forked from BlackLabelHQ/MediEvilRecomp, which recompiles the US version; the base work (recompilation, rendering and widescreen patches, RecompOne runtime) is BlackLabelHQ’s. This fork translates the configuration, the function maps (boot, EXE, and 26 overlays), and the C# patches to the PAL version (addresses, $gp offsets, 50 Hz constants, and 256 lines), and fixes the CD callbacks, movies that were skipped after a second, and the iris fade in widescreen. It is in beta, and the README warns there may be serious bugs. v1.0-Stable (October 25) has zips for Windows and Linux. Unlike the original project, it accepts AI-written contributions, and the README says the PAL port itself was made with the help of an AI tool."
+requirements:
+  es: "Tu propia copia original de MediEvil PAL italiano (SCES-01494), de la que sacar un volcado limpio en bin/cue (el README de la carpeta disc da los nombres de los archivos). Además, una GPU con OpenGL 2.1 como mínimo y, para compilarlo, el SDK de .NET 10."
+  en: "Your own original copy of MediEvil Italian PAL (SCES-01494), from which to make a clean bin/cue dump (the README in the disc folder gives the file names). Plus a GPU with at least OpenGL 2.1 and, to build it, the .NET 10 SDK."
+tags:
+  - mips
+  - widescreen
+  - ai-assisted

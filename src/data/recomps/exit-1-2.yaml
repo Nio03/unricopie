@@ -1,0 +1,11 @@
+name: "EXIT 1 y 2"
+games: [exit, exit-2]
+console: x360
+status: experimental
+repo: FluffyQuack/ReXGlue-EXIT
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de EXIT y EXIT 2 para Xbox 360 con el SDK ReXGlue. El repositorio es una bifurcación del propio SDK ReXGlue (su README es el del SDK) que añade las carpetas exit1/ y exit2/, con los manifiestos, la configuración y el código de arranque de cada juego, y exit_common/ con código compartido. Cada manifiesto parte de un default.xex en la carpeta de datos del juego correspondiente. La única versión publicada, la 0.9.1 (7 de julio), trae EXIT1-Recomp.zip y EXIT2-Recomp.zip, además de los paquetes del SDK, y está compilada para x86-64-v2 para admitir CPU más antiguas."
+  en: "A static recompilation of EXIT and EXIT 2 for Xbox 360 with the ReXGlue SDK. The repository is a fork of the ReXGlue SDK itself (its README is the SDK’s) that adds exit1/ and exit2/ folders, with each game’s manifest, configuration, and startup code, and exit_common/ with shared code. Each manifest starts from a default.xex in the corresponding game data folder. The only published release, 0.9.1 (July 7), ships EXIT1-Recomp.zip and EXIT2-Recomp.zip, along with the SDK packages, and is compiled for x86-64-v2 to support older CPUs."
+tags:
+  - powerpc

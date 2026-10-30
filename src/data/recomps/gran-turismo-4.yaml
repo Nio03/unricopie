@@ -1,0 +1,20 @@
+name: "Gran Turismo 4"
+games: [gran-turismo-4]
+console: ps2
+status: playable
+repo: moesuito/gt4-staticrecomp
+originalDeveloper: "Polyphony Digital"
+year: 2004
+toolchain: "ps2-web-recomp"
+desc:
+  es: "Recompilación estática de Gran Turismo 4 (NTSC-U) para Windows x86-64: el código del juego se traduce de antemano a C++ y se compila a código nativo, incluidos todos los microprogramas VU1 y VU0, y el hardware de la PS2 se reproduce por software. Es lo que el README llama una recompilación híbrida: la imagen sale por Vulkan con el renderizador GSdx de PCSX2 en un proceso aparte, que el lanzador descarga, mientras se desarrolla uno propio (CoreGS 2.0). Anuncia 60 FPS fijos a velocidad del 100 % en las escenas que prueban, 1080p de serie y hasta 8K, pantalla ancha y ultrapanorámica, packs de texturas propios, tarjeta de memoria a prueba de cierres y mandos vía SDL3. Trae instalador y lanzador, que configuran el juego a partir de tu disco. La 1.3.0-rc6 (26 de octubre) es una versión de prueba; la 1.2.5 es del mismo día. 51 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of Gran Turismo 4 (NTSC-U) for Windows x86-64: the game’s code is translated ahead of time into C++ and compiled to native code, including every VU1 and VU0 microprogram, and the PS2 hardware is reproduced in software. It is what the README calls a hybrid recompilation: the image goes out through Vulkan with PCSX2’s GSdx renderer in a separate process, which the launcher downloads, while an in-house one (CoreGS 2.0) is in development. It advertises a locked 60 FPS at 100% game speed in the scenes it tests, 1080p by default and up to 8K, widescreen and ultrawide, custom texture packs, a crash-safe memory card, and gamepads through SDL3. It ships an installer and a launcher that set the game up from your disc. Version 1.3.0-rc6 (October 26) is a test build; 1.2.5 is from the same day. 51 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen .iso de Gran Turismo 4 EE. UU. v2.00 (SCUS-97328). Windows 10 u 11 de 64 bits, un procesador con SSE4.1, una tarjeta gráfica con Vulkan 1.2 y unos 6 GB libres (el lanzador guarda una copia de 5,3 GB de tu imagen)."
+  en: "Your own .iso image of Gran Turismo 4 USA v2.00 (SCUS-97328). 64-bit Windows 10 or 11, a processor with SSE4.1, a graphics card with Vulkan 1.2, and about 6 GB free (the launcher keeps a 5.3 GB copy of your image)."
+tags:
+  - mips
+  - racing
+  - widescreen
+  - 60fps+
+  - ai-assisted

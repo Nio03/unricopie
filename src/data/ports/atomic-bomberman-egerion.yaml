@@ -1,0 +1,17 @@
+name: "Atomic Bomberman (Egerion)"
+games: [atomic-bomberman]
+category: fan-remake
+console: pc
+status: playable
+repo: Egerion/open-atomic-bomberman-97
+originalDeveloper: "Interplay"
+year: 1997
+desc:
+  es: "Reimplementación limpia («clean-room») de Atomic Bomberman (Interplay, 1997) en C++20 con SDL3, llamada Open Bomberman. Es una simulación determinista a 20 Hz que reproduce la aritmética del ejecutable original, obtenida por ingeniería inversa, y carga los gráficos, el sonido y la música originales en tiempo de ejecución desde tu instalación: el repositorio no incluye nada del juego. Según el README está jugable, con movimiento, bombas, patadas, puñetazos, agarrar y lanzar, las nueve enfermedades, el cierre de muros, cintas, agujeros de gusano y trampolines, rotación aleatoria de escenarios y editor de esquemas. Añade partidas en línea de hasta diez máquinas, con código de sala o lista pública, conexión UDP directa con relé cuando el NAT lo impide y red tipo GGPO con retroceso y sin retardo de entrada. La v1.0.0 (1 de agosto) publica OPEN-BM95.exe. El README dice que todo el código lo escribió Claude Code, y 95 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A clean-room reimplementation of Atomic Bomberman (Interplay, 1997) in C++20 with SDL3, called Open Bomberman. It is a deterministic 20 Hz simulation that reproduces the arithmetic of the original executable, learned by reverse engineering, and it loads the original graphics, sound, and music at run time from your own install: the repository contains nothing from the game. According to the README it is playable, with movement, bombs, kicks, punches, grab and throw, the nine diseases, closing walls, conveyors, warp holes, and trampolines, random stage rotation, and a scheme editor. It adds online games of up to ten machines, with a lobby code or a public list, a direct UDP path with a relay when the NAT refuses one, and GGPO-style rollback netcode with no input delay. Version 1.0.0 (August 1) publishes OPEN-BM95.exe. The README says all of the code was written by Claude Code, and 95 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Una instalación del Atomic Bomberman original; los datos del juego no se incluyen. Para compilar, CMake 3.25 o posterior y un compilador de C++20 (Visual Studio 2022 en Windows, cualquiera en Linux y macOS); SDL3 se descarga al compilar."
+  en: "An original Atomic Bomberman installation; the game data is not included. To build, CMake 3.25 or newer and a C++20 compiler (Visual Studio 2022 on Windows, any on Linux and macOS); SDL3 is fetched at build time."
+tags:
+  - multiplayer
+  - ai-assisted

@@ -1,0 +1,16 @@
+name: "Nanosaur"
+games: [nanosaur]
+category: source-port
+console: mac
+status: playable
+repo: jorio/Nanosaur
+originalDeveloper: "Pangea Software"
+year: 1998
+desc:
+  es: "Port del código fuente de Nanosaur que Pangea Software publicó en 1999, actualizado para macOS, Windows y Linux, con permiso de Pangea. Para llevarlo se escribió Pomme, una reimplementación parcial de la API Toolbox de Macintosh; la primera versión dibujaba con una bifurcación de Quesa (una implementación de QuickDraw 3D) y desde la 1.4.2 usa un renderizador propio. Añade resoluciones arbitrarias y corrige errores de jugabilidad, sin cambiar el diseño del juego. A diferencia de casi todos los proyectos del catálogo, el repositorio incluye la carpeta Data con los audios, modelos, imágenes y películas del juego, publicados por su dueño. El código lleva licencia CC NC-BY-SA 4.0. La última versión es la 1.4.4 (5 de febrero de 2023), con paquetes para macOS, Windows y Linux (AppImage de x86-64 y de ARM64)."
+  en: "A port of the Nanosaur source code that Pangea Software released in 1999, updated for macOS, Windows, and Linux with Pangea’s permission. To carry it over, the author wrote Pomme, a partial reimplementation of the Macintosh Toolbox API; the first release rendered with a fork of Quesa (an implementation of QuickDraw 3D) and since 1.4.2 it has its own renderer. It adds arbitrary resolutions and fixes gameplay bugs without changing the game’s design. Unlike almost every project in the catalog, the repository includes the Data folder with the game’s audio, models, images, and movies, released by its owner. The code is licensed CC NC-BY-SA 4.0. The latest version is 1.4.4 (February 5, 2023), with packages for macOS, Windows, and Linux (x86-64 and ARM64 AppImages)."
+requirements:
+  es: "No hace falta ninguna copia del juego: los datos vienen con el port, publicados por Pangea Software. Basta con macOS, Windows o Linux."
+  en: "No copy of the game is needed: the data comes with the port, released by Pangea Software. Just macOS, Windows, or Linux."
+tags:
+  - action

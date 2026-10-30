@@ -1,0 +1,18 @@
+name: "Abuse (apancik)"
+games: [abuse]
+category: source-port
+console: dos
+status: fully
+repo: apancik/Abuse_2025
+originalDeveloper: "Crack dot Com"
+year: 1996
+desc:
+  es: "Abuse 2025: port moderno de Abuse, el juego de plataformas y disparos de Crack dot Com, para sistemas actuales, con gráficos en alta resolución, mando y otras mejoras. Continúa el port a SDL2 de Xenoveritas y el proyecto Abuse 1996, y el README dice que el código fuente se publicó con licencias abiertas, los recursos como freeware no comercial y el contenido shareware original es de dominio público. Se puede jugar la campaña entera en solitario o en cooperativo, cargar contenido de la comunidad, crear niveles con el editor integrado y jugar partidas a muerte en red local; el multijugador entre plataformas distintas y en Windows no está admitido por ahora. El repositorio incluye todos los archivos de datos del juego base, y el autor advierte de que proceden de fuentes con licencias distintas. La 2025.1.0 (17 de enero de 2025) trae versiones para Windows x64 y macOS universal."
+  en: "Abuse 2025: a modern port of Abuse, Crack dot Com’s run-and-gun platformer, updated for current systems, with high-resolution graphics, gamepad support, and other improvements. It continues Xenoveritas’s SDL2 port and the Abuse 1996 project, and the README says the source code was released under open licenses, the assets as non-commercial freeware, and the original shareware content is public domain. You can play the whole campaign solo or in co-op, load community content, create levels with the built-in editor, and play LAN deathmatches; multiplayer between different platforms and on Windows is not supported for now. The repository includes all the data files needed for the base game, and the author warns that they come from sources with different licenses. Version 2025.1.0 (January 17, 2025) provides builds for Windows x64 and universal macOS."
+requirements:
+  es: "Ninguna copia: el repositorio incluye los archivos de datos del juego base, que Crack dot Com publicó como freeware no comercial (el contenido shareware original es de dominio público). Windows x64 o macOS para las versiones publicadas."
+  en: "No copy needed: the repository includes the base game’s data files, which Crack dot Com released as non-commercial freeware (the original shareware content is public domain). Windows x64 or macOS for the published builds."
+tags:
+  - platformer
+  - multiplayer
+  - mods

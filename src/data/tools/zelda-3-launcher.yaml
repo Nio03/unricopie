@@ -1,0 +1,11 @@
+name: "Zelda 3 Launcher"
+games: [the-legend-of-zelda-a-link-to-the-past]
+kind: launcher
+consoles: [snes]
+status: usable
+repo: RadzPrower/Zelda-3-Launcher
+desc:
+  es: "Herramienta de Windows, escrita en C#, que reúne en casi un clic los pasos para descargar, extraer, compilar y lanzar la reimplementación de A Link to the Past de snesrev. El botón pasa de Download a Building y después a Launch; Restore rehace todo el proceso y Update avisa si el repositorio zelda3 cambió. No incluye el juego: pide una copia legítima de la ROM de EE. UU. (SHA-256 66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb). La v1.3.7.0 (20 de octubre), una modernización de .NET, es la última versión; la anterior, del 7 de octubre, actualizó SDL2."
+  en: "A Windows tool, written in C#, that bundles into nearly one click the steps to download, extract, compile, and launch snesrev’s A Link to the Past reimplementation. The button goes from Download to Building and then to Launch; Restore redoes the whole process and Update flags a change in the zelda3 repository. It does not include the game: it asks for a legitimate copy of the US ROM (SHA-256 66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb). Version 1.3.7.0 (October 20), a .NET modernization, is the latest release; the previous one, from October 7, updated SDL2."
+tags:
+  - "65816"

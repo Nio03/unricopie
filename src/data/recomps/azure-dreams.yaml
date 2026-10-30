@@ -1,0 +1,19 @@
+name: "Azure Dreams"
+games: [azure-dreams]
+console: ps1
+status: playable
+repo: PotionDweller/Azure-Dreams-HD-Recompilation
+originalDeveloper: "Konami"
+year: 1997
+toolchain: "psxrecomp"
+desc:
+  es: "Port nativo no oficial de Azure Dreams para Windows, hecho recompilando estáticamente el código del juego a C con psxrecomp y con el lanzador recomp-ui; no es un emulador. Funciona con la versión estadounidense (SLUS-00614). Ofrece pantalla ancha 16:9 (el panel de interfaz y el minimapa de la mazmorra pasan a los bordes; vídeos y menús siguen en 4:3), renderizado HD de hasta 4x, PGXP, carga rápida (unos 2 a 3 segundos en lugar de 17 a 22), filtro bicúbico para vídeos y pantalla completa sin bordes, todo activable desde el lanzador. Se juega con teclado o con mandos SDL, en el modo de cruceta digital original. El repositorio no distribuye el juego, ni BIOS, ni código recompilado. La 0.9.1 (19 de octubre), en beta pública, es la última versión. 32 de sus 33 commits llevan a Claude como coautor y el README dice que el port se hizo con su ayuda."
+  en: "An unofficial native port of Azure Dreams for Windows, made by statically recompiling the game’s code to C with psxrecomp and the recomp-ui launcher; it is not an emulator. It works with the US release (SLUS-00614). It offers 16:9 widescreen (the interface panel and the dungeon minimap move to the edges; movies and menus stay 4:3), HD rendering up to 4x, PGXP, fast loading (about 2 to 3 seconds instead of 17 to 22), a bicubic filter for movies, and borderless fullscreen, all toggled from the launcher. It plays with a keyboard or SDL gamepads, in the original digital-pad mode. The repository distributes no game, no BIOS, and no recompiled code. Version 0.9.1 (October 19), a public beta, is the latest release. 32 of its 33 commits list Claude as a co-author, and the README says the port was made with its help."
+requirements:
+  es: "Tu propia copia de Azure Dreams (EE. UU., SLUS-00614) como imagen .cue/.bin (los SHA-1 figuran en game.toml, sección [prepare_disc]). Windows; el README lo probó en Windows 10 y, para compilar desde el repositorio, pide Git y Python 3 (psxrecomp descarga el resto de la cadena de herramientas)."
+  en: "Your own copy of Azure Dreams (USA, SLUS-00614) as a .cue/.bin image (the SHA-1s are listed in game.toml, under [prepare_disc]). Windows; the README tested it on Windows 10 and, to build from the repository, asks for Git and Python 3 (psxrecomp downloads the rest of the toolchain)."
+tags:
+  - mips
+  - rpg
+  - widescreen
+  - ai-assisted

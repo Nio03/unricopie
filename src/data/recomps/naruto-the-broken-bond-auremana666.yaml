@@ -1,0 +1,19 @@
+name: "Naruto: The Broken Bond (Auremana666)"
+games: [naruto-the-broken-bond]
+console: x360
+status: playable
+repo: Auremana666/Naruto-The-Broken-Bond-PC-Port
+originalDeveloper: "Ubisoft Montreal"
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port no oficial para PC de Naruto: The Broken Bond (Xbox 360), hecho recompilando estáticamente el juego original con el SDK ReXGlue y añadiendo un menú completo de opciones para PC. La versión 2 se basa en la recompilación de jorjbarbosa: su recompilación, sus correcciones de audio y su renderizador nativo en Direct3D 12 son obra suya, y este port añade sus propias funciones, como el menú de opciones, la reasignación de teclas y mandos, el campo de visión, la vista ultraancha, la cámara con ratón y, en la 2.5, el clima, una cámara libre, pieles de Hokage y arreglos para la Steam Deck. La 2.5 (26 de octubre) funciona en la Steam Deck con Proton. 40 de sus 87 commits llevan a Claude como coautor, y el README atribuye a Claude el código de las funciones de PC y de la recompilación de la versión 1."
+  en: "An unofficial PC port of Naruto: The Broken Bond (Xbox 360), made by statically recompiling the original game with the ReXGlue SDK and adding a full PC options menu. Version 2 is built on jorjbarbosa’s recomp: its recompilation, audio fixes, and native Direct3D 12 renderer are his work, and this port adds its own features, such as the options menu, key and controller remapping, field of view, ultrawide view, mouse camera, and, in 2.5, weather, a free camera, Hokage skins, and Steam Deck fixes. Version 2.5 (October 26) runs on the Steam Deck through Proton. 40 of its 87 commits list Claude as a co-author, and the README credits Claude with the code of the PC features and of the version 1 recompilation."
+requirements:
+  es: "Tu propia copia de Naruto: The Broken Bond para Xbox 360 como imagen ISO, colocada en la carpeta assets o junto al ejecutable. Windows; en la Steam Deck, mediante Proton."
+  en: "Your own copy of Naruto: The Broken Bond for Xbox 360 as an ISO image, placed in the assets folder or next to the executable. Windows; on the Steam Deck, through Proton."
+tags:
+  - powerpc
+  - action
+  - widescreen
+  - ai-assisted

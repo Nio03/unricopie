@@ -1,0 +1,19 @@
+name: "Geometry Wars: Retro Evolved 2 (omenhachi)"
+games: [geometry-wars-retro-evolved-2]
+console: x360
+status: playable
+repo: omenhachi/geometry-wars-2-pc-plus
+originalDeveloper: "Bizarre Creations"
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Variante para PC de Geometry Wars: Retro Evolved 2 (Xbox Live Arcade) construida sobre el port recompilado de saulob, con el código del juego recompilado con el SDK ReXGlue; no es un emulador. Añade puntería real con el ratón, una mira animada, indicaciones y pantalla de controles de teclado y ratón, clasificaciones en línea con nombre de jugador propio, una lista de jugadores cercanos en lugar de los amigos de Xbox Live, colores de interfaz a elegir, una pantalla de resultados tras cada partida, repeticiones de tus partidas y de las mejores del mundo, modos personalizados definidos en archivos de texto, los modos Master Deadline y Master Evolved, y todos los modos abiertos desde el inicio. Del port original conserva los cuadros por segundo de hasta 240 o ilimitados, la resolución de render de hasta 4×, la pantalla ultrapanorámica, FXAA y MSAA, los logros y los trucos opcionales. Existe una versión experimental para Linux que por ahora se compila desde el código. La última versión es la 1.1.1 (28 de octubre). 57 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A PC variant of Geometry Wars: Retro Evolved 2 (Xbox Live Arcade) built on saulob’s recompiled port, with the game’s code recompiled with the ReXGlue SDK; it is not an emulator. It adds real mouse aim, an animated crosshair, keyboard and mouse prompts and a controls screen, online leaderboards with your own player name, a list of nearby players in place of Xbox Live friends, a choice of interface colors, a results screen after every run, replays of your runs and of the world’s best, custom modes defined in text files, the Master Deadline and Master Evolved modes, and every mode open from the start. From the original port it keeps frame rates up to 240 or unlimited, render resolution up to 4×, ultrawide support, FXAA and MSAA, achievements, and optional cheats. An experimental Linux build exists that for now is built from source. The latest release is 1.1.1 (October 28). 57 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio paquete de Geometry Wars: Retro Evolved 2 de Xbox Live Arcade (versión del juego 0.0.1.2), que el lanzador instala con «Install from package...»; es un archivo con nombre hexadecimal largo y sin extensión. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con DirectX 12 y el Microsoft Visual C++ Redistributable (x64)."
+  en: "Your own Geometry Wars: Retro Evolved 2 package from Xbox Live Arcade (game version 0.0.1.2), which the launcher installs with “Install from package...”; it is one file with a long hexadecimal name and no extension. Plus 64-bit Windows 10 or 11, a DirectX 12 graphics card, and the Microsoft Visual C++ Redistributable (x64)."
+tags:
+  - powerpc
+  - 60fps+
+  - mods
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "BattleTanx: Global Assault (wootbeer)"
+games: [battletanx-global-assault]
+console: n64
+status: experimental
+repo: wootbeer/btgarecomp
+originalDeveloper: "The 3DO Company"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de la versión de Nintendo 64, hecho por recompilación estática con N64Recomp: el juego se ejecuta sobre N64ModernRuntime con RT64 como renderizador y RecompFrontend para el lanzador y la entrada. No incluye datos del juego. El propio README habla de estado «super beta» y dice que se probó en Windows 10. Hay compilaciones de Windows y Linux x86-64, y una compilación temprana para Android pensada para consolas portátiles retro. La 0.1.5 (24 de octubre) es la última de escritorio. 90 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native PC port of the Nintendo 64 version, made by static recompilation with N64Recomp: the game runs on N64ModernRuntime with RT64 as the renderer and RecompFrontend for the launcher and input. It includes no game data. The README itself speaks of “super beta” status and says it was tested on Windows 10. There are Windows and x86-64 Linux builds, plus an early Android build aimed at retro handhelds. Version 0.1.5 (October 24) is the latest desktop release. 90 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de BattleTanx - Global Assault (USA).n64 con SHA-1 08A9037488C47D1E26CE6F709955639E9F0F0BB8. Además, Windows o Linux x86-64."
+  en: "Your own copy of BattleTanx - Global Assault (USA).n64 with SHA-1 08A9037488C47D1E26CE6F709955639E9F0F0BB8. Plus Windows or x86-64 Linux."
+tags:
+  - mips
+  - multiplayer
+  - ai-assisted

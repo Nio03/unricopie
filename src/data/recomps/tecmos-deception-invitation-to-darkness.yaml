@@ -1,0 +1,19 @@
+name: "Tecmo’s Deception: Invitation to Darkness"
+games: [tecmos-deception-invitation-to-darkness]
+console: ps1
+status: playable
+repo: dannyowelch/deception-recomp
+forkOf:
+  label: "Voicedrew11/verdite2"
+  url: https://github.com/Voicedrew11/verdite2
+originalDeveloper: "Tecmo"
+toolchain: RecompOne
+desc:
+  es: "Port para PC de Tecmo’s Deception: Invitation to Darkness (SLUS-00340), hecho con RecompOne a partir de una bifurcación de Voicedrew11/verdite2. Funciona de forma nativa en Windows y Linux, con mando analógico completo, teclado y ratón, controles remapeables, copia de seguridad de las tarjetas de memoria, escala de render ajustable, filtrado anisotrópico y mipmaps, arte lateral opcional en un marco 16:9 y texturas de alto detalle para paredes y puertas. El README lo da por jugable, pero sin una partida completa verificada. La 0.4.0 (23 de octubre) trae un instalador y un zip para Windows. La descripción del repositorio lo llama un intento «dirigido por IA», y 26 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A PC port of Tecmo’s Deception: Invitation to Darkness (SLUS-00340), made with RecompOne from a fork of Voicedrew11/verdite2. It runs natively on Windows and Linux, with full analog gamepad support, keyboard and mouse look, fully remappable controls, memory card backup and restore, adjustable render scale, anisotropic filtering and mipmaps, optional side art on a 16:9 frame, and high-detail textures for walls and doors. The README calls it playable, but a full playthrough is not yet verified. Version 0.4.0 (October 23) has a Windows installer and zip. The repository description calls it an “AI driven attempt”, and 26 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de la edición norteamericana (SLUS-00340) en cue/bin o CHD v5. Para compilarlo hace falta el SDK de .NET 10."
+  en: "Your own dump of the North American release (SLUS-00340), as cue/bin or CHD v5. The .NET 10 SDK is needed to build it."
+tags:
+  - mips
+  - ai-assisted

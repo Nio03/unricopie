@@ -1,0 +1,19 @@
+name: "Banjo-Tooie (Vidanox)"
+games: [banjo-tooie]
+console: n64
+status: playable
+repo: Vidanox/BanjoTooieRecompiled
+originalDeveloper: "Rare"
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de la versión estadounidense de Nintendo 64, hecho por recompilación estática con N64Recomp y renderizado con RT64: el código MIPS se traduce a C una sola vez y no hay emulador en tiempo de ejecución. Añade pantalla ancha, frecuencias de imagen altas y un menú de ajustes dentro del juego. El README lo da por jugable de principio a fin: verifica arranque, bucle de demostración, la introducción, el juego, transiciones de escena repetidas, audio, mando, carga y descarga de overlays y guardado, todo en Windows x64; la versión de Linux es más reciente. La 1.0.1 (25 de octubre) trae zip de Windows, tar.gz de Linux y un Flatpak. El repositorio incluye el código C generado a partir de la ROM (unos 85 MB, carpeta RecompiledFuncs)."
+  en: "A native PC port of the US Nintendo 64 version, made by static recompilation with N64Recomp and rendered with RT64: the MIPS code is translated to C once, and there is no emulator at runtime. It adds widescreen, high refresh rates, and an in-game settings menu. The README calls it playable end to end: it verifies boot, the attract loop, the intro cutscene, gameplay, repeated scene transitions, audio, controller input, overlay load and unload, and saving, all on Windows x64; the Linux build is newer. Version 1.0.1 (October 25) provides a Windows zip, a Linux tar.gz, and a Flatpak. The repository includes the C code generated from the ROM (about 85 MB, RecompiledFuncs folder)."
+requirements:
+  es: "Tu propia ROM de Banjo-Tooie (EE. UU.), que eliges con Select ROM en el lanzador. Además, una GPU con Direct3D 12 (Shader Model 6) o Vulkan 1.2 y, en x86-64, una CPU con SSE4.1."
+  en: "Your own Banjo-Tooie (USA) ROM, which you choose with Select ROM in the launcher. Plus a GPU with Direct3D 12 (Shader Model 6) or Vulkan 1.2 and, on x86-64, an SSE4.1 CPU."
+tags:
+  - mips
+  - platformer
+  - widescreen
+  - 60fps+

@@ -1,0 +1,19 @@
+name: "Grandia III"
+games: [grandia-iii]
+console: ps2
+status: playable
+repo: GranasSabre/Grandia3-PC
+originalDeveloper: "Game Arts"
+year: 2005
+desc:
+  es: "Versión nativa para Windows de Grandia III, hecha por recompilación estática: el código MIPS del juego, su controlador de sonido y sus programas de geometría de la VU1 se traducen de antemano a C/C++ y se compilan para x86-64. Un runtime pequeño hace de hardware de la PS2 (gráficos con Direct3D 11, sonido, DMA, tarjetas de memoria) y no se interpreta nada en ejecución. Lee las imágenes de los discos al jugar, sin modificarlas ni copiarlas, y el repositorio no contiene código generado. Ofrece resolución interna de hasta 8x, pantalla ancha real 16:9 y 16:10 u ultrapanorámica (menús y texto siguen en 4:3), 60 fps en el campo y, opcionalmente, en combate, guardados rápidos en 9 ranuras, vídeos saltables, detección automática de Steam Deck, texto original en inglés o una traducción alemana completa, y packs de texturas HD no oficiales aparte (7,5 GB). Los subtítulos son experimentales. Funciona en Windows 10 y 11 y en Steam Deck o Linux con Proton; la v1.0.4 es del 28 de octubre. 12 de sus 14 commits llevan a Claude como coautor."
+  en: "A native Windows version of Grandia III made by static recompilation: the game’s MIPS code, its sound driver, and its VU1 geometry programs are translated ahead of time into C/C++ and compiled for x86-64. A small runtime stands in for the PS2 hardware (graphics via Direct3D 11, sound, DMA, memory cards) and nothing is interpreted at run time. It reads the disc images when you play, without changing or copying them, and the repository contains no generated code. It offers internal resolution up to 8x, real 16:9 and 16:10 widescreen or ultrawide (menus and text stay 4:3), 60 fps in the field and, optionally, in battles, savestates in 9 slots, skippable movies, automatic Steam Deck detection, original English text or a complete German translation, and separate unofficial HD texture packs (7.5 GB). Subtitles are experimental. It works on Windows 10 and 11 and on Steam Deck or Linux with Proton; v1.0.4 is from October 28. 12 of its 14 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Grandia III (EE. UU.): las imágenes ISO de los discos 1 y 2 (puedes elegir la del disco 1 al arrancar, o dejar las imágenes junto al ejecutable como disc1.iso y disc2.iso). Windows 10 u 11 con una tarjeta gráfica compatible con Direct3D 11.3."
+  en: "Your own copy of Grandia III (USA): the ISO images of discs 1 and 2 (you can pick disc 1 at startup, or leave the images next to the executable as disc1.iso and disc2.iso). Windows 10 or 11 with a Direct3D 11.3 graphics card."
+tags:
+  - mips
+  - rpg
+  - widescreen
+  - 60fps+
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: "Enchanted Arms"
+games: [enchanted-arms]
+console: x360
+status: playable
+repo: IAndrewJJ/EnchantedArmsRecomp
+originalDeveloper: "FromSoftware"
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "EnchantedArmsPC es una versión de PC hecha por fans del RPG de Xbox 360 Enchanted Arms, construida a partir de tu propia copia del juego con el SDK ReXGlue. Un lanzador para Windows te pide la ISO, construye el juego en tu equipo y permite ajustar la configuración y buscar actualizaciones. Ofrece 30 o 60 cuadros por segundo, ajustes de resolución, nitidez y suavizado de bordes, mando o teclado y ratón con botones y cámara configurables, capturas de pantalla, contador de cuadros y trucos opcionales en Windows (salud, energía de habilidades, dinero, mejoras y experiencia). Hay además una vista previa para Linux en forma de AppImage. La última versión de Windows, la 0.5.8, es del 23 de octubre."
+  en: "EnchantedArmsPC is a fan-made PC version of the Xbox 360 RPG Enchanted Arms, built from your own copy of the game with the ReXGlue SDK. A Windows launcher asks for your ISO, builds the game on your PC, and lets you adjust settings and check for updates. It offers 30 or 60 frames per second, resolution, sharpening, and edge-smoothing settings, controller or keyboard and mouse with customizable buttons and camera, screenshots, an FPS counter, and optional cheats on Windows (health, ability energy, money, upgrades, and experience). There is also a Linux preview as an AppImage. The latest Windows release, 0.5.8, is from October 23."
+requirements:
+  es: "Tu propia ISO de Enchanted Arms para Xbox 360, de la edición estadounidense o europea. Windows 10 u 11 y unos 20 GB libres además de la ISO; la primera configuración necesita conexión a internet y tarda varios minutos."
+  en: "Your own Enchanted Arms ISO for Xbox 360, of the USA or European release. Windows 10 or 11 and around 20 GB free beyond the ISO; the first setup needs an internet connection and takes several minutes."
+tags:
+  - powerpc
+  - rpg

@@ -1,0 +1,22 @@
+name: "Resident Evil Outbreak (Ninjacornix)"
+games: [resident-evil-outbreak]
+console: ps2
+status: playable
+repo: Ninjacornix/reo
+forkOf:
+  label: sp00nznet/reo
+  url: https://github.com/sp00nznet/reo
+originalDeveloper: "Capcom"
+year: 2003
+desc:
+  es: "Port nativo para PC de Resident Evil Outbreak (Biohazard Outbreak), hecho por recompilación estática y un runtime de compatibilidad con la PS2; no es un emulador. Es una bifurcación de sp00nznet/reo, con 52 commits propios por delante del original. Según el README, el Outbreak File #1 se puede jugar entero (menús, escenarios, vídeos, audio y partidas) en Windows x64, mientras que el File #2 es solo un marcador en el lanzador. Añade cooperativo en línea de hasta 4 jugadores con el servidor openSNAP incluido, un modo Randomizer, trucos (incluido un subconjunto de los .pnach de PCSX2), mandos DualSense y Xbox, y vídeo de hasta 4K. El lanzador comprueba tu ISO, compila el juego en tu equipo y borra después el código generado; los archivos del juego y el código generado no se incluyen. La v1.0.19 es del 24 de octubre (hay una prerelease de pruebas, la 1.0.20-rc0, del 28). 45 de sus 78 commits llevan a Claude como coautor."
+  en: "A native PC port of Resident Evil Outbreak (Biohazard Outbreak), made by static recompilation and a PS2 compatibility runtime; it is not an emulator. It is a fork of sp00nznet/reo, with 52 commits of its own ahead of the original. According to the README, Outbreak File #1 is fully playable (menus, scenarios, movies, audio, and saves) on Windows x64, while File #2 is only a placeholder in the launcher. It adds online co-op for up to 4 players with the bundled openSNAP server, a Randomizer mode, cheats (including a subset of PCSX2 .pnach files), DualSense and Xbox controllers, and video up to 4K. The launcher checks your ISO, builds the game on your PC, and deletes the generated code afterwards; game files and generated code are not included. Version v1.0.19 is from October 24 (there is a testing prerelease, 1.0.20-rc0, from the 28th). 45 of its 78 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ISO de Resident Evil Outbreak: File #1 NTSC-U v2.00 (SLUS-20765). Windows x64 con .NET 8 Desktop Runtime y un controlador gráfico con Vulkan; la primera compilación necesita internet y unos 10 GB libres y puede tardar más de una hora."
+  en: "Your own Resident Evil Outbreak File #1 NTSC-U v2.00 ISO (SLUS-20765). Windows x64 with the .NET 8 Desktop Runtime and a Vulkan graphics driver; the first build needs internet and about 10 GB free and can take over an hour."
+tags:
+  - mips
+  - horror
+  - multiplayer
+  - mods
+  - ai-assisted

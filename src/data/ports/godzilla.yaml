@@ -1,0 +1,17 @@
+name: "GODZILLA"
+games: [godzilla]
+category: native-layer
+console: ps4
+status: playable
+repo: gminustwo/minustwo
+originalDeveloper: "Natsume Atari"
+year: 2015
+desc:
+  es: "Port nativo no oficial de la versión de PlayStation 4 para Windows 10 y 11, Linux y Steam Deck, y para macOS con Apple Silicon (experimental). El código x86-64 del juego corre directamente en el procesador del PC; un entorno de ejecución escrito para este port reemplaza las bibliotecas del sistema de la PS4 (memoria, hilos, archivos, mezclador de audio, fuentes, mando, partidas, diálogos) y el núcleo de vídeo de shadPS4 traduce los comandos y shaders gráficos a Vulkan. El proyecto reutiliza la base de SpartanPort, el port de God of War III, y añade entre otras cosas el mezclador de audio Ngs2, renderizado por encima de 1080p, vídeos sin tirones y un ritmo de cuadros uniforme. En la Steam Deck funciona a 30 cuadros por segundo a 1080p. No admite aún el juego en línea (modo VS) y solo se ha probado la edición de EE. UU. La 1.2.1 (29 de octubre) es la última versión. Sus 44 commits llevan a Claude como coautor."
+  en: "An unofficial native port of the PlayStation 4 version for Windows 10 and 11, Linux, and the Steam Deck, and for macOS on Apple Silicon (experimental). The game’s x86-64 code runs directly on the PC’s processor; a runtime written for this port replaces the PS4’s system libraries (memory, threads, files, audio mixer, fonts, controller, saves, dialogs) and shadPS4’s video core translates the graphics commands and shaders to Vulkan. The project reuses the base of SpartanPort, the God of War III port, and adds, among other things, the Ngs2 audio mixer, rendering above 1080p, movies without stutter, and even frame pacing. On the Steam Deck it runs at 30 frames per second at 1080p. Online play (VS Mode) is not supported yet and only the US edition has been tested. Version 1.2.1 (October 29) is the latest release. All 44 of its commits list Claude as a co-author."
+requirements:
+  es: "Un volcado de tu propia copia de GODZILLA para PS4: la carpeta con eboot.bin, sce_module y sce_sys (probado con CUSA02046, versiones 01.01 y 01.00). Además, Windows 10 u 11, Linux, Steam Deck o un Mac con Apple Silicon (experimental), y una tarjeta gráfica con Vulkan."
+  en: "A dump of your own copy of GODZILLA for PS4: the folder with eboot.bin, sce_module, and sce_sys (tested with CUSA02046, versions 01.01 and 01.00). Plus Windows 10 or 11, Linux, the Steam Deck, or an Apple Silicon Mac (experimental), and a graphics card with Vulkan."
+tags:
+  - x86
+  - ai-assisted

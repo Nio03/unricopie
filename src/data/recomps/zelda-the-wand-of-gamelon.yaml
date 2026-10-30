@@ -1,0 +1,15 @@
+name: "Zelda: The Wand of Gamelon"
+games: [zelda-the-wand-of-gamelon]
+console: other
+status: experimental
+repo: tools81/zelda-wand-of-gamelon-static-recomp
+year: 1993
+desc:
+  es: "Port nativo no oficial de Zelda: The Wand of Gamelon (Philips CD-i, 1993) para Windows, hecho por recompilación estática: los módulos de programa 68000 del disco se traducen de antemano a C y se ejecutan con un entorno nativo para Windows que emula el núcleo CD-RTOS (OS-9), el gestor de archivos del CD, el decodificador de vídeo y el procesador de audio ADPCM. Se recompilan el módulo de arranque (cdi_zelda) y el del logotipo (cdi_bumper); los flujos de datos y de audio en tiempo real se leen de la imagen del disco al ejecutar. Hay un ejecutable con el renderizado original y otro con un renderizador HD cuyos filtros Cartoon HD y HD+ suavizan los bordes de los sprites (es un escalado espacial, no una interpolación de movimiento). Incluye run-ahead de un cuadro, diez ranuras de partida rápida en memoria durante la sesión, invencibilidad y mandos XInput. El README no declara un estado de avance. La 1.0.0 (22 de octubre) se publica como zip portátil. Su único commit lleva a Claude como coautor."
+  en: "An unofficial native port of Zelda: The Wand of Gamelon (Philips CD-i, 1993) for Windows, made by static recompilation: the 68000 program modules on the disc are translated ahead of time into C and run with a native Windows runtime that emulates the CD-RTOS (OS-9) kernel, the CD file manager, the video decoder, and the ADPCM audio processor. The boot module (cdi_zelda) and the logo module (cdi_bumper) are recompiled; the real-time data and audio streams are read from the disc image at run time. There is one executable with the original rendering and another with an HD renderer whose Cartoon HD and HD+ filters smooth sprite edges (this is spatial scaling, not motion interpolation). It has one-frame run-ahead, ten in-memory quicksave slots for the session, invincibility, and XInput controllers. The README doesn’t state a progress level. Version 1.0.0 (October 22) is published as a portable zip. Its only commit lists Claude as a co-author."
+requirements:
+  es: "Tu propia imagen del disco de The Wand of Gamelon, como .bin y su .cue, en la carpeta rom/ (o su ruta como argumento del ejecutable). El zip portátil no incluye el disco. Windows 10 o posterior; para compilar desde el código, Visual Studio 2022 con las herramientas de C++, CMake 3.19 y Python 3.8."
+  en: "Your own image of The Wand of Gamelon disc, as a .bin and its .cue, in the rom/ folder (or its path as an argument to the executable). The portable zip doesn’t include the disc. Windows 10 or later; to build from source, Visual Studio 2022 with the C++ tools, CMake 3.19, and Python 3.8."
+tags:
+  - "68000"
+  - ai-assisted

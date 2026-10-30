@@ -1,0 +1,19 @@
+name: "NFL Head Coach 09"
+games: [nfl-head-coach-09]
+console: x360
+status: playable
+repo: tools81/nfl-head-coach-09-static-recomp
+originalDeveloper: "Electronic Arts"
+year: 2008
+toolchain: XenonRecomp
+desc:
+  es: "Port nativo para Windows de NFL Head Coach 09 (Xbox 360, ID de título 45410841): el ejecutable PowerPC del juego se recompila estáticamente a C++ con XenonRecomp y corre sobre una capa propia que sustituye el núcleo de Xbox, XAM, los gráficos, el audio y los controles. El instalador (HC09Setup.exe) comprueba las herramientas, pide tu imagen .iso, descarga el código, importa el ejecutable de tu disco, lo recompila y construye HC09.exe; el juego lee los datos directamente de la imagen mientras juegas. Según el README arranca, reproduce la intro, llega a los menús y permite jugar: modo carrera, partido con selección de jugadas y un partido de 21 minutos sin errores, a unos 30–35 cuadros por segundo con un renderizador Direct3D 12. Además construye HC27.exe, el mismo juego con plantillas actuales (jugadores, entrenadores, retratos y logos) y temporadas que empiezan en 2026. La 0.8.1 (28 de octubre) es la última versión. Sus 12 commits llevan a Claude como coautor."
+  en: "A native Windows port of NFL Head Coach 09 (Xbox 360, title ID 45410841): the game’s PowerPC executable is statically recompiled to C++ with XenonRecomp and runs on a custom layer that replaces the Xbox kernel, XAM, graphics, audio, and input. The installer (HC09Setup.exe) checks the build tools, asks for your .iso disc image, downloads the source, imports the executable from your disc, recompiles it, and builds HC09.exe; the game reads its data straight from the image while you play. According to the README it boots, plays the intro, reaches the menus, and can be played: career mode, a game with play calling, and a 21-minute match without errors, at about 30–35 frames per second with a Direct3D 12 renderer. It also builds HC27.exe, the same game with today’s rosters (players, coaches, portraits, and logos) and seasons that start in 2026. Version 0.8.1 (October 28) is the latest. All 12 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del disco de NFL Head Coach 09 para Xbox 360 como imagen .iso (el instalador comprueba que sea el juego correcto). Windows con Visual Studio 2022 o posterior (desarrollo de escritorio con C++, compilador Clang y herramientas CMake) y Git para Windows; unos 1 GB de descargas y de 10 a 20 minutos de compilación."
+  en: "Your own NFL Head Coach 09 disc for Xbox 360 as an .iso image (the installer checks that it is the right game). Windows with Visual Studio 2022 or later (Desktop development with C++, the C++ Clang compiler, and CMake tools) and Git for Windows; about 1 GB of downloads and 10 to 20 minutes of build time."
+tags:
+  - powerpc
+  - sports
+  - mods
+  - ai-assisted

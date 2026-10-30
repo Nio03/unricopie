@@ -1,0 +1,19 @@
+name: "Super Bomberman 5"
+games: [super-bomberman-5]
+console: snes
+status: fully
+repo: MauricioSuporte/SuperBomberman5SNESRecomp
+originalDeveloper: "Hudson Soft"
+year: 1997
+toolchain: "snesrecomp"
+desc:
+  es: "Port no oficial de Super Bomberman 5 para PC hecho con SNESRecomp y recomp-ui, siguiendo la arquitectura de Mega Man X Recompiled. El README advierte que la recompilación es parcial: la mayor parte de la lógica del juego sigue ejecutándose en el intérprete del framework. Dice que la 1.0.1 fue la primera versión completa, con la campaña jugada hasta el final por el autor en Windows. Hay instalador para Windows x64 y un AppImage de Linux x86_64 experimental; el juego se genera y se compila en tu equipo desde tu ROM, y el repositorio no distribuye ROM, código generado ni recursos extraídos. El lanzador tiene pestañas de entrada para hasta 5 jugadores y mods, entre ellos uno de variantes de escenarios de batalla, y hay juego en línea con sincronización por pasos (probado en una partida real el 23 de octubre) e integración con Discord. La v2.5.0 es del 29 de octubre. 99 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial PC port of Super Bomberman 5 made with SNESRecomp and recomp-ui, following the architecture of Mega Man X Recompiled. The README warns that the recompilation is partial: most of the game logic still runs on the framework’s interpreter. It says 1.0.1 was the first full release, with the campaign played through to the end by the maintainer on Windows. There is a Windows x64 setup and an experimental Linux x86_64 AppImage; the game is generated and compiled on your PC from your ROM, and the repository distributes no ROM, generated code, or extracted assets. The launcher has input tabs for up to 5 players and mods, including one for battle stage variants, and there is online play with lockstep synchronization (tested in a real match on October 23) and Discord integration. Version v2.5.0 is from October 29. 99 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Super Bomberman 5, identificada en el repositorio como «Super Bomberman 5 (USA).sfc» (SHA-1 417d5ace7e51baafb69d20ce15ff0894d91c70c5, CRC32 c25ab56a). Windows 10 o posterior de 64 bits, o Linux x86_64 con glibc 2.35 o posterior; el lanzador descarga las herramientas de compilación portátiles, así que hace falta internet la primera vez."
+  en: "Your own Super Bomberman 5 ROM, identified in the repository as “Super Bomberman 5 (USA).sfc” (SHA-1 417d5ace7e51baafb69d20ce15ff0894d91c70c5, CRC32 c25ab56a). 64-bit Windows 10 or later, or Linux x86_64 with glibc 2.35 or later; the launcher downloads the portable build tools, so internet is needed the first time."
+tags:
+  - "65816"
+  - multiplayer
+  - mods
+  - ai-assisted

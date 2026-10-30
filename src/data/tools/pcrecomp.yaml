@@ -1,0 +1,14 @@
+name: pcrecomp
+kind: recompiler
+consoles:
+  - pc
+  - dos
+repo: sp00nznet/pcrecomp
+status: beta
+desc:
+  es: "Caja de herramientas para abrir ejecutables antiguos de PC y volver a compilarlos de forma nativa. Reúne analizadores y transformadores de PE, NE (Windows de 16 bits) y LE (extensores DOS), además de los runtimes y trucos de los proyectos de recompilación estática de su autor. Es la base de varias recompilaciones del catálogo. Licencia MIT. 63 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A toolbox for taking apart old PC executables and rebuilding them natively. It gathers analyzers and transformers for PE, NE (16-bit Windows) and LE (DOS extenders), plus the runtimes and tricks from its author’s static recompilation projects. Several recompilations in the catalog build on it. MIT licensed. 63 of its last 100 commits list Claude as a co-author."
+tags:
+  - x86
+  - static-recomp
+  - ai-assisted

@@ -1,0 +1,13 @@
+name: PortableKit
+kind: recompiler
+consoles:
+  - psp
+repo: TeamGDB/PortableKit
+status: experimental
+desc:
+  es: "Recompilador estático y runtime para juegos de PSP. Traduce el código Allegrex (MIPS) del juego a C++ por adelantado, con un intérprete para lo que el recompilador no cubre, y aporta kernel, hilos, módulos del sistema, audio, partidas guardadas y un renderizador a Vulkan con SDL3. Su README lo describe como un trabajo en curso, incompleto y con interfaces que pueden cambiar sin aviso. No incluye datos de juego. 71 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompiler and runtime for PSP games. It translates the game’s Allegrex (MIPS) code to C++ ahead of time, with an interpreter for what the recompiler misses, and supplies the kernel, threads, system modules, audio, save data and a Vulkan renderer through SDL3. Its README calls it a work in progress, incomplete, with interfaces that may change without notice. It includes no game data. 71 of its last 100 commits list Claude as a co-author."
+tags:
+  - mips
+  - static-recomp
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Mario Party 6"
+games: [mario-party-6]
+category: decomp-port
+console: gamecube
+status: playable
+repo: iirg4x/mp6-native-port
+originalDeveloper: "Hudson Soft"
+year: 2004
+desc:
+  es: "Starlit Party: port nativo no oficial de Mario Party 6 para Windows, Android y navegador (iPhone), construido sobre código recuperado del juego, Aurora, SDL3 y Dawn/WebGPU; no es un emulador. El código decompilado se toma, sin copiarlo, del repositorio de la decompilación coincidente. Los seis tableros del modo fiesta, el modo solo, el de minijuegos, el del micrófono, el Banco Estelar, el menú de opciones y la apertura, el final y los créditos funcionan, con pantalla ancha. De los 81 minijuegos se pueden jugar 49, y los tableros se saltan el resto con un aviso en pantalla. La 0.5.0 es del 23 de octubre. Los modelos, texturas y audio se extraen de tu disco al construir el juego y no están en el repositorio. 2 de sus 21 commits llevan a Claude como coautor."
+  en: "Starlit Party: an unofficial native port of Mario Party 6 for Windows, Android, and browser (iPhone), built on recovered game code, Aurora, SDL3, and Dawn/WebGPU; it is not an emulator. The decompiled source is consumed, not copied, from the matching decompilation repository. All six Party Mode boards, Solo Mode, Mini-Game Mode, Mic Mode, the Star Bank, the Option menu, and the opening, ending, and credits run, with widescreen support. Of the 81 minigames, 49 are playable and the boards skip the rest with an on-screen notice. Version 0.5.0 is from October 23. Models, textures, and audio are extracted from your disc when the game is built and are not in the repository. 2 of its 21 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Mario Party 6 para GameCube (EE. UU.), como imagen de disco o como carpeta con los archivos extraídos del disco. Además, Windows (hay también versiones para Android y para navegador)."
+  en: "Your own copy of Mario Party 6 for GameCube (USA), as a disc image or an extracted disc folder. Plus Windows (there are Android and browser versions as well)."
+tags:
+  - powerpc
+  - multiplayer
+  - widescreen
+  - ai-assisted

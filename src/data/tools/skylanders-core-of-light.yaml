@@ -1,0 +1,13 @@
+name: "Skylanders: Core of Light"
+games: [skylanders-spyros-adventure, skylanders-giants, skylanders-swap-force, skylanders-trap-team, skylanders-superchargers, skylanders-imaginators]
+kind: launcher
+consoles: [x360]
+repo: tsapZ/SkylandersCoreOfLight
+status: beta
+desc:
+  es: "Lanzador para Windows que reúne los seis ports recompilados de Skylanders para Xbox 360 (Spyro’s Adventure, Giants, Swap Force, Trap Team, SuperChargers e Imaginators), hecho para mando como el panel de una consola. Configura cada juego a partir de tus propios discos (ISO o carpetas extraídas), los descarga e instala, y reúne en un solo lugar las figuras, partidas, perfiles y logros; incluye una biblioteca de figuras, un menú de portal que se abre cuando el juego pide un Skylander y compatibilidad opcional con un portal USB real. No incluye datos ni arte del juego: las imágenes, textos y música que muestra salen de tus discos. Los seis juegos ofrecen 60 cuadros por segundo o más, 2× o 3× la resolución de la consola y pantalla ultrapanorámica, pero ninguno se ha jugado hasta el final: el avance va del primer nivel o capítulo (Spyro’s Adventure, Giants, Trap Team, SuperChargers e Imaginators) hasta el tutorial y Woodburrow en Swap Force. La 0.3.0-beta.2 (28 de octubre) incluye instalador y versión portátil."
+  en: "A Windows launcher that brings together the six recompiled Xbox 360 Skylanders ports (Spyro’s Adventure, Giants, Swap Force, Trap Team, SuperChargers, and Imaginators), made for a controller like a console’s dashboard. It sets up each game from your own discs (ISOs or extracted folders), downloads and installs them, and keeps figures, saves, profiles, and achievements in one place; it includes a figure library, a portal menu that opens when the game asks for a Skylander, and optional support for a real USB portal. It ships no game data or artwork: the pictures, text, and music it shows come from your discs. The six games offer 60 frames per second or more, 2× or 3× the console’s resolution, and ultrawide support, but none has been played to the end: progress ranges from the first level or chapter (Spyro’s Adventure, Giants, Trap Team, SuperChargers, and Imaginators) to the tutorial and Woodburrow in Swap Force. Version 0.3.0-beta.2 (October 28) includes a setup program and a portable edition."
+tags:
+  - powerpc
+  - 60fps+
+  - widescreen

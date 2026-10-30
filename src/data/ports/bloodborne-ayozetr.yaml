@@ -1,0 +1,20 @@
+name: "Bloodborne (ayozetr)"
+games: [bloodborne]
+category: native-layer
+console: ps4
+status: playable
+repo: ayozetr/bloodborne_linux
+originalDeveloper: "FromSoftware"
+year: 2015
+desc:
+  es: "Port nativo de la versión de PS4 para Linux y la Steam Deck: el código del juego se ejecuta directamente en la CPU y los gráficos se traducen a Vulkan; no es un emulador. Es una bifurcación de bbport (deadinside28) con mejoras propias y de la comunidad. Ofrece mensajes, manchas de sangre, fantasmas, campanas e invocaciones en línea (en The Hunter’s Dream o en un servidor propio), Seamless Co-op experimental para hasta 5 cazadores, cooperativo local a pantalla dividida de 2 a 4 jugadores, mapa en el juego, fotogramas desbloqueados hasta 120 o límites de 30, 60 y 90, resoluciones de 720p a 4K y ultrapanorámicas, reescalado con FSR 3.1, FSR 4 y DLSS, cualquier mando, trofeos, mods y un AppImage que se actualiza solo. La 0.51-linux.18 (27 de octubre) es la última versión numerada."
+  en: "A native port of the PS4 version for Linux and the Steam Deck: the game’s own code runs directly on the CPU and the graphics are translated to Vulkan; it is not an emulator. It is a fork of bbport (deadinside28) with improvements of its own and from the community. It offers online messages, bloodstains, ghosts, bells, and summons (on The Hunter’s Dream or a server of your own), experimental Seamless Co-op for up to 5 hunters, local split-screen co-op for 2 to 4 players, an in-game map, an unlocked frame rate up to 120 or caps of 30, 60, and 90, resolutions from 720p to 4K and ultrawide, upscaling with FSR 3.1, FSR 4, and DLSS, any controller, trophies, mods, and a self-updating AppImage. Version 0.51-linux.18 (October 27) is the latest numbered release."
+requirements:
+  es: "Tu propio volcado descifrado de Bloodborne con la actualización 1.09, de una edición comercial; eliges la carpeta que contiene eboot.bin. Además, Linux x86-64 y una GPU con Vulkan 1.3 (AMD o Intel con Mesa, o NVIDIA con su controlador), con unos 6 GB de memoria libre, o 10 GB para 1440p y 4K."
+  en: "Your own decrypted dump of Bloodborne with update 1.09, from a retail release; you choose the folder that contains eboot.bin. Plus x86-64 Linux and a GPU with Vulkan 1.3 (AMD or Intel with Mesa, or NVIDIA with its driver), with about 6 GB of free memory, or 10 GB for 1440p and 4K."
+tags:
+  - x86
+  - multiplayer
+  - mods
+  - widescreen
+  - 60fps+

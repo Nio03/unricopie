@@ -1,0 +1,16 @@
+name: "Ace Combat X: Skies of Deception"
+games: [ace-combat-x-skies-of-deception]
+console: psp
+status: experimental
+repo: sal063/Ace-Combat-X-Recompilation
+toolchain: pspreco
+originalDeveloper: "Namco"
+year: 2006
+desc:
+  es: "Recompilación estática del juego de PSP con un renderizador nativo. Su recompilador, pspreco, toma el código MIPS del juego y lo convierte de antemano en C nativo; un pequeño entorno de ejecución reimplementa los servicios del núcleo de la PSP (sceIo, sceKernel, sceGe…), con el motor gráfico GE sobre Vulkan, ventana, audio y vídeo. Las funciones recompiladas no pasan por un intérprete MIPS ni por un JIT, aunque hay un intérprete MIPS/VFPU para trampas y rutas poco usadas. El README insiste en que no es un emulador ni una copia del juego, e incluye herramientas para extraer la ISO y el archivo REGFILE.CDI y un panel de depuración (F4). La V1.5, la actualización de modding (28 de agosto), es la última versión; las anteriores añadieron optimización con supermuestreo y reemplazo de texturas."
+  en: "A static recompilation of the PSP game with a native renderer. Its recompiler, pspreco, takes the game’s MIPS code and turns it ahead of time into native C; a small runtime reimplements the PSP’s kernel services (sceIo, sceKernel, sceGe…), with the GE graphics engine on Vulkan, a window, audio, and video. Recompiled functions do not go through a MIPS interpreter or a JIT, although a MIPS/VFPU interpreter exists for traps and cold paths. The README insists it is not an emulator and not a copy of the game, and it includes tools to extract the ISO and the REGFILE.CDI archive and a debug overlay (F4). V1.5, the modding update (August 28), is the latest release; earlier ones added optimization with supersampling and texture overrides."
+requirements:
+  es: "Tu propia copia del juego (EE. UU., ULUS10176): una imagen ISO de tu UMD y el EBOOT.elf descifrado de tu copia, que debes obtener con tus propias herramientas. Además, Python 3.10 o posterior, un compilador de C (clang) y, para la versión con ventana, Windows con SDL3 y un cargador de Vulkan."
+  en: "Your own copy of the game (USA, ULUS10176): an ISO image of your UMD and the decrypted EBOOT.elf from your copy, which you must obtain with your own tools. Plus Python 3.10 or later, a C compiler (clang), and, for the windowed build, Windows with SDL3 and a Vulkan loader."
+tags:
+  - mips

@@ -1,0 +1,18 @@
+name: "Serious Sam: Next Encounter (SashexSRB)"
+games: [serious-sam-next-encounter]
+console: gamecube
+status: playable
+repo: SashexSRB/SSNE-Native
+originalDeveloper: "Climax Solent"
+year: 2004
+toolchain: ssne-recomp
+desc:
+  es: "Port nativo para Linux y Windows de Serious Sam: Next Encounter, bifurcado de Silly ReEncounter (takoshero96). El traductor ssne-recomp convierte el ejecutable PowerPC del juego (main.dol) a C++, que se compila en tu equipo a partir de tu imagen de disco y se enlaza con un port que gestiona gráficos (OpenGL), sonido, teclado, ratón y mandos; no es un emulador. Sobre el original añade la versión para Linux, escenas dentro del motor, mejoras de rendimiento (según el README, unas dos veces y media más fotogramas por segundo donde el límite es la CPU) y controles de PC con ratón, rueda de armas y teclas numéricas. El repositorio no contiene código ni datos del juego. La 1.2.3 es del 29 de octubre."
+  en: "A native port of Serious Sam: Next Encounter for Linux and Windows, forked from Silly ReEncounter (takoshero96). The ssne-recomp translator converts the game’s PowerPC executable (main.dol) to C++, which is compiled on your PC from your disc image and linked with a port that handles graphics (OpenGL), sound, keyboard, mouse, and gamepads; it is not an emulator. On top of the original it adds the Linux version, in-engine cutscenes, performance work (per the README, about two and a half times the frame rate where the CPU is the limit), and PC controls with mouse, a weapon wheel, and number keys. The repository contains no game code or data. Version 1.2.3 is from October 29."
+requirements:
+  es: "Tu propia imagen de disco de Serious Sam: Next Encounter para GameCube: la estadounidense (G3BE9G, revisión 1) o la europea PAL (G3BP9G, en inglés, francés o alemán), en .iso, .gcm, .rvz, .wia, .gcz o .ciso. Además, Linux de 64 bits (con clang o g++) o Windows de 64 bits, una GPU con OpenGL 3.3 y unos 3 GB libres."
+  en: "Your own disc image of Serious Sam: Next Encounter for GameCube: the US one (G3BE9G, revision 1) or the European PAL one (G3BP9G, in English, French, or German), as .iso, .gcm, .rvz, .wia, .gcz, or .ciso. Plus 64-bit Linux (with clang or g++) or 64-bit Windows, a GPU with OpenGL 3.3, and about 3 GB free."
+tags:
+  - powerpc
+  - fps
+  - widescreen

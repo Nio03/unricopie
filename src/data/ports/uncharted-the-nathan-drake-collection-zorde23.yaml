@@ -1,0 +1,21 @@
+name: "Uncharted: The Nathan Drake Collection (zorde23)"
+games: [uncharted-the-nathan-drake-collection]
+category: native-layer
+console: ps4
+status: playable
+repo: zorde23/Uncharted_Collection_PC
+forkOf:
+  label: "FelipePrado0/SpartanPort"
+  url: https://github.com/FelipePrado0/SpartanPort
+originalDeveloper: "Bluepoint Games"
+year: 2015
+desc:
+  es: "Port no oficial para Windows 10 y 11 de Uncharted: The Nathan Drake Collection (PS4, 2015), bifurcado de un port de God of War III que a su vez parte del port de Bloodborne para Windows. Según el README no es un port del código fuente ni un emulador clásico: el ejecutable original de PS4, que es x86-64, corre directamente en la CPU del PC sobre una capa que sustituye las bibliotecas del sistema de la consola (memoria, hilos, archivos, audio, vídeo, mando, partidas) y traduce los comandos de la GPU y los shaders a Vulkan con el núcleo de vídeo de shadPS4. Uncharted 3 se puede jugar entero, a 60 cuadros por segundo en 1080p, aunque en algunas zonas baja de 60 y hay un cierre inesperado en toda la partida; Uncharted 2 y Uncharted 1 son jugables, con algunos cierres. Trae un lanzador que actualiza el port, opciones de pantalla y controles de teclado y ratón. La v0.3.7 se publicó el 28 de octubre. 97 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial port of Uncharted: The Nathan Drake Collection (PS4, 2015) for Windows 10 and 11, forked from a God of War III port that itself comes from the Bloodborne Windows port. According to the README it is not a source port or a classic emulator: the original PS4 executable, which is x86-64, runs directly on the PC’s CPU on top of a layer that replaces the console’s system libraries (memory, threads, files, audio, video, controller, saves) and translates the GPU commands and shaders to Vulkan through the shadPS4 video core. Uncharted 3 can be played start to end at 60 frames per second in 1080p, though some areas drop below 60 and there is one crash in a whole playthrough; Uncharted 2 and Uncharted 1 are playable, with some crashes. It ships a launcher that updates the port, display options, and keyboard and mouse controls. Version 0.3.7 was published on October 28. 97 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Un volcado de tu propia PS4 de la colección: CUSA02344, versión 01.00 con la actualización 01.02 (la carpeta de la actualización se detecta sola si está junto a la del juego). Windows 10 u 11."
+  en: "A dump from your own PS4 of the collection: CUSA02344, version 01.00 with the 01.02 update (the update folder is found automatically when it sits next to the game’s). Windows 10 or 11."
+tags:
+  - x86
+  - 60fps+
+  - ai-assisted

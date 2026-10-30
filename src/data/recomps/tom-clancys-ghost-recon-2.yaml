@@ -1,0 +1,18 @@
+name: "Tom Clancy's Ghost Recon 2"
+games: [tom-clancys-ghost-recon-2]
+console: xbox
+status: playable
+repo: ElKev118/ghostrecon2-recomp
+originalDeveloper: "Red Storm Entertainment"
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo para Windows de Tom Clancy’s Ghost Recon 2 (Xbox original, 2004). El código del juego se recompila estáticamente desde default.xbe a C con el toolkit xboxrecomp (una bifurcación de sp00nznet/xboxrecomp) y el hardware de Xbox se sustituye por código nativo: núcleo, GPU NV2A sobre Vulkan, audio MCPX sobre XAudio2, mandos con SDL2, teclado y ratón. El código recompilado se genera en tu equipo a partir de tu default.xbe. Un menú de opciones (tecla Supr o Inicio) ofrece modo de ventana, VSync, límite de cuadros, resolución interna de 1× a 6×, relaciones de aspecto, SMAA, escalado FSR 1, nitidez RCAS, volumen y reverberación. La 1.2 (26 de octubre) es la última versión. Sus 84 commits llevan a Claude como coautor."
+  en: "A native Windows port of Tom Clancy’s Ghost Recon 2 (original Xbox, 2004). The game’s code is statically recompiled from default.xbe to C with the xboxrecomp toolkit (a fork of sp00nznet/xboxrecomp) and the Xbox hardware is replaced by native code: kernel, NV2A GPU on Vulkan, MCPX audio on XAudio2, controllers through SDL2, keyboard and mouse. The recompiled code is generated on your machine from your default.xbe. An options menu (Delete or Home) offers window mode, VSync, frame limit, internal resolution from 1× to 6×, aspect ratios, SMAA, FSR 1 upscaling, RCAS sharpening, volume, and reverb. Version 1.2 (October 26) is the latest. All 84 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Ghost Recon 2 para la Xbox original, con el contenido del disco (ISO extraída, con default.xbe) en la carpeta game. Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan 1.3 y el Microsoft Visual C++ Redistributable 2015–2022 (x64)."
+  en: "Your own copy of Ghost Recon 2 for the original Xbox, with the disc’s contents (extracted ISO, including default.xbe) in the game folder. 64-bit Windows 10 or 11, a graphics card with Vulkan 1.3, and the Microsoft Visual C++ Redistributable 2015–2022 (x64)."
+tags:
+  - x86
+  - fps
+  - ai-assisted

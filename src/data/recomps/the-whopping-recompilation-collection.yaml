@@ -1,0 +1,20 @@
+name: "The Whopping Recompilation Collection"
+games: [sneak-king, big-bumpin, pocketbike-racer]
+console: x360
+status: playable
+repo: TekRantGaming/whopping-recompilation-collection
+originalDeveloper: "Blitz Games"
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Colección con un lanzador para Windows y Linux (incluida la Steam Deck) que reúne los ports nativos de Sneak King, Big Bumpin’ y PocketBike Racer (Blitz Games, 2006), tres juegos de Xbox 360 recompilados con el SDK ReXGlue. El lanzador tiene un panel de estilo consola pensado para mando, busca por sí mismo las imágenes de disco en el equipo, comprueba cada disco y copia los archivos del juego junto al port. Ofrece 4K o más a 60, 120 o cuadros ilimitados, escalado AMD FSR 1 y NVIDIA NIS, doce logros por juego con avisos, copias de seguridad de partidas, actualizaciones automáticas y la opción de añadirse a Steam. La 1.0.7 (28 de octubre) es la última versión: un ZIP de Windows, un AppImage de Linux y paquetes de juego que el lanzador descarga. El README declara que se hizo casi por completo con Claude Code; sus 17 commits llevan a Claude como coautor."
+  en: "A collection with a launcher for Windows and Linux (including the Steam Deck) that brings together the native ports of Sneak King, Big Bumpin’, and PocketBike Racer (Blitz Games, 2006), three Xbox 360 games recompiled with the ReXGlue SDK. The launcher has a console-style dashboard made for a controller, finds disc images on your PC by itself, checks each disc, and copies the game files next to the port. It offers 4K and beyond at 60, 120, or unlimited frame rates, AMD FSR 1 and NVIDIA NIS upscaling, twelve achievements per game with pop-ups, save backups, automatic updates, and the option to add itself to Steam. Version 1.0.7 (October 28) is the latest: a Windows ZIP, a Linux AppImage, and game packages that the launcher downloads. The README states that it was made almost entirely with Claude Code; all 17 of its commits list Claude as a co-author."
+requirements:
+  es: "Una imagen de disco hecha por ti a partir de tu propio disco de Xbox 360 de cada juego que quieras jugar (solo se comprueba el ID de título): Sneak King (4D538802), Big Bumpin’ (4D538801) y PocketBike Racer (4D538803), versión 0.0.0.70 en las imágenes con que se probaron. Instalados ocupan unos 1,6, 2,0 y 1,2 GB. Windows 10 u 11 de 64 bits con una tarjeta DirectX 12, o Linux con Vulkan."
+  en: "A disc image you made from your own Xbox 360 disc for each game you want to play (only the title ID is checked): Sneak King (4D538802), Big Bumpin’ (4D538801), and PocketBike Racer (4D538803), version 0.0.0.70 in the images they were tested with. Installed they take about 1.6, 2.0, and 1.2 GB. 64-bit Windows 10 or 11 with a DirectX 12 card, or Linux with Vulkan."
+tags:
+  - powerpc
+  - racing
+  - sports
+  - 60fps+
+  - ai-assisted

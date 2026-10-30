@@ -1,0 +1,19 @@
+name: "Tyrian 2000"
+games: [tyrian-2000]
+category: game-engine
+console: dos
+status: playable
+repo: andyvand/opentyrian2000
+forkOf:
+  label: "KScl/opentyrian2000"
+  url: https://github.com/KScl/opentyrian2000
+year: 1999
+desc:
+  es: "Port de código abierto del juego de DOS Tyrian, bifurcado de OpenTyrian con el objetivo de reproducir lo más fielmente posible la experiencia de Tyrian 2000. Es un shoot ’em up de scroll vertical con modo historia, modos arcade para uno y dos jugadores y juego en red por UDP con perforación de NAT, probado con SDL_net, SDL2_net y SDL3_net. Se compila para muchísimas plataformas además del PC: sus releases traen paquetes para Windows (MSVC y MinGW), macOS, Linux (.deb), DOS, Android, iOS, 3DS, PSP, PS Vita, Switch y otras, y el README incluye instrucciones para ESP32. La última release, 3.0.0-SDL3, es del 28 de enero de 2025."
+  en: "An open-source port of the DOS game Tyrian, forked from OpenTyrian with the goal of replicating the Tyrian 2000 experience as closely as possible. It is a vertical-scrolling shoot ’em up with a story mode, one- and two-player arcade modes, and network play over UDP with NAT hole punching, tested with SDL_net, SDL2_net, and SDL3_net. It builds for a great many platforms besides the PC: its releases carry packages for Windows (MSVC and MinGW), macOS, Linux (.deb), DOS, Android, iOS, 3DS, PSP, PS Vita, Switch, and others, and the README includes ESP32 instructions. The latest release, 3.0.0-SDL3, is from January 28, 2025."
+requirements:
+  es: "Los archivos de datos de Tyrian 2000, que se publicaron como freeware (el README enlaza el zip en camanis.net)."
+  en: "The Tyrian 2000 data files, which were released as freeware (the README links the zip at camanis.net)."
+tags:
+  - shmup
+  - multiplayer

@@ -1,0 +1,20 @@
+name: "Pokémon Platinum"
+games: [pokemon-platinum-version]
+category: decomp-port
+console: nds
+status: playable
+repo: xgcModding/platinum
+originalDeveloper: "Game Freak"
+year: 2008
+desc:
+  es: "Port de Pokémon Platino para Windows, Linux y macOS, hecho a partir de una decompilación a la que el autor no enlaza porque su repositorio original incluye el juego decompilado con los recursos; aquí quitó todos los datos con derechos de autor. Añade compatibilidad con mods en Lua, más rendimiento y un límite de fotogramas desbloqueado. El autor dice que completó el juego, aunque no lo ha probado entero, y que usó IA en el desarrollo. Sus opciones nuevas incluyen velocidad de movimiento y de combate de 1× a 4×, experiencia al capturar, reparto de experiencia, resolución, disposición de pantallas, FPS, distancia de cámara y autoguardado, y trae mods como Auto HM, Battle Encounters, Better Berries, Experience, Fast Ball Battle, Faster Eggs, Infinite Honey e Infinite TM. La 0.3 (27 de octubre) es la última, con paquetes para los tres sistemas."
+  en: "A port of Pokémon Platinum for Windows, Linux, and macOS, made from a decompilation the author doesn’t link because its original repository contains the full decompiled game with assets; here they removed all copyrighted data. It adds Lua mod support, better performance, and an unlocked frame rate. The author says they completed the game, though they haven’t tested all of it, and that they used AI in development. Its new options include movement and battle speed from 1× to 4×, experience for catching, an experience share, resolution, screen layout, FPS, camera distance, and autosave, and it ships mods such as Auto HM, Battle Encounters, Better Berries, Experience, Fast Ball Battle, Faster Eggs, Infinite Honey, and Infinite TM. Version 0.3 (October 27) is the latest, with packages for all three systems."
+requirements:
+  es: "Tu propia ROM .nds de Pokémon Platinum, de EE. UU. o de Europa, que importas con Archivo > Importar ROM. Además, Windows, macOS o Linux; el AppImage de Linux x86-64 necesita un controlador gráfico con OpenGL 4.2."
+  en: "Your own Pokémon Platinum .nds ROM, US or European, which you import with File > Import ROM. Plus Windows, macOS, or Linux; the x86-64 Linux AppImage needs a graphics driver with OpenGL 4.2."
+tags:
+  - arm
+  - rpg
+  - mods
+  - 60fps+
+  - ai-assisted

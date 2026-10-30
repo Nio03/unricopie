@@ -1,0 +1,14 @@
+name: "Sexy Parodius"
+games: [sexy-parodius]
+console: ps1
+status: experimental
+repo: NJH-1001/SexyParoRecomp
+toolchain: PSXRecomp
+desc:
+  es: "SexyParoRecomp: proyecto de compatibilidad con PSXRecomp para Sexy Parodius (Japón, SLPM-86009). Las versiones son kits de instalación que no incluyen el juego: tú pones tu disco, y el asistente genera y compila el ejecutable en tu equipo, con OpenBIOS por defecto. Hay kits para Windows, Linux y macOS (Apple Silicon e Intel). El mando queda fijado en el modo digital original, se admiten mandos de Switch, PlayStation y Xbox mediante SDL3, y hay dos perfiles de pantalla CRT opcionales. Según el README, una compilación para Windows arrancó con OpenBIOS y llegó al título y a la demostración de juego; la verificación de juego se limita a Windows y no es una afirmación de juego completo. La 0.2.0 (3 de septiembre) es la última versión."
+  en: "SexyParoRecomp: a PSXRecomp compatibility project for Sexy Parodius (Japan, SLPM-86009). Releases are setup kits that don’t include the game: you supply your disc, and the wizard generates and compiles the executable on your PC, using OpenBIOS by default. There are kits for Windows, Linux, and macOS (Apple Silicon and Intel). The pad is locked to the original digital mode, Switch, PlayStation, and Xbox controllers are supported through SDL3, and there are two optional CRT display profiles. According to the README, a Windows build booted on OpenBIOS and reached the title screen and attract-mode gameplay; gameplay verification is limited to Windows and is not a full-game completion claim. Version 0.2.0 (September 3) is the latest release."
+requirements:
+  es: "Tu propio volcado de Sexy Parodius (Japón, SLPM-86009) como CUE/BIN de tipo Redump. Además, Python 3 y una cadena de herramientas de CMake y Ninja, que el asistente puede descargar. Windows 10 u 11 x86-64, Linux x86-64 o macOS 11 o posterior."
+  en: "Your own dump of Sexy Parodius (Japan, SLPM-86009) as a Redump-style CUE/BIN. Plus Python 3 and a CMake and Ninja toolchain, which the wizard can download. x86-64 Windows 10 or 11, x86-64 Linux, or macOS 11 or later."
+tags:
+  - mips

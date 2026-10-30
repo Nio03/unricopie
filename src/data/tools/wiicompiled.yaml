@@ -1,0 +1,15 @@
+name: Wiicompiled
+kind: recompiler
+consoles:
+  - wii
+  - gamecube
+repo: patchzyy/Wiicompiled
+status: beta
+desc:
+  es: "Cadena de recompilación estática de PowerPC para Wii y GameCube, nacida del port nativo de Mario Kart Wii. Su traductor maneja DOL y REL de forma genérica, y el runtime dibuja con aurora, una capa de compatibilidad de GameCube y Wii. Otros proyectos del catálogo lo usan como base. Su README dice que no hay código ni datos de Nintendo en el proyecto ni en sus versiones. Última versión: v0.9.3, del 25 de octubre. 3 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A PowerPC static recompilation toolchain for Wii and GameCube, born from the native Mario Kart Wii port. Its translator handles DOL and REL files generically, and the runtime renders through aurora, a GameCube and Wii compatibility layer. Other projects in the catalog build on it. Its README states there is no Nintendo code or game data in the project or its releases. Latest release: v0.9.3, October 25. 3 of its last 100 commits list Claude as a co-author."
+tags:
+  - powerpc
+  - static-recomp
+  - ai-assisted
+enrich: false

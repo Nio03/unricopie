@@ -1,0 +1,19 @@
+name: "The Legend of Zelda: Majora’s Mask 3D"
+games: [the-legend-of-zelda-majoras-mask-3d]
+console: 3ds
+status: playable
+repo: Volpe34/MM3D-PC
+originalDeveloper: "Nintendo"
+year: 2015
+toolchain: TriAevum
+desc:
+  es: "Port nativo no oficial para Windows y Linux de The Legend of Zelda: Majora’s Mask 3D, construido sobre TriAevum, el entorno de recompilación y renderizador Vulkan hecho para Ocarina of Time 3D. El código ARM del juego se traduce a código nativo en tu equipo a partir de tu propia ROM, y los comandos de la GPU de la 3DS se dibujan con Vulkan; el repositorio asegura que no contiene código ni recursos de Nintendo. Añade resoluciones altas, pantalla ancha, interpolación de cuadros por encima de 30 fps, una disposición de una sola pantalla que no necesita la táctil, mando, teclado y ratón, idioma inglés, francés o español, y un menú F1 con teletransporte, trucos y estados guardados. El autor avisa de que el rendimiento puede ser malo en algunos equipos y de que no sabe si seguirá con el proyecto. La v0.1.9 (24 de octubre) añadió un hilo opcional para la lógica del juego. 17 de sus 18 commits llevan a Claude como coautor."
+  en: "An unofficial native port of The Legend of Zelda: Majora’s Mask 3D for Windows and Linux, built on TriAevum, the recompilation runtime and Vulkan renderer made for Ocarina of Time 3D. The game’s ARM code is translated to native code on your computer from your own ROM, and the 3DS GPU commands are drawn with Vulkan; the repository states that it contains no Nintendo code or assets. It adds higher resolutions, widescreen, frame interpolation above 30 fps, a single-screen layout that doesn’t need the touch screen, controller, keyboard and mouse support, English, French, or Spanish text, and an F1 menu with warping, cheats, and save states. The author warns that performance may be bad on some PCs and that he doesn’t know whether he will keep working on it. Version 0.1.9 (October 24) added an optional game-logic thread. 17 of its 18 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado descifrado de Majora’s Mask 3D, EE. UU. v1.1, como .3ds o .cci. Windows 10 u 11 de 64 bits, o Linux x64 con glibc 2.38 o posterior; una GPU con Vulkan 1.2, unos 4 GB de disco y 8 GB de RAM. La primera vez hace falta internet: la instalación descarga un compilador (Python y llvm-mingw en Windows, zig en Linux), comprueba cada descarga contra un SHA-256 fijo y tarda entre 10 y 40 minutos."
+  en: "Your own decrypted dump of Majora’s Mask 3D, USA v1.1, as a .3ds or .cci. 64-bit Windows 10 or 11, or x64 Linux with glibc 2.38 or newer; a GPU with Vulkan 1.2, about 4 GB of disk space, and 8 GB of RAM. An internet connection is needed the first time: setup downloads a compiler (Python and llvm-mingw on Windows, zig on Linux), checks each download against a pinned SHA-256, and takes 10 to 40 minutes."
+tags:
+  - arm
+  - 60fps+
+  - widescreen
+  - ai-assisted

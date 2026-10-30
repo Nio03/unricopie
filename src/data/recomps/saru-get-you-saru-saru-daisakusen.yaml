@@ -1,0 +1,15 @@
+name: "Saru Get You: Saru Saru Daisakusen"
+games: [saru-get-you-saru-saru-daisakusen]
+console: psp
+status: experimental
+repo: jackgllghr/bigmission-recomp
+toolchain: PSPRecomp
+desc:
+  es: "Recompilación del juego de PSP construida sobre el marco PSPRecomp, que lee el ejecutable Allegrex/MIPS, genera C++ y lo ejecuta en un entorno nativo. Apunta a Windows, macOS, Linux y Android con más rendimiento y configurabilidad, y a servir de base para traducir el juego. El README marca como funcionando las cuatro plataformas, el escalado de resolución, el campo de visión, la cámara con el stick derecho, los subtítulos de los vídeos, los avisos según el mando y la compatibilidad con partidas de PSP; son experimentales los 60 cuadros por segundo interpolados, los paquetes de texturas HD, los estados de guardado y una traducción automática al inglés. La nota del perfil del juego advierte que es una versión temprana, no verificada de principio a fin. Las versiones solo contienen el lanzador, que construye el juego en tu equipo a partir de tu disco; la última, la 0.2.1, es del 25 de octubre. 30 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A recompilation of the PSP game built on the PSPRecomp framework, which reads the Allegrex/MIPS executable, emits C++, and runs it on a native runtime. It targets Windows, macOS, Linux, and Android with better performance and configurability, and aims to be a foundation for translating the game. The README lists as working all four platforms, resolution scaling, field of view, right-stick camera, movie subtitles, controller-specific prompts, and PSP save compatibility; interpolated 60 frames per second, HD texture packs, save states, and a machine-translated English pack are experimental. The game profile’s note warns that it is an early build, not verified end to end. The releases contain only the launcher, which builds the game on your machine from your disc; the latest, 0.2.1, is from October 25. 30 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco del juego de PSP, edición japonesa (ID de disco UCJS10060, versión 1.00). El lanzador la usa para construir el juego en tu equipo (Windows x86-64, macOS con Apple Silicon o Linux)."
+  en: "Your own disc image of the PSP game, Japanese edition (disc ID UCJS10060, version 1.00). The launcher uses it to build the game on your machine (Windows x86-64, Apple Silicon macOS, or Linux)."
+tags:
+  - mips
+  - ai-assisted

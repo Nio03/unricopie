@@ -1,0 +1,16 @@
+name: "Hotel Mario"
+games: [hotel-mario]
+console: other
+status: playable
+repo: tools81/hotel-mario-static-recomp
+year: 1994
+desc:
+  es: "Port nativo no oficial de Hotel Mario (Philips CD-i, 1994) para Windows, hecho por recompilación estática. El código 68000 del juego se traduce de antemano a C y se compila con MSVC; un entorno propio aporta lo que el juego espera de la consola: el núcleo CD-RTOS (OS-9), el gestor de archivos del CD, el decodificador de vídeo MCD212 (mostrado con Direct3D 11 a cualquier resolución) y el procesador de audio ADPCM. Parte de la plantilla de recompilación de CD-i surgida del port de Link: The Faces of Evil. Hay dos ejecutables, uno con la imagen original y otro con los ampliadores Cartoon HD y la interpolación de sprites activada; ambos tienen partidas rápidas, run-ahead e invencibilidad. Según el README se han comprobado la introducción, el menú, el primer nivel con música y efectos, el fin de partida y el modo demostración; los hoteles posteriores al primero no se han comprobado porque nadie ha jugado tan lejos. La 1.0.2 se publicó el 25 de octubre. Sus 4 commits llevan a Claude como coautor."
+  en: "An unofficial native port of Hotel Mario (Philips CD-i, 1994) for Windows, made by static recompilation. The game’s 68000 code is translated ahead of time into C and compiled with MSVC; a runtime of its own provides what the game expects from the console: the CD-RTOS (OS-9) kernel, the CD file manager, the MCD212 video decoder (shown through Direct3D 11 at any resolution), and the ADPCM audio processor. It starts from the CD-i recompilation template that came out of the Link: The Faces of Evil port. There are two executables, one with the original picture and one with the Cartoon HD upscalers and sprite interpolation switched on; both have quicksaves, run-ahead, and invincibility. According to the README, the intro, the title menu, the first level with music and sound effects, game over, and the attract-mode demo have been checked; the hotels after the first are unchecked because nobody has played that far. Version 1.0.2 was published on October 25. All 4 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen del disco de Hotel Mario (EE. UU.), en bruto, como .bin y .cue con sectores de 2352 bytes. El instalador y el zip portátil de las releases no incluyen el disco y lo piden en el primer arranque. Además, Windows 10 o posterior; para compilar desde el código, Visual Studio 2022, CMake 3.19 y Python 3.8."
+  en: "Your own image of the Hotel Mario disc (USA), raw, as a .bin and .cue with 2352-byte sectors. The installer and the portable zip in the releases don’t include the disc and ask for it on first start. Plus Windows 10 or later; to build from source, Visual Studio 2022, CMake 3.19, and Python 3.8."
+tags:
+  - "68000"
+  - 60fps+
+  - ai-assisted

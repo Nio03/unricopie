@@ -1,0 +1,18 @@
+name: "Perfect Dark (N64)"
+games: [perfect-dark]
+console: n64
+status: experimental
+repo: n64hub/perfect-dark-recomp
+originalDeveloper: "Rare"
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Port nativo de la versión de Nintendo 64 para Windows y Linux, hecho por recompilación estática: el código MIPS del juego se traduce a C con N64Recomp y se ejecuta de forma nativa sobre N64ModernRuntime, con RT64 como renderizador; no es un emulador. Los símbolos salen de la decompilación de Perfect Dark, y el repositorio también lo compila como página web. El README declara que casi todo el código fue escrito por agentes de IA (Claude), dirigidos y probados por una persona. La versión de escritorio juega la misión dataDyne Central - Defección de principio a fin en dificultad Agente, con sonido; funcionan los menús, el archivo de agente y el guardado, y el juego dibuja 59-60 fotogramas por segundo en los niveles. En Windows se dibuja con D3D12; en Linux bajo WSL2 la GPU se perdió dos veces, así que esa versión solo se ejecuta por CPU (lavapipe). Quedan sin comprobar las voces (MP3), y las nubes y el agua se dibujan con un parche. La 0.1.0 (23 de octubre) trae compilaciones de Windows y Linux x86-64 sin la ROM. 56 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native port of the Nintendo 64 version for Windows and Linux, made by static recompilation: the game’s MIPS code is translated to C with N64Recomp and run natively on N64ModernRuntime, with RT64 as the renderer; it is not an emulator. Its symbols come from the Perfect Dark decompilation, and the repository also builds it as a web page. The README states that almost all of the code was written by AI agents (Claude), directed and play-tested by a person. The desktop build plays the mission dataDyne Central - Defection from briefing to end screen on Agent difficulty, with sound; the menus, the agent file, and saving work, and the game draws 59-60 frames a second in its levels. On Windows it draws through D3D12; on Linux under WSL2 the GPU was lost twice, so that build runs on the CPU only (lavapipe). The speech (MP3) hasn’t been checked, and clouds and water are drawn through a patch. Version 0.1.0 (October 23) provides Windows and Linux x86-64 builds without the ROM. 56 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Perfect Dark (U) (V1.1), la segunda revisión de la edición de EE. UU. (NPDE, versión 01), en formato .z64 big-endian de 32 MiB con MD5 e03b088b6ac9e0080440efed07c1e40f; no se admiten otras regiones ni revisiones. Además, Windows (Direct3D 12) o Linux x86-64 con glibc 2.35 o posterior, un controlador Vulkan, GTK 3 y FreeType."
+  en: "Your own Perfect Dark (U) (V1.1) ROM, the second revision of the US release (NPDE, version 01), as a 32 MiB big-endian .z64 with MD5 e03b088b6ac9e0080440efed07c1e40f; other regions and revisions are not supported. Plus Windows (Direct3D 12) or x86-64 Linux with glibc 2.35 or newer, a Vulkan driver, GTK 3, and FreeType."
+tags:
+  - mips
+  - fps
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Glover"
+games: [glover]
+console: n64
+status: playable
+repo: ThatGuyMcd/Glover-R
+originalDeveloper: "Interactive Studios"
+year: 1998
+desc:
+  es: "Recompilación estática de Glover de Nintendo 64 que lo lleva a Windows y Linux, con pantalla ancha, más fotogramas por segundo y una cámara moderna. El lanzador y los ajustes dentro del juego (F1 o Escape) cubren resolución, frecuencia de imagen, interpolación, filtrado de texturas, campo de visión y distancia de dibujado, con un valor Original que restaura los ajustes de fábrica, y Controller Studio permite asignar a cada control del N64 una tecla, un botón del ratón o un mando. Una pestaña de mods instala mods y paquetes de texturas con perfiles propios, y la versión incluye el SDK de mods y la Modern Analogue Camera 1.0.2, que añade cámara con el stick derecho, el teclado y el ratón. La 1.0.1 (6 de octubre) trae paquetes de Windows x64, AppImage de Linux, Linux portátil y Steam Deck."
+  en: "A static recompilation of the Nintendo 64 Glover that brings it to Windows and Linux, with widescreen, higher frame rates, and a modern camera. The launcher and the in-game settings (F1 or Escape) cover resolution, frame rate, interpolation, texture filtering, field of view, and draw distance, with an Original value that restores the stock settings, and Controller Studio lets you assign a keyboard, mouse, or gamepad input to each N64 control. A Mods tab installs mods and texture packs with profiles of their own, and the release bundle includes the Mod SDK and Modern Analogue Camera 1.0.2, which adds right-stick, keyboard, and mouse look. Version 1.0.1 (October 6) provides Windows x64, Linux AppImage, Linux portable, and Steam Deck packages."
+requirements:
+  es: "Tu propia ROM sin modificar de Glover de EE. UU., revisión 0, código de juego NGVE, de 8 MiB, en formato .z64, .n64 o .v64, con SHA-1 270be17b3c8da9b88a7b99c2a545b0bce16837f4, que eliges en el lanzador. Además, Windows x64 o Linux x86-64 (en la Steam Deck, el paquete x86_64)."
+  en: "Your own unmodified US Glover ROM, revision 0, game code NGVE, 8 MiB, as a .z64, .n64, or .v64 with SHA-1 270be17b3c8da9b88a7b99c2a545b0bce16837f4, which you choose in the launcher. Plus Windows x64 or x86-64 Linux (the x86_64 package on the Steam Deck)."
+tags:
+  - mips
+  - platformer
+  - widescreen
+  - 60fps+
+  - mods

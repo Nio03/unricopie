@@ -1,0 +1,19 @@
+name: "NHL 2K8"
+games: [nhl-2k8]
+console: x360
+status: playable
+repo: anishchandra24/NHL2K8-Recompiled
+originalDeveloper: "Visual Concepts"
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial para Windows de NHL 2K8, de Xbox 360, hecho con recompilación estática mediante el SDK ReXGlue. El repositorio contiene la lista de correcciones que permite al recompilador entender el juego, un pequeño lanzador y un parche que añade la música dentro del juego (en el emulador Xenia se ha informado de que la música de los menús suena muda). El juego en sí se traduce en tu equipo a partir de tu copia. Según el README funcionan el arranque, los menús, los partidos rápidos, el modo Franquicia, los torneos, el guardado, el teclado y los mandos (con varios a la vez en multijugador local), los logros, la banda sonora del reproductor 2K Beats y las bandas sonoras propias desde la pantalla de listas del usuario. No funcionan las funciones en línea, y hay tirones en escenas con mucho público y al llegar por primera vez a pantallas nuevas. La versión 1.1.0 es del 29 de octubre. 30 de sus 32 commits llevan a Claude como coautor."
+  en: "An unofficial native Windows port of NHL 2K8 for Xbox 360, made with static recompilation via the ReXGlue SDK. The repository holds the fix list that lets the recompiler understand the game, a small launcher, and a patch that adds the in-game music (menu music has been reported silent in the Xenia emulator). The game itself is translated on your PC from your own copy. According to the README, boot, menus, quick games, Franchise mode, tournaments, saving, keyboard and controllers (several at once for local multiplayer), achievements, the 2K Beats soundtrack, and custom soundtracks through the User Playlists screen work. Online features do not work, and there is stutter in busy crowd scenes and the first time new screens are reached. Version 1.1.0 is from October 29. 30 of its 32 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de NHL 2K8 para Xbox 360 (ID de título 54540809, versión 0.0.0.3), extraída de modo que default.xex y el resto de archivos queden en una carpeta; el default.xex admitido pesa 9.383.936 bytes y tiene SHA-256 BA4E63334FAF296019657C6E86BBD444CB05646E29FA6C7B72F4BF9709CE4225. Windows 10 u 11 de 64 bits (solo se ha probado Windows 10) con una tarjeta gráfica compatible con Direct3D 12, Visual Studio 2022 y Git (el instalador puede instalarlos)."
+  en: "Your own copy of NHL 2K8 for Xbox 360 (title ID 54540809, version 0.0.0.3), extracted so that default.xex and the other files sit in one folder; the supported default.xex is 9,383,936 bytes with SHA-256 BA4E63334FAF296019657C6E86BBD444CB05646E29FA6C7B72F4BF9709CE4225. 64-bit Windows 10 or 11 (only Windows 10 has been tested) with a Direct3D 12-capable graphics card, Visual Studio 2022, and Git (the installer can install them)."
+tags:
+  - powerpc
+  - sports
+  - multiplayer
+  - ai-assisted

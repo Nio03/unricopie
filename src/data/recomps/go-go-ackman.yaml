@@ -1,0 +1,19 @@
+name: "Go Go Ackman"
+games: [go-go-ackman]
+console: snes
+status: playable
+repo: catmidori/gogoackman1recomp
+originalDeveloper: "Tom Create"
+year: 1994
+toolchain: "snesrecomp"
+desc:
+  es: "Port de escritorio de Go Go Ackman para SNES hecho con SNESRecomp, SDL3 y Dear ImGui, para Windows y Linux (con paquete Flatpak). La ROM no va incluida: se elige al arrancar y, si no se encuentra, se abre un selector de archivos. Tiene un menú en el juego (Esc), pantalla ancha activable en tiempo real, relaciones de aspecto 4:3 y 8:7, vibración, shaders GLSL, turbo, rebobinado, 10 ranuras de partida guardada con autoguardado y run-ahead. Admite las traducciones al inglés de Ackman Translations y al portugués brasileño de E2P Traduções, que convierte desde sus parches .ips a paquetes .snesmod, el formato de mods del framework; el soporte de MSU está sin probar. La v1.0 es del 15 de octubre."
+  en: "A desktop port of Go Go Ackman for the SNES made with SNESRecomp, SDL3, and Dear ImGui, for Windows and Linux (with a Flatpak package). The ROM is not included: you pick it at startup and, if it isn’t found, a file picker opens. It has an in-game menu (Esc), widescreen that can be toggled in real time, 4:3 and 8:7 aspect ratios, rumble, GLSL shaders, turbo, rewind, 10 savestate slots with autosave, and run-ahead. It supports the English translation by Ackman Translations and the Brazilian Portuguese one by E2P Traduções, converting their .ips patches into .snesmod packages, the framework’s mod format; MSU support is untested. Version 1.0 is from October 15."
+requirements:
+  es: "Tu propia ROM japonesa de Go Go Ackman sin cabecera, de 1 310 720 bytes (SHA-256 e8a33b6c8e15cf0aa60e9694471a51926fb97ad895d4714384c6abff28a33a1f); una cabecera de copiador opcional de 512 bytes se normaliza al verificar. Otra revisión necesitaría análisis aparte."
+  en: "Your own unheadered Japanese Go Go Ackman ROM, 1,310,720 bytes (SHA-256 e8a33b6c8e15cf0aa60e9694471a51926fb97ad895d4714384c6abff28a33a1f); an optional 512-byte copier header is normalized during verification. A different revision would need separate analysis."
+tags:
+  - "65816"
+  - platformer
+  - widescreen
+  - mods

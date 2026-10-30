@@ -1,0 +1,18 @@
+name: "Rampage: Total Destruction"
+games: [rampage-total-destruction]
+category: game-engine
+console: ps2
+status: fully
+repo: jjmhalew/RampageRE
+originalDeveloper: "Pipeworks Software"
+year: 2006
+desc:
+  es: "Port nativo para PC de Rampage: Total Destruction que se juega desde tu propio disco; el repositorio no incluye archivos del juego. Tiene dos mitades: una base recompilada con PS2Recomp, que ejecuta la lógica real del juego y sirve de referencia, y una reimplementación cuyos formatos están documentados en docs/ y se comprueban byte a byte contra cada archivo del disco, con código nativo legible para scripts, datos, renderizador y sistemas de juego. El README dice que se puede jugar de principio a fin en el port nativo, con el frontal, las siete ciudades de la campaña, jefes, créditos, el resto de modos y uno o dos jugadores, y que se ha jugado en Windows; las versiones para Switch, Vita y móviles aún no se han probado en hardware real. Opcionalmente, con los archivos de tu propio disco de Wii, añade los diez monstruos extra de esa versión. La v1.2.1 es del 28 de octubre. Sus últimos 100 commits llevan todos a Claude como coautor."
+  en: "A native PC port of Rampage: Total Destruction that plays from your own disc; the repository includes no game files. It has two halves: a base recompiled with PS2Recomp, which runs the real game logic and serves as the reference, and a reimplementation whose formats are documented in docs/ and checked byte for byte against every file on the disc, with readable native code for scripts, data, the renderer, and the game systems. The README says it can be played from start to end in the native port, with the front end, the campaign’s seven cities, bosses, credits, the other modes, and one or two players, and that it has been played on Windows; the Switch, Vita, and phone builds have not yet been tried on real hardware. Optionally, with the files from your own Wii disc, it adds that version’s ten extra monsters. Version 1.2.1 is from October 28. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Rampage: Total Destruction para PS2, europea (SLES-53800, SLES_538.00 versión 1.00) o estadounidense (SLUS-21323, SLUS_213.23 versión 1.01), que contienen el mismo juego byte a byte; como imagen .iso, o con los archivos extraídos del disco. Existen compilaciones para Windows (RampageRE.exe), Linux, Android, Switch y Vita."
+  en: "Your own copy of Rampage: Total Destruction for PS2, European (SLES-53800, SLES_538.00 version 1.00) or American (SLUS-21323, SLUS_213.23 version 1.01), which hold the same game byte for byte; as an .iso image, or with the files extracted from the disc. There are builds for Windows (RampageRE.exe), Linux, Android, Switch, and Vita."
+tags:
+  - mips
+  - multiplayer
+  - ai-assisted

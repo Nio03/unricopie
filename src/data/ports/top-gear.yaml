@@ -1,0 +1,20 @@
+name: "Top Gear"
+games: [top-gear]
+category: decomp-port
+console: snes
+status: playable
+repo: thebradshaw/topgear-pc
+originalDeveloper: "Gremlin Graphics"
+year: 1992
+desc:
+  es: "Port para PC de Top Gear, de SNES, que se presenta como una decompilación fiel con pantalla ancha opcional, una vista a pantalla completa para un jugador y mayor frecuencia de imagen. El programa de las carreras (la actualización por cuadro, el renderizador, los coches, los sprites y las interrupciones de trama) ya corre como C traducido; los menús y unas pocas rutinas siguen ejecutando el código original en LakeSnes, un emulador incrustado que además comprueba el código en C llamada a llamada. Las carreras en C eliminan las ralentizaciones y las pausas de carga del original, y con --original se juega con el código del propio juego. Los gráficos, el sonido y la música salen de tu ROM, que debe ir sin modificar; el ensamblador que genera la herramienta de desensamblado se queda en tu equipo y no se publica. La última versión, la 0.1.3 (20 de octubre), trae Windows y una compilación para Linux experimental. 89 de sus 90 commits llevan a Claude como coautor."
+  en: "A PC port of the SNES game Top Gear, presented as a faithful decomp with optional widescreen, a full-screen one-player view, and higher frame rates. The race program (the per-frame update, the renderer, the cars, the sprites, and the raster interrupts) now runs as translated C; the menus and a few routines still run the original code on LakeSnes, an embedded emulator that also checks the C code call by call. The C races drop the original’s slowdown and loading pauses, and --original plays the game’s own code throughout. Graphics, sound, and music come from your ROM, which must be unmodified; the assembly that the disassembly tool generates stays on your machine and is never published. The latest release, 0.1.3 (October 20), ships Windows and an experimental Linux build. 89 of its 90 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM sin modificar de Top Gear (EE. UU.), de 524.288 bytes (SHA-256 ca9889f17f184b3d99a2eaaa82af73e366f03ed00313fdd369e5e023b208e788); la cabecera de copiador de 512 bytes se quita sola. Windows de 64 bits o Linux de 64 bits (experimental)."
+  en: "Your own unmodified Top Gear (USA) ROM, 524,288 bytes (SHA-256 ca9889f17f184b3d99a2eaaa82af73e366f03ed00313fdd369e5e023b208e788); a 512-byte copier header is removed automatically. 64-bit Windows or 64-bit Linux (experimental)."
+tags:
+  - "65816"
+  - racing
+  - widescreen
+  - 60fps+
+  - ai-assisted

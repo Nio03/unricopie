@@ -1,0 +1,17 @@
+name: "Strike Remastered Collection HD"
+games: [desert-strike-return-to-the-gulf, jungle-strike, urban-strike]
+console: megadrive
+status: playable
+repo: Icedomega13/StrikeHDCollection
+originalDeveloper: "Electronic Arts"
+year: 1992
+desc:
+  es: "Versiones nativas para PC de los tres juegos Strike de Mega Drive/Genesis: Desert Strike: Return to the Gulf, Jungle Strike y Urban Strike. El código original de cada juego se recompila estáticamente a C y se verifica instrucción por instrucción contra el núcleo de 68000 Musashi en pruebas de ejecución sincronizada; el sonido (YM2612 y PSG) se emula con ymfm. Añade pantalla ancha de 16:10 a 32:9, paquetes de gráficos HD con un constructor integrado (reescala 4× con xBRZ), indicadores de estado, minimapa, menú de pausa con ranuras de guardado, trampas, rebobinado, autoguardado, vibración de mando, estadísticas y un lanzador con selector de juego. Completan la lista un prototipo de dificultad para Desert Strike y una edición Amiga en desarrollo, que usa tus propios discos de Amiga. La 0.8.1 es del 26 de octubre, con instalador y zip portátil para Windows; el README documenta también la compilación en Linux. El código recompilado se genera en tu equipo y no está en el repositorio. 7 de sus 9 commits llevan a Claude como coautor, y el README dice que el desarrollo se hizo con mucha ayuda de IA."
+  en: "Native PC versions of the three Sega Genesis Strike games: Desert Strike: Return to the Gulf, Jungle Strike, and Urban Strike. Each game’s original code is statically recompiled to C and verified instruction by instruction against the Musashi 68000 core in lockstep tests; sound (YM2612 and PSG) is emulated with ymfm. It adds widescreen from 16:10 to 32:9, HD graphics packs with a built-in builder (4× upscaling with xBRZ), a status HUD, a minimap, a pause menu with save slots, cheats, rewind, autosave, gamepad rumble, stats, and a launcher with a game picker. A difficulty prototype for Desert Strike and a work-in-progress Amiga edition that uses your own Amiga disks round out the list. Version 0.8.1 is from October 26, with an installer and a portable zip for Windows; the README also documents building on Linux. The recompiled code is generated on your PC and is not in the repository. 7 of its 9 commits list Claude as a co-author, and the README says development relied heavily on AI."
+requirements:
+  es: "Tus propias copias de los cartuchos de Mega Drive/Genesis (EE. UU. o Europa) de los juegos que quieras jugar, comprobadas por SHA-1: Desert Strike d7e7d8c358eb845b84fb08f904cc0b95d0a4053d, Jungle Strike 7a7568e39341b1bb218280ee05c2b37c273317b5 y Urban Strike 897a8f6a08d6d7d6e5316f8047532b3e4603e705. Windows, o Linux compilando desde el código fuente."
+  en: "Your own copies of the Mega Drive/Genesis cartridges (US or Europe) for the games you want to play, checked by SHA-1: Desert Strike d7e7d8c358eb845b84fb08f904cc0b95d0a4053d, Jungle Strike 7a7568e39341b1bb218280ee05c2b37c273317b5, and Urban Strike 897a8f6a08d6d7d6e5316f8047532b3e4603e705. Windows, or Linux by building from source."
+tags:
+  - "68000"
+  - widescreen
+  - ai-assisted

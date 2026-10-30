@@ -1,0 +1,21 @@
+name: "SSX 3 (bertibertig)"
+games: [ssx-3]
+console: xbox
+status: experimental
+repo: bertibertig/SSX3-Recomp
+originalDeveloper: "EA Canada"
+year: 2003
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo de SSX 3 (Xbox original, 2003) por recompilación estática: el código x86 del juego se traduce a C con xboxrecomp y se compila como programa x86-64, mientras que el núcleo, la GPU, el audio y los controles de Xbox los sustituyen el entorno de ejecución y el código propio (un renderizador Vulkan, mandos, interpolación de cuadros); no es un emulador. Es un proyecto temprano y experimental, pero se puede arrancar y correr: los menús van a 60 cuadros y las carreras a 55–60, con interpolación por encima de 60, resolución interna de 1× a 5×, formatos panorámicos en las carreras (los menús siguen en 4:3), pantalla dividida (a unos 27 cuadros, porque el propio juego la limita a 30) y una pantalla de ajustes. No se ha comprobado una partida completa y la versión de Windows solo se probó bajo Wine y Proton. La 0.3.0 (26 de octubre) es la última versión. 66 de sus 68 commits llevan a Claude como coautor."
+  en: "A native port of SSX 3 (original Xbox, 2003) by static recompilation: the game’s x86 code is translated to C with xboxrecomp and compiled as an x86-64 program, while the Xbox kernel, GPU, audio, and input are replaced by the runtime and the project’s own code (a Vulkan renderer, controller support, frame interpolation); it is not an emulator. It is an early, experimental project, but you can boot the game and race: menus run at 60 frames per second and races at 55–60, with interpolation above 60, internal resolution from 1× to 5×, widescreen in races (menus stay 4:3), split screen (at about 27 frames per second, since the game itself caps it at 30), and a settings screen. A full run through the game has not been verified and the Windows build was only tested under Wine and Proton. Version 0.3.0 (October 26) is the latest. 66 of its 68 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de SSX 3 para la Xbox original, versión PAL/europea (ID de título 0x4541003C, compilación del 19 de septiembre de 2003), como imagen .iso o .xiso o como carpeta extraída, que el instalador del port copia; otras versiones no se admiten. En Linux, glibc 2.39 o superior, SDL2, OpenSSL 3, libepoxy y un controlador Vulkan; Windows 10 u 11 con el renderizador Vulkan."
+  en: "Your own copy of SSX 3 for the original Xbox, PAL/European version (title ID 0x4541003C, build of September 19, 2003), as an .iso or .xiso image or an extracted folder, which the port’s installer copies; other versions are not supported. On Linux, glibc 2.39 or newer, SDL2, OpenSSL 3, libepoxy, and a Vulkan driver; Windows 10 or 11 with the Vulkan renderer."
+tags:
+  - x86
+  - sports
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - ai-assisted

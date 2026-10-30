@@ -1,0 +1,15 @@
+name: "MediEvil (Leproide ESP)"
+games: [medievil]
+console: ps1
+status: experimental
+repo: Leproide/MediEvilRecomp-ESP
+toolchain: RecompOne
+desc:
+  es: "Recompilación estática de la versión PAL española de MediEvil (SCES-01495) para PC, con pantalla panorámica y renderizado mejorado. Parte de MediEvilRecomp-ITA (la versión PAL italiana de Leproide), que a su vez es una bifurcación de BlackLabelHQ/MediEvilRecomp; todo el trabajo base es suyo. Porta a la versión española, recalculando las direcciones, las correcciones PAL ya hechas para la italiana (callbacks del CD, reproducción de vídeos, fundido en iris, pantalla PAL de 256 líneas y voces XA), de modo que una sola copia del código sirve para las dos versiones. Está en beta y el README avisa de que puede haber errores graves. La v1.2-Stable (25 de octubre) trae un zip para Windows, y el repositorio incluye scripts para Linux."
+  en: "A static recompilation of the Spanish PAL release of MediEvil (SCES-01495) for PC, with widescreen and improved rendering. It starts from MediEvilRecomp-ITA (Leproide’s Italian PAL version), itself a fork of BlackLabelHQ/MediEvilRecomp; all the base work is theirs. It ports to the Spanish version, recalculating the addresses, the PAL fixes already made for the Italian one (CD callbacks, movie playback, iris fade, the 256-line PAL screen, and XA voices), so a single copy of the code serves both versions. It is in beta, and the README warns there may be serious bugs. v1.2-Stable (October 25) has a Windows zip, and the repository includes Linux scripts."
+requirements:
+  es: "Tu propia copia original de MediEvil PAL España (SCES-01495), de la que sacar un volcado limpio en bin/cue (el LEEME de la carpeta disc da los nombres de los archivos). Además, una GPU con OpenGL 2.1 como mínimo y, para compilarlo, el SDK de .NET 10."
+  en: "Your own original copy of MediEvil Spanish PAL (SCES-01495), from which to make a clean bin/cue dump (the LEEME in the disc folder gives the file names). Plus a GPU with at least OpenGL 2.1 and, to build it, the .NET 10 SDK."
+tags:
+  - mips
+  - widescreen

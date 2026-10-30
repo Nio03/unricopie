@@ -1,0 +1,14 @@
+name: "Dust: A Tale of the Wired West"
+games: [dust-a-tale-of-the-wired-west]
+category: game-engine
+console: pc
+status: playable
+repo: twitchplayskh/Dust-a-tale-of-the-wired-west-Recomp
+desc:
+  es: "Reconstrucción nativa para Windows x64, en C++20, de Dust: A Tale of the Wired West que lee los archivos de datos del juego original. Trae un lanzador con modos de ventana y de ventana sin bordes, ajuste a 4K por altura o por escala entera, preferencias de audio, subtítulos y una restauración opcional de personajes. El README la presenta como versión preliminar: la campaña llega al final en verificaciones con guion, con comprobaciones adicionales en ventana nativa, y quedan por verificar algunas rutas opcionales de la historia, detalles de presentación y configuraciones de hardware. Las partidas usan archivos .dustsave propios y no son compatibles con las del juego original. La única versión es la preview 0.1.0 (25 de octubre). El código del motor es GPL-3.0 y el README aclara que es una reconstrucción y no se declara libre de código original."
+  en: "A native Windows x64 reconstruction, in C++20, of Dust: A Tale of the Wired West that reads the original game’s data files. It comes with a launcher offering windowed and borderless modes, 4K fit-to-height or integer scaling, audio preferences, captions, and optional character restoration. The README calls it a preview release: the campaign reaches its ending in scripted verification, with additional native-window checks, and some optional story paths, presentation details, and hardware configurations still need verification. Saves use the project’s own .dustsave files and are not compatible with the original game’s. The only release is preview 0.1.0 (October 25). The engine source is GPL-3.0, and the README states that it is a reconstruction, not a claim of clean-room independence."
+requirements:
+  es: "Tu propia copia instalada de Dust: A Tale of the Wired West: en el lanzador se elige la carpeta que contiene DATA y MOVIES. Windows de 64 bits."
+  en: "Your own installed copy of Dust: A Tale of the Wired West: in the launcher you pick the folder containing DATA and MOVIES. 64-bit Windows."
+tags:
+  - reverse-engineering

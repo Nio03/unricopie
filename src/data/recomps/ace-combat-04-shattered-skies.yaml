@@ -1,0 +1,19 @@
+name: "Ace Combat 04: Shattered Skies"
+games: [ace-combat-04-shattered-skies]
+console: ps2
+status: experimental
+repo: PresidentRaptor/Ace-Combat-04-PC-Port
+originalDeveloper: "Namco"
+year: 2001
+desc:
+  es: "Port nativo para Windows, en desarrollo, de Ace Combat 04: Shattered Skies (EE. UU., SLUS-20152), hecho por recompilación estática: las funciones de la CPU principal del ejecutable original se traducen de antemano a C y se compilan en ac4.exe, y un runtime compartido hace de consola (gráficos GS con Vulkan, unidades vectoriales, audio, vídeo, tarjetas de memoria y mando). El recompilador y el runtime proceden de la recompilación de Ace Combat 5 de sal063, a la que este proyecto añade la configuración de AC4, servicios de sonido propios y los arreglos de render, pantalla ancha y Windows. Según el README, la misión 01 se completó en juego real y el arranque, las películas, los briefings, la selección de avión y arma y el vuelo se comprobaron a resolución nativa y a 6x; las misiones posteriores aún necesitan partidas completas. Ofrece hasta 8x de resolución interna, FXAA, nitidez, packs de texturas opcionales y mods con Lua o nativos. La v2.2.3-beta es del 21 de octubre. 31 de sus últimos 64 commits llevan a Claude como coautor."
+  en: "A work-in-progress native Windows port of Ace Combat 04: Shattered Skies (USA, SLUS-20152), made by static recompilation: the original executable’s main CPU functions are translated ahead of time to C and compiled into ac4.exe, and a shared runtime stands in for the console (GS graphics through Vulkan, vector units, audio, movies, memory cards, and input). The recompiler and runtime come from sal063’s Ace Combat 5 recompilation, to which this project adds the AC4 configuration, its own sound services, and the rendering, widescreen, and Windows fixes. According to the README, mission 01 was completed in live play, and boot, movies, briefings, aircraft and weapon selection, and flight were checked at native and 6x resolution; later missions still need full playthroughs. It offers up to 8x internal resolution, FXAA, sharpening, optional texture packs, and Lua or native mods. Version v2.2.3-beta is from October 21. 31 of its last 64 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de Ace Combat 04: Shattered Skies para PS2, edición estadounidense (SLUS-20152) sin modificar, y los datos del disco. El instalador de Windows pide la ISO, verifica el ejecutable del juego, copia la ISO y crea la imagen local de la tarjeta de memoria; necesita unos 4 GB libres, .NET Framework 4.8 y una tarjeta gráfica con Vulkan 1.3."
+  en: "Your own Ace Combat 04: Shattered Skies image for PS2, unmodified US release (SLUS-20152), and the disc data. The Windows installer asks for the ISO, verifies the game executable, copies the ISO, and creates the local memory image; it needs about 4 GB free, .NET Framework 4.8, and a Vulkan 1.3 graphics card."
+tags:
+  - mips
+  - flight
+  - widescreen
+  - mods
+  - ai-assisted

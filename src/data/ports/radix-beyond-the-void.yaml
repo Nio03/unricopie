@@ -1,0 +1,16 @@
+name: "Radix: Beyond the Void"
+games: [radix-beyond-the-void]
+category: game-engine
+console: dos
+status: playable
+repo: jval1972/Rad-X
+year: 1995
+desc:
+  es: "Recreación del motor de Radix - Beyond the Void (1995), llamada RAD, escrita en Pascal. Ofrece altas resoluciones, renderizado por software en color verdadero y con OpenGL, velocidad de cuadros sin límite, automapa texturizado, luces dinámicas, efectos de sonido en FLAC y OGG, música en MOD, S3M, IT y XM, capturas de pantalla, un menú de ajustes de juego, teclas y resolución, y scripting con PascalScript; permite crear contenido propio con utilidades de edición de Doom. La última release en GitHub, la 1.2.21.755, es del 4 de mayo de 2022, con binarios de Windows de 32 bits y el código fuente; las versiones anteriores incluyen también una herramienta RAD2WAD."
+  en: "An engine recreation of Radix - Beyond the Void (1995), called RAD, written in Pascal. It offers high resolutions, true-color software rendering and OpenGL rendering, an uncapped frame rate, a textured automap, dynamic lights, sound effects in FLAC and OGG, music in MOD, S3M, IT, and XM, screenshots, an in-game menu for gameplay, key bindings, and resolution, and scripting with PascalScript; it lets you create custom content with Doom editing utilities. The latest release on GitHub, 1.2.21.755, is from May 4, 2022, with 32-bit Windows binaries and the source code; earlier versions also ship a RAD2WAD tool."
+requirements:
+  es: "El archivo radix.dat del juego original de DOS (versión «v2 remix»). Windows (compilaciones de 32 bits)."
+  en: "The radix.dat file from the original DOS game (the “v2 remix” version). Windows (32-bit builds)."
+tags:
+  - opengl
+  - mods

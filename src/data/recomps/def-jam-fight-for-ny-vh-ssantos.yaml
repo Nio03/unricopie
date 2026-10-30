@@ -1,0 +1,20 @@
+name: "Def Jam: Fight for NY (vh-ssantos)"
+games: [def-jam-fight-for-ny]
+console: xbox
+status: playable
+repo: vh-ssantos/DefJam-xbox-RE
+originalDeveloper: "EA Canada"
+year: 2004
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial y gratuito de la versión de Xbox de Def Jam: Fight for NY para Windows, hecho con XboxXBE-Recomp: el código del juego se recompila para correr directamente en el PC, con Direct3D 12, XAudio2 y SDL para los mandos; no es un emulador. Un instalador (Instalar.cmd) monta el juego en tu equipo a partir de tu ISO, en unos 3 minutos en un PC rápido, e instala las herramientas de compilación de Microsoft si faltan; el paquete nunca incluye el juego. Añade la resolución del monitor y supersampling hasta el 300 %, un 16:9 real con menús, marcador y escenas ajustados, 60 cuadros por segundo, oclusión ambiental, filtrado anisotrópico, un menú de opciones (F10) en portugués o inglés, el menú de desarrollo oculto de EA, trucos del propio juego, teclado y ratón, mandos de Xbox, PlayStation y Switch (hasta cuatro en Battle), Discord y actualizaciones automáticas. Las texturas HD opcionales (Lanczos 4×) se generan en local a partir de tu ISO. El juego en línea es por ahora mediante Parsec. La 0.5.0 (21 de octubre) es la última versión. 49 de sus 50 commits llevan a Claude como coautor."
+  en: "An unofficial, free native port of the Xbox version of Def Jam: Fight for NY for Windows, made with XboxXBE-Recomp: the game’s code is recompiled to run directly on the PC, with Direct3D 12, XAudio2, and SDL for controllers; it is not an emulator. An installer (Instalar.cmd) builds the game on your PC from your ISO, in about 3 minutes on a fast PC, and installs Microsoft’s build tools if they are missing; the package never includes the game. It adds your monitor’s resolution and supersampling up to 300%, true 16:9 with adjusted menus, scoreboard, and cutscenes, 60 frames per second, ambient occlusion, anisotropic filtering, an options menu (F10) in Portuguese or English, EA’s hidden developer menu, the game’s own cheats, keyboard and mouse, Xbox, PlayStation, and Switch controllers (up to four in Battle), Discord, and automatic updates. Optional HD textures (4× Lanczos) are generated locally from your ISO. Online play is for now through Parsec. Version 0.5.0 (October 21) is the latest. 49 of its 50 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Def Jam: Fight for NY de Xbox, versión de EE. UU., como imagen .iso o carpeta extraída (default.xbe); con otra versión el instalador avisa y el juego probablemente no funciona. Windows; unos 3 GB para la ISO, menos de 1 GB para la compilación y de 5 a 8 GB para las herramientas de Microsoft si faltan."
+  en: "Your own copy of Def Jam: Fight for NY for Xbox, USA version, as an .iso image or an extracted folder (default.xbe); with another version the installer warns and the game probably does not work. Windows; about 3 GB for the ISO, under 1 GB for the build, and 5 to 8 GB for Microsoft’s tools if they are missing."
+tags:
+  - x86
+  - fighting
+  - widescreen
+  - 60fps+
+  - ai-assisted

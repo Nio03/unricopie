@@ -1,0 +1,19 @@
+name: "Quake II (Yamagi Quake II Remaster)"
+games: [quake-ii]
+category: source-port
+console: pc
+status: experimental
+repo: yquake2/yquake2remaster
+forkOf:
+  label: "yquake2/yquake2"
+  url: https://github.com/yquake2/yquake2
+originalDeveloper: "id Software"
+year: 1997
+desc:
+  es: "Yamagi Quake II Remaster: bifurcación experimental de Yamagi Quake II en la que se trabaja para dar soporte a Quake II Enhanced (el Quake II Remaster), una versión con muchos cambios nada triviales; el README avisa de que el resultado puede variar. Admite además muchos formatos de modelos, texturas, sprites, mapas, sonido y paquetes de juegos de la familia id Tech, como Quake, Quake 2, Half-Life, Hexen 2, Daikatana, SiN, Anachronox, Heretic 2 y Quake 3. Hay binarios alfa para Windows de 64 bits; el formato de las partidas guardadas es inestable, y la compilación para macOS solo se ha comprobado que compila. La 8.71RR16 (22 de septiembre) es la última versión, con binarios para Windows de 32 y 64 bits."
+  en: "Yamagi Quake II Remaster: an experimental fork of Yamagi Quake II with ongoing work to add support for Quake II Enhanced (the Quake II Remaster), a version with many non-trivial changes; the README warns that your mileage may vary. It also supports many model, texture, sprite, map, sound, and package formats from id Tech family games, such as Quake, Quake 2, Half-Life, Hexen 2, Daikatana, SiN, Anachronox, Heretic 2, and Quake 3. There are alpha binaries for 64-bit Windows; the save format is unstable, and the macOS build has only been checked to compile. Version 8.71RR16 (September 22) is the latest release, with 32-bit and 64-bit Windows binaries."
+requirements:
+  es: "Los archivos de tu propia copia de Quake II (o del juego compatible que quieras jugar); el README no los detalla. Windows de 64 bits para los binarios publicados."
+  en: "The files from your own copy of Quake II (or of whichever supported game you want to play); the README doesn’t detail them. 64-bit Windows for the published binaries."
+tags:
+  - fps

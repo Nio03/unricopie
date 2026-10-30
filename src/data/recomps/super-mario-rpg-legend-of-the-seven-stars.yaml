@@ -1,0 +1,21 @@
+name: "Super Mario RPG: Legend of the Seven Stars"
+games: [super-mario-rpg-legend-of-the-seven-stars]
+console: snes
+status: experimental
+repo: mstan/SuperMarioRPGRecomp
+originalDeveloper: "Square"
+year: 1996
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática de Super Mario RPG: Legend of the Seven Stars con el marco snesrecomp. El código del 65816 se traduce a C donde el análisis puede demostrar que es seguro; el coprocesador SA-1 y el resto del hardware (vídeo, audio, DMA) se emulan. El README lo presenta como una versión preliminar: arranca, muestra el bucle de demostración y aguanta una prueba de resistencia sin supervisión, pero no se ha hecho una partida completa de principio a fin. Desde la 0.0.3 tiene un catálogo de mods integrado, con la pantalla ancha como opción, y la 0.0.4 añadió un renderizador de pantalla ancha experimental. La última versión, la 0.0.5 (22 de septiembre), es una actualización de empaquetado y trae un paquete para Windows; la 0.0.4 incluye además un AppImage para Linux. 14 de sus 26 commits llevan a Claude como coautor."
+  en: "A static recompilation of Super Mario RPG: Legend of the Seven Stars built on the snesrecomp framework. The 65816 code is translated to C where analysis can prove it safe; the SA-1 coprocessor and the rest of the hardware (video, audio, DMA) are emulated. The README presents it as a preview: it boots, runs the attract loop, and holds up under an unattended soak test, but no complete start-to-finish playthrough has been done. Since 0.0.3 it has a built-in mods catalog, with widescreen as an option, and 0.0.4 added an experimental widescreen renderer. The latest release, 0.0.5 (September 22), is a packaging update and ships a Windows package; 0.0.4 also includes a Linux AppImage. 14 of its 26 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Super Mario RPG: Legend of the Seven Stars como smrpg.sfc, de 4.194.304 bytes (SHA-256 740646f3535bfb365ca44e70d46ab433467b142bd84010393070bd0b141af853); con o sin cabecera de 512 bytes. Windows de 64 bits o Linux (AppImage)."
+  en: "Your own Super Mario RPG: Legend of the Seven Stars ROM as smrpg.sfc, 4,194,304 bytes (SHA-256 740646f3535bfb365ca44e70d46ab433467b142bd84010393070bd0b141af853); with or without the 512-byte header. 64-bit Windows or Linux (AppImage)."
+tags:
+  - "65816"
+  - sa-1
+  - widescreen
+  - mods
+  - rpg
+  - ai-assisted

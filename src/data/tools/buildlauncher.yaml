@@ -1,0 +1,12 @@
+name: "BuildLauncher"
+games: [duke-nukem-3d, blood, duke-nukem-zero-hour, duke-nukem-64, ion-fury, nam, powerslave, redneck-rampage, shadow-warrior, tekwar, ww2-gi, witchaven, witchaven-ii-blood-vengeance]
+kind: launcher
+consoles: [pc]
+status: usable
+repo: fgsfds/BuildLauncher
+desc:
+  es: "Lanzador para juegos del motor Build, inspirado en el DoomLauncher de nstlaurent. Detecta los juegos instalados desde Steam o Zoom Platform (GOG está previsto), descarga y actualiza los principales source ports, y descarga mapas, campañas y mods; lanza el juego original, sus expansiones o el contenido personalizado con el port elegido sin ajustes manuales. Permite cargar varios mods a la vez sin editar archivos .def, guarda las partidas del contenido personalizado en carpetas separadas, cuenta el tiempo de juego, crea el Would Tour Stopgap para EDuke32 y ejecuta Route 66 con Rednukem sin renombrar archivos originales. Admite Duke Nukem 3D (con sus expansiones, Duke 64 y Zero Hour), Shadow Warrior, Blood, Redneck Rampage, Ion Fury, Powerslave, NAM, World War II GI, Witchaven, TekWar y juegos independientes del motor Build. No incluye los juegos: es una utilidad comunitaria para quienes los tienen con licencia. La 1.19.0 (22 de septiembre) es la última release, para Windows x64."
+  en: "A launcher for Build Engine games, inspired by nstlaurent’s DoomLauncher. It detects games installed from Steam or Zoom Platform (GOG is planned), downloads and updates the main source ports, and downloads maps, campaigns, and mods; it launches the original game, its expansions, or custom content with the port of your choice with no manual tweaking. It can load several mods at once without editing .def files, keeps saved games for custom content in separate folders, tracks playtime, creates the World Tour Stopgap for EDuke32, and runs Route 66 with Rednukem without renaming original files. It supports Duke Nukem 3D (with its expansions, Duke 64, and Zero Hour), Shadow Warrior, Blood, Redneck Rampage, Ion Fury, Powerslave, NAM, World War II GI, Witchaven, TekWar, and standalone Build Engine games. It doesn’t include the games: it is a community utility for people who own them. Version 1.19.0 (September 22) is the latest release, for Windows x64."
+tags:
+  - fps
+  - mods

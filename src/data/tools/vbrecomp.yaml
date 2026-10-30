@@ -1,0 +1,13 @@
+name: vbrecomp
+kind: recompiler
+consoles:
+  - virtualboy
+repo: mstan/vbrecomp
+status: beta
+desc:
+  es: "Recompilador estático de V810 (Virtual Boy) a C, con un runtime, la simulación del hardware de VIP, VSU, interrupciones y temporizador, y un servidor de depuración. Un intérprete cubre las entradas de ROM no compiladas y el código en RAM. Cada juego vive en su propio repositorio que usa este como marco. No contiene ROMs ni C generado de ningún juego. 44 de sus 97 commits llevan a Claude como coautor."
+  en: "A static recompiler from V810 (Virtual Boy) to C, with a runtime, VIP, VSU, interrupt and timer hardware simulation, and a debug server. An interpreter covers uncompiled ROM entry points and RAM code. Each game lives in its own repository that uses this one as its framework. It contains no ROMs or game-specific generated C. 44 of its 97 commits list Claude as a co-author."
+tags:
+  - v810
+  - static-recomp
+  - ai-assisted

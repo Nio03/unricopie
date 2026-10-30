@@ -1,0 +1,20 @@
+name: "Tetrisphere"
+games: [tetrisphere]
+console: n64
+status: playable
+repo: djultra64/Blocksphere
+originalDeveloper: "H2O Entertainment"
+year: 1997
+toolchain: N64Recomp
+desc:
+  es: "Blocksphere: port comunitario de Tetrisphere para Linux y Windows de 64 bits, hecho por recompilación estática con N64Recomp, N64ModernRuntime, RSPRecomp y RT64. Los modos originales (Rescue, Hide & Seek, Puzzle, Time Trial, Training y VS, con dos jugadores locales) funcionan, con imagen en 4:3 o 16:9, mando y teclado reasignables con indicaciones según el dispositivo y ajustes de gráficos y controles dentro de Opciones. La 1.1.0 es del 11 de octubre. Los datos de la ROM se importan una vez y quedan en la carpeta del juego; no se distribuyen ROM, recursos extraídos ni partidas. El README declara que el proyecto se creó con ayuda de IA."
+  en: "Blocksphere: a community port of Tetrisphere for 64-bit Linux and Windows, made by static recompilation with N64Recomp, N64ModernRuntime, RSPRecomp, and RT64. The original modes (Rescue, Hide & Seek, Puzzle, Time Trial, Training, and VS, with local two-player) run, with 4:3 or 16:9 presentation, remappable gamepad and keyboard controls with device-aware prompts, and graphics and controls settings inside Options. Version 1.1.0 is from October 11. The ROM data is imported once and kept in the game folder; no ROM, extracted assets, or saves are distributed. The README states the project was created with AI assistance."
+requirements:
+  es: "Tu propia copia de Tetrisphere para Nintendo 64, estadounidense (NTPE, revisión 0), en .z64, .v64, .n64 o dentro de un .zip. Además, Windows o Linux de 64 bits (x86-64)."
+  en: "Your own copy of Tetrisphere for Nintendo 64, US (NTPE, revision 0), as .z64, .v64, .n64, or inside a .zip. Plus 64-bit Windows or Linux (x86-64)."
+tags:
+  - mips
+  - puzzle
+  - widescreen
+  - multiplayer
+  - ai-assisted

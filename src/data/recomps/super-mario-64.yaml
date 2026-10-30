@@ -1,0 +1,19 @@
+name: "Super Mario 64"
+games: [super-mario-64]
+console: n64
+status: experimental
+repo: n64hub/super-mario-64-recomp
+originalDeveloper: "Nintendo EAD"
+year: 1996
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de la versión estadounidense de Nintendo 64, hecho por recompilación estática: el código MIPS del juego se traduce a C con N64Recomp y se ejecuta de forma nativa sobre N64ModernRuntime, con RT64 como renderizador y el lanzador y los menús de RecompFrontend; los símbolos salen de la decompilación n64decomp/sm64. No es un emulador. El README declara que casi todo el código fue escrito por agentes de IA (Claude), dirigidos y probados por una persona. La versión de escritorio tiene sonido, guardado en EEPROM, teclado y mando, y dibuja al ritmo de la pantalla mientras la lógica sigue a 30; se ha jugado Bob-omb Battlefield desde la selección de archivo hasta la estrella del Rey Bob-omb y de vuelta al castillo. Ofrece alta resolución, texto en alta resolución opcional y opciones con valor Original, y también se compila como página web con WebGPU. La 0.1.2 (27 de octubre) es la última. 64 de sus 98 commits llevan a Claude como coautor."
+  en: "A native PC port of the US Nintendo 64 version, made by static recompilation: the game’s MIPS code is translated to C with N64Recomp and run natively on N64ModernRuntime, with RT64 as the renderer and RecompFrontend’s launcher and menus; the symbols come from the n64decomp/sm64 decompilation. It is not an emulator. The README states that almost all of the code was written by AI agents (Claude), directed and play-tested by a person. The desktop build has sound, EEPROM saves, and keyboard and gamepad input, and draws at the display’s rate while the game logic stays at 30; Bob-omb Battlefield has been played from the file select through King Bob-omb’s star and back to the castle. It offers high resolution, optional hi-res text, and options with an Original value, and it also builds as a web page using WebGPU. Version 0.1.2 (October 27) is the latest. 64 of its 98 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Super Mario 64 (EE. UU.) en formato .z64 big-endian con SHA-1 9bef1128717f958171a4afac3ed78ee2bb4e86ce. Además, Windows o Linux x86-64 con glibc 2.35 o posterior, un controlador Vulkan, GTK 3 y FreeType."
+  en: "Your own Super Mario 64 (USA) ROM as a big-endian .z64 with SHA-1 9bef1128717f958171a4afac3ed78ee2bb4e86ce. Plus Windows, or x86-64 Linux with glibc 2.35 or newer, a Vulkan driver, GTK 3, and FreeType."
+tags:
+  - mips
+  - platformer
+  - 60fps+
+  - ai-assisted

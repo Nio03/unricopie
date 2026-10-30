@@ -1,0 +1,20 @@
+name: "Ace Combat 04: Shattered Skies"
+games: [ace-combat-04-shattered-skies]
+category: decomp-port
+console: ps2
+status: playable
+repo: Onaga00/ProjectStonehenge
+originalDeveloper: "Namco"
+year: 2001
+desc:
+  es: "Port nativo para PC de x86-64 de Ace Combat 04: Shattered Skies, basado en la edición norteamericana (NTSC-U, SLUS-20152). Se construye a partir de una decompilación del ejecutable de la PS2: el código del juego se ha traducido función por función a C++ (con ayuda de IA) y corre de forma nativa; el README aclara que no es un emulador ni una recompilación estática. Todos los recursos, incluidas las tablas de datos del ejecutable, se cargan en tiempo de ejecución desde tu imagen de disco. Ofrece tasa de fotogramas desbloqueada (hasta 360 FPS, con la lógica a 59,94 Hz), resolución interna de 1x a 8x, FXAA y SMAA, cutscenes escaladas con FSR 1, guardados compatibles con PCSX2 (todavía en beta) y un depurador integrado; el código sin uso del juego final se ha portado también. El modo VS y Linux figuran como pendientes. La v0.9.6-beta es del 27 de octubre. El README declara un uso extenso de IA generativa de Anthropic bajo supervisión humana."
+  en: "A native x86-64 PC port of Ace Combat 04: Shattered Skies, based on the North American release (NTSC-U, SLUS-20152). It is built from a decompilation of the PS2 executable: the game code has been translated function by function into C++ (with AI assistance) and runs natively; the README states it is neither an emulator nor a static recompilation. All assets, including the executable’s own data tables, are loaded at run time from your disc image. It offers an unlocked frame rate (up to 360 FPS, with game logic at 59.94 Hz), internal resolution from 1x to 8x, FXAA and SMAA, FSR 1 upscaled cutscenes, PCSX2-compatible saves (still in beta), and a built-in debugger; code unused in the final game has been ported too. VS mode and Linux are listed as pending. Version v0.9.6-beta is from October 27. The README declares extensive use of Anthropic’s generative AI under human supervision."
+requirements:
+  es: "Tu propia imagen .iso de Ace Combat 04: Shattered Skies, edición estadounidense (NTSC-U, SLUS-20152; SHA-1 aaa707214aea7f8f9c2904c4b5e00c372c943533, 3 554 705 408 bytes), en ISO 9660 con sectores de 2048 bytes (no sirven los .bin/.cue en bruto). Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan 1.2."
+  en: "Your own .iso image of Ace Combat 04: Shattered Skies, US release (NTSC-U, SLUS-20152; SHA-1 aaa707214aea7f8f9c2904c4b5e00c372c943533, 3,554,705,408 bytes), as ISO 9660 with 2048-byte sectors (raw .bin/.cue dumps are not supported). 64-bit Windows 10 or 11 and a graphics card with Vulkan 1.2."
+tags:
+  - mips
+  - flight
+  - widescreen
+  - 60fps+
+  - ai-assisted

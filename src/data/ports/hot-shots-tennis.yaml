@@ -1,0 +1,20 @@
+name: "Hot Shots Tennis"
+games: [hot-shots-tennis]
+category: game-engine
+console: ps2
+status: playable
+repo: FIZL0/opentennis
+originalDeveloper: "Clap Hanz"
+year: 2006
+desc:
+  es: "Reescritura desde cero de Hot Shots Tennis (Everybody’s Tennis en Europa, Minna no Tennis en Japón) en Rust con el motor Bevy, que llaman OpenTennis. Busca el mismo juego, con la misma física de la pelota, reglas, tiempos e IA, portadas del original y comprobadas fotograma a fotograma contra el juego real, con mejor renderizado. Lee los datos del juego de tu imagen de disco en tiempo de ejecución y el repositorio no tiene modelos, texturas, sonidos ni código del juego. Hay versiones para Windows, Linux, Android e iOS y una web en la que eliges tu ISO; incluye juego en línea con rollback y mods de personajes, pistas, árbitros y texturas, con tienda de mods. El README lo describe como trabajo en curso. La 1.5.4 es del 29 de octubre. 52 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A from-scratch rewrite of Hot Shots Tennis (Everybody’s Tennis in Europe, Minna no Tennis in Japan) in Rust with the Bevy engine, called OpenTennis. It aims for the same game, with the same ball physics, rules, timing, and AI, ported from the original and checked frame by frame against the real game, with better rendering on top. It reads the game’s data from your disc image at run time, and the repository has no models, textures, sounds, or program code from the game. There are builds for Windows, Linux, Android, and iOS and a web version where you pick your own ISO; it includes online play with rollback and mods for characters, courts, umpires, and textures, with a mod store. The README describes it as a work in progress. Version 1.5.4 is from October 29. 52 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen .iso de Hot Shots Tennis de PS2, edición estadounidense, versión 1.00, serie SCUS-97610. El juego comprueba el disco (el archivo de arranque SCUS_976.10 y el tamaño y la cabecera de ZZBIN/GAME.BIN) y rechaza cualquier otro con «unsupported disc»."
+  en: "Your own .iso image of the PS2 Hot Shots Tennis, US release, version 1.00, serial SCUS-97610. The game checks the disc (the SCUS_976.10 boot file and the size and header of ZZBIN/GAME.BIN) and refuses any other with “unsupported disc”."
+tags:
+  - mips
+  - sports
+  - multiplayer
+  - mods
+  - ai-assisted

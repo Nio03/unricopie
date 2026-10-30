@@ -1,0 +1,19 @@
+name: "Super Mario Advance 2: Super Mario World"
+games: [super-mario-advance-2-super-mario-world]
+console: gba
+status: experimental
+repo: mstan/SuperMarioAdvance2Recomp
+originalDeveloper: "Nintendo"
+year: 2001
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática experimental de Super Mario Advance 2: Super Mario World para Windows, subproducto del desarrollo de gbarecomp. Ejecuta el juego original de Game Boy Advance como aplicación nativa de escritorio, con un lanzador, ajustes de pantalla, audio y controles y un mod opcional de pantalla ancha adaptable, desactivado por defecto, que dibuja contenido extra a los lados en las escenas compatibles hasta 9:5 y deja los menús y el HUD en el área original. Según el README, el juego arranca y llega hasta la introducción y la secuencia de demostración; es una versión experimental y el trabajo de pantalla ancha sigue escena por escena. La 0.0.4 es del 18 de octubre. 3 de sus 16 commits llevan a Claude como coautor."
+  en: "An experimental static recompilation of Super Mario Advance 2: Super Mario World for Windows, a byproduct of the development of gbarecomp. It runs the original Game Boy Advance game as a native desktop application, with a launcher, display, audio, and controls settings, and an optional Adaptive Widescreen mod, off by default, that renders extra content at the sides in supported scenes up to 9:5 and leaves menus and the HUD in the original area. Per the README, the game boots and runs through its opening and attract sequence; it is an experimental release and the widescreen work continues scene by scene. Version 0.0.4 is from October 18. 3 of its 16 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Super Mario Advance 2: Super Mario World para Game Boy Advance, de EE. UU. o Australia, más una BIOS de GBA original. Además, Windows."
+  en: "Your own copy of Super Mario Advance 2: Super Mario World for Game Boy Advance, from the USA or Australia, plus a retail GBA BIOS. Plus Windows."
+tags:
+  - arm
+  - platformer
+  - widescreen
+  - ai-assisted

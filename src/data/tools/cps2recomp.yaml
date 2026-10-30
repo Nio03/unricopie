@@ -1,0 +1,15 @@
+name: cps2recomp
+kind: recompiler
+consoles:
+  - arcade
+repo: tmcleroy/cps2recomp
+status: beta
+desc:
+  es: "Kit con el que se hacen los ports nativos de recreativas CPS-2 de Capcom (y un juego de CPS-1) por recompilación estática: traduce el programa 68000, y el del Z80 de sonido, a C++ y lo ejecuta sobre una máquina escrita para el proyecto, con vídeo, QSound y el cifrado del juego. Aporta además modo de entrenamiento y otras partes comunes a los juegos de lucha. No incluye ROMs. Última versión: v1.0.0, del 29 de octubre. 66 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "The toolkit used to make native ports of Capcom CPS-2 arcade games (and one CPS-1 game) by static recompilation: it translates the 68000 program, and the sound Z80’s, to C++ and runs it on a machine written for the project, with video, QSound and the game’s cipher. It also provides a training mode and other parts shared by fighting games. It includes no ROMs. Latest release: v1.0.0, October 29. 66 of its last 100 commits list Claude as a co-author."
+tags:
+  - "68000"
+  - z80
+  - static-recomp
+  - ai-assisted
+enrich: false

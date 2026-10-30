@@ -1,0 +1,15 @@
+name: "Parasite Eve"
+games: [parasite-eve]
+category: decomp-port
+console: ps1
+status: experimental
+repo: Blizz127/parasite-eve-decomp-port
+desc:
+  es: "Decompilación equivalente de Parasite Eve (PlayStation, EE. UU., SLUS-00662) y port nativo para Linux que ejecuta el código decompilado; no es un emulador y no hace falta BIOS. Según el README, el día 1 se juega de principio a fin. La compilación «native-only» ejecuta solo C nativo, sin intérprete MIPS ni emulación de CPU: con una imagen real llega del día 1 hasta el comienzo del día 2, y 377 de las 402 ranuras de sala del día 2 se ejecutaron sin errores en un barrido de saltos, pero no se ha probado a mano más allá del día 1. La última publicación (native-only-e26d98fd) es del 10 de octubre. El README advierte de que el binario de la r5 incluye código derivado de las bibliotecas Psy-Q de Sony y de otro autor, que no está en el código fuente del repositorio y que se irá sustituyendo. 1 de sus 10 commits lleva a Claude como coautor."
+  en: "A matching decompilation of Parasite Eve (PlayStation, USA, SLUS-00662) and a native Linux port that runs the decompiled game code; it is not an emulator and no BIOS is needed. According to the README, Day 1 plays from start to finish. The “native-only” build runs only native C, with no MIPS interpreter or CPU emulation: on a real disc image it plays from Day 1 to the opening of Day 2, and 377 of the 402 Day 2 room slots ran clean in a warp sweep, but it has not been tested by hand past Day 1. The latest release (native-only-e26d98fd) is from October 10. The README warns that the r5 binary contains code derived from Sony’s Psy-Q libraries and another author’s code, which is not in the repository’s source and is being replaced. 1 of its 10 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia del disco 1 de Parasite Eve (EE. UU.) como imagen BIN/CUE en bruto (un .bin de 495.531.120 bytes y su .cue); el .iso y el .chd no sirven directamente. Linux x86-64."
+  en: "Your own copy of Parasite Eve (USA) Disc 1 as a raw BIN/CUE image (a 495,531,120-byte .bin and its .cue); an .iso or .chd does not work directly. Linux x86-64."
+tags:
+  - mips
+  - ai-assisted

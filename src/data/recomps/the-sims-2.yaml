@@ -1,0 +1,17 @@
+name: "The Sims 2"
+games: [the-sims-2]
+console: xbox
+status: experimental
+repo: abilliontokens/sims2-recomp
+originalDeveloper: "Maxis"
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial de la versión de Xbox original de The Sims 2 (EE. UU.), producido recompilando estáticamente el XBE de x86 con el SDK XboxXBERecomp. Según el README llega a jugarse en Windows y Linux: reproduce las películas iniciales, llega a la pantalla de título y al menú principal y entra en una parcela en juego; en Linux (Vulkan) llega al título y a una escena 3D del vecindario. Añade un panel de ajustes (F1) y otro de tiempos de cuadro (F2), y sustituye el paso de cuadro del motor para que el juego mantenga su velocidad a cualquier tasa. El autor aún no publica cifras de cuadros por segundo ni de resolución. La 0.2.0 (20 de octubre) incluye paquetes de Windows y Linux."
+  en: "An unofficial native port of the original Xbox version of The Sims 2 (USA), produced by statically recompiling the x86 XBE with the XboxXBERecomp SDK. According to the README it reaches live gameplay on Windows and Linux: it plays the startup movies, reaches the title screen and main menu, and enters live gameplay on a lot; on Linux (Vulkan) it reaches the title and a 3D neighborhood scene. It adds a settings panel (F1) and a frame-time graph (F2), and replaces the engine’s frame step so the game keeps its real speed at any frame rate. The author has not yet published frame-rate or resolution measurements. Version 0.2.0 (October 20) includes Windows and Linux packages."
+requirements:
+  es: "Tu propia copia de The Sims 2 para la Xbox original, estadounidense, como imagen de disco (volcado completo o xiso) o con los archivos extraídos (default.xbe con sus carpetas DATA y movies), en la carpeta assets. Solo corre el XBE del que se recompiló (retail de EE. UU., SHA-1 que empieza por 16f9e41c). Windows 10 u 11 de 64 bits con Direct3D 12, o Linux con Vulkan."
+  en: "Your own copy of The Sims 2 for the original Xbox, USA, as a disc image (whole-disc dump or xiso) or with the extracted files (default.xbe with its DATA and movies folders), in the assets folder. It only runs the XBE it was recompiled from (USA retail, SHA-1 starting with 16f9e41c). 64-bit Windows 10 or 11 with Direct3D 12, or Linux with Vulkan."
+tags:
+  - x86
+  - simulation

@@ -1,0 +1,17 @@
+name: "The Sims: Bustin' Out"
+games: [the-sims-bustin-out]
+console: xbox
+status: playable
+repo: abilliontokens/bustinout-recomp
+originalDeveloper: "Maxis"
+year: 2003
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial de la versión de Xbox original de The Sims: Bustin’ Out (EE. UU.) para Linux y Windows, que recompila estáticamente el XBE de x86 con un fork del SDK XboxXBERecomp. Windows usa Direct3D 12 y XAudio2, y Linux es una versión nativa con Vulkan y SDL3, sin Wine. Según el README, en Linux el juego arranca, reproduce la intro, pasa por el menú, la selección de partida y la creación de Sims y llega a un hogar jugable con 2176 llamadas de dibujo por cuadro, a velocidad de juego real a 60 cuadros, a 144 y sin límite. El ensanchado ultrapanorámico real sigue desactivado por no ser seguro, y no se han probado el mando, el guardado y la recarga durante el juego visible ni varias trampas. La versión 0.1.0 (19 de octubre) trae un paquete de Linux y el primer binario de Windows."
+  en: "An unofficial native port of the original Xbox version of The Sims: Bustin’ Out (USA) for Linux and Windows, which statically recompiles the x86 XBE with a fork of the XboxXBERecomp SDK. Windows uses Direct3D 12 and XAudio2, and Linux is a native Vulkan and SDL3 build, with no Wine. According to the README, on Linux the game boots, plays the intro, and goes through the menu, save select, and Create-a-Sim to a playable household at 2176 draws per frame, at real game speed at 60, 144, and uncapped frame rates. True ultrawide widening is still switched off because it is not safe, and the gamepad, saving and reloading through visible play, and several cheats have not been tested. Version 0.1.0 (October 19) ships a Linux package and the first Windows binary."
+requirements:
+  es: "Tu propia copia de The Sims: Bustin’ Out para la Xbox original, estadounidense, como imagen de disco o archivos extraídos (default.xbe con SHA-1 6feea04a12fb134253abe2b5662da634d0048232, ID de título 0x45410043). El port está fijado a ese XBE: otra región o revisión no funciona. Windows de 64 bits con Direct3D 12, o Linux con Vulkan."
+  en: "Your own copy of The Sims: Bustin’ Out for the original Xbox, USA, as a disc image or extracted files (default.xbe with SHA-1 6feea04a12fb134253abe2b5662da634d0048232, title ID 0x45410043). The port is pinned to that XBE: another region or revision does not work. 64-bit Windows with Direct3D 12, or Linux with Vulkan."
+tags:
+  - x86
+  - simulation

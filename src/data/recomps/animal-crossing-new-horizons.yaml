@@ -1,0 +1,17 @@
+name: "Animal Crossing: New Horizons"
+games: [animal-crossing-new-horizons]
+console: switch
+status: playable
+repo: Nycolazs/ACNHRecomp
+originalDeveloper: "Nintendo EPD"
+year: 2020
+desc:
+  es: "ACNHRecomp convierte el código AArch64 de Animal Crossing: New Horizons en C++ ahead of time y lo compila para tu equipo; no es un emulador. Los servicios del sistema que usa el juego se reimplementan de forma nativa y las llamadas gráficas NVN se traducen a Vulkan. Está construido sobre el marco de SuperMarioWonderRecomp. Según el README, funcionan el arranque, la creación de personaje, la película inicial y la exploración libre de la isla a 30 cuadros por segundo; el primer guardado no se ha comprobado en una partida completa, los 60 cuadros nativos no están hechos y las funciones en línea no están disponibles. Hay versiones para Windows, Linux, macOS (Apple Silicon) y Android. La última, la 0.6.0 (29 de octubre), se presenta como lista para jugar con ACNHRecomp-Importer. El README declara que casi todo el código nuevo lo escribió Claude, dirigido y probado por una persona. 81 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "ACNHRecomp turns the AArch64 code of Animal Crossing: New Horizons into C++ ahead of time and compiles it for your computer; it is not an emulator. The system services the game calls are reimplemented natively and its NVN graphics calls are translated to Vulkan. It is built on the SuperMarioWonderRecomp framework. According to the README, boot, character creation, the opening movie, and free roaming on the island work at 30 frames per second; the first save hasn’t been verified in a full playthrough, native 60 fps isn’t done, and online features are unavailable. Builds exist for Windows, Linux, macOS (Apple Silicon), and Android. The latest, 0.6.0 (October 29), is presented as ready to play with ACNHRecomp-Importer. The README states that nearly all the new code was written by Claude, directed and tested by a person. 81 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Una carpeta con los ejecutables y archivos de tu propia copia de Animal Crossing: New Horizons para Nintendo Switch (ID de título 01006F8002326000; se recomienda la versión 3.0.2, y se admiten la 3.0.3, la 2.0.7 y la 1.0.0), preparada por ti. El proyecto no descifra ni desempaqueta los contenedores del juego."
+  en: "A folder with the executables and files of your own copy of Animal Crossing: New Horizons for Nintendo Switch (title ID 01006F8002326000; version 3.0.2 recommended, 3.0.3, 2.0.7, and 1.0.0 supported), prepared by you. The project does not decrypt or unpack the game’s containers."
+tags:
+  - arm64
+  - simulation
+  - ai-assisted

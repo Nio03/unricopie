@@ -1,0 +1,19 @@
+name: "007: From Russia with Love"
+games: [007-from-russia-with-love]
+console: xbox
+status: playable
+repo: TGP482/007FRWL-XBERecomp
+originalDeveloper: "EA Redwood Shores"
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial de la versión de Xbox original de 007: From Russia with Love, hecho con la herramienta Xbox XBE Recomp, con opciones gráficas ampliadas, teclado y ratón y otras mejoras. El primer arranque compila el código del juego para tu PC, una sola vez. Ofrece selección de monitor, modos de pantalla, resolución y escala de render del 20 % al 200 %, campo de visión de 45 a 140 grados, límite de cuadros, salida HDR, MSAA y SMAA, filtrado anisotrópico, distancia de dibujo ampliada, oclusión ambiental (SSAO o GTAO), reemplazo y volcado de texturas, apuntado libre y con giroscopio, cinemáticas que se pueden saltar y autoguardado. La V2 (29 de octubre) es la única versión publicada."
+  en: "An unofficial native PC port of the original Xbox version of 007: From Russia with Love, made with the Xbox XBE Recomp tool, with extended graphics options, keyboard and mouse support, and other enhancements. The first start compiles the game’s code for your PC, once. It offers monitor selection, display modes, resolution and a render scale from 20% to 200%, a field of view from 45 to 140 degrees, a frame cap, HDR output, MSAA and SMAA, anisotropic filtering, extended draw distance, ambient occlusion (SSAO or GTAO), texture replacement and dumping, free aim and gyro aiming, skippable cutscenes, and autosave. V2 (October 29) is the only published release."
+requirements:
+  es: "Tus propios archivos de 007: From Russia with Love para Xbox, de la versión de EE. UU., Europa o Asia, en la carpeta assets (para jugar sirve una ISO; para compilar, los archivos extraídos con default.xbe). Windows 10 de 64 bits o superior, una CPU con SSE4.2 y POPCNT, una GPU con Direct3D 12, 4 GB de RAM y 5 GB libres."
+  en: "Your own 007: From Russia with Love files for Xbox, from the USA, Europe, or Asia release, in the assets folder (an ISO works for playing; to build, the extracted files with default.xbe). 64-bit Windows 10 or newer, a CPU with SSE4.2 and POPCNT, a Direct3D 12 GPU, 4 GB of RAM, and 5 GB free."
+tags:
+  - x86
+  - fps
+  - widescreen
+  - mods

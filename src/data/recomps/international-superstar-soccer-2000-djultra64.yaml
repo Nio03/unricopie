@@ -1,0 +1,20 @@
+name: "International Superstar Soccer 2000 (djultra64)"
+games: [international-superstar-soccer-2000]
+console: n64
+status: experimental
+repo: djultra64/ISS2000
+originalDeveloper: "Konami"
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "ISS2000 Recompiled: port nativo comunitario de International Superstar Soccer 2000 para Linux y Windows de 64 bits, hecho por recompilación estática con N64Recomp, N64ModernRuntime y RT64. Ejecuta la versión PAL en inglés con la Carrera, los entrenamientos y los modos de fútbol originales, en 4:3 o 16:9, con resoluciones internas hasta 2160p, límites de 60 o 120 fotogramas con interpolación, ajustes de PC dentro del menú original, filtrado bilineal 2D opcional, sombras proyectadas, teclado y cuatro puertos de mando con indicaciones de Xbox, PlayStation o Switch, vibración por jugador y nombres reales de jugadores en los 100 equipos nacionales. El autor la describe como «en desarrollo» y con problemas de alineación. La 0.7.1 es del 22 de octubre. El README declara que el proyecto se creó con ayuda de IA."
+  en: "ISS2000 Recompiled: a community native port of International Superstar Soccer 2000 for 64-bit Linux and Windows, made by static recompilation with N64Recomp, N64ModernRuntime, and RT64. It runs the English PAL release with Career, training, and the original football modes, in 4:3 or 16:9, with internal resolutions up to 2160p, 60 or 120 fps limits with interpolation, PC settings inside the original menu, optional 2D bilinear filtering, projected shadows, keyboard and four controller ports with Xbox, PlayStation, or Switch prompts, per-player rumble, and real player names in all 100 national teams. The author describes it as “in development” and with alignment issues. Version 0.7.1 is from October 22. The README states the project was created with AI assistance."
+requirements:
+  es: "Tu propia copia de International Superstar Soccer 2000 para Nintendo 64, europea (inglés y alemán), revisión 0. Además, Windows o Linux x86-64 y una tarjeta gráfica con Vulkan; la versión de Linux pide GLIBC 2.38 y GLIBCXX 3.4.32 o posteriores."
+  en: "Your own copy of International Superstar Soccer 2000 for Nintendo 64, European (English and German), revision 0. Plus x86-64 Windows or Linux and a graphics card with Vulkan; the Linux build needs GLIBC 2.38 and GLIBCXX 3.4.32 or newer."
+tags:
+  - mips
+  - sports
+  - widescreen
+  - 60fps+
+  - ai-assisted

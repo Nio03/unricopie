@@ -1,0 +1,18 @@
+name: "Skate 2 (cookingwithsimon)"
+games: [skate-2]
+console: x360
+status: experimental
+repo: cookingwithsimon/Skate2Recompiled
+originalDeveloper: "EA Black Box"
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial para Windows de la versión de Xbox 360 de Skate 2, hecho recompilando estáticamente el default.xex del juego con el SDK ReXGlue (a través de la bifurcación de la recompilación de Skate 3). Según el README el juego arranca por los menús y la película de inactividad hasta Freeskate, y los disparadores de misión funcionan, a más de 100 cuadros por segundo en un Ryzen 7 7800X3D; es temprano y se esperan errores. Usa la GPU emulada de Xbox 360 del SDK sobre Direct3D 12. No incluye archivos del juego ni código recompilado: la compilación recompila el código a partir de tu copia. La 0.2.0 es del 11 de octubre. Los 2 commits del repositorio llevan a Claude como coautor."
+  en: "An unofficial native Windows port of the Xbox 360 version of Skate 2, made by statically recompiling the game’s default.xex with the ReXGlue SDK (via the Skate 3 recompilation fork). According to the README the game boots through the menus and idle movie into Freeskate, and mission triggers work, at over 100 FPS on a Ryzen 7 7800X3D; it is early and bugs are expected. It uses the SDK’s emulated Xbox 360 GPU on Direct3D 12. It includes no game files or recompiled code: the build recompiles the code from your copy. Version 0.2.0 is from October 11. Both of the repository’s commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Skate 2 para Xbox 360 (probado con Skate 2 (USA) (En,Fr), ID de título 4541087F, default.xex con SHA-1 a9b539c1acbc80aeaade3ffbe708e1fbd3a2dad7); otras regiones o actualizaciones tienen direcciones de código distintas y necesitan su propia configuración. Windows 10 u 11 con una CPU x86-64 con AVX2; para compilar, LLVM (Clang 18 o superior), Visual Studio 2022 Build Tools con C++, Python 3 y Git."
+  en: "Your own disc image of Skate 2 for Xbox 360 (tested with Skate 2 (USA) (En,Fr), title ID 4541087F, default.xex with SHA-1 a9b539c1acbc80aeaade3ffbe708e1fbd3a2dad7); other regions or title updates have different code addresses and need their own configuration. Windows 10 or 11 with an x86-64 CPU with AVX2; to build, LLVM (Clang 18 or newer), Visual Studio 2022 Build Tools with C++, Python 3, and Git."
+tags:
+  - powerpc
+  - sports
+  - ai-assisted

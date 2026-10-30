@@ -1,0 +1,20 @@
+name: "Amped 2"
+games: [amped-2]
+console: xbox
+status: experimental
+repo: bertibertig/Amped2-Recomp
+originalDeveloper: "Indie Built"
+year: 2003
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática experimental de Amped 2 (Xbox original, 2003) a un programa nativo x86-64, basada en xboxrecomp: el código del juego se traduce a C y se compila, y el entorno de ejecución y el código propio sustituyen el núcleo, la GPU, el audio y los controles de Xbox; no hay emulador. Según el README, en Linux (renderizador Vulkan) funcionan las películas, los menús, la pantalla de carrera y una carrera con Millicent 1, con HUD y tarjetas de desafíos, a unos 55 cuadros por segundo, y la música ya no se corta. Ofrece resolución de 1× a 5×, relaciones 4:3, 16:9, 16:10 y 21:9 y cuadros sin límite. La versión de Windows es experimental y todavía no se puede jugar (solo renderizado por software, de 2 a 6 cuadros por segundo, probada con Wine y Proton). La 0.2.0 (21 de octubre) es la última versión. Sus 16 commits llevan a Claude como coautor."
+  en: "An experimental static recompilation of Amped 2 (original Xbox, 2003) into a native x86-64 program, based on xboxrecomp: the game’s code is translated to C and compiled, and the runtime and the project’s own code replace the Xbox kernel, GPU, audio, and input; there is no emulator. According to the README, on Linux (Vulkan renderer) the movies, menus, level select, and a ride with Millicent 1 work, with the HUD and challenge cards, at about 55 frames per second, and music no longer drops out. It offers resolution from 1× to 5×, 4:3, 16:9, 16:10, and 21:9 aspect ratios, and an unlocked frame rate. The Windows version is experimental and not playable yet (software renderer only, 2 to 6 frames per second, tested under Wine and Proton). Version 0.2.0 (October 21) is the latest. All 16 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio disco de Amped 2 para la Xbox original, versión PAL/europea (ID de título 4D530041, default.xbe con SHA-1 38e63cd016bf084d999e0a911933a52191bfc378), como imagen .iso extraída con extract-xiso o xdvdfs en la carpeta game_files; otras versiones no se han probado. En Linux, glibc 2.39 o superior, SDL2 y un controlador Vulkan."
+  en: "Your own Amped 2 disc for the original Xbox, PAL/European version (title ID 4D530041, default.xbe with SHA-1 38e63cd016bf084d999e0a911933a52191bfc378), as an .iso image extracted with extract-xiso or xdvdfs into the game_files folder; other versions have not been tested. On Linux, glibc 2.39 or newer, SDL2, and a Vulkan driver."
+tags:
+  - x86
+  - sports
+  - 60fps+
+  - widescreen
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Wipeout Pure"
+games: [wipeout-pure]
+console: psp
+status: playable
+repo: erreib/pure-recomp
+originalDeveloper: "Studio Liverpool"
+year: 2005
+desc:
+  es: "Port nativo para Macs con Apple Silicon y para Windows, hecho por recompilación estática: el código del juego se traduce de antemano a un programa que corre directamente en tu equipo, con gráficos de Metal en macOS y de Vulkan en Windows; no es un emulador. Según el README incluye el juego completo para un jugador, con todos los modos, clases, ligas y circuitos, los vídeos, la música y el sonido. Las partidas guardadas usan el formato de la PSP y el menú las importa desde una memoria o desde PPSSPP. Ofrece mejoras opcionales: resolución de la pantalla, formato ultrapanorámico, 60 cuadros por segundo en Time Trial, Free Play y Zone (y a la frecuencia de tu pantalla en las carreras) y un paquete de texturas HD. La 0.2.0 (20 de octubre) es la última versión publicada. 100 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native port for Apple Silicon Macs and Windows, made by static recompilation: the game’s code is translated ahead of time into a program that runs directly on your machine, with graphics drawn by Metal on macOS and Vulkan on Windows; it is not an emulator. According to the README it includes the complete single-player game, with every mode, class, league, and circuit, plus the movies, music, and sound. Saves use the PSP’s format and the menu imports them from a memory stick or from PPSSPP. It offers optional enhancements: your display’s resolution, ultrawide, 60 frames per second in Time Trial, Free Play, and Zone (and your display’s refresh rate in races), and an HD texture pack. Version 0.2.0 (October 20) is the latest release. 100 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Wipeout Pure, edición Greatest Hits de EE. UU. (UCUS-98612, versión 2.00); el programa la comprueba y rechaza otras ediciones y regiones. Además, Windows 10 u 11 de 64 bits con una tarjeta gráfica con controlador Vulkan, o un Mac con Apple Silicon (M1 o posterior) con macOS 13 o más reciente, y unos 300 MB de disco."
+  en: "Your own disc image of Wipeout Pure, US Greatest Hits edition (UCUS-98612, version 2.00); the program checks it and refuses other editions and regions. Plus 64-bit Windows 10 or 11 with a graphics card with a Vulkan driver, or an Apple Silicon Mac (M1 or newer) with macOS 13 or later, and about 300 MB of disk."
+tags:
+  - mips
+  - racing
+  - widescreen
+  - "60fps+"
+  - ai-assisted

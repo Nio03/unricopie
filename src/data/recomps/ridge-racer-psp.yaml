@@ -1,0 +1,19 @@
+name: "Ridge Racer (PSP)"
+games: [ridge-racers]
+console: psp
+status: playable
+repo: SpeedyJustice2/Ridge-Racer-PSP-Static-Recomp
+originalDeveloper: "Namco"
+year: 2004
+desc:
+  es: "Port nativo para PC de Ridge Racer de PSP, hecho recompilando estáticamente el código del juego; lo construyes en tu equipo a partir de tu propia copia. Está en beta y por ahora solo para Windows (Beta 1.0, 26 de octubre, con un instalador Setup.exe). Dibuja con OpenGL 3.3 a un múltiplo de los 480x272 de la PSP, con antialiasing, filtrado anisotrópico y nitidez, a tasas de cuadros por encima de los 60 de la PSP (probado hasta 144), con mandos de Xbox, PlayStation y Switch y sonido y música completos con un decodificador ATRAC3+. Incluye juego inalámbrico en línea con navegador de servidores, salas con código y contraseña y hasta 8 jugadores (probado con hasta 3). El README declara que todo el código lo escribió una IA (Claude, con Claude Code), avisa de que el proyecto no se mantiene activamente y lista como límites conocidos algunas tomas de la intro, el Time Attack en algunas pistas y la aparición de los modelos de coches. 5 de sus 8 commits llevan a Claude como coautor."
+  en: "A native PC port of Ridge Racer for the PSP, made by statically recompiling the game’s code; you build it on your own machine from your own copy. It is in beta and for now Windows only (Beta 1.0, October 26, with a Setup.exe installer). It renders with OpenGL 3.3 at a multiple of the PSP’s 480x272, with anti-aliasing, anisotropic filtering, and sharpening, at frame rates above the PSP’s 60 (tested up to 144), with Xbox, PlayStation, and Switch controllers and full sound and music through an ATRAC3+ decoder. It includes online Wireless Battle with a server browser, rooms with codes and passwords, and up to 8 players (tested with up to 3). The README declares that all the code was written by AI (Claude, in Claude Code), warns that the project is not actively maintained, and lists as known limits car LOD pop-in, some intro camera shots, and Time Attack on some tracks. 5 of its 8 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del Ridge Racer de PSP: una imagen de disco .iso descifrada o la carpeta que contiene PSP_GAME, cuyo ejecutable PSP_GAME/SYSDIR/BOOT.BIN debe estar descifrado (empieza por ELF). Además, Windows 10 u 11."
+  en: "Your own copy of Ridge Racer for the PSP: a decrypted .iso disc image or the folder that contains PSP_GAME, whose executable PSP_GAME/SYSDIR/BOOT.BIN must be decrypted (it starts with ELF). Plus Windows 10 or 11."
+tags:
+  - mips
+  - racing
+  - multiplayer
+  - "60fps+"
+  - ai-assisted

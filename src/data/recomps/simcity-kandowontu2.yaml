@@ -1,0 +1,22 @@
+name: "SimCity (kandowontu2)"
+games: [simcity]
+console: snes
+status: playable
+repo: kandowontu2/UrbanRecomp
+forkOf:
+  label: blackerking/UrbanRecomp
+  url: https://github.com/blackerking/UrbanRecomp
+originalDeveloper: "Maxis / Nintendo"
+year: 1991
+toolchain: "snesrecomp"
+desc:
+  es: "Bifurcación mejorada de UrbanRecomp, de blackerking, una recompilación estática de SimCity de Super Nintendo sobre snesrecomp. Conserva su historial, créditos y licencias, y añade velocidades de desarrollo por ciudad (de 1x a 50x), un refresco más rápido de las redes eléctricas modificadas, un contador de población de 64 bits, mapas de hasta 3840x3200, un modo Journey con ampliaciones de fronteras según la población, copiar y pegar, zoom y desplazamiento arrastrando con el ratón. Para ciudades grandes usa composición con Vulkan y núcleos de simulación nativos en C; la música corre en su propio hilo con el conjunto restaurado de 19 pistas. El repositorio no contiene datos de la ROM ni gráficos del juego. Hay versiones para Windows, Linux, macOS, Android e iOS (sin firmar); la enhanced-v1.0.4 es del 13 de octubre. 17 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An enhanced fork of blackerking’s UrbanRecomp, a static recompilation of the Super Nintendo SimCity on snesrecomp. It preserves its history, credits, and licenses, and adds per-city development speeds (1x to 50x), faster refresh of changed power networks, 64-bit population accounting, maps up to 3840x3200, a Journey mode with population-triggered border expansions, copy and paste, zoom, and mouse drag panning. For large cities it uses Vulkan composition and native C simulation kernels; the music runs on its own thread with the restored 19-track set. The repository contains no ROM data and no game artwork. There are builds for Windows, Linux, macOS, Android, and iOS (unsigned); enhanced-v1.0.4 is from October 13. 17 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia legal del cartucho estadounidense de SimCity para Super Nintendo; vale cualquier nombre de archivo, porque el lanzador te deja elegirlo y las herramientas lo reconocen por su contenido."
+  en: "Your own legally obtained copy of the US SimCity cartridge for the Super Nintendo; any file name works, because the launcher lets you pick the file and the tools recognize it by its contents."
+tags:
+  - "65816"
+  - simulation
+  - mods
+  - ai-assisted

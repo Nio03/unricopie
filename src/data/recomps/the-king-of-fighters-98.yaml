@@ -1,0 +1,18 @@
+name: "The King of Fighters ’98"
+games: [the-king-of-fighters-98]
+console: neogeo
+status: experimental
+repo: danilopaulinodasilva/kof98recomp
+originalDeveloper: "SNK"
+year: 1998
+desc:
+  es: "Port nativo para PC de The King of Fighters ’98, hecho por recompilación estática: el código 68000 del juego se traduce a C y se ejecuta de forma nativa sobre un modelo del hardware de la Neo Geo. El README lo califica de alfa, con sonido. Arranca como consola AES, reproduce la introducción y las demostraciones y permite combates por equipos contra la CPU; con --verify se repiten todos los bloques recompilados en el intérprete Musashi y hubo 0 discrepancias en 12,1 millones de bloques de una sesión guionizada de 5 minutos. Ofrece pantalla ancha (400×224, hasta 480 de ancho) con los fondos extendidos a los márgenes, dos jugadores con teclado o mando y un menú de pausa. La 0.1.1 (21 de octubre) trae instaladores para Windows, Linux y macOS. Sus 30 commits llevan a Claude como coautor."
+  en: "A native PC port of The King of Fighters ’98, made by static recompilation: the game’s 68000 code is translated to C and run natively on a model of the Neo Geo hardware. The README calls it alpha, with sound. It boots as an AES console, plays the intro and attract demos, and lets you play team matches against the CPU; with --verify every recompiled block is replayed in the Musashi interpreter and there were 0 mismatches over 12.1 million blocks of a 5-minute scripted session. It offers widescreen (400×224, up to 480 wide) with backgrounds extended into the margins, two players on keyboard or gamepads, and a pause menu. Version 0.1.1 (October 21) provides installers for Windows, Linux, and macOS. All 30 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propias ROM de los conjuntos de MAME kof98h y neogeo (archivos 242-pn1.bin, 242-p2.bin, 242-s1.bin, 242-mg1.bin, 242-c1 a c8 y 242-v1 a v4, más neo-po.bin, sfix.sfix, sm1.sm1 y 000-lo.lo), descomprimidas en la carpeta roms. El código C recompilado se genera en tu equipo al compilar y nunca se distribuye. Además, un compilador de C y C++, CMake 3.21 y, opcionalmente, SDL2; el README avisa de que la instalación de Windows no se ha probado aún con este juego."
+  en: "Your own ROMs from the MAME sets kof98h and neogeo (files 242-pn1.bin, 242-p2.bin, 242-s1.bin, 242-mg1.bin, 242-c1 to c8 and 242-v1 to v4, plus neo-po.bin, sfix.sfix, sm1.sm1, and 000-lo.lo), unzipped into the roms folder. The recompiled C is generated on your machine at build time and never distributed. Plus a C and C++ compiler, CMake 3.21, and optionally SDL2; the README warns that the Windows setup hasn’t been tried with this game yet."
+tags:
+  - "68000"
+  - fighting
+  - widescreen
+  - ai-assisted

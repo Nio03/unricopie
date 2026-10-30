@@ -1,0 +1,18 @@
+name: "Bomberman Fantasy Race"
+games: [bomberman-fantasy-race]
+console: ps1
+status: experimental
+repo: TechnicallyComputers/Bomberman-Fantasy-Race-Recomp
+originalDeveloper: "Hudson Soft"
+year: 1998
+toolchain: "psxrecomp"
+desc:
+  es: "Versión nativa no oficial de Bomberman Fantasy Race para PC, hecha por recompilación estática con PSXRecomp y el lanzador recomp-ui; no es un emulador. El proyecto del juego guarda la configuración, las semillas de funciones y el pegamento de compilación. El repositorio incluye el código C generado a partir del ejecutable del juego (unos 83 MB, carpeta generated), y las versiones publicadas lo llevan ya compilado; los datos del juego salen de tu disco. Hay compilaciones para Windows, Linux y macOS (Intel y Apple Silicon); la v0.1.3 (1 de octubre) es la última. El README no indica qué funciona y qué no. 2 de sus 38 commits llevan a Claude como coautor."
+  en: "An unofficial native PC version of Bomberman Fantasy Race, made by static recompilation with PSXRecomp and the recomp-ui launcher; it is not an emulator. The game project holds the configuration, function seeds, and build glue. The repository includes the C code generated from the game’s executable (about 83 MB, generated folder), and the published releases ship it already compiled; the game’s data comes from your disc. There are builds for Windows, Linux, and macOS (Intel and Apple Silicon); v0.1.3 (October 1) is the latest release. The README does not say what works and what doesn’t. 2 of its 38 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Bomberman Fantasy Race de EE. UU. (SLUS-00823) como imagen .cue/.bin."
+  en: "Your own US copy of Bomberman Fantasy Race (SLUS-00823) as a .cue/.bin image."
+tags:
+  - mips
+  - racing
+  - ai-assisted

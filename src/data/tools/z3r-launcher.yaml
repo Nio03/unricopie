@@ -1,0 +1,14 @@
+name: "Z3R Launcher"
+games: [the-legend-of-zelda-a-link-to-the-past]
+kind: launcher
+consoles:
+  - snes
+repo: xander-haj/Z3R-Launcher
+status: beta
+desc:
+  es: "Lanzador multiplataforma para la bifurcación Z3R de zelda3. Busca, clona, configura, compila, personaliza, aleatoriza y lanza proyectos Z3R locales desde un solo sitio: comprueba que estén Git, Python, SDL2 y demás herramientas, crea el entorno virtual, extrae los recursos, edita ajustes de zelda3.ini (relación de aspecto, controles, mando), gestiona recursos opcionales como paquetes MSU, sprites y shaders y ofrece una pantalla para el aleatorizador. Está hecho en Python con una interfaz web local que se muestra en una ventana pywebview. Hay paquetes para Windows, macOS y Linux (AppImage y Flatpak); la última versión, la 0.1.1, es del 28 de junio. No incluye ninguna ROM: hay que aportar la propia ROM estadounidense de A Link to the Past."
+  en: "A cross-platform launcher for the Z3R fork of zelda3. It finds, clones, sets up, builds, customizes, randomizes, and launches local Z3R projects from one place: it checks for Git, Python, SDL2, and other tools, creates the virtual environment, extracts the assets, edits zelda3.ini settings (aspect ratio, controls, gamepad), manages optional assets such as MSU packs, sprites, and shaders, and offers a randomizer screen. It is written in Python with a local web interface shown in a pywebview window. Packages exist for Windows, macOS, and Linux (AppImage and Flatpak); the latest release, 0.1.1, is from June 28. It includes no ROM: you supply your own US copy of A Link to the Past."
+tags:
+  - launcher
+  - randomizer
+  - auto-update

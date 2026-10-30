@@ -1,0 +1,18 @@
+name: "Pokémon Black"
+games: [pokemon-black-version]
+category: decomp-port
+console: nds
+status: experimental
+repo: Project-Holon/eidos
+originalDeveloper: "Game Freak"
+year: 2010
+desc:
+  es: "Port nativo para PC de Pokémon Black, construido a partir de la decompilación aletheia: compila el código C decompilado del juego y lo ejecuta de forma nativa, sin emular la DS, y lee los datos de tu propia ROM. Tiene capa de plataforma con SDL, motor 2D, motor 3D dibujado en la GPU a mayor resolución con niebla, marcado de bordes y antialiasing, avance rápido, teclado y mando reasignables y un cargador de mods. Se juega desde el título hasta las primeras horas (partida nueva, primeros combates, menú de campo, guardar y continuar); se esperan fallos más adelante, el multijugador más allá de sincronizar posiciones es experimental y Pokémon White figura como un hito futuro. La 0.1.7 (29 de octubre) trae versiones para Windows, macOS y Linux y un lanzador que instala y actualiza el juego."
+  en: "A native PC port of Pokémon Black, built from the aletheia decompilation: it compiles the game’s decompiled C and runs it natively, without emulating the DS, and reads the game data from your own ROM. It has an SDL platform layer, a 2D engine, a 3D engine drawn on the GPU at a higher resolution with fog, edge marking, and anti-aliasing, fast forward, remappable keyboard and gamepad controls, and a mod loader. It plays from the title screen into the opening hours (new game, the first battles, the field menu, saving, and continuing); crashes are expected further on, multiplayer beyond syncing positions is experimental, and Pokémon White is listed as a later milestone. Version 0.1.7 (October 29) provides Windows, macOS, and Linux builds and a launcher that installs and updates the game."
+requirements:
+  es: "Tu propia copia de Pokémon Black (EE. UU. o Europa) de DS, de la que el programa lee y extrae los datos al primer arranque. Además, Windows, macOS o Linux."
+  en: "Your own copy of Pokémon Black (USA or Europe) for the DS, from which the program reads and extracts the data on first start. Plus Windows, macOS, or Linux."
+tags:
+  - arm
+  - rpg
+  - mods

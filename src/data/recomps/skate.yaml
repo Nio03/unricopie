@@ -1,0 +1,18 @@
+name: "Skate"
+games: [skate]
+console: x360
+status: playable
+repo: cookingwithsimon/Skate1Recompiled
+originalDeveloper: "EA Black Box"
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial para Windows de skate (EA Black Box, 2007), de Xbox 360, hecho recompilando estáticamente el ejecutable de la consola a C++ con ReXGlue, usando la bifurcación del SDK de la recompilación de Skate 3 y siguiendo el mismo enfoque que Skate2Port. Según el README arrancan los vídeos de introducción, los menús, el audio, el inicio de la carrera y el modo Freeskate. Todo lo derivado del juego (archivos extraídos, imagen descifrada, C++ generado) se produce en local y git lo ignora. El soporte para macOS en Apple Silicon es teórico y nadie lo ha probado. La 0.2.0 es del 11 de octubre. 12 de sus 18 commits llevan a Claude como coautor."
+  en: "An unofficial native Windows port of skate (EA Black Box, 2007) for Xbox 360, made by statically recompiling the console executable to C++ with ReXGlue, using the SDK fork from the Skate 3 recompilation and following the same approach as Skate2Port. According to the README, the intro videos, menus, audio, career start, and Freeskate work. Everything derived from the game (extracted files, decrypted image, generated C++) is produced locally and ignored by git. macOS support on Apple Silicon is theoretical and nobody has run it. Version 0.2.0 is from October 11. 12 of its 18 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de skate para Xbox 360 como ISO (por ejemplo, Skate. (USA).iso), extraída a la carpeta game. Para compilar: Windows, Visual Studio 2022 Build Tools, LLVM/Clang 18 o superior, CMake 3.25 o superior, Ninja y Python 3."
+  en: "Your own copy of skate for Xbox 360 as an ISO (for example, Skate. (USA).iso), extracted into the game folder. To build: Windows, Visual Studio 2022 Build Tools, LLVM/Clang 18 or newer, CMake 3.25 or newer, Ninja, and Python 3."
+tags:
+  - powerpc
+  - sports
+  - ai-assisted

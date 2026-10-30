@@ -1,0 +1,19 @@
+name: "Initial D: Street Stage"
+games: [initial-d-street-stage]
+console: psp
+status: playable
+repo: cassnadra/initialdpsponpc
+year: 2007
+desc:
+  es: "Port nativo de Initial D Street Stage de PSP (ULJM05093) para Windows: el BOOT.BIN en MIPS de la PSP se recompila estáticamente a C y se enlaza con un entorno de ejecución escrito a mano que sustituye al sistema operativo y al hardware de la PSP. Todos los datos del juego salen de tu ISO. Ofrece alta resolución y fotogramas con interpolación, mando y teclado reasignables, carreras en grupo por red local o internet de hasta 4 jugadores, clasificaciones en línea con carreras contra fantasmas, hasta 8 fantasmas propios a la vez, teatro de repeticiones con exportación a MP4 y una capa de mods para coches, circuitos, música, pieles y cielos. Se instala con un zip de Windows; la 0.97.0 (28 de octubre) es la última. 8 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows port of the PSP’s Initial D Street Stage (ULJM05093): the PSP’s MIPS BOOT.BIN is statically recompiled to C and linked against a hand-written runtime that replaces the PSP’s OS and hardware. All game data comes from your ISO. It offers high resolution and interpolated frames, remappable gamepad and keyboard, party races over LAN or the internet for up to 4 players, online leaderboards with ghost racing, up to 8 of your own ghosts at once, a replay theatre with MP4 export, and a modding layer for cars, courses, music, skins, and skyboxes. It is installed from a Windows zip; version 0.97.0 (October 28) is the latest. 8 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen ISO de PSP de Initial D Street Stage (ULJM05093), en la carpeta del juego junto a initiald.exe (japonés) o initiald_en.exe (inglés). Además, Windows 10 u 11 de 64 bits y una GPU con Direct3D 11; Steam es opcional y solo para las salas en línea."
+  en: "Your own PSP ISO image of Initial D Street Stage (ULJM05093), in the game folder next to initiald.exe (Japanese) or initiald_en.exe (English). Plus 64-bit Windows 10 or 11 and a GPU with Direct3D 11; Steam is optional and only for the online rooms."
+tags:
+  - mips
+  - racing
+  - multiplayer
+  - mods
+  - 60fps+
+  - ai-assisted

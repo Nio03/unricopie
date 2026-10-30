@@ -1,0 +1,23 @@
+name: "Crash Team Racing Nitro-Fueled (Ryu7w7)"
+games: [crash-team-racing-nitro-fueled]
+category: native-layer
+console: ps4
+status: playable
+repo: Ryu7w7/OCTR-NitroFueled-PC
+forkOf:
+  label: "GetLostIn/CTR-NitroFueled-PC"
+  url: https://github.com/GetLostIn/CTR-NitroFueled-PC
+originalDeveloper: "Beenox"
+year: 2019
+desc:
+  es: "Bifurcación con juego en línea (OCTR) de CTR-NitroFueled-PC, la versión para Windows de SacredFire, el port nativo para Linux de T3CHNOLOG1C. El código x86-64 del juego corre directamente en el procesador, un pequeño entorno de ejecución reemplaza las bibliotecas del sistema de la PS4 y un renderizador derivado de shadPS4 traduce el trabajo de la GPU a Vulkan. Añade partidas públicas, salas privadas, grupos, amigos y el Pit Stop a través del servidor comunitario RyuNET, con apodo propio e invitaciones de Discord. El README declara el estado en Windows como jugable: menús, Aventura y Arcade, carreras, sonido, vídeos, mandos, partidas guardadas, los parches de la comunidad (60 cuadros, sin desenfoque de movimiento) y el DLC de tus propios paquetes. La v0.7.1 (29 de octubre) es la última versión; la 0.7 añadió Vulkan nativo (experimental). 88 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An online-play fork (OCTR) of CTR-NitroFueled-PC, the Windows build of SacredFire, T3CHNOLOG1C’s native Linux port. The game’s x86-64 code runs directly on the processor, a small runtime replaces the PS4’s system libraries, and a renderer derived from shadPS4 translates the GPU work to Vulkan. It adds public races, private rooms, groups, friends, and the Pit Stop through the community RyuNET server, with your own nickname and Discord invites. The README states the Windows status as playable: menus, Adventure and Arcade, races, sound, cutscenes, controllers, saving, the community patches (60 FPS, no motion blur), and the game’s DLC from your own packages. Version 0.7.1 (October 29) is the latest release; 0.7 added native Vulkan (experimental). 88 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de Crash Team Racing Nitro-Fueled para PS4 (CUSA13795, v1.21) y su actualización 1.21, de las dos compilaciones: la del firmware 5.05 (la de referencia) o la del 6.72 y posteriores; hay también compatibilidad para el paquete europeo CUSA14876 01.21 según su documentación. El DLC es opcional, con tus propios paquetes. Windows 10 u 11 o Linux."
+  en: "Your own dump of Crash Team Racing Nitro-Fueled for PS4 (CUSA13795, v1.21) and its 1.21 update, in either build: the one for firmware 5.05 (the reference) or the one for 6.72 and later; its documentation also covers loader support for the European package CUSA14876 01.21. DLC is optional, from your own packages. Windows 10 or 11, or Linux."
+tags:
+  - x86
+  - racing
+  - multiplayer
+  - "60fps+"
+  - ai-assisted

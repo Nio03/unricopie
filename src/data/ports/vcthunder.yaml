@@ -1,0 +1,18 @@
+name: "Hydro Thunder / Offroad Thunder / Arctic Thunder (VCThunder)"
+games: [hydro-thunder, offroad-thunder, arctic-thunder, ultimate-arctic-thunder]
+category: native-layer
+console: arcade
+status: playable
+repo: mourix/VCThunder
+originalDeveloper: "Midway"
+year: 1999
+desc:
+  es: "Anfitrión para Windows de las placas Midway Quicksilver II (Hydro Thunder y Offroad Thunder) y Graphite (Arctic Thunder y Ultimate Arctic Thunder). No es un emulador: el código x86 de 32 bits original corre sin modificar en el procesador, y VCThunder reemplaza lo que lo rodea: el núcleo Phar Lap ETS pasa a ser Win32, la frontera de Glide 2.53 es un rasterizador propio y las placas de entrada y salida, el audio, la base de tiempo y la NVRAM del mueble son implementaciones del anfitrión. Según el README, Hydro Thunder y Offroad Thunder son jugables a 30 cuadros por segundo fijos, y los dos Arctic Thunder corren a sus 60 pero están en curso; el juego en red entre dos copias es una beta temprana. La v0.4 (28 de octubre), cuarta beta pública, es la última. El autor cuenta que el proyecto fue un reto para ver hasta dónde se podía llegar con Claude Opus 5; 4 de sus 6 commits llevan a Claude como coautor."
+  en: "A Windows host for Midway’s Quicksilver II (Hydro Thunder and Offroad Thunder) and Graphite (Arctic Thunder and Ultimate Arctic Thunder) boards. It is not an emulator: the original 32-bit x86 game code runs unmodified on the processor, and VCThunder replaces everything around it: the Phar Lap ETS kernel becomes Win32, the Glide 2.53 boundary is its own rasteriser, and the cabinet’s I/O boards, audio, timebase, and NVRAM are host implementations. According to the README, Hydro Thunder and Offroad Thunder are playable at a locked 30 frames per second, and both Arctic Thunders run at their own 60 but are in progress; link play between two copies is an early beta. Version 0.4 (October 28), the fourth public beta, is the latest. The author says the project was a challenge to see how far Claude Opus 5 could be taken; 4 of its 6 commits list Claude as a co-author."
+requirements:
+  es: "Tus propias copias de los juegos como CHD de MAME junto a VCThunder.exe; el importador comprueba el ejecutable (Hydro Thunder v01.01b de 1999-02-27, Offroad Thunder de 2000-02-25, Arctic Thunder v1.002 de 2000-12-18 y Ultimate Arctic Thunder v1.9.5.0 de 2004-05-03, que viene de su CD de actualización y necesita también el CHD de Arctic Thunder). Además, Windows."
+  en: "Your own copies of the games as MAME CHDs next to VCThunder.exe; the importer checks the executable (Hydro Thunder v01.01b from 1999-02-27, Offroad Thunder from 2000-02-25, Arctic Thunder v1.002 from 2000-12-18, and Ultimate Arctic Thunder v1.9.5.0 from 2004-05-03, which comes from its update CD and also needs Arctic Thunder’s CHD). Plus Windows."
+tags:
+  - x86
+  - racing
+  - ai-assisted

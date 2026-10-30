@@ -1,0 +1,21 @@
+name: "Shadow of the Colossus (Oussama268)"
+games: [shadow-of-the-colossus]
+category: native-layer
+console: ps4
+status: fully
+repo: Oussama268/ShadowOfTheColossus-PC
+forkOf:
+  label: "AjncSystem/ShadowOfTheColossus-PC"
+  url: https://github.com/AjncSystem/ShadowOfTheColossus-PC
+originalDeveloper: "Bluepoint Games"
+year: 2018
+desc:
+  es: "Port nativo para Windows 10 y 11 de la versión de PlayStation 4. El código x86-64 del juego corre directamente en el procesador del PC y la GPU de la PS4 se traduce a Vulkan; el README aclara que no es un emulador completo sino un cargador con las funciones de sistema que el juego necesita, al estilo de bloodborne_pc. Desde la 0.60.3 se puede terminar el juego de principio a fin (se jugó hasta el último coloso, el final y los créditos), con texturas de alta calidad, modo PS4 Pro y 60 cuadros por segundo. Entre los problemas conocidos figuran cierres con la calidad de texturas Máxima en vistas muy amplias y personajes que brillan en blanco en tarjetas AMD GCN. La v0.60.6-opt11 (24 de octubre) es la última versión. 67 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native port of the PlayStation 4 version for Windows 10 and 11. The game’s x86-64 code runs directly on the PC’s processor and the PS4’s GPU is translated to Vulkan; the README states it is not a full emulator but a loader with the system functions the game needs, in the style of bloodborne_pc. Since 0.60.3 the game can be finished from start to end (played through the last colossus, the ending, and the credits), with high-quality textures, PS4 Pro mode, and 60 frames per second. Known issues include crashes at the Maximum texture quality in very wide views and characters glowing white on AMD GCN cards. Version 0.60.6-opt11 (October 24) is the latest release. 67 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de Shadow of the Colossus para PS4: la edición europea CUSA08809 1.01 o la de EE. UU. CUSA08034 1.00 (mismo eboot que la 1.01 europea); para el sonido, dos módulos de tu propia consola. Además, Windows 10 u 11."
+  en: "Your own Shadow of the Colossus dump for PS4: the European release CUSA08809 1.01 or the US release CUSA08034 1.00 (same eboot as the European 1.01); for sound, two modules from your own console. Plus Windows 10 or 11."
+tags:
+  - x86
+  - "60fps+"
+  - ai-assisted

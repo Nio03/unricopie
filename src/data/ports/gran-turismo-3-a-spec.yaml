@@ -1,0 +1,19 @@
+name: "Gran Turismo 3: A-Spec"
+games: [gran-turismo-3-a-spec]
+category: game-engine
+console: ps2
+status: fully
+repo: matt-pulsipher/GT3-revisited
+originalDeveloper: "Polyphony Digital"
+year: 2001
+desc:
+  es: "Reimplementación de código abierto del motor de Gran Turismo 3 A-Spec para Windows, macOS, Linux, Android y Meta Quest (VR), llamada GT3 Revisited. No contiene datos ni recursos del juego: al ejecutarse lee tu imagen .iso y decodifica los recursos sin extraerlos al disco. El README dice que se puede jugar el juego completo: Modo GT con concesionarios, garaje, ajustes, licencias, campeonatos y carreras de resistencia con paradas, Arcade (carrera, contrarreloj, 2 jugadores a pantalla partida), repeticiones con las cámaras de TV, películas, música y sonido, con la física comprobada contra el original. Añade batalla en línea para hasta 6 jugadores con códigos de sesión, y guardados que se pueden importar y exportar desde y hacia la PS2. La v0.4.1 es del 29 de octubre. 18 de sus 19 commits llevan a Claude como coautor."
+  en: "An open-source reimplementation of the Gran Turismo 3 A-Spec engine for Windows, macOS, Linux, Android, and Meta Quest (VR), called GT3 Revisited. It contains no game data or assets: at run time it reads your .iso image and decodes the assets without extracting them to disk. The README says the whole game is playable: GT Mode with dealers, garage, tuning, licenses, championships, and endurance races with pit stops, Arcade (single race, time trial, 2-player split screen), replays with the TV cameras, movies, music and sound, with the physics checked against the original. It adds online battle for up to 6 players with session codes, and saves that can be imported from and exported to the PS2 original. Version 0.4.1 is from October 29. 18 of its 19 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen .iso de Gran Turismo 3 A-Spec. Están verificadas las ediciones NTSC-U (SCUS-97102 y el disco del paquete PBPX-95503); las demás regiones no se han probado. Solo se leen imágenes .iso. En Linux hace falta un controlador Vulkan."
+  en: "Your own .iso image of Gran Turismo 3 A-Spec. The NTSC-U releases (SCUS-97102 and the PBPX-95503 bundle disc) are verified; other regions are untested. Only .iso images are read. Linux needs a Vulkan driver."
+tags:
+  - mips
+  - racing
+  - multiplayer
+  - ai-assisted

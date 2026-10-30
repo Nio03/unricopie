@@ -1,0 +1,16 @@
+name: "Adventure Island II"
+games: [adventure-island-ii]
+console: nes
+status: experimental
+repo: Junior-Jones/Adventure-Island-II-NES-Static-Recomp
+originalDeveloper: "Hudson Soft"
+year: 1991
+desc:
+  es: "Frontend nativo para Windows y núcleo estático específico del juego para Adventure Island II de NES. Según el README, las rutas ejecutables del juego se analizaron antes de construir la aplicación y se emitieron como un catálogo fijo de 16.544 identidades exactas de banco físico y contador de programa; un despachador nativo solo ejecuta los registros admitidos por ese catálogo. No usa un bucle intérprete general, compilación dinámica ni emulador de respaldo, y lo desconocido detiene la ejecución con un diagnóstico. El entorno de ejecución incluye el bus de la CPU, la PPU, el APU, el DMA, la entrada y el mapper MMC3B de NES. El lanzador permite configurar audio, vídeo y controles y guardar instantáneas y capturas. La 1.0.0 (26 de agosto) es la única versión, para Windows."
+  en: "A native Windows frontend and a game-specific static core for the NES Adventure Island II. According to the README, the game’s executable paths were analyzed before the application was built and emitted as a fixed catalog of 16,544 exact physical-bank and program-counter identities; a native dispatcher executes only the records that catalog admits. It uses no general interpreter loop, dynamic recompilation, or emulator fallback, and anything unknown stops execution with a diagnostic. The runtime includes the NES CPU bus, PPU, APU, DMA, input, and the MMC3B mapper. The launcher configures audio, video, and controls and saves snapshots and screenshots. Version 1.0.0 (August 26) is the only release, for Windows."
+requirements:
+  es: "Tu propia ROM llamada Adventure Island II (USA).nes con SHA-256 10dd53fd62c95e77856b09c693b3bdd14b62a89988902eea111257cafe9b8acc, en la carpeta Rom junto a Launcher.exe o elegida con Browse ROM. Además, Windows de 64 bits; para compilar, Visual Studio 2022 con C++ y CMake 3.20 o posterior."
+  en: "Your own ROM named Adventure Island II (USA).nes with SHA-256 10dd53fd62c95e77856b09c693b3bdd14b62a89988902eea111257cafe9b8acc, in the Rom folder beside Launcher.exe or chosen with Browse ROM. Plus 64-bit Windows; to build it, Visual Studio 2022 with C++ and CMake 3.20 or newer."
+tags:
+  - "6502"
+  - platformer

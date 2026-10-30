@@ -1,0 +1,14 @@
+name: smsggrecomp
+kind: recompiler
+consoles:
+  - sms
+  - gamegear
+repo: mstan/smsggrecomp
+status: experimental
+desc:
+  es: "Recompilador estático de Z80 para Master System y Game Gear, con un runner propio que modela VDP, PSG SN76489, E/S y mapper. Su README aclara que no es un emulador ni un port manual, y que está en fase temprana (v0.0.3, del 18 de octubre) con dos juegos en desarrollo. 43 de sus 51 commits llevan a Claude como coautor."
+  en: "A static Z80 recompiler for Master System and Game Gear, with its own runner modeling the VDP, SN76489 PSG, I/O and mapper. Its README says it is neither an emulator nor a hand-port, and that it is early (v0.0.3, October 18) with two games in bring-up. 43 of its 51 commits list Claude as a co-author."
+tags:
+  - z80
+  - static-recomp
+  - ai-assisted

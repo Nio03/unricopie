@@ -1,0 +1,16 @@
+name: "KoroKoro Post nin"
+games: [korokoro-post-nin]
+console: ps1
+status: experimental
+repo: elprogramadorloco-arch/korokoro-recomp
+year: 2002
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática nativa para Windows de KoroKoro Post nin (PlayStation, Japón, SLPS-03479, Media Entertainment, 2002), hecha con psxrecomp. El código del juego se traduce a C y se compila en un .exe en tu equipo a partir de tu disco; run.bat descarga una cadena de herramientas portátil, valida el disco, recompila y arranca el juego. Según el README, el arranque, el título, los menús, la introducción, la fase 1 (con pausa, fin del tiempo, game over y continuar) y el audio (SPU y música del CD) funcionan y se compararon con DuckStation; las fases 2 a 10, la tarjeta de memoria y el final todavía no están verificados. Hay además una versión alfa para Android con pantalla panorámica y controles táctiles, en la que el acelerómetro hace de volante. La v0.1 es del 1 de octubre. Sus 4 commits llevan a Claude como coautor."
+  en: "A native Windows static recompilation of KoroKoro Post nin (PlayStation, Japan, SLPS-03479, Media Entertainment, 2002), made with psxrecomp. The game code is translated to C and compiled into an .exe on your PC from your disc; run.bat downloads a portable toolchain, validates the disc, recompiles, and starts the game. According to the README, boot, title, menus, intro, stage 1 (with pause, time up, game over, and continue), and audio (SPU and CD music) work and were compared with DuckStation; stages 2 to 10, the memory card, and the ending are not verified yet. There is also an alpha Android version with widescreen and touch controls, where tilting the phone steers like a wheel. v0.1 is from October 1. All 4 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de KoroKoro Post nin (Japón, SLPS-03479) como .chd, o como .cue con su .bin (pista de datos de 88.131.792 bytes, MD5 6897e2c85262456a16c579a531435268). Además, Windows 10 u 11 de 64 bits, unos 3 GB libres y conexión a internet la primera vez (unos 230 MB de descargas)."
+  en: "Your own copy of KoroKoro Post nin (Japan, SLPS-03479) as a .chd, or as a .cue with its .bin (data track of 88,131,792 bytes, MD5 6897e2c85262456a16c579a531435268). Plus 64-bit Windows 10 or 11, about 3 GB free, and an internet connection the first time (about 230 MB of downloads)."
+tags:
+  - mips
+  - ai-assisted

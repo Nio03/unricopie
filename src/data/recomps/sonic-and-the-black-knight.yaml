@@ -1,0 +1,17 @@
+name: "Sonic and the Black Knight"
+games: [sonic-and-the-black-knight]
+console: wii
+status: playable
+repo: yunophilia/BlackKnightRecomp
+originalDeveloper: "Sonic Team"
+year: 2009
+desc:
+  es: "Recompilación estática de Sonic and the Black Knight (Wii) a un ejecutable nativo de Windows x64, al estilo de UnleashedRecomp, con el objetivo de jugar con un mando normal en lugar de los controles de movimiento de la Wii. Un único ejecutable contiene el código recompilado de las ediciones estadounidense, europea y japonesa, y el disco instalado elige cuál se ejecuta. El recompilador (tools/) decodifica las instrucciones Gekko/Broadway y genera una función C++ por cada función del juego, y el sistema operativo propio del juego (Revolution OS) corre recompilado, con el hardware, el IOS y el audio modelados siguiendo el comportamiento de Dolphin. El README dice que el juego se puede jugar desde el arranque hasta la partida, con gráficos, audio, guardado y mando. No hay compilación nativa para Linux; en la Steam Deck funciona con Proton. La última versión, la 1.0.1, es del 23 de octubre."
+  en: "A static recompilation of Sonic and the Black Knight (Wii) to a native Windows x64 executable, in the spirit of UnleashedRecomp, with the goal of playing with a normal controller instead of the Wii’s motion controls. One executable holds the recompiled code of the USA, European, and Japanese releases, and the installed disc picks which one runs. The recompiler (tools/) decodes the Gekko/Broadway instructions and emits one C++ function per game function, and the game’s own operating system (Revolution OS) runs recompiled, with the hardware, IOS, and audio modeled on Dolphin’s behavior. The README says the game is playable from boot to gameplay, with graphics, audio, saves, and controller input working. There is no native Linux build; on the Steam Deck it works through Proton. The latest release, 1.0.1, is from October 23."
+requirements:
+  es: "Tu propia imagen de disco (ISO, RVZ, WIA o WBFS) de Sonic and the Black Knight para Wii: EE. UU. (RENE8P), Europa (RENP8P) o Japón (RENJ8P). Windows 10 o posterior de 64 bits."
+  en: "Your own disc image (ISO, RVZ, WIA, or WBFS) of Sonic and the Black Knight for Wii: USA (RENE8P), Europe (RENP8P), or Japan (RENJ8P). 64-bit Windows 10 or later."
+tags:
+  - powerpc
+  - action
+  - widescreen

@@ -1,0 +1,18 @@
+name: "Knack II"
+games: [knack-ii]
+category: native-layer
+console: ps4
+status: playable
+repo: Hyant4/Knack-II-pc-port
+originalDeveloper: "Japan Studio"
+year: 2017
+desc:
+  es: "Port experimental no oficial de la versión de PlayStation 4 para Windows, con gráficos Vulkan, un lanzador propio y cooperativo local para dos jugadores. El responsable informa de que se puede jugar de principio a fin, pero el README aclara que las pruebas automáticas y las comprobaciones manuales no certifican la campaña completa ni todo el hardware, y que pueden darse fallos gráficos, pérdidas del dispositivo Vulkan y cierres. Ofrece resoluciones internas QHD y 4K; el formato ultrapanorámico es experimental y las escenas muestran zonas azules a los lados. El enlace de descarga del README es la 0.17.5; la versión más reciente, la 0.17.7-rc5 (29 de octubre), es una candidata. 37 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An experimental unofficial port of the PlayStation 4 version for Windows, with Vulkan graphics, its own launcher, and local two-player co-op. The project owner reports that it is playable from beginning to end, but the README states that the automated tests and hands-on checks do not certify the full campaign or all hardware, and that graphical defects, Vulkan device loss, and crashes may occur. It offers QHD and 4K internal resolutions; ultrawide is experimental and cutscenes show blue areas at the sides. The README’s download link is 0.17.5; the most recent version, 0.17.7-rc5 (October 29), is a release candidate. 37 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de Knack II para PS4: CUSA08014 (EE. UU., versión 01.01), el objetivo principal, con eboot.bin, game.elf, sce_sys y sce_module; la edición europea CUSA07670 tiene soporte experimental y solo se comprobó un arranque corto. Además, un Windows de 64 bits reciente, una tarjeta gráfica con Vulkan y controladores al día, y dos mandos para el cooperativo local."
+  en: "Your own Knack II dump for PS4: CUSA08014 (US, version 01.01), the primary target, with eboot.bin, game.elf, sce_sys, and sce_module; the European edition CUSA07670 has experimental support and only a short boot was checked. Plus a recent 64-bit Windows, a Vulkan-capable graphics card with up-to-date drivers, and two controllers for local co-op."
+tags:
+  - x86
+  - multiplayer
+  - ai-assisted

@@ -1,0 +1,14 @@
+name: gb-recompiled
+kind: recompiler
+consoles:
+  - gb
+  - gbc
+repo: arcanite24/gb-recompiled
+status: beta
+desc:
+  es: "Recompilador estático de ROMs de Game Boy y Game Boy Color. Analiza el código LR35902 bancado y emite proyectos en C portables que se enlazan con un runtime común en SDL2 para vídeo, audio, entrada, partidas guardadas y temporización; lo que el análisis no compiló pasa por un intérprete. Última versión: 0.1.0, del 3 de agosto. El proyecto no contiene ROMs. 2 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompiler for Game Boy and Game Boy Color ROMs. It analyzes banked LR35902 code and emits portable C projects linked with a shared SDL2 runtime for video, audio, input, save data and timing; whatever the analysis did not compile falls back to an interpreter. Latest release: 0.1.0, August 3. The project contains no ROMs. 2 of its last 100 commits list Claude as a co-author."
+tags:
+  - z80
+  - static-recomp
+  - ai-assisted

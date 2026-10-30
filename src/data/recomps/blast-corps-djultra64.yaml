@@ -1,0 +1,17 @@
+name: "Blast Corps (djultra64)"
+games: [blast-corps]
+console: n64
+status: playable
+repo: djultra64/Power-Dozer
+originalDeveloper: "Rare"
+year: 1997
+toolchain: N64Recomp
+desc:
+  es: "Power Dozer: recompilación estática de Blast Corps (versión estadounidense, revisión 1) con N64Recomp, N64ModernRuntime y RT64, para Windows y Linux de 64 bits. La 0.84, que el autor llama «candidata a beta», añade un menú principal (Start Game, PC Options y Close Game) sobre el fondo animado y el rótulo desplazable del propio juego, con ajustes de pantalla, gráficos, audio y los catorce controles. Las versiones anteriores añadieron ajustes de PC y correcciones de audio. La 0.84 es del 12 de octubre. El README advierte que los archivos finales se auditan antes de publicarse. Declara el uso de OpenAI Codex para investigación, análisis, código, pruebas y documentación."
+  en: "Power Dozer: a static recompilation of Blast Corps (US, revision 1) with N64Recomp, N64ModernRuntime, and RT64, for 64-bit Windows and Linux. Version 0.84, which the author calls a “beta candidate,” adds a main menu (Start Game, PC Options, and Close Game) over the game’s own animated background and scrolling ticker, with display, graphics, audio, and all fourteen controls settings. Earlier versions added PC settings and audio fixes. Version 0.84 is from October 12. The README warns that final archives are audited before publication. It states the use of OpenAI Codex for research, analysis, code, tests, and documentation."
+requirements:
+  es: "Tu propia copia de Blast Corps para Nintendo 64, estadounidense, revisión 1, en .z64, .v64 o .n64, o en un .zip con una sola ROM válida; se elige en el primer arranque. Además, Windows o Linux de 64 bits con SSSE3 y SSE4.1 y controladores con Vulkan (Linux: X11 o XWayland, glibc 2.38 o posterior; Windows: Visual C++ 2015–2022 x64)."
+  en: "Your own copy of Blast Corps for Nintendo 64, US, revision 1, as .z64, .v64, or .n64, or in a .zip with a single valid ROM; you pick it on first launch. Plus 64-bit Windows or Linux with SSSE3 and SSE4.1 and Vulkan drivers (Linux: X11 or XWayland, glibc 2.38 or later; Windows: Visual C++ 2015–2022 x64)."
+tags:
+  - mips
+  - ai-assisted

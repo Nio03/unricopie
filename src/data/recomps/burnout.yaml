@@ -1,0 +1,18 @@
+name: "Burnout"
+games: [burnout]
+console: xbox
+status: playable
+repo: Heromachine/Burnout-Recompilation
+originalDeveloper: "Criterion Games"
+year: 2002
+toolchain: xboxrecomp
+desc:
+  es: "Lanzador para Windows que convierte tu copia de Burnout (Criterion Games y Acclaim, 2002, Xbox original) en una versión nativa. Usa un fork de xboxrecomp para recompilar el código del juego a C por adelantado en lugar de emularlo; la primera vez pide la imagen del disco (EE. UU.) y construye el juego en tu equipo, en unos minutos y una sola vez. Es una versión temprana e incompleta en la que se pueden jugar carreras. Entre los problemas conocidos de la 0.1.0, tras chocar un rival controlado por la CPU a veces un sonido de roce se repite en bucle hasta el siguiente choque o el final de la carrera, y la iluminación de parte del escenario y de los coches puede no coincidir con el original. Ofrece brillo, resolución de 1× (640 × 480) a 3×, el hilo gráfico por separado (activado por defecto) y pantalla completa. La 0.1.0 (14 de octubre) es la única versión publicada. Su único commit lleva a Claude como coautor."
+  en: "A Windows launcher that turns your own copy of Burnout (Criterion Games and Acclaim, 2002, original Xbox) into a native build. It uses a fork of xboxrecomp to recompile the game’s code to C ahead of time instead of emulating it; the first time it asks for your disc image (USA) and builds the game on your computer, in a few minutes and only once. It is an early, incomplete release in which races can be played. Known issues in 0.1.0 include a crash scrape sound sometimes looping after a computer-controlled racer crashes, until the next crash or the end of the race, and lighting on some scenery and car parts not matching the original. It offers brightness, resolution from 1× (640 × 480) to 3×, running the graphics chip on its own thread (on by default), and full screen. Version 0.1.0 (October 14) is the only published release. Its only commit lists Claude as a co-author."
+requirements:
+  es: "Tu propia imagen .iso del disco de Burnout para Xbox, versión de EE. UU. Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 11 y unos 6 GB libres para la compilación, que se hace una sola vez. Se recomienda un mando de estilo Xbox."
+  en: "Your own .iso image of the Burnout disc for Xbox, USA version. 64-bit Windows 10 or 11, a graphics card with Direct3D 11, and about 6 GB free for the one-time build. An Xbox-style controller is recommended."
+tags:
+  - x86
+  - racing
+  - ai-assisted

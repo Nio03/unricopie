@@ -1,0 +1,19 @@
+name: "ClayFighter 64"
+games: [clayfighter-6313, clayfighter-sculptors-cut]
+console: n64
+status: playable
+repo: djultra64/ClayFighter64
+originalDeveloper: "Interplay"
+year: 1997
+toolchain: N64Recomp
+desc:
+  es: "ClayFighter 64: port comunitario para Linux y Windows de 64 bits que fusiona ClayFighter 63⅓ y ClayFighter: Sculptor’s Cut, hecho por recompilación estática con N64Recomp, N64ModernRuntime, RSPRecomp y RT64. Mantiene la base de 63⅓ (código recompilado, reglas y sistema de combate) y suma los cuatro personajes que añade Sculptor’s Cut (High Five, Lady Liberty, Lockjaw y Zappa), con retratos y biografías, hasta dieciséis casillas en el selector. Añade soporte de teclado y mando con teclas de combate reasignables y, desde la 2.0, un modo de entrenamiento y la conservación de las opciones originales. Un instalador valida las dos ROM y genera localmente la ROM base, la imagen combinada de personajes y los datos de biografías. La 2.1.1 es del 27 de octubre. El README declara que el proyecto se creó con ayuda de IA."
+  en: "ClayFighter 64: a community port for 64-bit Linux and Windows that fuses ClayFighter 63⅓ and ClayFighter: Sculptor’s Cut, made by static recompilation with N64Recomp, N64ModernRuntime, RSPRecomp, and RT64. It keeps the 63⅓ foundation (recompiled code, rules, and combat system) and adds the four characters Sculptor’s Cut brings (High Five, Lady Liberty, Lockjaw, and Zappa), with portraits and biographies, up to sixteen slots in the selector. It adds keyboard and gamepad support with remappable combat controls and, since 2.0, a training mode and persistence of the original options. An installer validates both ROMs and generates the base ROM, the combined character image, and the biography data locally. Version 2.1.1 is from October 27. The README states the project was created with AI assistance."
+requirements:
+  es: "Tus propias copias de las dos ROM estadounidenses para Nintendo 64: ClayFighter 63⅓ (SHA-256 357f26c6cd72559c5c05e8c2df46369624630dbcb1c02b3b6f3338f6ac79af07) y ClayFighter: Sculptor’s Cut (SHA-256 9ccebc317b7ee892be3bdc0d1c8ae46687995908ed51ebd58d6855e5e25abd7f), normalizadas a z64; con una sola no se puede instalar. Además, Windows 10 u 11 de 64 bits, o Linux con X11 o XWayland y Python 3.10 o posterior."
+  en: "Your own copies of both US Nintendo 64 ROMs: ClayFighter 63⅓ (SHA-256 357f26c6cd72559c5c05e8c2df46369624630dbcb1c02b3b6f3338f6ac79af07) and ClayFighter: Sculptor’s Cut (SHA-256 9ccebc317b7ee892be3bdc0d1c8ae46687995908ed51ebd58d6855e5e25abd7f), normalized to z64; one alone cannot install it. Plus 64-bit Windows 10 or 11, or Linux with X11 or XWayland and Python 3.10 or later."
+tags:
+  - mips
+  - fighting
+  - multiplayer
+  - ai-assisted

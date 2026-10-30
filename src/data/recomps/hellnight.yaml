@@ -1,0 +1,17 @@
+name: "Hellnight"
+games: [hellnight]
+console: ps1
+status: experimental
+repo: goodshepherd23/Hellnight-Recompiled
+year: 1999
+toolchain: PSXRecomp
+desc:
+  es: "Versión nativa para PC de Hellnight (PlayStation, 1999; Dark Messiah en Japón), hecha con el recompilador estático PSXRecomp y el lanzador recomp-ui, con la imagen OpenBIOS incluida en lugar de una BIOS de Sony. La 0.1.7 (26 de octubre) trae paquetes para Windows x64, Linux x64 y macOS (Apple Silicon e Intel). Es una versión temprana probada en Windows: con el volcado convertido a NTSC llega al título, Nueva partida funciona, el diálogo, el cursor de examinar y los cambios de sala también, y se puede guardar y cargar en la tarjeta de memoria; con el volcado de Redump y el parche Undub solo se probó hasta la introducción. Un mod opcional ensancha la vista 3D a 16:9 o 21:9, y hay trucos opcionales. El README declara que se hizo con asistencia de IA (Claude), y sus 17 commits llevan a Claude como coautor."
+  en: "A native PC version of Hellnight (PlayStation, 1999; Dark Messiah in Japan), made with the PSXRecomp static recompiler and the recomp-ui launcher, with the bundled OpenBIOS image instead of a Sony BIOS. Version 0.1.7 (October 26) has packages for Windows x64, Linux x64, and macOS (Apple Silicon and Intel). It is an early release tested on Windows: with the NTSC-converted dump it reaches the title, New Game starts, dialogue, the examine cursor, and room transitions work, and saving to and loading from a memory card works; with the Redump dump and the Undub patch it was only tested up to the intro. An optional mod widens the 3D view to 16:9 or 21:9, and there are optional cheats. The README states it was made with AI assistance (Claude), and all 17 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio disco europeo de Hellnight (SLES-01562) como CUE/BIN, con una pista de datos de 633.786.384 bytes: el volcado de Redump (MD5 050d2848368af2ef945706bc73ef69ef), una copia convertida a NTSC (MD5 01ce6367485ab848973be612df58b5b9, con la que se hicieron casi todas las pruebas) o el parche Undub v1.1 del disco europeo (MD5 cb6f8e5a863920bf33d8cfe78dd684df). Windows, Linux o macOS."
+  en: "Your own European Hellnight disc (SLES-01562) as CUE/BIN, with a data track of 633,786,384 bytes: the Redump dump (MD5 050d2848368af2ef945706bc73ef69ef), an NTSC-converted copy (MD5 01ce6367485ab848973be612df58b5b9, which most testing used), or the Undub v1.1 patch of the European disc (MD5 cb6f8e5a863920bf33d8cfe78dd684df). Windows, Linux, or macOS."
+tags:
+  - mips
+  - widescreen
+  - ai-assisted

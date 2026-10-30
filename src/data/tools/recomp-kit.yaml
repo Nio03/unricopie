@@ -1,0 +1,13 @@
+name: recomp-kit
+kind: recompiler
+consoles:
+  - pc
+repo: veritr1x/recomp-kit
+status: experimental
+desc:
+  es: "Kit de recompilación estática que convierte juegos de Windows x86 de 32 bits en aplicaciones nativas para macOS, iOS, Android, Linux y Windows, sin JIT ni emulador en ejecución. Incluye el runtime x86, el cargador PE, shims de DirectDraw, Direct3D 2, DirectSound y DirectInput, y un anfitrión SDL3 con Metal y Vulkan. Cada juego vive en su propio repositorio, que incluye el kit como submódulo. 7 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation kit that turns 32-bit x86 Windows games into native applications for macOS, iOS, Android, Linux and Windows, with no JIT or emulator at run time. It includes the x86 runtime, a PE loader, DirectDraw, Direct3D 2, DirectSound and DirectInput shims, and an SDL3 host with Metal and Vulkan. Each game lives in its own repository, which includes the kit as a submodule. 7 of its last 100 commits list Claude as a co-author."
+tags:
+  - x86
+  - static-recomp
+  - ai-assisted

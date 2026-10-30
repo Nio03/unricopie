@@ -1,0 +1,18 @@
+name: "Futurama"
+games: [futurama]
+category: decomp-port
+console: xbox
+status: playable
+repo: hiburn8/Futurama-The-Game-The-Recomp
+originalDeveloper: "Unique Development Studios"
+year: 2003
+desc:
+  es: "Port nativo para Windows de Futurama (Xbox original, 2003) en el que el código del juego se reescribió en C++ función por función a partir del código máquina de la versión de Xbox, con comentarios «// orig:» que remiten al original. No es una traducción automática del ejecutable ni un remake: el disco solo se lee para los modelos, texturas, sonidos, música, películas, guiones de niveles, textos y algunas tablas de datos del default.xbe, y los programas del DSP de audio de Xbox corren en una emulación mínima. Usa Direct3D 11, XAudio2 y mando de Xbox o teclado. El objetivo es la fidelidad 1:1: el README dice que las 701 funciones que alcanzan las pruebas coinciden con el original, con casi 4000 pruebas de objetos, 60 de niveles y 38 de render, y que una partida automática va del inicio del nivel 1-1 al 1-2; no se ha comparado la imagen ni el sonido finales con una Xbox real. El autor dice que lo hizo en unas dos semanas (del 12 al 25 de octubre) con Claude Opus 5.5. La 0.1.0 (25 de octubre) es la única versión; sus 2 commits llevan a Claude como coautor."
+  en: "A native Windows port of Futurama (original Xbox, 2003) in which the game’s code was rewritten in C++ function by function from the machine code of the Xbox version, with “// orig:” comments pointing back to the original. It is neither an automatic translation of the executable nor a remake: the disc is only read for the models, textures, sounds, music, movies, level scripts, text, and some data tables inside default.xbe, and the Xbox’s audio DSP programs run on a tiny built-in emulation. It uses Direct3D 11, XAudio2, and an Xbox controller or keyboard. The aim is 1:1 fidelity: the README says the 701 functions the tests reach match the original, backed by almost 4,000 object tests, 60 level tests, and 38 rendering tests, and that one automated run goes from the start of level 1-1 into level 1-2; the final picture and sound have not been compared with a real Xbox. The author says it took about two weeks (October 12 to 25) with Claude Opus 5.5. Version 0.1.0 (October 25) is the only release; both of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Futurama para la Xbox original, NTSC-U, como imagen de disco (.iso) o con los archivos extraídos; la primera vez el programa pide el .iso o el default.xbe. Windows 10 u 11 de 64 bits."
+  en: "Your own copy of Futurama for the original Xbox, NTSC-U, as a disc image (.iso) or with the extracted files; the first time the program asks for the .iso or the default.xbe. 64-bit Windows 10 or 11."
+tags:
+  - x86
+  - platformer
+  - ai-assisted

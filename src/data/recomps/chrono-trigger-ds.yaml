@@ -1,0 +1,20 @@
+name: "Chrono Trigger (DS)"
+games: [chrono-trigger]
+console: nds
+status: experimental
+repo: power-pudu/egg-of-time
+originalDeveloper: "Square Enix"
+year: 2008
+desc:
+  es: "Port nativo para PC de la versión de Nintendo DS de Chrono Trigger, para Windows, Linux y macOS. Es una recompilación estática: cada función del código del juego se traduce a C y se compila en un programa nativo, con un pequeño entorno de ejecución que hace de hardware de la DS; no es un emulador. El juego se construye en tu equipo a partir de tu ROM en el primer arranque, lo que tarda unos minutos. Ofrece pantalla ancha, resoluciones altas, más fotogramas por segundo, mando y mods. Según el README se juega desde el principio (probado hasta la apertura, la Feria del Milenio, el primer salto temporal, los combates y el Game Over) con sonido, música y escenas; faltan el Wi-Fi, el micrófono y el motor 3D de la DS. Declara que se desarrolló con Claude a través de Claude Code, que hizo el análisis de ingeniería inversa y escribió el recompilador, el entorno de ejecución y la documentación, bajo la dirección del dueño del repositorio. La 0.2.3 (29 de octubre) es la última, con zip para Windows. 13 de sus 19 commits llevan a Claude como coautor."
+  en: "A native PC port of the Nintendo DS version of Chrono Trigger, for Windows, Linux, and macOS. It is a static recompilation: every function of the game’s code is translated to C and compiled into a native program, with a small runtime standing in for the DS hardware; it is not an emulator. The game is built on your computer from your ROM on first start, which takes a few minutes. It offers widescreen, high resolutions, higher frame rates, gamepad support, and mods. According to the README it is playable from the start (tested through the opening, the Millennial Fair, the first time warp, battles, and Game Over) with sound, music, and cutscenes; Wi-Fi, the microphone, and the DS 3D engine are not implemented. It states that it was developed with Claude through Claude Code, which did the reverse-engineering analysis and wrote the recompiler, the runtime, and the documentation under the repository owner’s direction. Version 0.2.3 (October 29) is the latest, with a Windows zip. 13 of its 19 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Chrono Trigger de Nintendo DS, de EE. UU. (código de juego YQUE, inglés y francés, SHA-1 11f9e8204e484eab42181b210c9f214584be75bf); la versión de Windows rechaza cualquier otro archivo. Además, Windows o Linux; en macOS el entorno de ejecución compila, pero no se ha probado una construcción completa del juego."
+  en: "Your own Chrono Trigger ROM for the Nintendo DS, US release (game code YQUE, English and French, SHA-1 11f9e8204e484eab42181b210c9f214584be75bf); the Windows release refuses any other file. Plus Windows or Linux; on macOS the runtime compiles, but a full game build has not been tested."
+tags:
+  - arm
+  - rpg
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

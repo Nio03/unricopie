@@ -1,0 +1,20 @@
+name: "Looney Tunes B-Ball"
+games: [looney-tunes-b-ball]
+console: snes
+status: playable
+repo: SlippyGetBackHere/looney_tunes_b-ball_recomp
+originalDeveloper: "Sunsoft"
+year: 1995
+toolchain: snesrecomp
+desc:
+  es: "Recompilación nativa de Looney Tunes B-Ball (EE. UU.) con snesrecomp: el código del 65816 del juego se compila a C y corre junto a un chip de vídeo, un chip de sonido y un DMA de SNES emulados, con el intérprete del marco como respaldo para el código que el análisis no ha alcanzado. La cancha se puede jugar en pantalla ancha de 16:9; los menús y las pantallas de selección siguen en 4:3. Según el README es jugable: arranque, demostración, menús, selección de personaje, partidos de exhibición, un torneo completo de un jugador y partidas de dos jugadores, en Windows; los torneos no se han revisado en pantalla ancha. Tiene una página de mods opcionales, todos desactivados por defecto (reloj de tiro apagado, cambiar la dificultad del torneo, rivales que no roban el balón). La última versión, la 0.2.0 (27 de octubre), es para Windows. 19 de sus 20 commits llevan a Claude como coautor."
+  en: "A native recompilation of Looney Tunes B-Ball (USA) built on snesrecomp: the game’s 65816 code is compiled to C and runs against an emulated SNES video chip, sound chip, and DMA, with the framework’s interpreter as a fallback for code the analysis hasn’t reached. The court can be played in 16:9 widescreen; menus and selection screens stay 4:3. According to the README it is playable: boot, attract demo, menus, character select, exhibition matches, a full one-player tournament, and two-player games, on Windows; the tournament screens haven’t been checked in widescreen. It has a page of optional mods, all off by default (shot clock off, changeable tournament difficulty, CPU players that don’t steal). The latest release, 0.2.0 (October 27), is for Windows. 19 of its 20 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Looney Tunes B-Ball (EE. UU.), de 2.097.152 bytes (SHA-256 76ba0fc1f5c1f39354bb3173a600f23915f1191f400f7d525d220b4b3c8d958d). Windows de 64 bits."
+  en: "Your own Looney Tunes B-Ball (USA) ROM, 2,097,152 bytes (SHA-256 76ba0fc1f5c1f39354bb3173a600f23915f1191f400f7d525d220b4b3c8d958d). 64-bit Windows."
+tags:
+  - "65816"
+  - sports
+  - widescreen
+  - mods
+  - ai-assisted

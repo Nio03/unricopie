@@ -1,0 +1,17 @@
+name: "Rayman 3 HD"
+games: [rayman-3-hd]
+console: x360
+status: playable
+repo: MysteriousAeon/rayman3-hd-recompiled
+originalDeveloper: "Ubisoft"
+year: 2012
+desc:
+  es: "Port nativo para Windows de Rayman 3 HD (Xbox 360), con el código del juego recompilado estáticamente y sin emulador. Un instalador (o un ZIP portátil) valida tu paquete del juego y lo prepara. Ofrece los perfiles Vanilla, HD+ (correcciones visuales opcionales y una animación nueva al cerrarse el contador de combos) y Personalizado, los cinco idiomas del juego original (inglés, francés, español, italiano y alemán), una traducción opcional al turco, teclado con dos distribuciones, mando con asignación de botones, luces y gatillos adaptativos del DualSense, logros, Discord Rich Presence y compatibilidad con mods de texturas, texto, fuentes y subtítulos. Se han verificado el texto, los subtítulos y algunas cinemáticas en francés; el audio de toda la campaña no se ha comprobado. La versión 1.0.3 (29 de octubre) incluye el instalador, la versión portátil, la traducción al turco y el código fuente bajo LGPL."
+  en: "A native Windows port of Rayman 3 HD (Xbox 360), with the game’s code statically recompiled and no emulator. An installer (or a portable ZIP) validates your game package and sets it up. It offers Vanilla, HD+ (optional visual corrections and a new closing animation for the combo meter), and Custom profiles, the five languages of the original game (English, French, Spanish, Italian, and German), an optional Turkish translation, a keyboard with two layouts, a controller with button mapping, DualSense lightbar and adaptive triggers, achievements, Discord Rich Presence, and support for texture, text, font, and subtitle mods. French text, subtitles, and some cinematics have been verified; voice coverage throughout the campaign has not been checked. Version 1.0.3 (October 29) includes the installer, the portable edition, the Turkish translation, and the LGPL source code."
+requirements:
+  es: "Tu propio paquete de Rayman 3 HD para Xbox 360: el de Xbox Live Arcade (ID de título 5841123F), sin actualización de título, copiado del almacenamiento de tu consola (carpeta Content\\0000000000000000\\5841123F\\000D0000\\). Además, Windows 10 u 11 de 64 bits, el Microsoft Visual C++ Redistributable 2015–2022 (x64), una tarjeta gráfica con Direct3D 12 y unos 2,3 GB libres."
+  en: "Your own Rayman 3 HD package for Xbox 360: the Xbox Live Arcade release (title ID 5841123F), without a title update, copied from your console’s storage (folder Content\\0000000000000000\\5841123F\\000D0000\\). Plus 64-bit Windows 10 or 11, the Microsoft Visual C++ Redistributable 2015–2022 (x64), a graphics card with Direct3D 12, and about 2.3 GB free."
+tags:
+  - powerpc
+  - platformer
+  - mods

@@ -1,0 +1,18 @@
+name: "Roll Away"
+games: [roll-away]
+console: ps1
+status: playable
+repo: Bitsandbreakpoints/roll-away-psx-pc-recomp
+originalDeveloper: "Game Design Sweden AB"
+year: 1998
+desc:
+  es: "Versión nativa para Windows de Roll Away (Psygnosis, 1998), conocido en Europa como Kula World y en Japón como KulaQuest; se admiten las tres versiones. El recompilador del repositorio traduce el código MIPS del juego a C y un entorno de ejecución propio reescribe las bibliotecas de Sony (gráficos, CD-ROM con música XA y vídeo, mandos, tarjeta de memoria y BIOS) y emula en software los chips de gráficos, geometría, sonido y vídeo; no es un emulador y no hace falta BIOS. Añade texturas lejanas detalladas, FXAA, resolución interna de hasta 8x, vértices precisos, color verdadero, 16:9 opcional, un filtro de TV suave, guardado tras cada nivel, Kula World a 60 Hz y un editor de niveles con soporte para niveles propios. La 2.5.0 (29 de octubre) es la última versión. Sus 46 commits llevan a Claude como coautor."
+  en: "A native Windows version of Roll Away (Psygnosis, 1998), known in Europe as Kula World and in Japan as KulaQuest; all three releases are supported. The repository’s recompiler translates the game’s MIPS code to C, and a runtime of its own rewrites Sony’s libraries (graphics, the CD-ROM with XA music and movie streaming, controllers, the memory card, and the BIOS) and runs the graphics, geometry, sound, and movie chips in software; it is not an emulator and no BIOS is needed. It adds detailed distant textures, FXAA, internal resolution up to 8x, precise vertices, true color, optional 16:9, a soft-TV filter, saving after every level, Kula World at 60 Hz, and a level editor with support for your own levels. Version 2.5.0 (October 29) is the latest release. All 46 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Roll Away (EE. UU., SLUS-00724), Kula World (Europa, SCES-01000) o KulaQuest (Japón, SCPS-10064), en .bin/.cue o .chd; el .iso no sirve. Además, Windows 10 o posterior."
+  en: "Your own disc image of Roll Away (USA, SLUS-00724), Kula World (Europe, SCES-01000), or KulaQuest (Japan, SCPS-10064), as .bin/.cue or .chd; an .iso does not work. Plus Windows 10 or later."
+tags:
+  - mips
+  - 60fps+
+  - widescreen
+  - ai-assisted

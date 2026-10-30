@@ -1,0 +1,18 @@
+name: "PaRappa the Rapper"
+games: [parappa-the-rapper]
+console: ps1
+status: experimental
+repo: kirby1237/PaRappaTheRapperRecomp
+originalDeveloper: "Sony Computer Entertainment"
+year: 1996
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense de PaRappa the Rapper (PlayStation, 1996) para PC, hecha con psxrecomp y el lanzador recomp-ui; usa la imagen OpenBIOS incluida. Incluye un mod opcional de ayuda de tiempo del ritmo, con compensación de latencia y tolerancia de adelanto y retraso configurables para mando y teclado, y un mod experimental de pantalla ancha activado de serie en 21:9 (también 16:9, ajustar a la ventana o 4:3) que amplía la vista 3D del juego; los vídeos y los menús 2D mantienen su proporción. La resolución interna por defecto es 1080p. El README dice que las demás fases aún necesitan validación de jugadores. La v0.1.1 (8 de octubre) trae zips para Windows x64 y Linux x64. El repositorio incluye el código C generado a partir del ejecutable del juego (unos 25 MB, carpeta generated), y la versión publicada lleva ese código ya compilado; los datos del juego salen de tu disco."
+  en: "A static recompilation of the US release of PaRappa the Rapper (PlayStation, 1996) for PC, made with psxrecomp and the recomp-ui launcher; it uses the bundled OpenBIOS image. It includes an optional Rhythm Timing Assist mod, with configurable latency compensation and early and late tolerance for controller and keyboard play, and an experimental widescreen mod enabled by default at 21:9 (also 16:9, fit to window, or 4:3) that widens the game’s 3D view; movies and 2D menus keep their proportions. The default internal resolution is 1080p. The README says the other stages still need player validation. v0.1.1 (October 8) has zips for Windows x64 and Linux x64. The repository includes the C code generated from the game’s executable (about 25 MB, generated folder), and the published release ships that code already compiled; the game’s data comes from your disc."
+requirements:
+  es: "Tu propio disco de la versión estadounidense de PaRappa the Rapper (SCUS-94183) en imagen .cue/.bin, colocada en la carpeta disc. Windows x64 o Linux x64."
+  en: "Your own disc of the US version of PaRappa the Rapper (SCUS-94183) as a .cue/.bin image, placed in the disc folder. Windows x64 or Linux x64."
+tags:
+  - mips
+  - rhythm
+  - widescreen

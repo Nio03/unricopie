@@ -1,0 +1,17 @@
+name: "Legendary Wings"
+games: [legendary-wings]
+console: nes
+status: experimental
+repo: retroreplay82/Legendary-Wings-NES-to-PC
+originalDeveloper: "Capcom"
+year: 1988
+toolchain: NESRecomp
+desc:
+  es: "Port nativo para Windows con ilustraciones renovadas y jugabilidad fiel, construido con NESRecomp y SDL2. Una tecla (F6) cambia entre los gráficos originales y los remasterizados sin reiniciar; el agua animada opcional (F5) empieza desactivada, y F8 y F9 guardan y cargan estados. El propio README lo describe como beta en desarrollo: solo el primer nivel ha recibido el trabajo principal de remasterización, y los siguientes pueden seguir usando los gráficos originales. La 0.1.0-beta.1 (5 de octubre) es la única versión. El código del proyecto es MIT, pero el juego completo usa NESRecomp con sus condiciones no comerciales y las ilustraciones quedan fuera de esa licencia."
+  en: "A native Windows port with refreshed artwork and faithful gameplay, built with NESRecomp and SDL2. A key (F6) switches between the original and the remastered graphics without restarting; the optional animated water (F5) starts off, and F8 and F9 save and load states. The README itself describes it as a work-in-progress beta: only the first level has received the main remaster work, and later levels may still use the original graphics. Version 0.1.0-beta.1 (October 5) is the only release. The project’s code is MIT, but the complete game uses NESRecomp under its noncommercial terms, and the artwork is excluded from that license."
+requirements:
+  es: "Tu propia ROM compatible de Legendary Wings (USA).nes, en la carpeta roms junto a LegendaryWings.exe. Además, Windows x64, con SDL2.dll y la carpeta assets junto al ejecutable."
+  en: "Your own compatible Legendary Wings (USA).nes ROM, in the roms folder beside LegendaryWings.exe. Plus Windows x64, with SDL2.dll and the assets folder beside the executable."
+tags:
+  - "6502"
+  - remaster

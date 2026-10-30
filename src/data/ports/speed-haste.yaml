@@ -1,0 +1,18 @@
+name: "Speed Haste"
+games: [speed-haste]
+category: game-engine
+console: dos
+status: playable
+repo: jval1972/Speed
+originalDeveloper: "Noriaworks"
+year: 1995
+desc:
+  es: "Remake y pack de expansión del juego de DOS Speed Haste, llamado GLSpeed, basado en el motor DelphiDoom y escrito en Pascal. Ofrece altas resoluciones, renderizado con OpenGL, velocidad de cuadros sin límite, automapa texturizado, consola de comandos, efectos de sonido en FLAC y OGG, música en MOD, S3M, IT y XM, capturas de pantalla, un menú de ajustes de juego, teclas y resolución, y scripting con PascalScript; permite crear contenido propio con utilidades de edición de Doom. Además de las pistas originales incluye un pack de expansión. La última release en GitHub, la 1.0.4.745, es del 24 de abril de 2022, con binarios de Windows y el código fuente."
+  en: "A remake and expansion pack of the DOS game Speed Haste, called GLSpeed, based on the DelphiDoom engine and written in Pascal. It offers high resolutions, OpenGL rendering, an uncapped frame rate, a textured automap, a command console, sound effects in FLAC and OGG, music in MOD, S3M, IT, and XM, screenshots, an in-game menu for gameplay, key bindings, and resolution, and scripting with PascalScript; it lets you create custom content with Doom editing utilities. Besides the original tracks it includes an expansion pack. The latest release on GitHub, 1.0.4.745, is from April 24, 2022, with Windows binaries and the source code."
+requirements:
+  es: "El archivo principal de datos del juego original de DOS, speedh.jcl; sirven tanto la versión shareware como la registrada. Windows."
+  en: "The main data file of the original DOS game, speedh.jcl; both the shareware and the registered versions should work. Windows."
+tags:
+  - opengl
+  - racing
+  - mods

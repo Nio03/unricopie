@@ -1,0 +1,17 @@
+name: "Super Mario Maker 2 (Apolinario-coder)"
+games: [super-mario-maker-2]
+console: switch
+status: experimental
+repo: Apolinario-coder/MushroomMakerRecomp
+originalDeveloper: "Nintendo EPD"
+year: 2019
+desc:
+  es: "Mushroom Maker Recomp es un port nativo experimental para Windows de Super Mario Maker 2 (versión 3.0.3), basado en la recompilación estática del código AArch64 a C. El código del juego se traduce y se compila en tu equipo; una capa de compatibilidad para PC se ocupa de los gráficos (Vulkan, con escalado de resolución, FSR 1 o NIS y SMAA), la entrada, el audio y las llamadas del sistema. Ofrece salida a 4K, 120 cuadros por segundo de presentación (con la simulación a 60 Hz), teclado, ratón y mandos, y se integra con Course World mediante el servicio público MariOver. El README avisa de que no se ha establecido la compatibilidad con el juego completo y de que pueden darse cierres y diferencias visuales. La versión 1.0 (26 de octubre) es para Windows."
+  en: "Mushroom Maker Recomp is an experimental native Windows port of Super Mario Maker 2 (version 3.0.3), based on static AArch64-to-C recompilation. The game’s code is translated and compiled on your PC; a PC compatibility layer handles graphics (Vulkan, with resolution scaling, FSR 1 or NIS, and SMAA), input, audio, and operating-system calls. It offers 4K output, 120 FPS presentation (with simulation kept at 60 Hz), keyboard, mouse, and controller support, and integrates with Course World through the public MariOver service. The README warns that full-game compatibility has not been established and that crashes and visual differences may occur. Version 1.0 (October 26) is for Windows."
+requirements:
+  es: "Tus propios archivos completos de Super Mario Maker 2 para Nintendo Switch con la actualización 3.0.3 ya aplicada (los archivos de la actualización por sí solos no bastan). Windows 10 u 11 de 64 bits con .NET Framework 4.8, una GPU compatible con Vulkan 1.3 y conexión a internet para descargar cursos."
+  en: "Your own complete Super Mario Maker 2 game files for Nintendo Switch with update 3.0.3 already applied (the update files alone are not enough). 64-bit Windows 10 or 11 with .NET Framework 4.8, a Vulkan 1.3-capable GPU, and an internet connection to fetch courses."
+tags:
+  - arm64
+  - platformer
+  - mods

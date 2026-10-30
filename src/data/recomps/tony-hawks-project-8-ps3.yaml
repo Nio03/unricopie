@@ -1,0 +1,21 @@
+name: "Tony Hawk's Project 8 (PS3)"
+games: [tony-hawks-project-8]
+console: ps3
+status: playable
+repo: MaxLeiter/project-8-plus
+originalDeveloper: "Neversoft"
+year: 2006
+toolchain: ps3recomp
+desc:
+  es: "Port de Tony Hawk’s Project 8 para PC a partir de la versión de PS3. El código del juego se recompila con ps3recomp (con un parche propio) y corre como programa nativo de Windows o, de forma experimental, de Linux; no es un emulador. Un lanzador construye el port a partir de tu copia del juego (unos 20 a 25 minutos, una sola vez) y usa RPCS3 durante la instalación para descifrar el ejecutable. Añade música propia, texturas y modelos en alta definición (unos 5000, reescalados con un modelo de IA en tu propia tarjeta gráfica, en segundo plano), una API de modding en Lua con un editor de niveles, FPS sin límite, pantalla ultrapanorámica, teclado y mando de Xbox, y correcciones de errores del juego original. La versión 0.9.2 (27 de octubre), en fase temprana, se publica para Windows y Linux. El README dice que se hizo ejecutando Opus 5.5 en bucle durante unas semanas; 10 de sus 13 commits llevan a Claude como coautor."
+  en: "A PC port of Tony Hawk’s Project 8 built from the PS3 version. The game’s code is recompiled with ps3recomp (with the project’s own patch) and runs as a native Windows program or, experimentally, a Linux one; it is not an emulator. A launcher builds the port from your copy of the game (about 20 to 25 minutes, once) and uses RPCS3 during setup to decrypt the executable. It adds custom soundtracks, HD textures and models (about 5000, upscaled by an AI model on your own graphics card in the background), a Lua modding API with a level editor, uncapped FPS, ultrawide support, keyboard and Xbox controller support, and bug fixes for the original game. Version 0.9.2 (October 27), an early release, is published for Windows and Linux. The README says it was made by running Opus 5.5 in a loop for a few weeks; 10 of its 13 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Tony Hawk’s Project 8 para PS3, la del disco estadounidense (BLUS30011, versión 01.02), volcada a una carpeta, y RPCS3 durante la instalación. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con DirectX 12, unos 4 GB libres y conexión a internet durante la instalación."
+  en: "Your own copy of Tony Hawk’s Project 8 for PS3, the US disc (BLUS30011, version 01.02), dumped to a folder, and RPCS3 during setup. Plus 64-bit Windows 10 or 11, a DirectX 12 graphics card, about 4 GB free, and an internet connection during setup."
+tags:
+  - powerpc
+  - sports
+  - mods
+  - 60fps+
+  - widescreen
+  - ai-assisted

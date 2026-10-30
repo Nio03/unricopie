@@ -1,0 +1,20 @@
+name: "Doraemon 3: Nobita no Machi SOS!"
+games: [doraemon-3-nobita-no-machi-sos]
+console: n64
+status: playable
+repo: citrongames/Dora64-3
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Dora64-3: recompilación nativa de Doraemon 3: Nobita no Machi SOS! para Windows, Linux y Android, hecha con N64Recomp, N64ModernRuntime y RT64. Ofrece fotogramas originales o ajustables (el perfil moderno usa 60), una cámara moderna con ratón, palanca derecha y táctil en las escenas compatibles, pantalla ancha en juego, interfaz, fondos y pantalla dividida, texto y arte traducidos al japonés, inglés y ruso, autoguardado al volver al mapa de fases, hasta cuatro mandos y teclas por jugador, y ajustes de gráficos, audio, controles y trampas. La 1.0.0 es del 13 de octubre. El README dice que se desarrolló con ayuda de ChatGPT y Codex de OpenAI."
+  en: "Dora64-3: a native recompilation of Doraemon 3: Nobita no Machi SOS! for Windows, Linux, and Android, made with N64Recomp, N64ModernRuntime, and RT64. It offers the original or an adjustable frame rate (the Modern profile uses 60), a modern camera with mouse, right stick, and touch in supported scenes, widescreen for gameplay, interface, backgrounds, and split screen, text and artwork translated to Japanese, English, and Russian, autosave when returning to the stage map, up to four gamepads and separate keyboard bindings per player, and settings for graphics, audio, controls, and cheats. Version 1.0.0 is from October 13. The README says it was developed with help from OpenAI’s ChatGPT and Codex."
+requirements:
+  es: "Tu propia copia de Doraemon 3: Nobita no Machi SOS! para Nintendo 64, japonesa (N3DJ, revisión 0): un .z64 big-endian de 16 MiB con SHA-256 410f99bdd58795639da272c9be9d1ab8c35b61f24f7c1fb92f7e83e1069a2602. Además, Windows 10 u 11 de 64 bits, Linux x86-64 con glibc 2.43 o posterior, Vulkan, SDL2 y GTK3, o Android 7.0 o posterior en ARM de 64 bits con Vulkan 1.0."
+  en: "Your own copy of Doraemon 3: Nobita no Machi SOS! for Nintendo 64, Japanese (N3DJ, revision 0): a 16 MiB big-endian .z64 with SHA-256 410f99bdd58795639da272c9be9d1ab8c35b61f24f7c1fb92f7e83e1069a2602. Plus 64-bit Windows 10 or 11, x86-64 Linux with glibc 2.43 or later, Vulkan, SDL2, and GTK3, or Android 7.0 or later on 64-bit ARM with Vulkan 1.0."
+tags:
+  - mips
+  - platformer
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - ai-assisted

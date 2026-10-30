@@ -1,0 +1,20 @@
+name: "San Francisco Rush 2049"
+games: [san-francisco-rush-2049]
+console: n64
+status: playable
+repo: n64hub/rush-2049-recomp
+originalDeveloper: "Midway Games"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de la versión de Nintendo 64, hecho por recompilación estática: el código MIPS del juego se traduce a C con N64Recomp y se ejecuta de forma nativa sobre N64ModernRuntime, con RT64 como renderizador; no es un emulador. El README declara que casi todo el código fue escrito por agentes de IA (Claude), dirigidos y probados por una persona. En Windows el menú, Carrera individual, Circuito, Carrera fantasma, Acrobacias y Batalla van a velocidad completa, las seis pistas se corren hasta la pantalla de resultados, la pantalla dividida de dos y cuatro jugadores se dibuja y las partidas del Controller Pak sobreviven a un reinicio. La versión de Linux llega al título y a la primera carrera de demostración con un controlador Vulkan por software, pero nadie la ha jugado en una GPU de Linux. Añade alta resolución, texto de menús y HUD ampliados, lógica a 60 fotogramas por segundo y opciones con valor Original, y también se compila como página web. La 0.1.27 (29 de octubre) es la última. 59 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native PC port of the Nintendo 64 version, made by static recompilation: the game’s MIPS code is translated to C with N64Recomp and run natively on N64ModernRuntime, with RT64 as the renderer; it is not an emulator. The README states that almost all of the code was written by AI agents (Claude), directed and play-tested by a person. On Windows the menus, Single Race, Circuit, Ghost Race, Stunt, and Battle run at full speed, all six tracks race through to the results screen, two- and four-player split screen renders, and Controller Pak saves survive a restart. The Linux build reaches the title screen and the first attract race with a software Vulkan driver, but nobody has played it on a Linux GPU. It adds high resolution, enlarged menu and HUD text, game logic at 60 frames per second, and options with an Original value, and it also builds as a web page. Version 0.1.27 (October 29) is the latest. 59 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de San Francisco Rush 2049 (U), la edición de EE. UU., en formato .z64 con SHA-1 3f99351d7bb61656614bdb2aa1a90cfe55d1922c; no se admiten otras regiones ni revisiones. Además, Windows o Linux x86-64 con glibc 2.35 o posterior, un controlador Vulkan, GTK 3 y FreeType."
+  en: "Your own San Francisco Rush 2049 (U) ROM, the US release, as a .z64 with SHA-1 3f99351d7bb61656614bdb2aa1a90cfe55d1922c; other regions and revisions are not supported. Plus Windows, or x86-64 Linux with glibc 2.35 or newer, a Vulkan driver, GTK 3, and FreeType."
+tags:
+  - mips
+  - racing
+  - multiplayer
+  - 60fps+
+  - ai-assisted

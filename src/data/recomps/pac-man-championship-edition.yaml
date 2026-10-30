@@ -1,0 +1,18 @@
+name: "Pac-Man Championship Edition"
+games: [pac-man-championship-edition]
+console: x360
+status: playable
+repo: jedeyesniv-art/Pacman-CE-PC-Recomp
+originalDeveloper: "Namco Bandai Games"
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Versión nativa para Windows de Pac-Man Championship Edition (Xbox Live Arcade, 2007), hecha recompilando estáticamente el código PowerPC del juego a x86-64 con el SDK ReXGlue, que se apoya en la emulación del núcleo, la GPU y el audio de Xenia. Añade un modo extra de laberintos aleatorios para el Modo Campeonato (se activa con R3 en la pantalla del título y no registra puntuaciones) y desplaza la imagen hacia arriba para que el marco de neón del laberinto aparezca completo, ya que el original lo corta por abajo. Gasta alrededor de un 7 % de CPU en partida, va a 60 cuadros por segundo en una Steam Deck con Proton, renderiza a la resolución de tu pantalla con Vulkan o Direct3D 12, admite mando de Xbox y teclado, y hace copias de seguridad de las partidas y registra logros en local. La 1.0.0 es del 21 de octubre. 75 de sus 77 commits llevan a Claude como coautor."
+  en: "A native Windows build of Pac-Man Championship Edition (Xbox Live Arcade, 2007), made by statically recompiling the game’s PowerPC code to x86-64 with the ReXGlue SDK, which builds on Xenia’s kernel, GPU, and audio emulation. It adds a bonus random-mazes mode for Championship Mode (activated with R3 on the title screen; scores aren’t recorded) and moves the picture up so the maze’s neon frame is complete, since the original cuts it off at the bottom. It uses about 7% CPU in gameplay, runs at 60 fps on a Steam Deck under Proton, renders at your screen’s resolution with Vulkan or Direct3D 12, supports Xbox controllers and keyboard, and backs up saves and records achievements locally. Version 1.0.0 is from October 21. 75 of its 77 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Pac-Man Championship Edition de Xbox Live Arcade, volcada de tu Xbox 360: el archivo de paquete de la consola (con un nombre hexadecimal largo) o los archivos desempaquetados (default.xex, media y data), en la carpeta game. Windows 10 u 11, o Steam Deck con Proton."
+  en: "Your own copy of Pac-Man Championship Edition from Xbox Live Arcade, dumped from your Xbox 360: either the console’s package file (a file with a long hexadecimal name) or the unpacked files (default.xex, media, and data), placed in the game folder. Windows 10 or 11, or the Steam Deck with Proton."
+tags:
+  - powerpc
+  - arcade
+  - ai-assisted

@@ -1,0 +1,15 @@
+name: "NANACA†CRASH!!"
+games: [nanacacrash]
+category: decomp-port
+console: other
+status: playable
+repo: Nyaldee/nanaca-crash
+desc:
+  es: "Ports no oficiales para Windows y Linux, escritos en Rust a partir del código descompilado de los juegos originales: la versión Flash 1.10 y la de Android 1.2.0. Buscan jugar igual que los originales, errores incluidos. El repositorio no contiene ningún archivo con derechos: cada port lee el archivo original que le aportas, junto a su ejecutable, y lo comprueba por CRC32 antes de empezar. La de Flash se juega con el ratón, como el original (escenario de 700 × 400 a 30 cuadros), o con mando; la de Android, con ratón, teclado o mando, con las compras integradas desbloqueadas y sin anuncios ni servicios de tienda. Las partidas se guardan en Documentos\\My Games en Windows y en ~/.local/share en Linux. El README enumera además fallos del original que se conservan. La última versión se publicó el 23 de octubre."
+  en: "Unofficial ports for Windows and Linux, written in Rust from the decompiled code of the original games: the Flash 1.10 version and the Android 1.2.0 version. They aim to play exactly like the originals, bugs included. The repository contains no copyrighted file: each port reads the original file you provide, placed next to its executable, and checks it by CRC32 before starting. The Flash one is played with the mouse, like the original (700 × 400 stage at 30 frames), or with a gamepad; the Android one with the mouse, keyboard, or a gamepad, with in-app purchases unlocked and no advertisements or store services. Saves go to Documents\\My Games on Windows and ~/.local/share on Linux. The README also lists bugs of the original that are kept. The latest release was published on October 23."
+requirements:
+  es: "El archivo original de cada versión que quieras jugar: el SWF de NANACA†CRASH!! 1.10 (CRC32 53A65665) para la de Flash, o el APK de la 1.2.0 (CRC32 BCBAB1C3) para la de Android, con cualquier nombre que acabe en .swf o .apk, junto al ejecutable. Windows o Linux."
+  en: "The original file of each version you want to play: the NANACA†CRASH!! 1.10 SWF (CRC32 53A65665) for the Flash port, or the 1.2.0 APK (CRC32 BCBAB1C3) for the Android port, with any name ending in .swf or .apk, next to the executable. Windows or Linux."
+tags:
+  - flash
+  - minigames

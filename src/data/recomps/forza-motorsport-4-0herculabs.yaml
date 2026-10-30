@@ -1,0 +1,19 @@
+name: "Forza Motorsport 4 (0herculabs)"
+games: [forza-motorsport-4]
+console: x360
+status: playable
+repo: 0herculabs/hl360-forza4
+originalDeveloper: "Turn 10 Studios"
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Forza Motorsport 4 en Windows, con un lanzador propio, integración opcional con Project Forza Plus 4 y soporte experimental para volantes de transmisión directa. El código PowerPC del juego de Xbox 360 se traduce a C++ con el SDK ReXGlue y el programa resultante corre de forma nativa en PC, con un entorno que aporta gráficos, audio, entrada, perfiles, almacenamiento y servicios de contenido. El lanzador guía la instalación de los dos discos, la configuración del juego, la calibración del volante y la instalación o retirada de Project Forza Plus 4, cuyos archivos aporta el usuario. El README advierte de que es un trabajo en curso: se han demostrado menús y carreras en local, con un volante MOZA R3 y force feedback, pero falta probar la progresión completa de la Carrera, todos los modos de juego, sesiones largas y otras bases de volante. Se recomienda jugar a 60 cuadros por segundo; el modo experimental de 120 provoca artefactos visuales. La versión 0.3.9 es del 19 de octubre. Uno de sus 4 commits lleva a Claude como coautor."
+  en: "Forza Motorsport 4 on Windows, with a dedicated launcher, optional Project Forza Plus 4 integration, and experimental direct-drive wheel support. The Xbox 360 game’s PowerPC code is translated to C++ with the ReXGlue SDK and the resulting program runs natively on PC, with a runtime that provides graphics, audio, input, profiles, storage, and content services. The launcher guides you through installing both discs, configuring the game, calibrating a wheel, and installing or removing Project Forza Plus 4, whose archives the user supplies. The README warns that it is a work in progress: menus and races have been demonstrated locally, including with a MOZA R3 wheel and force feedback, but full Career progression, every game mode, long sessions, and other wheelbases still need testing. Playing at 60 frames per second is recommended; the experimental 120 FPS mode causes visual artifacts. Version 0.3.9 is from October 19. One of its 4 commits lists Claude as a co-author."
+requirements:
+  es: "Tus propios discos de Forza Motorsport 4 para Xbox 360, edición estadounidense Rev 1 (ID de título 4D530910, ID de medio 33E7B39F, XEX 0.0.0.14): el Play Disc (MD5 de la ISO 2470358250b8566bf5ddc3aaf1b76c68) y el Content Install Disc (MD5 de la ISO 9915d1adaabf3b58441651a70e5e8dbe), como imágenes ISO. Otras regiones y revisiones no se han validado. Windows x64 y una GPU compatible con Direct3D 12."
+  en: "Your own discs of Forza Motorsport 4 for Xbox 360, USA Rev 1 (title ID 4D530910, media ID 33E7B39F, XEX 0.0.0.14): the Play Disc (ISO MD5 2470358250b8566bf5ddc3aaf1b76c68) and the Content Install Disc (ISO MD5 9915d1adaabf3b58441651a70e5e8dbe), as ISO images. Other regions and revisions have not been validated. Windows x64 and a Direct3D 12-capable GPU."
+tags:
+  - powerpc
+  - racing
+  - mods
+  - ai-assisted

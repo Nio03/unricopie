@@ -1,0 +1,19 @@
+name: "BattleTanx"
+games: [battletanx]
+console: n64
+status: experimental
+repo: wootbeer/btrecomp
+originalDeveloper: "The 3DO Company"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de la versión de Nintendo 64, hecho por recompilación estática con N64Recomp sobre N64ModernRuntime y con RT64 como renderizador. Usa el mismo motor que la secuela y se construyó igual que BattleTanx: Global Assault Recompiled, del mismo autor. Ofrece pantalla ancha con el HUD en los bordes, tasa de fotogramas alta (Framerate en Display iguala el monitor), partidas del Controller Pak y teclado y mando reasignables, y funciona en Windows y Linux, incluida la Steam Deck. El README lo marca como beta y dice que se probó en Windows. La 0.1.1 (17 de octubre) es la última. 24 de sus 25 commits llevan a Claude como coautor."
+  en: "A native PC port of the Nintendo 64 version, made by static recompilation with N64Recomp on N64ModernRuntime and with RT64 as the renderer. It uses the same engine as the sequel and was built the same way as the same author’s BattleTanx: Global Assault Recompiled. It offers widescreen with the HUD at the screen edges, high frame rates (setting Framerate to Display matches your monitor), Controller Pak saves, and remappable keyboard and gamepad controls, and it runs on Windows and Linux, the Steam Deck included. The README marks it as a beta tested on Windows. Version 0.1.1 (October 17) is the latest. 24 of its 25 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de BattleTanx (USA) en formato .z64 con SHA-1 535860D941738AC1210C20A9B80114FEA0E0FF17 (también valen .n64 y .v64), que eliges con Load ROM la primera vez. Además, Windows o Linux x86-64."
+  en: "Your own copy of BattleTanx (USA) as a .z64 with SHA-1 535860D941738AC1210C20A9B80114FEA0E0FF17 (.n64 and .v64 files work too), which you choose with Load ROM the first time. Plus Windows or x86-64 Linux."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - ai-assisted

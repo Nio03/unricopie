@@ -1,0 +1,19 @@
+name: "Point Blank"
+games: [point-blank]
+console: ps1
+status: playable
+repo: TekRantGaming/point-blank-recompiled
+originalDeveloper: "Namco"
+year: 1997
+toolchain: "psxrecomp"
+desc:
+  es: "Port nativo para PC de Point Blank de PlayStation, hecho recompilando estáticamente el código del juego con PSXRecomp: cada función se traduce de código de PlayStation a C y se compila para tu equipo. El juego cree que hay una pistola GunCon enchufada, así que se apunta con el ratón y se dispara con un clic, sin pistola de luz; también funciona con mando, donde los sticks mueven una mira en pantalla y el gatillo derecho dispara. Un segundo mando da al jugador 2 su propia mira, roja contra azul. Los vídeos largos de apertura se saltan por defecto (se reactivan en la lista Mods del lanzador) y el lanzador ofrece FXAA, nitidez, brillo, mayor resolución interna, pantalla completa, VSync y un contador de FPS. Es para Windows de 64 bits; la v1.1.0 (4 de octubre) es la última. 5 de sus 6 commits llevan a Claude como coautor y el README declara que el port se hizo casi por completo con Claude Code."
+  en: "A native PC port of the PlayStation Point Blank, made by statically recompiling the game’s code with PSXRecomp: every function is translated from PlayStation code to C and compiled for your PC. The game thinks a Namco GunCon is plugged in, so you aim with the mouse and click to shoot, with no light gun; it also works with a gamepad, where the sticks move an on-screen sight and the right trigger fires. A second controller gives player 2 their own sight, red against blue. The long opening movies are skipped by default (switch them back on in the launcher’s Mods list) and the launcher offers FXAA, sharpening, brightness, higher internal resolution, fullscreen, VSync, and an FPS counter. It is for 64-bit Windows; v1.1.0 (October 4) is the latest release. 5 of its 6 commits list Claude as a co-author, and the README declares the port was made almost entirely with Claude Code."
+requirements:
+  es: "Tu propia imagen de disco de Point Blank para PlayStation, de Norteamérica (SLUS-00481), y Windows de 64 bits."
+  en: "Your own disc image of Point Blank for PlayStation, North American release (SLUS-00481), and 64-bit Windows."
+tags:
+  - mips
+  - lightgun
+  - multiplayer
+  - ai-assisted

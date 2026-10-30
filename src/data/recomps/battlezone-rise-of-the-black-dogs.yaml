@@ -1,0 +1,16 @@
+name: "Battlezone: Rise of the Black Dogs"
+games: [battlezone-rise-of-the-black-dogs]
+console: n64
+status: experimental
+repo: wootbeer/bzrecomp
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de la versión de Nintendo 64, hecho por recompilación estática con N64Recomp sobre N64ModernRuntime y con RT64 como renderizador; el autor lo construyó igual que su port de BattleTanx: Global Assault. No incluye datos del juego. Incluye filtros CRT y LCD para la imagen. El README lo marca como beta probada en Windows y Linux. En Linux se distribuye como AppImage, que también sirve en la Steam Deck, y la configuración y las partidas van a ~/.config/bzrecomp. La 0.1.0-beta (14 de octubre) es la única versión. 42 de sus 43 commits llevan a Claude como coautor."
+  en: "A native PC port of the Nintendo 64 version, made by static recompilation with N64Recomp on N64ModernRuntime and with RT64 as the renderer; the author built it the same way as their BattleTanx: Global Assault port. It includes no game data. It has CRT and LCD filters for the picture. The README marks it as a beta tested on Windows and Linux. On Linux it ships as an AppImage that also works on the Steam Deck, and settings and saves go in ~/.config/bzrecomp. Version 0.1.0-beta (October 14) is the only release. 42 of its 43 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Battlezone - Rise of the Black Dogs (USA): en formato .n64 con SHA-1 CDD1D1DEC9763CE6B7B1A70668EFFCEAD0A185A0, o .z64 con SHA-1 85B4FEBBE6FBD1ECFC883905E43E68E7188C44F9. Además, Windows o Linux x86-64."
+  en: "Your own copy of Battlezone - Rise of the Black Dogs (USA): as a .n64 with SHA-1 CDD1D1DEC9763CE6B7B1A70668EFFCEAD0A185A0, or as a .z64 with SHA-1 85B4FEBBE6FBD1ECFC883905E43E68E7188C44F9. Plus Windows or x86-64 Linux."
+tags:
+  - mips
+  - ai-assisted

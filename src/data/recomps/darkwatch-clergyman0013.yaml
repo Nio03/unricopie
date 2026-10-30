@@ -1,0 +1,19 @@
+name: "Darkwatch (Clergyman0013)"
+games: [darkwatch]
+console: xbox
+status: playable
+repo: Clergyman0013/arizona-vamp-recomp
+originalDeveloper: "High Moon Studios"
+year: 2005
+desc:
+  es: "Port nativo de Darkwatch (Xbox original, 2005) para Windows por recompilación estática: el ejecutable se traduce por adelantado a código x86-64 y las llamadas de gráficos y sonido se atienden con API modernas (Direct3D 8 sobre Direct3D 12, DirectSound sobre XAudio2); no hay nada emulado. Reactiva la campaña cooperativa de dos jugadores en pantalla dividida, que la versión de Xbox dejó fuera aunque su código y sus menús siguen en el disco, y añade modos de pantalla, escala de render, MSAA, teclado y ratón y un menú de ajustes de PC dentro del juego (F1). Está en beta y se puede jugar en Windows; los probadores llegaron hasta el jefe del primer capítulo, aún no se ha hecho una partida completa y el cooperativo solo se probó hasta el inicio del primer capítulo. Linux con Proton no está probado. La 0.5.5 (25 de octubre) es la última versión. 35 de sus 48 commits llevan a Claude como coautor."
+  en: "A native port of Darkwatch (original Xbox, 2005) for Windows by static recompilation: the executable is translated ahead of time into x86-64 code, and its graphics and sound calls are answered by modern APIs (Direct3D 8 on Direct3D 12, DirectSound on XAudio2); nothing is emulated. It turns back on the two-player split-screen co-op campaign, which the Xbox release left out although its code and menus remain on the disc, and adds display modes, render scale, MSAA, keyboard and mouse, and an in-game PC settings menu (F1). It is in beta and playable on Windows; testers have reached the first chapter’s boss fight, a full play-through has not been done yet, and co-op has only been tested through the start of the first chapter. Linux through Proton is untested. Version 0.5.5 (October 25) is the latest. 35 of its 48 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Darkwatch para la Xbox original, como imagen .iso o como default.xbe con las carpetas del juego a su lado, en la carpeta assets; el primer arranque construye el código en tu PC (tarda un rato y solo ocurre una vez). Windows 10 u 11 de 64 bits, una tarjeta con Direct3D 12 y unos 3 GB libres."
+  en: "Your own copy of Darkwatch for the original Xbox, as an .iso image or as default.xbe with the game’s folders beside it, in the assets folder; the first start builds the code on your PC (it takes a while and happens only once). 64-bit Windows 10 or 11, a Direct3D 12 card, and about 3 GB free."
+tags:
+  - x86
+  - fps
+  - multiplayer
+  - widescreen
+  - ai-assisted

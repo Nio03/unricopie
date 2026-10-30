@@ -1,0 +1,18 @@
+name: "Naruto: The Broken Bond (jorjbarbosa)"
+games: [naruto-the-broken-bond]
+console: x360
+status: experimental
+repo: jorjbarbosa/broken-bond-recomp
+originalDeveloper: "Ubisoft Montreal"
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial de Naruto: The Broken Bond (Xbox 360, 2008) para Windows. El código PowerPC del juego se recompila estáticamente con el SDK ReXGlue y los gráficos usan un renderizador propio en Direct3D 12, con los shaders traducidos al construir el port; no es un emulador. Ofrece resolución interna de 1× a 4×, filtrado anisotrópico de hasta 16×, FXAA, FidelityFX CAS o FSR, MSAA, imágenes por segundo por encima de las del juego (interpola los cuadros entre sus pasos lógicos) y un lanzador con asignación de teclado y ratón. Según el README se ha jugado en Windows 11 con los menús, el inicio del modo historia con sus primeros combates y escenas, el modo lucha y el mundo abierto, con voces en inglés y japonés, a 30 y a 60 cuadros por segundo; Xbox Live, la mayor parte de la historia, otras tarjetas gráficas y otras revisiones del ejecutable no se han probado. La única versión publicada es la 0.1.0-beta (20 de octubre), con instalador y paquete portátil. El README declara que se usan herramientas de IA como ayuda."
+  en: "An unofficial native port of Naruto: The Broken Bond (Xbox 360, 2008) for Windows. The game’s PowerPC code is statically recompiled with the ReXGlue SDK and the graphics run on a custom Direct3D 12 renderer, with the shaders translated when the port is built; it is not an emulator. It offers internal resolution from 1× to 4×, up to 16× anisotropic filtering, FXAA, FidelityFX CAS or FSR, MSAA, frame rates above the game’s own (the frames between its logic steps are interpolated), and a launcher with keyboard and mouse mapping. According to the README it has been played on Windows 11 through the menus, the start of Story Mode with its first fights and cutscenes, Fight Mode, and the open world, with English and Japanese voices, at 30 and 60 frames per second; Xbox Live, most of the story, other graphics cards, and other executable revisions have not been tested. The only published release is 0.1.0-beta (October 20), with an installer and a portable package. The README states that AI tools are used to assist development."
+requirements:
+  es: "Los archivos de tu propia copia del juego para Xbox 360, en la revisión compatible: ID de título 55530825, ID de medio 09FFE047, versión del ejecutable 0.0.0.3 y default.xex con SHA-256 8f70e79443e36b38e44b6a105dad51fb8909fb615d982753cabaac9b15f0d576. El port rechaza cualquier otra revisión. Además, Windows de 64 bits y una tarjeta gráfica compatible con Direct3D 12."
+  en: "The files from your own Xbox 360 copy of the game, in the supported revision: title ID 55530825, media ID 09FFE047, executable version 0.0.0.3, and a default.xex with SHA-256 8f70e79443e36b38e44b6a105dad51fb8909fb615d982753cabaac9b15f0d576. The port refuses any other revision. Plus 64-bit Windows and a graphics card that supports Direct3D 12."
+tags:
+  - powerpc
+  - 60fps+
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: "Tomb Raider: Definitive Edition"
+games: [tomb-raider-definitive-edition]
+category: native-layer
+console: ps4
+status: experimental
+repo: drakenabarion/tombraider_pc
+originalDeveloper: "Crystal Dynamics"
+year: 2014
+desc:
+  es: "Port nativo para Linux de la versión de PS4: el código original del juego se ejecuta directamente en el PC y los gráficos se traducen a Vulkan con el núcleo de vídeo de shadPS4, mientras que una pequeña biblioteca nativa sustituye a las bibliotecas del sistema de la PS4; no hay emulación de CPU. El propio autor lo presenta como prueba de concepto de ese método en un juego más grande, descendiente de bbport (Bloodborne), su port a Windows y los de Uncharted y Virtual-On. Según el README arranca, reproduce los vídeos de introducción con sonido y se juega bastante más allá del primer campamento base a 60 fotogramas por segundo, aunque cada shader nuevo se compila al usarse y provoca tirones, y las funciones en línea figuran como sin conexión. La 0.3.0 (25 de octubre) trae un AppImage de Linux y un zip de Windows. 61 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Linux port of the PS4 version: the game’s original code runs directly on the PC and the graphics are translated to Vulkan with shadPS4’s video core, while a small native runtime replaces the PS4 system libraries; there is no CPU emulation. The author presents it as a proof of concept of that approach on a larger game, descended from bbport (Bloodborne), its Windows port, and the Uncharted and Virtual-On ports. According to the README it boots, plays the intro videos with sound, and plays well past the first base camp at 60 frames per second, though each new shader compiles on first use and causes stutter, and online features report offline. Version 0.3.0 (October 25) provides a Linux AppImage and a Windows zip. 61 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado descifrado de Tomb Raider: Definitive Edition de PS4 (CUSA00109), el juego base con la actualización 1.01 copiada encima (la carpeta con eboot.bin y sce_module). Además, Linux x86-64 con glibc reciente, o Windows 10 (1903) u 11 de 64 bits, una GPU con Vulkan 1.3 y un controlador actual, y unos 8 GB de memoria libre."
+  en: "Your own decrypted dump of Tomb Raider: Definitive Edition for the PS4 (CUSA00109), the base game with the 1.01 update copied over it (the folder with eboot.bin and sce_module). Plus x86-64 Linux with a recent glibc, or 64-bit Windows 10 (1903) or 11, a GPU with Vulkan 1.3 and a current driver, and about 8 GB of free memory."
+tags:
+  - x86
+  - ai-assisted

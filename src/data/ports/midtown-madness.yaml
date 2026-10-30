@@ -1,0 +1,17 @@
+name: "Midtown Madness"
+games: [midtown-madness]
+category: decomp-port
+console: pc
+status: playable
+repo: 0x1F9F1/Open1560
+year: 1999
+desc:
+  es: "Reimplementación de código abierto de Midtown Madness, en concreto de la compilación 1560 de la «Sneak Preview» beta. Es una reescritura parcial: las funciones que aún no se han reescrito en C++ se aportan en ensamblador (el repositorio incluye game.asm). Busca permitir la corrección de errores, nuevas funciones y el traslado a plataformas que el original no admitía. Entre sus cambios figuran un renderizador OpenGL, mandos con SDL y correcciones de audio, de cierres, de entrada y de tirones, además de un menú de depuración y un texto mejorados y más rendimiento. Según su documentación suele funcionar bien sin ajustes y no hace falta el parche de XP ni dgVoodoo. La única versión publicada en GitHub, «Latest Build», es del 19 de abril de 2023; el último commit del repositorio es del 20 de abril de 2026."
+  en: "An open-source reimplementation of Midtown Madness, specifically of build 1560 of the Sneak Preview beta. It is a partial rewrite: the functions not yet rewritten in C++ are provided in assembly (the repository includes game.asm). It aims to allow bug fixes, new features, and porting to platforms the original didn’t support. Notable changes include an OpenGL renderer, SDL gamepad support, and fixes for audio, crashes, input, and stuttering, plus an improved debug menu and text rendering and better performance. According to its documentation it usually runs well without tweaks and needs neither the XP patch nor dgVoodoo. The only version published on GitHub, “Latest Build”, is from April 19, 2023; the repository’s last commit is from April 20, 2026."
+requirements:
+  es: "Archivos de tu propia copia original de Midtown Madness: para una instalación mínima bastan audio.ar, core.ar y ui.ar. Windows (también se menciona Wine) y una GPU con OpenGL."
+  en: "Files from your own original copy of Midtown Madness: for a minimal installation only audio.ar, core.ar, and ui.ar are required. Windows (Wine is also mentioned) and a graphics card with OpenGL."
+tags:
+  - x86
+  - racing
+  - opengl

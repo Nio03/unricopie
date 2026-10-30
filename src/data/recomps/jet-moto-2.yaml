@@ -1,0 +1,19 @@
+name: "Jet Moto 2"
+games: [jet-moto-2]
+console: ps1
+status: experimental
+repo: goodshepherd23/JetMoto2-Recomp
+year: 1998
+toolchain: RecompOne
+desc:
+  es: "Versión nativa para PC de Jet Moto 2: Championship Edition (PlayStation, 1998, SCUS-94167), hecha recompilando estáticamente el código MIPS del juego a C# con RecompOne; sin emulador ni BIOS. Es una versión temprana probada solo en Windows 11 x64: funcionan los logotipos, el título y los menús, la demo de atracción y una carrera completa controlada por el jugador (probada en Slickrock Gorge), con teclado y menú de trucos. El sonido y la música del CD, la tarjeta de memoria, las otras 19 pistas, los modos de temporada, el modo de dos jugadores y los mandos no se han probado. Añade 60 fps por interpolación, PGXP, carreras panorámicas (16:10, 16:9 o 21:9) y resolución interna de 1x a 8x. La primera ejecución recompila el juego desde tu disco. La 0.1.5 (21 de octubre) es la última versión. El README declara que se hizo con mucha ayuda de IA (Claude), y sus 7 commits llevan a Claude como coautor."
+  en: "A native PC version of Jet Moto 2: Championship Edition (PlayStation, 1998, SCUS-94167), made by statically recompiling the game’s MIPS code to C# with RecompOne; no emulator and no BIOS. It is an early release tested on Windows 11 x64 only: boot logos, title and menus, the attract demo, and a full player-controlled race (tried on Slickrock Gorge) work, with keyboard input and a cheats menu. Sound and CD music, memory card saving, the other 19 tracks, season modes, two-player, and gamepads are untested. It adds 60 fps through interpolation, PGXP, widescreen races (16:10, 16:9, or 21:9), and internal resolution from 1x to 8x. The first run recompiles the game from your disc. Version 0.1.5 (October 21) is the latest release. The README states it was made with heavy AI assistance (Claude), and all 7 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de la edición estadounidense Championship Edition (SCUS-94167): un .cue con 17 pistas .bin con los nombres de Redump, en la carpeta disc. Además, Windows x64 y el SDK de .NET 10."
+  en: "Your own dump of the US Championship Edition (SCUS-94167): a .cue with 17 .bin tracks, with Redump names, in the disc folder. Plus Windows x64 and the .NET 10 SDK."
+tags:
+  - mips
+  - racing
+  - widescreen
+  - 60fps+
+  - ai-assisted

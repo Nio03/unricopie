@@ -1,0 +1,13 @@
+name: nesrecomp
+kind: recompiler
+consoles:
+  - nes
+repo: mstan/nesrecomp
+status: beta
+desc:
+  es: "Marco de recompilación estática para NES y Famicom. Traduce el código 6502 a C nativo y aporta PPU, APU, mappers, entrada y partidas guardadas; cada port integra y valida su propia revisión de cartucho o disco. Su README lo marca como beta. Última versión: v0.4.3, del 27 de octubre. No incluye ROMs. 23 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation framework for NES and Famicom games. It translates 6502 code to native C and supplies the PPU, APU, mappers, input and save systems; each port integrates and validates its own cartridge or disk revision. Its README marks it as beta. Latest release: v0.4.3, October 27. It includes no ROMs. 23 of its last 100 commits list Claude as a co-author."
+tags:
+  - "6502"
+  - static-recomp
+  - ai-assisted

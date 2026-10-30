@@ -1,0 +1,18 @@
+name: "Harry Potter and the Philosopher's Stone"
+games: [harry-potter-and-the-philosophers-stone]
+console: xbox
+status: playable
+repo: MiddleDucky/HP-PS-Xbox-Recomp
+originalDeveloper: "Electronic Arts"
+year: 2003
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo para Windows de Harry Potter and the Philosopher’s Stone (Xbox original, 2003, versión PAL), por recompilación estática: el código x86 del juego se traduce a C y se compila para Windows, con el núcleo de Xbox, Direct3D 8, DirectSound y los controles sustituidos por código nativo; no es un emulador. Añade resoluciones de hasta 4K con MSAA o SMAA y filtrado anisotrópico, 16:9 real (3D ensanchado, 2D sin deformar), ventana, sin bordes o pantalla completa, teclado y ratón con reasignación, ajustes de mando, filtros para daltónicos, un límite de 30 cuadros por segundo o cuadros sin límite y «Quit To Desktop» en los menús del juego. La 0.2.1 (25 de octubre) es la última versión; la 0.1.0 salió el 21 de octubre. El README dice que el proyecto se hizo con ayuda de Claude Code."
+  en: "A native Windows port of Harry Potter and the Philosopher’s Stone (original Xbox, 2003, PAL version), by static recompilation: the game’s x86 code is translated to C and compiled for Windows, with the Xbox kernel, Direct3D 8, DirectSound, and input replaced by native code; it is not an emulator. It adds resolutions up to 4K with MSAA or SMAA and anisotropic filtering, true 16:9 (widened 3D, 2D kept in shape), windowed, borderless, or fullscreen modes, keyboard and mouse with rebinding, controller settings, colour-blind correction filters, a 30 frames-per-second cap or an unlocked frame rate, and “Quit To Desktop” in the game’s menus. Version 0.2.1 (October 25) is the latest; 0.1.0 came out on October 21. The README says the project was aided by Claude Code."
+requirements:
+  es: "Los archivos de tu propio disco de Harry Potter and the Philosopher’s Stone para Xbox (PAL), o su .xiso, en una carpeta game junto a los ejecutables; la compilación regenera el código recompilado desde tu default.xbe. Windows 10 u 11 de 64 bits, una CPU con SSE4.1 y 4 hilos, 4 GB de RAM, una tarjeta DirectX 12 (nivel de características 11_0) y unos 3,1 GB libres; las ediciones N de Windows necesitan el Media Feature Pack."
+  en: "The files from your own Harry Potter and the Philosopher’s Stone disc for Xbox (PAL), or its .xiso, in a game folder beside the executables; the build regenerates the recompiled code from your default.xbe. 64-bit Windows 10 or 11, a CPU with SSE4.1 and 4 threads, 4 GB of RAM, a DirectX 12 card (feature level 11_0), and about 3.1 GB free; Windows N editions need the Media Feature Pack."
+tags:
+  - x86
+  - widescreen
+  - ai-assisted

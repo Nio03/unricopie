@@ -1,0 +1,19 @@
+name: "Hexen II (uHexen2 Tweaked)"
+games: [hexen-ii]
+category: source-port
+console: pc
+status: experimental
+repo: TDRRmk2/uhexen2-tweaked
+forkOf:
+  label: "sezero/uhexen2"
+  url: https://github.com/sezero/uhexen2
+originalDeveloper: "Raven Software"
+year: 1997
+desc:
+  es: "Hexen II: Hammer of Thyrion Tweaked: una versión «ligeramente retocada» de uHexen2 (Hammer of Thyrion), el port del código fuente de Hexen II, según la descripción del repositorio, que parte de sezero/uhexen2. Por los mensajes de sus commits, añade una variable de consola gl_ambientlight para el nivel mínimo de luz de los mapas de iluminación, hace que todo el juego respete gl_texturemode, añade una variable para que el campo de visión afecte al modelo del arma, guarda el FOV en el archivo ini y corrige el modo de envoltura de los gráficos del HUD. El README es solo la línea heredada de uHexen2. La única versión, Test 1 (30 de marzo), trae una compilación para Windows (win32)."
+  en: "Hexen II: Hammer of Thyrion Tweaked: a “lightly touched up” version of uHexen2 (Hammer of Thyrion), the Hexen II source port, according to the repository description, built from sezero/uhexen2. Judging by its commit messages, it adds a gl_ambientlight console variable for the minimum lightmap light level, makes the whole game respect gl_texturemode, adds a variable to let the field of view affect the weapon model, saves the FOV to the ini file, and fixes the wrap mode of HUD graphics. The README is only the line inherited from uHexen2. The single release, Test 1 (March 30), has a Windows (win32) build."
+requirements:
+  es: "Una copia de Hexen II; el README del repositorio no detalla los archivos. Windows para la compilación publicada (win32)."
+  en: "A copy of Hexen II; the repository’s README doesn’t list the files. Windows for the published build (win32)."
+tags:
+  - fps

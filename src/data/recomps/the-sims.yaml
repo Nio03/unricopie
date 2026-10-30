@@ -1,0 +1,17 @@
+name: "The Sims"
+games: [the-sims]
+console: xbox
+status: playable
+repo: abilliontokens/sims1-recomp
+originalDeveloper: "Maxis"
+year: 2003
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo de The Sims para la Xbox original (EE. UU.) a Linux y Windows, por recompilación estática del ejecutable del juego sobre el entorno de ejecución de XboxXBERecomp: Vulkan y SDL3 en Linux, Direct3D 12 y XAudio2 en Windows, sin Wine ni emulador. Según el README arranca desde la imagen de disco, reproduce las películas de introducción y llega a los menús, a Crear un Sim y a un hogar jugable en modo en vivo (17 de 17 pruebas), a unos 60 cuadros por segundo. Incluye un panel de ajustes (F1) y otro de rendimiento (F2), teclado y ratón o mando, y la velocidad de juego es real a cualquier tasa de cuadros. Es el cuarto título de Maxis portado con este entorno y el primero con la compilación XDK 5233, para la que el proyecto hizo sus propias firmas. Las películas a pantalla completa se recortan 24 filas y el ensanchado ultrapanorámico no se ha analizado. La 0.2.0 (21 de octubre) es la última versión."
+  en: "A native port of The Sims for the original Xbox (USA) to Linux and Windows, by static recompilation of the game’s executable on top of the XboxXBERecomp runtime: Vulkan and SDL3 on Linux, Direct3D 12 and XAudio2 on Windows, with no Wine and no emulator. According to the README it boots from the disc image, plays its intro movies, and reaches its menus, Create a Sim, and a playable household in live mode (17 of 17 runs), at about 60 frames per second. It includes a settings panel (F1) and a performance panel (F2), keyboard and mouse or gamepad support, and game speed is real time at any frame rate. It is the fourth Maxis console title ported with this framework and the first on XDK 5233, for which the project made its own signature set. Full-screen movies are cropped by 24 rows and ultrawide widening has not been analyzed. Version 0.2.0 (October 21) is the latest."
+requirements:
+  es: "Tu propia copia de The Sims para la Xbox original, estadounidense, como imagen .iso en la carpeta assets o con los archivos del disco extraídos allí. Windows con Direct3D 12 o Linux con Vulkan (clang, cmake y ninja para compilarlo)."
+  en: "Your own copy of The Sims for the original Xbox, USA, as an .iso image in the assets folder or with the disc’s files extracted there. Windows with Direct3D 12 or Linux with Vulkan (clang, cmake, and ninja to build it)."
+tags:
+  - x86
+  - simulation

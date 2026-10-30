@@ -1,0 +1,18 @@
+name: "Hydro Thunder Hurricane"
+games: [hydro-thunder-hurricane]
+console: x360
+status: experimental
+repo: monscriser/HydroThunderPORT
+originalDeveloper: "Vector Unit"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Port experimental no oficial de Hydro Thunder Hurricane (Xbox 360) para Windows y Linux. El juego se recompila estáticamente con ReXGlue y se muestra con un backend gráfico Vulkan, con trabajo de compatibilidad con Xbox 360 basado en Xenia. Incluye un lanzador de configuración (resolución, escalado FSR 1 y FSR 3.1 experimental, FXAA, límite de cuadros por segundo, copia de seguridad de partidas, acceso directo de Steam), mando y teclado reasignable y cachés persistentes de shaders; en Windows es un ejecutable nativo y en Linux, un AppImage. La pantalla dividida local se admite pero falta validarla, y siguen apareciendo tirones al compilar shaders y algunos fallos gráficos, como luces de puertas que se ven a través del escenario. La revisión 9.1.0 (17 de octubre) corrige un cierre al salir por el menú del juego y la iluminación que atravesaba las paredes, y añade una pestaña de controles."
+  en: "An unofficial experimental port of Hydro Thunder Hurricane (Xbox 360) for Windows and Linux. The game is statically recompiled with ReXGlue and drawn by a Vulkan graphics backend, with Xbox 360 compatibility work informed by Xenia. It includes a configuration launcher (resolution, FSR 1 and experimental FSR 3.1 scaling, FXAA, frame-rate limit, save backup, Steam shortcut), remappable controller and keyboard controls, and persistent shader caches; on Windows it is a native executable and on Linux an AppImage. Local split screen is supported but still needs validation, and shader compilation can still stutter and some graphics issues remain, such as colored gate lights showing through scenery. Revision 9.1.0 (October 17) fixes a crash when leaving through the in-game menu and lighting showing through walls, and adds a controls tab."
+requirements:
+  es: "Tus propios archivos de Hydro Thunder Hurricane para Xbox 360 (juego, DLC y actualización de título; se admite la configuración de la actualización 0.0.2.1), como contenido extraído o paquetes de contenido de Xbox 360, que se eligen en el lanzador. Windows (ejecutable nativo) o Linux (AppImage), con una tarjeta gráfica compatible con Vulkan."
+  en: "Your own Hydro Thunder Hurricane files for Xbox 360 (game, DLC, and title update; the 0.0.2.1 title update configuration is supported), as extracted content or Xbox 360 content packages, chosen in the launcher. Windows (native executable) or Linux (AppImage), with a Vulkan-capable graphics card."
+tags:
+  - powerpc
+  - racing
+  - 60fps+

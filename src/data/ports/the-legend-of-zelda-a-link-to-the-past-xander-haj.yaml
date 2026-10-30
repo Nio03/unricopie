@@ -1,0 +1,19 @@
+name: "The Legend of Zelda: A Link to the Past (xander-haj)"
+games: [the-legend-of-zelda-a-link-to-the-past]
+category: fan-remake
+console: snes
+status: playable
+repo: xander-haj/Z3R
+originalDeveloper: "Nintendo"
+year: 1991
+desc:
+  es: "Z3R es una bifurcación de zelda3, la reimplementación en C de A Link to the Past de snesrev, con pantalla ancha, cambios en la interfaz (HUD), ajustes y un aleatorizador en fase inicial. El código fuente genera un ejecutable nativo y un archivo de recursos, zelda3_assets.dat, que se crea a partir de tu ROM. El aleatorizador por ahora solo mezcla los objetos de los cofres de las mazmorras. Tiene un lanzador propio (Z3R Launcher) y una wiki. La última versión, la 0.2.4 (16 de junio), trae paquetes para Windows, Linux (AppImage y Flatpak) y macOS."
+  en: "Z3R is a fork of zelda3, snesrev’s C reimplementation of A Link to the Past, adding widescreen, HUD changes, settings, and an early randomizer. The source builds a native executable and a runtime asset file, zelda3_assets.dat, that is generated from your ROM. For now the randomizer only shuffles the items in dungeon chests. It has its own launcher (Z3R Launcher) and a wiki. The latest release, 0.2.4 (June 16), ships packages for Windows, Linux (AppImage and Flatpak), and macOS."
+requirements:
+  es: "Tu propia ROM limpia de The Legend of Zelda: A Link to the Past (EE. UU.), como zelda3.sfc o zelda3.smc en la raíz del proyecto, para extraer los recursos. Para compilar desde el código fuente hacen falta además Git, Python 3 con Pillow y PyYAML, SDL2 y un compilador de C (MSBuild o TCC en Windows)."
+  en: "Your own clean The Legend of Zelda: A Link to the Past (USA) ROM, as zelda3.sfc or zelda3.smc in the project root, to extract the assets. Building from source also needs Git, Python 3 with Pillow and PyYAML, SDL2, and a C compiler (MSBuild or TCC on Windows)."
+tags:
+  - "65816"
+  - widescreen
+  - randomizer
+  - rpg

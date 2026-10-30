@@ -1,0 +1,15 @@
+name: "Dead Cells (PS5)"
+games: [dead-cells]
+category: native-layer
+console: ps5
+status: playable
+repo: OverkillLabs3/DC-PS5
+desc:
+  es: "Dead Cells de PS5 como programa nativo de Windows: el código x86-64 original se vuelve a enlazar en un ejecutable independiente que corre directamente, sin emulador, sin emulación de CPU y sin un proceso de ejecución aparte. Los shaders de la GPU se recompilan a Vulkan y las bibliotecas de la consola se proporcionan como DLL normales. Se apoya en el proyecto AnyPS5. Según el README se juega desde el logo hasta la partida, con música y efectos, a unos 55 a 60 cuadros por segundo en interiores y 30 a 35 en exteriores. La v0.1.0 (9 de octubre) es la única versión publicada."
+  en: "Dead Cells for PS5 as a native Windows program: the original x86-64 code is relinked into a standalone executable that runs directly, with no emulator, no CPU emulation, and no separate runtime process. The GPU shaders are recompiled to Vulkan and the console libraries are provided as ordinary DLLs. It builds on the AnyPS5 project. According to the README it is playable from the logo through gameplay, with music and sound effects, at about 55 to 60 frames per second in indoor scenes and 30 to 35 in outdoor ones. Version 0.1.0 (October 9) is the only published release."
+requirements:
+  es: "Tu propia copia descifrada de Dead Cells: Return to Castlevania Edition para PS5 (PPSA15552, versión 01.000.000), con eboot.elf, sce_sys, sce_module, res.pak y el resto de archivos junto a deadcells.exe; otras versiones y regiones no se han probado. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan 1.1 o posterior (con VK_EXT_depth_clip_control, compresión BC y buffer device address) y se recomiendan 16 GB de RAM o más."
+  en: "Your own decrypted copy of Dead Cells: Return to Castlevania Edition for PS5 (PPSA15552, version 01.000.000), with eboot.elf, sce_sys, sce_module, res.pak, and the rest of the files next to deadcells.exe; other versions and regions have not been tested. Plus 64-bit Windows 10 or 11, a graphics card with Vulkan 1.1 or newer (with VK_EXT_depth_clip_control, BC compression, and buffer device address), and 16 GB of RAM or more is recommended."
+tags:
+  - x86
+  - platformer

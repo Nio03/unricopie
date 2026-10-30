@@ -1,0 +1,10 @@
+name: "The Legend of Zelda: The Minish Cap"
+games: [the-legend-of-zelda-the-minish-cap]
+console: gba
+repo: zeldaret/tmc
+desc:
+  es: "Decompilación en curso de The Legend of Zelda: The Minish Cap, que busca recrear desde cero una base de código fuente del juego a partir de la información que contiene y de análisis estático o dinámico. Puede generar las ROM de las versiones estadounidense, japonesa y europea y de las demos estadounidense y japonesa, comprobadas por SHA-1. El repositorio no incluye ningún recurso: hace falta una copia previa del juego para extraerlos. El README advierte que el trabajo sigue en curso, que ciertas partes de la ROM aún no se pueden desplazar y que el código puede cambiar mucho. El progreso se sigue en zelda64.dev. La última actividad es del 27 de septiembre."
+  en: "An ongoing decompilation of The Legend of Zelda: The Minish Cap, which aims to recreate a source code base for the game from scratch, using information found inside the game along with static and dynamic analysis. It can build the US, Japanese, and European ROMs and the US and Japanese demos, checked by SHA-1. The repository includes no assets: a prior copy of the game is needed to extract them. The README warns that the work is in progress, that some parts of the ROM can’t be shifted yet, and that the code can change drastically. Progress is tracked at zelda64.dev. The latest activity was on September 27."
+tags:
+  - arm
+  - reverse-engineering

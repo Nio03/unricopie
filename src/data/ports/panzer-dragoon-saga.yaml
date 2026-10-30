@@ -1,0 +1,15 @@
+name: "Panzer Dragoon Saga"
+games: [panzer-dragoon-saga]
+category: game-engine
+console: saturn
+status: experimental
+repo: yaz0r/Azel
+year: 1998
+desc:
+  es: "Reimplementación en C++ de Panzer Dragoon Saga (Sega Saturn) hecha por ingeniería inversa; el proyecto se llama Azel. Por ahora solo se admite Windows: se necesita Visual Studio 2022 y CMake, se clona el repositorio con sus submódulos y se genera la solución con vs2022.bat. Según el README es un proyecto muy temprano: el comienzo del juego es medio jugable, con errores, hasta el combate contra el Arachnoth. No tiene releases publicadas; la última actividad del repositorio es del 29 de octubre."
+  en: "A C++ reimplementation of Panzer Dragoon Saga (Sega Saturn) made by reverse engineering; the project is called Azel. Only Windows is supported for now: it needs Visual Studio 2022 and CMake, and you clone the repository with its submodules and generate the solution with vs2022.bat. According to the README it is very early: the start of the game is semi-playable, with bugs, up to the Arachnoth battle. It has no published releases; the repository’s last activity was on October 29."
+requirements:
+  es: "Tu propia copia de Panzer Dragoon Saga: el contenido del CD1 en la carpeta data. Windows con Visual Studio 2022 y CMake para compilar."
+  en: "Your own copy of Panzer Dragoon Saga: the contents of CD1 in the data folder. Windows with Visual Studio 2022 and CMake to build."
+tags:
+  - reverse-engineering

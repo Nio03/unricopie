@@ -1,0 +1,15 @@
+name: "Asuka 120% Final: Burning Fest. Final"
+games: [asuka-120-final-burning-fest-final]
+console: ps1
+status: experimental
+repo: elprogramadorloco-arch/asuka100-recomp
+toolchain: PSXRecomp
+desc:
+  es: "Recompilación estática de Asuka 120% Final: Burning Fest. Final (PlayStation, Japón, SLPS-02074) para Windows x64, hecha con PSXRecomp. El código MIPS del juego se traduce a C y se compila en un ejecutable nativo en tu propio equipo a partir de tu disco: run.bat descarga una cadena de herramientas portátil fijada y verificada por SHA-256 (clang 22, CMake, Ninja y Python), valida el disco, recompila y arranca el juego, con un lanzador para vídeo, controles y tarjetas de memoria. El README, en español y en inglés, no dice qué partes funcionan. La única versión es la 0.1 (2 de octubre), que publica el código fuente. Su único commit lleva a Claude como coautor."
+  en: "A static recompilation of Asuka 120% Final: Burning Fest. Final (PlayStation, Japan, SLPS-02074) for Windows x64, made with PSXRecomp. The game’s MIPS code is translated to C and compiled into a native executable on your own PC from your disc: run.bat downloads a pinned, SHA-256-verified portable toolchain (clang 22, CMake, Ninja, and Python), validates the disc, recompiles, and starts the game, with a launcher for video, controls, and memory cards. The README, in Spanish and English, doesn’t say which parts work. The only release is 0.1 (October 2), which publishes the source. Its only commit lists Claude as a co-author."
+requirements:
+  es: "Tu propio volcado Redump del juego japonés (SLPS-02074) como .cue + .bin (el .bin de 291.095.280 bytes, SHA-1 d33f5e7f73a5a4d0c92f157c2106fe53c789358c). Además, Windows 10 u 11 de 64 bits, unos 6 GB libres y conexión a internet en la primera ejecución (unos 200 MB de herramientas)."
+  en: "Your own Redump dump of the Japanese game (SLPS-02074) as .cue + .bin (the .bin is 291,095,280 bytes, SHA-1 d33f5e7f73a5a4d0c92f157c2106fe53c789358c). Plus 64-bit Windows 10 or 11, about 6 GB free, and an internet connection on first run (about 200 MB of tools)."
+tags:
+  - mips
+  - ai-assisted

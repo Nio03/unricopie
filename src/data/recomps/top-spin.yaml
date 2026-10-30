@@ -1,0 +1,19 @@
+name: "Top Spin"
+games: [top-spin]
+console: xbox
+status: experimental
+repo: djultra64/Max-Spin
+originalDeveloper: "PAM Development"
+year: 2003
+toolchain: xboxrecomp
+desc:
+  es: "Max Spin es una recompilación nativa para Windows y Linux de Top Spin (Xbox original, 2003), con SDL3 y Vulkan, gráficos modernos y controles adaptados a los mandos actuales. Ofrece 4K y 16:9, un límite de 60 cuadros por segundo por defecto, antialiasing, filtrado de sprites (Original, Super-xBR 2× y 4×), iconos de botones de Xbox, PlayStation y Switch según el mando, teclado, opciones gráficas dentro del juego y carpetas separadas para partidas y ajustes. Admite paquetes de deportistas locales que sustituyen jugadores del reparto sin recompilar. Los lanzamientos son vistas previas con compatibilidad incompleta, y Windows sigue siendo experimental. El paquete precompilado lleva los ejecutables del juego ya traducidos desde su ejecutable; la versión con solo el código fuente no los incluye. La 0.1.3 (26 de octubre) es la última versión. El proyecto declara un uso extenso de IA en la implementación, la depuración y las pruebas."
+  en: "Max Spin is a native Windows and Linux recompilation of Top Spin (original Xbox, 2003), using SDL3 and Vulkan, with modern graphics and controls adapted to today’s controllers. It offers 4K and 16:9, a 60 frames-per-second cap by default, antialiasing, sprite filtering (Original, Super-xBR 2x and 4x), Xbox, PlayStation, and Switch button glyphs chosen from the active controller, keyboard support, in-game graphics options, and separate save and settings folders. It supports local athlete packages that replace roster players without recompiling. Releases are previews with incomplete compatibility, and Windows remains experimental. The prebuilt package ships the game’s executables already translated from its executable; the source-only release leaves them out. Version 0.1.3 (October 26) is the latest. The project discloses extensive AI use for implementation, debugging, and tests."
+requirements:
+  es: "Tus propios archivos extraídos del disco de Top Spin para la Xbox original, con la carpeta Media y los nueve ejecutables del juego, en la carpeta assets; después hay que preparar los recursos locales con Python 3 (no extrae ISO). Linux de 64 bits con glibc 2.38 o superior, SDL3, Vulkan y shaderc, o Windows de 64 bits."
+  en: "Your own extracted files from the original Xbox Top Spin disc, including the Media folder and all nine executable images, in the assets folder; the local resources are then prepared with Python 3 (it does not extract an ISO). 64-bit Linux with glibc 2.38 or newer, SDL3, Vulkan, and shaderc, or 64-bit Windows."
+tags:
+  - x86
+  - sports
+  - widescreen
+  - ai-assisted

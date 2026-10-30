@@ -1,0 +1,18 @@
+name: "Zombies Ate My Neighbors"
+games: [zombies-ate-my-neighbors]
+category: game-engine
+console: snes
+status: playable
+repo: moshferatu/zombies-ate-my-neighbors-pc-port
+originalDeveloper: "LucasArts"
+year: 1993
+desc:
+  es: "Port no oficial para PC de Zombies Ate My Neighbors, de SNES. La lógica del juego se está reescribiendo en C y se valida contra la ejecución de la ROM original, pero parte del juego sigue emulándose (usa LakeSnes para emular el hardware y comprobar el port) y solo una pequeña porción de lo que corre de forma nativa está traducida a C legible. Añade pantalla ancha (16:9, 16:10 y 21:9), movimiento más fluido en pantallas de alta frecuencia, mando USB con movimiento y puntería de dos palancas, guardado y carga rápidos, hitboxes más grandes opcionales, trucos opcionales y efectos de sonido que el original no reproduce o corta. El README lo describe como plenamente jugable pero en pleno desarrollo, y declara que todo el código se generó con Claude Code o Codex. La última versión (28 de octubre) añadió una compilación para Linux, todavía experimental, junto a la de Windows."
+  en: "An unofficial PC port of the SNES game Zombies Ate My Neighbors. The game’s logic is being rewritten in C and validated against the original ROM’s execution, but part of the game is still emulated (it uses LakeSnes to emulate the hardware and check the port), and only a small portion of what runs natively has been translated into readable C. It adds widescreen (16:9, 16:10, and 21:9), smoother motion on high-refresh displays, USB controller support with twin-stick movement and aiming, quick save and load, optional larger hitboxes, optional cheats, and sound effects that the original doesn’t play or cuts off. The README describes it as fully playable but very much a work in progress, and states that every line of code was generated with Claude Code or Codex. The latest release (October 28) added a Linux build, still experimental, alongside the Windows one."
+requirements:
+  es: "Tu propia ROM de Zombies Ate My Neighbors (EE. UU.), de 1.048.576 bytes (MD5 23c2af7897d9384c4791189b68c142eb, SHA-1 1be79496d7a38b293d6a5d9fba0e16f3cb37d5ff). Windows de 64 bits o Linux de 64 bits (experimental); SDL2 viene incluido."
+  en: "Your own Zombies Ate My Neighbors (USA) ROM, 1,048,576 bytes (MD5 23c2af7897d9384c4791189b68c142eb, SHA-1 1be79496d7a38b293d6a5d9fba0e16f3cb37d5ff). 64-bit Windows or 64-bit Linux (experimental); SDL2 is included."
+tags:
+  - "65816"
+  - widescreen
+  - ai-assisted

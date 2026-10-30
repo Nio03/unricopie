@@ -1,0 +1,16 @@
+name: "Mutant Rampage: Bodyslam"
+games: [mutant-rampage-bodyslam]
+console: other
+status: experimental
+repo: tools81/mutant-rampage-bodyslam-static-recomp
+year: 1995
+desc:
+  es: "Port nativo no oficial de Mutant Rampage: Bodyslam (Philips CD-i, 1995) para Windows, hecho por recompilación estática: el código 68000 del juego se traduce de antemano a C. Un entorno propio aporta el núcleo CD-RTOS (OS-9), el gestor de archivos del CD, el decodificador de vídeo (con un presentador Direct3D 11 a cualquier resolución), el procesador de audio ADPCM y el cartucho de vídeo digital (FMV), cuyo decodificador MPEG reproduce la música y las animaciones del juego. Los tres módulos del disco están traducidos por completo; solo el código que el juego carga en memoria en tiempo de ejecución corre en el intérprete incluido. La compilación produce bodyslam.exe, con la presentación original, y bodyslam_hd.exe, con los ampliadores Cartoon HD y HD+ e interpolación de sprites a 60 cuadros por segundo; comparten partidas rápidas. Entre sus límites conocidos, solo se emula la temporización NTSC, la que usa el disco estadounidense. La 1.0.0 se publicó el 21 de octubre. Su único commit lleva a Claude como coautor."
+  en: "An unofficial native port of Mutant Rampage: Bodyslam (Philips CD-i, 1995) for Windows, made by static recompilation: the game’s 68000 code is translated ahead of time into C. A runtime of its own provides the CD-RTOS (OS-9) kernel, the CD file manager, the video decoder (with a Direct3D 11 presenter at any resolution), the ADPCM audio processor, and the Digital Video (FMV) cartridge, whose MPEG decoder plays the game’s music and animated cutscenes. The three program modules on the disc are fully translated; only code the game loads into memory at run time runs in the built-in interpreter. The build produces bodyslam.exe, with the original presentation, and bodyslam_hd.exe, with the Cartoon HD and HD+ upscalers and sprite interpolation at 60 frames per second; they share quicksaves. Among its known limitations, only NTSC timing is emulated, which is what the US disc uses. Version 1.0.0 was published on October 21. Its only commit lists Claude as a co-author."
+requirements:
+  es: "Tu propia imagen del disco de Mutant Rampage: Bodyslam, como .bin y .cue con sectores en bruto de 2352 bytes. El instalador y el zip portátil no incluyen el disco; el instalador pide la imagen y la comprueba. Windows 10 o posterior; para compilar desde el código, Visual Studio 2022, CMake 3.19 y Python 3.8."
+  en: "Your own image of the Mutant Rampage: Bodyslam disc, as a .bin and .cue with raw 2352-byte sectors. The installer and the portable zip don’t include the disc; the installer asks for the image and checks it. Windows 10 or later; to build from source, Visual Studio 2022, CMake 3.19, and Python 3.8."
+tags:
+  - "68000"
+  - 60fps+
+  - ai-assisted

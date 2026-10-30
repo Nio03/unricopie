@@ -1,0 +1,20 @@
+name: "Final Fantasy Crystal Chronicles: Echoes of Time"
+games: [final-fantasy-crystal-chronicles-echoes-of-time]
+console: nds
+status: experimental
+repo: JonathanDC64/FFCCEOT-Recomp
+originalDeveloper: "Square Enix"
+year: 2009
+desc:
+  es: "Port nativo para PC de la versión de Nintendo DS, hecho por recompilación estática: el código ARM del juego se traduce a C y se compila en tu equipo, sin emularlo. Al elegir la ROM la primera vez, el juego se construye en tu PC en cerca de un minuto. Se juega a una sola pantalla por defecto, con la segunda como imagen en imagen táctil y otras disposiciones posibles, con un renderizador OpenGL de hasta 16 veces la resolución de la DS, pantalla ancha, interpolación para pasar de 30 fotogramas a 60 o a la frecuencia del monitor, mando completo y juego en línea. El README lo llama alfa: arranca y se juega desde el título hasta el campo, con sonido y partidas guardadas, pero solo se han recorrido las primeras zonas; las funciones marcadas como experimentales (pantalla ancha, 3D a más fotogramas, juego en línea) han tenido menos pruebas, y en Linux faltan el aviso de fallos y la conexión inalámbrica local. La 0.3.1-alpha (12 de octubre) trae un zip de Windows y un AppImage de Linux. 84 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native PC port of the Nintendo DS version, made by static recompilation: the game’s ARM code is translated to C and compiled on your PC, not emulated. When you pick your ROM the first time, the game is built on your PC in about a minute. It plays on a single screen by default, with the second screen as a touchable picture-in-picture and other layouts available, with an OpenGL renderer up to 16 times the DS resolution, widescreen, interpolation from 30 frames to 60 or your monitor’s rate, full gamepad play, and online play. The README calls it alpha: it boots and plays from the title screen into the field, with sound and saves, but only the opening areas have been played through; the features marked experimental (widescreen, 3D at higher frame rates, online play) have had less testing, and on Linux the crash dialog and local wireless are missing. Version 0.3.1-alpha (October 12) provides a Windows zip and a Linux AppImage. 84 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Final Fantasy Crystal Chronicles: Echoes of Time de DS, de EE. UU. (CFIE, SHA-1 1df23d5a3a655bdd587c360b581202931d0f66e1) o europea (CFIP, SHA-1 18f7004f74c83feba40f003641ec00571e52a301); la japonesa no se admite. Cada versión guarda sus propias partidas. Además, Windows o Linux x86-64."
+  en: "Your own Final Fantasy Crystal Chronicles: Echoes of Time ROM for the DS, US (CFIE, SHA-1 1df23d5a3a655bdd587c360b581202931d0f66e1) or European (CFIP, SHA-1 18f7004f74c83feba40f003641ec00571e52a301); the Japanese one is not supported. Each version keeps its own saves. Plus Windows or x86-64 Linux."
+tags:
+  - arm
+  - rpg
+  - multiplayer
+  - widescreen
+  - 60fps+
+  - ai-assisted

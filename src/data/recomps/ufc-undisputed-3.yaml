@@ -1,0 +1,18 @@
+name: "UFC Undisputed 3"
+games: [ufc-undisputed-3]
+console: x360
+status: experimental
+repo: monscriser/UFC3MONS
+originalDeveloper: "Yuke's"
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: "Proyecto experimental no oficial de UFC Undisputed 3 (Xbox 360) para Windows y Linux, recompilado estáticamente con ReXGlue, con un backend gráfico Vulkan y componentes de compatibilidad derivados de Xenia. Combina un lanzador (portugués, inglés y español; elección de la fuente del juego, DLC, acceso directo de Steam, copias de partidas), mando y teclado reasignable, y mejoras de rendimiento de CPU y GPU, como el envío a la GPU en dos hilos, cachés de constantes y descriptores y escalado AMD FSR 1 opcional. Incluye trucos opcionales, desactivados por defecto. La mayor parte del trabajo apunta al mod comunitario Reborn, cuyo crédito es de sus autores: el modo carrera y las exhibiciones de Reborn se pueden jugar en Windows, y en un ROG Ally con Linux a 20 W un combate de carrera se mantiene a 60 cuadros por segundo según el autor. La última versión es la R9.4-P14.5 (28 de octubre)."
+  en: "An unofficial experimental native PC project for UFC Undisputed 3 (Xbox 360) on Windows and Linux, statically recompiled with ReXGlue, with a Vulkan graphics backend and Xenia-derived compatibility components. It combines a launcher (Portuguese, English, and Spanish; choice of game source, DLC, Steam shortcut, save backups), remappable controller and keyboard controls, and CPU and GPU performance work such as two-thread GPU submission, constant and descriptor caches, and optional AMD FSR 1 upscaling. It includes optional cheats, off by default. Most of the work targets the community-made Reborn mod, whose credit belongs to its creators: Reborn’s career mode and exhibitions can be played on Windows, and on a Linux ROG Ally at 20 W a career fight holds 60 frames per second according to the author. The latest release is R9.4-P14.5 (October 28)."
+requirements:
+  es: "Tu propia copia de UFC Undisputed 3 para Xbox 360: la carpeta de Reborn, la edición original (XEX o carpeta) o una ISO, que se lee directamente; el DLC se instala desde una carpeta en el lanzador. Una tarjeta gráfica compatible con Vulkan y una CPU con SSE4.2 (no hace falta AVX2), en Windows o Linux."
+  en: "Your own copy of UFC Undisputed 3 for Xbox 360: the Reborn folder, the original edition (XEX or folder), or an ISO, which is read directly; DLC is installed from a folder in the launcher. A Vulkan-capable graphics card and a CPU with SSE4.2 (AVX2 is not required), on Windows or Linux."
+tags:
+  - powerpc
+  - fighting
+  - mods

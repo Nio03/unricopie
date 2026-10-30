@@ -1,0 +1,19 @@
+name: "BBLIT Remaster"
+games: [bugs-bunny-lost-in-time]
+kind: mod
+console: pc
+status: beta
+repo: InLineR495/BBLIT-Remaster
+game:
+  es: "Bugs Bunny: Lost in Time (PC, 1999)"
+  en: "Bugs Bunny: Lost in Time (PC, 1999)"
+desc:
+  es: "Mod que dibuja Bugs Bunny: Lost in Time (PC, 1999) con un renderizador moderno y deja intactos la lógica, los niveles, la física y las partidas guardadas. Es un único ddraw.dll más un remaster.ini, que se copian a la carpeta BIN junto a bugs.exe; no modifica archivos del juego y borrar ddraw.dll devuelve el juego original. Mantiene la lógica a 30 ticks por segundo y dibuja cuadros intermedios interpolando el movimiento de personajes, cámara y animaciones, así que funciona a 60, 90, 120 o 144 Hz a la velocidad correcta. Añade pantalla ancha, el doble de distancia de dibujo, bruma en el suelo y mandos modernos. La 1.0-beta2 (19 de octubre) se probó en Linux con Steam y Proton (Legion Go 2 y Bazzite): los niveles de la primera era se probaron a fondo y el resto por encima; en Windows debería funcionar, pero no se ha probado en equipos reales. 28 de sus 31 commits llevan a Claude como coautor."
+  en: "A mod that draws Bugs Bunny: Lost in Time (PC, 1999) with a modern renderer and leaves the logic, levels, physics, and save files untouched. It is a single ddraw.dll plus a remaster.ini, copied into the BIN folder next to bugs.exe; it modifies no game files, and deleting ddraw.dll brings the stock game back. It keeps the game logic at 30 ticks per second and draws in-between frames by interpolating the movement of characters, camera, and animations, so 60, 90, 120, and 144 Hz all play at the correct speed. It adds widescreen, twice the draw distance, ground haze, and modern gamepad controls. Version 1.0-beta2 (October 19) was tested on Linux with Steam and Proton (Legion Go 2 and Bazzite): the levels of the first era were tested thoroughly and the rest were spot-checked; Windows should work but hasn’t been tested on real hardware. 28 of its 31 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia instalada de Bugs Bunny: Lost in Time para PC (del disco europeo o norteamericano). El mod solo funciona en el modo OpenGL del juego: hay que ejecutar BIN\\bugs.exe directamente con /opengl /win /b0 /x800 /y600. En Linux se probó con Proton Experimental."
+  en: "Your own installed copy of Bugs Bunny: Lost in Time for PC (from the European or North American disc). The mod only works in the game’s OpenGL mode: run BIN\\bugs.exe directly with /opengl /win /b0 /x800 /y600. On Linux it was tested with Proton Experimental."
+tags:
+  - widescreen
+  - 60fps+
+  - ai-assisted

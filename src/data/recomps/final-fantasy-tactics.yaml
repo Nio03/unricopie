@@ -1,0 +1,16 @@
+name: "Final Fantasy Tactics"
+games: [final-fantasy-tactics]
+console: ps1
+status: experimental
+repo: NJH-1001/FinFanTacRecomp
+toolchain: PSXRecomp
+desc:
+  es: "FinFanTacRecomp: proyecto de compatibilidad con PSXRecomp para Final Fantasy Tactics (EE. UU., SCUS-94221). Las versiones son kits de instalación que no incluyen el juego: tú pones tu disco, y el asistente genera y compila el ejecutable jugable en tu equipo, con OpenBIOS en lugar de una BIOS de Sony. Hay kits para Windows, Linux y macOS; el README dice que las versiones de Linux y macOS son iniciales y que la validación de juego es más sólida en Windows. Ofrece una opción experimental de vista 3D en 16:9 y renderizado por software u OpenGL con supermuestreo 2x. La verificación local cubre el arranque, el título y los menús, la creación de personaje, las escenas de la iglesia, el movimiento y los ataques de la primera batalla y el menú de comandos; el README aclara que no es una afirmación de juego completo. La 0.1.0 (3 de septiembre) es la única versión."
+  en: "FinFanTacRecomp: a PSXRecomp compatibility project for Final Fantasy Tactics (USA, SCUS-94221). Releases are setup kits that don’t include the game: you supply your disc, and the wizard generates and compiles the playable executable on your PC, using OpenBIOS instead of a Sony BIOS. There are kits for Windows, Linux, and macOS; the README says the Linux and macOS releases are initial ones and that gameplay validation is strongest on Windows. It offers an experimental 16:9 3D view and software or OpenGL rendering with 2x supersampling. Local verification covers boot, title and menus, character creation, the church scenes, first-battle movement and attacks, and the command menu; the README states this is not a full-game completion claim. Version 0.1.0 (September 3) is the only release."
+requirements:
+  es: "Tu propio disco estadounidense de Final Fantasy Tactics (SCUS-94221) como CUE/BIN de tipo Redump (MD5 de la pista de datos: b156ba386436d20fd5ed8d37bab6b624). Además, Python 3 y una cadena de herramientas de CMake, Ninja y Clang, que el asistente puede descargar. Windows 10 u 11 x86-64, Linux x86-64 o macOS 11 o posterior."
+  en: "Your own US disc of Final Fantasy Tactics (SCUS-94221) as a Redump-style CUE/BIN (data track MD5: b156ba386436d20fd5ed8d37bab6b624). Plus Python 3 and a CMake, Ninja, and Clang toolchain, which the wizard can download. x86-64 Windows 10 or 11, x86-64 Linux, or macOS 11 or later."
+tags:
+  - mips
+  - rpg
+  - widescreen

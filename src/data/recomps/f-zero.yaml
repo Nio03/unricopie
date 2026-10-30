@@ -2,7 +2,7 @@ name: "F-Zero (mstan)"
 games: [f-zero]
 console: snes
 status: playable
-repo: mstan/FZeroSNESRecomp
+repo: RetroPortingToolKit/FZeroSNESRecomp
 originalDeveloper: Nintendo EAD
 year: 1990
 toolchain: snesrecomp

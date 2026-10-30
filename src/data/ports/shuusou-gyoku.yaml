@@ -1,0 +1,19 @@
+name: "Shuusou Gyoku"
+games: [shuusou-gyoku]
+category: source-port
+console: pc
+status: playable
+repo: nmlgc/ssg
+forkOf:
+  label: "pbghogehoge/ssg"
+  url: https://github.com/pbghogehoge/ssg
+year: 2000
+desc:
+  es: "Port del código fuente de Shuusou Gyoku (秋霜玉), el primer juego del Proyecto Seihou, bifurcado de pbghogehoge/ssg, el repositorio que publicó el código original. El README original advierte de que ese código no está completo y no se puede enlazar tal cual, y de que no incluye los recursos del juego (gráficos, música, efectos ni scripts). Esta versión se compila con Tup en Windows (Visual Studio 2022 o posterior), Linux (GCC 15 o Clang 18 como mínimo) y FreeBSD, y genera binarios modernos y «vintage», con símbolos de depuración. Sus últimos commits tocan la latencia del audio con miniaudio y el empaquetado para Flathub. La última release, P0341, es del 6 de octubre."
+  en: "A source port of Shuusou Gyoku (秋霜玉), the first game of the Seihou Project, forked from pbghogehoge/ssg, the repository that released the original code. The original README warns that this code is incomplete and can’t be linked as is, and that it doesn’t include the game’s resources (graphics, music, sound effects, scripts). This version builds with Tup on Windows (Visual Studio 2022 or newer), Linux (GCC 15 or Clang 18 at minimum), and FreeBSD, and produces modern and “vintage” binaries, with debug symbols. Its latest commits touch audio latency with miniaudio and Flathub packaging. The latest release, P0341, is from October 6."
+requirements:
+  es: "Los recursos de tu propia copia de Shuusou Gyoku: gráficos, música, efectos y scripts, que el repositorio no incluye. Windows, Linux o FreeBSD."
+  en: "The resources from your own copy of Shuusou Gyoku: graphics, music, sound effects, and scripts, which the repository doesn’t include. Windows, Linux, or FreeBSD."
+tags:
+  - shmup
+  - reverse-engineering

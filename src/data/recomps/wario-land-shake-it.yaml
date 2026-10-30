@@ -1,0 +1,18 @@
+name: "Wario Land: Shake It!"
+games: [wario-land-shake-it]
+console: wii
+status: playable
+repo: santiagovalencia109/Wario-Land-Shake-It-Native-PC
+originalDeveloper: "Good-Feel"
+year: 2008
+desc:
+  es: "WarioRecomp es un port nativo no oficial para PC de Wario Land: Shake It! (Wii, 2008, versión estadounidense RWLE01). El código PowerPC del juego se recompila estáticamente a C++ con WiiCompiled y corre como un programa normal de Windows, sin emulador: las bibliotecas del sistema de la Wii se sustituyen por código nativo. Permite resolución de render de 480p a 1440p, pantalla ancha 16:9 real, opciones de ventana y pantalla completa, Direct3D 12 o Vulkan, interpolación de cuadros a 120 FPS (experimental), mando y teclado, y movimiento del mando de Wii con L2/R2 (sacudida) y L1/R1 o la palanca (inclinación), además del acelerómetro del DualSense. Una opción experimental quita los paneles laterales de los niveles. El README lo califica de versión de pruebas: arranca, guarda y se puede jugar, pero parte del juego no se ha probado. La 0.2.0 es del 27 de octubre. Uno de sus 3 commits lleva a Claude como coautor."
+  en: "WarioRecomp is an unofficial native PC port of Wario Land: Shake It! (Wii, 2008, US release RWLE01). The game’s PowerPC code is statically recompiled to C++ with WiiCompiled and runs as a regular Windows program, not in an emulator: the Wii system libraries are replaced with native code. It supports render resolution from 480p to 1440p, true 16:9 widescreen, windowed and fullscreen options, Direct3D 12 or Vulkan, frame interpolation to 120 FPS (experimental), gamepad and keyboard, and Wii Remote motion through L2/R2 (shake) and L1/R1 or the stick (tilt), plus the DualSense accelerometer. An experimental option removes the side panels in levels. The README calls it a testing build: it boots, saves, and is playable, but parts of the game are untested. Version 0.2.0 is from October 27. One of its 3 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Wario Land: Shake It! para Wii (EE. UU., RWLE01, sin modificar; el main.dol tiene SHA-256 053BE60D…912A) como .iso, .wbfs, .ciso, .rvz, .wia o .gcz, o ya extraída en una carpeta con sys y files. Windows 10 u 11 de 64 bits, unos 3 GB libres para la compilación (más 4,4 GB si el lanzador extrae la imagen) y se recomiendan 16 GB de RAM o más durante la compilación."
+  en: "Your own copy of Wario Land: Shake It! for Wii (USA, RWLE01, unmodified; main.dol with SHA-256 053BE60D…912A) as an .iso, .wbfs, .ciso, .rvz, .wia, or .gcz, or already extracted to a folder with sys and files. 64-bit Windows 10 or 11, about 3 GB free for the build (plus 4.4 GB if the launcher extracts the image), and 16 GB of RAM or more recommended while building."
+tags:
+  - powerpc
+  - platformer
+  - widescreen
+  - ai-assisted

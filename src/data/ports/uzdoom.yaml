@@ -1,0 +1,16 @@
+name: "UZDoom"
+games: [doom]
+category: source-port
+status: playable
+repo: UZDoom/UZDoom
+originalDeveloper: "id Software"
+desc:
+  es: "UZDoom: port «centrado en las funciones» para todos los juegos con el motor de Doom, continuación de ZDoom y GZDoom, que añade un renderizador avanzado, iluminación dinámica, suelos 3D, soporte extenso de mods y renderizadores OpenGL y Vulkan modernos. El código se publica con licencia GPL v3 o posterior, con los derechos de id Software desde 1993, de Marisa Heit y Christoph Oelckers y de los equipos de GZDoom y UZDoom. Publica compilaciones para Windows (x86-64), macOS (ARM64) y Linux (AppImage x86-64): la última estable es la 5.0.3 (23 de septiembre) y hay una versión preliminar del 28 de octubre."
+  en: "UZDoom: a “feature-centric” port for all Doom engine games, a continuation of ZDoom and GZDoom, which adds an advanced renderer, dynamic lighting, 3D floors, extensive mod support, and modern OpenGL and Vulkan renderers. The code is released under the GPL v3 or later, with copyright held by id Software since 1993, Marisa Heit, Christoph Oelckers, and the GZDoom and UZDoom teams. It publishes builds for Windows (x86-64), macOS (ARM64), and Linux (x86-64 AppImage): the latest stable release is 5.0.3 (September 23), and there is a preview build from October 28."
+requirements:
+  es: "Los archivos WAD de tu propia copia del juego del motor de Doom que quieras jugar; el README no los enumera. Windows, macOS (Apple Silicon) o Linux."
+  en: "The WAD files from your own copy of whichever Doom engine game you want to play; the README doesn’t list them. Windows, macOS (Apple Silicon), or Linux."
+tags:
+  - fps
+  - vulkan
+  - mods

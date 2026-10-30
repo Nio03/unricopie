@@ -1,0 +1,17 @@
+name: "Dead or Alive 2 Ultimate"
+games: [dead-or-alive-ultimate]
+console: xbox
+status: experimental
+repo: NoRain211/doa2u-re
+originalDeveloper: "Team Ninja"
+year: 2004
+desc:
+  es: "Port nativo para Windows, macOS y Linux de Dead or Alive 2 Ultimate, el segundo disco de Dead or Alive Ultimate (Xbox), por recompilación estática, con el objetivo declarado de reescribirlo después como código fuente legible. El ejecutable de DOA2 se pasa a C con un recompilador estático y se enlaza con un runtime escrito a mano que sustituye los imports del núcleo de Xbox y las bibliotecas Direct3D 8, DirectSound y de entrada del juego (XDK 5849) por Direct3D 11, XAudio2 y SDL3; en macOS y Linux el mismo runtime dibuja con SDL_GPU (Metal o Vulkan). Según el README funcionan el arranque, los menús, la selección de personaje, el modo Story, Watch y la demo de atracción, y se han jugado todas las fases y todos los finales; es software alfa de puesta en marcha, muchos modos y personajes no se han probado y un dibujo que el port aún no sabe pintar detiene el juego con un mensaje en el registro. Ofrece de 480p a 4K, la cámara panorámica 16:9 del propio juego, MSAA hasta 32×, SMAA, 60 cuadros por segundo y sonido estéreo o 5.1. La 0.1.8 Alpha (29 de octubre) es la última versión, con paquetes para Windows, macOS y Linux. Licencia GPL-3.0 o posterior."
+  en: "A native Windows, macOS, and Linux port of Dead or Alive 2 Ultimate, the second disc of Dead or Alive Ultimate (Xbox), by static recompilation, with the stated goal of rewriting it later into readable source. The DOA2 executable is lifted to C with a static recompiler and linked against a hand-written runtime that replaces the Xbox kernel imports and the game’s Direct3D 8, DirectSound, and input libraries (XDK 5849) with Direct3D 11, XAudio2, and SDL3; on macOS and Linux the same runtime renders through SDL_GPU (Metal or Vulkan). According to the README boot, menus, character select, Story, Watch, and the attract demo work, and every stage and every ending have been played; it is bring-up alpha software, many modes and characters have not been tried, and a draw the port cannot render yet stops the game with a message in the log. It offers 480p to 4K, the game’s own 16:9 widescreen camera, MSAA up to 32×, SMAA, 60 frames per second, and stereo or 5.1 sound. Version 0.1.8 Alpha (October 29) is the latest, with Windows, macOS, and Linux packages. Licensed GPL-3.0-or-later."
+requirements:
+  es: "Tu propia copia de Dead or Alive Ultimate para Xbox (EE. UU.), su disco 2, como imagen ISO; el lanzador compila el juego a partir de ella y rechaza cualquier otro ejecutable. Windows 10 u 11 de 64 bits, Python 3.12 o superior, CMake 3.20 o superior, unos 6 GB libres y conexión a internet para la primera compilación (descarga el compilador llvm-mingw, de 190 MB)."
+  en: "Your own copy of Dead or Alive Ultimate for Xbox (USA), its Disc 2, as an ISO image; the launcher builds the game from it and refuses any other executable. 64-bit Windows 10 or 11, Python 3.12 or newer, CMake 3.20 or newer, about 6 GB free, and an internet connection for the first build (it downloads the 190 MB llvm-mingw compiler)."
+tags:
+  - x86
+  - fighting
+  - widescreen

@@ -1,0 +1,17 @@
+name: "Earthsiege 2"
+games: [earthsiege-2]
+category: game-engine
+console: pc
+status: playable
+repo: kevinfoley/Herculan
+originalDeveloper: "Dynamix"
+year: 1996
+desc:
+  es: "Reimplementación completa de Earthsiege 2 (Dynamix, Sierra, 1996) para sistemas modernos con .NET, llamada HERCULAN Engine; como el código fuente del juego nunca se publicó, se construyó por ingeniería inversa. Está en beta: no todo se ha probado a fondo y el autor aconseja copiar antes las partidas del juego original. Permite jugar todo el juego a cualquier resolución, con pantalla ancha y ultraancha (los menús se dibujan en 4:3), con un renderizador acelerado por hardware que casi iguala al de software original, formatos de archivo y partidas compatibles con el juego, un instalador propio desde CD o ISO, reproducción y caché de la música del CD, decodificadores de vídeo propios, un menú de ajustes que corrige errores del juego y un editor de misiones en beta. Incluye HercWorks CSharp, herramientas para ver y a veces editar los datos del juego (solo Windows). Admite la versión 1.0, la 1.0 de Hi-Rez Studios (sin música) y la 1.10 de GoldGames, con francés y alemán en esta última. La v1.1.0 se publicó el 29 de octubre. 23 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A full reimplementation of Earthsiege 2 (Dynamix, Sierra, 1996) for modern systems on .NET, called the HERCULAN Engine; because the game’s source code was never released, it was built entirely by reverse engineering. It is in beta: not everything has been thoroughly tested and the author advises backing up the retail save data first. It lets you play the whole game at any resolution, with widescreen and ultrawide support (menus render at 4:3), with a hardware-accelerated renderer that almost matches the original software renderer, file formats and saves compatible with the retail game, a built-in installer from a CD or ISO, playback and caching of the CD’s music, in-engine video decoders, a Tweaks menu that fixes retail bugs, and a mission editor in beta. It includes HercWorks CSharp, tools for viewing and sometimes editing the game’s data files (Windows only). It supports the retail 1.0 release, the 1.0 Hi-Rez Studios release (no music), and the 1.10 GoldGames release, with French and German in the latter. Version 1.1.0 was published on October 29. 23 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Una copia de los archivos originales de Earthsiege 2, instalados, en CD o en ISO (el instalador integrado puede copiarlos desde el CD o la ISO); no se incluyen en el repositorio. Windows 10 o posterior, o Linux con glibc 2.34 o posterior, en x86-64, y una tarjeta gráfica con OpenGL 3.3."
+  en: "A copy of the original Earthsiege 2 game files, installed, on CD, or as an ISO (the built-in installer can copy them from the CD or ISO); they are not included in the repository. Windows 10 or later, or Linux with glibc 2.34 or newer, on x86-64, and a graphics card with OpenGL 3.3."
+tags:
+  - widescreen
+  - ai-assisted

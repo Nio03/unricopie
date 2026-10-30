@@ -1,0 +1,14 @@
+name: neogeorecomp
+kind: recompiler
+consoles:
+  - neogeo
+  - arcade
+repo: sp00nznet/neogeorecomp
+status: experimental
+desc:
+  es: "Kit de recompilación estática para juegos de Neo Geo (MVS/AES). m68krecomp traduce el programa 68000 a C y el runtime modela la placa: vídeo, paleta, E/S, la CPU de sonido Z80 y la ROM de sistema MVS. Su README lo marca como alfa (v0.2.0, del 21 de octubre); Metal Slug y Neo Drift Out son jugables. No incluye ROMs ni código generado. 45 de sus 47 commits llevan a Claude como coautor."
+  en: "A static recompilation toolkit for Neo Geo (MVS/AES) games. m68krecomp translates the 68000 program to C and the runtime models the board: video, palette, I/O, the Z80 sound CPU and the MVS system ROM. Its README marks it alpha (v0.2.0, October 21); Metal Slug and Neo Drift Out are playable. It includes no ROMs or generated code. 45 of its 47 commits list Claude as a co-author."
+tags:
+  - "68000"
+  - static-recomp
+  - ai-assisted

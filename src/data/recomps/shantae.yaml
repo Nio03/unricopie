@@ -1,0 +1,18 @@
+name: "Shantae"
+games: [shantae]
+console: gbc
+status: playable
+repo: vibecodekun/shantaerecomp
+originalDeveloper: "WayForward"
+year: 2002
+toolchain: gbrecompiled
+desc:
+  es: "Recompilación estática de Shantae (Game Boy Color, versión estadounidense) con gbrecompiled, para Windows (x64, x86 y ARM64) y Linux (x86-64 y aarch64, en tarball o AppImage). Por defecto arranca como Game Boy Advance, con los extras de esa edición, y mantiene la paleta original de GBC. Añade una vista ampliada del mundo con la relación de aspecto que se elija, sin ralentización, menos retardo de entrada, movimiento más fluido, un botón por cada transformación con un HUD de los iconos del menú de baile, una pantalla de mapa, un reloj de día y noche, rebobinado y preajustes de shaders de RetroArch con librashader. Un lanzador pide la ROM la primera vez y solo activa JUGAR con el archivo correcto. La 0.2.0 es del 22 de octubre. Sus 36 commits llevan a Claude como coautor."
+  en: "A static recompilation of Shantae (Game Boy Color, US version) with gbrecompiled, for Windows (x64, x86, and ARM64) and Linux (x86-64 and aarch64, as a tarball or AppImage). It boots as a Game Boy Advance by default, with that edition’s extras, and keeps the original GBC palette. It adds an expanded world view in the aspect ratio of your choice, no slowdown, less input lag, smoother movement, a button for each transformation with a HUD of the Dance Menu’s icons, a map screen, a day and night clock, rewind, and RetroArch shader presets through librashader. A launcher asks for the ROM the first time and enables PLAY only for the right file. Version 0.2.0 is from October 22. All 36 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Shantae para Game Boy Color, estadounidense, el volcado de No-Intro (SHA-256 1b92e22d5510c51bab97d23074e4aad7464d93eb15f7596ef7da0a5efa27a19d, CRC32 E994B59B). Las demás ediciones (mundial, Switch, Limited Run Games) no están soportadas."
+  en: "Your own copy of Shantae for Game Boy Color, US, the No-Intro dump (SHA-256 1b92e22d5510c51bab97d23074e4aad7464d93eb15f7596ef7da0a5efa27a19d, CRC32 E994B59B). Other releases (World, Switch, Limited Run Games) are not supported."
+tags:
+  - platformer
+  - widescreen
+  - ai-assisted

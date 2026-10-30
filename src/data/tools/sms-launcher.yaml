@@ -1,0 +1,14 @@
+name: "SMS Launcher"
+games: [super-mario-sunshine]
+kind: launcher
+consoles: [gamecube]
+status: beta
+repo: chasem-dev/sms-launcher
+desc:
+  es: "Lanzador para Windows, macOS y Linux que prepara y arranca el port nativo de Super Mario Sunshine. Guía la instalación en tres pasos: descarga los archivos de preparación, comprueba la imagen de disco del usuario (la norteamericana GMSE01, revisión 0, en .iso, NKit .iso, .gcm o .ciso; reconoce y avisa de las RVZ, WIA y GCZ) y prepara el juego en el equipo, con texturas HD opcionales y películas mejoradas reconstruidas a partir del disco. Después deja un botón de jugar y ajustes de pantalla, gráficos, mando y teclado, 30, 60 o 120 fotogramas por segundo, copia y restauración de partidas con importación de las de Dolphin, estados guardados y soporte para el mod Super Mario Eclipse; en Linux puede añadir el juego a Steam. Según su README, no incluye el juego ni una imagen de disco. La 0.1.68 es del 28 de octubre y la beta 0.1.68-beta.297, del 29 de octubre. 15 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A launcher for Windows, macOS, and Linux that sets up and starts the native Super Mario Sunshine port. It guides the install in three steps: it downloads the setup files, checks the user’s disc image (the North American GMSE01, revision 0, as .iso, NKit .iso, .gcm, or .ciso; it recognizes and flags RVZ, WIA, and GCZ images), and prepares the game on the computer, with optional HD textures and enhanced cutscenes reconstructed from the disc. Afterwards it offers a Play button and settings for display, graphics, controller, and keyboard, 30, 60, or 120 frames per second, backup and restore of saves with import of Dolphin saves, save states, and support for the Super Mario Eclipse mod; on Linux it can add the game to Steam. Per its README it includes neither the game nor a disc image. Version 0.1.68 is from October 28 and the beta 0.1.68-beta.297 from October 29. 15 of its last 100 commits list Claude as a co-author."
+tags:
+  - powerpc
+  - mods
+  - 60fps+
+  - ai-assisted

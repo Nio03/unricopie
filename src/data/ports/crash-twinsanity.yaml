@@ -1,0 +1,20 @@
+name: "Crash Twinsanity"
+games: [crash-twinsanity]
+category: decomp-port
+console: ps2
+status: fully
+repo: GioPixelGH/Crash-Twinsanity-Windows
+originalDeveloper: "Traveller’s Tales"
+year: 2004
+desc:
+  es: "Port nativo para Windows de la versión PAL de PlayStation 2, sin emulador. Es la adaptación a Windows del port para Mac de HAB3X, que ejecuta la decompilación completa en C++ de Smartkin sobre una capa de plataforma nativa (SDL3, un renderizador OpenGL para los gráficos de la PS2, sonido, vídeos, partidas y una pantalla de opciones nueva); este repositorio añade lo que necesita Windows, lo hace correr a 60 fps estables y corrige los cierres que aparecieron al jugar. Se ha jugado a mano de principio a fin hasta los créditos, y las 131 áreas se probaron con entrada automática durante 30 segundos cada una sin cierres inesperados. En Linux compila y funciona en x86-64 (probado en Debian 13), pero no hay descarga, y en macOS no se ha probado. La 1.0.19 es del 26 de octubre. 67 de sus 76 commits llevan a Claude como coautor y el README declara que el port se escribió con su ayuda."
+  en: "A native Windows port of the PAL PlayStation 2 version, with no emulator. It is a Windows adaptation of HAB3X’s Mac port, which runs Smartkin’s complete C++ decompilation on a native platform layer (SDL3, an OpenGL renderer for the PS2’s graphics, sound, movies, saves, and a new options screen); this repository adds what Windows needs, makes it run at a steady 60 fps, and fixes the crashes found by playing it. It has been played by hand from the start to the credits, and all 131 areas were tried with scripted input for 30 seconds each with no unexpected crash. On Linux it builds and plays on x86-64 (tried on Debian 13), but there is no download, and macOS is untested. Version 1.0.19 is from October 26. 67 of its 76 commits list Claude as a co-author, and the README declares the port was written with its help."
+requirements:
+  es: "Tu propia imagen de disco de la edición PAL (Europa y Australia, SLES-52568) como .iso (o .bin/.img). Windows 10 u 11 de 64 bits, una tarjeta gráfica con OpenGL 3.3, y teclado y ratón o un mando."
+  en: "Your own disc image of the PAL release (Europe and Australia, SLES-52568) as an .iso (or .bin/.img). 64-bit Windows 10 or 11, a graphics card with OpenGL 3.3, and a keyboard and mouse or a gamepad."
+tags:
+  - mips
+  - platformer
+  - widescreen
+  - 60fps+
+  - ai-assisted

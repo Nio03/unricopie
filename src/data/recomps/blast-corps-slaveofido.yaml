@@ -1,0 +1,20 @@
+name: "Blast Corps (SlaveOfIDO)"
+games: [blast-corps]
+console: n64
+status: playable
+repo: SlaveOfIDO/blastcorps-recomp
+originalDeveloper: "Rare"
+year: 1997
+toolchain: N64Recomp
+desc:
+  es: "Port nativo de la versión de Nintendo 64, hecho por recompilación estática con N64: Recompiled y con RT64 como motor de renderizado; no es un emulador. Los menús cargan los recursos directamente desde tu copia del juego, sin paso de extracción ni compilación. Ofrece alta tasa de fotogramas, pantalla ancha y ultrapanorámica, audio fiel al original, tiempos de carga instantáneos, poco retardo de entrada y compatibilidad con mods, y funciona en Windows, Linux (incluida la Steam Deck, con Flatpak) y macOS. El único problema conocido que cita es que programas superpuestos como MSI Afterburner o Wallpaper Engine pueden impedir que el juego se dibuje bien. El README declara que no se usó IA generativa. La 1.1.0 (28 de octubre) es la última; la 1.0.0 salió el 23 de octubre."
+  en: "A native port of the Nintendo 64 version, made by static recompilation with N64: Recompiled and with RT64 as the rendering engine; it is not an emulator. The menus load assets directly from your copy of the game, with no extraction or build step. It offers high frame rates, widescreen and ultrawide, audio faithful to the original, instant load times, low input lag, and mod support, and it runs on Windows, Linux (the Steam Deck included, via Flatpak), and macOS. The only known issue it lists is that overlays such as MSI Afterburner or Wallpaper Engine can stop the game from rendering correctly. The README states that no generative AI was used. Version 1.1.0 (October 28) is the latest; 1.0.0 came out on October 23."
+requirements:
+  es: "Tu propia copia de Blast Corps de Nintendo 64, versión norteamericana 1.1, que indicas en el menú principal. Además, una GPU con Direct3D 12 (Shader Model 6), Vulkan 1.2 o Metal (Argument Buffers nivel 2); en PC x86-64, una CPU con SSE4.1; en Mac, Apple Silicon o un Intel de 7.ª generación con macOS 13 o posterior."
+  en: "Your own copy of Blast Corps for the Nintendo 64, North American version 1.1, which you point to in the main menu. Plus a GPU supporting Direct3D 12 (Shader Model 6), Vulkan 1.2, or Metal (Argument Buffers tier 2); on x86-64 PCs an SSE4.1 CPU; on a Mac, Apple Silicon or a 7th-generation Intel with macOS 13 or later."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - mods
+  - human-driven

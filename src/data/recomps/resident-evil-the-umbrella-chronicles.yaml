@@ -1,0 +1,21 @@
+name: "Resident Evil: The Umbrella Chronicles"
+games: [resident-evil-the-umbrella-chronicles]
+console: wii
+status: playable
+repo: solleo95/reuc-recomp
+originalDeveloper: "Capcom"
+year: 2007
+desc:
+  es: "El juego de Wii funcionando de forma nativa en Windows, con carga muy rápida, cuadros por segundo sin límite, pantalla ultraancha nativa, puntería con ratón, mando, pistola de luz y mando de Wii, DLSS y FSR, generación de cuadros, sombras con trazado de rayos, HDR, mods y cooperativo en línea. El código del juego se traduce (recompila) a partir de tu disco y el lanzador desempaqueta la imagen con Wit, que va incluido. El README avisa de que es una compilación muy temprana, con el desarrollo muy activo y probada solo en el equipo del autor, y de que el multijugador está aún muy en bruto. Solo admite la versión norteamericana (RBUE08), porque el código traducido depende del main.dol exacto de esa edición. La versión 0.0.12 es del 29 de octubre."
+  en: "The Wii game running natively on Windows, with very fast loading, unlocked frame rate, native ultrawide, mouse, gamepad, light gun, and Wii Remote aiming, DLSS and FSR, frame generation, ray-traced shadows, HDR, mods, and online co-op. The game’s code is translated (recompiled) from your disc and the launcher unpacks the image with Wit, which is built in. The README warns that it is a very early build, with very active development and testing only on the author’s hardware, and that multiplayer is still quite raw. Only the North American release (RBUE08) is supported, because the translated code is tied to that edition’s exact main.dol. Version 0.0.12 is from October 29."
+requirements:
+  es: "Tu propia imagen de disco de Resident Evil: The Umbrella Chronicles para Wii, región NTSC-U (ID de juego RBUE08), en formato .iso, .wbfs, .ciso, .wdf o .wia (el .rvz de Dolphin no se admite). Windows 10 u 11 de 64 bits y unos 4 GB libres."
+  en: "Your own disc image of Resident Evil: The Umbrella Chronicles for Wii, NTSC-U region (game ID RBUE08), as an .iso, .wbfs, .ciso, .wdf, or .wia (Dolphin’s .rvz is not supported). 64-bit Windows 10 or 11 and about 4 GB free."
+tags:
+  - powerpc
+  - lightgun
+  - shooter
+  - horror
+  - multiplayer
+  - widescreen
+  - mods

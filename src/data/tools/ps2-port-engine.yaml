@@ -1,0 +1,14 @@
+name: ps2-port-engine
+kind: recompiler
+consoles:
+  - ps2
+repo: danielgomesvieira2000/ps2-port-engine
+status: beta
+desc:
+  es: "Cadena de herramientas y runtime para hacer ports nativos de PS2 a PC: descompilación a C++ verificada contra el código máquina original, y un anfitrión nativo que reproduce el kernel del EE, la IOP, el sonido, la GS en Vulkan y las VU. Añade resoluciones altas, pantalla ancha y ajuste de ritmo de fotogramas. Se creó con Burnout 3: Takedown. No incluye código ni datos de juego ni BIOS. Última versión: v0.7.0, del 15 de octubre. Todos sus últimos 100 commits llevan a Claude como coautor."
+  en: "A toolchain and runtime for making native PS2 ports on PC: decompilation to C++ checked against the original machine code, and a native host that reproduces the EE kernel, the IOP, sound, the GS on Vulkan and the VUs. It adds higher resolutions, widescreen and frame pacing. It was built on Burnout 3: Takedown. It includes no game code, game data or BIOS. Latest release: v0.7.0, October 15. All of its last 100 commits list Claude as a co-author."
+tags:
+  - mips
+  - r5900
+  - static-recomp
+  - ai-assisted

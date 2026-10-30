@@ -1,0 +1,17 @@
+name: "Breakdown"
+games: [breakdown]
+console: xbox
+status: playable
+repo: Heromachine/Breakdown-Recompilation
+originalDeveloper: "Namco"
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Lanzador para Windows que convierte tu copia de Breakdown (Namco, 2004, Xbox original) en una versión nativa. Usa un fork de xboxrecomp para recompilar estáticamente el código del juego a C en lugar de emularlo; la primera vez que se ejecuta pide la imagen del disco (EE. UU.) y construye el juego en tu equipo, en unos minutos y una sola vez. Es una versión temprana e incompleta pero jugable. Entre los problemas conocidos de la 0.2.2, en algunas salas la música de fondo repite un fragmento corto, recargar tras morir puede tardar mucho y algunas texturas aparecen tarde. Ofrece brillo, pantalla completa (con barras negras para mantener el 4:3) y carpeta de partidas. La 0.2.2 (8 de octubre) es su primera versión publicada. Su único commit lleva a Claude como coautor."
+  en: "A Windows launcher that turns your own copy of Breakdown (Namco, 2004, original Xbox) into a native build. It uses a fork of xboxrecomp to statically recompile the game’s code to C instead of emulating it; the first time it runs it asks for your disc image (USA) and builds the game on your computer, in a few minutes and only once. It is an early, incomplete, but playable release. Known issues in 0.2.2 include background music in some rooms playing a short repeating fragment, loading after dying taking a long time, and some textures appearing late. It offers brightness, full screen (with black bars to keep 4:3), and a saved-games folder. Version 0.2.2 (October 8) is its first published release. Its only commit lists Claude as a co-author."
+requirements:
+  es: "Tu propia imagen .iso del disco de Breakdown para Xbox, versión de EE. UU. Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 11 y unos 6 GB libres para la compilación, que se hace una sola vez. Se recomienda un mando de estilo Xbox."
+  en: "Your own .iso image of the Breakdown disc for Xbox, USA version. 64-bit Windows 10 or 11, a graphics card with Direct3D 11, and about 6 GB free for the one-time build. An Xbox-style controller is recommended."
+tags:
+  - x86
+  - ai-assisted

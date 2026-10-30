@@ -1,0 +1,17 @@
+name: "Minecraft: Java Edition (Horizon)"
+games: [minecraft-java-edition]
+category: fan-remake
+console: pc
+status: playable
+repo: horizon-rust/horizon
+originalDeveloper: "Mojang Studios"
+year: 2011
+desc:
+  es: "Reescritura de Minecraft: Java Edition 26.3 en Rust, llamada Horizon: un juego nativo que lee los mismos mundos, sigue las mismas reglas y genera el mismo terreno que el juego de Java, comprobado contra él con más de 300 pruebas diferenciales. Se instala con un lanzador propio, que prepara los archivos a partir de tu copia de Minecraft (la instalación que ya tengas o la que descarga de Mojang para tu cuenta) y se actualiza solo; el juego se publica en un único canal, el Nightly. El repositorio asegura que no contiene código, recursos ni datos de Minecraft. Su propia auditoría da una paridad del 100 % con Java, pero aclara que eso significa lo que comparan las pruebas y no que no haya otras diferencias. Funciona en Linux, macOS con Apple Silicon y Windows. El lanzador 0.2.26 se publicó el 29 de octubre. 28 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A rewrite of Minecraft: Java Edition 26.3 in Rust, called Horizon: a native game that reads the same worlds, follows the same rules, and generates the same terrain as the Java game, checked against it by more than 300 differential harnesses. It is installed through a launcher of its own, which prepares the files from your copy of Minecraft (the install you already have, or one downloaded from Mojang for your account) and updates itself; the game ships on a single channel, the Nightly. The repository states that it contains no Minecraft code, assets, or data. Its own audit gives 100% parity with Java, but it clarifies that this means what the harnesses compare, not that nothing else differs. It runs on Linux, Apple Silicon macOS, and Windows. Launcher 0.2.26 was published on October 29. 28 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Una cuenta de Microsoft que posea Minecraft: Java Edition (el lanzador inicia sesión con ella) y la versión 26.3 del juego; si no la tienes instalada, el lanzador descarga la 26.3 y el Java necesario desde Mojang para tu cuenta. Una GPU con Vulkan u OpenGL 3.3 en Linux, con Vulkan o DirectX 12 en Windows, o cualquier Mac con Apple Silicon."
+  en: "A Microsoft account that owns Minecraft: Java Edition (the launcher signs in with it) and the game’s 26.3 version; if you don’t have it installed, the launcher downloads 26.3 and the Java it needs from Mojang for your account. A GPU with Vulkan or OpenGL 3.3 on Linux, Vulkan or DirectX 12 on Windows, or any Apple Silicon Mac."
+tags:
+  - rust
+  - ai-assisted

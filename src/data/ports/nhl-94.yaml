@@ -1,0 +1,21 @@
+name: "NHL ’94"
+games: [nhl-94]
+category: decomp-port
+console: megadrive
+status: playable
+repo: 1nputs/ninety-four
+originalDeveloper: "Electronic Arts"
+year: 1993
+desc:
+  es: "Reescritura a mano en C de NHL ’94 (Mega Drive/Genesis) para Linux, Windows y macOS. Según su README, las unas 1.500 rutinas del juego, con un archivo C por módulo de ensamblador de la reconstrucción byte a byte de la comunidad, se han comprobado contra el original fotograma a fotograma; no emula el 68000 ni el Z80 y usa el submódulo pulseman para el VDP, el PSG y el YM2612, con SDL2. Corre a 60 fotogramas por segundo sin la ralentización del cartucho y añade juego en línea con rollback para dos a cuatro jugadores, estados guardados con rebobinado, reglas propias, plantillas propias de hasta 32 equipos y la importación de plantillas de hacks de ROM hechos sobre la base de 32 equipos, que se exportan a CSV y PNG. La 0.3.6 es del 22 de octubre. Sus últimos 100 commits llevan todos a Claude como coautor."
+  en: "A hand-written C rewrite of NHL ’94 (Mega Drive/Genesis) for Linux, Windows, and macOS. According to its README, the game’s roughly 1,500 routines, with one C file per assembly module of the community’s byte-exact rebuild, have been checked against the original frame by frame; it emulates neither the 68000 nor the Z80 and uses the pulseman submodule for the VDP, PSG, and YM2612, with SDL2. It runs at 60 frames per second without the cartridge’s slowdown and adds rollback online play for two to four players, save states with rewind, custom rules, custom rosters of up to 32 teams, and the import of rosters from ROM hacks made on the 32-team template, which are exported as CSV and PNG. Version 0.3.6 is from October 22. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del cartucho de NHL ’94 para Mega Drive/Genesis (EE. UU. o Europa), de 1 MB (SHA-1 7b1489ab501258133bf03e5f0892b77d04312580). Se elige la primera vez en el navegador de archivos del juego, o con --rom. Para jugar en línea, todos los equipos necesitan la misma versión."
+  en: "Your own copy of the NHL ’94 cartridge for Mega Drive/Genesis (US or Europe), 1 MB (SHA-1 7b1489ab501258133bf03e5f0892b77d04312580). You pick it the first time in the game’s file browser, or with --rom. For online play, every machine needs the same release."
+tags:
+  - "68000"
+  - z80
+  - sports
+  - multiplayer
+  - 60fps+
+  - ai-assisted

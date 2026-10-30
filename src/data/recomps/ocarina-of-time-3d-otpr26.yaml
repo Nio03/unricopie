@@ -1,0 +1,17 @@
+name: "The Legend of Zelda: Ocarina of Time 3D (OTPR26)"
+games: [the-legend-of-zelda-ocarina-of-time-3d]
+console: 3ds
+status: experimental
+repo: OTPR26/Ocarina-ReTuned
+originalDeveloper: "Grezzo"
+year: 2011
+desc:
+  es: "Recompilación nativa de OOT3D en una sola pantalla para Windows, Mac, Linux, Android, iOS, Apple TV y, de forma experimental, Nintendo Switch, llamada Ocarina ReTuned. Es una bifurcación muy modificada de TriAevum que integra la jugabilidad de Ocarina ReFramed con su propia interfaz y su propio flujo de preparación de la ROM. Añade pantalla dual opcional en Android, salto manual en X o ZR, un cargador de PAK para modelos de jugador, controles táctiles personalizables, resolución interna ajustable con interpolación de cuadros (incluidos 60), paquetes de texturas y fuentes de diálogo HD incluidas. Los shaders se generan en tu equipo a partir de los datos de tu juego. La Preview 0.5.7 (27 de octubre) es la última versión y el README avisa de que tiene asperezas."
+  en: "A native, single-screen recompilation of OOT3D for Windows, Mac, Linux, Android, iOS, Apple TV, and experimentally Nintendo Switch, called Ocarina ReTuned. It is a substantially modified fork of TriAevum that integrates the Ocarina ReFramed gameplay with its own interface and its own ROM-preparation flow. It adds optional dual-screen support on Android, manual jump on X or ZR, a PAK loader for player models, customizable touch controls, adjustable internal resolution with frame interpolation (including 60), texture packs, and bundled HD dialogue fonts. Shaders are generated on your machine from your game’s data. Preview 0.5.7 (October 27) is the latest release and the README warns of rough edges."
+requirements:
+  es: "Tu propia ROM descifrada de la versión de EE. UU., en formato .3ds o .cci; otras regiones y revisiones no se admiten. La primera vez, el programa la prepara en tu equipo, y los paquetes de texturas opcionales se consiguen aparte."
+  en: "Your own decrypted ROM of the USA version, in .3ds or .cci format; other regions and revisions are not supported. The first time, the program prepares it on your machine, and optional texture packs are supplied separately."
+tags:
+  - arm
+  - "60fps+"
+  - mods

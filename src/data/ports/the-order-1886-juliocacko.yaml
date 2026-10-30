@@ -1,0 +1,21 @@
+name: "The Order: 1886 (JulioCacko)"
+games: [the-order-1886]
+category: native-layer
+console: ps4
+status: experimental
+repo: JulioCacko/The-Order-1886_pc
+forkOf:
+  label: "FelipePrado0/SpartanPort"
+  url: https://github.com/FelipePrado0/SpartanPort
+originalDeveloper: "Ready at Dawn"
+year: 2015
+desc:
+  es: "Port nativo de la versión de PlayStation 4 para Windows y Linux, bifurcado de SpartanPort. El ejecutable x86-64 original corre en el procesador del PC, las interfaces de sistema de la PS4 se reimplementan y un núcleo de vídeo derivado de shadPS4 traduce los comandos y shaders gráficos a Vulkan. El README lo llama vista previa de desarrollo: el título, los menús, las escenas y el juego se ven desde partidas copiadas, con unos 53 cuadros por segundo en el patio y 38 en la pelea del vestíbulo del hotel (RTX 3070, modo de 60), pero la progresión completa y la estabilidad en sesiones largas aún no están aceptadas. En Linux arranca hasta el menú con Vulkan por software. Incluye un lanzador en Go, FSR 1 y, en Windows, FSR 3.1 o DLAA de NVIDIA. La v0.2.4 (28 de octubre) es la última versión. 64 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native port of the PlayStation 4 version for Windows and Linux, forked from SpartanPort. The original x86-64 executable runs on the PC’s processor, the PS4’s system interfaces are reimplemented, and a video core derived from shadPS4 translates the graphics commands and shaders to Vulkan. The README calls it a development preview: the title, menus, cinematics, and gameplay show from copied saves, at about 53 frames per second in the courtyard and 38 in the hotel lobby fight (RTX 3070, 60 FPS mode), but full progression and long-session stability are not accepted yet. On Linux it reaches the menu using software Vulkan. It includes a launcher written in Go, FSR 1 and, on Windows, FSR 3.1 or NVIDIA DLAA. Version 0.2.4 (October 28) is the latest release. 64 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de The Order: 1886 para PS4 (CUSA00076), con o sin la actualización 1.02. Además, Windows o Linux y una tarjeta gráfica con Vulkan."
+  en: "Your own dump of The Order: 1886 for PS4 (CUSA00076), with or without update 1.02. Plus Windows or Linux and a Vulkan-capable graphics card."
+tags:
+  - x86
+  - "60fps+"
+  - ai-assisted

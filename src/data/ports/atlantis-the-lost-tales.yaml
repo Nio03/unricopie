@@ -1,0 +1,18 @@
+name: "Atlantis: The Lost Tales"
+games: [atlantis-the-lost-tales, atlantis-ii]
+category: game-engine
+console: pc
+status: fully
+repo: ripleyXLR8/atlantis-native
+originalDeveloper: "Cryo Interactive"
+year: 1997
+desc:
+  es: "Port nativo escrito en Rust de Atlantis: The Lost Tales (Cryo Interactive, 1997) y de su secuela Atlantis II (1999), para Windows (x64 y ARM), macOS (Apple Silicon e Intel), Linux y navegador. El motor es una traducción del motor CryOmni3D de ScummVM, reconstruido a su vez por ingeniería inversa del ejecutable original; el README dice que reproduce el juego original «píxel por píxel y muestra por muestra», con arreglos opcionales de fallos del original, un modo HD opcional, pantalla panorámica y partidas guardadas en el formato original. Según el README, ambos juegos se pueden jugar de la primera pantalla a la última. La 0.5.8 (29 de octubre) es la última versión. El README declara que lo escribió en su mayor parte una IA (Claude, mediante Claude Code), dirigida y revisada por su responsable; 100 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native port of Atlantis: The Lost Tales (Cryo Interactive, 1997) and its sequel Atlantis II (1999), written in Rust, for Windows (x64 and ARM), macOS (Apple Silicon and Intel), Linux, and the browser. The engine is a translation of ScummVM’s CryOmni3D engine, itself rebuilt by reverse engineering the original executable; the README says it reproduces the original game “pixel for pixel and sample for sample”, with optional fixes for the original’s bugs, an optional HD mode, widescreen, and saves in the original format. According to the README, both games can be played from the first screen to the last. Version 0.5.8 (October 29) is the latest release. The README states that it was written for the most part by an AI (Claude, through Claude Code), directed and reviewed by its maintainer; 100 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Atlantis: The Lost Tales (o de Atlantis II): CD en varias ediciones e idiomas, el DVD-ROM de Cryo, la versión de GOG.com o la Perfect Edition de Tgames, indicando la carpeta con atlantis.exe y los archivos BIGCD1.BIG a BIGCD4.BIG, o las imágenes de los discos. Además, Windows 10 o posterior, macOS 11 o posterior, Linux (glibc 2.35 o posterior, ALSA) o un navegador moderno."
+  en: "Your own copy of Atlantis: The Lost Tales (or Atlantis II): the CD in several editions and languages, Cryo’s DVD-ROM, the GOG.com release, or Tgames’ Perfect Edition, pointing it at the folder with atlantis.exe and the files BIGCD1.BIG to BIGCD4.BIG, or at the disc images. Plus Windows 10 or later, macOS 11 or later, Linux (glibc 2.35 or later, ALSA), or a modern browser."
+tags:
+  - adventure
+  - widescreen
+  - ai-assisted

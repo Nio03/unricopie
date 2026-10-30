@@ -1,0 +1,20 @@
+name: "Pokémon Rumble"
+games: [pokemon-rumble]
+console: wii
+status: playable
+repo: ToShredsYouSay/RumbleRecomp
+originalDeveloper: "Ambrella"
+year: 2009
+desc:
+  es: "RumbleRecomp convierte tu propia copia del juego de WiiWare de 2009 Pokémon Rumble en un programa nativo de Windows. El código del juego se traduce a C y se compila en tu equipo, y luego corre sobre un entorno basado en Dolphin recortado, de modo que va a plena velocidad con extras modernos como pantalla ancha, estados de guardado y paquetes de texturas. Admite pantalla ajustada a la ventana, 16:9, 21:9 y 32:9, un menú dentro del juego, logros propios sin conexión, hasta cuatro jugadores con mando, las ampliaciones hechas por fans Weekend Edition 1.5 y PATCH1 (construidas con tus propias copias de sus parches) y un aleatorizador opcional de encuentros. La primera vez, cada versión tarda de 20 a 40 minutos en construirse. La versión 0.8.1 beta es del 20 de octubre. El README declara que Claude escribió la mayor parte del código y todos sus 11 commits llevan a Claude como coautor."
+  en: "RumbleRecomp turns your own copy of the 2009 WiiWare game Pokémon Rumble into a native Windows program. The game’s code is translated to C and compiled on your PC, then runs on a trimmed-down Dolphin-based runtime, so it plays at full speed with modern extras such as widescreen, save states, and texture packs. It supports fit-to-window, 16:9, 21:9, and 32:9, an in-game menu, offline achievements of its own, up to four players with controllers, the fan-made expansions Weekend Edition 1.5 and PATCH1 (built from your own copies of their patches), and an optional encounter randomizer. The first time, each version takes 20 to 40 minutes to build. Version 0.8.1 beta is from October 20. The README states that Claude wrote most of the code, and all 11 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de la versión estadounidense de WiiWare de Pokémon Rumble (título WPSE01) como archivo .wad; para la Weekend Edition hay que descargar tú mismo su parche. Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan y unos 4 GB libres."
+  en: "Your own copy of the original USA WiiWare release of Pokémon Rumble (title WPSE01) as a .wad file; for the Weekend Edition you download its patch yourself. 64-bit Windows 10 or 11, a graphics card with Vulkan, and about 4 GB free."
+tags:
+  - powerpc
+  - action
+  - multiplayer
+  - widescreen
+  - mods
+  - ai-assisted

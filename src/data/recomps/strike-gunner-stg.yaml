@@ -1,0 +1,20 @@
+name: "Strike Gunner S.T.G"
+games: [strike-gunner-s-t-g]
+console: snes
+status: fully
+repo: SlippyGetBackHere/Strike-Gunner-STG-Recomp
+originalDeveloper: "Athena"
+year: 1992
+toolchain: snesrecomp
+desc:
+  es: "Recompilación nativa del shoot ’em up vertical Strike Gunner S.T.G (EE. UU.) con snesrecomp: el código del 65816 se compila a C y corre junto a un chip de vídeo, un chip de sonido y un DMA de SNES emulados, con el intérprete del marco para el código que el análisis no ha alcanzado. Según el README se puede jugar de principio a fin (introducción, demostración, los ocho niveles y el final hasta los créditos) en modo de un jugador en Windows; el modo de dos jugadores arranca y cada nave responde a su mando, pero no se ha hecho una partida completa. Incluye estados de guardado y rebobinado, y una página de mods opcionales, todos desactivados por defecto: selección de nivel, golpe único, arma especial infinita, vidas infinitas, todas las armas en cada nivel y música personalizada. La última versión, la 0.3.0 (20 de octubre), es para Windows. 40 de sus 41 commits llevan a Claude como coautor."
+  en: "A native recompilation of the vertical shoot-’em-up Strike Gunner S.T.G (USA) built on snesrecomp: the 65816 code is compiled to C and runs against an emulated SNES video chip, sound chip, and DMA, with the framework’s interpreter for code the analysis hasn’t reached. According to the README it can be played from start to finish (intro, attract demo, all eight stages, and the ending through the credits) in single-player on Windows; two-player mode starts and each ship answers its own controller, but a full two-player playthrough hasn’t been done. It includes save states and rewind, and a page of optional mods, all off by default: stage select, one-hit kills, infinite special weapon, infinite lives, all weapons every stage, and custom music. The latest release, 0.3.0 (October 20), is for Windows. 40 of its 41 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Strike Gunner S.T.G (EE. UU.), de 1.048.576 bytes (SHA-256 05f14e6ed3394d9273e2397769a8acf1a9db646be6066e82269521e8eec53562). Windows de 64 bits."
+  en: "Your own Strike Gunner S.T.G (USA) ROM, 1,048,576 bytes (SHA-256 05f14e6ed3394d9273e2397769a8acf1a9db646be6066e82269521e8eec53562). 64-bit Windows."
+tags:
+  - "65816"
+  - shmup
+  - multiplayer
+  - mods
+  - ai-assisted

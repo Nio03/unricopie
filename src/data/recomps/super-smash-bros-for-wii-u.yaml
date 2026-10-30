@@ -1,0 +1,20 @@
+name: "Super Smash Bros. for Wii U"
+games: [super-smash-bros-for-wii-u]
+console: wiiu
+status: playable
+repo: josiahg2502-glitch/Smash4PC
+originalDeveloper: "Sora Ltd."
+year: 2014
+desc:
+  es: "Port nativo para Windows hecho por recompilación estática del código PowerPC del juego: se traduce de antemano a C++ y corre como código x86-64 sobre una reimplementación de las bibliotecas del sistema de la Wii U, con sus comandos y shaders gráficos traducidos a Vulkan; no es un emulador. Juega desde la actualización (v304, con todos los luchadores y escenarios) o desde la v1.0 del propio juego, con DLC opcional, e incluye el modo de 8 jugadores. Dibuja hasta en 4K y 5K, con 60, 120 o cuadros sin tope (por encima de 60 se interpolan), admite mandos XInput, PlayStation y Switch Pro, mods (Sm4shExplorer, SDCafiine, paquetes gráficos de Cemu), juego en línea por Pretendo Network y un lanzador propio. La v0.1.1 (29 de octubre) es la última versión; la primera fue la v0.1.0 del 25 de octubre. Sus 5 commits llevan a Claude como coautor."
+  en: "A native Windows port made by static recompilation of the game’s PowerPC code: it is translated ahead of time to C++ and runs as x86-64 code on a reimplementation of the Wii U’s system libraries, with its graphics commands and shaders translated to Vulkan; it is not an emulator. It plays from the update (v304, with all fighters and stages) or the game’s own v1.0, with optional DLC, and includes 8-Player Smash. It draws at up to 4K and 5K, at 60, 120, or uncapped frame rates (above 60 the frames are interpolated), supports XInput, PlayStation, and Switch Pro controllers, mods (Sm4shExplorer, SDCafiine, Cemu graphic packs), online play on Pretendo Network, and its own launcher. Version 0.1.1 (October 29) is the latest release; the first was 0.1.0 on October 25. All 5 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de Super Smash Bros. for Wii U (EE. UU.) hecho con Dumpling, en las carpetas que usa Cemu: el juego (0005000010144F00), la actualización (0005000E10144F00, recomendada) y el DLC (0005000C10144F00, opcional). Para jugar en línea hacen falta los archivos de tu consola y tu ID de Pretendo. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan 1.3."
+  en: "Your own dump of Super Smash Bros. for Wii U (USA) made with Dumpling, in the folders Cemu uses: the game (0005000010144F00), the update (0005000E10144F00, recommended), and the DLC (0005000C10144F00, optional). Online play needs your console’s files and your Pretendo ID. Plus 64-bit Windows 10 or 11 and a graphics card with Vulkan 1.3."
+tags:
+  - powerpc
+  - fighting
+  - multiplayer
+  - "60fps+"
+  - mods
+  - ai-assisted

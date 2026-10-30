@@ -1,0 +1,16 @@
+name: "Battle Arena Toshinden (NJH-1001)"
+games: [battle-arena-toshinden]
+console: ps1
+status: experimental
+repo: NJH-1001/BATRecomp
+toolchain: PSXRecomp
+desc:
+  es: "BATRecomp: proyecto de compatibilidad con PSXRecomp para Battle Arena Toshinden (EE. UU.). Las versiones son kits de instalación que no incluyen el juego: tú pones tu disco, y el asistente genera y compila el ejecutable jugable en tu equipo, con OpenBIOS en lugar de una BIOS de Sony. Hay kits para Windows, Linux y macOS (Apple Silicon e Intel). Usa mandos mediante SDL3 con el mando fijado en modo digital, y ofrece mods opcionales de pantalla: una vista ancha 16:9 experimental, que según el README pasó una prueba de juego, y un modo CRT con perfiles inspirados en JVC y Trinitron. La 0.1.0 (7 de septiembre) es la única versión."
+  en: "BATRecomp: a PSXRecomp compatibility project for Battle Arena Toshinden (USA). Releases are setup kits that don’t include the game: you supply your disc, and the wizard generates and compiles the playable executable on your PC, using OpenBIOS instead of a Sony BIOS. There are kits for Windows, Linux, and macOS (Apple Silicon and Intel). It uses controllers through SDL3 with the pad locked to digital mode, and offers optional display mods: an experimental 16:9 wider view, which the README says passed a playtest, and a CRT mode with JVC- and Trinitron-inspired profiles. Version 0.1.0 (September 7) is the only release."
+requirements:
+  es: "Tu propio disco estadounidense de Battle Arena Toshinden como CUE y sus 14 pistas BIN (identificador SCUS-94003; la pista de datos 01 mide 14662368 bytes, MD5 70b362b3b09d0a3c3999ce9f055620e6, SHA-1 cb03e66d2a5e68f402f9c64741a94c02ca78d4c5); otras regiones y revisiones no se admiten. Además, Python 3.11 o posterior y una cadena de herramientas de CMake, Ninja y Clang, que el asistente puede descargar. Windows 10 u 11, Linux x86-64 o macOS 15 o posterior."
+  en: "Your own US disc of Battle Arena Toshinden as a CUE plus its 14 BIN tracks (catalog ID SCUS-94003; data track 01 is 14662368 bytes, MD5 70b362b3b09d0a3c3999ce9f055620e6, SHA-1 cb03e66d2a5e68f402f9c64741a94c02ca78d4c5); other regions and revisions are not supported. Plus Python 3.11 or later and a CMake, Ninja, and Clang toolchain, which the wizard can download. Windows 10 or 11, x86-64 Linux, or macOS 15 or later."
+tags:
+  - mips
+  - fighting
+  - widescreen

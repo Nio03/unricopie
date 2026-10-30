@@ -1,0 +1,17 @@
+name: "Urban Chaos"
+games: [urban-chaos]
+category: source-port
+console: pc
+status: fully
+repo: UltimaBeaR/OpenChaos
+originalDeveloper: "Mucky Foot Productions"
+year: 1999
+desc:
+  es: "OpenChaos: modernización no oficial de Urban Chaos (Mucky Foot Productions, 1999), desarrollada con IA a partir del código fuente original que Mike Diskett publicó con licencia MIT en 2017. Cambia a un renderizador OpenGL nuevo, pasa el motor a 64 bits y multiplataforma, desbloquea la tasa de fotogramas, usa nuevos sistemas de audio y de vídeo y rehace los controles y la cámara, con mandos Xbox y DualSense y cualquier resolución. Según el README se puede jugar de principio a fin en Windows, macOS (Apple Silicon) y Linux (Steam Deck), sin errores críticos aunque quedan algunos menores. Funciona con cualquier idioma del juego y con mods que solo cambien recursos. La 1.0.2 (27 de junio) corrigió el audio y la estabilidad."
+  en: "OpenChaos: an unofficial modernization of Urban Chaos (Mucky Foot Productions, 1999), developed with AI on top of the original source code that Mike Diskett released under the MIT license in 2017. It moves to a new OpenGL renderer, makes the engine 64-bit and cross-platform, unlocks the frame rate, uses new audio and video backends, and reworks the controls and camera, with Xbox and DualSense gamepads and any screen resolution. According to the README it is playable from start to finish on Windows, macOS (Apple Silicon), and Linux (Steam Deck), with no critical bugs although some minor ones remain. It works with any language version of the game and with mods that only change resources. Version 1.0.2 (June 27) fixed audio and stability issues."
+requirements:
+  es: "Tu propia copia de Urban Chaos, de Steam, GOG o en disco (vale cualquier idioma); en Windows se copia OpenChaos.exe a la carpeta del juego. Además, Windows, macOS con Apple Silicon o Linux."
+  en: "Your own copy of Urban Chaos, from Steam, GOG, or on disc (any language works); on Windows you copy OpenChaos.exe into the game folder. Plus Windows, macOS with Apple Silicon, or Linux."
+tags:
+  - 60fps+
+  - ai-assisted

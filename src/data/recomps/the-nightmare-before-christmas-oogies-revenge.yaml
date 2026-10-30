@@ -1,0 +1,19 @@
+name: "The Nightmare Before Christmas: Oogie's Revenge"
+games: [tim-burtons-the-nightmare-before-christmas-oogies-revenge]
+console: xbox
+status: experimental
+repo: josiahg2502-glitch/OogiesRevengeRecompiled
+originalDeveloper: "Capcom"
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo para Windows de Tim Burton’s The Nightmare Before Christmas: Oogie’s Revenge (Xbox, EE. UU.), por recompilación estática del código x86 a C++ con xboxrecomp; sin emulador. Según el README el ejecutable entero está recompilado y ejecuta su propia lógica a 60 cuadros por segundo con sonido; Direct3D 8 se sustituye por un renderizador Direct3D 11 que traduce los shaders de vértices y de píxeles del juego a HLSL, y la intro, los menús, una partida nueva y el primer nivel (Town Square) se ven correctamente a 4K. El propio menú del juego, dibujado con su arte del disco, hace de lanzador (copia tu disco la primera vez y ofrece Play, Settings, Controls y Mods; F1 lo abre durante la partida). Hay opciones de resolución hasta 4K, aspecto, 120 cuadros por segundo con imágenes intermedias, oclusión ambiental por trazado de rayos y soporte de mods que sustituyen archivos del disco. La 1.0.1 (23 de octubre) es la última versión. Sus 4 commits llevan a Claude como coautor."
+  en: "A native Windows port of Tim Burton’s The Nightmare Before Christmas: Oogie’s Revenge (Xbox, USA), by static recompilation of the x86 code to C++ with xboxrecomp; no emulator. According to the README the whole executable is recompiled and runs its own game logic at a steady 60 frames per second with sound; Direct3D 8 is replaced by a Direct3D 11 renderer that translates the game’s vertex and pixel shaders to HLSL, and the intro, menus, a new game, and the first level (Town Square) render correctly at 4K. The game’s own menu, drawn with its art from the disc, serves as the launcher (it copies your disc on the first start and offers Play, Settings, Controls, and Mods; F1 opens it during play). There are options for resolution up to 4K, aspect ratio, 120 frames per second with intermediate frames, ray-marched ambient occlusion, and support for mods that replace disc files. Version 1.0.1 (October 23) is the latest. All 4 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio disco de The Nightmare Before Christmas: Oogie’s Revenge para Xbox, versión de EE. UU. (ID de título 42560004), como imagen Redump .iso, xiso o carpeta extraída; el primer arranque comprueba el default.xbe con su SHA-256. Windows 10 u 11 de 64 bits; para compilar desde el código, Python 3."
+  en: "Your own disc of The Nightmare Before Christmas: Oogie’s Revenge for Xbox, USA version (title ID 42560004), as a Redump .iso, an xiso, or an extracted folder; the first start checks default.xbe against its SHA-256. 64-bit Windows 10 or 11; to build from source, Python 3."
+tags:
+  - x86
+  - mods
+  - 60fps+
+  - ai-assisted

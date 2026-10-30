@@ -1,0 +1,18 @@
+name: "Banjo-Tooie (Xbox 360)"
+games: [banjo-tooie]
+console: x360
+status: playable
+repo: iron-jay/banjo_tooie_xbla_recomp
+originalDeveloper: "Rare"
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Port nativo de Banjo-Tooie que usa como origen la reedición de Xbox Live Arcade para Xbox 360, hecho recompilando estáticamente su código PowerPC a C++ con el SDK ReXGlue. El resultado es un ejecutable real de Windows y Linux, sin emulador en tiempo de ejecución y sin ninguna ROM de N64 en el proceso. Según el README se puede jugar de principio a fin del arranque: el título, el menú, la selección de partida, la introducción completa y el juego libre, comprobado en Windows (con GPU NVIDIA) y en una Steam Deck real, con mando, teclado y ratón y guardado. Admite que la recompilación se saltó algunas de sus unas 22.000 funciones y que la estabilidad más allá de las primeras zonas está poco probada. Se distribuye como un único lanzador (Banjo-Tooie.exe en Windows, Banjo-Tooie en Linux) que extrae los datos de tu paquete; la versión 0.1.1 es del 12 de agosto. Uno de sus 5 commits lleva a Claude como coautor."
+  en: "A native port of Banjo-Tooie that uses the Xbox 360 Xbox Live Arcade re-release as its source, made by statically recompiling its PowerPC code to C++ with the ReXGlue SDK. The result is a real Windows and Linux executable, with no emulator at runtime and no N64 ROM involved in the pipeline. According to the README it is playable end to end from boot: title screen, main menu, save select, the full intro cutscene, and free roaming, confirmed on Windows (with an NVIDIA GPU) and on a real Steam Deck, with controller, keyboard and mouse, and saving. It admits that the recompilation missed some of the game’s roughly 22,000 functions and that stability beyond the opening areas is lightly tested. It is distributed as a single launcher (Banjo-Tooie.exe on Windows, Banjo-Tooie on Linux) that extracts the data from your package; version 0.1.1 is from August 12. One of its 5 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propio paquete XBLA de Banjo-Tooie (el contenedor STFS que copias de tu propio perfil de Xbox 360). El lanzador comprueba el default.xex contra la compilación XBLA exacta con la que se probó y rechaza otra región o revisión. Windows o Linux, incluida la Steam Deck."
+  en: "Your own Banjo-Tooie XBLA package (the STFS container you copy off your own Xbox 360 profile). The launcher checks the default.xex against the exact XBLA build it was tested with and refuses another region or revision. Windows or Linux, including the Steam Deck."
+tags:
+  - powerpc
+  - platformer
+  - ai-assisted

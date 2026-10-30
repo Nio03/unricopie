@@ -1,0 +1,16 @@
+name: "Galerians"
+games: [galerians]
+console: ps1
+status: experimental
+repo: goodshepherd23/Galerians-Recompiled
+year: 2000
+toolchain: PSXRecomp
+desc:
+  es: "Versión nativa para PC de Galerians (PlayStation, 2000), hecha con el recompilador estático PSXRecomp y el lanzador recomp-ui. El código del juego se genera en tu equipo a partir de tu disco 1 (los tres discos arrancan el mismo ejecutable, así que una compilación sirve para todo el juego) y usa la imagen OpenBIOS incluida, sin BIOS de Sony. La 0.1.1 (21 de octubre) trae paquetes para Windows x64, Linux x64 y macOS (Apple Silicon e Intel). Es una versión temprana probada en Windows: llega al título y al principio del juego, pero jugar más allá de la primera sala, guardar y cargar, cambiar de disco y los paquetes de Linux y macOS siguen sin probar. El lanzador incluye trucos opcionales. El README declara que se hizo con asistencia de IA (Claude), y sus 4 commits llevan a Claude como coautor."
+  en: "A native PC version of Galerians (PlayStation, 2000), made with the PSXRecomp static recompiler and the recomp-ui launcher. The game code is generated on your machine from your Disc 1 (all three discs boot the same executable, so one build plays the whole game) and uses the bundled OpenBIOS image, with no Sony BIOS. Version 0.1.1 (October 21) has packages for Windows x64, Linux x64, and macOS (Apple Silicon and Intel). It is an early release tested on Windows: it reaches the title and the start of the game, but play beyond the first room, saving and loading, changing discs, and the Linux and macOS packages remain untested. The launcher includes optional cheats. The README states it was made with AI assistance (Claude), and all 4 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propios tres discos de Galerians (EE. UU.) como CUE/BIN, cada CUE junto a su BIN: disco 1 SLUS-00986, disco 2 SLUS-01098 y disco 3 SLUS-01099. Windows, Linux o macOS; en Linux y macOS hay que instalar antes CMake, Ninja, Python 3 y un compilador de C/C++."
+  en: "Your own three discs of Galerians (USA) as CUE/BIN, each CUE kept next to its BIN: Disc 1 SLUS-00986, Disc 2 SLUS-01098, and Disc 3 SLUS-01099. Windows, Linux, or macOS; on Linux and macOS you first install CMake, Ninja, Python 3, and a C/C++ compiler."
+tags:
+  - mips
+  - ai-assisted

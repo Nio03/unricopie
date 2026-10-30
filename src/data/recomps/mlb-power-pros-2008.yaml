@@ -1,0 +1,19 @@
+name: "MLB Power Pros 2008"
+games: [mlb-power-pros-2008]
+console: wii
+status: playable
+repo: HopeAero/MLBPowerPros2008Recomp
+originalDeveloper: "Konami"
+year: 2008
+desc:
+  es: "Recompilación estática de MLB Power Pros 2008 (Wii, EE. UU., RL8E54) a un programa nativo de Windows x64 y Linux x86_64, construida sobre el traductor y el entorno de Wiicompiled y con lanzador, mods y herramientas propias para editar texturas, plantillas y estadios. No es un emulador: el código PowerPC (main.dol y ovl_main.rel) se traduce a C++ por adelantado y lo que daba la consola se reimplementa. Según el README, el arranque, los menús y los partidos completos funcionan a 60 cuadros por segundo; los modos Temporada, Liga y MLB Life son accesibles pero no se han probado sistemáticamente. Ofrece Direct3D 12 o Vulkan, resolución interna de 1x a 4x, pantalla ancha 16:9 real, AMD FSR 1, calendarios reales de la MLB, bateadores y lanzadores a la vez y temporadas más allá de las 10 originales (experimental). Está en beta en Windows; Linux y Steam Deck son experimentales. La versión 0.1.5 es del 24 de octubre. El README declara que casi todo se escribió con Claude; 96 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of MLB Power Pros 2008 (Wii, USA, RL8E54) into a native Windows x64 and Linux x86_64 program, built on the translator and runtime of Wiicompiled, with its own launcher, mods, and tools to edit textures, rosters, and stadiums. It is not an emulator: the PowerPC code (main.dol and ovl_main.rel) is translated to C++ ahead of time and what the console provided is reimplemented. According to the README, boot, menus, and full matches work at 60 frames per second; Season, League, and MLB Life are reachable but not systematically tested. It offers Direct3D 12 or Vulkan, internal resolution from 1x to 4x, true 16:9 widescreen, AMD FSR 1, real MLB schedules, two-way players, and seasons beyond the original 10 (experimental). It is in beta on Windows; Linux and the Steam Deck are experimental. Version 0.1.5 is from October 24. The README states that nearly everything was written with Claude; 96 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de MLB Power Pros 2008 para Wii (EE. UU., RL8E54) en imagen de disco. Windows 10 u 11 de 64 bits, una GPU con Direct3D 12 o Vulkan y unos 2,5 GB libres (900 MB para el instalador y 1,5 GB para el juego instalado)."
+  en: "Your own copy of MLB Power Pros 2008 for Wii (USA, RL8E54) as a disc image. 64-bit Windows 10 or 11, a GPU with Direct3D 12 or Vulkan, and about 2.5 GB free (900 MB for the Setup and 1.5 GB for the installed game)."
+tags:
+  - powerpc
+  - sports
+  - widescreen
+  - mods
+  - ai-assisted

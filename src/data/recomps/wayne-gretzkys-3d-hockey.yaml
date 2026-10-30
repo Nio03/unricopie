@@ -1,0 +1,18 @@
+name: "Wayne Gretzky’s 3D Hockey"
+games: [wayne-gretzkys-3d-hockey]
+console: n64
+status: experimental
+repo: geno55/wg3d-recomp
+year: 1996
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para Windows de Wayne Gretzky’s 3D Hockey (versión estadounidense 1.0), hecho por recompilación estática: N64Recomp traduce el código MIPS del juego a C, que corre sobre N64ModernRuntime y se dibuja con RT64. Según el README, el juego arranca, dibuja, reproduce audio, acepta teclado y mando (cuatro puertos) y guarda en la Controller Pak; hay un lanzador con ajustes y un menú dentro de la partida. Una pasada de corrección sigue en curso y hay una hoja de ruta hacia la 1.0.0. La ROM y todo lo extraído o generado quedan fuera de Git. La 0.8.1 es del 25 de octubre. Sus 23 commits llevan a Claude como coautor."
+  en: "A native Windows port of Wayne Gretzky’s 3D Hockey (US version 1.0), made by static recompilation: N64Recomp translates the game’s MIPS code to C, which runs on N64ModernRuntime and is rendered with RT64. Per the README, the game boots, renders, plays audio, takes keyboard and gamepad input (four ports), and saves to the Controller Pak; there is a launcher with settings and an in-game menu. A correctness pass is still in progress and there is a roadmap to 1.0.0. The ROM and everything extracted or generated stay out of Git. Version 0.8.1 is from October 25. All 23 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Wayne Gretzky’s 3D Hockey para Nintendo 64, estadounidense 1.0 (SHA-1 400aa84811f1f2f6c62c756b43b54d534d5a5ec8), como .z64 o .v64 con los bytes intercambiados. Además, Windows de 64 bits con Direct3D 12."
+  en: "Your own copy of Wayne Gretzky’s 3D Hockey for Nintendo 64, US 1.0 (SHA-1 400aa84811f1f2f6c62c756b43b54d534d5a5ec8), as a .z64 or a byteswapped .v64. Plus 64-bit Windows with Direct3D 12."
+tags:
+  - mips
+  - sports
+  - multiplayer
+  - ai-assisted

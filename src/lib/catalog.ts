@@ -214,7 +214,10 @@ export async function toolRelated(entry: CollectionEntry<"tools">, lang: Lang): 
     matched = recomps.filter((r) => d.consoles.includes(r.data.console));
     titleKey = "detail.relatedLaunch";
   } else {
-    const byTool = recomps.filter((r) => r.data.toolchain === d.name);
+    // Sin distinguir mayúsculas ni guiones: «gba-recomp» en una ficha es la
+    // herramienta «gbarecomp».
+    const norm = (s?: string) => (s ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    const byTool = recomps.filter((r) => r.data.toolchain && norm(r.data.toolchain) === norm(d.name));
     if (byTool.length) { matched = byTool; titleKey = "detail.relatedTool"; }
     else { matched = recomps.filter((r) => d.consoles.includes(r.data.console)); titleKey = "detail.relatedPlatform"; }
   }

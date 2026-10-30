@@ -1,0 +1,16 @@
+name: "Mars - The Ultimate Fighter"
+games: [mars-the-ultimate-fighter]
+category: game-engine
+console: pc
+status: playable
+repo: jval1972/Mars3D
+year: 1997
+desc:
+  es: "Recreación del motor de Mars - The Ultimate Fighter (1997), llamada Mars3D, escrita en Pascal. Ofrece altas resoluciones, renderizado por software en color verdadero y con OpenGL, velocidad de cuadros sin límite, automapa texturizado, luces dinámicas, efectos de sonido en FLAC y OGG, música en MOD, S3M, IT y XM, capturas de pantalla, un menú de ajustes de juego, teclas y resolución, y scripting con PascalScript. Admite crear contenido propio con utilidades de edición de Doom y añade enemigos y objetos nuevos que usan los recursos originales. La primera vez pide la ubicación de mars.mad y detecta solo los recursos adicionales. La última release en GitHub, la 1.0.13.755, es del 4 de mayo de 2022, con binarios de Windows de 32 bits y el código fuente."
+  en: "An engine recreation of Mars - The Ultimate Fighter (1997), called Mars3D, written in Pascal. It offers high resolutions, true-color software rendering and OpenGL rendering, an uncapped frame rate, a textured automap, dynamic lights, sound effects in FLAC and OGG, music in MOD, S3M, IT, and XM, screenshots, an in-game menu for gameplay, key bindings, and resolution, and scripting with PascalScript. It supports creating custom content with Doom editing utilities and adds new enemies and pickups that use the original resources. On first launch it asks for the location of mars.mad and detects the additional resources on its own. The latest release on GitHub, 1.0.13.755, is from May 4, 2022, with 32-bit Windows binaries and the source code."
+requirements:
+  es: "El archivo mars.mad de tu propia copia del juego original y sus recursos adicionales (se detectan solos). Windows (compilaciones de 32 bits)."
+  en: "The mars.mad file from your own copy of the original game and its additional resources (detected automatically). Windows (32-bit builds)."
+tags:
+  - opengl
+  - mods

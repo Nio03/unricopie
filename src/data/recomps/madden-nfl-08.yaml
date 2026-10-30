@@ -1,0 +1,18 @@
+name: "Madden NFL 08"
+games: [madden-nfl-08]
+console: x360
+status: playable
+repo: anishchandra24/MaddenNFL08-Recompiled
+originalDeveloper: "EA Tiburon"
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de Madden NFL 08, de Xbox 360, hecho con recompilación estática mediante el SDK ReXGlue. El repositorio contiene lo que hace que el SDK funcione con este juego (la lista de correcciones que permite al recompilador entenderlo), un pequeño lanzador y dos parches al SDK: uno corrige una instrucción vectorial del generador de código que corrompía vídeo, poses de jugadores, campo, público y texto, y otro porta correcciones de Xenia Canary sobre la disposición de las texturas mip, que arreglan los nombres y números de las camisetas y los cascos. El juego en sí se traduce en tu equipo a partir de tu copia. Según el README funcionan el arranque, los vídeos, los menús, los partidos rápidos, los modos Franquicia y Superestrella en pruebas cortas, las repeticiones, el guardado, la música, el teclado y un mando XInput. Quedan parpadeos de líneas finas y tirones al construir los shaders la primera vez. La 0.1.0 (25 de octubre) es una versión previa. Los 6 commits del repositorio llevan a Claude como coautor."
+  en: "A native Windows port of Madden NFL 08 for Xbox 360, made with static recompilation via the ReXGlue SDK. The repository holds what makes the SDK work with this game (the fix list that lets the recompiler understand it), a small launcher, and two patches to the SDK: one fixes a vector instruction in the code generator that corrupted video, player poses, the field, the crowd, and text, and the other ports fixes from Xenia Canary’s texture layout code, which fix jersey names and numbers and helmets. The game itself is translated on your PC from your own copy. According to the README, boot, intro videos, menus, Play Now games, Franchise and Superstar modes in short tests, replays, saving, music, keyboard, and an XInput controller work. Tiny flickering lines and stutter while shaders are built the first time remain. Version 0.1.0 (October 25) is a pre-release. All 6 of the repository’s commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Madden NFL 08 para Xbox 360 (ID de título 4541081D), extraída de modo que default.xex y el resto de archivos queden en una carpeta; el default.xex admitido pesa 20.529.152 bytes y tiene SHA-256 962EA344FB966E1BE1C94667D4213A309A69A821AE3BEC0CB2FCA4166ECC6627. Windows 10 u 11 de 64 bits (solo se ha probado Windows 10), una tarjeta gráfica con Direct3D 12 y vistas ordenadas por rasterizador, Visual Studio 2022 Community y Git (el instalador puede instalarlos), y conexión a internet en la primera instalación."
+  en: "Your own copy of Madden NFL 08 for Xbox 360 (title ID 4541081D), extracted so that default.xex and the other files sit in one folder; the supported default.xex is 20,529,152 bytes with SHA-256 962EA344FB966E1BE1C94667D4213A309A69A821AE3BEC0CB2FCA4166ECC6627. 64-bit Windows 10 or 11 (only Windows 10 has been tested), a graphics card with Direct3D 12 rasterizer-ordered views, Visual Studio 2022 Community and Git (the installer can install them), and an internet connection for the first setup."
+tags:
+  - powerpc
+  - sports
+  - ai-assisted

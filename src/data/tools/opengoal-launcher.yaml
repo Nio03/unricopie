@@ -1,0 +1,13 @@
+name: "OpenGOAL Launcher"
+games: [jak-and-daxter-the-precursor-legacy, jak-ii, jak-3]
+kind: launcher
+consoles:
+  - ps2
+repo: open-goal/launcher
+status: stable
+desc:
+  es: "Lanzador multiplataforma para OpenGOAL que simplifica instalar y actualizar los juegos de la serie Jak and Daxter, con soporte integrado para mods y packs de texturas. Está hecho con Tauri v2 y Svelte 5, y el README remite a la guía de instalación y uso de opengoal.dev. Tiene versiones para Windows, Linux (AppImage) y macOS; la v2.11.2 es del 9 de octubre. Los juegos que gestiona aparecen listados en los lanzadores de terceros como Jak and Daxter: The Precursor Legacy, Jak II y Jak 3."
+  en: "A cross-platform launcher for OpenGOAL that makes installing and updating the Jak and Daxter games simple, with built-in support for mods and texture packs. It is built with Tauri v2 and Svelte 5, and the README points to the installation and usage guide on opengoal.dev. It has builds for Windows, Linux (AppImage), and macOS; v2.11.2 is from October 9. The games it handles appear in third-party launcher listings as Jak and Daxter: The Precursor Legacy, Jak II, and Jak 3."
+tags:
+  - mips
+  - mods

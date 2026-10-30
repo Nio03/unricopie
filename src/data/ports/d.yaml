@@ -1,0 +1,18 @@
+name: "D"
+games: [d]
+category: decomp-port
+console: ps1
+status: playable
+repo: Bitsandbreakpoints/d-psx-pc-recomp
+originalDeveloper: "WARP"
+year: 1995
+desc:
+  es: "Versión nativa para Windows de D, la aventura de terror de PlayStation de WARP y Acclaim (1995), sin emulador ni BIOS. Ejecuta la lógica del propio juego, reconstruida a partir de una decompilación que no se ha publicado, junto con las bibliotecas de la PlayStation reescritas para Windows (gráficos, chip de sonido, vídeo MDEC, lectura del CD y mandos); las películas, las imágenes y el sonido se leen en ejecución de las imágenes de tus discos. Añade estados de guardado en 8 ranuras (el original no permite guardar), pausa en cualquier momento, un modo de tiempo doble, resolución interna de hasta 4x, filtros de imagen y un lanzador que cambia de disco solo. El código del programa del port está en el repositorio, pero no se puede compilar por sí solo porque falta la decompilación del juego. La 1.0.2 (27 de octubre) permite ganar el combate con el caballero del disco 2, que en las versiones anteriores siempre se perdía. Sus 10 commits llevan a Claude como coautor."
+  en: "A native Windows version of D, WARP and Acclaim’s PlayStation horror adventure (1995), with no emulator and no BIOS. It runs the game’s own logic, rebuilt from a decompilation that has not been published, together with the PlayStation’s libraries rewritten for Windows (graphics, sound chip, MDEC video, CD reading, and controllers); movies, pictures, and sound are read at run time from your own disc images. It adds 8-slot save states (the original has no way to save), pause at any moment, a double-time mode, internal resolution up to 4x, picture filters, and a launcher that changes discs by itself. The port’s own program source is in the repository, but it cannot be built on its own because the game’s decompilation is missing. Version 1.0.2 (October 27) makes the knight fight on disc 2 winnable, which was always lost in earlier versions. All 10 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propias imágenes de los tres discos de D (EE. UU., SLUS-00128 / 00173 / 00174) en .bin/.cue o .chd; no sirve el .iso. Además, Windows 10 o posterior."
+  en: "Your own images of the three discs of D (USA, SLUS-00128 / 00173 / 00174) as .bin/.cue or .chd; an .iso does not work. Plus Windows 10 or later."
+tags:
+  - mips
+  - horror
+  - ai-assisted

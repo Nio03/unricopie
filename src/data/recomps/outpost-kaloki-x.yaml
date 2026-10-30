@@ -1,0 +1,18 @@
+name: "Outpost Kaloki X"
+games: [outpost-kaloki-x]
+console: x360
+status: playable
+repo: TekRantGaming/outpost-kaloki-x-recompiled
+originalDeveloper: "NinjaBee"
+year: 2005
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows y Linux de Outpost Kaloki X (Xbox Live Arcade, 2005), recompilado con el SDK ReXGlue a partir del código de Xbox 360. El README explica que la versión de PC de 2004, Outpost Kaloki, no recibió lo que trae la de Xbox 360: más niveles, dos campañas, once escenarios y desafíos con tiempos de oro. Un lanzador instala el juego desde tu paquete y comprueba que sea la versión correcta; ofrece resolución de render de 1× a 6× (hasta 8K), FXAA, MSAA 2×, filtrado de hasta 16×, un límite de cuadros de 30 a ilimitado, ajustes de mando y de teclado y ratón, logros con avisos y la opción de jugar el juego completo o la demo (el completo viene desbloqueado). La 1.1.1 (18 de octubre) es la última versión, para Windows y como AppImage de Linux. El README declara que se hizo casi por completo con Claude Code; sus 20 commits llevan a Claude como coautor."
+  en: "A native Windows and Linux port of Outpost Kaloki X (Xbox Live Arcade, 2005), recompiled with the ReXGlue SDK from the Xbox 360 code. The README explains that the 2004 PC version, Outpost Kaloki, never received what the Xbox 360 version has: more levels, two campaigns, eleven scenarios, and challenges with gold-medal times. A launcher installs the game from your package and checks that it is the right version; it offers render resolution from 1× to 6× (up to 8K), FXAA, 2× MSAA, filtering up to 16×, a frame-rate cap from 30 to unlimited, controller and keyboard-and-mouse settings, achievements with pop-ups, and the choice of playing the full game or the trial (the full game comes unlocked). Version 1.1.1 (October 18) is the latest, for Windows and as a Linux AppImage. The README states that it was made almost entirely with Claude Code; all 20 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio paquete de Outpost Kaloki X de Xbox Live Arcade, exactamente esta versión: ID de título 584107DB, archivo de 21 557 248 bytes (el archivo sin extensión de la carpeta de contenido de tu Xbox 360 o de un emulador), default.xex 0.0.1.1 con CRC32 CCB0ACE9. Windows 10 u 11 de 64 bits con DirectX 12, o Linux de 64 bits con Vulkan."
+  en: "Your own Outpost Kaloki X package from Xbox Live Arcade, exactly this release: title ID 584107DB, a 21,557,248-byte file (the file with no extension from your Xbox 360 or emulator content folder), default.xex 0.0.1.1 with CRC32 CCB0ACE9. 64-bit Windows 10 or 11 with DirectX 12, or 64-bit Linux with Vulkan."
+tags:
+  - powerpc
+  - 60fps+
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Jet Set Radio Future (spriteice)"
+games: [jet-set-radio-future]
+console: xbox
+status: playable
+repo: spriteice/JSRF-PC
+originalDeveloper: "Smilebit"
+year: 2002
+toolchain: xboxrecomp
+desc:
+  es: "Bifurcación de JSRF Unleashed, de JuMatt, que recompila estáticamente el código del juego a C y lo construye como programa nativo para Linux y Windows, y que busca añadir funciones y correcciones con foco en la compatibilidad y el rendimiento en esas dos plataformas. El hardware de Xbox (la GPU NV2A, el chip de audio MCPX y el núcleo) se emula con el toolkit xboxrecomp y los modelos de hardware de xemu. Añade un menú dentro del juego (F1, o Back en el mando), cámara libre con el stick derecho, MSAA además de SMAA, filtrado anisotrópico, un ritmo de cuadros más fluido y modo portátil; de JuMatt vienen el escalado de resolución de 1× a 4×, la pantalla 16:9 en juego y SMAA. Es jugable pero temprano y no se ha completado de principio a fin; Linux es la plataforma principal. La beta 1.2 (29 de octubre) es la última versión, con paquetes para Linux y Windows. El README declara que todas sus adiciones al código original están escritas por IA; 85 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A fork of JuMatt’s JSRF Unleashed that statically recompiles the game’s code to C and builds it as a native program for Linux and Windows, aiming to add features and bug fixes with a focus on compatibility and performance on those two platforms. The Xbox hardware (the NV2A graphics chip, the MCPX audio chip, and the kernel) is emulated using the xboxrecomp toolkit and xemu’s hardware models. It adds an in-game menu (F1, or Back on a controller), a free camera on the right stick, MSAA alongside SMAA, anisotropic filtering, smoother frame pacing, and a portable mode; from JuMatt come resolution scaling from 1× to 4×, 16:9 in gameplay, and SMAA. It is playable but early and has not been played from start to finish; Linux is the main platform. Beta 1.2 (October 29) is the latest release, with Linux and Windows packages. The README states that all of its additions to the upstream code are written by AI; 85 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Jet Set Radio Future, el disco independiente de EE. UU. (NTSC-U), como carpeta con default.xbe o imagen de disco (XISO o volcado completo) que el programa descomprime una vez; otras versiones no funcionan. Linux x86_64 (SteamOS, Ubuntu 22.04 o superior y la mayoría de distribuciones actuales) o Windows 10 u 11 de 64 bits."
+  en: "Your own copy of Jet Set Radio Future, the standalone US (NTSC-U) disc, as a folder with default.xbe or a disc image (XISO or full disc image) that the program unpacks once; other versions do not work. x86_64 Linux (SteamOS, Ubuntu 22.04 or newer, and most modern distributions) or 64-bit Windows 10 or 11."
+tags:
+  - x86
+  - platformer
+  - widescreen
+  - ai-assisted

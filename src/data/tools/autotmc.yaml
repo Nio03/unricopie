@@ -1,0 +1,11 @@
+name: "AutoTMC"
+games: [the-legend-of-zelda-the-minish-cap]
+kind: launcher
+consoles: [gba]
+status: beta
+repo: StonedModder/auto-tmc
+desc:
+  es: "Aplicación de escritorio en Python, con interfaz de CustomTkinter, que automatiza la instalación y la gestión de las versiones de TMC, el port de The Legend of Zelda: The Minish Cap de 999sian (el código de la aplicación consulta ese repositorio). Muestra las versiones publicadas en GitHub y sus notas, descarga e instala la que elijas, gestiona y verifica la ROM, comprueba actualizaciones de forma opcional y guarda en una base SQLite las versiones y ROMs instaladas. Funciona en Windows, macOS y Linux con Python 3.14 o posterior; el repositorio incluye además AutoTMC-Windows.exe. Hay que aportar tu propia ROM. La 1.0.2 (8 de mayo, marcada como preliminar) es la última versión."
+  en: "A desktop application in Python, with a CustomTkinter interface, that automates the installation and management of releases of TMC, 999sian’s port of The Legend of Zelda: The Minish Cap (the application’s code queries that repository). It shows the releases published on GitHub with their notes, downloads and installs the one you pick, manages and verifies the ROM, optionally checks for updates, and keeps the installed versions and ROMs in an SQLite database. It runs on Windows, macOS, and Linux with Python 3.14 or later; the repository also includes AutoTMC-Windows.exe. You must supply your own ROM. Version 1.0.2 (May 8, marked as a prerelease) is the latest release."
+tags:
+  - arm

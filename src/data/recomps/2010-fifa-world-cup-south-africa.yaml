@@ -1,0 +1,17 @@
+name: "2010 FIFA World Cup South Africa"
+games: [2010-fifa-world-cup-south-africa]
+console: x360
+status: experimental
+repo: RamiChaaben8/Fifa_World_Cup_2010_PC_Port
+originalDeveloper: "EA Canada"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Port experimental e incompleto de 2010 FIFA World Cup South Africa (Xbox 360) para Windows, basado en el port de FIFA Street para PC y en el SDK ReXGlue. El instalador construye el port en tu equipo a partir de tu ISO y no incluye el juego; deja una carpeta con el juego y una herramienta de ajustes (Settings.exe) para la pantalla y para elegir el ejecutable. El README avisa de que algunas rutas del juego pueden detenerse por funciones sin recompilar u otros problemas de compatibilidad. La versión 0.6 (28 de octubre) añadió resolución y escalado (perfiles, resolución interna de 1× a 4×, FXAA, MSAA y FSR), arreglos en la selección de equipo con el globo, en la interfaz del modo Copa del Mundo y en los controles de teclado."
+  en: "An experimental, incomplete port of 2010 FIFA World Cup South Africa (Xbox 360) for Windows, based on the FIFA Street PC port and the ReXGlue SDK. The installer builds the port on your PC from your ISO and does not include the game; it leaves a folder with the game and a settings tool (Settings.exe) for the display and for choosing the executable. The README warns that some game paths may stop on missing recompiled functions or other compatibility issues. Version 0.6 (October 28) added resolution and upscaling options (profiles, internal resolution from 1× to 4×, FXAA, MSAA, and FSR), and fixes for team selection on the globe, the World Cup mode interface, and keyboard controls."
+requirements:
+  es: "Tu propia ISO de 2010 FIFA World Cup South Africa para Xbox 360 (cualquier región), extraída con extract-xiso; el instalador la pide y construye el port. Windows x64 con las herramientas de compilación de Visual Studio C++ (se descargan de Microsoft si faltan) y varios gigabytes libres."
+  en: "Your own ISO of 2010 FIFA World Cup South Africa for Xbox 360 (any region), extracted with extract-xiso; the installer asks for it and builds the port. 64-bit Windows with the Visual Studio C++ Build Tools (downloaded from Microsoft if missing) and several gigabytes free."
+tags:
+  - powerpc
+  - sports

@@ -34,3 +34,88 @@ RobGreenUK/wave-race-64-recomp     # fork de danielgomesvieira2000, sin releases
 DabDavis/perfect-dark-dabs-mod     # fork con mods de fgsfdsfgs/perfect_dark, que ya tiene ficha en ports/
 stenzek/duckstation                  # emulador de PS1; lo enlaza la web de CTR Turbocharged
 re-rac/rerac-launcher                # launcher de ReRAC, enlazado desde ports/ratchet-and-clank.yaml
+
+# ══ Revisión de las listas de los launchers (29-10-2026) ══
+# Repos de Quiver, Ports Launcher, GithubLauncher, WLauncher y ReComp Launcher que no
+# están en el catálogo. Los que «no dicen que se jueguen» o «no tienen código» no van
+# aquí: pueden cambiar y el bot debe volver a proponerlos.
+
+# ── Redistribuyen contenido del juego ──
+sal063/Ace-Combat-5-Static-recompilation  # su Release.rar trae runtime/ps2_image.bin, una imagen de memoria del juego; fuera desde el 22-10
+Brawmario/infinite-mario-64-ever          # trae datos del juego: sonidos de SM64 (mario/sfx/sm64_*.wav, mario/here_we_go.wav) y es un fork de Infinite Mario 64
+spitzdano/AidynReChronicled               # trae datos del juego: según su README, las versiones incluyen paquetes de texturas reescaladas a partir de las imágenes del juego (hd-ui, hd-world) y muestras de instrumentos restauradas (sound/), hechas con datos del propio juego
+cybervisi0n/pokeplatinum                  # trae datos del juego: el árbol incluye res/ con audio (.wav, .mid), gráficos (.png, .pal) y .bin extraídos del juego
+andreyvelsk/com.mobilerpgpack.phone       # no corre en PC: port de Android (bifurcación de sandstranger/com.mobilerpgpack.phone) que además trae recursos de juegos y un modelo de 80 MB
+BioRhythmicStudios/warioland4             # trae datos del juego: src/data/sprite_data_*.c (unos 29 MB) son los gráficos del ROM como arrays en bruto en sus direcciones originales
+nhaar/Waddle-Forever                      # trae datos del juego: emulador de servidor de Club Penguin con ~26.000 .swf y releases de 1 GB
+petarov/alleycat.exe                      # trae datos del juego: los binarios incrustan CAT.EXE original (no hace falta copia en ejecución) y corren sobre hardware PC emulado
+petarov/saboteur2                         # trae datos del juego: los binarios incrustan SAB2.COM original (no hace falta copia en ejecución) y corren sobre hardware PC emulado
+STJr/Kart-Public                          # mod de un juego de fans original (SRB2); su release trae un paquete de recursos de 220 MB
+synthwave-pixel/ultima3                   # trae datos del juego (Lairware/Resources con gráficos y .rsrc, web/public/data/resources.json); fork de beastie/ultima3
+The-New-Platinum-Team/OpenMBG             # trae datos del juego (game/marble/data con interiores .dif y recursos de Marble Blast Gold)
+TheFlyingFoool/DuckGameRebuilt            # trae datos del juego (deps/Content con ~2700 archivos, p. ej. Audio/Music/*.ogg)
+yell0wsuit/contrejour-dx                  # trae datos del juego (GameContents/Content con música .wav y recursos)
+Nyaldee/Ports-Launcher-Extras             # repo de otro tipo: extras del lanzador Ports Launcher; sus releases traen zelda3_assets.dat.rip (recursos del juego) y utilidades sueltas
+rages4calm/LagoonSNESRecomp               # trae datos del juego: soundtrack/ con 40 MP3 y PCM de la banda sonora de la versión X68000, sprites de Chrono Trigger en assets/easter_egg, y las releases incluyen el ejecutable del juego ya compilado
+josiahg2502-glitch/BrawlRecompiled        # trae datos del juego: launcher/art/ con luchadores, fuente y Smash Ball extraídos del disco (README: tomados del disco al construir el release)
+MBU-Team/OpenMBU                          # trae datos del juego (game/marble/data con misiones .dif/.dts, interfaz y assets/music/Tim_Trance.wma de Marble Blast Ultra)
+tvall43/metal-arms-pc-port                # trae datos del juego: es el código fuente filtrado de Metal Arms (App/, Lib/, Exp/, Plug/ del source drop de Swingin’ Ape), que el propio README dice que no se debe redistribuir
+
+# ── Emuladores o núcleos de emulador ──
+Mabec-games/F-ZERO-GLINUX               # es un emulador: runtime derivado de Dolphin (la recompilación con ModernGekko sigue siendo experimental y no se publica)
+thibautbus/top                          # es un emulador: ejecuta la ROM en los núcleos SameBoy o mGBA con un host nativo alrededor
+ZakyPew/epoch-equinox                   # es un emulador: el README admite que el runtime interpreta la ROM cargada, sin recompilación (la generación de código se eliminó)
+Darhkfox/busters-hidden-treasure-pc     # es un emulador: reproduce el hardware de Mega Drive (68000, VDP, Z80) y ejecuta la ROM; sin código en el repositorio
+Darhkfox/MickeyAndDonaldCollection      # es un emulador: ejecuta las ROM con un núcleo de Mega Drive propio (src/core/m68k.cpp, vdp.cpp, z80.cpp)
+ondrejeder/Driveclub-pc-wrapper         # es un emulador: el propio README lo define como fork personal del emulador de PS4 shadPS4
+OTPR26/DekUI-Fork                       # es un emulador: corre Majora's Mask 3D sobre un emulador de 3DS adaptado (Azahar) y el README dice que no es una recompilación
+PokaMilkTea/VirtuaRacingDeluxeEnhanced  # es un emulador: se apoya en el emulador PicoDrive (HLE del 32X)
+TekRantGaming/digdug-native             # es un emulador: reimplementa la placa arcade (3 Z80) y ejecuta las ROM del jugador
+tgacquin/mm3d-dekui                     # es un emulador: mod sobre un fork de Azahar (emulador de 3DS)
+goodshepherd23/Baroque-SaturnRecomp     # es un kit que descarga SaturnRecomp, un runtime que interpreta el SH-2 sobre la BIOS real de Saturn (no es recompilación estática); núcleo de emulador y pide BIOS
+Darhkfox/BusterBustsLoose               # ejecuta la ROM sobre un núcleo de SNES (es un emulador)
+peanutsofdoom/supermetroidplus          # es un emulador: bsnes-hd modificado (el propio README dice que no es recompilación ni decompilación)
+
+# ── No corren en PC (solo Android, iOS, Switch u otras) ──
+luisxl15/Strikers-Android-Port               # no corre en PC: es la rama Android de new-coke/strikers, que ya está en el catálogo
+Edwin2929/sma3-recomp-android.               # no corre en PC: proyecto para Android ARM64 (APK)
+AurelioB/BanjoRecomp-Android                 # no corre en PC: port a Android de BanjoRecomp, que ya está en el catálogo
+izzy2lost/perfect_dark                       # no corre en PC: fork de Android de perfect-dark-pc-port/perfect_dark (ya en el catálogo), 9 commits por delante
+izzy2lost/SpaghettiKart                      # no corre en PC: fork de Android de HarbourMasters/SpaghettiKart (ya en el catálogo)
+izzy2lost/Starship                           # no corre en PC: las versiones publicadas son solo APK de Android (bifurcación de HarbourMasters/Starship)
+linkzenic/2ship2harkinian-Android            # no corre en PC: solo publica APK de Android
+linkzenic/Shipwright-Ports                   # no corre en PC: publica APK de Android e IPA de iOS y tvOS
+linkzenic/Zelda64Recomp-Android              # no corre en PC: solo publica APK de Android (bifurcación de Zelda64Recomp)
+ManIsCat2/sm64coopdx                         # no corre en PC: sus únicas versiones son APK de Android; el resto es una copia de coop-deluxe/sm64coopdx, que ya está en el catálogo
+ogdanimal/Goemon64Recomp-Android             # no corre en PC: solo publica APK de Android (capa sobre klorfmorf/Goemon64Recomp, que ya está)
+GreenNaugahyde/ZeldaWWHDRecompAndroid        # no corre en PC: app solo para Android; el proyecto original (ZeldaWWHDRecomp/ZeldaWWHDRecomp) ya tiene ficha
+igawa6/dualsouls                             # no corre en PC: port de Android para la consola AYN Thor; además su release trae un parche xdelta de 924 MB del juego
+jakobkhansen/SilksongAndroid                 # no corre en PC: port de Android
+mamcjr/LASRecompAndroid                      # no corre en PC: port de Android (el de PC es peiikai/LASRecomp, ya en el catálogo)
+Nycolazs/WindWakerHD-Android-Plus            # no corre en PC: port de Android (fork de otros dos forks del port Android de Wind Waker HD)
+revvv991/uncharted-android                   # no corre en PC: port de Android (el de PC es Supermedo/uncharted_pc, ya en el catálogo)
+SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED  # no corre en PC: port de Android (fork del port Android de Wind Waker HD)
+mgrz18/sdlpop-android                        # no corre en PC: port de SDLPoP solo para Android
+wootbeer/jillandroid                         # no corre en PC (port solo para Android, APK)
+ZinexDa/sonic-r-android                      # no corre en PC (port solo para Android, APK)
+Simon358/ctr-native-android                  # fork atrasado (6 commits propios, 135 por detrás) de CTR-tools/ctr-native, que ya está en el catálogo y ya incorpora el soporte de Android
+sirdankz/Undead-Neighbor-Eaters-Droid        # no corre en PC: port solo para Android (APK ARM64); además dice que no hay permiso de redistribución del código derivado
+mamcjr/TOTKRecompAndroid                     # no corre en PC: solo Android (arm64, Vulkan)
+
+# ── No son el port de un juego (juegos originales, motores genéricos, webs, extras) ──
+ZQuestClassic/ZQuestClassic  # motor genérico para crear juegos, no es el port de un juego
+Gzh0821/pvzg_site            # repo de otro tipo: es el sitio web (VuePress) de una reescritura web de Plants vs. Zombies 2; el código del juego está en otro repo y las versiones pesan 1,2 GB (traen el juego)
+blue-nebula/base             # repo de otro tipo: fork de Red Eclipse, un juego libre con sus propios datos, no un port
+ikemen-engine/Ikemen-GO      # repo de otro tipo: motor genérico compatible con M.U.G.E.N, no un port de un juego concreto
+KartKrewDev/RingRacers       # repo de otro tipo: juego libre propio (fan game basado en SRB2), no un port
+luanti-org/luanti            # repo de otro tipo: motor genérico de juegos de vóxeles, no un port
+ppy/osu                      # repo de otro tipo: juego propio (osu!), no un port
+redeclipse/base              # juego original (shooter propio), no es port ni recomp de otro juego
+stepmania/stepmania          # juego original (motor de ritmo propio), no es port ni recomp de otro juego
+
+# ── Forks sin cambios propios ──
+JapanDoudou/dusk-zelda       # fork sin cambios propios (0 commits por delante de TwilitRealm/dusklight)
+Erick194/Doom64EX-Plus       # fork sin cambios propios (0 commits por delante de atsb/Doom64EX-Plus, ya en el catálogo)
+izzy2lost/Lighthouse         # fork sin cambios propios (0 commits por delante de HarbourMasters/Lighthouse)
+leanndroguedes/re3-19feb21   # fork sin cambios propios: copia archivada de GTAmodding/re3 (ya catalogado), sin historial propio
+qurious-pixel/SMAS_Launcher  # fork sin cambios propios: idéntico a stephini/SMAS_Launcher (0 commits por delante o por detrás)

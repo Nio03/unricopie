@@ -1,0 +1,11 @@
+name: "Super Metroid Launcher"
+games: [super-metroid]
+kind: launcher
+consoles: [snes]
+status: usable
+repo: RadzPrower/Super-Metroid-Launcher
+desc:
+  es: "Herramienta de Windows, escrita en C#, que reúne en casi un clic los pasos para descargar, extraer, compilar y lanzar la reimplementación de Super Metroid de snesrev. El botón pasa de Download a Building y después a Launch; Restore rehace todo el proceso y Update aparece si el repositorio de snesrev cambió. No incluye el juego: pide una copia legítima de la ROM de EE. UU. (SHA-256 12B77C4BC9C1832CEE8881244659065EE1D84C70C3D29E6EAF92E6798CC2CA72). La v1.0.1 (23 de octubre), una modernización de .NET, es la última versión; la 1.0 salió el 21 de marzo de 2023."
+  en: "A Windows tool, written in C#, that bundles into nearly one click the steps to download, extract, compile, and launch snesrev’s Super Metroid reimplementation. The button goes from Download to Building and then to Launch; Restore redoes the whole process and Update appears if snesrev’s repository changed. It does not include the game: it asks for a legitimate copy of the US ROM (SHA-256 12B77C4BC9C1832CEE8881244659065EE1D84C70C3D29E6EAF92E6798CC2CA72). Version 1.0.1 (October 23), a .NET modernization, is the latest release; 1.0 came out on March 21, 2023."
+tags:
+  - "65816"

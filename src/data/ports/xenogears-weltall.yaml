@@ -1,0 +1,18 @@
+name: "Xenogears (Weltall)"
+games: [xenogears]
+category: game-engine
+console: ps1
+status: playable
+repo: Roman215/Weltall
+originalDeveloper: "Square"
+year: 1998
+desc:
+  es: "Port nativo de Xenogears reconstruido en Unreal Engine 5 (se llama Weltall), que busca sentirse como una versión moderna para PC sin cambiar la jugabilidad; según el README, el comportamiento del juego se ha contrastado con el código original. Lee tus imágenes de disco al ejecutarse y el repositorio no incluye datos del juego. Los dos discos se pueden jugar, con exploración, combates de personajes y de Gears, mapamundi, menús, la arena Battling y vídeos; el autor lleva unas 25 horas de partida sin cuelgues y las pruebas automáticas recorrieron todos los mapas y combates de la historia. Añade resolución alta y pantalla ancha hasta 32:9, movimiento fluido a cualquier tasa de refresco, cámara libre, orden de profundidad por píxel, Gears en 3D en el campo y el mapamundi, velocidades de combate 2x y 4x, opciones de equilibrio, y teclado, ratón y mandos. También funcionan traducciones de aficionados que solo cambian textos, imágenes y vídeos, como la española de Romhack Hispano y la francesa de Atelier Traduction. Hay versiones para Windows, Linux y Android; la 0.8.5 es del 26 de octubre."
+  en: "A native port of Xenogears rebuilt in Unreal Engine 5 (it is called Weltall), which aims to feel like a modern PC release without changing the gameplay; according to the README, the game’s behavior has been checked against the original code. It reads your disc images at run time and the repository includes no game data. Both discs are playable, with field exploration, character and Gear battles, the world map, menus, the Battling arena, and movies; the author has about 25 hours of play without a hang, and automated tests ran every map and story battle. It adds high resolutions and widescreen up to 32:9, smooth motion at any refresh rate, a free camera, per-pixel depth sorting, 3D Gears on the field and world map, 2x and 4x battle speeds, balance options, and keyboard, mouse, and gamepad support. Fan translations that only change text, pictures, and movies also play, such as the Spanish one by Romhack Hispano and the French one by Atelier Traduction. There are builds for Windows, Linux, and Android; version 0.8.5 is from October 26."
+requirements:
+  es: "Tu propia copia de la edición estadounidense o de un undub en inglés compatible, como imágenes de disco en la carpeta Games. BIN/CUE y CHD conservan el audio de los vídeos; ISO/IMG también sirven, pero con los vídeos sin sonido. Los discos japoneses no se pueden jugar. Puedes empezar con el disco 2 solo, o añadirlo durante la partida cuando lo pide."
+  en: "Your own copy of the USA release or a supported English undub, as disc images in the Games folder. BIN/CUE and CHD keep the movie audio; ISO/IMG also work, but the movies are silent. Japanese retail discs aren’t playable. You can start with disc 2 alone, or add it during play when the game asks for it."
+tags:
+  - rpg
+  - widescreen
+  - mods

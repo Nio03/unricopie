@@ -1,0 +1,20 @@
+name: "The Lost World: Jurassic Park"
+games: [the-lost-world-jurassic-park]
+console: arcade
+status: playable
+repo: snicolast/LostWorldNative
+originalDeveloper: "Sega"
+year: 1997
+desc:
+  es: "Port nativo para PC del arcade de pistola de luz de Sega de 1997, para la placa Sega Model 3. El README dice que no es un emulador: el código original, el PowerPC recompilado a C++, con un renderizador Vulkan moderno. Ofrece pantalla ancha de verdad (16:9 o 21:9), sombras de sol con trazado de rayos, oclusión ambiental, bruma, resplandor, lluvia y relámpagos nuevos, linterna en las fases nocturnas, MSAA o DLAA de NVIDIA, texturas HD, movimiento fluido a 120 o 144 Hz, ratón, mando (con giroscopio) o dos ratones para dos jugadores, y modos nuevos (Random Spawns, Boss Fight, Survival) con logros y estadísticas. El repositorio no publica versiones: se compila con Python y las Build Tools de Visual Studio 2022. Código bajo licencia MIT. 62 de sus 91 commits llevan a Claude como coautor."
+  en: "A native PC port of Sega’s 1997 arcade light-gun game, for the Sega Model 3 board. The README says it is not an emulator: the original code, PowerPC recompiled to C++, with a modern Vulkan renderer. It offers true widescreen (16:9 or 21:9), ray-traced sun shadows, ambient occlusion, distance haze, bloom, new rain and lightning, a flashlight in the night stages, MSAA or NVIDIA DLAA, HD textures, smooth motion at 120 or 144 Hz, mouse, gamepad (with gyro), or two mice for two players, and new modes (Random Spawns, Boss Fight, Survival) with achievements and stats. The repository publishes no releases: it is built with Python and the Visual Studio 2022 Build Tools. The code is under the MIT license. 62 of its 91 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del ROM arcade lostwsga.zip, el juego japonés Rev. A (Sega Model 3 Step 1.5), con archivos como epr-19936.20 y mpr-19918.1; otras versiones no funcionan. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan, Python 3 y las Build Tools de Visual Studio 2022 con la carga de trabajo de C++."
+  en: "Your own copy of the arcade ROM lostwsga.zip, the Japan Rev. A set (Sega Model 3 Step 1.5), with files such as epr-19936.20 and mpr-19918.1; other versions will not work. Plus 64-bit Windows 10 or 11, a Vulkan graphics card, Python 3, and the Visual Studio 2022 Build Tools with the C++ workload."
+tags:
+  - powerpc
+  - lightgun
+  - widescreen
+  - "60fps+"
+  - multiplayer
+  - ai-assisted
