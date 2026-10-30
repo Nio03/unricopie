@@ -1,0 +1,11 @@
+name: "Nagano Winter Olympics '98"
+games: [nagano-winter-olympics-98]
+console: n64
+repo: TheGh0stShip/Nagano-Winter-Olympics-98-N64
+decomp: TheGh0stShip/Nagano-Winter-Olympics-98-N64
+desc:
+  es: "Decompilación exacta y completa de la versión estadounidense de Nagano Winter Olympics '98 para Nintendo 64. Sus 1.470 funciones y todos los bytes de código de CPU coinciden con la ROM original; los datos del programa, recursos, audio, música, contenedores decodificados y el inventario físico de la ROM también están clasificados por completo. No incluye la ROM ni recursos extraídos con copyright."
+  en: "Complete matching decompilation of the US release of Nagano Winter Olympics '98 for Nintendo 64. All 1,470 functions and every CPU code byte match the retail ROM; program data, assets, audio, music, decoded containers, and the physical ROM inventory are also fully classified. It includes neither the ROM nor extracted copyrighted assets."
+tags:
+  - mips
+  - matching
