@@ -10,7 +10,7 @@ desc:
   es: "Port nativo y jugable de Skate 3 para Windows, Linux y macOS (v1.0.4): unos 165 fps a 4K con una RTX 4090. Sustituye al intento anterior de portingpete."
   en: "Playable native port of Skate 3 for Windows, Linux, and macOS (v1.0.4): about 165 fps at 4K on an RTX 4090. It supersedes portingpete’s earlier attempt."
 requirements:
-  es: "Tu propia ISO de Skate 3 (Xbox 360). Los DLC son opcionales y salen de tu propia copia."
-  en: "Your own Skate 3 ISO (Xbox 360). DLC is optional and comes from your own copy."
+  es: "Tu propia ISO de Skate 3 (Xbox 360). El juego descarga por su cuenta el Title Update 3 y lo comprueba antes de usarlo. Los DLC son opcionales y salen de tu propia copia."
+  en: "Your own Skate 3 ISO (Xbox 360). The game downloads Title Update 3 by itself and checks it before using it. DLC is optional and comes from your own copy."
 tags:
   - 60fps+

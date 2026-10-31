@@ -9,3 +9,6 @@ engine: Godot
 desc:
   es: "Remake y homenaje a los Super Mario Bros. originales, con niveles nuevos, modos propios, más personajes y un editor de niveles completo."
   en: "A remake of and tribute to the original Super Mario Bros. games, with new levels, custom modes, extra characters, and a full level editor."
+requirements:
+  es: "Tu propia ROM de Super Mario Bros. de NES, la original. El juego la comprueba al arrancar: se puede elegir o arrastrar a la ventana, o dejar el archivo .nes junto al ejecutable."
+  en: "Your own ROM of the original Super Mario Bros. for the NES. The game checks it on start: you can pick it or drag it onto the window, or leave the .nes file next to the executable."
