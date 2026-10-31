@@ -1,0 +1,21 @@
+name: "Diablo (DamnationX)"
+games: [diablo]
+category: decomp-port
+console: pc
+status: playable
+repo: trygentic/damnationx
+originalDeveloper: "Blizzard North"
+year: 1996
+desc:
+  es: "DamnationX es una versión de DevilutionX, el port de Diablo construido sobre la reconstrucción del código fuente del juego, con arte HD opcional, un motor 3D nativo, una sala de partidas en línea y paquetes de sonido importados de tu copia de Diablo II o Diablo II: Resurrected. El juego se ejecuta en 3D, en modo clásico o en 2D HD, con trazado de rayos opcional en las gráficas compatibles; hay versiones de escritorio para Windows, Linux (x64 y ARM64) y macOS (Apple Silicon), una versión de navegador con WebGPU y, según el README, la de Android se quedó en la beta 7. El repositorio solo publica el núcleo del juego y el lanzador: el motor 3D nativo, Toxoid, se distribuye únicamente compilado, es propiedad privada de su autor y no tiene el código publicado, y el propio DamnationX se distribuye con la licencia Sustainable Use, solo para uso no comercial. El paquete de arte HD no está en las releases de GitHub: el README solo dice que se distribuye aparte, sin indicar dónde está alojado ni de dónde sale ese arte, así que no consta si deriva del de Diablo. La última versión es la beta 8.2 (25 de octubre). El repositorio no es una bifurcación de GitHub y sus 28 commits son de dos autores; ninguno lleva a Claude como coautor."
+  en: "DamnationX is a build of DevilutionX, the Diablo port built on the reconstructed source code of the game, with optional HD art, a native 3D engine, an online lobby, and sound packs imported from your copy of Diablo II or Diablo II: Resurrected. The game runs in 3D, Classic, or HD 2D mode, with optional ray tracing on supported graphics cards; there are desktop builds for Windows, Linux (x64 and ARM64), and macOS (Apple Silicon), a browser build using WebGPU, and, according to the README, Android stayed on beta 7. The repository publishes only the game core and the launcher: the native 3D engine, Toxoid, is distributed only compiled, is its author’s proprietary software, and its source isn’t published, and DamnationX itself is distributed under the Sustainable Use License, for non-commercial use only. The HD art pack isn’t on the GitHub releases: the README only says it is distributed separately, without saying where it is hosted or where that art comes from, so it isn’t stated whether it derives from Diablo’s. The latest release is beta 8.2 (October 25). The repository isn’t a GitHub fork and its 28 commits come from two authors; none lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Diablo: la carpeta con DIABDAT.MPQ (de GOG o Battle.net, o copiado del CD original); SPAWN.MPQ sirve para la parte shareware. Para el escritorio, Windows 10 o posterior de 64 bits con una gráfica Direct3D 12 o Vulkan, Linux (Ubuntu 24.04 o compatible, glibc 2.39, Vulkan) o un Mac con Apple Silicon y macOS 26.2 o posterior. Los paquetes de sonido y el arte de Diablo II: Resurrected, opcionales, se importan de tu propia instalación y requieren Python 3.11 o posterior."
+  en: "Your own copy of Diablo: the folder with DIABDAT.MPQ (from GOG or Battle.net, or copied from the original CD); SPAWN.MPQ works for the shareware part. For desktop, 64-bit Windows 10 or later with a Direct3D 12 or Vulkan graphics card, Linux (Ubuntu 24.04 or compatible, glibc 2.39, Vulkan), or an Apple Silicon Mac on macOS 26.2 or later. The optional sound packs and Diablo II: Resurrected art are imported from your own installation and require Python 3.11 or later."
+tags:
+  - rpg
+  - hd-assets
+  - ray-tracing
+  - build-android
+  - build-web
+  - closed-source

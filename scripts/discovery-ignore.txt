@@ -217,3 +217,8 @@ spacefarergames/AITD4HDPCRecomp                       # fork sin cambios propios
 elliotttate/Wind-Waker-Recomp                         # ya está en el catálogo como recomps/bluewake.yaml (es un fork de BlueWake que se fusiona con él)
 TechnicallyComputers/Final-Fantasy-VII                # ya está en el catálogo como recomps/final-fantasy-vii.yaml (mismo proyecto: la ficha va con el fork de mstan, que tiene 5 commits más, la release más reciente y un README con contenido); este README es de plantilla y no dice que se juegue
 tmcleroy/vampire-savior-recomp                        # ya está en el catálogo como recomps/vampire-savior-the-lord-of-vampire.yaml (el proyecto se mudó a tmcleroy/cps2recomp)
+
+# ── Decididos por el usuario el 31-10 (grupo E de la revisión) ──
+mstan/ShrekGBAVideoRecomp                             # recompila un cartucho de GBA Video (una película), no un juego
+retro-foundry/Alien-Breed-HD                          # trae los datos del juego (amiga/: niveles, sonidos y texturas) y la release de 29 MB; los derechos son de Team17
+phoboslab/wipeout-rewrite                             # enlaza el juego: el README abre con una versión en el navegador con el juego dentro e insinúa un ZIP con los archivos; va al blog
