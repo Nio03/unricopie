@@ -9,6 +9,8 @@ const LABELS: Record<string, Partial<Record<Lang, string>>> = {
   "human-driven": { es: "sin IA" },
   // Solo cuando el propio proyecto declara que se hizo con agentes o modelos de IA.
   "ai-assisted": { es: "con ayuda de IA" },
+  // El proyecto no publica su código: solo reparte el programa compilado.
+  "closed-source": { es: "código cerrado", en: "closed source" },
   "widescreen": { es: "modo panorámico" },
   "decomp": { es: "decompilación" },
   "downloader": { es: "descargas" },

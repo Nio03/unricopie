@@ -1,0 +1,20 @@
+name: "Scud Race"
+games: [scud-race]
+category: decomp-port
+console: arcade
+status: experimental
+repo: wanszai/Scud-Race
+originalDeveloper: "Sega AM2"
+year: 1997
+desc:
+  es: "Port de Scud Race (Sega Super GT), el juego de carreras de Sega para la placa de recreativa Model 3, a Windows, con versiones también para Xbox 360 y Xbox Series X. Su autor dice que no es emulación y que lo ha portado a partir de una decompilación completa del juego original, pero no publica el código: el repositorio solo tiene el README y la release trae los programas ya compilados, así que no se puede comprobar cómo está hecho. Ofrece resoluciones de hasta 8K, varias relaciones de aspecto, sonido estéreo y envolvente, música propia, volantes con force feedback y multijugador en red local y en línea, a través de un servidor del autor en Europa, con récords en línea y juego cruzado entre plataformas. La primera versión publicada en GitHub, la 0.0.14, es del 30 de octubre. El README lo declara un proyecto hecho con ayuda de IA."
+  en: "A port of Scud Race (Sega Super GT), Sega’s racing game for the Model 3 arcade board, to Windows, with builds for Xbox 360 and Xbox Series X too. Its author says it isn’t emulation and that it was ported from a full decompilation of the original game, but the code isn’t published: the repository only holds the README and the release ships prebuilt programs, so how it’s made can’t be checked. It offers resolutions up to 8K, several aspect ratios, stereo and surround sound, custom soundtracks, steering wheels with force feedback, and multiplayer over LAN and online, through the author’s server in Europe, with online records and cross-play between platforms. The first release published on GitHub, 0.0.14, is from October 30. The README declares it an AI-assisted project."
+requirements:
+  es: "Tu propio romset de la recreativa: scud.zip (Scud Race / Sega Super GT, Twin/DX, en formato split) y, si quieres, dayto2pe.zip (Daytona USA 2: Power Edition), que desbloquea el Hornet. El README publica el MD5 de los dos para comprobarlos. Los archivos van junto a scudrace.exe."
+  en: "Your own arcade romset: scud.zip (Scud Race / Sega Super GT, Twin/DX, split set) and, optionally, dayto2pe.zip (Daytona USA 2: Power Edition), which unlocks the Hornet. The README lists the MD5 of both to check them. The files go next to scudrace.exe."
+tags:
+  - powerpc
+  - racing
+  - multiplayer
+  - closed-source
+  - ai-assisted

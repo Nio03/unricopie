@@ -1,0 +1,21 @@
+name: "Sonic Dream Team (Project Dream)"
+games: [sonic-dream-team]
+category: native-layer
+console: mobile
+status: experimental
+repoUrl: https://gitlab.com/adokova1111/project-dream-release
+author: adokova1111
+originalDeveloper: "Hardlight"
+year: 2023
+engine: Unity
+desc:
+  es: "Convierte la versión de Mac de Sonic Dream Team, el juego de Apple Arcade, en una versión para Windows o para Android. No recompila el juego: un GameAssembly.dll de sustitución carga en memoria el GameAssembly.dylib original de Mac, como lo haría macOS; las funciones del sistema que usa el juego (archivos, hilos, Objective-C, Foundation, excepciones de C++) tienen una implementación para Windows; el código se le pasa al reproductor estándar de Unity para Windows, y los shaders de Metal se convierten a DirectX 11 y Vulkan (en Android, a OpenGL ES y Vulkan). MelonLoader carga parches que añaden opciones de gráficos, pantalla y juego, y deja hacer mods. El proyecto no publica su código: el repositorio de GitLab solo tiene el README, y la versión 1.0.0, del 28 de octubre, es un instalador ya compilado (Project_Dream.exe), así que no se puede comprobar cómo está hecho más allá de lo que explica su autor."
+  en: "Turns the Mac version of Sonic Dream Team, the Apple Arcade game, into a Windows or Android version. It doesn’t recompile the game: a replacement GameAssembly.dll loads the original Mac GameAssembly.dylib into memory, the way macOS would; the system functions the game calls (files, threads, Objective-C, Foundation, C++ exceptions) have a Windows implementation; the code is handed to Unity’s standard Windows player; and the Metal shaders are converted to DirectX 11 and Vulkan (OpenGL ES and Vulkan on Android). MelonLoader loads patches that add graphics, display, and gameplay options, and allows mods. The project doesn’t publish its code: the GitLab repository only holds the README, and version 1.0.0, from October 28, is a prebuilt installer (Project_Dream.exe), so how it’s made can’t be checked beyond what its author explains."
+requirements:
+  es: "Tu propia copia de la versión de Mac de Sonic Dream Team (SonicDreamTeam.app), probada solo con la 1.10.1. El instalador construye el juego para Windows, o un APK y su OBB para Android; la primera compilación para Android descarga el SDK, el NDK, el JDK y el reproductor de Unity para Android, y necesita al menos 3 GB libres."
+  en: "Your own copy of the Mac version of Sonic Dream Team (SonicDreamTeam.app), only tested on 1.10.1. The installer builds the game for Windows, or an APK and its OBB for Android; the first Android build downloads the Android SDK, NDK, JDK, and Unity Android player, and needs at least 3 GB free."
+tags:
+  - x86
+  - platformer
+  - mods
+  - closed-source

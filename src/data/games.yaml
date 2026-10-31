@@ -3847,7 +3847,7 @@ resident-evil-code-veronica-x:
   name: "Resident Evil Code: Veronica X"
   igdb: 24369
   year: 2001
-  platforms: [ps2]
+  platforms: [ps2, ps3]
 
 resident-evil-gaiden:
   name: Resident Evil Gaiden
@@ -4010,6 +4010,12 @@ scooby-doo-unmasked:
   igdb: 2854
   year: 2005
   platforms: [gamecube]
+
+scud-race:
+  name: Scud Race
+  igdb: 39476
+  year: 1997
+  platforms: [arcade]
 
 sega-superstars-tennis:
   name: Sega Superstars Tennis
@@ -4315,6 +4321,12 @@ sonic-chronicles-the-dark-brotherhood:
   igdb: 217
   year: 2008
   platforms: [nds]
+
+sonic-dream-team:
+  name: Sonic Dream Team
+  igdb: 274840
+  year: 2023
+  platforms: [mobile]
 
 sonic-free-riders:
   name: Sonic Free Riders
