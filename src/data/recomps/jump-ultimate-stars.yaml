@@ -1,0 +1,21 @@
+name: "Jump Ultimate Stars"
+games: [jump-ultimate-stars]
+console: nds
+status: playable
+repo: piuzera/JUSDecomp
+originalDeveloper: "Ganbarion"
+year: 2006
+toolchain: ndsrecomp
+desc:
+  es: "Recompilación estática de Jump Ultimate Stars (código de juego AJUJ) a un ejecutable nativo para Windows y Linux, sobre ndsrecomp: el código ARM9 y ARM7 se traduce por adelantado y corre con un planificador de dos CPU, 3D y Wi-Fi derivados de melonDS y SDL. El repositorio contiene el desensamblado completo del código ARM9 del juego (decomp/asm, unos 17 MB de ensamblador), más los metadatos de ds-decomp y el código fuente reconstruido; no trae la ROM ni datos del juego. La versión 0.3.1 (2 de septiembre), un zip de unos 69 MB, trae ya compilado código nativo en 334 DLL. Según su README se puede jugar el juego entero en Windows y Linux, incluido el combate Wi-Fi en línea por Wiimmfi a unos 60 fps, con partidas guardadas, entrada de arcade stick y teclado, un launcher y un sistema de mods cuyo paquete principal es una traducción al inglés. Lista como fallos conocidos microcortes en línea, caídas de fps en la intro en vídeo y en el editor de mazos, y algunos defectos visuales en ciertos escenarios. En Linux solo se distribuye el código para compilarlo."
+  en: "A static recompilation of Jump Ultimate Stars (game code AJUJ) into a native executable for Windows and Linux, built on ndsrecomp: the ARM9 and ARM7 code is translated ahead of time and runs with a dual-CPU scheduler, melonDS-derived 3D and Wi-Fi, and SDL. The repository contains the full disassembly of the game’s ARM9 code (decomp/asm, about 17 MB of assembly), plus the ds-decomp metadata and reconstructed source; it holds no ROM and no game data. Version 0.3.1 (September 2), a zip of about 69 MB, ships precompiled native code in 334 DLLs. According to its README the whole game is playable on Windows and Linux, including online WiFi Battle over Wiimmfi at about 60 fps, with saves, arcade-stick and keyboard input, a launcher, and a mod system whose flagship pack is an English translation. It lists micro-stutters online, fps drops in the video intro and the deck builder, and some visual glitches on certain stages as known issues. On Linux only the source is distributed, to build yourself."
+requirements:
+  es: "Tu propia copia de Jump Ultimate Stars para Nintendo DS (la ROM original sin modificar, con SHA-1 ba58e20ee60eb81c33dcd4934a21271baa9f954a); el launcher la verifica al elegirla. Windows 10 u 11 con la versión empaquetada; en Linux hay que compilarlo con CMake, Ninja, GCC, SDL2 y GTK3 (docs/LINUX.md). Para el paquete de traducción al inglés se necesita además tu propia ROM ya parcheada con el parche comunitario. El juego en línea necesita conexión a internet."
+  en: "Your own copy of Jump Ultimate Stars for the Nintendo DS (the original, unmodified ROM, SHA-1 ba58e20ee60eb81c33dcd4934a21271baa9f954a); the launcher verifies it when you pick it. Windows 10 or 11 for the packaged version; on Linux you build it with CMake, Ninja, GCC, SDL2, and GTK3 (docs/LINUX.md). The English translation pack also needs your own ROM already patched with the community patch. Online play needs an internet connection."
+tags:
+  - arm9
+  - fighting
+  - multiplayer
+  - online
+  - mods
+  - static-recomp

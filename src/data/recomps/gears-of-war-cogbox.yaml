@@ -1,0 +1,21 @@
+name: "Gears of War 2 / Gears of War 3 / Gears of War: Judgment (COGBox)"
+games: [gears-of-war, gears-of-war-2, gears-of-war-3, gears-of-war-judgment]
+console: x360
+status: playable
+repo: Shagg88/COGBox
+originalDeveloper: "Epic Games / People Can Fly"
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Versiones nativas para Windows de Gears of War 2, Gears of War 3 y Gears of War: Judgment de Xbox 360, hechas por recompilación estática (con una vista previa del primer Gears of War desde la 0.3.0), con un lanzador llamado COGBox que prepara tu copia de cada juego y lo arranca. El código de Xbox 360 se traduce por adelantado a C++ y se compila como programas de Windows; las partes del hardware las pone un renderizador propio con Direct3D 12 (o Vulkan, experimental) que ofrece resolución de 1x a 4x, SMAA, FSR, DLSS y XeSS, tasas de fotogramas altas, HDR10, pantalla ultrapanorámica, pantalla dividida (en Gears 2), teclado y ratón, y DLC y mods en zip. El autor dice que es jugable con algunos tropiezos: en Gears 2 se prueban todos los capítulos, y Gears 3 y Judgment son jugables; en SteamOS (vía Proton) hay fallos de texturas. Desde la 0.3.0 (31 de octubre) las versiones se marcan como preliminares. La descarga de Windows es un zip de unos 510 MB con los programas ya compilados, que no hemos comprobado por dentro; el README dice que no incluye contenido del juego. 88 de sus 93 commits llevan a Claude como coautor."
+  en: "Native Windows versions of Gears of War 2, Gears of War 3, and Gears of War: Judgment for Xbox 360, made by static recompilation (with a preview of the first Gears of War since 0.3.0), with a launcher called COGBox that sets up your copy of each game and starts it. The Xbox 360 code is translated ahead of time to C++ and compiled into Windows programs; the hardware parts are supplied by its own renderer on Direct3D 12 (or Vulkan, experimental), which offers resolution from 1x to 4x, SMAA, FSR, DLSS, and XeSS, high frame rates, HDR10, ultrawide, split screen (in Gears 2), keyboard and mouse, and DLC and zip mods. The author says it is playable with a few hiccups: in Gears 2 every chapter plays in testing, and Gears 3 and Judgment are playable; on SteamOS (via Proton) there are texture glitches. Since 0.3.0 (October 31) releases are labelled pre-release. The Windows download is a zip of about 510 MB with the already compiled programs, which we haven’t checked inside; the README says it includes no game content. 88 of its 93 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de cada juego: Gears of War 2 (disco de EE. UU., versión 0.0.0.5, más la actualización de título 6), Gears of War 3 (disco más la actualización 6) y Gears of War: Judgment (disco más la actualización 4), como imagen .iso, copia de Games on Demand o carpeta; para la vista previa de Gears of War, el disco más la actualización 5. Windows 10 u 11 de 64 bits con Direct3D 12 y unos 8 a 16 GB libres por juego si COGBox desempaqueta la imagen."
+  en: "Your own copy of each game: Gears of War 2 (US disc, version 0.0.0.5, plus Title Update 6), Gears of War 3 (disc plus Title Update 6), and Gears of War: Judgment (disc plus Title Update 4), as an .iso image, Games on Demand copy, or folder; for the Gears of War preview, the disc plus Title Update 5. 64-bit Windows 10 or 11 with Direct3D 12 and about 8 to 16 GB free per game if COGBox unpacks the image."
+tags:
+  - powerpc
+  - action
+  - multiplayer
+  - "60fps+"
+  - widescreen
+  - ai-assisted

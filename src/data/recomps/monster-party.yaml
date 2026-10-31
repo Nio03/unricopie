@@ -1,0 +1,21 @@
+name: "Monster Party"
+games: [monster-party]
+console: nes
+status: playable
+repo: mstan/MonsterPartyNESRecomp
+originalDeveloper: "Human Entertainment"
+year: 1989
+toolchain: nesrecomp
+desc:
+  es: "Versión nativa para Windows y Linux de Monster Party de NES, hecha por recompilación estática con el marco NESRecomp. El repositorio solo trae el código propio del proyecto (ganchos del juego, ensanchado de pantalla, lanzador y mods) y ninguna ROM ni código generado a partir de ella. Ofrece pantalla ancha adaptable (Fit, 16:9, 21:9 o 32:9), mando, partidas rápidas con doce ranuras, rebobinado y un lanzador moderno, además de trampas opcionales y la «restauración del prototipo» de Cubivore10, un parche IPS que cambia los colores del título, los monstruos y el decorado sin tocar tu ROM. Según el README se puede jugar la aventura original de ocho rondas. La 0.1.2 (24 de octubre) trae un zip para Windows y un AppImage para Linux, de 5 y 6 MB. 5 de sus 23 commits llevan a Claude como coautor."
+  en: "A native Windows and Linux version of Monster Party for the NES, made by static recompilation with the NESRecomp framework. The repository only holds the project’s own code (game hooks, screen widening, launcher, and mods) and neither a ROM nor code generated from one. It offers adaptive widescreen (Fit, 16:9, 21:9, or 32:9), gamepad support, quick saves with twelve slots, rewind, and a modern launcher, plus optional cheats and Cubivore10’s “prototype restoration”, an IPS patch that changes the title colors, monsters, and scenery without touching your ROM. According to the README, the original eight-round adventure can be played. Version 0.1.2 (October 24) ships a Windows zip and a Linux AppImage, about 5 and 6 MB. 5 of its 23 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM original de Monster Party (USA) para NES, que eliges en el lanzador y este comprueba. Además, Windows de 64 bits, o Linux de 64 bits (Ubuntu 22.04 o posterior, o similar) con un controlador gráfico compatible con OpenGL 3.3."
+  en: "Your own original Monster Party (USA) ROM for the NES, which you select in the launcher and which it checks. Plus 64-bit Windows, or 64-bit Linux (Ubuntu 22.04 or later, or comparable) with an OpenGL 3.3 capable graphics driver."
+tags:
+  - "6502"
+  - action
+  - widescreen
+  - mods
+  - static-recomp
+  - ai-assisted

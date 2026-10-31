@@ -1,0 +1,18 @@
+name: "Aliens versus Predator (NakedAVP)"
+games: [aliens-versus-predator]
+category: source-port
+console: pc
+status: playable
+repo: atsb/NakedAVP
+originalDeveloper: "Rebellion Developments"
+year: 1999
+desc:
+  es: "Port a sistemas modernos de Aliens versus Predator Classic (2000) para Windows, Linux y macOS, basado en el port de icculus del código fuente del juego. Usa SDL3, OpenAL, OpenGL y FFmpeg; este último solo para decodificar los vídeos Bink (.bik) y Smacker (.smk), y el proyecto no incluye vídeos ni los SDK de Bink o Smacker. Reproduce los vídeos si están los archivos originales del juego. El README, heredado del port de icculus, avisa de que las funciones que faltaban, como el multijugador, siguen sin estar. No tiene archivos del juego: hay que copiar los datos de una instalación a la carpeta del ejecutable o indicarla con la variable AVP_DATA. La 1.3.1 (16 de octubre) es la última de diez versiones, que se remontan a 2023; el zip de Windows pesa unos 11,5 MB."
+  en: "A port of Aliens versus Predator Classic (2000) to modern systems for Windows, Linux, and macOS, based on the icculus port of the game’s source code. It uses SDL3, OpenAL, OpenGL, and FFmpeg; the latter only to decode Bink (.bik) and Smacker (.smk) movies, and the project ships no movies or Bink or Smacker SDKs. It plays the movies when the game’s original files are present. The README, inherited from the icculus port, warns that previously missing features, such as multiplayer, are still missing. It has no game files: you copy the data from an installation into the executable’s folder or point to it with the AVP_DATA variable. Version 1.3.1 (October 16) is the latest of ten releases, going back to 2023; the Windows zip weighs about 11.5 MB."
+requirements:
+  es: "Tu propia copia de Aliens versus Predator, la edición Gold o la Classic 2000 de GOG o Steam, o los CD originales, con todos los archivos y carpetas del juego renombrados en minúsculas. Hay que dejarla junto al ejecutable o indicarla con AVP_DATA. Además, Windows, Linux o macOS con una tarjeta gráfica compatible con OpenGL."
+  en: "Your own copy of Aliens versus Predator, the Gold edition or the Classic 2000 from GOG or Steam, or the original CDs, with all the game’s files and folders renamed to lowercase. Place it next to the executable or point to it with AVP_DATA. Plus Windows, Linux, or macOS with an OpenGL-capable graphics card."
+tags:
+  - x86
+  - fps
+  - horror

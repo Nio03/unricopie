@@ -1,0 +1,24 @@
+name: "Super Mario Sunshine (zeranemesis)"
+games: [super-mario-sunshine]
+category: decomp-port
+console: gamecube
+status: playable
+repo: zeranemesis/sms-port
+decomp: doldecomp/sms
+originalDeveloper: "Nintendo EAD"
+year: 2002
+desc:
+  es: "Port nativo para Windows de la versión europea (PAL, GMSP01), construido a partir de la decompilación de doldecomp/sms: el código C se compila para PC y el motor de gráficos Aurora (WebGPU con Dawn) sustituye a la consola, con Direct3D 12 por defecto, o Vulkan o Direct3D 11. Va a 60 imágenes por segundo, con repliegue automático a 30, pantalla ancha de 16:9, 16:10 o 21:9 con el HUD en el centro o en los bordes, resolución interna de hasta 8x, MSAA, FXAA, filtro anisótropo, un menú en el juego (F1), mandos, teclado reconfigurable con cámara de ratón, packs de texturas HD en formato Dolphin y mods de GameBanana a través del lanzador CubeShelf, además de Archipelago como opción de multimundo aleatorizado. El mod Super Mario Eclipse corre de forma nativa con su propio ejecutable. La última versión, cubeshelf-v0.4.0-rc.1, es del 28 de octubre y trae también un APK de Android arm64. 88 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows port of the European release (PAL, GMSP01), built from the doldecomp/sms decompilation: the C code is compiled for PC and the Aurora graphics engine (WebGPU through Dawn) stands in for the console, with Direct3D 12 by default, or Vulkan or Direct3D 11. It runs at 60 frames per second, with automatic fallback to 30, 16:9, 16:10, or 21:9 widescreen with the HUD in the center or at the edges, internal resolution up to 8x, MSAA, FXAA, anisotropic filtering, an in-game menu (F1), gamepads, a rebindable keyboard with mouse camera, HD texture packs in Dolphin format, and GameBanana mods through the CubeShelf launcher, plus Archipelago as an option for a randomized multiworld. The Super Mario Eclipse mod runs natively with its own executable. The latest release, cubeshelf-v0.4.0-rc.1, is from October 28 and also ships an Android arm64 APK. 88 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Super Mario Sunshine para GameCube, europea (GMSP01), en ISO, GCM o CISO (un RVZ se convierte antes a ISO con Dolphin). Para Super Mario Eclipse, el disco de Eclipse (GMSE04), que se obtiene aplicando el parche oficial del mod a la ISO norteamericana. Windows 10 u 11 de 64 bits con una tarjeta compatible con Direct3D 12 o Vulkan."
+  en: "Your own disc image of Super Mario Sunshine for the GameCube, European (GMSP01), as ISO, GCM, or CISO (an RVZ is first converted to ISO with Dolphin). For Super Mario Eclipse, the Eclipse disc (GMSE04), which is made by applying the mod’s official patch to the North American ISO. 64-bit Windows 10 or 11 with a Direct3D 12 or Vulkan capable graphics card."
+tags:
+  - powerpc
+  - platformer
+  - widescreen
+  - 60fps+
+  - mods
+  - hd-assets
+  - build-android
+  - ai-assisted

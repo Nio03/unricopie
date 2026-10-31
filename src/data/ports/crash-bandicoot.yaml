@@ -1,0 +1,20 @@
+name: "Crash Bandicoot"
+games: [crash-bandicoot]
+category: decomp-port
+console: ps1
+status: playable
+repo: mateusfavarin/c1
+forkOf:
+  label: wurlyfox/c1
+  url: https://github.com/wurlyfox/c1
+originalDeveloper: "Naughty Dog"
+year: 1996
+desc:
+  es: "Port del Crash Bandicoot de PlayStation a C, en la rama windows de un fork de wurlyfox/c1. Según su README, el código está portado al 100 % y la funcionalidad al 78 %: el juego solo se puede jugar en parte y tiene problemas conocidos, listados en doc/issues.md. Se compila como programa de 32 bits con Visual Studio 2022 en Windows o con make en Linux (probado solo en Ubuntu y Debian), con OpenGL 2.0, SDL 2 y FluidSynth, y trae una interfaz en el juego con Dear ImGui (tecla Esc). Se maneja con teclado o con mando, aunque los botones del mando están fijados a los de PS4. No publica versiones. La rama lleva 67 commits propios sobre el original, que ha seguido recibiendo cambios hasta el 30 de octubre, y su última actividad es de junio de 2024."
+  en: "A port of the PlayStation version of Crash Bandicoot to C, on the windows branch of a fork of wurlyfox/c1. According to its README the code is 100% ported and functionality is at 78%: the game is only partly playable and has known issues, listed in doc/issues.md. It builds as a 32-bit program with Visual Studio 2022 on Windows or with make on Linux (tested only on Ubuntu and Debian), using OpenGL 2.0, SDL 2, and FluidSynth, and it has an in-game Dear ImGui interface (Esc key). It plays with keyboard or gamepad, though the gamepad buttons are hardcoded to PS4 ones. It publishes no releases. The branch carries 67 commits of its own on top of the original, which has kept receiving changes until October 30, and its last activity dates from June 2024."
+requirements:
+  es: "Los archivos de recursos de tu propio disco de Crash Bandicoot para PS1: los .NSD y .NSF de las carpetas /S0, /S1, /S2 y /S3 del disco, copiados a la carpeta streams del proyecto; el README no indica región ni versión. Para compilarlo, Visual Studio 2022 con el paquete clangd-cl en Windows, o GCC y GNU make con las versiones de 32 bits de OpenGL, SDL 2 y FluidSynth en Linux."
+  en: "The asset files from your own Crash Bandicoot PS1 disc: the .NSD and .NSF files in the disc’s /S0, /S1, /S2, and /S3 folders, copied into the project’s streams folder; the README names no region or version. To build it, Visual Studio 2022 with the clangd-cl package on Windows, or GCC and GNU make with the 32-bit versions of OpenGL, SDL 2, and FluidSynth on Linux."
+tags:
+  - mips
+  - platformer

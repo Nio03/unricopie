@@ -1,0 +1,22 @@
+name: "Uncharted: The Nathan Drake Collection (Mevlock)"
+games: [uncharted-the-nathan-drake-collection]
+category: native-layer
+console: ps4
+status: playable
+repo: Mevlock/uncharted_pc-dev
+forkOf:
+  label: "Supermedo/uncharted_pc"
+  url: https://github.com/Supermedo/uncharted_pc
+originalDeveloper: "Naughty Dog"
+year: 2015
+desc:
+  es: "Fork no oficial de uncharted_pc de SuperMedo, el port nativo para Windows de los tres juegos de la colección de PS4: el código original corre directamente en el procesador y los gráficos se traducen a Vulkan. Añade la preparación de los shaders antes de jugar (a partir de listas grabadas jugando los tres juegos enteros), una traducción de la GPU repartida en tres hilos que en escenas cargadas llega a ir hasta el doble de rápido que la 0.3.6 original según su autor (medido en un solo equipo), resolución de render hasta 3440×1440 y 4K experimental, pantalla ultrapanorámica, DLSS, FSR 3.1, FSR 4, XeSS y generación de fotogramas, y arreglos de varios fallos del juego (el convoy del capítulo 21 de Uncharted 2, los barriles de la moto acuática de Uncharted 1, un cierre del fuerte del capítulo 8 de Uncharted 3, cierres en NVIDIA). La 0.3.6.34 (31 de octubre) es la última; lleva más de 600 commits sobre el original y 97 de sus últimos 100 llevan a Claude como coautor."
+  en: "An unofficial fork of SuperMedo’s uncharted_pc, the native Windows port of the three games in the PS4 collection: the original code runs directly on the CPU and the graphics are translated to Vulkan. It adds shader preparation before you play (from lists recorded by playing all three games through), GPU translation spread over three threads that in busy scenes runs up to about twice as fast as the original 0.3.6 according to its author (measured on one PC), render resolution up to 3440×1440 and experimental 4K, ultrawide, DLSS, FSR 3.1, FSR 4, XeSS, and frame generation, and fixes for several game bugs (the Uncharted 2 chapter 21 convoy, the Uncharted 1 jet ski barrels, an Uncharted 3 chapter 8 fort crash, NVIDIA crashes). The latest version is 0.3.6.34 (October 31); it is more than 600 commits ahead of the original, and 97 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado descifrado de la colección, versión 1.02, de la edición europea (CUSA02343), estadounidense (CUSA02320) o europea/rusa (CUSA02344): una carpeta con eboot.bin, big2-ps4_Shipping.elf, big3-ps4_Shipping.elf, sce_sys, u1data, u2data y u3data. Además, Windows 10 (1903 o posterior) u 11 de 64 bits, un procesador con AVX, una tarjeta gráfica con Vulkan 1.3 y 6 GB o más de memoria de vídeo, y unos 8 GB de memoria libre (RAM más archivo de paginación)."
+  en: "Your own decrypted dump of the collection, version 1.02, from the EU/UK (CUSA02343), US (CUSA02320), or EU/Russian (CUSA02344) edition: a folder with eboot.bin, big2-ps4_Shipping.elf, big3-ps4_Shipping.elf, sce_sys, u1data, u2data, and u3data. Plus 64-bit Windows 10 (1903 or later) or 11, a CPU with AVX, a Vulkan 1.3 graphics card with 6 GB or more of video memory, and about 8 GB of free memory (RAM plus page file)."
+tags:
+  - x86
+  - vulkan
+  - action
+  - ai-assisted

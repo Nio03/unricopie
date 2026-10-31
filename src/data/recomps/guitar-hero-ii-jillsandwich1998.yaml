@@ -1,0 +1,18 @@
+name: "Guitar Hero II (jillsandwich1998)"
+games: [guitar-hero-ii]
+console: x360
+status: experimental
+repo: jillsandwich1998/reGH2
+originalDeveloper: "Harmonix"
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Guitar Hero II de Xbox 360 en PC, reconstruido en tu equipo a partir de tu propia copia; por ahora solo para Linux, con Vulkan. El código PowerPC de default.xex se traduce a C++ una vez, en tu máquina, con el generador de código del SDK de ReXGlue, y se compila con un compilador que viene dentro del AppImage; no se distribuye ningún archivo del juego ni código generado a partir de él. Desde la 0.2.0 el juego ya no corre sobre el entorno de ejecución del SDK (derivado de Xenia): usa código propio para el núcleo del sistema y un renderizador Vulkan nativo a 1080p, 1440p y 4K, con SDL3 para audio y mandos, y se queda en 60 fps porque la lógica va atada a 60 Hz. El README avisa de que es una versión previa: se ha jugado en Quick Play y en el modo Carrera hasta el cuarto local, con una guitarra X-plorer y una sola máquina (AMD, Mesa RADV), pero no de principio a fin, y no se sabe cómo va con NVIDIA, Intel o SteamOS. La última versión es la 0.2.0 (27 de octubre). 21 de sus 22 commits llevan a Claude como coautor."
+  en: "Guitar Hero II for Xbox 360 on PC, rebuilt on your machine from your own copy; for now Linux only, with Vulkan. The game’s PowerPC code in default.xex is translated to C++ once, on your machine, with the ReXGlue SDK’s code generator, and compiled with a compiler that ships inside the AppImage; no game file and no code generated from it is distributed. Since 0.2.0 the game no longer runs on the SDK’s runtime (derived from Xenia): it uses its own code for the system core and a native Vulkan renderer at 1080p, 1440p, and 4K, with SDL3 for audio and controllers, and it stays at 60 fps because the logic is tied to 60 Hz. The README warns that this is a pre-release: it has been played in Quick Play and in Career mode up to the fourth venue, with an X-plorer guitar and on a single machine (AMD, Mesa RADV), but not from start to finish, and how it behaves on NVIDIA, Intel, or SteamOS is unknown. The latest version is 0.2.0 (October 27). 21 of its 22 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Guitar Hero II para Xbox 360 (EE. UU.): la imagen del disco, el juego extraído o la carpeta con default.xex. Además, Linux de 64 bits con un controlador de Vulkan para tu tarjeta gráfica (el AppImage no lo incluye)."
+  en: "Your own copy of Guitar Hero II for Xbox 360 (USA): the disc image, the extracted game, or the folder with default.xex. Plus 64-bit Linux with a Vulkan driver for your graphics card (the AppImage doesn’t include it)."
+tags:
+  - powerpc
+  - vulkan
+  - ai-assisted

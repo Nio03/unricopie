@@ -1,0 +1,18 @@
+name: "Crazy Taxi"
+games: [crazy-taxi]
+console: dreamcast
+status: experimental
+repo: sp00nznet/crazytaxi
+originalDeveloper: "Hitmaker"
+year: 1999
+desc:
+  es: "Recompilación estática de Crazy Taxi para Dreamcast: el código SH-4 del binario original se traduce a C (12.750 funciones) y se compila como programa nativo de 64 bits, sin intérprete ni JIT. Se apoya en dcrecomp, que hace la traducción y aporta la capa de hardware, y el repositorio solo guarda el código de arranque y los datos propios del título. Está en alfa y aún no dibuja ni un fotograma: arranca, instala el manejador de VBlank, lee el disco y llega bastante lejos en la inicialización, pero se queda en un bucle de espera del que no sale, así que no hay geometría, imagen, sonido ni entrada. No tiene versiones publicadas; el código traducido se genera en tu equipo y no se sube. Sus 51 commits llevan a Claude como coautor."
+  en: "A static recompilation of Crazy Taxi for the Dreamcast: the original binary’s SH-4 code is translated into C (12,750 functions) and compiled as a native 64-bit program, with no interpreter or JIT. It builds on dcrecomp, which does the translation and provides the hardware layer, and the repository only keeps the bring-up code and the title’s own data. It is in alpha and doesn’t draw a single frame yet: it boots, installs the VBlank handler, reads the disc, and gets quite far into initialization, but stops in a wait loop it never leaves, so there is no geometry, picture, sound, or input. It has no published releases; the translated code is generated on your PC and not uploaded. All 51 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Crazy Taxi para Dreamcast (EE. UU.), en .cue y .bin o .gdi. Windows 10 u 11 de 64 bits, Python 3.8 o posterior, Git, CMake, Visual Studio 2022 con las herramientas de C++ y vcpkg con SDL2 y GLEW; Setup.cmd comprueba lo que falta y pregunta antes de instalarlo."
+  en: "Your own disc image of Crazy Taxi for the Dreamcast (USA), as .cue and .bin or .gdi. 64-bit Windows 10 or 11, Python 3.8 or later, Git, CMake, Visual Studio 2022 with the C++ tools, and vcpkg with SDL2 and GLEW; Setup.cmd checks what’s missing and asks before installing it."
+tags:
+  - sh-4
+  - racing
+  - static-recomp
+  - ai-assisted

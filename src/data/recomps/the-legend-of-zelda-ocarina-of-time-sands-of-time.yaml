@@ -1,0 +1,18 @@
+name: "The Legend of Zelda: Ocarina of Time - Sands of Time"
+games: [the-legend-of-zelda-ocarina-of-time]
+console: n64
+status: experimental
+repo: NekoNeko6330/SoTRecomp
+originalDeveloper: "Nintendo"
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de Sands of Time, un hack de Ocarina of Time (Master Quest Debug) hecho con z64rom, creado con N64Recomp y RT64 sobre el runtime de Zelda64Recomp y siguiendo el enfoque de la rama indigo de krm01/Zelda64Recomp. Como el hack no se construye desde la decompilación, no hay ELF que recompilar: todo se recupera de la ROM (se descomprime, se localiza el código y los 458 overlays, y las funciones se encuentran con spimdisasm y los nombres de z64hdr); se recompilan 462 secciones de código y unas 11.000 funciones. El repositorio no contiene código del juego ni recursos. Según el README se ha probado poco, y las mejoras de la versión de Majora's Mask de Zelda64Recomp (HUD ancho, giroscopio, autoguardado, doble analógico) no están. La 1.0.0 (11 de octubre) es la última de 10 versiones, con un zip para Windows (36,8 MB), un tar.gz para Linux (20 MB) y un zip de mods. Sus 35 commits llevan a Claude como coautor."
+  en: "A native PC port of Sands of Time, an Ocarina of Time (Master Quest Debug) hack made with z64rom, built with N64Recomp and RT64 on the Zelda64Recomp runtime and following the approach of the indigo branch of krm01/Zelda64Recomp. Because the hack isn’t built from the decompilation, there is no ELF to recompile: everything is recovered from the ROM (it is decompressed, the code and the 458 overlays are located, and functions are found with spimdisasm and the names from z64hdr); 462 code sections and about 11,000 functions are recompiled. The repository contains no game code or assets. According to the README it has been tested very little, and the enhancements of Zelda64Recomp’s Majora’s Mask version (widescreen HUD, gyro, autosave, dual analog) are not available. Version 1.0.0 (October 11) is the latest of 10 releases, with a Windows zip (36.8 MB), a Linux tar.gz (20 MB), and a mods zip. All 35 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Sands of Time 1.22 (OoT SoT 1.22.z64), el hack ya aplicado; el README no explica cómo conseguirla. Windows o Linux."
+  en: "Your own Sands of Time 1.22 ROM (OoT SoT 1.22.z64), the hack already applied; the README doesn’t explain how to get it. Windows or Linux."
+tags:
+  - mips
+  - action
+  - mods
+  - ai-assisted

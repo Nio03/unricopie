@@ -1,0 +1,20 @@
+name: "Guitar Hero: Metallica"
+games: [guitar-hero-metallica]
+console: x360
+status: playable
+repo: ElGuslml/GHMetalRecomp
+originalDeveloper: "Neversoft"
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Versión nativa para Windows de la versión de Xbox 360, recompilada con ReXGlue SDK y con un renderizador nativo en Vulkan. El README la da por beta: se han tocado canciones de principio a fin con una guitarra de Xbox 360, en guitarra y bajo, y cantado con un micrófono de PC (nuevo y experimental); la batería aún no se ha probado. Ofrece 60 cuadros por segundo como en la consola, o 120, 144, 160, 165 o 240 si el monitor lo admite, pantallas anchas, soporte de guitarras de Xbox 360, logros y un lanzador que instala el juego desde tu ISO. La v0.2.1 (29 de octubre) es la última de dos versiones. Declara que se desarrolla con ayuda de Claude; sus 49 commits lo listan como coautor."
+  en: "A native Windows version of the Xbox 360 game, recompiled with the ReXGlue SDK and with a native Vulkan renderer. The README calls it a beta: songs have been played from start to finish with an Xbox 360 guitar, on guitar and bass parts, and sung with a PC microphone (new and experimental); drums have not been tested yet. It offers 60 fps as on the console, or 120, 144, 160, 165 or 240 if the monitor supports it, wide screens, Xbox 360 guitar support, achievements, and a launcher that installs the game from your ISO. v0.2.1 (October 29) is the latest of two releases. It states it is developed with the help of Claude; all 49 of its commits list it as a co-author."
+requirements:
+  es: "Tu propio disco de Guitar Hero: Metallica para Xbox 360 (el de EE. UU. o Europa), convertido en una imagen ISO; el lanzador la comprueba e instala el juego desde ella (unos 7,2 GB). Windows 10 u 11 de 64 bits y una gráfica con controlador de Vulkan."
+  en: "Your own Guitar Hero: Metallica disc for Xbox 360 (the USA or Europe one), made into an ISO image; the launcher checks it and installs the game from it (about 7.2 GB). 64-bit Windows 10 or 11 and a graphics card with a Vulkan driver."
+tags:
+  - powerpc
+  - vulkan
+  - widescreen
+  - 60fps+
+  - ai-assisted

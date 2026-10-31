@@ -1,0 +1,19 @@
+name: "Test Drive II: The Duel (Enhanced)"
+games: [test-drive-ii-the-duel]
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/testdrive2-enhanced
+originalDeveloper: "Distinctive Software"
+year: 1989
+desc:
+  es: "Versión mejorada de Test Drive II: The Duel (Accolade / Distinctive Software, 1989) en EGA, nativa para Windows con SDL3. El juego es la reimplementación fiel en C de TD2EGA.EXE; la vista de carretera se redibuja a partir de los datos originales con una resolución cuatro veces mayor (1280 × 800 por defecto), 60 cuadros por segundo y una distancia de dibujo de 180 unidades en lugar de 60. Tiene opciones para la carretera y el terreno con bandas, para mezclar coches de otros escenarios y para ajustar la velocidad del juego, y un visor de mapas para recorrer las etapas, además de lanzadores del juego y del visor. La última versión, la 0.3.0 (24 de septiembre), es un zip de Windows de 64 bits de unos 10,6 MB. 71 de sus 72 commits llevan a Claude como coautor."
+  en: "An enhanced version of Test Drive II: The Duel (Accolade / Distinctive Software, 1989) in EGA, native on Windows with SDL3. The game is the faithful C reimplementation of TD2EGA.EXE; the road view is redrawn from the original data at four times the resolution (1280 × 800 by default), 60 frames per second, and a draw distance of 180 units instead of 60. It has options for banded road and ground, for mixing cars from other sceneries, and for adjusting game speed, plus a map viewer to fly along the stages and launchers for the game and the viewer. The latest version, 0.3.0 (September 24), is a 64-bit Windows zip of about 10.6 MB. 71 of its 72 commits list Claude as a co-author."
+requirements:
+  es: "Tus propios archivos del Test Drive II de DOS, idealmente The Collection, en una carpeta Game junto al programa: TD2EGA.EXE, CARS.DAT, SCENES.DAT, SONGS.BIN, VOICES.BIN, los archivos *.PES, los de coches *.BIN y *.SS y los de escenarios *.DAT, *.SGN y *.FNT. Además, Windows y una CPU de varios núcleos."
+  en: "Your own files of the DOS Test Drive II, ideally The Collection, in a folder named Game next to the program: TD2EGA.EXE, CARS.DAT, SCENES.DAT, SONGS.BIN, VOICES.BIN, the *.PES archives, the car *.BIN and *.SS files, and the scenery *.DAT, *.SGN, and *.FNT files. Plus Windows and a multi-core CPU."
+tags:
+  - x86
+  - racing
+  - "60fps+"
+  - ai-assisted

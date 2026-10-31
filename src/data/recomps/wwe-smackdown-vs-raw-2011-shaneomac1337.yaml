@@ -1,0 +1,18 @@
+name: "WWE SmackDown vs. Raw 2011 (shaneomac1337)"
+games: [wwe-smackdown-vs-raw-2011]
+console: x360
+status: playable
+repo: shaneomac1337/SVR2011-Recomp
+originalDeveloper: "Yuke’s"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Versión no oficial para Windows de WWE SmackDown vs. Raw 2011 de Xbox 360, hecha recompilando su código a x86-64 con ReXGlue; el lanzador copia una vez los archivos del juego desde la imagen de tu disco. Según el README, se han probado y funcionan los combates de exhibición con entradas, remates y escenas, las peleas entre bastidores, los menús y los modos Create a Superstar, Superstar Threads y Paint Tool, normalmente a 60 FPS. El modo Road to WrestleMania no se ha probado y puede cerrarse en cualquier momento, y tampoco se han probado Universe ni el juego en línea. Solo se ha probado en Windows 11 con una AMD Radeon RX 7900 XT. La última versión es la 0.5.0 (2 de octubre), con el renderizador nativo en beta. 54 de sus 69 commits llevan a Claude como coautor."
+  en: "An unofficial Windows version of WWE SmackDown vs. Raw 2011 for Xbox 360, made by recompiling its code to x86-64 with ReXGlue; the launcher copies the game files once from your disc image. According to the README, exhibition matches with entrances, finishers, and cutscenes, backstage brawls, the menus, and the Create a Superstar, Superstar Threads, and Paint Tool modes have been tested and work, usually at 60 FPS. Road to WrestleMania hasn’t been tested and can crash at any point, and neither have Universe or online play. It has only been tested on Windows 11 with an AMD Radeon RX 7900 XT. The latest version is 0.5.0 (October 2), with the native renderer in beta. 54 of its 69 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco (.iso) de WWE SmackDown vs. Raw 2011 para Xbox 360, de EE. UU. o Europa; el lanzador comprueba los 366 archivos contra esa versión y rechaza cualquier otra. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con Vulkan y unos 6 GB libres; se recomienda un mando."
+  en: "Your own disc image (.iso) of WWE SmackDown vs. Raw 2011 for Xbox 360, USA or Europe; the launcher checks all 366 files against that release and refuses any other. Plus 64-bit Windows 10 or 11, a graphics card with Vulkan, and about 6 GB free; a controller is recommended."
+tags:
+  - powerpc
+  - sports
+  - ai-assisted

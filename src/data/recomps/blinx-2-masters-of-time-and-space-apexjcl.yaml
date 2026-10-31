@@ -1,0 +1,18 @@
+name: "Blinx 2: Masters of Time and Space (apexJCL)"
+games: [blinx-2-masters-of-time-and-space]
+console: xbox
+status: playable
+repo: apexJCL/blinx2-recomp
+originalDeveloper: "Artoon"
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática de BLiNX 2: Masters of Time & Space de la Xbox original, que convierte tu propia copia en un programa nativo para Windows, Mac (Apple Silicon) o Linux con Steam Deck. El código x86 del juego se pasa a C con el kit xboxrecomp y se compila junto con un núcleo de Xbox, una GPU (NV2A) y un audio (APU) de sustitución; no es un emulador. Un asistente (blinx2-wizard) construye e instala el juego a partir de tu volcado; en Linux y Steam Deck se usa el paquete de Windows con Proton, y en Mac hay un renderizador Metal. El README dice que juega con sonido y guardados, y trae opciones de pantalla ancha, cámara libre y un pack de texturas de HUD. La última versión es la v2026.10.4 (30 de octubre), con los asistentes de unos 12 a 24 MB. 3 de sus 30 commits llevan a Claude como coautor."
+  en: "A static recompilation of BLiNX 2: Masters of Time & Space for the original Xbox that turns your own copy into a native program for Windows, Mac (Apple Silicon), or Linux with the Steam Deck. The game’s x86 code is lifted to C with the xboxrecomp toolkit and compiled together with a replacement Xbox kernel, GPU (NV2A), and audio (APU); it is not an emulator. A wizard (blinx2-wizard) builds and installs the game from your dump; on Linux and the Steam Deck the Windows bundle runs under Proton, and on Mac there is a Metal renderer. The README says it plays with sound and saves, and it brings widescreen options, a free camera, and a HUD texture pack. The latest version is v2026.10.4 (October 30), with wizards of about 12 to 24 MB. 3 of its 30 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de BLiNX 2: Masters of Time & Space para Xbox, como imagen .iso o carpeta extraída con default.xbe; el proyecto rechaza otros títulos. Un equipo para construirlo (Mac con Apple Silicon, Linux o Windows) con unos 15 GB libres, uv, git y Python 3.9 o superior; el resto de herramientas las descarga el propio proyecto."
+  en: "Your own copy of BLiNX 2: Masters of Time & Space for Xbox, as an .iso image or an extracted folder with default.xbe; the project refuses other titles. A machine to build it on (Mac with Apple silicon, Linux, or Windows) with about 15 GB free, uv, git, and Python 3.9 or later; the project downloads the other tools itself."
+tags:
+  - x86
+  - action
+  - ai-assisted

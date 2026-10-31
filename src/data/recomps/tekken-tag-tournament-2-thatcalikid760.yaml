@@ -1,0 +1,20 @@
+name: "Tekken Tag Tournament 2 (thatcalikid760)"
+games: [tekken-tag-tournament-2]
+console: x360
+status: playable
+repo: thatcalikid760/TTT2-Recomp
+originalDeveloper: "Namco Bandai Games"
+year: 2012
+toolchain: XenonRecomp
+desc:
+  es: "Versión parcheada de la recompilación nativa para PC de Tekken Tag Tournament 2 de Xbox 360 (la de shihabal3amri, de la que parte la 0.1.7), con correcciones y mejoras para el juego en línea. El instalador (ttt2_setup.exe, de unos 83 MB) construye los archivos del juego en tu equipo a partir de la imagen de tu disco: el C++ recompilado se genera con XenonRecomp en tu máquina y no se guarda en el repositorio, que sí tiene el código del puerto, el servidor y las herramientas. Añade, entre otras cosas, actualizaciones desde el propio juego, ajustes gráficos (V-Sync, escala de render, FXAA, filtro anisótropo, nitidez), el modo Classic Offline, desbloqueo de objetos de personalización y un Fighting Lounge en pruebas. La última versión es la 0.2.8 (29 de octubre). 55 de sus 61 commits llevan a Claude como coautor."
+  en: "A patched build of the native PC static recompilation of Tekken Tag Tournament 2 for Xbox 360 (shihabal3amri’s, from which 0.1.7 is taken), with fixes and improvements for online play. The installer (ttt2_setup.exe, about 83 MB) builds the game’s files on your PC from your disc image: the recompiled C++ is generated with XenonRecomp on your machine and isn’t kept in the repository, which does hold the port’s code, the server, and the tools. It adds, among other things, updates from inside the game, graphics settings (V-Sync, render scale, FXAA, anisotropic filtering, sharpening), a Classic Offline mode, an unlock for Customize items, and a Fighting Lounge in testing. The latest version is 0.2.8 (October 29). 55 of its 61 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Tekken Tag Tournament 2 para Xbox 360 (EE. UU. o Europa) y la actualización de título 3. Windows 10 u 11."
+  en: "Your own disc image of Tekken Tag Tournament 2 for Xbox 360 (USA or Europe) and Title Update 3. Windows 10 or 11."
+tags:
+  - powerpc
+  - fighting
+  - online
+  - netplay
+  - ai-assisted

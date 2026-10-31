@@ -1,0 +1,20 @@
+name: "Fire Emblem: The Sacred Stones"
+games: [fire-emblem-the-sacred-stones]
+console: gba
+status: playable
+repo: Lordingard/SacredStonesRecomp
+originalDeveloper: "Intelligent Systems"
+year: 2004
+toolchain: GBARecomp
+desc:
+  es: "Recompilación estática de Fire Emblem: The Sacred Stones para un ejecutable nativo de Windows y una aplicación de Android arm64, sobre una bifurcación del runtime gbarecomp y otra del lanzador recomp-ui. El README la da por jugable, aunque aún temprana: arranca desde el lanzador, que elige la ROM y la BIOS, con estados guardados en nueve ranuras, avance rápido de 2x a 10x, rebobinado, pantalla completa, mando, ratón en Windows y control táctil en Android, y exportación de partidas guardadas en ZIP. En Android hay un APK firmado para arm64, probado por el autor en varios aparatos. La 0.1.20, del 17 de octubre, es la última versión. El README declara un desarrollo con mucha ayuda de OpenAI Codex."
+  en: "A static recompilation of Fire Emblem: The Sacred Stones to a native Windows executable and an Android arm64 app, on a fork of the gbarecomp runtime and another of the recomp-ui launcher. The README calls it playable, though still early: it boots from the launcher, which selects the ROM and BIOS, with save states in nine slots, fast-forward from 2x to 10x, rewind, full screen, gamepad, mouse on Windows and touch controls on Android, and ZIP export of saves. On Android there is a signed arm64 APK, tested by the author on several devices. Version 0.1.20, from October 17, is the latest. The README states substantial development help from OpenAI Codex."
+requirements:
+  es: "Tu propia ROM de Fire Emblem: The Sacred Stones para GBA, estadounidense (revisión 0), y una BIOS de la GBA. Windows de 64 bits o Android arm64; para compilar, el toolchain que describe el README."
+  en: "Your own ROM of Fire Emblem: The Sacred Stones for the GBA, US (revision 0), and a GBA BIOS. 64-bit Windows or Android arm64; to build, the toolchain the README describes."
+tags:
+  - arm7
+  - rpg
+  - static-recomp
+  - build-android
+  - ai-assisted

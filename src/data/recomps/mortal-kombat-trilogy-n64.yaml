@@ -1,0 +1,19 @@
+name: "Mortal Kombat Trilogy (N64)"
+games: [mortal-kombat-trilogy]
+console: n64
+status: playable
+repo: cultofblue/MKTrilogyN64Recomp
+originalDeveloper: "Midway"
+year: 1996
+toolchain: N64Recomp
+desc:
+  es: "Recompilación estática de Mortal Kombat Trilogy (USA, Rev 2) de N64 a un programa nativo de Windows y Linux, con splat, N64Recomp, RSPRecomp, N64ModernRuntime y RT64. El repositorio no lleva ROM ni nada generado de ella: el script Setup.bat instala las herramientas, genera el código a partir de tu ROM y compila el juego. Según el README está jugable: arranca por los menús, la historia, las demos y las partidas de un jugador, con selección de personaje, la torre Choose Your Destiny, rondas contra la CPU, combos y medidores, a 60 cuadros por segundo con música y efectos; se verificó sin pantalla en Linux con Vulkan por software y una prueba de seis minutos con entradas aleatorias no se cuelga. Se recompilaron 3.777 funciones y el microcódigo de audio, y el de gráficos coincide con el «F3D SDK 2.0E» de RT64. Su única versión, la 1.0.0 (28 de octubre), no trae archivos para descargar: se compila desde el código. Tiene un solo commit."
+  en: "A static recompilation of the N64 Mortal Kombat Trilogy (USA, Rev 2) into a native Windows and Linux program, with splat, N64Recomp, RSPRecomp, N64ModernRuntime, and RT64. The repository contains no ROM and nothing generated from one: the Setup.bat script installs the tools, generates the code from your ROM, and builds the game. According to the README it is playable: it boots through the menus, the story, attract-mode demos, and 1-player games, with character select, the Choose Your Destiny tower, rounds against the CPU, combos, and meters, at 60 frames per second with music and sound effects; it was verified headless on Linux with software Vulkan, and a six-minute random-input soak test runs without crashing. 3,777 functions and the audio microcode were recompiled, and the graphics microcode is an exact hash match for RT64’s “F3D SDK 2.0E”. Its only release, 1.0.0 (October 28), has no files to download: you build it from the code. It has a single commit."
+requirements:
+  es: "Tu propia ROM de Mortal Kombat Trilogy (USA) (Rev 2), en .z64 big-endian (SHA-1 11f2488b21f9f7185c25905dd02c2955c35ad5c1), con el nombre «Mortal Kombat Trilogy (USA) (Rev 2).z64» en la carpeta del proyecto. Windows (Setup.bat de un clic, que instala las herramientas y pide permisos de administrador) o Linux."
+  en: "Your own Mortal Kombat Trilogy (USA) (Rev 2) ROM, big-endian .z64 (SHA-1 11f2488b21f9f7185c25905dd02c2955c35ad5c1), named “Mortal Kombat Trilogy (USA) (Rev 2).z64” in the project folder. Windows (one-click Setup.bat, which installs the tools and asks for administrator approval) or Linux."
+tags:
+  - mips
+  - fighting
+  - 60fps+
+  - static-recomp

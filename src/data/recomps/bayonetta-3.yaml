@@ -1,0 +1,19 @@
+name: "Bayonetta 3"
+games: [bayonetta-3]
+console: switch
+status: playable
+repo: Zexyen/Witch-Time
+originalDeveloper: "PlatinumGames"
+year: 2022
+desc:
+  es: "Recompilación estática no oficial para PC, en el espíritu y la arquitectura de B2recomp: el código AArch64 del juego se traduce a C en tu equipo a partir de tu volcado y corre sobre una capa de sistema reimplementada (hilos, archivos, entrada, audio y NVN sobre Vulkan). No es un emulador. La tabla de estado del README dice que arranca y se juega, a 60 cuadros por segundo en las partes jugables probadas (Tokio y Shibuya), con tirones breves ocasionales; menús y escenas van a 30 por defecto y pueden ir a 60; la resolución por defecto es la del juego, 1600x900, y se puede subir hasta 4K con un factor de escala. Admite mandos y teclado con ratón (el teclado, probado solo con eventos sintéticos), y tiene un panel de ajustes de PC dentro del juego. Las versiones traen su propio compilador, el entorno ya construido y la herramienta de construcción, para Windows y Linux; la v0.4.5 es del 31 de octubre. 69 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial static recompilation for PC, in the spirit and architecture of B2recomp: the game’s AArch64 code is translated to C on your PC from your dump and runs on a reimplemented system layer (threads, file system, input, audio, and NVN on Vulkan). It isn’t an emulator. The README’s status table says it boots and plays, at 60 fps in the parts tested (Tokyo and Shibuya), with occasional short hitches; menus and cutscenes run at 30 by default and can run at 60; the default resolution is the game’s own 1600x900 and can be raised up to 4K with a scale factor. It supports controllers and keyboard with mouse (the keyboard tested only with synthetic events), and has an in-game PC settings panel. The releases bring their own compiler, the already built runtime and the build tool, for Windows and Linux; v0.4.5 is from October 31. 69 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de Bayonetta 3 en una carpeta con exefs (main, sdk, subsdk0, rtld, main.npdm, archivos NSO sin cifrar) y romfs (los .pkz y movie/), extraído con tus herramientas; el proyecto no descifra nada y su paso de verificación solo acepta la revisión indicada en el código. Además, Windows 10 u 11 de 64 bits o Linux x86-64, con un controlador de Vulkan (y OpenGL en Linux)."
+  en: "Your own dump of Bayonetta 3 in one folder with exefs (main, sdk, subsdk0, rtld, main.npdm, plain NSO files) and romfs (the .pkz archives and movie/), extracted with your own tools; the project decrypts nothing and its verify step only accepts the build named in the code. Plus 64-bit Windows 10 or 11 or x86-64 Linux, with a Vulkan driver (and OpenGL on Linux)."
+tags:
+  - arm64
+  - action
+  - vulkan
+  - 60fps+
+  - ai-assisted

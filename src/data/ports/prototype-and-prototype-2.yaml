@@ -1,0 +1,19 @@
+name: "PROTOTYPE and PROTOTYPE 2"
+games: [prototype, prototype-2]
+category: native-layer
+console: ps4
+status: playable
+repo: petrishevgeorgii-debug/prototype-pc-slop
+originalDeveloper: "Radical Entertainment"
+year: 2009
+desc:
+  es: "Port nativo no oficial para Windows de PROTOTYPE y PROTOTYPE 2, tal como vienen en el PROTOTYPE BIOHAZARD BUNDLE de PS4 (CUSA06545): el código x86-64 del juego corre directamente en el procesador, un entorno de ejecución pequeño sustituye las bibliotecas del sistema de la PS4 y el núcleo de vídeo de shadPS4 traduce la GPU a Vulkan. Se apoya en el port de The Order: 1886 de mateussmeneses. PROTOTYPE está jugable en las primeras misiones (guardado, escenas, vídeos, combate, consumir, HUD y mapa) y PROTOTYPE 2 es experimental: arranca y se juega a 30 o 60 fps, de 720p a 4K, aunque aún sin iconos de teclado ni FSR. Añade FSR 3.1 y FSR 4, filtrado anisotrópico, 60 fps opcionales, teclado y ratón, funciones del DualSense, un menú propio dentro de las opciones del juego, un entrenador y la sustitución de shaders del juego por otros propios. Solo se ha probado en AMD (RX 9070 XT). La 1.0.5 (27 de octubre) es la última de 11 versiones. Los 100 commits más recientes llevan a Claude como coautor."
+  en: "An unofficial native Windows port of PROTOTYPE and PROTOTYPE 2 as they come in the PS4 PROTOTYPE BIOHAZARD BUNDLE (CUSA06545): the game’s x86-64 code runs directly on the CPU, a small runtime replaces the PS4 system libraries, and the shadPS4 video core translates the GPU to Vulkan. It is built on mateussmeneses’s The Order: 1886 port. PROTOTYPE is playable through the early missions (saving, cutscenes, videos, combat, consuming, HUD, and map) and PROTOTYPE 2 is experimental: it starts and plays at 30 or 60 fps, from 720p to 4K, though without keyboard button icons or FSR yet. It adds FSR 3.1 and FSR 4, anisotropic filtering, optional 60 fps, keyboard and mouse, DualSense features, its own menu inside the game’s options, a trainer, and replacing the game’s shaders with your own. It has only been tested on AMD (RX 9070 XT). Version 1.0.5 (October 27) is the latest of 11 releases. All 100 of its latest commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado descifrado de CUSA06545 (PROTOTYPE BIOHAZARD BUNDLE de PS4), versión 01.00; el port no modifica nada de tu carpeta y comprueba los ejecutables contra los originales. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan 1.3 y un controlador actual."
+  en: "Your own decrypted dump of CUSA06545 (the PS4 PROTOTYPE BIOHAZARD BUNDLE), version 01.00; the port doesn’t modify anything in your folder and checks the executables against the originals. Plus 64-bit Windows 10 or 11 and a Vulkan 1.3 graphics card with a current driver."
+tags:
+  - x86
+  - vulkan
+  - action
+  - ai-assisted

@@ -1,0 +1,21 @@
+name: "Thrill Drive 2 / GTI Club: Corso Italiano"
+games: [thrill-drive-2, gti-club-corso-italiano]
+console: arcade
+status: playable
+repo: spita90/konami-viper-recomp
+originalDeveloper: "Konami"
+year: 2000
+desc:
+  es: "Ports nativos no oficiales de dos arcades de Konami para la placa Viper: Thrill Drive 2 y GTI Club: Corso Italiano (Driving Party: Racing in Italy en Europa). El código PowerPC original se recompila estáticamente a C y un runtime compartido reimplementa la placa (gráficos Voodoo3, sonido, entrada y salida, tarjeta CF y reloj); no es un emulador. Cada juego tiene un modo mejorado, el predeterminado, con menús, opciones, pausa, relaciones de aspecto de 4:3 a 21:9 (la escena 3D se ensancha), resolución doble y multijugador por internet de hasta cuatro jugadores, y un modo clásico con monedas, modo de atracción y menú de pruebas, a los 30 fps originales. Thrill Drive 2 EBB (Europa) y GTI Club 2 JAB (Japón) figuran como jugables; Thrill Drive 2 JAA y AAA y Driving Party EAA arrancan y corren con entradas guionizadas, pero no se han jugado a mano. No hay versiones publicadas: el ejecutable de cada juego se construye con make a partir de tus volcados. 26 de sus 28 commits llevan a Claude como coautor."
+  en: "Unofficial native ports of two Konami arcade games for the Viper board: Thrill Drive 2 and GTI Club: Corso Italiano (Driving Party: Racing in Italy in Europe). The original PowerPC code is statically recompiled into C and a shared runtime reimplements the board (Voodoo3 graphics, sound, input and output, CF card, and clock); it is not an emulator. Each game has an enhanced mode, the default, with menus, options, pause, aspect ratios from 4:3 to 21:9 (the 3D scene widens), double resolution, and internet multiplayer for up to four players, and a classic mode with coins, attract mode, and the test menu, at the original 30 fps. Thrill Drive 2 EBB (Europe) and GTI Club 2 JAB (Japan) are listed as playable; Thrill Drive 2 JAA and AAA and Driving Party EAA boot and race with scripted inputs but haven’t been played by hand. There are no published releases: each game’s executable is built with make from your own dumps. 26 of its 28 commits list Claude as a co-author."
+requirements:
+  es: "Tus propios volcados: el BIOS de la placa Viper (941b01.u25 y ds2430.u3, en la carpeta kviper) y, de cada juego, su tarjeta CF en CHD y su NVRAM (por ejemplo a41b02.chd y a41ebb_nvram.u39 para Thrill Drive 2 EBB), con la misma estructura de carpetas que una rompath de MAME y los SHA-1 de la tabla del README. Un compilador de C y C++, make, Python 3, SDL2 y chdman. Probado en macOS con Apple Silicon; Linux sin probar y Windows aún no admitido."
+  en: "Your own dumps: the Viper board BIOS (941b01.u25 and ds2430.u3, in the kviper folder) and, for each game, its CF card as a CHD and its NVRAM (for example a41b02.chd and a41ebb_nvram.u39 for Thrill Drive 2 EBB), with the same folder layout as a MAME rompath and the SHA-1 values from the README’s table. A C and C++ compiler, make, Python 3, SDL2, and chdman. Tested on macOS with Apple Silicon; Linux untested and Windows not yet supported."
+tags:
+  - powerpc
+  - racing
+  - widescreen
+  - multiplayer
+  - online
+  - static-recomp
+  - ai-assisted

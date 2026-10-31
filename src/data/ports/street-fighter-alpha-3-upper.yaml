@@ -1,0 +1,20 @@
+name: "Street Fighter Alpha 3 Upper"
+games: [street-fighter-alpha-3-upper]
+category: native-layer
+console: pc
+status: experimental
+repo: andreoka-debug/Alpha3Upper-Public
+originalDeveloper: "Capcom"
+year: 2001
+desc:
+  es: "Anfitrión nativo y experimental para Windows x64 de Street Fighter Alpha 3 Upper, la versión que incluye Capcom Fighting Collection 2. No trae ningún archivo del juego, y tampoco descarga nada: el asistente de instalación importa en tu equipo los recursos de tu colección original, para lo que lee el código cargado del programa original mientras este se ejecuta (abre el proceso solo con permisos de consulta y lectura, sin inyectar ni escribir en él), extrae lo necesario y lo valida. El programa ejecuta esas rutinas x64 originales, importadas en local, junto a un frontend independiente; el README aclara que no es una decompilación completa ni un emulador. Ofrece modos arcade, versus y entrenamiento, mandos y teclado, 4:3 o pantalla ancha, filtros CRT y juego en red con retroceso de hasta ocho fotogramas, por IP directa o con invitaciones P2P, y un lobby público con chat. Solo admite una revisión concreta del ejecutable y de los archivos ARC, identificada por SHA-256. La 0.16.0 (21 de octubre) publica un instalador de unos 17 MB y el código fuente."
+  en: "An experimental native host for Windows x64 for Street Fighter Alpha 3 Upper, the version in Capcom Fighting Collection 2. It includes no game files and downloads none: the setup wizard imports the resources of your original collection on your PC, reading the loaded code of the original program while it runs (it opens the process with query and read permissions only, with no injection or writing), extracting what is needed and validating it. The program runs those original x64 routines, imported locally, alongside an independent frontend; the README states it is neither a complete decompilation nor an emulator. It offers arcade, versus, and training modes, gamepad and keyboard, 4:3 or widescreen, CRT filters, and online play with rollback of up to eight frames, by direct IP or P2P invites, plus a public lobby with chat. It only supports one specific revision of the executable and ARC files, identified by SHA-256. Version 0.16.0 (October 21) publishes an installer of about 17 MB and the source code."
+requirements:
+  es: "Tu propia instalación original de Capcom Fighting Collection 2 (Steam), en la revisión admitida; el asistente de importación pide tenerla abierta en Alpha 3 Upper durante una partida o un entrenamiento. Además, Windows x64."
+  en: "Your own original installation of Capcom Fighting Collection 2 (Steam), in the supported revision; the import wizard needs it open on Alpha 3 Upper during a match or training session. Plus Windows x64."
+tags:
+  - x86
+  - fighting
+  - widescreen
+  - netplay
+  - online

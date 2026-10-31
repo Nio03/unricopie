@@ -1,0 +1,19 @@
+name: "EarthBound Beginnings / Mother"
+games: [earthbound-beginnings]
+console: nes
+status: experimental
+repo: mstan/Mother1NESRecomp
+originalDeveloper: "APE / Pax Softnica"
+year: 1989
+toolchain: nesrecomp
+desc:
+  es: "Andamiaje de recompilación estática de Mother (EarthBound Beginnings) de NES con NESRecomp, para Windows. Contiene la configuración específica del juego, sus ganchos y un lanzador de Dear ImGui; no incluye ROM ni código generado a partir de ella, que se genera en local con el recompilador sobre tu propia ROM antes de compilar. El README avisa de que está en gran parte sin probar más allá del arranque y el juego básico, y de que se hizo a petición de un miembro de la comunidad como base para que otro desarrollador lo continúe, no como un port terminado ni con soporte. No tiene versiones publicadas: hay que compilarlo. Incluye la portada del juego, solo para el lanzador. 1 de sus 10 commits lleva a Claude como coautor."
+  en: "A static recompilation scaffold for Mother (EarthBound Beginnings) on the NES using NESRecomp, for Windows. It holds the game-specific configuration, hooks, and a Dear ImGui launcher; it includes neither a ROM nor code generated from one, which you generate locally with the recompiler from your own ROM before building. The README warns that it is largely untested beyond boot and basic play, and that it was made at a community member’s request as a base for another developer to continue, not as a finished or supported port. It has no published releases: you have to build it. It includes the game’s box art, for the launcher only. 1 of its 10 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Mother para NES (mapeador 4 / MMC3, CRC32 de la carga útil 00F0FBBC, con SRAM con batería). Hay que compilar el proyecto: Visual Studio 2022 y CMake, y generar antes el código con el recompilador."
+  en: "Your own Mother ROM for the NES (mapper 4 / MMC3, payload CRC32 00F0FBBC, with battery-backed SRAM). You have to build the project: Visual Studio 2022 and CMake, generating the code with the recompiler first."
+tags:
+  - "6502"
+  - rpg
+  - static-recomp
+  - ai-assisted

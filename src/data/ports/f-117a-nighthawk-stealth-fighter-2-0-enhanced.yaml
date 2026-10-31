@@ -1,0 +1,19 @@
+name: "F-117A Nighthawk Stealth Fighter 2.0 (Enhanced)"
+games: [f-117a-nighthawk-stealth-fighter-2-0]
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/F117-2Enhanced
+originalDeveloper: "MicroProse"
+year: 1991
+desc:
+  es: "Port nativo mejorado de F-117A Nighthawk Stealth Fighter 2.0, de MicroProse, para Windows, construido sobre el port fiel con SDL3 del mismo autor (F117-2, v0.1.0). No es un emulador y no incluye los archivos del juego. Busca un juego más nítido y fluido con el arte original sin cambios: resolución de 1 a 8 veces los 320×200 originales (la vista 3D, el HUD, los MFD, la ventana de TV y el mapa), vista más ancha en ventanas panorámicas, sombreado suave por distancia y noche de verdad (opcionales y desactivados por defecto), imagen a la frecuencia del monitor y un lanzador con una casilla Enhanced; con --classic se recupera el comportamiento original. Las dos versiones, de unos 11 MB, son del 26 y el 29 de octubre (la 0.2.0). Todos sus 73 commits llevan a Claude como coautor."
+  en: "An enhanced native port of MicroProse’s F-117A Nighthawk Stealth Fighter 2.0 for Windows, built on the same author’s faithful SDL3 port (F117-2, v0.1.0). It is not an emulator and includes no game files. It aims for a sharper, smoother game with the original art unchanged: resolution from 1 to 8 times the original 320×200 (the 3D view, HUD, MFDs, TV window, and map), a wider view on wide windows, smooth distance shading and true night (optional, off by default), drawing at the monitor’s refresh rate, and a launcher with an Enhanced box; --classic restores the original behavior. The two releases, about 11 MB each, are from October 26 and October 29 (0.2.0). All 73 of its commits list Claude as a co-author."
+requirements:
+  es: "Los archivos de tu copia de F-117A Nighthawk Stealth Fighter 2.0 (F117.COM, SETUP.EXE, START.EXE, VGAME.EXE y el resto), en una carpeta Game junto al lanzador o elegida desde él; la carpeta debe poder escribirse, porque el juego guarda ahí la lista de pilotos. En SETUP se responde N al joystick y 2 a AdLib. Windows."
+  en: "The files of your copy of F-117A Nighthawk Stealth Fighter 2.0 (F117.COM, SETUP.EXE, START.EXE, VGAME.EXE, and the rest), in a Game folder next to the launcher or chosen from it; the folder must be writable, since the game saves the pilot roster there. In SETUP, answer N for the joystick and 2 for AdLib. Windows."
+tags:
+  - x86
+  - simulation
+  - widescreen
+  - ai-assisted

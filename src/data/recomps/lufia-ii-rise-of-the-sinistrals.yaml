@@ -1,0 +1,20 @@
+name: "Lufia II: Rise of the Sinistrals"
+games: [lufia-ii-rise-of-the-sinistrals]
+console: snes
+status: playable
+repo: Cellenseres/Lufia2SNESRecomp
+originalDeveloper: "Neverland"
+year: 1995
+toolchain: snesrecomp
+desc:
+  es: "Recompilación nativa de la versión estadounidense con el recompilador snesrecomp de mstan, para Windows y Linux (incluida la Steam Deck). El juego arranca desde la ROM original y, según el README, admite la introducción, la pantalla de título, el juego normal, los combates, el audio, los mandos, las partidas guardadas y un launcher de escritorio; el vídeo sale por SDL, OpenGL 3.3 o un renderizador Vulkan propio. Ofrece pantalla ancha, con datos de salas dibujados a mano para 76 mapas, preajustes de shaders en OpenGL y menús propios. Los problemas conocidos incluyen que la temporización de IRQ solo horizontal no se ha validado y que los estados guardados y el reinicio suave están desactivados. El repositorio sustituye parte del código recompilado por una decompilación aparte (Lufia2Decomp, como submódulo). La 0.9.2 (17 de septiembre) es la última de 3 versiones; el repositorio sigue con actividad hasta finales de octubre. Su licencia es PolyForm Noncommercial."
+  en: "A native recompilation of the US version using mstan’s snesrecomp recompiler, for Windows and Linux (including the Steam Deck). The game boots from the original ROM and, according to the README, supports the intro, the title screen, normal gameplay, battles, audio, input, saves, and a desktop launcher; video output can use SDL, OpenGL 3.3, or its own native Vulkan renderer. It offers widescreen, with hand-authored room data for 76 maps, OpenGL shader presets, and its own menus. Known issues include that H-only IRQ timing hasn’t been validated and that save states and soft reset are disabled. The repository replaces some of the recompiled code with a separate decompilation (Lufia2Decomp, as a submodule). Version 0.9.2 (September 17) is the latest of 3 releases; the repository stayed active until late October. Its license is PolyForm Noncommercial."
+requirements:
+  es: "Tu propia ROM estadounidense de Lufia II: Rise of the Sinistrals, limpia y sin cabecera (2 621 440 bytes, SHA-1 A89931C1F29B161B8BE717DFAB4A4ADB54B42B84), que se pasa al launcher o se coloca en la raíz como lufia2.sfc. Windows 10 o posterior o Linux de 64 bits; las versiones publicadas son un zip para Windows x64 y un tar.gz para Linux x64."
+  en: "Your own clean, headerless US Lufia II: Rise of the Sinistrals ROM (2,621,440 bytes, SHA-1 A89931C1F29B161B8BE717DFAB4A4ADB54B42B84), given to the launcher or placed in the root as lufia2.sfc. Windows 10 or later, or 64-bit Linux; the releases are a Windows x64 zip and a Linux x64 tar.gz."
+tags:
+  - "65816"
+  - rpg
+  - widescreen
+  - vulkan
+  - static-recomp

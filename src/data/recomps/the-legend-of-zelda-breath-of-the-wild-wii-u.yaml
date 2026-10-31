@@ -1,0 +1,18 @@
+name: "The Legend of Zelda: Breath of the Wild (Wii U)"
+games: [the-legend-of-zelda-breath-of-the-wild]
+console: wiiu
+status: experimental
+repo: ryderclanky/BotW-Native
+originalDeveloper: "Nintendo EPD"
+year: 2017
+desc:
+  es: "Recompilación estática de la versión de Wii U (1.5.0) a un programa nativo para Windows con renderizador Vulkan: el código PowerPC se traduce a C++ y corre sobre un entorno de ejecución de Cafe OS, y la capa de GPU Latte de Cemu dibuja a través de Vulkan. No hay emulador ni JIT. El README lo da por un trabajo en curso, no una versión completa: con la versión USA 1.5.0 funcionan a unos 60 cuadros por segundo la apertura, el audio, la pantalla de título, cargar una partida, el combate, el mapa y el viaje rápido y Pueblo Hateno con sus habitantes y tiendas; una copia europea con DLC se verificó hasta el título, sin partida completa. Algunos efectos, parte del mapeo del mando y algunos textos de escenas están sin confirmar. La v0.1.2 (31 de octubre) es la última de tres versiones."
+  en: "A static recompilation of the Wii U version (1.5.0) into a native Windows program with a Vulkan renderer: the PowerPC code is translated to C++ and runs on a Cafe OS runtime, and Cemu’s Latte GPU layer draws through Vulkan. There is no emulator or JIT. The README calls it work in progress, not a full-game release: with the USA 1.5.0 version, the opening, audio, the title screen, loading a save, combat, the map and fast travel, and Hateno Village with its NPCs and shops work at about 60 fps; a European copy with DLC was verified through the title scene, without a full play-through. Some effects, parts of the controller mapping and some cutscene text are unconfirmed. v0.1.2 (October 31) is the latest of three releases."
+requirements:
+  es: "Tu propia copia de Breath of the Wild de Wii U, de EE. UU. o Europa, con la actualización v208 (1.5.0), como carpeta ya extraída con code, content y meta (el SHA-256 de code/U-King.rpx debe ser ba58da5b95ce929e005d058ceb08b9b2788d1ab2bbc8a6c189bbadca0bb34d30); el juego base, la actualización y el DLC deben ser de la misma región. Además, Windows 10 u 11 y una GPU con controlador de Vulkan 1.1; para compilar, MSYS2 con UCRT64 (MinGW gcc)."
+  en: "Your own copy of Breath of the Wild for Wii U, USA or Europe, with update v208 (1.5.0), as an already extracted folder with code, content and meta (the SHA-256 of code/U-King.rpx must be ba58da5b95ce929e005d058ceb08b9b2788d1ab2bbc8a6c189bbadca0bb34d30); base game, update and DLC must come from the same region. Plus Windows 10 or 11 and a GPU with a Vulkan 1.1 driver; to build, MSYS2 with UCRT64 (MinGW gcc)."
+tags:
+  - powerpc
+  - action
+  - vulkan
+  - zelda

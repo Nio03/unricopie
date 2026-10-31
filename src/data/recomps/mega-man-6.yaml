@@ -1,0 +1,17 @@
+name: "Mega Man 6"
+games: [mega-man-6]
+console: nes
+status: playable
+repo: Junior-Jones/Mega-Man-6-NES-Static-Recomp
+originalDeveloper: "Capcom"
+year: 1993
+desc:
+  es: "Recompilación estática para Windows de la versión estadounidense de Mega Man 6 para NES. Las instrucciones 6502 del juego se tradujeron por adelantado a C, sin intérprete ni emulador de reserva, y ese código generado (25.156 puntos de entrada) está en el repositorio; el resto es un lanzador de Windows con vídeo y audio SDL3, teclado y mando, pantalla completa, escalado, pausa, partidas rápidas y capturas. El lanzador solo acepta la ROM exacta. El README no detalla qué falla ni si el juego se completa. La última versión, la 1.2.0 (29 de agosto), publica un zip para Windows y otro con el código fuente, de unos 1,9 y 1,6 MB."
+  en: "A static recompilation of the US NES version of Mega Man 6 for Windows. The game’s 6502 instructions were translated ahead of time into C, with no interpreter or emulator fallback, and that generated code (25,156 entry points) is in the repository; the rest is a Windows launcher with SDL3 video and audio, keyboard and gamepad, fullscreen, scaling, pause, quick saves, and screenshots. The launcher only accepts the exact ROM. The README doesn’t say what fails or whether the game can be finished. The latest release, 1.2.0 (August 29), publishes a Windows zip and a source zip, about 1.9 and 1.6 MB."
+requirements:
+  es: "Tu propia copia de Mega Man 6 (USA) para NES, «Mega Man 6 (USA).nes», colocada en la carpeta Rom junto al lanzador o elegida con Browse ROM; solo acepta la ROM exacta. Además, Windows 10 u 11."
+  en: "Your own copy of Mega Man 6 (USA) for the NES, “Mega Man 6 (USA).nes”, placed in the Rom folder next to the launcher or chosen with Browse ROM; only the exact ROM is accepted. Plus Windows 10 or 11."
+tags:
+  - "6502"
+  - platformer
+  - static-recomp

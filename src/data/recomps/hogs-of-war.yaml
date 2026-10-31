@@ -1,0 +1,18 @@
+name: "Hogs of War"
+games: [hogs-of-war]
+console: ps1
+status: fully
+repo: Nero2611/FrontschweineRecomp
+originalDeveloper: "Infogrames"
+year: 2000
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Hogs of War en su edición alemana, Frontschweine (Infogrames, 2000), con psxrecomp (en el fork Nero2611/psxrecomp, rama frontschweine) y recomp-ui. El código MIPS del juego se traduce a C y se compila como un programa de Windows; no es un emulador. Según su README, el juego se puede jugar de principio a fin. Trae seis mejoras que se activan o ajustan en la página Mods del lanzador: overclock de la CPU al 200 % para quitar las ralentizaciones del original, pantalla ancha 16:9 o 21:9 con el HUD en 4:3, suavizado del audio de CD, carga instantánea desde una copia extraída del disco, IA enemiga rápida y un modo de 60 Hz como el del parche del selector PAL/NTSC, con batallas a 30 fps en lugar de 25 y todo un 20 % más rápido. La 0.1.0 (13 de octubre) es un paquete de instalación con el programa de configuración y las fuentes, sin datos ni código traducido del juego, que se genera y se compila en tu equipo. La licencia es PolyForm Noncommercial 1.0.0."
+  en: "A static recompilation of Hogs of War in its German edition, Frontschweine (Infogrames, 2000), with psxrecomp (in the Nero2611/psxrecomp fork, frontschweine branch) and recomp-ui. The game’s MIPS code is translated to C and compiled into a Windows program; it is not an emulator. According to its README, the game plays from start to finish. It comes with six enhancements you switch on or adjust on the launcher’s Mods page: a 200% CPU overclock to remove the original’s slowdowns, 16:9 or 21:9 widescreen with the HUD kept at 4:3, CD audio smoothing, instant loading from an extracted copy of the disc, fast enemy AI, and a 60 Hz mode like the PAL/NTSC selector patch, with battles at 30 fps instead of 25 and everything 20% faster. Version 0.1.0 (October 13) is a setup package with the setup program and the sources, with no game data and no translated game code, which is generated and built on your PC. The license is PolyForm Noncommercial 1.0.0."
+requirements:
+  es: "Tu propia copia del juego: la edición alemana PAL (SLES-02767) como archivo CUE con sus tres pistas BIN; el proceso comprueba la pista de datos con sumas conocidas y no admite otras ediciones. Windows 10 u 11 de 64 bits, Git y Python 3.11 o posterior; el compilador se descarga solo y no hace falta BIOS, porque usa OpenBIOS."
+  en: "Your own copy of the game: the German PAL edition (SLES-02767) as a CUE file with its three BIN tracks; the build checks the data track against known checksums and other editions aren’t supported. 64-bit Windows 10 or 11, Git, and Python 3.11 or newer; the compiler downloads itself and no BIOS is needed, since it uses OpenBIOS."
+tags:
+  - mips
+  - widescreen
+  - mods

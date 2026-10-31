@@ -1,0 +1,19 @@
+name: "Valkyria Revolution"
+games: [valkyria-revolution]
+category: native-layer
+console: ps4
+status: playable
+repo: HekamiAeon/valkyria-revolution-ps4rt
+originalDeveloper: "Media.Vision"
+year: 2017
+desc:
+  es: "Port no oficial para Linux de la versión de PS4, con un entorno de ejecución propio del juego, PS4RT: el código x86-64 original corre directamente en el procesador, el entorno ofrece versiones de compatibilidad de los servicios de la PS4 que necesita y un renderizador Vulkan derivado de shadPS4 traduce las órdenes de la GPU; el README aclara que no es un emulador de PS4 general. Lo da por experimental y jugable en las secciones iniciales: se han comprobado la introducción, las escenas, los subtítulos, el audio, el mando, los menús, los primeros combates, el primer jefe, un primer guardado y carga y la salida en 4K con FSR 4 v07. El juego se renderiza internamente a 1920×1080 y el resto se reconstruye con FSR 3.1 o FSR 4; no hay parche de 60 fps y los servicios de PSN no están disponibles. Se probó en Fedora 44 x86-64. La 1.2 (29 de octubre) es la última de 3 versiones y trae un tar.gz de unos 90 MB con las bibliotecas necesarias, además del código fuente."
+  en: "An unofficial Linux port of the PS4 version, with a game-specific runtime, PS4RT: the original x86-64 code runs directly on the CPU, the runtime supplies compatibility implementations of the PS4 services the game needs, and a Vulkan renderer derived from shadPS4 translates the GPU commands; the README states it is not a general-purpose PS4 emulator. It calls itself experimental and playable in the opening sections: the introduction, cinematics, subtitles, audio, controller input, menus, early combat, the first boss, an initial save/load, and 4K output with FSR 4 v07 have been checked. The game renders internally at 1920×1080 and the rest is reconstructed with FSR 3.1 or FSR 4; there is no 60 fps patch and PSN services are unavailable. It was tested on Fedora 44 x86-64. Version 1.2 (October 29) is the latest of 3 releases and ships a roughly 90 MB tar.gz with the needed libraries, plus the source."
+requirements:
+  es: "Tu propia carpeta CUSA06810 de PS4, extraída y sin cifrar (con sce_sys/param.sfo, eboot.bin, los módulos necesarios y los datos del juego); hay que señalar la carpeta misma, no el PKG ni el ejecutable. Además, Linux x86-64 con glibc 2.35 o posterior, Python 3, el cargador de Vulkan y un controlador de Vulkan en funcionamiento; las bibliotecas de la aplicación vienen incluidas."
+  en: "Your own PS4 CUSA06810 folder, extracted and plaintext (with sce_sys/param.sfo, eboot.bin, the required modules, and the game’s data); you point to the folder itself, not the PKG or the executable. Plus x86-64 Linux with glibc 2.35 or later, Python 3, the Vulkan loader, and a working Vulkan driver; the application libraries are included."
+tags:
+  - x86
+  - vulkan
+  - action
+  - rpg

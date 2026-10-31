@@ -1,0 +1,17 @@
+name: "The Incredible Crash Dummies"
+games: [the-incredible-crash-dummies]
+category: game-engine
+console: gb
+status: experimental
+repo: KarlLaberfeld/Crash-Dummies-Native
+originalDeveloper: "Software Creations"
+year: 1992
+desc:
+  es: "Reconstrucción nativa no oficial para Windows de la versión de Game Boy, escrita en C++ y Win32 sin intérprete de CPU de Game Boy, JIT ni núcleo de emulador. El propio README aclara que es un port reconstruido a mano, no una recompilación estática automática, y que la 0.1.0-alpha.1 es una vista previa experimental: los cinco números de acrobacia están conectados a la campaña, con cuatro niveles de dificultad cada uno, y los menús, las contraseñas y la prueba de música están implementados, pero la validación de tiempos, presentación y audio sigue incompleta y no hay estados guardados, reasignación de teclas ni pantalla completa. Los gráficos, mapas y datos de música y animación se extraen de tu ROM con un script de preparación y quedan junto al ejecutable. La única versión, del 18 de octubre, pesa unos 0,5 MB y no lleva ROM ni datos extraídos. El repositorio dice que en el desarrollo se usó ayuda de IA."
+  en: "An unofficial native Windows reconstruction of the Game Boy version, written in C++ and Win32 with no Game Boy CPU interpreter, JIT, or emulator core. The README itself clarifies that it is a manually reconstructed port, not an automatic static recompilation, and that 0.1.0-alpha.1 is an experimental preview: all five stunts are connected to the campaign, with four difficulty layouts each, and the menus, passwords, and music test are implemented, but the validation of timing, presentation, and audio remains incomplete and there are no save states, key remapping, or full screen. The graphics, maps, and music and animation data are extracted from your ROM with a preparation script and kept beside the executable. The only release, from October 18, weighs about 0.5 MB and contains no ROM or extracted data. The repository says AI assistance was used in the development."
+requirements:
+  es: "Tu propio ROM de The Incredible Crash Dummies para Game Boy, de 131.072 bytes (EE. UU. y Europa) con SHA-256 ef563c4a4b063ea045d71b435dd078c19d0738f85079928803167cee8f34a4ec; un script de PowerShell (Prepare-Assets.ps1) extrae de él los datos. Windows x64 y Python 3.10 o posterior para ese paso único; el mando XInput es opcional."
+  en: "Your own ROM of The Incredible Crash Dummies for the Game Boy, 131,072 bytes (US and Europe) with SHA-256 ef563c4a4b063ea045d71b435dd078c19d0738f85079928803167cee8f34a4ec; a PowerShell script (Prepare-Assets.ps1) extracts the data from it. Windows x64 and Python 3.10 or later for that one-time step; an XInput gamepad is optional."
+tags:
+  - sm83
+  - ai-assisted

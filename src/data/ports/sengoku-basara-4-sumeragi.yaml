@@ -1,0 +1,19 @@
+name: "Sengoku Basara 4 Sumeragi"
+games: [sengoku-basara-4-sumeragi]
+category: native-layer
+console: ps4
+status: experimental
+repo: razzconnect/basara4-native-pc
+originalDeveloper: "Capcom"
+year: 2015
+desc:
+  es: "Port nativo de código abierto para Windows de la versión de PS4 (CUSA01159): el código x86-64 original corre directamente en el procesador, las bibliotecas del sistema de la PS4 se reimplementan función a función en C y C++, los comandos de la GPU se traducen a Vulkan 1.3 y el motor de audio Ngs2 está reimplementado en software, con decodificación ATRAC9. Trae un launcher propio con selector de resolución, modos de pantalla, filtrado anisotrópico, escalado FSR 1 con nitidez RCAS y configuración de mandos, un parche de memoria que desbloquea el límite de fotogramas (de 90 hasta sin límite) y un mapeador de mandos genéricos. El README no dice qué partes del juego funcionan. La 1.0.5 (31 de octubre) es la última de 6 versiones, con un zip de unos 86 MB."
+  en: "An open-source native Windows port of the PS4 version (CUSA01159): the original x86-64 code runs directly on the CPU, the PS4 system libraries are reimplemented function by function in C and C++, GPU commands are translated to Vulkan 1.3, and the Ngs2 audio engine is reimplemented in software, with ATRAC9 decoding. It has its own launcher with a resolution picker, display modes, anisotropic filtering, FSR 1 upscaling with RCAS sharpening, and controller configuration, a memory patch that unlocks the frame rate limit (from 90 up to uncapped), and a generic gamepad mapper. The README doesn’t say which parts of the game work. Version 1.0.5 (October 31) is the latest of 6 releases, with a zip of about 86 MB."
+requirements:
+  es: "Tu propio volcado descifrado de Sengoku Basara 4 Sumeragi para PS4 (CUSA01159, probado con ese ID), con eboot.bin, sce_module y sce_sys, en la carpeta game o la que elijas en el launcher; mejor con la actualización instalada. Además, Windows 10 (1903 o posterior) u 11 de 64 bits, un procesador con AVX, una tarjeta gráfica con Vulkan 1.3 (como mínimo una GTX 1060 o una RX 580), 8 GB de RAM y unos 20 GB libres."
+  en: "Your own decrypted dump of Sengoku Basara 4 Sumeragi for PS4 (CUSA01159, tested with that ID), with eboot.bin, sce_module, and sce_sys, in the game folder or the one you choose in the launcher; ideally with the update installed. Plus 64-bit Windows 10 (1903 or later) or 11, a CPU with AVX, a Vulkan 1.3 graphics card (a GTX 1060 or RX 580 at minimum), 8 GB of RAM, and about 20 GB free."
+tags:
+  - x86
+  - vulkan
+  - action
+  - 60fps+

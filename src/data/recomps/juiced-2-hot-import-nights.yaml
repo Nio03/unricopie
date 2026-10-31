@@ -1,0 +1,18 @@
+name: "Juiced 2: Hot Import Nights"
+games: [juiced-2-hot-import-nights]
+console: x360
+status: playable
+repo: anishchandra24/Juiced2-Recompiled
+originalDeveloper: "Juice Games"
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial para Windows hecho por recompilación estática con ReXGlue SDK. El repositorio no contiene código ni datos del juego, solo las piezas que hacen funcionar el SDK con este título: la lista de correcciones para que el recompilador encuentre todas las funciones, un lanzador pequeño y tres parches al SDK (un error de generación de código con instrucciones vectoriales, la ubicación de los mips pequeños de algunas texturas y la música). Vista previa temprana, probada en un solo PC: arranca, juega y guarda; el autor ha jugado la Carrera de la liga novato a la 7, con música y teclado. Tiene corrupción gráfica aleatoria, parpadeos, lag con muchos coches, manejo que puede sentirse raro con la tasa de cuadros irregular y cierre en el título con la gráfica integrada AMD Radeon; no funcionan los modos en línea y no se han probado pantalla dividida, contenido descargable ni el final de la Carrera. La v0.1.0 (vista previa) es del 28 de octubre. Declara que se desarrolló en una conversación con Claude; sus 3 commits lo listan como coautor."
+  en: "An unofficial native Windows port made by static recompilation with the ReXGlue SDK. The repository holds no game code or data, only the pieces that make the SDK work with this title: the fix list that lets the recompiler find every function, a small launcher, and three patches to the SDK (a vector-instruction code generation bug, where the smaller mip levels of some textures are located, and music playback). An early preview tested on a single PC: it boots, plays and saves; the author has played Career from the rookie league through league 7, with music and keyboard input. It has random graphics corruption, short flickers, lag with many cars, handling that can feel off when the frame rate is uneven, and a crash at the title screen on AMD Radeon integrated graphics; online features don’t work and split-screen, downloadable content and the end of Career are untested. v0.1.0 (preview) is from October 28. It states it was developed in a conversation with Claude; all 3 of its commits list it as a co-author."
+requirements:
+  es: "Tu propia copia de Juiced 2: Hot Import Nights para Xbox 360 (ID de título 545107D5), extraída de modo que default.xex y los demás archivos estén en una misma carpeta. Además, Windows 10 u 11 de 64 bits (solo se ha probado Windows 10) con una gráfica Direct3D 12, unos 10 GB libres para la compilación, conexión a internet en la primera instalación, Visual Studio 2022 Community con las cargas de C++ y Clang, y Git."
+  en: "Your own copy of Juiced 2: Hot Import Nights for Xbox 360 (title ID 545107D5), extracted so that default.xex and the other files sit in one folder. Plus 64-bit Windows 10 or 11 (only Windows 10 has been tested) with a Direct3D 12 graphics card, about 10 GB free for the build, internet access for the first setup, Visual Studio 2022 Community with the C++ and Clang workloads, and Git."
+tags:
+  - powerpc
+  - racing
+  - ai-assisted

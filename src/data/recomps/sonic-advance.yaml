@@ -1,0 +1,18 @@
+name: "Sonic Advance"
+games: [sonic-advance]
+console: gba
+status: experimental
+repo: smiluredev/SonicAdvanceRecomp
+originalDeveloper: "Dimps"
+year: 2001
+toolchain: GBARecomp
+desc:
+  es: "Port nativo no oficial de Sonic Advance, hecho por recompilación estática con GBARecomp: el código ARM del juego se traduce a C, sin emulación de CPU, con un backend SDL2, sombreadores que imitan la pantalla de la GBA, audio mejorado y objetivos de Linux, Windows, macOS y Android. El README describe esas funciones y cómo ejecutar la herramienta gba-pack, pero no dice qué partes funcionan. El repositorio incluye código generado a partir del juego: tres archivos C, SonicAdvance-bios.0.c, .1.c y .2.c, de entre 10 y 17 MB, que en su cabecera se declaran derivados de la imagen de entrada y que no deben distribuirse, y un SonicAdvance-bios.so ya compilado de 10 MB; el README afirma que no contiene nada con derechos de autor. La única versión, la V1, es del 22 de agosto y trae un paquete para Linux de unos 5,9 MB."
+  en: "An unofficial native port of Sonic Advance, made by static recompilation with GBARecomp: the game’s ARM code is translated into C, with no CPU emulation, with an SDL2 backend, shaders that imitate the GBA screen, enhanced audio, and targets for Linux, Windows, macOS, and Android. The README describes those features and how to run the gba-pack tool, but doesn’t say which parts work. The repository includes code generated from the game: three C files, SonicAdvance-bios.0.c, .1.c, and .2.c, of between 10 and 17 MB, which declare in their header that they derive from the input image and must not be distributed, and a prebuilt SonicAdvance-bios.so of 10 MB; the README claims it contains nothing copyrighted. The only release, V1, is from August 22 and ships a Linux package of about 5.9 MB."
+requirements:
+  es: "Tu propia ROM de Sonic Advance para GBA (SonicAdvance.gba) y la BIOS de la GBA (gba_bios.bin), cuyos SHA-256 se anotan en pack.toml. Para compilar, clang o gcc, CMake, Ninja y SDL2 (el README da los pasos para Linux)."
+  en: "Your own ROM of Sonic Advance for the GBA (SonicAdvance.gba) and the GBA BIOS (gba_bios.bin), whose SHA-256 values are entered in pack.toml. To build, clang or gcc, CMake, Ninja, and SDL2 (the README gives the steps for Linux)."
+tags:
+  - arm7
+  - platformer
+  - static-recomp

@@ -1,0 +1,18 @@
+name: "Metal Gear Solid: The Twin Snakes"
+games: [metal-gear-solid-the-twin-snakes]
+console: gamecube
+status: experimental
+repo: alphanu1/msg-twinsnakes-recomp
+originalDeveloper: "Silicon Knights"
+year: 2004
+toolchain: DolRecomp
+desc:
+  es: "Proyecto de recompilación estática de Metal Gear Solid: The Twin Snakes (GameCube) para compilaciones nativas de Windows y Linux: el código PowerPC se traduciría a C con DolRecomp y se enlazaría con un runtime escrito desde cero que reimplementa el SDK de GameCube sobre SDL3 y Vulkan. Está en la fase 0 de 6, la recuperación de símbolos, y el propio README lo da por no jugable, ni cerca. Tiene recuperados los límites de las 18.485 funciones del juego, 1.078 de ellas nombradas, 206 de las 336 entradas del SDK que usa el motor identificadas y el 100 % de la superficie de GX que usa; la estrategia es identificar el SDK por firmas de bytes contra decompilaciones públicas de otros juegos de GameCube. Declara que no usa código filtrado de Konami ni del SDK de Nintendo. El objetivo actual es la versión europea (PAL, GGSPA4, dos discos); la estadounidense y la japonesa vendrán después. No hay versiones publicadas."
+  en: "A static recompilation project for Metal Gear Solid: The Twin Snakes (GameCube) aimed at native Windows and Linux builds: the PowerPC code would be translated into C with DolRecomp and linked against a runtime written from scratch that reimplements the GameCube SDK on SDL3 and Vulkan. It is at phase 0 of 6, symbol recovery, and the README itself calls it not playable, not close. It has the boundaries of all 18,485 of the game’s functions recovered, 1,078 of them named, 206 of the 336 SDK entry points the engine uses identified, and 100% of the GX surface it uses; the method is to identify the SDK by byte signatures against public decompilations of other GameCube games. It states it uses no leaked Konami code or Nintendo SDK code. The current target is the European release (PAL, GGSPA4, two discs); the US and Japanese ones will come later. There are no published releases."
+requirements:
+  es: "Tu propio volcado de Metal Gear Solid: The Twin Snakes para GameCube, europeo (PAL, GGSPA4, los dos discos); el proyecto comprueba los hashes de los ejecutables extraídos. Para trabajar con él hacen falta CMake, Ninja, Ghidra, dtk y las dependencias que fija deps.lock."
+  en: "Your own dump of Metal Gear Solid: The Twin Snakes for the GameCube, European (PAL, GGSPA4, both discs); the project checks the hashes of the extracted executables. Working with it takes CMake, Ninja, Ghidra, dtk, and the dependencies pinned in deps.lock."
+tags:
+  - powerpc
+  - action
+  - static-recomp

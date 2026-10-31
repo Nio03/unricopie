@@ -1,0 +1,17 @@
+name: "Pepsiman"
+games: [pepsiman]
+console: ps1
+status: experimental
+repo: Cybertwip/PepsiMan
+originalDeveloper: "KID"
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Pepsiman (Japón, SLPS-01762) sobre PSXRecomp, con la BIOS SCPH1000 también recompilada, para ejecutarlo en macOS con OpenGL como renderizador por defecto. Según el README, el ejecutable del juego (2.079 funciones) y la BIOS (1.029 funciones) se traducen sin saltos, y el arranque con la BIOS recompilada, la validación del CD del shell y el traspaso al ejecutable del juego funcionan; el estado detallado y las partes de código en overlays pendientes están en PORT_STATUS.md. El README dice que el C generado queda sin versionar, pero el repositorio incluye generated/SLPS_017.62_full.c (unos 33 MB), el código traducido del ejecutable del juego. No tiene versiones publicadas. Sus 2 commits no llevan coautor."
+  en: "A static recompilation of Pepsiman (Japan, SLPS-01762) on PSXRecomp, with the SCPH1000 BIOS also recompiled, to run it on macOS with OpenGL as the default renderer. According to the README the game’s executable (2,079 functions) and the BIOS (1,029 functions) are translated with no skips, and the boot with the recompiled BIOS, the shell’s CD validation, and the handoff to the game executable work; the detailed status and the remaining overlay code are in PORT_STATUS.md. The README says the generated C stays untracked, but the repository includes generated/SLPS_017.62_full.c (about 33 MB), the translated code of the game’s executable. It has no published releases. Its 2 commits have no co-author."
+requirements:
+  es: "Tu propia copia del disco de Pepsiman (Japón, SLPS-01762; ocho pistas, con los SHA-256 que da DISC.md) y tu propia BIOS SCPH1000.BIN (SHA-256 cfc1fc38eb442f6f80781452119e931bcae28100c1c97e7e6c5f2725bbb0f8bb). Los pasos del README son para macOS, con CMake, Ninja y Ghidra para regenerar el código."
+  en: "Your own copy of the Pepsiman (Japan, SLPS-01762) disc (eight tracks, with the SHA-256 hashes given in DISC.md) and your own SCPH1000.BIN BIOS (SHA-256 cfc1fc38eb442f6f80781452119e931bcae28100c1c97e7e6c5f2725bbb0f8bb). The README’s steps are for macOS, with CMake, Ninja, and Ghidra to regenerate the code."
+tags:
+  - mips
+  - action

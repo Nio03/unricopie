@@ -1,0 +1,19 @@
+name: "Ultima Underworld: The Stygian Abyss (Interrupt)"
+games: [ultima-underworld-the-stygian-abyss]
+category: decomp-port
+console: mobile
+status: experimental
+repo: Interrupt/ultima-underworld
+originalDeveloper: "Looking Glass Technologies"
+year: 1992
+desc:
+  es: "Port de Ultima Underworld 1 para PC (llamado Grandaddy) basado en una decompilación de la versión de Pocket PC (WinCE), que según el autor mejoraba el motor de DOS: 32 bits y un renderizador por software más avanzado, sin las deformaciones del original y con iluminación más suave. El código decompilado está en el repositorio, con nombres recuperados de Ghidra y pruebas que comparan tablas y cadenas con las del ejecutable original, pero no el proyecto de Ghidra ni los datos del juego. Compila, enlaza y corre con datos reales y se ha probado hasta el final del primer nivel; sigue en pruebas. Añade vista libre con el ratón, un modo a pantalla completa sin la mayor parte del HUD y un panel de depuración con consola. Las versiones, en alfa, son paquetes de 1 MB para Windows, Linux y macOS (Apple Silicon); la 0.5.1 es del 19 de octubre. 61 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A PC port of Ultima Underworld 1 (called Grandaddy) based on a decompilation of the Pocket PC (WinCE) version, which the author says upgraded the DOS engine: 32-bit and a more advanced software renderer that fixed the original’s warping and added smoother lighting. The decompiled code is in the repository, with names recovered from Ghidra and tests that compare tables and strings against the original executable’s, but not the Ghidra project or the game data. It compiles, links, and runs against real data and has been tested through the end of level one; testing is ongoing. It adds mouselook, a fullscreen mode that hides most of the HUD, and a debug panel with a console. The releases, in alpha, are 1 MB packages for Windows, Linux, and macOS (Apple Silicon); 0.5.1 is from October 19. 61 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Los archivos de datos originales de tu propia copia de Ultima Underworld: sirven los de DOS o los de WinCE, extraídos en una carpeta UWDATA con DATA, DATA3D, SOUND, CRIT y CUTS, que se indica con --data-dir. Además, Windows, Linux o macOS con Apple Silicon; para compilar hacen falta CMake, clang y SDL2."
+  en: "The original data files of your own copy of Ultima Underworld: either the DOS or the WinCE ones, extracted into a UWDATA folder with DATA, DATA3D, SOUND, CRIT, and CUTS, which you point to with --data-dir. Plus Windows, Linux, or macOS with Apple Silicon; building needs CMake, clang, and SDL2."
+tags:
+  - arm
+  - rpg
+  - reverse-engineering
+  - ai-assisted

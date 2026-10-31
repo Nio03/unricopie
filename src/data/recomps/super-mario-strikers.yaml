@@ -1,0 +1,18 @@
+name: "Super Mario Strikers"
+games: [super-mario-strikers]
+console: gamecube
+status: playable
+repo: aharonahdoot/StrikersRecomp
+originalDeveloper: "Next Level Games"
+year: 2005
+toolchain: DolRecomp
+desc:
+  es: "Recompilación estática de Super Mario Strikers (G4QE01, NTSC), el ejemplo práctico de RecompCore y GXRuntime. El repositorio solo guarda la política, el pegamento y las herramientas del juego (mapas de símbolos, decisiones de emulación de alto nivel, rutas de MMIO y los guiones que convierten tu copia en código nativo); el C recompilado, unas 665.000 instrucciones en 163 trozos, se genera en tu equipo con DolRecomp a partir de tu ISO y no se sube. Se puede ejecutar como módulo de RecompCore, una bifurcación de Dolphin que lo carga por el ID del disco y recurre al intérprete de Dolphin para lo que el módulo no cubre (el 99,9 % de los despachos son nativos), o como aplicación independiente de GXRuntime, con su propio renderizador, entrada y audio. Arranca, tiene menús, la secuencia de introducción y partidos completos, con partidas guardadas en una tarjeta de memoria virtual; faltan sombras y brillos de los jugadores en el renderizador independiente, las demás escenas y el rendimiento en partido de esa vía. La única versión, la 0.1.0, es del 8 de julio y no lleva archivos adjuntos."
+  en: "A static recompilation of Super Mario Strikers (G4QE01, NTSC), the worked example for RecompCore and GXRuntime. The repository only holds the policy, glue, and tools for the game (symbol maps, high-level emulation decisions, MMIO routing, and the scripts that turn your copy into native code); the recompiled C, about 665,000 instructions in 163 chunks, is generated on your PC with DolRecomp from your own ISO and isn’t uploaded. It can run as a RecompCore module, a Dolphin fork that loads it by disc ID and falls back to Dolphin’s interpreter for whatever the module doesn’t cover (99.9% of dispatches run natively), or as a standalone GXRuntime app with its own renderer, input, and audio. It boots, has menus, the intro cutscene, and full matches, with saves on a virtual memory card; the known gaps are player shadows and gloss passes in the standalone renderer, the other cutscenes, and that path’s in-match performance. The only release, 0.1.0, is from July 8 and has no attached files."
+requirements:
+  es: "Tu propia ISO de Super Mario Strikers para GameCube, estadounidense (G4QE01), de la que se extrae el main.dol. Python 3 y las herramientas que clona bootstrap.sh (DolRecomp, GXRuntime y RecompCore); lo probado hasta ahora es macOS."
+  en: "Your own ISO of Super Mario Strikers for the GameCube, US (G4QE01), from which main.dol is extracted. Python 3 and the tools bootstrap.sh clones (DolRecomp, GXRuntime, and RecompCore); what has been tested so far is macOS."
+tags:
+  - powerpc
+  - sports
+  - static-recomp

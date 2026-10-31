@@ -1,0 +1,19 @@
+name: "Icewind Dale II"
+games: [icewind-dale-ii]
+category: decomp-port
+console: pc
+status: experimental
+repo: thierbig/iwd2r
+originalDeveloper: "Black Isle Studios"
+year: 2002
+desc:
+  es: "Motor multiplataforma de Icewind Dale II reconstruido a partir de una decompilación del ejecutable original, para Linux, Windows y macOS (Apple silicon). Mantiene la simulación original, con un renderizador clásico en 2D (y otro con SDL3 GPU, opcional) y el mod IWD2EE integrado en su propio código; el plan incluye un renderizador de alta fidelidad con vuelta al aspecto clásico. El repositorio contiene salida decompilada del juego original: unos 1.690 archivos en docs/evidence con el resultado de Ghidra para cada función recuperada, más el código fuente reconstruido en src; no trae el ejecutable ni datos del juego. Según su README recupera el 84,2 % del código y un 62,6 % de las funciones (el 4,8 % verificado contra el original), y todavía no se puede jugar de principio a fin: ya se forma un grupo, se camina, se habla y se gana el primer combate, y guardar, cargar y descansar está en curso. No tiene versiones publicadas; se compila desde el código. Declara que el trabajo de recuperación lo hacen sesiones de Claude Code (con modelos de Anthropic o de Z.ai) y 56 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A cross-platform engine for Icewind Dale II rebuilt from a decompilation of the original executable, for Linux, Windows, and macOS (Apple silicon). It keeps the original simulation underneath, with a classic 2D renderer (and an optional SDL3 GPU one) and the IWD2EE mod built into its own source; the plan includes a high-fidelity renderer with a toggle back to the classic look. The repository contains decompiled output of the original game: about 1,690 files in docs/evidence with Ghidra’s output for each recovered function, plus the reconstructed source in src; it holds no executable and no game data. According to its README it has recovered 84.2% of the code and 62.6% of the functions (4.8% verified against the original), and it can’t yet be played from start to finish: a party can be formed, walk, talk, and win the first fight, and saving, loading, and resting is under way. It has no published releases; you build it from source. It states that the recovery work is done by Claude Code sessions (with Anthropic or Z.ai models), and 56 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Icewind Dale II: Complete de GOG (sin DRM), que es la de referencia; el README da instalador de Windows (2.01) y de macOS. Para construirlo: CMake 3.28 y, en Windows, Visual Studio 2022; en Linux, un compilador y las bibliotecas que lista el README; en macOS, las herramientas de línea de comandos de Xcode. En macOS el motor compila y pasa sus pruebas, pero el README dice que jugar allí no se ha probado."
+  en: "Your own copy of Icewind Dale II: Complete from GOG (DRM-free), which is the reference; the README gives the Windows (2.01) and macOS installers. To build it: CMake 3.28 and, on Windows, Visual Studio 2022; on Linux, a compiler and the libraries the README lists; on macOS, the Xcode command line tools. On macOS the engine builds and passes its tests, but the README says playing there hasn’t been tried."
+tags:
+  - x86
+  - rpg
+  - reverse-engineering
+  - ai-assisted

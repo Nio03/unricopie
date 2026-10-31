@@ -1,0 +1,16 @@
+name: "Pac-Man"
+games: [pac-man]
+console: arcade
+status: experimental
+repo: mburkley/pacman-c
+originalDeveloper: "Namco"
+year: 1980
+desc:
+  es: "Traducción a C, hecha a mano, del código de la ROM del Pac-Man arcade: el ensamblador original se conserva como comentarios y el que ya está traducido va marcado con //----. Busca un comportamiento idéntico al original (patrones como en MAME) pero con C compilado en lugar de Z80 emulado, y mantiene el mapa de memoria original. El vídeo usa OpenGL con glut y el sonido, PulseAudio; el teclado se lee directamente de /dev/input. Necesita las ROM originales para el código y los gráficos, que se convierten en archivos de cabecera con xxd. Compila en Debian y Ubuntu, y su lista de fallos sigue larga (frutas, escenas intermedias, sprites en el modo demostración). Su última actividad es de mayo de 2025."
+  en: "A hand-made C translation of the Pac-Man arcade ROM’s code: the original assembly is kept as comments and the part already translated is boxed off with //----. It aims at behavior identical to the original (patterns as in MAME) but with compiled C instead of emulated Z80, and keeps the original memory map. Video uses OpenGL with glut and sound uses PulseAudio; the keyboard is read directly from /dev/input. It needs the original ROMs for the code and the graphics, which are converted into header files with xxd. It builds on Debian and Ubuntu, and its list of known bugs is still long (fruit, cutscenes, sprites in demo mode). Its last activity was in May 2025."
+requirements:
+  es: "Tus propias ROM de Pac-Man (programa y gráficos), convertidas a archivos de cabecera con xxd. Linux (probado en Debian y Ubuntu) con las bibliotecas glut y pulse-simple, y tu usuario en el grupo input."
+  en: "Your own Pac-Man ROMs (program and graphics), converted to header files with xxd. Linux (tested on Debian and Ubuntu) with the glut and pulse-simple libraries, and your user in the input group."
+tags:
+  - z80
+  - reverse-engineering

@@ -1,0 +1,20 @@
+name: "Resident Evil - Code: Veronica X (ViolentlyVia)"
+games: [resident-evil-code-veronica-x]
+category: decomp-port
+console: ps2
+status: playable
+repo: ViolentlyVia/recvx-pc
+originalDeveloper: "Capcom"
+year: 2001
+desc:
+  es: "Port nativo para Windows de la versión estadounidense de PS2 (SLUS-20184): el código C de la decompilación recvx-decomp se compila con MSVC como un programa normal de 32 bits, y el hardware y el SDK de la PS2 (GS, VU0, el controlador de sonido del IOP, tarjetas de memoria, unidad de disco) se sustituyen por una capa de plataforma para PC, sin emulador. Incluye Biorand++ (cvx-rando.exe), un aleatorizador basado en BioRand que baraja objetos, puertas, enemigos, música y NPC y escribe los archivos cambiados en una carpeta de mods, sin tocar los datos del juego; sigue en desarrollo. Según su README, el juego arranca y se puede jugar, y las pruebas cubren el comienzo (prisión, explosión, cementerio), guardar y cargar y partidas aleatorizadas. Tiene gráficos OpenGL 3.3 con resolución interna 3x por defecto, pantalla ancha, paquetes de texturas HD de PCSX2, vídeos convertidos una vez con FFmpeg y, opcionalmente, ampliados 4x con IA (Real-ESRGAN), música y voces ADX, efectos de sonido con reverberación, avance rápido y mando con vibración. La 0.9.95 (31 de octubre) es un zip de unos 62 MB con el port, la aplicación de ajustes y el aleatorizador, sin datos del juego."
+  en: "A native Windows port of the US PS2 release (SLUS-20184): the C code of the recvx-decomp decompilation is built with MSVC as a regular 32-bit program, and the PS2 hardware and SDK (GS, VU0, the IOP sound driver, memory cards, disc drive) are replaced by a PC platform layer, with no emulator. It includes Biorand++ (cvx-rando.exe), a randomizer based on BioRand that shuffles items, doors, enemies, music, and NPCs and writes the changed files to a mod folder, without touching the game data; it is still in progress. According to its README, the game boots and plays, and testing so far covers the opening (prison, explosion, graveyard), saving and loading, and randomized runs. It has OpenGL 3.3 graphics with 3x internal resolution by default, widescreen, PCSX2 HD texture packs, movies converted once with FFmpeg and optionally upscaled 4x with AI (Real-ESRGAN), ADX music and voices, sound effects with room reverb, fast-forward, and gamepad with vibration. Version 0.9.95 (October 31) is a zip of about 62 MB with the port, the settings app, and the randomizer, with no game data."
+requirements:
+  es: "Tu propia imagen (.iso) de Resident Evil Code: Veronica X para PS2, EE. UU., SLUS-20184. La aplicación recvx-config copia los archivos del disco a una carpeta data y convierte los vídeos (descarga FFmpeg, unos 100 MB, y hacen falta unos 2,5 GB más una vez preparado); después ya no necesita la imagen. Windows. Para compilarlo, Visual Studio 2022 con C++, Python 3 y el SDK de .NET 10."
+  en: "Your own image (.iso) of Resident Evil Code: Veronica X for PS2, USA, SLUS-20184. The recvx-config app copies the disc’s files to a data folder and converts the movies (it downloads FFmpeg, about 100 MB, and needs about 2.5 GB more once set up); after that the image isn’t needed. Windows. To build it, Visual Studio 2022 with C++, Python 3, and the .NET 10 SDK."
+tags:
+  - emotion-engine
+  - horror
+  - widescreen
+  - randomizer
+  - hd-assets

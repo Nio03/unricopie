@@ -1,0 +1,19 @@
+name: "James Pond 2: Codename RoboCod"
+games: [james-pond-2-codename-robocod]
+console: other
+status: playable
+repo: griches/JamesPond2RobocodRecomp
+originalDeveloper: "Vectordean"
+year: 1991
+desc:
+  es: "Versión nativa del clásico de Amiga para Windows, macOS, Linux y Steam Deck, Android y PlayStation 5. El código 68000 del juego se tradujo a C++ con un recompilador propio que lee tu imagen de disco; el código generado se hace en tu equipo y no está en el repositorio. Para lo que el recompilador aún no traduce usa el emulador de 68000 Musashi. El motor reimplementa los chips de Amiga y añade pantalla ancha de verdad, movimiento fluido a la frecuencia de tu pantalla, filtros de imagen, un modelo del filtro de salida de sonido del Amiga 500 o 1200, partidas guardadas, selección de nivel, las trampas del propio juego y vibración del mando. El README no dice si se puede terminar. La 1.0.4 (28 de octubre) es la última de cinco versiones publicadas entre el 26 y el 28 de octubre; los zips de Windows pesan unos 2,6 MB y no traen el juego."
+  en: "A native version of the Amiga classic for Windows, macOS, Linux and Steam Deck, Android, and PlayStation 5. The game’s 68000 code was translated into C++ with a recompiler of the project’s own that reads your disk image; the generated code is made on your machine and is not in the repository. For what the recompiler hasn’t translated yet it uses the Musashi 68000 emulator. The runtime reimplements the Amiga’s custom chips and adds true widescreen, smooth motion at your display’s refresh rate, picture filters, a model of the Amiga 500 or 1200 sound output filter, saves, level select, the game’s own cheats, and controller rumble. The README doesn’t say whether it can be finished. Version 1.0.4 (October 28) is the latest of five releases published between October 26 and October 28; the Windows zips weigh about 2.6 MB and don’t include the game."
+requirements:
+  es: "Tu propia imagen de disco Amiga de James Pond 2: Codename RoboCod: un .adf de la reedición de Kixx o de discos crackeados habituales (por ejemplo el de Skid Row), empaquetado como .adz o dentro de un .zip, o una carpeta de instalación de WHDLoad. No sirven todavía la edición original de Millennium, los volcados de pistas en bruto (ADF extendido) del disco con protección, ni las imágenes .dms e .ipf. En Android hace falta un mando; en PlayStation 5, una consola que ejecute homebrew."
+  en: "Your own Amiga disk image of James Pond 2: Codename RoboCod: an .adf of the Kixx re-release or of the common cracked disks (for example Skid Row’s), packed as .adz or inside a .zip, or a WHDLoad install folder. The original Millennium release, raw-track (extended ADF) dumps of the copy-protected disk, and .dms and .ipf images don’t work yet. Android needs a controller; the PlayStation 5 needs a console that runs homebrew."
+tags:
+  - "68000"
+  - platformer
+  - widescreen
+  - build-android
+  - static-recomp

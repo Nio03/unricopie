@@ -1,0 +1,17 @@
+name: "Snatcher"
+games: [snatcher]
+console: megacd
+status: experimental
+repo: bgyss/snatcher-port
+originalDeveloper: "Konami"
+year: 1994
+desc:
+  es: "Port nativo para PC (Mac, Windows y Linux) de la versión estadounidense de Sega CD, en desarrollo. El README lo presenta como un proyecto de ingeniería inversa que busca un motor nuevo, sin código del original, que ejecute los datos de tu disco, además de un remaster que admita la versión japonesa de PC Engine CD y un prototipo aparte en Unreal Engine 5. El motor emula el hardware de la Sega CD (la BIOS se emula) y puede traducir a C++ el código del 68000 del juego a partir de tu disco; las releases traen solo la versión con intérprete, porque la compilación traducida contiene código generado de tu disco y el autor pide no compartirla. Admite la pistola Konami Justifier con el ratón y graba sesiones con repetición de entradas. La única versión, la v0.1.0-rc1 (5 de octubre), trae paquetes de 2 a 2,5 MB para macOS, Windows y Linux. 69 de sus 74 commits llevan a Claude como coautor."
+  en: "A native PC port (Mac, Windows, and Linux) of the US Sega CD version, in development. The README presents it as a reverse-engineering project aiming at a new, clean-room engine that runs the data from your own disc, plus a remaster that also supports the Japanese PC Engine CD version and a separate Unreal Engine 5 prototype. The engine emulates the Sega CD hardware (the BIOS is emulated) and can translate the game’s 68000 code to C++ from your disc; the releases ship only the interpreter build, because the translated build contains code generated from your disc and the author asks not to share it. It supports the Konami Justifier light gun with the mouse and records sessions with input replay. The only release, v0.1.0-rc1 (October 5), has 2 to 2.5 MB packages for macOS, Windows, and Linux. 69 of its 74 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Snatcher para Sega CD, de la versión estadounidense, como .cue más sus .bin (vale un solo .bin o la disposición de Redump con un .bin por pista; no se admiten CHD ni ISO con MP3). No hace falta BIOS de Sega CD. Para compilar el juego traducido, CMake y SDL3 (en macOS, Apple clang)."
+  en: "Your own disc image of Snatcher for the Sega CD, US version, as a .cue plus its .bin files (a single .bin or the Redump one-.bin-per-track layout both work; CHD and ISO with MP3 are not supported). No Sega CD BIOS is needed. To build the translated game, CMake and SDL3 (Apple clang on macOS)."
+tags:
+  - "68000"
+  - reverse-engineering
+  - ai-assisted

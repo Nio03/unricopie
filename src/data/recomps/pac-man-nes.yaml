@@ -1,0 +1,18 @@
+name: "Pac-Man (NES)"
+games: [pac-man]
+console: nes
+status: playable
+repo: Mr-Shizzy/PacManRecomp
+originalDeveloper: "Namco"
+year: 1993
+toolchain: nesrecomp
+desc:
+  es: "Versión nativa para Windows del Pac-Man de NES (el lanzamiento de Namco de 1993), hecha por recompilación estática con NESRecomp: el código 6502 original se traduce a C y se compila en un programa de Windows. El lanzador no trae el juego ya traducido: en el primer arranque, un recompilador y TinyCC traducen y compilan tu ROM en un game.dll en tu equipo y luego borran esas herramientas, de modo que el código del juego solo se genera en tu PC. Sobre el juego intacto añade un lanzador con ajustes de vídeo, audio, controles y opciones de juego, trampas, un sistema de mods con documentación, partidas de uno y dos jugadores, vibración del mando, puntuaciones máximas y una comprobación de actualizaciones opcional, desactivada por defecto. El README solo da Windows 10 y 11; no hay versión para Mac ni Linux. La 1.1.1 (6 de octubre) es la última de seis versiones publicadas entre el 4 y el 6 de octubre, de unos 5 MB."
+  en: "A native Windows version of Pac-Man for the NES (Namco’s 1993 release), made by static recompilation with NESRecomp: the original 6502 code is translated into C and compiled into a Windows program. The launcher doesn’t ship the translated game: on first run, a recompiler and TinyCC translate and compile your ROM into a game.dll on your PC and then delete those tools, so the game’s code is only ever generated on your machine. On top of the untouched game it adds a launcher with video, audio, controls, and game option settings, cheats, a documented mod system, one- and two-player games, controller rumble, high scores, and an optional update check that is off by default. The README only lists Windows 10 and 11; there is no Mac or Linux version. Version 1.1.1 (October 6) is the latest of six releases published between October 4 and October 6, about 5 MB."
+requirements:
+  es: "Tu propia copia de Pac-Man (USA) (Namco) para NES, en un archivo .nes con cualquier nombre, colocado junto al ejecutable; la versión de Tengen es otro programa y no sirve. Además, Windows 10 u 11 de 64 bits."
+  en: "Your own copy of Pac-Man (USA) (Namco) for the NES, as a .nes file with any name, placed next to the executable; the Tengen version is a different program and doesn’t work. Plus 64-bit Windows 10 or 11."
+tags:
+  - "6502"
+  - mods
+  - static-recomp

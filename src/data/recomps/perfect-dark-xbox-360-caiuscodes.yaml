@@ -1,0 +1,20 @@
+name: "Perfect Dark (Xbox 360, CaiusCodes)"
+games: [perfect-dark]
+console: x360
+status: playable
+repo: CaiusCodes/Perfect-Dark-XBLA-PC-Recomp
+originalDeveloper: "4J Studios"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Versión nativa para Windows de Perfect Dark en la remasterización de 2010 de Xbox Live Arcade, hecha por recompilación estática con ReXGlue. Corre a 60 cuadros por segundo hasta 4K, con teclado y ratón o mando de Xbox, y trae multijugador por LAN o LAN virtual de hasta 8 jugadores y cooperativo para dos. Ofrece escala de render de 1x a 3x, escalado con AMD CAS o FSR 1, Direct3D 12 en NVIDIA y Vulkan en AMD e Intel, clasificaciones y logros guardados en tu PC, y extras opcionales al instalar (todos los trucos, 100 % de la historia, todo el multijugador). Al primer arranque, una ventana de configuración lee el paquete de Xbox 360 que le indiques, comprueba que es la versión compatible e importa los datos del juego a su carpeta; no necesita el paquete después y no contacta con Xbox Live. La v0.9.0 (28 de octubre, un zip de unos 14 MB) es la única versión. 2 de sus 16 commits llevan a Claude como coautor."
+  en: "A native Windows version of Perfect Dark from the 2010 Xbox Live Arcade remaster, made by static recompilation with ReXGlue. It runs at 60 fps up to 4K, with keyboard and mouse or an Xbox controller, and has LAN or virtual-LAN multiplayer for up to 8 players and two-player co-op. It offers render scale from 1x to 3x, upscaling with AMD CAS or FSR 1, Direct3D 12 on NVIDIA and Vulkan on AMD and Intel, leaderboards and achievements kept on your PC, and optional extras at setup (all cheats, 100% story completion, all multiplayer content). On first start a setup window reads the Xbox 360 package you give it, checks that it is the supported version and imports the game data into its folder; it doesn’t need the package afterwards and doesn’t contact Xbox Live. v0.9.0 (October 28, a zip of about 14 MB) is the only release. 2 of its 16 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio paquete de Perfect Dark XBLA para Xbox 360 (ID de título 584109C2). Windows 10 u 11 de 64 bits, una CPU con AVX2 y una gráfica con soporte de DirectX 12 o Vulkan."
+  en: "Your own Perfect Dark XBLA package for Xbox 360 (title ID 584109C2). 64-bit Windows 10 or 11, a CPU with AVX2, and a graphics card with DirectX 12 or Vulkan support."
+tags:
+  - powerpc
+  - fps
+  - multiplayer
+  - 60fps+
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Metroid: Zero Mission"
+games: [metroid-zero-mission]
+console: gba
+status: experimental
+repo: HikariLucy/MZM-Recomp
+originalDeveloper: "Nintendo R&D1"
+year: 2004
+toolchain: GBARecomp
+desc:
+  es: "Proyecto experimental de recompilación estática de Metroid: Zero Mission, que prioriza Linux y se apoya en GBARecomp, con metroidret/mzm como referencia principal para entender funciones, símbolos y estructuras. Lo comprobado es una ejecución estática estricta en Linux x86-64 que llegó a la introducción, el título, una partida nueva, varias salas iniciales y una sala de guardado, con un ciclo de guardar y cargar la SRAM, sin saltos sin resolver ni instrucciones interpretadas. Según el README, la compatibilidad con el juego completo, la versión europea y la ejecución en Windows aún no están confirmadas. Hay un lanzador gráfico opcional y paquetes de prueba para Windows y Linux; la beta 4, del 2 de octubre, es la última versión. 56 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An experimental static recompilation project for Metroid: Zero Mission, Linux-first and built on GBARecomp, with metroidret/mzm as the main reference for understanding functions, symbols, and data structures. What has been verified is a strict-static run on x86-64 Linux that reached the intro, title, a new game, several early rooms, and a Save Room, with a save and load round-trip of the SRAM, with no unresolved dispatches or interpreted instructions. According to the README, compatibility with the full game, the European version, and running on Windows are not yet confirmed. There is an optional graphical launcher and test packages for Windows and Linux; beta 4, from October 2, is the latest. 56 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Metroid: Zero Mission para GBA, estadounidense (BMXE, revisión 0, 8.388.608 bytes, SHA-1 5de8536afe1f0078ee6fe1089f890e8c7aa0a6e8); la europea es un objetivo secundario. También hace falta la BIOS de la GBA, que el lanzador pide al configurar. Linux x86-64 (probado) o Windows x64 (sin verificar)."
+  en: "Your own ROM of Metroid: Zero Mission for the GBA, US (BMXE, revision 0, 8,388,608 bytes, SHA-1 5de8536afe1f0078ee6fe1089f890e8c7aa0a6e8); the European one is a secondary target. The GBA BIOS is needed too, which the launcher asks for during setup. x86-64 Linux (tested) or Windows x64 (unverified)."
+tags:
+  - arm7
+  - action
+  - static-recomp
+  - ai-assisted

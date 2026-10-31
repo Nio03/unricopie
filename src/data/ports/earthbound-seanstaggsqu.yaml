@@ -1,0 +1,19 @@
+name: "EarthBound (seanstaggsQU)"
+games: [earthbound]
+category: game-engine
+console: snes
+status: playable
+repo: seanstaggsQU/EarthboundNativePublic
+originalDeveloper: "Ape / HAL Laboratory"
+year: 1995
+desc:
+  es: "Reconstrucción no oficial de la versión estadounidense para Windows, macOS y Linux, que según su README corre de forma nativa y sin emulación. El código no está publicado: el repositorio solo contiene las tablas de posiciones con las que se extraen los recursos de la ROM (earthbound.yml y mother2.yml), un Makefile y pruebas, y el programa se distribuye en las versiones, de unos 48 a 59 MB cada una; el README no explica cómo está hecho. En el primer arranque construye un paquete de datos a partir de tu ROM, en menos de un minuto. Ofrece un modo clásico en 4:3 o uno moderno con pantalla ancha y retoques visuales (desactivado por defecto), guardado en cualquier momento desde el menú de pausa, actualización automática desde la pantalla de título y música MSU-1 opcional si pones un paquete en una carpeta msu. La 1.7.4 (7 de septiembre) es la última de 19 versiones. El catálogo ya tiene EarthBound Companion, que usa el recreado en C de BrianPugh/earthbound a través de un fork de este mismo autor."
+  en: "An unofficial rebuild of the US version for Windows, macOS, and Linux that, per its README, runs natively with no emulation. The code isn’t published: the repository only holds the offset tables used to extract assets from the ROM (earthbound.yml and mother2.yml), a Makefile, and tests, and the program is distributed in the releases, about 48 to 59 MB each; the README doesn’t explain how it is built. On first launch it builds a game-data pack from your ROM, in under a minute. It offers a Classic 4:3 mode or a Modern mode with widescreen and light visual polish (off by default), saving at any time from the pause menu, self-updating from the title screen, and optional MSU-1 music if you drop a pack into an msu folder. Version 1.7.4 (September 7) is the latest of 19 releases. The catalog already has EarthBound Companion, which uses BrianPugh’s C recreation of the game through a fork by this same author."
+requirements:
+  es: "Tu propia ROM estadounidense de EarthBound, que se deja en la misma carpeta que el programa. Windows, macOS (hay que permitir la app en Ajustes del Sistema, Privacidad y seguridad, porque no está notarizada) o Linux, incluida la Steam Deck. Para el audio de alta calidad, un paquete MSU-1 opcional en una carpeta msu."
+  en: "Your own US EarthBound ROM, dropped into the same folder as the program. Windows, macOS (you have to allow the app in System Settings, Privacy & Security, since it isn’t notarized), or Linux, including the Steam Deck. For high-quality audio, an optional MSU-1 pack in an msu folder."
+tags:
+  - "65816"
+  - rpg
+  - widescreen
+  - closed-source

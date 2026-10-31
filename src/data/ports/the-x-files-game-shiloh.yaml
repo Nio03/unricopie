@@ -1,0 +1,16 @@
+name: "The X-Files Game (Shiloh)"
+games: [the-x-files-game]
+category: game-engine
+console: pc
+status: fully
+repo: Asterber/shiloh
+originalDeveloper: "HyperBole Studios"
+year: 1998
+desc:
+  es: "Motor de código abierto escrito en Rust que ejecuta The X-Files Game en sistemas actuales a partir de tu propia copia. Tiene una ventana nativa (SDL2) y una versión de navegador (WebAssembly, servida desde tu propio equipo). Está escrito de forma independiente, reconstruyendo lo que hace el original tras ejecutarlo y trazarlo escena a escena: no contiene código del programa original, y las pocas tablas que necesita del ejecutable se leen de tu copia en tiempo de ejecución. Según el README se puede jugar de principio a fin: hay partidas completas en la versión de navegador con la edición en DVD en inglés y la 1.00 rusa, y con la edición alemana de 7 CD; la edición francesa del DVD también se ha jugado entera. Se desarrolló con la 1.00 rusa instalada; los CD de la versión inglesa están poco probados. Lee imágenes de disco directamente, incluidas las del instalador ruso. Está probado en macOS (Apple Silicon) y se ha ejecutado en un PC con Windows; Linux está sin probar. La 0.3.4 (24 de octubre) es la última de ocho versiones y publica compilaciones para Windows, Linux, macOS y navegador de entre 1 y 7 MB."
+  en: "An open-source engine written in Rust that runs The X-Files Game on current systems from your own copy. It has a native window (SDL2) and a browser version (WebAssembly, served from your own machine). It is written independently, rebuilding what the original does after running and tracing it scene by scene: it contains none of the original program’s code, and the few tables it needs from the executable are read from your copy at run time. According to the README the game can be played from start to finish: there are complete playthroughs in the browser version on the English DVD Edition and the Russian 1.00 release, and on the German 7-CD release; the French edition on the DVD has also been played through. It was developed against an installed Russian 1.00 copy; the English retail CDs are lightly tested. It reads disc images directly, including the Russian installer’s. It is tested on macOS (Apple Silicon) and has been run on a Windows PC; Linux is untested. Version 0.3.4 (October 24) is the latest of eight releases and publishes Windows, Linux, macOS, and browser builds of 1 to 7 MB."
+requirements:
+  es: "Tu propia copia de The X-Files Game (1998): los discos originales, una imagen de disco (.iso, o el par .mdf y .mds de Alcohol) o el juego instalado. Admite la edición en DVD en inglés (que incluye la francesa), la rusa 1.00 y la alemana de 7 CD; las demás ediciones de CD están sin probar. Además, Windows, macOS o Linux de 64 bits, o un navegador actual con WebAssembly."
+  en: "Your own copy of The X-Files Game (1998): the original discs, a disc image (.iso, or Alcohol’s .mdf and .mds pair), or the installed game. It supports the English DVD Edition (which includes the French), the Russian 1.00, and the German 7-CD release; other CD releases are untested. Plus 64-bit Windows, macOS, or Linux, or a current browser with WebAssembly."
+tags:
+  - build-web

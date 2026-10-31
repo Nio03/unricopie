@@ -1,0 +1,19 @@
+name: "Super Kirby Clash"
+games: [super-kirby-clash]
+console: switch
+status: experimental
+repo: xtamqispeak/KirbyRecomp
+originalDeveloper: "HAL Laboratory"
+year: 2019
+toolchain: LASRecomp
+desc:
+  es: "Port nativo experimental para Windows, basado en el traductor ARM64 a C y el renderizador Vulkan de LASRecomp. El código del juego se traduce y se compila en tu equipo a partir de tus propios ExeFS y RomFS; no se distribuyen ejecutables del juego, recursos, claves, código generado ni binarios precompilados del juego. El README da el estado como alfa: se han comprobado la pantalla de título, la historia inicial, el pueblo, los menús de misiones, perfil y tienda, el primer combate con su temporizador, el control, el audio y las partidas guardadas, y los tres módulos suministrados se traducen a 79.391 funciones nativas. No se han validado los combates completos ni las fases posteriores, y los servicios en línea, las compras, el multijugador y el contenido descargable no están disponibles. La v0.3.0-alfa es del 28 de octubre; la descarga es un instalador para Windows que lleva Python portátil y las herramientas de construcción."
+  en: "An experimental native Windows port, based on LASRecomp’s ARM64-to-C translator and Vulkan renderer. The game’s code is translated and compiled on your PC from your own ExeFS and RomFS; no game executables, assets, keys, generated code or precompiled game binaries are distributed. The README gives the state as alpha: the title screen, the opening story, the village, the quest, profile and shop menus, the first battle with its real-time timer, input, audio and local saves have been checked, and the three supplied modules translate into 79,391 native functions. Full battles and later stages haven’t been validated, and online services, purchases, multiplayer and downloaded content are unavailable. v0.3.0-alpha is from October 28; the download is a Windows setup program that carries portable Python and the build tools."
+requirements:
+  es: "Tus propias carpetas ExeFS y RomFS extraídas de tu copia de Super Kirby Clash (ID de título 01003FB00C5A8000); no sirven NSP ni XCI, ni las carpetas de recursos solas. Solo se ha comprobado la compilación del módulo principal cuyo ID empieza por c9649e053bd7be2751ef0b00e7c03f5d59695b94; otras revisiones no están verificadas. Además, Windows 10 u 11 de 64 bits con tar.exe, una CPU con AVX2 y FMA y una GPU con Vulkan 1.3 (solo se ha probado una RTX 4070 SUPER)."
+  en: "Your own ExeFS and RomFS folders extracted from your copy of Super Kirby Clash (title ID 01003FB00C5A8000); NSP or XCI files don’t work, nor do the asset folders alone. Only the main module build whose ID starts with c9649e053bd7be2751ef0b00e7c03f5d59695b94 has been tested; other revisions are unverified. Plus 64-bit Windows 10 or 11 with tar.exe, an AVX2- and FMA-capable CPU, and a Vulkan 1.3 GPU (only an RTX 4070 SUPER has been verified)."
+tags:
+  - arm64
+  - action
+  - vulkan
+  - rpg

@@ -1,0 +1,18 @@
+name: "Solomon's Key 2 (OpenDana)"
+games: [solomons-key-2]
+category: fan-remake
+console: nes
+status: playable
+repo: dvilelaf/opendana
+originalDeveloper: "Tecmo"
+year: 1992
+desc:
+  es: "Reimplementación nativa y modificable de Solomon's Key 2 (Fire 'n Ice en EE. UU.), el juego de puzles de NES, escrita en C11 con un núcleo determinista sin dependencia de SDL y una capa fina de SDL2 por encima. No ejecuta código de la ROM ni emula la consola: en el primer arranque lee tu ROM europea una sola vez y extrae los datos del juego (niveles, gráficos, texto, música y sonidos) a una carpeta local. Añade un editor de niveles y un catálogo de niveles manejados con el ratón, estados de guardado, mando, un sistema de mods (paquetes de JSON y PNG con esquemas y validador) y una API de línea de órdenes para validar, jugar y dibujar niveles. La 1.0 (12 de octubre) trae Linux (tar.gz y AppImage), Windows (zip) y macOS (dmg), con archivos de auditoría; es la última de 3 versiones. 25 de sus 26 commits llevan a Claude como coautor."
+  en: "A native, moddable reimplementation of Solomon's Key 2 (Fire 'n Ice in the US), the NES puzzle game, written in C11 with a deterministic core with no SDL dependency and a thin SDL2 layer on top. It doesn’t run code from the ROM or emulate the console: on first start it reads your European ROM once and extracts the game’s data (levels, graphics, text, music, and sound effects) to a local folder. It adds a level editor and a level catalogue driven with the mouse, save states, gamepad support, a mod system (packages of JSON and PNG files with schemas and a validator), and a command-line API to validate, play, and render levels. Version 1.0 (October 12) ships Linux (tar.gz and AppImage), Windows (zip), and macOS (dmg), with audit files; it is the latest of 3 releases. 25 of its 26 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de la versión europea de Solomon's Key 2 / Fire 'n Ice (SHA-256 853646c50889dfb7a74c2acf7cf3b76f42d044745433f706dca33f47d826cd1d); cualquier otro archivo se rechaza sin cambiar nada. Linux, Windows o macOS."
+  en: "Your own ROM of the European release of Solomon's Key 2 / Fire 'n Ice (SHA-256 853646c50889dfb7a74c2acf7cf3b76f42d044745433f706dca33f47d826cd1d); any other file is refused without changing anything. Linux, Windows, or macOS."
+tags:
+  - "6502"
+  - mods
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "Panzer Dragoon Orta"
+games: [panzer-dragoon-orta]
+console: xbox
+status: fully
+repo: SeveerJ/Orta_PC_Recomp
+originalDeveloper: "Smilebit"
+year: 2002
+toolchain: xboxrecomp
+desc:
+  es: "Versión nativa para Windows de Panzer Dragoon Orta (Xbox original), hecha recompilando de forma estática el código del juego a C y ejecutándolo sobre una reimplementación para PC del núcleo, la GPU (NV2A, con Direct3D 11) y el audio de la Xbox. Se basa en el kit xboxrecomp de sp00nznet, con muchos comportamientos de la GPU comparados con xemu. El README dice que es un trabajo en curso en el que todos los episodios se pueden jugar de principio a fin. El instalador (OrtaPC_Setup, de unos 2 MB; la v0.6 Beta es del 28 de octubre) busca tu imagen del disco, descarga Python, el desensamblador capstone y el compilador llvm-mingw (unos 300 MB), traduce y compila el juego (de 20 a 30 minutos) y lo instala. La descripción del repositorio lo presenta como hecho enteramente con IA. Sus 30 commits llevan a Claude como coautor."
+  en: "A native Windows version of Panzer Dragoon Orta (original Xbox), made by statically recompiling the game’s code to C and running it on a PC reimplementation of the Xbox kernel, GPU (NV2A, on Direct3D 11), and audio. It builds on sp00nznet’s xboxrecomp toolkit, with many GPU behaviours matched against xemu. The README says it is a work in progress in which every episode is playable from start to finish. The installer (OrtaPC_Setup, about 2 MB; v0.6 Beta is from October 28) looks for your disc image, downloads Python, the capstone disassembler, and the llvm-mingw compiler (about 300 MB), translates and compiles the game (20 to 30 minutes), and installs it. The repository description presents it as made entirely with AI. All 30 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Panzer Dragoon Orta para Xbox, de Norteamérica, como imagen .iso o carpeta desempaquetada con default.xbe; el instalador comprueba que es ese juego. Windows 10 u 11 de 64 bits, una tarjeta gráfica con DirectX 11 y un mando XInput."
+  en: "Your own copy of Panzer Dragoon Orta for Xbox, North American release, as an .iso image or an unpacked folder with default.xbe; the installer checks it is that game. 64-bit Windows 10 or 11, a DirectX 11 graphics card, and an XInput controller."
+tags:
+  - x86
+  - shmup
+  - ai-assisted

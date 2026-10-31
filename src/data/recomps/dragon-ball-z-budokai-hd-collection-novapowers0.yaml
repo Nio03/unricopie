@@ -1,0 +1,19 @@
+name: "Dragon Ball Z: Budokai (HD Collection) (novapowers0)"
+games: [dragon-ball-z-budokai]
+console: x360
+status: playable
+repo: novapowers0/DBZ-Budokai-1-HD-Collection
+originalDeveloper: "Dimps"
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: "Port a PC de Dragon Ball Z: Budokai HD Collection de Xbox 360 hecho con ReXGlue: el código PowerPC se recompila de forma estática y queda en un único ejecutable con su propio lanzador y sistema de mods; no es un emulador y corre en Windows. Su autor lo rehízo desde cero y dice que usó WistfulHopes/DBZ1 solo como referencia para la API del SDK. El código recompilado se genera en tu equipo a partir de tu default.xex y no se sube al repositorio. El lanzador deja elegir región (EE. UU. o Europa PAL), idioma, vídeo y audio, y hay un menú dentro del juego (F10), una carpeta de mods y herramientas en Python para crearlos, con cambios de modelos entre juegos de la serie; dos jugadores en versus. La última versión es la 1.0.0 (11 de septiembre)."
+  en: "A PC port of Dragon Ball Z: Budokai HD Collection for Xbox 360 made with ReXGlue: the PowerPC code is statically recompiled into a single executable with its own launcher and mod system; it is not an emulator and runs on Windows. Its author rebuilt it from scratch and says WistfulHopes/DBZ1 was used only as a reference for the SDK’s API. The recompiled code is generated on your PC from your default.xex and isn’t uploaded to the repository. The launcher lets you pick region (USA or Europe PAL), language, video, and audio, and there is an in-game menu (F10), a mods folder, and Python tools to make mods, with model swaps between games in the series; two players in versus. The latest version is 1.0.0 (September 11)."
+requirements:
+  es: "Tu propia copia de Dragon Ball Z: Budokai HD Collection para Xbox 360: el default.xex y los data_*.afs de tu región (EE. UU.: data_us, data_sp, data_fr, adx_us y data_yah; Europa: data_en, data_fr, data_ge, data_it, data_sp, adx_jp y data_yah), extraídos de tu ISO. Los tamaños y sumas SHA-256 están en baserom.md. Además, Windows."
+  en: "Your own copy of Dragon Ball Z: Budokai HD Collection for Xbox 360: the default.xex and the data_*.afs files for your region (USA: data_us, data_sp, data_fr, adx_us, and data_yah; Europe: data_en, data_fr, data_ge, data_it, data_sp, adx_jp, and data_yah), extracted from your ISO. Sizes and SHA-256 sums are in baserom.md. Plus Windows."
+tags:
+  - powerpc
+  - fighting
+  - mods
+  - multiplayer

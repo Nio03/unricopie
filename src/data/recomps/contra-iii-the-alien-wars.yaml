@@ -1,0 +1,19 @@
+name: "Contra III: The Alien Wars"
+games: [contra-iii-the-alien-wars]
+console: snes
+status: playable
+repo: BrixW/Contra3Recomp
+originalDeveloper: "Konami"
+year: 1992
+desc:
+  es: "Recompilación estática de la versión estadounidense (ROM LoROM de 1 MB) con un ejecutable de escritorio para Windows y Linux: las seis bancas de código se traducen función a función a C11 (2 288 funciones), a partir de un análisis con Ghidra. El repositorio incluye ese C generado (src/bank_*.c) junto a un PPU por software con los modos 0 a 7, un núcleo de audio SPC700 y S-DSP escrito desde cero, mando, teclado, guardado rápido y un modo de segundo jugador. Según el README, se comprobó que es idéntico bit a bit a snes9x en 13 escenarios con grabaciones de entrada (las fases 1 a 6 en uno y dos jugadores y la demo) y que un bot jugó las seis fases en 36 pruebas sin saltos sin resolver ni bloqueos. Añade, como opción, la pantalla de selección de fase restaurada. No tiene versiones publicadas: se compila con tu ROM. 11 de sus 13 commits llevan a Claude como coautor."
+  en: "A static recompilation of the US version (a 1 MB LoROM image) with a desktop executable for Windows and Linux: all six code banks are translated function by function into C11 (2,288 functions), from a Ghidra analysis. The repository includes that generated C (src/bank_*.c) alongside a software PPU with modes 0 to 7, a SPC700 and S-DSP audio core written from scratch, controller and keyboard input, quick saves, and a second-player mode. According to the README, it was checked to be bit-exact against snes9x in 13 scenarios with input recordings (stages 1 to 6 in one and two players, plus the attract demo), and a bot played all six stages in 36 runs with no unresolved jumps or hangs. It optionally adds the restored stage-select screen. It has no published releases: you build it with your own ROM. 11 of its 13 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Contra III: The Alien Wars (sin cabecera, 1 048 576 bytes, SHA-256 a93ea87fc835c530b5135c5294433d15eef6dbf656144b387e89ac19cf864996), junto al ejecutable, en su carpeta superior o en una carpeta ROM contigua. Hay que compilarlo tú: CMake y un compilador C (en Windows hay un script build.ps1) o, en Linux, X11 y ALSA."
+  en: "Your own US Contra III: The Alien Wars ROM (headerless, 1,048,576 bytes, SHA-256 a93ea87fc835c530b5135c5294433d15eef6dbf656144b387e89ac19cf864996), next to the executable, in its parent folder, or in a sibling ROM folder. You build it yourself: CMake and a C compiler (a build.ps1 script on Windows) or, on Linux, X11 and ALSA."
+tags:
+  - "65816"
+  - action
+  - multiplayer
+  - static-recomp
+  - ai-assisted

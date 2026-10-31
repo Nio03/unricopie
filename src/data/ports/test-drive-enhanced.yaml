@@ -1,0 +1,19 @@
+name: "Test Drive (Enhanced)"
+games: [test-drive]
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/testdrive-enhanced
+originalDeveloper: "Distinctive Software"
+year: 1987
+desc:
+  es: "Versión mejorada de Test Drive (Accolade / Distinctive Software, 1987) en EGA, nativa para Windows con SDL3. El juego es la reimplementación fiel en C de test-drive-sdl3, así que la conducción, el tráfico y la policía funcionan como en el original; encima, la vista por el parabrisas se redibuja con una resolución cuatro veces mayor por defecto, 120 filas de carretera en lugar de 40 y 60 cuadros por segundo en lugar de 8, con un horizonte con montañas, objetos escalados con suavidad y un indicador de distancia y tiempo. Quita la protección contra copia, la contraseña del lanzador TD.EXE y los modos Hercules y CGA. La última versión, la 1.0.4 (25 de septiembre), es un zip de Windows de 64 bits de unos 2,6 MB. 15 de sus 17 commits llevan a Claude como coautor."
+  en: "An enhanced version of Test Drive (Accolade / Distinctive Software, 1987) in EGA, native on Windows with SDL3. The game is the faithful C reimplementation from test-drive-sdl3, so driving, traffic, and police work as in the original; on top of that, the view through the windscreen is redrawn at four times the resolution by default, with 120 road rows instead of 40 and 60 frames per second instead of 8, with a horizon with mountains, smoothly scaled objects, and a distance and time readout. It removes the copy protection, the TD.EXE launcher password, and the Hercules and CGA modes. The latest version, 1.0.4 (September 25), is a 64-bit Windows zip of about 2.6 MB. 15 of its 17 commits list Claude as a co-author."
+requirements:
+  es: "Tus propios archivos del Test Drive de DOS en una carpeta Game junto al programa: TDEGA.EXE, CARS.TXT, SCORES, TDSND.SND, los archivos *.PES y los de coches *.BIN y *.SS. Además, Windows y, para la resolución por defecto, una CPU de varios núcleos."
+  en: "Your own files of the DOS Test Drive in a folder named Game next to the program: TDEGA.EXE, CARS.TXT, SCORES, TDSND.SND, the *.PES archives, and the car *.BIN and *.SS files. Plus Windows and, for the default resolution, a multi-core CPU."
+tags:
+  - x86
+  - racing
+  - "60fps+"
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "WWF SmackDown! 2: Know Your Role"
+games: [wwf-smackdown-2-know-your-role]
+console: ps1
+status: playable
+repo: fabioap-cpu/WWF-SmackDown-2-Recomp
+originalDeveloper: "Yuke's"
+year: 2000
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de WWF SmackDown! 2 (EE. UU., PlayStation) hecha con PSXRecomp: el ejecutable del juego se traduce a código nativo de x64 que se ejecuta sin emulador. El proyecto no publica su código: el repositorio solo tiene el README, una captura y la referencia al submódulo, y las versiones son un zip de Windows con un ejecutable ya compilado de unos 9,7 MB (1.1, del 28 de agosto; la 1.0 es del 26 de agosto). Según el README arranca y se juega con vídeo, mando y tarjeta de memoria, con escalado de alta resolución y supermuestreo ×2 configurados en settings.toml; solo se ha probado la región de EE. UU. Es un proyecto sin código fuente, así que no se puede comprobar cómo está hecho."
+  en: "A static recompilation of WWF SmackDown! 2 (USA, PlayStation) made with PSXRecomp: the game’s executable is translated into native x64 code that runs without an emulator. The project doesn’t publish its code: the repository only has the README, a screenshot, and the submodule reference, and the releases are a Windows zip with a prebuilt executable of about 9.7 MB (1.1, from August 28; 1.0 is from August 26). According to the README it boots and plays with video, input, and memory-card saves, with high-resolution scaling and 2x supersampling set in settings.toml; only the US region has been tested. With no source published, how it is made can’t be checked."
+requirements:
+  es: "Tu propia imagen de disco (.cue y .bin) de WWF SmackDown! 2 de EE. UU., en la carpeta de la versión, con la ruta indicada en la sección [disc] de game.toml. No se incluye BIOS. Windows de 64 bits."
+  en: "Your own disc image (.cue and .bin) of the US WWF SmackDown! 2, in the release folder, with its path set in the [disc] section of game.toml. No BIOS is included. 64-bit Windows."
+tags:
+  - mips
+  - fighting
+  - closed-source

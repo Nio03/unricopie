@@ -1,0 +1,24 @@
+name: "Silent Hill (Matt122Shenk)"
+games: [silent-hill]
+category: decomp-port
+console: ps1
+status: fully
+repo: Matt122Shenk/silent-hill-pc-enhanced
+forkOf:
+  label: SlickAmogus/silent-hill-decomp
+  url: https://github.com/SlickAmogus/silent-hill-decomp
+originalDeveloper: "Konami"
+year: 1999
+desc:
+  es: "Fork no oficial del port nativo de Silent Hill para PC de SlickAmogus, construido sobre la decompilación de Silent Hill para PlayStation; no es un emulador ni una recompilación estática. Añade un Modo Hordas (supervivencia por oleadas con una tienda de recompensas entre ellas), inmersión de armas, miedo y linterna, indicadores de munición y salud, barras de vida de los enemigos, ajustes de dificultad independientes, selección de arma con la cruceta, un menú de pausa navegable, sonidos de armas y de interfaz intercambiables y más. Parte de la etiqueta crossplatform-beta del original, y las actualizaciones del lanzador están desactivadas para que no pise estos cambios. Del original hereda un README que dice que el juego se puede completar de principio a fin, con resoluciones altas, pantalla ancha, FPS sin tope y un gestor de mods. La 2026.10.23 (23 de octubre) es un zip de Windows de unos 29 MB. 93 de sus últimos 100 commits llevan a Claude como coautor, y su README declara que el desarrollo cuenta con mucha ayuda de IA."
+  en: "An unofficial fork of SlickAmogus’s native PC port of Silent Hill, built on the PlayStation decompilation of Silent Hill; it is neither an emulator nor a static recompilation. It adds a Horde Mode (wave survival with a reward shop between waves), weapon, fear, and flashlight immersion, ammo and health HUDs, enemy health bars, independent difficulty settings, D-pad weapon selection, a navigable pause menu, swappable weapon and interface sounds, and more. It starts from the original’s crossplatform-beta tag, and launcher updates are disabled so they can’t overwrite these changes. It inherits a README saying the game can be completed from start to finish, with high resolutions, widescreen, uncapped FPS, and a mod manager. Version 2026.10.23 (October 23) is a Windows zip of about 29 MB. 93 of its last 100 commits list Claude as a co-author, and its README states that development is heavily AI-assisted."
+requirements:
+  es: "Tu propia imagen de disco de Silent Hill para PlayStation en formato .bin, en la carpeta gamedata (el README sugiere «Silent Hill (USA).bin»; para compilar desde las fuentes pide la estadounidense, SLUS-00707). El lanzador detecta la región y admite los discos estadounidense, PAL (inglés, francés, alemán, italiano y español) y NTSC-J. Windows es el destino principal; las versiones de Linux y macOS están en desarrollo y en Linux se recomienda usar wine."
+  en: "Your own Silent Hill PlayStation disc image in .bin format, in the gamedata folder (the README suggests “Silent Hill (USA).bin”; building from source asks for the US one, SLUS-00707). The launcher detects the region and supports US, PAL (English, French, German, Italian, and Spanish), and NTSC-J discs. Windows is the main target; the Linux and macOS builds are work in progress and on Linux wine is recommended."
+tags:
+  - mips
+  - horror
+  - widescreen
+  - "60fps+"
+  - mods
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "inFAMOUS Second Son (Liondarkz)"
+games: [infamous-second-son]
+category: native-layer
+console: ps4
+status: playable
+repo: Liondarkz/issn_pc
+originalDeveloper: "Sucker Punch Productions"
+year: 2014
+desc:
+  es: "Port nativo para Windows de la versión de PS4: el código x86-64 original corre directamente en el procesador, el sistema de la consola está reimplementado y la GPU se traduce a Vulkan con un núcleo gráfico derivado de shadPS4. Parte del trabajo de axylpup y de otros ports del mismo juego (HayatoG) y de la base de gow3_pc de Felipe Prado. El README dice que las versiones de prueba se pueden jugar, pero que hay fallos, y que la primera vez se preparan los shaders (unos minutos). Ofrece FSR 4 (Radeon RX 7000 o posterior), XeSS y DLSS (los archivos de NVIDIA no se incluyen), resolución interna ajustable, límite de fotogramas, ratón 1:1, teclado, DualShock 4 y DualSense con panel táctil y sensor de movimiento, importación de partidas del port de HayatoG y un launcher con «Añadir a Steam». Rinde unos 100 fps en una ciudad parada con un Ryzen 7 3700X y una RX 9060 XT. La última versión de prueba es la 0.3.6.3 (31 de octubre); algunas anteriores traían también un AppImage de Linux. 98 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows port of the PS4 version: the original x86-64 code runs directly on the CPU, the console’s system is reimplemented, and the GPU is translated to Vulkan with a shadPS4-derived graphics core. It builds on axylpup’s work, on another port of the same game (HayatoG’s), and on Felipe Prado’s gow3_pc base. The README says the test builds are playable but expect bugs, and that shaders are prepared on the first start (a few minutes). It offers FSR 4 (Radeon RX 7000 or newer), XeSS, and DLSS (NVIDIA’s files aren’t included), adjustable internal resolution, a frame rate limit, 1:1 mouse aim, keyboard, DualShock 4 and DualSense with touchpad and motion sensor, saves imported from HayatoG’s port, and a launcher with Add to Steam. It runs at about 100 fps standing in the city on a Ryzen 7 3700X with an RX 9060 XT. The latest test build is 0.3.6.3 (October 31); some earlier ones also shipped a Linux AppImage. 98 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de inFAMOUS Second Son para PS4, de la edición estadounidense (CUSA00223) o europea (CUSA00004), con la actualización 01.07; las instrucciones del repositorio explican cómo volcarlo de tu propia consola. Además, Windows 10 (1903 o posterior) u 11 de 64 bits, una tarjeta gráfica con Vulkan 1.3 y un procesador con AVX y F16C; el README estima como mínimo 12 GB de RAM y 6 GB de memoria de vídeo."
+  en: "Your own dump of inFAMOUS Second Son for PS4, from the US (CUSA00223) or European (CUSA00004) edition, with update 01.07; the repository’s instructions explain how to dump it from your own console. Plus 64-bit Windows 10 (1903 or later) or 11, a Vulkan 1.3 graphics card, and a CPU with AVX and F16C; the README estimates a minimum of 12 GB of RAM and 6 GB of video memory."
+tags:
+  - x86
+  - vulkan
+  - action
+  - ai-assisted

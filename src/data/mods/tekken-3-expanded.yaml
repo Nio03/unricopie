@@ -1,0 +1,20 @@
+name: "Tekken 3 Expanded"
+games: [tekken-3]
+kind: mod
+console: ps1
+game:
+  es: "Tekken 3"
+  en: "Tekken 3"
+base: recomps/tekken-3-fishb0nes98
+status: usable
+repo: omarma/tekken3-expanded
+desc:
+  es: "Añade a Tekken 3 los 18 personajes que Tekken Tag Tournament sumó a la plantilla, jugables en todos los modos y como rivales de la CPU, sobre Tekken3Recompiled, la recompilación de FishB0nes98. La pantalla de selección tiene una página «Tag» (L2 / R2), cada luchador puede usar sus movimientos de Tekken 3 o de Tag Tournament, hay 88 combos de práctica, jefes propios de Tekken Force para cada invitado, Devil, Angel y Unknown como subjefes ocultos y el Embu de Tag Tournament; con tus ROM de arcade se importan además los escenarios y la música de ambos juegos. Todo está desbloqueado desde el principio. Hay compilación nativa para Windows, macOS y Linux (experimental) y un APK de Android que se construye en tu equipo. La 1.4.1 (29 de octubre) es la última versión. Según su README, no incluye archivos del juego: el instalador lo construye todo a partir de los tuyos."
+  en: "Adds to Tekken 3 the 18 characters Tekken Tag Tournament added to the roster, playable in every mode and fought by the CPU, on top of Tekken3Recompiled, FishB0nes98’s recompilation. The select screen has a “Tag” page (L2 / R2), each fighter can use their Tekken 3 or Tag Tournament moveset, there are 88 practice combos, Tekken Force bosses of their own for every guest, Devil, Angel, and Unknown as hidden sub-bosses, and Tag Tournament’s Embu; with your arcade ROMs the stages and music of both games are imported as well. Everything is unlocked from the start. There is a native build for Windows, macOS, and Linux (experimental) and an Android APK built on your computer. Version 1.4.1 (October 29) is the latest. According to its README it includes no game files: the setup builds everything from yours."
+requirements:
+  es: "Tu propia imagen del disco de Tekken 3 de PlayStation (pista 1 .bin de 632.532.768 bytes, SHA-1 68f32a8657376cb4d4504c160fd5e8ae4a4f18d6) y la ROM de arcade tektagt.zip de Tekken Tag Tournament (conjunto de MAME sin fusionar; admite las versiones World, EE. UU. y Japón indicadas en el README). Opcionales: tekken3.zip de arcade (TET2 VER.E1) y el disco de Tekken Tag Tournament de PS2 (EE. UU.). Windows 10 u 11 con Python 3.13 (de 3.10 a 3.15), macOS en Intel o Apple Silicon, o Linux (experimental); el instalador descarga su propio compilador."
+  en: "Your own Tekken 3 PlayStation disc image (track 1 .bin of 632,532,768 bytes, SHA-1 68f32a8657376cb4d4504c160fd5e8ae4a4f18d6) and the Tekken Tag Tournament arcade ROM tektagt.zip (a non-merged MAME set; the World, US, and Japan versions listed in the README work). Optional: the arcade tekken3.zip (TET2 VER.E1) and the Tekken Tag Tournament PS2 disc (USA). Windows 10 or 11 with Python 3.13 (3.10 to 3.15), macOS on Intel or Apple Silicon, or Linux (experimental); the setup downloads its own compiler."
+tags:
+  - mods
+  - fighting
+  - build-android

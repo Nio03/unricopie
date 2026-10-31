@@ -1,0 +1,18 @@
+name: "Star Ocean: Integrity and Faithlessness"
+games: [star-ocean-integrity-and-faithlessness]
+category: native-layer
+console: ps4
+status: playable
+repo: HekamiAeon/Star-Ocean-Integrity-and-Faithlessness-PS4RT
+originalDeveloper: "tri-Ace"
+year: 2016
+desc:
+  es: "Port no oficial para Linux de la versión de PS4, con un entorno de ejecución propio del juego, PS4RT: el código x86-64 original corre directamente en el procesador, el entorno ofrece versiones de compatibilidad de los servicios de la PS4 que necesita y un renderizador Vulkan derivado de shadPS4 traduce las órdenes de la GPU; el README aclara que no es un emulador de PS4 general. Lo da por experimental y jugable: se han comprobado la introducción, las escenas, los menús, el audio, el mando, la exploración de la ciudad, los combates y el guardado y la carga hasta el capítulo 4, sin que se haya verificado una partida completa. Ofrece 1080p, 1440p y 4K con FSR 3.1, FSR 4 v07 opcional, nitidez y filtrado anisotrópico, con un menú gráfico dentro del juego. Se probó en Fedora Linux x86-64 con GPU de NVIDIA y de AMD; no hay versión para Windows ni para ARM64. La 1.2 (29 de octubre) es la última de 3 versiones y trae un tar.gz de unos 37 MB con las bibliotecas necesarias, además del código fuente."
+  en: "An unofficial Linux port of the PS4 version, with a game-specific runtime, PS4RT: the original x86-64 code runs directly on the CPU, the runtime supplies compatibility implementations of the PS4 services the game needs, and a Vulkan renderer derived from shadPS4 translates the GPU commands; the README states it is not a general-purpose PS4 emulator. It calls itself experimental and playable: the introduction, cutscenes, menus, audio, controller input, town exploration, battles, and save/load have been verified through Chapter 4, with no verified full playthrough. It offers 1080p, 1440p, and 4K with FSR 3.1, optional FSR 4 v07, sharpening, and anisotropic filtering, with an in-game graphics menu. It was tested on Fedora Linux x86-64 with NVIDIA and AMD GPUs; there is no Windows or ARM64 version. Version 1.2 (October 29) is the latest of 3 releases and ships a roughly 37 MB tar.gz with the needed libraries, plus the source."
+requirements:
+  es: "Tu propia carpeta CUSA03219 de PS4, extraída y sin cifrar (con sce_sys/param.sfo, eboot.bin, sce_module/ y los datos del juego); hay que señalar la carpeta misma, no el PKG ni el eboot.bin. Además, Linux x86-64 con glibc 2.35 o posterior, Python 3 y un controlador de Vulkan en funcionamiento; las demás bibliotecas (FFmpeg 8, SDL3) vienen incluidas."
+  en: "Your own PS4 CUSA03219 folder, extracted and plaintext (with sce_sys/param.sfo, eboot.bin, sce_module/, and the game’s data); you point to the folder itself, not the PKG or eboot.bin. Plus x86-64 Linux with glibc 2.35 or later, Python 3, and a working Vulkan driver; the other libraries (FFmpeg 8, SDL3) are included."
+tags:
+  - x86
+  - vulkan
+  - rpg

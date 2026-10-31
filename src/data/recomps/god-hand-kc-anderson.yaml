@@ -1,0 +1,25 @@
+name: "God Hand (kc-anderson)"
+games: [god-hand]
+console: ps2
+status: playable
+repo: kc-anderson/kamite
+forkOf:
+  label: LasVola/godhand-recomp
+  url: https://github.com/LasVola/godhand-recomp
+originalDeveloper: "Clover Studio"
+year: 2006
+toolchain: PS2Recomp
+desc:
+  es: "Kamite: port nativo no oficial de God Hand (PS2) para Windows por recompilación estática, bifurcado de LasVola/godhand-recomp con 235 commits propios. El código del juego se reconstruye como programa de Windows y el hardware de PS2 se reimplementa en runtime/, con el renderizador por hardware de PCSX2 (Direct3D 11) de 1x a 8x la resolución. Su README avisa de que está en construcción: se juega desde el inicio hasta la fase 3, y las fases posteriores, el final y los extras no se han probado. Añade un modo de 60 fps, cualquier relación de aspecto (16:9, 21:9, 32:9) con el HUD en los bordes o donde lo tenía la PS2, opciones de cámara, paquetes de texturas HD en formato PCSX2, un lanzador que instala el juego y comprueba tu disco, mejoras de comodidad (carrera con L3, desplazamiento con la cruceta en el God Reel, dificultad Hard desbloqueada), indicaciones de botones según tu mando y un sistema de personajes que cambia el modelo del jugador, con un mod de ejemplo de Xavier, de Xavier: Renegade Angel (propiedad de Adult Swim). No publica versiones. 91 de sus últimos 100 commits llevan a Claude como coautor, y su README dice que se hizo con ayuda de IA."
+  en: "Kamite: an unofficial native Windows port of God Hand (PS2) by static recompilation, forked from LasVola/godhand-recomp with 235 commits of its own. The game’s code is rebuilt as a Windows program and the PS2 hardware is reimplemented in runtime/, with PCSX2’s hardware renderer (Direct3D 11) at 1x to 8x resolution. Its README warns it is under construction: it plays from the start into stage 3, and the later stages, the ending, and the extras haven’t been tried. It adds a 60 FPS mode, any aspect ratio (16:9, 21:9, 32:9) with the HUD at the screen edges or where the PS2 had it, camera options, HD texture packs in PCSX2 format, a launcher that installs the game and checks your disc, quality-of-life changes (L3 dash, d-pad scrolling in the God Reel, Hard unlocked), button prompts that follow your controller, and a character system that swaps the player model, with an example mod of Xavier, from Xavier: Renegade Angel (owned by Adult Swim). It publishes no releases. 91 of its last 100 commits list Claude as a co-author, and its README says it was built with AI assistance."
+requirements:
+  es: "Tu propia imagen de disco de God Hand, versión estadounidense, SLUS-21503 (las sumas de comprobación están en DISC_HASHES.md). Windows 10 u 11; las instrucciones para compilar están en docs/BUILDING.md."
+  en: "Your own disc image of God Hand, US version, SLUS-21503 (the checksums are in DISC_HASHES.md). Windows 10 or 11; build instructions are in docs/BUILDING.md."
+tags:
+  - emotion-engine
+  - action
+  - "60fps+"
+  - widescreen
+  - hd-assets
+  - mods
+  - ai-assisted

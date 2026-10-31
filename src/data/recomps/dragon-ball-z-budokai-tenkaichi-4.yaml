@@ -1,0 +1,22 @@
+name: "Dragon Ball Z: Budokai Tenkaichi 4 (BT3 mod)"
+games: [dragon-ball-z-budokai-tenkaichi-3]
+console: ps2
+status: playable
+repo: recomp-code/dbz-bt4-recomp
+originalDeveloper: "Spike"
+year: 2007
+toolchain: PS2Recomp
+desc:
+  es: "Recompilación estática con PS2Recomp de Dragon Ball Z: Budokai Tenkaichi 4, el mod de aficionados del Team BT4 sobre Budokai Tenkaichi 3 (disco SLUS-219.78, «Beta 14 Rev2»), para ejecutarlo de forma nativa en Windows, Mac y Android, con juego en línea. Otras versiones del mod no sirven, porque el juego se recompiló para esta. Usa su propio renderizador nativo (Vulkan), con DLSS o FSR 2 en Windows y MetalFX en Mac, peleas a 60 fps, generación de fotogramas en Windows hasta 120, y un lanzador con cuentas, amigos, invitaciones y salas de 2 a 4 jugadores con chat y estadísticas, con partidas sincronizadas fotograma a fotograma y compatibles entre Windows y Mac. Desbloquea todo desde el principio (opción activada). El repositorio no tiene datos ni código del juego, que se genera a partir de tu ELF al compilar, pero las releases son compilaciones ya hechas (zips de Windows de unos 87 MB y de Mac de unos 34 MB, y un APK de unos 43 MB) que llevan el código del juego recompilado. Las últimas son la 2.5.6 de Windows y Mac (25 de octubre) y la 3.4.6 de Android (27 de octubre). 93 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation with PS2Recomp of Dragon Ball Z: Budokai Tenkaichi 4, Team BT4’s fan mod of Budokai Tenkaichi 3 (disc SLUS-219.78, “Beta 14 Rev2”), to run natively on Windows, Mac, and Android, with online play. Other versions of the mod don’t work, because the game was recompiled for this one. It uses its own native renderer (Vulkan), with DLSS or FSR 2 on Windows and MetalFX on Mac, 60 fps fights, frame generation on Windows up to 120, and a launcher with accounts, friends, invitations, and rooms of 2 to 4 players with chat and statistics, with lockstep matches that work between Windows and Mac. It unlocks everything from the start (an option, on by default). The repository holds no game data and no game code, which is generated from your ELF when building, but the releases are prebuilt (Windows zips of about 87 MB and Mac zips of about 34 MB, and an APK of about 43 MB) that carry the recompiled game code. The latest are 2.5.6 for Windows and Mac (October 25) and 3.4.6 for Android (October 27). 93 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen del mod de Team BT4 (SLUS-219.78, Beta 14 Rev2), que se consigue en la página de descargas del equipo; la recompilación solo funciona con esa versión. Windows 10 u 11 de 64 bits con una GPU con Vulkan, Mac con Apple Silicon y macOS 14 o posterior, o Android 12 o posterior (arm64, controlador Vulkan de 2022 o posterior)."
+  en: "Your own image of Team BT4’s mod (SLUS-219.78, Beta 14 Rev2), which you get from the team’s download page; the recompilation only works with that version. 64-bit Windows 10 or 11 with a Vulkan GPU, a Mac with Apple Silicon and macOS 14 or later, or Android 12 or later (arm64, a 2022 or newer Vulkan driver)."
+tags:
+  - emotion-engine
+  - fighting
+  - mods
+  - online
+  - "60fps+"
+  - build-android
+  - ai-assisted

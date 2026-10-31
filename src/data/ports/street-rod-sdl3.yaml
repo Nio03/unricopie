@@ -1,0 +1,18 @@
+name: "Street Rod (SDL3)"
+games: [street-rod]
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/street-rod-sdl3
+originalDeveloper: "P.Z.Karen Co. Development Group"
+year: 1989
+desc:
+  es: "Reimplementación fiel en C de Street Rod, de California Dreams y Logical Design Works, que corre de forma nativa con SDL3 en Windows. No es un emulador: el programa original se estudió, se documentó y se reescribió en C, y el port lee los archivos del juego original en tiempo de ejecución. Según el README está portada toda la versión VGA (320×200, 16 colores) con altavoz de PC: título, carnet de conducir, periódico, coches usados y piezas, regateo y ventas, garaje, gasolinera, el Bob’s Drive-In con rivales, apuestas y carreras de aceleración y de carretera, policía, averías, calendario del verano de 1963, partidas guardadas, salón de la fama y final. Es una primera versión; los gráficos CGA, EGA, Tandy y Hercules no están portados. Trae un lanzador con elección de coches (los 25 de la ampliación Street Rod SE o los originales), demo y ventana. La 0.1.0 (26 de septiembre) es un zip de unos 11 MB. Todos sus 16 commits llevan a Claude como coautor."
+  en: "A faithful C reimplementation of Street Rod, by California Dreams and Logical Design Works, running natively on Windows with SDL3. It is not an emulator: the original program was reverse-engineered, documented, and rewritten in C, and the port reads the original game’s files at run time. According to the README the whole VGA version (320×200, 16 colors) with PC speaker is ported: the title, driver’s licence, newspaper, used cars and parts, haggling and selling, garage, gas station, Bob’s Drive-In with opponents, bets, and drag and road races, police, breakdowns, the calendar of the summer of 1963, saved games, hall of fame, and the ending. It is a first release; CGA, EGA, Tandy, and Hercules graphics are not ported. It comes with a launcher with car selection (the 25 cars of the Street Rod SE data disk or the originals), demo mode, and window options. Version 0.1.0 (September 26) is a zip of about 11 MB. All 16 of its commits list Claude as a co-author."
+requirements:
+  es: "Los archivos de tu copia del Street Rod original de DOS (SR.EXE, LIB1, LIB2 y HOT_DATA) en una carpeta Game y, para los coches de la ampliación, Street Rod SE (SRSE.EXE con sus LIB1, LIB2 y HOT_DATA) en Game\\datadisk. El README señala que el juego es gratuito, de su propietario del copyright, en streetrodonline.com. La carpeta debe poder escribirse. Windows."
+  en: "The files of your copy of the original DOS Street Rod (SR.EXE, LIB1, LIB2, and HOT_DATA) in a Game folder and, for the expansion cars, Street Rod SE (SRSE.EXE with its LIB1, LIB2, and HOT_DATA) in Game\\datadisk. The README notes the game is free from its copyright owner at streetrodonline.com. The folder must be writable. Windows."
+tags:
+  - x86
+  - racing
+  - ai-assisted

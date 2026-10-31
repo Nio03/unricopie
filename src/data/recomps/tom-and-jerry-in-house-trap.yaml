@@ -1,0 +1,20 @@
+name: "Tom and Jerry in House Trap"
+games: [tom-and-jerry-in-house-trap]
+console: ps1
+status: playable
+repo: IraFunesto/TomJerryRecomp
+originalDeveloper: "Warthog Games"
+year: 2000
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Tom and Jerry in House Trap (PlayStation, edición PAL SLES-03181) sobre psxrecomp y recomp-ui: el juego corre como código nativo en el PC, compilado a partir de tu propio disco. Un asistente «Generate & rebuild» del lanzador recompila y compila en tu equipo; el zip no trae datos del juego ni la BIOS de Sony, y se usa OpenBIOS salvo que aportes la tuya. Incluye un paquete de mods de pantalla panorámica (16:9, 21:9 o 32:9, con campo de vista ampliado y HUD anclado a las esquinas), tamaño de HUD, 30 cuadros por segundo con temporización NTSC, VSync para pantallas de alta frecuencia y arreglos como el de los textos en italiano, además de pantalla dividida y juego en red para dos. La 0.2.4 (4 de octubre) es la última de siete versiones publicadas ese día. 13 de sus 14 commits llevan a Claude como coautor."
+  en: "A static recompilation of Tom and Jerry in House Trap (PlayStation, PAL edition SLES-03181) on psxrecomp and recomp-ui: the game runs as native code on the PC, compiled from your own disc. A Generate & rebuild wizard in the launcher recompiles and builds on your machine; the zip contains no game data and no Sony BIOS, and OpenBIOS is used unless you provide your own. It includes a widescreen mod package (16:9, 21:9, or 32:9, with a widened field of view and the HUD anchored to the corners), HUD size, 30 frames per second with NTSC timing, VSync for high-refresh displays, and fixes such as the Italian text one, plus split screen and netplay for two. Version 0.2.4 (October 4) is the latest of seven releases published that day. 13 of its 14 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco (.cue y .bin) de Tom and Jerry in House Trap, edición PAL (SLES-03181), que se elige en el asistente del lanzador. Además, Windows de 64 bits y Python 3."
+  en: "Your own disc image (.cue and .bin) of Tom and Jerry in House Trap, PAL edition (SLES-03181), selected in the launcher’s wizard. Plus 64-bit Windows and Python 3."
+tags:
+  - mips
+  - widescreen
+  - multiplayer
+  - netplay
+  - ai-assisted

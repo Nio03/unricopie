@@ -1,0 +1,17 @@
+name: "3 on 3 NHL Arcade (Wndwsqrrl)"
+games: [3-on-3-nhl-arcade]
+console: x360
+status: playable
+repo: Wndwsqrrl/3on3NHL-recomp
+originalDeveloper: "EA Canada"
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Port nativo a PC de 3 on 3 NHL Arcade (Xbox 360, Xbox Live Arcade, 2009), hecho recompilando de forma estática el ejecutable PowerPC a C++ con ReXGlue; no usa un emulador al ejecutarse. Según el README funcionan los menús, los vídeos de introducción y los partidos completos, con mandos de Xbox y PlayStation, un lanzador que prepara el juego a partir de tu paquete y 10 de los 12 logros (los otros 2 requieren juego en línea). El juego en línea y los mods (plantillas actualizadas, retratos y logotipos) figuran como planeados, y subir la resolución interna rompe texto y algunas texturas. El repositorio tiene también código para una versión de Android, que según su README arranca y dibuja títulos y menús pero tiene la entrada sin terminar. La última versión es la 0.1.1 (6 de octubre), un zip de Windows de unos 92 MB. Sus 28 commits no llevan a Claude como coautor."
+  en: "A native PC port of 3 on 3 NHL Arcade (Xbox 360, Xbox Live Arcade, 2009), made by statically recompiling the PowerPC executable to C++ with ReXGlue; it uses no emulator at runtime. According to the README the menus, intro movies, and full matches work, with Xbox and PlayStation controllers, a launcher that sets the game up from your package, and 10 of the 12 achievements (the other 2 need online play). Online play and mods (updated rosters, portraits, and logos) are listed as planned, and raising the internal resolution breaks text and some textures. The repository also has code for an Android version, which according to its README boots and renders the title screen and menus but has input unfinished. The latest version is 0.1.1 (October 6), a Windows zip of about 92 MB. None of its 28 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propio paquete de Xbox Live Arcade de 3 on 3 NHL Arcade para Xbox 360 (ID de título 58410975): el archivo dentro de 58410975\\000D0000 o la carpeta 58410975 entera. Windows 10 u 11 de 64 bits, CPU x86-64 con SSE4.2, tarjeta gráfica con Direct3D 12, 4 GB de RAM y unos 350 MB de disco."
+  en: "Your own Xbox Live Arcade package of 3 on 3 NHL Arcade for Xbox 360 (title ID 58410975): the file inside 58410975\\000D0000 or the whole 58410975 folder. 64-bit Windows 10 or 11, an x86-64 CPU with SSE4.2, a graphics card with Direct3D 12, 4 GB of RAM, and about 350 MB of disk."
+tags:
+  - powerpc
+  - sports

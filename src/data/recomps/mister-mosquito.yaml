@@ -1,0 +1,19 @@
+name: "Mister Mosquito"
+games: [mister-mosquito]
+console: ps2
+status: experimental
+repo: danielgomesvieira2000/mister-mosquito-pc
+originalDeveloper: "Zoom"
+year: 2001
+toolchain: ps2-port-engine
+desc:
+  es: "Port nativo para Windows de Mister Mosquito (PS2, versión estadounidense NTSC-U, SLUS-20375), en desarrollo: el programa del juego se traduce a C++ y se compila para PC, sin emulador, con ps2-port-engine, la herramienta del mismo autor que está detrás del port de Burnout 3: Takedown. Según su README, arranca, muestra el título, los menús y la primera fase con sonido, con renderizador Vulkan de hasta 4x la resolución de la PS2, pantalla ancha con el HUD en su sitio (F10 lo edita), «PC SETTINGS» y «EXIT GAME» en el menú principal, un panel de ajustes del motor (F9) y un contador de FPS (F1). Los hallazgos y los problemas abiertos están en docs/FINDINGS.md. El código C++ del juego se genera en tu equipo y nunca se sube al repositorio. Todavía no tiene versiones. Declara que se hizo con IA (Claude Code), y los 34 commits del repositorio llevan a Claude como coautor."
+  en: "A native Windows port of Mister Mosquito (PS2, US NTSC-U version, SLUS-20375), in development: the game’s program is translated to C++ and compiled for PC, with no emulator, with ps2-port-engine, the same author’s tool behind the Burnout 3: Takedown port. According to its README, it boots and plays the title, the menus, and the first stage with sound, with a Vulkan renderer at up to 4x the PS2’s resolution, widescreen with the HUD kept in place (F10 edits it), “PC SETTINGS” and “EXIT GAME” in the main menu, an engine settings panel (F9), and an FPS counter (F1). Its findings and open problems are in docs/FINDINGS.md. The game’s C++ code is generated on your PC and never committed to the repository. It has no releases yet. It states it was made with AI (Claude Code), and all 34 commits of the repository list Claude as a co-author."
+requirements:
+  es: "Una imagen de disco BIN/CUE de tu propia copia de Mister Mosquito para PS2, NTSC-U, SLUS-20375, llamada «Mister Mosquito (USA).cue» en la raíz del repositorio. Windows con Visual Studio 2022 (C++, CMake y Ninja) y Python 3.10 o posterior."
+  en: "A BIN/CUE disc image of your own copy of Mister Mosquito for PS2, NTSC-U, SLUS-20375, named “Mister Mosquito (USA).cue” in the repository’s root. Windows with Visual Studio 2022 (C++, CMake, and Ninja) and Python 3.10 or later."
+tags:
+  - emotion-engine
+  - vulkan
+  - widescreen
+  - ai-assisted

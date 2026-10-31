@@ -1,0 +1,18 @@
+name: "Ben 10 Ultimate Alien: Cosmic Destruction"
+games: [ben-10-ultimate-alien-cosmic-destruction]
+console: x360
+status: experimental
+repo: ExtremestoneGG/Cosmic-Recompi
+originalDeveloper: "Papaya Studio"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Port nativo experimental para Windows 10 y 11 x64 de la versión de Xbox 360, con ReXGlue v0.10.0 y Direct3D 12. El README avisa de que es software alfa y de que el parpadeo de cámara y escenario por encima de 30 cuadros por segundo sigue presente. Un ejecutable portátil pide tu ISO y la prepara; trae un lanzador con Jugar, Ajustes y Salir, menús de vídeo dentro del propio juego (resolución de salida, límites de 30, 60 o sin límite, modo de pantalla, contador de FPS), importación de traducciones de texto del usuario y copias de partidas. Añade como funciones propias «All Aliens» y «Hero Time», ambas apagadas por defecto. La importación usa un entorno de ejecución ya compilado y no compila C++ en tu equipo. La última de 14 versiones, la v0.4.0-alfa.4-gpu-test.5, es del 30 de octubre; cada versión trae también un zip con el código fuente correspondiente."
+  en: "An experimental native port for 64-bit Windows 10 and 11 of the Xbox 360 version, with ReXGlue v0.10.0 and Direct3D 12. The README warns it is alpha software and that camera and scenery flicker above 30 fps is still present. A portable executable asks for your ISO and prepares it; it has a launcher with Play, Settings and Quit, video menus inside the game itself (output resolution, 30, 60 or unlimited frame limits, display mode, FPS counter), import of user text translations, and save backups. It adds “All Aliens” and “Hero Time” as its own features, both off by default. Import uses a precompiled runtime and doesn’t compile C++ on your PC. The latest of 14 releases, v0.4.0-alpha.4-gpu-test.5, is from October 30; each release also carries a zip with the corresponding source."
+requirements:
+  es: "Tu propia copia de Ben 10 Ultimate Alien: Cosmic Destruction para Xbox 360, como imagen ISO de una versión compatible; el programa la valida antes de preparar el juego. Windows 10 u 11 de 64 bits con Direct3D 12; la resolución nativa mínima es 1280x720."
+  en: "Your own copy of Ben 10 Ultimate Alien: Cosmic Destruction for Xbox 360, as an ISO image of a supported version; the program validates it before preparing the game. 64-bit Windows 10 or 11 with Direct3D 12; the native 1280x720 resolution is the minimum."
+tags:
+  - powerpc
+  - action
+  - platformer

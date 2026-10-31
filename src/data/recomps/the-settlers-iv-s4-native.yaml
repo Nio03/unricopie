@@ -1,0 +1,17 @@
+name: "The Settlers IV / The Settlers III (s4-native)"
+games: [the-settlers-iv, the-settlers-iii]
+console: pc
+status: playable
+repo: rengare/s4-native
+originalDeveloper: "Blue Byte"
+year: 2001
+desc:
+  es: "Port nativo en Rust de The Settlers IV Gold y The Settlers III Ultimate Collection (ediciones de GOG) para Linux, sin Wine; en macOS con Apple Silicon compila y arranca, pero es experimental. Un «lifter» propio traduce instrucción por instrucción cada función del ejecutable y las DLL del juego a Rust, en tu equipo a partir de tu copia, y el código traducido no se publica en el repositorio. Según el README, The Settlers IV tiene menús, campañas y mapas de un jugador, partidas guardadas, vídeos de la intro, música y efectos y LAN, y se comparó con el original bajo Wine; The Settlers III tiene menús, escenarios, la intro, música, efectos y LAN. Aún faltan pruebas de sesiones largas, la tipografía original (usa Liberation Sans en lugar de Arial) y otras plataformas. No tiene versiones publicadas. Su único commit lleva a Claude como coautor."
+  en: "A native Rust port of The Settlers IV Gold and The Settlers III Ultimate Collection (GOG editions) for Linux, without Wine; on macOS with Apple Silicon it builds and runs, but it is experimental. Its own lifter translates every function of the game’s executable and DLLs into Rust, instruction by instruction, on your machine from your copy, and the translated code is not published in the repository. According to the README, The Settlers IV has menus, campaigns and single-player maps, saved games, intro videos, music and effects, and LAN, and was compared against the original under Wine; The Settlers III has menus, scenarios, the intro, music, effects, and LAN. Long-session testing, the original font (it uses Liberation Sans instead of Arial), and other platforms are still missing. It has no published releases. Its only commit lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de The Settlers IV Gold de GOG (versión 2.50.1516, la carpeta que contiene S4.exe y Exe/, o el instalador de GOG, que se extrae con innoextract) y, para The Settlers III, de The Settlers III Ultimate Collection de GOG (versión 1.60, la carpeta con S3.EXE). Además, Linux, Rust, la biblioteca SDL3 y unos 1 GB de memoria por trabajo de compilación en paralelo."
+  en: "Your own copy of The Settlers IV Gold from GOG (version 2.50.1516, the folder that contains S4.exe and Exe/, or the GOG installer, which is unpacked with innoextract) and, for The Settlers III, of The Settlers III Ultimate Collection from GOG (version 1.60, the folder with S3.EXE). Plus Linux, Rust, the SDL3 library, and about 1 GB of memory per parallel build job."
+tags:
+  - x86
+  - rts
+  - ai-assisted

@@ -1,0 +1,20 @@
+name: "Super Mario Bros. 35"
+games: [super-mario-bros-35]
+console: switch
+status: playable
+repo: sm35recomp/sm35recomp
+originalDeveloper: "Arika"
+year: 2020
+desc:
+  es: "Convierte tu propio volcado de Super Mario Bros. 35 en un programa nativo para macOS, Windows y Linux (iOS, iPadOS y Android desde el código fuente): el código del juego se traduce a C y se compila para tu equipo, las llamadas al sistema corren en un entorno de ejecución propio y los gráficos usan Metal o Vulkan. No es un emulador. Es una bifurcación de SMM2 Recomp, con el que comparte entorno y recompilador. El servicio en línea lo da Nextendo Network, un servidor de la comunidad: están implementados el inicio de sesión, el emparejamiento de la batalla de 35 jugadores, el relé de la partida y los resultados, y funcionan la práctica de cursos, la batalla especial y los desafíos diarios. Los autores probaron partidas de dos jugadores hasta la clasificación final en un Mac y un iPad; Windows y Linux se construyen, pero no se han probado en equipos reales. La v0.4.0 es del 21 de octubre. Sus 63 commits llevan todos a Claude como coautor."
+  en: "Turns your own dump of Super Mario Bros. 35 into a native program for macOS, Windows and Linux (iOS, iPadOS and Android from source): the game’s code is translated to C and compiled for your machine, its system calls run on a native runtime, and its graphics run on Metal or Vulkan. It isn’t an emulator. It is a fork of SMM2 Recomp, which shares its runtime and recompiler. The online service comes from Nextendo Network, a community server: sign-in, 35-Player Battle matchmaking, the battle relay and the results are implemented, and Course Practice, Special Battle and Daily Challenges work. The authors tested two-player matches through to the final ranking on a Mac and an iPad; Windows and Linux build but haven’t been tried on real hardware. v0.4.0 is from October 21. All 63 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Super Mario Bros. 35 con la actualización 1.0.2 (los archivos NSP o XCI, o las carpetas ExeFS y RomFS extraídas), además del prod.keys y el firmware de tu consola, que solo se leen y nunca se copian. Se necesita una cuenta gratuita en Nextendo Network, con el Discord vinculado, incluso para la práctica de cursos. macOS 15 o posterior con Apple silicon (Metal), o Windows 10/11 x86-64 con AVX2 o Linux con Vulkan 1.3."
+  en: "Your own copy of Super Mario Bros. 35 with the 1.0.2 update (the NSP or XCI files, or the extracted ExeFS and RomFS folders), plus the prod.keys and firmware from your console, which are only read and never copied. A free Nextendo Network account with a linked Discord is needed, even for Course Practice. macOS 15 or newer on Apple silicon (Metal), or Windows 10/11 x86-64 with AVX2, or Linux with Vulkan 1.3."
+tags:
+  - arm64
+  - platformer
+  - multiplayer
+  - online
+  - mario
+  - ai-assisted

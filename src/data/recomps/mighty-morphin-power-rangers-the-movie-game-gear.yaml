@@ -1,0 +1,17 @@
+name: "Mighty Morphin Power Rangers: The Movie (Game Gear)"
+games: [mighty-morphin-power-rangers-the-movie-game-gear]
+console: gamegear
+status: fully
+repo: cultofblue/mmpr-movie-gg2pc
+originalDeveloper: "SIMS"
+year: 1995
+desc:
+  es: "Port nativo para Windows de la versión de Game Gear, hecho por recompilación estática: el código Z80 del juego se traduce a C y se compila para x64, con un pequeño runtime que recrea el chip de vídeo, el de sonido, los controles y el mapeador de bancos de la consola. Según su README todo el juego corre como código nativo, sin intérprete, comprobado con partidas completas hasta el final, y el código recompilado es idéntico al de un intérprete Z80 de referencia, con comparaciones de RAM, VRAM, paleta y cada fotograma a lo largo de más de 400.000 fotogramas. Tiene estados guardados en diez ranuras, filtros de pantalla (ninguno, LCD o CRT), avance rápido, un interruptor de salud infinita, teclado y mando, y pantalla completa. La 1.0.0 es del 27 de octubre; la lista de la API no muestra archivos adjuntos. El código recompilado se genera en tu equipo y no se sube."
+  en: "A native Windows port of the Game Gear version, made by static recompilation: the game’s Z80 code is translated into C and compiled for x64, with a small runtime that recreates the console’s video chip, sound chip, controls, and bank mapper. According to its README the whole game runs as native code, with no interpreter, verified by full playthroughs to the ending, and the recompiled code is identical to a reference Z80 interpreter, with RAM, VRAM, palette, and every frame compared across more than 400,000 frames. It has save states in ten slots, screen filters (none, LCD, or CRT), fast-forward, an infinite-health toggle, keyboard and gamepad support, and full screen. Version 1.0.0 is from October 27; the API’s release listing shows no attached files. The recompiled code is generated on your PC and not uploaded."
+requirements:
+  es: "Tu propia ROM de Mighty Morphin Power Rangers: The Movie para Game Gear (USA, Europa, Brasil) (En), con CRC32 B47C19E5, junto al ejecutable. Windows; para compilar, Python 3, CMake, un compilador de C y SDL2."
+  en: "Your own ROM of Mighty Morphin Power Rangers: The Movie for the Game Gear (USA, Europe, Brazil) (En), with CRC32 B47C19E5, next to the executable. Windows; to build, Python 3, CMake, a C compiler, and SDL2."
+tags:
+  - z80
+  - action
+  - static-recomp

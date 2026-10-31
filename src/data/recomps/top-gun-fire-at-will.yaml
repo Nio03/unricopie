@@ -1,0 +1,16 @@
+name: "Top Gun: Fire at Will"
+games: [top-gun-fire-at-will]
+console: ps1
+status: playable
+repo: TanookiStudios/TopGunFireAtWillRecomp
+originalDeveloper: "Spectrum HoloByte"
+year: 1996
+desc:
+  es: "Versión nativa para Mac, Windows y Linux de Top Gun: Fire at Will (PlayStation, 1996, versión estadounidense, SLUS-00032): el programa del juego se tradujo a código nativo, sin emulador. Trae un lanzador para ajustar pantalla, sonido, controles y trucos, un menú en el juego (Esc) con ajustes y estados guardados, escalado entero y 3D de hasta 4K, mandos reconocidos por nombre, volumen y silenciado separado de música y efectos, los vídeos de las cinemáticas y las partidas guardadas en la tarjeta de memoria. Los trucos dan misiles y vidas infinitos y permiten empezar en cualquiera de las 32 misiones. Las descargas son compilaciones ya hechas del programa del juego traducido (zips de unos 41 MB en Windows, 44 MB en Linux y 60 MB en Mac, este último firmado y notarizado por Apple) que no hemos comprobado por dentro; en el repositorio no hay código generado a partir del juego. La 0.1.1 (16 de octubre) hizo que el menú Esc funcione con el ratón. Todos sus 12 commits llevan a Claude como coautor."
+  en: "A native version for Mac, Windows, and Linux of Top Gun: Fire at Will (PlayStation, 1996, US version, SLUS-00032): the game’s program was translated into native code, with no emulator. It comes with a launcher to set display, sound, controls, and cheats, an in-game menu (Esc) with settings and save states, integer scaling and 3D up to 4K, controllers recognized by name, separate volume and muting for music and effects, the cutscene movies, and saves on the memory card. The cheats give infinite missiles and lives and let you start at any of the 32 missions. The downloads are prebuilt builds of the translated game program (zips of about 41 MB on Windows, 44 MB on Linux, and 60 MB on Mac, the latter signed and notarized by Apple) that we haven’t checked inside; the repository holds no code generated from the game. Version 0.1.1 (October 16) made the Esc menu work with the mouse. All 12 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de Top Gun: Fire at Will (PS1, EE. UU., SLUS-00032) como .cue con su .bin al lado (SHA-256 del .bin c221dce3ef23863613a93611f29f4ddad10343c2a706b01720e56d95702e2cb1). No hace falta BIOS, porque lleva OpenBIOS. Mac (chip Apple o Intel, macOS 11 o posterior), Windows de 64 bits o Linux de 64 bits (casi cualquier escritorio desde 2020)."
+  en: "Your own Top Gun: Fire at Will disc image (PS1, USA, SLUS-00032) as a .cue with its .bin beside it (the .bin’s SHA-256 is c221dce3ef23863613a93611f29f4ddad10343c2a706b01720e56d95702e2cb1). No BIOS is needed, since it has OpenBIOS built in. Mac (Apple chip or Intel, macOS 11 or later), 64-bit Windows, or 64-bit Linux (most desktops from 2020 on)."
+tags:
+  - mips
+  - ai-assisted

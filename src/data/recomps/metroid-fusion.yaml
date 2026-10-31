@@ -1,0 +1,18 @@
+name: "Metroid Fusion"
+games: [metroid-fusion]
+console: gba
+status: experimental
+repo: Zaxaerith/MetroidFusionRecomp
+originalDeveloper: "Nintendo R&D1"
+year: 2002
+toolchain: GBARecomp
+desc:
+  es: "Recompilación para Windows de la versión estadounidense de Metroid Fusion, con GBARecomp y recomp-ui fijados a una versión concreta. Es una vista previa experimental: el README avisa de que la compatibilidad con el juego completo no se ha probado a fondo, que aún queda un intérprete de repuesto y que la compilación en tiempo de ejecución viene desactivada, así que no es una versión totalmente estática ni nativa. Se descarga un ZIP, se elige la ROM y la BIOS en el lanzador y se pulsa Play; los ajustes, los controles configurables y la partida guardada quedan junto al ejecutable. El código generado queda en local, fuera de Git y de los ZIP de las versiones. La única versión, la 0.1.0-preview, es del 2 de octubre."
+  en: "A Windows recompilation of the US version of Metroid Fusion, with GBARecomp and recomp-ui pinned to a specific version. It is an experimental preview: the README warns that full-game compatibility isn’t exhaustively tested, that an interpreter fallback remains, and that runtime compilation is off by default, so it is not a fully static or native release. You download a ZIP, pick the ROM and BIOS in the launcher, and press Play; the settings, the configurable controls, and the save stay next to the executable. The generated code stays local, out of Git and out of the release ZIPs. The only release, 0.1.0-preview, is from October 2."
+requirements:
+  es: "Tu propia ROM de Metroid Fusion para GBA, estadounidense (AMTE, SHA-1 ca33f4348c2c05dd330d37b97e2c5a69531dfe87) y la BIOS de la GBA de 16 KiB (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492); otras regiones y ROM modificadas no se admiten. Windows 10 u 11 de 64 bits."
+  en: "Your own ROM of Metroid Fusion for the GBA, US (AMTE, SHA-1 ca33f4348c2c05dd330d37b97e2c5a69531dfe87) and the 16 KiB GBA BIOS (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492); other regions and modified ROMs are unsupported. 64-bit Windows 10 or 11."
+tags:
+  - arm7
+  - action
+  - static-recomp

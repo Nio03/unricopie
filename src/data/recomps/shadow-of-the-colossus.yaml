@@ -1,0 +1,19 @@
+name: "Shadow of the Colossus"
+games: [shadow-of-the-colossus-2005]
+console: ps2
+status: playable
+repo: LightVelox/sotc-vibe-pc
+originalDeveloper: "Team Ico"
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo no oficial para Windows de Shadow of the Colossus de PS2 (PAL, SCES-53326 v1.00), por recompilación estática del código de PS2 a C++ con PS2Recomp; es el original de PS2, no el remake de PS4 que ya está en el catálogo. El código del EE y los microprogramas del VU1 se traducen por adelantado y se compilan con MSVC, el IOP corre en un R3000 emulado con reemplazos de alto nivel para disco, tarjeta de memoria, mando y sonido, y el GS se dibuja con un renderizador OpenGL 4.6. Su README declara que está programado enteramente por IA (Claude y ChatGPT/Codex) y dirigido por una persona. Dice que funcionan el arranque, la intro y el juego, montar a Agro, escalar y combatir; los 16 colosos pasan una batería automática de pruebas y los primeros se han jugado a mano; hay guardado en tarjeta de memoria y estados guardados (F5 y F9), modo de 60 Hz, pantalla ancha y ratón. Quedan fallos como algún fotograma negro, y solo se admite Windows y el disco PAL v1.00. La 0.2.0 preview 2 (20 de octubre) es un zip de unos 22 MB ya compilado, que por tanto lleva el código del juego traducido y que no hemos comprobado por dentro. 36 de sus 61 commits llevan a Claude como coautor."
+  en: "An unofficial native Windows port of the PS2 Shadow of the Colossus (PAL, SCES-53326 v1.00), by static recompilation of the PS2 code to C++ with PS2Recomp; it is the PS2 original, not the PS4 remake that is already in the catalog. The EE code and the VU1 microprograms are translated ahead of time and compiled with MSVC, the IOP runs in an emulated R3000 with high-level replacements for disc, memory card, pad, and sound, and the GS is drawn with an OpenGL 4.6 renderer. Its README declares it fully written by AI (Claude and ChatGPT/Codex) and directed by a person. It says boot, the intro, and gameplay work, as do riding Agro, climbing, and fighting; all 16 colossi pass an automated test harness and the early ones have been played by hand; there are memory card saves and save states (F5 and F9), a 60 Hz mode, widescreen, and mouse support. Issues remain, such as an occasional black frame, and only Windows and the PAL v1.00 disc are supported. Version 0.2.0 preview 2 (October 20) is a prebuilt zip of about 22 MB, which therefore carries the translated game code and which we haven’t checked inside. 36 of its 61 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado en .iso (sectores de 2048 bytes) de Shadow of the Colossus, Europa y Australia (PAL), SCES-53326 versión 1.00, con SHA-256 068925770645266189005f09c9a9a1fee25726bfc93c89b12f832f3673664ac4; las herramientas solo aceptan ese disco y comprueban las sumas. Windows x64 con una CPU con AVX2 y OpenGL 4.6. Para compilar desde las fuentes, MSVC x64 (Visual Studio 2022 o posterior) y Python 3.10 o posterior; el código generado son unos 9.000 archivos de C++ y la compilación completa lleva alrededor de una hora."
+  en: "Your own .iso dump (2048-byte sectors) of Shadow of the Colossus, Europe and Australia (PAL), SCES-53326 version 1.00, with SHA-256 068925770645266189005f09c9a9a1fee25726bfc93c89b12f832f3673664ac4; the tools only accept that disc and check its hashes. Windows x64 with an AVX2-capable CPU and OpenGL 4.6. To build from source, MSVC x64 (Visual Studio 2022 or newer) and Python 3.10 or newer; the generated code is about 9,000 C++ files and a full build takes around an hour."
+tags:
+  - emotion-engine
+  - action
+  - widescreen
+  - ai-assisted

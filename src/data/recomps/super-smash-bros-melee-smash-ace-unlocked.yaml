@@ -1,0 +1,23 @@
+name: "Super Smash Bros. Melee (Smash ACE Unlocked)"
+games: [super-smash-bros-melee]
+console: gamecube
+status: playable
+repo: sennecaelen/melee-ace-unlocked
+forkOf:
+  label: "Hero88go/melee-unlocked"
+  url: https://github.com/Hero88go/melee-unlocked
+originalDeveloper: "HAL Laboratory"
+year: 2001
+desc:
+  es: "Bifurcación de Melee Unlocked, de Hero88go, que apunta a la compilación ACE de Melee (una modificación hecha con m-ex) en lugar del juego original: traduce por adelantado a C++ su ejecutable, junto con la tabla de unos 770 códigos Gecko de 77 KB que trae el disco de ACE, y la ejecuta con un renderizador nativo de Direct3D 12 y 11, sin emulador. Desbloquea la tasa de fotogramas y da al juego 32 MB de memoria en lugar de 24, lo que permite acabar partidas de cuatro jugadores, que en la consola acaban con un fallo de memoria. No tiene juego en línea, 29 de los ganchos de ACE parchean código que solo existe en tiempo de ejecución y el lanzador de Melee Unlocked rechaza el disco; se usa play.bat o melee_port.exe directamente. El repositorio incluye código C++ generado a partir del ejecutable del juego (la carpeta port/generated.before-0563, con 453 archivos). La 1.0, del 22 de septiembre, es una versión de 2 KB sin el programa; 79 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A fork of Hero88go’s Melee Unlocked that targets the ACE build of Melee (a modification made with m-ex) instead of the original game: it translates its executable ahead of time into C++, along with the 77 KB table of about 770 Gecko codes that ACE’s disc ships, and runs it with a native Direct3D 12 and 11 renderer, with no emulator. It unlocks the frame rate and gives the game 32 MB of memory instead of 24, which lets four-player matches finish, where on a console they end in a memory assertion. It has no online play, 29 of ACE’s hooks patch code that only exists at run time, and the Melee Unlocked launcher rejects the disc; play.bat or melee_port.exe is used directly. The repository includes C++ code generated from the game’s executable (the port/generated.before-0563 folder, with 453 files). Version 1.0, from September 22, is a 2 KB release without the program; 79 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ISO de Super Smash Bros. Melee NTSC 1.02 (MD5 0e63d4223b01d9aba596259dc155a174) con el parche de la compilación ACE ya aplicado, que se descarga de las versiones del proyecto ACE. Windows 10 u 11; build.bat instala Git, Python, CMake y las herramientas de Visual Studio 2022 si faltan."
+  en: "Your own Super Smash Bros. Melee NTSC 1.02 ISO (MD5 0e63d4223b01d9aba596259dc155a174) with the ACE build patch already applied, which is downloaded from the ACE project’s releases. Windows 10 or 11; build.bat installs Git, Python, CMake, and the Visual Studio 2022 tools if they’re missing."
+tags:
+  - powerpc
+  - fighting
+  - 60fps+
+  - mods
+  - static-recomp
+  - ai-assisted

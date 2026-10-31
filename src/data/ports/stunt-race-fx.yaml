@@ -1,0 +1,23 @@
+name: "Stunt Race FX"
+games: [stunt-race-fx]
+category: decomp-port
+console: snes
+status: experimental
+repo: Mabec-games/Stunt-Race-FX-DECOMP
+forkOf:
+  label: "jeff-strutb/stuntracefx"
+  url: https://github.com/jeff-strutb/stuntracefx
+originalDeveloper: "Nintendo EAD, Argonaut Software"
+year: 1994
+desc:
+  es: "Port nativo para PC, en una fase temprana, hecho como fork de la decompilación de Stunt Race FX de Jeffrey Wilbur (Strut B, LLC), exacta byte a byte, y de su port nativo. Mantiene la lógica del juego intacta y reconstruye lo que se ve: 60 fps interpolando entre los ciclos del juego con los programas 3D del Super FX, una anticipación que ejecuta los siguientes ciclos en una copia del juego para reducir el retardo de entrada, 3D redibujado a 2x, 3x o 4x con antialiasing, coches lejanos en 3D, una vista ancha experimental sin marco y un launcher SDL3. Según el README, las carreras de Speed Trax funcionan, mientras que los menús, la selección de coche y el combate para dos jugadores siguen a la resolución original y otros circuitos requieren una revisión. La beta 0.1 (26 de octubre) es la única versión, un AppImage de Linux; el repositorio lleva 245 commits propios sobre el original y 2 de sus últimos 100 llevan a Claude como coautor. El código se ofrece con licencia CC0."
+  en: "An early-stage native PC port, made as a fork of Jeffrey Wilbur’s (Strut B, LLC) byte-exact decompilation of Stunt Race FX and its native port. It keeps the game’s logic untouched and rebuilds what you see: 60 fps by interpolating between game ticks with the Super FX’s own 3D programs, a look-ahead that runs the next ticks on a copy of the game to cut input lag, 3D redrawn at 2x, 3x, or 4x with anti-aliasing, far cars in 3D, an experimental wide view without the bezel, and an SDL3 launcher. According to the README, the Speed Trax races work, while menus, car select, and 2-player battle stay at the original resolution and other courses need a pass each. Beta 0.1 (October 26) is the only release, a Linux AppImage; the repository has 245 commits of its own on top of the original, and 2 of its last 100 commits list Claude as a co-author. The code is offered under CC0."
+requirements:
+  es: "Tu propia ROM de Stunt Race FX (EE. UU., Rev 1, SHA-1 781e376ff453a83c7bcf72339abe6b842efd9c86). Se compila con clang, Python 3 y los archivos de desarrollo de SDL3, o se usa el AppImage de Linux; la ROM se lee al arrancar y no se incorpora al programa."
+  en: "Your own Stunt Race FX ROM (USA, Rev 1, SHA-1 781e376ff453a83c7bcf72339abe6b842efd9c86). It is built with clang, Python 3, and the SDL3 development files, or you use the Linux AppImage; the ROM is read at startup and isn’t built into the program."
+tags:
+  - "65816"
+  - racing
+  - 60fps+
+  - reverse-engineering
+  - ai-assisted

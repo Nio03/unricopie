@@ -1,0 +1,16 @@
+name: "Rugrats Adventure Game"
+games: [rugrats-adventure-game]
+category: game-engine
+console: pc
+status: playable
+repo: tm-developments/rugrats_port
+originalDeveloper: "Broderbund"
+year: 1998
+desc:
+  es: "Port nativo de 64 bits para Windows de Rugrats Adventure Game (Broderbund / Mohawk, 1998), que reimplementa el reproductor «Living Books» 3.1 de Mohawk y ejecuta los scripts de página originales del juego. Lee los archivos del CD y no necesita ni el instalador de 16 bits ni QuickTime 3 ni DirectX 5 ni el modo de 256 colores: dibuja el arte de 8 bits en color verdadero, decodifica las películas con FFmpeg y escala la imagen de 640 × 480 a cualquier resolución, con pantalla completa, ventana o pantalla completa sin bordes. Un instalador copia los archivos del disco y convierte las películas y los sonidos una sola vez. La 1.1.1 (26 de octubre) es un instalador de unos 50 MB; la 1.0 salió el 24 de octubre. Se presenta como programado «a ojo» (vibe-coded) con Claude."
+  en: "A native 64-bit Windows port of Rugrats Adventure Game (Broderbund / Mohawk, 1998), which reimplements Mohawk’s Living Books 3.1 player and runs the game’s original page scripts. It reads the files from the CD and needs neither the 16-bit installer nor QuickTime 3, DirectX 5, or the 256-color mode: it draws the 8-bit art in true color, decodes the movies with FFmpeg, and scales the 640 × 480 image to any resolution, in fullscreen, windowed, or borderless fullscreen. An installer copies the files from the disc and converts the movies and sounds once. Version 1.1.1 (October 26) is an installer of about 50 MB; 1.0 came out on October 24. It says it was vibe-coded with Claude."
+requirements:
+  es: "Tu propio CD-ROM original de Rugrats Adventure Game (híbrido Windows/Mac, 1998), o una carpeta copiada del disco que contenga MHK\\ y PROGRAM\\. Además, Windows 10 versión 1607 o posterior de 64 bits, una GPU con Direct3D 11 (con alternativas Direct3D 9, OpenGL o por software) y unos 1,1 GB de disco."
+  en: "Your own original Rugrats Adventure Game CD-ROM (Windows/Mac hybrid, 1998), or a folder copied from the disc that holds MHK\\ and PROGRAM\\. Plus 64-bit Windows 10 version 1607 or later, a GPU with Direct3D 11 (with Direct3D 9, OpenGL, or software fallbacks), and about 1.1 GB of disk."
+tags:
+  - ai-assisted

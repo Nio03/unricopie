@@ -1,0 +1,20 @@
+name: "Landstalker: The Treasures of King Nole"
+games: [landstalker-the-treasures-of-king-nole]
+console: megadrive
+status: playable
+repo: CmdrLucid/Project-Friday
+originalDeveloper: "Climax Entertainment"
+year: 1992
+toolchain: genrecomp
+desc:
+  es: "Recompilación estática de Landstalker para Mega Drive, llamada Project-Friday, que corre como programa nativo en Windows, Linux y Steam Deck. El código del 68000 de tu ROM se traduce a C y se compila en tu equipo la primera vez que arranca; los chips de vídeo y sonido siguen emulados con Genesis Plus GX. Con todo desactivado el juego se comporta como el cartucho; encima añade, en una pestaña de Opciones del menú Start, pantalla ancha 16:10 y 16:9 con contenido real del mapa, supresión del límite de sprites, filtros CRT, sombras, un HUD moderno, guardado y carga rápidos, objetos y equipo rápidos, sprint, avance rápido y menús en inglés o alemán, además de funciones experimentales (pistas de Friday y mapa de mazmorras). El README dice que Windows aún es experimental. La 1.5.0 (31 de octubre) es la última de 23 versiones, con un AppImage y un zip para Windows; el paquete no incluye la ROM ni código generado de ella, y trae el compilador Zig con el que se construye el juego. 100 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of Landstalker for the Mega Drive, called Project-Friday, that runs as a native program on Windows, Linux, and the Steam Deck. The 68000 code of your ROM is translated to C and compiled on your PC the first time it starts; the video and sound chips are still emulated with Genesis Plus GX. With every option off the game plays like the cartridge; on top of that it adds, in an Options tab of the Start menu, 16:10 and 16:9 widescreen with real map content, removal of the sprite limit, CRT filters, shadows, a modern HUD, quick save and load, quick items and equipment, sprint, fast forward, and menus in English or German, plus experimental features (Friday hints and a dungeon map). The README says Windows is still experimental. Version 1.5.0 (October 31) is the latest of 23 releases, with an AppImage and a Windows zip; the package contains neither the ROM nor code generated from it, and it carries the Zig compiler that builds the game. 100 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Landstalker para Mega Drive / Genesis, estadounidense (SHA-1 24345e29427b000b90df778965dd8834300a9dde) o europea (SHA-1 9fbadc86319936855831ecd096d82d716b304215), como volcado de 2 MB (.md, .bin o .gen) sin entrelazar y fuera de un zip; el lanzador comprueba el tamaño y el SHA-1 en cada arranque. Windows 10 u 11 de 64 bits, o Linux (incluida la Steam Deck)."
+  en: "Your own copy of the Landstalker ROM for the Mega Drive / Genesis, US (SHA-1 24345e29427b000b90df778965dd8834300a9dde) or European (SHA-1 9fbadc86319936855831ecd096d82d716b304215), as a 2 MB dump (.md, .bin, or .gen) that is not interleaved and not inside a zip; the launcher checks the size and SHA-1 at every start. 64-bit Windows 10 or 11, or Linux (Steam Deck included)."
+tags:
+  - "68000"
+  - rpg
+  - widescreen
+  - static-recomp
+  - ai-assisted

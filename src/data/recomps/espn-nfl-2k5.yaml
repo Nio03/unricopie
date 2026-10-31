@@ -1,0 +1,19 @@
+name: "ESPN NFL 2K5"
+games: [espn-nfl-2k5]
+console: xbox
+status: playable
+repo: BeyondTomrrow/2K5Remade
+originalDeveloper: "Visual Concepts"
+year: 2004
+desc:
+  es: "Versión nativa experimental para Windows de ESPN NFL 2K5 de la Xbox original, con ajustes de vídeo modernos, mandos con reasignación, equipos nuevos junto a los 32 clubes, un creador de equipos, paquetes de texturas, paquetes de mods, música local, partidas organizadas y paquetes de presentación de la retransmisión. El repositorio contiene el código recompilado a partir del juego: unos 38 archivos C generados en src/recomp/gen (unos 230 MB), además del entorno de ejecución. El README dice que ni el proyecto ni el instalador incluyen ni descargan el juego; el instalador (NFL2K5-PC-Setup.exe, de unos 220 MB en la 0.7.0, que no hemos comprobado por dentro) arma un equipo de ejemplo a partir de tu disco. Es una versión previa: se puede jugar pero tiene fallos conocidos. La última versión es la 0.7.0-sandbox-preview (23 de octubre). 26 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An experimental native Windows version of ESPN NFL 2K5 from the original Xbox, with modern video settings, controllers with remapping, new teams alongside the 32 clubs, a Team Creator, texture packs, mod packs, local music, organized saves, and broadcast presentation packages. The repository contains the code recompiled from the game: about 38 generated C files in src/recomp/gen (about 230 MB), plus the runtime. The README says neither the project nor the installer includes or downloads the game; the installer (NFL2K5-PC-Setup.exe, about 220 MB in 0.7.0, which we haven’t checked inside) builds an example team from your disc. It is a preview release: it can be played but has known bugs. The latest version is 0.7.0-sandbox-preview (October 23). 26 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de ESPN NFL 2K5 para la Xbox original: una carpeta extraída del disco (con default.xbe y vc_53450030) o tu propia imagen ISO o XISO. Windows 10 u 11 de 64 bits."
+  en: "Your own copy of ESPN NFL 2K5 for the original Xbox: an extracted disc folder (with default.xbe and vc_53450030) or your own ISO or XISO image. 64-bit Windows 10 or 11."
+tags:
+  - x86
+  - sports
+  - widescreen
+  - mods
+  - ai-assisted

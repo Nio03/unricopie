@@ -1,0 +1,18 @@
+name: "Metal Gear Acid 2"
+games: [metal-gear-acid-2]
+console: psp
+status: experimental
+repo: Tzeentchnet/MetalGearAcid2-Recomp
+originalDeveloper: "Konami"
+year: 2005
+toolchain: psp-recomp
+desc:
+  es: "Recompilación estática para Windows de la versión estadounidense de PSP (ULUS-10077 v1.00), solo con código fuente, con el kit psp-recomp de Tzeentchnet. El proyecto verifica BOOT.BIN y usa solo esa copia en claro para la traducción. Según su documento de validación, se generan sin fallos las 18 401 funciones del módulo principal y 5 166 más de diez tablas de módulos dinámicos, y no queda ningún código de trampa; el arranque nativo estricto llega a varias superposiciones de fase. Ofrece renderizadores Direct3D 12, Vulkan y por software, con resolución interna de 1x a 8x y escalado de texturas xBRZ opcional, y puede importar partidas de Metal Gear Acid. El autor lo presenta como una versión de prueba y evaluación y no afirma que el juego completo funcione. No hay un ejecutable para descargar ni versiones publicadas; hay que compilarlo con tu ISO. 8 de sus 35 commits llevan a Copilot como coautor."
+  en: "A source-only static recompilation for Windows of the US PSP version (ULUS-10077 v1.00), using Tzeentchnet’s psp-recomp toolkit. The project verifies BOOT.BIN and uses only that plaintext copy for translation. According to its validation document, all 18,401 discovered main-module functions and 5,166 more across ten dynamic-module tables generate successfully with no trapping stubs, and strict native boot reaches several stage overlays. It offers Direct3D 12, Vulkan, and software renderers, with 1x to 8x internal resolution and optional xBRZ texture upscaling, and it can import saves from Metal Gear Acid. The author presents it as a testing and evaluation release and makes no full-game compatibility claim. There is no executable to download and no published releases; you build it with your own ISO. 8 of its 35 commits list Copilot as a co-author."
+requirements:
+  es: "Tu propia ISO estadounidense de Metal Gear Acid 2 (ULUS-10077 v1.00, 917 307 392 bytes, SHA-1 87cebe80a93c4231bdbab26ad630c6d8e2fddab5). Además, Windows 10 u 11 de 64 bits, Python 3.11 o posterior, CMake 3.25 o posterior con Ninja, las Build Tools de Visual Studio 2022 con clang-cl y el SDK de Windows, y el SDK de Vulkan para el motor Vulkan predeterminado; hay que compilar tú mismo."
+  en: "Your own US Metal Gear Acid 2 ISO (ULUS-10077 v1.00, 917,307,392 bytes, SHA-1 87cebe80a93c4231bdbab26ad630c6d8e2fddab5). Plus 64-bit Windows 10 or 11, Python 3.11 or later, CMake 3.25 or later with Ninja, Visual Studio 2022 Build Tools with clang-cl and a Windows SDK, and the Vulkan SDK for the default Vulkan backend; you have to build it yourself."
+tags:
+  - mips
+  - static-recomp
+  - ai-assisted

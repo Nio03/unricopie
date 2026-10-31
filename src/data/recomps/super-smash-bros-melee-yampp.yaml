@@ -1,0 +1,21 @@
+name: "Super Smash Bros. Melee (YAMPP)"
+games: [super-smash-bros-melee]
+console: gamecube
+status: playable
+repo: sonsegajp/YAMPP
+originalDeveloper: "HAL Laboratory"
+year: 2001
+desc:
+  es: "YAMPP (Yet Another Melee PC Port) es un port para PC, que su autor llama experimental, de la versión NTSC-U 1.02 de Super Smash Bros. Melee, basado en la decompilación de doldecomp/melee. Según su documentación, un script genera C nativo a partir del main.dol del disco del jugador y el ejecutable lo corre sobre un espacio de memoria de 24 MiB, con Aurora traduciendo las órdenes gráficas de GX y SDL para ventana, mando y audio; no es un emulador. El repositorio no trae ese C generado, pero la versión ya compilada ejecuta el código traducido del juego: el empaquetado copia YAMPP.core.dll (211 MB) junto al ejecutable, y no hemos abierto ese archivo. También lleva unicorn.dll (Unicorn Engine), que según sus créditos ejecuta las instrucciones PowerPC añadidas o parcheadas por los contenidos opcionales. Incluye juego en línea con rollback, un navegador de mods, pantalla ancha 4:3 o 16:9 y Melee Workshop, un editor de luchadores, escenarios y texturas (una aplicación Electron). El contenido de Akaneia 1.0.1 (luchadores, escenarios y música) es opcional y no viene incluido: se descarga aparte de su GitHub oficial. La versión 0.2.4 (22 de septiembre) es un zip para Windows de unos 339 MB que, según el README, no trae discos ni archivos extraídos del juego; Linux solo tiene validación de compilación. 7 de sus 12 commits llevan a Claude como coautor."
+  en: "YAMPP (Yet Another Melee PC Port) is a PC port, which its author calls experimental, of the NTSC-U 1.02 release of Super Smash Bros. Melee, based on the doldecomp/melee decompilation. According to its documentation, a script generates native C from the main.dol of the player’s disc and the executable runs it over a 24 MiB guest memory space, with Aurora translating GX graphics commands and SDL handling window, input, and audio; it is not an emulator. The repository doesn’t contain that generated C, but the prebuilt release runs the game’s translated code: the packaging script copies YAMPP.core.dll (211 MB) next to the executable, and we haven’t opened that file. It also ships unicorn.dll (Unicorn Engine), which according to its credits executes the PowerPC instructions added or patched by the optional content. It includes online play with rollback, a mod browser, 4:3 or 16:9 widescreen, and Melee Workshop, an editor for fighters, stages, and textures (an Electron app). Akaneia 1.0.1 content (fighters, stages, and music) is optional and not included: it is downloaded separately from its official GitHub. Version 0.2.4 (September 22) is a Windows zip of about 339 MB which, according to the README, holds no disc images or extracted game files; Linux only has build validation. 7 of its 12 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Super Smash Bros. Melee para GameCube, NTSC-U 1.02 (GALE01 revisión 2), en ISO/GCM, RVZ o WIA; el primer arranque la extrae en tu equipo, comprueba que el main.dol tenga SHA-1 08e0bf20134dfcb260699671004527b2d6bb1a45 y rechaza otras revisiones. Windows de 64 bits, una tarjeta gráfica compatible con Vulkan y el redistribuible de Visual C++ (x64); Melee Workshop necesita además .NET 8."
+  en: "Your own disc image of Super Smash Bros. Melee for GameCube, NTSC-U 1.02 (GALE01 revision 2), as ISO/GCM, RVZ, or WIA; the first start extracts it on your PC, checks that main.dol has SHA-1 08e0bf20134dfcb260699671004527b2d6bb1a45, and rejects other revisions. 64-bit Windows, a Vulkan-capable graphics card, and the Visual C++ Redistributable (x64); Melee Workshop also needs .NET 8."
+tags:
+  - powerpc
+  - fighting
+  - widescreen
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted

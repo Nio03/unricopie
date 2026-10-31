@@ -1,0 +1,19 @@
+name: "Bloody Roar Extreme"
+games: [bloody-roar-extreme]
+console: xbox
+status: playable
+repo: bromurok/BloodyRoarExtremeRecomp
+originalDeveloper: "Eighting"
+year: 2003
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial a PC de la versión de la Xbox original de Bloody Roar Extreme (Bloody Roar: Primal Fury), hecho con Xbox XBE Recomp, con opciones gráficas ampliadas, renderizador Vulkan, alta resolución y mandos. Un menú de configuración dentro del juego (F1) permite cambiar el modo de pantalla, la resolución y la escala de render, y el teclado trae dos disposiciones. Las tres regiones (EE. UU., Europa y Japón) tienen su propio ejecutable, con la suma SHA-1 del default.xbe que se espera. El README declara que se hizo con ayuda de Google Gemini. Las versiones son archivos .rar de unos 11 a 19 MB con los ejecutables ya compilados; la última es la v1.0.4 (21 de octubre). Sus 26 commits no llevan a Claude como coautor."
+  en: "An unofficial native PC port of the original Xbox version of Bloody Roar Extreme (Bloody Roar: Primal Fury), made with Xbox XBE Recomp, with extended graphics options, a Vulkan renderer, high resolution, and controller support. An in-game configuration menu (F1) changes display mode, resolution, and render scale, and the keyboard has two layouts. The three regions (USA, Europe, and Japan) have their own executable, with the SHA-1 of the expected default.xbe. The README declares it was made with the help of Google Gemini. The releases are .rar files of about 11 to 19 MB with the already built executables; the latest is v1.0.4 (October 21). None of its 26 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Bloody Roar Extreme para Xbox: EE. UU. (default.xbe SHA-1 e58541178170e32ba71babce2c9ccf905bdb4db4), Europa (60380ebc7bc976aefd7e75d72609a02fae74a507) o Japón (85d897dc5ae88f8914eda42d31be81b6386045fa), como .iso, .xiso o carpeta extraída. Windows de 64 bits con Vulkan."
+  en: "Your own copy of Bloody Roar Extreme for Xbox: USA (default.xbe SHA-1 e58541178170e32ba71babce2c9ccf905bdb4db4), Europe (60380ebc7bc976aefd7e75d72609a02fae74a507), or Japan (85d897dc5ae88f8914eda42d31be81b6386045fa), as .iso, .xiso, or an extracted folder. 64-bit Windows with Vulkan."
+tags:
+  - x86
+  - fighting
+  - vulkan
+  - ai-assisted

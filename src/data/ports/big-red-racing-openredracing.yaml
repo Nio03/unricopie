@@ -1,0 +1,17 @@
+name: "Big Red Racing (OpenRedRacing)"
+games: [big-red-racing]
+category: game-engine
+console: pc
+status: playable
+repo: nynjardin/OpenRedRacing
+originalDeveloper: "Big Red Software"
+year: 1996
+desc:
+  es: "Reimplementación limpia («clean-room») de Big Red Racing (Big Red Software / Domark, 1996), un motor portátil nuevo en C++ con SDL2 y OpenGL 3.3 que juega con tus archivos originales sin modificar. Incluye los 24 circuitos, la física original portada a una simulación de enteros determinista, carreras completas, rivales que reproducen los fantasmas .REC originales, escenario destructible, sonido y música, menús, pantalla dividida de hasta 4 jugadores, LAN de hasta 6, vista de cabina y mando. Faltan por pulir el campeonato (implementado, pero poco probado), algunos defectos de manejo y de iluminación. Solo se ha compilado y probado en Windows. La 0.8 (11 de octubre) es un zip portátil de unos 4,8 MB."
+  en: "A clean-room reimplementation of Big Red Racing (Big Red Software / Domark, 1996), a new portable C++ engine with SDL2 and OpenGL 3.3 that plays from your own unmodified original files. It includes all 24 circuits, the original physics ported to a deterministic integer simulation, full races, opponents that replay the original .REC ghosts, destructible scenery, sound and music, menus, split screen for up to 4 players, LAN for up to 6, a cockpit view, and gamepad support. The championship (implemented but little tested), some handling defects, and lighting still need polish. It has only been built and tested on Windows. Version 0.8 (October 11) is a portable zip of about 4.8 MB."
+requirements:
+  es: "Tu propia copia de Big Red Racing: la carpeta del juego instalado, la que contiene ALWAYS.WAP y los archivos .LEV y .VHC; para la música, la banda sonora como archivos .ogg (02.ogg, 03.ogg…) en una carpeta MUSIC dentro de ella. Además, Windows 10 u 11 de 64 bits."
+  en: "Your own copy of Big Red Racing: the installed game folder, the one holding ALWAYS.WAP and the .LEV and .VHC files; for the music, the soundtrack as .ogg files (02.ogg, 03.ogg…) in a MUSIC folder inside it. Plus 64-bit Windows 10 or 11."
+tags:
+  - racing
+  - multiplayer

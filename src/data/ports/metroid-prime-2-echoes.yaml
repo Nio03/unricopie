@@ -1,0 +1,26 @@
+name: "Metroid Prime 2: Echoes"
+games: [metroid-prime-2-echoes]
+category: decomp-port
+console: gamecube
+status: playable
+repo: Odrannnn/MetroidPrime2Port
+decomp: PrimeDecomp/echoes
+originalDeveloper: "Retro Studios"
+year: 2004
+desc:
+  es: "Echoes Unbound es un port nativo no oficial de Metroid Prime 2: Echoes, construido a partir de la decompilación de PrimeDecomp, con la capa de plataforma Aurora (SDL3 y WebGPU) y el motor de audio MusyX; no hay emulador. Funciona en Linux, Windows, macOS y Android, y de forma experimental en iOS, con los discos de GameCube estadounidense y PAL y los de Metroid Prime Trilogy (estadounidense y PAL). Añade pantalla ancha con HUD adaptado, escala de render, vsync, fps altos con interpolación, apuntado con ratón, de dos palancas y por giroscopio, saltarse escenas, ajustes opcionales como la morfosfera rápida, estados guardados, colores de traje, mods de carpeta con un pack de texturas HD, modo foto, un menú F1 con todos los ajustes y un aleatorizador de objetos. La 0.6.6, del 30 de octubre, es la última versión; el propio autor la llama prerrelease. Declara que partes del port se escribieron con asistentes de código de IA."
+  en: "Echoes Unbound is an unofficial native port of Metroid Prime 2: Echoes, built from PrimeDecomp’s decompilation, with the Aurora platform layer (SDL3 and WebGPU) and the MusyX audio engine; there is no emulator. It runs on Linux, Windows, macOS, and Android, and experimentally on iOS, with the US and PAL GameCube discs and the Metroid Prime Trilogy discs (US and PAL). It adds widescreen with an adapted HUD, render scale, vsync, high frame rates with interpolation, mouse, twin-stick, and gyro aiming, cutscene skipping, optional tweaks such as a fast Morph Ball, save states, suit colors, drop-in mod folders with an HD texture pack, a photo mode, an F1 menu with every setting, and an item randomizer. Version 0.6.6, from October 30, is the latest; the author himself calls it a pre-release. It states that parts of the port were written with AI coding assistants."
+requirements:
+  es: "Tu propia imagen de disco de Metroid Prime 2: Echoes para GameCube, estadounidense (G2ME01) o PAL (G2MP01), o de la Metroid Prime Trilogy de Wii (R3ME01 o R3MP01), como .iso, .gcm, .rvz, .wia, .gcz, .ciso o .wbfs; no se incluye ningún dato del juego. Linux x86-64 o aarch64, Windows x86-64 o arm64, un Mac con Apple Silicon, o Android arm64."
+  en: "Your own disc image of Metroid Prime 2: Echoes for the GameCube, US (G2ME01) or PAL (G2MP01), or of the Wii Metroid Prime Trilogy (R3ME01 or R3MP01), as .iso, .gcm, .rvz, .wia, .gcz, .ciso, or .wbfs; no game data is included. x86-64 or aarch64 Linux, x86-64 or arm64 Windows, an Apple Silicon Mac, or arm64 Android."
+tags:
+  - powerpc
+  - fps
+  - widescreen
+  - 60fps+
+  - mods
+  - hd-assets
+  - randomizer
+  - build-android
+  - build-ios
+  - ai-assisted

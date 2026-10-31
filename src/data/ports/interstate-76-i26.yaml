@@ -1,0 +1,19 @@
+name: "Interstate '76 (I26)"
+games: [interstate-76]
+category: fan-remake
+console: pc
+status: playable
+repo: vahokif/I26
+originalDeveloper: "Activision"
+year: 1997
+desc:
+  es: "I26 es una reimplementación de Interstate '76 en el motor Godot, que usa los datos de tu copia del juego. Ofrece gráficos modernizados y un «modo 1997» que devuelve los originales con F12; campaña, escenarios y melé automática para un jugador; multijugador con netcode moderno y cooperativo en línea para la campaña y los escenarios; un editor 3D de mapas y un garaje 3D con pintura. Entre las opciones están la marcha atrás automática, los puntos de control, la vegetación, las texturas mejoradas, la radio CB en el multijugador y los interiores de los coches. El proyecto no publica su código: el repositorio solo tiene el README, que dice «Source code: Please stand by...», y los archivos de las releases (la 0.10.0, del 29 de octubre, es la última de 11) son compilaciones ya hechas para Windows, Linux (x64 y ARM64) y macOS, de entre 104 y 173 MB, que no hemos revisado por dentro."
+  en: "I26 is a reimplementation of Interstate '76 in the Godot engine, which uses the data from your copy of the game. It offers modernized graphics and a “1997 mode” that brings back the originals with F12; single-player campaign, scenarios, and auto melee; multiplayer with modern netcode and online co-op for the campaign and scenarios; a 3D map editor and a 3D garage with respraying. Options include auto-reverse, mission checkpoints, vegetation, upscaled textures, CB radio in multiplayer, and car interiors. The project doesn’t publish its code: the repository only holds the README, which says “Source code: Please stand by...”, and the release files (0.10.0, from October 29, is the latest of 11) are prebuilt builds for Windows, Linux (x64 and ARM64), and macOS, between 104 and 173 MB, that we haven’t checked inside."
+requirements:
+  es: "Tu propia copia de Interstate '76 de GOG (y, opcionalmente, el Nitro Pack): el juego las encuentra solo con GOG Galaxy; si no, hay que copiar la carpeta del juego a «i76» (y la del Nitro Pack a «nitro») dentro de i26, o dejar allí los instaladores setup_interstate_76_*.exe de GOG para que se desempaqueten. En Linux hacen falta las fuentes básicas de Microsoft (Impact y Arial)."
+  en: "Your own copy of Interstate '76 from GOG (and optionally the Nitro Pack): the game finds them by itself with GOG Galaxy; otherwise copy the game folder into i26 named “i76” (and the Nitro Pack into “nitro”), or drop the GOG setup_interstate_76_*.exe offline installers there to be unpacked. On Linux, the Microsoft core fonts (Impact and Arial) are needed."
+tags:
+  - action
+  - multiplayer
+  - online
+  - closed-source

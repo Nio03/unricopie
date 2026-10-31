@@ -1,0 +1,19 @@
+name: "Super Street Fighter II X"
+games: [super-street-fighter-ii-x]
+console: arcade
+status: experimental
+repo: andreoka-debug/ssf2xj-recomp
+originalDeveloper: "Capcom"
+year: 1994
+toolchain: cps2recomp
+desc:
+  es: "Port experimental para Windows de Super Street Fighter II X (Japón, 940223), hecho con el kit cps2recomp de Tommy McLeroy, que aporta la recompilación estática, la emulación de la placa CPS-2, el audio y la interfaz. El repositorio contiene el código propio del port, los parches al kit, los puntos de entrada de la recompilación y películas de prueba; build.ps1 recompila el juego en tu equipo a partir de tus ROM. Ofrece juego local, filtros CRT, escenarios en pantalla ancha (los menús siguen en 4:3 y algunos bordes de escenario tienen artefactos) y un modo de entrenamiento con selección de personaje para P2, opciones de vida y barra, historial de entradas, daño, cajas de colisión, datos de fotogramas y grabación y repetición del muñeco en tres ranuras; hay además una capa experimental de sincronización entre equipos Windows para pruebas locales. La 0.1.1 preview, del 19 de octubre, publica un instalador de 6,7 MB con el lanzador y las bibliotecas necesarias, sin ROM; no hemos comprobado si incluye código ya traducido del juego."
+  en: "An experimental Windows port of Super Street Fighter II X (Japan, 940223), made with Tommy McLeroy’s cps2recomp toolkit, which provides the static recompilation, the CPS-2 board emulation, the audio, and the interface. The repository holds the port’s own code, the patches to the toolkit, the recompilation entry points, and test movies; build.ps1 recompiles the game on your PC from your ROMs. It offers local play, CRT filters, widescreen fight stages (menus stay 4:3 and some stage edges show artifacts), and a training mode with P2 character selection, health and meter options, input history, damage readouts, hitboxes, frame data, and dummy recording and replay in three slots; there is also an experimental synchronization layer between Windows machines for local tests. Version 0.1.1 preview, from October 19, publishes a 6.7 MB installer with the launcher and the required libraries, no ROMs; we haven’t checked whether it includes already translated game code."
+requirements:
+  es: "Tus propias ROM de los conjuntos ssf2xj.zip (Japón, 940223) y ssf2t.zip, en ZIP, como los usa MAME. Windows; el instalador no necesita MSYS2, pero compilar desde el código sí (MSYS2 UCRT64, CMake, Ninja, Python y SDL3)."
+  en: "Your own ROMs from the ssf2xj.zip (Japan, 940223) and ssf2t.zip sets, zipped as MAME uses them. Windows; the installer doesn’t need MSYS2, but building from source does (MSYS2 UCRT64, CMake, Ninja, Python, and SDL3)."
+tags:
+  - "68000"
+  - fighting
+  - widescreen
+  - static-recomp

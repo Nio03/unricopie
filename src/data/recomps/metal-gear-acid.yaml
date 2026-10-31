@@ -1,0 +1,17 @@
+name: "Metal Gear Acid"
+games: [metal-gear-acid]
+console: psp
+status: experimental
+repo: Tzeentchnet/MetalGearAcid-Recomp
+originalDeveloper: "Konami"
+year: 2004
+toolchain: psp-recomp
+desc:
+  es: "Recompilación estática experimental para Windows de la versión estadounidense de PSP (ULUS-10006 v1.00), solo con código fuente: usa el recompilador y entorno de ejecución de PSP de Tzeentchnet (psp-recomp, el mismo que se creó para la recompilación de Killzone: Liberation), fijado en un commit probado. Un instalador guiado verifica la ISO, extrae los archivos necesarios, genera el código nativo, compila un ejecutable con renderizadores Direct3D 12, Vulkan y por software, y recuerda dónde está tu ISO; también hay un modo solo por software sin SDL3 ni SDK de Vulkan. Según sus notas de estado, en tres ejecuciones deterministas el juego recorre NUEVO JUEGO y CARGAR JUEGO y entra en la historia inicial sin cierres; los vídeos PMF de las tarjetas, la creación de partidas y la campaña completa no están validadas. El README advierte que no hay un .exe para descargar porque el proyecto no puede distribuir el juego; no hay versiones publicadas. Sus 17 commits no llevan a Claude."
+  en: "An experimental, source-only static recompilation for Windows of the US PSP version (ULUS-10006 v1.00): it uses Tzeentchnet’s PSP recompiler and runtime (psp-recomp, the one developed for the Killzone: Liberation recompilation), pinned to a tested commit. A guided installer verifies the ISO, extracts the needed files, generates the native code, builds an executable with Direct3D 12, Vulkan, and software renderers, and remembers where your ISO is; there is also a software-only mode that needs neither SDL3 nor the Vulkan SDK. According to its status notes, in three deterministic runs the game navigates NEW GAME and LOAD GAME and enters the opening story without crashes; the card PMF videos, save creation, and the full campaign aren’t validated. The README warns there is no .exe to download because the project can’t distribute the game; there are no published releases. Its 17 commits don’t list Claude."
+requirements:
+  es: "Tu propia ISO estadounidense de Metal Gear Acid (ULUS-10006 v1.00), que el instalador comprueba por tamaño y SHA-1. Además, Windows 10 u 11 de 64 bits, Git con submódulos, Python 3.11 o posterior, CMake 3.25 o posterior con Ninja, las Build Tools de Visual Studio 2022 con clang-cl y el SDK de Windows, y el SDK de Vulkan para la compilación completa; hay que compilar tú mismo, porque no se publica ningún ejecutable."
+  en: "Your own US Metal Gear Acid ISO (ULUS-10006 v1.00), which the installer checks by size and SHA-1. Plus 64-bit Windows 10 or 11, Git with submodule support, Python 3.11 or later, CMake 3.25 or later with Ninja, Visual Studio 2022 Build Tools with clang-cl and a Windows SDK, and the Vulkan SDK for the full build; you have to build it yourself, since no executable is published."
+tags:
+  - mips
+  - static-recomp

@@ -1,0 +1,18 @@
+name: "Pac-Man"
+games: [pac-man]
+category: game-engine
+console: arcade
+status: fully
+repo: mariqtereza-del/PacArcadeComp
+originalDeveloper: "Namco"
+year: 1980
+desc:
+  es: "Reproductor nativo para Windows del arcade de 1980, con un front end moderno. Lleva una copia en software de la placa (mapa de memoria y chips de vídeo y sonido) y el juego reescrito como C++ nativo que reproduce el programa original; de tu propio pacman.zip solo lee las tablas de datos (laberinto, textos, niveles, gráficos y sonido). No contiene un procesador Z80: según su autor, cada fotograma, con su temporización exacta, se comprobó idéntico al programa real sobre un Z80 a lo largo de millones de fotogramas (el núcleo Z80 queda solo en las pruebas), con los mismos fantasmas, velocidades y errores, incluido el nivel 256. Añade menús, estados guardados y rebobinado, mandos, efectos de pantalla y los ajustes de DIP del arcade. El repositorio incluye código generado a partir del programa del juego: src/game/attract_prog.h es la lista de instrucciones de las rutinas del modo demostración como datos de C++, sacada de un listado desensamblado que no se publica (solo se guardan sus bloques y etiquetas), sin bytes de la ROM. La 2.1.0, del 28 de octubre, es la última versión y solo es para Windows. Declara que se hizo con ayuda de Claude."
+  en: "A native Windows player for the 1980 arcade game, with a modern front end. It carries a software copy of the arcade board (memory map and video and sound chips) and the game rewritten as native C++ that reproduces the original program; from your own pacman.zip it only reads the data tables (maze, text, levels, graphics, and sound). It contains no Z80 processor: according to its author, every frame, with its exact timing, was checked identical to the real program on a Z80 across millions of frames (the Z80 core is kept only in the tests), with the same ghosts, speeds, and bugs, including level 256. It adds menus, save states and rewind, gamepads, screen effects, and the arcade’s DIP settings. The repository includes code generated from the game’s program: src/game/attract_prog.h is the instruction list of the attract-mode routines as C++ data, taken from a disassembled listing that isn’t published (only its blocks and labels are kept), with no ROM bytes. Version 2.1.0, from October 28, is the latest and is Windows-only. It states it was made with the help of Claude."
+requirements:
+  es: "Tu propia copia del conjunto de ROM de Pac-Man de Midway, pacman.zip (los mismos 10 archivos que usa MAME), junto al ejecutable; el programa comprueba que es el correcto. Windows 10 u 11 de 64 bits (el código también compila y se prueba en Linux, pero la versión publicada es solo para Windows)."
+  en: "Your own copy of the Midway Pac-Man ROM set, pacman.zip (the same 10 files MAME uses), next to the executable; the program checks it is the right one. 64-bit Windows 10 or 11 (the source also builds and is tested on Linux, but the published release is Windows-only)."
+tags:
+  - z80
+  - mods
+  - ai-assisted

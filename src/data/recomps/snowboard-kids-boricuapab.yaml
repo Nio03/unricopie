@@ -1,0 +1,21 @@
+name: "Snowboard Kids (boricuapab)"
+games: [snowboard-kids]
+console: n64
+status: playable
+repo: boricuapab/snowboardkids-recompiled
+originalDeveloper: "Racdym"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para Windows y Linux de Snowboard Kids (versión estadounidense), hecho con N64Recomp y RT64. Trae un lanzador que pide la ROM y recuerda dónde está, antialiasing de 2×, 4× u 8×, escalado de resolución (2× por defecto, sin necesitar el Expansion Pak), formato original 4:3, pantalla ancha 16:9 o el de la ventana, tasas de dibujado de 60, 120 fps o la de la pantalla (con interpolación: la lógica y el audio mantienen su velocidad), asignación de teclado y mando, Controller Pak y mods nativos opcionales, que se descargan de un repositorio aparte. La 1.1.0 (27 de septiembre) es la última de 2 versiones, con zips de unos 16 MB para Windows y 6 MB para Linux. El repositorio no incluye ROM, recursos extraídos ni paquetes de texturas."
+  en: "A native Windows and Linux port of Snowboard Kids (US version), made with N64Recomp and RT64. It has a launcher that asks for the ROM and remembers where it is, 2×, 4×, or 8× anti-aliasing, resolution scaling (2× by default, no Expansion Pak needed), the original 4:3 ratio, 16:9 widescreen or the window’s ratio, rendering targets of 60 fps, 120 fps, or the display’s refresh rate (with interpolation: the logic and audio keep their original speed), keyboard and controller remapping, Controller Pak, and optional native mods, downloaded from a separate repository. Version 1.1.0 (September 27) is the latest of 2 releases, with zips of about 16 MB for Windows and 6 MB for Linux. The repository contains no ROM, extracted assets, or texture packs."
+requirements:
+  es: "Tu propia ROM de Snowboard Kids (USA) sin modificar (SHA-1 1583bacc9046a360df8ea4d536942155247e154c; el lanzador acepta .z64, .v64 y .n64). Windows 10 u 11 de 64 bits con una CPU con SSE4.1, una GPU con Direct3D 12 y el runtime de Visual C++ 2015–2022; o Linux x86-64 con SSE4.1 y Vulkan."
+  en: "Your own unmodified Snowboard Kids (USA) ROM (SHA-1 1583bacc9046a360df8ea4d536942155247e154c; the launcher accepts .z64, .v64, and .n64). 64-bit Windows 10 or 11 with an SSE4.1 CPU, a Direct3D 12 GPU, and the Visual C++ 2015–2022 runtime; or x86-64 Linux with SSE4.1 and Vulkan."
+tags:
+  - mips
+  - racing
+  - sports
+  - 60fps+
+  - widescreen
+  - mods

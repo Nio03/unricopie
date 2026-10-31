@@ -1,0 +1,14 @@
+name: "Downtown no Gaki no Tsukai ya Arahende!! Zettai ni Tsukamatte wa Ikenai Gasu Kurobikari Land"
+games: [downtown-no-gaki-no-tsukai-ya-arahende-zettai-ni-tsukamatte-wa-ikenai-gasu-kurobikari-land]
+console: 3ds
+status: experimental
+repo: trrrrrrrrrree/gaki-kurobikari-recomp
+desc:
+  es: "Port nativo no oficial para Windows de la versión de 3DS, que según la descripción del repositorio se hizo por recompilación estática. No publica su código: el repositorio solo tiene el README y un Kurobikari.exe ya compilado de unos 24 MB, sin versiones publicadas, así que no se puede comprobar cómo está hecho ni qué lleva dentro más allá de lo que dice su autor. Se juega con teclado, ratón y mando, con las dos pantallas en una sola ventana (F2 cambia la disposición, F3 mueve la pantalla pequeña y Tab las intercambia), pantalla completa y una traducción al inglés que se activa con F8 (las voces siguen en japonés). La primera vez pide el archivo .3ds y lo recuerda; los ajustes están en config.ini."
+  en: "An unofficial native Windows port of the 3DS version which, according to the repository’s description, was made by static recompilation. It doesn’t publish its code: the repository only holds the README and a prebuilt Kurobikari.exe of about 24 MB, with no published releases, so how it’s made can’t be checked beyond what its author says. It plays with keyboard, mouse, and gamepad, with both screens in a single window (F2 changes the layout, F3 moves the small screen, and Tab swaps them), full screen, and an English translation switched with F8 (the voices stay Japanese). The first time it asks for the .3ds file and remembers it; the settings are in config.ini."
+requirements:
+  es: "Tu propia copia del juego como archivo .3ds descifrado. Windows 10 u 11; no hay que instalar nada."
+  en: "Your own copy of the game as a decrypted .3ds file. Windows 10 or 11; nothing has to be installed."
+tags:
+  - arm
+  - closed-source

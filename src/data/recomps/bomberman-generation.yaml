@@ -1,0 +1,21 @@
+name: "Bomberman Generation"
+games: [bomberman-generation]
+console: gamecube
+status: playable
+repo: nikeymikey/bomberman-generation-moderngekko
+originalDeveloper: "Game Arts"
+year: 2002
+toolchain: DolRecomp
+desc:
+  es: "Recompilación estática de Bomberman Generation (NTSC-U, GBGE5G) para ejecutarse de forma nativa en Windows, con DolRecomp y ModernGekko, un runtime derivado de Dolphin: el código PowerPC se traduce a C y se compila para tu procesador. El README lo da por jugable y ofrece pantalla ancha 16:9 o el 4:3 original, resolución interna independiente de la ventana, Vulkan u OpenGL, mandos de GameCube con perfiles, estados guardados, juego en red y un sistema de mods, con uno incluido (Battle: Starting Bombs, que da de 1 a 8 bombas al empezar un combate). Como el módulo recompilado deriva del binario de Nintendo, no se distribuye: el lanzador lo compila en tu equipo la primera vez, a partir de tu disco, y por eso la primera ejecución tarda varios minutos. Tampoco hay descargas; se publica solo el código, porque los ejecutables sin firmar chocan con Smart App Control de Windows. Su única versión etiquetada, la 0.1.0, es del 28 de agosto y no lleva archivos adjuntos."
+  en: "A static recompilation of Bomberman Generation (NTSC-U, GBGE5G) to run natively on Windows, with DolRecomp and ModernGekko, a Dolphin-derived runtime: the PowerPC code is translated into C and compiled for your CPU. The README calls it playable and offers 16:9 widescreen or the original 4:3, internal resolution independent of the window, Vulkan or OpenGL, GameCube controllers with profiles, save states, netplay, and a mod system, with one included (Battle: Starting Bombs, which gives 1 to 8 bombs at the start of a Battle match). Because the recompiled module derives from Nintendo’s binary, it isn’t distributed: the launcher compiles it on your PC on first run, from your disc, which is why the first launch takes several minutes. There are no downloads either; only the source is published, because unsigned executables clash with Windows Smart App Control. Its only tagged release, 0.1.0, is from August 28 and has no attached files."
+requirements:
+  es: "Tu propio volcado de Bomberman Generation para GameCube, estadounidense (NTSC-U, GBGE5G). Windows, con CMake, Ninja y MinGW-w64 GCC para compilar; el lanzador construye el juego para tu CPU en el primer arranque."
+  en: "Your own dump of Bomberman Generation for the GameCube, US (NTSC-U, GBGE5G). Windows, with CMake, Ninja, and MinGW-w64 GCC to build; the launcher builds the game for your CPU on first start."
+tags:
+  - powerpc
+  - action
+  - widescreen
+  - netplay
+  - mods
+  - static-recomp

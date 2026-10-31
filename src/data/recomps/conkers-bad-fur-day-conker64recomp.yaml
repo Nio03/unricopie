@@ -1,0 +1,17 @@
+name: "Conker's Bad Fur Day (Conker64Recomp)"
+games: [conkers-bad-fur-day]
+console: n64
+status: experimental
+repo: Conker64Recomp/conker64-recompiled
+originalDeveloper: "Rare"
+year: 2001
+desc:
+  es: "Proyecto en curso que su propio README aclara que no es todavía una recompilación estática terminada ni permite jugar. Es un conjunto de herramientas de ingeniería inversa y un motor 3D en C++20 sobre SDL2, escrito desde cero, que lee un volcado del cartucho, descifra y descomprime los archivos RZIP de Rare (recupera 507 de 508 subsegmentos de código MIPS en una RDRAM emulada de 8 MB), indexa y reproduce 453 pistas de audio MP3, decodifica los formatos de textura de N64 y dibuja una escena 3D explorable con un rasterizador por software propio y un personaje procedural. El código recuperado todavía no se ejecuta: faltan por hacer la integración de N64Recomp (hay archivos de configuración, pero el directorio de código generado está vacío), la de RT64, la lógica de juego, los enemigos, los niveles y el HUD. La única versión, la 0.1.0-beta (27 de agosto), pesa unos 0,9 MB."
+  en: "A work in progress that its own README states is not yet a finished static recompilation and does not play the game. It is a reverse-engineering toolkit and a 3D engine in C++20 on SDL2, written from scratch, that loads a cartridge dump, decrypts and decompresses Rare’s RZIP archives (recovering 507 of 508 MIPS code subsegments into an emulated 8 MB RDRAM), indexes and plays back 453 MP3 audio streams, decodes the N64 texture formats, and draws an explorable 3D scene with its own software rasteriser and a procedural character. The recovered code is not executed yet: N64Recomp integration (configuration files exist, but the generated-code directory is empty), RT64 integration, game logic, enemies, levels, and the HUD are still to do. The only release, 0.1.0-beta (August 27), weighs about 0.9 MB."
+requirements:
+  es: "Tu propio volcado de ROM de Conker's Bad Fur Day de 64 MB (.z64, .v64 o .n64; se normaliza a big-endian y se valida la cabecera). Windows x64."
+  en: "Your own 64 MB Conker's Bad Fur Day ROM dump (.z64, .v64, or .n64; it is normalized to big-endian and the header is validated). x64 Windows."
+tags:
+  - mips
+  - platformer
+  - reverse-engineering

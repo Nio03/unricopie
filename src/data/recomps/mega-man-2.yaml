@@ -1,0 +1,17 @@
+name: "Mega Man 2"
+games: [mega-man-2]
+console: nes
+status: playable
+repo: Junior-Jones/Mega-Man-2-NES-Static-Recomp
+originalDeveloper: "Capcom"
+year: 1988
+desc:
+  es: "Recompilación estática para Windows de la versión estadounidense de Mega Man 2 para NES. Las instrucciones 6502 del juego se tradujeron por adelantado a C, sin intérprete, compilador dinámico ni emulador de reserva, y ese código generado (20.149 puntos de entrada) está en el repositorio; el resto es el ejecutable de Windows, con el mapeador MMC1, la PPU, el APU y los mandos, que usa SDL3. Trae un lanzador portátil con ajustes de vídeo, audio y asignación de mandos, partidas rápidas y capturas. El README no detalla qué falla ni si el juego se completa. La última versión, la 1.2.0 (29 de agosto), es la tercera y publica un zip para Windows y otro con el código fuente, de unos 1,5 y 1 MB."
+  en: "A static recompilation of the US NES version of Mega Man 2 for Windows. The game’s 6502 instructions were translated ahead of time into C, with no interpreter, dynamic recompiler, or emulator fallback, and that generated code (20,149 entry points) is in the repository; the rest is the Windows executable, with the MMC1 mapper, the PPU, the APU, and controllers, using SDL3. It comes with a portable launcher with video, audio, and controller binding settings, quick saves, and screenshots. The README doesn’t say what fails or whether the game can be finished. The latest release, 1.2.0 (August 29), is the third and publishes a Windows zip and a source zip, about 1.5 and 1 MB."
+requirements:
+  es: "Tu propia copia de Mega Man 2 (USA, NTSC) para NES en formato .nes, colocada en la carpeta Rom junto al lanzador, que valida el archivo. Además, Windows 10 u 11."
+  en: "Your own copy of Mega Man 2 (USA, NTSC) for the NES in .nes format, placed in the Rom folder next to the launcher, which validates the file. Plus Windows 10 or 11."
+tags:
+  - "6502"
+  - platformer
+  - static-recomp

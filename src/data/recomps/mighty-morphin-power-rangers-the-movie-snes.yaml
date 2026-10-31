@@ -1,0 +1,18 @@
+name: "Mighty Morphin Power Rangers: The Movie (SNES)"
+games: [mighty-morphin-power-rangers-the-movie-snes]
+console: snes
+status: fully
+repo: cultofblue/mmpr-movie-snes2pc
+originalDeveloper: "Natsume"
+year: 1995
+desc:
+  es: "Versión nativa para PC de la versión estadounidense, hecha por recompilación estática del código 65816 a C: un desensamblador con trazado, guiado por un mapa de cobertura grabado con partidas de personas y bots, y un recompilador que convierte cada una de sus 2 745 funciones en una función en C. El PPU y el sonido (SPC700 y DSP) se reproducen por software con base en LakeSnes, y lo que no se puede decidir de antemano pasa a un intérprete de reserva (el 0,3 % de las instrucciones en la partida completa). Según el README, una partida completa de 47 minutos, del encendido a los créditos, se repitió en este port y en un emulador de referencia, y los 169 286 fotogramas coincidieron en toda la memoria, los gráficos, las paletas y los sprites. Añade teclado y dos mandos reasignables, guardado rápido, rebobinado, avance rápido, capturas, líneas de exploración, escalado entero y salud infinita opcional. Su única versión, la 1.0.0 (26 de octubre), no trae archivos para descargar: se compila con tu ROM mediante un script. El README acredita el port a su autor «con Claude (Anthropic)»."
+  en: "A native PC version of the US release, made by statically recompiling the 65816 code to C: a tracing disassembler, guided by a coverage map recorded from human and bot playthroughs, and a recompiler that turns each of its 2,745 functions into a C function. The PPU and sound (SPC700 and DSP) are reproduced in software based on LakeSnes, and anything that can’t be decided ahead of time goes to a fallback interpreter (0.3% of instructions in the full playthrough). According to the README, a complete 47-minute playthrough, from power-on to the ending credits, was replayed on this port and on a reference emulator, and all 169,286 frames matched in memory, graphics, palettes, and sprites. It adds keyboard and two remappable controllers, save states, rewind, fast forward, screenshots, scanlines, integer scaling, and optional infinite health. Its only release, 1.0.0 (October 26), has no files to download: you build it with your ROM through a script. The README credits the port to its author “with Claude (Anthropic)”."
+requirements:
+  es: "Tu propia ROM estadounidense de Mighty Morphin Power Rangers: The Movie (CRC32 E3EF6201; una cabecera de copiador de 512 bytes no molesta). Para compilar: Python 3.8 o posterior y un compilador C (w64devkit en Windows, o gcc con SDL2 en Linux); la ROM se coloca junto al .exe o se arrastra sobre él."
+  en: "Your own US Mighty Morphin Power Rangers: The Movie ROM (CRC32 E3EF6201; a 512-byte copier header is fine). To build: Python 3.8 or later and a C compiler (w64devkit on Windows, or gcc with SDL2 on Linux); the ROM goes next to the .exe or is dragged onto it."
+tags:
+  - "65816"
+  - action
+  - static-recomp
+  - ai-assisted

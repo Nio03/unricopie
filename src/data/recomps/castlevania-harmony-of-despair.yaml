@@ -1,0 +1,20 @@
+name: "Castlevania: Harmony of Despair"
+games: [castlevania-harmony-of-despair]
+console: x360
+status: fully
+repo: Wrexxial/HarmonyRecomp
+originalDeveloper: "Konami"
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de Castlevania: Harmony of Despair (Xbox Live Arcade, ID de título 58410A7A) para Windows, hecha con el SDK de ReXGlue y basada en NocturneRecomp. El código PowerPC del default.xex y de los módulos de personaje se traduce a C++ al compilar y se compila de forma nativa para x86-64; los gráficos, el audio y los servicios de Xbox vienen del entorno de ReXGlue, derivado de Xenia. El README dice que corre el juego entero, con todas las fases y los seis personajes base, e incluye menú de ajustes (F6), contador de FPS, juego cooperativo en línea sin Xbox Live (hasta seis jugadores por LAN o red virtual) y compatibilidad con el DLC de personajes y fases a partir de tus paquetes y la actualización de título 2. El instalador (HarmonyRecomp-Setup.exe) descarga las herramientas de compilación (unos 1 GB, más los componentes de C++ de Microsoft si faltan) y compila el juego en tu equipo. La última versión es la 0.4.2 (31 de octubre). 40 de sus 42 commits llevan a Claude como coautor."
+  en: "A static recompilation of Castlevania: Harmony of Despair (Xbox Live Arcade, title ID 58410A7A) for Windows, built on the ReXGlue SDK and modelled on NocturneRecomp. The PowerPC code of default.xex and the character modules is translated to C++ at build time and compiled natively for x86-64; graphics, audio, and the Xbox system services come from the ReXGlue runtime, derived from Xenia. The README says it runs the whole game, with all stages and the six base characters, and includes a settings menu (F6), an FPS counter, online co-op without Xbox Live (up to six players over LAN or a virtual LAN), and support for the character and stage DLC from your own packages and title update 2. The installer (HarmonyRecomp-Setup.exe) downloads the build tools (about 1 GB, plus Microsoft’s C++ components if missing) and builds the game on your PC. The latest version is 0.4.2 (October 31). 40 of its 42 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Castlevania: Harmony of Despair de Xbox 360: el archivo sin extensión (que empieza por LIVE) de 58410A7A\\000D0000 de tu volcado de consola. Opcionalmente, tus paquetes de DLC y la actualización de título 2. Windows 10 u 11 de 64 bits y conexión a internet para las herramientas de compilación."
+  en: "Your own copy of Castlevania: Harmony of Despair for Xbox 360: the file without extension (starting with LIVE) from 58410A7A\\000D0000 of your console dump. Optionally, your DLC packages and title update 2. 64-bit Windows 10 or 11 and an internet connection for the build tools."
+tags:
+  - powerpc
+  - action
+  - multiplayer
+  - online
+  - ai-assisted

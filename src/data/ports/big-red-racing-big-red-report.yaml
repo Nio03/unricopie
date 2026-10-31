@@ -1,0 +1,23 @@
+name: "Big Red Racing (Big Red Report)"
+games: [big-red-racing]
+category: game-engine
+console: dos
+status: playable
+repo: BigRedReport/bigredreport
+originalDeveloper: "Big Red Software"
+year: 1995
+desc:
+  es: "Port hecho por aficionados de Big Red Racing que reimplementa el juego en JavaScript y WebGL2, sin dependencias, y lee los archivos de tu copia original (la carpeta BIGRED; con la imagen del CD también puede sonar la música del juego). Se juega en el navegador (Chrome o Edge) o con aplicaciones para Windows, Linux, Steam Deck y Android que envuelven la misma web; el repositorio no incluye datos del juego. Añade gráficos modernos con luz solar y sombras o el aspecto de 1995, pantalla ultrapanorámica, mandos, pantalla partida de hasta 8 jugadores, juego en línea de hasta 12 con chat de voz, rivales originales grabados o una IA nueva, repeticiones, modo foto, contrarreloj, modo drift, un editor de circuitos y mods que sustituyen archivos del juego. El repositorio trae sus propios circuitos, bocinas, logos y dos temas musicales libres de derechos para los modos Grand Prix y drift. La 0.112.0 (31 de octubre) es la última de 69 versiones; los paquetes de escritorio pesan de 118 a 130 MB y el zip del navegador, unos 11 MB. 70 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A fan-made port of Big Red Racing that reimplements the game in JavaScript and WebGL2, with no dependencies, and reads the files of your original copy (the BIGRED folder; with the CD image the game’s music can also play). It is played in the browser (Chrome or Edge) or with Windows, Linux, Steam Deck, and Android apps that wrap the same web page; the repository includes no game data. It adds modern graphics with sunlight and shadows or the 1995 look, ultrawide support, controllers, split-screen for up to 8 players, online play for up to 12 with voice chat, the original recorded rivals or a new AI, replays, photo mode, time trials, a drift mode, a track editor, and mods that replace game files. The repository carries its own circuits, horns, logos, and two royalty-free music tracks for the Grand Prix and drift modes. Version 0.112.0 (October 31) is the latest of 69 releases; the desktop packages weigh 118 to 130 MB and the browser zip about 11 MB. 70 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia original de Big Red Racing: la carpeta BIGRED y, si quieres la música del CD, su imagen (IMAGE.img/IMAGE.cue). Se elige al pulsar PRESS START. Además, Chrome o Edge, o la aplicación de Windows, Linux o Android; en Android hay que dar un .zip con la carpeta BIGRED."
+  en: "Your own original copy of Big Red Racing: the BIGRED folder and, if you want the CD music, its image (IMAGE.img/IMAGE.cue). You choose it after pressing PRESS START. Plus Chrome or Edge, or the Windows, Linux, or Android app; on Android you provide a .zip with the BIGRED folder."
+tags:
+  - racing
+  - widescreen
+  - multiplayer
+  - online
+  - mods
+  - build-android
+  - build-web
+  - ai-assisted

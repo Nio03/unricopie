@@ -1,0 +1,21 @@
+name: "Dragon Quest IX: Sentinels of the Starry Skies"
+games: [dragon-quest-ix-sentinels-of-the-starry-skies]
+console: nds
+status: playable
+repo: sackchief/dqix-enhanced
+originalDeveloper: "Level-5"
+year: 2009
+desc:
+  es: "Recompilación del código de Dragon Quest IX a código nativo de PC, con el hardware de la DS reconstruido alrededor; según el README no es un emulador que ejecute el código de la DS. El juego se construye en tu equipo a partir de tu ROM: un instalador por lotes instala MSYS2 y compila en 10 a 20 minutos. Ofrece un modo clásico, comprobado cuadro a cuadro contra un emulador de DS de referencia, y un modo mejorado con el 3D a hasta 12 veces la resolución, pantalla ancha básica y dinámica (esta, experimental), una o dos ventanas, filtro de «DS Lite», guardado en el formato propio de la DS, multijugador por internet (etiquetas y cooperativo de hasta 4 jugadores) y la tienda DQVC con sus 52 ventas semanales y las misiones descargables, servidas por un pequeño servidor integrado. Hay 8 versiones en la lista de releases; la última es la v32, del 27 de octubre, y hay además una «nightly» del mismo día. 100 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A recompilation of Dragon Quest IX’s code to native PC code, with the DS hardware rebuilt around it; according to the README it is not an emulator running the DS code. The game is built on your PC from your ROM: a batch installer sets up MSYS2 and compiles in 10 to 20 minutes. It offers a classic mode, checked frame by frame against a reference DS emulator, and an enhanced mode with the 3D drawn at up to 12 times the resolution, basic and dynamic widescreen (the latter experimental), one or two windows, a “DS Lite” screen filter, saves in the DS’s own format, internet multiplayer (tag mode and co-op for up to 4 players), and the DQVC shop with its 52 weekly sales and the downloadable quests, served by a small built-in server. The releases list has 8 entries; the latest is v32, from October 27, and there is also a “nightly” from the same day. 100 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM (.nds, o un .zip que la contenga) de Dragon Quest IX, estadounidense o europea (otras se pueden probar). Windows 10 u 11 de 64 bits, unos 3 GB libres e internet la primera vez, para instalar MSYS2 y las herramientas de compilación."
+  en: "Your own ROM (.nds, or a .zip containing it) of Dragon Quest IX, US or European (others can be tried). 64-bit Windows 10 or 11, about 3 GB free, and internet the first time, to install MSYS2 and the build tools."
+tags:
+  - arm9
+  - arm7
+  - rpg
+  - multiplayer
+  - online
+  - widescreen
+  - ai-assisted

@@ -11,6 +11,11 @@
 # - year: año del lanzamiento original. platforms: de qué plataformas parten
 #   los proyectos del catálogo.
 
+007-everything-or-nothing:
+  name: "007: Everything or Nothing"
+  year: 2004
+  platforms: [xbox]
+
 007-from-russia-with-love:
   name: "007: From Russia with Love"
   igdb: 1645
@@ -53,6 +58,12 @@
   year: 1995
   platforms: [pc]
 
+40-winks:
+  name: 40 Winks
+  igdb: 5568
+  year: 1999
+  platforms: [n64]
+
 50-cent-blood-on-the-sand:
   name: "50 Cent: Blood on the Sand"
   igdb: 5472
@@ -83,6 +94,12 @@ ace-combat-6-fires-of-liberation:
   year: 2007
   platforms: [x360]
 
+ace-combat-infinity:
+  name: Ace Combat Infinity
+  igdb: 6628
+  year: 2014
+  platforms: [ps3]
+
 ace-combat-x-skies-of-deception:
   name: "Ace Combat X: Skies of Deception"
   igdb: 14755
@@ -106,6 +123,12 @@ actraiser:
   year: 1990
   platforms: [snes]
 
+advanced-vg-2:
+  name: Advanced V.G. 2
+  igdb: 44799
+  year: 1998
+  platforms: [ps1]
+
 adventure-island-ii:
   name: Adventure Island II
   igdb: 6471
@@ -117,6 +140,12 @@ aerogauge:
   igdb: 3329
   year: 1997
   platforms: [n64]
+
+after-burner-climax:
+  name: After Burner Climax
+  igdb: 20085
+  year: 2006
+  platforms: [x360]
 
 age-of-empires:
   name: Age of Empires
@@ -172,6 +201,18 @@ alien-resurrection:
   year: 2000
   platforms: [ps1]
 
+aliens-versus-predator:
+  name: Aliens versus Predator
+  igdb: 9979
+  year: 1999
+  platforms: [pc]
+
+alundra:
+  name: Alundra
+  igdb: 1175
+  year: 1997
+  platforms: [ps1]
+
 american-mcgees-alice:
   name: "American McGee's Alice"
   igdb: 337
@@ -220,6 +261,12 @@ arctic-thunder:
   year: 2001
   platforms: [arcade]
 
+ares:
+  name: Ares
+  igdb: 93968
+  year: 1998
+  platforms: [mac]
+
 armadillo-racing:
   name: Armadillo Racing
   igdb: 129114
@@ -238,6 +285,12 @@ armored-core-for-answer:
   year: 2008
   platforms: [ps3, x360]
 
+army-men-sarges-heroes:
+  name: "Army Men: Sarge's Heroes"
+  igdb: 3440
+  year: 1999
+  platforms: [n64]
+
 army-of-two:
   name: Army of Two
   igdb: 996
@@ -249,6 +302,12 @@ arx-fatalis:
   igdb: 602
   year: 2002
   platforms: [pc]
+
+astral-chain:
+  name: Astral Chain
+  igdb: 115283
+  year: 2019
+  platforms: [switch]
 
 asuka-120-final-burning-fest-final:
   name: "Asuka 120% Final: Burning Fest. Final"
@@ -326,7 +385,7 @@ banjo-kazooie:
   name: Banjo-Kazooie
   igdb: 2148
   year: 1998
-  platforms: [n64]
+  platforms: [n64, x360]
 
 banjo-kazooie-nuts-and-bolts:
   name: "Banjo-Kazooie: Nuts & Bolts"
@@ -338,7 +397,7 @@ banjo-tooie:
   name: Banjo-Tooie
   igdb: 3418
   year: 2000
-  platforms: [n64]
+  platforms: [n64, x360]
 
 barnyard:
   name: Barnyard
@@ -382,11 +441,23 @@ bayonetta-2:
   year: 2014
   platforms: [switch]
 
+bayonetta-3:
+  name: Bayonetta 3
+  igdb: 76888
+  year: 2022
+  platforms: [switch]
+
 beetle-adventure-racing:
   name: "Beetle Adventure Racing!"
   igdb: 2715
   year: 1999
   platforms: [n64]
+
+ben-10-ultimate-alien-cosmic-destruction:
+  name: "Ben 10 Ultimate Alien: Cosmic Destruction"
+  igdb: 2807
+  year: 2010
+  platforms: [x360]
 
 betrayal-at-krondor:
   name: Betrayal at Krondor
@@ -399,6 +470,12 @@ big-bumpin:
   igdb: 2731
   year: 2006
   platforms: [x360]
+
+big-red-racing:
+  name: Big Red Racing
+  igdb: 19233
+  year: 1995
+  platforms: [dos, pc]
 
 billy-frontier:
   name: Billy Frontier
@@ -460,11 +537,23 @@ blood-cryptic-passage:
   year: 1997
   platforms: [dos]
 
+blood-wake:
+  name: Blood Wake
+  igdb: 5754
+  year: 2001
+  platforms: [xbox]
+
 bloodborne:
   name: Bloodborne
   igdb: 7334
   year: 2015
   platforms: [ps4]
+
+bloody-roar-extreme:
+  name: Bloody Roar Extreme
+  igdb: 225826
+  year: 2003
+  platforms: [xbox]
 
 bloody-roar-ii:
   name: Bloody Roar II
@@ -496,6 +585,12 @@ bomberman-fantasy-race:
   year: 1998
   platforms: [ps1]
 
+bomberman-generation:
+  name: Bomberman Generation
+  igdb: 3832
+  year: 2002
+  platforms: [gamecube]
+
 bomberman-hero:
   name: Bomberman Hero
   igdb: 3453
@@ -514,6 +609,12 @@ bomberman-world:
   year: 1998
   platforms: [ps1]
 
+boss-rally:
+  name: Boss Rally
+  igdb: 8431
+  year: 1999
+  platforms: [pc]
+
 brave-fencer-musashi:
   name: Brave Fencer Musashi
   igdb: 1810
@@ -525,6 +626,12 @@ breakdown:
   igdb: 5756
   year: 2004
   platforms: [xbox]
+
+bubble-bobble:
+  name: Bubble Bobble
+  igdb: 194444
+  year: 1987
+  platforms: [nes]
 
 buck-bumble:
   name: Buck Bumble
@@ -628,6 +735,12 @@ call-of-duty-modern-warfare-2:
   year: 2009
   platforms: [pc]
 
+call-to-power-ii:
+  name: Call to Power II
+  igdb: 11266
+  year: 2000
+  platforms: [pc]
+
 cannon-fodder:
   name: Cannon Fodder
   igdb: 5519
@@ -657,6 +770,18 @@ castlevania-chronicles:
   igdb: 19468
   year: 2001
   platforms: [ps1]
+
+castlevania-curse-of-darkness:
+  name: "Castlevania: Curse of Darkness"
+  igdb: 1137
+  year: 2005
+  platforms: [ps2]
+
+castlevania-harmony-of-despair:
+  name: "Castlevania: Harmony of Despair"
+  igdb: 1147
+  year: 2010
+  platforms: [x360]
 
 castlevania-legacy-of-darkness:
   name: "Castlevania: Legacy of Darkness"
@@ -772,6 +897,12 @@ colin-mcrae-rally-2-0:
   year: 2000
   platforms: [pc]
 
+colin-mcrae-rally-2005:
+  name: Colin McRae Rally 2005
+  igdb: 7969
+  year: 2004
+  platforms: [xbox]
+
 command-and-conquer:
   name: "Command & Conquer"
   igdb: 647
@@ -856,6 +987,12 @@ conkers-bad-fur-day:
   year: 2001
   platforms: [n64]
 
+contra-iii-the-alien-wars:
+  name: "Contra III: The Alien Wars"
+  igdb: 6351
+  year: 1992
+  platforms: [snes]
+
 counter-strike:
   name: Counter-Strike
   igdb: 241
@@ -928,6 +1065,12 @@ crash-twinsanity:
   year: 2004
   platforms: [ps2]
 
+crazy-taxi:
+  name: Crazy Taxi
+  igdb: 1805
+  year: 1999
+  platforms: [dreamcast]
+
 crimsonland:
   name: Crimsonland
   igdb: 253323
@@ -939,6 +1082,12 @@ cro-mag-rally:
   igdb: 92404
   year: 1998
   platforms: [mac]
+
+crusader-no-remorse:
+  name: "Crusader: No Remorse"
+  igdb: 7840
+  year: 1995
+  platforms: [dos]
 
 crystal-caves:
   name: Crystal Caves
@@ -975,6 +1124,12 @@ dance-central-3:
   igdb: 19910
   year: 2012
   platforms: [x360]
+
+dance-dance-revolution:
+  name: Dance Dance Revolution
+  igdb: 3679
+  year: 1998
+  platforms: [ps1]
 
 dantes-inferno:
   name: "Dante's Inferno"
@@ -1018,11 +1173,23 @@ dead-or-alive-3:
   year: 2001
   platforms: [xbox]
 
+dead-or-alive-4:
+  name: Dead or Alive 4
+  igdb: 1392
+  year: 2005
+  platforms: [x360]
+
 dead-or-alive-ultimate:
   name: Dead or Alive Ultimate
   igdb: 318500
   year: 2004
   platforms: [xbox]
+
+dead-or-alive-xtreme-2:
+  name: Dead or Alive Xtreme 2
+  igdb: 1393
+  year: 2006
+  platforms: [x360]
 
 dead-or-alive-xtreme-beach-volleyball:
   name: Dead or Alive Xtreme Beach Volleyball
@@ -1101,6 +1268,12 @@ destroy-all-humans-path-of-the-furon:
   igdb: 2717
   year: 2008
   platforms: [x360]
+
+destruction-derby-64:
+  name: Destruction Derby 64
+  igdb: 10686
+  year: 1999
+  platforms: [n64]
 
 devil-may-cry:
   name: Devil May Cry
@@ -1293,6 +1466,12 @@ downhill-domination:
   year: 2003
   platforms: [ps2]
 
+downtown-no-gaki-no-tsukai-ya-arahende-zettai-ni-tsukamatte-wa-ikenai-gasu-kurobikari-land:
+  name: "Downtown no Gaki no Tsukai ya Arahende!! Zettai ni Tsukamatte wa Ikenai Gasu Kurobikari Land"
+  igdb: 218525
+  year: 2015
+  platforms: [3ds]
+
 dr-mario:
   name: Dr. Mario
   igdb: 3476
@@ -1375,6 +1554,12 @@ dragon-quest-iv-chapters-of-the-chosen:
   name: "Dragon Quest IV: Chapters of the Chosen"
   igdb: 1815
   year: 2007
+  platforms: [nds]
+
+dragon-quest-ix-sentinels-of-the-starry-skies:
+  name: "Dragon Quest IX: Sentinels of the Starry Skies"
+  igdb: 1820
+  year: 2009
   platforms: [nds]
 
 dragon-quest-viii-journey-of-the-cursed-king:
@@ -1473,6 +1658,12 @@ ea-sports-ufc-3:
   year: 2018
   platforms: [ps4]
 
+ea-sports-ufc-4:
+  name: EA Sports UFC 4
+  igdb: 136560
+  year: 2020
+  platforms: [ps4]
+
 earth-2140:
   name: Earth 2140
   igdb: 8931
@@ -1484,6 +1675,12 @@ earthbound:
   igdb: 2899
   year: 1994
   platforms: [snes]
+
+earthbound-beginnings:
+  name: EarthBound Beginnings
+  igdb: 11191
+  year: 1989
+  platforms: [nes]
 
 earthsiege-2:
   name: Earthsiege 2
@@ -1520,6 +1717,12 @@ enchanted-arms:
   igdb: 6988
   year: 2006
   platforms: [x360]
+
+espn-nfl-2k5:
+  name: ESPN NFL 2K5
+  igdb: 7881
+  year: 2004
+  platforms: [xbox]
 
 eternal-darkness-sanitys-requiem:
   name: "Eternal Darkness: Sanity's Requiem"
@@ -1563,6 +1766,12 @@ extreme-g-2:
   year: 1998
   platforms: [n64]
 
+f-117a-nighthawk-stealth-fighter-2-0:
+  name: F-117A Nighthawk Stealth Fighter 2.0
+  igdb: 10292
+  year: 1991
+  platforms: [dos]
+
 f-15-strike-eagle-ii:
   name: F-15 Strike Eagle II
   igdb: 12084
@@ -1574,6 +1783,12 @@ f-19-stealth-fighter:
   igdb: 10206
   year: 1988
   platforms: [dos]
+
+f-e-a-r:
+  name: F.E.A.R.
+  igdb: 202149
+  year: 2006
+  platforms: [x360]
 
 f-zero:
   name: F-Zero
@@ -1747,7 +1962,7 @@ forza-horizon-2:
   name: Forza Horizon 2
   igdb: 7326
   year: 2014
-  platforms: [xboxone]
+  platforms: [xboxone, x360]
 
 forza-motorsport-2:
   name: Forza Motorsport 2
@@ -1797,10 +2012,22 @@ galerians:
   year: 1999
   platforms: [ps1]
 
+gears-of-war:
+  name: Gears of War
+  igdb: 547
+  year: 2006
+  platforms: [x360]
+
 gears-of-war-2:
   name: Gears of War 2
   igdb: 548
   year: 2008
+  platforms: [x360]
+
+gears-of-war-3:
+  name: Gears of War 3
+  igdb: 492
+  year: 2011
   platforms: [x360]
 
 gears-of-war-judgment:
@@ -1809,11 +2036,29 @@ gears-of-war-judgment:
   year: 2013
   platforms: [x360]
 
+genma-onimusha:
+  name: Genma Onimusha
+  igdb: 78622
+  year: 2002
+  platforms: [xbox]
+
 geometry-dash:
   name: Geometry Dash
   igdb: 11642
   year: 2013
   platforms: [mobile]
+
+geometry-wars-3-dimensions:
+  name: "Geometry Wars 3: Dimensions"
+  igdb: 7705
+  year: 2014
+  platforms: [x360]
+
+geometry-wars-retro-evolved:
+  name: "Geometry Wars: Retro Evolved"
+  igdb: 15756
+  year: 2005
+  platforms: [x360]
 
 geometry-wars-retro-evolved-2:
   name: "Geometry Wars: Retro Evolved 2"
@@ -2019,10 +2264,21 @@ gravity-rush-remastered:
   year: 2015
   platforms: [ps4]
 
+gti-club-corso-italiano:
+  name: "GTI Club: Corso Italiano"
+  year: 2000
+  platforms: [arcade]
+
 guitar-hero-ii:
   name: Guitar Hero II
   igdb: 2670
   year: 2006
+  platforms: [x360]
+
+guitar-hero-metallica:
+  name: "Guitar Hero: Metallica"
+  igdb: 2674
+  year: 2009
   platforms: [x360]
 
 guitar-hero-warriors-of-rock:
@@ -2169,6 +2425,12 @@ hitman-blood-money:
   year: 2006
   platforms: [pc]
 
+hogs-of-war:
+  name: Hogs of War
+  igdb: 8877
+  year: 2000
+  platforms: [ps1]
+
 homeworld-2:
   name: Homeworld 2
   igdb: 750
@@ -2271,6 +2533,12 @@ infamous-festival-of-blood:
   year: 2011
   platforms: [ps3]
 
+infamous-first-light:
+  name: inFAMOUS First Light
+  igdb: 7328
+  year: 2014
+  platforms: [ps4]
+
 infamous-second-son:
   name: inFAMOUS Second Son
   igdb: 1941
@@ -2306,6 +2574,12 @@ international-superstar-soccer-deluxe:
   igdb: 9862
   year: 1995
   platforms: [snes]
+
+interstate-76:
+  name: "Interstate '76"
+  igdb: 760
+  year: 1997
+  platforms: [pc]
 
 ion-fury:
   name: Ion Fury
@@ -2349,6 +2623,12 @@ jak-ii:
   year: 2003
   platforms: [ps2]
 
+james-pond-2-codename-robocod:
+  name: "James Pond 2: Codename RoboCod"
+  igdb: 4443
+  year: 1991
+  platforms: [other]
+
 jazz-jackrabbit:
   name: Jazz Jackrabbit
   igdb: 3167
@@ -2391,6 +2671,18 @@ jojos-bizarre-adventure-heritage-for-the-future:
   year: 1999
   platforms: [ps1]
 
+juiced-2-hot-import-nights:
+  name: "Juiced 2: Hot Import Nights"
+  igdb: 7024
+  year: 2007
+  platforms: [x360]
+
+jump-ultimate-stars:
+  name: Jump Ultimate Stars
+  igdb: 40263
+  year: 2006
+  platforms: [nds]
+
 jungle-strike:
   name: Jungle Strike
   igdb: 4368
@@ -2402,6 +2694,12 @@ kameo-elements-of-power:
   igdb: 7029
   year: 2005
   platforms: [x360]
+
+kileak-the-dna-imperative:
+  name: "Kileak: The DNA Imperative"
+  igdb: 20255
+  year: 1995
+  platforms: [ps1]
 
 killer-instinct:
   name: Killer Instinct
@@ -2425,6 +2723,12 @@ killzone-2:
   name: Killzone 2
   igdb: 1866
   year: 2009
+  platforms: [ps3]
+
+killzone-3:
+  name: Killzone 3
+  igdb: 1867
+  year: 2011
   platforms: [ps3]
 
 killzone-shadow-fall:
@@ -2499,6 +2803,12 @@ knack-ii:
   year: 2017
   platforms: [ps4]
 
+knife-edge-nose-gunner:
+  name: "Knife Edge: Nose Gunner"
+  igdb: 3533
+  year: 1998
+  platforms: [n64]
+
 knuckles-chaotix:
   name: "Knuckles' Chaotix"
   igdb: 19762
@@ -2516,6 +2826,12 @@ korokoro-post-nin:
   igdb: 92677
   year: 2002
   platforms: [ps1]
+
+landstalker-the-treasures-of-king-nole:
+  name: "Landstalker: The Treasures of King Nole"
+  igdb: 15072
+  year: 1992
+  platforms: [megadrive]
 
 legacy-of-kain-soul-reaver:
   name: "Legacy of Kain: Soul Reaver"
@@ -2611,6 +2927,12 @@ loveplus:
   year: 2010
   platforms: [nds]
 
+lufia-ii-rise-of-the-sinistrals:
+  name: "Lufia II: Rise of the Sinistrals"
+  igdb: 1178
+  year: 1995
+  platforms: [snes]
+
 luigis-mansion:
   name: "Luigi's Mansion"
   igdb: 2485
@@ -2628,6 +2950,10 @@ madden-nfl-08:
   igdb: 2746
   year: 2007
   platforms: [x360]
+
+magic-ball-2:
+  name: Magic Ball 2
+  platforms: [pc]
 
 magiczna-kula-papatki:
   name: Magiczna Kula Papatki
@@ -2724,6 +3050,18 @@ marvel-nemesis-rise-of-the-imperfects:
   year: 2005
   platforms: [xbox]
 
+marvel-ultimate-alliance:
+  name: Marvel Ultimate Alliance
+  igdb: 4999
+  year: 2006
+  platforms: [x360]
+
+marvel-ultimate-alliance-2:
+  name: Marvel Ultimate Alliance 2
+  igdb: 568
+  year: 2009
+  platforms: [x360]
+
 marvel-vs-capcom-clash-of-super-heroes:
   name: "Marvel vs. Capcom: Clash of Super Heroes"
   igdb: 331786
@@ -2741,6 +3079,12 @@ master-of-orion:
   igdb: 67
   year: 1993
   platforms: [dos]
+
+max-payne:
+  name: Max Payne
+  igdb: 18
+  year: 2001
+  platforms: [xbox]
 
 mdk:
   name: MDK
@@ -2772,6 +3116,12 @@ medal-of-honor-allied-assault-spearhead:
   year: 2002
   platforms: [pc]
 
+medal-of-honor-frontline:
+  name: "Medal of Honor: Frontline"
+  igdb: 1309
+  year: 2002
+  platforms: [gamecube]
+
 medieval-ii-total-war:
   name: "Medieval II: Total War"
   igdb: 440
@@ -2796,10 +3146,22 @@ medievil-ii:
   year: 2000
   platforms: [ps1]
 
+mega-man-2:
+  name: Mega Man 2
+  igdb: 1715
+  year: 1989
+  platforms: [nes]
+
 mega-man-3:
   name: Mega Man 3
   igdb: 1716
   year: 1990
+  platforms: [nes]
+
+mega-man-6:
+  name: Mega Man 6
+  igdb: 1719
+  year: 1993
   platforms: [nes]
 
 mega-man-64:
@@ -2856,11 +3218,29 @@ mercenaries-playground-of-destruction:
   year: 2005
   platforms: [xbox]
 
+metal-gear-acid:
+  name: Metal Gear Acid
+  igdb: 12211
+  year: 2004
+  platforms: [psp]
+
+metal-gear-acid-2:
+  name: Metal Gear Acid 2
+  igdb: 9886
+  year: 2005
+  platforms: [psp]
+
 metal-gear-solid:
   name: Metal Gear Solid
   igdb: 375
   year: 1998
   platforms: [ps1]
+
+metal-gear-solid-the-twin-snakes:
+  name: "Metal Gear Solid: The Twin Snakes"
+  igdb: 4006
+  year: 2004
+  platforms: [gamecube]
 
 metal-slug:
   name: Metal Slug
@@ -2885,6 +3265,12 @@ metroid-dread:
   igdb: 15698
   year: 2021
   platforms: [switch]
+
+metroid-fusion:
+  name: Metroid Fusion
+  igdb: 1104
+  year: 2002
+  platforms: [gba]
 
 metroid-prime:
   name: Metroid Prime
@@ -2915,6 +3301,12 @@ metroid-prime-trilogy:
   igdb: 1112
   year: 2009
   platforms: [wii]
+
+metroid-zero-mission:
+  name: "Metroid: Zero Mission"
+  igdb: 1107
+  year: 2004
+  platforms: [gba]
 
 metropolismania:
   name: Metropolismania
@@ -2964,6 +3356,18 @@ mighty-mike:
   year: 2001
   platforms: [mac]
 
+mighty-morphin-power-rangers-the-movie-game-gear:
+  name: "Mighty Morphin Power Rangers: The Movie (Game Gear)"
+  igdb: 75982
+  year: 1995
+  platforms: [gamegear]
+
+mighty-morphin-power-rangers-the-movie-snes:
+  name: "Mighty Morphin Power Rangers: The Movie (SNES)"
+  igdb: 3288
+  year: 1995
+  platforms: [snes]
+
 minecraft-classic:
   name: Minecraft Classic
   igdb: 325724
@@ -2992,17 +3396,35 @@ mischief-makers:
   year: 1997
   platforms: [n64]
 
+mister-mosquito:
+  name: Mister Mosquito
+  igdb: 8966
+  year: 2001
+  platforms: [ps2]
+
 mlb-power-pros-2008:
   name: MLB Power Pros 2008
   igdb: 5010
   year: 2008
   platforms: [wii]
 
+mobile-suit-gundam-wing-endless-duel:
+  name: "Mobile Suit Gundam Wing: Endless Duel"
+  igdb: 42464
+  year: 1996
+  platforms: [snes]
+
 monster-hunter-3-ultimate:
   name: Monster Hunter 3 Ultimate
   igdb: 2271
   year: 2013
   platforms: [wiiu]
+
+monster-hunter-4-ultimate:
+  name: Monster Hunter 4 Ultimate
+  igdb: 6440
+  year: 2014
+  platforms: [3ds]
 
 monster-hunter-freedom-unite:
   name: Monster Hunter Freedom Unite
@@ -3028,6 +3450,12 @@ monster-hunter-tri:
   year: 2009
   platforms: [wii]
 
+monster-party:
+  name: Monster Party
+  igdb: 48165
+  year: 1989
+  platforms: [nes]
+
 moon-child:
   name: Moon Child
   igdb: 108279
@@ -3040,6 +3468,24 @@ mortal-kombat-4:
   year: 1997
   platforms: [ps1]
 
+mortal-kombat-armageddon:
+  name: "Mortal Kombat: Armageddon"
+  igdb: 1616
+  year: 2006
+  platforms: [xbox]
+
+mortal-kombat-deadly-alliance:
+  name: "Mortal Kombat: Deadly Alliance"
+  igdb: 1612
+  year: 2002
+  platforms: [xbox]
+
+mortal-kombat-deception:
+  name: "Mortal Kombat: Deception"
+  igdb: 1613
+  year: 2004
+  platforms: [xbox]
+
 mortal-kombat-shaolin-monks:
   name: "Mortal Kombat: Shaolin Monks"
   igdb: 1614
@@ -3050,7 +3496,7 @@ mortal-kombat-trilogy:
   name: Mortal Kombat Trilogy
   igdb: 4121
   year: 1996
-  platforms: [ps1]
+  platforms: [ps1, n64]
 
 mortal-kombat-vs-dc-universe:
   name: Mortal Kombat vs. DC Universe
@@ -3068,6 +3514,12 @@ mr-boom:
   name: Mr.Boom
   year: 1997
   platforms: [dos]
+
+ms-pac-man:
+  name: Ms. Pac-Man
+  igdb: 131815
+  year: 1991
+  platforms: [megadrive]
 
 mutant-rampage-bodyslam:
   name: "Mutant Rampage: Bodyslam"
@@ -3139,6 +3591,12 @@ naughty-bear:
   name: Naughty Bear
   igdb: 2633
   year: 2010
+  platforms: [x360]
+
+naughty-bear-panic-in-paradise:
+  name: "Naughty Bear: Panic in Paradise"
+  igdb: 6037
+  year: 2012
   platforms: [x360]
 
 nba-jam-on-fire-edition:
@@ -3309,6 +3767,12 @@ nintendo-puzzle-collection:
   year: 2003
   platforms: [gamecube]
 
+no-one-can-stop-mr-domino:
+  name: No One Can Stop Mr. Domino
+  igdb: 4107
+  year: 1998
+  platforms: [ps1]
+
 nox:
   name: Nox
   igdb: 5620
@@ -3326,6 +3790,12 @@ oddworld-abes-oddysee:
   igdb: 999
   year: 1997
   platforms: [pc]
+
+odin-sphere-leifthrasir:
+  name: Odin Sphere Leifthrasir
+  igdb: 15709
+  year: 2016
+  platforms: [ps4]
 
 offroad-thunder:
   name: Offroad Thunder
@@ -3369,17 +3839,41 @@ outrun-2006-coast-2-coast:
   year: 2006
   platforms: [pc]
 
+outrun-online-arcade:
+  name: OutRun Online Arcade
+  igdb: 21204
+  year: 2009
+  platforms: [x360]
+
 p-t:
   name: P.T.
   igdb: 11654
   year: 2014
   platforms: [ps4]
 
+pac-man:
+  name: Pac-Man
+  igdb: 2750
+  year: 1980
+  platforms: [arcade, nes]
+
 pac-man-championship-edition:
   name: Pac-Man Championship Edition
   igdb: 20900
   year: 2007
   platforms: [x360]
+
+pandoras-tower:
+  name: "Pandora's Tower"
+  igdb: 5090
+  year: 2011
+  platforms: [wii]
+
+panzer-dragoon-orta:
+  name: Panzer Dragoon Orta
+  igdb: 1672
+  year: 2002
+  platforms: [xbox]
 
 panzer-dragoon-saga:
   name: Panzer Dragoon Saga
@@ -3423,6 +3917,12 @@ parasite-eve-ii:
   year: 1999
   platforms: [ps1]
 
+pepsiman:
+  name: Pepsiman
+  igdb: 79500
+  year: 1999
+  platforms: [ps1]
+
 perfect-dark:
   name: Perfect Dark
   igdb: 1463
@@ -3458,6 +3958,12 @@ pilotwings-64:
   igdb: 3573
   year: 1996
   platforms: [n64]
+
+pirates-of-the-caribbean-at-worlds-end:
+  name: "Pirates of the Caribbean: At World's End"
+  igdb: 5100
+  year: 2007
+  platforms: [x360]
 
 planescape-torment:
   name: "Planescape: Torment"
@@ -3501,6 +4007,12 @@ pokemon-blue-version:
   year: 1996
   platforms: [gb]
 
+pokemon-brilliant-diamond:
+  name: Pokémon Brilliant Diamond
+  igdb: 144051
+  year: 2021
+  platforms: [switch]
+
 pokemon-colosseum:
   name: Pokémon Colosseum
   igdb: 2725
@@ -3537,6 +4049,12 @@ pokemon-leafgreen-version:
   year: 2004
   platforms: [gba]
 
+pokemon-legends-z-a:
+  name: "Pokémon Legends: Z-A"
+  igdb: 288327
+  year: 2025
+  platforms: [switch]
+
 pokemon-lets-go-eevee:
   name: "Pokémon: Let's Go, Eevee!"
   igdb: 102873
@@ -3548,6 +4066,12 @@ pokemon-lets-go-pikachu:
   igdb: 25877
   year: 2018
   platforms: [switch]
+
+pokemon-mystery-dungeon-red-rescue-team:
+  name: "Pokémon Mystery Dungeon: Red Rescue Team"
+  igdb: 2319
+  year: 2005
+  platforms: [gba]
 
 pokemon-platinum-version:
   name: Pokémon Platinum Version
@@ -3637,7 +4161,7 @@ prince-of-persia-2-the-shadow-and-the-flame:
   name: "Prince of Persia 2: The Shadow and the Flame"
   igdb: 3164
   year: 1993
-  platforms: [dos]
+  platforms: [dos, mac]
 
 prince-of-persia-the-sands-of-time:
   name: "Prince of Persia: The Sands of Time"
@@ -3669,6 +4193,18 @@ prop-cycle:
   year: 1996
   platforms: [arcade]
 
+prototype:
+  name: PROTOTYPE
+  igdb: 570
+  year: 2009
+  platforms: [ps4]
+
+prototype-2:
+  name: PROTOTYPE 2
+  igdb: 2988
+  year: 2012
+  platforms: [ps4]
+
 quake:
   name: Quake
   igdb: 333
@@ -3679,7 +4215,7 @@ quake-4:
   name: Quake 4
   igdb: 356
   year: 2005
-  platforms: [pc]
+  platforms: [pc, x360]
 
 quake-ii:
   name: Quake II
@@ -3777,11 +4313,23 @@ ratchet-and-clank:
   year: 2002
   platforms: [ps2]
 
+ratchet-and-clank-2016:
+  name: "Ratchet & Clank (2016)"
+  igdb: 11065
+  year: 2016
+  platforms: [ps4]
+
 ratchet-and-clank-deadlocked:
   name: "Ratchet & Clank: Deadlocked"
   igdb: 1790
   year: 2005
   platforms: [ps2]
+
+ratchet-and-clank-future-a-crack-in-time:
+  name: "Ratchet & Clank Future: A Crack in Time"
+  igdb: 1795
+  year: 2009
+  platforms: [ps3]
 
 ratchet-and-clank-going-commando:
   name: "Ratchet & Clank: Going Commando"
@@ -3847,7 +4395,7 @@ resident-evil-code-veronica-x:
   name: "Resident Evil Code: Veronica X"
   igdb: 24369
   year: 2001
-  platforms: [ps2, ps3]
+  platforms: [ps2, ps3, x360]
 
 resident-evil-gaiden:
   name: Resident Evil Gaiden
@@ -3861,6 +4409,12 @@ resident-evil-outbreak:
   year: 2003
   platforms: [ps2]
 
+resident-evil-outbreak-file-2:
+  name: "Resident Evil Outbreak: File #2"
+  igdb: 973
+  year: 2004
+  platforms: [ps2]
+
 resident-evil-the-umbrella-chronicles:
   name: "Resident Evil: The Umbrella Chronicles"
   igdb: 975
@@ -3872,6 +4426,18 @@ return-to-castle-wolfenstein:
   igdb: 281
   year: 2001
   platforms: [pc]
+
+revelations-persona:
+  name: "Revelations: Persona"
+  igdb: 11452
+  year: 1996
+  platforms: [ps1]
+
+rez-hd:
+  name: Rez HD
+  igdb: 84308
+  year: 2008
+  platforms: [x360]
 
 rhythm-heaven:
   name: Rhythm Heaven
@@ -3903,6 +4469,12 @@ ridge-racer-revolution:
   year: 1995
   platforms: [ps1]
 
+ridge-racer-unbounded:
+  name: Ridge Racer Unbounded
+  igdb: 541
+  year: 2012
+  platforms: [x360]
+
 ridge-racer-v:
   name: Ridge Racer V
   igdb: 10386
@@ -3920,6 +4492,12 @@ rise-of-the-triad-dark-war:
   igdb: 2380
   year: 1994
   platforms: [dos]
+
+river-city-ransom:
+  name: River City Ransom
+  igdb: 6558
+  year: 1990
+  platforms: [nes]
 
 road-rash-64:
   name: Road Rash 64
@@ -3945,6 +4523,12 @@ rocket-robot-on-wheels:
   year: 1999
   platforms: [n64]
 
+rockman-exe-phantom-of-network:
+  name: "Rockman EXE: Phantom of Network"
+  igdb: 265957
+  year: 2004
+  platforms: [mobile]
+
 rockstar-games-presents-table-tennis:
   name: Rockstar Games Presents Table Tennis
   igdb: 2541
@@ -3962,6 +4546,24 @@ rollercoaster-tycoon-2:
   igdb: 331
   year: 2002
   platforms: [pc]
+
+rugrats-adventure-game:
+  name: Rugrats Adventure Game
+  igdb: 8089
+  year: 1998
+  platforms: [pc]
+
+rugrats-search-for-reptar:
+  name: "Rugrats: Search for Reptar"
+  igdb: 2787
+  year: 1998
+  platforms: [ps1]
+
+rumble-roses-xx:
+  name: Rumble Roses XX
+  igdb: 7167
+  year: 2006
+  platforms: [x360]
 
 rush-2-extreme-racing-usa:
   name: "Rush 2: Extreme Racing USA"
@@ -4029,6 +4631,12 @@ segasonic-the-hedgehog:
   year: 1993
   platforms: [arcade]
 
+sengoku-basara-4-sumeragi:
+  name: Sengoku Basara 4 Sumeragi
+  igdb: 42976
+  year: 2015
+  platforms: [ps4]
+
 sensible-world-of-soccer-96-97:
   name: Sensible World of Soccer 96/97
   igdb: 38865
@@ -4070,6 +4678,12 @@ shadow-of-the-colossus:
   igdb: 37094
   year: 2018
   platforms: [ps4]
+
+shadow-of-the-colossus-2005:
+  name: Shadow of the Colossus
+  igdb: 2207
+  year: 2005
+  platforms: [ps2]
 
 shadow-tower:
   name: Shadow Tower
@@ -4123,6 +4737,12 @@ sid-meiers-alpha-centauri-alien-crossfire:
   name: "Sid Meier's Alpha Centauri: Alien Crossfire"
   igdb: 9197
   year: 1999
+  platforms: [pc]
+
+sid-meiers-civilization:
+  name: "Sid Meier's Civilization"
+  igdb: 902
+  year: 1991
   platforms: [pc]
 
 sid-meiers-civilization-iii:
@@ -4250,6 +4870,12 @@ sly-cooper-and-the-thievius-raccoonus:
   year: 2002
   platforms: [ps2]
 
+snatcher:
+  name: Snatcher
+  igdb: 5451
+  year: 1992
+  platforms: [megacd]
+
 sneak-king:
   name: Sneak King
   igdb: 2730
@@ -4268,11 +4894,29 @@ snowboard-kids-2:
   year: 1999
   platforms: [n64]
 
+soldier-of-fortune:
+  name: Soldier of Fortune
+  igdb: 3111
+  year: 2000
+  platforms: [pc]
+
+solomons-key-2:
+  name: "Solomon's Key 2"
+  igdb: 48671
+  year: 1992
+  platforms: [nes]
+
 sonic-3-and-knuckles:
   name: "Sonic 3 & Knuckles"
   igdb: 11219
   year: 1994
   platforms: [megadrive]
+
+sonic-advance:
+  name: Sonic Advance
+  igdb: 6283
+  year: 2001
+  platforms: [gba]
 
 sonic-adventure:
   name: Sonic Adventure
@@ -4412,6 +5056,12 @@ soul-blade:
   year: 1996
   platforms: [ps1]
 
+soulcalibur:
+  name: Soulcalibur
+  igdb: 1564
+  year: 1998
+  platforms: [dreamcast]
+
 soulcalibur-ii:
   name: Soulcalibur II
   igdb: 227987
@@ -4422,7 +5072,7 @@ soulcalibur-ii-hd-online:
   name: Soulcalibur II HD Online
   igdb: 20970
   year: 2013
-  platforms: [ps3]
+  platforms: [ps3, x360]
 
 soulcalibur-iv:
   name: Soulcalibur IV
@@ -4447,6 +5097,12 @@ space-channel-5:
   igdb: 6602
   year: 1999
   platforms: [dreamcast]
+
+space-giraffe:
+  name: Space Giraffe
+  igdb: 15991
+  year: 2007
+  platforms: [x360]
 
 space-rangers-hd-a-war-apart:
   name: "Space Rangers HD: A War Apart"
@@ -4481,7 +5137,7 @@ spider-man:
   name: Spider-Man
   igdb: 3603
   year: 2000
-  platforms: [ps1]
+  platforms: [ps1, pc]
 
 spider-man-2-enter-electro:
   name: "Spider-Man 2: Enter Electro"
@@ -4507,9 +5163,21 @@ spider-man-web-of-shadows:
   year: 2008
   platforms: [x360]
 
+splatoon:
+  name: Splatoon
+  igdb: 7335
+  year: 2015
+  platforms: [wiiu]
+
 splatterhouse:
   name: Splatterhouse
   igdb: 7191
+  year: 2010
+  platforms: [x360]
+
+split-second:
+  name: Split/Second
+  igdb: 2150
   year: 2010
   platforms: [x360]
 
@@ -4555,11 +5223,23 @@ star-fox-adventures:
   year: 2002
   platforms: [gamecube]
 
+star-ocean-integrity-and-faithlessness:
+  name: "Star Ocean: Integrity and Faithlessness"
+  igdb: 11213
+  year: 2016
+  platforms: [ps4]
+
 star-trek-voyager-elite-force:
   name: "Star Trek: Voyager - Elite Force"
   igdb: 877
   year: 2000
   platforms: [pc]
+
+star-wars-arcade:
+  name: Star Wars Arcade
+  igdb: 39822
+  year: 1993
+  platforms: [arcade]
 
 star-wars-dark-forces:
   name: "Star Wars: Dark Forces"
@@ -4693,6 +5373,12 @@ street-fighter-alpha-3:
   year: 1998
   platforms: [ps1]
 
+street-fighter-alpha-3-upper:
+  name: Street Fighter Alpha 3 Upper
+  igdb: 219058
+  year: 2002
+  platforms: [pc]
+
 street-fighter-ex-plus-alpha:
   name: Street Fighter EX Plus Alpha
   igdb: 38297
@@ -4709,13 +5395,25 @@ street-fighter-iii-3rd-strike:
   name: "Street Fighter III: 3rd Strike"
   igdb: 243243
   year: 2004
-  platforms: [ps2]
+  platforms: [ps2, x360]
 
 street-fighter-iii-3rd-strike-fight-for-the-future:
   name: "Street Fighter III: 3rd Strike - Fight for the Future"
   igdb: 6710
   year: 1999
   platforms: [arcade]
+
+street-rod:
+  name: Street Rod
+  igdb: 19229
+  year: 1989
+  platforms: [dos]
+
+streets-of-rage:
+  name: Streets of Rage
+  igdb: 1652
+  year: 1991
+  platforms: [megadrive]
 
 streets-of-rage-2:
   name: Streets of Rage 2
@@ -4746,6 +5444,12 @@ stronghold-crusader:
   igdb: 964
   year: 2002
   platforms: [pc]
+
+stunt-race-fx:
+  name: Stunt Race FX
+  igdb: 28509
+  year: 1994
+  platforms: [snes]
 
 stuntman-ignition:
   name: "Stuntman: Ignition"
@@ -4789,6 +5493,18 @@ super-bomberman-5:
   year: 1997
   platforms: [snes]
 
+super-hang-on:
+  name: Super Hang-On
+  igdb: 6145
+  year: 1987
+  platforms: [megadrive]
+
+super-kirby-clash:
+  name: Super Kirby Clash
+  igdb: 122229
+  year: 2019
+  platforms: [switch]
+
 super-mario-3d-world-bowsers-fury:
   name: "Super Mario 3D World + Bowser's Fury"
   igdb: 138227
@@ -4830,6 +5546,18 @@ super-mario-bros:
   igdb: 358
   year: 1985
   platforms: [nes]
+
+super-mario-bros-3:
+  name: Super Mario Bros. 3
+  igdb: 1068
+  year: 1988
+  platforms: [nes]
+
+super-mario-bros-35:
+  name: Super Mario Bros. 35
+  igdb: 138235
+  year: 2020
+  platforms: [switch]
 
 super-mario-bros-the-lost-levels:
   name: "Super Mario Bros.: The Lost Levels"
@@ -4909,6 +5637,12 @@ super-paper-mario:
   year: 2007
   platforms: [wii]
 
+super-punch-out:
+  name: "Super Punch-Out!!"
+  igdb: 9151
+  year: 1994
+  platforms: [snes]
+
 super-robot-wars-64:
   name: Super Robot Wars 64
   igdb: 44056
@@ -4950,6 +5684,12 @@ super-street-fighter-ii-turbo-hd-remix:
   igdb: 21796
   year: 2008
   platforms: [x360]
+
+super-street-fighter-ii-x:
+  name: Super Street Fighter II X
+  igdb: 4238
+  year: 1994
+  platforms: [arcade]
 
 super-zzt:
   name: Super ZZT
@@ -5005,6 +5745,12 @@ tekken-3:
   year: 1998
   platforms: [ps1]
 
+tekken-5-dark-resurrection:
+  name: "Tekken 5: Dark Resurrection"
+  igdb: 1234
+  year: 2006
+  platforms: [ps3]
+
 tekken-6:
   name: Tekken 6
   igdb: 1236
@@ -5035,6 +5781,18 @@ terraria:
   year: 2011
   platforms: [x360]
 
+test-drive:
+  name: Test Drive
+  igdb: 2200
+  year: 1987
+  platforms: [dos]
+
+test-drive-ii-the-duel:
+  name: "Test Drive II: The Duel"
+  igdb: 2201
+  year: 1989
+  platforms: [dos]
+
 test-drive-iii-the-passion:
   name: "Test Drive III: The Passion"
   igdb: 2202
@@ -5062,6 +5820,12 @@ tetrisphere:
 texas-holdem:
   name: "Texas Hold'em"
   platforms: [other]
+
+the-beatles-rock-band:
+  name: "The Beatles: Rock Band"
+  igdb: 2693
+  year: 2009
+  platforms: [x360]
 
 the-bigs-2:
   name: The Bigs 2
@@ -5121,11 +5885,23 @@ the-elder-scrolls-iii-morrowind:
   year: 2002
   platforms: [pc]
 
+the-incredible-crash-dummies:
+  name: The Incredible Crash Dummies
+  igdb: 365652
+  year: 1992
+  platforms: [gb]
+
 the-king-of-fighters-98:
   name: "The King of Fighters '98"
   igdb: 15429
   year: 1998
   platforms: [neogeo]
+
+the-king-of-fighters-neowave:
+  name: The King of Fighters Neowave
+  igdb: 5896
+  year: 2004
+  platforms: [xbox]
 
 the-last-guardian:
   name: The Last Guardian
@@ -5155,7 +5931,7 @@ the-legend-of-zelda-breath-of-the-wild:
   name: "The Legend of Zelda: Breath of the Wild"
   igdb: 7346
   year: 2017
-  platforms: [switch]
+  platforms: [switch, wiiu]
 
 the-legend-of-zelda-echoes-of-wisdom:
   name: "The Legend of Zelda: Echoes of Wisdom"
@@ -5319,6 +6095,18 @@ the-settlers-ii-veni-vidi-vici:
   year: 1996
   platforms: [dos]
 
+the-settlers-iii:
+  name: The Settlers III
+  igdb: 3696
+  year: 1998
+  platforms: [pc]
+
+the-settlers-iv:
+  name: The Settlers IV
+  igdb: 3697
+  year: 2001
+  platforms: [pc]
+
 the-simpsons-arcade-game:
   name: The Simpsons Arcade Game
   igdb: 2826
@@ -5403,6 +6191,12 @@ the-urbz-sims-in-the-city:
   year: 2004
   platforms: [xbox]
 
+the-warriors:
+  name: The Warriors
+  igdb: 6030
+  year: 2005
+  platforms: [xbox]
+
 the-wing-of-madoola:
   name: The Wing of Madoola
   igdb: 65699
@@ -5421,6 +6215,12 @@ the-world-ends-with-you:
   year: 2007
   platforms: [nds]
 
+the-x-files-game:
+  name: The X-Files Game
+  igdb: 103203
+  year: 1998
+  platforms: [pc]
+
 theme-hospital:
   name: Theme Hospital
   igdb: 1624
@@ -5432,6 +6232,12 @@ theme-park:
   igdb: 283
   year: 1994
   platforms: [dos]
+
+thrill-drive-2:
+  name: Thrill Drive 2
+  igdb: 65914
+  year: 2001
+  platforms: [arcade]
 
 tim-burtons-the-nightmare-before-christmas-oogies-revenge:
   name: "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge"
@@ -5474,6 +6280,12 @@ tokyo-wars:
   igdb: 66860
   year: 1996
   platforms: [arcade]
+
+tom-and-jerry-in-house-trap:
+  name: Tom and Jerry in House Trap
+  igdb: 8032
+  year: 2000
+  platforms: [ps1]
 
 tom-clancys-ghost-recon-2:
   name: "Tom Clancy's Ghost Recon 2"
@@ -5553,6 +6365,24 @@ top-gear:
   year: 1992
   platforms: [snes]
 
+top-gear-rally:
+  name: Top Gear Rally
+  igdb: 3617
+  year: 1997
+  platforms: [n64]
+
+top-gun-fire-at-will:
+  name: "Top Gun: Fire at Will"
+  igdb: 44990
+  year: 1996
+  platforms: [ps1]
+
+top-gun-the-second-mission:
+  name: "Top Gun: The Second Mission"
+  igdb: 22911
+  year: 1989
+  platforms: [nes]
+
 top-spin:
   name: Top Spin
   igdb: 5234
@@ -5619,6 +6449,12 @@ transport-tycoon-deluxe:
   year: 1995
   platforms: [dos]
 
+trials-evolution-gold-edition:
+  name: "Trials Evolution: Gold Edition"
+  igdb: 20748
+  year: 2013
+  platforms: [pc]
+
 tribal-trouble:
   name: Tribal Trouble
   igdb: 64958
@@ -5630,6 +6466,12 @@ tsumu-light:
   igdb: 122545
   year: 1999
   platforms: [ps1]
+
+turok-2-seeds-of-evil:
+  name: "Turok 2: Seeds of Evil"
+  igdb: 1326
+  year: 1998
+  platforms: [n64]
 
 turok-rage-wars:
   name: "Turok: Rage Wars"
@@ -5738,6 +6580,12 @@ unicorn-overlord:
   year: 2024
   platforms: [ps4]
 
+uniracers:
+  name: Uniracers
+  igdb: 16743
+  year: 1994
+  platforms: [snes]
+
 unreal:
   name: Unreal
   igdb: 273
@@ -5779,6 +6627,12 @@ vagrant-story:
   igdb: 2216
   year: 2000
   platforms: [ps1]
+
+valkyria-revolution:
+  name: Valkyria Revolution
+  igdb: 14673
+  year: 2017
+  platforms: [ps4]
 
 valkyrie-profile:
   name: Valkyrie Profile
@@ -5828,6 +6682,12 @@ virtua-fighter-3:
   year: 1996
   platforms: [arcade]
 
+virtua-racing:
+  name: Virtua Racing
+  igdb: 8172
+  year: 1992
+  platforms: [arcade]
+
 virtual-pro-wrestling-2:
   name: Virtual Pro Wrestling 2
   igdb: 3625
@@ -5839,6 +6699,12 @@ virtual-pro-wrestling-64:
   igdb: 3626
   year: 1997
   platforms: [n64]
+
+viva-pinata:
+  name: Viva Piñata
+  igdb: 7236
+  year: 2006
+  platforms: [x360]
 
 viva-pinata-trouble-in-paradise:
   name: "Viva Piñata: Trouble in Paradise"
@@ -5945,6 +6811,12 @@ white-knight-chronicles-international-edition:
   igdb: 21761
   year: 2010
   platforms: [ps3]
+
+wii-party:
+  name: Wii Party
+  igdb: 2189
+  year: 2010
+  platforms: [wii]
 
 wii-play:
   name: Wii Play
@@ -6113,6 +6985,12 @@ wwf-no-mercy:
   igdb: 3644
   year: 2000
   platforms: [n64]
+
+wwf-smackdown-2-know-your-role:
+  name: "WWF SmackDown! 2: Know Your Role"
+  igdb: 6444
+  year: 2000
+  platforms: [ps1]
 
 wwf-wrestlemania-2000:
   name: WWF WrestleMania 2000

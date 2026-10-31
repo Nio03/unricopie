@@ -1,0 +1,24 @@
+name: "International Superstar Soccer Deluxe (Mabec-games)"
+games: [international-superstar-soccer-deluxe]
+console: snes
+status: playable
+repo: Mabec-games/iss-deluxed
+forkOf:
+  label: "sergiomanzur/issd-native"
+  url: https://github.com/sergiomanzur/issd-native
+originalDeveloper: "Konami"
+year: 1995
+toolchain: snesrecomp
+desc:
+  es: "ISS DELUXE'd: fork comunitario no comercial de ISSD Native de sergiomanzur para Windows y Linux, que juegan entre sí en línea. El código 65816 de la versión estadounidense se traduce a C, con sustituciones nativas de la descompresión de recursos, la carga de memoria y los comandos de audio, y modelos del hardware para vídeo y sonido. Añade juego en línea punto a punto con códigos de invitación (sin cuentas ni direcciones IP; los juegos se encuentran por servicios de mensajes públicos y ambos jugadores necesitan la misma versión), pantalla ancha con píxeles perfectos, un launcher que solo acepta la ROM estadounidense exacta y una animación mejorada al correr y caminar. El repositorio incluye el C generado de la recompilación y una copia del desensamblado ISSD (GPL-3.0) como dependencia. La 1.0 (18 de octubre) trae un zip de Windows y un AppImage de Linux; el README advierte que la cobertura de la recompilación no prueba la fidelidad completa. Lleva 50 commits propios sobre el original, y 68 de sus últimos 100 llevan a Claude como coautor."
+  en: "ISS DELUXE'd: a non-commercial community fork of sergiomanzur’s ISSD Native for Windows and Linux, which can play each other online. The US version’s 65816 code is translated to C, with native replacements for asset decompression, memory streaming, and audio commands, and hardware models for video and sound. It adds peer-to-peer online play with invite codes (no accounts or IP addresses; the games find each other through public message services and both players need the same version), pixel-perfect widescreen, a launcher that only accepts the exact US ROM, and improved running and walking animation. The repository includes the generated C of the recompilation and a copy of the ISSD disassembly (GPL-3.0) as a dependency. Version 1.0 (October 18) ships a Windows zip and a Linux AppImage; the README warns that recompilation coverage doesn’t establish complete fidelity. It has 50 commits of its own on top of the original, and 68 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de International Superstar Soccer Deluxe, exacta (el launcher no acepta otra). Windows 10 u 11 de 64 bits, o Linux x86-64 (el AppImage vale para Debian 12 o posterior, Ubuntu 22.04 o posterior, Fedora 35 o posterior y similares). Para jugar en línea, los dos jugadores necesitan la misma versión."
+  en: "Your own US International Superstar Soccer Deluxe ROM, the exact one (the launcher accepts no other). 64-bit Windows 10 or 11, or x86-64 Linux (the AppImage works on Debian 12 or later, Ubuntu 22.04 or later, Fedora 35 or later, and similar). For online play, both players need the same version."
+tags:
+  - "65816"
+  - sports
+  - widescreen
+  - online
+  - multiplayer
+  - ai-assisted

@@ -1,0 +1,20 @@
+name: "Pokémon Mystery Dungeon: Red Rescue Team"
+games: [pokemon-mystery-dungeon-red-rescue-team]
+console: gba
+status: playable
+repo: Asphaltian/pmd-green
+originalDeveloper: "Chunsoft"
+year: 2005
+toolchain: GBARecomp
+desc:
+  es: "Green Rescue Team es Pokémon Mystery Dungeon: Red Rescue Team recompilado para ejecutarse de forma nativa en PC, con algunas mejoras y soporte de mods. Usa GBARecomp y GBAModernRuntime, que el autor también está probando con este proyecto, y el propio README avisa de que es un trabajo en curso, con fallos y cambios sin previo aviso. La primera vez pide la ROM y guarda una copia propia; para compilar desde el código se recompila esa ROM con los símbolos del proyecto pret/pmd-red. Hay paquetes para Windows, Linux y macOS (la 0.1.0, del 26 de septiembre) de unos 55 MB cada uno. El repositorio incluye unas imágenes .bin de títulos del menú, usadas para ampliar los márgenes en pantalla ancha, que no hemos podido comprobar si son propias o derivan del juego."
+  en: "Green Rescue Team is Pokémon Mystery Dungeon: Red Rescue Team recompiled to run natively on PC, with a few enhancements and mod support. It uses GBARecomp and GBAModernRuntime, which the author is also testing with this project, and the README itself warns that it is a work in progress, with bugs and changes without notice. The first time it asks for the ROM and keeps its own copy; to build from source, that ROM is recompiled with the symbols from the pret/pmd-red project. There are packages for Windows, Linux, and macOS (0.1.0, from September 26) of about 55 MB each. The repository includes a few .bin title-menu pictures, used to extend the margins in widescreen, which we couldn’t check are original work or derive from the game."
+requirements:
+  es: "Tu propia ROM de Pokémon Mystery Dungeon: Red Rescue Team para GBA, de la versión de EE. UU. y Australia. Para compilar desde el código, el SDK de .NET 10 y Slang (slangc en el PATH), además de los símbolos de pret/pmd-red."
+  en: "Your own ROM of Pokémon Mystery Dungeon: Red Rescue Team for the GBA, the USA and Australia release. To build from source, the .NET 10 SDK and Slang (slangc on the PATH), plus the symbols from pret/pmd-red."
+tags:
+  - arm7
+  - rpg
+  - mods
+  - pokemon
+  - static-recomp

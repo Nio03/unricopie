@@ -1,0 +1,17 @@
+name: "Project Gotham Racing 4 (shaunsingh)"
+games: [project-gotham-racing-4]
+console: x360
+status: playable
+repo: shaunsingh/pgr4-native
+originalDeveloper: "Bizarre Creations"
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Renderizador nativo de Direct3D 12 para la recompilación estática de Project Gotham Racing 4 (con la actualización de título 2), hecho con el SDK de ReXGlue y arreglos de Xenia Canary. Continúa el trabajo de safzanpirani/pgr4-native, que a su vez nació de MTR-PGR4 y, antes, de PGR4-Recomp. El README muestra el juego en una Steam Deck OLED y con FSR 4 Lite mediante OptiScaler; la compilación se hace en Linux con clang-cl y los ejecutables de Windows corren con Proton o en Windows. El menú de opciones del juego tiene páginas propias de pantalla, conducción y desarrollo. La última versión es la 0.3.0 (29 de octubre), un zip de Windows de unos 68 MB que lleva el programa ya compilado; el README avisa de que el C++ que genera la compilación a partir de los ejecutables del juego no debe publicarse, y no hemos comprobado el zip por dentro."
+  en: "A native Direct3D 12 renderer for the static recompilation of Project Gotham Racing 4 (with Title Update 2), built on the ReXGlue SDK with fixes from Xenia Canary. It continues the work of safzanpirani/pgr4-native, which itself grew out of MTR-PGR4 and, before that, PGR4-Recomp. The README shows the game on a Steam Deck OLED and with FSR 4 Lite through OptiScaler; the build runs on Linux with clang-cl and the Windows executables run under Proton or on Windows. The game’s options menu has its own display, driving, and developer pages. The latest version is 0.3.0 (October 29), a Windows zip of about 68 MB that carries the already built program; the README warns that the C++ the build generates from the game’s executables must not be published, and we haven’t checked the zip inside."
+requirements:
+  es: "Tu propia copia del disco de Project Gotham Racing 4 para Xbox 360, extraída (el disco no tiene región y el PAL y el NTSC coinciden archivo por archivo), y la actualización de título 2, como paquete o como sus dos archivos. DLC de consola como paquetes STFS en la carpeta Content. Windows, o Linux con Proton."
+  en: "Your own copy of the Project Gotham Racing 4 disc for Xbox 360, extracted (the disc is region-free and the PAL and NTSC ones match file for file), and Title Update 2, as its package or its two files. Console DLC as STFS packages in the Content folder. Windows, or Linux with Proton."
+tags:
+  - powerpc
+  - racing

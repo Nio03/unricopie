@@ -1,0 +1,19 @@
+name: "The Nightmare Before Christmas: Oogie’s Revenge (Pallypots)"
+games: [tim-burtons-the-nightmare-before-christmas-oogies-revenge]
+console: xbox
+status: playable
+repo: Pallypots/ProjectOogie
+originalDeveloper: "Capcom"
+year: 2005
+toolchain: xboxrecomp
+desc:
+  es: "Project Oogie: port nativo a Windows de The Nightmare Before Christmas: Oogie’s Revenge (Xbox, 2005) hecho por recompilación estática con XboxRecomp, sin emulador. El programa del juego (10.534 funciones) se traduce a C y se compila para PC, y las partes de la Xbox con las que habla se reimplementan: gráficos con Direct3D 11, sonido con XAudio2 y mandos con SDL. Ofrece pantalla ancha que muestra más mundo, resolución de render hasta 2160p, preajustes de calidad, antialiasing, nitidez, filtro anisótropo, mipmaps y 60 fps fijos. Según el README se cargan y ejecutan los 24 capítulos sin cierres en pruebas automáticas, y el autor ha jugado a mano hasta el capítulo 7; no hay aún más de 60 fps. También se puede jugar en Linux y Steam Deck con Proton (probado con Wine 10). La última versión es la 0.2.2 (30 de octubre), un zip de unos 12 MB. Sus 5 commits llevan a Claude como coautor."
+  en: "Project Oogie: a native Windows port of The Nightmare Before Christmas: Oogie’s Revenge (Xbox, 2005) made by static recompilation with XboxRecomp, without an emulator. The game’s program (10,534 functions) is translated to C and compiled for PC, and the parts of the Xbox it talks to are reimplemented: graphics with Direct3D 11, sound with XAudio2, and controllers with SDL. It offers widescreen that shows more of the world, render resolution up to 2160p, quality presets, anti-aliasing, sharpening, anisotropic filtering, mipmaps, and a locked 60 fps. According to the README all 24 chapters load and run without crashes in automated tests, and the author has played by hand into Chapter 7; frame rates above 60 aren’t built yet. It can also be played on Linux and the Steam Deck with Proton (tested under Wine 10). The latest version is 0.2.2 (October 30), a zip of about 12 MB. All 5 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de The Nightmare Before Christmas: Oogie’s Revenge para Xbox; el port lee los gráficos, el sonido, las películas y los niveles de ella en el primer arranque. Windows de 64 bits; en Linux y Steam Deck, Proton."
+  en: "Your own disc image of The Nightmare Before Christmas: Oogie’s Revenge for Xbox; the port reads the art, sound, films, and levels from it on first start. 64-bit Windows; on Linux and the Steam Deck, Proton."
+tags:
+  - x86
+  - action
+  - widescreen
+  - ai-assisted

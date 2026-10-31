@@ -1,0 +1,19 @@
+name: "Army Men: Sarge's Heroes"
+games: [army-men-sarges-heroes]
+console: n64
+status: experimental
+repo: RangerXT/Army-Men-Sarges-Heroes-64-Recompiled
+originalDeveloper: "3DO"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Traducción con N64Recomp de la versión norteamericana de Army Men: Sarge's Heroes, con un anfitrión nativo para Windows, el renderizador RT64 en Direct3D 12 y una capa de entrada moderna. El README aclara que N64Recomp no recupera el código fuente original y que el C generado es la entrada de un runtime nativo; ese código generado no está en el repositorio, pero el zip de la release (70 MB, con ffmpeg incluido) trae el ejecutable con el código recompilado, sin ROM ni recursos del juego. La 0.1.0-alpha.2 (12 de septiembre) añade guardado en Controller Pak y vibración XInput, pantalla ancha mejorada con más distancia de dibujo y mallas más detalladas, remapeo de controles, indicaciones de botones de Xbox y PlayStation, y música opcional de Dreamcast o PlayStation a partir de imágenes de disco propias, además de cinemáticas de PlayStation experimentales. Es una alfa: la cobertura de la campaña completa no está verificada. El README declara que se desarrolló con ayuda de OpenAI Codex."
+  en: "An N64Recomp translation of the North American version of Army Men: Sarge's Heroes, with a native Windows host, the RT64 renderer on Direct3D 12, and a modern input layer. The README clarifies that N64Recomp does not recover the original source code and that the generated C is the input to a native runtime; that generated code is not in the repository, but the release zip (70 MB, with ffmpeg included) carries the executable with the recompiled code, with no ROM or game assets. Version 0.1.0-alpha.2 (September 12) adds Controller Pak saving and XInput rumble, enhanced widescreen with a longer draw distance and higher-detail meshes, control remapping, Xbox and PlayStation button prompts, and optional Dreamcast or PlayStation music from your own disc images, plus experimental PlayStation cinematics. It is an alpha: complete campaign coverage is not verified. The README declares it was developed with the help of OpenAI Codex."
+requirements:
+  es: "Tu propia ROM norteamericana de 8 MiB (SHA-1 1824380911579424E50042D45AEF4851F7AB25A7), en .z64, .v64 o .n64, copiada en la carpeta roms. Opcional: imágenes de disco propias de Dreamcast o PlayStation para la música y las cinemáticas. Windows 10 u 11 de 64 bits, una GPU con Direct3D 12 y el redistribuible de Visual C++."
+  en: "Your own North American 8 MiB ROM (SHA-1 1824380911579424E50042D45AEF4851F7AB25A7), as .z64, .v64, or .n64, copied into the roms folder. Optional: your own Dreamcast or PlayStation disc images for the music and cinematics. 64-bit Windows 10 or 11, a Direct3D 12 GPU, and the Visual C++ Redistributable."
+tags:
+  - mips
+  - action
+  - widescreen
+  - ai-assisted

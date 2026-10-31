@@ -1,0 +1,20 @@
+name: "Mortal Kombat: Deadly Alliance / Deception / Armageddon (MK3D Rollback)"
+games: [mortal-kombat-deadly-alliance, mortal-kombat-deception, mortal-kombat-armageddon]
+console: xbox
+status: playable
+repo: Jstackzz/MK-3D-rollback
+originalDeveloper: "Midway"
+year: 2004
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Ports nativos para PC con juego en línea con rollback de las versiones de la Xbox original de Mortal Kombat: Deadly Alliance, Deception y Armageddon. Se basa en la recompilación estática con XboxXBERecomp, con parches propios, y trae un lanzador con modos clasificatorio (sets a dos victorias), Kasual con revancha, salas y un jugador, además de teclado y mandos SDL. Cada jugador construye los juegos en su equipo a partir de sus propios discos desde el lanzador, y se conecta al servidor oficial del proyecto. El repositorio contiene el código, notas de investigación y scripts, sin código ni datos de los juegos. La última versión es la 0.1.17 (30 de octubre), un zip de Windows de unos 97 MB. Sus 22 commits llevan a Claude como coautor."
+  en: "Native PC ports with rollback online play of the original Xbox versions of Mortal Kombat: Deadly Alliance, Deception, and Armageddon. It is based on static recompilation with XboxXBERecomp, with its own patches, and brings a launcher with ranked (first-to-2 sets), Kasual with rematches, lobby, and single player modes, plus keyboard and SDL controller support. Each player builds the games on their own PC from their own discs through the launcher, and connects to the project’s official server. The repository holds the code, research notes, and scripts, with no game code or data. The latest version is 0.1.17 (October 30), a Windows zip of about 97 MB. All 22 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propias copias de Mortal Kombat: Deadly Alliance (EE. UU., rev. 1, ID de título 4D57000C), Deception (EE. UU., 4D570019) y Armageddon (EE. UU., 4D570034) para Xbox, como imágenes de disco, de las que el lanzador construye cada juego. Windows."
+  en: "Your own copies of Mortal Kombat: Deadly Alliance (USA, Rev 1, title ID 4D57000C), Deception (USA, 4D570019), and Armageddon (USA, 4D570034) for Xbox, as disc images, from which the launcher builds each game. Windows."
+tags:
+  - x86
+  - fighting
+  - online
+  - netplay
+  - ai-assisted

@@ -1,0 +1,21 @@
+name: "PaRappa the Rapper (mstan)"
+games: [parappa-the-rapper]
+console: ps1
+status: experimental
+repo: mstan/PaRappaTheRapperRecomp
+forkOf:
+  label: kirby1237/PaRappaTheRapperRecomp
+  url: https://github.com/kirby1237/PaRappaTheRapperRecomp
+originalDeveloper: "NanaOn-Sha"
+year: 1996
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de PaRappa the Rapper (versión estadounidense, SCUS-94183) con psxrecomp, en una bifurcación de kirby1237/PaRappaTheRapperRecomp con 6 commits propios. Añade un mod opcional, «Rhythm Timing Assist», desactivado de entrada: compensa la latencia y amplía por separado la tolerancia para pulsar antes o después, hasta 60 ms por lado, sin tocar la música ni las reglas de puntuación. La resolución interna va por defecto a 4x (de 1x a 32x en Mods) y la pantalla ancha, experimental, a 21:9 (con 16:9, ajuste a la ventana o 4:3); los vídeos y los menús en 2D conservan su proporción. El mando se fija en modo digital. El repositorio incluye el código C generado del juego (carpeta generated) y, según su README, las versiones traen el juego ya compilado a partir de él; la 0.1.3 (31 de octubre) es un zip de Windows de unos 27 MB. El README añade que las demás fases aún necesitan que alguien las valide."
+  en: "A static recompilation of PaRappa the Rapper (US version, SCUS-94183) with psxrecomp, in a fork of kirby1237/PaRappaTheRapperRecomp with 6 commits of its own. It adds an optional mod, “Rhythm Timing Assist”, off by default: it compensates for latency and widens the early and late timing windows separately, up to 60 ms each side, without touching the music or the scoring rules. Internal resolution defaults to 4x (1x to 32x in Mods) and the experimental widescreen to 21:9 (with 16:9, fit to window, or 4:3); movies and 2D menus keep their proportions. The controller is locked to digital mode. The repository includes the game’s generated C code (the generated folder) and, according to its README, the releases ship the game already compiled from it; version 0.1.3 (October 31) is a Windows zip of about 27 MB. The README adds that the other stages still need player validation."
+requirements:
+  es: "Tu propia imagen de PaRappa the Rapper (PS1, versión estadounidense, SCUS-94183) en .cue y .bin, la misma que admite el repositorio original (el README dice que su MD5 coincide). La BIOS de la consola no hace falta: usa OpenBIOS. Windows de 64 bits o Linux."
+  en: "Your own PaRappa the Rapper disc image (PS1, US version, SCUS-94183) as .cue and .bin, the same one the original repository supports (the README says its MD5 matches). A console BIOS isn’t needed: it uses OpenBIOS. 64-bit Windows or Linux."
+tags:
+  - mips
+  - widescreen
+  - mods

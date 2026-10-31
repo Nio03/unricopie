@@ -1,0 +1,18 @@
+name: "Castlevania: Curse of Darkness"
+games: [castlevania-curse-of-darkness]
+console: ps2
+status: experimental
+repo: sergiomanzur/noble-archimedes
+originalDeveloper: "Konami"
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "«Noble Archimedes» es un proyecto experimental de recompilación para Windows x64 de Castlevania: Curse of Darkness (versión estadounidense de PS2, SLUS-21168). El ejecutable del EE se traduce localmente de MIPS a C++ y se compila a código nativo; el runtime aporta planificación, memoria, VIF/GIF, mandos y almacenamiento. El renderizador por defecto es paraLLEl-GS sobre Vulkan, y hay un modo híbrido con el GS de PCSX2 mediante una DLL, que no ejecuta el emulador completo. Según su README del 15 de octubre existen compilaciones de desarrollo jugables, con unos 53 fps medidos en las transiciones del juego tras optimizar el planificador y usar un trabajador nativo de VIF1, frente al objetivo de 58 a 60; las notas de la 0.2.1 miden 14,43 fps en el patio. No distribuye ISO, ejecutable, recursos, código traducido, microcódigo ni binarios compilados: la 0.2.1 (16 de octubre) es un kit de fuentes para Windows de 357 KB, que se abre con lanzadores de órdenes tras compilar el anfitrión en tu equipo."
+  en: "“Noble Archimedes” is an experimental Windows x64 recompilation project for Castlevania: Curse of Darkness (US PS2 version, SLUS-21168). The EE executable is translated locally from MIPS to C++ and compiled to native code; the runtime supplies scheduling, memory, VIF/GIF, controllers, and storage. The default renderer is paraLLEl-GS on Vulkan, and there is a hybrid mode using PCSX2’s GS through a DLL, which doesn’t run the whole emulator. According to its README of October 15, playable development builds exist, with about 53 fps measured in gameplay transitions after optimizing the scheduler and adding a native VIF1 worker, against a target of 58 to 60; the 0.2.1 notes measure 14.43 fps in the courtyard. It distributes no ISO, executable, assets, translated code, microcode, or compiled binaries: version 0.2.1 (October 16) is a 357 KB source-only Windows kit, opened through command launchers after building the host on your PC."
+requirements:
+  es: "Tu propia copia legal del juego (PS2, EE. UU., SLUS-21168), de la que se genera el código localmente. Windows x64, MinGW-w64 GCC/G++ 15.2, Python 3.12, CMake y Ninja y un controlador de Vulkan."
+  en: "Your own lawfully obtained copy of the game (PS2, USA, SLUS-21168), from which the code is generated locally. Windows x64, MinGW-w64 GCC/G++ 15.2, Python 3.12, CMake and Ninja, and a Vulkan driver."
+tags:
+  - emotion-engine
+  - action
+  - vulkan

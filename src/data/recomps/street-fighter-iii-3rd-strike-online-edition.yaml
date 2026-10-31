@@ -1,0 +1,20 @@
+name: "Street Fighter III: 3rd Strike Online Edition"
+games: [street-fighter-iii-3rd-strike]
+console: x360
+status: experimental
+repo: updeshxp/SF3TSOEReborn
+forkOf:
+  label: "birabittoh/TheDarknessReborn"
+  url: https://github.com/birabittoh/TheDarknessReborn
+originalDeveloper: "Capcom"
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de Street Fighter III: 3rd Strike Online Edition (Xbox Live Arcade) para Windows y Linux, hecha con el SDK de ReXGlue y bifurcada de birabittoh/TheDarknessReborn. Convierte el default.xex de PowerPC en ejecutables nativos x86_64 y arm64 al compilar y los envuelve en un entorno propio (registros, superposiciones y ganchos); el README precisa que el dibujo visible sigue dependiendo del motor gráfico de RexGlue/Xenia incluido. El código del anfitrión, los scripts y la integración continua son MIT; el código recompilado no es redistribuible, y aun así las versiones publicadas traen ya compilados los ejecutables, con y sin la actualización de título, para Windows, Linux x64 y Linux arm64 (de 20 a 32 MB). La última versión es la 0.1.5 (27 de octubre). Sus 26 commits no llevan a Claude como coautor."
+  en: "A static recompilation of Street Fighter III: 3rd Strike Online Edition (Xbox Live Arcade) for Windows and Linux, built on the ReXGlue SDK and forked from birabittoh/TheDarknessReborn. It converts the PowerPC default.xex into native x86_64 and arm64 executables at build time and wraps it in its own host runtime (logging, overlays, and hooks); the README specifies that visible rendering still relies on the bundled RexGlue/Xenia graphics backend. The host code, scripts, and CI are MIT; the recompiled code isn’t redistributable, and even so the published releases ship the already built executables, with and without the title update, for Windows, Linux x64, and Linux arm64 (20 to 32 MB). The latest version is 0.1.5 (October 27). None of its 26 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propio paquete STFS de Street Fighter III: 3rd Strike Online Edition para Xbox 360 (ID de título 58410B16, en una ruta como 58410B16\\000D0000), que se extrae con un script de Python, y la actualización de título tu00000003_00000000 (MediaID 6981678F). Python 3.10 o superior para los scripts de extracción."
+  en: "Your own STFS package of Street Fighter III: 3rd Strike Online Edition for Xbox 360 (title ID 58410B16, under a path like 58410B16\\000D0000), extracted with a Python script, and title update tu00000003_00000000 (MediaID 6981678F). Python 3.10 or later for the extraction scripts."
+tags:
+  - powerpc
+  - fighting

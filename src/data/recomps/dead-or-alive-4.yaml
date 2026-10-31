@@ -1,0 +1,18 @@
+name: "Dead or Alive 4"
+games: [dead-or-alive-4]
+console: x360
+status: experimental
+repo: redC0rvus/doa4-recomp-suite
+originalDeveloper: "Team Ninja"
+year: 2005
+toolchain: ReXGlue
+desc:
+  es: "Dead or Alive 4 de Xbox 360 en Windows, recompilado desde el default.xex de tu disco con el SDK de ReXGlue y dibujado con Direct3D 12, hasta 4K. El repositorio no trae código ni datos del juego: setup.bat comprueba las herramientas, extrae tu imagen del disco, verifica el default.xex, descarga el SDK en la versión probada, le aplica los parches del proyecto, compila el SDK y el juego en una carpeta propia y lo arranca; la primera compilación tarda entre 10 y 30 minutos. La única versión publicada, la v0.1.0-beta del 22 de octubre, es una copia del SDK de ReXGlue (unos 116 MB), no el juego. El README no habla del estado de la jugabilidad. 7 de sus 10 commits llevan a Claude como coautor."
+  en: "Dead or Alive 4 for Xbox 360 on Windows, recompiled from the default.xex on your disc with the ReXGlue SDK and rendered with Direct3D 12, up to 4K. The repository carries no game code or data: setup.bat checks the tools, extracts your disc image, verifies default.xex, downloads the SDK at the tested version, applies the project’s patches, builds the SDK and the game into its own folder, and starts it; the first build takes 10 to 30 minutes. The only published release, v0.1.0-beta from October 22, is a copy of the ReXGlue SDK (about 116 MB), not the game. The README doesn’t say how playable it is. 7 of its 10 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco (.iso) de Dead or Alive 4 para Xbox 360 (ID de título 544307D1), sin actualización de título; se comprueba el SHA-256 del default.xex. Además, Windows 10 u 11 de 64 bits con una tarjeta gráfica con Direct3D 12, unos 15 GB libres y las herramientas de compilación que setup.bat instala con winget."
+  en: "Your own disc image (.iso) of Dead or Alive 4 for Xbox 360 (title ID 544307D1), without a title update; the SHA-256 of default.xex is checked. Plus 64-bit Windows 10 or 11 with a Direct3D 12 graphics card, about 15 GB free, and the build tools that setup.bat installs with winget."
+tags:
+  - powerpc
+  - fighting
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Rumble Roses XX"
+games: [rumble-roses-xx]
+console: x360
+status: playable
+repo: JesusTaylo/rumble-roses-xx-recomp
+originalDeveloper: "Yuke’s"
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Port nativo no oficial para PC en desarrollo, hecho por recompilación estática: el código PowerPC del juego se traduce a C++ y se compila para x86-64 con ReXGlue SDK en tu propio equipo, a partir de tu propia copia. No es un emulador. El README lo da por alfa: arranca, reproduce el vídeo de introducción, llega a los menús y se pueden jugar combates enteros con un mando; se probó en un solo PC (Windows 11 con gráficos integrados Intel UHD). Un lanzador pequeño de .NET Framework (de unos 2,7 MB, sin archivos del juego ni código recompilado) ejecuta setup.ps1 y luego el juego; la primera instalación tarda de 20 a 90 minutos, sobre todo compilando. El juego en línea queda fuera del alcance. Los documentos de desarrollo están sobre todo en español. La v0.2 del lanzador es del 26 de octubre. Declara que se desarrolló con ayuda de Claude Code; sus 5 commits lo listan como coautor."
+  en: "An unofficial work-in-progress native PC port made by static recompilation: the game’s PowerPC code is translated to C++ and compiled for x86-64 with the ReXGlue SDK on your own PC, from your own copy. It isn’t an emulator. The README calls it alpha: it boots, plays the intro video, reaches the menus, and full matches are playable with a gamepad; it was tested on a single PC (Windows 11 with integrated Intel UHD graphics). A small .NET Framework launcher (about 2.7 MB, with no game files or recompiled code) runs setup.ps1 and then the game; the first install takes 20 to 90 minutes, mostly compiling. Online play is out of scope. The development docs are mostly in Spanish. Launcher v0.2 is from October 26. It states it was developed with the help of Claude Code; all 5 of its commits list it as a co-author."
+requirements:
+  es: "Tu propia copia de Rumble Roses XX para Xbox 360 como imagen de disco (.iso), que el instalador extrae con extract-xiso; la herramienta no pide ninguna clave. Windows 10 u 11 de 64 bits, una gráfica con Direct3D 12, unos 25 GB libres y, para compilar, Visual Studio 2022 Build Tools con C++, LLVM/clang, CMake, Ninja, Git y Python 3 (el lanzador instala lo que falte con tu confirmación)."
+  en: "Your own copy of Rumble Roses XX for Xbox 360 as a disc image (.iso), which the setup extracts with extract-xiso; no key is needed from you. 64-bit Windows 10 or 11, a Direct3D 12 graphics card, about 25 GB free and, to build, Visual Studio 2022 Build Tools with C++, LLVM/clang, CMake, Ninja, Git and Python 3 (the launcher installs what is missing with your confirmation)."
+tags:
+  - powerpc
+  - fighting
+  - sports
+  - ai-assisted

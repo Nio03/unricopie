@@ -1,0 +1,19 @@
+name: "Test Drive (SDL3)"
+games: [test-drive]
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/test-drive-sdl3
+originalDeveloper: "Distinctive Software"
+year: 1987
+desc:
+  es: "Port nativo para Windows de Test Drive (Accolade / Distinctive Software, 1987), reescrito en C con SDL3 a partir de la ingeniería inversa del programa original; no es un emulador. Incluye las versiones de DOS en EGA, CGA y Hercules y la de Amiga, cada una con su ejecutable, y un lanzador para elegir versión, carpeta del juego, opciones y teclas. Conserva la velocidad de dibujo de 8 cuadros por segundo del original al conducir, lee las teclas mientras se mantienen pulsadas y corrige fallos del original (los de la versión de Amiga se pueden conservar con --original-bugs). El repositorio no trae datos del juego. La última versión, la 0.3.0 (1 de octubre), es un zip de Windows de 64 bits; las 0.1.0 y 0.2.0 salieron el 16 de septiembre. Sus 16 commits llevan a Claude como coautor."
+  en: "A native Windows port of Test Drive (Accolade / Distinctive Software, 1987), rewritten in C with SDL3 from reverse engineering of the original program; it is not an emulator. It includes the DOS versions in EGA, CGA, and Hercules and the Amiga version, each with its own executable, and a launcher to pick the version, game folder, options, and keys. It keeps the original’s drawing speed of 8 frames per second while driving, reads keys while they are held, and fixes bugs of the original (the Amiga ones can be kept with --original-bugs). The repository holds no game data. The latest version, 0.3.0 (October 1), is a 64-bit Windows zip; 0.1.0 and 0.2.0 came out on September 16. All 16 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propios archivos del Test Drive de DOS en una carpeta Game: TDEGA.EXE (o TDCGA.EXE para CGA y Hercules), CARS.TXT, SCORES, TDSND.SND, los archivos *.PES (EGA) o *.CMP (CGA y Hercules) y los de coches *.BIN y *.SS. Para la versión de Amiga, la imagen de disco .adf (o sus archivos extraídos). La carpeta debe poder escribirse. Además, Windows (las versiones publicadas son de 64 bits)."
+  en: "Your own files of the DOS Test Drive in a folder named Game: TDEGA.EXE (or TDCGA.EXE for CGA and Hercules), CARS.TXT, SCORES, TDSND.SND, the *.PES (EGA) or *.CMP (CGA and Hercules) archives, and the car *.BIN and *.SS files. For the Amiga version, the .adf disk image (or its extracted files). The folder must be writable. Plus Windows (the published builds are 64-bit)."
+tags:
+  - x86
+  - racing
+  - reverse-engineering
+  - ai-assisted

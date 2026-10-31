@@ -1,0 +1,18 @@
+name: "Astral Chain"
+games: [astral-chain]
+console: switch
+status: experimental
+repo: swaymun/AC-Recomp
+originalDeveloper: "PlatinumGames"
+year: 2019
+desc:
+  es: "Recompilación estática experimental de Astral Chain para macOS, con puertos a Linux y Windows en marcha. El código ARM del juego se compila por adelantado a C++ y se construye como un programa nativo; los servicios del sistema y la API gráfica NVN se reimplementan en el equipo (NVN sobre Vulkan, con los shaders traducidos de antemano a SPIR-V), sin emulador ni JIT. En macOS (Apple silicon, Vulkan sobre Metal con MoltenVK) arranca, supera la secuencia de apertura, la creación de personaje y la persecución en moto del Archivo 01 a 30 cuadros por segundo estables, con audio; en Linux y Windows llega hasta esa misma persecución. El propio README dice que el juego no se puede jugar de principio a fin y que guardar y cargar no se han probado. Trae un lanzador para macOS, escalado FSR 1 y opciones experimentales de resolución interna y de 60 cuadros por segundo. La v0.1.0 (macOS), del 19 de octubre, es la única versión. Declara que casi todo el código lo escribió Claude con Claude Code; 1 de sus 2 commits lo lista como coautor."
+  en: "An experimental static recompilation of Astral Chain for macOS, with Linux and Windows ports in progress. The game’s Arm code is compiled ahead of time to C++ and built as a native program; the system services and the NVN graphics API are reimplemented on the host (NVN on Vulkan, with the shaders translated offline to SPIR-V), with no emulator or JIT. On macOS (Apple silicon, Vulkan on Metal through MoltenVK) it boots, gets through the opening sequence, character creation and the File 01 motorcycle chase at a stable 30 fps, with audio; on Linux and Windows it reaches that same chase. The README itself says the game can’t be played from start to finish and that saving and reloading are untested. It has a macOS launcher, FSR 1 upscaling, and experimental options for internal resolution and a 60 fps mode. v0.1.0 (macOS), from October 19, is the only release. It states that most of the code was written by Claude through Claude Code; 1 of its 2 commits lists it as a co-author."
+requirements:
+  es: "Tu propia copia de Astral Chain 1.0.0 (juego base, sin actualización) como NSP, con las claves de tu propia consola; las demás versiones se rechazan. En macOS, un Mac con Apple silicon, macOS 13 o posterior, Xcode Command Line Tools, Homebrew y unos 25 GB libres; la primera compilación tarda de 30 a 90 minutos. Las fuentes del sistema de tu firmware son opcionales."
+  en: "Your own copy of Astral Chain 1.0.0 (base game, no update) as an NSP, with the keys from your own console; other versions are refused. On macOS, a Mac with Apple silicon, macOS 13 or newer, the Xcode Command Line Tools, Homebrew and about 25 GB free; the first build takes 30 to 90 minutes. The system fonts from your firmware are optional."
+tags:
+  - arm64
+  - action
+  - vulkan
+  - ai-assisted

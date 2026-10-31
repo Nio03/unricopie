@@ -1,0 +1,15 @@
+name: "Rockman EXE: Phantom of Network"
+games: [rockman-exe-phantom-of-network]
+category: native-layer
+console: mobile
+status: fully
+repo: StraDaMa/PoN_PC
+originalDeveloper: "Capcom"
+desc:
+  es: "Port nativo para Windows del juego japonés para móviles (un i-αppli) Rockman EXE Phantom of Network, que se juega sin emulador. El repositorio solo guarda el README y el seguimiento de incidencias: el programa se publica ya compilado y su código no está publicado, así que no se puede comprobar cómo está hecho más allá de lo que explica su autor. Según el README, se juega entero en PC y añade escalado de render, teclas redefinibles que imitan los botones de los juegos de GBA, compatibilidad con la traducción al inglés de aficionados y con la tabla de clasificación no oficial del modo de batalla de virus en línea. Hay una versión para el juego en japonés (PoN.PC.JPN.zip, 58 MB) y otra para el parcheado con la traducción (PoN.PC.ENG.zip, 9,6 MB); no hemos comprobado qué contiene cada archivo ni por qué difieren tanto de tamaño. La 1.0.1, del 21 de febrero, es la última de 2 versiones."
+  en: "A native Windows port of the Japanese mobile game (an i-αppli) Rockman EXE Phantom of Network, played without an emulator. The repository only holds the README and the issue tracker: the program is published already compiled and its code isn’t published, so how it’s made can’t be checked beyond what its author explains. According to the README it is fully playable on PC and adds render scaling, remappable keys that mimic the buttons of the GBA games, compatibility with the unofficial English fan translation, and with the unofficial leaderboard for the online ranked virus battle mode. There is one build for the Japanese game (PoN.PC.JPN.zip, 58 MB) and another for the translation-patched one (PoN.PC.ENG.zip, 9.6 MB); we haven’t checked what is inside each file or why their sizes differ so much. Version 1.0.1, from February 21, is the latest of 2 releases."
+requirements:
+  es: "Los archivos originales del juego i-αppli de Rockman EXE Phantom of Network (PoN.jar y PoN.sp), que no se incluyen: el README remite a SciLab Secrets para conseguirlos. Para jugar en inglés, esos archivos ya parcheados con la traducción de aficionados. Windows."
+  en: "The original i-αppli game files of Rockman EXE Phantom of Network (PoN.jar and PoN.sp), which are not included: the README points to SciLab Secrets for how to obtain them. To play in English, those files already patched with the fan translation. Windows."
+tags:
+  - closed-source

@@ -1,0 +1,19 @@
+name: "Top Gun: The Second Mission"
+games: [top-gun-the-second-mission]
+console: nes
+status: playable
+repo: TanookiStudios/TopGun2Recomp
+originalDeveloper: "Konami"
+year: 1990
+toolchain: nesrecomp
+desc:
+  es: "Versión nativa para Mac, Windows y Linux del juego de NES de 1990, hecha por recompilación estática: el programa del juego se tradujo a código nativo, con el marco NESRecomp. Los zips de las versiones traen el juego ya compilado (el código traducido va dentro del ejecutable) y no incluyen ROM, que el lanzador te pide y comprueba (muestra «ROM verified»). Añade escalado por números enteros, un lanzador, mandos, un menú dentro del juego con partidas guardadas, silenciado por canal de sonido y trampas (vidas y misiles infinitos, invulnerabilidad, empezar en cualquier misión, saltar de misión). El README presenta el juego como terminado, con las misiones jugables, pero no lo afirma de principio a fin. La 1.0.3 (17 de octubre) es la última de cuatro versiones publicadas entre el 15 y el 17 de octubre; el Mac está firmado y notarizado por Apple. Sus 32 commits llevan a Claude como coautor."
+  en: "A native Mac, Windows, and Linux version of the 1990 NES game, made by static recompilation: the game’s program was translated into native code, with the NESRecomp framework. The release zips ship the game already compiled (the translated code is inside the executable) and include no ROM, which the launcher asks for and checks (it shows “ROM verified”). It adds whole-number scaling, a launcher, controller support, an in-game menu with save states, per-channel sound muting, and cheats (infinite lives and missiles, can’t be hit, start at any mission, skip to the next mission). The README presents the game as finished, with the missions playable, but doesn’t state it plays start to finish. Version 1.0.3 (October 17) is the latest of four releases published between October 15 and October 17; the Mac build is signed and notarized by Apple. All 32 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Top Gun: The Second Mission (USA) para NES, como archivo .nes con SHA-256 99a4eb6cc3fb2f26de3d1b8b49d2936e76b46e4a8ef5da93f61f657a5188000e, que eliges en el lanzador. Además, Windows de 64 bits, Linux de 64 bits (la mayoría de los escritorios desde 2020) o macOS 11 o posterior, con chip Apple o Intel."
+  en: "Your own copy of Top Gun: The Second Mission (USA) for the NES, as a .nes file with SHA-256 99a4eb6cc3fb2f26de3d1b8b49d2936e76b46e4a8ef5da93f61f657a5188000e, which you select in the launcher. Plus 64-bit Windows, 64-bit Linux (most desktops from 2020 on), or macOS 11 or later, with an Apple or Intel chip."
+tags:
+  - "6502"
+  - action
+  - ai-assisted
+  - static-recomp

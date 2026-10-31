@@ -1,0 +1,25 @@
+name: "Pokémon Legends: Z-A"
+games: [pokemon-legends-z-a]
+console: switch
+status: playable
+repo: Hexveil404/PokeZ-ARecomp
+forkOf:
+  label: "peiikai/LASRecomp"
+  url: https://github.com/peiikai/LASRecomp
+originalDeveloper: "Game Freak"
+year: 2025
+toolchain: LAS Recomp
+desc:
+  es: "Port nativo no oficial para Windows hecho por recompilación estática: el código ARM64 de la Switch se traduce por adelantado a C y se compila para x86-64 en tu equipo, y el sistema operativo y la GPU (NVN) de la consola se reimplementan sobre Vulkan. No es un emulador. Es una bifurcación de LAS Recomp, de peiikai, el recompilador hecho para The Legend of Zelda: Link’s Awakening, con 208 commits propios por delante. Ofrece 60 cuadros por segundo o 30 como en la consola, resolución interna del 25 % al cuádruple, FSR 1, SMAA o FSR 2, HDR, oclusión ambiental, texturas HD, mandos SDL3, teclado y ratón con cámara, un gestor de mods y copias de partidas. Linux x86-64 es experimental. La v0.1.13 (31 de octubre) es la última de 22 versiones; 96 de sus últimos 100 commits llevan a Claude como coautor. Hay un port para macOS aparte, MonZaMac, basado en este proyecto."
+  en: "An unofficial native Windows port made by static recompilation: the Switch’s ARM64 code is translated ahead of time to C and compiled for x86-64 on your PC, and the console’s operating system and GPU (NVN) are reimplemented on top of Vulkan. It isn’t an emulator. It is a fork of LAS Recomp by peiikai, the recompiler made for The Legend of Zelda: Link’s Awakening, with 208 commits of its own ahead. It offers 60 fps or 30 as on the console, internal resolution from 25% up to 4x, FSR 1, SMAA or FSR 2, HDR, ambient occlusion, HD texture packs, SDL3 controllers, keyboard and mouse with a mouse camera, a mods manager, and save backups. Linux x86-64 is experimental. v0.1.13 (October 31) is the latest of 22 releases; 96 of its last 100 commits list Claude as a co-author. A separate macOS port, MonZaMac, is based on this project."
+requirements:
+  es: "Tu propia copia de Pokémon Legends: Z-A 1.0.0, 2.0.0 o 2.0.2, con la ampliación Mega Dimension si quieres: las carpetas exefs y romfs ya extraídas, o el volcado del juego base (.xci o .nsp) con el prod.keys de tu propia Switch. Además, Windows 10 (1903 o posterior) u 11 de 64 bits, una CPU x86-64 con AVX2, una GPU con Vulkan 1.2 o superior, 8 GB de RAM (16 GB recomendados) y unos 12 GB libres."
+  en: "Your own copy of Pokémon Legends: Z-A 1.0.0, 2.0.0 or 2.0.2, optionally with the Mega Dimension DLC: the already extracted exefs and romfs folders, or a dump of the base game (.xci or .nsp) with the prod.keys from your own Switch. Plus 64-bit Windows 10 (1903 or newer) or 11, an x86-64 CPU with AVX2, a Vulkan 1.2 or newer GPU, 8 GB of RAM (16 GB recommended), and about 12 GB free."
+tags:
+  - arm64
+  - rpg
+  - vulkan
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

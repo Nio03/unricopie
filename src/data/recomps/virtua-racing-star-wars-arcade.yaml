@@ -1,0 +1,20 @@
+name: "Virtua Racing / Star Wars Arcade (Model 1 Recomps)"
+games: [virtua-racing, star-wars-arcade]
+console: arcade
+status: playable
+repo: svera/model1-recomps
+forkOf:
+  label: "mr-finster/vf1-recomp"
+  url: https://github.com/mr-finster/vf1-recomp
+originalDeveloper: "Sega"
+year: 1992
+desc:
+  es: "Bifurcación del recomp de Virtua Fighter de Mr. Finster que lo reorganiza para llevar más juegos de la placa Model 1 de Sega a escritorio como programas nativos; hoy incluye Virtua Racing y Star Wars Arcade (1993). Un runtime compartido modela la placa alrededor de la CPU NEC V60, con el coprocesador de geometría MB86233, el rasterizador, las capas de tiles de System 24 y las placas de sonido y de entrada y salida; el intérprete de V60 y buena parte de la máquina se basan en MAME. El recompilador traduce el programa V60 al arrancar, con un mapa de funciones que solo lleva direcciones, y lo lee de tu conjunto de ROM: no se entregan bytes de ROM. Ofrece gráficos más nítidos, vistas panorámicas y ultrapanorámicas sin estirar el HUD, 60 o 120 fps por interpolación (a 30 se ve como lo dibujaba el arcade), teclado y mando, ajustes y récords guardados; es solo para un jugador. La 0.2.1, del 31 de octubre, publica paquetes de los dos juegos para macOS, Windows y Linux."
+  en: "A fork of Mr. Finster’s Virtua Fighter recomp that reorganizes it to bring more of Sega’s Model 1 arcade board games to the desktop as native programs; it currently includes Virtua Racing and Star Wars Arcade (1993). A shared runtime models the board around the NEC V60 CPU, with the MB86233 geometry coprocessor, the rasterizer, the System 24 tile layers, and the sound and I/O boards; the V60 interpreter and much of the machine are based on MAME. The recompiler translates the V60 program at startup, with a function map that holds addresses only, and reads it from your ROM set: no ROM bytes are shipped. It offers sharper graphics, widescreen and ultrawide views without stretching the HUD, 60 or 120 fps by interpolation (at 30 it looks as the arcade drew it), keyboard and gamepad, and saved settings and high scores; it is single-player only. Version 0.2.1, from October 31, publishes packages of both games for macOS, Windows, and Linux."
+requirements:
+  es: "Para Virtua Racing, tus propios vr.zip y model1io.zip (conjuntos de ROM de MAME), juntos y sin descomprimir; para Star Wars Arcade, tus propios swa.zip (EE. UU.) y model1io.zip. Windows, macOS o Linux (incluida la Steam Deck); una tarjeta gráfica potente ayuda con los ajustes altos."
+  en: "For Virtua Racing, your own vr.zip and model1io.zip (MAME ROM sets), together and unzipped; for Star Wars Arcade, your own swa.zip (US) and model1io.zip. Windows, macOS, or Linux (Steam Deck included); a faster graphics card helps with the higher settings."
+tags:
+  - 60fps+
+  - widescreen
+  - racing

@@ -1,0 +1,21 @@
+name: "Top Gear Rally / Boss Rally"
+games: [top-gear-rally, boss-rally]
+category: decomp-port
+console: n64
+status: playable
+repo: jeff-strutb/brally
+originalDeveloper: "Boss Game Studios"
+year: 1997
+desc:
+  es: "Decompilación exacta de Top Gear Rally (N64, 1997) y de Boss Rally (PC, 1999), que Boss Game Studios hizo con el mismo motor, y puertos nativos compilados a partir de ese código. Según el README, las 572 funciones de Top Gear Rally compilan con IDO 5.3 a los bytes exactos de la ROM, y el repositorio mantiene un árbol aparte para cada juego porque solo una parte del código es común; la decompilación de Boss Rally (con MSVC 5.0) avanza, con un 78,58 % del código idéntico byte a byte en la última versión. Rally Builder, para Windows y macOS, construye a partir de tus propios archivos una copia nativa de Boss Rally, de Top Gear Rally (cartuchos de EE. UU., Europa o Japón) o de Top Gear Rally Remastered, que une los menús de Top Gear Rally con el motor de Boss Rally y añade pantalla ancha, elegir la música y los menús de cualquiera de los dos juegos, pantalla partida para dos y vibración; el remaster también se construye para iPhone y iPad. La 0.95 (30 de octubre) es la última de 6 versiones."
+  en: "A matching decompilation of Top Gear Rally (N64, 1997) and Boss Rally (PC, 1999), which Boss Game Studios made on the same engine, and native ports compiled from that code. According to the README, all 572 functions of Top Gear Rally compile under IDO 5.3 to the exact bytes of the ROM, and the repository keeps a separate tree for each game because only part of the code is shared; the Boss Rally decompilation (with MSVC 5.0) is progressing, with 78.58% of the code byte-identical in the latest release. Rally Builder, for Windows and macOS, builds from your own files a native copy of Boss Rally, of Top Gear Rally (US, European, or Japanese cartridges), or of Top Gear Rally Remastered, which pairs Top Gear Rally’s menus with Boss Rally’s engine and adds widescreen, a choice of music and of either game’s menus, two-player split screen, and rumble; the remaster also builds for iPhone and iPad. Version 0.95 (October 30) is the latest of 6 releases."
+requirements:
+  es: "Tus propios archivos: para Boss Rally, el CD original en BIN/CUE (MD5 31c64f9b1e09788c2dfc384b44af8f6c); para Top Gear Rally, la ROM de N64 de EE. UU., Europa o Japón (MD5 de la estadounidense 6f7030284b6bc84a49e07da864526b52); para Remastered, la ROM de EE. UU. o Japón y el CD. Windows 10 o posterior de 64 bits con Vulkan u OpenGL 3.3, o macOS 12 o posterior."
+  en: "Your own files: for Boss Rally, the original CD as BIN/CUE (MD5 31c64f9b1e09788c2dfc384b44af8f6c); for Top Gear Rally, the N64 ROM from the US, Europe, or Japan (the US one has MD5 6f7030284b6bc84a49e07da864526b52); for Remastered, the US or Japanese ROM and the CD. 64-bit Windows 10 or later with Vulkan or OpenGL 3.3, or macOS 12 or later."
+tags:
+  - mips
+  - x86
+  - racing
+  - matching
+  - widescreen
+  - build-ios

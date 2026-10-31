@@ -1,0 +1,20 @@
+name: "Need for Speed: Most Wanted (rafidwayne)"
+games: [need-for-speed-most-wanted]
+console: x360
+status: experimental
+repo: rafidwayne/speedbreaker-windows-unofficial
+forkOf:
+  label: "SpeedBreakerProject/speedbreaker"
+  url: https://github.com/SpeedBreakerProject/speedbreaker
+originalDeveloper: "EA Black Box"
+year: 2005
+desc:
+  es: "Bifurcación no oficial de SpeedBreaker, la recompilación estática de la versión de Xbox 360 de Need for Speed: Most Wanted (2005), que añade una compilación para Windows (x86-64) sobre la 0.1.7 del original. Aporta el entorno de ejecución adaptado a Windows con MinGW-w64, un arreglo de audio (el hilo de audio espera con un temporizador de alta resolución y se une a MMCSS), SpeedBreakerLauncher.exe, que edita los ajustes y arranca el juego, y flujos de GitHub Actions. La versión publicada, la v0.1.7-win.1 del 21 de octubre, trae SpeedBreaker.exe ya compilado, construido a partir de una traducción del default.xex de su autor, más el lanzador. El README de la bifurcación avisa de que los flujos de compilación son nuevos y no se habían ejecutado en GitHub. Lleva 72 commits propios por delante del original. 10 de sus 82 commits llevan a Claude como coautor."
+  en: "An unofficial fork of SpeedBreaker, the static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005), that adds a Windows (x86-64) build on top of upstream 0.1.7. It brings the runtime adapted to Windows with MinGW-w64, an audio fix (the audio thread waits on a high-resolution timer and joins MMCSS), SpeedBreakerLauncher.exe, which edits settings and starts the game, and GitHub Actions workflows. The published release, v0.1.7-win.1 from October 21, ships a prebuilt SpeedBreaker.exe, built from a translation of its author’s own default.xex, plus the launcher. The fork’s README warns that the build workflows are new and hadn’t been run on GitHub. It is 72 commits of its own ahead of upstream. 10 of its 82 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del disco de Need for Speed: Most Wanted para Xbox 360, de EE. UU. (NTSC-U); default.xex de 3.936.256 bytes con SHA-256 aebdf3c14d1e4e4ed2c130d94bc1a0e97bd6d5bf39bdfdef33c3909c9cc4ba4c. El instalador del propio juego pide la imagen del disco la primera vez. Windows de 64 bits."
+  en: "Your own disc copy of Need for Speed: Most Wanted for Xbox 360, USA (NTSC-U); default.xex of 3,936,256 bytes with SHA-256 aebdf3c14d1e4e4ed2c130d94bc1a0e97bd6d5bf39bdfdef33c3909c9cc4ba4c. The game’s own installer asks for the disc image the first time. 64-bit Windows."
+tags:
+  - powerpc
+  - racing
+  - ai-assisted

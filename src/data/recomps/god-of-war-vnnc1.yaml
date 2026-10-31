@@ -1,0 +1,19 @@
+name: "God of War (Vnnc1)"
+games: [god-of-war]
+console: ps2
+status: playable
+repo: Vnnc1/gow-native-pc
+originalDeveloper: "Santa Monica Studio"
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo para Windows de God of War (PS2, NTSC-U, SCUS-97399), por recompilación estática a C++ del código MIPS R5900 con PS2Recomp. Reúne el trabajo de varios autores (entre ellos Waffle565, KIexster y el port de Tobiichi) tras un instalador: el lanzador descarga las herramientas de compilación y el runtime, que no se guarda en el repositorio, instala tu ISO (la original o una traducción de aficionados reconocida; con varias, pregunta el idioma) y compila el juego con optimización guiada por perfiles. Su README dice que el juego se puede jugar pero no está al 100 %: no llega a 60 fps fijos en todas las escenas, solo se han medido a fondo las primeras zonas y quedan problemas conocidos; planea paquetes de texturas, un port para Linux y mods de ISO. Tiene un menú en el juego (F1) con ajustes gráficos en vivo, trucos y copia de tarjetas de memoria, y controles configurables. La 3.0.1 (31 de octubre) acelera el código del VU1, de unos 51 a 57 FPS de media en el equipo de pruebas del autor, y entre el 25 y el 31 de octubre salieron la 1.0.0, la 2.0.0, la 3.0.0 y la 3.0.1. 43 de sus 65 commits llevan a Claude como coautor."
+  en: "A native Windows port of God of War (PS2, NTSC-U, SCUS-97399), by static recompilation of the MIPS R5900 code to C++ with PS2Recomp. It brings together the work of several authors (among them Waffle565, KIexster, and the Tobiichi port) behind an installer: the launcher downloads the build tools and the runtime, which isn’t stored in the repository, installs your ISO (the original or a recognized fan translation; with several it asks which language you want), and builds the game with profile-guided optimization. Its README says the game is playable but not 100%: it doesn’t reach a locked 60 fps in every scene, only the opening areas have been measured in depth, and known issues remain; it plans texture packs, a Linux port, and ISO mods. It has an in-game menu (F1) with live graphics settings, cheats, and memory card copies, and configurable controls. Version 3.0.1 (October 31) speeds up the VU1 code, from about 51 to 57 FPS on average on the author’s test PC, and 1.0.0, 2.0.0, 3.0.0, and 3.0.1 came out between October 25 and 31. 43 of its 65 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ISO de God of War (NTSC-U, SCUS-97399) o una traducción de aficionados reconocida. Windows 10 u 11 de 64 bits, una CPU x86-64 con SSE4.2, 8 GB de RAM (16 GB recomendados al compilar), una GPU con OpenGL 4.3 o superior (si no, usa un renderizador por software más lento), menos de 10 GB libres como estimación y conexión a internet para descargar el runtime y las herramientas, que se bajan solas (no hace falta Visual Studio)."
+  en: "Your own God of War ISO (NTSC-U, SCUS-97399) or a recognized fan translation. 64-bit Windows 10 or 11, an x86-64 CPU with SSE4.2, 8 GB of RAM (16 GB recommended while building), a GPU with OpenGL 4.3 or newer (otherwise a slower software renderer is used), under 10 GB free as an estimate, and an internet connection to download the runtime and the tools, which download themselves (Visual Studio isn’t required)."
+tags:
+  - emotion-engine
+  - action
+  - "60fps+"
+  - ai-assisted

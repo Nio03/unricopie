@@ -1,0 +1,17 @@
+name: "Bubble Bobble"
+games: [bubble-bobble]
+console: nes
+status: playable
+repo: Junior-Jones/Bubble-Bobble-NES-Static-Recomp
+originalDeveloper: "Taito"
+year: 1988
+desc:
+  es: "Recompilación estática para Windows de la versión estadounidense de Bubble Bobble para NES. Las instrucciones 6502 del juego se tradujeron por adelantado a C, sin intérprete ni emulador de reserva, y el código generado está en el repositorio (13.334 puntos de entrada); el resto es el ejecutable de Windows con el soporte del mapeador MMC1, la PPU, el APU y los mandos, que usa SDL3. Trae un lanzador con presentación por vecino más próximo, corrección opcional a 4:3, partidas rápidas, capturas de pantalla y dos puertos de mando para teclado o mando. El README no detalla qué falla ni si el juego se completa. La última versión, la 1.1.0 (27 de agosto), publica un zip para Windows y otro con el código fuente, de menos de 2 MB cada uno."
+  en: "A static recompilation of the US NES version of Bubble Bobble for Windows. The game’s 6502 instructions were translated ahead of time into C, with no interpreter or emulator fallback, and the generated code is in the repository (13,334 entry points); the rest is the Windows executable with support for the MMC1 mapper, the PPU, the APU, and controllers, using SDL3. It comes with a launcher with nearest-neighbour presentation, optional 4:3 correction, quick saves, screenshots, and two controller ports for keyboard or gamepad. The README doesn’t say what fails or whether the game can be finished. The latest release, 1.1.0 (August 27), publishes a Windows zip and a source zip, each under 2 MB."
+requirements:
+  es: "Tu propia copia de Bubble Bobble (USA) para NES, en formato .nes y NTSC-U, llamada «Bubble Bobble (USA).nes» y colocada en la carpeta Rom junto al lanzador; este valida el archivo completo. Además, Windows 10 u 11 de 64 bits."
+  en: "Your own copy of Bubble Bobble (USA) for the NES, in .nes format and NTSC-U, named “Bubble Bobble (USA).nes” and placed in the Rom folder next to the launcher, which validates the whole file. Plus 64-bit Windows 10 or 11."
+tags:
+  - "6502"
+  - platformer
+  - static-recomp

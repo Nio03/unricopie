@@ -1,0 +1,17 @@
+name: "inFAMOUS 2 (erikomis)"
+games: [infamous-2]
+console: ps3
+status: playable
+repo: erikomis/infamous2-recomp
+originalDeveloper: "Sucker Punch Productions"
+year: 2011
+toolchain: ps3recomp
+desc:
+  es: "Port nativo no oficial para macOS con Apple silicon (arm64) de la versión de PS3 (PSN, NPUA80638), hecho por recompilación estática con ps3recomp y, sobre todo, con el fork del port de inFAMOUS 1 de NoahBPeterson: el código PowerPC y el de las SPU del juego se traducen a C y C++ y se compilan en un ejecutable nativo, con gráficos en Metal; no es un emulador. Arranca, muestra menús y escenas, y New Marais se puede jugar, a unos 38-40 fps en pruebas sin ventana en Apple silicon; nadie ha pasado del 1 % de la historia, así que las misiones posteriores pueden fallar. Incluye una aplicación de escritorio (Tauri) que instala y recompila el juego a partir de tu copia, con ajustes gráficos, mando (probado con DualSense), teclado y ratón (poco probados en ventana), partidas guardadas, trofeos y actualización automática. Windows y Linux están previstos, no hechos. La 0.2.14 (25 de octubre) es la última de 17 versiones, todas preliminares. El README dice que el repositorio no trae datos del juego, firmware ni claves."
+  en: "An unofficial native port for Apple-silicon (arm64) macOS of the PS3 version (PSN, NPUA80638), made by static recompilation with ps3recomp and, above all, NoahBPeterson’s inFAMOUS 1 fork: the game’s PowerPC and SPU code is translated to C and C++ and compiled into a native executable, with Metal graphics; it is not an emulator. It boots, shows its menus and cutscenes, and New Marais is playable, at about 38-40 fps in headless runs on Apple silicon; nobody has gone past 1% of the story, so later missions may break. It includes a desktop app (Tauri) that installs and recompiles the game from your copy, with graphics settings, controller (tested with a DualSense), keyboard and mouse (little tested in a window), saves, trophies, and self-updating. Windows and Linux are planned, not done. Version 0.2.14 (October 25) is the latest of 17 releases, all pre-releases. The README says the repository contains no game data, firmware, or keys."
+requirements:
+  es: "Un Mac con Apple silicon y tu propia copia de inFAMOUS 2 de PSN (NPUA80638), por ejemplo la instalada en RPCS3 con su licencia .rap. La aplicación indica qué herramientas faltan (Xcode Command Line Tools y algunos paquetes de Homebrew) y las instala con tu permiso. El descifrado usa RPCS3 si lo tienes, o tu propio archivo de claves y el firmware de la PS3 (carpeta dev_flash o PS3UPDAT.PUP); no se incluye ninguna clave."
+  en: "An Apple-silicon Mac and your own copy of the PSN release of inFAMOUS 2 (NPUA80638), for example the one installed in RPCS3 with its .rap license. The app lists the tools you still need (Xcode Command Line Tools and a few Homebrew packages) and installs them with your OK. Decryption uses RPCS3 if you have it, or your own key file and the PS3 firmware (a dev_flash folder or PS3UPDAT.PUP); no keys are included."
+tags:
+  - powerpc
+  - action

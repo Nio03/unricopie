@@ -1,0 +1,10 @@
+name: "Crash Team Racing (mkst)"
+games: [crash-team-racing]
+console: ps1
+repo: mkst/ctr
+desc:
+  es: "Decompilación de prueba de concepto de Crash Team Racing para PlayStation (SCUS-94426), hecha con las herramientas de decompilación de N64. Trabaja sobre el ejecutable de arranque del disco (scus_944.26, que el README llama bootloader.dat): extrae su código y sus datos con make extract y lo reconstruye con make, con una imagen de Docker para Ubuntu 20.04, y usa asm-differ para comparar la compilación con la original. En el repositorio hay unas pocas funciones ya escritas en C (cámara, jugador, listas enlazadas, reserva de memoria, matemáticas y números aleatorios) y la configuración de dos superposiciones. Está archivado: tiene 8 commits y el último es de junio de 2023."
+  en: "A proof-of-concept decompilation of Crash Team Racing for PlayStation (SCUS-94426), made with N64 decompilation tooling. It works on the disc’s boot executable (scus_944.26, which the README calls bootloader.dat): make extract pulls out its code and data and make rebuilds it, with a Docker image for Ubuntu 20.04, and asm-differ compares the build against the original. The repository has a few functions already written in C (camera, player, linked lists, memory pool, math, and random numbers) and the configuration of two overlays. It is archived: it has 8 commits and the last one is from June 2023."
+tags:
+  - mips
+  - reverse-engineering

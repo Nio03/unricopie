@@ -1,0 +1,25 @@
+name: "Resident Evil - Code: Veronica X (camybiohazard)"
+games: [resident-evil-code-veronica-x]
+category: decomp-port
+console: ps2
+status: playable
+repo: camybiohazard/Project-Veronica
+forkOf:
+  label: aikatore/recvx-enhanced-port
+  url: https://github.com/aikatore/recvx-enhanced-port
+originalDeveloper: "Capcom"
+year: 2001
+desc:
+  es: "Project Veronica: port nativo para Windows y Linux de la versión estadounidense de PS2 (SLUS-20184), bifurcado de aikatore/recvx-enhanced-port y construido sobre la decompilación recvx-decomp de AshfordFamily. El código del juego y su capa de PS2 se compilan para PC, el hardware de la consola se emula en sus bordes y las partes costosas se sustituyen por rutas nativas. Ofrece un renderizador mejorado (pantalla ancha hasta ultrapanorámica, resolución interna de hasta 8x y fotogramas intermedios mientras la lógica sigue a 30 fps), un modo opcional en tercera persona, controles modernos para las cámaras fijas, cambio de modelos de personajes y criaturas, opciones de enemigos con generador y aleatorizador con semilla, archivos de guardado individuales, trucos y herramientas de depuración, paquetes de texturas HD de PCSX2 (no incluye ninguno) y mods de salas. La 1.0.3 (28 de octubre) añadió un contador de munición. Lleva 22 commits propios sobre el original, y 71 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Project Veronica: a native Windows and Linux port of the US PS2 release (SLUS-20184), forked from aikatore/recvx-enhanced-port and built on AshfordFamily’s recvx-decomp decompilation. The game’s code and its PS2 platform layer are compiled for PC, the console hardware is emulated at its boundaries, and the expensive parts are replaced with native paths. It offers an enhanced renderer (widescreen up to ultrawide, internal resolution up to 8x, and in-between frames while the logic stays at 30 fps), an optional third-person mode, modern controls for the fixed cameras, model swaps for characters and creatures, enemy options with a spawner and a seeded randomizer, individual save files, cheats and debug tools, PCSX2 HD texture packs (none included), and room mods. Version 1.0.3 (October 28) added an ammo counter. It carries 22 commits of its own on top of the original, and 71 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco (.iso) de Resident Evil Code: Veronica X para PS2, NTSC-U, SLUS-20184. Linux x86 (el juego es un programa de 32 bits y necesita glibc 2.34 o posterior y las bibliotecas de 32 bits de OpenGL, X11 o Wayland y audio) o Windows 10 o posterior (ejecutable de 32 bits), con una tarjeta gráfica con OpenGL 3.3."
+  en: "Your own disc image (.iso) of Resident Evil Code: Veronica X for PS2, NTSC-U, SLUS-20184. x86 Linux (the game is a 32-bit program and needs glibc 2.34 or newer and the 32-bit OpenGL, X11 or Wayland, and audio libraries) or Windows 10 or later (32-bit executable), with a graphics card with OpenGL 3.3."
+tags:
+  - emotion-engine
+  - horror
+  - widescreen
+  - "60fps+"
+  - mods
+  - randomizer
+  - ai-assisted

@@ -1,0 +1,23 @@
+name: "Skate 3 (dougieprishpreed)"
+games: [skate-3]
+console: x360
+status: playable
+repo: dougieprishpreed/skate3recomp-plus
+forkOf:
+  label: "mchughalex/skate3recomp"
+  url: https://github.com/mchughalex/skate3recomp
+originalDeveloper: "EA Black Box"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Versión ampliada de la recompilación de Skate 3 de mchughalex para Windows, Linux y macOS, con 29 commits propios por delante. Añade New San Vanelona, la ciudad de Skate 2, accesible desde el menú de ubicaciones del juego, con 25 puntos de aparición, fondo lejano, cielo, nubes, agua, vegetación animada, neones, cristales reflectantes, coches y peatones originales, mapas de contenido descargable y modo nocturno. También corrige problemas del renderizador nativo que afectan a todos los mapas (huesos del Hall of Meat, desenfoque de movimiento, viñeteado, sombras, pelo, tatuajes, semáforos) y añade una interfaz imgui (RB+Start o Esc) con opciones como modo nocturno, ragdoll desbloqueado, sin daño por caída y salir de los límites. Vulkan con renderizador nativo es lo predeterminado y solo se ha probado en Windows; el renderizador emulado no funciona bien en New San Vanelona. La v0.2e (25 de octubre) trae zips para Windows, Linux y macOS. 9 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An extended version of mchughalex’s Skate 3 recompilation for Windows, Linux and macOS, with 29 commits of its own ahead. It adds New San Vanelona, Skate 2’s city, reachable from the game’s locations menu, with 25 spawn locations, distant backdrop, skybox, clouds, water, animated vegetation, neon signs, reflective glass, original cars and peds, DLC maps and a night mode. It also fixes native renderer problems that affect every map (Hall of Meat bones, motion blur, vignette, shadows, hair, tattoos, traffic lights) and adds an imgui interface (RB+Start or Esc) with options such as night mode, unlocked ragdoll, no fall damage and walking out of bounds. Vulkan with the native renderer is the default and has only been tested on Windows; the emulated renderer is broken in New San Vanelona. v0.2e (October 25) has zips for Windows, Linux and macOS. 9 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Skate 3 para Xbox 360 como ISO, que se elige desde el lanzador; el contenido descargable es opcional y sale de tu propia copia. Windows (el más probado), Linux o macOS con Apple silicon."
+  en: "Your own copy of Skate 3 for Xbox 360 as an ISO, chosen from the launcher; DLC is optional and comes from your own copy. Windows (the most tested), Linux or macOS on Apple silicon."
+tags:
+  - powerpc
+  - sports
+  - vulkan
+  - mods
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Quest 64 (boricuapab)"
+games: [quest-64]
+console: n64
+status: playable
+repo: boricuapab/quest64tale-recompiled
+originalDeveloper: "Imagineer / THQ"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para Windows y Linux de Quest 64 (versión estadounidense), llamado Quest 64 Tale: Recompiled, hecho con N64Recomp, N64ModernRuntime y RT64. Trae un lanzador que pide la ROM, ajustes de resolución, antialiasing, relación de aspecto y tasa de dibujado, asignación de teclado y mando, y guardado en Controller Pak. Admite trece paquetes opcionales, que se descargan de un repositorio aparte (quest64tale-recompiled-mods): potenciadores de estadísticas, un menú de depuración con viaje por mapas y selección de ocho jefes, texturas de alta resolución de Brian, autoguardado, tasa de encuentros, vida de enemigos, barras de experiencia, guías de historia y espíritus, vista previa de hechizos y el vídeo de Solvaring Backstory. La 1.1.2 (19 de octubre) es la última de 7 versiones. El repositorio no incluye ROM ni código generado, y el README cita a OpenAI entre los colaboradores."
+  en: "A native Windows and Linux port of Quest 64 (US version), called Quest 64 Tale: Recompiled, made with N64Recomp, N64ModernRuntime, and RT64. It has a launcher that asks for the ROM, resolution, anti-aliasing, aspect ratio, and rendering-rate settings, keyboard and controller bindings, and Controller Pak saves. It supports thirteen optional packs, downloaded from a separate repository (quest64tale-recompiled-mods): stat boosts, a debug menu with map travel and selection of eight boss encounters, high-resolution Brian textures, autosaves, encounter rates, enemy health, experience bars, story and spirit guides, spell previews, and the Solvaring Backstory video. Version 1.1.2 (October 19) is the latest of 7 releases. The repository contains neither the ROM nor generated code, and the README lists OpenAI among its contributors."
+requirements:
+  es: "Tu propia ROM de Quest 64 estadounidense (SHA-1 91b96e938c6d91699057fad91d726ee5a23ce33a; el lanzador acepta los órdenes de bytes habituales de N64). Windows x64 con Direct3D 12 o Vulkan (y el runtime de Visual C++ 2015–2022), o Linux x86-64 con Vulkan, SDL2 y GTK 3."
+  en: "Your own US Quest 64 ROM (SHA-1 91b96e938c6d91699057fad91d726ee5a23ce33a; the launcher accepts the usual N64 byte orders). x64 Windows with Direct3D 12 or Vulkan (and the Visual C++ 2015–2022 runtime), or x86-64 Linux with Vulkan, SDL2, and GTK 3."
+tags:
+  - mips
+  - rpg
+  - mods
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "The King of Fighters Neowave"
+games: [the-king-of-fighters-neowave]
+console: xbox
+status: playable
+repo: bromurok/TheKingofFightersNeowaveRecomp
+originalDeveloper: "SNK Playmore"
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial a PC de la versión de la Xbox original de The King of Fighters Neowave, hecho con Xbox XBE Recomp, con un renderizador nativo de Direct3D 12, un menú de ajustes de PC propio (F1), escalado de resolución, mandos y teclado completos y 60 FPS fijos. El menú permite cambiar el modo de pantalla, la proporción (16:9 o 4:3), la resolución, la escala de render de 1x a 8x y la asignación de mandos a los jugadores. El README declara que se hizo con ayuda de Google Gemini. La única versión, la v1.0.0 (27 de octubre), son dos archivos .rar de unos 5,5 MB cada uno con el ejecutable ya compilado. Sus 8 commits no llevan a Claude como coautor."
+  en: "An unofficial native PC port of the original Xbox version of The King of Fighters Neowave, made with Xbox XBE Recomp, with a native Direct3D 12 renderer, its own PC settings menu (F1), resolution scaling, full controller and keyboard support, and a locked 60 FPS. The menu changes display mode, aspect ratio (16:9 or 4:3), resolution, render scale from 1x to 8x, and the assignment of controllers to players. The README declares it was made with the help of Google Gemini. The only release, v1.0.0 (October 27), is two .rar files of about 5.5 MB each with the already built executable. None of its 8 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de The King of Fighters Neowave para la Xbox original: imagen de disco o carpeta extraída con default.xbe (que se coloca en la carpeta assets). Windows de 64 bits con una tarjeta gráfica con Direct3D 12."
+  en: "Your own copy of The King of Fighters Neowave for the original Xbox: a disc image or an extracted folder with default.xbe (placed in the assets folder). 64-bit Windows with a Direct3D 12 graphics card."
+tags:
+  - x86
+  - fighting
+  - ai-assisted

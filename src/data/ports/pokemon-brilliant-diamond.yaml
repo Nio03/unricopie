@@ -1,0 +1,19 @@
+name: "Pokémon Brilliant Diamond"
+games: [pokemon-brilliant-diamond]
+category: game-engine
+console: switch
+status: playable
+repo: u2-bot/uDPRE
+originalDeveloper: "ILCA"
+year: 2021
+desc:
+  es: "uDPRE es el reproductor para Windows del proyecto uDPR (el juego reconstruido como un juego nativo de Unity 2019.4) más un conversor que convierte tu propio volcado en los datos que lee ese reproductor. Pulsas Convertir una vez (alrededor de un minuto en un equipo rápido) y luego Jugar. Se actualiza solo, junto con sus paquetes de mods, y admite mods de datos de consola, Luminescent Platinum y otros y, en beta, un editor y aleatorizador, un modo Nuzlocke, juego por LAN y Pokémon salvajes visibles en el mundo. La release (v0.5.4, 29 de octubre, un zip de unos 77 MB) lleva el reproductor ya compilado (Dpr.exe y GameAssembly.dll, con el runtime de Unity y el de Wwise, y los shaders compilados para Direct3D 11) y el conversor; el README dice que ningún archivo contiene bytes del juego (texturas, modelos, sonidos, texto ni scripts) y que lo comprueba una auditoría antes de cada release. Del reproductor no se publica el código en este repositorio, que solo tiene el conversor en Python y los scripts de publicación; la lógica del juego va compilada dentro de la release. Shining Pearl aún no se admite."
+  en: "uDPRE is the Windows player of the uDPR project (the game rebuilt as a native Unity 2019.4 game) plus a converter that turns your own dump into the data that player reads. You press Convert once (about a minute on a fast desktop) and then Play. It updates itself, along with its mod packs, and supports console data mods, Luminescent Platinum and others and, in beta, an editor and randomizer, a Nuzlocke mode, LAN play and visible wild Pokémon in the overworld. The release (v0.5.4, October 29, a zip of about 77 MB) carries the player already built (Dpr.exe and GameAssembly.dll, with Unity’s and Wwise’s runtimes and the shader programs compiled for Direct3D 11) and the converter; the README says no file holds bytes of the game (textures, models, sounds, text or scripts) and that an audit checks it before every release. The player’s source is not published in this repository, which only has the Python converter and the release scripts; the game’s logic ships compiled inside the release. Shining Pearl isn’t supported yet."
+requirements:
+  es: "Tu propio volcado de Pokémon Brilliant Diamond con la actualización 1.3.0 aplicada (el juego base y la actualización extraídos juntos), en una carpeta con romfs (con Data dentro); exefs no hace falta. Windows 10 u 11 de 64 bits, una gráfica con DirectX 11, unos 7 GB libres y 8 GB de RAM recomendados."
+  en: "Your own dump of Pokémon Brilliant Diamond with the v1.3.0 update applied (base game and update extracted together), in a folder with romfs (with Data inside); exefs isn’t needed. 64-bit Windows 10 or 11, a DirectX 11 graphics card, about 7 GB free, and 8 GB of RAM recommended."
+tags:
+  - rpg
+  - mods
+  - pokemon
+  - multiplayer

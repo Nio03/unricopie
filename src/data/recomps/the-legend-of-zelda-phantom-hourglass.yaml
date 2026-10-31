@@ -1,0 +1,20 @@
+name: "The Legend of Zelda: Phantom Hourglass"
+games: [the-legend-of-zelda-phantom-hourglass]
+console: nds
+status: playable
+repo: dguillot-gh/phantom-hourglass-recomp
+originalDeveloper: "Nintendo EAD"
+year: 2007
+desc:
+  es: "Port nativo para Windows y Android hecho por recompilación estática: el código del ARM9 (el programa principal y sus 62 overlays, 24.621 funciones) se traduce a C y se compila para tu equipo, y el resto de la consola (ARM7, gráficos y sonido) lo aporta el núcleo de melonDS. Ofrece distintas disposiciones de pantalla, tres renderizadores (software de resolución exacta, GPU con OpenGL y Compute) con escalado de 2× a 8× en PC y hasta 4× en Android, pantalla ancha de 16:9 y 21:9 con el HUD adaptado, controles táctiles y de mando, micrófono con soplido grabado, 12 ranuras de estado de guardado y controles en pantalla en Android. El README dice que se juega en PC y en un Pixel 8 (59,9 fps con Compute a 2×) y que se probó hasta el Templo del Fuego. No tiene releases: se construye desde el repositorio con tu ROM, y el README pide no compartir las compilaciones porque contienen el juego. 35 de sus 46 commits llevan a Claude como coautor."
+  en: "A native port for Windows and Android made by static recompilation: the ARM9 code (the main program and its 62 overlays, 24,621 functions) is translated to C and compiled for your machine, and the rest of the console (ARM7, graphics, and sound) comes from the melonDS core. It offers several screen layouts, three renderers (exact-resolution software, GPU with OpenGL, and Compute) with 2× to 8× upscaling on PC and up to 4× on Android, 16:9 and 21:9 widescreen with the HUD following the wide view, touch and gamepad controls, a microphone with a recorded blow sample, 12 save-state slots, and on-screen controls on Android. The README says it plays on PC and on a Pixel 8 (59.9 fps with Compute at 2×) and that it was play tested up to the Fire Temple. It has no releases: it is built from the repository with your ROM, and the README asks you not to share the builds because they contain the game. 35 of its 46 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Phantom Hourglass para DS, estadounidense (SHA-1 4c8f52dd719918bbcd46e73a8bae8628139c1b85) o la misma con el parche del D-pad (SHA-1 7e0d26d143992f1eee182b24f1abb9e7f038eacf). Windows 10 u 11 de 64 bits, unos 10 GB de disco para las herramientas y la compilación, y una tarjeta con OpenGL 3.3 para el renderizador de GPU; para el móvil, Android 8 o posterior (arm64) y un cable USB."
+  en: "Your own copy of Phantom Hourglass for the DS, US (SHA-1 4c8f52dd719918bbcd46e73a8bae8628139c1b85) or the same with the D-pad patch (SHA-1 7e0d26d143992f1eee182b24f1abb9e7f038eacf). 64-bit Windows 10 or 11, about 10 GB of disk for the tools and the build, and a graphics card with OpenGL 3.3 for the GPU renderer; for the phone, Android 8 or newer (arm64) and a USB cable."
+tags:
+  - arm9
+  - arm7
+  - action
+  - widescreen
+  - build-android
+  - ai-assisted

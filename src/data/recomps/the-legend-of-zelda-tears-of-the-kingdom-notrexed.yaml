@@ -1,0 +1,19 @@
+name: "The Legend of Zelda: Tears of the Kingdom (NotRexed)"
+games: [the-legend-of-zelda-tears-of-the-kingdom]
+console: switch
+status: experimental
+repo: NotRexed/SkyboundTotk
+originalDeveloper: "Nintendo EPD"
+year: 2023
+desc:
+  es: "Proyecto experimental de recompilación estática de la versión 1.0.0 del juego base para Windows x64 y Linux x86-64: el código AArch64 se traduce a C por adelantado y se compila en tu equipo, un entorno de ejecución implementa los servicios que el juego espera y el renderizador traduce el trabajo gráfico y los shaders a WebGPU (wgpu-native). No es un emulador de Switch general. El README avisa de problemas gráficos y de compatibilidad incompleta, y de que parte de la traducción gráfica aún ocurre en tiempo de ejecución; una contribución añadió la 1.2.1. Trae F6 para intentar ajustar cámara e interfaz a pantallas panorámicas, desactivado por defecto. No tiene versiones publicadas: se construye con build.bat o desde el código fuente. 21 de sus 32 commits llevan a Claude como coautor."
+  en: "An experimental static recompilation project of the base game version 1.0.0 for Windows x64 and Linux x86-64: the AArch64 code is translated to C ahead of time and compiled on your PC, a runtime implements the services the game expects, and the renderer translates the graphics work and shaders to WebGPU (wgpu-native). It is not a general Switch emulator. The README warns of graphical problems and incomplete compatibility, and that some graphics translation still happens at run time; a contribution added version 1.2.1. F6 tries to adjust the camera and HUD to wider screens and is off by default. It has no published releases: you build it with build.bat or from source. 21 of its 32 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia sin modificar de la versión base 1.0.0 (o la 1.2.1), con exefs y romfs ya extraídos en la carpeta game del proyecto (no extrae .nsp ni .xci). Además, Windows 10 u 11 de 64 bits o Linux x86-64 con Vulkan, Python 3.10 o posterior con lz4, Visual Studio 2022 Build Tools en Windows, clang, clang++ y lld, y al menos 45 GB libres además del volcado."
+  en: "Your own unmodified copy of base version 1.0.0 (or 1.2.1), with exefs and romfs already extracted into the project’s game folder (it doesn’t extract .nsp or .xci). Plus 64-bit Windows 10 or 11 or x86-64 Linux with Vulkan, Python 3.10 or newer with lz4, Visual Studio 2022 Build Tools on Windows, clang, clang++ and lld, and at least 45 GB free in addition to the dump."
+tags:
+  - arm64
+  - action
+  - vulkan
+  - zelda
+  - ai-assisted

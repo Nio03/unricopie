@@ -1,0 +1,20 @@
+name: "F.E.A.R."
+games: [f-e-a-r]
+console: x360
+status: playable
+repo: Juansolo457/fear360-recomp
+originalDeveloper: "Day 1 Studios"
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "F.E.A.R. de Xbox 360 recompilado para correr de forma nativa en Linux y en la Steam Deck, sin Proton; la versión de Windows y F.E.A.R. Files (Extraction Point y Perseus Mandate) llegarán en versiones posteriores. El código PowerPC de default.xex se traduce por adelantado a C++ con ReXGlue y un entorno de ejecución propio del juego hace de Xbox; no es un emulador ni una decompilación. Usa un renderizador nativo que dibuja las llamadas de Direct3D del juego con Vulkan, ritmo de fotogramas ligado a la pantalla de hasta 120 fps, MSAA, filtro anisótropo y correcciones de los fallos del código de consola con tasas de fotogramas altas. Según el README arrancan menús, vídeos, campaña y Instant Action, y la partida completa es la prueba pendiente de la 1.0; el 4K aún no está (dibuja a 720p y escala) y se anuncia como siguiente paso. La última versión es la 1.0.2 (31 de octubre), que solo publica el código fuente; añade el nivel extra Holiday al menú principal. 78 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "F.E.A.R. for Xbox 360 recompiled to run natively on Linux and the Steam Deck, without Proton; the Windows build and F.E.A.R. Files (Extraction Point and Perseus Mandate) come in later releases. The game’s PowerPC code in default.xex is translated ahead of time to C++ with ReXGlue, and a game-specific runtime stands in for the Xbox; it is neither an emulator nor a decompilation. It uses a native renderer that draws the game’s Direct3D calls through Vulkan, display-locked frame pacing up to 120 fps, MSAA, anisotropic filtering, and fixes for the console code’s bugs at high frame rates. According to the README the menus, videos, campaign, and Instant Action work, and a full play-through is the pending 1.0 test; 4K isn’t in yet (it draws at 720p and scales) and is listed as the next step. The latest version is 1.0.2 (October 31), which publishes source only; it adds the extra Holiday level to the main menu. 78 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia en disco de F.E.A.R. para Xbox 360. Además, Linux de 64 bits o una Steam Deck con compatibilidad con Vulkan; como la versión publicada es solo código fuente, hay que compilarlo."
+  en: "Your own disc copy of F.E.A.R. for Xbox 360. Plus 64-bit Linux or a Steam Deck with Vulkan support; since the published release is source only, you build it yourself."
+tags:
+  - powerpc
+  - fps
+  - vulkan
+  - "60fps+"
+  - ai-assisted

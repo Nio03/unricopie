@@ -1,0 +1,20 @@
+name: "Medal of Honor: Frontline"
+games: [medal-of-honor-frontline]
+console: gamecube
+status: experimental
+repo: ant0-blase/MOHFrontline-GC-RECOMP
+originalDeveloper: "EA Los Angeles"
+year: 2002
+toolchain: DolRecomp
+desc:
+  es: "Recompilación estática experimental de la versión estadounidense para GameCube (GMFE69), hecha con DolRecomp y ModernGekko, el runtime derivado de Dolphin que aporta memoria, excepciones, vídeo, audio, entrada y servicios de disco. El juego carga varias imágenes ejecutables durante la partida, así que el proyecto recompila toda la cadena (main.dol, el ejecutable principal y el de reinicio) en un solo módulo nativo con una ABI de varias imágenes. Funcionan el menú principal, la selección de misión y el juego, este último marcado como experimental, con pantalla ancha y campo de visión a medida; el control de la tasa de fotogramas es experimental y el audio en sesiones largas se está investigando. Hay una capa opcional de remasterización que usa texturas y fuentes de tu propia copia de la versión de PS3. El README describe un paquete portátil con lanzador para Windows y Linux, pero el repositorio no tiene versiones publicadas y está archivado."
+  en: "An experimental static recompilation of the US GameCube version (GMFE69), made with DolRecomp and ModernGekko, the Dolphin-derived runtime that supplies memory, exceptions, video, audio, input, and disc services. The game loads several executable images during play, so the project recompiles the whole chain (main.dol, the main executable, and the restart stub) into a single native module with a multi-image ABI. The main menu, mission selection, and gameplay work, the latter marked experimental, with widescreen and custom field of view; the frame-rate control is experimental and long-session audio is under investigation. There is an optional remaster layer that uses textures and fonts from your own copy of the PS3 version. The README describes a portable package with a launcher for Windows and Linux, but the repository has no published releases and is archived."
+requirements:
+  es: "Tu propia imagen de disco de Medal of Honor: Frontline para GameCube, estadounidense (GMFE69), en ISO, GCM, RVZ, WIA, WBFS, CISO, GCZ, TGC o NFS. Para la capa de remasterización, opcional, tus propios archivos de la versión de PS3 (una carpeta PS3_FILES o el .pkg). Linux de 64 bits con Vulkan y Wayland para compilar desde el código, o el lanzador para Windows y Linux que describe el README."
+  en: "Your own disc image of Medal of Honor: Frontline for the GameCube, US (GMFE69), as ISO, GCM, RVZ, WIA, WBFS, CISO, GCZ, TGC, or NFS. For the optional remaster layer, your own files from the PS3 version (a PS3_FILES folder or the .pkg). 64-bit Linux with Vulkan and Wayland to build from source, or the launcher for Windows and Linux that the README describes."
+tags:
+  - powerpc
+  - fps
+  - widescreen
+  - hd-assets
+  - static-recomp

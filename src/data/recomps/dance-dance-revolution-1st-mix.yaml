@@ -1,0 +1,19 @@
+name: "Dance Dance Revolution (1st Mix)"
+games: [dance-dance-revolution]
+console: ps1
+status: playable
+repo: bmbelo87/ddr-1st-recomp
+originalDeveloper: "Konami"
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Dance Dance Revolution (Japón, SLPM-86222) hecha con PSXRecomp: el código MIPS del disco se traduce a C y se compila en un ejecutable nativo que no es un emulador. El repositorio solo guarda configuración, scripts y herramientas (unos 35 KB); el recompilador genera el C en tu equipo a partir de tu disco y las correcciones que hacen arrancar el juego viven en el PSXRecomp fijado como submódulo. Las versiones añaden 60 cuadros por segundo, pantalla panorámica, pantallas traducidas, tiempos ajustables y un modo de juego automático. La 0.4.0 (15 de septiembre) es la última de cuatro versiones publicadas entre el 10 y el 15 de septiembre; cada una es un zip de Windows de unos 48 MB con el asistente de instalación y los fuentes del proyecto, sin datos del juego. 25 de sus 33 commits llevan a Claude como coautor."
+  en: "A static recompilation of Dance Dance Revolution (Japan, SLPM-86222) made with PSXRecomp: the disc’s MIPS code is translated to C and compiled into a native executable that isn’t an emulator. The repository only holds configuration, scripts, and tooling (about 35 KB); the recompiler generates the C on your machine from your disc, and the fixes that make the game boot live in the PSXRecomp pinned as a submodule. The releases add 60 frames per second, widescreen, translated screens, tunable timing, and an autoplay mode. Version 0.4.0 (September 15) is the latest of four releases published between September 10 and 15; each is a Windows zip of about 48 MB with the setup wizard and the project’s sources, without game data. 25 of its 33 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado del disco de Dance Dance Revolution (Japón, SLPM-86222) en formato Redump: un .cue y 40 .bin (la pista 1 de datos, de 14.935.200 bytes con MD5 57d6ae6568a77409abfc94ba1d695b62, y la 2 a la 40 de audio). Además, CMake 3.20 o posterior, Ninja y Clang (la herramienta del proyecto puede descargar un conjunto fijado), Python 3 y unos 3 GB libres; en Windows, un shell MSYS2 o Git Bash."
+  en: "Your own dump of the Dance Dance Revolution (Japan, SLPM-86222) disc in Redump format: a .cue and 40 .bin files (track 1 is data, 14,935,200 bytes with MD5 57d6ae6568a77409abfc94ba1d695b62, and tracks 2 to 40 are audio). Plus CMake 3.20 or later, Ninja, and Clang (the project’s tool can download a pinned set), Python 3, and about 3 GB free; on Windows, an MSYS2 or Git Bash shell."
+tags:
+  - mips
+  - "60fps+"
+  - widescreen
+  - ai-assisted

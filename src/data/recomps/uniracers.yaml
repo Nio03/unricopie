@@ -1,0 +1,19 @@
+name: "Uniracers"
+games: [uniracers]
+console: snes
+status: playable
+repo: fselich/redcomp-dream
+originalDeveloper: "DMA Design"
+year: 1994
+toolchain: snesrecomp
+desc:
+  es: "Redcomp Dream: recompilación nativa de la versión estadounidense con el framework snesrecomp, para Windows y Linux. Según el README, se puede jugar y añade pantalla ancha en carrera (de 16:9 a ultrapanorámica, en uno y dos jugadores, con la pista extra dibujada a partir de los datos del propio juego), un pequeño radar con tu posición y la del rival, un menú de opciones dentro del juego, un desbloqueo opcional de las nueve giras, guardado rápido, rebobinado, audio y mandos del framework. El código C recompilado se genera en tu equipo a partir de tu copia y no se sube al repositorio; los paquetes publicados incluyen el launcher y un ejecutable que no necesita el código fuente. El repositorio incluye una copia del framework con un parche local. La 0.1.2 (25 de octubre) es la última versión, con un zip para Windows x64 y un AppImage para Linux."
+  en: "Redcomp Dream: a native recompilation of the US version using the snesrecomp framework, for Windows and Linux. According to the README it is playable and adds widescreen in races (from 16:9 to ultrawide, in one and two players, with the extra track drawn from the game’s own track data), a small radar with your position and the rival’s, an in-game options menu, an optional unlock of all nine tours, save states, rewind, and the framework’s audio and controllers. The recompiled C is generated on your PC from your own copy and is not committed to the repository; the published packages include the launcher and an executable that needs no source tree. The repository includes a copy of the framework with a local patch. Version 0.1.2 (October 25) is the latest, with a Windows x64 zip and a Linux AppImage."
+requirements:
+  es: "Tu propia ROM estadounidense de Uniracers (se comprueba con game/rom_identity.txt; los demás no se aceptan), que el launcher pide al arrancar. Windows x64 o Linux x86-64 con glibc 2.35 o posterior, OpenGL y FUSE (libfuse2) para el AppImage."
+  en: "Your own US Uniracers ROM (checked against game/rom_identity.txt; nothing else is accepted), which the launcher asks for on startup. Windows x64, or x86-64 Linux with glibc 2.35 or later, OpenGL, and FUSE (libfuse2) for the AppImage."
+tags:
+  - "65816"
+  - racing
+  - widescreen
+  - static-recomp

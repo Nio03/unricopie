@@ -1,0 +1,19 @@
+name: "Test Drive II: The Duel (SDL3)"
+games: [test-drive-ii-the-duel]
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/test-drive-2-sdl3
+originalDeveloper: "Distinctive Software"
+year: 1989
+desc:
+  es: "Port nativo para Windows de Test Drive II: The Duel (Accolade / Distinctive Software, 1989), una reimplementación en C con SDL3 de la versión EGA (TD2EGA.EXE) hecha por ingeniería inversa; no es un emulador. Se puede jugar con los coches y escenarios de The Collection, incluidos los paquetes Supercars / Muscle Cars y California / European Challenge; las versiones CGA, Hercules y Tandy aún no están portadas. Quita la protección contra copia y la gestión de discos, dibuja la vista de conducción a unos 15 cuadros por segundo emulados y usa un mando como joystick. La única versión, la 0.1.0 (17 de septiembre), es un zip de Windows de 64 bits. Sus 9 commits llevan a Claude como coautor."
+  en: "A native Windows port of Test Drive II: The Duel (Accolade / Distinctive Software, 1989), a C reimplementation with SDL3 of the EGA version (TD2EGA.EXE) made by reverse engineering; it is not an emulator. It can be played with the cars and sceneries of The Collection, including the Supercars / Muscle Cars and California / European Challenge add-ons; the CGA, Hercules, and Tandy versions are not ported yet. It removes the copy protection and disk handling, draws the driving view at an emulated 15 frames per second, and uses a gamepad as the joystick. The only release, 0.1.0 (September 17), is a 64-bit Windows zip. All 9 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propios archivos del Test Drive II de DOS, idealmente The Collection, en una carpeta Game: TD2EGA.EXE, CARS.DAT, SCENES.DAT, SONGS.BIN, VOICES.BIN, los archivos *.PES, los de coches *.BIN y *.SS y los de escenarios *.DAT, *.SGN y *.FNT. La carpeta debe poder escribirse. Además, Windows."
+  en: "Your own files of the DOS Test Drive II, ideally The Collection, in a folder named Game: TD2EGA.EXE, CARS.DAT, SCENES.DAT, SONGS.BIN, VOICES.BIN, the *.PES archives, the car *.BIN and *.SS files, and the scenery *.DAT, *.SGN, and *.FNT files. The folder must be writable. Plus Windows."
+tags:
+  - x86
+  - racing
+  - reverse-engineering
+  - ai-assisted

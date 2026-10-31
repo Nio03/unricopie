@@ -1,0 +1,20 @@
+name: "Splatoon"
+games: [splatoon]
+console: wiiu
+status: experimental
+repo: PC-PORTERS/SplatPC-Splatoon-Native-PC-Port
+originalDeveloper: "Nintendo EPD"
+year: 2015
+toolchain: RebrewU
+desc:
+  es: "Port nativo no oficial para Windows y Linux de la versión de Wii U, hecho por recompilación estática del código del juego a un programa nativo con un renderizador Vulkan. Es la continuación del proyecto RebrewU de ApfelTeeSaft. El README avisa de que es un trabajo en curso, con fallos gráficos, efectos que faltan, tirones y cierres, y pide un equipo potente. Añade ajustes de PC (resolución de render, 30, 60, 120 o 180 cuadros por segundo, G-Sync y FreeSync, mira con ratón a 1:1, una tecla por cada entrada del GamePad), un modo de cámara de cine, texturas HD opcionales que se generan en tu equipo con Real-ESRGAN y ajustes de gráficos realistas experimentales (hora del día, clima, nubes volumétricas). La única versión, con la etiqueta «MAC», es del 30 de octubre y es un zip de código fuente de unos 2 MB; el juego se construye en tu equipo con Setup.bat o setup.sh. 1 de sus 57 commits lleva a Claude como coautor."
+  en: "An unofficial native Windows and Linux port of the Wii U version, made by statically recompiling the game’s code into a native program with a Vulkan renderer. It continues ApfelTeeSaft’s RebrewU project. The README warns it is a work in progress, with graphical glitches, missing effects, stutter and crashes, and asks for strong hardware. It adds PC options (render resolution, 30, 60, 120 or 180 frames per second, G-Sync and FreeSync, 1:1 mouse aiming, a key for every GamePad input), a cinema camera mode, optional HD textures generated on your PC with Real-ESRGAN, and experimental realistic-graphics presets (time of day, weather, volumetric clouds). The only release, tagged “MAC”, is from October 30 and is a source zip of about 2 MB; the game is built on your PC with Setup.bat or setup.sh. 1 of its 57 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de Splatoon de Wii U, en una carpeta con code, content y meta (por ejemplo hecho con Dumpling), en una versión compatible de las que lista VersionDb.md. Además, Windows o Linux de 64 bits, una GPU con Vulkan 1.3, una CPU de 6 a 8 núcleos, 16 GB de RAM como mínimo (32 GB recomendados) y unos 40 GB libres durante la instalación; el resultado final ocupa unos 6 GB con las cachés de shaders."
+  en: "Your own dump of Splatoon for Wii U, in a folder with code, content and meta (for example made with Dumpling), in a supported version from the ones VersionDb.md lists. Plus 64-bit Windows or Linux, a Vulkan 1.3 GPU, a 6 to 8 core CPU, 16 GB of RAM at minimum (32 GB recommended) and about 40 GB free during setup; the final build is about 6 GB counting the shader caches."
+tags:
+  - powerpc
+  - action
+  - vulkan
+  - 60fps+
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "Wii Party"
+games: [wii-party]
+console: wii
+status: playable
+repo: arelkair/wiiparty-recomp
+originalDeveloper: "NDcube"
+year: 2010
+desc:
+  es: "Recompilación estática de Wii Party para PC. El código PowerPC del juego (el DOL y los 115 módulos REL) se traduce a C++ y se compila como un programa nativo para Windows o Linux; solo se sustituye lo que depende del hardware de la consola (GPU, audio DSP, mando). Está en alfa, con un progreso estimado del 93 %: arranca, llega a todos los menús, juega sesiones completas de la Isla del Juego de Mesa y los 79 minijuegos del Juego Libre se han jugado a mano sin fallos; los demás modos se han probado pero no completado. Va a 60 cuadros por segundo (PAL60) con hasta seis veces la resolución de la consola, admite teclado, ratón, hasta cuatro mandos y mandos de Wii reales, un menú de opciones, texturas propias y copias de partidas. Windows 10 y 11 es la plataforma soportada y Linux es experimental. La v0.1.19-alfa es del 25 de octubre. 83 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of Wii Party for PC. The game’s PowerPC code (the DOL and all 115 REL modules) is translated to C++ and compiled into a native program for Windows or Linux; only what depends on the console hardware (GPU, DSP audio, controller) is replaced. It is in alpha, with progress estimated at 93%: it boots, reaches every menu and plays complete Board Game Island sessions, and all 79 Free Play minigames have been played by hand without faults; the other modes have been tried but not played through. It runs at a locked 60 fps (PAL60) at up to six times the console’s resolution, and supports keyboard, mouse, up to four gamepads and real Wii Remotes, an options menu, custom textures and save backups. Windows 10 and 11 is the supported platform and Linux is experimental. v0.1.19-alpha is from October 25. 83 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del disco de Wii Party (.iso, .wbfs, .rvz, .ciso, .wia o .gcm): el lanzador construye el juego en tu equipo a partir de ella. Además, Windows 10 u 11 de 64 bits, unos 5 GB libres y 4 GB de RAM como mínimo (8 GB o más para la compilación, que tarda unos 10 minutos en una CPU de 6 núcleos); en Linux, un AppImage y las herramientas de compilación del sistema."
+  en: "Your own copy of the Wii Party disc (.iso, .wbfs, .rvz, .ciso, .wia or .gcm): the launcher builds the game on your PC from it. Plus 64-bit Windows 10 or 11, about 5 GB free and 4 GB of RAM at minimum (8 GB or more for the build, which takes about 10 minutes on a 6-core CPU); on Linux, an AppImage and the system build tools."
+tags:
+  - powerpc
+  - multiplayer
+  - 60fps+
+  - ai-assisted

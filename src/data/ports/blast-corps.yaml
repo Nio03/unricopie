@@ -1,0 +1,22 @@
+name: "Blast Corps"
+games: [blast-corps]
+category: decomp-port
+console: n64
+status: fully
+repo: Doridian/BlastCorps
+originalDeveloper: "Rare"
+year: 1997
+desc:
+  es: "Decompilación exacta de Blast Corps (Japón, EE. UU., EE. UU. Rev 1 y Europa) y un port nativo construido sobre ella que juega las cuatro versiones. Corre en Linux (x86-64 y arm64), Windows (x86-64), macOS (Apple silicon; compila, pero no se ha probado en un Mac) y en el navegador mediante WebAssembly, donde hay que aportar la ROM. Según el README se juega el juego entero, incluida la repetición completa de un TAS de «todas las medallas de platino» de WarHippy, y añade pantalla ancha, altas tasas de cuadros, texto en alta resolución, iconos de modelos, cámara libre y controles de ratón y táctiles. El ejecutable no incorpora imágenes, paletas, vértices ni modelos del juego, que se rellenan al arrancar desde tu ROM; el repositorio guarda una instantánea con los datos del código escrito a mano (cadenas y tablas) para compilar sin ROM. La 0.9.1 (25 de octubre), la única versión, trae AppImage, .exe, .dmg, el zip web y un zip de licencias. 94 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A matching decompilation of Blast Corps (Japan, USA, USA Rev 1, and Europe) and a native port built from it that plays all four. It runs on Linux (x86-64 and arm64), Windows (x86-64), macOS (Apple silicon; it builds but hasn’t been tested on a Mac), and in the browser through WebAssembly, where you bring your own ROM. According to the README it plays the whole game, including a full replay of WarHippy’s “all platinum medals” TAS, and adds widescreen, high frame rates, high-resolution text, model icons, a free camera, and mouse and touch controls. The executable does not embed the game’s images, palettes, vertices, or models, which are filled in at startup from your ROM; the repository keeps a snapshot with the data of the handwritten code (strings and tables) so it can build without a ROM. Version 0.9.1 (October 25), the only release, ships an AppImage, an .exe, a .dmg, the web zip, and a licenses zip. 94 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Blast Corps de una de las cuatro versiones: Japón (Blastdozer), EE. UU. (v1.0 o Rev 1) o Europa (En,De), validada por SHA-1 (por ejemplo, EE. UU.: 185a6ef7ba1adb243278062c81a7d4e119bda58c; EE. UU. Rev 1: 483f7161aea39de8b45c9fbc70a2c3883c4dea8c). Linux, Windows o macOS, o un navegador moderno para la versión web."
+  en: "Your own Blast Corps ROM of one of the four versions: Japan (Blastdozer), USA (v1.0 or Rev 1), or Europe (En,De), validated by SHA-1 (for example, USA: 185a6ef7ba1adb243278062c81a7d4e119bda58c; USA Rev 1: 483f7161aea39de8b45c9fbc70a2c3883c4dea8c). Linux, Windows, or macOS, or a modern browser for the web version."
+tags:
+  - mips
+  - matching
+  - action
+  - widescreen
+  - 60fps+
+  - build-web
+  - ai-assisted

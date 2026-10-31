@@ -1,0 +1,21 @@
+name: "WWE 2K14 (Jarrodfeng)"
+games: [wwe-2k14]
+console: x360
+status: playable
+repo: Jarrodfeng/wwe2k14-recomp
+originalDeveloper: "Yuke’s"
+year: 2013
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 a un programa nativo para Windows x64, con ReXGlue SDK; el autor la plantea como un proyecto de preservación y una herramienta creativa. Funcionan el juego, los menús, los combates de principio a fin, las entradas con titantrones, el Royal Rumble, Hell in a Cell, la Elimination Chamber, 30 Years of WrestleMania, Create-a-Wrestler, guardar, sonido y mandos. Ofrece 720p, 1440p o 4K, 60 o 120 cuadros por segundo o la tasa del monitor, NVIDIA DLAA y DLSS, un lanzador con combate rápido, mods (vídeos propios como titantrones, imágenes PNG como logotipos), una cámara libre y repeticiones. La v0.2.14 (30 de octubre, un zip de unos 79 MB) es la última de 38 versiones. Declara que se desarrolla con ayuda de Claude; 24 de sus 28 commits lo listan como coautor."
+  en: "A static recompilation of the Xbox 360 version into a native Windows x64 program, with the ReXGlue SDK; the author frames it as a preservation project first and a creative toolkit second. The game, menus, matches start to finish, entrances with titantrons, the Royal Rumble, Hell in a Cell, the Elimination Chamber, 30 Years of WrestleMania, Create-a-Wrestler, saves, sound and controllers work. It offers 720p, 1440p or 4K, 60 or 120 fps or the monitor’s refresh rate, NVIDIA DLAA and DLSS, a launcher with quick match, mods (your own videos as titantrons, PNG pictures as logos), a free camera and replays. v0.2.14 (October 30, a zip of about 79 MB) is the latest of 38 releases. It states it is developed with the help of Claude; 24 of its 28 commits list it as a co-author."
+requirements:
+  es: "Tu propio disco de WWE 2K14 para Xbox 360 (hay un único disco, el mismo en EE. UU. y Europa), versión 0.0.0.2 sin actualización de título (ID de título 545408B2; SHA-256 de default.xex 544EF8B505AEBCECE3459865A4E27E1A7CFAD568406514F27E1115B378D3A8FB), copiado como carpeta (con default.xex y las carpetas pac, movies y sound) o como imagen de disco. Windows 10 u 11 de 64 bits y una gráfica con Vulkan."
+  en: "Your own WWE 2K14 disc for Xbox 360 (there is one disc, the same in the US and Europe), version 0.0.0.2 with no title update (title ID 545408B2; SHA-256 of default.xex 544EF8B505AEBCECE3459865A4E27E1A7CFAD568406514F27E1115B378D3A8FB), copied as a folder (with default.xex and the pac, movies and sound folders) or as a disc image. 64-bit Windows 10 or 11 and a graphics card with Vulkan."
+tags:
+  - powerpc
+  - sports
+  - fighting
+  - 60fps+
+  - mods
+  - ai-assisted

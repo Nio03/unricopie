@@ -1,0 +1,18 @@
+name: "Prince of Persia 2: The Shadow and the Flame (Mac)"
+games: [prince-of-persia-2-the-shadow-and-the-flame]
+console: mac
+status: playable
+repo: dmucli/pop2-port
+originalDeveloper: "Brøderbund"
+year: 1993
+desc:
+  es: "Port nativo no oficial de la versión de Macintosh de 1993 para macOS, Linux, Recalbox y consolas portátiles retro. El programa original de 68k se decompiló con Ghidra y se tradujo, función por función, a C, y una reimplementación del Toolbox clásico de Mac lo ejecuta sobre SDL. El código traducido está en el repositorio (src/game/), pero no el proyecto de Ghidra ni los datos del juego, que se leen de una imagen de disco de tu copia. Añade partidas guardadas con imagen, rebobinado, un menú en pantalla, estadísticas, mandos y trampas opcionales (salud o tiempo infinitos, ir a cualquier nivel). Se verifica repitiendo cada llamada sobre el código 68k original con el emulador Musashi, que solo queda en las compilaciones de desarrollo. La 0.2 (17 de octubre) publica paquetes para macOS, Linux (x86_64 y arm64), Recalbox y PortMaster de entre 1,2 y 2,5 MB; no hay versión para Windows. 63 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial native port of the 1993 Macintosh version for macOS, Linux, Recalbox, and retro handhelds. The original 68k program was decompiled with Ghidra and translated, function by function, into C, and a reimplementation of the classic Mac Toolbox runs it on top of SDL. The translated code is in the repository (src/game/), but the Ghidra project and the game data are not: the data is read from a disk image of your copy. It adds save states with pictures, rewind, an on-screen menu, statistics, gamepad support, and optional cheats (infinite health or time, jump to any level). It is verified by replaying every call on the original 68k code with the Musashi emulator, which only remains in development builds. Version 0.2 (October 17) publishes packages for macOS, Linux (x86_64 and arm64), Recalbox, and PortMaster of 1.2 to 2.5 MB; there is no Windows version. 63 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco del Prince of Persia 2 de Macintosh (disquete, CD o disco duro) en un formato común (.hfv, .dsk, .img, .image, .toast, .iso, .cdr o .bin MacBinary); también sirve un disco de emulador (Basilisk II, SheepShaver, Mini vMac) con el juego instalado. Además, macOS 12 o posterior con Apple Silicon, Linux de 64 bits (x86_64 o arm64), Recalbox o una consola portátil con PortMaster."
+  en: "Your own disk image of the Macintosh Prince of Persia 2 (floppy, CD, or hard disk) in a common format (.hfv, .dsk, .img, .image, .toast, .iso, .cdr, or MacBinary .bin); an emulator disk (Basilisk II, SheepShaver, Mini vMac) with the game installed also works. Plus macOS 12 or later on Apple Silicon, 64-bit Linux (x86_64 or arm64), Recalbox, or a handheld with PortMaster."
+tags:
+  - "68000"
+  - platformer
+  - static-recomp
+  - ai-assisted

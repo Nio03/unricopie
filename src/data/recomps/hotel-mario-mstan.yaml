@@ -1,0 +1,18 @@
+name: "Hotel Mario (mstan)"
+games: [hotel-mario]
+console: other
+status: experimental
+repo: mstan/HotelMarioRecomp
+originalDeveloper: "Fantasy Factory"
+year: 1994
+toolchain: cdirecomp
+desc:
+  es: "Hotel Mario (USA) para Philips CD-i como programa nativo, sobre el motor de recompilación estática cdirecomp, del mismo autor. El repositorio solo trae la configuración de compilación del juego, los datos de identidad y las herramientas de aceptación: no incluye BIOS de CD-i, datos del disco, código generado ni bifurcaciones de emuladores. Su filosofía es recompilar de forma estática y nativa todo el sistema (la ROM completa de CD-RTOS se recompila y se ejecuta como C nativo, sin simular OS-9) y arrancar el juego encima, como en el aparato. El README lo llama vista previa de investigación en desarrollo muy temprano: la BIOS arranca, el reproductor abre el disco, suena el logotipo con audio XA decodificado y con entrada a velocidad normal se superaron las fases 1 a 3 del Hotel 1, hasta la 4. Las campañas completas, los jefes, el final y la restauración correcta de partidas siguen sin verificar, y quedan parpadeos visuales. No tiene versiones en GitHub, aunque el README habla de paquetes v0.0.2 para Windows x64 y Linux x86_64. 3 de sus 13 commits llevan a Claude como coautor."
+  en: "Hotel Mario (USA) for the Philips CD-i as a native program, on the cdirecomp static recompilation engine by the same author. The repository only holds the game’s build configuration, identity metadata, and acceptance tooling: it includes no CD-i BIOS, no disc data, no generated code, and no emulator forks. Its approach is to statically and natively recompile the whole system (the full CD-RTOS ROM is recompiled and runs as native C, with no OS-9 simulation) and boot the game on top of it, as on the hardware. The README calls it a research preview in very early development: the BIOS boots, the player opens the disc, the logo plays with decoded XA audio, and with normal-speed input Hotel 1 stages 1 to 3 were cleared, reaching stage 4. Full campaigns, bosses, the ending, and correct save restoration remain unverified, and some visual flickering remains. It has no releases on GitHub, although the README mentions v0.0.2 packages for Windows x64 and Linux x86_64. 3 of its 13 commits list Claude as a co-author."
+requirements:
+  es: "Dos cosas de tus propios medios: la BIOS del reproductor CD-i de 512 KiB (cdi490a.rom) y una imagen en bruto Mode-2 de Hotel Mario (USA), como .cue y .bin (se elige el .cue). El motor valida la identidad exacta de ambos; ninguno va incluido. Para compilarlo hace falta tener el repositorio de cdirecomp junto a este."
+  en: "Two things from your own media: the 512 KiB CD-i player BIOS (cdi490a.rom) and a raw Mode-2 image of Hotel Mario (USA), as .cue and .bin (you select the .cue). The engine validates the exact identity of both; neither is included. To build it you need the cdirecomp repository next to this one."
+tags:
+  - platformer
+  - static-recomp
+  - ai-assisted

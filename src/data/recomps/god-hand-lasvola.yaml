@@ -1,0 +1,19 @@
+name: "God Hand (LasVola)"
+games: [god-hand]
+console: ps2
+status: playable
+repo: LasVola/godhand-recomp
+originalDeveloper: "Clover Studio"
+year: 2006
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo para Windows de God Hand (PS2, versión estadounidense), hecho por recompilación estática con PS2Recomp: el código del juego se reconstruye como un programa de Windows, sin emulador. Su README avisa de que es un trabajo en curso: se ha jugado desde el inicio hasta la fase 3, pasados los jefes Gorilla Mask y Mad Midget Five, comparándolo con el juego original en una PS2 real, y las fases 4 a 8, el final, el Coliseo y los extras no se han probado y pueden fallar. Funcionan los combates, el God Reel, morir y continuar, las cinemáticas, el guardado en tarjeta de memoria y los minijuegos del casino y del cañón del barco pirata. Va a 60 fps con resolución 3x (1536x1344, en 4:3), en ventana o a pantalla completa, con teclado, ratón y mandos reconfigurables, y los avisos de botones muestran tus teclas o los botones de tu mando. La primera ejecución es lenta, con un par de minutos en pantalla negra mientras se preparan los gráficos. No publica versiones: se compila desde el repositorio. 12 de sus 13 commits llevan a Claude como coautor."
+  en: "A native Windows port of God Hand (PS2, US version), made by static recompilation with PS2Recomp: the game’s code is rebuilt as a Windows program, with no emulator. Its README warns it is a work in progress: it has been played from the start into stage 3, past the Gorilla Mask and Mad Midget Five bosses, side by side with the original game on a real PS2, and stages 4 to 8, the ending, the Coliseum, and the extras haven’t been tried and may fail. Fighting, the God Reel, dying and continuing, cutscenes, memory card saves, and the casino and pirate ship cannon minigames work. It runs at 60 fps at 3x resolution (1536x1344, in 4:3), windowed or full screen, with rebindable keyboard, mouse, and gamepad controls, and the button prompts show your keys or your gamepad’s buttons. The first run is slow, with a couple of minutes on a black screen while the graphics are prepared. It publishes no releases: you build it from the repository. 12 of its 13 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco (.iso) de God Hand, versión estadounidense, SLUS-21503; tiene que ser exactamente esa versión (las sumas de comprobación están en DISC_HASHES.md) y el port rechaza cualquier otro disco. Windows 10 u 11, una tarjeta gráfica moderna, Visual Studio 2022 Build Tools con C++ y Python 3.10 o posterior."
+  en: "Your own disc image (.iso) of God Hand, US version, SLUS-21503; it must be exactly that version (the checksums are in DISC_HASHES.md) and the port refuses any other disc. Windows 10 or 11, a reasonably modern graphics card, Visual Studio 2022 Build Tools with C++, and Python 3.10 or newer."
+tags:
+  - emotion-engine
+  - action
+  - "60fps+"
+  - ai-assisted

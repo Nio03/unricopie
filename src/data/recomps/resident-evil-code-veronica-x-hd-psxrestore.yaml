@@ -1,0 +1,17 @@
+name: "Resident Evil - Code: Veronica X HD (psxrestore)"
+games: [resident-evil-code-veronica-x]
+console: x360
+status: playable
+repo: psxrestore/VeronicaRecomp
+originalDeveloper: "Nextech"
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de Resident Evil Code: Veronica de Xbox 360 para PC nativo, hecha con el SDK de ReXGlue. El repositorio solo trae el código del proyecto (la aplicación, la configuración y el manifiesto); el código recompilado se genera al compilar, a partir de tu copia. El README la da por jugable pero avisa de que es un trabajo en curso con fallos y cierres inesperados. Se compila en Windows con Visual Studio 2022, CMake, LLVM y Ninja; la compilación para Linux figura como sin probar. No tiene versiones publicadas. Ninguno de sus 6 commits lleva a Claude como coautor; el último es del 1 de octubre."
+  en: "A static recompilation of Resident Evil Code: Veronica for Xbox 360 as a native PC build, made with the ReXGlue SDK. The repository only brings the project’s code (the app, the configuration, and the manifest); the recompiled code is generated at build time from your copy. The README presents it as playable but warns that it is a work in progress with bugs and crashes. It builds on Windows with Visual Studio 2022, CMake, LLVM, and Ninja; the Linux build is listed as untested. It has no published releases. None of its 6 commits lists Claude as a co-author; the latest is from October 1."
+requirements:
+  es: "Tu propia copia de Resident Evil Code: Veronica para Xbox 360, de la que se extraen los archivos del juego (default.xex y sus datos). Hay que compilarlo tú: Windows con Visual Studio 2022 (carga de trabajo de C++), CMake 3.25 o superior, LLVM/Clang 20 o superior, Ninja y el SDK de ReXGlue."
+  en: "Your own copy of Resident Evil Code: Veronica for Xbox 360, from which the game files (default.xex and its data) are extracted. You build it yourself: Windows with Visual Studio 2022 (C++ workload), CMake 3.25 or later, LLVM/Clang 20 or later, Ninja, and the ReXGlue SDK."
+tags:
+  - powerpc
+  - horror

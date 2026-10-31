@@ -1,0 +1,19 @@
+name: "SpiderMan2k1Fix"
+games: [spider-man]
+kind: mod
+console: pc
+game:
+  es: "Spider-Man (Activision, 2001, PC)"
+  en: "Spider-Man (Activision, 2001, PC)"
+repo: legluondunet/SpiderMan2k1Fix
+status: usable
+desc:
+  es: "Parche no oficial para la versión de PC de Spider-Man (Activision, 2001) que mejora la compatibilidad con Windows modernos y con Linux mediante Wine. Se instala copiando winmm.dll y SpiderMan2k1Fix.dll junto a SpideyPC.exe y no modifica el ejecutable: el código se aplica en memoria. Salta la comprobación del CD, ofrece pantalla completa sin bordes con 3D panorámico automático y campo de visión ajustado, corrige las proporciones de menús, vídeos y HUD, limita los cuadros (30 por defecto), pausa el juego al perder el foco, detecta la distribución del teclado, guarda los ajustes en un archivo INI y hace capturas PNG con F9. También corrige cierres al cambiar de ventana, un cierre al salir y el chasquido de algunos sonidos WAV que el juego leía truncados. Solo admite un SpideyPC.exe concreto, identificado por su SHA-256. La 1.1.0 (27 de octubre) sigue a la 1.0.0 del 25 de octubre. Su autor dice que lo desarrolló con ayuda de ChatGPT."
+  en: "An unofficial patch for the PC version of Spider-Man (Activision, 2001) that improves compatibility with modern Windows and with Linux through Wine. It is installed by copying winmm.dll and SpiderMan2k1Fix.dll next to SpideyPC.exe and doesn’t modify the executable: the code is applied in memory. It bypasses the CD check, offers borderless fullscreen with automatic widescreen 3D and an adjusted field of view, corrects the proportions of menus, videos, and HUD, caps the frame rate (30 by default), pauses the game when it loses focus, detects the keyboard layout, keeps its settings in an INI file, and takes PNG screenshots with F9. It also fixes crashes when switching windows, a crash on exit, and the crackling of some WAV sounds that the game read truncated. It only supports one specific SpideyPC.exe, identified by its SHA-256. Version 1.1.0 (October 27) follows 1.0.0 from October 25. Its author says it was developed with the help of ChatGPT."
+requirements:
+  es: "Tu propia copia de la versión de PC de Spider-Man (2001) con el SpideyPC.exe de SHA-256 0a11a49f3f63d4bb15650f322d654553fc47234b01885b852a058ff074689dea; otras versiones o copias modificadas no se admiten. Además, Windows (probado en Windows 11) o Linux con Wine (WINEDLLOVERRIDES=\"winmm=n,b\")."
+  en: "Your own copy of the PC version of Spider-Man (2001) with the SpideyPC.exe whose SHA-256 is 0a11a49f3f63d4bb15650f322d654553fc47234b01885b852a058ff074689dea; other versions or modified copies are not supported. Plus Windows (tested on Windows 11) or Linux with Wine (WINEDLLOVERRIDES=\"winmm=n,b\")."
+tags:
+  - x86
+  - widescreen
+  - ai-assisted

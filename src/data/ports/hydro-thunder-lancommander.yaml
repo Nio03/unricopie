@@ -1,0 +1,20 @@
+name: "Hydro Thunder (LANCommander)"
+games: [hydro-thunder]
+category: native-layer
+console: arcade
+status: playable
+repo: LANCommander/HydroThunderOnline
+originalDeveloper: "Midway"
+year: 1999
+desc:
+  es: "Port no oficial para Windows del arcade de Midway, de 1999: un ejecutable que envuelve el código x86 original del juego y lo ejecuta dentro del proceso. Las llamadas al sistema operativo embebido y a la API Glide se sustituyen por llamadas a win32, XInput y dgVoodoo2, y partes del juego se han decompilado y reescrito en C, lo que permite jugar en línea o en red local con hasta 16 corredores. Conserva el menú de operador (auditorías, ajustes y pruebas) con partida gratuita por defecto, y ofrece teclado y mandos XInput reconfigurables, ventana o pantalla completa con resoluciones a elegir y un lobby que se aloja en una red local o en internet a través del servidor maestro hydrothunder.racing, o de uno propio con htmaster (también para Linux). La 1.0.0, del 27 de septiembre, es la única versión publicada."
+  en: "An unofficial Windows port of Midway’s 1999 arcade game: an executable that wraps the game’s original x86 code and runs it in-process. The calls to the embedded operating system and to the Glide API are replaced with calls to win32, XInput, and dgVoodoo2, and parts of the game have been decompiled and rewritten in C, which makes it possible to play online or on a local network with up to 16 racers. It keeps the operator menu (audits, adjustments, and tests) with free play on by default, and offers rebindable keyboard and XInput gamepad controls, windowed or full screen with selectable resolutions, and a lobby hosted on a local network or over the internet through the hydrothunder.racing master server, or through your own with htmaster (also for Linux). Version 1.0.0, from September 27, is the only published release."
+requirements:
+  es: "Tu propio hydro.chd, la imagen del disco duro del arcade en el set «hydro» de MAME, versión 1.0.0, junto a hydro.exe (la primera vez extrae los archivos del juego a una carpeta data). Windows 10 u 11 con una tarjeta gráfica compatible con Direct3D 11."
+  en: "Your own hydro.chd, the arcade’s hard disk image from the MAME “hydro” set, version 1.0.0, next to hydro.exe (on first run it extracts the game files into a data folder). Windows 10 or 11 with a Direct3D 11 capable graphics card."
+tags:
+  - x86
+  - racing
+  - multiplayer
+  - online
+  - netplay

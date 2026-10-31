@@ -1,0 +1,22 @@
+name: "Soulcalibur (enrique363)"
+games: [soulcalibur]
+console: dreamcast
+status: playable
+repo: enrique363/voldorium
+originalDeveloper: "Namco"
+year: 1999
+desc:
+  es: "Voldorium es un port nativo no oficial para Windows y Linux de Soulcalibur para Dreamcast (versión estadounidense, T-1401N V1.000), hecho por recompilación estática: el código SH-4 del juego se traduce a C con un traductor propio y se compila junto a un runtime nativo que hace de hardware de la consola. Añade pantalla ancha 16:9 (la escena 3D se ensancha; el HUD, los menús y el texto conservan sus proporciones), cualquier resolución, suavizado multimuestra, una tarjeta de memoria virtual, un menú gráfico en el juego, ilustraciones 16:9 opcionales y versus en línea en el menú principal, con lobby mundial, emparejamiento, traspaso de NAT con relé y red de rollback GGPO, que une a jugadores de Windows y Linux. Voldorium.exe no lleva código del juego: la primera vez construye en tu equipo un módulo (sc_game.dll) con el código traducido de tu disco, y no se publica porque deriva del juego. La 1.1.3, del 31 de octubre, es la última versión. Sus 43 commits llevan a Claude como coautor, y el README lo cita entre las herramientas del proyecto."
+  en: "Voldorium is an unofficial native Windows and Linux port of Soulcalibur for the Dreamcast (US version, T-1401N V1.000), made by static recompilation: the game’s SH-4 code is translated into C with the project’s own translator and compiled together with a native runtime that stands in for the console’s hardware. It adds 16:9 widescreen (the 3D scene widens; the HUD, menus, and text keep their proportions), any resolution, multisample anti-aliasing, a virtual memory card, an in-game graphics menu, optional 16:9 artwork, and online versus in the main menu, with a worldwide lobby, matchmaking, NAT hole punching with a relay, and GGPO rollback netcode that joins Windows and Linux players. Voldorium.exe contains no game code: on first start it builds a module (sc_game.dll) on your PC with the translated code from your disc, and that module isn’t published because it derives from the game. Version 1.1.3, from October 31, is the latest. All 43 of its commits list Claude as a co-author, and the README names it among the project’s tools."
+requirements:
+  es: "Tu propio volcado de Soulcalibur para Dreamcast, estadounidense (T-1401N V1.000), como .gdi con sus pistas; solo esa versión funciona. Windows 10 u 11 o Linux x86-64 con glibc 2.28 o posterior, SDL2 y OpenGL, unos 1 GB libres y conexión a internet en el primer arranque, que descarga el compilador Zig y dos archivos de Flycast para construir el módulo."
+  en: "Your own dump of Soulcalibur for the Dreamcast, US (T-1401N V1.000), as a .gdi with its tracks; only that version works. Windows 10 or 11, or x86-64 Linux with glibc 2.28 or later, SDL2, and OpenGL, about 1 GB free, and an internet connection on first start, which downloads the Zig compiler and two Flycast files to build the module."
+tags:
+  - sh-4
+  - fighting
+  - widescreen
+  - multiplayer
+  - online
+  - netplay
+  - static-recomp
+  - ai-assisted

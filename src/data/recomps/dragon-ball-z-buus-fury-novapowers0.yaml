@@ -1,0 +1,24 @@
+name: "Dragon Ball Z: Buu's Fury (novapowers0)"
+games: [dragon-ball-z-buus-fury]
+console: gba
+status: experimental
+repo: novapowers0/DragonBallZBuusFuryRecomp
+forkOf:
+  label: "mstan/DragonBallZBuusFuryRecomp"
+  url: https://github.com/mstan/DragonBallZBuusFuryRecomp
+originalDeveloper: "Webfoot Technologies"
+year: 2004
+toolchain: GBARecomp
+desc:
+  es: "Bifurcación del recomp de mstan que usa el runtime gbarecomp y añade un arranque rápido, cobertura estática más amplia (la zona inicial valida como totalmente estática, con una corrección de cierre en un puente), compatibilidad con tres volcados equivalentes de la versión de EE. UU. y con la traducción al español, y un lanzador en inglés y español. Incluye un mod opcional de pantalla ancha adaptativa, que revela mundo real en los márgenes (hasta 480×160) sin estirar la imagen, además de trucos con el motor CodeBreaker Advance, multiplicadores, un editor de partida, autoguardado, estados guardados, avance rápido y rebobinado, y un audio corregido. Su README lo describe como una vista previa experimental, que llega al juego sin instrucciones interpretadas ni fallos de despacho, pero que no se ha probado entero. La 0.0.7, del 18 de octubre, es la última versión, solo para Windows. 2 de sus 34 commits llevan a Claude como coautor."
+  en: "A fork of mstan’s recomp that uses the gbarecomp runtime and adds a fast boot, wider static coverage (the starting area validates as fully static, with a crash fix at a bridge), support for three equivalent dumps of the US version and for the Spanish translation, and an English and Spanish launcher. It includes an optional adaptive widescreen mod, which reveals real world in the margins (up to 480×160) without stretching the image, plus cheats through the CodeBreaker Advance engine, multipliers, a save editor, autosave, save states, fast-forward and rewind, and a corrected audio output. Its README describes it as an experimental preview that reaches gameplay with no interpreted instructions or dispatch misses, but that hasn’t been tested in full. Version 0.0.7, from October 18, is the latest, Windows-only. 2 of its 34 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Dragon Ball Z: Buu’s Fury para GBA, estadounidense (BG3E, revisión 0; sirven los volcados de GoodTools y de No-Intro) o la traducción al español, y la BIOS de la GBA de 16 KiB (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492). Windows de 64 bits."
+  en: "Your own ROM of Dragon Ball Z: Buu’s Fury for the GBA, US (BG3E, revision 0; the GoodTools and No-Intro dumps work) or the Spanish translation, and the 16 KiB GBA BIOS (SHA-1 300c20df6731a33952ded8c436f7f186d25d3492). 64-bit Windows."
+tags:
+  - arm7
+  - rpg
+  - widescreen
+  - mods
+  - static-recomp
+  - ai-assisted

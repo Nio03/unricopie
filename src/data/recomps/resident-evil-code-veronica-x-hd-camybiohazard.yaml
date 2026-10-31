@@ -1,0 +1,17 @@
+name: "Resident Evil - Code: Veronica X HD (camybiohazard)"
+games: [resident-evil-code-veronica-x]
+console: x360
+status: experimental
+repo: camybiohazard/Project-VeronicaX
+originalDeveloper: "Nextech"
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 con ReXGlue 0.10.0, para Windows y Linux. La herramienta analiza el Default.xex del juego y genera C++ en tu equipo (la carpeta generated/default se ignora en git y se reconstruye al compilar). Si no hay una carpeta game/ verificada junto al ejecutable, el juego abre una pantalla de configuración que pide la ISO o un paquete Games on Demand, comprueba que su Default.xex es la versión con la que se recompiló y extrae el disco; después muestra una pantalla de ajustes con pantalla completa o ventana, tamaño de ventana y resolución interna, y el VSync va siempre activado porque el juego corre demasiado rápido sin él. El repositorio no declara el estado de la jugabilidad. Las versiones son ejecutables ya compilados con el código recompilado del juego, sin datos del juego (zips de unos 25 MB para Windows y Linux); la v0.4.0, «Resolution Scaling», es del 31 de octubre, y hay otras dos del 30 y 31 de octubre. Sus 18 commits no llevan a Claude como coautor."
+  en: "A static recompilation of the Xbox 360 version with ReXGlue 0.10.0, for Windows and Linux. The tool analyzes the game’s Default.xex and generates C++ on your machine (the generated/default folder is ignored by git and rebuilt on demand). If there is no verified game/ folder next to the executable, the game opens a setup screen that asks for the ISO or a Games on Demand package, checks that its Default.xex is the version this build was recompiled from, and extracts the disc; afterwards it shows a settings screen with fullscreen or windowed mode, window size and internal resolution, and VSync is always on because the game runs too fast without it. The repository doesn’t state how playable it is. The releases are prebuilt executables that contain the game’s recompiled code, with no game data (zips of about 25 MB for Windows and Linux); v0.4.0, “Resolution Scaling”, is from October 31, and there are two others from October 30 and 31. None of its 18 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Resident Evil - Code: Veronica X de Xbox 360, como ISO o paquete Games on Demand (el archivo de cabecera de 43430822/00007000 o cualquier archivo DataNNNN junto a él); su Default.xex debe ser la versión con la que se compiló. Windows de 64 bits o Linux x86-64."
+  en: "Your own copy of Resident Evil - Code: Veronica X for Xbox 360, as an ISO or a Games on Demand package (the header file in 43430822/00007000 or any DataNNNN file next to it); its Default.xex must be the version this build was compiled from. 64-bit Windows or x86-64 Linux."
+tags:
+  - powerpc
+  - horror

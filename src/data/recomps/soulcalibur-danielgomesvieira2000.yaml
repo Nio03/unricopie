@@ -1,0 +1,19 @@
+name: "Soulcalibur (danielgomesvieira2000)"
+games: [soulcalibur]
+console: dreamcast
+status: experimental
+repo: danielgomesvieira2000/soulcalibur-recomp
+originalDeveloper: "Namco"
+year: 1999
+toolchain: dreamcomp
+desc:
+  es: "Port nativo no oficial de Soulcalibur para Dreamcast (versión estadounidense, T1401N V1.000), hecho con dreamcomp: el código SH-4 del juego se recompila estáticamente a C++ y los gráficos, el sonido y el disco de la consola se ejecutan como código nativo a su alrededor. El repositorio no lleva código ni datos del juego; el port lee tu imagen de disco al ejecutarse y rechaza cualquier versión distinta de aquella para la que se construyó. Por ahora funciona en Windows, con resolución interna de hasta 4x, ajuste de la imagen a la ventana, tarjeta de memoria virtual por usuario, teclado y mando reconfigurables, y una pantalla ancha anamórfica 16:9 que el propio README califica de experimental: de momento se cierra en los combates y viene desactivada. No hay versiones publicadas. Sus 20 commits llevan a Claude como coautor, y el README declara que se desarrolló con Claude Code."
+  en: "An unofficial native port of Soulcalibur for the Dreamcast (US version, T1401N V1.000), built with dreamcomp: the game’s SH-4 code is statically recompiled to C++ and the console’s graphics, sound, and disc run as native code around it. The repository holds no game code or data; the port reads your disc image at run time and refuses any release other than the one it was built from. For now it runs on Windows, with internal resolution up to 4x, fitting the picture to the window, a per-user virtual memory card, rebindable keyboard and gamepad controls, and an anamorphic 16:9 widescreen that the README itself calls experimental: it currently crashes in fights and is off by default. There are no published releases. All 20 of its commits list Claude as a co-author, and the README states it was developed with Claude Code."
+requirements:
+  es: "Tu propia imagen de disco de Soulcalibur para Dreamcast, estadounidense (T1401N V1.000, ejecutable de arranque con SHA-1 967ca1fe…c6c9), en .cue y .bin, .gdi o .chd. Se construye desde un clon de dreamcomp con su herramienta (Python y los compiladores que pide su README); Windows por ahora."
+  en: "Your own disc image of Soulcalibur for the Dreamcast, US (T1401N V1.000, boot file SHA-1 967ca1fe…c6c9), as .cue and .bin, .gdi, or .chd. It is built from a dreamcomp checkout with its tool (Python and the compilers its README asks for); Windows for now."
+tags:
+  - sh-4
+  - fighting
+  - static-recomp
+  - ai-assisted

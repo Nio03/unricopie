@@ -1,0 +1,20 @@
+name: "Turok 2: Seeds of Evil"
+games: [turok-2-seeds-of-evil]
+console: n64
+status: playable
+repo: SirBraga/turok2-recomp
+originalDeveloper: "Iguana Entertainment"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC (compilación para Windows x64) de la versión estadounidense 1.0 de Turok 2: Seeds of Evil, hecho con N64Recomp, N64ModernRuntime, RT64 y RecompFrontend. El README lo presenta como pruebas públicas tempranas, «jugable, no pulido»: arranca, llega a niveles reales y presenta a 120 cuadros únicos por segundo sobre un reloj de 120 Hz, que se puede cambiar a Original o 60 y no usa interpolación. Trae un lanzador propio para cargar la ROM, controles, opciones y mods, con teclado, ratón y mando. El repositorio incluye el código C ya traducido del juego (en projects/turok2-decomp/RecompiledFuncs) y copias de las herramientas. Hay dos versiones, Beta (5 de septiembre) y Beta2 (11 de septiembre, «Fix 120hz and 120fps»), con un zip de Windows de unos 19 MB. El README enumera como fallos esperables cuelgues en algún nivel, efectos demasiado rápidos o entrecortados, y chasquidos o bancos de audio que faltan. 8 de sus 18 commits llevan a Cursor como coautor."
+  en: "A native PC port (a Windows x64 build) of the US 1.0 version of Turok 2: Seeds of Evil, made with N64Recomp, N64ModernRuntime, RT64, and RecompFrontend. The README presents it as early public testing, “playable, not polished”: it boots, reaches real levels, and presents at 120 unique frames per second on a 120 Hz clock, which can be switched to Original or 60 and uses no interpolation. It has its own launcher to load the ROM, controls, options, and mods, with keyboard, mouse, and controller. The repository includes the game’s already translated C code (in projects/turok2-decomp/RecompiledFuncs) and copies of the tools. There are two releases, Beta (September 5) and Beta2 (September 11, “Fix 120hz and 120fps”), with a Windows zip of about 19 MB. The README lists crashes on a specific level, effects that look too fast or choppy, and audio pops or missing banks among the expected bugs. 8 of its 18 commits list Cursor as a co-author."
+requirements:
+  es: "Tu propia ROM de Turok 2: Seeds of Evil de EE. UU. 1.0 (SHA-1 fb0400f21e3f043939ab56500c7b12a3231006f1). Windows x64 con una GPU Direct3D 12 o Vulkan y el redistribuible de Visual C++."
+  en: "Your own Turok 2: Seeds of Evil USA 1.0 ROM (SHA-1 fb0400f21e3f043939ab56500c7b12a3231006f1). x64 Windows with a Direct3D 12 or Vulkan GPU and the Visual C++ redistributable."
+tags:
+  - mips
+  - fps
+  - 60fps+
+  - mods
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "EVO Redux"
+games: [trials-evolution-gold-edition]
+kind: mod
+console: pc
+game:
+  es: "Trials Evolution: Gold Edition (PC)"
+  en: "Trials Evolution: Gold Edition (PC)"
+repo: SAitken91/EVORedux
+status: beta
+desc:
+  es: "Servidor de sustitución hecho por aficionados para la parte en línea de Trials Evolution: Gold Edition en PC, cuyos servidores Ubisoft cerró hace años. Un cliente (una DLL que se instala junto al juego con INSTALL.bat) lo conecta con el servidor, escrito en Python, y devuelve las clasificaciones globales y por pista, los fantasmas y Track Central, con más de 1.600 pistas de la comunidad de Xbox 360 para descargar desde el propio juego y miles de puntuaciones históricas recuperadas. Un importador permite además usar en PC los paquetes de DLC de Xbox 360 Origin of Pain y Riders of Doom. El multijugador y la subida de pistas propias aún no están. La 1.5.6 (31 de octubre) es la última de 16 versiones publicadas desde el 23 de octubre. Sus 31 commits llevan a Claude como coautor. El README enlaza además un archivo comunitario de pistas de PC de Track Central alojado en un hilo de Steam."
+  en: "A fan-made replacement server for the online side of Trials Evolution: Gold Edition on PC, whose Ubisoft servers were shut down years ago. A client (a DLL installed next to the game with INSTALL.bat) connects it to the server, written in Python, and brings back the global and per-track leaderboards, ghosts, and Track Central, with over 1,600 Xbox 360 community tracks to download from inside the game and thousands of recovered historical scores. An importer also lets the Xbox 360 DLC packs Origin of Pain and Riders of Doom run on PC. Multiplayer and uploading your own tracks are not there yet. Version 1.5.6 (October 31) is the latest of 16 releases published since October 23. All 31 of its commits list Claude as a co-author. The README also links a community archive of PC Track Central tracks hosted in a Steam thread."
+requirements:
+  es: "Tu propia copia de Trials Evolution: Gold Edition para PC (Steam o Ubisoft Connect). Para los DLC, tus propios paquetes de Xbox 360 Origin of Pain y Riders of Doom, volcados de tu consola, y Python 3.10 o posterior de 64 bits. Windows."
+  en: "Your own copy of Trials Evolution: Gold Edition for PC (Steam or Ubisoft Connect). For the DLC, your own Xbox 360 packs of Origin of Pain and Riders of Doom, dumped from your console, and 64-bit Python 3.10 or later. Windows."
+tags:
+  - online
+  - mods
+  - ai-assisted

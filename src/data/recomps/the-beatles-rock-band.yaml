@@ -1,0 +1,17 @@
+name: "The Beatles: Rock Band"
+games: [the-beatles-rock-band]
+console: x360
+status: playable
+repo: mercurialw0rld/thebeatlesrockband-pcport
+originalDeveloper: "Harmonix"
+year: 2009
+toolchain: ReXGlue
+desc:
+  es: "Port a PC de The Beatles: Rock Band de Xbox 360, hecho con ReXGlue. El repositorio no publica código fuente: solo contiene un lanzador, el ejecutable ya compilado del juego (beatlesrockband-guitar.exe, de unos 45 MB) y las bibliotecas del entorno de ejecución. Por eso lleva la etiqueta de código cerrado, y no se puede comprobar cómo está hecho más allá de lo que explica el README. El lanzador pide el default.xex de tu copia extraída del disco, junto con charnames.zbm y la carpeta gen; el README dice que el paquete no incluye el XEX, los datos del disco ni el DLC. Admite guitarra y batería con teclado o mandos de Windows e importa paquetes de DLC de solo datos desde el propio lanzador. El README lo da por jugable, con unos 60 FPS observados, algún tirón ocasional y calibración manual de audio y vídeo si hace falta; se probaron la guitarra y la batería con teclado, y el DLC importado de Abbey Road, Rubber Soul, Sgt. Pepper y All You Need Is Love. La última versión es la 0.6.1 (24 de octubre)."
+  en: "A PC port of The Beatles: Rock Band for Xbox 360, made with ReXGlue. The repository doesn’t publish source code: it only holds a launcher, the already compiled game executable (beatlesrockband-guitar.exe, about 45 MB), and the runtime libraries. For that reason it carries the closed-source tag, and how it is made can’t be checked beyond what the README explains. The launcher asks for the default.xex from your extracted copy of the disc, together with charnames.zbm and the gen folder; the README says the package includes no XEX, disc data, or DLC. It supports guitar and drums with keyboard or Windows controllers and imports data-only DLC packages from the launcher itself. The README presents it as playable, with about 60 FPS observed, occasional stutters, and manual audio and video calibration if needed; keyboard guitar and drums were tested, and imported DLC from Abbey Road, Rubber Soul, Sgt. Pepper, and All You Need Is Love. The latest version is 0.6.1 (October 24)."
+requirements:
+  es: "Tu propia copia extraída de The Beatles: Rock Band para Xbox 360: default.xex, charnames.zbm y la carpeta gen completa (con su cabecera y diez archivos ARK). El DLC, si lo quieres, son los paquetes originales LIVE, PIRS o CON de tu consola; no se admiten actualizaciones de título ni DLC con código. Windows con teclado o un mando."
+  en: "Your own extracted copy of The Beatles: Rock Band for Xbox 360: default.xex, charnames.zbm, and the complete gen folder (with its header and ten ARK files). DLC, if you want it, is the original LIVE, PIRS, or CON packages from your console; title updates and DLC with code are not supported. Windows with a keyboard or a controller."
+tags:
+  - powerpc
+  - closed-source

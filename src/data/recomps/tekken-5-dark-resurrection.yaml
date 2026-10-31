@@ -1,0 +1,20 @@
+name: "Tekken 5: Dark Resurrection"
+games: [tekken-5-dark-resurrection]
+console: ps3
+status: playable
+repo: TheWishin/T5DROnline
+originalDeveloper: "Namco"
+year: 2007
+desc:
+  es: "Tekken 5: Dark Resurrection Online: port nativo para Windows de la versión de PS3 (PSN), hecho por recompilación estática: el programa del juego se traduce por adelantado a C++ y se compila en un programa de Windows normal, sin emulador; sigue el mismo modelo que Tekken 6 Native Online. El launcher construye el juego en tu equipo a partir de tu paquete .pkg y tu licencia .rap (unos 90 segundos en el equipo del autor). Este repositorio solo tiene la documentación y las versiones; el código fuente, con licencia MIT, está en otro repositorio, TheWishin/T5DROnline-Source. Sin conexión funcionan Arcade, Ghost, Versus, Survival y Práctica a 60 fps; el juego en línea va por un lobby propio con netcode de retroceso, salas, espectadores y partidas clasificatorias, mientras que la galería y el menú en línea original, que dependían de servidores de Namco y Sony ya cerrados, no funcionan. La 1.1.9 (29 de octubre) es la última de 20 versiones; añadió la versión europea, solo sin conexión por ahora. En macOS con Apple silicon se puede compilar desde el código, solo sin conexión. El README dice que se desarrolló con ayuda de Claude."
+  en: "Tekken 5: Dark Resurrection Online: a native Windows port of the PS3 version (PSN), made by static recompilation: the game’s program is translated ahead of time to C++ and compiled into an ordinary Windows program, with no emulator; it follows the same model as Tekken 6 Native Online. The launcher builds the game on your PC from your own .pkg package and .rap license (about 90 seconds on the author’s PC). This repository only has the documentation and the releases; the source code, under the MIT license, is in a separate repository, TheWishin/T5DROnline-Source. Offline, Arcade, Ghost, Versus, Survival, and Practice work at 60 fps; online play runs through its own lobby with rollback netcode, rooms, spectating, and ranked matches, while the Gallery and the game’s own online menu, which depended on Namco’s and Sony’s servers that are gone, don’t work. Version 1.1.9 (October 29) is the latest of 20 releases; it added the European version, offline only for now. On Apple-silicon macOS it can be built from source, offline only. The README says it was developed with the help of Claude."
+requirements:
+  es: "Tu propio TEKKEN 5 DARK RESURRECTION ONLINE de PSN, versión estadounidense (NPUB30009, 01.00): el paquete .pkg (619 430 240 bytes) y la licencia .rap (UP0700-NPUB30009_00-UPDATE0000010000.rap). Desde la 1.1.9 también sirve la europea (NPEA00019, 01.00) con su .pkg y su .rap, solo sin conexión; las demás versiones se rechazan. Además, Windows de 64 bits, unos 1,5 GB libres en una carpeta con permiso de escritura (no Program Files ni OneDrive) y conexión a internet durante la primera compilación para bajar unos 50 KB de datos de claves públicas."
+  en: "Your own TEKKEN 5 DARK RESURRECTION ONLINE from PSN, US version (NPUB30009, 01.00): the .pkg package (619,430,240 bytes) and the .rap license (UP0700-NPUB30009_00-UPDATE0000010000.rap). Since 1.1.9 the European release (NPEA00019, 01.00) also works, with its .pkg and .rap, offline only; other versions are refused. Plus 64-bit Windows, about 1.5 GB free in a writable folder (not Program Files or OneDrive), and an internet connection during the first build to fetch about 50 KB of public key data."
+tags:
+  - powerpc
+  - fighting
+  - online
+  - netplay
+  - 60fps+
+  - ai-assisted

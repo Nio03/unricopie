@@ -1,0 +1,20 @@
+name: "Streets of Rage"
+games: [streets-of-rage]
+console: megadrive
+status: playable
+repo: RuiNelson/StreetsOfRageProject
+originalDeveloper: "Sega"
+year: 1991
+toolchain: RageDecompiler
+desc:
+  es: "Proyecto de ingeniería inversa y recompilación de Streets of Rage de Mega Drive. Reúne un recompilador en Python (RageDecompiler), un runtime de Mega Drive basado en SDL3, el juego recompilado en C++ (en parte generado y en parte reescrito a mano con ayuda de modelos de lenguaje) y un observador con una IA simbólica. El C++ generado no se publica: se crea en tu equipo a partir de tu ROM. Un instalador guiado, Streets of Rage Builder, comprueba la ROM, instala las herramientas, compila el juego y prerrenderiza la banda sonora (unos 265 MB). Añade pantalla ancha mediante un modo de vídeo de 48 columnas que el hardware no tiene, controles configurables y un modo «1 PLAYER AI ASSIST» en el que una IA ayuda o juega por ti. La 0.3.1 (31 de octubre) trae el instalador para Windows (x64 y ARM), macOS y Linux (x86-64 y ARM64); la primera versión es del 29 de octubre. 82 de sus últimos 100 commits llevan a Claude como coautor, y el autor agradece también a ChatGPT y Grok."
+  en: "A reverse-engineering and recompilation project for the Mega Drive Streets of Rage. It brings together a Python recompiler (RageDecompiler), an SDL3-based Mega Drive runtime, the recompiled game in C++ (partly generated, partly rewritten by hand with help from language models), and an observer with a symbolic AI. The generated C++ is not published: it is created on your PC from your ROM. A guided installer, Streets of Rage Builder, checks the ROM, installs the tools, builds the game, and pre-renders the soundtrack (about 265 MB). It adds widescreen through a 48-column video mode the hardware doesn’t have, configurable controls, and a “1 PLAYER AI ASSIST” mode in which an AI helps or plays for you. Version 0.3.1 (October 31) ships the installer for Windows (x64 and ARM), macOS, and Linux (x86-64 and ARM64); the first release is from October 29. 82 of its last 100 commits list Claude as a co-author, and the author also thanks ChatGPT and Grok."
+requirements:
+  es: "Tu propia copia de Streets of Rage de Mega Drive / Genesis, la revisión A (CRC32 4052E845), como .bin, .md o .gen (un volcado .smd hay que convertirlo antes; no se admite otra versión). El instalador instala lo que falte (Git, CMake, Ninja, Python con Tk y un compilador de C++) y la primera compilación tarda un rato."
+  en: "Your own copy of the Mega Drive / Genesis Streets of Rage, revision A (CRC32 4052E845), as .bin, .md, or .gen (an .smd dump must be converted first; no other version is supported). The installer sets up whatever is missing (Git, CMake, Ninja, Python with Tk, and a C++ compiler) and the first build takes a while."
+tags:
+  - "68000"
+  - action
+  - widescreen
+  - static-recomp
+  - ai-assisted

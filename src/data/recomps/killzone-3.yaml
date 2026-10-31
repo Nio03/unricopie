@@ -1,0 +1,18 @@
+name: "Killzone 3"
+games: [killzone-3]
+console: ps3
+status: playable
+repo: undecuple/project-helghast
+originalDeveloper: "Guerrilla Games"
+year: 2011
+toolchain: ps3recomp
+desc:
+  es: "Project Helghast: port no oficial para Windows de la versión de PS3, hecho por recompilación estática con ps3recomp: el código PowerPC (PPU) y el de las SPU del juego se traducen por adelantado a C y se compilan en un programa nativo de x64, y el sistema de la PS3 se reimplementa sobre APIs de PC. Los comandos de la GPU se traducen a Direct3D 12 en tiempo real, y las SPU, el DMA y la memoria de la consola se reproducen en una capa de ejecución que, admite el README, se parece en parte a la de un emulador y se va sustituyendo por código nativo. Está en preversión y es parcialmente jugable: los nueve capítulos cargan y se juegan unos minutos en pruebas con guion, a unos 16-22 fotogramas por segundo (el objetivo son 30), con fallos conocidos; la campaña no se ha jugado entera, el cooperativo en pantalla dividida funciona y el juego en línea no. Se probó sobre todo con Proton en Linux, y en Windows 11 nativo desde el 21 de octubre. El instalador construye el código del juego en tu equipo; la 0.1.7 (29 de octubre) es la última de 8 versiones. Su autor declara que lo desarrolla con agentes de IA, con él como responsable."
+  en: "Project Helghast: an unofficial Windows port of the PS3 version, made by static recompilation with ps3recomp: the game’s PowerPC (PPU) and SPU code is translated ahead of time to C and compiled into a native x64 program, and the PS3 system software is reimplemented on PC APIs. The GPU command stream is translated to Direct3D 12 as it runs, and the console’s SPU scheduling, DMA, and memory are reproduced in a runtime layer that, the README admits, is partly like an emulator’s and is being replaced by native code step by step. It is a pre-release and partly playable: all nine chapters load and play for minutes in scripted runs, at about 16-22 frames per second (the target is 30), with known bugs; the campaign hasn’t been played start to finish, split-screen co-op works, and online play doesn’t. It was tested mostly under Proton on Linux, and on native Windows 11 since October 21. The installer builds the game’s code on your PC; version 0.1.7 (October 29) is the latest of 8 releases. Its author states it is developed with AI coding agents, with the maintainer responsible for it."
+requirements:
+  es: "Tu propio disco de Killzone 3 (versión estadounidense, BCUS98234) volcado como carpeta con PS3_GAME o como .iso descifrado, la actualización 1.14 de tu copia y el EBOOT.elf descifrado de esa actualización; las ediciones europea, asiática y japonesa se aceptan sin probar. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Direct3D 12. La primera construcción tarda de 10 a 30 minutos."
+  en: "Your own Killzone 3 disc (US version, BCUS98234) dumped as a folder with PS3_GAME or as a decrypted .iso, the 1.14 update from your copy, and the decrypted EBOOT.elf of that update; the European, Asian, and Japanese editions are accepted but untested. Plus 64-bit Windows 10 or 11 and a Direct3D 12 graphics card. The first build takes 10 to 30 minutes."
+tags:
+  - powerpc
+  - fps
+  - ai-assisted

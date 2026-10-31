@@ -1,0 +1,21 @@
+name: "Ratchet & Clank (2016)"
+games: [ratchet-and-clank-2016]
+category: native-layer
+console: ps4
+status: experimental
+repo: shehab4546/RatchetPort
+forkOf:
+  label: "FelipePrado0/SpartanPort"
+  url: https://github.com/FelipePrado0/SpartanPort
+originalDeveloper: "Insomniac Games"
+year: 2016
+desc:
+  es: "RatchetPort: port nativo no oficial para Windows de la versión de PS4 del juego de 2016 (no la saga de PS2 ni Rift Apart), derivado de SpartanPort de Felipe Prado, que usa el trabajo de renderizador y de recompilador de shaders de shadPS4. Está en preversión: su autor observó 30 fps estables en una RTX 5070 portátil con la versión 1.1 en sesiones de 621 y 294 segundos que terminaron bien, pero la compatibilidad general y la estabilidad en sesiones largas no están verificadas, y una Intel UHD 730 reprodujo un error de dispositivo perdido de Vulkan. La 2.0 (28 de octubre) corrige el mundo negro a 1440p y 4K, gestiona mejor la memoria, permite asignaciones primaria y secundaria de teclado y reconoce el idioma del texto y la voz por separado. Es la última de 8 versiones. Lleva 71 commits propios sobre el original."
+  en: "RatchetPort: an unofficial native Windows port of the 2016 PS4 game (not the PS2 series or Rift Apart), derived directly from Felipe Prado’s SpartanPort, which uses renderer and shader-recompiler work from shadPS4. It is a pre-alpha: its author observed steady 30 fps on an RTX 5070 Laptop GPU with version 1.1, in logged sessions of 621 and 294 seconds that ended normally, but general hardware compatibility and long-session stability are unverified, and an Intel UHD 730 reproduced a Vulkan device-lost error. Version 2.0 (October 28) fixes the black world at 1440p and 4K, manages memory adaptively, adds primary and secondary keyboard bindings, and handles text and voice languages separately. It is the latest of 8 releases. It has 71 commits of its own on top of the original."
+requirements:
+  es: "Tu propio volcado, hecho con tu PS4 a partir de tu disco original, de Ratchet & Clank (2016) estadounidense CUSA01047 v1.00, con eboot.bin, sce_sys/param.sfo, sce_sys/playgo-chunk.dat, sce_module/libc.prx y sce_module/libSceFios2.prx; no se admiten otros títulos ni versiones. Además, Windows 10 (1903 o posterior) u 11 de 64 bits, un procesador x86-64 con AVX y una tarjeta gráfica con Vulkan 1.3; no hay un mínimo de rendimiento validado."
+  en: "Your own dump, made from your original disc with your own PS4, of the US Ratchet & Clank (2016) CUSA01047 v1.00, with eboot.bin, sce_sys/param.sfo, sce_sys/playgo-chunk.dat, sce_module/libc.prx, and sce_module/libSceFios2.prx; other titles and versions aren’t supported. Plus 64-bit Windows 10 (1903 or later) or 11, an x86-64 CPU with AVX, and a Vulkan 1.3 graphics card; there is no validated minimum performance."
+tags:
+  - x86
+  - vulkan
+  - platformer

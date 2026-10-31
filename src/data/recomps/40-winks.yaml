@@ -1,0 +1,18 @@
+name: "40 Winks"
+games: [40-winks]
+console: n64
+status: experimental
+repo: Faderz48/40-Winks-PC-Port
+originalDeveloper: "Eurocom"
+toolchain: N64Recomp
+desc:
+  es: "Port nativo experimental para Linux y Windows de la versión de Nintendo 64 de 40 Winks, hecho con N64Recomp, N64ModernRuntime y RT64. Según el README llega al juego normal y admite menús, escenas, guardado persistente en Controller Pak, mandos Xbox y SDL, teclado, pantalla partida para dos jugadores, modos de pantalla ancha, escalado de resolución y un menú de depuración con selector de niveles (F1). El repositorio no contiene ROM, recursos, desensamblado ni las funciones recompiladas: todo se genera en tu equipo. El instalador de Windows (71,7 MB) y el AppImage de Linux (unos 300 KB) se construyen solos en el primer arranque: piden y verifican la ROM, descargan sus herramientas y dependencias y generan el juego en local. La 0.1.7-alpha (15 de agosto) es la última de 8 versiones."
+  en: "An experimental native Linux and Windows port of the Nintendo 64 version of 40 Winks, made with N64Recomp, N64ModernRuntime, and RT64. According to the README it reaches normal gameplay and supports menus, cutscenes, persistent Controller Pak saves, Xbox and SDL controllers, keyboard, two-player split screen, widescreen modes, resolution scaling, and an F1 debug menu with a level selector. The repository contains no ROM, game assets, disassembly, or recompiled game functions: everything is generated on your PC. The Windows installer (71.7 MB) and the Linux AppImage (about 300 KB) build themselves on first run: they ask for and verify the ROM, download their own tools and dependencies, and generate the game locally. Version 0.1.7-alpha (August 15) is the latest of 8 releases."
+requirements:
+  es: "Tu propia ROM limpia de 40 Winks, estadounidense, en .z64 big-endian (SHA-256 057232ef7618e25f5645df50d3cd45f08cb5a2cccb3e2fdf48faa8755c4ddb1a). El instalador de Windows descarga sus propias herramientas (Git, Python, CMake, Ninja y LLVM-MinGW), así que no hace falta tener nada instalado; en Linux, la primera compilación necesita los paquetes de desarrollo del README y conexión a internet."
+  en: "Your own clean US 40 Winks ROM, big-endian .z64 (SHA-256 057232ef7618e25f5645df50d3cd45f08cb5a2cccb3e2fdf48faa8755c4ddb1a). The Windows installer downloads its own tools (Git, Python, CMake, Ninja, and LLVM-MinGW), so nothing needs to be preinstalled; on Linux, the first build needs the development packages listed in the README and an internet connection."
+tags:
+  - mips
+  - platformer
+  - widescreen
+  - multiplayer

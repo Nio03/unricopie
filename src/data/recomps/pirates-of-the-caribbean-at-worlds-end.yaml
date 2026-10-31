@@ -1,0 +1,21 @@
+name: "Pirates of the Caribbean: At World’s End"
+games: [pirates-of-the-caribbean-at-worlds-end]
+console: x360
+status: experimental
+repo: ElGuslml/PiratesAtWorldsEndRecomp
+originalDeveloper: "Eurocom"
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Versión nativa para Windows de la versión de Xbox 360, recompilada con ReXGlue SDK y dibujada con un renderizador nativo en Vulkan; ofrece gráficos más nítidos, pantallas anchas y 60 cuadros por segundo. Es un lanzamiento temprano: se han jugado los primeros niveles, en sesiones de una hora, sin problemas, y los niveles posteriores no se han probado. El README dice que el programa publicado contiene el código del juego recompilado para PC, pero ninguno de sus archivos, y que sin los tuyos no funciona. Un lanzador instala el juego desde tu ISO. La v0.3.0 (27 de octubre) es la última de tres versiones. Declara que se desarrolla con ayuda de Claude; 97 de sus últimos 100 commits lo listan como coautor."
+  en: "A native Windows version of the Xbox 360 game, recompiled with the ReXGlue SDK and drawn with a native Vulkan renderer; it offers sharper graphics, wide screens and 60 fps. It is an early release: the first levels have been played, in sessions of an hour, without problems, and later levels haven’t been tested. The README says the released program contains the game’s code recompiled for the PC, but none of its files, and that it doesn’t run without yours. A launcher installs the game from your ISO. v0.3.0 (October 27) is the latest of three releases. It states it is developed with the help of Claude; 97 of its last 100 commits list it as a co-author."
+requirements:
+  es: "Tu propio disco de Pirates of the Caribbean: At World’s End para Xbox 360 (el de EE. UU.), convertido en una imagen ISO que el lanzador instala. Windows 10 u 11 de 64 bits y una gráfica con controlador de Vulkan."
+  en: "Your own Pirates of the Caribbean: At World’s End disc for Xbox 360 (the USA one), made into an ISO image that the launcher installs. 64-bit Windows 10 or 11 and a graphics card with a Vulkan driver."
+tags:
+  - powerpc
+  - action
+  - vulkan
+  - widescreen
+  - 60fps+
+  - ai-assisted

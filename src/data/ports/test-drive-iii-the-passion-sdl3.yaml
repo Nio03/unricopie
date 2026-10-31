@@ -1,0 +1,19 @@
+name: "Test Drive III: The Passion (SDL3)"
+games: [test-drive-iii-the-passion]
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/test-drive-3-sdl3
+originalDeveloper: "Accolade"
+year: 1990
+desc:
+  es: "Port nativo para Windows de Test Drive III: The Passion (Accolade, 1990), una reimplementación fiel en C con SDL3 hecha por ingeniería inversa de todo el programa original; no es un emulador. Se puede jugar la versión VGA con música y efectos AdLib / Sound Blaster: título y créditos, menús, los cinco coches, los dos recorridos con todos sus tramos y rutas, tráfico, policía, repetición, resultados y récords. Las gráficas EGA y Tandy y el sonido MT-32, Tandy y Game Blaster no están portados. Trae un lanzador para elegir coche, recorrido y opciones, y por defecto espera 23 tics de reloj entre cuadros (unos 6 por segundo) para que el juego no corra demasiado rápido. La única versión, la 0.1.0 (24 de septiembre), es un zip de Windows de 64 bits de unos 10,8 MB. Sus 11 commits llevan a Claude como coautor."
+  en: "A native Windows port of Test Drive III: The Passion (Accolade, 1990), a faithful C reimplementation with SDL3 made by reverse engineering the whole original program; it is not an emulator. The VGA version with AdLib / Sound Blaster music and effects can be played: title and credits, menus, the five cars, both courses with all their legs and routes, traffic, police, replay, results, and high scores. The EGA and Tandy graphics and the MT-32, Tandy, and Game Blaster sound are not ported. It comes with a launcher to pick car, course, and options, and by default it waits 23 timer ticks between frames (about 6 per second) so the game doesn’t run too fast. The only release, 0.1.0 (September 24), is a 64-bit Windows zip of about 10.8 MB. All 11 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propios archivos del Test Drive III de DOS en una carpeta Game: TDIII.EXE (empaquetado o no), PLAYDISK.DAT, DATAA.DAT, DATAB.DAT, DATAC.DAT, INSTR.DAT y los archivos de coches (C*.DAT, .LST y .POB) y de escenarios (SCENE*.DAT, .LST y .HI); TD3.CFG es opcional. La carpeta debe poder escribirse. Además, Windows."
+  en: "Your own files of the DOS Test Drive III in a folder named Game: TDIII.EXE (packed or unpacked), PLAYDISK.DAT, DATAA.DAT, DATAB.DAT, DATAC.DAT, INSTR.DAT, and the car (C*.DAT, .LST, and .POB) and scene (SCENE*.DAT, .LST, and .HI) files; TD3.CFG is optional. The folder must be writable. Plus Windows."
+tags:
+  - x86
+  - racing
+  - reverse-engineering
+  - ai-assisted

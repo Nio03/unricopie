@@ -1,0 +1,12 @@
+name: "ps2-native-recomp"
+kind: recompiler
+consoles: [ps2]
+status: experimental
+repo: exoteric33/ps2-native-recomp
+desc:
+  es: "Convierte la imagen de disco de un juego de PS2 que posees en un programa nativo para Windows o Linux por recompilación estática: en la aplicación eliges la imagen (.iso, o un .zip o .7z que la contenga), pulsas Build y luego Play, y se crea un programa propio del juego con acceso directo. Traduce de antemano el código del procesador principal a C++ y lo compila, y reconstruye el resto de la consola (chip gráfico, unidades vectoriales, sonido, disco, mando y tarjeta de memoria) en un runtime que dibuja con WebGPU (wgpu-native sobre Vulkan o Direct3D 12); la aplicación descarga sus propias herramientas de compilación. Admite teclado y ratón o mando, guardado rápido (F5 y F8), estilos de imagen (F2) y parches de pantalla ancha de la comunidad de PCSX2. Su autor avisa de que está en una fase temprana, pública desde el 28 de octubre: God of War II se ha jugado de principio a fin y más de 15 juegos más funcionan hasta donde han llegado los probadores (entre ellos God of War, Gran Turismo 4, Resident Evil 4, Silent Hill 2 y Shadow of the Colossus), mientras que otros acaban en pantalla negra o con cuelgues, y 54 de los 55 programas de la batería libre ps2autotests dan lo mismo que una consola real."
+  en: "Turns the disc image of a PS2 game you own into a native program for Windows or Linux by static recompilation: in the app you choose the image (an .iso, or a .zip or .7z that holds one), press Build and then Play, and you get a program of the game’s own with a desktop shortcut. It translates the main processor’s code to C++ ahead of time and compiles it, and rebuilds the rest of the console (graphics chip, vector units, sound, disc, controller, and memory card) in a runtime that draws with WebGPU (wgpu-native on Vulkan or Direct3D 12); the app downloads its own build tools. It supports keyboard and mouse or a gamepad, quick saves (F5 and F8), picture styles (F2), and widescreen patches from the PCSX2 community. Its author warns it is at an early stage, public since October 28: God of War II has been played from start to end and more than 15 other games play as far as testers got (among them God of War, Gran Turismo 4, Resident Evil 4, Silent Hill 2, and Shadow of the Colossus), while others end in a black screen or crashes, and 54 of the 55 programs of the free ps2autotests suite print what a real console prints."
+tags:
+  - emotion-engine
+  - static-recomp
+  - vulkan

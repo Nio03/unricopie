@@ -1,0 +1,17 @@
+name: "Advanced V.G. 2"
+games: [advanced-vg-2]
+console: ps1
+status: experimental
+repo: elprogramadorloco-arch/agvg2-recomp
+originalDeveloper: "TGL"
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "Versión nativa para Windows de Advanced V.G. 2 (PlayStation, Japón, SLPM-87226) hecha por recompilación estática con PSXRecomp: el código MIPS del cargador, de SL_MAIN.EXE y de todos los overlays de personajes, combates y eventos se traduce a C y se compila como ejecutable x64; el runtime solo emula el hardware de la consola (GPU, SPU, CD). El repositorio y las versiones no traen el disco ni el código generado a partir de él: run.bat valida tu disco, descarga una cadena de herramientas fijada, recompila y compila en tu equipo, en unos 20 a 40 minutos la primera vez. El lanzador integrado configura mandos, vídeo y audio. La 0.1 es del 2 de octubre y su único commit lleva a Claude como coautor. El README no detalla qué partes del juego funcionan."
+  en: "A native Windows version of Advanced V.G. 2 (PlayStation, Japan, SLPM-87226) made by static recompilation with PSXRecomp: the MIPS code of the loader, SL_MAIN.EXE, and every character, battle, and event overlay is translated to C and compiled as an x64 executable; the runtime only emulates the console hardware (GPU, SPU, CD). The repository and releases don’t include the disc or code generated from it: run.bat validates your disc, downloads a pinned toolchain, recompiles, and builds on your machine, in about 20 to 40 minutes the first time. The built-in launcher configures controllers, video, and audio. Version 0.1 is from October 2 and its only commit lists Claude as a co-author. The README doesn’t detail which parts of the game work."
+requirements:
+  es: "Tu propio volcado de Advanced V.G. 2 (Japón, SLPM-87226): un .cue y sus pistas, con la pista 1 de datos (MODE2/2352) de 573.819.792 bytes y MD5 ce5f264deab37af49ff07ecf562a67ab; la pista 2 de audio es opcional. Las pistas pueden ser .bin, ECM, un .7z o, para el audio, .ape. Además, Windows 10 u 11 de 64 bits, unos 6 GB libres y conexión a internet en la primera compilación."
+  en: "Your own dump of Advanced V.G. 2 (Japan, SLPM-87226): a .cue and its tracks, with track 1 as data (MODE2/2352) of 573,819,792 bytes and MD5 ce5f264deab37af49ff07ecf562a67ab; track 2 (audio) is optional. Tracks may be .bin, ECM, a .7z, or, for the audio, .ape. Plus 64-bit Windows 10 or 11, about 6 GB free, and an internet connection on the first build."
+tags:
+  - mips
+  - ai-assisted

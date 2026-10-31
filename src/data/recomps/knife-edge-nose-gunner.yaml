@@ -1,0 +1,20 @@
+name: "Knife Edge: Nose Gunner"
+games: [knife-edge-nose-gunner]
+console: n64
+status: playable
+repo: haydenmc/knife-edge-recomp
+originalDeveloper: "Kemco"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para Windows y Linux de la versión estadounidense, hecho con N64Recomp, N64ModernRuntime y RT64. El README lo da por jugable y estable: arranca por el logo de Kemco, la pantalla de título y el bucle de demostración hasta los menús y la partida, verificado en hardware real hasta la fase 4 (incluida una ruta alternativa), con música y efectos correctos; falta comprobar que se pueda terminar la campaña. Incluye alta resolución, pantalla ancha, altura completa, reubicación del HUD, alta tasa de cuadros (experimental), mando y apuntado con ratón. Las releases (0.0.3, del 3 de agosto, la última de 3) llevan el código recompilado pero ningún dato del juego: un tar.gz para Linux, un zip para Windows y un Flatpak. Lo primero que dice el README es que casi todo el código lo escribieron modelos de lenguaje (Claude), que nadie con experiencia lo ha revisado y que no da garantías. 72 de sus 74 commits llevan a Claude como coautor."
+  en: "A native Windows and Linux port of the US version, made with N64Recomp, N64ModernRuntime, and RT64. The README calls it playable and stable: it boots through the Kemco logo, title screen, and attract loop into the menus and gameplay, verified on real hardware through stage 4 (including an alternate stage path), with correct music and sound effects; completing the campaign is still unverified. It includes high resolution, widescreen, full height, HUD relocation, high frame rate (experimental), gamepad and mouse-aim support. The releases (0.0.3, from August 3, the latest of 3) carry the recompiled code but no game data: a Linux tar.gz, a Windows zip, and a Flatpak. The README’s first words say that almost all of the code was written by language models (Claude), that nobody with relevant expertise has reviewed it, and that it makes no guarantees. 72 of its 74 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Knife Edge: Nose Gunner (USA), como .z64, .v64 o .n64; el README remite a un script que normaliza el orden de bytes y comprueba su MD5. Windows o Linux con Vulkan."
+  en: "Your own copy of Knife Edge: Nose Gunner (USA), as .z64, .v64, or .n64; the README points to a script that normalizes the byte order and checks its MD5. Windows or Linux with Vulkan."
+tags:
+  - mips
+  - action
+  - widescreen
+  - 60fps+
+  - ai-assisted

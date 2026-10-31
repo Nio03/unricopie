@@ -1,0 +1,18 @@
+name: "Burnout Revenge (fabioap-cpu)"
+games: [burnout-revenge]
+console: x360
+status: experimental
+repo: fabioap-cpu/Burnout-Revenge-Recomp
+originalDeveloper: "Criterion Games"
+year: 2005
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática experimental de la versión de Xbox 360 con ReXGlue, publicada como código fuente: trae los metadatos de recompilación, la configuración de compilación y una copia propia del SDK con las correcciones y el diagnóstico desarrollados para este juego, sin datos del juego, ni archivos del sistema de Xbox, ni ejecutables compilados. Según el README, en el Windows AMD64 probado arranca hasta la pantalla de título, guarda y carga y llega al menú principal, permite elegir rango y coche con renderizado 3D completo, carga una carrera y se conduce con la interfaz completa y se completó una sesión larga sin cierres, algo que el autor sitúa más allá de su alfa y cerca de la beta. Tiene fallos conocidos: no se dibuja el mundo 3D detrás de los menús ni de algunas pantallas de carga, y hay caídas de cuadros en algunas zonas del mapa. No tiene versiones publicadas. Sus 4 commits llevan todos a Claude como coautor."
+  en: "An experimental static recompilation of the Xbox 360 version with ReXGlue, published as source: it holds the recompilation metadata, build configuration and a vendored copy of the SDK with the fixes and diagnostics developed for this game, with no game data, Xbox system files or compiled executables. According to the README, on the tested Windows AMD64 system it boots to the title screen, saves and loads and reaches the main menu, lets you select a rank and a car with full 3D rendering, loads a race and drives with a complete HUD, and a full play session was completed without crashes, which the author places beyond their alpha gate and close to beta. Known issues: the 3D world isn’t drawn behind menus and some loading screens, and frame rate drops occur in some map areas. It has no published releases. All 4 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Burnout Revenge para Xbox 360 como árbol de archivos extraído, con default.xex. Windows AMD64, Git, CMake 3.25 o posterior, Ninja y Clang."
+  en: "Your own copy of Burnout Revenge for Xbox 360 as an extracted game tree, including default.xex. Windows AMD64, Git, CMake 3.25 or newer, Ninja and Clang."
+tags:
+  - powerpc
+  - racing
+  - ai-assisted

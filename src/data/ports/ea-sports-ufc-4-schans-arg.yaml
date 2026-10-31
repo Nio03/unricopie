@@ -1,0 +1,18 @@
+name: "EA Sports UFC 4 (schans-arg)"
+games: [ea-sports-ufc-4]
+category: native-layer
+console: ps4
+status: experimental
+repo: schans-arg/UFC4-PC-Port
+originalDeveloper: "EA Vancouver"
+year: 2020
+desc:
+  es: "Port experimental no oficial para Windows de la versión de PS4. Adapta el entorno de ejecución de código abierto de PS4 que usa el port de UFC 3: el código x86-64 original corre en el procesador y el sistema de la consola está reimplementado. Esta vista previa usa el renderizador binario de UFC3Native 0.1.5 más una extensión para UFC 4, y el README admite que falta reconstruir un renderizador independiente. Según el README, una pelea rápida llegó al KO y en Carrera se creó un personaje, se disputó un primer combate, se guardó, se recargó y se siguió entrenando; la 0.0.11 añade copias de seguridad automáticas de las partidas. Carrera completa, todos los luchadores y arenas, DLC y sesiones largas no están validados. La única versión publicada es la vista previa 0.0.11 (17 de octubre), con un zip de Windows de unos 21 MB y el código fuente. El README dice que no se incluyen el juego, actualizaciones, DLC, firmware, partidas ni recursos."
+  en: "An unofficial experimental Windows port of the PS4 version. It adapts the open-source PS4 runtime used by the UFC 3 PC port: the original x86-64 code runs on the CPU and the console’s system is reimplemented. This preview uses the UFC3Native 0.1.5 binary renderer plus a UFC 4 extension, and the README admits that an independent renderer rebuild is still pending. According to the README, a Fight Now match reached KO, and in Career a character was created, a first fight was played, and saving, reloading, and continuing training worked; 0.0.11 adds automatic save backups. Full Career, all fighters and arenas, DLC, and long sessions haven’t been validated. The only release is the 0.0.11 preview (October 17), with a Windows zip of about 21 MB and the source. The README says the game, updates, DLC, firmware, saves, and assets aren’t included."
+requirements:
+  es: "Tu propio volcado extraído de EA SPORTS UFC 4 para PS4: el perfil medido es CUSA14209 v28.00 (juego base y actualización combinados), y en el primer arranque eliges su eboot.bin. Además, Windows de 64 bits; Python y las dependencias de ejecución vienen incluidos."
+  en: "Your own extracted dump of EA SPORTS UFC 4 for PS4: the measured profile is CUSA14209 v28.00 (base game and update combined), and on first launch you pick its eboot.bin. Plus 64-bit Windows; Python and the runtime dependencies are included."
+tags:
+  - x86
+  - fighting
+  - sports

@@ -1,0 +1,16 @@
+name: "Carmageddon (OpenC1)"
+games: [carmageddon]
+category: fan-remake
+console: pc
+status: experimental
+repo: jeff-1amstudios/OpenC1
+originalDeveloper: "Stainless Software"
+year: 1997
+desc:
+  es: "OpenC1 es una reimplementación desde cero del motor de Carmageddon, escrita en C# con XNA 3.0 y NVIDIA PhysX para Windows. Lee los archivos de datos del juego original desde una carpeta GameData (con código para sus formatos de modelos, materiales y texturas) y, si no encuentra datos, en el primer arranque ofrece descargar los datos de las demos de Carmageddon (la de Carmageddon, la del SplatPack y la navideña del SplatPack) desde 1amstudios.com y los descomprime en GameData. Son las demos que se repartieron gratis cuando salió el juego, y el propio programa recuerda que su contenido es de Stainless Software. Así funciona con los datos de la demo que descarga o con una copia completa tuya. Su README solo lista los requisitos y las teclas, sin decir qué partes del juego funcionan. No tiene versiones publicadas, hay que compilarlo con Visual Studio 2008. La última actividad del repositorio es de diciembre de 2014 (un cambio de nombre del README)."
+  en: "OpenC1 is a from-scratch reimplementation of the Carmageddon engine, written in C# with XNA 3.0 and NVIDIA PhysX for Windows. It reads the original game’s data files from a GameData folder (with code for its model, material, and texture formats) and, if it finds no data, offers on first start to download the Carmageddon demo data (the Carmageddon demo, the SplatPack demo, and the SplatPack Christmas demo) from 1amstudios.com and unpacks it into GameData. These are the demos that were given away for free when the game came out, and the program itself notes that the content belongs to Stainless Software. So it works with the demo data it downloads or with your own full copy. Its README only lists requirements and keys, without saying which parts of the game work. It has no published releases and has to be built with Visual Studio 2008. The repository’s last activity was in December 2014 (a rename of the README)."
+requirements:
+  es: "Los datos de las demos de Carmageddon, que descarga él mismo en el primer arranque si no hay datos, o tu propia copia completa de Carmageddon en la carpeta GameData. Windows con el tiempo de ejecución de Microsoft C++, XNA 3.0 y el controlador de NVIDIA PhysX 9.10.0513, y Visual Studio 2008 para compilarlo. Su licencia pide no usarlo con datos sobre los que no tengas derechos."
+  en: "The Carmageddon demo data, which it downloads itself on first start if there is no data, or your own full copy of Carmageddon in the GameData folder. Windows with the Microsoft C++ runtime, XNA 3.0, and the NVIDIA PhysX 9.10.0513 driver, and Visual Studio 2008 to build it. Its license asks you not to use it with data you have no rights to."
+tags:
+  - racing

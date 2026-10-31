@@ -1,0 +1,21 @@
+name: "Dragon Ball Z: Budokai Tenkaichi 3 Tag Team Mod"
+games: [dragon-ball-z-budokai-tenkaichi-3]
+kind: mod
+console: ps2
+game:
+  es: "Dragon Ball Z: Budokai Tenkaichi 3 (y el mod BT4)"
+  en: "Dragon Ball Z: Budokai Tenkaichi 3 (and the BT4 mod)"
+base: ports/dragon-ball-z-budokai-tenkaichi-3
+status: beta
+repo: tehmufti/Budokai-Tenkaichi-3-Tag-Team-Mod-PC_Recomp-
+desc:
+  es: "Mod de combates por equipos para la versión nativa de Budokai Tenkaichi 3 de PC, Tenkaichi3Decomp (de z3xox), con soporte de BT3 y BT4, pantalla partida local y salas en línea directas. Permite hasta diez luchadores a la vez en el campo: batallas por equipos de hasta cinco, todos contra todos, entrenamiento con mods, Gauntlet y World Tournament, a los que se llega con Select en el menú principal; también hay equipos desiguales, partidas solo de CPU, dificultad de CPU por luchador, pantalla partida de dos a cuatro jugadores, resurrecciones, relevo del compañero, fusiones temporales y permanentes, mapas ampliados y cámaras cinemáticas configurables. Las salas en línea persistentes admiten hasta diez personas y son conexiones directas a la IP del anfitrión, sin servidor de emparejamiento. Hay instalador y actualizador para Windows y Linux, y los menús están en inglés y español. La beta 3 (29 de octubre) es la última; según su README funciona sin PCSX2 y el instalador importa los datos del juego de tu .iso. Sus modificaciones son AGPL-3.0."
+  en: "A team-battle mod for the native PC version of Budokai Tenkaichi 3, Tenkaichi3Decomp (by z3xox), with BT3 and BT4 support, local split-screen, and direct online rooms. It allows up to ten fighters on the field at once: team battles of up to five per side, free for all, modded training, Gauntlet, and World Tournament, reached with Select in the main menu; there are also uneven teams, CPU-only matches, per-fighter CPU difficulty, two- to four-player split-screen, revivals, teammate takeover, temporary and permanent fusions, expanded maps, and configurable cinematic cameras. Persistent online rooms take up to ten people and are direct connections to the host’s IP, with no matchmaking server. There is an installer and an updater for Windows and Linux, and the menus are in English and Spanish. Beta 3 (October 29) is the latest; according to its README it runs without PCSX2 and the installer imports the game data from your .iso. Its modifications are AGPL-3.0."
+requirements:
+  es: "Tu propia imagen .iso de Budokai Tenkaichi 3: la de EE. UU. (SLUS-21678), la de Europa y Australia (SLES-54945) o la de Japón (SLPS-25815), o la del mod BT4 B14 REV2 en inglés o español; el instalador importa los datos del disco y otras ediciones no valen aunque se renombren. Windows o Linux x86-64 (con glibc 2.35 o posterior y un controlador Vulkan en Linux); el instalador incluye Python."
+  en: "Your own Budokai Tenkaichi 3 .iso image: the US (SLUS-21678), Europe and Australia (SLES-54945), or Japan (SLPS-25815) one, or the BT4 B14 REV2 mod in English or Spanish; the installer imports the disc’s data and other editions don’t work even if renamed. Windows or x86-64 Linux (with glibc 2.35 or newer and a Vulkan driver on Linux); the installer includes Python."
+tags:
+  - mods
+  - fighting
+  - multiplayer
+  - online

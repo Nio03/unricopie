@@ -1,0 +1,18 @@
+name: "Genma Onimusha (rafaelkenedy)"
+games: [genma-onimusha]
+console: xbox
+status: playable
+repo: rafaelkenedy/genma-recomp
+originalDeveloper: "Capcom"
+year: 2002
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial a Windows, con soporte nativo experimental en Linux, de la versión de la Xbox original de Genma Onimusha, hecho recompilando de forma estática el ejecutable del juego a C++ con Xbox XBE Recomp. En el primer arranque pide tu copia (imagen de disco o default.xbe) y recompila y compila el juego con el compilador que trae el zip, en cosa de un minuto en una CPU de 8 hilos. Tiene un menú de ajustes (F1) con modo de pantalla, resolución, recorte del marco de sobreexploración, escala de render, filtro anisótropo, límite de FPS, controles modernos con el stick relativo a la cámara y texturas HD opcionales; en Linux faltan de momento el menú y las texturas HD. El paquete de texturas HD es una descarga aparte, alojada en archive.org (unos 9,9 GB): una conversión del pack de texturas «4K Texture Pack AI-Enhanced» de Evgeshajk para Onimusha: Warlords. La última versión es la 0.6.1 (30 de octubre), con zips de Windows de unos 81 MB y un paquete de Linux de unos 198 MB. Sus 61 commits no llevan a Claude como coautor."
+  en: "An unofficial native Windows port, with experimental native Linux support, of the original Xbox version of Genma Onimusha, made by statically recompiling the game’s executable to C++ with Xbox XBE Recomp. On first start it asks for your copy (disc image or default.xbe) and recompiles and compiles the game with the compiler the zip carries, in about a minute on an 8-thread CPU. It has a settings menu (F1) with display mode, resolution, overscan frame cut, render scale, anisotropic filtering, FPS cap, modern controls with the stick relative to the camera, and optional HD textures; on Linux the menu and the HD textures aren’t available yet. The HD texture pack is a separate download, hosted on archive.org (about 9.9 GB): a conversion of Evgeshajk’s “4K Texture Pack AI-Enhanced” for Onimusha: Warlords. The latest version is 0.6.1 (October 30), with Windows zips of about 81 MB and a Linux package of about 198 MB. None of its 61 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Genma Onimusha para Xbox, de EE. UU. (default.xbe de SHA-1 08bfe432eb55877b5af2dd401b713743c5b751cd, redump), como imagen .iso, imagen redump o XISO, o un default.xbe en una carpeta con los archivos del juego; otras ediciones reciben un aviso. Windows 10 u 11 de 64 bits, o Linux x86-64 (experimental); se juega con mando."
+  en: "Your own copy of Genma Onimusha for Xbox, from the US release (default.xbe of SHA-1 08bfe432eb55877b5af2dd401b713743c5b751cd, redump), as an .iso, a redump image, or an XISO, or a default.xbe in a folder with the game’s files; other releases get a warning. 64-bit Windows 10 or 11, or x86-64 Linux (experimental); played with a controller."
+tags:
+  - x86
+  - action
+  - hd-assets

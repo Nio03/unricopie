@@ -1,0 +1,13 @@
+name: "Destruction Derby 64"
+games: [destruction-derby-64]
+console: n64
+repo: murkantor/Destruction-Decomp-64
+desc:
+  es: "Decompilación exacta de Destruction Derby 64 (USA): la compilación reconstruye una ROM idéntica byte a byte a la original. Según el README, 1.510 de las 1.548 funciones (el 99 % del código por tamaño) están en C y las otras 38 son ensamblador escrito a mano que ya lo era en el original (libultra, caché, TLB, hilos y ayudas de libgcc). Usa splat, el compilador KMC GCC 2.7.2 con el que se hizo el juego, m2c y decomp-permuter; los archivos fuera de src/auto están limpios, con nombres y tipos reales, y src/auto guarda C generado con m2c que aún usa tipos provisionales. El README cuenta que lo hizo casi sin intervención humana Claude Opus 5.5 en unas 20 horas, como experimento y sin revisar el código, y que con él llegó a ponerlo en marcha en una ventana SDL3, jugable y con algunos errores gráficos. Hay que aportar tu propia ROM (SHA-1 a2c0799e13566d1b723299592cfcac9387f25fa7) como baserom.z64; el repositorio no la incluye. Las dos versiones publicadas (20 y 21 de octubre) son archivos 7z de unos 3 MB para Linux y Windows que no hemos revisado por dentro."
+  en: "A matching decompilation of Destruction Derby 64 (USA): the build turns the code back into a ROM that is byte for byte identical to the original. According to the README, 1,510 of the 1,548 functions (99% of the code by size) are in C and the other 38 are hand-written assembly that was assembly in the original too (libultra, cache, TLB, thread routines, and libgcc helpers). It uses splat, the KMC GCC 2.7.2 compiler the game was built with, m2c, and decomp-permuter; the files outside src/auto are cleaned up, with real names and types, and src/auto holds m2c-generated C that still uses placeholder types. The README says it was done almost hands-off by Claude Opus 5.5 in about 20 hours, as an experiment and without reviewing the code, and that it got the game booting in an SDL3 window, playable with some graphics errors. You need your own ROM (SHA-1 a2c0799e13566d1b723299592cfcac9387f25fa7) as baserom.z64; the repository doesn’t include it. The two published releases (October 20 and 21) are 7z archives of about 3 MB for Linux and Windows that we haven’t checked inside."
+tags:
+  - mips
+  - matching
+  - reverse-engineering
+  - racing
+  - ai-assisted

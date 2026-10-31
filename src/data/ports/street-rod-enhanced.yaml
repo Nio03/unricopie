@@ -1,0 +1,18 @@
+name: "Street Rod (Enhanced)"
+games: [street-rod]
+category: game-engine
+console: dos
+status: playable
+repo: kylofon/streetrod-enhanced
+originalDeveloper: "P.Z.Karen Co. Development Group"
+year: 1989
+desc:
+  es: "Versión mejorada del port nativo de Street Rod para Windows, con SDL3, sin emulador y sin los archivos del juego. Añade una vista de carretera fluida en las carreras y en los trayectos por la ciudad, a la frecuencia de tu pantalla, alta resolución de hasta 2560 × 1600 con suavizado de bordes, volúmenes separados de música y efectos, los 25 coches de la ampliación Street Rod SE y un lanzador con opciones de coches, interruptores, imagen y sonido; con --classic se obtiene solo la imagen original. El resto del juego es el original: garaje, rivales, física, policía y pantallas. Una sola CPU dibuja la vista de carretera, unos 8,5 ms por cuadro con los valores por defecto. La 0.2.0 (30 de septiembre) es la última de dos versiones, de unos 11 MB. Todos sus 12 commits llevan a Claude como coautor."
+  en: "An enhanced version of the native Street Rod port for Windows, with SDL3, no emulator, and no game files. It adds a smooth road view in races and drives through town at your display’s refresh rate, high resolution up to 2560 × 1600 with anti-aliasing, separate music and sound effects volumes, the 25 cars of the Street Rod SE data disk, and a launcher with options for cars, switches, picture, and sound; --classic gives only the original picture. The rest of the game is the original: garage, opponents, physics, police, and screens. One CPU core draws the road view, about 8.5 ms a frame at the defaults. Version 0.2.0 (September 30) is the latest of two releases, about 11 MB. All 12 of its commits list Claude as a co-author."
+requirements:
+  es: "Los archivos de tu copia del Street Rod original de DOS (SR.EXE o SRSE.EXE, LIB1, LIB2 y HOT_DATA) en una carpeta Game, con los coches de la ampliación Street Rod SE en Game\\datadisk si los quieres. El README señala que el juego es gratuito, de su propietario del copyright, en streetrodonline.com. La carpeta debe poder escribirse. Windows."
+  en: "The files of your copy of the original DOS Street Rod (SR.EXE or SRSE.EXE, LIB1, LIB2, and HOT_DATA) in a Game folder, with the Street Rod SE expansion cars in Game\\datadisk if you want them. The README notes the game is free from its copyright owner at streetrodonline.com. The folder must be writable. Windows."
+tags:
+  - x86
+  - racing
+  - ai-assisted

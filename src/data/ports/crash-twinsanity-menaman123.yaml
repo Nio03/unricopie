@@ -1,0 +1,20 @@
+name: "Crash Twinsanity (menaman123)"
+games: [crash-twinsanity]
+category: decomp-port
+console: ps2
+status: playable
+repo: menaman123/TwinsanityEvolved
+originalDeveloper: "Traveller’s Tales"
+year: 2004
+desc:
+  es: "Port nativo de Crash Twinsanity para Windows, macOS, Linux y PS Vita: la decompilación twinsanity-reversed (de Smartkin), en la carpeta game/, ejecutándose sobre el motor NativeEE de la carpeta engine/. El juego se compila a wasm32 y se pasa a C con wasm2c, con su memoria lineal como la memoria principal de 32 MB del motor. Un lanzador instala el juego terminado desde las releases en una sola carpeta con la configuración, las tarjetas de memoria y los mods; admite mods empaquetados como Mod Crates, discos parcheados y parches xdelta, PPF y BPS, el texto y las voces se eligen por separado y el texto puede leerse en árabe. Va a 60 fotogramas por segundo por defecto, o a 50 Hz como la consola PAL. La 0.9.1 (30 de octubre) permite saltar con X las cinemáticas del juego. Cada zip de las releases pasa un análisis (tools/ci/asset_scan.py) que falla si lleva archivos del disco."
+  en: "A native port of Crash Twinsanity for Windows, macOS, Linux, and PS Vita: the twinsanity-reversed decompilation (by Smartkin), in the game/ folder, running on the NativeEE engine in the engine/ folder. The game is compiled to wasm32 and lowered to C with wasm2c, with its linear memory as the engine’s 32 MB main memory. A launcher installs the finished game from the releases into a single folder holding the settings, memory cards, and mods; it supports mods packaged as Mod Crates, patched disc images, and xdelta, PPF, and BPS patches, text and speech are separate settings, and the text can be read in Arabic. It runs at 60 frames per second by default, or at 50 Hz like the PAL console. Version 0.9.1 (October 30) lets you skip the game’s cutscenes with X. Every release zip passes a scan (tools/ci/asset_scan.py) that fails on any disc file."
+requirements:
+  es: "Tu propia imagen .iso de Crash Twinsanity para PS2: la europea (PAL, SLES-52568) o la estadounidense (SLUS-20909 v2.00); el programa reconoce el disco por su contenido, comparándolo con los volcados originales conocidos. Windows 10 u 11 de 64 bits, macOS (Apple Silicon o Intel), Linux (x86-64 o aarch64) o PS Vita."
+  en: "Your own Crash Twinsanity .iso image for PS2: the European (PAL, SLES-52568) or US (SLUS-20909 v2.00) disc; the program recognizes the disc by its content, comparing it against the known dumps of the original discs. 64-bit Windows 10 or 11, macOS (Apple Silicon or Intel), Linux (x86-64 or aarch64), or PS Vita."
+tags:
+  - emotion-engine
+  - platformer
+  - mods
+  - "60fps+"
+  - build-vita

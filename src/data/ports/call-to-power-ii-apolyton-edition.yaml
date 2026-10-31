@@ -1,0 +1,18 @@
+name: "Call to Power II (Apolyton Edition)"
+games: [call-to-power-ii]
+category: source-port
+console: pc
+status: playable
+repo: civctp2/civctp2
+originalDeveloper: "Activision"
+year: 2000
+desc:
+  es: "Edición de la comunidad de Apolyton del código fuente de Call to Power II que publicó Activision (la versión sin el parche), importado de SVN a Git. El código perdió sus comentarios, pero según el README está completo en lo que Activision publicó; se hizo con Visual Studio 6.0 y se ha modificado para que compile con versiones posteriores. Se compila en Windows y en Linux (i386 y x86_64, y también Ubuntu, Pandora y Pyra) como programa de 32 o 64 bits con SDL2, y en Windows quedan versiones antiguas con DirectX para comparar. El repositorio incluye código, datos (ctp2_data) y escenarios que acompañaban a esa publicación, pero no los archivos del juego de la edición comercial. Su última versión, del 20 de enero de 2025, ofrece instaladores para Windows (un zip) y Linux (un .deb); la versión de Linux no admite el CD, así que la música y los vídeos se instalan aparte. 64 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "The Apolyton community edition of the Call to Power II source code that Activision published (the version without the patch), imported from SVN into Git. The code lost its comments, but according to the README it is complete as far as Activision’s code goes; it was built with Visual Studio 6.0 and has been modified to build with later versions. It builds on Windows and Linux (i386 and x86_64, and also Ubuntu, Pandora, and Pyra) as a 32- or 64-bit program with SDL2, and legacy DirectX builds remain on Windows for comparison. The repository includes the code, data (ctp2_data), and scenarios that came with that publication, but not the commercial release’s game files. Its latest release, from January 20, 2025, offers installers for Windows (a zip) and Linux (a .deb); the Linux version doesn’t support the CD, so the music and videos are installed separately. 64 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Call to Power II, de CD o de GOG: de los archivos civmain.ctp y civlang.ctp del CD (son zips) o de la carpeta app del instalador de GOG se copian los archivos que faltan sobre el repositorio o el juego instalado, sin reemplazar los existentes. La música y los vídeos de la edición de CD hay que instalarlos aparte en Linux. Además, Windows o Linux."
+  en: "Your own copy of Call to Power II, from CD or GOG: from the CD’s civmain.ctp and civlang.ctp files (which are zips) or the app folder of the GOG installer you copy the missing files over the repository or the installed game, without replacing existing ones. On Linux, the CD edition’s music and videos have to be installed separately. Plus Windows or Linux."
+tags:
+  - x86
+  - rts
+  - ai-assisted

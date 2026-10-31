@@ -1,0 +1,18 @@
+name: "Soldier of Fortune (openMERC)"
+games: [soldier-of-fortune]
+category: game-engine
+console: pc
+status: playable
+repo: sidreshot/openMERC
+originalDeveloper: "Raven Software"
+year: 2000
+desc:
+  es: "Motor de código abierto (GPL v2) para Soldier of Fortune (Raven Software, 2000), escrito por el método «clean-room» sobre Yamagi Quake II, que ejecuta los datos del juego original con cualquier resolución, HUD y menús panorámicos, un renderizador OpenGL 3.2 con efectos opcionales y sonido con OpenAL. Se puede jugar de dos maneras: el modo A usa el motor con los gamex86.dll y player.dll originales de tu instalación (la campaña más completa) y el modo B usa módulos de juego y de jugador propios, que cargan los 32 mapas de la campaña pero tienen la IA y algunas secuencias sin terminar. Los servidores y clientes 1.07f originales no son compatibles. El README lo da como trabajo en curso. La 0.2.2 (27 de octubre) publica zips para Windows de 32 bits y para Linux x86_64 (solo con los módulos propios)."
+  en: "An open-source (GPL v2) engine for Soldier of Fortune (Raven Software, 2000), written clean-room on top of Yamagi Quake II, that runs the original game’s data at any resolution, with widescreen HUD and menus, an OpenGL 3.2 renderer with optional effects, and OpenAL sound. It can be played in two ways: mode A uses the engine with the original gamex86.dll and player.dll from your installation (the most complete campaign), and mode B uses its own game and player modules, which load all 32 campaign maps but have unfinished AI and some unfinished sequences. Original 1.07f servers and clients are not compatible. The README calls it a work in progress. Version 0.2.2 (October 27) publishes zips for 32-bit Windows and for Linux x86_64 (with its own modules only)."
+requirements:
+  es: "Tu propia copia de Soldier of Fortune (la de GOG o un CD retail actualizado a la 1.07f): openMERC lee los .pak de tu instalación, la que contiene base\\pak0.pak, y no escribe en ella. Windows (motor de 32 bits en Windows 10 u 11 de 64 bits) o Linux x86_64."
+  en: "Your own copy of Soldier of Fortune (the GOG release or a retail CD updated to 1.07f): openMERC reads the .pak files from your installation, the one holding base\\pak0.pak, and never writes to it. Windows (a 32-bit engine on 64-bit Windows 10 or 11) or Linux x86_64."
+tags:
+  - fps
+  - widescreen
+  - multiplayer

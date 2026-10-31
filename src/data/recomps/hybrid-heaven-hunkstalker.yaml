@@ -1,0 +1,19 @@
+name: "Hybrid Heaven (hunkstalker)"
+games: [hybrid-heaven]
+console: n64
+status: experimental
+repo: hunkstalker/hybrid-heaven-recomp
+originalDeveloper: "Konami"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Port nativo a PC de Hybrid Heaven por recompilación estática con N64Recomp, RT64 y N64ModernRuntime, para Windows, Linux y Steam Deck. El README, en español, lo presenta como proyecto en fase temprana, con builds de prueba que pueden romper partidas guardadas. Tiene el microcódigo gráfico F3DEX2 y el audio aspMain recompilado, alta tasa de refresco por interpolación de los 30 Hz del juego (la lógica sigue a 30), pantalla ancha con HUD y minimapa anclados a los bordes, teclado y mando con reasignación y vibración, un sistema de guardado propio con 45 ranuras en un único .pak, un menú de PC con idioma (EN, ES, CA, FR, DE, JA), ajustes de gráficos y sonido y extras como un editor de partida, ir a un área y niveles de depuración, y un descompresor LZKN64 nativo. El modo versus aún no está disponible. La 0.7.3 (5 de octubre) es la última de 16 versiones, con un zip para Windows (unos 20 MB) y un tar.gz para Linux (unos 12 MB)."
+  en: "A native PC port of Hybrid Heaven by static recompilation with N64Recomp, RT64, and N64ModernRuntime, for Windows, Linux, and the Steam Deck. The README, in Spanish, presents it as an early-stage project, with test builds that can break saved games. It has the F3DEX2 graphics microcode and the recompiled aspMain audio, high refresh rate by interpolating the game’s 30 Hz frames (the logic stays at 30), widescreen with the HUD and minimap anchored to the edges, keyboard and controller with remapping and rumble, its own save system with 45 slots in a single .pak, a PC menu with a language choice (EN, ES, CA, FR, DE, JA), graphics and sound settings and extras such as a save editor, go-to-area, and debug levels, and a native LZKN64 decompressor. Versus mode is not available yet. Version 0.7.3 (October 5) is the latest of 16 releases, with a Windows zip (about 20 MB) and a Linux tar.gz (about 12 MB)."
+requirements:
+  es: "Tu propia ROM de Hybrid Heaven USA (NHVE, 16 MB, big-endian sin byteswap, SHA-1 16dbc21620b52deab5c5abf8a309ac60adfbee85), copiada en la carpeta rom junto al ejecutable; vale cualquier archivo .z64, que se detecta por su formato. Windows o Linux."
+  en: "Your own Hybrid Heaven USA ROM (NHVE, 16 MB, big-endian without byteswap, SHA-1 16dbc21620b52deab5c5abf8a309ac60adfbee85), placed in the rom folder next to the executable; any .z64 file works, as it is detected by format. Windows or Linux."
+tags:
+  - mips
+  - action
+  - widescreen
+  - 60fps+

@@ -1,0 +1,24 @@
+name: "Monster Hunter 4 Ultimate"
+games: [monster-hunter-4-ultimate]
+console: 3ds
+status: playable
+repo: CompaLarios18/MH4UltimateDC
+originalDeveloper: "Capcom"
+year: 2015
+desc:
+  es: "Port nativo no oficial de la versión estadounidense 1.3.0 de Monster Hunter 4 Ultimate (3DS). Un recompilador estático propio traduce a C, en tu equipo y a partir de tu volcado, las unas 40.000 funciones del juego (3,2 millones de instrucciones ARM y Thumb), y ese código hace de CPU dentro del núcleo 3DS de Azahar, que aporta el resto de la consola (servicios, GPU, audio y salas de red). El port tiene su propia aplicación, mh4u, para Windows, Linux y macOS (la de macOS, según su guía, sin probar en un Mac), además de la app de Azahar para Android en arm64. La aldea, las misiones y las cacerías funcionan a 60 y 120 fps con sonido, con pantalla ancha real (16:9, 21:9 y 32:9), pantalla táctil como superposición, multijugador local de dos a cuatro por salas de red, servidores propios, un gestor de mods y un pack de texturas HD. La última versión, la 0.1.4, es del 24 de octubre. 89 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial native port of the US version 1.3.0 of Monster Hunter 4 Ultimate (3DS). The project’s own static recompiler translates the game’s roughly 40,000 functions (3.2 million ARM and Thumb instructions) into C on your PC from your own dump, and that code runs as the CPU inside Azahar’s 3DS core, which supplies the rest of the console (services, GPU, audio, and network rooms). The port has its own app, mh4u, for Windows, Linux, and macOS (the macOS one, according to its guide, not yet tried on a Mac), plus Azahar’s Android app on arm64. The village, quests, and hunts run at 60 and 120 fps with sound, with true widescreen (16:9, 21:9, and 32:9), the touch screen as an overlay, local multiplayer for two to four players over network rooms, servers of its own, a mod manager, and an HD texture pack. The latest release, 0.1.4, is from October 24. 89 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado descifrado del juego (EE. UU.) como .3ds (o .cci o .cxi) y el de la actualización 1.3.0 como .cia, de la que se genera el código; ambos se sacan de tu consola con GodMode9. Además, Windows 10 u 11 de 64 bits (con Smart App Control desactivado), Linux x64 o un Mac con Apple Silicon, y Python 3.10 o posterior."
+  en: "Your own decrypted dump of the game (USA) as a .3ds (or .cci or .cxi) and of the 1.3.0 update as a .cia, from which the code is generated; both are dumped from your console with GodMode9. Plus 64-bit Windows 10 or 11 (with Smart App Control off), x64 Linux or an Apple Silicon Mac, and Python 3.10 or later."
+tags:
+  - arm
+  - action
+  - 60fps+
+  - widescreen
+  - multiplayer
+  - online
+  - mods
+  - static-recomp
+  - build-android
+  - ai-assisted

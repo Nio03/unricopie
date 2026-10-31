@@ -1,0 +1,19 @@
+name: "Tekken 3 (OpenKumite)"
+games: [tekken-3]
+category: game-engine
+console: ps1
+status: playable
+repo: openkumite/openkumite
+originalDeveloper: "Namco"
+year: 1998
+desc:
+  es: "OpenKumite es un motor de juegos de lucha en Rust que reproduce 1:1 los datos convertidos de un juego, como hace el original. Su repositorio no trae datos del juego: los produce una sola vez kumite_converter, un proyecto aparte que, según su propio README, convierte el Tekken 3 estadounidense de PlayStation (SLUS-00402) a formatos estándar (glTF 2.0, PNG, JSON, WAV/FLAC y AVI). Funciona de forma nativa (wgpu y winit) y en el navegador (WebAssembly), con partidas locales de dos jugadores y juego en línea con rollback. Los modos son Arcade, VS, Team Battle, Time Attack, Survival, Force, Practice y Watch CPU, más Tag Brawl y Online propios de OpenKumite, y cada partida se guarda como repetición. Hay versiones para Windows (x86-64 y ARM64), Linux, macOS y Android, con paquetes para varias distribuciones; la 0.1.2 (27 de octubre) es la última."
+  en: "OpenKumite is a fighting game engine in Rust that plays a game’s converted data 1:1, as the original does. Its repository holds no game data: it is produced once by kumite_converter, a separate project that, according to its own README, converts the US PlayStation Tekken 3 (SLUS-00402) into standard formats (glTF 2.0, PNG, JSON, WAV/FLAC, and AVI). It runs natively (wgpu and winit) and in the browser (WebAssembly), with local two-player matches and online rollback play. The modes are Arcade, VS, Team Battle, Time Attack, Survival, Force, Practice, and Watch CPU, plus OpenKumite’s own Tag Brawl and Online, and every match is saved as a replay. There are builds for Windows (x86-64 and ARM64), Linux, macOS, and Android, with packages for several distributions; version 0.1.2 (October 27) is the latest."
+requirements:
+  es: "Tu propia copia del Tekken 3 estadounidense de PlayStation (SLUS-00402) como .bin de la pista 1 (una .iso de 2048 bytes por sector no sirve), convertida con kumite_converter; en Android, la conversión se copia al almacenamiento de la aplicación y ocupa unos 3 GB. Opcionalmente, tu Tekken 2 (EE. UU. v1.1) y tu Counter-Strike para añadir sus luchadores y niveles. Windows, Linux, macOS o Android, con una tarjeta gráfica compatible con wgpu."
+  en: "Your own copy of the US PlayStation Tekken 3 (SLUS-00402) as the track 1 .bin (a 2048-byte-per-sector .iso won’t work), converted with kumite_converter; on Android the conversion is copied into the app’s storage and takes about 3 GB. Optionally, your Tekken 2 (USA v1.1) and your Counter-Strike to add their fighters and levels. Windows, Linux, macOS, or Android, with a wgpu-compatible graphics card."
+tags:
+  - fighting
+  - netplay
+  - build-android
+  - build-web

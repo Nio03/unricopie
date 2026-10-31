@@ -1,0 +1,19 @@
+name: "Quake 4 (Xbox 360)"
+games: [quake-4]
+console: x360
+status: experimental
+repo: cyberheater/Xbox-360-Quake4-decomp
+originalDeveloper: "Raven Software"
+year: 2005
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 para Windows, hecha sobre ReXGlue SDK. El autor la empezó para tener una versión fluida con el mando y la puntería asistida de la consola (el original iba a una tasa de cuadros entre 10 y 60). Arranca directamente al título, y los menús, las películas de introducción y el primer nivel funcionan, a 60 cuadros por segundo fijos, con un menú de ajustes (F10) y un contador de cuadros (F9). La v0.2.0 (22 de octubre) añade un renderizador nativo Direct3D 11, un q4hle.exe, un reloj de juego a 120 Hz, una página de gráficos en el menú del propio juego con resolución hasta 5120x2880, FXAA, filtro de textura y 3D estereoscópico lado a lado, y un filtro CRT. El propio autor dice que solo ha probado los primeros niveles y que son de esperar cierres más adelante; hay también un runtime anterior hecho a mano, solo como fuente. No incluye código recompilado, el ejecutable ni datos del juego; la descarga es un instalador de 0,4 MB que prepara el proyecto. Declara que se hizo con ayuda de Claude; sus 11 commits lo listan como coautor."
+  en: "A static recompilation of the Xbox 360 version for Windows, built on the ReXGlue SDK. The author started it to get a smooth version with the console’s joypad support and auto aim (the original ran at a frame rate between 10 and 60). It boots straight to the title screen, and menus, intro movies and the first level run, at a locked 60 fps, with a settings menu (F10) and a frame counter (F9). v0.2.0 (October 22) adds a native Direct3D 11 renderer, a q4hle.exe, a 120 Hz game tick, a graphics page in the game’s own options menu with resolution up to 5120x2880, FXAA, texture filtering and side-by-side stereoscopic 3D, and a CRT filter. The author says only the first levels have been tested and that crashes are to be expected further in; an earlier hand-written runtime is also kept, as source only. It contains no recompiled code, executable or game data; the download is a 0.4 MB installer that sets the project up. It states it was made with the help of Claude; all 11 of its commits list it as a co-author."
+requirements:
+  es: "Tu propia copia de Quake 4 para Xbox 360 (el disco o su ISO): el juego lee la ISO directamente o una carpeta extraída, y si no encuentra el juego te pide su ubicación. Windows con Visual Studio 2022 (cargas de C++, herramientas de Clang y CMake) y Git para la preparación; las rutas están por ahora fijadas a C:\\Quake4."
+  en: "Your own copy of Quake 4 for Xbox 360 (the disc or its ISO): the game reads the ISO directly or an extracted folder, and asks where it is if it can’t find it. Windows with Visual Studio 2022 (C++, Clang tools and CMake workloads) and Git for the setup; paths are currently hard-coded to C:\\Quake4."
+tags:
+  - powerpc
+  - fps
+  - 60fps+
+  - ai-assisted

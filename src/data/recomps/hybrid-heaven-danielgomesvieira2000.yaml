@@ -1,0 +1,20 @@
+name: "Hybrid Heaven (danielgomesvieira2000)"
+games: [hybrid-heaven]
+console: n64
+status: experimental
+repo: danielgomesvieira2000/hybrid-heaven-recomp
+originalDeveloper: "Konami"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para Windows y Linux de Hybrid Heaven hecho por recompilación estática con N64Recomp, no oficial. El README avisa de que la 0.2.0, «First battles» (19 de septiembre), es temprana y está sin probar: solo se ha jugado el principio, hasta los primeros combates. Ofrece pantalla ancha al aspecto de la ventana sin el borde de overscan, HUD anclado a los bordes (por ahora el radar), un lanzador con ajustes de gráficos, sonido y controles, reasignación de teclas y mods, teclado y mando para 1 o 2 jugadores, Controller Pak y Rumble Pak en el mismo mando y un menú de depuración (F1) con un editor del HUD en vivo; la alta tasa de cuadros está solo planeada. El lanzador y las herramientas vienen del Wave Race 64: Recompiled del mismo autor. El README dice que el proyecto se hizo con Claude Code, dirigido y probado por su autor, y los 27 commits del repositorio llevan a Claude como coautor."
+  en: "An unofficial native Windows and Linux port of Hybrid Heaven made by static recompilation with N64Recomp. The README warns that 0.2.0, “First battles” (September 19), is early and untested: only the start of the game has been played, up to the first battles. It offers widescreen at the window’s aspect ratio with the overscan border removed, HUD elements anchored to the screen edges (the radar so far), a launcher with graphics, sound, and controls settings, key remapping, and mod support, keyboard and controller support for 1 to 2 players, Controller Pak and Rumble Pak on the same controller, and an F1 debug menu with a live HUD editor; high frame rate is only planned. The launcher and tooling come from the same author’s Wave Race 64: Recompiled. The README says the project was built with Claude Code, directed and tested by its author, and all 27 commits in the repository list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Hybrid Heaven (USA) (SHA-1 16dbc21620b52deab5c5abf8a309ac60adfbee85), como .z64, .n64, .v64 o un ZIP; no sirve ninguna otra versión. Windows o Linux."
+  en: "Your own copy of Hybrid Heaven (USA) (SHA-1 16dbc21620b52deab5c5abf8a309ac60adfbee85), as .z64, .n64, .v64, or a ZIP; no other version works. Windows or Linux."
+tags:
+  - mips
+  - action
+  - widescreen
+  - mods
+  - ai-assisted

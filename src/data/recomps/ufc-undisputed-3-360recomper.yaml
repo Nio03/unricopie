@@ -1,0 +1,21 @@
+name: "UFC Undisputed 3 (360recomper)"
+games: [ufc-undisputed-3]
+console: x360
+status: playable
+repo: 360recomper/UFC3ReX
+originalDeveloper: "Yuke’s"
+year: 2012
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de UFC Undisputed 3, hecho con ReXGlue SDK: el código del juego se traduce a código nativo y no es un emulador. Se ejecuta a la resolución que quieras, con Vulkan (por defecto) o Direct3D 12, un menú F4 de ajustes, desactivación opcional del bloom y del desenfoque de profundidad, escenas, entradas de luchadores y repeticiones a 60 cuadros por segundo, contenido descargable de tus propios paquetes, una carpeta de mods, una plantilla de hasta 1.024 luchadores para mods de plantilla, música de entrada opcional por luchador, un complemento opcional de DLSS 5 y trucos opcionales apagados por defecto. El README dice que el modo Carrera se puede jugar de principio a fin. El README aclara que ufc3.exe es el código del propio juego traducido a código nativo: la release (v1.0.6, 26 de octubre, un zip de unos 100 MB) lo trae ya compilado, sin imágenes de disco ni datos del juego; el lanzador copia los archivos de tu ISO a una carpeta assets. 4 de sus 8 commits llevan a Claude como coautor."
+  en: "A native Windows port of UFC Undisputed 3 made with the ReXGlue SDK: the game’s code is translated to native code and it is not an emulator. It runs at any resolution, with Vulkan (default) or Direct3D 12, an F4 settings menu, optional bloom and depth-of-field blur removal, 60 fps cutscenes, walkouts and replays, DLC from your own packages, a mods folder, a roster table of up to 1,024 fighters for roster mods, optional per-fighter walkout music, an optional DLSS 5 add-on, and optional cheats that are off by default. The README says Career mode can be played start to finish. It also states that ufc3.exe is the game’s own code translated to native code: the release (v1.0.6, October 26, a zip of about 100 MB) ships it already built, with no disc images or game data; the launcher copies the files from your ISO into an assets folder. 4 of its 8 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de UFC Undisputed 3 para Xbox 360 como imagen de disco (.iso); el contenido descargable es opcional y sale de tus propios paquetes. El lanzador comprueba la imagen y copia los archivos del juego (unos 6,5 GB) a la carpeta assets. Windows 10 u 11 de 64 bits."
+  en: "Your own copy of UFC Undisputed 3 for Xbox 360 as a disc image (.iso); DLC is optional and comes from your own packages. The launcher checks the image and copies the game files (about 6.5 GB) into the assets folder. 64-bit Windows 10 or 11."
+tags:
+  - powerpc
+  - sports
+  - fighting
+  - mods
+  - vulkan
+  - ai-assisted

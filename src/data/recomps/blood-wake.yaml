@@ -1,0 +1,20 @@
+name: "Blood Wake"
+games: [blood-wake]
+console: xbox
+status: fully
+repo: minimalice92/bloodwake-recomp
+originalDeveloper: "Stormfront Studios"
+year: 2001
+toolchain: xboxrecomp
+desc:
+  es: "Blood Wake (Xbox, 2001) como juego nativo de Windows: una recompilación estática que se construye a partir de tu propio disco. El programa del juego se traduce a C con el kit xboxrecomp y lo compila Visual Studio; el entorno de ejecución del kit hace de sistema, memoria, chip de sonido y mandos de la Xbox, y este port aporta un motor gráfico de Direct3D 11. Según el README es completo: todas las funciones recompiladas, las 28 misiones de la historia, el modo Batalla y la pantalla dividida para hasta cuatro jugadores, en dos ediciones: la Original tal como salió (4:3, 30 fps) y la Remasterizada, con pantalla ultrapanorámica, 4K, hasta 290 fotogramas por segundo y 17 errores de 2001 corregidos. El instalador (BloodWakeRecomp-Setup, de unos 3,7 MB; la 0.2.4 es del 29 de octubre) construye el juego en tu equipo en unos 15 minutos. El README explica que la ingeniería la hizo Claude con más de 70 agentes de IA."
+  en: "Blood Wake (Xbox, 2001) as a native Windows game: a static recompilation you build from your own disc. The game’s program is translated to C with the xboxrecomp toolkit and compiled by Visual Studio; the toolkit’s runtime stands in for the Xbox’s system, memory, sound chip, and controllers, and this port brings a Direct3D 11 graphics back end. According to the README it is complete: every function recompiled, all 28 story missions, Battle Mode, and split screen for up to four players, in two editions: Original as it shipped (4:3, 30 fps) and Remastered, with ultrawide, 4K, up to 290 frames per second, and 17 bugs from 2001 fixed. The installer (BloodWakeRecomp-Setup, about 3.7 MB; 0.2.4 is from October 29) builds the game on your PC in about 15 minutes. The README explains that the engineering was done by Claude with more than 70 AI agents."
+requirements:
+  es: "Tu propio disco de Blood Wake para Xbox, copiado a tu equipo como carpeta de archivos, imagen XISO o imagen completa; solo se acepta la edición comercial de fingerprints/retail.json. Windows 10 u 11 de 64 bits con una tarjeta gráfica con DirectX 11 y unos pocos GB libres (el juego ocupa unos 2 GB); mando XInput o teclado."
+  en: "Your own Blood Wake disc for Xbox, copied to your PC as a folder of files, an XISO, or a full disc image; only the retail release in fingerprints/retail.json is accepted. 64-bit Windows 10 or 11 with a DirectX 11 graphics card and a few GB free (the game’s files alone are about 2 GB); an XInput controller or the keyboard."
+tags:
+  - x86
+  - widescreen
+  - "60fps+"
+  - multiplayer
+  - ai-assisted

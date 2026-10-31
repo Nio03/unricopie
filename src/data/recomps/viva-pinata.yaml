@@ -1,0 +1,19 @@
+name: "Viva Piñata"
+games: [viva-pinata]
+console: x360
+status: playable
+repo: crabinacrabic/VivaPinataRecomp
+originalDeveloper: "Rare"
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Port nativo para Windows de la versión original de Xbox 360, hecho por recompilación estática con una bifurcación de ReXGlue SDK v0.10.0 (no es un emulador). Funcionan los menús, la pantalla de título, el juego en el jardín, guardar y cargar, el sonido, el mando de Xbox, el teclado y el ratón, y un lanzador en inglés y ruso que comprueba la versión del juego. El modo «Rápido» usa Direct3D 12 y va a los 30 cuadros por segundo del original; el modo «Preciso» emula con exactitud la memoria de vídeo EDRAM de la Xbox 360 sobre Vulkan, a 30 cuadros por segundo en una RX 6600. Incluye una superposición de rendimiento con F2 y la traducción al ruso del equipo ZoG Team, y hay un cierre poco frecuente tras un minuto parado en la pantalla de título. No tiene versiones publicadas: se construye con Visual Studio. Su guía de instalación propone dársela a un agente de IA como Claude Code; 30 de sus 32 commits llevan a Claude como coautor."
+  en: "A native Windows port of the original Xbox 360 version, made by static recompilation with a fork of ReXGlue SDK v0.10.0 (not an emulator). Menus, the title screen, garden gameplay, saving and loading, sound, the Xbox controller, keyboard and mouse, and a launcher in English and Russian that checks the game version all work. The “Fast” mode uses Direct3D 12 and runs at the original’s 30 fps; the “Accurate” mode emulates the Xbox 360’s EDRAM video memory exactly on Vulkan, at 30 fps on an RX 6600. It includes an F2 performance overlay and the Russian translation by ZoG Team, and has a rare crash after about a minute of idling on the title screen. It has no published releases: you build it with Visual Studio. Its install guide suggests handing it to an AI agent such as Claude Code; 30 of its 32 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco (.iso) de Viva Piñata (EE. UU., Europa) para Xbox 360, exactamente la versión 0.0.0.1 (ID de título 4D5307F2, ID de medio 690B3287, MD5 3902321dfe15d7d2510a96114dba625a); otras ediciones no se han probado y probablemente no arrancan. Hace falta el disco del juego, no el de bonificación. Además, Windows 10 u 11 de 64 bits con una gráfica DirectX 12, Visual Studio 2026 Community con C++ y las herramientas de Clang, Git y unos 25 GB libres."
+  en: "Your own disc image (.iso) of Viva Piñata (USA, Europe) for Xbox 360, exactly version 0.0.0.1 (title ID 4D5307F2, media ID 690B3287, MD5 3902321dfe15d7d2510a96114dba625a); other editions have not been tested and will probably not start. The game disc is needed, not the bonus disc. Plus 64-bit Windows 10 or 11 with a DirectX 12 graphics card, Visual Studio 2026 Community with C++ and the Clang tools, Git, and about 25 GB free."
+tags:
+  - powerpc
+  - simulation
+  - vulkan
+  - ai-assisted

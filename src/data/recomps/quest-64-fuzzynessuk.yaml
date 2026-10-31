@@ -1,0 +1,23 @@
+name: "Quest 64 (FuzzynessUK)"
+games: [quest-64]
+console: n64
+status: playable
+repo: FuzzynessUK/Quest64-Recomp
+forkOf:
+  label: "Rainchus/Quest64-Recomp"
+  url: https://github.com/Rainchus/Quest64-Recomp
+originalDeveloper: "Imagineer / THQ"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Bifurcación de Quest 64: Recompiled, de Rainchus (N64Recomp y RT64), que añade lo que llama la Archipelago Edition: un conector de Archipelago con su apworld, un aleatorizador y un aleatorizador de enemigos, Hard Mode, Combate en Tiempo Real, mejoras, rastreador y minimapa, música propia y su conversor. Va 140 commits por delante de la original y ninguno por detrás. El README atribuye a Claude (a través de Claude Code) el código de esas funciones, y 94 de sus últimos 100 commits lo llevan como coautor. La 1.9.2 (13 de octubre) es la última de 10 versiones, con un zip para Windows, el apworld y un YAML de ejemplo; el repositorio y sus releases dicen no contener recursos del juego."
+  en: "A fork of Rainchus’s Quest 64: Recompiled (N64Recomp and RT64) that adds what it calls the Archipelago Edition: an Archipelago connector with its apworld, a randomizer and an enemy randomizer, Hard Mode, Real Time Combat, enhancements, a tracker and minimap, custom music, and its converter. It is 140 commits ahead of the original and none behind. The README credits Claude (through Claude Code) with writing the code for those features, and 94 of its last 100 commits list it as a co-author. Version 1.9.2 (October 13) is the latest of 10 releases, with a Windows zip, the apworld, and a sample YAML; the repository and its releases say they contain no game assets."
+requirements:
+  es: "Tu propia copia de la versión norteamericana 1.0 de Quest 64, que se elige en el menú principal; el programa toma los recursos de ella. Windows (el único paquete publicado) con una GPU compatible con Direct3D 12, Vulkan 1.2 o Metal, y una CPU con SSE4.1."
+  en: "Your own copy of the North American 1.0 version of Quest 64, chosen in the main menu; the program loads the assets from it. Windows (the only published package) with a GPU supporting Direct3D 12, Vulkan 1.2, or Metal, and a CPU with SSE4.1."
+tags:
+  - mips
+  - rpg
+  - randomizer
+  - mods
+  - ai-assisted

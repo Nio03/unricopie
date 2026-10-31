@@ -1,0 +1,19 @@
+name: "Snowboard Kids (HikariLucy)"
+games: [snowboard-kids]
+console: n64
+status: playable
+repo: HikariLucy/SnowboardKids-Recomp
+originalDeveloper: "Racdym"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Recompilación nativa de Snowboard Kids (versión estadounidense) con N64Recomp, RT64, RecompFrontend y N64ModernRuntime, en beta pública para Linux x86_64 y Windows x86_64. Según el README se validó en partidas reales una carrera completa, de la salida a la meta, los resultados y la carrera siguiente, el guardado oficial del juego, los estados de guardado rápidos (F5 y F8), el teclado, el mando físico con vibración, la reasignación de controles y la persistencia del Controller Pak. Los módulos del juego se generan localmente a partir de tu ROM y quedan fuera del directorio de instalación. La 0.9.0-beta.1 (29 de septiembre) trae zips de 8,4 MB para Linux y 16,9 MB para Windows. 50 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native recompilation of Snowboard Kids (US version) with N64Recomp, RT64, RecompFrontend, and N64ModernRuntime, in public beta for Linux x86_64 and Windows x86_64. According to the README, real play sessions validated a full race from start to finish, results, and the next race, the game’s official save, quick save states (F5 and F8), keyboard play, physical controller play with rumble, controller remapping, and Controller Pak persistence. The game modules are generated locally from your ROM and live outside the installation directory. Version 0.9.0-beta.1 (September 29) has zips of 8.4 MB for Linux and 16.9 MB for Windows. 50 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Snowboard Kids (USA), la única versión verificada (código de juego NSKE; SHA-1 normalizado 1583bacc9046a360df8ea4d536942155247e154c). Windows x86_64 con GPU compatible con D3D12 o Linux x86_64."
+  en: "Your own Snowboard Kids (USA) ROM, the only verified version (game code NSKE; normalized SHA-1 1583bacc9046a360df8ea4d536942155247e154c). x86_64 Windows with a D3D12-capable GPU or x86_64 Linux."
+tags:
+  - mips
+  - racing
+  - sports
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Alundra"
+games: [alundra]
+console: ps1
+status: experimental
+repo: aitorcachero/alundra-recomp
+originalDeveloper: "Matrix Software"
+year: 1997
+toolchain: psxrecomp
+desc:
+  es: "Port nativo para Windows de 64 bits de Alundra (Matrix Software, 1997), hecho por recompilación estática con psxrecomp: el código MIPS del ejecutable se traduce a C. El repositorio publica ese código ya generado (unos 430 archivos, a partir del ejecutable SLES_012.58, la edición europea en castellano) y un Alundra.exe ya compilado, además de scripts para preparar el disco, el lanzador y los ajustes. Según el README, ofrece resolución interna de hasta 4K, un lienzo panorámico de 16:9 sin estirar, más de 120 cuadros por segundo con una presentación independiente de la lógica, un sombreador propio y un proceso en segundo plano que reescala las texturas con waifu2x en tarjetas NVIDIA RTX. Admite imágenes de las ediciones PAL, estadounidense y japonesa en .PBP, .BIN/.CUE, .ISO, .IMG y .CHD. La 1.0.0 (25 de octubre) es un zip de unos 58 MB."
+  en: "A native 64-bit Windows port of Alundra (Matrix Software, 1997), made by static recompilation with psxrecomp: the executable’s MIPS code is translated to C. The repository publishes that generated code (about 430 files, from the SLES_012.58 executable, the European Spanish edition) and a prebuilt Alundra.exe, along with scripts to prepare the disc, the launcher, and the settings. According to the README it offers internal resolution up to 4K, a true 16:9 widescreen canvas without stretching, over 120 frames per second with a presentation decoupled from the logic, its own shader, and a background process that upscales textures with waifu2x on NVIDIA RTX cards. It accepts images of the PAL, US, and Japanese editions as .PBP, .BIN/.CUE, .ISO, .IMG, and .CHD. Version 1.0.0 (October 25) is a zip of about 58 MB."
+requirements:
+  es: "Tu propia imagen de Alundra para PlayStation de cualquier región (SLES-01258, SLUS-00553, SCES-00840, SLES-01257, SLES-01259 o SCPS-10050) en .PBP, .BIN/.CUE, .ISO, .IMG o .CHD, que se prepara con PREPARAR_DISCO.bat. Además, Windows de 64 bits; el reescalado de texturas por IA necesita una tarjeta NVIDIA RTX."
+  en: "Your own Alundra image for PlayStation of any region (SLES-01258, SLUS-00553, SCES-00840, SLES-01257, SLES-01259, or SCPS-10050) as .PBP, .BIN/.CUE, .ISO, .IMG, or .CHD, prepared with PREPARAR_DISCO.bat. Plus 64-bit Windows; the AI texture upscaling needs an NVIDIA RTX card."
+tags:
+  - mips
+  - rpg
+  - widescreen
+  - "60fps+"

@@ -1,0 +1,18 @@
+name: "Ratchet & Clank Future: A Crack in Time"
+games: [ratchet-and-clank-future-a-crack-in-time]
+console: ps3
+status: experimental
+repo: HighDrexler/RACiT
+originalDeveloper: "Insomniac Games"
+year: 2009
+toolchain: ps3recomp
+desc:
+  es: "RACiT: port no oficial para Windows de la versión de PS3 (disco estadounidense), hecho por recompilación estática con ps3recomp: el código del juego se convierte en C y C++ nativo. Trae un renderizador RSX basado en Vulkan, un launcher que importa tu .iso o la carpeta PS3GAME, ajustes de resolución interna y de gráficos, teclado y ratón reasignables en el launcher, compatibilidad con la mayoría de los mandos de Windows y la integración de los altavoces y los gatillos del DualSense. El README lo presenta como obra en curso y no dice qué partes del juego funcionan; un port a Android (ARM64) y una versión de depuración para Linux existen, pero aún no son públicos. La última versión es la 0.9 (beta, 30 de octubre), la segunda publicada. El repositorio contiene el código del port, el launcher y un parche para el entorno de ps3recomp, y dice que no se incluye ningún dato del juego."
+  en: "RACiT: an unofficial native Windows port of the PS3 version (US disc), made by static recompilation with ps3recomp: the game’s code is converted to native C and C++. It has a Vulkan-based RSX renderer, a launcher that imports your .iso or PS3GAME folder, internal resolution and graphics settings, keyboard and mouse bindable in the launcher, support for most Windows-compatible controllers, and integration of the DualSense speaker and triggers. The README presents it as a work in progress and doesn’t say which parts of the game work; an Android (ARM64) port and a Linux debugging build exist but aren’t public yet. The latest version is 0.9 (beta, October 30), the second one published. The repository holds the port’s code, the launcher, and a patch for the ps3recomp runtime, and says no game data is included."
+requirements:
+  es: "Tu propio volcado descifrado de la versión estadounidense en disco (BCUS98124), con EBOOT.ELF y la carpeta USRDIR; el launcher importa el .iso o la carpeta PS3GAME. Si tu EBOOT sale cifrado, el README recomienda descifrarlo con RPCS3. Además, Windows de 64 bits."
+  en: "Your own decrypted dump of the US disc version (BCUS98124), with EBOOT.ELF and the USRDIR folder; the launcher imports the .iso or the PS3GAME folder. If your EBOOT comes out encrypted, the README recommends decrypting it with RPCS3. Plus 64-bit Windows."
+tags:
+  - powerpc
+  - platformer
+  - vulkan

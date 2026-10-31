@@ -1,0 +1,17 @@
+name: "The Warriors"
+games: [the-warriors]
+console: xbox
+status: experimental
+repo: Antriksh1984/TheWarriors-XBERecomp
+originalDeveloper: "Rockstar Toronto"
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial a PC de la versión de la Xbox original de The Warriors, hecho por recompilación estática con Xbox XBE Recomp y compilado como un ejecutable de Windows de 64 bits. El código x86 del juego se traduce a C++ por adelantado, las llamadas del núcleo de Xbox, Direct3D y DirectSound se implementan en Windows, y se dibuja con Direct3D 12 y se reproduce con XAudio2. Es una versión alfa: según el README el juego arranca, se juega y suena bien en las primeras misiones, pero no se ha jugado hasta el final y puede haber cierres, efectos que faltan o sonido roto más adelante. La primera vez que se arranca construye el código del juego en tu equipo con las herramientas que trae el zip (de unos 59 MB); la última versión es la 0.2.0-alpha (24 de octubre). Sus 21 commits no llevan a Claude como coautor."
+  en: "An unofficial native PC port of the original Xbox version of The Warriors, made by static recompilation with Xbox XBE Recomp and built as a 64-bit Windows executable. The game’s x86 code is translated to C++ ahead of time, the Xbox kernel, Direct3D, and DirectSound calls are implemented on Windows, and it is drawn with Direct3D 12 and played through XAudio2. It is an alpha: according to the README the game boots, plays, and sounds right through the opening missions, but it hasn’t been played to the end and you may run into crashes, missing effects, or broken sound later on. The first start builds the game’s code on your PC with the tools the zip carries (about 59 MB); the latest version is 0.2.0-alpha (October 24). None of its 21 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia copia de la versión de Xbox original de The Warriors, de EE. UU. (NTSC), como imagen .iso o archivos extraídos (el default.xbe debe ser el de esa versión; las de PS2 y PSP y otras regiones de Xbox no sirven). Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 12 y 8 GB de RAM o más; se recomienda un mando."
+  en: "Your own copy of the original Xbox version of The Warriors, USA (NTSC), as an .iso image or extracted files (the default.xbe must be the one from that release; the PS2 and PSP versions and other Xbox regions don’t work). 64-bit Windows 10 or 11, a Direct3D 12 graphics card, and 8 GB of RAM or more; a controller is recommended."
+tags:
+  - x86
+  - action

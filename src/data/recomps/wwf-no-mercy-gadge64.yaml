@@ -1,0 +1,24 @@
+name: "WWF No Mercy (Gadge64)"
+games: [wwf-no-mercy]
+console: n64
+status: playable
+repo: Gadge64/WWFNoMercyRecomp
+forkOf:
+  label: "jessetbh/WWFNoMercyRecomp"
+  url: https://github.com/jessetbh/WWFNoMercyRecomp
+originalDeveloper: "AKI Corporation"
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Bifurcación no oficial de WWF No Mercy: Recompiled, de jessetbh (N64Recomp, N64ModernRuntime y RT64), llamada 60Hz Edition. Añade 60, 90 y 120 cuadros por segundo por interpolación en RT64, con pequeños ganchos en el código recompilado, una opción de resolución, mods y paquetes de texturas por mod que se eligen en el lanzador, una versión para Linux y Steam Deck, importación y exportación de partidas desde Project64, Mupen o RetroArch, y un botón para desbloquearlo todo. Va 9 commits por delante de la original y 119 por detrás. La 0.2.2 (16 de octubre) es la última de 4 versiones, con zips para Windows (17,7 MB) y Steam Deck (8 MB). El README dice que se desarrolló con ayuda de IA."
+  en: "An unofficial fork of jessetbh’s WWF No Mercy: Recompiled (N64Recomp, N64ModernRuntime, and RT64), called 60Hz Edition. It adds 60, 90, and 120 frames per second through interpolation in RT64, with small hooks in the recompiled code, a resolution option, mods and per-mod texture packs chosen in the launcher, a Linux and Steam Deck build, import and export of saves from Project64, Mupen, or RetroArch, and an Unlock Everything button. It is 9 commits ahead of the original and 119 behind. Version 0.2.2 (October 16) is the latest of 4 releases, with zips for Windows (17.7 MB) and Steam Deck (8 MB). The README says it was developed with AI assistance."
+requirements:
+  es: "Tu propia ROM de WWF No Mercy de EE. UU., la Rev 1 (SHA-1 91CEE3D096F4A76644D8B35B9AEAD6448909ABD1); la Rev 0 y otras regiones no se admiten. Una GPU con Direct3D 12 (Shader Model 6) o Vulkan 1.2. Windows 10 u 11, o Steam Deck y Linux."
+  en: "Your own US WWF No Mercy ROM, Rev 1 (SHA-1 91CEE3D096F4A76644D8B35B9AEAD6448909ABD1); Rev 0 and other regions are not accepted. A GPU with Direct3D 12 (Shader Model 6) or Vulkan 1.2. Windows 10 or 11, or Steam Deck and Linux."
+tags:
+  - mips
+  - fighting
+  - sports
+  - 60fps+
+  - mods
+  - ai-assisted

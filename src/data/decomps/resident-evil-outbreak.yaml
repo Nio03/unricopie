@@ -1,0 +1,13 @@
+name: "Resident Evil Outbreak"
+games: [resident-evil-outbreak, resident-evil-outbreak-file-2]
+console: ps2
+repo: GalaxyNostalgia/Outbreak-decomp
+desc:
+  es: "Decompilación exacta de Biohazard Outbreak y Biohazard Outbreak File 2 (las versiones japonesas de PlayStation 2), con la meta de llegar a una versión nativa de PC hecha del mismo código que juegue en línea en los servidores de Obsrv junto con jugadores de PS2 y PCSX2, con la traducción al inglés de aficionados. El repositorio no contiene código, datos ni desensamblado del juego: necesitas tus propios discos y la compilación los desensambla en tu equipo. Los 9 destinos de Outbreak (SLPM-65428, v1.04) y los 10 de File 2 (SLPM-65692, v1.03) se reconstruyen idénticos byte a byte desde el ensamblador. De Outbreak hay decompiladas 238 funciones idénticas, más 77 escritas que aún no coinciden y que usa la versión de PC; File 2 no se ha empezado. Hay un port nativo para Windows aparte, GalaxyNostalgia/Outbreak-PC, que usa este repositorio como submódulo. 100 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A matching decompilation of Biohazard Outbreak and Biohazard Outbreak File 2 (the Japanese PlayStation 2 releases), aiming for a native PC version built from the same code that plays online on the Obsrv servers alongside PS2 and PCSX2 players, with the English fan translation. The repository contains no game code, data, or disassembly: you need your own discs and the build disassembles them on your PC. The 9 targets of Outbreak (SLPM-65428, v1.04) and the 10 of File 2 (SLPM-65692, v1.03) rebuild byte-identical from assembly. Of Outbreak, 238 functions are decompiled and byte-identical, plus 77 written that don’t match yet and that the PC build uses; File 2 hasn’t been started. A separate native Windows port, GalaxyNostalgia/Outbreak-PC, uses this repository as a submodule. 100 of its last 100 commits list Claude as a co-author."
+tags:
+  - emotion-engine
+  - matching
+  - reverse-engineering
+  - online
+  - ai-assisted

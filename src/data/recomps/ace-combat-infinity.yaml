@@ -1,0 +1,17 @@
+name: "Ace Combat Infinity"
+games: [ace-combat-infinity]
+console: ps3
+status: playable
+repo: The-OPERATIONS-Team/Ace-combat-infinity-recomp
+originalDeveloper: "Project Aces"
+year: 2014
+desc:
+  es: "Recompilación estática para Windows de la versión de PS3 (PSN estadounidense, NPUB31347): el código PowerPC y el de las SPU del juego se traducen por adelantado a C y se compilan como cualquier programa, y el entorno de ejecución del repositorio reimplementa el sistema de la PS3 y sus bibliotecas; los gráficos pasan por un renderizador Vulkan que traduce los comandos y los shaders de la GPU de la consola. Los servidores oficiales cerraron en 2018, así que el entorno responde en local a las llamadas en línea y quita el requisito de combustible, de modo que la campaña se juega sin conexión. Según el README, la campaña arranca, se juega y pasa de una misión a otra; renderiza a 1280×720 sin escalado, no guarda el progreso entre sesiones y el multijugador no funciona. La 0.1.1 (22 de octubre) es la única versión publicada; no hemos abierto su zip de unos 31 MB, que según el README solo necesita tu EBOOT.ELF descifrado y la carpeta USRDIR. El README dice que el repositorio no trae código ni datos del juego."
+  en: "A static recompilation for Windows of the PS3 version (US PSN, NPUB31347): the game’s PowerPC and SPU code is translated ahead of time to C and compiled like any other program, and the repository’s runtime reimplements the PS3 operating system and its libraries; graphics go through a Vulkan renderer that translates the console GPU’s command stream and shaders. The official servers shut down in 2018, so the runtime answers the online calls locally and removes the fuel requirement, which lets the campaign be played offline. According to the README, the campaign boots, plays, and moves between missions; it renders at 1280×720 with no scaling, doesn’t save progress between sessions, and multiplayer doesn’t work. Version 0.1.1 (October 22) is the only one published; we haven’t opened its roughly 31 MB zip, which according to the README only needs your decrypted EBOOT.ELF and the USRDIR folder. The README says the repository holds no game code or data."
+requirements:
+  es: "Tu propia copia de ACE COMBAT INFINITY de PSN, versión estadounidense NPUB31347 con la actualización 02.11: su carpeta USRDIR (con los DATA*.PAC) y la carpeta target, más el EBOOT.BIN descifrado a ELF (RPCS3 puede hacerlo). También hacen falta libsre.sprx y libspurs_jq.sprx del firmware 4.93 de la PS3, descifrados. Además, Windows 10 u 11 de 64 bits con un procesador con AVX2 y una tarjeta gráfica con Vulkan; para compilar tú mismo, LLVM (clang), Visual Studio Build Tools, CMake, Ninja, el SDK de Vulkan, SDL3 y Python 3."
+  en: "Your own copy of ACE COMBAT INFINITY from PSN, US version NPUB31347 updated to 02.11: its USRDIR folder (with the DATA*.PAC files) and the target folder, plus the EBOOT.BIN decrypted to an ELF (RPCS3 can do it). It also needs libsre.sprx and libspurs_jq.sprx from PS3 firmware 4.93, decrypted. Plus 64-bit Windows 10 or 11 on a CPU with AVX2 and a Vulkan graphics card; to build it yourself, LLVM (clang), Visual Studio Build Tools, CMake, Ninja, the Vulkan SDK, SDL3, and Python 3."
+tags:
+  - powerpc
+  - action
+  - vulkan

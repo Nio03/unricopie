@@ -1,0 +1,18 @@
+name: "Ms. Pac-Man"
+games: [ms-pac-man]
+console: megadrive
+status: playable
+repo: vibecodekun/mspacmanrecomp
+originalDeveloper: "Tengen"
+year: 1991
+toolchain: segagenesisrecomp
+desc:
+  es: "Recompilación estática a código nativo de la Ms. Pac-Man de Tengen para Mega Drive (1991), hecha con segagenesisrecomp. Lo principal es una vista vertical de laberinto completo: los cuatro tipos de laberinto (Arcade, Mini, Big y Strange) se ven enteros con el HUD, sin desplazamiento forzado. Además añade presets de shaders de RetroArch mediante librashader, rebobinado, estados de guardado, cuadros preventivos (un cuadro menos de retardo), avance rápido, pausa y avance cuadro a cuadro, atajos reconfigurables y el lanzador y menú recomp-ui. La 0.2.0 (9 de octubre) trae builds para Windows (x64, x86 y ARM64) y Linux (x86_64 y aarch64); la 0.1.0 es del 18 de septiembre. El código está bajo la licencia PolyForm Noncommercial 1.0.0. Sus 4 commits llevan a Claude como coautor."
+  en: "A static recompilation to native code of Tengen’s 1991 Mega Drive Ms. Pac-Man, made with segagenesisrecomp. The headline feature is a vertical full-maze view: all four maze types (Arcade, Mini, Big, and Strange) are shown whole with the HUD, with no forced scrolling. It also adds RetroArch shader presets through librashader, rewind, save states, preemptive frames (one frame less input lag), fast forward, pause and frame advance, rebindable shortcuts, and the recomp-ui launcher and menu. Version 0.2.0 (October 9) ships builds for Windows (x64, x86, and ARM64) and Linux (x86_64 and aarch64); 0.1.0 is from September 18. The code is under the PolyForm Noncommercial 1.0.0 license. All 4 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Ms. Pac-Man (USA, Europe) de Mega Drive, el volcado de No-Intro «Ms. Pac-Man (USA, Europe).md» (SHA-256 87f3c75fea5c4e105163a3b6d4467527fdc3fcc4b8e385155067719b98b2be7c, CRC32 AF041BE6); el lanzador solo activa JUGAR con ese archivo y rechaza cualquier otro. Windows (x64, x86 o ARM64) o Linux (x86_64 o aarch64)."
+  en: "Your own Mega Drive Ms. Pac-Man (USA, Europe) ROM, the No-Intro dump “Ms. Pac-Man (USA, Europe).md” (SHA-256 87f3c75fea5c4e105163a3b6d4467527fdc3fcc4b8e385155067719b98b2be7c, CRC32 AF041BE6); the launcher enables PLAY only for that file and rejects any other. Windows (x64, x86, or ARM64) or Linux (x86_64 or aarch64)."
+tags:
+  - "68000"
+  - static-recomp
+  - ai-assisted

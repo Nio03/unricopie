@@ -1,0 +1,21 @@
+name: "Colin McRae Rally 2.0 (4-player split screen)"
+games: [colin-mcrae-rally-2-0]
+kind: mod
+console: pc
+game:
+  es: "Colin McRae Rally 2.0 (PC)"
+  en: "Colin McRae Rally 2.0 (PC)"
+base: "ports/colin-mcrae-rally-2-0"
+repo: Dimax0987/OpenCMR2
+status: usable
+desc:
+  es: "Bifurcación de OpenCMR2, el port nativo con SDL3 del juego, que lleva el juego de 2 a 4 jugadores simultáneos en una sola pantalla, en todos los modos y cada uno con su perfil, coche y mando. Hay pantalla dividida en cuatro cuadrantes con el HUD completo en cada uno; en Arcade el modo Single Race y el campeonato aceptan 1 a 4 jugadores con pilotos de la CPU hasta completar seis coches, y en Rally, con 3 o 4 jugadores, aparece la opción «Split Screen - Contact» en la que los jugadores se ven y se chocan y salen en una parrilla de 2+2. Los jugadores 3 y 4 solo pueden usar mando. Cada cambio sobre el código de OpenCMR2 está marcado con «// PORT:» en la carpeta game/ y el zip de la versión incluye el parche con todos ellos. La versión «Coop-Multiplayer» (28 de octubre) es un zip de unos 10 MB con opencmr2.exe y sus bibliotecas, que se extrae sobre una instalación del juego. 87 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A fork of OpenCMR2, the native SDL3 port of the game, that takes the game from 2 to 4 simultaneous players on one screen, in every mode and each with their own profile, car, and controller. The screen splits into four quadrants with the full HUD in each; in Arcade, Single Race and the championship accept 1 to 4 players with CPU drivers filling up to six cars, and in Rally, with 3 or 4 players, a “Split Screen - Contact” option lets players see and hit each other and start on a 2+2 grid. Players 3 and 4 can only use a gamepad. Every change to OpenCMR2’s code is marked “// PORT:” in the game/ folder and the release zip includes the patch with all of them. The “Coop-Multiplayer” release (October 28) is a zip of about 10 MB with opencmr2.exe and its libraries, to be extracted over an installation of the game. 87 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Una instalación del juego en PC de Colin McRae Rally 2.0 (con las carpetas Game, FrontEnd, Sounds, CountrySpecific y SetupRep) sobre la que se extrae el zip, que sustituye opencmr2.exe y SDL3.dll de OpenCMR2. Hacen falta mandos para los jugadores 3 y 4."
+  en: "A PC installation of Colin McRae Rally 2.0 (with the Game, FrontEnd, Sounds, CountrySpecific, and SetupRep folders) over which the zip is extracted, replacing OpenCMR2’s opencmr2.exe and SDL3.dll. Players 3 and 4 need gamepads."
+tags:
+  - racing
+  - multiplayer
+  - mods
+  - ai-assisted

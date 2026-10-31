@@ -1,0 +1,20 @@
+name: "Dr. Mario 64 (nautxx)"
+games: [dr-mario-64]
+console: n64
+status: playable
+repo: nautxx/drmario64_recomp_plus
+forkOf:
+  label: "theboy181/drmario64_recomp_plus"
+  url: https://github.com/theboy181/drmario64_recomp_plus
+originalDeveloper: "Nintendo / NST"
+year: 2001
+toolchain: N64Recomp
+desc:
+  es: "Bifurcación de Dr. Mario 64: Recompiled Plus, de theboy181, una recompilación con N64Recomp con renderizado mejorado, movimiento más suave y mejoras de calidad de vida. La original añade píldoras dibujadas por GPU, 60 o más cuadros por segundo por interpolación, hasta cuatro mandos, efectos CRT, un menú principal actualizado y cápsulas roja y azul propias. Esta bifurcación va 13 commits por delante y ninguno por detrás, y añade el empaquetado para macOS, la corrección de un cierre por entrada en la versión de macOS, las asignaciones de mandos incluidas en el paquete, un menú de configuración de controles y la verificación del checksum de la ROM en la documentación. Su única versión, 1.0.0-macos.1 (31 de agosto), es un .dmg de unos 23 MB para Apple silicon."
+  en: "A fork of theboy181’s Dr. Mario 64: Recompiled Plus, an N64Recomp recompilation with improved rendering, smoother motion, and quality-of-life enhancements. The original adds GPU-rendered pills, smooth 60+ FPS through interpolation, support for four controllers, CRT effects, an updated main menu, and custom red and blue capsule icons. This fork is 13 commits ahead and none behind, and adds macOS packaging, a fix for an input crash in the macOS release, bundled controller mappings, a controls configuration menu, and ROM checksum verification in the docs. Its only release, 1.0.0-macos.1 (August 31), is a .dmg of about 23 MB for Apple silicon."
+requirements:
+  es: "Tu propia copia limpia de Dr. Mario 64 de EE. UU., en forma del baserom_uncompressed.us.z64 que se obtiene siguiendo la preparación de la decompilación AngheloAlf/drmario64 (SHA-1 96ba0ce2f9e98e5790df120320cd3d1a3d7080d2). macOS con Apple silicon para el .dmg; para compilar hacen falta Git, un compilador con C17 y C++20 (Clang 15 o posterior), CMake 3.20 o posterior, SDL2 y los submódulos."
+  en: "Your own clean US copy of Dr. Mario 64, as the baserom_uncompressed.us.z64 produced by following the AngheloAlf/drmario64 decompilation setup (SHA-1 96ba0ce2f9e98e5790df120320cd3d1a3d7080d2). macOS with Apple silicon for the .dmg; building needs Git, C17 and C++20 compilers (Clang 15 or newer), CMake 3.20 or newer, SDL2, and the submodules."
+tags:
+  - mips
+  - 60fps+

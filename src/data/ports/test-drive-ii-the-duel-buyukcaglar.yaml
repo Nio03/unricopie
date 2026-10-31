@@ -1,0 +1,18 @@
+name: "Test Drive II: The Duel (Buyukcaglar)"
+games: [test-drive-ii-the-duel]
+category: game-engine
+console: dos
+status: playable
+repo: Buyukcaglar/TD2
+originalDeveloper: "Distinctive Software"
+year: 1989
+desc:
+  es: "Versión nativa para Windows de Test Drive II: The Duel que ejecuta el juego de DOS a partir de tu propia copia de sus archivos, con cuatro modos gráficos que se pueden cambiar en cualquier momento, incluso en plena carrera: EGA, CGA, Hercules y Amiga. Con los archivos de la versión de Amiga también reproduce su música y sonidos y añade el escenario exclusivo Northern Germany Challenge. No es un emulador: el código del juego es una reimplementación en C del ejecutable original, construida sobre el port SDL3 de Kylofon (Krzysztof Kania, licencia MIT), y el repositorio publica ese código, las herramientas de recuperación y la documentación. Añade un modelo mejorado del altavoz del PC, el sonido de Amiga mediante una emulación de Paula, compatibilidad con mandos y un menú propio. Se entrega como un único TD2.exe de unos 4 MB, sin firmar. La 1.0 (25 de octubre) es la última de dos versiones del mismo día. Declara que se escribió en gran parte con asistentes de IA (Claude); sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows version of Test Drive II: The Duel that plays the DOS game from your own copy of its files, in four graphics modes you can switch between at any moment, even mid-race: EGA, CGA, Hercules, and Amiga. With the Amiga version’s files it also plays its music and sound and adds the Amiga-only Northern Germany Challenge scenery. It is not an emulator: the game code is a C reimplementation of the original executable, built on Kylofon’s SDL3 port (Krzysztof Kania, MIT licence), and the repository publishes that code, the recovery tools, and the documentation. It adds an improved model of the PC speaker, Amiga sound through an emulation of Paula, controller support, and a menu of its own. It ships as a single TD2.exe of about 4 MB, unsigned. Version 1.0 (October 25) is the latest of two releases from the same day. It states it was written largely by AI coding assistants (Claude); its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Test Drive II de DOS: basta el juego base (dos coches y el escenario Master), como carpeta con TD2EGA.EXE, CARS.DAT, SCENES.DAT y el resto, o como archivo zip, 7z, rar o lha. Opcionales: las ampliaciones (The Supercars, The Muscle Cars, California Challenge, European Challenge) y la versión de Amiga (por ejemplo un .lha de WHDLoad). Además, Windows de 64 bits y una carpeta con permiso de escritura para el programa."
+  en: "Your own copy of the DOS Test Drive II: the base game is enough (two cars and the Master scenery), as a folder with TD2EGA.EXE, CARS.DAT, SCENES.DAT and the rest, or as a zip, 7z, rar, or lha archive. Optional: the expansions (The Supercars, The Muscle Cars, California Challenge, European Challenge) and the Amiga version (for example a WHDLoad .lha). Plus 64-bit Windows and a writable folder for the program."
+tags:
+  - x86
+  - racing
+  - ai-assisted

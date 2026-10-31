@@ -1,0 +1,17 @@
+name: "Crusader: No Remorse"
+games: [crusader-no-remorse]
+category: game-engine
+console: dos
+status: experimental
+repo: sebsebseb1982/crusader-no-remorse-decomp
+originalDeveloper: "Origin Systems"
+year: 1995
+desc:
+  es: "Reimplementación en C++20 con SDL2 del motor de Crusader: No Remorse (Origin, 1995) para Windows y Linux, que lee los datos del juego original, incluidos sus scripts (USECODE). Admite la versión francesa 1.08 y la estadounidense 1.23, y el README la describe como un trabajo en curso. Añade mando, un menú de mejoras (cámara que sigue al jugador, movimiento y apuntado direccionales, resolución nativa, zoom, autoguardado) y pantalla completa con Alt+Intro. Hay compilaciones para Windows, Linux y consolas portátiles con PortMaster (aarch64); la 1.22.0 es del 19 de octubre, una de 31 versiones. El autor menciona su suscripción a Claude, y 2 de sus 48 commits llevan a Claude como coautor."
+  en: "A C++20 reimplementation with SDL2 of the Crusader: No Remorse (Origin, 1995) engine for Windows and Linux, which reads the original game’s data, including its scripts (USECODE). It supports the French version 1.08 and the US version 1.23, and the README describes it as a work in progress. It adds gamepad support, an enhancements menu (a camera that follows the player, directional movement and aiming, native resolution, zoom, autosave), and fullscreen with Alt+Enter. There are builds for Windows, Linux, and PortMaster handhelds (aarch64); 1.22.0 is from October 19, one of 31 releases. The author mentions his Claude subscription, and 2 of its 48 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Crusader: No Remorse, versión francesa 1.08 (ISO con SHA-256 B370436F2BA380500E918262A83293FBB89600253CC3F4579895D45FDB63B802) o estadounidense 1.23 (ISO con SHA-256 C27D77D215253B8C1EF3C5B16CC33AFF63E759A843BBCD177A42F6A64DC063C7), como imagen .iso o como el contenido del juego instalado o del CD, en la carpeta data (unos 550 MB). Windows, Linux (con SDL2) o una consola portátil con PortMaster."
+  en: "Your own copy of Crusader: No Remorse, French version 1.08 (ISO with SHA-256 B370436F2BA380500E918262A83293FBB89600253CC3F4579895D45FDB63B802) or US version 1.23 (ISO with SHA-256 C27D77D215253B8C1EF3C5B16CC33AFF63E759A843BBCD177A42F6A64DC063C7), as an .iso image or as the contents of the installed game or the CD, in the data folder (about 550 MB). Windows, Linux (with SDL2), or a PortMaster handheld."
+tags:
+  - action
+  - ai-assisted

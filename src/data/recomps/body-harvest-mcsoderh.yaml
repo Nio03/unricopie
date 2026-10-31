@@ -1,0 +1,18 @@
+name: "Body Harvest (mcsoderh)"
+games: [body-harvest]
+console: n64
+status: playable
+repo: mcsoderh/BodyHarvestRecomp
+originalDeveloper: "DMA Design"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Port nativo de la versión norteamericana de Body Harvest hecho con N64: Recompiled (N64Recomp) y RT64 como renderizador. Trae menús de configuración dentro del juego para gráficos, entradas y sonido, que se manejan con ratón, mando o teclado, y pantalla ancha en los niveles al poner el ajuste Aspect Ratio en Expand (la intro, el título y los menús siguen en 4:3). Tiene un modo portátil, que se activa con un archivo portable.txt junto al ejecutable. La 1.0.0 (3 de octubre), la única versión, trae Windows x64, Linux x64 y ARM64 (más un Flatpak) y macOS. El repositorio y las releases dicen no contener recursos del juego."
+  en: "A native port of the North American version of Body Harvest made with N64: Recompiled (N64Recomp) and RT64 as the renderer. It has in-game configuration menus for graphics, input, and audio, usable with mouse, controller, or keyboard, and widescreen in the levels when the Aspect Ratio setting is set to Expand (the intro, title screen, and menus stay at 4:3). It has a portable mode, enabled with a portable.txt file next to the executable. Version 1.0.0 (October 3), the only release, ships Windows x64, Linux x64 and ARM64 (plus a Flatpak), and macOS. The repository and its releases say they contain no game assets."
+requirements:
+  es: "Tu propia ROM de Body Harvest, solo la norteamericana (NTSC-U) (SHA-1 bbb6666f5014a473747ee4145f036d9fb25d7348); acepta .z64, .n64 y .v64. Una GPU con Direct3D 12 (Shader Model 6), Vulkan 1.2 o Metal."
+  en: "Your own Body Harvest ROM, North American (NTSC-U) only (SHA-1 bbb6666f5014a473747ee4145f036d9fb25d7348); .z64, .n64, and .v64 are accepted. A GPU with Direct3D 12 (Shader Model 6), Vulkan 1.2, or Metal."
+tags:
+  - mips
+  - action
+  - widescreen

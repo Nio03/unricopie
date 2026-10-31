@@ -1,0 +1,18 @@
+name: "Killzone 2 (undecuple)"
+games: [killzone-2]
+console: ps3
+status: experimental
+repo: undecuple/project-pyrrhus
+originalDeveloper: "Guerrilla Games"
+year: 2009
+toolchain: ps3recomp
+desc:
+  es: "Project Pyrrhus: port no oficial para Windows de la versión de PS3, hecho por recompilación estática con ps3recomp: el código PowerPC del juego se traduce por adelantado a código nativo de x64; no es un emulador ni una reescritura. Usa el método y buena parte del trabajo general de Project Helghast (el port de Killzone 3 del mismo autor), adaptado a Killzone 2. Está en fase temprana y es parcialmente jugable: se ve el vídeo de introducción, los menús funcionan con sonido y el primer nivel carga y se dibuja, a unos 23 fotogramas por segundo en una prueba con guion (la PS3 va a 30); el cielo sale verde y el teclado y el ratón solo se han probado con guion. Solo admite Direct3D 12; el README remite a Tokisaki Port, de otro autor, para una versión con Vulkan. El instalador construye el juego en tu equipo; la 0.1.6 (30 de octubre) es la última de 5 versiones. Su autor declara que lo desarrolla con agentes de IA."
+  en: "Project Pyrrhus: an unofficial Windows port of the PS3 version, made by static recompilation with ps3recomp: the game’s PowerPC code is translated ahead of time to native x64 code; it is neither an emulator nor a rewrite. It uses the method and much of the general work of Project Helghast (the same author’s Killzone 3 port), adapted to Killzone 2. It is early and partly playable: the intro movie plays, the menus run with sound, and the first level loads and draws, at about 23 frames per second in one scripted run (the PS3 runs it at 30); the sky draws green, and keyboard and mouse have only been checked in scripted runs. It supports Direct3D 12 only; the README points to Tokisaki Port, by a different author, for a Vulkan version. The installer builds the game on your PC; version 0.1.6 (October 30) is the latest of 5 releases. Its author states it is developed with AI coding agents."
+requirements:
+  es: "Tu propio disco de Killzone 2 (versión estadounidense, BCUS98116) volcado como carpeta o como .iso descifrado, la actualización 1.29 de tu copia (la carpeta dev_hdd0/game/BCUS98116, en una PS3 o en RPCS3) y el EBOOT.elf descifrado a partir del EBOOT.BIN de esa actualización. El instalador puede encontrar los tres en tu instalación de RPCS3. Además, Windows de 64 bits y una tarjeta gráfica con Direct3D 12."
+  en: "Your own Killzone 2 disc (US version, BCUS98116) dumped as a folder or a decrypted .iso, the 1.29 update from your copy (the dev_hdd0/game/BCUS98116 folder, on a PS3 or in RPCS3), and the decrypted EBOOT.elf made from that update’s EBOOT.BIN. The installer can find all three in your RPCS3 install. Plus 64-bit Windows and a Direct3D 12 graphics card."
+tags:
+  - powerpc
+  - fps
+  - ai-assisted

@@ -1,0 +1,17 @@
+name: "Kileak: The DNA Imperative"
+games: [kileak-the-dna-imperative]
+console: ps1
+status: experimental
+repo: NJH-1001/KTDIR
+originalDeveloper: "Genki"
+year: 1995
+toolchain: psxrecomp
+desc:
+  es: "Proyecto no oficial y no comercial de recompilación con psxrecomp de Kileak: The DNA Imperative (versión estadounidense, SCUS-94102). Sus versiones públicas son a propósito kits de compilación y no descargas jugables: no traen datos del disco, ejecutable del juego, código generado, BIOS comercial ni partidas, y el código del juego se genera y se compila en tu equipo a partir de tu disco. Su README da por comprobados la generación desde el disco, una compilación para Windows, el arranque con OpenBIOS, el reparto de mandos, la primera fase entera y el paso a la segunda, y aclara que no afirma haber completado el juego. Ofrece dos opciones desactivadas de entrada: pantalla ancha 16:9 y controles modernos de doble palanca. La 0.1.1 (2 de septiembre) es un zip de unos 26 MB con el asistente de instalación."
+  en: "An unofficial, noncommercial recompilation project with psxrecomp for Kileak: The DNA Imperative (US version, SCUS-94102). Its public releases are deliberately build kits and not playable downloads: they contain no disc data, game executable, generated code, retail BIOS, or saves, and the game’s code is generated and built on your PC from your disc. Its README lists as verified the generation from the disc, a Windows build, booting on OpenBIOS, controller routing, the whole first stage, and the transition into the second, and it states that it makes no claim of having completed the game. It offers two options that are off by default: 16:9 widescreen and modern twin-stick controls. Version 0.1.1 (September 2) is a zip of about 26 MB with the setup wizard."
+requirements:
+  es: "Tu propio volcado de la versión estadounidense (SCUS-94102) en CUE/BIN estilo Redump. Windows 10 u 11 de 64 bits (x86-64, Intel o AMD); la primera compilación necesita Python 3 y una cadena CMake/Ninja, que el asistente descarga si falta. Usa OpenBIOS por defecto."
+  en: "Your own dump of the US version (SCUS-94102) as a Redump-style CUE/BIN. 64-bit Windows 10 or 11 (x86-64, Intel or AMD); the first build needs Python 3 and a CMake/Ninja toolchain, which the setup wizard downloads if missing. It uses OpenBIOS by default."
+tags:
+  - mips
+  - widescreen

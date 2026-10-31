@@ -1,0 +1,16 @@
+name: "Magic Ball 2 / Smash Frenzy 2 (OpenMB2)"
+games: [magic-ball-2]
+category: game-engine
+console: pc
+status: fully
+repo: Kippykip/OpenMB2
+desc:
+  es: "Reimplementación abierta del motor de Magic Ball 2 / Magic Ball 2: New Worlds, escrita desde cero en C para correr donde funcionen SDL2 y OpenGL ES 2. No contiene datos del juego: carga los archivos de tu propia instalación de Magic Ball 2 o de Smash Frenzy 2, sueltos o empaquetados en .pak o .dat, con nombres de archivo al estilo de Windows en cualquier sistema. El README dice que el juego completo se juega de principio a fin, con todos los niveles en 3D, el bate, las bolas, ladrillos, premios y armas, el sonido y la música de módulos, y partidas y récords compatibles con el original. Añade interpolación de fotogramas a más de 60 FPS, pantalla ancha y ventana redimensionable, mandos con vibración, trampas, soporte de mods en una carpeta OpenMB2, cinco idiomas y puntuaciones en línea. La 1.0.2 (27 de octubre) publica zips de Windows de unos 3 MB y de MuOS y PortMaster para ARM64 de unos 2,4 MB; el README menciona también una versión web. Todos sus 94 commits llevan a Claude como coautor."
+  en: "An open reimplementation of the Magic Ball 2 / Magic Ball 2: New Worlds engine, written from scratch in C to run wherever SDL2 and OpenGL ES 2 run. It contains no game data: it loads the files from your own Magic Ball 2 or Smash Frenzy 2 install, loose or packed in .pak or .dat files, with Windows-style file names on any system. The README says the whole game plays from start to finish, with every level in 3D, the bat, balls, bricks, prizes, and weapons, sound and tracker music, and saves and high scores compatible with the original. It adds frame interpolation beyond 60 FPS, widescreen and a resizable window, controllers with rumble, cheats, mod support through an OpenMB2 folder, five languages, and online scores. Version 1.0.2 (October 27) publishes Windows zips of about 3 MB and MuOS and PortMaster ARM64 zips of about 2.4 MB; the README also mentions a web build. All 94 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia instalación de Magic Ball 2 o de Smash Frenzy 2 (sirve cualquier edición, incluidas las que guardan los datos en archivos .pak). Se copian openmb2.exe y la carpeta OpenMB2 a la carpeta del juego, o se indican con --game y --overrides. Windows de 64 bits, o una consola portátil ARM64 con MuOS o PortMaster."
+  en: "Your own Magic Ball 2 or Smash Frenzy 2 install (any release works, including the ones that keep data in .pak files). You copy openmb2.exe and the OpenMB2 folder into the game folder, or point to them with --game and --overrides. 64-bit Windows, or an ARM64 handheld with MuOS or PortMaster."
+tags:
+  - mods
+  - widescreen
+  - ai-assisted

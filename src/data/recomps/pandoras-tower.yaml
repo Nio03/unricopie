@@ -1,0 +1,20 @@
+name: "Pandora’s Tower"
+games: [pandoras-tower]
+console: wii
+status: playable
+repo: RecompPort/pandora-tower-pc
+originalDeveloper: "Ganbarion"
+year: 2011
+toolchain: wiikit
+desc:
+  es: "Port nativo para Windows y Linux hecho por recompilación estática con wiikit, según su descripción. El proyecto no publica su código: el repositorio de GitHub no tiene archivos (sus tres commits solo añaden y borran una carpeta y un zip) y la versión 1.0, del 14 de octubre, es un instalador ya compilado (PandorasTower-PC-v1.0-Setup.exe, de unos 7 MB, y un tar para Linux), así que no se puede comprobar cómo está hecho más allá de lo que dicen sus notas. Según ellas, el instalador compila el juego en tu equipo a partir de tu propio disco en unos cinco minutos. Las notas citan un lanzador con pantalla completa, ventana o sin bordes, controles configurables, mandos y teclado con ratón, antialiasing hasta x16, resolución hasta x5, 60, 90, 120 fps o sin límite con interpolación de cuadros, 16:9 sin bandas, paquetes de texturas HD en formato Dolphin (no incluidos), shaders precompilados y 46 arreglos del port. Todas las regiones y varios idiomas."
+  en: "A native Windows and Linux port made by static recompilation with wiikit, according to its description. The project doesn’t publish its code: the GitHub repository has no files (its three commits only add and delete a folder and a zip), and version 1.0, from October 14, is a prebuilt installer (PandorasTower-PC-v1.0-Setup.exe, about 7 MB, and a tar for Linux), so how it’s made can’t be checked beyond what its release notes say. According to them, the installer compiles the game on your PC from your own disc in about five minutes. The notes list a launcher with fullscreen, windowed or borderless modes, configurable controls, gamepad and keyboard with mouse, anti-aliasing up to x16, resolution up to x5, 60, 90, 120 fps or unlimited with frame interpolation, 16:9 without black bars, HD texture packs in Dolphin format (not included), precompiled shaders, and 46 port fixes. All regions and several languages."
+requirements:
+  es: "Tu propia copia del disco de Pandora’s Tower (ISO, WBFS o RVZ), de cualquier región (Europa, EE. UU. o Japón). Windows (el instalador no está firmado y SmartScreen puede avisar) o Linux (con install-linux.sh); macOS no está disponible."
+  en: "Your own copy of the Pandora’s Tower disc (ISO, WBFS or RVZ), from any region (Europe, USA or Japan). Windows (the installer is unsigned and SmartScreen may warn) or Linux (with install-linux.sh); macOS is not available."
+tags:
+  - powerpc
+  - action
+  - 60fps+
+  - hd-assets
+  - closed-source

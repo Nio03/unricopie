@@ -1,0 +1,23 @@
+name: "WWE SmackDown vs. Raw 2007 (360recomper)"
+games: [wwe-smackdown-vs-raw-2007]
+console: x360
+status: fully
+repo: 360recomper/SVR07-Recomp
+forkOf:
+  label: "HollywoodAkeem/SVR07-Recomp"
+  url: https://github.com/HollywoodAkeem/SVR07-Recomp
+originalDeveloper: "Yuke’s"
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Bifurcación de la recompilación estática de HollywoodAkeem para Windows, con cinco commits propios por delante: pasa el proyecto a ReXGlue SDK v0.10.0 con un parche propio, usa Vulkan por defecto (el autor dice que así desaparecen los fallos de modelos de luchadores que «explotan», atribuidos a Direct3D 12), mantiene los 60 cuadros por segundo con un ritmo estable y añade un menú F4 con resolución, motor, pantalla completa, vsync, nitidez, copia de partidas y salir, con soporte de mando. Según el README, se puede jugar de principio a fin a 60 cuadros por segundo, con menús, tipos de combate, crear superestrella, temporada, guardado y mando; quedan artefactos ocasionales en los modelos y, según el propio autor, un 10 % de probabilidad por sesión de un cierre por pérdida de la GPU. La release (v1.2, 16 de octubre, un zip de unos 16 MB) es una compilación ya hecha que contiene el código recompilado del juego, sin datos del juego. 4 de sus 34 commits llevan a Claude como coautor."
+  en: "A fork of HollywoodAkeem’s static recompilation for Windows, with five commits of its own ahead: it moves the project to ReXGlue SDK v0.10.0 with its own patch, uses Vulkan by default (the author says this removes the random “exploding wrestler model” glitches, which came from Direct3D 12), keeps 60 fps with steady frame pacing, and adds an F4 menu with resolution, backend, fullscreen, vsync, sharpening, save backup and quit, with controller support. According to the README it can be played from start to finish at 60 fps, with menus, match types, create-a-superstar, season mode, saving and controller input; occasional vertex artifacts remain and, in the author’s own words, a roughly 10% chance per session of a crash from a lost GPU device. The release (v1.2, October 16, a zip of about 16 MB) is a prebuilt build that contains the game’s recompiled code, with no game data. 4 of its 34 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de WWE SmackDown vs. Raw 2007 para Xbox 360, con sus archivos extraídos; se recomienda el disco de EE. UU. o Canadá, y las demás regiones no se han probado. Además, Windows 10 u 11 de 64 bits y una GPU con Direct3D 12."
+  en: "Your own copy of WWE SmackDown vs. Raw 2007 for Xbox 360, with its files extracted; a USA or Canada disc is recommended, and other regions are untested. Plus 64-bit Windows 10 or 11 and a Direct3D 12 GPU."
+tags:
+  - powerpc
+  - sports
+  - fighting
+  - 60fps+
+  - ai-assisted

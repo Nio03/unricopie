@@ -120,3 +120,100 @@ Erick194/Doom64EX-Plus       # fork sin cambios propios (0 commits por delante d
 izzy2lost/Lighthouse         # fork sin cambios propios (0 commits por delante de HarbourMasters/Lighthouse)
 leanndroguedes/re3-19feb21   # fork sin cambios propios: copia archivada de GTAmodding/re3 (ya catalogado), sin historial propio
 qurious-pixel/SMAS_Launcher  # fork sin cambios propios: idéntico a stephini/SMAS_Launcher (0 commits por delante o por detrás)
+
+# ══ Hoja «PC Ports» de la comunidad (tanda 9, 31-10-2026) ══
+# Los que «no dicen que se jueguen» o «no tienen código» no van aquí: pueden
+# cambiar y el bot debe volver a proponerlos.
+
+# ── Redistribuyen o enlazan contenido del juego ──
+arichmondphoto/DragonWarrior4NESRecomp                # su paquete HD, en el repo y en la release, sale de las teselas del juego reescaladas
+Arsunt/TR2Main                                        # trae el ejecutable original parcheado (binaries/Tomb2_clean.zip, Tomb2_legacy.zip, Tomb2_original.zip) y la release v0.9.0 de 248 MB; además no es una versión de PS1
+Artknighty/tagforcerecomp-preview                     # sus releases publican 3 GB de texturas del juego reescaladas con Real-ESRGAN
+carl0srmz/arwing                                      # trae el desensamblado completo de la ROM (código y datos) que se reensambla en una ROM idéntica
+carl0srmz/arwing2                                     # trae el desensamblado completo de la ROM (código y datos) que se reensambla en una ROM idéntica
+cefege/harry-potter-2-chamber-of-secrets-pc           # trae datos del juego: HarryPotter2/Unreal con modelos y animaciones (HPModels .psk/.psa), fuentes y el árbol de código fuente filtrado con archivos .scc de SourceSafe
+ClickingMaster/pokeheartgold-single-screen            # trae datos del juego: la carpeta files/ (unos 10.300 archivos de gráficos y datos extraídos) está en el repo; es una decompilación tipo pret
+crazyriddler/Conan2007Recomp                          # trae datos del juego: 3.500 shaders originales de Xbox 360 en artifacts/shaders/raw/*.bin, además de salidas de compilación (out/) y herramientas de terceros
+DanZC/suiCune                                         # trae datos del juego (audio/*.bin, tilesets .bin, gráficos y datos de pokecrystal) y no pide tu copia; fork de froggestspirit/suiCune
+GenryTheFox0/Project-2099                             # el payload de la release (1,2 GB, más 3 GB del remaster 4K) lleva parches binarios con bytes derivados del juego, como admite su NO_GAME_DATA.md, y el código del runtime no se publica
+GitFist/hotd2-re                                      # trae datos del juego: el release (664 MB) incluye las carpetas game y scenes con los dos juegos completos; el repo trae typing_word_data.inc
+GTTeancum/StarWars-RenegadeSquadron-PC                # la release 0.9b publica HD.textures.7z (509 MB), texturas del juego reescaladas con IA
+GTTeancum/Vigilante-8-recomp                          # trae el código original del juego desensamblado y decompilado (analysis/SLUS_005.10/mips y decomp, unos 1.270 archivos cada uno, y analysis/dll/*; también analysis/dll_pre/*.bin); releases de 236 a 302 MB
+GTTeancum/XML1-recomp                                 # trae datos del juego: las releases publican XML1-recomp-*-texture-template.zip (145 MB) con las 3.632 texturas originales en PNG
+historicalsource/nflblitz2000                         # trae datos del juego (anim/*.WAN, img2d/*.WIF, sounds/*.BNK) y es el código fuente original archivado, no un port
+JackRushante/DBZ-Super-Saiya-Densetsu-Rust            # sus releases publican hd-pack.zip (480 MB), el arte del juego redibujado a 4x
+JamesIV4/sim-copter-remake                            # trae la base de datos de Ghidra del juego: Docs/scratchpad/ghidra/SimCopter.rep (.gbf de 25 MB); el release de 698 MB incluye ciudades y radio
+Karlos-fr/fun-tracks-recomp-releases                  # enlaza el juego: el README remite a Abandonware France para conseguirlo; el repo solo aloja releases
+kylofon/aces-of-the-pacific-sdl3                      # enlaza el juego: el README manda a descargar AcesotP.zip de archive.org/details/acesot-p
+kylofon/acesofthepacific-enhanced                     # enlaza el juego: el README manda a descargar AcesotP.zip de archive.org/details/acesot-p
+kylofon/fs1-sdl3-port                                 # trae datos del juego: la release "disk-image" publica la imagen de disco original (Microsoft Flight Simulator 1.05 .ima, 163.840 bytes)
+MitchellSternke/SuperMarioBros-C                      # trae el desensamblado smbdis.asm y las tablas de datos del juego en el código
+mjfwalsh/lemmini                                      # trae datos del juego: patch/ con la música original en .mod (music@*.mod) y los gráficos .gif de los estilos
+mscrnt/Sightline                                      # trae datos del juego: assets/obseg/ con datos de niveles, tablas de animación y fuentes como arrays C
+mstan/GumshoeNESRecomp                                # trae datos del juego: banks/bank00-07.bin (128 KB de PRG) y chr00-03.bin (32 KB de CHR) son la ROM completa
+mstan/PokemonYellowRecomp                             # no pide tu copia: construye el juego desde pret/pokeyellow y pret/pokecrystal (que traen sus gráficos y datos) y la release publica el ejecutable del hack
+mstan/SDGundamDimensionWarVirtualBoyRecomp            # mods/color/tiles.txt y catalog.txt traen los gráficos del juego en hexadecimal
+N900x4/HauntingGround-Recomp-Project                  # trae datos del juego: la release incluye texturas HD (arte de Capcom reescalado, carpeta textures, zips de 1,6 GB)
+NoBugsOnMe/CyClones-Remastered                        # la release trae su paquete «HD Video»: los vídeos de los briefings del juego reescalados
+nolffan/nolf2src                                      # el README y el submódulo rez/ bajan las imágenes del juego de archive.org para compilar
+nolffan/nolfsrc                                       # el README y el submódulo rez/ bajan las imágenes del juego de archive.org para compilar
+nsneverhax/guitar-hero-3-deluxe                       # trae ejecutables del juego: platform/xbox/default.xex y default-note-limit-fix.xex (11 MB), EBOOT.BIN de PS3 y los qb.pab/qb.pak modificados de cada plataforma; además es un mod de parcheo, no un port
+Pa3uk/Splatterhouserecomp                             # enlaza el juego: las releases de GitHub traen Assets (assets.part1-3.rar, unos 5,4 GB), DLC.rar y un default.rar con el default.xex; el repo solo tiene un README
+PaulCombal/mw2-recompiled                             # el lanzador baja la actualización de título 6 de un repo de terceros (codxenon/xbox360-title-updates)
+pearlxcore/KillzoneShadowFall-PC                      # publica como release una caché de shaders del juego (StarterCache, 107 MB)
+RandomityGuy/MBHaxe                                   # trae datos del juego (data/ con unos 4.800 archivos: interiores .dif, texturas y demás de Marble Blast)
+RemakerGamee/rush2049-original-pc                     # los instaladores Remastered traen un paquete de 5.957 texturas
+RetroPortingToolKit/Wipeout-3-Special-Edition-Recomp  # trae datos del juego: analysis/assets-rip (unos 3.400 archivos extraídos del disco, entre ellos audio decodificado en WAV)
+rhubix74-tech/Pepsiman-Recompiled-Decluttered         # port a navegador (WebAssembly) que solo trae la página web; no corre nativo en PC
+SAT-R/sa2                                             # trae datos del juego (sprites extraídos en PNG, tilemaps .bin, chao_garden/data/rom_data.bin) y no pide tu copia
+shatter9652/uDPR                                      # trae datos del juego: shaders originales (setup/data/shaders, hasta 22 MB cada uno) y el código C# reconstruido del juego (Assets/Scripts, 7.800 archivos)
+sloppinheimer/genma-onimusha-port                     # su pack HD (sloppinheimer/genma-onimusha-hd-pack, ~4 GB) son texturas y películas del juego ampliadas
+soldieg/BLACK-XBERecomp                               # la release v2.0.0 (505 MB) trae un textures.zip de texturas del juego
+spacefarergames/AloneInTheDarkReHaunted               # trae datos del juego (Assets/ con miles de archivos: fondos Assets/JACK/CAMERA16_*.png y atlas de cuerpos extraídos del juego; releases de 600 a 715 MB)
+spacefarergames/CV64-Recomp                           # no pide el juego propio: la release de 550 MB dice «no necesitas ROM»; híbrido sobre el núcleo mupen64plus y trae binarios de compilación
+spacefarergames/EcstaticaRecompiled                   # trae la base de datos de Ghidra del juego (ghidra_project/E2RecompProject.rep), el desensamblado original_disasm.txt y el ejecutable reconstruido; release de 574 MB
+spacefarergames/Goemon64Remastered                    # código cerrado con una release de 1,1 GB que no se puede comprobar; el mismo autor trae datos del juego en otros cuatro repos
+spacefarergames/Heretic2Remastered                    # trae datos del juego en la release (HereticIIRemastered_R8_0.7z, 1,6 GB, con el base.pak de texturas HD, música OGG y vídeos del juego); además commitea binarios y .pdb de compilación
+spacefarergames/JerseyDevilRemaster                   # trae datos y código originales del juego: jdpc/jdpc.exe (ejecutable original), la base de datos de Ghidra jdpc.rep y una release de 785 MB
+Warsen/SuperMarioBros-C                               # fork de MitchellSternke/SuperMarioBros-C: trae el desensamblado y las tablas de datos del juego
+weisserw/ducktales-port                               # trae datos del juego: input/game.rom (131.088 bytes, ROM de NES) en el repositorio
+weisserw/super-off-road-port                          # trae la ROM del juego (input/game.rom, 512 KB) y su workflow de Pages la empaqueta en una versión para navegador
+XAndromedaXR/PORTHEON                                 # releases con cachés de shaders y una partida inicial; 3 commits propios sobre el port de UFC 3 ya fichado
+Yash-Singh1/wipeout-xl-rewrite                        # guarda en el repo un pack de texturas sacado del juego (texture-packs/, de DuckStation)
+
+# ── Emuladores o núcleos de emulador ──
+DionSantosGG/Driveclub-pc-wrapper-linux               # es un emulador: fork de shadPS4 (el README lo llama personal hobby fork of the shadPS4 PS4 emulator) que además pide los módulos del sistema (sys_modules) de tu consola
+Endprodukt/cruisin-usa-pc                             # es un emulador de la placa V-Unit hecho a medida (núcleos de CPU de MAME, lo dice su README) y el fork trae el código fuente y los gráficos originales (.TGA) de historicalsource/cruisin-usa
+JamesIV4/zombies-ate-my-neighbors-dx                  # es un emulador: mod de emulador que trae BizHawk y un núcleo bsnes-hd en un zip de 172 MB y parchea la ROM; no es un port nativo
+mamesj/pokemon-fulldex                                # es un emulador: frontend con los núcleos melonDS y mGBA (bifurcación de ssrecomp que ya está en el catálogo)
+ReiniShari/Pinball-NS                                 # es un emulador: el propio README dice que el programa contiene un emulador de Game Boy Color (núcleo en ensamblador) que engancha las rutinas del juego
+wanszai/Ridge-Racer-Collection                        # es un emulador (el repositorio lo llama «System 22 Emulator») y solo tiene un README con binarios cerrados en las releases
+wanszai/Sega-Rally-Championship-PC-Xbox360-Series-X-  # es un emulador (envoltorio de emulación para PC y consolas) y solo tiene un README con binarios cerrados en las releases
+wanszai/Virtua-Fighter---XboxOne-Windows              # es un emulador (envoltorio de emulación del Model 1) y solo tiene un README con binarios cerrados en las releases
+
+# ── No corren en PC ──
+edeegg/Legends-Recomp                                 # no corre en PC: solo Android (APK); el repo tiene únicamente el README y un icono
+GTTeancum/Perfect-Dark-X                              # no corre en PC: es un port a la Xbox original (nxdk); además trae datos del juego en src/assets (JSON de pads y otros)
+SandstoneDev/PS2RC                                    # no corre en PC: PS2RC convierte un disco de PS2 (GTA San Andreas) en una carpeta de juego para PSP con firmware personalizado
+
+# ── No son el port de un juego (juegos originales, hacks de ROM, otros) ──
+dplauncher/DP1-Launcher                               # repo de otro tipo: lanzador de parches (DPfix, DXVK, parche de 4 GB) para la versión de Steam del juego original, no recompila ni porta nada
+opdx0/nfl-blitz-2027                                  # hack de ROM, no corre en PC: parche (blitz2027.bpz) para el CHD de blitz2k que se juega en MAME
+Pyrdacor/Amberstar                                    # repo de otro tipo: documentación de formatos y gráficos del juego extraídos (carpeta Graphics con cientos de PNG)
+taisei-project/taisei                                 # juego original, no es port (fangame de Touhou con su propio juego)
+
+# ── Forks sin cambios propios ──
+enderandrew/sm_rewrite                                # fork sin cambios propios relevantes: 5 commits de CMake y Emscripten sobre testyourmine/sm_rewrite (fork de snesrev/sm, ya catalogado como ports/super-metroid.yaml); parado desde marzo de 2024
+GABRIELNNK/ReChan                                     # fork casi sin cambios propios (un commit de idioma portugués, 50 por detrás de SilverwireGames/ReChan); ya está en el catálogo como ports/jackie-chan-stuntmaster.yaml
+GTTeancum/DimensionsRecomp                            # fork sin cambios propios sustanciales: 1 commit por delante (interfaz del Toy Pad) y 3 por detrás de NeverCookFirst/DimensionsRecomp, sin releases y con el README apuntando a las del original, que ya está en el catálogo como recomps/lego-dimensions.yaml
+mstan/FinalFantasyVSNESRecomp                         # fork sin cambios propios: mstan/FinalFantasyVSNESRecomp va 0 commits por delante y 20 por detrás de brainWave4/FinalFantasyVSNESRecomp, que además es un andamiaje que su README dice que no es todavía un port que funcione
+mstan/medievil-ii-recomp                              # fork sin cambios propios (0 commits por delante de alexbeavs-ps1-ports/medievil-ii-recomp, que ya está en el catálogo como recomps/medievil-ii.yaml)
+mstan/medievil-recomp                                 # fork sin cambios propios (0 por delante de alexbeavs-ps1-ports/medievil-recomp) y README de plantilla que no dice que se juegue
+mstan/StarOceanSNESRecomp                             # fork de SupraBT/StarOceanSNESRecomp con historial reescrito (2 commits): solo genera una biblioteca estática, no un ejecutable jugable, y sus notas dicen que el juego aún corre bajo un intérprete 65816; el proyecto activo es el repo padre
+SheepStealer2001/Sheep-Dog-n-Wolf-Rewooled            # fork sin cambios propios (0 por delante, 2 por detrás de SDW-Community/Sheep-Dog-n-Wolf-Rewooled); ya está en el catálogo como ports/sheep-dog-n-wolf-rewooled.yaml
+spacefarergames/AITD4HDPCRecomp                       # fork sin cambios propios (un commit de README y 11 por detrás de blackopsrepl/aitdtnn-pc-overhaul, el proyecto real, que no está en el catálogo)
+
+# ── Ya en el catálogo con otro repo ──
+elliotttate/Wind-Waker-Recomp                         # ya está en el catálogo como recomps/bluewake.yaml (es un fork de BlueWake que se fusiona con él)
+TechnicallyComputers/Final-Fantasy-VII                # ya está en el catálogo como recomps/final-fantasy-vii.yaml (mismo proyecto: la ficha va con el fork de mstan, que tiene 5 commits más, la release más reciente y un README con contenido); este README es de plantilla y no dice que se juegue
+tmcleroy/vampire-savior-recomp                        # ya está en el catálogo como recomps/vampire-savior-the-lord-of-vampire.yaml (el proyecto se mudó a tmcleroy/cps2recomp)

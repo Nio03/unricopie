@@ -1,0 +1,17 @@
+name: "Ares (Antares Windows edition)"
+games: [ares]
+category: source-port
+console: mac
+status: playable
+repo: Hardpartying4u/Antares-Windows
+originalDeveloper: "Bigger Planet"
+year: 1998
+desc:
+  es: "Bifurcación no oficial para Windows de Antares, el port de código abierto de Ares, de Nathan Lamont (Bigger Planet), con cambios propios: compilación nativa con MSVC, escala de interfaz por números enteros, controles remapeables con ajustes preestablecidos (clásico, moderno con ratón y moderno con WASD), selección por cuadro, órdenes con el botón derecho, grupos de control con barra, zoom con la rueda, mandos XInput y DirectInput, y un modo Arena con cuatro batallas. Quita el juego en red y la demo del menú. Trae el arte original y una versión ampliada 2× y 4× con IA (Real-ESRGAN) que se elige en las opciones de vídeo. Ares apareció en 1998 y su código fuente y sus medios se publicaron en 2008: los datos del juego van en el repositorio y la versión, con licencia CC BY-NC-SA 3.0, y el código con LGPL 3 o posterior. La 1.0 (21 de octubre) es un zip de unos 142 MB; en el primer arranque descarga unos 12 MB de efectos de sonido. 98 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial Windows fork of Antares, the open-source port of Ares by Nathan Lamont (Bigger Planet), with its own changes: a native MSVC build, integer interface scaling, rebindable controls with presets (classic, modern with mouse, and modern with WASD), box selection, right-click orders, control groups with a bar, wheel zoom, XInput and DirectInput gamepads, and an Arena mode with four battles. It removes network play and the demo from the menu. It ships the original art and a 2× and 4× AI-upscaled version (Real-ESRGAN) chosen in the video options. Ares appeared in 1998 and its source code and media were released in 2008: the game’s data is in the repository and the release, under CC BY-NC-SA 3.0, and the code under LGPL 3 or later. Version 1.0 (October 21) is a zip of about 142 MB; on first launch it downloads about 12 MB of sound effects. 98 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "No hace falta tu propia copia: los datos del juego los publicó su autor en 2008 con licencia Creative Commons de uso no comercial y van incluidos. Windows 10 u 11 de 64 bits y conexión a internet una vez, en el primer arranque, para descargar los efectos de sonido que faltan."
+  en: "You don’t need your own copy: the game’s data was released by its author in 2008 under a non-commercial Creative Commons licence and is included. 64-bit Windows 10 or 11, and an internet connection once, on first launch, to download the missing sound effects."
+tags:
+  - rts
+  - ai-assisted

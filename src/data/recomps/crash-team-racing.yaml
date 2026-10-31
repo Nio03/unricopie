@@ -1,0 +1,18 @@
+name: "Crash Team Racing"
+games: [crash-team-racing]
+console: ps1
+status: experimental
+repo: TechnicallyComputers/Crash-Team-Racing-Recomp
+originalDeveloper: "Naughty Dog"
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Crash Team Racing (versión estadounidense, SCUS-94426) con psxrecomp y recomp-ui. El repositorio incluye el código C generado a partir del ejecutable del juego (carpeta generated). Su README avisa de que el juego tiene problemas graves que hay que depurar, en concreto que la pantalla posterior a la carrera no carga al elegir Change Level, y dice que, cuando sea estable, volverá al catálogo de su lanzador. Publica zips para Windows, Linux y macOS (de entre 28 y 53 MB) que no hemos comprobado por dentro; la 0.2.6 (1 de octubre) es la última. 2 de sus 57 commits llevan a Claude como coautor."
+  en: "A static recompilation of Crash Team Racing (US version, SCUS-94426) with psxrecomp and recomp-ui. The repository includes the C code generated from the game’s executable (the generated folder). Its README warns that the game has critical issues still to be debugged, specifically that the post-race screen doesn’t load after choosing Change Level, and says that once it is stable it will return to its launcher’s catalog. It publishes zips for Windows, Linux, and macOS (between 28 and 53 MB) that we haven’t checked inside; version 0.2.6 (October 1) is the latest. 2 of its 57 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de Crash Team Racing (PS1, EE. UU., SCUS-94426) en .cue y .bin. La BIOS de la consola no hace falta: usa OpenBIOS. Windows, Linux o macOS."
+  en: "Your own Crash Team Racing disc image (PS1, USA, SCUS-94426) as .cue and .bin. A console BIOS isn’t needed: it uses OpenBIOS. Windows, Linux, or macOS."
+tags:
+  - mips
+  - racing
+  - ai-assisted

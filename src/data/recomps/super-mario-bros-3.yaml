@@ -1,0 +1,20 @@
+name: "Super Mario Bros. 3"
+games: [super-mario-bros-3]
+console: nes
+status: experimental
+repo: Adoregabriel2005/mushroomrecompiled
+originalDeveloper: "Nintendo"
+year: 1988
+toolchain: nesrecomp
+desc:
+  es: "Port nativo experimental y no oficial de Super Mario Bros. 3, llamado Mushroom Recompiled: el código del 6502 se traduce a C con NESRecomp y se compila de forma nativa, y el runtime sincroniza la PPU, la APU, el DMA y el mapper MMC3. Ofrece pantalla ancha 16:9 en las fases horizontales (el HUD queda centrado), escalado por píxeles enteros, presentación con Vulkan, scanlines, salida de audio a 44,1, 48 o 96 kHz, teclado y mando con teclas redefinibles, selector de ROM, guardado de SRAM, cinco ranuras de estado y repeticiones de sesión. El README avisa de que el juego completo aún no se ha validado y de que parte del código se escribió o editó con herramientas de IA. Las releases (7, todas marcadas como preliminares; la última, 1.4.0-exp, del 19 de octubre) incluyen el ejecutable ya compilado, que contiene código traducido del juego aunque no la ROM, y el aviso de licencias advierte de que los paquetes históricos conservados pueden contener materiales de terceros; el repositorio no incluye ROM ni código generado de ella."
+  en: "An experimental, unofficial native port of Super Mario Bros. 3, called Mushroom Recompiled: the 6502 code is translated to C with NESRecomp and compiled natively, and the runtime keeps the PPU, APU, DMA, and the MMC3 mapper in sync. It offers 16:9 widescreen in horizontal stages (the HUD stays centered), whole-pixel scaling, Vulkan presentation, scanlines, audio output at 44.1, 48, or 96 kHz, keyboard and gamepad with remappable keys, a ROM picker, SRAM saves, five save-state slots, and session replays. The README warns that the full game hasn’t been validated yet and that parts of the code were written or edited with AI tools. The releases (7, all marked as pre-releases; the latest, 1.4.0-exp, from October 19) include the prebuilt executable, which contains code translated from the game though not the ROM, and the license notice warns that preserved historical packages may contain third-party materials; the repository contains neither the ROM nor code generated from it."
+requirements:
+  es: "Tu propia copia de Super Mario Bros. 3 (USA, PRG1); también acepta volcados de goodNES y No-Intro Rev 1 porque comparten el mismo contenido de PRG y CHR. Otras revisiones no son compatibles. Windows (con el zip de la release) o Linux (compilando desde el código, con Vulkan)."
+  en: "Your own copy of Super Mario Bros. 3 (USA, PRG1); goodNES and No-Intro Rev 1 dumps are also accepted because they share the same PRG and CHR content. Other revisions are not supported. Windows (with the release zip) or Linux (building from source, with Vulkan)."
+tags:
+  - "6502"
+  - platformer
+  - widescreen
+  - static-recomp
+  - ai-assisted

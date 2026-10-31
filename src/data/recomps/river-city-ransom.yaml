@@ -1,0 +1,19 @@
+name: "River City Ransom"
+games: [river-city-ransom]
+console: nes
+status: experimental
+repo: NJH-1001/RCRness
+originalDeveloper: "Technos Japan"
+year: 1989
+toolchain: nesrecomp
+desc:
+  es: "Proyecto de recompilación estática de River City Ransom (versión estadounidense de NES) con NESRecomp, publicado sin ROM, sin código generado y sin ejecutable jugable: el recompilador traduce el código del juego, así que un RCRness.exe jugable contendría código sacado de la ROM del usuario. Por eso las versiones publican solo un kit de código fuente y un programa de instalación para Windows, Linux (x86-64) y macOS (Intel y Apple Silicon) que verifica tu ROM por SHA-256, genera el código en tu equipo y compila el juego allí. Incluye un renderizador mejorado y una pantalla ancha adaptable, ambos experimentales: el README dice que no se han validado por completo la progresión del juego, las tiendas y los jefes, el juego con dos mandos físicos ni el juego en red. En Linux y macOS las compilaciones se probaron solo con datos sintéticos; el juego se prueba en Windows. La 0.1.7 (27 de octubre) es la última de ocho versiones."
+  en: "A static recompilation project for River City Ransom (US NES version) with NESRecomp, published with no ROM, no generated code, and no playable executable: the recompiler translates the game’s code, so a playable RCRness.exe would contain code derived from the user’s ROM. For that reason the releases only publish a source kit and a setup program for Windows, Linux (x86-64), and macOS (Intel and Apple Silicon) that verifies your ROM by SHA-256, generates the code on your machine, and builds the game there. It includes an enhanced renderer and adaptive widescreen, both experimental: the README says full game progression, shops and bosses, physical two-controller play, and netplay haven’t been fully validated. On Linux and macOS the builds were only tested with synthetic input; gameplay is tested on Windows. Version 0.1.7 (October 27) is the latest of eight releases."
+requirements:
+  es: "Tu propia ROM de River City Ransom (USA) para NES: mapeador 4 (MMC3), 8 bloques de 16 KiB de PRG y 16 de 8 KiB de CHR, sin trainer, SHA-256 B95F8DEF04C0012604B7CC68CF4ED8F49B2DFE4BEDA6182051DE4B2423BEA7B1. Además, Windows 10 u 11, Linux con glibc 2.35 o posterior (Ubuntu 22.04 o posterior) o macOS 14 o posterior; el instalador descarga las herramientas de compilación (Git, un compilador de C, CMake, Ninja y SDL2) y necesita internet en la primera compilación."
+  en: "Your own River City Ransom (USA) ROM for the NES: mapper 4 (MMC3), 8 × 16 KiB PRG and 16 × 8 KiB CHR, no trainer, SHA-256 B95F8DEF04C0012604B7CC68CF4ED8F49B2DFE4BEDA6182051DE4B2423BEA7B1. Plus Windows 10 or 11, Linux with glibc 2.35 or later (Ubuntu 22.04 or later), or macOS 14 or later; the setup downloads the build tools (Git, a C compiler, CMake, Ninja, and SDL2) and needs internet on the first build."
+tags:
+  - "6502"
+  - action
+  - widescreen
+  - static-recomp

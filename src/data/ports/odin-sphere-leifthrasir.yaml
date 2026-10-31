@@ -1,0 +1,20 @@
+name: "Odin Sphere Leifthrasir"
+games: [odin-sphere-leifthrasir]
+category: native-layer
+console: ps4
+status: experimental
+repo: saulob/odin-sphere-leifthrasir-pc
+originalDeveloper: "Vanillaware"
+year: 2016
+desc:
+  es: "Port nativo para Windows de la versión de PS4: el código x86-64 original corre en el procesador, un sustituto de las bibliotecas del sistema de la PS4 hace de sistema y un renderizador Vulkan derivado de shadPS4 traduce la GPU; no es un emulador y en Linux no usa Wine ni Proton. Su launcher (TRG) instala el juego a partir de tu archivo .pkg, con la opción de reinstalarlo, y ofrece modo ventana o pantalla completa sin bordes, relaciones de aspecto de 16:9 a 32:9, resolución de render de 480p a 4K, FSR 1, SMAA, filtrado anisotrópico, saltar la introducción, trofeos locales, actualización automática y diagnósticos. El README da Windows por la plataforma compatible; el AppImage de Linux (y la Steam Deck) es experimental y no se ha probado en equipos reales. La 0.2.0 (31 de octubre) es la última de 2 versiones. El README declara que se usaron herramientas de IA para analizar, desarrollar, depurar y documentar."
+  en: "A native Windows port of the PS4 version: the original x86-64 code runs on the CPU, a replacement for the PS4 system libraries serves as the system, and a Vulkan renderer derived from shadPS4 translates the GPU; it is not an emulator and on Linux it doesn’t use Wine or Proton. Its launcher (TRG) installs the game from your own .pkg file, with a reinstall option, and offers windowed or borderless fullscreen, aspect ratios from 16:9 to 32:9, render resolution from 480p to 4K, FSR 1, SMAA, anisotropic filtering, skipping the intro, local trophies, self-updating, and diagnostics. The README gives Windows as the supported platform; the Linux AppImage (and Steam Deck) is experimental and hasn’t been tested on real hardware. Version 0.2.0 (October 31) is the latest of 2 releases. The README discloses that AI tools were used to assist with code analysis, development, debugging, and documentation."
+requirements:
+  es: "Tu propio paquete .pkg descifrado de Odin Sphere Leifthrasir para PS4, de una de las versiones compatibles: la estadounidense (CUSA05083, 1.00), la japonesa (CUSA01290, base 1.00 con la actualización 1.02) o la europea (CUSA05262, base 1.00 con la actualización 1.01); las demás se rechazan. Además, Windows 10 (1903 o posterior) u 11 de 64 bits, un procesador con AVX y POPCNT, una tarjeta gráfica con Vulkan 1.3 y unos 4 GB libres."
+  en: "Your own decrypted Odin Sphere Leifthrasir PS4 .pkg package of a supported build: the US release (CUSA05083, 1.00), the Japanese release (CUSA01290, base 1.00 plus the 1.02 update), or the European release (CUSA05262, base 1.00 plus the 1.01 update); any other version is refused. Plus 64-bit Windows 10 (1903 or later) or 11, a CPU with AVX and POPCNT, a Vulkan 1.3 graphics card, and about 4 GB free."
+tags:
+  - x86
+  - vulkan
+  - action
+  - rpg
+  - ai-assisted

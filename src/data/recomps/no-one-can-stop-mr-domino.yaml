@@ -1,0 +1,16 @@
+name: "No One Can Stop Mr. Domino"
+games: [no-one-can-stop-mr-domino]
+console: ps1
+status: experimental
+repo: nikeymikey/DominoRecomp
+originalDeveloper: "ArtDink"
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de No One Can Stop Mr. Domino (versión estadounidense, SLUS-00804) con psxrecomp y recomp-ui: el código MIPS se traduce a C y se compila como un programa nativo de x64. El repositorio solo contiene configuración, scripts de compilación y notas; lo derivado del disco se genera en tu equipo. Según su README, el juego arranca, va a la velocidad correcta y las seis fases están cubiertas por la caché de superposiciones nativas, con lo que las instrucciones interpretadas por fotograma bajan de 2.405 a 77. La 0.1.0 (26 de agosto) no es una versión jugable sino un «setup host»: trae el lanzador, los emisores del recompilador y las fuentes, sin código del juego, y genera y compila el juego a partir de tu disco, lo que la primera vez lleva de 10 a 30 minutos y unos 4 GB."
+  en: "A static recompilation of No One Can Stop Mr. Domino (US version, SLUS-00804) with psxrecomp and recomp-ui: the MIPS code is translated to C and compiled into a native x64 program. The repository only holds configuration, build scripts, and notes; everything derived from the disc is produced on your PC. According to its README, the game boots, runs at the correct speed, and all six stages are covered by the native overlay cache, which brings interpreted instructions per frame down from 2,405 to 77. Version 0.1.0 (August 26) isn’t a playable build but a “setup host”: it contains the launcher, the recompiler emitters, and the sources, with no game code, and it generates and builds the game from your disc, which takes 10 to 30 minutes and about 4 GB the first time."
+requirements:
+  es: "Tu propio volcado del disco estadounidense (.cue y .bin): la pista 1 debe pesar 230.959.344 bytes, con SHA-1 34cb3806ff08fc014bcfe8bbadc915cd8d5a9258. Windows de 64 bits, Python 3, Git y unos 4 GB libres; el lanzador descarga una cadena de herramientas portátil de cmake y clang, o usa la que ya esté en el PATH. La BIOS de la consola es opcional, porque usa OpenBIOS."
+  en: "Your own dump of the US disc (.cue and .bin): track 1 must be 230,959,344 bytes, SHA-1 34cb3806ff08fc014bcfe8bbadc915cd8d5a9258. 64-bit Windows, Python 3, Git, and about 4 GB free; the launcher downloads a portable cmake and clang toolchain, or uses the one already on the PATH. A console BIOS is optional, since it uses OpenBIOS."
+tags:
+  - mips

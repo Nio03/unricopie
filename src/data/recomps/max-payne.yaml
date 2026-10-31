@@ -1,0 +1,23 @@
+name: "Max Payne"
+games: [max-payne]
+console: xbox
+status: playable
+repo: endmgs/payne-recompiled
+forkOf:
+  label: "phobos665/payne-recomp"
+  url: https://github.com/phobos665/payne-recomp
+originalDeveloper: "Remedy Entertainment"
+year: 2001
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación nativa no oficial de la versión de Xbox de Max Payne (2001) para Windows, bifurcada de phobos665/payne-recomp y construida sobre el kit xboxrecomp: el código del juego se tradujo a C y se compiló en un programa normal de Windows, con controles de teclado y ratón al estilo de la versión de PC, 60 fps, pantalla ancha, altas resoluciones y subtítulos. Su commit propio añade un lanzador que instala desde la imagen ISO, un modo de desarrollador (selección de capítulos, modo dios y armas), controles de PC y ajustes de resolución, filtrado y frecuencia de fotogramas. Los subtítulos, que el juego original no tiene, se hacen con scripts de Python que usan reconocimiento de voz sobre los archivos de voz del propio juego. Según el README se cargan y juegan los 66 niveles con entrada automática. La v1.0.0 (17 de octubre) es un zip de Windows de unos 13 MB con el programa ya compilado. 5 de sus 9 commits llevan a Claude como coautor."
+  en: "An unofficial native recompilation of the Xbox version of Max Payne (2001) for Windows, forked from phobos665/payne-recomp and built on the xboxrecomp toolkit: the game’s code was translated to C and compiled into a normal Windows program, with keyboard and mouse controls in the style of the PC release, 60 fps, widescreen, high resolutions, and subtitles. Its own commit adds a launcher that installs from the ISO image, a developer mode (chapter select, god mode, and weapons), PC controls, and settings for resolution, filtering, and frame rate. The subtitles, which the original game lacks, are made with Python scripts that run speech recognition over the game’s own speech files. According to the README all 66 levels load and play under scripted input. v1.0.0 (October 17) is a Windows zip of about 13 MB with the already built program. 5 of its 9 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Max Payne para Xbox, europea (En, Fr, Es, It), con default.xbe de SHA-1 49874fff1defd2b7923a1d61fd7bb1f41d206aa5; sirven imágenes XISO y redump completas. Las otras versiones necesitan su propia compilación. Windows, unos 5,7 GB libres."
+  en: "Your own disc image of Max Payne for Xbox, European (En, Fr, Es, It), with a default.xbe of SHA-1 49874fff1defd2b7923a1d61fd7bb1f41d206aa5; plain XISO and full redump images both work. Other versions need their own build. Windows, about 5.7 GB free."
+tags:
+  - x86
+  - action
+  - widescreen
+  - "60fps+"
+  - ai-assisted

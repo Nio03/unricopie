@@ -1,0 +1,19 @@
+name: "Super Punch-Out!!"
+games: [super-punch-out]
+console: snes
+status: playable
+repo: TanookiStudios/SuperPunchOutRecomp
+originalDeveloper: "Nintendo"
+year: 1994
+toolchain: snesrecomp
+desc:
+  es: "Versión nativa para Mac, Windows y Linux de la versión estadounidense, hecha con el framework snesrecomp de mstan: el programa del juego se traduce a código nativo, y las versiones publicadas son ejecutables con ese código ya compilado, sin los datos del juego, que se leen de tu ROM. Trae un launcher que comprueba tu ROM y ofrece ajustes de pantalla, sonido y controles, escalado entero nítido, un menú dentro del juego con guardado y carga de estados, silenciado de cada una de las ocho voces de sonido, trucos (superbarra llena, no recibir golpes, intentos infinitos, empezar contra cualquier luchador y saltar al siguiente combate) y más de 2 000 mandos reconocidos por nombre. La 0.1.4 (17 de octubre) es la última de 5 versiones; la de Mac está firmada y notarizada. 17 de sus 18 commits llevan a Claude como coautor."
+  en: "A native Mac, Windows, and Linux version of the US release, made with mstan’s snesrecomp framework: the game’s program is translated to native code, and the published releases are executables with that code already compiled, without the game’s data, which is read from your ROM. It has a launcher that checks your ROM and offers display, sound, and control settings, sharp integer scaling, an in-game menu with save states, a mute switch for each of the eight sound voices, cheats (a full super meter, can’t be hit, infinite tries, start against any fighter, and skip to the next fight), and over 2,000 controllers recognized by name. Version 0.1.4 (October 17) is the latest of 5 releases; the Mac build is signed and notarized. 17 of its 18 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM estadounidense de Super Punch-Out!! (SHA-256 a3d803b8c6b0b6ac55085671040b840f993543915c7f802e14fb651beabe9b63), que el launcher te pide y comprueba («ROM verified»). Mac (macOS 11 o posterior, Apple silicon o Intel), Windows de 64 bits o Linux de 64 bits de 2020 en adelante."
+  en: "Your own US Super Punch-Out!! ROM (SHA-256 a3d803b8c6b0b6ac55085671040b840f993543915c7f802e14fb651beabe9b63), which the launcher asks for and checks (“ROM verified”). Mac (macOS 11 or later, Apple silicon or Intel), 64-bit Windows, or 64-bit Linux from 2020 on."
+tags:
+  - "65816"
+  - sports
+  - static-recomp
+  - ai-assisted

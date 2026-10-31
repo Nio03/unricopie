@@ -1,0 +1,19 @@
+name: "Marvel Ultimate Alliance / Marvel Ultimate Alliance 2 (saulob)"
+games: [marvel-ultimate-alliance, marvel-ultimate-alliance-2]
+console: x360
+status: playable
+repo: saulob/marvel-ultimate-alliance-bundle-recompiled
+originalDeveloper: "Raven Software / Vicarious Visions"
+year: 2006
+toolchain: ReXGlue
+desc:
+  es: "Paquete que reúne Marvel Ultimate Alliance, su edición Gold y Marvel Ultimate Alliance 2 de Xbox 360, recompilados de forma estática con el SDK de ReXGlue para correr de forma nativa en Windows (Direct3D 12) y, de forma experimental, en Linux y la Steam Deck (un AppImage con Vulkan). Cada juego se instala por separado desde tus paquetes del disco con el lanzador TRG. Ofrece resolución de render hasta 4x, pantalla ultrapanorámica, NVIDIA DLSS (solo en Windows y con RTX), AMD FSR 1 y 3.1 y tasas de fotogramas altas, además de trucos desde el lanzador y un menú en el juego (F10). La 0.2.0 (29 de octubre) es la última versión; trae los entornos de DLSS y FSR dentro del zip de Windows (unos 88 MB) y un AppImage de unos 55 MB. El README dice que no se incluyen archivos de los juegos."
+  en: "A bundle that brings together Marvel Ultimate Alliance, its Gold Edition, and Marvel Ultimate Alliance 2 for Xbox 360, statically recompiled with the ReXGlue SDK to run natively on Windows (Direct3D 12) and, experimentally, on Linux and the Steam Deck (a Vulkan AppImage). Each game is installed separately from your disc packages with the TRG launcher. It offers render resolution up to 4x, ultrawide, NVIDIA DLSS (Windows and RTX only), AMD FSR 1 and 3.1, and high frame rates, plus cheats from the launcher and an in-game menu (F10). Version 0.2.0 (October 29) is the latest; it carries the DLSS and FSR runtimes inside the Windows zip (about 88 MB) and an AppImage of about 55 MB. The README says no game files are included."
+requirements:
+  es: "Tu propia copia de cada juego que quieras (Marvel Ultimate Alliance, la edición Gold o Marvel Ultimate Alliance 2) para Xbox 360, como imagen de disco o paquete, que el lanzador copia y verifica. Windows 10 u 11 de 64 bits con Direct3D 12, o Linux x86-64 (experimental) con glibc 2.31 o superior, Vulkan y X11 o Wayland."
+  en: "Your own copy of each game you want (Marvel Ultimate Alliance, the Gold Edition, or Marvel Ultimate Alliance 2) for Xbox 360, as a disc image or package, which the launcher copies and verifies. 64-bit Windows 10 or 11 with Direct3D 12, or x86-64 Linux (experimental) with glibc 2.31 or later, Vulkan, and X11 or Wayland."
+tags:
+  - powerpc
+  - action
+  - "60fps+"
+  - widescreen

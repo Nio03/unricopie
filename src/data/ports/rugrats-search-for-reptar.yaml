@@ -1,0 +1,16 @@
+name: "Rugrats: Search for Reptar"
+games: [rugrats-search-for-reptar]
+category: game-engine
+console: ps1
+status: fully
+repo: Toyz/rugrats
+originalDeveloper: "n-Space"
+year: 1998
+desc:
+  es: "Reconstrucción en Rust, como juego nativo de PC, de Rugrats: Search for Reptar (PlayStation, n-Space / THQ, 1998, SLUS-00650), hecha a partir de una ingeniería inversa del original. Lee tu propio disco: no hay emulador, ni BIOS, ni se ejecuta código de PlayStation. Su README dice que se puede jugar de principio a fin: todos los niveles se pueden jugar y ganar, de los logotipos a los créditos, con el centro de Pickles’ Home, el tablero de puzles de Reptar con sus doce piezas, Reptar 2010, el minigolf de uno o dos jugadores, todas las cinemáticas con sus voces, música y sincronía labial, las partidas guardadas como archivos y el teclado o el mando con la palanca analógica del DualShock. Su batería de pruebas gana todos esos niveles con un bot que solo usa palanca y botones, y una bitácora recoge lo que sigue abierto. No publica versiones: se compila con Rust. Su última actividad es del 23 de octubre."
+  en: "A Rust rebuild, as a native PC game, of Rugrats: Search for Reptar (PlayStation, n-Space / THQ, 1998, SLUS-00650), made from a reverse engineering of the original. It plays your own disc: there is no emulator, no BIOS, and no PlayStation code runs. Its README says it plays start to finish: every level can be played and won, from the logos to the credits, including the Pickles’ Home hub, the Reptar puzzle board with its twelve pieces, Reptar 2010, one- or two-player mini golf, every cinematic with its voices, music, and lip sync, saves as plain files, and keyboard or gamepad with the DualShock’s analog stick. Its test suite wins all those levels with a bot that uses only the stick and the buttons, and a worklog records what is still open. It publishes no releases: you build it with Rust. Its last activity was on October 23."
+requirements:
+  es: "Tu propia imagen de disco de la versión norteamericana (SLUS-00650) como .cue con su .bin, en work/disc/ dentro del repositorio o indicada en la línea de órdenes; las demás regiones no se admiten. Una tarjeta gráfica con Vulkan, Metal o DirectX 12, Git y la versión estable actual de Rust (en Windows, también las herramientas de C++ de Visual Studio). Windows, Linux o macOS."
+  en: "Your own disc image of the North American release (SLUS-00650) as a .cue with its .bin, in work/disc/ inside the checkout or passed on the command line; other regions aren’t supported. A graphics card with Vulkan, Metal, or DirectX 12, Git, and the current stable Rust (on Windows, also the Visual Studio C++ build tools). Windows, Linux, or macOS."
+tags:
+  - reverse-engineering

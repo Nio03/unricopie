@@ -1,0 +1,20 @@
+name: "Gundam Wing: Endless Duel"
+games: [mobile-suit-gundam-wing-endless-duel]
+console: snes
+status: playable
+repo: TechnicallyComputers/GundamWingEndlessDuelSNESRecomp
+originalDeveloper: "Natsume"
+year: 1996
+toolchain: snesrecomp
+desc:
+  es: "Recompilación estática para PC de la versión japonesa para Super Nintendo, construida sobre snesrecomp. El código del juego se traduce a C en tu equipo a partir de tu propia ROM y se compila allí; el C generado nunca se sube al repositorio. El README dice que el juego arranca y recorre partidas de historia asistidas, y que la pantalla ancha y la localización son paquetes opcionales: el repositorio trae un catálogo de mods con pantalla ancha, traducciones y un registro de rendimiento. Admite dos jugadores, un mando por puerto, y tiene juego en red con rollback disponible. Las versiones son paquetes de instalación: el zip lleva un lanzador sin código recompilado, el recompilador y el código fuente, y construye el juego con tu ROM la primera vez, para Windows, Linux y macOS. La última, la v0.1.12, es del 26 de octubre. 58 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Japanese Super Nintendo version for PC, built on snesrecomp. The game’s code is translated to C on your machine from your own ROM and compiled there; the generated C is never committed to the repository. The README says the game boots and runs through assisted story matches, and that widescreen and localization are optional packages: the repository ships a mod catalog with widescreen, translations, and a performance log. It supports two players, one controller per port, and has netplay with rollback available. The releases are setup packs: the zip holds a launcher without recompiled code, the recompiler, and the source tree, and builds the game from your ROM on first run, for Windows, Linux and macOS. The latest, v0.1.12, is from October 26. 58 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM japonesa «Shin Kidou Senki Gundam W - Endless Duel (Japan).sfc» (Bandai, 1996, LoROM, sin coprocesador), con CRC32 c0aecdca y SHA-256 dd94308d822636c6ddf73c5e2644c84f2eb8fb4d9201150fc5f37d44d6f423f1; el script de generación rechaza cualquier otra revisión."
+  en: "Your own Japanese ROM “Shin Kidou Senki Gundam W - Endless Duel (Japan).sfc” (Bandai, 1996, LoROM, no coprocessor), with CRC32 c0aecdca and SHA-256 dd94308d822636c6ddf73c5e2644c84f2eb8fb4d9201150fc5f37d44d6f423f1; the generation script refuses any other revision."
+tags:
+  - "65816"
+  - fighting
+  - widescreen
+  - netplay
+  - ai-assisted

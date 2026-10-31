@@ -1,0 +1,21 @@
+name: "Super Hang-On"
+games: [super-hang-on]
+console: megadrive
+status: playable
+repo: ElFDA/SuperHangOn-MD-Recomp
+originalDeveloper: "Sega"
+year: 1989
+desc:
+  es: "Recompilación de Super Hang-On de Mega Drive que corre de forma nativa en Linux y Windows. Va a 60 cuadros por segundo reales (la lógica del juego se ejecuta dos veces por tic original, sin cuadros interpolados) o a 120 en pantallas de 120 Hz, con menos retardo de entrada, carreras en 16:9 y 21:9, filtros CRT, estados de guardado con varias ranuras, rebobinado de hasta 20 segundos, un modo Relax sin cronómetro ni rivales, dirección analógica y clasificaciones y récords que se conservan. El sonido usa el controlador Z80 original del juego con YM2612 y PSG emulados. La release no trae código del juego: se traduce de tu ROM la primera vez que arranca y se guarda en una caché. El autor reconoce que aún no le convencen los filtros CRT y deja pendientes una moto más ágil, el sonido en el modo demostración y la selección de música. La 0.2.0 (17 de septiembre) es la última de 2 versiones. Sus 13 commits llevan a Claude como coautor."
+  en: "A recompilation of the Mega Drive Super Hang-On that runs natively on Linux and Windows. It runs at a true 60 frames per second (the game logic runs twice per original tick, with no interpolated frames) or at 120 on 120 Hz screens, with reduced input lag, 16:9 and 21:9 races, CRT filters, save states with several slots, rewind of up to 20 seconds, a Relax mode with no timer or rivals, analog steering, and rankings and records that persist. Sound uses the game’s own Z80 driver with emulated YM2612 and PSG. The release contains no game code: it is translated from your ROM the first time it starts and kept in a cache. The author admits he is not yet happy with the CRT filters and lists a more responsive bike, sound in demo mode, and music selection as to-dos. Version 0.2.0 (September 17) is the latest of 2 releases. All 13 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de la ROM de Mega Drive, el volcado de No-Intro «Super Hang-On (Japan, USA) (En,Ja)» (SHA-1 ecfd7b3bf4dcbee472ddf2f9cdbe968a05b814e0, CRC32 cb2201a3, 524.288 bytes), copiada junto al ejecutable con el nombre baserom.md. En Linux hace falta SDL2; la versión de Windows ya lo incluye. La carpeta del juego debe poder escribirse."
+  en: "Your own copy of the Mega Drive ROM, the No-Intro dump “Super Hang-On (Japan, USA) (En,Ja)” (SHA-1 ecfd7b3bf4dcbee472ddf2f9cdbe968a05b814e0, CRC32 cb2201a3, 524,288 bytes), placed next to the executable and named baserom.md. SDL2 is needed on Linux; the Windows release already includes it. The game’s folder must be writable."
+tags:
+  - "68000"
+  - z80
+  - racing
+  - widescreen
+  - 60fps+
+  - static-recomp
+  - ai-assisted

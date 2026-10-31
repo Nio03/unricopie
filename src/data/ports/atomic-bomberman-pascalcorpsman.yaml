@@ -1,0 +1,19 @@
+name: "Atomic Bomberman (PascalCorpsman)"
+games: [atomic-bomberman]
+category: fan-remake
+console: pc
+status: playable
+repo: PascalCorpsman/fpc_atomic
+originalDeveloper: "Interplay"
+year: 1997
+desc:
+  es: "Recreación de código abierto de Atomic Bomberman (Interplay, 1997) en Free Pascal, centrada solo en el multijugador, con una pila de red TCP/IP moderna en lugar del IPX original, una IA propia y soporte de mandos con SDL2. No tiene modo de un jugador y no todas las pantallas del menú original funcionan; el botón de bomba para cargar aún no está implementado. El repositorio no trae gráficos ni sonidos: un extractor propio los saca de los archivos de tu disco y un lanzador descarga y actualiza el resto del programa. Para ver todas las animaciones, el README recomienda un paquete de ampliación comunitario (ani.zip) alojado fuera de GitHub. La última versión, la 0.13003 (2 de octubre), publica ejecutables para Windows y Linux. 29 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An open-source recreation of Atomic Bomberman (Interplay, 1997) in Free Pascal, focused only on multiplayer, with a modern TCP/IP network stack in place of the original IPX, its own AI, and gamepad support through SDL2. It has no single-player mode and not every screen of the original menu works; the carry-bomb feature isn’t implemented yet. The repository holds no graphics or sound: its own extractor pulls them from the files of your disc and a launcher downloads and updates the rest of the program. To get all the animations, the README recommends a community expansion pack (ani.zip) hosted outside GitHub. The latest version, 0.13003 (October 2), publishes executables for Windows and Linux. 29 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "El contenido del CD de tu propia copia de Atomic Bomberman, guardado en el disco duro, del que el extractor del lanzador saca los gráficos, sonidos y música. Opcionalmente, el paquete comunitario ani.zip, descomprimido en la subcarpeta DATA/ANI. Windows o Linux."
+  en: "The CD content of your own copy of Atomic Bomberman, stored on your hard drive, from which the launcher’s extractor pulls the graphics, sound, and music. Optionally the community ani.zip pack, unzipped into the DATA/ANI subfolder. Windows or Linux."
+tags:
+  - multiplayer
+  - netplay
+  - action
+  - ai-assisted

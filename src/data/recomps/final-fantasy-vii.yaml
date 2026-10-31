@@ -1,0 +1,22 @@
+name: "Final Fantasy VII"
+games: [final-fantasy-vii]
+console: ps1
+status: experimental
+repo: mstan/Final-Fantasy-VII
+forkOf:
+  label: TechnicallyComputers/Final-Fantasy-VII
+  url: https://github.com/TechnicallyComputers/Final-Fantasy-VII
+originalDeveloper: "Square"
+year: 1997
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de Final Fantasy VII (versión estadounidense, con sus tres discos) con psxrecomp y recomp-ui, en una bifurcación de TechnicallyComputers/Final-Fantasy-VII con 5 commits propios que su autor propone al repositorio original. El repositorio incluye el código C generado a partir del ejecutable del juego (carpeta generated) y nombres para unas 1.100 funciones, importados del mapa de símbolos de ff7-decomp de Xeeynamo (solo las direcciones; su código no se usa). La 0.1.8 (31 de octubre) es un zip de Windows de unos 25 MB que no hemos comprobado por dentro; pone por defecto una resolución interna de 4x (de 1x a 32x en el menú de mods), cambia de disco automáticamente cuando el juego lo pide si se configuran los tres, y conserva los controles digitales originales y la pantalla ancha, todavía experimental. Usa OpenBIOS. El README no dice hasta dónde se ha jugado. 12 de sus 52 commits llevan a Claude como coautor."
+  en: "A static recompilation of Final Fantasy VII (US version, with its three discs) with psxrecomp and recomp-ui, in a fork of TechnicallyComputers/Final-Fantasy-VII with 5 commits of its own that its author proposes to the original repository. The repository includes C code generated from the game’s executable (the generated folder) and names for about 1,100 functions, imported from Xeeynamo’s ff7-decomp symbol map (addresses only; its code isn’t used). Version 0.1.8 (October 31) is a Windows zip of about 25 MB that we haven’t checked inside; it defaults to 4x internal resolution (1x to 32x in the mods menu), switches discs automatically when the game asks if all three are configured, and keeps the original digital controls and the still-experimental widescreen. It uses OpenBIOS. The README doesn’t say how far the game has been played. 12 of its 52 commits list Claude as a co-author."
+requirements:
+  es: "Tus propias imágenes de los tres discos de la versión estadounidense (SCUS-94163, SCUS-94164 y SCUS-94165), como pares .cue y .bin que se eligen en el lanzador o se colocan en la carpeta disc; para el cambio automático de disco hay que configurar los tres. No hace falta la BIOS de la consola, porque usa OpenBIOS. Windows de 64 bits."
+  en: "Your own images of the three US discs (SCUS-94163, SCUS-94164, and SCUS-94165), as .cue and .bin pairs chosen in the launcher or placed in the disc folder; automatic disc switching needs all three configured. No console BIOS is needed, since it uses OpenBIOS. 64-bit Windows."
+tags:
+  - mips
+  - rpg
+  - widescreen
+  - ai-assisted
