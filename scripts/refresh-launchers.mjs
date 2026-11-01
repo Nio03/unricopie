@@ -58,6 +58,12 @@ const READERS = {
     const src = await getText(url);
     return [...src.matchAll(/["']github_repo["']\s*:\s*["']([^"']+)["']/g)].map((m) => repoOf(m[1]));
   },
+  // RecompLauncher: { apps: [{ repo: "owner/repo", soon?, … }] }. Las marcadas
+  // «soon» (próximamente) todavía no se pueden instalar.
+  async recomplauncher(url) {
+    const data = await getJson(url);
+    return (data.apps ?? []).filter((a) => !a.soon).map((a) => repoOf(a.repo));
+  },
   // Quiver: API paginada ({ items, nextCursor, isDone }). El repo de cada app
   // solo viene en su detalle, así que se guarda en `cache` y solo se pregunta
   // por las apps nuevas.

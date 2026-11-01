@@ -117,7 +117,7 @@ const tools = defineCollection({
     // Listas de juegos que publica un launcher. scripts/refresh-launchers.mjs
     // las lee a diario para saber qué proyectos del catálogo instala.
     manifests: z
-      .array(z.object({ url: z.string().url(), format: z.enum(['ghl', 'ports-launcher', 'quiver', 'known-recomps']) }))
+      .array(z.object({ url: z.string().url(), format: z.enum(['ghl', 'ports-launcher', 'quiver', 'known-recomps', 'recomplauncher']) }))
       .default([]),
     repo: repoSlug.optional(),
     repoUrl: z.string().url().optional(),

@@ -1,0 +1,16 @@
+name: RecompLauncher
+kind: launcher
+repo: elripalda/RecompLauncher
+author: elripalda
+status: beta
+manifests:
+  - url: https://recomplauncher.com/pc-catalog.json
+    format: recomplauncher
+desc:
+  es: "Launcher para encontrar, instalar, actualizar y jugar recompilaciones y ports de PC, con el catálogo de recomplauncher.com. Instala cada proyecto desde la release de su autor en GitHub y comprueba la descarga con la suma de verificación de GitHub; en los que lo admiten, prepara el juego a partir de tu imagen de disco o de la carpeta del juego, y los autores pueden añadir a su release un recomplauncher.json para la instalación en un clic. Muestra una sola vez los juegos con más de un proyecto, instala con un clic los mods de Thunderstore de los recomps que tienen comunidad allí, hace copia de las partidas antes de cada actualización y las guarda en la nube con una cuenta gratuita, y tiene un modo Big Picture para jugar con mando en el televisor y reportes de los jugadores sobre cómo funciona cada juego. Nació como RecompStore, una tienda homebrew para la PS5 con jailbreak: anunció el salto a PC el 26 de octubre de 2026 y publicó su primera beta el 30, para Windows y Linux, con macOS anunciado. Está hecho en Rust con Tauri. No tiene relación con ReComp Launcher, de ZakyPew. Sus 11 commits llevan a Claude como coautor."
+  en: "Launcher for finding, installing, updating, and playing PC recompilations and ports, with the recomplauncher.com catalog. It installs each project from its author’s GitHub release and checks the download against GitHub’s checksum; for the projects that support it, it sets up the game from your disc image or game folder, and authors can add a recomplauncher.json to their release for one-click setup. It shows games with more than one project only once, installs Thunderstore mods in one click for the recomps that have a community there, backs up your saves before every update and keeps them in the cloud with a free account, and has a Big Picture mode for playing with a controller on a TV and player reports on how each game runs. It started as RecompStore, a homebrew store for jailbroken PS5s: it announced the jump to PC on October 26, 2026, and released its first beta on the 30th, for Windows and Linux, with macOS announced. It is written in Rust with Tauri. It is unrelated to ReComp Launcher, by ZakyPew. All 11 of its commits list Claude as a co-author."
+tags:
+  - downloader
+  - auto-update
+  - mods
+  - ai-assisted
