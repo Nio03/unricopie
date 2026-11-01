@@ -1,0 +1,20 @@
+name: "Amped 2 (Nico-D-eu)"
+games: [amped-2]
+console: xbox
+status: playable
+repo: Nico-D-eu/RE-Amped2
+originalDeveloper: "Indie Built"
+year: 2003
+desc:
+  es: "RE-Amped2 lleva Amped 2 (Microsoft Game Studios / Indie Built, 2003, Xbox original) a Windows como juego nativo. No es un emulador: el código del juego se traduce a C y se compila en un programa de Windows en tu equipo, a partir de tu propio disco. Según el README corre a 60 fps estables, en pantalla ancha, hasta 4K y más, con mando y teclado, y admite mods (paquetes, sustituciones de archivos y scripts) y paquetes de texturas de reemplazo. Está en acceso anticipado: el juego entero se puede jugar, pero hay fallos. No se incluye ni se descarga ningún archivo del juego; el repositorio incluye unas texturas de marca propias (logotipo, pantallas de arranque) que sustituyen a las originales. La versión 0.2.1 es del 30 de octubre. El repositorio incluye un AGENTS.md con reglas para agentes de IA."
+  en: "RE-Amped2 brings Amped 2 (Microsoft Game Studios / Indie Built, 2003, original Xbox) to Windows as a native game. It is not an emulator: the game’s code is translated to C and compiled into a Windows program on your PC, from your own disc. According to the README it runs at a steady 60 fps, in widescreen, at up to 4K and beyond, with controller and keyboard support, and supports mods (packs, single-file replacements, and scripts) and replacement texture packs. It is in early access: the whole game is playable, but there are bugs. No game files are included or downloaded; the repository includes the project’s own branding textures (logo, boot splashes) that replace the originals. Version 0.2.1 is from October 30. The repository includes an AGENTS.md with rules for AI coding agents."
+requirements:
+  es: "Tu propia imagen de disco de Amped 2 (.iso o .xiso), de la edición de EE. UU. o de la europea y australiana. Windows 10 u 11 de 64 bits con una tarjeta DirectX 11, unos 6 GB libres y, si faltan las herramientas de compilación gratuitas, hasta 7 GB más en C: y conexión a internet durante la instalación."
+  en: "Your own Amped 2 disc image (.iso or .xiso), from the USA or the European and Australian release. 64-bit Windows 10 or 11 with a DirectX 11 card, about 6 GB free and, if the free build tools are missing, up to 7 GB more on C: and an internet connection during installation."
+tags:
+  - x86
+  - sports
+  - widescreen
+  - 60fps+
+  - mods
+  - static-recomp

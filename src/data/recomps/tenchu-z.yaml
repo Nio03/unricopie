@@ -1,0 +1,20 @@
+name: "Tenchu Z"
+games: [tenchu-z]
+console: x360
+status: playable
+repo: 8bitninja64/TenchuZ-PC
+originalDeveloper: "K2"
+year: 2006
+toolchain: XenonRecomp
+desc:
+  es: "Port nativo para Windows y Linux (con Steam Deck) de la versión de Xbox 360, hecho por recompilación estática: el ejecutable de la 360 se traduce por adelantado a C++ con XenonRecomp (15.666 funciones en 62 unidades) y se enlaza con un runtime nativo, sin emulación; sigue el planteamiento de The Darkness Recomp. Según el README, el juego arranca, reproduce vídeos, música y sonido y ejecuta los menús, el escondite y las misiones con renderizado D3D11 a los 30 fps originales; el procesador de comandos Xenos se traduce a HLSL, el audio usa XAudio2 (SDL3 en Linux) y el decodificador XMA se emula con FFmpeg. Ofrece 60 fps o más, escalado de resolución hasta 4×, HDR10, oclusión ambiental, nitidez, MSAA hasta 8× y cualquier mando. Aún faltan la pantalla ancha más allá de 16:9 y los logros. La release no contiene código ni datos del juego: en el primer arranque compila el código a partir de tu disco (unos 2 minutos). La versión 0.3.2 es del 26 de octubre. Sus 100 últimos commits llevan todos a Claude como coautor."
+  en: "A native Windows and Linux (with Steam Deck) port of the Xbox 360 version, made by static recompilation: the 360 executable is translated ahead of time to C++ with XenonRecomp (15,666 functions in 62 units) and linked against a native runtime, with no emulation; it follows the approach of The Darkness Recomp. According to the README, the game boots, plays movies, music, and sound, and runs the menus, the hideout, and missions with D3D11 rendering at the original 30 fps; the Xenos command processor is translated to HLSL, audio uses XAudio2 (SDL3 on Linux), and the XMA decoder is emulated with FFmpeg. It offers 60 fps and higher, resolution scaling up to 4x, HDR10, ambient occlusion, sharpening, MSAA up to 8x, and any controller. Widescreen beyond 16:9 and achievements are not done yet. The release contains no game code or data: on first launch it compiles the code from your disc (about 2 minutes). Version 0.3.2 is from October 26. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen .iso de Tenchu Z (USA, Europe) para Xbox 360. En Windows 10 u 11 de 64 bits con una tarjeta Direct3D 11, además Python 3.11 o posterior y las Build Tools de Visual Studio 2022 con C++ y Clang, necesarias una vez; en Linux y Steam Deck todo lo necesario, compilador incluido, viene con el juego."
+  en: "Your own Tenchu Z (USA, Europe) Xbox 360 .iso image. On 64-bit Windows 10 or 11 with a Direct3D 11 card, also Python 3.11 or later and the Visual Studio 2022 Build Tools with C++ and Clang, needed once; on Linux and Steam Deck everything needed, compiler included, comes with the game."
+tags:
+  - powerpc
+  - action
+  - 60fps+
+  - static-recomp
+  - ai-assisted

@@ -1,0 +1,20 @@
+name: "NBA Hangtime"
+games: [nba-hangtime]
+console: n64
+status: fully
+repo: 8bitninja64/HangtimeRecomp
+originalDeveloper: "Midway"
+year: 1997
+desc:
+  es: "Port nativo no oficial para Windows, Linux y Steam Deck de la versión de N64, hecho por recompilación estática: el código del juego se traduce a partir de tu ROM y se compila en tu equipo la primera vez que arrancas, en uno o dos minutos. El README dice que se puede jugar de principio a fin, con menús, cuatro cuartos, descanso, estadísticas y resultados finales, y que lo probó en una Steam Deck. Ofrece hasta cuatro jugadores con mandos y teclado, partidas guardadas con el propio código de la tarjeta de memoria del juego, 17 de los trucos originales más Always On Fire desde el launcher, 60 fps, pantalla ancha 16:9 real, opciones de resolución, antialiasing y filtrado, controles reasignables y actualizaciones integradas. No incluye código ni recursos del juego; los paquetes de la release (unos 93 MB en Windows) traen el programa y las herramientas para construirlo. La versión 0.1.1 es del 20 de octubre."
+  en: "An unofficial native port for Windows, Linux, and Steam Deck of the N64 version, made by static recompilation: the game’s code is translated from your ROM and compiled on your PC the first time you start it, in a minute or two. The README says it is playable from start to finish, with menus, four quarters, halftime, stats, and final results, and that it was tested on a Steam Deck. It offers up to four players on gamepads and keyboard, saves through the game’s own Controller Pak code, 17 of the original cheats plus Always On Fire from the launcher, 60 fps, true 16:9 widescreen, resolution, anti-aliasing, and filtering options, rebindable controls, and built-in updates. It includes no game code or assets; the release packages (about 93 MB on Windows) hold the program and the tools to build it. Version 0.1.1 is from October 20."
+requirements:
+  es: "Tu propia ROM de NBA Hangtime (USA) en .z64, .n64 o .v64 (SHA-256 6e1304d5bf8922a652f4063f9d26120ac8c3e9af2a5f8a4f4bc733cf003edf83). Windows 64 bits (con el redistribuible de Visual C++ x64) o Linux x86-64, incluida la Steam Deck."
+  en: "Your own NBA Hangtime (USA) ROM as .z64, .n64, or .v64 (SHA-256 6e1304d5bf8922a652f4063f9d26120ac8c3e9af2a5f8a4f4bc733cf003edf83). 64-bit Windows (with the Visual C++ x64 Redistributable) or x86-64 Linux, including Steam Deck."
+tags:
+  - mips
+  - sports
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - static-recomp

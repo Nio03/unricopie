@@ -1,0 +1,20 @@
+name: "40 Winks (DreaXer)"
+games: [40-winks]
+console: n64
+status: experimental
+repo: DreaXer/40WinksRecomp
+originalDeveloper: "Eurocom"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC, llamado 40 Winks : Dreamcompiled, hecho por recompilación estática del código del juego con N64: Recompiled, que usa RT64 para dibujar y añade mejoras como altas tasas de fotogramas y pantalla ancha. Es una versión temprana: sus mundos 1 y 2, con su jefe, se han jugado de principio a fin sin fallos, y el resto no se ha probado, así que su autor avisa de que habrá problemas y recomienda copias de seguridad de las partidas. Solo admite la edición final de Piko Interactive (Europa); el prototipo anterior no. Por ahora solo hay versión para Windows. Ni el repositorio ni las releases contienen recursos del juego. La versión 0.3.0 es del 30 de octubre."
+  en: "A native PC port, called 40 Winks : Dreamcompiled, made by statically recompiling the game’s code with N64: Recompiled, which uses RT64 for rendering and adds enhancements such as high framerates and widescreen. It is an early release: worlds 1 and 2, with its boss, have been played from start to finish without bugs, and the rest hasn’t been tested, so its author warns of problems and recommends backing up saves. It supports only the final Piko Interactive (Europe) release; the earlier prototype isn’t supported. For now there is only a Windows build. Neither the repository nor the releases contain game assets. Version 0.3.0 is from October 30."
+requirements:
+  es: "Tu propia ROM de 40 Winks, edición final de Piko Interactive (Europa), código de cabecera N4WZ, SHA-1 282b97c6a6eb79535e618fc2651b6156fff65ea4. Windows 10 u 11 de 64 bits, una GPU con Direct3D 12.0 (Shader Model 6) o Vulkan 1.2 y una CPU con AVX."
+  en: "Your own 40 Winks ROM, the final Piko Interactive (Europe) release, header code N4WZ, SHA-1 282b97c6a6eb79535e618fc2651b6156fff65ea4. 64-bit Windows 10 or 11, a GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2, and a CPU with AVX."
+tags:
+  - mips
+  - platformer
+  - widescreen
+  - 60fps+
+  - static-recomp

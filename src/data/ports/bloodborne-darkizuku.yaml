@@ -1,0 +1,22 @@
+name: "Bloodborne (DarkIzuku)"
+games: [bloodborne]
+category: native-layer
+console: ps4
+status: experimental
+repo: DarkIzuku/bloodborne_pc
+originalDeveloper: "FromSoftware"
+year: 2015
+desc:
+  es: "Bifurcación independiente para Windows del port nativo de deadinside28 (bbport), con unos 130 commits propios por delante. El código x86-64 del juego se ejecuta directamente en la CPU, el runtime sustituye las bibliotecas del sistema de la PS4 y un renderizador derivado de shadPS4 traduce los gráficos a Vulkan. Añade un launcher en WPF, menús de PC dentro del juego, salida de 1080p a 4K y ultraancha 21:9 y 32:9, 30, 60, 90 y 120 fps o sin límite, DLSS con selección de modelo, FSR 3.1, FSR 4 y TAA nativo, teclado y ratón reasignables, cámara con ratón, mods y ajustes como la edición del aspecto en el Sueño del Cazador. Su README avisa de que es experimental y de que las pruebas automáticas no garantizan que funcione cada zona, mod o configuración. El paquete portátil (unos 217 MB) incluye el launcher con su runtime de .NET, Python y las dependencias. La versión v0.4.1-stability.6 es del 22 de octubre. 2 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An independent Windows fork of deadinside28’s native port (bbport), with about 130 commits of its own ahead. The game’s x86-64 code runs directly on the CPU, the runtime replaces the PS4’s system libraries, and a renderer derived from shadPS4 translates the graphics to Vulkan. It adds a WPF launcher, native PC menus in the game, output from 1080p to 4K and 21:9 and 32:9 ultrawide, 30, 60, 90, and 120 fps or unlimited, DLSS with model selection, FSR 3.1, FSR 4, and native TAA, remappable keyboard and mouse, mouse camera, mods, and options such as appearance editing in Hunter’s Dream. Its README warns it is experimental and that automated tests don’t establish that every area, mod, or configuration works. The portable package (about 217 MB) includes the launcher with its .NET runtime, Python, and dependencies. Version v0.4.1-stability.6 is from October 22. 2 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia compatible de Bloodborne 1.09 para PS4, con sus módulos necesarios, como carpeta de juego. Windows 10 (versión 1803 o posterior) u 11, una CPU x86-64, una GPU con Vulkan 1.3 y suficiente memoria, archivo de paginación y disco."
+  en: "Your own compatible Bloodborne 1.09 copy for PS4, with its required modules, as a game folder. Windows 10 (version 1803 or newer) or 11, an x86-64 CPU, a Vulkan 1.3 GPU, and enough RAM, page file, and storage."
+tags:
+  - x86
+  - rpg
+  - action
+  - vulkan
+  - mods
+  - 60fps+
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Naruto: Clash of Ninja"
+games: [naruto-clash-of-ninja, naruto-clash-of-ninja-2, naruto-gekitou-ninja-taisen-3, naruto-gekitou-ninja-taisen-4]
+console: gamecube
+status: playable
+repo: mapleleafjack/ClashOfNinja-recomp
+originalDeveloper: "Eighting"
+year: 2003
+toolchain: gcn-recomp
+desc:
+  es: "Versiones nativas para Windows y macOS de cuatro juegos de GameCube de la serie (Naruto: Clash of Ninja, Clash of Ninja 2 y Gekitou Ninja Taisen! 3 y 4), hechas por recompilación estática con gcn-recomp: el código PowerPC se traduce a C y se enlaza con un runtime que implementa el hardware de la consola, de modo que no es un emulador y, según el README, corre de 7 a 9,5 veces más rápido que los 60 fps de la consola. Un launcher con las portadas de los cuatro juegos escribe el proyecto de cada uno en su propia carpeta, lee los mapas de símbolos de tu disco y construye el juego en tu equipo, en unos minutos; en Windows descarga antes unos 190 MB de herramientas de compilación. El repositorio no contiene datos del juego ni carpetas de los juegos. Para Linux solo hay compilación desde el código. La versión 1.5.1 es del 29 de octubre. Los 37 commits del repositorio llevan a Claude como coautor."
+  en: "Native Windows and macOS builds of four GameCube games in the series (Naruto: Clash of Ninja, Clash of Ninja 2, and Gekitou Ninja Taisen! 3 and 4), made by static recompilation with gcn-recomp: the PowerPC code is translated to C and linked against a runtime that implements the console’s hardware, so it isn’t an emulator and, per the README, runs 7 to 9.5 times faster than the console’s 60 fps. A launcher with covers for the four games writes each one’s project into its own folder, reads the symbol maps from your disc, and builds the game on your PC in a few minutes; on Windows it first downloads about 190 MB of build tools. The repository contains no game data and no game folders. On Linux there is only a build from source. Version 1.5.1 is from October 29. All 37 of the repository’s commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de cada juego que quieras (IDs GNREDA, GNUEDA, G3NJDA y G4NJDA), en ISO, CISO, RVZ, WIA, GCZ, WBFS, TGC o NFS; se lee una vez y luego se puede borrar. Windows 10 u 11 de 64 bits sin más requisitos, o macOS 14 o posterior con Apple Silicon y un compilador de C++ (xcode-select --install)."
+  en: "Your own disc image of each game you want (IDs GNREDA, GNUEDA, G3NJDA, and G4NJDA), as ISO, CISO, RVZ, WIA, GCZ, WBFS, TGC, or NFS; it is read once and can then be deleted. 64-bit Windows 10 or 11 with nothing else, or macOS 14 or later on Apple Silicon with a C++ compiler (xcode-select --install)."
+tags:
+  - powerpc
+  - fighting
+  - static-recomp
+  - ai-assisted

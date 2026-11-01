@@ -1,0 +1,19 @@
+name: "Until Dawn"
+games: [until-dawn]
+category: native-layer
+console: ps4
+status: playable
+repo: SuperCatElvis/UntilDawn_PC
+originalDeveloper: "Supermassive Games"
+year: 2015
+desc:
+  es: "Recompilación nativa de la versión original de PS4 de Until Dawn (2015) para Windows, que ejecuta su código x86-64 original sobre una capa de compatibilidad con la PS4 y un renderizador propio en Vulkan, sin emulación de consola. Según el README, se ha completado una partida entera, del prólogo a los créditos, en el PC de desarrollo con la versión WIP 0.1.3; las posteriores solo se han probado en sesiones más cortas, y el proyecto sigue siendo un trabajo en curso con fallos gráficos, cierres, pausas por compilación de shaders y caídas de fotogramas. La 0.2.1 prepara los shaders antes de empezar. Admite mandos DualSense, DualShock 4 y Xbox, teclado y ratón, el capítulo extra «The Road Not Taken» y saltarse vídeos. El repositorio publica el código completo (la capa de compatibilidad, el renderizador, el traductor de shaders GCN a SPIR-V y las herramientas) sin código ni datos del juego. La versión 0.2.1 es del 30 de octubre. 1 de sus 32 commits lleva a Claude como coautor."
+  en: "A native recompilation of the original PS4 version of Until Dawn (2015) for Windows, running its original x86-64 code on a PS4 compatibility layer with a custom Vulkan renderer, with no console emulation. According to the README, a full playthrough, from the prologue to the end credits, was completed on the development PC with WIP 0.1.3; later versions have only been tested in shorter sessions, and the project remains a work in progress with graphical glitches, crashes, shader-compilation pauses, and frame-rate drops. Version 0.2.1 prepares shaders before starting. It supports DualSense, DualShock 4, and Xbox controllers, keyboard and mouse, the bonus chapter “The Road Not Taken,” and movie skipping. The repository publishes the full source (the compatibility layer, the renderer, the GCN to SPIR-V shader translator, and the tools) with no game code or data. Version 0.2.1 is from October 30. 1 of its 32 commits lists Claude as a co-author."
+requirements:
+  es: "Tu propio volcado descifrado de Until Dawn de PS4 (CUSA02636) con la actualización 01.03 aplicada. Windows 10 u 11 de 64 bits, una CPU x86-64 con AVX (en la práctica Intel Core de cuarta generación o Ryzen y posteriores), una GPU con controlador Vulkan 1.3, unos 50 GB de disco y 16 GB de memoria recomendados; el README avisa de que aún no hay especificaciones mínimas verificadas."
+  en: "Your own decrypted dump of Until Dawn for PS4 (CUSA02636) with update 01.03 applied. 64-bit Windows 10 or 11, an x86-64 CPU with AVX (in practice 4th-generation Intel Core or Ryzen and newer), a Vulkan 1.3 GPU driver, about 50 GB of disk, and 16 GB of memory recommended; the README says no minimum specifications are verified yet."
+tags:
+  - x86
+  - horror
+  - vulkan
+  - ai-assisted

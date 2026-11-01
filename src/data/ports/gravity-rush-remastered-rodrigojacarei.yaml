@@ -1,0 +1,19 @@
+name: "Gravity Rush Remastered (rodrigojacarei)"
+games: [gravity-rush-remastered]
+category: native-layer
+console: ps4
+status: experimental
+repo: rodrigojacarei/grr_pc
+originalDeveloper: "Japan Studio"
+year: 2015
+desc:
+  es: "Port nativo para Linux x86-64 y Windows 10 y 11 de Gravity Rush Remastered (PS4, CUSA01130). Se ejecuta de forma nativa con Vulkan 1.3 y SDL3, con tasas de fotogramas de 60, 120, 144 y 240 o sin límite, renderizado a 4K o a resolución personalizada, escalado espacial FSR de AMD con control de nitidez, mandos de DualShock 4, DualSense, Xbox y Switch con una guía interactiva y reasignación, y teclado y ratón. Las releases son una AppImage y un tar.gz para Linux y un zip para Windows, autocontenidos. No incluye recursos ni binarios de la PS4: se vuelcan de tu copia el ejecutable, los módulos, los archivos de datos (unos 9,5 GB) y el mapa de archivos. La versión más reciente, del 30 de octubre, no lleva número sino la fecha y el hash del commit. El README no declara qué partes del juego funcionan."
+  en: "A native port for x86-64 Linux and 64-bit Windows 10 and 11 of Gravity Rush Remastered (PS4, CUSA01130). It runs natively with Vulkan 1.3 and SDL3, with frame rates of 60, 120, 144, and 240 or unlimited, 4K or custom-resolution rendering, AMD FSR spatial upscaling with sharpness control, DualShock 4, DualSense, Xbox, and Switch controllers with an interactive guide and remapping, and keyboard and mouse. Releases are a self-contained AppImage and tar.gz for Linux and a zip for Windows. It includes no PS4 assets or binaries: the executable, modules, data archives (about 9.5 GB), and file index are dumped from your copy. The most recent release, from October 30, carries no version number but the date and the commit hash. The README does not state which parts of the game work."
+requirements:
+  es: "Tu propio volcado de Gravity Rush Remastered de PS4 (CUSA01130): eboot.bin, sce_module/libc.prx y libSceFios2.prx, la carpeta arc/ (unos 9,5 GB), sce_sys/ y sce_discmap.plt; opcionalmente libSceNgs2.sprx de la consola para el audio. Linux x86-64 con glibc 2.39 o posterior o Windows 10 u 11 de 64 bits, una GPU con Vulkan 1.3 y 4 GB de VRAM como mínimo."
+  en: "Your own dump of Gravity Rush Remastered for PS4 (CUSA01130): eboot.bin, sce_module/libc.prx and libSceFios2.prx, the arc/ folder (about 9.5 GB), sce_sys/, and sce_discmap.plt; optionally libSceNgs2.sprx from the console for audio. x86-64 Linux with glibc 2.39 or later or 64-bit Windows 10 or 11, and a Vulkan 1.3 GPU with at least 4 GB of VRAM."
+tags:
+  - x86
+  - action
+  - vulkan
+  - 60fps+

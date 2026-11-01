@@ -1,0 +1,19 @@
+name: "Midnight Club 3: DUB Edition (SickSartori)"
+games: [midnight-club-3-dub-edition]
+category: native-layer
+console: xbox
+status: playable
+repo: SickSartori/mc3port
+originalDeveloper: "Rockstar Games"
+year: 2005
+desc:
+  es: "mc3port es un port no oficial para Windows de Midnight Club 3: DUB Edition Remix de la Xbox original (edición europea). No es una remasterización: el código x86 del propio juego se ejecuta de forma nativa en el PC, y el port sustituye lo que lo rodeaba en la Xbox: el núcleo del sistema, el chip gráfico NV2A (sobre Direct3D 11), el chip de sonido (sobre XAudio2) y los mandos (sobre XInput). Ofrece 16:9 real con el modo de pantalla ancha del propio juego, 60 fps o los 30 de la Xbox, resolución interna de hasta 4× con filtrado anisotrópico, efectos opcionales (resplandor, nitidez adaptativa, color, viñeta y oclusión ambiental), un launcher que comprueba tu disco, un menú dentro del juego, teclado reasignable y mandos de Xbox para hasta cuatro jugadores. El repositorio no contiene nada del juego; la música de fondo del launcher se generó con IA (ElevenLabs Music) para el proyecto. La versión 0.2.3 es del 1 de noviembre."
+  en: "mc3port is an unofficial Windows port of Midnight Club 3: DUB Edition Remix for the original Xbox (European release). It is not a remaster: the game’s own x86 code runs natively on the PC, and the port replaces what surrounded it on the Xbox: the system kernel, the NV2A graphics chip (on Direct3D 11), the sound chip (on XAudio2), and the controllers (on XInput). It offers true 16:9 using the game’s own widescreen mode, 60 fps or the Xbox’s 30, internal resolution up to 4x with anisotropic filtering, optional effects (light glow, adaptive sharpening, colour, vignette, and ambient occlusion), a launcher that checks your disc, an in-game menu, rebindable keyboard, and Xbox controllers for up to four players. The repository contains nothing from the game; the launcher’s background music was AI-generated (ElevenLabs Music) for the project. Version 0.2.3 is from November 1."
+requirements:
+  es: "Una imagen de disco (.iso, XISO o volcado Redump completo) de tu propio Midnight Club 3: DUB Edition Remix de Xbox, edición europea (En, Fr, De, Es, It), cuyo default.xbe tiene SHA-256 29d866afda9c54590a854fdfa98cf6e69d871dd3fc02da20bbbf76c3582c7b09; otras ediciones aún no se admiten. Windows 10 u 11 de 64 bits y una tarjeta con Direct3D 11 (nivel 11_0); el procesador cuenta más que la tarjeta."
+  en: "A disc image (.iso, XISO, or full Redump dump) of your own Midnight Club 3: DUB Edition Remix for Xbox, European release (En, Fr, De, Es, It), whose default.xbe has SHA-256 29d866afda9c54590a854fdfa98cf6e69d871dd3fc02da20bbbf76c3582c7b09; other releases are not supported yet. 64-bit Windows 10 or 11 and a Direct3D 11 card (feature level 11_0); the processor matters more than the graphics card."
+tags:
+  - x86
+  - racing
+  - widescreen
+  - 60fps+

@@ -1,0 +1,20 @@
+name: "Stuntman"
+games: [stuntman]
+console: ps2
+status: playable
+repo: LAB0ULANGE/stuntman-pc
+originalDeveloper: "Reflections Interactive"
+year: 2002
+desc:
+  es: "Port nativo no oficial para Windows de la versión de PS2, hecho traduciendo el programa de la consola a C++ y compilándolo para el PC, sin emulador. Usa el motor ps2-port-engine de Daniel Gomes Vieira, ampliado para este juego, con un renderizador Vulkan. Ofrece resoluciones más altas (de la original a 3×), pantalla ancha y ultraancha, suavizado y mandos, y mantiene los 25 imágenes por segundo del juego. El README lo marca como alfa: se puede jugar la carrera y sus escenas de riesgo, pero quedan fallos. Los datos se leen de tu ISO. La versión 0.1.1-alpha es del 31 de octubre y quita el requisito de AVX2. Sus 100 últimos commits llevan todos a Claude como coautor."
+  en: "An unofficial native Windows port of the PS2 version, made by translating the console’s program into C++ and compiling it for the PC, with no emulator. It uses Daniel Gomes Vieira’s ps2-port-engine, extended for this game, with a Vulkan renderer. It offers higher resolutions (from the original up to 3x), widescreen and ultrawide, smoothing, and gamepad support, and keeps the game’s 25 frames per second. The README marks it as alpha: the career and its stunts can be played, but bugs remain. The data is read from your ISO. Version 0.1.1-alpha is from October 31 and drops the AVX2 requirement. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ISO de Stuntman, edición europea (SLES-50288); el programa la pide y la comprueba en el primer arranque. Windows 10 u 11 de 64 bits, una CPU de 4 núcleos rápidos (mínimo orientativo i5-12400 o Ryzen 5 5600) y una tarjeta con Vulkan 1.3 (mínimo estimado RTX 3060 o RX 6600)."
+  en: "Your own Stuntman ISO, European release (SLES-50288); the program asks for it and checks it on first launch. 64-bit Windows 10 or 11, a fast 4-core CPU (indicative minimum i5-12400 or Ryzen 5 5600), and a Vulkan 1.3 card (estimated minimum RTX 3060 or RX 6600)."
+tags:
+  - emotion-engine
+  - racing
+  - widescreen
+  - vulkan
+  - static-recomp
+  - ai-assisted

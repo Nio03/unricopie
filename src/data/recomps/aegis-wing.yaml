@@ -1,0 +1,22 @@
+name: "Aegis Wing"
+games: [aegis-wing]
+console: x360
+status: playable
+repo: CaiusCodes/Aegis-Wing-XBLA-PC-Recomp
+originalDeveloper: "Carbonated Games"
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Versión nativa para Windows de Aegis Wing, el matamarcianos de Xbox Live Arcade de 2007, creada por recompilación estática con ReXGlue. Admite hasta 4K y 60 fps estables en el juego, teclado y ratón, mandos de Xbox, cooperativo local para cuatro jugadores y multijugador en LAN y en línea mediante servicios de LAN virtual. La primera vez que se arranca, lee el paquete de Xbox 360 que aportas, comprueba que sea la versión admitida e importa los datos del juego a su propia carpeta; el repositorio no contiene ejecutable, gráficos, sonido, música ni datos del juego. La release es un zip de unos 11 MB que se ejecuta sin instalar nada más. La versión 0.9.1 es del 7 de octubre. 13 de sus 25 commits llevan a Claude como coautor."
+  en: "A native Windows version of Aegis Wing, the 2007 Xbox Live Arcade shoot-’em-up, created by static recompilation with ReXGlue. It supports up to 4K and a stable 60 fps in gameplay, keyboard and mouse, Xbox controllers, local four-player co-op, and LAN and online multiplayer through virtual LAN services. The first time it starts, it reads the Xbox 360 package you provide, checks that it is the supported version, and imports the game data into its own folder; the repository contains no executable, graphics, sound, music, or game data. The release is a zip of about 11 MB that runs without installing anything else. Version 0.9.1 is from October 7. 13 of its 25 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio paquete de Aegis Wing de Xbox Live Arcade para Xbox 360 (Title ID 5841083C). Windows 10 u 11 de 64 bits y una tarjeta gráfica con DirectX 12; el runtime de Visual C++ viene incluido y el mando de Xbox es opcional."
+  en: "Your own Aegis Wing Xbox Live Arcade package for Xbox 360 (Title ID 5841083C). 64-bit Windows 10 or 11 and a DirectX 12 graphics card; the Visual C++ runtime is included and an Xbox controller is optional."
+tags:
+  - powerpc
+  - shmup
+  - multiplayer
+  - online
+  - 60fps+
+  - static-recomp
+  - ai-assisted

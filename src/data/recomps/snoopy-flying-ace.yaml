@@ -1,0 +1,19 @@
+name: "Snoopy Flying Ace"
+games: [snoopy-flying-ace]
+console: x360
+status: experimental
+repo: BTr-RJ/RedBaron_Recomp
+originalDeveloper: "Smart Bomb Interactive"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Recompilación nativa para Windows x64 de la versión de Xbox 360 de Snoopy Flying Ace, hecha con ReXGlue/ReXAuto. La v0.10 es una versión de pruebas públicas: un launcher instala el juego en tu equipo a partir de los archivos que aportas, extrae el contenido, genera el código y lo compila, con herramientas que detecta y descarga o que vienen en el paquete sin conexión (más de 1,7 GB). El paquete normal (unos 366 MB) trae el launcher, los fuentes del port y el SDK y el runtime; no se distribuyen archivos del juego ni DLC. Ofrece siete idiomas originales del juego, resoluciones de hasta 4K y superiores, escalado de renderizado, tasas de fotogramas altas con una corrección de tiempos del motor, FSR, DLSS (sin generación de fotogramas), HDR10 opcional, mapeo de teclado y mandos, pantalla dividida local, y juego en línea mediante Epic Online Services, con salas públicas y privadas, emparejamiento, logros y tablas de clasificación. La versión 0.10 es del 30 de octubre."
+  en: "A native Windows x64 recompilation of the Xbox 360 version of Snoopy Flying Ace, made with ReXGlue/ReXAuto. v0.10 is a public testing release: a launcher installs the game on your PC from the files you supply, extracting the content, generating the code, and compiling it, with tools it detects and downloads or that come in the offline package (over 1.7 GB). The normal package (about 366 MB) holds the launcher, the port’s sources, and the SDK and runtime; no game files or DLC are distributed. It offers the game’s seven original languages, resolutions up to 4K and beyond, render scaling, high frame rates with an engine timing correction, FSR, DLSS (no frame generation), optional HDR10, keyboard and controller mapping, local split-screen, and online play through Epic Online Services, with public and private lobbies, matchmaking, achievements, and leaderboards. Version 0.10 is from October 30."
+requirements:
+  es: "Tus propios archivos de Snoopy Flying Ace para Xbox 360 (Title ID 584109B5): carpeta extraída con default.xex o el paquete de contenido original, y opcionalmente los DLC jugables (sin artículos de avatar). Windows 10 u 11 de 64 bits con .NET Framework 4.8 y una GPU con Direct3D 12; espacio libre suficiente para la instalación, que ocupa más que el juego terminado, e internet para herramientas y EOS."
+  en: "Your own Snoopy Flying Ace Xbox 360 files (Title ID 584109B5): an extracted folder with default.xex or the original content package, and optionally the gameplay DLC (no avatar items). 64-bit Windows 10 or 11 with .NET Framework 4.8 and a Direct3D 12 GPU; enough free space for the installation, which takes more than the finished game, and internet access for tools and EOS."
+tags:
+  - powerpc
+  - online
+  - multiplayer
+  - static-recomp

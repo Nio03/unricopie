@@ -1,0 +1,20 @@
+name: "Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2"
+games: [shiritsu-justice-gakuen-nekketsu-seishun-nikki-2]
+console: ps1
+status: experimental
+repo: tolotratlt/rival-schools-nekketsu-seishun-nikki-2-recomp
+originalDeveloper: "Capcom"
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Kit de recompilación estática para la secuela de PlayStation de Rival Schools, solo editada en Japón (SLPS-02120), construido sobre psxrecomp y recomp-ui. El zip de la release no contiene datos del juego: ni imagen de disco, ni ejecutable, ni BIOS, ni código generado. Un asistente toma tu disco y tu BIOS, convierte el ejecutable en código C y compila el juego en tu equipo, algo que tarda varios minutos la primera vez. La versión 0.2.0 añade una traducción al inglés opcional, que se construye en un minuto a partir de tu propia imagen y aparece en la pestaña de mods del launcher, una entrada para salir en el selector de modo y un renderizador Vulkan opcional (OpenGL sigue por defecto). Su README lo describe como una puesta en marcha temprana. La 0.2.0 es del 25 de octubre."
+  en: "A static recompilation kit for the PlayStation sequel to Rival Schools, released only in Japan (SLPS-02120), built on psxrecomp and recomp-ui. The release zip contains no game data: no disc image, no executable, no BIOS, and no generated code. A wizard takes your disc and your BIOS, turns the executable into C code, and compiles the game on your PC, which takes several minutes the first time. Version 0.2.0 adds an optional English translation, built in a minute from your own image and listed in the launcher’s Mods tab, an Exit entry in the mode select, and an optional Vulkan renderer (OpenGL remains the default). Its README describes it as an early bring-up. Version 0.2.0 is from October 25."
+requirements:
+  es: "Tu propia imagen del disco japonés (SLPS-02120), .cue más .bin de una sola pista de datos (663.216.960 bytes, MD5 a7149a13c6992a20732d4ed2fd7e7611), y tu propio volcado de la BIOS SCPH-1001 (USA, SHA-256 71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3). Windows de 64 bits y Python 3; CMake y Ninja del sistema o las herramientas portátiles que descarga el asistente."
+  en: "Your own image of the Japanese disc (SLPS-02120), a .cue plus a single-data-track .bin (663,216,960 bytes, MD5 a7149a13c6992a20732d4ed2fd7e7611), and your own dump of the SCPH-1001 (USA) BIOS (SHA-256 71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3). 64-bit Windows and Python 3; CMake and Ninja from the system or the portable tools the wizard downloads."
+tags:
+  - mips
+  - fighting
+  - mods
+  - vulkan
+  - static-recomp

@@ -1,0 +1,19 @@
+name: "Plants vs. Zombies (Xbox 360)"
+games: [plants-vs-zombies]
+console: x360
+status: playable
+repo: ITSeniy/pvz-console-edition
+originalDeveloper: "PopCap Games"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Port no oficial para Windows de la edición de Xbox Live Arcade de Plants vs. Zombies, llamado Plants vs. Zombies: Console Edition, hecho por recompilación estática con ReXGlue: el código PowerPC original se traduce a x86-64 y corre como un programa normal de Windows, sin emulador. Conserva lo que aquella edición añadía respecto a la de PC (Versus local, cooperativo de dos jugadores y minijuegos extra) y le suma control completo con ratón en los menús, el jardín, todos los minijuegos y los modos multijugador. Según su README, la versión 0.7.0 es una beta que se puede jugar de principio a fin, con asperezas conocidas: no hay funciones en línea (tablas de clasificación, correo de Xbox LIVE y casas de amigos) y el modo Supervivencia Sin Fin aún no tiene clasificación local. No incluye archivos del juego; los lee de tu paquete XBLA o de una imagen de disco en el primer arranque. La 0.7.0 es del 15 de octubre. Sus 50 commits llevan todos a Claude como coautor."
+  en: "An unofficial Windows port of the Xbox Live Arcade edition of Plants vs. Zombies, called Plants vs. Zombies: Console Edition, made by static recompilation with ReXGlue: the original PowerPC code is translated to x86-64 and runs as a regular Windows program, with no emulator. It keeps what that edition added over the PC one (local Versus, two-player Co-op, and extra mini-games) and adds full mouse control in the menus, the lawn, every mini-game, and the multiplayer modes. According to its README, version 0.7.0 is a beta that can be played from start to finish, with known rough edges: there are no online features (leaderboards, Xbox LIVE mail, and friends’ houses) and Survival Endless has no local leaderboard yet. It includes no game files; it reads them from your XBLA package or a disc image on first launch. Version 0.7.0 is from October 15. All 50 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Plants vs. Zombies para Xbox 360: el paquete de Xbox Live Arcade o una imagen de disco (.iso) que contenga el juego. Windows de 64 bits."
+  en: "Your own copy of Plants vs. Zombies for Xbox 360: the Xbox Live Arcade package or a disc image (.iso) containing the game. 64-bit Windows."
+tags:
+  - powerpc
+  - multiplayer
+  - static-recomp
+  - ai-assisted

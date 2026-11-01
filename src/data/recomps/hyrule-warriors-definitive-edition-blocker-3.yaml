@@ -1,0 +1,22 @@
+name: "Hyrule Warriors: Definitive Edition (blocker-3)"
+games: [hyrule-warriors-definitive-edition]
+console: switch
+status: playable
+repo: blocker-3/HWDER
+originalDeveloper: "Omega Force"
+year: 2018
+desc:
+  es: "HWDER: Hyrule Warriors: Definitive Edition en PC de Windows y Linux, recompilado a partir de tu propia copia de Switch, sin emulador y sin archivos del juego en el repositorio. Un asistente de instalación descarga unas herramientas de compilación privadas (unos 260 MB) y construye el juego en tu equipo en varios minutos (unos 15 en una ROG Ally en Linux). Frente a la versión de Switch añade batallas a 120 fps opcionales, resolución de 0,5× a 3× de 1080p o sin límite, pantalla ultraancha con el HUD centrado en 16:9, filtrado anisotrópico, FXAA, nitidez, mandos reasignables con vibración y giroscopio, cooperativo local para dos jugadores en un mismo PC, soporte de mods (las estructuras LayeredFS de Switch sirven tal cual), memoria de juego de 3,2, 4 o 6 GB, la actualización 1.0.1 del juego, importación de partidas y un menú propio con F1. Es una bifurcación con unos 380 commits propios por delante del proyecto del que parte. La versión 0.3.3 (preliminar) es del 30 de octubre. 94 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "HWDER: Hyrule Warriors: Definitive Edition on Windows and Linux PCs, recompiled from your own Switch copy, with no emulator and no game files in the repository. A setup wizard downloads private build tools (about 260 MB) and builds the game on your PC in several minutes (about 15 on a ROG Ally running Linux). Over the Switch version it adds optional 120 fps battles, resolution from 0.5x to 3x of 1080p or unlocked, ultrawide with the HUD kept in a centered 16:9 area, anisotropic filtering, FXAA, sharpening, remappable controllers with rumble and gyro, two-player local co-op on one PC, mod support (Switch LayeredFS layouts work as they are), 3.2, 4, or 6 GB of game memory, the game’s 1.0.1 update, save import, and its own F1 menu. It is a fork with about 380 commits of its own ahead of the project it comes from. Version 0.3.3 (pre-release) is from October 30. 94 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado del juego (.nsp) y tu propio prod.keys de tu Switch, que se leen en cada arranque sin copiarse; opcionalmente la actualización 1.0.1. Windows 10 u 11 de 64 bits con controlador Vulkan 1.2 y una CPU con AVX2, o Linux x86-64 con glibc 2.35 o posterior, Vulkan 1.3, AVX2 y Python 3; varios GB libres para la compilación."
+  en: "Your own game dump (.nsp) and your own prod.keys from your Switch, which are read on every start and never copied; optionally the 1.0.1 update. 64-bit Windows 10 or 11 with a Vulkan 1.2 driver and an AVX2 CPU, or x86-64 Linux with glibc 2.35 or later, Vulkan 1.3, AVX2, and Python 3; several GB free for the build."
+tags:
+  - arm64
+  - action
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - mods
+  - static-recomp
+  - ai-assisted

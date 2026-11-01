@@ -1,0 +1,20 @@
+name: "Grand Theft Auto: Vice City Stories (PS2)"
+games: [grand-theft-auto-vice-city-stories]
+console: ps2
+status: experimental
+repo: gothamor/gta-vcs-recomp
+originalDeveloper: "Rockstar Leeds"
+year: 2007
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo para Windows y Linux de la versión de PS2 (EE. UU., SLUS-21590), hecho recompilando el ejecutable de la PS2 a C++ con PS2Recomp, que el proyecto incluye con cambios propios. Se compila desde el mismo código con Direct3D 11 en Windows y Vulkan en Linux. El repositorio no contiene código ni datos del juego: la compilación lee el ejecutable de tu ISO y el juego terminado lee todo lo demás de ella. Un launcher para Windows guía en cuatro pasos (carpeta, disco, herramientas de compilación de Microsoft y construcción, de 20 a 60 minutos la primera vez) y gestiona copias de las partidas guardadas. Su documento de avance lo da por en desarrollo: el bucle del juego corre y la escena de la intro se dibuja, con un respaldo gráfico de hardware que muestra la pantalla de carga, y los vídeos se omiten por ahora. La versión 0.1.0 del launcher es del 1 de noviembre. Sus 100 últimos commits llevan todos a Claude como coautor."
+  en: "A native Windows and Linux port of the PS2 version (USA, SLUS-21590), made by recompiling the PS2 executable into C++ with PS2Recomp, which the project vendors with its own changes. It builds from the same source with Direct3D 11 on Windows and Vulkan on Linux. The repository contains no game code or data: the build reads the executable from your ISO and the finished game reads everything else from it. A Windows launcher walks through four steps (folder, disc, Microsoft build tools, and build, 20 to 60 minutes the first time) and manages save backups. Its progress document marks it as in development: the game loop runs and the intro scene renders, with a hardware graphics backend that shows the loading screen, and movies are skipped for now. Launcher version 0.1.0 is from November 1. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ISO de Grand Theft Auto: Vice City Stories para PS2 (EE. UU., SLUS-21590). En Windows, las herramientas de C++ de Microsoft (unos 6 GB; el launcher las instala) y de 20 a 60 minutos para la primera compilación; también hay compilación para Linux."
+  en: "Your own Grand Theft Auto: Vice City Stories PS2 ISO (USA, SLUS-21590). On Windows, Microsoft’s C++ tools (about 6 GB; the launcher installs them) and 20 to 60 minutes for the first build; a Linux build is also available."
+tags:
+  - emotion-engine
+  - action
+  - vulkan
+  - static-recomp
+  - ai-assisted

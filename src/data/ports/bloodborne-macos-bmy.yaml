@@ -1,0 +1,21 @@
+name: "Bloodborne (macOS, bmy)"
+games: [bloodborne]
+category: native-layer
+console: ps4
+status: playable
+repo: bmy/bbport-mac
+originalDeveloper: "FromSoftware"
+year: 2015
+desc:
+  es: "Bloodborne en Apple Silicon como aplicación de Mac: una adaptación a macOS del port nativo de deadinside28 (bbport), que sigue cada versión de aquel; está basada en bbport 0.6. Solo el código x86-64 del propio juego se ejecuta con Rosetta 2; el renderizador, el controlador Vulkan (KosmicKrisp, de Mesa, sobre Metal) y la pila de Metal de Apple corren como código nativo de Apple Silicon en un proceso aparte que comparte la memoria del juego. Ofrece un launcher en SwiftUI, ventana Retina, Core Audio, escalado con MetalFX o FSR 3.1, salida de hasta 4K de 4:3 a 32:9, menú de ajustes dentro del juego, mods y parches en formato shadPS4. Según el README, el juego entero arranca, se juega, guarda y carga, con sonido, escenas, mando o teclado y ratón, a unos 60 fps en la mayoría de las zonas a 1440p en un M5 Max; solo se ha probado en un Mac y no hay juego en línea. La versión 0.6-v1-pre1 es del 22 de octubre. 98 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Bloodborne on Apple Silicon as a Mac app: a macOS adaptation of deadinside28’s native port (bbport), kept current with each of its releases and based on bbport 0.6. Only the game’s own x86-64 code runs under Rosetta 2; the renderer, the Vulkan driver (KosmicKrisp, from Mesa, over Metal), and Apple’s Metal stack run as native Apple Silicon code in a separate process sharing the game’s memory. It offers a SwiftUI launcher, a Retina window, Core Audio, MetalFX or FSR 3.1 upscaling, output up to 4K from 4:3 to 32:9, an in-game settings menu, mods, and shadPS4-format patches. According to the README, the whole game boots, plays, saves, and loads, with sound, cutscenes, and a controller or keyboard and mouse, at about 60 fps in most areas at 1440p on an M5 Max; it has been tested on one Mac only and online play is not available. Version 0.6-v1-pre1 is from October 22. 98 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia descifrada de Bloodborne para PS4 (CUSA03173) con la actualización 1.09 integrada, como carpeta con eboot.bin. Un Mac con Apple Silicon y macOS 26 o posterior, Rosetta 2 y las Command Line Tools (para Python 3)."
+  en: "Your own decrypted copy of Bloodborne for PS4 (CUSA03173) with the 1.09 update merged in, as a folder with eboot.bin. An Apple Silicon Mac with macOS 26 or later, Rosetta 2, and the Command Line Tools (for Python 3)."
+tags:
+  - x86
+  - rpg
+  - action
+  - mods
+  - 60fps+
+  - ai-assisted

@@ -1,0 +1,20 @@
+name: "Donkey Kong (Game Boy)"
+games: [donkey-kong]
+console: gb
+status: playable
+repo: gnome41/DK94-SGB
+originalDeveloper: "Nintendo"
+year: 1994
+desc:
+  es: "Recompilación estática no oficial de Donkey Kong de Game Boy (1994) para Linux y Windows. El código SM83 de la ROM se traduce a C y se ejecuta de forma nativa sobre un pequeño runtime (PPU, APU, temporizador, MBC1 y Super Game Boy) con SDL2. La versión de las releases no lleva código del juego: al pulsar JUGAR recompila tu ROM a C y la compila en memoria con TinyCC en unos 0,3 segundos, sin escribir nada derivado del juego a disco; la versión de desarrollo, en cambio, enlaza el código generado y no se debe compartir. Añade paletas, marco y sonido del Super Game Boy (con su BIOS, opcional), pantalla ancha, un launcher, trucos y packs de mods de texturas, marcos y audio. La versión 1.3.0 es del 27 de octubre. 8 de sus 8 commits llevan a Claude como coautor."
+  en: "An unofficial static recompilation of the Game Boy Donkey Kong (1994) for Linux and Windows. The ROM’s SM83 code is translated to C and runs natively on a small runtime (PPU, APU, timer, MBC1, and Super Game Boy) on SDL2. The release build carries no game code: when you press PLAY it recompiles your ROM to C and compiles it in memory with TinyCC in about 0.3 seconds, writing nothing derived from the game to disk; the developer build, by contrast, links in the generated code and must not be shared. It adds Super Game Boy palettes, border, and sound (using its optional BIOS), widescreen, a launcher, cheats, and mod packs for textures, borders, and audio. Version 1.3.0 is from October 27. All 8 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de «Donkey Kong (World) (Rev 1) (SGB Enhanced).gb» (SHA-1 397ad2ff25627b83e02c71b54c72bb4deb39e0c0). Opcionalmente, la BIOS del Super Game Boy para el sonido del SNES. Windows x64 o Linux x86-64."
+  en: "Your own ROM of “Donkey Kong (World) (Rev 1) (SGB Enhanced).gb” (SHA-1 397ad2ff25627b83e02c71b54c72bb4deb39e0c0). Optionally the Super Game Boy BIOS for the SNES-side sound. Windows x64 or Linux x86-64."
+tags:
+  - sm83
+  - platformer
+  - widescreen
+  - mods
+  - static-recomp
+  - ai-assisted

@@ -1,0 +1,20 @@
+name: "Dynasty Warriors 5: Xtreme Legends"
+games: [dynasty-warriors-5-xtreme-legends, dynasty-warriors-5]
+console: ps2
+status: playable
+repo: TheSlackbringer/dw5xl-recomp
+originalDeveloper: "Omega Force"
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo para Windows y Linux de la versión de PS2, hecho con PS2Recomp: el código del juego se traduce a C++ y se ejecuta de forma nativa, con gráficos en Vulkan a través de paraLLEl-GS. La release (de 190 a 270 MB) trae el programa del proyecto, su código fuente, un compilador y las herramientas, y construye el juego en tu equipo a partir de tu disco sin descargar nada; el repositorio y las descargas no contienen imágenes de disco, ejecutables del juego, módulos IRX, recursos ni código traducido. Según el README, está en fase beta y todos los modos funcionan: arranque, menús, los modos Legend, Musou y libre, vídeos, música, voces, efectos, guardado y carga, y «Load Original» para desbloquear los modos del juego original con su disco. Sus autores aún prueban fallos y rendimiento: en combates con mucha gente, la tasa de fotogramas en Windows es menor que en Linux. La versión 0.1.0-beta.7 es del 31 de octubre. 74 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows and Linux port of the PS2 version, made with PS2Recomp: the game’s code is translated into C++ and runs natively, with graphics on Vulkan through paraLLEl-GS. The release (190 to 270 MB) ships the project’s program, its source code, a compiler, and the tools, and builds the game on your PC from your disc without downloading anything; the repository and downloads contain no disc images, game executables, IRX modules, assets, or translated code. According to the README it is in beta and all modes work: boot, menus, Legend, Musou, and Free modes, movies, music, voices, effects, saving and loading, and “Load Original” to unlock the original game’s modes with its disc. Its authors are still testing for bugs and performance: in busy battles the frame rate on Windows is lower than on Linux. Version 0.1.0-beta.7 is from October 31. 74 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Dynasty Warriors 5: Xtreme Legends de PS2 en inglés PAL (SLES_538.60), como .iso; opcionalmente Dynasty Warriors 5 en inglés PAL (SLES_533.39) para «Load Original». Otras regiones no se admiten. CPU de 64 bits con AVX2, una tarjeta con controlador Vulkan actual y unos 10 GB libres; Windows 10 (1903 o posterior) u 11, o Linux con glibc 2.31 o posterior."
+  en: "Your own copy of Dynasty Warriors 5: Xtreme Legends for PS2, English PAL (SLES_538.60), as an .iso; optionally Dynasty Warriors 5, English PAL (SLES_533.39), for “Load Original”. Other regions are not supported. A 64-bit CPU with AVX2, a graphics card with a current Vulkan driver, and about 10 GB free; Windows 10 (1903 or newer) or 11, or Linux with glibc 2.31 or newer."
+tags:
+  - emotion-engine
+  - action
+  - vulkan
+  - static-recomp
+  - ai-assisted

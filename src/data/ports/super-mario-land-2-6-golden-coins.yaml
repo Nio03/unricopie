@@ -1,0 +1,20 @@
+name: "Super Mario Land 2: 6 Golden Coins"
+games: [super-mario-land-2-6-golden-coins]
+category: fan-remake
+console: gb
+status: playable
+repo: patricksmill/sml2-rs
+originalDeveloper: "Nintendo"
+year: 1992
+desc:
+  es: "Edición de escritorio mejorada, llamada Six Golden Coins, reescrita en Rust. No es un emulador: es un port nativo cuya lógica de juego sigue el código del original, aunque su autor avisa de que no busca la exactitud de un emulador y habrá pequeñas diferencias de tiempos y casos límite. Añade pantalla ancha (16:9, 21:9 o la proporción de la ventana), alejamiento de cámara hasta el 200 %, interpolación de fotogramas opcional, paletas de Game Boy, Pocket, Game Boy Color y Super Game Boy, y un modo SML2DX con los gráficos y colores de ese hack, con Mario o Luigi, a partir de tu propia ROM de SML2DX. Las ampliaciones de pantalla activan antes a los enemigos fuera del borde original, así que algunos encuentros cambian. Las releases son un único ejecutable para Windows, Linux y macOS con Apple Silicon; la 0.2.0 es del 1 de noviembre. El repositorio incluye grabaciones de pruebas de comportamiento, no datos del juego. 76 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An enhanced desktop edition, called Six Golden Coins, rewritten in Rust. It is not an emulator: it is a native port whose gameplay logic follows the original game’s code, though its author warns it doesn’t aim for emulator accuracy and there will be small differences in timing and edge cases. It adds widescreen (16:9, 21:9, or the window’s aspect ratio), camera zoom-out up to 200%, optional frame interpolation, Game Boy, Pocket, Game Boy Color, and Super Game Boy palettes, and an SML2DX mode with that hack’s graphics and colors, with Mario or Luigi, from your own SML2DX ROM. The screen expansions activate enemies sooner beyond the original edge, so some encounters change. Releases are a single executable for Windows, Linux, and Apple Silicon macOS; 0.2.0 is from November 1. The repository holds behavior-test recordings, not game data. 76 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Super Mario Land 2 UE v1.0, importada desde Ajustes, Juego, Importar ROM. Para el modo DX, una ROM o parche IPS de SML2DX v1.8.1. Windows x64, Linux x86-64 o macOS con Apple Silicon."
+  en: "Your own Super Mario Land 2 UE v1.0 ROM, imported from Settings, Game, Import ROM. For DX mode, an SML2DX v1.8.1 ROM or IPS patch. Windows x64, Linux x86-64, or Apple Silicon macOS."
+tags:
+  - sm83
+  - platformer
+  - widescreen
+  - 60fps+
+  - ai-assisted

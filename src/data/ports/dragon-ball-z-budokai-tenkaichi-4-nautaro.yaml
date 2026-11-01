@@ -1,0 +1,21 @@
+name: "Dragon Ball Z: Budokai Tenkaichi 4 (NauTaro)"
+games: [dragon-ball-z-budokai-tenkaichi-3]
+category: decomp-port
+console: ps2
+status: playable
+repo: NauTaro/DBZ-BT4-Tag-Team-Decomp
+originalDeveloper: "Spike"
+year: 2007
+desc:
+  es: "BT4decomp adapta BT4 B14 Rev2, una versión modificada por aficionados de Dragon Ball Z: Budokai Tenkaichi 3 para PS2, a Windows, Linux y Apple Silicon. Se construye sobre Tenkaichi3Decomp y ejecuta el código del juego de forma nativa en lugar de emular una consola. Añade combates simultáneos por equipos de hasta cinco luchadores, un todos contra todos para seis, 1 contra 1 con netplay con rollback, torneos de dos a ocho participantes, salas de espectadores con cámara libre y chat de voz por proximidad; los menús están en inglés y español. Un asistente de instalación pide tu ISO compatible de BT4 B14 Rev2 en español o inglés y, si eliges los dos idiomas, descarga el paquete del otro desde el repositorio. El README dice que no distribuye imágenes de disco ni datos extraídos del juego. La versión 0.1.39.2 R8.1 es del 1 de noviembre."
+  en: "BT4decomp adapts BT4 B14 Rev2, a fan-modified version of Dragon Ball Z: Budokai Tenkaichi 3 for PS2, to Windows, Linux, and Apple Silicon. It is built on Tenkaichi3Decomp and runs the game code natively rather than emulating a console. It adds simultaneous team battles with up to five fighters per side, a six-player free-for-all, 1 vs 1 with rollback netplay, tournaments of two to eight entrants, spectator rooms with a free camera, and proximity voice chat; menus are in English and Spanish. A setup wizard asks for your compatible Spanish or English BT4 B14 Rev2 ISO and, if you choose both languages, downloads the other one’s package from the repository. The README says it distributes no disc images or extracted game data. Version 0.1.39.2 R8.1 is from November 1."
+requirements:
+  es: "Tu propia ISO compatible de BT4 B14 Rev2 (la versión modificada de Budokai Tenkaichi 3), en español o inglés. Windows x64, Linux x86-64 con glibc 2.35 o posterior, o macOS 15 o posterior con Apple Silicon."
+  en: "Your own compatible ISO of BT4 B14 Rev2 (the modified version of Budokai Tenkaichi 3), Spanish or English. Windows x64, x86-64 Linux with glibc 2.35 or later, or macOS 15 or later on Apple Silicon."
+tags:
+  - emotion-engine
+  - fighting
+  - multiplayer
+  - online
+  - netplay
+  - mods

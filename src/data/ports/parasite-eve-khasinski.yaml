@@ -1,0 +1,21 @@
+name: "Parasite Eve (khasinski)"
+games: [parasite-eve]
+category: decomp-port
+console: ps1
+status: playable
+repo: khasinski/parasite-eve-pc
+originalDeveloper: "Square"
+year: 1998
+desc:
+  es: "Port nativo para PC, construido a partir del código original del juego mediante una bifurcación propia de PsyZ, es decir, sobre su decompilación. Es una versión alfa temprana, con compilaciones para macOS con Apple Silicon, Linux (x86-64 y arm64) y Windows (marcada como experimental). Al arrancar eliges tus imágenes de disco; si indicas los dos discos, cambia de uno a otro automáticamente. Desde el menú de Escape se ajustan los gráficos (corrección de geometría, antialiasing, filtrado de texturas de modelos y una opción de pantalla ancha que muestra más fondo donde existe), los controles, el audio y los mods, y hay un modo opcional de 60 Hz interpolado, un botón de aceleración y un anfitrión de mods con funciones opcionales de objetos y equipo. Un pack opcional de fondos en HD, de unos 327 MB, se descarga desde el propio juego desde un servidor fuera de GitHub. También hay un editor de partidas y una herramienta aparte para probar la iluminación de las salas. La versión 0.9-alpha es del 31 de octubre."
+  en: "A native PC port built from the game’s original code through the project’s own fork of PsyZ, that is, on top of its decompilation. It is an early alpha, with builds for Apple Silicon macOS, Linux (x86-64 and arm64), and Windows (marked experimental). On launch you choose your disc images; if you give both discs it switches between them automatically. The Escape menu adjusts graphics (geometry correction, anti-aliasing, model texture filtering, and a widescreen option that shows more background where available), controls, audio, and mods, and there is an optional interpolated 60 Hz mode, a speed button, and a mod host with optional item and equipment features. An optional pack of HD backgrounds, about 327 MB, is downloaded from inside the game from a server outside GitHub. There is also a save editor and a separate tool for experimenting with room lighting. Version 0.9-alpha is from October 31."
+requirements:
+  es: "Tus propias imágenes CUE/BIN de los dos discos norteamericanos (cada CUE junto a su BIN); no incluye datos del juego. macOS 15 o posterior con Apple Silicon, Linux o Windows 64 bits (experimental)."
+  en: "Your own North American CUE/BIN images of both discs (each CUE next to its BIN); no game data is included. macOS 15 or later on Apple Silicon, Linux, or 64-bit Windows (experimental)."
+tags:
+  - mips
+  - rpg
+  - horror
+  - widescreen
+  - mods
+  - hd-assets

@@ -1,0 +1,20 @@
+name: "Mario Party 3"
+games: [mario-party-3]
+console: n64
+status: playable
+repo: n64hub/mario-party-3-recomp
+originalDeveloper: "Hudson Soft"
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para PC de la versión de N64 (EE. UU.), hecho por recompilación estática con N64Recomp, N64ModernRuntime y RT64, con el launcher y los menús de RecompFrontend: el código MIPS del juego se traduce a C y se ejecuta de forma nativa. Los símbolos vienen de la decompilación de mariopartyrd. Funcionan los menús, los seis tableros y los minijuegos, en escritorio y en un navegador (la página web se construye a partir de tu ROM), con los tableros interpolados a la frecuencia de la pantalla y dibujados al tamaño y la forma de la ventana. El planificador de procesos del juego, que alterna decenas de procesos pequeños con sus propios setjmp y longjmp, ejecuta cada proceso en un hilo propio. El repositorio no contiene ROM ni recursos del juego, salvo los nombres y direcciones de símbolos. La versión 0.2.6 es del 1 de noviembre. Declara que casi todo el código se escribió con IA (Claude), dirigida y probada por una persona; 55 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native PC port of the N64 version (USA), made by static recompilation with N64Recomp, N64ModernRuntime, and RT64, with RecompFrontend’s launcher and menus: the game’s MIPS code is translated to C and run natively. Symbols come from the mariopartyrd decompilation. The menus, the six boards, and the minigames work, on the desktop and in a browser (the web page is built from your ROM), with the boards interpolated to the display’s rate and drawn at the window’s size and shape. The game’s process scheduler, which switches between dozens of small processes with its own setjmp and longjmp, runs each process on a thread of its own. The repository holds no ROM and no game assets, apart from symbol names and addresses. Version 0.2.6 is from November 1. It states that almost all of the code was written by AI (Claude), directed and play-tested by a person; 55 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de Mario Party 3 (EE. UU.), .z64 big-endian de 32 MiB con SHA-1 6beb80ff822b96bcf85dcdb512e8b2b7969d8259; otras regiones no. Windows o Linux x86-64 (glibc 2.35 o posterior, controlador de Vulkan, GTK 3 y FreeType)."
+  en: "Your own Mario Party 3 (USA) ROM, a 32 MiB big-endian .z64 with SHA-1 6beb80ff822b96bcf85dcdb512e8b2b7969d8259; other regions are not supported. Windows or x86-64 Linux (glibc 2.35 or later, a Vulkan driver, GTK 3, and FreeType)."
+tags:
+  - mips
+  - multiplayer
+  - build-web
+  - static-recomp
+  - ai-assisted

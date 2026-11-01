@@ -1,0 +1,21 @@
+name: "Wild 9"
+games: [wild-9]
+console: ps1
+status: playable
+repo: plinkr/Wild9Recomp
+originalDeveloper: "Shiny Entertainment"
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "Port nativo para Windows, Linux y macOS de la versión de PlayStation NTSC-U (SLUS-00425), hecho por recompilación estática: el ejecutable MIPS R3000A del juego se traduce a C, que se enlaza con un runtime de psxrecomp y recomp-ui. Las versiones de las releases son compilaciones de producto: el código ya recompilado del juego va dentro del ejecutable, sin asistente de configuración ni compilador, y solo hay que indicar la imagen .cue de tu disco. Incluye OpenBIOS, así que no hace falta una BIOS de PlayStation, aunque se puede usar una. Ofrece pantalla ancha, geometría y texturas con corrección de perspectiva (PGXP), mezcla de fotogramas hasta 60, 120, 144 o 165 fps sin tocar los 59,94 Hz de la simulación, salto de vídeos, selección de idioma entre cinco, un mod que fija objetos o enemigos sobre la cabeza y un sistema de mods. La versión 0.1.8 es del 25 de octubre."
+  en: "A native Windows, Linux, and macOS port of the NTSC-U PlayStation version (SLUS-00425), made by static recompilation: the game’s MIPS R3000A executable is translated to C, which is linked against a psxrecomp and recomp-ui runtime. The release downloads are product builds: the game’s already recompiled code is built into the executable, with no setup wizard or compiler, and you only point it at the .cue image of your disc. It embeds OpenBIOS, so no PlayStation BIOS is needed, though one can be used. It offers widescreen, perspective-correct geometry and textures (PGXP), frame blending up to 60, 120, 144, or 165 fps while keeping the 59.94 Hz simulation, video skipping, a choice of five languages, a mod that locks held objects or enemies overhead, and a mod system. Version 0.1.8 is from October 25."
+requirements:
+  es: "Tu propia imagen .cue de Wild 9 para PlayStation (NTSC-U, SLUS-00425). Windows 64 bits, Linux (glibc 2.28 o posterior y OpenGL 3.3 o Vulkan) o macOS (Apple Silicon o Intel)."
+  en: "Your own .cue image of Wild 9 for PlayStation (NTSC-U, SLUS-00425). 64-bit Windows, Linux (glibc 2.28 or later and OpenGL 3.3 or Vulkan), or macOS (Apple Silicon or Intel)."
+tags:
+  - mips
+  - platformer
+  - widescreen
+  - 60fps+
+  - mods
+  - static-recomp

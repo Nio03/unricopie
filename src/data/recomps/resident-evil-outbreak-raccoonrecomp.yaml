@@ -1,0 +1,21 @@
+name: "Resident Evil Outbreak (RaccoonRecomp)"
+games: [resident-evil-outbreak]
+console: ps2
+status: experimental
+repo: RaccoonRecomp/ResidentEvilOutbreakRecompiled
+originalDeveloper: "Capcom"
+year: 2003
+desc:
+  es: "Port nativo no oficial para Windows de Resident Evil Outbreak (File #1, EE. UU.), llamado Resident Evil Outbreak Recompiled: el código de PS2 del juego se recompila a código nativo x64 y corre sobre un runtime de PC escrito para él (Emotion Engine, unidades vectoriales, Graphics Synthesizer, procesador de E/S con el controlador de sonido del juego, SPU2, vídeo y tarjeta de memoria), sin emulador. El proyecto no publica su código: el repositorio de GitHub solo tiene el README, notas de versión y capturas, y el instalador de la release (unos 244 MB) trae el programa con un compilador LLVM, que en el primer arranque convierte y compila en tu equipo el código del juego a partir de tu disco o de los archivos extraídos, en unos 3 a 6 minutos. Ofrece renderizadores Direct3D 11 y Vulkan, resolución interna hasta 4×, MSAA y FXAA, pantalla ancha experimental, un modo experimental de 60 fps, mandos y teclado con ratón, partidas en el formato de tarjeta de PCSX2 y un sistema de mods con cámara en primera persona. No hay File #2. La versión 1.5.1 es del 13 de octubre; las notas dicen que se hizo con programación asistida por IA (Claude), y 4 de sus 8 commits llevan a Claude como coautor."
+  en: "An unofficial native Windows port of Resident Evil Outbreak (File #1, USA), called Resident Evil Outbreak Recompiled: the game’s PS2 code is recompiled into native x64 code and runs on a PC runtime written for it (Emotion Engine, vector units, Graphics Synthesizer, I/O processor with the game’s own sound driver, SPU2, movie playback, and memory card), with no emulator. The project does not publish its code: the GitHub repository holds only the README, release notes, and screenshots, and the release installer (about 244 MB) ships the program with an LLVM compiler, which on first start converts and compiles the game’s code on your PC from your disc or extracted files, in about 3 to 6 minutes. It offers Direct3D 11 and Vulkan renderers, internal resolution up to 4x, MSAA and FXAA, experimental widescreen, an experimental 60 fps mode, gamepad and keyboard-and-mouse controls, saves in PCSX2’s card format, and a mod system with a first-person camera. File #2 is not supported. Version 1.5.1 is from October 13; the release notes say it was built with AI-assisted programming (Claude), and 4 of its 8 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Resident Evil Outbreak de PS2, edición de EE. UU. (SLUS-20765, disco versión 2.00), como imagen .iso o como carpeta con los archivos extraídos; otras ediciones se reconocen pero aún no se admiten. Windows 10 u 11 de 64 bits, una tarjeta con Direct3D 11 y unos 780 MB libres."
+  en: "Your own copy of Resident Evil Outbreak for PS2, USA release (SLUS-20765, disc version 2.00), as an .iso image or a folder of extracted files; other releases are recognized but not yet supported. 64-bit Windows 10 or 11, a Direct3D 11 graphics card, and about 780 MB free."
+tags:
+  - emotion-engine
+  - horror
+  - widescreen
+  - mods
+  - vulkan
+  - closed-source
+  - ai-assisted

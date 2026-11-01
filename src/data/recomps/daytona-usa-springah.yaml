@@ -1,0 +1,20 @@
+name: "Daytona USA (springah)"
+games: [daytona-usa]
+console: x360
+status: playable
+repo: springah/daytona_recomp
+originalDeveloper: "Sega"
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de Daytona USA de Xbox 360 (XBLA, 2011) para ejecución nativa en PC, Steam Deck y macOS, construida sobre el SDK de ReXGlue (un runtime derivado de Xenia con un recompilador de PPC a C++). Las llamadas D3D9 del juego se interceptan y se dibujan con un renderizador nativo basado en plume (D3D12 en Windows, Vulkan en Linux y Steam Deck, y Vulkan sobre MoltenVK en macOS) en lugar de emular la GPU Xenos; según el README, todo el juego, del arranque a los menús, la demostración y las carreras, se dibuja así y se ha contrastado pantalla a pantalla con el renderizador emulado, que sigue disponible como referencia. Declara un uso intensivo de IA en el código, las herramientas y la documentación; sus últimos 100 commits llevan todos a Claude como coautor. No distribuye datos del juego, pero sus paquetes de la release (de 11 a 14 MB) llevan el C++ recompilado ya compilado, y el programa no funciona sin el paquete XBLA que aportas. La versión 1.1.5 es del 29 de octubre."
+  en: "A static recompilation of Daytona USA for Xbox 360 (XBLA, 2011) for native execution on PC, Steam Deck, and macOS, built on the ReXGlue SDK (a Xenia-derived runtime with a PPC-to-C++ recompiler). The game’s D3D9 calls are intercepted and drawn by a native renderer based on plume (D3D12 on Windows, Vulkan on Linux and Steam Deck, and Vulkan over MoltenVK on macOS) instead of emulating the Xenos GPU; according to the README, the whole game, from boot to menus, attract mode, and races, renders this way and was checked screen by screen against the emulated renderer, which is still available as a reference. It declares heavy use of AI in the code, tools, and documentation; all of its last 100 commits list Claude as a co-author. It distributes no game data, but its release bundles (11 to 14 MB) carry the recompiled C++ already compiled, and the program does nothing without the XBLA package you provide. Version 1.1.5 is from October 29."
+requirements:
+  es: "Tu propio paquete de Daytona USA de Xbox Live Arcade para Xbox 360, que el programa desempaqueta en su carpeta. Windows (PC), Steam Deck o macOS; los paquetes de la release incluyen un RUN.txt con los pasos."
+  en: "Your own Daytona USA Xbox Live Arcade package for Xbox 360, which the program unpacks into its folder. Windows (PC), Steam Deck, or macOS; the release bundles include a RUN.txt with the steps."
+tags:
+  - powerpc
+  - racing
+  - vulkan
+  - static-recomp
+  - ai-assisted

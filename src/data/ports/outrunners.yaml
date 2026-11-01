@@ -1,0 +1,20 @@
+name: "OutRunners"
+games: [outrunners]
+category: decomp-port
+console: arcade
+status: playable
+repo: cheviman/outrunners-port
+originalDeveloper: "Sega"
+year: 1992
+desc:
+  es: "Port nativo para Windows, Linux y macOS (además de Switch con Atmosphere, Android y consolas portátiles Anbernic) del recreativo OutRunners de Sega (placa System Multi 32), construido sobre su decompilación en C, que se compara fotograma a fotograma con MAME en imagen y sonido. Del mismo código salen dos juegos: OutRunners Arcade, el recreativo tal cual con las dos pantallas de la cabina, y OutRunners, la versión doméstica con una sola pantalla, partida libre, menú de opciones, dos jugadores, partidas en red local de hasta cuatro dispositivos y modos como Time Attack, con fantasma, o recorrer los 31 tramos en una sola carrera. El repositorio no contiene datos del juego: en el primer arranque extrae los recursos de tu juego de MAME y los guarda. La versión 1.1.0 se publicó el 31 de octubre. Ninguno de sus últimos 100 commits lleva a una IA como coautor."
+  en: "A native port for Windows, Linux, and macOS (plus Switch with Atmosphere, Android, and Anbernic handhelds) of Sega’s OutRunners arcade game (System Multi 32 board), built on its C decompilation, which is checked frame by frame against MAME in picture and sound. Two games come out of the same code: OutRunners Arcade, the arcade game as is with both cabinet screens, and OutRunners, the home version with a single screen, free play, an options menu, two players, local-network races of up to four devices, and modes such as Time Attack, with a ghost, or all 31 courses in one race. The repository contains no game data: on first launch it extracts the assets from your MAME game and keeps them. Version 1.1.0 was published on October 31. None of its last 100 commits list an AI as co-author."
+requirements:
+  es: "Tu propio juego de MAME «orunners» (World) en un zip, junto al juego o soltado en su ventana; de ahí extrae los recursos. Para Switch hace falta además una consola con Atmosphere y tus claves, y para Android firmar el APK con una clave tuya."
+  en: "Your own MAME “orunners” (World) set as a zip, kept beside the game or dropped on its window; the assets are extracted from it. The Switch build also needs a console with Atmosphere and your keys, and the Android build needs an APK signed with a key of yours."
+tags:
+  - "68000"
+  - racing
+  - build-android
+  - build-switch
+  - multiplayer

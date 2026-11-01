@@ -1,0 +1,20 @@
+name: "WWE SmackDown vs. Raw 2007 (nefariousjosiah)"
+games: [wwe-smackdown-vs-raw-2007]
+console: x360
+status: playable
+repo: nefariousjosiah/WWE-SVR2007-RECOMP
+originalDeveloper: "Yuke’s"
+year: 2006
+desc:
+  es: "La versión de Xbox 360 recompilada para ejecutarse de forma nativa en Windows y, según su README, también en Linux y Steam Deck mediante Proton, con un renderizador nativo Direct3D 12 en Windows y Vulkan en Linux. Su objetivo declarado es recuperar el juego tal como era, sin mods, cambios de plantilla ni jugabilidad reelaborada: solo lo necesario para que funcione bien hoy. Ofrece 60 fps incluso en entradas y combates, donde el original bajaba a 30, resoluciones de 480p a 8K, carga más rápida, un teclado en pantalla para ponerle nombre al luchador con mando, la foto de Crear un superestrella, partidas guardadas que no fallan, el texto del juego en inglés o italiano (el disco incluye ambos), actualizaciones desde el propio juego y mandos de Xbox, PlayStation, Switch Pro y Steam Deck. Se ejecuta desde una imagen .iso de tu propio disco; el repositorio publica el código y la release (unos 43 MB) trae el programa. La versión 2.2.1 es del 24 de octubre."
+  en: "The Xbox 360 version, recompiled to run natively on Windows and, according to its README, also on Linux and Steam Deck through Proton, with a native Direct3D 12 renderer on Windows and Vulkan on Linux. Its stated goal is to bring the game back as it was, with no mods, roster changes, or reworked gameplay: only what it needs to run well today. It offers 60 fps even in entrances and matches, where the original dropped to 30, resolutions from 480p to 8K, faster loading, an on-screen keyboard to name your superstar with a controller, the Create-a-Superstar photo, saves that don’t fail, the game’s text in English or Italian (the disc includes both), updates from inside the game, and Xbox, PlayStation, Switch Pro, and Steam Deck controllers. It runs from an .iso image of your own disc; the repository publishes the code and the release (about 43 MB) ships the program. Version 2.2.1 is from October 24."
+requirements:
+  es: "Una imagen de disco (.iso) de tu propio disco de WWE SmackDown vs. Raw 2007 para Xbox 360. Windows 10 u 11 de 64 bits con una tarjeta Direct3D 12 o Vulkan; también hay uso en Linux y Steam Deck."
+  en: "A disc image (.iso) of your own WWE SmackDown vs. Raw 2007 disc for Xbox 360. 64-bit Windows 10 or 11 with a Direct3D 12 or Vulkan card; Linux and Steam Deck are also covered."
+tags:
+  - powerpc
+  - sports
+  - fighting
+  - 60fps+
+  - vulkan
+  - static-recomp

@@ -1,0 +1,20 @@
+name: "Tony Hawk’s Pro Skater (N64)"
+games: [tony-hawks-pro-skater]
+console: n64
+status: playable
+repo: THPS64Recomp/THPS1-64Recomp
+originalDeveloper: "Neversoft"
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para macOS y Windows de la versión de N64, llamado THPS1 64: Recompiled, hecho con N64Recomp, N64ModernRuntime y RT64. La aplicación construye el juego a partir de tu volcado la primera vez que arranca; en macOS pide las Command Line Tools de Apple y el zip de Windows trae todo lo necesario (unos 149 MB). Ofrece pantalla ancha 16:9 o 21:9, los 30 fps del juego interpolados a 60, más distancia de dibujado, pantalla dividida de dos jugadores ajustada a la imagen, un ajuste preestablecido Original o Mejorado, mandos SDL con disposición de Xbox o la original de N64, partidas en archivos .mpk de Controller Pak y trucos opcionales. No hay descarga para Linux. El repositorio no contiene el juego. La versión 0.2.0 es del 28 de octubre."
+  en: "A native macOS and Windows port of the N64 version, called THPS1 64: Recompiled, made with N64Recomp, N64ModernRuntime, and RT64. The app builds the game from your dump the first time it starts; on macOS it asks for Apple’s Command Line Tools, and the Windows zip includes everything needed (about 149 MB). It offers 16:9 or 21:9 widescreen, the game’s 30 fps interpolated to 60, a longer draw distance, a two-player split screen fitted to the picture, an Original or Enhanced preset, SDL gamepads with an Xbox-style or the original N64 layout, saves in standard Controller Pak .mpk files, and optional cheats. There is no Linux download. The repository does not contain the game. Version 0.2.0 is from October 28."
+requirements:
+  es: "Tu propio volcado del cartucho de N64 (.z64, .n64 o .v64): EE. UU. v1.1 (SHA-1 4900b6c92fb8df1765e91e891dccc525bb102fe1), EE. UU. v1.0 (fc1b4dec85e6874fa7321edc24f5a1e78600d9d0) o Europa (c321cd05eec58765467878ac8015784535280e3c). Windows 10 u 11 de 64 bits con una GPU Direct3D 12, o macOS 13 o posterior."
+  en: "Your own N64 cartridge dump (.z64, .n64, or .v64): USA v1.1 (SHA-1 4900b6c92fb8df1765e91e891dccc525bb102fe1), USA v1.0 (fc1b4dec85e6874fa7321edc24f5a1e78600d9d0), or Europe (c321cd05eec58765467878ac8015784535280e3c). 64-bit Windows 10 or 11 with a Direct3D 12 GPU, or macOS 13 or later."
+tags:
+  - mips
+  - sports
+  - widescreen
+  - 60fps+
+  - static-recomp

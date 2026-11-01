@@ -1,0 +1,17 @@
+name: "Guitar Hero (Guitar Dream)"
+games: [guitar-hero, guitar-hero-ii, guitar-hero-encore-rocks-the-80s, guitar-hero-iii-legends-of-rock]
+category: game-engine
+console: ps2
+status: experimental
+repo: mbracali/prj-gd-engine
+originalDeveloper: "Harmonix"
+year: 2005
+desc:
+  es: "Guitar Dream Engine es una reimplementación de los motores de los juegos de guitarra de la época de Guitar Hero y Rock Band, con una carpeta y un motor por juego y un launcher universal. El README afirma que no contiene código ni recursos originales ni los distribuye: se espera que compres los discos y extraigas su contenido tú mismo. Según su tabla, Guitar Hero (versión de PlayStation 2) está al 99 % jugable, Guitar Hero II (Xbox 360) al 88 %, Guitar Hero Encore: Rocks the 80s (PlayStation 2) al 80 % y Guitar Hero III (Xbox 360) al 47 %; los demás títulos, hasta Rock Band 3, aún no tienen avance. Hay compilaciones del launcher para Windows, Linux, Steam Deck, macOS y Android; la 0.1.8 es del 30 de octubre. Se publica con la licencia PolyForm Noncommercial más condiciones adicionales de atribución, por lo que no es de uso comercial. Los directorios de cada juego incluyen notas para agentes de IA."
+  en: "Guitar Dream Engine is a reimplementation of the engines of the Guitar Hero and Rock Band era of guitar games, with one folder and engine per game and a universal launcher. The README states it contains no original code or assets and distributes none: you are expected to buy the discs and extract their content yourself. According to its table, Guitar Hero (the PlayStation 2 version) is 99% playable, Guitar Hero II (Xbox 360) 88%, Guitar Hero Encore: Rocks the 80s (PlayStation 2) 80%, and Guitar Hero III (Xbox 360) 47%; the other titles, through Rock Band 3, show no progress yet. There are launcher builds for Windows, Linux, Steam Deck, macOS, and Android; 0.1.8 is from October 30. It is published under the PolyForm Noncommercial license plus additional attribution terms, so it is not for commercial use. Each game’s folder includes notes for AI coding agents."
+requirements:
+  es: "Tu propia copia de cada juego, de la que extraes los recursos tú mismo (discos o ROM en la carpeta original_isos): Guitar Hero y Encore en su versión de PlayStation 2, Guitar Hero II y III en la de Xbox 360. Windows, Linux (incluida Steam Deck), macOS con Apple Silicon o Android."
+  en: "Your own copy of each game, from which you extract the assets yourself (discs or ROMs in the original_isos folder): Guitar Hero and Encore in their PlayStation 2 version, Guitar Hero II and III in the Xbox 360 one. Windows, Linux (including Steam Deck), Apple Silicon macOS, or Android."
+tags:
+  - action
+  - build-android

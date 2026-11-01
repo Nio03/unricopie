@@ -1,0 +1,18 @@
+name: "007: Nightfire (TGP482)"
+games: [007-nightfire]
+console: xbox
+status: playable
+repo: TGP482/007Nightfire-XBERecomp
+originalDeveloper: "Eurocom"
+year: 2002
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial para PC de la versión de la Xbox original, con opciones gráficas ampliadas, soporte de teclado y ratón y otras mejoras, creado con la herramienta Xbox XBE Recomp. Se colocan los archivos del juego (una ISO o los datos extraídos, de las ediciones de EE. UU. o Europa) en la carpeta assets y, al ejecutar nightfire.exe, el primer arranque compila el código del juego para tu PC, algo que solo ocurre una vez. Los ajustes se cambian en el menú de opciones del juego o en una superposición con F10: monitor, modo de pantalla, resolución de render del 20 % al 200 %, campo de visión de 45° a 140° (también el del arma), límite de fotogramas o sin límite en lugar de los 30 de la Xbox, V-Sync, salida HDR10, oclusión ambiental, MSAA, SMAA, filtrado anisotrópico, reemplazo y volcado de texturas, mando con SDL3 y apuntado con giroscopio. El repositorio no incluye recursos del juego. La release V1 (un zip de unos 73 MB) es del 31 de octubre."
+  en: "An unofficial native PC port of the original Xbox version, with extended graphics options, keyboard and mouse support, and other enhancements, created with the Xbox XBE Recomp tool. You place the game files (an ISO or extracted data, from the USA or Europe releases) in the assets folder and, on running nightfire.exe, the first start compiles the game’s code for your PC, which only happens once. Settings are changed in the game’s options menu or in an overlay opened with F10: monitor, display mode, render resolution from 20% to 200%, field of view from 45 to 140 degrees (also the weapon’s), a frame cap or no cap instead of the Xbox’s 30, V-Sync, HDR10 output, ambient occlusion, MSAA, SMAA, anisotropic filtering, texture replacement and dumping, SDL3 controllers, and gyro aiming. The repository includes no game assets. The V1 release (a zip of about 73 MB) is from October 31."
+requirements:
+  es: "Tu propia copia de 007: Nightfire para Xbox, edición de EE. UU. o de Europa, como ISO o con los datos extraídos en la carpeta assets. Windows con una GPU compatible con Direct3D 12 y una CPU de 2 núcleos con SSE4.2 y POPCNT como mínimo."
+  en: "Your own copy of 007: Nightfire for Xbox, USA or Europe release, as an ISO or with the extracted data in the assets folder. Windows with a Direct3D 12 GPU and, at minimum, a 2-core CPU with SSE4.2 and POPCNT."
+tags:
+  - x86
+  - fps
+  - static-recomp

@@ -1,0 +1,19 @@
+name: "Blue Stinger"
+games: [blue-stinger]
+console: dreamcast
+status: playable
+repo: rodrigo-mendonca/BlueStingerRecomp
+originalDeveloper: "Climax Entertainment"
+year: 1999
+desc:
+  es: "Recompilación estática de la versión de Dreamcast de Blue Stinger a un ejecutable nativo de Windows x64 en C++20: el código SH-4 del juego se traduce instrucción por instrucción a C++ y los subsistemas de la consola (archivos, tiempo, mandos, partidas guardadas, vídeos, audio y gráficos) se sustituyen por implementaciones nativas, comprobadas contra el juego original en el emulador Flycast. No usa BIOS ni intérprete de SH-4. El juego funciona en Windows a partir de tu disco, con audio nativo, dibujo con Vulkan por defecto (con un renderizador por software de reserva) y subtítulos en portugués de Brasil o inglés, generados en local desde el disco con transcripción, traducción y revisión por IA, de forma provisional. Su autor calcula un avance de aproximadamente el 72 % de su hoja de ruta, que incluye una edición remasterizada con pantalla ancha y texturas HD y un sistema de mods, todavía sin empezar. La versión 0.7.0, del 24 de octubre, publica el Builder, que construye el juego en tu equipo. 86 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Dreamcast version of Blue Stinger into a native Windows x64 executable in C++20: the game’s SH-4 code is translated instruction by instruction into C++ and the console’s subsystems (files, timing, controls, saves, movies, audio, and graphics) are replaced with native implementations, checked against the original game running in the Flycast emulator. It uses no BIOS and no SH-4 interpreter. The game runs on Windows from your disc, with native audio, Vulkan rendering by default (with a software renderer as fallback), and subtitles in Brazilian Portuguese or English, generated locally from the disc with AI transcription, translation, and review, provisionally. Its author puts progress at roughly 72% of the roadmap, which includes a remastered edition with widescreen and HD textures and a mod system, not yet started. Version 0.7.0, from October 24, ships the Builder, which builds the game on your PC. 86 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del disco de Blue Stinger (imagen CDI, NTSC-U, T13001N V1.000). Windows x64; para compilar desde el código, Visual Studio 2022 o posterior (o Build Tools) con CMake y Ninja, o Clang."
+  en: "Your own copy of the Blue Stinger disc (CDI image, NTSC-U, T13001N V1.000). Windows x64; to build from source, Visual Studio 2022 or later (or Build Tools) with CMake and Ninja, or Clang."
+tags:
+  - sh-4
+  - action
+  - vulkan
+  - static-recomp
+  - ai-assisted

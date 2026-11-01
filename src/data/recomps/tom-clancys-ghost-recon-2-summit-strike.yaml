@@ -1,0 +1,20 @@
+name: "Tom Clancy’s Ghost Recon 2: Summit Strike"
+games: [tom-clancys-ghost-recon-2-summit-strike]
+console: xbox
+status: playable
+repo: ElKev118/summitstrike-recomp
+originalDeveloper: "Red Storm Entertainment"
+year: 2005
+toolchain: xboxrecomp
+desc:
+  es: "Versión nativa para Windows de Tom Clancy’s Ghost Recon 2: Summit Strike (Xbox original, 2005). El código del juego se recompila estáticamente a C desde su default.xbe con el kit xboxrecomp, en una bifurcación del autor, y el hardware y el sistema de la Xbox se sustituyen por código nativo (núcleo, GPU NV2A a Vulkan, APU MCPX a XAudio2, mandos USB con SDL2, teclado y ratón). Según el README, toda la campaña de un jugador y sus escenas se pueden jugar de principio a fin; el multijugador, el cooperativo, System Link y Xbox Live no están cubiertos, y el menú de opciones del port solo se maneja con teclado y ratón. Ofrece resolución interna de 1× a 6×, SMAA, FSR 1, RCAS, proporciones de pantalla y caché de shaders. La versión 1.0 es del 26 de octubre. Sus 8 commits llevan a Claude como coautor."
+  en: "A native Windows version of Tom Clancy’s Ghost Recon 2: Summit Strike (original Xbox, 2005). The game’s code is statically recompiled to C from its default.xbe with the xboxrecomp toolkit, in the author’s fork, and the Xbox hardware and system software are replaced with native code (kernel, NV2A GPU to Vulkan, MCPX APU to XAudio2, USB pads with SDL2, keyboard and mouse). According to the README, the whole single-player campaign and its cutscenes play through; multiplayer, co-op, System Link, and Xbox Live are not covered, and the port’s options menu works only with keyboard and mouse. It offers internal resolution from 1x to 6x, SMAA, FSR 1, RCAS, aspect ratios, and a shader cache. Version 1.0 is from October 26. All 8 of its commits list Claude as a co-author."
+requirements:
+  es: "El contenido de tu propio disco de Summit Strike para Xbox, extraído (con default.xbe y sus carpetas) en una carpeta game junto al ejecutable. Windows 10 u 11 de 64 bits, una GPU con Vulkan 1.3 y el redistribuible de Visual C++ 2015–2022 (x64)."
+  en: "The contents of your own Summit Strike Xbox disc, extracted (with default.xbe and its folders) into a game folder beside the executable. 64-bit Windows 10 or 11, a Vulkan 1.3 GPU, and the Visual C++ 2015–2022 Redistributable (x64)."
+tags:
+  - x86
+  - fps
+  - vulkan
+  - static-recomp
+  - ai-assisted

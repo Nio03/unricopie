@@ -1,0 +1,19 @@
+name: "Teenage Mutant Ninja Turtles IV: Turtles in Time"
+games: [teenage-mutant-ninja-turtles-iv-turtles-in-time]
+console: snes
+status: playable
+repo: emanuelcnjunior/TMNT-IV-Turtles-in-Time-PC-Recomp
+originalDeveloper: "Konami"
+year: 1992
+toolchain: SNESRecomp
+desc:
+  es: "Port para Windows de la versión de SNES (EE. UU.), hecho con un SNESRecomp propio (el recompilador es un submódulo en otro repositorio del autor). Permite jugar hasta dos jugadores en local y se instala con un instalador de Windows de unos 5,7 MB que no necesita Git, Python, Rust, CMake ni Visual Studio: pide tu ROM, comprueba su SHA-256 y la copia a la carpeta de datos del usuario. Ofrece un modo Clásico y un modo HD con Scale2x que se alterna con F6, un launcher para vídeo, audio y controles, partidas guardadas y teclas rápidas. La versión 1.0.2 es del 27 de octubre; el 1 de noviembre se publicó además una vista previa experimental para Linux. Las imágenes promocionales del README son ilustraciones, no capturas."
+  en: "A Windows port of the SNES version (USA), made with the author’s own SNESRecomp (the recompiler is a submodule in another of the author’s repositories). It supports up to two local players and installs with a Windows installer of about 5.7 MB that needs no Git, Python, Rust, CMake, or Visual Studio: it asks for your ROM, checks its SHA-256, and copies it to the user’s data folder. It offers a Classic mode and an HD mode with Scale2x toggled with F6, a launcher for video, audio, and controls, saves, and hotkeys. Version 1.0.2 is from October 27; an experimental Linux preview was also published on November 1. The README’s promotional images are illustrations, not captures."
+requirements:
+  es: "Tu propia ROM de la versión de EE. UU. de 1.048.576 bytes, sin cabecera de copiador ni parches (SHA-256 5b82cdd6f2da56f43680d6a5021faebe2e06036d30602c1a7917aa414cf8b5f4). Windows 10 (1903 o posterior) de 64 bits y un controlador gráfico con OpenGL; hay una vista previa experimental para Linux x86-64."
+  en: "Your own USA ROM of 1,048,576 bytes, without a copier header or patches (SHA-256 5b82cdd6f2da56f43680d6a5021faebe2e06036d30602c1a7917aa414cf8b5f4). 64-bit Windows 10 (1903 or later) and an OpenGL-capable graphics driver; there is an experimental Linux x86-64 preview."
+tags:
+  - "65816"
+  - action
+  - multiplayer
+  - static-recomp

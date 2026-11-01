@@ -1,0 +1,20 @@
+name: "Zone of the Enders"
+games: [zone-of-the-enders]
+console: ps2
+status: playable
+repo: Yaz-Myst/ZOE-Recompiled
+originalDeveloper: "Konami"
+year: 2001
+toolchain: PS2Recomp
+desc:
+  es: "Port nativo para Windows de la versión de PS2 de EE. UU. (SLUS_201.48), hecho por recompilación estática del código MIPS del juego a C++ con PS2Recomp y ejecutado sobre un runtime de PC con renderizador OpenGL, programas de unidad vectorial compilados, y emulación del IOP y del sonido. Según el README, el juego corre a 60 fotogramas por segundo estables, hasta tres veces la resolución interna de la PS2, con pantalla ancha, salida progresiva, guardado de estado, mandos y teclado reasignables, botones de presión del DualShock 2, vibración y dos mandos para el modo Versus. Se puede jugar entero, desde la introducción hasta la zona final, con escenas, vídeos con sonido, el Hub y el modo Versus oculto. Quedan fallos conocidos, como algún cuelgue al cargar un almacén. El repositorio incluye programas de la unidad vectorial ya compilados a partir del juego (zoe_vu_aot.cpp, unos 3 MB); el resto del código C++ se genera en tu equipo con tu disco y no está en el repositorio. Recomienda jugar con mando. La versión 1.0.1 es del 31 de octubre."
+  en: "A native Windows port of the USA PS2 version (SLUS_201.48), made by statically recompiling the game’s MIPS code to C++ with PS2Recomp and running it on a PC runtime with an OpenGL renderer, compiled vector-unit programs, and IOP and sound emulation. According to the README, the game runs at a steady 60 frames per second, up to three times the PS2’s internal resolution, with widescreen, progressive output, save states, remappable keyboard and controller input, DualShock 2 pressure buttons, rumble, and two controllers for Versus mode. It can be played in full, from the intro to the final area, with cutscenes, movies with sound, the Hub, and the hidden Versus mode. Known issues remain, such as an occasional freeze when loading a warehouse. The repository includes vector-unit programs already compiled from the game (zoe_vu_aot.cpp, about 3 MB); the rest of the C++ is generated on your PC from your disc and is not in the repository. It recommends playing with a controller. Version 1.0.1 is from October 31."
+requirements:
+  es: "Tu propia imagen de disco .iso (sectores de 2048 bytes) de Zone of the Enders de EE. UU.; la comprobación espera SLUS_201.48, de 3.001.304 bytes y CRC-32 A0A48DD1 (la edición undub sirve). Windows 10 u 11 de 64 bits y una GPU con OpenGL 3.3."
+  en: "Your own .iso disc image (2048-byte sectors) of the USA Zone of the Enders; the check expects SLUS_201.48, 3,001,304 bytes, CRC-32 A0A48DD1 (the undub release works too). 64-bit Windows 10 or 11 and a GPU with OpenGL 3.3."
+tags:
+  - emotion-engine
+  - action
+  - widescreen
+  - 60fps+
+  - static-recomp

@@ -1,0 +1,21 @@
+name: "Chrono Trigger (SNES)"
+games: [chrono-trigger]
+category: fan-remake
+console: snes
+status: experimental
+repo: TemplarServant/BelthasarProject
+originalDeveloper: "Square"
+year: 1995
+desc:
+  es: "BelthasarProject es una reimplementación nativa en C de la versión de SNES (EE. UU.), comprobada fotograma a fotograma contra el programa original que corre en un núcleo de SNES incorporado, el «oráculo», basado en LakeSnes. No es un desensamblado que coincida byte a byte ni un emulador: es un motor portátil que se comporta como el juego, con el campo, los scripts de eventos, los combates, los menús, el mapa del mundo y el sonido reescritos rutina por rutina a partir del código 65816, con el método de snesrev/zelda3. Arranca como el cartucho, con la secuencia de título, la demostración, la carga y una partida nueva en el dormitorio de Crono, y el campo, los combates, los menús, las tiendas, el mapa del mundo y la música corren en el motor en C; su autor aclara que aún no se ha verificado que se pueda jugar de principio a fin. Las mejoras opcionales (F1) son pantalla ancha 16:9, resolución interna y más de 60 fps. Lo derivado de la ROM se produce en tu equipo y no se distribuye. La versión 0.12.0-preview, del 30 de octubre, publica compilaciones para Windows, Linux y Android. 96 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "BelthasarProject is a native C reimplementation of the SNES version (USA), checked frame by frame against the original program running in an embedded SNES core, the “oracle,” built on LakeSnes. It is neither a byte-matching disassembly nor an emulator: it is a portable engine that behaves like the game, with the field, event scripts, battles, menus, overworld, and sound rewritten routine by routine from the 65816 code, using the method of snesrev/zelda3. It boots like the cartridge, with the title sequence, the attract demo, the load screen, and a new game in Crono’s bedroom, and the field, battles, menus, shops, overworld, and music run on the C engine; its author states it has not yet been verified playable from start to finish. The optional enhancements (F1) are 16:9 widescreen, internal resolution, and more than 60 fps. Everything derived from the ROM is produced on your machine and not distributed. Version 0.12.0-preview, from October 30, ships builds for Windows, Linux, and Android. 96 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado del cartucho de Chrono Trigger (EE. UU.), de 4 MiB sin cabecera (se acepta y quita una cabecera de copiador de 512 bytes), SHA-1 de5822f4f2f7a55acb8926d4c0eaa63d5d989312 (CRC32 2D206BF7). Opcionalmente tu copia de Steam, de la que lee los márgenes de las salas. Windows x64, Linux x64 o Android."
+  en: "Your own dump of the Chrono Trigger (USA) cartridge, 4 MiB headerless (a 512-byte copier header is accepted and stripped), SHA-1 de5822f4f2f7a55acb8926d4c0eaa63d5d989312 (CRC32 2D206BF7). Optionally your Steam copy, from which it reads the room margins. Windows x64, Linux x64, or Android."
+tags:
+  - "65816"
+  - rpg
+  - widescreen
+  - 60fps+
+  - build-android
+  - ai-assisted

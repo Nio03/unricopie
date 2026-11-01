@@ -1,0 +1,18 @@
+name: Laser Lords
+games: [laser-lords]
+category: game-engine
+console: other
+status: playable
+repo: RandyVie/Laserlords
+originalDeveloper: Spinnaker Software
+year: 1992
+desc:
+  es: "Un programa hecho solo para Laser Lords, la aventura de Spinnaker para Philips CD-i, que lo hace correr de forma nativa en Windows, macOS, Linux (incluida la Steam Deck) y Nintendo Switch con homebrew, sin emulador de CD-i ni BIOS. El código 68000 original del juego corre sin cambios en un núcleo de CPU integrado (Musashi), y el sistema operativo del CD-i (CD-RTOS / OS-9), el gestor de archivos del CD, el chip de vídeo MCD212 y el audio ADPCM están reimplementados. Es una vista previa: la intro, los paseos, las conversaciones, el sonido y las partidas coinciden con el CD-i real, comprobados contra MAME con la ROM original, y se han visitado todos los planetas, pero el juego aún no se ha probado a fondo; se ha jugado en macOS y en Switch, y las versiones de Windows y Linux pasan las pruebas pero no se han probado en equipos reales. Añade la opción de saltar las escenas, el recorte de las franjas negras, escalado nítido o suave, un ritmo más lento para los planetas y una corrección del ruido de color en las transiciones. La 0.8.1, de vista previa, salió el 24 de octubre. Sus 8 commits llevan a Claude como coautor."
+  en: "A program built only for Laser Lords, Spinnaker’s adventure for the Philips CD-i, that runs it natively on Windows, macOS, Linux (Steam Deck included), and homebrew Nintendo Switch, with no CD-i emulator or BIOS. The game’s original 68000 code runs unchanged on an embedded CPU core (Musashi), and the CD-i operating system (CD-RTOS / OS-9), the CD file manager, the MCD212 video chip, and the ADPCM audio are reimplemented. It is a preview: the intro, walking, conversations, sound, and saves match the real CD-i, checked against MAME running the original ROM, and every planet has been visited, but the game hasn’t been tested extensively yet; it has been played on macOS and on the Switch, and the Windows and Linux builds pass the tests but haven’t been tried on real machines. It adds cutscene skipping, cropping of the black bands, sharp or smooth scaling, a slower pace for the planets, and a fix for the color noise during warp transitions. Preview version 0.8.1 came out on October 24. All 8 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen del disco de Laser Lords, como CHD de MAME (.chd) o como .cue y .bin sacados con chdman extractcd; no hace falta la BIOS del CD-i. Windows 10 u 11 de 64 bits, macOS 11 o posterior (Intel o Apple Silicon), Linux x86-64 o una Switch con firmware modificado y el Homebrew Menu."
+  en: "Your own image of the Laser Lords disc, as a MAME CHD (.chd) or as a .cue and .bin made with chdman extractcd; the CD-i BIOS isn’t needed. 64-bit Windows 10 or 11, macOS 11 or later (Intel or Apple silicon), x86-64 Linux, or a Switch with custom firmware and the Homebrew Menu."
+tags:
+  - "68000"
+  - build-switch
+  - ai-assisted

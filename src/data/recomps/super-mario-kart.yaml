@@ -1,0 +1,19 @@
+name: "Super Mario Kart"
+games: [super-mario-kart]
+console: snes
+status: experimental
+repo: mpolizel/SMKSNESRecomp
+originalDeveloper: "Nintendo"
+year: 1992
+toolchain: snesrecomp
+desc:
+  es: "Recompilación nativa para Windows de Super Mario Kart (EE. UU.), construida sobre snesrecomp. El C recompilado se genera en tu equipo a partir de tu propia ROM y nunca se sube al repositorio. La release es un paquete de preparación (unos 49 MB) que trae el launcher, el recompilador y el árbol de código fuente, sin datos del juego: en el primer arranque descarga herramientas de compilación portátiles, te pide la ROM y, con Generate & rebuild, construye el juego. El launcher ofrece presets de shader (líneas de barrido, CRT, escaladores) que cambian el renderizador a OpenGL. Según el README, arranca hasta la pantalla de título y ejecuta la carrera de demostración, con Modo 7 y el modelo de comandos del DSP-1 sin necesidad de firmware; la mayor parte del código aún pasa por el intérprete de snesrecomp y las copas completas, el modo Batalla y la pantalla dividida de dos jugadores no están verificados. La versión 0.1.0 es del 30 de octubre. 5 de sus 7 commits llevan a Claude como coautor."
+  en: "A native Windows recompilation of Super Mario Kart (USA), built on snesrecomp. The recompiled C is generated on your machine from your own ROM and is never committed to the repository. The release is a setup pack (about 49 MB) containing the launcher, the recompiler, and the source tree, with no game data: on first run it downloads portable build tools, asks for your ROM, and builds the game with Generate & rebuild. The launcher offers shader presets (scanlines, CRT, upscalers) that switch the renderer to OpenGL. According to the README, it boots to the title screen and runs the attract-mode race, with Mode 7 and the DSP-1 command model needing no firmware; most code still runs through the snesrecomp interpreter, and full cups, Battle Mode, and two-player split screen are not verified. Version 0.1.0 is from October 30. 5 of its 7 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM «Super Mario Kart (USA).sfc» (CRC32 cd80db86, HiROM). Windows de 64 bits y conexión a internet en el primer arranque para las herramientas de compilación portátiles."
+  en: "Your own “Super Mario Kart (USA).sfc” ROM (CRC32 cd80db86, HiROM). 64-bit Windows and an internet connection on first launch for the portable build tools."
+tags:
+  - "65816"
+  - racing
+  - static-recomp
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "GoldenEye 007: Reloaded"
+games: [goldeneye-007-reloaded]
+console: x360
+status: experimental
+repo: nikolaygorb/GoldenEye007ReloadedRecomp
+originalDeveloper: "Eurocom"
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de GoldenEye 007: Reloaded de Xbox 360 (Title ID 415608AF) a PC nativo, construida sobre el SDK de ReXGlue: el código PowerPC del juego se traduce a C++ y se compila, sin emulador. Su README lo describe como un proyecto de investigación de aficionados: el juego llega al menú principal con vídeo, audio y mando, funciona el modo de un jugador (cargan y se juegan el entrenamiento y la primera misión), el multijugador en línea no está implementado y la pantalla dividida local puede iniciar sesión con un segundo mando si se activa en hardware.toml. Incluye parches opcionales de xenia-canary, sin destellos de lente y con filtrado anisotrópico de 16×. Las releases para Windows y Linux (de 24 y 46 MB) se compilan con el SDK; la 1.4 es del 27 de octubre."
+  en: "A static recompilation of GoldenEye 007: Reloaded for Xbox 360 (Title ID 415608AF) to native PC, built on the ReXGlue SDK: the game’s PowerPC code is translated to C++ and compiled, with no emulator. Its README describes it as a fan research project: the game reaches the main menu with video, audio, and controller input, single player works (training and the first mission load and play), online multiplayer is not implemented, and local split-screen can sign in a second player on a second gamepad if enabled in hardware.toml. It includes optional patches from xenia-canary, removing lens flares and adding 16x anisotropic filtering. The Windows and Linux releases (24 and 46 MB) are built with the SDK; 1.4 is from October 27."
+requirements:
+  es: "Los archivos de tu propia copia de GoldenEye 007: Reloaded para Xbox 360, extraídos de tu disco o ISO con extract-xiso, de la edición comercial esperada (Title ID 415608AF, Media ID 40583A82, hash de módulo 065D6021C0BDD535). Windows 11 o Ubuntu 26.04 según la release; para compilar, CMake 3.25 o posterior, Ninja y Clang/LLVM."
+  en: "The files of your own copy of GoldenEye 007: Reloaded for Xbox 360, extracted from your disc or ISO with extract-xiso, of the expected retail release (Title ID 415608AF, Media ID 40583A82, module hash 065D6021C0BDD535). Windows 11 or Ubuntu 26.04 per the release; to build, CMake 3.25 or later, Ninja, and Clang/LLVM."
+tags:
+  - powerpc
+  - fps
+  - static-recomp

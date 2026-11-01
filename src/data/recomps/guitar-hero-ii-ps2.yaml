@@ -1,0 +1,19 @@
+name: "Guitar Hero II (PS2)"
+games: [guitar-hero-ii, guitar-hero, guitar-hero-encore-rocks-the-80s]
+console: ps2
+status: playable
+repo: noahbaxter/GHClassic
+originalDeveloper: "Harmonix"
+year: 2006
+toolchain: PS2Recomp
+desc:
+  es: "Guitar Hero Classic es una recompilación modificada de la versión de PS2 de Guitar Hero II que funciona de forma nativa en Windows, macOS y Linux. Recompila el juego con una bifurcación propia de PS2Recomp y ejecuta el código original casi sin cambios; el renderizador, el audio, los controles y las partidas guardadas se escribieron aparte. Reúne en un solo paquete las campañas de Guitar Hero, Guitar Hero II (de PS2 y de Xbox 360) y Guitar Hero Encore: Rocks the 80s, permite elegir el motor de notas de GH2 o de GH1, mezclar en partida rápida todas las canciones de todos los juegos y jugar en local. Un motor de renderizado Vulkan propio permite el aspecto original de PS2, el de Xbox 360 o algo intermedio, con cualquier resolución, fotogramas sin límite, MSAA, TAA y mipmaps. Su autor declara que usó IA generativa solo para escribir código y que no generó ni reescaló ningún recurso del juego. Está en desarrollo activo; la versión 0.8.6 es del 29 de octubre."
+  en: "Guitar Hero Classic is a modded recompilation of the PS2 version of Guitar Hero II that runs natively on Windows, macOS, and Linux. It recompiles the game with the author’s own fork of PS2Recomp and runs the original code mostly unchanged; the renderer, audio, controls, and saves were written separately. It brings together in one package the campaigns of Guitar Hero, Guitar Hero II (PS2 and Xbox 360), and Guitar Hero Encore: Rocks the 80s, lets you pick the GH2 or GH1 note engine, mix every song from every game in quickplay, and play local multiplayer. A custom Vulkan rendering engine offers the original PS2 look, the Xbox 360’s, or anything in between, with any resolution, uncapped frame rate, MSAA, TAA, and mipmaps. Its author states generative AI was used only to write code and that no game asset was generated or upscaled. It is in active development; version 0.8.6 is from October 29."
+requirements:
+  es: "Imágenes de disco de tu propia copia en .chd, .iso o .bin: obligatoria Guitar Hero II de PS2 (solo EE. UU., SLUS-21447); opcionales, de cualquier región, Guitar Hero (PS2), Guitar Hero II (Xbox 360) y Guitar Hero Encore: Rocks the 80s (PS2). Una GPU con Vulkan; Windows, macOS con Apple Silicon o Linux."
+  en: "Disc images of your own copies as .chd, .iso, or .bin: required, Guitar Hero II for PS2 (USA only, SLUS-21447); optional, any region, Guitar Hero (PS2), Guitar Hero II (Xbox 360), and Guitar Hero Encore: Rocks the 80s (PS2). A Vulkan-capable GPU; Windows, Apple Silicon macOS, or Linux."
+tags:
+  - emotion-engine
+  - vulkan
+  - static-recomp
+  - ai-assisted

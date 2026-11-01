@@ -1,0 +1,19 @@
+name: "Wario Blast Featuring Bomberman!"
+games: [wario-blast-featuring-bomberman]
+console: gb
+status: playable
+repo: gnome41/WarioBlast-SGB
+originalDeveloper: "Hudson Soft"
+year: 1994
+desc:
+  es: "Recompilación estática no oficial de Wario Blast Featuring Bomberman! para Game Boy y Super Game Boy (1994), para Linux y Windows. Traduce el código SM83 de la ROM a C y lo ejecuta de forma nativa sobre un pequeño runtime (PPU, APU, temporizador, MBC1 y Super Game Boy con multijugador) con SDL2. El recompilador, el runtime, el launcher y el soporte de mods y trucos vienen del proyecto hermano DK94 Recomp (Donkey Kong, 1994). La versión de las releases no lleva código del juego: al pulsar JUGAR recompila tu ROM y la compila en memoria con TinyCC; la versión de desarrollo sí enlaza código derivado y no se debe compartir. Con el adaptador multijugador del Super Game Boy, cada mando es un jugador. La versión 1.2.0 es del 28 de octubre. 3 de sus 3 commits llevan a Claude como coautor."
+  en: "An unofficial static recompilation of Wario Blast Featuring Bomberman! for Game Boy and Super Game Boy (1994), for Linux and Windows. It translates the ROM’s SM83 code to C and runs it natively on a small runtime (PPU, APU, timer, MBC1, and Super Game Boy with multiplayer) on SDL2. The recompiler, runtime, launcher, and mod and cheat support come from the sister project DK94 Recomp (Donkey Kong, 1994). The release build carries no game code: when you press PLAY it recompiles your ROM and compiles it in memory with TinyCC; the developer build does link in derived code and must not be shared. With the Super Game Boy multiplayer adapter, each controller is one player. Version 1.2.0 is from October 28. All 3 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM de «Wario Blast Featuring Bomberman! (USA, Europe) (SGB Enhanced).gb» (CRC32 927B57A1, SHA-1 279fb0223e362db553b739b1b8f9c18b81d92413). Opcionalmente, la BIOS del Super Game Boy. Windows x64 o Linux x86-64."
+  en: "Your own ROM of “Wario Blast Featuring Bomberman! (USA, Europe) (SGB Enhanced).gb” (CRC32 927B57A1, SHA-1 279fb0223e362db553b739b1b8f9c18b81d92413). Optionally the Super Game Boy BIOS. Windows x64 or Linux x86-64."
+tags:
+  - sm83
+  - multiplayer
+  - mods
+  - static-recomp
+  - ai-assisted

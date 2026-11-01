@@ -1,0 +1,20 @@
+name: "Fracture"
+games: [fracture]
+console: x360
+status: experimental
+repo: ASarafanov/fracturerecomp
+originalDeveloper: "Day 1 Studios"
+year: 2008
+desc:
+  es: "Fracture de Xbox 360 recompilado para ejecutarse de forma nativa en Windows (y en Steam Deck, donde su README dice que funciona bien con Proton), con renderizado Direct3D 12 o Vulkan. Ofrece resolución interna de 1× a 4× los 720p de la consola (probado a 3× y 60 fps estables en una RTX 4080 SUPER), 60 fps conmutables en pleno juego, un menú de ajustes dentro del juego, mando de Xbox y PlayStation, teclado y ratón y logros. Admite dos ediciones en disco de la 360. En el primer arranque el programa copia el juego de tu .iso y no hace falta instalar nada más. El repositorio publica el código del proyecto y la configuración de la recompilación, pero no incluye archivos del juego; la release (unos 59 MB) es un ejecutable ya construido. Su README lo describe como una fase temprana: se puede jugar desde el principio, pero no se ha recorrido toda la campaña. La versión 0.4.0 es del 29 de octubre. 16 de sus 18 commits llevan a Claude como coautor."
+  en: "Fracture for Xbox 360, recompiled to run natively on Windows (and on Steam Deck, where its README says it runs well under Proton), with Direct3D 12 or Vulkan rendering. It offers internal resolution from 1x to 4x the console’s 720p (tested at 3x and a steady 60 fps on an RTX 4080 SUPER), 60 fps switchable during play, an in-game settings menu, Xbox and PlayStation controllers, keyboard and mouse, and achievements. It supports two Xbox 360 disc releases. On first launch the program copies the game from your .iso and nothing else needs to be installed. The repository publishes the project’s code and the recompilation configuration but includes no game files; the release (about 59 MB) is a prebuilt executable. Its README calls it early days: it is playable from the start, but the whole campaign has not been played through. Version 0.4.0 is from October 29. 16 of its 18 commits list Claude as a co-author."
+requirements:
+  es: "Una imagen de disco (.iso) de tu propia copia de Fracture para Xbox 360 (se admiten dos ediciones). Windows 10 (1903 o posterior) u 11 de 64 bits, o Steam Deck; una tarjeta con Direct3D 12 o Vulkan y unos 4 GB libres."
+  en: "A disc image (.iso) of your own Xbox 360 copy of Fracture (two releases are supported). 64-bit Windows 10 (1903 or later) or 11, or Steam Deck; a graphics card with Direct3D 12 or Vulkan and about 4 GB free."
+tags:
+  - powerpc
+  - action
+  - vulkan
+  - 60fps+
+  - static-recomp
+  - ai-assisted

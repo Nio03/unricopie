@@ -1,0 +1,20 @@
+name: "Donkey Kong Country: Simultaneous Co-op"
+games: [donkey-kong-country]
+kind: mod
+console: snes
+game:
+  es: "Donkey Kong Country (SNES, EE. UU. v1.0)"
+  en: "Donkey Kong Country (SNES, USA v1.0)"
+base: "recomps/donkey-kong-country"
+repo: gumilastik/DKC1Recomp-Coop
+status: beta
+desc:
+  es: "Bifurcación de DKC1Recomp que añade cooperativo local simultáneo: dos jugadores controlan a la vez a Donkey y a Diddy, con una cámara y una vista independientes para cada Kong, la de Donkey arriba y la de Diddy abajo, mientras ambas comparten una sola simulación del juego, con objetos, enemigos y progreso comunes. Se activa en el anfitrión de escritorio con Mods, Simultaneous co-op, y se juega con dos teclados, un teclado y un mando, o dos mandos. El modo cubre las muertes y el rescate con el barril DK, las cuerdas, las monturas animales, las vagonetas, los marcadores y los estados guardados. La versión de la release, 0.1.0 para Windows del 15 de octubre, excluye las ventanas de depuración. Se compila a partir de la misma ROM limpia que el proyecto base, y el código generado a partir de ella se queda fuera del repositorio. Lleva 3 commits propios sobre el proyecto original."
+  en: "A fork of DKC1Recomp that adds simultaneous local co-op: two players control Donkey and Diddy at the same time, with an independent camera and view for each Kong, Donkey’s on top and Diddy’s below, while both share one game simulation, with common pickups, enemies, and progress. It is enabled in the desktop host under Mods, Simultaneous co-op, and played with two keyboards, a keyboard and one controller, or two controllers. The mode covers deaths and DK-barrel rescue, ropes, animal mounts, minecarts, HUDs, and save states. The release build, Windows 0.1.0 from October 15, leaves out the debug windows. It is built from the same clean ROM as the base project, and the code generated from it stays out of the repository. It has 3 commits of its own on top of the original project."
+requirements:
+  es: "Tu propia ROM limpia de Donkey Kong Country de EE. UU. v1.0, sin cabecera, la misma que pide el proyecto base. Windows x64 para la descarga publicada; hay que mantener los ejecutables y SDL2.dll juntos."
+  en: "Your own clean, headerless Donkey Kong Country USA v1.0 ROM, the same one the base project asks for. Windows x64 for the published download; keep the executables and SDL2.dll together."
+tags:
+  - "65816"
+  - platformer
+  - multiplayer

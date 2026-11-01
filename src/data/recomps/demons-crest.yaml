@@ -1,0 +1,19 @@
+name: "Demon’s Crest"
+games: [demons-crest]
+console: snes
+status: playable
+repo: rac08241988/DemonsCrestSNESRecomp
+originalDeveloper: "Capcom"
+year: 1994
+toolchain: snesrecomp
+desc:
+  es: "Recompilación nativa para PC de Demon’s Crest, en forma de bifurcación del proyecto de magnopaz, con 19 commits propios por delante. El zip de la release no contiene código ni datos del juego: trae el ejecutable de configuración, sus DLL, los shaders GPL, un snesrecomp-analyze ya compilado y las herramientas de construcción. Al primer arranque eliges tu ROM, descarga un compilador portátil (unos 800 MB) y construye el juego en tu equipo en unos minutos; después basta abrir el ejecutable. Añade un panel lateral de opciones, estados guardados con navegador, rebobinado, pantalla ancha con Alt+W, entrada en segundo plano, importación de partidas, shaders de pantalla (CRT y otros, solo con los renderizadores Vulkan y OpenGL) y un modo de movimiento a 120 Hz, todo configurable desde el juego. La versión 1.1.0 es del 1 de noviembre."
+  en: "A native PC recompilation of Demon’s Crest, as a fork of magnopaz’s project, with 19 commits of its own ahead. The release zip contains no game code or data: it holds the setup executable, its DLLs, the GPL shaders, a prebuilt snesrecomp-analyze, and the build tools. On first launch you pick your ROM, it downloads a portable compiler (about 800 MB), and it builds the game on your PC in a few minutes; afterwards you just open the executable. It adds a side-panel options menu, save states with a browser, rewind, widescreen with Alt+W, background input, save import, screen shaders (CRT and others, only on the Vulkan and OpenGL renderers), and a 120 Hz motion mode, all configurable from within the game. Version 1.1.0 is from November 1."
+requirements:
+  es: "Tu propia ROM de Demon’s Crest de EE. UU. (.sfc o .smc, SHA-256 que empieza por 18d40a80 y acaba en 5844de). Windows x64, conexión a internet en el primer arranque y unos 800 MB para la cadena de herramientas."
+  en: "Your own Demon’s Crest USA ROM (.sfc or .smc, SHA-256 starting 18d40a80 and ending 5844de). Windows x64, an internet connection on first launch, and about 800 MB for the toolchain."
+tags:
+  - "65816"
+  - platformer
+  - widescreen
+  - static-recomp

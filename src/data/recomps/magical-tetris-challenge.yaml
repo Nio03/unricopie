@@ -1,0 +1,17 @@
+name: "Magical Tetris Challenge"
+games: [magical-tetris-challenge]
+console: n64
+status: experimental
+repo: rac08241988/MagicalBlocks
+originalDeveloper: "Capcom"
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Port no oficial para Windows, llamado Magical Blocks, de la versión de N64 de Magical Tetris Challenge, hecho con N64Recomp. El juego se construye en tu equipo a partir de tu ROM la primera vez que lo arrancas, en unos segundos; el instalador te pide la ROM y la comprueba, y también hay una versión portátil en zip. Usa RT64 para dibujar, con ajustes gráficos, shaders retro (CRT y otros) que se pueden ampliar con archivos .slang propios, mandos y teclado reasignables, y registros y informes de fallos. El repositorio no incluye archivos, código ni ROM del juego. La versión 0.1.4 es del 28 de octubre."
+  en: "An unofficial Windows port, called Magical Blocks, of the N64 version of Magical Tetris Challenge, made with N64Recomp. The game is built on your PC from your ROM the first time you start it, in a few seconds; the installer asks for the ROM and checks it, and there is also a portable zip. It uses RT64 for rendering, with graphics settings, retro shaders (CRT and others) that can be extended with your own .slang files, rebindable gamepad and keyboard controls, and logs and crash reports. The repository includes no game files, code, or ROM. Version 0.1.4 is from October 28."
+requirements:
+  es: "Tu propia ROM de Magical Tetris Challenge (USA) para N64; otras versiones, ROM modificadas o volcados defectuosos se rechazan. Windows."
+  en: "Your own Magical Tetris Challenge (USA) N64 ROM; other versions, modified ROMs, and bad dumps are rejected. Windows."
+tags:
+  - mips
+  - static-recomp

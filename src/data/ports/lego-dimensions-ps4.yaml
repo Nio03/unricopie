@@ -1,0 +1,19 @@
+name: "LEGO Dimensions (PS4)"
+games: [lego-dimensions]
+category: native-layer
+console: ps4
+status: playable
+repo: vascon-es/lego-dimensions-pc
+originalDeveloper: TT Games
+year: 2015
+desc:
+  es: "Port nativo no oficial para Windows x64 de la versión de PS4 (CUSA01176 europea o CUSA00935 estadounidense, versión 01.24). No es un emulador: el ejecutable del juego corre directamente en el procesador del PC, las bibliotecas del sistema de la PS4 se reescribieron para Windows, los gráficos GCN se traducen a Vulkan y los shaders del juego se traducen antes de jugar a partir de tu copia, en un paso de preparación de 20 a 60 minutos que también convierte el eboot.bin. Funcionan el audio, las partidas guardadas, el mando y el portal, ya sea el Toy Pad real por USB, la app LegoToypad (se incluye la versión 1.9 Web App Extended) o un Toy Pad virtual. Tiene un launcher con modos, ajustes y comprobación de actualizaciones, y extrae los .pkg de juego, actualización y DLC. El repositorio no contiene nada del juego, pero trae listados de los archivos de datos del juego (tools/data/dat_index, con rutas, tamaños y desplazamientos) y el ejecutable de 79 MB de LegoToypad, la app de terceros que emula el portal. La versión 1.8.8 es del 31 de octubre. Declara cambios asistidos por IA y 45 de sus 73 commits llevan a Claude como coautor."
+  en: "An unofficial native Windows x64 port of the PS4 version (CUSA01176 European or CUSA00935 US, version 01.24). It is not an emulator: the game executable runs directly on the PC’s processor, the PS4 system libraries were rewritten for Windows, the GCN graphics are translated to Vulkan, and the game’s shaders are translated before you play from your copy, in a 20 to 60 minute preparation step that also converts the eboot.bin. Audio, saves, the controller, and the portal work, whether the real Toy Pad over USB, the LegoToypad app (version 1.9 Web App Extended is included), or a virtual Toy Pad. It has a launcher with modes, settings, and update checks, and extracts the game, update, and DLC .pkg files. The repository contains nothing from the game, but it does carry listings of the game’s data archives (tools/data/dat_index, with paths, sizes, and offsets) and the 79 MB executable of LegoToypad, the third-party app that emulates the portal. Version 1.8.8 is from October 31. It states AI-assisted changes, and 45 of its 73 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de LEGO Dimensions de PS4 (carpeta CUSA01176 o CUSA00935, versión 01.24, con eboot.bin, sce_sys y data\\chunk*), con la actualización integrada o en una carpeta -patch aparte; opcionalmente DLC, o los .pkg para extraerlos desde el launcher. Windows 10 (1803 o posterior) u 11 de 64 bits, una GPU con Vulkan 1.3 (probado en una Radeon RX 6600) y 16 GB de RAM (el juego usa unos 5 GB)."
+  en: "Your own dump of LEGO Dimensions for PS4 (CUSA01176 or CUSA00935 folder, version 01.24, with eboot.bin, sce_sys, and data\\chunk*), with the update merged in or in a separate -patch folder; optionally DLC, or the .pkg files to extract from the launcher. 64-bit Windows 10 (1803 or newer) or 11, a Vulkan 1.3 GPU (tested on a Radeon RX 6600), and 16 GB of RAM (the game uses about 5 GB)."
+tags:
+  - x86
+  - action
+  - vulkan
+  - ai-assisted

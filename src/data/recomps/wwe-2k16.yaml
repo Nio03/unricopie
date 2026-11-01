@@ -1,0 +1,22 @@
+name: "WWE 2K16"
+games: [wwe-2k16]
+console: x360
+status: experimental
+repo: itsbybanshee/wwe2k16-pc
+originalDeveloper: "Yuke’s"
+year: 2015
+toolchain: ReXGlue
+desc:
+  es: "Port para PC de WWE 2K16 de Xbox 360 por recompilación, hecho con el SDK de ReXGlue y con un launcher moderno. El repositorio publica el launcher, la configuración y los parches del SDK, pero no el juego; la release (un zip de unos 84 MB) trae el programa ya construido en una carpeta bin. El juego se ejecuta directamente desde tu .iso o desde una carpeta extraída. Ofrece resoluciones de 720p a 4K, FSR de AMD, FXAA, 60 fps con entradas y celebraciones también a 60, teclado con una disposición al estilo WWE 2K, reasignación de botones, cinco idiomas, soporte de mods sin modificar los archivos (parchea el catálogo plist360.arc), los seis paquetes de DLC oficiales, actualizaciones del título, logros y banda sonora propia. Las funciones en línea del original no están disponibles; su autor avisa de que es una versión temprana. La versión 1.1.0 es del 23 de octubre."
+  en: "A recompilation-based PC port of WWE 2K16 for Xbox 360, made with the ReXGlue SDK and a modern launcher. The repository publishes the launcher, the configuration, and SDK patches, but not the game; the release (a zip of about 84 MB) ships the program already built in a bin folder. The game runs directly from your .iso or an extracted folder. It offers resolutions from 720p to 4K, AMD FSR, FXAA, 60 fps with entrances and victory motions also at 60, keyboard with a WWE 2K-style layout, button remapping, five languages, non-destructive mod support (it patches the plist360.arc catalog), all six official DLC packages, title updates, achievements, and a custom soundtrack. The original’s online features are not available; its author warns it is an early release. Version 1.1.0 is from October 23."
+requirements:
+  es: "Tu propia copia de WWE 2K16 para Xbox 360, como imagen .iso o carpeta extraída (las ISO de PS3 no sirven). Windows 10 u 11 de 64 bits, una tarjeta con Vulkan y controlador actualizado, y el runtime WebView2 de Microsoft Edge; se recomienda un mando o teclado."
+  en: "Your own copy of WWE 2K16 for Xbox 360, as an .iso image or an extracted folder (PS3 ISOs do not work). 64-bit Windows 10 or 11, a Vulkan card with an up-to-date driver, and the Microsoft Edge WebView2 runtime; a controller or keyboard is recommended."
+tags:
+  - powerpc
+  - sports
+  - fighting
+  - mods
+  - 60fps+
+  - vulkan
+  - static-recomp

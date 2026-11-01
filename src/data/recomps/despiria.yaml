@@ -1,0 +1,19 @@
+name: "deSPIRIA"
+games: [despiria]
+console: dreamcast
+status: experimental
+repo: goodshepherd23/deSPIRIA-DreamRecomp
+originalDeveloper: "Dennou Eizo Seisakusho"
+year: 2000
+toolchain: dream-recomp
+desc:
+  es: "Kit para jugar a deSPIRIA, de Dreamcast, como programa nativo de Windows y en inglés. Usa dream-recomp, un recompilador estático experimental de Dreamcast: el código SH-4 del juego se traduce por adelantado a C++ y se compila, mientras que el hardware de gráficos y sonido se emula y la BIOS de la consola se sustituye, así que no hace falta BIOS. El kit añade los arreglos que necesita el juego, su configuración y un launcher; en el primer arranque descarga el código fuente de dream-recomp y un compilador portátil, y construye el juego en tu equipo a partir de tu disco. Funcionan el título, los menús, el logotipo y los vídeos iniciales con sonido y Nueva partida hasta la historia de apertura, a velocidad completa en un portátil de 15 W; su autor avisa de que no es una partida completa y de que hay asperezas. Las partidas se guardan en un archivo de tarjeta de memoria. La versión 0.1.1 es del 30 de octubre. 4 de sus 4 commits llevan a Claude como coautor."
+  en: "A kit for playing the Dreamcast game deSPIRIA as a native Windows program, in English. It uses dream-recomp, an experimental Dreamcast static recompiler: the game’s SH-4 code is translated ahead of time into C++ and compiled, while the graphics and sound hardware is emulated and the console BIOS is replaced, so no BIOS is needed. The kit adds the fixes the game needs, its configuration, and a launcher; on first launch it downloads dream-recomp’s source and a portable compiler, and builds the game on your PC from your disc. The title screen, menus, the logo and opening movies with sound, and New Game into the opening story work, at full speed on a 15 W laptop; its author warns it isn’t a full playthrough and that there are rough edges. Saves go to a memory card file. Version 0.1.1 is from October 30. All 4 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de deSPIRIA (Japón, T14402M) volcada como imagen GDI, con el parche de traducción al inglés del equipo de traducción ya aplicado (con su parcheador). Windows 10 u 11 de 64 bits, una GPU compatible con Vulkan, unos 3 GB libres y conexión a internet en el primer arranque."
+  en: "Your own copy of deSPIRIA (Japan, T14402M) dumped as a GDI image, with the translation team’s English patch already applied (using their patcher). 64-bit Windows 10 or 11, a Vulkan-capable GPU, about 3 GB free, and an internet connection on first launch."
+tags:
+  - sh-4
+  - rpg
+  - static-recomp
+  - ai-assisted

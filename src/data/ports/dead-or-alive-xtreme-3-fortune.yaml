@@ -1,0 +1,17 @@
+name: "Dead or Alive Xtreme 3 Fortune"
+games: [dead-or-alive-xtreme-3]
+category: native-layer
+console: ps4
+status: experimental
+repo: negroISO/doax3-fortune-pc
+originalDeveloper: "Team Ninja"
+year: 2016
+desc:
+  es: "Port experimental para Windows x64 con Vulkan de la versión de PS4 (CUSA04555, versión 01.19). El código x86-64 original del juego se ejecuta a través de un runtime nativo heredado y el núcleo gráfico de shadPS4 traduce las órdenes de la GPU y los shaders a Vulkan. El repositorio contiene el código, herramientas portátiles de arranque y compilación, documentación y capturas de pruebas; el anfitrión hay que compilarlo antes de usarlo, y los datos del juego, el firmware, las partidas, las cachés de shaders y los archivos propietarios de DLSS se aportan aparte. Según el README, están probados el título y la isla, el paso de la piscina al hotel, las rondas de casino, Beach Flags, Butt Battle, Tug-of-War y una escalada completa; el voleibol y Pool Hopping tienen cobertura parcial, y se abrieron las 73 etiquetas de DLC instaladas sin verificar cada atuendo, mapa y combinación de shaders. Ofrece renderizado neuronal opcional con NVIDIA, sin generación de fotogramas. La release del 26 de octubre es una candidata nativa para Steam Deck."
+  en: "An experimental Windows x64 Vulkan port of the PS4 version (CUSA04555, version 01.19). The game’s original x86-64 code runs through an inherited native runtime, and shadPS4’s graphics core translates GPU commands and shaders to Vulkan. The repository contains source, portable launch and build tools, documentation, and test screenshots; the host must be built before use, and the game data, firmware, saves, shader caches, and proprietary DLSS files are supplied separately. According to the README, the title and island, the pool-to-hotel transition, casino rounds, Beach Flags, Butt Battle, Tug-of-War, and a full rock climb are tested; volleyball and Pool Hopping have partial coverage, and all 73 installed DLC labels opened, without every outfit, map, and shader permutation being verified. It offers optional neural rendering on NVIDIA hardware, with no frame generation. The October 26 release is a native Steam Deck candidate."
+requirements:
+  es: "Tu propia copia de Dead or Alive Xtreme 3 Fortune de PS4 (CUSA04555), con datos extraídos en claro, la actualización 01.19 superpuesta y, opcionalmente, los DLC de CUSA04555; además, los módulos de sistema libSceFiber.sprx, ulobjmgr.sprx y libSceUlt.sprx. Para compilar: Windows x64, Python 3.11 o posterior, MSYS2 CLANG64 y un controlador de Vulkan. El renderizado neuronal opcional necesita hardware NVIDIA compatible."
+  en: "Your own copy of Dead or Alive Xtreme 3 Fortune for PS4 (CUSA04555), with extracted plaintext data, the 01.19 update overlaid, and optionally the CUSA04555 DLC packs; plus the system modules libSceFiber.sprx, ulobjmgr.sprx, and libSceUlt.sprx. To build: Windows x64, Python 3.11 or later, MSYS2 CLANG64, and a Vulkan driver. The optional neural rendering needs compatible NVIDIA hardware."
+tags:
+  - x86
+  - vulkan

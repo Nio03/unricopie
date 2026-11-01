@@ -1,0 +1,22 @@
+name: "Mario Kart DS"
+games: [mario-kart-ds]
+console: nds
+status: playable
+repo: AlonsoTlol/DS-Kart-Recompiled
+originalDeveloper: "Nintendo"
+year: 2005
+desc:
+  es: "Port nativo para PC de la edición europea, llamado DS Kart Recompiled, hecho por recompilación estática: el código del juego para los dos procesadores de la DS (ARM9 y ARM7) se traduce a C y se compila como un programa normal, con un pequeño runtime que hace de consola (memoria, interrupciones, temporizadores, motores 2D y 3D, sonido, guardado y controles). Ofrece 3D a 2, 3 o 4 veces la resolución, hasta 240 fps generando fotogramas 3D intermedios mientras la lógica sigue a 60, las dos pantallas lado a lado, mandos de PS5, PS4 y Xbox, el micrófono del PC para Balloon Battle, repeticiones guardadas con F10, un menú de ajustes, su propio launcher en cinco idiomas y todo desbloqueado desde el principio. Funcionan Gran Premio, Contrarreloj, VS, Batalla y Misiones, y el multijugador local o por internet con una VPN; la versión 0.2.0 añadió juego en línea en beta. En el primer arranque el launcher descarga Python y el compilador (unos 200 MB) y construye el juego con tu ROM. Sus autores avisan de que las primeras versiones tienen muchos fallos. En Linux hay una versión beta sin ventana de launcher. La 0.2.1 es del 31 de octubre. 14 de sus 15 commits llevan a Claude como coautor."
+  en: "A native PC port of the European edition, called DS Kart Recompiled, made by static recompilation: the game’s code for both DS processors (ARM9 and ARM7) is translated to C and compiled as a normal program, with a small runtime acting as the console (memory, interrupts, timers, the 2D and 3D engines, sound, saving, and controls). It offers 3D at 2x, 3x, or 4x resolution, up to 240 fps by generating in-between 3D frames while the logic stays at 60, both screens side by side, PS5, PS4, and Xbox controllers, the PC microphone for Balloon Battle, replays saved with F10, a settings menu, its own launcher in five languages, and everything unlocked from the start. Grand Prix, Time Trials, VS, Battle, and Missions work, as does local multiplayer or over the internet with a VPN; version 0.2.0 added online play in beta. On first launch the launcher downloads Python and the compiler (about 200 MB) and builds the game with your ROM. Its authors warn the first versions have many bugs. On Linux there is a beta without a launcher window. Version 0.2.1 is from October 31. 14 of its 15 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado del cartucho europeo de Mario Kart DS (código de juego AMCP). Windows 10 u 11 de 64 bits (se recomiendan 8 núcleos: el 3D lo dibuja la CPU), unos 1,5 GB libres y conexión a internet en el primer arranque; o Linux (beta) con python3, clang y SDL2."
+  en: "Your own dump of the European Mario Kart DS cartridge (game code AMCP). 64-bit Windows 10 or 11 (8 cores recommended, since the CPU draws the 3D), about 1.5 GB free, and an internet connection on first launch; or Linux (beta) with python3, clang, and SDL2."
+tags:
+  - arm9
+  - arm7
+  - racing
+  - 60fps+
+  - multiplayer
+  - online
+  - static-recomp
+  - ai-assisted

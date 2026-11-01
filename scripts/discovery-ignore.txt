@@ -222,3 +222,8 @@ tmcleroy/vampire-savior-recomp                        # ya está en el catálogo
 mstan/ShrekGBAVideoRecomp                             # recompila un cartucho de GBA Video (una película), no un juego
 retro-foundry/Alien-Breed-HD                          # trae los datos del juego (amiga/: niveles, sonidos y texturas) y la release de 29 MB; los derechos son de Team17
 phoboslab/wipeout-rewrite                             # enlaza el juego: el README abre con una versión en el navegador con el juego dentro e insinúa un ZIP con los archivos; va al blog
+
+# ── Decididos por el usuario el 1-11 (dudas de la tanda del catálogo de RecompLauncher) ──
+Snaity-CORE/pe2-pc-port                               # trae unos 4.800 .inc generados con datos del juego (colisiones de las salas, animaciones): son tablas de datos del juego
+yanm1103/War_of_the_Monsters_recomp                   # fuera por ahora: trae 33 locuciones mp3 que parecen de otro juego y texturas del juego retocadas
+dalves408/nhlhitzpro-recomp                           # el propio proyecto reparte un pack de 1,27 GB con 1.910 texturas del juego redibujadas

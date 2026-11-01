@@ -1,0 +1,21 @@
+name: "Gears of War 3 (Carolux97)"
+games: [gears-of-war-3]
+console: x360
+status: experimental
+repo: Carolux97/Azura
+originalDeveloper: "Epic Games"
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Azura es un port nativo no oficial de Gears of War 3 para macOS con Apple Silicon, Linux x86-64 y Windows x86-64. No emula la consola: el código PowerPC del juego se traduce por adelantado a C++ con el SDK de ReXGlue y se compila como un ejecutable normal, y el runtime de ReXGlue hace de sistema operativo y GPU de la consola; en macOS los gráficos pasan por un backend propio de Metal y en Linux y Windows por Vulkan. El proyecto añade parches al SDK (el backend de Metal, el compilador de shaders de Xenos, un intérprete de PowerPC) y a MoltenVK. Un launcher en Tauri construye el juego en tu equipo a partir de tu propia copia, como carpeta o imagen ISO, y lo mantiene actualizado. El repositorio no contiene datos ni código del juego: el código recompilado se genera en tu equipo y nunca se sube. Las descargas del launcher están en un repositorio aparte, azura-releases; la versión 0.5.1 es del 31 de octubre y trae juego en línea a través de un servicio llamado Alboria. 6 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Azura is an unofficial native port of Gears of War 3 to Apple Silicon macOS, x86-64 Linux, and x86-64 Windows. It does not emulate the console: the game’s PowerPC code is translated ahead of time to C++ with the ReXGlue SDK and compiled as a normal executable, and ReXGlue’s runtime stands in for the console’s operating system and GPU; on macOS graphics go through the project’s own Metal backend, and on Linux and Windows through Vulkan. The project adds patches to the SDK (the Metal backend, the Xenos shader compiler, a PowerPC interpreter) and to MoltenVK. A Tauri launcher builds the game on your machine from your own copy, as a folder or ISO image, and keeps it up to date. The repository contains no game data or code: the recompiled code is generated on your machine and never committed. The launcher downloads are in a separate repository, azura-releases; version 0.5.1 is from October 31 and brings online play through a service called Alboria. 6 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Gears of War 3 para Xbox 360, como carpeta o imagen .iso (el launcher identifica la versión por el SHA-256 de su default.xex). macOS 13.3 o posterior con Apple Silicon, Linux x86-64 con glibc 2.35 o posterior, o Windows 10 u 11 x86-64 con un controlador gráfico Vulkan; el launcher instala un compilador de C++ si falta (en Windows, LLVM clang y las Build Tools de Visual Studio con winget)."
+  en: "Your own copy of Gears of War 3 for Xbox 360, as a folder or an .iso image (the launcher identifies the version by the SHA-256 of its default.xex). macOS 13.3 or later on Apple Silicon, x86-64 Linux with glibc 2.35 or later, or x86-64 Windows 10 or 11 with a Vulkan graphics driver; the launcher installs a C++ compiler if missing (on Windows, LLVM clang and the Visual Studio Build Tools via winget)."
+tags:
+  - powerpc
+  - action
+  - online
+  - vulkan
+  - static-recomp
+  - ai-assisted

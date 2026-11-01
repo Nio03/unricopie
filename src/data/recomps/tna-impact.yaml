@@ -1,0 +1,19 @@
+name: "TNA iMPACT!"
+games: [tna-impact]
+console: x360
+status: experimental
+repo: dotGrx/TNA-IMPACT-Recomp
+originalDeveloper: "Midway"
+year: 2008
+toolchain: ReXGlue
+desc:
+  es: "Versión no oficial para PC de la versión de Xbox 360 (EE. UU. y Europa), hecha por recompilación estática con ReXGlue. El repositorio no incluye el juego, pero la release (un zip de unos 72 MB) trae el port ya construido a partir de un default.xex concreto, y el launcher comprueba que tu copia sea la versión de la que sale. El juego se lee en el sitio desde una imagen .iso o desde una carpeta extraída. Ofrece 60 fps estables en combates y menús, resolución interna de 720p, 1440p o 4K, un arreglo de las sombras propias de los luchadores, nitidez AMD FidelityFX CAS, saltar los vídeos de introducción, un interruptor para desbloquearlo todo con los propios conmutadores de desarrollo del juego y un launcher con ajustes, archivos del juego y registros. Hay parches propios sobre el SDK de ReXGlue. La versión 0.1.0 es del 18 de octubre."
+  en: "An unofficial PC version of the Xbox 360 game (USA and Europe), made by static recompilation with ReXGlue. The repository does not include the game, but the release (a zip of about 72 MB) ships the port already built from one specific default.xex, and the launcher checks that your copy is the version it comes from. The game is read in place from an .iso image or an extracted folder. It offers a steady 60 fps in matches and menus, internal resolution of 720p, 1440p, or 4K, a fix for the wrestlers’ self-shadowing, AMD FidelityFX CAS sharpening, skipping the intro videos, a switch to unlock everything through the game’s own developer switches, and a launcher with settings, game files, and logs. There are project patches on top of the ReXGlue SDK. Version 0.1.0 is from October 18."
+requirements:
+  es: "Tu propio TNA iMPACT! de Xbox 360 (EE. UU. o Europa), como imagen de disco (XISO o volcado completo) o carpeta extraída; su default.xex debe tener MD5 b94f2c9cf46b9afffe05cfb0a1e24fb6. Windows 10 u 11 de 64 bits, una tarjeta con Direct3D 12 y una CPU con AVX2; se recomienda un mando."
+  en: "Your own TNA iMPACT! for Xbox 360 (USA or Europe), as a disc image (XISO or full dump) or an extracted folder; its default.xex must have MD5 b94f2c9cf46b9afffe05cfb0a1e24fb6. 64-bit Windows 10 or 11, a Direct3D 12 card, and an AVX2 CPU; a controller is recommended."
+tags:
+  - powerpc
+  - fighting
+  - 60fps+
+  - static-recomp

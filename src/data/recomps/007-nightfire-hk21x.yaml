@@ -1,0 +1,19 @@
+name: "007: Nightfire (hk21x)"
+games: [007-nightfire]
+console: xbox
+status: playable
+repo: hk21x/nightfire-recomp
+originalDeveloper: "Eurocom"
+year: 2002
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial para PC de la versión de la Xbox original, con opciones gráficas ampliadas y otras mejoras. El código x86 del propio juego se recompila estáticamente con Xbox XBE Recomp en ejecutables de Windows, y las bibliotecas de gráficos, sonido y sistema de la consola se reimplementan (Direct3D 12 u 11, XAudio2 y SDL); no es un emulador. Admite las ediciones europea (PAL) y norteamericana (NTSC); como el juego son dos programas, el de a pie y los menús y el de las misiones de conducción, se recompilan los dos, en Nightfire.exe y NightfireDriving.exe, y el cambio entre ellos es automático. Un launcher descarga unas herramientas de compilación portátiles (unos 1,4 GB) y el código fuente del proyecto y construye el juego en tu equipo a partir de tu disco, en 30 a 90 minutos la primera vez; el código del juego nunca se descarga. La versión 1.0.2 es del 31 de octubre. Sus 75 commits llevan todos a Claude como coautor."
+  en: "An unofficial native PC port of the original Xbox version, with extended graphics options and other enhancements. The game’s own x86 code is statically recompiled with Xbox XBE Recomp into Windows executables, and the console’s graphics, sound, and system libraries are reimplemented (Direct3D 12 or 11, XAudio2, and SDL); it is not an emulator. It supports the European (PAL) and North American (NTSC) releases; since the game is two programs, the on-foot and menus one and the driving missions one, both are recompiled, into Nightfire.exe and NightfireDriving.exe, and the switch between them happens on its own. A launcher downloads portable build tools (about 1.4 GB) and the project’s source and builds the game on your PC from your disc, in 30 to 90 minutes the first time; the game’s code is never downloaded. Version 1.0.2 is from October 31. All 75 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de 007: NightFire para Xbox, edición PAL o NTSC (id de título 45410026), como imagen .iso o carpeta con los archivos del disco (default.xbe, Driving.xbe y sus carpetas); los SHA-1 de los xbe se dan en el README. Windows 10 u 11 de 64 bits, una GPU con Direct3D 12 o 11, unos 3 GB libres más el espacio de tu copia (7,3 GB si hay que copiar la imagen) e internet para unos 1,4 GB de herramientas."
+  en: "Your own copy of 007: NightFire for Xbox, PAL or NTSC release (title id 45410026), as an .iso image or a folder with the disc’s files (default.xbe, Driving.xbe, and their folders); the xbe SHA-1 hashes are given in the README. 64-bit Windows 10 or 11, a Direct3D 12 or 11 GPU, about 3 GB free plus room for your copy (7.3 GB if the image has to be copied), and internet access for about 1.4 GB of tools."
+tags:
+  - x86
+  - fps
+  - static-recomp
+  - ai-assisted

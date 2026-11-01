@@ -1,0 +1,19 @@
+name: "Tony Hawk’s Pro Skater 2 (N64)"
+games: [tony-hawks-pro-skater-2]
+console: n64
+status: experimental
+repo: THPS64Recomp/THPS2-64Recomp
+originalDeveloper: "Neversoft"
+year: 2000
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para macOS y Windows de la versión de N64, llamado THPS2 64: Recompiled, hecho con N64Recomp, N64ModernRuntime y RT64. Es una vista previa temprana: usa el mismo anfitrión que THPS1 64: Recompiled y pasa sus propias pruebas automáticas, pero se ha jugado mucho menos a mano, así que su autor avisa de fallos aún desconocidos y recomienda copiar la carpeta saves antes de apostar por una carrera. La aplicación construye el juego a partir de tu volcado la primera vez que arranca. Ofrece, como el primer juego de la serie, pantalla ancha 16:9 o 21:9 con el HUD en los bordes y trucos opcionales como Unlock All Levels. El repositorio no contiene el juego. La versión 0.2.0-preview es del 28 de octubre."
+  en: "A native macOS and Windows port of the N64 version, called THPS2 64: Recompiled, made with N64Recomp, N64ModernRuntime, and RT64. It is an early preview: it uses the same host as THPS1 64: Recompiled and passes its own automated tests, but it has had much less hand play, so its authors warn of bugs they haven’t seen and recommend backing up the saves folder before relying on a career. The app builds the game from your dump the first time it starts. Like the first game in the series, it offers 16:9 or 21:9 widescreen with the HUD at the screen edges, and optional cheats such as Unlock All Levels. The repository does not contain the game. Version 0.2.0-preview is from October 28."
+requirements:
+  es: "Tu propio volcado del cartucho de N64 (.z64, .n64 o .v64): EE. UU. (SHA-1 458ac754cd8e08c46f4c5c9204192ecde84a179d) o Europa (803672c1ffa7860536d8b35dca8b59f637f4165e). Windows 10 u 11 de 64 bits o macOS 13 o posterior, según el proyecto hermano THPS1."
+  en: "Your own N64 cartridge dump (.z64, .n64, or .v64): USA (SHA-1 458ac754cd8e08c46f4c5c9204192ecde84a179d) or Europe (803672c1ffa7860536d8b35dca8b59f637f4165e). 64-bit Windows 10 or 11 or macOS 13 or later, as for the sister project THPS1."
+tags:
+  - mips
+  - sports
+  - widescreen
+  - static-recomp

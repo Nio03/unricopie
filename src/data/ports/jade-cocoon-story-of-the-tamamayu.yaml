@@ -1,0 +1,18 @@
+name: "Jade Cocoon: Story of the Tamamayu"
+games: [jade-cocoon-story-of-the-tamamayu]
+category: game-engine
+console: ps1
+status: fully
+repo: ufodriverr/jade-cocoon-bevy-public-v1
+originalDeveloper: "Genki"
+year: 1998
+desc:
+  es: "Reimplementación del motor para Jade Cocoon: Story of the Tamamayu (PlayStation, edición europea SLES-02201), escrita en Rust sobre Bevy. No ejecuta el código nativo de PlayStation del original: lee las tablas de datos del ejecutable y de la imagen de tu disco e interpreta los scripts de escena. Según el README, la historia se juega hasta el final, con combates, captura y fusión de criaturas, menús, vídeos, música, voces y guardado local, y también está implementado el pasillo opcional de la segunda vuelta; avisa de que es una implementación de aficionados con diferencias y fallos conocidos. Hay versión para Windows de 64 bits y, desde la 1.1.1, para Android. La 1.1.2 es del 18 de octubre y corrige que la pantalla de purificación no devolvía los capullos vacíos. No incluye archivos del juego ni enlaces para conseguirlos. 2 de sus 4 commits llevan a Claude como coautor."
+  en: "An engine reimplementation of Jade Cocoon: Story of the Tamamayu (PlayStation, European release SLES-02201), written in Rust on Bevy. It does not execute the original’s native PlayStation code: it reads data tables from the executable and the image of your disc and interprets the scene scripts. According to the README, the story plays through to its ending, with battles, creature capture and merging, menus, movies, music, voices, and local saving, and the optional second-round corridor is also implemented; it warns that this is a fan implementation with known differences and bugs. There is a 64-bit Windows build and, since 1.1.1, an Android one. Version 1.1.2 is from October 18 and fixes the purification screen not returning the empty cocoons. It includes no game files and no links to obtain them. 2 of its 4 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco europea de Jade Cocoon (SLES-02201), en .bin MODE2/2352 sin procesar; la ruta se guarda en jc.local.toml. Windows de 64 bits (sin instalar Rust) o Android (arm64). Para compilar desde el código, Rust estable para x86_64-pc-windows-msvc y Visual Studio con C++."
+  en: "Your own European Jade Cocoon disc image (SLES-02201), as a raw MODE2/2352 .bin; the path is stored in jc.local.toml. 64-bit Windows (no Rust install needed) or Android (arm64). To build from source, stable Rust for x86_64-pc-windows-msvc and Visual Studio with C++."
+tags:
+  - rpg
+  - build-android
+  - ai-assisted

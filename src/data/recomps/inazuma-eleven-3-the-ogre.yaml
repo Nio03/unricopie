@@ -1,0 +1,22 @@
+name: "Inazuma Eleven 3: Sekai e no Chōsen!! The Ogre"
+games: [inazuma-eleven-3-team-ogre-attacks]
+console: nds
+status: experimental
+repo: matheus2x/ie3ogre-nds-recomp
+originalDeveloper: LEVEL-5
+year: 2010
+toolchain: ntr-recomp
+desc:
+  es: "Port nativo para Windows de Inazuma Eleven 3: Sekai e no Chōsen!! The Ogre, la versión japonesa de Nintendo DS, por recompilación estática: su propio recompilador, ntr-recomp, traduce a C++ el código ARM9 del juego y sus 133 overlays (16.057 funciones), y el hardware de la DS, el ARM7, la BIOS y la parte del NitroSDK que usa el juego están reimplementados en el PC. Es una prealfa: el juego corre con gráficos 2D y 3D, sonido, vídeos y controles, y la historia se ha jugado más allá del primer partido, pero quedan errores; para Linux solo se puede compilar desde el código. Añade 3D de 1× a 10× con antialiasing, una disposición 16:9, cinco estados guardados, hasta 30 segundos de rebobinado, avance rápido, 34 logros locales y controles reasignables. Su launcher prepara el juego, lo actualiza y gestiona partidas y mods, entre ellos la traducción al portugués de Brasil, continuación de la del grupo CyberLife, que se reparte como parches .bps. La 0.1.32 salió el 31 de octubre. Sus 91 commits llevan a Claude como coautor."
+  en: "A native Windows port of Inazuma Eleven 3: Sekai e no Chōsen!! The Ogre, the Japanese Nintendo DS release, by static recompilation: its own recompiler, ntr-recomp, translates the game’s ARM9 code and its 133 overlays (16,057 functions) to C++, and the DS hardware, the ARM7, the BIOS, and the parts of the NitroSDK the game uses are reimplemented on the PC. It is pre-alpha: the game runs with 2D and 3D graphics, sound, movies, and controls, and the story has been played past the first match, but bugs remain; on Linux it can only be built from source. It adds 3D at 1x to 10x with anti-aliasing, a 16:9 layout, five save states, up to 30 seconds of rewind, fast-forward, 34 local achievements, and remappable controls. Its launcher prepares the game, updates it, and manages saves and mods, among them the Brazilian Portuguese translation, a continuation of the CyberLife group’s, which ships as .bps patches. Version 0.1.32 came out on October 31. All 91 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado sin modificar de Inazuma Eleven 3: Sekai e no Chōsen!! The Ogre, versión japonesa (código BOEJ), como archivo .nds con SHA-1 9380f1d7ee75e7c6ef24f1b76c88ecdc85088957; las versiones Bomber y Spark y la europea de 3DS no sirven. El launcher crea con él los datos y el ejecutable del juego y después ya no lo necesita. Windows 10 u 11 de 64 bits y conexión a internet la primera vez, para bajar el compilador llvm-mingw (unos 190 MB)."
+  en: "Your own unmodified dump of Inazuma Eleven 3: Sekai e no Chōsen!! The Ogre, Japanese release (game code BOEJ), as an .nds file with SHA-1 9380f1d7ee75e7c6ef24f1b76c88ecdc85088957; the Bomber and Spark versions and the European 3DS release don’t work. The launcher builds the game’s data and executable from it and doesn’t need it afterwards. 64-bit Windows 10 or 11 and an internet connection the first time, to download the llvm-mingw compiler (about 190 MB)."
+tags:
+  - arm9
+  - sports
+  - rpg
+  - widescreen
+  - mods
+  - static-recomp
+  - ai-assisted

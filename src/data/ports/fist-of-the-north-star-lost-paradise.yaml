@@ -1,0 +1,18 @@
+name: "Fist of the North Star: Lost Paradise"
+games: [fist-of-the-north-star-lost-paradise]
+category: native-layer
+console: ps4
+status: experimental
+repo: ItalianKuze/port-ga-gotoku
+originalDeveloper: "Ryu Ga Gotoku Studio"
+year: 2018
+desc:
+  es: "PortGaGotoku ejecuta Fist of the North Star: Lost Paradise (Hokuto ga Gotoku, PS4, CUSA12781) en Windows, como bifurcación del port nativo de Bloodborne de deadinside28 (bbport): el código x86-64 del juego corre directamente en la CPU, un runtime reimplementa las bibliotecas del sistema de la PS4 y un renderizador derivado de shadPS4 traduce los gráficos a Vulkan. Su autor aclara que «nativo» se refiere solo a la CPU: no es una recompilación completa ni una reescritura del renderizador. Es una alfa temprana, desarrollada en ratos libres y sin calendario: está experimental y se puede jugar en la única máquina en que se ha probado (Windows 11 con una GeForce RTX 5070). Tiene un launcher propio. La última versión estable, la 0.1.2-alpha, es del 22 de octubre; además hay una compilación de prueba para Linux y Steam Deck del 27 de octubre, marcada como sin probar."
+  en: "PortGaGotoku runs Fist of the North Star: Lost Paradise (Hokuto ga Gotoku, PS4, CUSA12781) on Windows, as a fork of deadinside28’s native Bloodborne port (bbport): the game’s x86-64 code runs directly on the CPU, a runtime reimplements the PS4’s system libraries, and a renderer derived from shadPS4 translates the graphics to Vulkan. Its author clarifies that “native” refers only to the CPU: it is not a full recompilation or a rewrite of the renderer. It is an early alpha, developed in spare time with no schedule: it is experimental and playable on the one machine it has been tested on (Windows 11 with a GeForce RTX 5070). It has its own launcher. The latest stable release, 0.1.2-alpha, is from October 22; there is also a Linux and Steam Deck test build from October 27, marked untested."
+requirements:
+  es: "Tu propio volcado legal del juego de PS4 (la carpeta CUSA12781 con eboot.bin y sce_sys). Windows con una GPU compatible con Vulkan; probado con Windows 11, una RTX 5070 y un mando 8BitDo en modo XInput."
+  en: "Your own legal dump of the PS4 game (the CUSA12781 folder with eboot.bin and sce_sys). Windows with a Vulkan-capable GPU; tested on Windows 11, an RTX 5070, and an 8BitDo controller in XInput mode."
+tags:
+  - x86
+  - action
+  - vulkan

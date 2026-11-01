@@ -1,0 +1,22 @@
+name: "X-Men 2: Clone Wars"
+games: [x-men-2-clone-wars]
+category: decomp-port
+console: megadrive
+status: playable
+repo: crabsmack/xmen2-pc
+originalDeveloper: "Headgames"
+year: 1995
+desc:
+  es: "Port nativo para Windows y Linux de la versión de Mega Drive, construido a partir de una decompilación completa: 3.164 funciones en C legible que, según el README, coinciden byte a byte con el compilador original, y 117 funciones que estaban escritas en ensamblador 68000 y se comprueban instrucción por instrucción. El port ya no emula el 68000. Lee los gráficos, el sonido y los niveles de tu ROM cada vez que arranca y rechaza cualquier archivo que no sea el cartucho de EE. UU. y Europa. Por defecto juega exactamente como el cartucho; opcionalmente ofrece pantalla ancha, altas tasas de fotogramas, dos jugadores a 60 fps y hasta cuatro jugadores en un mismo PC o en línea con rollback netplay. La versión 1.2.0 es del 31 de octubre. 97 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows and Linux port of the Mega Drive version, built from a complete decompilation: 3,164 functions in readable C that, according to the README, byte-match the original compiler, plus 117 functions that were written in 68000 assembly and are tested instruction by instruction. The port no longer emulates the 68000. It reads the graphics, sound, and levels from your ROM every time it starts and refuses any file other than the USA/Europe cartridge. By default it plays exactly like the cartridge; optionally it offers widescreen, high frame rates, two players at 60 fps, and up to four players on one PC or online with rollback netplay. Version 1.2.0 is from October 31. 97 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia ROM del cartucho de X-Men 2: Clone Wars de EE. UU. y Europa (SHA-1 61409e6cf6065ab67d8952b891d8edcf47777193). Windows o Linux x86-64 (con SDL2; el selector de archivos necesita zenity o kdialog)."
+  en: "Your own ROM of the USA/Europe X-Men 2: Clone Wars cartridge (SHA-1 61409e6cf6065ab67d8952b891d8edcf47777193). Windows or Linux x86-64 (with SDL2; the file picker needs zenity or kdialog)."
+tags:
+  - "68000"
+  - action
+  - widescreen
+  - 60fps+
+  - multiplayer
+  - netplay
+  - ai-assisted

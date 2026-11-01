@@ -1,0 +1,18 @@
+name: "Crystal Defenders"
+games: [crystal-defenders]
+console: x360
+status: playable
+repo: Claudio5702/Cristalis
+originalDeveloper: "Square Enix"
+year: 2008
+toolchain: XenonRecomp
+desc:
+  es: "Cristalis, un port nativo de Crystal Defenders, el juego de Xbox Live Arcade, para Windows (con una versión experimental para Linux): el código PowerPC del juego se traduce por adelantado a C++ con XenonRecomp y corre sobre un runtime pequeño escrito para este juego. El repositorio no contiene código del juego, pero los programas de la release se construyen a partir del código traducido de un default.xex, es decir, el ejecutable publicado ya lleva dentro código del juego traducido; las imágenes, sonidos, música y textos se leen de tu copia. El programa comprueba que tu default.xex sea el que sirvió para la traducción. Usa DarkLauncher, con pantalla de ajustes y menú de pausa en siete idiomas, seis idiomas del juego, resoluciones de 720p a 4K, HDR, logros locales, capturas de pantalla, mandos de Xbox y PlayStation con vibración, un informe de fallos que indica la oleada y el escenario, instalador y actualizaciones. Está en beta: lo han jugado pocas personas. La versión 1.10 es del 21 de octubre. El README declara que se hizo al 100 % con Claude Code, y los 86 commits del repositorio lo llevan como coautor."
+  en: "Cristalis, a native port of Crystal Defenders, the Xbox Live Arcade game, for Windows (with an experimental Linux build): the game’s PowerPC code is translated ahead of time to C++ with XenonRecomp and runs on a small runtime written for this game. The repository holds none of the game’s code, but the programs on the release page are built from the translated code of a default.xex, meaning the published executable already carries translated game code; the pictures, sounds, music, and text are read from your copy. The program checks that your default.xex is the one the translation came from. It uses DarkLauncher, with a settings screen and pause menu in seven languages, six game languages, resolutions from 720p to 4K, HDR, local achievements, screenshots, Xbox and PlayStation controllers with vibration, a crash report that names the wave and stage, an installer, and updates. It is in beta: few people have played it so far. Version 1.10 is from October 21. The README states it was made 100% with Claude Code, and all 86 of the repository’s commits list it as a co-author."
+requirements:
+  es: "Tu propia copia de Crystal Defenders de Xbox 360: la carpeta CRYSTAL DEFENDERS (o la del título 58410989) copiada de la consola, cuyo paquete pesa 58.126.336 bytes (SHA-1 118C64C901976CD8E2B570D77B0A5E01C15C7A46) con un default.xex de 1.658.880 bytes (SHA-1 31A90704D4233F6E730714515CD5F20BF08D7F0D). Windows 10 u 11 de 64 bits y una tarjeta Direct3D 11."
+  en: "Your own copy of Crystal Defenders for Xbox 360: the CRYSTAL DEFENDERS folder (or the title 58410989 folder) copied from the console, whose package is 58,126,336 bytes (SHA-1 118C64C901976CD8E2B570D77B0A5E01C15C7A46) with a 1,658,880-byte default.xex (SHA-1 31A90704D4233F6E730714515CD5F20BF08D7F0D). 64-bit Windows 10 or 11 and a Direct3D 11 card."
+tags:
+  - powerpc
+  - static-recomp
+  - ai-assisted

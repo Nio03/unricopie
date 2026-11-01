@@ -1,0 +1,19 @@
+name: "Dead or Alive 2 Ultimate (parkerallan)"
+games: [dead-or-alive-ultimate]
+console: xbox
+status: playable
+repo: parkerallan/doa2u-recomp
+originalDeveloper: Team Ninja
+year: 2004
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo para Windows de Dead or Alive 2 Ultimate (Xbox) por recompilación estática, hecho con xboxrecomp, el conjunto de herramientas de sp00nz: el ejecutable original de Xbox se traduce a C y se compila como un programa de 64 bits, y el dibujo pasa por una capa que traduce Direct3D 8 y la GPU NV2A a Direct3D 11. Se apoya también en el port de Dead or Alive 3 del mismo autor, del que toma el dibujo en Direct3D 11, los vídeos y el menú superpuesto. Según el README los combates ya se juegan en todos los modos, aunque quedan errores y ralentizaciones. Ofrece 60 cuadros por segundo, ventana o pantalla completa sin bordes, 4:3 o 16:9, resolución interna hasta 4K, MSAA, sincronización vertical y combates en línea con tabla de clasificación a través de Insignia. El repositorio incluye el código del juego ya traducido a C por el recompilador y el desensamblado de las secciones de código de su ejecutable (unos 110 MB, con las listas de funciones, referencias y cadenas que salen del análisis); los archivos del disco no van incluidos. La última versión es la netplay-v1.0.1, de prueba, del 29 de octubre."
+  en: "A native Windows port of Dead or Alive 2 Ultimate (Xbox) by static recompilation, made with xboxrecomp, sp00nz’s toolkit: the original Xbox executable is translated to C and compiled as a 64-bit program, and rendering goes through a layer that translates Direct3D 8 and the NV2A GPU to Direct3D 11. It also builds on the same author’s Dead or Alive 3 port, from which it takes the Direct3D 11 rendering, movie playback, and the overlay menu. According to the README, matches are now playable in all modes, though bugs and slowdowns remain. It offers 60 frames per second, windowed or borderless, 4:3 or 16:9, internal resolution up to 4K, MSAA, VSync, and online matches with a leaderboard through Insignia. The repository includes the game’s code already translated to C by the recompiler and the disassembly of its executable’s code sections (about 110 MB, with the function, reference, and string lists that come out of the analysis); the disc’s files aren’t included. The latest version is the netplay-v1.0.1 pre-release, from October 29."
+requirements:
+  es: "Tu propia copia de Dead or Alive 2 Ultimate para Xbox (el disco 2 de Dead or Alive Ultimate): el contenido del disco se copia a una carpeta assets junto a DOA2U.exe, de forma que exista assets/DOA2.xbe. Windows de 64 bits; para compilarlo, Visual Studio 2022 y CMake 3.20 o superior."
+  en: "Your own copy of Dead or Alive 2 Ultimate for Xbox (Disc 2 of Dead or Alive Ultimate): the disc’s contents go in an assets folder next to DOA2U.exe, so that assets/DOA2.xbe exists. 64-bit Windows; to build it, Visual Studio 2022 and CMake 3.20 or newer."
+tags:
+  - x86
+  - fighting
+  - widescreen
+  - online

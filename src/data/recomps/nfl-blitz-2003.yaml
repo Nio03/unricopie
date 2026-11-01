@@ -1,0 +1,21 @@
+name: "NFL Blitz 2003"
+games: [nfl-blitz-2003]
+console: gamecube
+status: playable
+repo: 8bitninja64/NFLBlitz2003-PC
+originalDeveloper: "Midway"
+year: 2002
+desc:
+  es: "Port nativo para Windows y Linux de la versión de GameCube, hecho por recompilación estática: el ejecutable PowerPC del juego se traduce a C++ a partir de tu imagen de disco y se compila en tu equipo la primera vez que arrancas (cerca de un minuto en Windows). Los gráficos usan Aurora (WebGPU/Dawn), el audio una implementación en el PC del DSP de la consola y los mandos SDL3. Ofrece pantalla ancha nativa, resolución interna de hasta 2880p con supersampling, 60 fps fijos, un menú de ajustes con los trucos del propio juego, partidas guardadas compatibles con Dolphin y packs de texturas HD en formato Dolphin. El repositorio no contiene datos ni código del juego, pero el módulo que se construye con tu disco sí contiene código traducido del juego, por lo que no se debe compartir. La versión 1.1 es del 22 de octubre. Los 47 commits del repositorio llevan a Claude como coautor."
+  en: "A native Windows and Linux port of the GameCube version, made by static recompilation: the game’s PowerPC executable is translated into C++ from your disc image and compiled on your PC the first time you start it (about a minute on Windows). Graphics use Aurora (WebGPU/Dawn), audio is a PC implementation of the console’s DSP, and input goes through SDL3. It offers native widescreen, internal resolution up to 2880p with supersampling, a locked 60 fps, a settings menu with the game’s own cheat codes, Dolphin-compatible memory card saves, and HD texture packs in Dolphin format. The repository holds no game data and no game code, but the module built from your disc does contain code translated from the game, so it must not be shared. Version 1.1 is from October 22. All 47 of the repository’s commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de NFL Blitz 2003 para GameCube (USA, GO3E5D), en ISO o comprimida (RVZ, WIA, CISO, GCZ). En Windows, Python 3 y las Build Tools de Visual Studio 2022 con C++ y Clang, necesarias una vez; en Linux, x86-64 con glibc 2.35 o posterior, un controlador de Vulkan y python3."
+  en: "Your own NFL Blitz 2003 disc image for GameCube (USA, GO3E5D), as ISO or compressed (RVZ, WIA, CISO, GCZ). On Windows, Python 3 and the Visual Studio 2022 Build Tools with C++ and Clang, needed once; on Linux, x86-64 with glibc 2.35 or later, a Vulkan driver, and python3."
+tags:
+  - powerpc
+  - sports
+  - widescreen
+  - 60fps+
+  - hd-assets
+  - static-recomp
+  - ai-assisted

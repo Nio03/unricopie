@@ -1,0 +1,17 @@
+name: "Shin Megami Tensei: Devil Survivor 2 Record Breaker"
+games: [shin-megami-tensei-devil-survivor-2-record-breaker]
+console: 3ds
+status: experimental
+repo: riomoo/canopus-protocol
+originalDeveloper: "Atlus"
+year: 2015
+desc:
+  es: "Port no oficial para Windows y Linux, llamado Canopus Protocol, de la versión de 3DS, hecho por recompilación estática: el código ARM del juego se traduce a C en tu equipo y se compila junto con un runtime que hace lo que hacía la 3DS (núcleo del sistema, servicios, un renderizador por software del PICA200, audio DSP, ventana y entrada). El repositorio no contiene datos ni código del juego, y todo lo que se genera a partir de tu volcado se queda en tu equipo. El paquete de la release trae un launcher que extrae el volcado, recompila y compila con un Zig incluido (unos 73 a 80 MB), de modo que no hace falta instalar compilador. Según el README, el juego arranca, reproduce la secuencia inicial con sonido, supera Nueva partida, el prólogo y el registro, carga partidas y funciona en las versiones 1.0 y 1.1 con el contenido descargable. Quedan carencias: el 3D se dibuja en la CPU, sin iluminación por fragmento, y parte del texto de la pantalla inferior sale deformado. La versión 2.0.1 es del 30 de octubre."
+  en: "An unofficial Windows and Linux port, called Canopus Protocol, of the 3DS version, made by static recompilation: the game’s ARM code is translated to C on your machine and built together with a runtime that does what the 3DS did (kernel, system services, a software PICA200 renderer, DSP audio, window, and input). The repository contains no game data or code, and everything generated from your dump stays on your machine. The release package ships a launcher that extracts the dump, recompiles, and compiles with a bundled Zig (about 73 to 80 MB), so no compiler needs to be installed. According to the README, the game boots, plays the opening movie with sound, gets through New Game, the prologue, and registration, loads saves, and runs versions 1.0 and 1.1 with the DLC. Gaps remain: the 3D is drawn on the CPU, without per-fragment lighting, and some bottom-screen text draws garbled. Version 2.0.1 is from October 30."
+requirements:
+  es: "Un volcado descifrado de tu copia norteamericana (.3ds, .cci, .cia o .cxi), hecho con GodMode9 en tu consola; opcionalmente, la actualización 1.1 y el DLC como .cia descifrados. Unos 3 GB libres. Windows o Linux de 64 bits; para compilar desde el código, Go 1.21 o posterior, make y un compilador de C/C++ (o Zig)."
+  en: "A decrypted dump of your North American copy (.3ds, .cci, .cia, or .cxi), made with GodMode9 on your console; optionally the 1.1 update and the DLC as decrypted .cia files. About 3 GB free. 64-bit Windows or Linux; to build from source, Go 1.21 or later, make, and a C/C++ compiler (or Zig)."
+tags:
+  - arm
+  - rpg
+  - static-recomp

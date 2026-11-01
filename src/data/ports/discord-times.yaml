@@ -1,0 +1,18 @@
+name: "Discord Times"
+games: [discord-times]
+category: game-engine
+console: pc
+status: experimental
+repo: indicozy/razdor
+originalDeveloper: "Aterdux Entertainment"
+year: 2004
+desc:
+  es: "Razdor (Раздор) es un motor abierto escrito en Rust para Discord Times («Времена раздора»), el juego de rol y estrategia por turnos de Aterdux Entertainment: se viaja por el mapa hexagonal del reino, se contratan tropas en las ciudades y se lucha en combates tácticos por turnos. Su autor lo describe como un prototipo y lo ha reescrito desde cero a partir de las reglas del original, que estudió con el ejecutable del juego, y no incluye mapas, datos, textos, gráficos, sonidos ni música de la partida original; trae un reino de demostración propio y, para jugar los escenarios del original, hace falta tu copia instalada. Hay compilaciones para Windows, Linux y macOS, y el repositorio menciona también una versión para Android y una herramienta de traducción. La versión 1.2.2 es del 31 de octubre. Sus 100 últimos commits llevan todos a Claude como coautor."
+  en: "Razdor (Раздор) is an open engine written in Rust for Discord Times (“Времена раздора”), Aterdux Entertainment’s turn-based role-playing and strategy game: you travel across the kingdom’s hex map, hire troops in towns, and fight turn-based tactical battles. Its author calls it a prototype and wrote it from scratch from the original’s rules, which he studied with the game’s executable, and it includes no maps, data, text, graphics, sound, or music from the original game; it ships its own demonstration kingdom and, to play the original’s scenarios, you need your installed copy. There are builds for Windows, Linux, and macOS, and the repository also mentions an Android version and a translation tool. Version 1.2.2 is from October 31. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia instalada de Discord Times («Времена раздора») para jugar sus escenarios originales; sin ella solo funciona el reino de demostración. Windows x86-64, Linux o macOS."
+  en: "Your own installed copy of Discord Times (“Времена раздора”) to play its original scenarios; without it only the demonstration kingdom works. Windows x86-64, Linux, or macOS."
+tags:
+  - rpg
+  - build-android
+  - ai-assisted
