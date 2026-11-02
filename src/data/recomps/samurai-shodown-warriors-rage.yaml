@@ -1,0 +1,18 @@
+name: "Samurai Shodown: Warriors Rage"
+games: [samurai-shodown-warriors-rage]
+console: ps1
+status: playable
+repo: omegakatana92/Samuai-Shodown-Warriors-Rage-Recomp
+originalDeveloper: "SNK"
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Port nativo no oficial para Windows de la versión de PlayStation de Samurai Shodown: Warriors Rage, hecho con el framework psxrecomp de mstan y su lanzador recomp-ui, que entran como submódulos. El repositorio solo guarda la configuración del juego (identificador SLUS-01039, símbolos y 711 semillas de funciones sacadas del ejecutable de arranque) y un archivo de arranque; no lleva el juego, la BIOS ni código generado a partir de ellos. Usa OpenGL, mando digital y admite dos jugadores. Según el README, el juego se puede jugar en Windows con el lanzador y su menú de configuración. La única versión, la 1.0.0, es del 9 de septiembre."
+  en: "An unofficial native Windows port of the PlayStation version of Samurai Shodown: Warriors Rage, made with mstan’s psxrecomp framework and its recomp-ui launcher, both pulled in as submodules. The repository only holds the game’s configuration (ID SLUS-01039, symbols, and 711 function seeds taken from the boot executable) and a build file; it carries neither the game, the BIOS, nor code generated from them. It uses OpenGL, a digital controller, and supports two players. According to the README, the game can be played on Windows with the launcher and its setup menu. The only release, 1.0.0, is from September 9."
+requirements:
+  es: "Tu propia copia del disco de la versión estadounidense (SLUS-01039) como .cue y .bin (pista de datos de 742.959.168 bytes, SHA-1 b2f674a8af04a5f8cc1b2ff3ca95d55e9577c92e, MD5 23a74626058ce451bfb304f35de9cdc0). Windows 10 o posterior; para compilar desde el código hacen falta además Git, CMake, Ninja, Python 3 y Clang o MinGW."
+  en: "Your own copy of the US disc (SLUS-01039) as .cue and .bin (data track of 742,959,168 bytes, SHA-1 b2f674a8af04a5f8cc1b2ff3ca95d55e9577c92e, MD5 23a74626058ce451bfb304f35de9cdc0). Windows 10 or later; building from source also needs Git, CMake, Ninja, Python 3, and Clang or MinGW."
+tags:
+  - mips
+  - fighting
+  - static-recomp

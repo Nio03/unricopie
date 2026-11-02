@@ -1,0 +1,23 @@
+name: "Digimon World"
+games: [digimon-world]
+console: ps1
+status: playable
+repoUrl: https://gitlab.com/ethan4love/psx-recomp-port
+author: ethan4love
+originalDeveloper: "Bandai"
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense para Windows, hecha con una bifurcación propia de psxrecomp y el launcher recomp-ui, con las funciones del juego mapeadas con la decompilación dw_decomp. No es un emulador y no se publica ya compilada: la 0.3.5, del 4 de septiembre, es un paquete de preparación de unos 29 MB sin datos del juego, y la primera vez que lo abres construye el programa a partir de tu disco, un proceso de entre 10 y 30 minutos que descarga unos 100 MB de herramientas de compilación. Trae pantalla ancha en 16:9 o 16:10 sin deformar la imagen, resolución alta, estados de guardado, rebobinado y un menú de mods, todo desactivado por defecto: un reparto ampliado que añade 52 Digimon a los que se puede criar y hacer evolucionar, ajustes del entrenamiento y del cuidado, mejoras de calidad de vida y 57 trucos tipo GameShark. El guardado funciona como en el original, durmiendo al compañero. La pantalla ancha tiene fallos conocidos, como una breve vuelta a 4:3 tras los combates. Sus 51 commits están en GitLab y 48 llevan a Claude como coautor."
+  en: "A static recompilation of the US release for Windows, made with the author’s own fork of psxrecomp and the recomp-ui launcher, with the game’s functions mapped using the dw_decomp decompilation. It isn’t an emulator and isn’t published prebuilt: 0.3.5, from September 4, is a setup package of about 29 MB with no game data, and the first time you open it, it builds the program from your disc, a process of 10 to 30 minutes that downloads about 100 MB of build tools. It offers widescreen in 16:9 or 16:10 without stretching the picture, high resolution, save states, rewind, and a mod menu, all off by default: an expanded roster that adds 52 Digimon you can raise and evolve, training and care tweaks, quality-of-life changes, and 57 GameShark-style cheats. Saving works as in the original, by putting your partner to sleep. Widescreen has known rough edges, such as a brief return to 4:3 after battles. All 51 of its commits are on GitLab, and 48 list Claude as a co-author."
+requirements:
+  es: "Tu propio disco estadounidense de Digimon World (SLUS-01032), como un par .bin y .cue (el .bin ocupa 381.771.936 bytes y tiene SHA-1 5611645da66183e30d11fb6c11a2784ff47e1fdb); un .iso no sirve. Además, Windows de 64 bits, Python 3 con el PATH configurado, unos 5 GB libres y conexión a internet para descargar las herramientas de compilación."
+  en: "Your own US Digimon World disc (SLUS-01032), as a .bin and .cue pair (the .bin is 381,771,936 bytes with SHA-1 5611645da66183e30d11fb6c11a2784ff47e1fdb); a plain .iso doesn’t work. Plus 64-bit Windows, Python 3 added to PATH, about 5 GB free, and an internet connection to download the build tools."
+tags:
+  - mips
+  - rpg
+  - widescreen
+  - mods
+  - static-recomp
+  - ai-assisted
+  - gitlab

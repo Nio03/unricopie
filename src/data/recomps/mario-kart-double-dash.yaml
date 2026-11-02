@@ -1,0 +1,21 @@
+name: "Mario Kart: Double Dash!! (Project Tandem)"
+games: [mario-kart-double-dash]
+console: gamecube
+status: playable
+repo: badcompany94-rcmp/project-tandem
+originalDeveloper: "Nintendo EAD"
+year: 2003
+toolchain: gcn-recomp
+desc:
+  es: "Port nativo no oficial para Windows de la versión de GameCube, hecho por recompilación estática: el código PowerPC del juego se traduce a C en tu equipo y se compila allí mismo con las herramientas que trae el paquete. Parte del mariokartdd-recomp y del recompilador gcn-recomp de Ethan Nicholas, con licencia MIT, y le añade juego en línea y por LAN para 2 a 16 personas, con salas privadas por código o públicas, karts en solitario o compartidos y selección de personaje compartida, pantalla ancha natural en 16:9, controles de ratón y teclado, mandos de Xbox, PlayStation y Switch, y un launcher con actualizaciones automáticas. Están el Gran Premio y los modos de batalla, y todos los jugadores de una sala necesitan la misma compilación. Las versiones se llaman beta pública y el propio README las marca como experimentales; la última, la beta 10, salió el 1 de noviembre. Una compilación de Linux la mantiene aparte otra persona, sin compatibilidad en línea comprobada con la de Windows. El paquete de descarga no trae datos del juego ni una copia compilada de él."
+  en: "An unofficial native Windows port of the GameCube version, made by static recompilation: the game’s PowerPC code is translated to C on your PC and compiled there with the tools the package ships. It builds on Ethan Nicholas’s MIT-licensed mariokartdd-recomp and gcn-recomp recompiler, and adds online and LAN play for 2 to 16 people, with private rooms by code or public ones, solo or shared karts and shared character selection, natural 16:9 widescreen, mouse and keyboard controls, Xbox, PlayStation, and Switch controllers, and a launcher with automatic updates. Grand Prix and the battle modes are in, and everyone in a room needs the same build. The releases are called public betas and the README itself marks them as experimental; the latest, beta 10, came out on November 1. A Linux build is maintained separately by someone else, with online compatibility with the Windows one unverified. The download package contains no game data and no compiled copy of the game."
+requirements:
+  es: "Tu propia copia estadounidense de Mario Kart: Double Dash!! (GM4E01), como imagen ISO o CISO sin comprimir, con el main.dol de SHA-1 e389e50357d4a5076ab3d38672204658f411123d; otras regiones y los formatos RVZ o GCZ no se admiten. Además, Windows 10 u 11 de 64 bits, una tarjeta gráfica con OpenGL 3.3 de escritorio, una carpeta con permiso de escritura y espacio para las herramientas, la compilación y una copia privada de tu imagen."
+  en: "Your own US copy of Mario Kart: Double Dash!! (GM4E01), as an uncompressed ISO or CISO image, with a main.dol whose SHA-1 is e389e50357d4a5076ab3d38672204658f411123d; other regions and RVZ or GCZ formats aren’t supported. Plus 64-bit Windows 10 or 11, a graphics card with desktop OpenGL 3.3, a writable folder, and space for the tools, the build output, and a private copy of your image."
+tags:
+  - powerpc
+  - racing
+  - widescreen
+  - multiplayer
+  - online
+  - static-recomp

@@ -227,3 +227,33 @@ phoboslab/wipeout-rewrite                             # enlaza el juego: el READ
 Snaity-CORE/pe2-pc-port                               # trae unos 4.800 .inc generados con datos del juego (colisiones de las salas, animaciones): son tablas de datos del juego
 yanm1103/War_of_the_Monsters_recomp                   # fuera por ahora: trae 33 locuciones mp3 que parecen de otro juego y texturas del juego retocadas
 dalves408/nhlhitzpro-recomp                           # el propio proyecto reparte un pack de 1,27 GB con 1.910 texturas del juego redibujadas
+
+# ── Tanda 11 (2-11): traen datos del juego ──
+motor-dev/nfs-recompiled                              # trae datos del juego: los ejecutables y DLL originales en el árbol (nfs2se/nfs2sen.exe, nfs3hp/nfs3.exe, eacsnd.dll, softtria.dll, voodoo2a.dll)
+etroimcasso/kirpich                                   # trae datos del juego en el código: sprites y mapas de pantalla del Tetris de Game Boy en src/data/generated/ (sprites_data.inc, tilemaps_data.inc) y la música en tests/fixtures, sacados del desensamblado
+
+# ── No corren en PC (tanda 11, 2-11: forks y ports para móviles y portátiles) ──
+chrissotraidis/ballpad                                # no corre en PC: solo iOS
+chrissotraidis/maskpad                                # no corre en PC: solo iOS
+codepdbh/nfsmw-android                                # no corre en PC: solo Android
+deivid22srk/dk64-recomp-android                       # no corre en PC: solo Android
+dorpxp/driftdroid                                     # no corre en PC: solo Android
+eboody/castlevania-revamped-open-source-edition       # no corre en PC: solo Android
+estebanpdn/legend-of-doom-3ds                         # no corre en PC: solo 3DS
+estebanpdn/mario-kart-64-3ds                          # no corre en PC: port para 3DS (lo que trae para PC es solo el extractor de recursos)
+estebanpdn/zelda-alttp-3ds                            # no corre en PC: solo 3DS
+hdmaniak/dishsoap                                     # no corre en PC: solo Android
+igawa6/harvestmoon64recomp                            # no corre en PC: solo Android
+izzy2lost/ghostship                                   # no corre en PC: solo Android
+jameriquiah/2ship2harkinian                           # no corre en PC: solo Android
+mircowuffwuff/super-mario-bros.-remastered-android    # no corre en PC: solo Android
+nagaa95/unleashedrecomp-nx                            # no corre en PC: solo Switch
+raposomiguel50/system-shock-android                   # no corre en PC: solo Android
+rinnegatamante/lighthouse                             # no corre en PC: solo PS Vita
+samyost1/tmc-android                                  # no corre en PC: solo Android
+samyost1/zelda3-android                               # no corre en PC: solo Android
+sergiomanzur/cvlod_recomp                             # fork para Android de fliperama86/cvlod_recomp (recomps/castlevania-legacy-of-darkness.yaml); su build de Windows es la del original, que va por delante
+sergiomanzur/symphonyrecomp                           # no corre en PC: solo Android
+themriron2/sf64-psp                                   # no corre en PC: solo PSP
+zloikiller/nfs3recompiled-android                     # no corre en PC: solo Android
+zwaetschge/acgc-android-port                          # no corre en PC: solo Android

@@ -1,0 +1,22 @@
+name: "Mario Strikers Charged"
+games: [mario-strikers-charged]
+console: wii
+status: playable
+repo: BlackAndBlue95/Strikers-WiiCompiled
+originalDeveloper: "Next Level Games"
+year: 2007
+toolchain: Wiicompiled
+desc:
+  es: "Port nativo hecho por recompilación estática, bifurcación de WiiCompiled (el proyecto de Mario Kart Wii) cuyo traductor y entorno de ejecución se han reorientado a Mario Strikers Charged usando los símbolos de mscharged-decomp. El código PowerPC del juego se traduce a C++ en tu equipo al ejecutar build.sh o build.cmd con tu imagen del disco; no es un emulador y el repositorio no trae datos del juego. Según el README funcionan el arranque, los menús, el Hub, los tutoriales, los partidos de versus, la música, las voces y el guardado, con velocidades de imagen reales de 30 a 165 fps, resolución interna de hasta 8x, pantalla ancha, mandos con los controles de Super Mario Strikers, Wii Remote reales por Bluetooth (experimental) y mods en formato Riivolution; hay diferencias ocasionales de dibujo respecto a la consola, no hay juego en línea y todavía no hay versiones publicadas. Se desarrolló y probó en macOS con Apple Silicon: las compilaciones de Windows y Linux usan la misma cadena de herramientas pero no están probadas. El README dice que se usaron herramientas de IA de forma intensiva y 85 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native port made by static recompilation, a fork of WiiCompiled (the Mario Kart Wii project) whose translator and runtime were retargeted at Mario Strikers Charged using the symbols from mscharged-decomp. The game’s PowerPC code is translated to C++ on your PC when you run build.sh or build.cmd with your disc image; it isn’t an emulator and the repository carries no game data. According to the README, boot, menus, the Hub, tutorials, VS matches, music, voices, and saving work, with real frame rates from 30 to 165 fps, internal resolution up to 8x, widescreen, controllers using Super Mario Strikers’ controls, real Wii Remotes over Bluetooth (experimental), and mods in the Riivolution format; there are occasional rendering differences from the console, no online play, and no published releases yet. It was developed and tested on macOS with Apple silicon: the Windows and Linux builds use the same toolchain but are untested. The README says AI coding tools were used heavily, and 85 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Mario Strikers Charged de Wii, estadounidense revisión 1 (R4QE01); la compilación comprueba el SHA-256 del main.dol y rechaza cualquier otra versión o región. Además, Windows 10 u 11 de 64 bits, Linux o macOS 14 o posterior en Apple Silicon, una tarjeta gráfica con Direct3D 12, Vulkan o Metal, unos 10 GB libres y, para compilar, el SDK de .NET 8, CMake 3.25 o posterior, Ninja y Clang (LLVM-MinGW en Windows)."
+  en: "Your own copy of Mario Strikers Charged for Wii, US revision 1 (R4QE01); the build checks the main.dol SHA-256 and rejects any other version or region. Plus 64-bit Windows 10 or 11, Linux, or macOS 14 or later on Apple silicon, a graphics card with Direct3D 12, Vulkan, or Metal, about 10 GB free, and, to build, the .NET 8 SDK, CMake 3.25 or later, Ninja, and Clang (LLVM-MinGW on Windows)."
+tags:
+  - powerpc
+  - sports
+  - widescreen
+  - 60fps+
+  - mods
+  - static-recomp
+  - ai-assisted

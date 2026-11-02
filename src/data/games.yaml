@@ -2807,7 +2807,7 @@ jungle-strike:
   name: Jungle Strike
   igdb: 4368
   year: 1993
-  platforms: [megadrive]
+  platforms: [megadrive, snes]
 
 kameo-elements-of-power:
   name: "Kameo: Elements of Power"
@@ -4792,6 +4792,12 @@ sakura-wars:
   igdb: 96392
   year: 2019
   platforms: [ps4]
+
+samurai-shodown-warriors-rage:
+  name: "Samurai Shodown: Warriors Rage"
+  igdb: 45053
+  year: 1999
+  platforms: [ps1]
 
 san-francisco-rush-2049:
   name: San Francisco Rush 2049

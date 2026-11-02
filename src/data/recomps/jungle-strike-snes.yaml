@@ -1,0 +1,18 @@
+name: "Jungle Strike (SNES)"
+games: [jungle-strike]
+console: snes
+status: experimental
+repo: Junior-Jones/Jungle-Strike-SNES-Static-Recomp
+originalDeveloper: "Electronic Arts"
+year: 1993
+desc:
+  es: "Versión nativa para Windows de Jungle Strike de Super Nintendo, hecha por recompilación estática: el código del procesador S-CPU (65816) y el del controlador de audio (SPC700) de la ROM se tradujeron por adelantado a C, sin intérprete ni emulador de reserva, y el repositorio incluye ese código generado, que sale de la ROM del juego. El resto de la máquina (PPU, DMA, temporizadores, S-DSP) está reimplementada en el propio proyecto, con un lanzador de Windows que guarda y carga estados, permite configurar mandos y audio y hace capturas. Añade un modo de pantalla ancha de 16:9 (512 × 288), marcado como experimental. Según el README, la primera misión está probada en las esquinas y con armas, y la segunda solo en parte; las demás transiciones del juego siguen en pruebas. La última versión es la 1.1.0, del 17 de octubre; la primera, la 1.0.0, es del 1 de septiembre. La versión de Windows publicada es un ejecutable ya compilado a partir de ese código generado."
+  en: "A native Windows version of the Super Nintendo Jungle Strike, made by static recompilation: the ROM’s S-CPU (65816) and audio driver (SPC700) code was translated ahead of time into C, with no interpreter or emulator fallback, and the repository includes that generated code, which comes from the game’s ROM. The rest of the machine (PPU, DMA, timers, S-DSP) is reimplemented in the project itself, with a Windows launcher that saves and loads states, configures controllers and audio, and takes screenshots. It adds a 16:9 widescreen mode (512 × 288), flagged as experimental. According to the README, mission 1 has been tested at its corners and with weapons and mission 2 only partly; the remaining game transitions are still being tested. The latest release is 1.1.0, from October 17; the first, 1.0.0, is from September 1. The published Windows build is a prebuilt executable made from that generated code."
+requirements:
+  es: "Tu propia ROM de Jungle Strike para SNES, de EE. UU./Canadá (NTSC), sin cabecera, en formato .sfc, de 2.097.152 bytes y con SHA-256 8d812ea4fa897274116f7f43bc689e110f1cfbd3f7eb3a1737c2a85d36369159; el lanzador comprueba la identidad completa antes de dejar jugar. Windows 10 u 11."
+  en: "Your own Jungle Strike SNES ROM, the USA/Canada (NTSC) release, unheadered, in .sfc format, 2,097,152 bytes with SHA-256 8d812ea4fa897274116f7f43bc689e110f1cfbd3f7eb3a1737c2a85d36369159; the launcher checks the full identity before allowing play. Windows 10 or 11."
+tags:
+  - "65816"
+  - action
+  - widescreen
+  - static-recomp
