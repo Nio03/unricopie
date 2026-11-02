@@ -1,0 +1,18 @@
+name: "Mobile Suit Gundam SEED: Battle Assault"
+games: [mobile-suit-gundam-seed-battle-assault]
+console: gba
+status: playable
+repo: omegakatana92/Gundam-Seed-Battle-Assault-Recomp
+originalDeveloper: "Natsume"
+year: 2004
+toolchain: gbarecomp
+desc:
+  es: "Recompilación estática de la versión de Game Boy Advance: el código ARM del cartucho se traduce a C++ y se enlaza con el runtime de GBARecomp, con SDL2. Según el README, se puede jugar y casi todo funciona, sonido y jugabilidad incluidos; lo que falla son algunos gráficos, como la interfaz de los combates y los retratos de los personajes. Trae controles de teclado, pantalla completa, pausa y avance rápido. La única publicación, «WIP», del 28 de agosto, ofrece una versión para Windows ya compilada y un zip con las fuentes del proyecto, que incluye el código C++ generado a partir de la ROM. El programa se llama GEMiniRecomp.exe, como la plantilla de la que parte, y el README todavía conserva restos de esa plantilla."
+  en: "A static recompilation of the Game Boy Advance version: the cartridge’s ARM code is translated to C++ and linked with the GBARecomp runtime, using SDL2. According to the README, it’s playable and most of it works, sound and gameplay included; what fails is some graphics, such as the battle interface and the character portraits. It has keyboard controls, fullscreen, pause, and fast-forward. The only release, “WIP”, from August 28, offers a prebuilt Windows build and a zip with the project’s sources, which includes the C++ code generated from the ROM. The program is named GEMiniRecomp.exe, after the template it starts from, and the README still keeps leftovers of that template."
+requirements:
+  es: "Tu propia ROM de Mobile Suit Gundam SEED: Battle Assault para Game Boy Advance, que el programa comprueba antes de arrancar, y una BIOS de GBA propia (gba_bios.bin). Windows."
+  en: "Your own Mobile Suit Gundam SEED: Battle Assault ROM for Game Boy Advance, which the program checks before starting, and your own GBA BIOS (gba_bios.bin). Windows."
+tags:
+  - arm7
+  - fighting
+  - static-recomp

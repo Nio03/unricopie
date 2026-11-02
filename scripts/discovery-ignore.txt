@@ -229,6 +229,7 @@ yanm1103/War_of_the_Monsters_recomp                   # fuera por ahora: trae 33
 dalves408/nhlhitzpro-recomp                           # el propio proyecto reparte un pack de 1,27 GB con 1.910 texturas del juego redibujadas
 
 # ── Tanda 11 (2-11): traen datos del juego ──
+omegakatana92/Kirby-Dream-Land-Recomp                 # trae el juego: el kirbydreamland.zip del repo lleva kirby_s_dream_land_rom.c, la ROM entera como tabla de C (gb-recompiled la genera siempre), y la release se compila con ese proyecto
 motor-dev/nfs-recompiled                              # trae datos del juego: los ejecutables y DLL originales en el árbol (nfs2se/nfs2sen.exe, nfs3hp/nfs3.exe, eacsnd.dll, softtria.dll, voodoo2a.dll)
 etroimcasso/kirpich                                   # trae datos del juego en el código: sprites y mapas de pantalla del Tetris de Game Boy en src/data/generated/ (sprites_data.inc, tilemaps_data.inc) y la música en tests/fixtures, sacados del desensamblado
 
