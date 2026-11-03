@@ -1,0 +1,23 @@
+name: "Xenoblade Chronicles X: Definitive Edition"
+games: [xenoblade-chronicles-x-definitive-edition]
+console: switch
+status: playable
+repo: jmars125/xcx-recomp
+forkOf:
+  label: "valentderah/totk-pc-recomp"
+  url: https://github.com/valentderah/totk-pc-recomp
+originalDeveloper: "Monolith Soft"
+year: 2025
+desc:
+  es: "XCX Recomp: recompilación estática de Xenoblade Chronicles X: Definitive Edition, la versión de 2025 para Nintendo Switch, a una aplicación nativa de Windows x86-64 con un renderizador Vulkan. Parte de TotK Recomp, la recompilación de Tears of the Kingdom de Valiantsin Dzerakh que también está en el catálogo. Su instalador, XCX-Setup, construye el juego en tu equipo a partir de tus archivos, y el resultado contiene el juego, por lo que es solo para uso propio. El README lo describe como un desarrollo temprano: empezar una partida nueva, las escenas y la jugabilidad funcionan en Windows con sonido, textos y menús, a 60 cuadros por segundo por defecto (de 30 a 360 en los ajustes; por encima de 60, de forma experimental). Admite la actualización 2.0.0 y el contenido descargable, y trae un menú de ajustes dentro del juego (F1), un indicador de rendimiento (F10), teclado, ratón y mando. La primera versión salió el 31 de octubre, y la 0.1.4, del 1 de noviembre, sumó una versión para Linux en AppImage. La 0.1.13 arregló el cierre al arrancar en Linux, que quien lo había reportado confirmó en una Steam Deck, y ajustó la interfaz a las pantallas ultrapanorámicas, con la pantalla de cargar partida y los modelos de algunos menús todavía estirados. La última es la 0.1.14 (2 de noviembre), que hace funcionar los vídeos en Linux. Los mods hechos para emuladores siguen como plan. Según el README, la mayor parte del código y de la documentación la escriben agentes de IA (Claude Code) bajo la dirección de su autor, que juega cada versión y decide qué se incorpora."
+  en: "XCX Recomp: a static recompilation of Xenoblade Chronicles X: Definitive Edition, the 2025 Nintendo Switch release, into a native Windows x86-64 application with a Vulkan renderer. It builds on TotK Recomp, Valiantsin Dzerakh’s Tears of the Kingdom recompilation, which is also in the catalog. Its installer, XCX-Setup, builds the game on your PC from your files, and the result contains the game, so it is for your own use only. The README describes it as early development: starting a new game, cutscenes, and gameplay work on Windows with sound, text, and menus, at 60 fps by default (30 to 360 in the settings; above 60 is experimental). It supports update 2.0.0 and the add-on content, and has an in-game settings menu (F1), a performance overlay (F10), and keyboard, mouse, and gamepad support. The first release came out on October 31, and 0.1.4, on November 1, added a Linux build as an AppImage. 0.1.13 fixed the crash at boot on Linux, which the person who reported it confirmed on a Steam Deck, and fit the interface to ultrawide screens, with the Load Game screen and the models in some menus still stretched. The latest is 0.1.14 (November 2), which gets movies playing on Linux. Mods made for emulators are still planned. According to the README, most of the code and documentation is written by AI coding agents (Claude Code) under its author’s direction, who plays every build and decides what gets merged."
+requirements:
+  es: "Tu propia copia de Xenoblade Chronicles X: Definitive Edition para Nintendo Switch, volcada de tu consola: el juego base y la actualización 2.0.0 en archivos NSP (el contenido descargable es opcional), y las claves de tu consola (prod.keys). Windows 10 o posterior, una CPU x86-64 con AVX2, una GPU con Vulkan 1.3 y VK_EXT_external_memory_host, y unos 36 GiB libres durante la instalación (20 GiB después). También hay versión para Linux."
+  en: "Your own copy of Xenoblade Chronicles X: Definitive Edition for Nintendo Switch, dumped from your console: the base game and the 2.0.0 update as NSP files (the add-on content is optional), plus your console’s keys (prod.keys). Windows 10 or later, an x86-64 CPU with AVX2, a GPU with Vulkan 1.3 and VK_EXT_external_memory_host, and about 36 GiB free during setup (20 GiB after). There is also a Linux build."
+tags:
+  - arm64
+  - "60fps+"
+  - widescreen
+  - vulkan
+  - rpg
+  - ai-assisted

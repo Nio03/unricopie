@@ -1,0 +1,20 @@
+name: "Uncharted: Golden Abyss"
+games: [uncharted-golden-abyss]
+console: vita
+status: playable
+repo: TheLostPantheon/nativ
+originalDeveloper: "Bend Studio"
+year: 2011
+toolchain: Project Nativ
+desc:
+  es: "Recompilación estática de la versión estadounidense de PS Vita (1.00) con Project Nativ, que convierte el juego en un programa nativo para Windows, macOS y Linux (también la Steam Deck): el código del juego se traduce a C y las bibliotecas de Sony se recompilan a partir de tu firmware, y los vídeos se reproducen con el reproductor de MP4 del propio firmware. La pantalla táctil se maneja con el ratón o con un cursor del mando, el sensor de movimiento con el giroscopio de un mando como el DualShock 4 o el DualSense, y la tecla F7 enciende la luz de la cámara para los acertijos en los que hay que poner algo a contraluz. Añade escala de render con AMD FSR, pantallas de 21:9 y 32:9, campo de visión, distancia de dibujado, cámara con el ratón y 60 fps experimentales. La actualización 1.03 todavía no está soportada: el juego funciona sin ella. La 0.1.5 (2 de noviembre), la última versión, arregló las texturas rotas en tarjetas gráficas AMD con la escala 2x y la pantalla negra que podía quedar al guardar después del prólogo. Según la guía, en las escenas las voces van un tercio de segundo por delante de los labios."
+  en: "A static recompilation of the US PS Vita release (1.00) with Project Nativ, which turns the game into a native program for Windows, macOS, and Linux (Steam Deck included): the game’s code is translated to C and Sony’s libraries are recompiled from your firmware, and the videos play through the firmware’s own MP4 player. The touch screen is handled with the mouse or a controller cursor, the motion sensor with the gyro of a controller such as a DualShock 4 or DualSense, and the F7 key turns on the camera’s light for the puzzles where you hold something up to the light. It adds render scaling with AMD FSR, 21:9 and 32:9 screens, field of view, draw distance, mouse camera control, and experimental 60 fps. The 1.03 update isn’t supported yet: the game runs without it. 0.1.5 (November 2), the latest release, fixed scrambled textures on AMD graphics cards at 2x scale and the black screen that could follow saving after the prologue. According to the guide, voices in cutscenes run about a third of a second ahead of the lips."
+requirements:
+  es: "Tu propia copia estadounidense de Uncharted: Golden Abyss para PS Vita (PCSA00029), versión 1.00: la carpeta del juego copiada de tu Vita, con su licencia, o sus PKG, cuya licencia Nativ pide a tu Vita por wifi una sola vez. Además, el archivo de actualización del sistema de PS Vita (PSVUPDAT.PUP), gratis en la web de Sony. Windows 10 u 11 de 64 bits, macOS 11 o posterior en un Mac con Apple silicon, o Linux x86-64, Steam Deck incluida."
+  en: "Your own US copy of Uncharted: Golden Abyss for PS Vita (PCSA00029), version 1.00: the game folder copied from your Vita, with its license, or its PKG files, whose license Nativ fetches from your Vita over Wi-Fi once. Plus the PS Vita system software update file (PSVUPDAT.PUP), free from Sony’s website. 64-bit Windows 10 or 11, macOS 11 or later on an Apple silicon Mac, or x86-64 Linux, Steam Deck included."
+tags:
+  - arm
+  - action
+  - widescreen
+  - "60fps+"
+  - ai-assisted

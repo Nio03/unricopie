@@ -2851,6 +2851,12 @@ killzone-3:
   year: 2011
   platforms: [ps3]
 
+killzone-mercenary:
+  name: "Killzone: Mercenary"
+  igdb: 1869
+  year: 2013
+  platforms: [vita]
+
 killzone-shadow-fall:
   name: Killzone Shadow Fall
   igdb: 1937
@@ -4961,6 +4967,12 @@ shiritsu-justice-gakuen-nekketsu-seishun-nikki-2:
   year: 1999
   platforms: [ps1]
 
+shovel-knight:
+  name: Shovel Knight
+  igdb: 7444
+  year: 2014
+  platforms: [vita]
+
 shuusou-gyoku:
   name: Shuusou Gyoku
   igdb: 123608
@@ -6862,6 +6874,12 @@ um-jammer-lammy:
   year: 1999
   platforms: [ps1]
 
+uncharted-golden-abyss:
+  name: "Uncharted: Golden Abyss"
+  igdb: 998
+  year: 2011
+  platforms: [vita]
+
 uncharted-the-nathan-drake-collection:
   name: "Uncharted: The Nathan Drake Collection"
   igdb: 10962
@@ -6879,6 +6897,12 @@ uniracers:
   igdb: 16743
   year: 1994
   platforms: [snes]
+
+unit-13:
+  name: Unit 13
+  igdb: 19251
+  year: 2012
+  platforms: [vita]
 
 unreal:
   name: Unreal
@@ -7339,6 +7363,12 @@ xenoblade-chronicles:
   igdb: 2364
   year: 2010
   platforms: [wii]
+
+xenoblade-chronicles-x-definitive-edition:
+  name: "Xenoblade Chronicles X: Definitive Edition"
+  igdb: 321048
+  year: 2025
+  platforms: [switch]
 
 xenogears:
   name: Xenogears

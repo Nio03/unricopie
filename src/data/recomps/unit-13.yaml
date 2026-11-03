@@ -1,0 +1,22 @@
+name: Unit 13
+games: [unit-13]
+console: vita
+status: playable
+repo: TheLostPantheon/nativ
+originalDeveloper: "Zipper Interactive"
+year: 2012
+toolchain: Project Nativ
+desc:
+  es: "Recompilación estática de la versión estadounidense de PS Vita (1.00) con Project Nativ, que convierte el juego en un programa nativo para Windows, macOS y Linux (también la Steam Deck): el código del juego se traduce a C y las bibliotecas de Sony se recompilan a partir de tu firmware. Tiene el cooperativo en línea para dos jugadores entre copias de Nativ, en la misma red o por internet, donde se conectan directamente; el chat de voz y las clasificaciones todavía no funcionan. El Network Pass, el pase en línea del juego, cuenta como comprado. La pantalla táctil se maneja con el ratón o con un cursor del mando, y añade escala de render, pantallas de 21:9 y 32:9, campo de visión y 60 fps experimentales. La actualización 1.01 todavía no está soportada: el juego funciona sin ella."
+  en: "A static recompilation of the US PS Vita release (1.00) with Project Nativ, which turns the game into a native program for Windows, macOS, and Linux (Steam Deck included): the game’s code is translated to C and Sony’s libraries are recompiled from your firmware. It has two-player online co-op between copies of Nativ, on the same network or over the internet, where they connect directly; voice chat and the leaderboards don’t work yet. The Network Pass, the game’s online pass, counts as owned. The touch screen is handled with the mouse or a controller cursor, and it adds render scaling, 21:9 and 32:9 screens, field of view, and experimental 60 fps. The 1.01 update isn’t supported yet: the game runs without it."
+requirements:
+  es: "Tu propia copia estadounidense de Unit 13 para PS Vita (PCSA00014), versión 1.00: la carpeta del juego copiada de tu Vita, con su licencia, o sus PKG, cuya licencia Nativ pide a tu Vita por wifi una sola vez. Además, el archivo de actualización del sistema de PS Vita (PSVUPDAT.PUP), gratis en la web de Sony. Windows 10 u 11 de 64 bits, macOS 11 o posterior en un Mac con Apple silicon, o Linux x86-64, Steam Deck incluida."
+  en: "Your own US copy of Unit 13 for PS Vita (PCSA00014), version 1.00: the game folder copied from your Vita, with its license, or its PKG files, whose license Nativ fetches from your Vita over Wi-Fi once. Plus the PS Vita system software update file (PSVUPDAT.PUP), free from Sony’s website. 64-bit Windows 10 or 11, macOS 11 or later on an Apple silicon Mac, or x86-64 Linux, Steam Deck included."
+tags:
+  - arm
+  - action
+  - multiplayer
+  - online
+  - widescreen
+  - "60fps+"
+  - ai-assisted

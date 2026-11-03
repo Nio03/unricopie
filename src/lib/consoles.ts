@@ -18,6 +18,8 @@ export const CONSOLES = {
   ps2: { label: 'PS2', tag: 'PS2', full: 'PlayStation 2', arch: 'Emotion Engine', color: '#2E5CB8' },
   ps1: { label: 'PS1', tag: 'PS1', full: 'PlayStation', arch: 'MIPS', color: '#8A90A6' },
   psp: { label: 'PSP', tag: 'PSP', full: 'PlayStation Portable', arch: 'MIPS', color: '#E0A93A' },
+  // Aguamarina, uno de los colores con que salió la consola.
+  vita: { label: 'PS Vita', tag: 'PSV', full: 'PlayStation Vita', arch: 'ARMv7', color: '#14B8A6' },
   x360: { label: 'Xbox 360', tag: '360', full: 'Xbox 360', arch: 'PowerPC', color: '#107C10' },
   wiiu: { label: 'Wii U', tag: 'WIIU', full: 'Nintendo Wii U', arch: 'PowerPC', color: '#00A3C4' },
   // NAOMI es la placa de recreativa hermana de la Dreamcast (mismo SH-4), así que

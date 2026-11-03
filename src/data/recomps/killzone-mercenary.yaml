@@ -1,0 +1,22 @@
+name: "Killzone: Mercenary"
+games: [killzone-mercenary]
+console: vita
+status: playable
+repo: TheLostPantheon/nativ
+originalDeveloper: "Guerrilla Cambridge"
+year: 2013
+toolchain: Project Nativ
+desc:
+  es: "Recompilación estática de la versión estadounidense de PS Vita con Project Nativ, que convierte el juego en un programa nativo para Windows, macOS y Linux (también la Steam Deck): el código del juego se traduce a C y las bibliotecas de Sony se recompilan a partir de tu firmware. Admite la versión 1.00 y la actualización 1.12, la recomendada, que es la que trae Botzone y el juego en línea. El multijugador y Botzone funcionan en línea entre copias de Nativ, en la misma red o por internet, donde se encuentran por la DHT pública de BitTorrent y se conectan directamente; al servidor de inicio de sesión del juego responde el propio programa. Se juega con teclado y ratón o con mando, y con mando también con el esquema de la PS TV, que pasa todo lo táctil a botones y palancas; si no, la pantalla táctil se maneja con el ratón o con un cursor del mando. Añade escala de render, pantallas de 21:9 y 32:9, campo de visión, ajustes de detalle del escenario y de los personajes, y 60 fps experimentales. Es el juego que más tarda en compilarse la primera vez y en preparar sus shaders, unos minutos. La 0.1.5 (2 de noviembre), la última versión, arregló que los derribos cuerpo a cuerpo se congelaran a 60 fps, en Botzone y en la campaña, y el parpadeo del HUD a 60 fps; según la guía, de vez en cuando una frase se oye dos veces."
+  en: "A static recompilation of the US PS Vita release with Project Nativ, which turns the game into a native program for Windows, macOS, and Linux (Steam Deck included): the game’s code is translated to C and Sony’s libraries are recompiled from your firmware. It supports version 1.00 and the 1.12 update, the recommended one, which is where Botzone and online play come from. Multiplayer and Botzone work online between copies of Nativ, on the same network or over the internet, where they find each other through the public BitTorrent DHT and connect directly; the program itself answers for the game’s login server. It plays with keyboard and mouse or a controller, and with a controller also in the PS TV layout, which moves every touch action to buttons and sticks; otherwise the touch screen is handled with the mouse or a controller cursor. It adds render scaling, 21:9 and 32:9 screens, field of view, scenery and character detail settings, and experimental 60 fps. It’s the game that takes longest to build the first time and to prepare its shaders, a few minutes. 0.1.5 (November 2), the latest release, fixed close-combat takedowns freezing at 60 fps, in Botzone and the campaign, and the HUD flickering at 60 fps; according to the guide, a line of dialogue now and then plays twice."
+requirements:
+  es: "Tu propia copia estadounidense de Killzone: Mercenary para PS Vita (PCSA00107), en la versión 1.00 o, mejor, con la actualización 1.12: la carpeta del juego copiada de tu Vita, con su licencia, o sus PKG, cuya licencia Nativ pide a tu Vita por wifi una sola vez. Además, el archivo de actualización del sistema de PS Vita (PSVUPDAT.PUP), gratis en la web de Sony. Windows 10 u 11 de 64 bits, macOS 11 o posterior en un Mac con Apple silicon, o Linux x86-64, Steam Deck incluida."
+  en: "Your own US copy of Killzone: Mercenary for PS Vita (PCSA00107), at version 1.00 or, better, with the 1.12 update: the game folder copied from your Vita, with its license, or its PKG files, whose license Nativ fetches from your Vita over Wi-Fi once. Plus the PS Vita system software update file (PSVUPDAT.PUP), free from Sony’s website. 64-bit Windows 10 or 11, macOS 11 or later on an Apple silicon Mac, or x86-64 Linux, Steam Deck included."
+tags:
+  - arm
+  - fps
+  - multiplayer
+  - online
+  - widescreen
+  - "60fps+"
+  - ai-assisted
