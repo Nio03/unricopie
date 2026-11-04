@@ -1,0 +1,12 @@
+name: "nxrecomp"
+kind: recompiler
+consoles: [switch]
+repo: drakolordx7/nxrecomp
+status: experimental
+desc:
+  es: "Herramientas para recompilar estáticamente juegos de Nintendo Switch (AArch64) a programas nativos de Windows x64. Tiene tres partes: el recompilador, que traduce el código AArch64 a C++ y comprueba la salida contra Unicorn instrucción por instrucción; el entorno de ejecución, que cubre el mapa de memoria, el cargador de módulos, los hilos, las llamadas SVC e IPC de Horizon, los informes de fallos y una capa NVN sobre Vulkan; y herramientas sin conexión para pasar shaders Maxwell a SPIR-V, texturas ASTC a BC7 y el mosaico por bloques de Tegra. El README dice que no incluye código ni datos de ningún juego y que los juegos salen de tus propios volcados. Está en una fase temprana: el recompilador traduce todo el código de Metroid Prime Remastered, el primer juego al que apunta (su repositorio aparte lo incluye como submódulo), y el entorno ya arranca el juego hasta su primer nivel; las carencias están en los registros de desarrollo del repositorio. No tiene versiones publicadas. Ninguno de sus últimos 100 commits lleva a Claude como coautor."
+  en: "Tools for statically recompiling Nintendo Switch (AArch64) games into native Windows x64 programs. It has three parts: the recompiler, which translates AArch64 code to C++ and checks the output against Unicorn instruction by instruction; the runtime, which covers the memory map, the module loader, threads, Horizon SVC and IPC handling, crash reports, and an NVN layer on Vulkan; and offline tools for converting Maxwell shaders to SPIR-V, ASTC textures to BC7, and Tegra block-linear tiling. The README says it includes no game code or data and that games come from your own dumps. It is at an early stage: the recompiler lifts all of the code of Metroid Prime Remastered, the first game it targets (whose separate repository includes this one as a submodule), and the runtime already boots the game into its first level; the gaps are listed in the repository’s development logs. It has no published releases. None of its last 100 commits list Claude as a co-author."
+tags:
+  - arm64
+  - static-recomp
+  - vulkan

@@ -1,0 +1,19 @@
+name: "TotK Recomp Mod Manager (SprunkledotDEV)"
+games: [the-legend-of-zelda-tears-of-the-kingdom]
+kind: manager
+console: switch
+game:
+  es: "The Legend of Zelda: Tears of the Kingdom"
+  en: "The Legend of Zelda: Tears of the Kingdom"
+base: "recomps/the-legend-of-zelda-tears-of-the-kingdom"
+repo: SprunkledotDEV/Totk-Recomp-Mod-Manager
+status: experimental
+desc:
+  es: "Gestor de mods independiente para Windows de TotK Recomp, la recompilación de Tears of the Kingdom. Guarda una biblioteca local de mods y su orden de carga, importa mods de RomFS sin empaquetar, archivos ZIP y paquetes TKCL (los nuevos entran desactivados), los fusiona en ese orden y lanza el juego con la carpeta resultante superpuesta, sin recompilar el ejecutable. Los paquetes TKCL se aplican con el motor TkSharp, el del gestor TKMM, y se pueden leer sus descripciones y elegir sus opciones. Cada fusión correcta crea una compilación aparte, y si falla se conserva la anterior. No admite parches de ExeFS ni IPS, trucos ni complementos SubSDK, y rechaza los paquetes TKCL con dependencias. El autor lo describe como un parche temporal hasta que la recompilación original admita mods, y dice que se programó entero con una IA (nombra «GPT-6 Astra»). Solo lo ha probado con TotK Recomp 0.2.1 y el juego 1.2.1. Su única versión, la 0.1, es del 31 de octubre."
+  en: "A standalone Windows mod manager for TotK Recomp, the Tears of the Kingdom recompilation. It keeps a local mod library and load order, imports unpacked RomFS mods, ZIP archives, and TKCL packages (new ones start disabled), merges them in that order, and launches the game with the resulting folder overlaid, without rebuilding the executable. TKCL packages are applied with the TkSharp engine, the one TKMM uses, and their descriptions can be read and their options chosen. Each successful merge creates a separate build, and if one fails the previous one is kept. It doesn’t support ExeFS or IPS patches, cheats, or SubSDK plugins, and it rejects TKCL packages with dependencies. Its author calls it a temporary stopgap until the original recomp adds mod support, and says it was coded entirely with an AI (naming “GPT-6 Astra”). It has only been tested with TotK Recomp 0.2.1 and game version 1.2.1. Its only release, 0.1, is from October 31."
+requirements:
+  es: "Una instalación de TotK Recomp ya compilada con tu propia copia del juego (el gestor no incluye juego, recursos, claves ni mods; hay que elegir la carpeta con totk.exe y romfs/index.json). Windows x64. Probado con TotK Recomp 0.2.1 y Tears of the Kingdom 1.2.1."
+  en: "A TotK Recomp installation already built from your own copy of the game (the manager includes no game, assets, keys, or mods; you pick the folder with totk.exe and romfs/index.json). 64-bit Windows. Tested with TotK Recomp 0.2.1 and Tears of the Kingdom 1.2.1."
+tags:
+  - mods
+  - ai-assisted

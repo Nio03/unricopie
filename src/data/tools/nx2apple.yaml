@@ -1,0 +1,12 @@
+name: "NX2Apple"
+kind: launcher
+consoles: [switch]
+repo: LNPANDY/NX2Apple
+status: usable
+desc:
+  es: "Aplicación de macOS que hace de lanzador y de biblioteca de juegos para nxnative, el proyecto que ejecuta de forma nativa el código de un juego de Switch en chips Apple. Es una bifurcación de nxnative: el motor (reescritor de código, anfitrión de Horizon, NVN sobre Metal y los perfiles de cada juego) no está en el repositorio, sino que se toma de nxnative en un commit fijado más una cola de parches propios, y el proyecto añade el lanzador y esos parches. Desde la app se elige el volcado del juego, se construye para el Mac o para iPhone y iPad en pocos clics y se juega desde una biblioteca con carátulas, con opciones por juego, mando, modo consola, controles táctiles que se pueden colocar y mods. El README cuenta 130 juegos con perfil, de los que da por verificados en el proyecto The Legend of Zelda: Tears of the Kingdom, Hades II y Animal Crossing: New Horizons; la 1.1.0 empezó a admitir juegos de Switch 2, que, según el README, nadie de esta bifurcación ha jugado todavía con el lanzador. La versión 1.1.0 es del 4 de noviembre y es la última entre 35 publicadas."
+  en: "A macOS app that works as a launcher and game library for nxnative, the project that runs a Switch game’s code natively on Apple chips. It is a fork of nxnative: the engine (the code rewriter, the Horizon host, NVN on Metal, and each game’s profile) isn’t committed in the repository but taken from nxnative at a pinned commit plus a queue of the project’s own patches, and the project adds the launcher and those patches. From the app you pick your game dump, build for the Mac or for iPhone and iPad in a few clicks, and play from a library with cover art, per-game options, controller support, a console mode, touch controls you can arrange, and mods. The README counts 130 games with a profile and lists The Legend of Zelda: Tears of the Kingdom, Hades II, and Animal Crossing: New Horizons as verified by the project; 1.1.0 started supporting Switch 2 games, which, according to the README, nobody on this fork has played through the launcher yet. Version 1.1.0, from November 4, is the latest of 35 releases."
+tags:
+  - arm64
+  - launcher
+  - build-ios

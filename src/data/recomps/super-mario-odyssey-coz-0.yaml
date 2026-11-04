@@ -1,0 +1,19 @@
+name: "Super Mario Odyssey (Coz-0)"
+games: [super-mario-odyssey]
+console: switch
+status: playable
+repo: Coz-0/smo-recomp
+originalDeveloper: "Nintendo EPD"
+year: 2017
+desc:
+  es: "Versión nativa de Super Mario Odyssey (1.4.1) para Windows x64, hecha por recompilación estática: el código de máquina AArch64 del juego se traduce antes de jugar a C y se compila para el PC, y el sistema, la API gráfica NVN (sobre Vulkan, con un traductor de shaders Maxwell), el audio, el vídeo, los mandos y el sistema de archivos de la consola los reimplementa el propio runtime. No es un emulador. Parte del diseño, el traductor de código y el runtime de ssbu-recomp, de Denkishi. El README lo da por una versión temprana, sin terminar, y lo mide todo en un solo PC de desarrollo: empieza la partida y funciona el archivo de guardado, una prueba automática recorre el Reino de la Gorra hasta la primera captura en la Torre del Sombrero, otra arranca las 176 fases y los 100 escenarios de todos los reinos, y su autor jugó a mano hasta el primer punto de control del Reino de la Cascada con un mando de Xbox One, a unos 60 fps. Tiene menú de amiibo (F1), ayuda dentro de la ventana y captura de pantalla (F12); lo que añadió la actualización 1.4.1 todavía no está probado. No publica versiones: se construye desde el código. 99 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows x64 version of Super Mario Odyssey (1.4.1), made by static recompilation: the game’s AArch64 machine code is translated ahead of play into C and compiled for the PC, and the console’s system, NVN graphics API (on Vulkan, with a Maxwell shader translator), audio, video, controllers, and file system are reimplemented by the project’s own runtime. It isn’t an emulator. It started from the design, lifter, and runtime of Denkishi’s ssbu-recomp. The README calls it an early, unfinished version and measures everything on a single development PC: a new game starts and the save file works, an automated test plays through Cap Kingdom to the first capture in Top-Hat Tower, another starts the game’s 176 stages and 100 scenarios across all kingdoms, and its author played by hand to Cascade Kingdom’s first checkpoint with an Xbox One controller, at about 60 fps. It has an amiibo menu (F1), in-window help, and screenshots (F12); what the 1.4.1 update added hasn’t been tested yet. It publishes no releases: you build it from the source. 99 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Super Mario Odyssey 1.4.1, volcada de tu consola: el programa con la actualización, el RomFS con la actualización aplicada y los datos de control de la actualización, ya descifrados (no hacen falta claves ni firmware). Windows 10 u 11 de 64 bits y una GPU con Vulkan 1.3 (desarrollado con NVIDIA). Para construirlo: LLVM/clang 9.0.0, Visual Studio 2019 Build Tools con el SDK de Windows 10.0.19041, el SDK de Vulkan 1.4, SDL3, el SDK de WebView2 y Python 3.13."
+  en: "Your own copy of Super Mario Odyssey 1.4.1, dumped from your console: the program with the update, the RomFS with the update applied, and the update’s control data, already decrypted (no keys or firmware are needed). 64-bit Windows 10 or 11 and a Vulkan 1.3 GPU (developed on NVIDIA). To build it: LLVM/clang 9.0.0, Visual Studio 2019 Build Tools with Windows SDK 10.0.19041, the Vulkan SDK 1.4, SDL3, the WebView2 SDK, and Python 3.13."
+tags:
+  - arm64
+  - platformer
+  - vulkan
+  - static-recomp
+  - ai-assisted

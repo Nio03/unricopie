@@ -1,0 +1,17 @@
+name: "TOTK Recomp Mod Manager (eliasm4r)"
+kind: manager
+console: switch
+game:
+  es: "The Legend of Zelda: Tears of the Kingdom"
+  en: "The Legend of Zelda: Tears of the Kingdom"
+base: "recomps/the-legend-of-zelda-tears-of-the-kingdom"
+repo: eliasm4r/totk-recomp-mod-manager
+status: beta
+desc:
+  es: "Gestor de mods para la recompilación totk-pc-recomp de Tears of the Kingdom, para Windows y Linux (Steam Deck incluida). Se coloca junto al juego y permite añadir mods de RomFS desde archivos .zip, .7z o .rar, activarlos y desactivarlos, ordenarlos por prioridad (gana el de más abajo si dos cambian el mismo archivo), ver los conflictos, avisar si un mod es de otra versión del juego y aplicarlos con un clic. Escribe el manifest.tsv que exige la recompilación, ajusta la tabla de tamaños de recursos y actualiza totk.ini, sin tocar nunca romfs.bin. Solo admite mods de RomFS: los parches de código de ExeFS no funcionan porque el código ya está recompilado. Su última versión es la 1.0.2, del 1 de noviembre (3 en total, desde el 30 de octubre); los ejecutables de Windows y Linux (AppImage) son compilaciones ya hechas de su código Python. Ninguno de sus últimos 14 commits lleva a Claude como coautor."
+  en: "A mod manager for the totk-pc-recomp recompilation of Tears of the Kingdom, for Windows and Linux (Steam Deck included). It goes next to the game and lets you add RomFS mods from .zip, .7z, or .rar files, switch them on and off, order them by priority (the lower one wins when two change the same file), see conflicts, get a warning when a mod is for another game version, and apply them in one click. It writes the manifest.tsv the recomp requires, patches the resource size table, and updates totk.ini, never modifying romfs.bin. It only supports RomFS mods: ExeFS code patches don’t work because the code is already recompiled. Its latest release is 1.0.2, from November 1 (3 in total, since October 30); the Windows and Linux (AppImage) executables are prebuilt builds of its Python code. None of its last 14 commits list Claude as a co-author."
+requirements:
+  es: "La recompilación totk-pc-recomp de Tears of the Kingdom ya instalada, con su carpeta de juego (el gestor se coloca junto a totk.exe). Mods de RomFS hechos para la versión de tu juego. Para ejecutarlo desde el código, Python 3.14 (o un Python 3 anterior con el paquete zstandard)."
+  en: "The totk-pc-recomp recompilation of Tears of the Kingdom already set up, with its game folder (the manager goes next to totk.exe). RomFS mods made for your game version. To run it from source, Python 3.14 (or an older Python 3 with the zstandard package)."
+tags:
+  - mods

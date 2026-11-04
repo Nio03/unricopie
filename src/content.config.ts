@@ -50,6 +50,8 @@ const recomps = defineCollection({
     status: z.enum(['experimental', 'playable', 'fully']),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),
+    // Sin enlace por prudencia (proyectos de Switch 2): la ficha nombra el repo como texto.
+    unlinked: z.boolean().default(false),
     repo: repoSlug.optional(),
     repoUrl: z.string().url().optional(),
     homepage: z.string().url().optional(),
@@ -97,6 +99,8 @@ const mods = defineCollection({
     status: z.enum(['experimental', 'beta', 'usable', 'stable']).optional(),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),
+    // Sin enlace por prudencia (proyectos de Switch 2): la ficha nombra el repo como texto.
+    unlinked: z.boolean().default(false),
     desc: localized,
     requirements: localized.optional(),
     tags: z.array(z.string()).default([]),
@@ -128,6 +132,8 @@ const tools = defineCollection({
     status: z.enum(['experimental', 'beta', 'usable', 'stable']).optional(),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),
+    // Sin enlace por prudencia (proyectos de Switch 2): la ficha nombra el repo como texto.
+    unlinked: z.boolean().default(false),
     desc: localized,
     tags: z.array(z.string()).default([]),
     links: linkList,
@@ -156,6 +162,8 @@ const ports = defineCollection({
     status: z.enum(['experimental', 'playable', 'fully']).default('playable'),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),
+    // Sin enlace por prudencia (proyectos de Switch 2): la ficha nombra el repo como texto.
+    unlinked: z.boolean().default(false),
     repo: repoSlug.optional(),
     repoUrl: z.string().url().optional(),
     homepage: z.string().url().optional(),
@@ -189,6 +197,8 @@ const decomps = defineCollection({
     decomp: z.string().optional(),
     abandoned: z.boolean().default(false),
     takedown: z.boolean().default(false),
+    // Sin enlace por prudencia (proyectos de Switch 2): la ficha nombra el repo como texto.
+    unlinked: z.boolean().default(false),
     desc: localized,
     tags: z.array(z.string()).default([]),
     links: linkList,

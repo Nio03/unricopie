@@ -1,0 +1,19 @@
+name: "Blade II: The Return of Evil"
+games: [blade-ii-the-return-of-evil]
+category: native-layer
+console: switch
+status: playable
+repo: ha7rock/blade2-mobile
+originalDeveloper: "Action Square"
+year: 2019
+desc:
+  es: "Capa de compatibilidad que ejecuta de forma nativa en macOS la versión de Switch de Blade II: The Return of Evil, un juego de Unreal Engine 4.17. No es un emulador: el programa del juego se ejecuta en el chip de Apple sin tocar más que las pocas instrucciones que no pueden correr tal cual, y un anfitrión pequeño sustituye los servicios del sistema de la consola. La API gráfica NVN se reimplementa sobre Metal y los 10 220 shaders del juego se extraen y se traducen antes de jugar. Aplica el método de d2r-mobile, de donde viene su carpeta dm/, a un segundo juego y un segundo motor. El README, en chino, dice que en macOS se puede jugar con normalidad: están superados los niveles 1 a 3 y el primer jefe, a 60 fps, con audio, vídeos, mando y partidas guardadas, y con una imagen igual a la de la consola. La carcasa de iOS compila una app completa, pero no se ha probado en un dispositivo real. El repositorio solo contiene tablas con hechos sobre el juego (hashes de shaders, tipos de enlace y posiciones de instrucciones del reescritor), no código ni recursos suyos. No tiene versiones publicadas. 83 de sus últimos 92 commits llevan a Claude como coautor."
+  en: "A compatibility layer that runs the Switch version of Blade II: The Return of Evil, an Unreal Engine 4.17 game, natively on macOS. It isn’t an emulator: the game’s program executes on the Apple chip with only the few instructions that can’t run unchanged rewritten, and a small host stands in for the console’s system services. The NVN graphics API is reimplemented on Metal, and the game’s 10,220 shaders are extracted and translated ahead of play. It applies d2r-mobile’s method, which its dm/ folder comes from, to a second game and a second engine. The README, in Chinese, says it plays normally on macOS: levels 1 to 3 and the first boss are cleared, at 60 fps, with audio, movies, controller support, and saves, and with a picture that matches the console’s. The iOS shell builds a complete app but hasn’t been run on a real device. The repository holds only tables of facts about the game (shader key hashes, binding types, and instruction offsets for the rewriter), no code or assets from it. It has no published releases. 83 of its last 92 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de la versión de Switch de Blade II: The Return of Evil (identificador de título 01009cc00e224000), de la que el README extrae con tools/extract_game.sh el ExeFS y el RomFS de la actualización a partir de tu XCI y de tus claves (prod.keys). Un Mac con chip Apple; las instrucciones del README usan Python 3 y la herramienta de construcción de la app de Mac del proyecto."
+  en: "Your own copy of the Switch version of Blade II: The Return of Evil (title ID 01009cc00e224000), from which the README’s tools/extract_game.sh extracts the update’s ExeFS and RomFS using your XCI and your keys (prod.keys). An Apple-silicon Mac; the README’s steps use Python 3 and the project’s Mac app build tool."
+tags:
+  - arm64
+  - action
+  - build-ios
+  - ai-assisted

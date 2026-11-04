@@ -41,6 +41,8 @@ export const CONSOLES = {
   nds: { label: 'DS', tag: 'DS', full: 'Nintendo DS', arch: 'ARM9', color: '#A33B86' },
   '3ds': { label: '3DS', tag: '3DS', full: 'Nintendo 3DS', arch: 'ARM11', color: '#B03A5B' },
   switch: { label: 'Switch', tag: 'NSW', full: 'Nintendo Switch', arch: 'ARM64', color: '#E0392B' },
+  // El rojo de los acentos de los Joy-Con 2.
+  switch2: { label: 'Switch 2', tag: 'NS2', full: 'Nintendo Switch 2', arch: 'ARM64', color: '#FF4D6D' },
   xbox: { label: 'Xbox', tag: 'XBX', full: 'Xbox', arch: 'x86', color: '#0E7A0E' },
   xboxone: { label: 'Xbox One', tag: 'XB1', full: 'Xbox One', arch: 'x86-64', color: '#52B043' },
   // Placas de recreativa sin consola hermana (CPS-3, Sega OutRun…). NAOMI NO va

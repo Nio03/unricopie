@@ -1,0 +1,18 @@
+name: "Donkey Kong Bananza"
+games: [donkey-kong-bananza]
+console: switch2
+status: experimental
+unlinked: true
+repo: Lucas-blip-png/dkb-pc-recomp
+originalDeveloper: "Nintendo EPD"
+year: 2025
+desc:
+  es: "DKB Recomp: recompilación estática de Donkey Kong Bananza, de Switch 2, a una aplicación nativa de Windows x86-64 con un renderizador Vulkan: el código ARM64 del juego se traduce a C de antemano y a sus llamadas gráficas responde una implementación propia de NVN 2, la API gráfica de la consola. Parte de TotK Recomp, la recompilación de Tears of the Kingdom que también está en el catálogo, y para los shaders usa la conversión de Ampere a Maxwell del emulador Eglantine. Según el README, todavía no se puede jugar: arranca, pasa la pantalla de título y entra en la cueva del tutorial, donde se puede caminar y golpear con los vídeos de guía, y una partida llegó hasta la zona de Ingot Isle Cave-In; todavía puede cerrarse y faltan muchos efectos. No hay versiones publicadas: un instalador construye el juego a partir de tu copia, y el avance se cuenta día a día en su registro de desarrollo. El repositorio se creó el 1 de noviembre."
+  en: "DKB Recomp: a static recompilation of Donkey Kong Bananza, for Switch 2, into a native Windows x86-64 application with a Vulkan renderer: the game’s ARM64 code is translated to C ahead of time, and its graphics calls are answered by its own implementation of NVN 2, the console’s graphics API. It builds on TotK Recomp, the Tears of the Kingdom recompilation that is also in the catalog, and for shaders it uses the Eglantine emulator’s Ampere-to-Maxwell lowering. According to the README, it isn’t playable yet: it boots, gets past the title screen, and into the tutorial cave, where you can walk and punch with the guide movies playing, and one run reached the Ingot Isle Cave-In section; it can still crash, and many effects are missing. There are no releases: an installer builds the game from your copy, and progress is logged day by day in its devlog. The repository was created on November 1."
+requirements:
+  es: "Tu propia copia de Donkey Kong Bananza para Nintendo Switch 2, volcada de tu consola. Windows."
+  en: "Your own copy of Donkey Kong Bananza for Nintendo Switch 2, dumped from your console. Windows."
+tags:
+  - arm64
+  - vulkan
+  - platformer

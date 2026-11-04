@@ -1,0 +1,21 @@
+name: "Diablo II: Resurrected (jhaizhou-ops)"
+games: [diablo-ii-resurrected]
+category: native-layer
+console: switch
+status: playable
+repo: jhaizhou-ops/d2r-mobile
+originalDeveloper: "Blizzard Entertainment"
+year: 2021
+desc:
+  es: "Capa de compatibilidad de código abierto que ejecuta de forma nativa la versión de Switch de Diablo II: Resurrected, con la expansión Reign of the Warlock, en iPhone, iPad y Mac con chip Apple (y, como adaptaciones de la comunidad, en Android y HarmonyOS). No es un emulador: el programa aarch64 del juego se ejecuta directamente en el chip, tras reescribir las pocas instrucciones que no pueden correr tal cual bajo el núcleo de Apple, y un anfitrión pequeño sustituye los servicios del sistema de la consola; la API gráfica NVN se reimplementa sobre Metal (en Android, sobre Vulkan) y los shaders se traducen antes de jugar, a partir de tus archivos. Añade controles táctiles, mando, ahorro de batería y modos de fin de partida que el original no tiene. El README dice que los 44 iPhone y iPad de la beta cerrada completaron Normal, Pesadilla e Infierno y que va a 60 fps; la versión para Mac es la primera y avisa de que el teclado y el mando todavía no los ha probado una persona. El repositorio no contiene datos del juego, pero sí tablas con hechos sobre él (hashes e interfaces de shaders, direcciones dentro del ejecutable), que su DERIVED.md detalla. Publicó 30 versiones; la última, la 2.3.0, es del 4 de noviembre. 58 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An open-source compatibility layer that runs the Switch version of Diablo II: Resurrected, with the Reign of the Warlock expansion, natively on iPhone, iPad, and Apple-silicon Macs (and, as community ports, on Android and HarmonyOS). It isn’t an emulator: the game’s own aarch64 program executes directly on the chip, after the few instructions that can’t run unchanged under Apple’s kernel are rewritten, and a small host stands in for the console’s system services; the NVN graphics API is reimplemented on Metal (on Vulkan for Android) and the shaders are translated ahead of play from your own files. It adds touch controls, controller support, a power-saver mode, and endgame modes the original doesn’t have. The README says all 44 iPhones and iPads in the closed beta completed Normal, Nightmare, and Hell and that it runs at 60 fps; the Mac version is the first one and warns that keyboard and gamepad haven’t yet been operated by a person. The repository holds no game data, but it does carry tables of facts about the game (shader hashes and interfaces, addresses inside the executable), which its DERIVED.md details. It published 30 releases; the latest, 2.3.0, is from November 4. 58 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de la versión de Switch de Diablo II: Resurrected con la expansión Reign of the Warlock, actualizada a la 1.0.34.0 (equivale a la versión de PC 3.3.94012): ExeFS (main, sdk, subsdk0) y RomFS de la actualización, de unos 8,4 GB, que se extraen de tu XCI o NSP con tus propias claves (prod.keys). Otras versiones no se aceptan por defecto. En Mac, un equipo con chip Apple (no hay versión para Intel) con macOS 26 o posterior, o macOS 15 a 25 con la compilación para APIs antiguas, y Xcode para construir."
+  en: "Your own copy of the Switch version of Diablo II: Resurrected with the Reign of the Warlock expansion, updated to 1.0.34.0 (equivalent to PC version 3.3.94012): the update’s ExeFS (main, sdk, subsdk0) and RomFS, about 8.4 GB, extracted from your XCI or NSP with your own keys (prod.keys). Other versions aren’t accepted by default. On Mac, an Apple-silicon machine (no Intel version) with macOS 26 or later, or macOS 15 to 25 with the older-API build, and Xcode to build."
+tags:
+  - arm64
+  - rpg
+  - action
+  - build-ios
+  - build-android
+  - ai-assisted

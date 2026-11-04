@@ -1,0 +1,20 @@
+name: "Tomodachi Life: Living the Dream"
+games: [tomodachi-life-living-the-dream]
+console: switch
+status: fully
+repo: josiahg2502-glitch/TomodachiLife-recomp
+originalDeveloper: "Nintendo EPD"
+year: 2026
+desc:
+  es: "Port nativo no oficial para Windows de la versión de Switch, hecho por recompilación estática: el código del juego se traduce a C y se compila en tu equipo, sin emulador por debajo. Está construido sobre el entorno de ejecución y las herramientas de ssbu-recomp. Un instalador con launcher encuentra tus archivos y claves, recompila el juego (unos 40 minutos la primera vez) y compila los shaders para tu GPU; luego se juega con el launcher o con un acceso directo. Admite las versiones 1.0.0 y 1.0.4, widescreen (incluido ultrapanorámico), resoluciones de hasta 4K y más, 60 fps por defecto, avance rápido, un menú de ajustes dentro del juego, copia y restauración de partidas, importar una partida volcada de tu Switch, mods de romfs tipo LayeredFS, control con ratón y Local Play (intercambio de Miis) por red. El README dice que se puede jugar de principio a fin hasta donde saben sus autores, y lista como problemas abiertos que las islas muy grandes (más de 30 residentes) van lentas en algunos PC, algunos sonidos que se oyen demasiado, el Local Play por internet sin probar entre dos routers reales y que solo funciona en Windows. La versión 1.0.0 es del 2 de noviembre (3 en total, la primera del 29 de octubre); el instalador y el zip pesan unos 4,5 MB, y el README dice que no traen nada del juego. 100 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial native Windows port of the Switch version, made by static recompilation: the game’s code is translated to C and compiled on your PC, with no emulator underneath. It is built on the runtime and tools of ssbu-recomp. An installer with a launcher finds your files and keys, recompiles the game (about 40 minutes the first time), and compiles the shaders for your GPU; afterwards you play from the launcher or a desktop shortcut. It supports versions 1.0.0 and 1.0.4, widescreen (ultrawide included), resolutions up to 4K and beyond, 60 fps by default, fast-forward, an in-game settings menu, save backup and restore, importing a save dumped from your Switch, LayeredFS-style romfs mods, mouse control, and Local Play (Mii exchange) over the network. The README says it can be played from start to finish as far as its authors know, and lists as open issues that very large islands (30+ residents) run slowly on some PCs, some sounds that are too loud, Local Play over the internet untested between two real routers, and that it only works on Windows. Version 1.0.0 is from November 2 (3 releases in total, the first from October 29); the installer and the zip weigh about 4.5 MB, and the README says they contain nothing of the game. 100 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado del juego base (.nsp, .nsz o .xci, título 010051F0207B2000) y, opcionalmente, la actualización 1.0.4 (.nsp o .nsz, 010051F0207B2800, versión v262144); sin ella se obtiene la 1.0.0. También vale una carpeta ya volcada con exefs y romfs, que no necesita claves. Si no, tu propio prod.keys, volcado de tu consola con Lockpick_RCM. Además, Windows 10 u 11 de 64 bits, unos 15 GB libres, 8 GB de RAM o más (16 recomendados) y una GPU con OpenGL 4.5 (probado sobre todo en NVIDIA)."
+  en: "Your own dump of the base game (.nsp, .nsz, or .xci, title 010051F0207B2000) and, optionally, the 1.0.4 update (.nsp or .nsz, 010051F0207B2800, version v262144); without it you get 1.0.0. A folder already dumped with exefs and romfs also works and needs no keys. Otherwise, your own prod.keys, dumped from your console with Lockpick_RCM. Plus 64-bit Windows 10 or 11, about 15 GB free, 8 GB of RAM or more (16 recommended), and a GPU with OpenGL 4.5 (mostly tested on NVIDIA)."
+tags:
+  - arm64
+  - simulation
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Tomodachi Life: Living the Dream"
+games: [tomodachi-life-living-the-dream]
+category: native-layer
+console: switch
+status: experimental
+repo: kuosuko/tomodachi-native
+originalDeveloper: "Nintendo EPD"
+year: 2026
+desc:
+  es: "Port de Tomodachi Life: Living the Dream a Macs con Apple silicon y a iPad, hecho como un fork de nxnative: el código ARM64 original del juego se ejecuta directamente en el chip de Apple, y los servicios del sistema de Switch y la API gráfica NVN se reconstruyen sobre macOS, iOS y Metal 4. No es un emulador. El fork añade el perfil del juego, el soporte del SDK 20 que necesita y las apps para Mac y para iPhone y iPad; los 14.388 shaders del juego se traducen por adelantado. Según el README se puede jugar en el Mac con sonido: el recorrido por la isla, ponerle nombre y crear Miis, por preguntas o con el editor. La app de Mac trae menús, pantalla completa, capturas, 60 fps, escalado MetalFX, ratón, trackpad, teclado y 13 idiomas; en iPad (Air de 11 pulgadas con M2) arranca y funciona a 30 o 60 fps, pero no se ha jugado entero, y en iPhone compila pero no se ha ejecutado. En el Mac, los clics solo se han probado en los menús iniciales y falta el mando. No tiene versiones publicadas: la app se monta en tu equipo."
+  en: "A port of Tomodachi Life: Living the Dream to Apple silicon Macs and iPads, made as a fork of nxnative: the game’s original ARM64 code runs directly on the Apple chip, and the Switch’s system services and the NVN graphics API are rebuilt on macOS, iOS, and Metal 4. It is not an emulator. The fork adds the game’s profile, the SDK 20 support it needs, and the apps for Mac and for iPhone and iPad; the game’s 14,388 shaders are translated ahead of time. According to the README it is playable on the Mac with sound: the island tour, naming the island, and creating Miis, by questions or in the editor. The Mac app has menus, full screen, screenshots, 60 fps, MetalFX upscaling, mouse, trackpad, keyboard, and 13 languages; on an iPad (11-inch Air with M2) it starts and runs at 30 or 60 fps but hasn’t been played through, and on iPhone it builds but hasn’t run. On the Mac, clicks have only been tried on the opening menus and controller support is missing. It has no published releases: the app is built on your own machine."
+requirements:
+  es: "Tu propia copia de Tomodachi Life: Living the Dream 1.0.0 (el NSP del juego base, ID de título 010051F0207B2000) y el prod.keys de tu propia consola. Además, un Mac con Apple silicon y macOS 26 o posterior (se desarrolla en macOS 27), Xcode, el SDK de .NET 10, spirv-cross y Python 3 con lz4, capstone y fonttools; para iPad, iOS o iPadOS 26 o posterior con un chip con Metal 4."
+  en: "Your own copy of Tomodachi Life: Living the Dream 1.0.0 (the base game NSP, title ID 010051F0207B2000) and the prod.keys of your own console. Plus an Apple silicon Mac on macOS 26 or later (developed on macOS 27), Xcode, the .NET 10 SDK, spirv-cross, and Python 3 with lz4, capstone, and fonttools; for iPad, iOS or iPadOS 26 or later on a chip with Metal 4."
+tags:
+  - arm64
+  - simulation
+  - 60fps+
+  - build-ios

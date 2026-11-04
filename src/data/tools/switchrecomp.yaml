@@ -1,0 +1,12 @@
+name: "SwitchRecomp"
+kind: recompiler
+consoles: [switch]
+repo: kaiyao7/SwitchRecomp
+status: experimental
+desc:
+  es: "Marco de investigación para recompilar estáticamente binarios AArch64 de Nintendo Switch a ejecutables nativos: un decodificador de instrucciones, un código intermedio tipado y un generador de C que se compila con un compilador normal. Incluye un cargador simplificado de ELF y NRO, un gestor de memoria de invitado, un registro de servicios HLE y una parte mínima de GPU con análisis de comandos Maxwell y un backend Vulkan que solo prueba el camino de cómputo. El README dice sin rodeos que es un esqueleto en fase inicial y que no ejecuta ningún juego comercial; su hoja de ruta (cargar NSO reales, un conjunto mínimo de servicios de homebrew, traducir shaders Maxwell) sigue abierta. El repositorio no trae claves, firmware ni datos de juegos, y se compila con CMake y un compilador de C++20 (desarrollado con MSYS2). No tiene versiones publicadas; son 2 commits."
+  en: "A research framework for statically recompiling Nintendo Switch AArch64 binaries into native executables: an instruction decoder, a typed intermediate representation, and a C generator whose output is built with an ordinary compiler. It includes a simplified ELF and NRO loader, a guest memory manager, an HLE service registry, and a minimal GPU part with Maxwell command parsing and a Vulkan backend that only proves the compute path. The README says plainly that it is an early-stage skeleton and does not run any commercial game; its roadmap (loading real NSOs, a minimal set of homebrew services, translating Maxwell shaders) is still open. The repository ships no keys, firmware, or game data, and builds with CMake and a C++20 compiler (developed with MSYS2). It has no published releases; it has 2 commits."
+tags:
+  - arm64
+  - static-recomp
+  - vulkan

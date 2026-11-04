@@ -167,6 +167,10 @@ if (s.license) facts.push({ dt: t(lang, "detail.fact.license"), dd: s.license })
 if (s.language) facts.push({ dt: t(lang, "detail.fact.lang"), dd: s.language });
 
 const repoUrl = repoUrlOf(d);
+// Ficha sin enlace: el repo se nombra como texto y no se enlaza en ningún sitio de la página.
+const unlinked: boolean = !!d.unlinked && !d.takedown;
+const unlinkedSlug: string | null = unlinked ? (d.repo ?? (repoUrl ? new URL(repoUrl).pathname.slice(1) : null)) : null;
+const unlinkedHost: string = repoUrl && !d.repo ? (new URL(repoUrl).hostname.includes("gitlab") ? "GitLab" : new URL(repoUrl).hostname) : "GitHub";
 const homepage: string | undefined = d.homepage;
 const forkOf = d.forkOf ?? (s.fork ? { label: s.fork, url: `https://github.com/${s.fork}` } : null);
 const dataDir = type === "recomp" ? "recomps" : type === "tool" ? "tools" : type === "port" ? "ports" : type === "mod" ? "mods" : "decomps";
@@ -204,7 +208,7 @@ const jsonLd = [
     description: d.desc[lang],
     url: abs(Astro.url.pathname),
     inLanguage: lang,
-    codeRepository: repoUrl || undefined,
+    codeRepository: unlinked ? undefined : repoUrl || undefined,
     programmingLanguage: s.language || undefined,
     license: s.license || undefined,
     about: type === "tool" ? undefined : {
@@ -239,6 +243,7 @@ const jsonLd = [
       )}
       {d.abandoned && <span class="pill is-pill" style="color:#8b93a7">{t(lang, "status.abandoned")}</span>}
       {d.takedown && <span class="pill is-pill" style="color:#e05656">{t(lang, "status.takedown")}</span>}
+      {unlinked && <span class="pill is-pill" style="color:#e0a93a">{t(lang, "status.unlinked")}</span>}
     </div>
 
     {base && (<p class="forkline"><a href={base.href}>{t(lang, "detail.fact.base")}: {base.label}</a></p>)}
@@ -246,7 +251,8 @@ const jsonLd = [
     {portsOfDecomp.length > 0 && (
       <p class="forkline">{t(lang, "detail.portsOfDecomp")}: {portsOfDecomp.map((p, i) => (<>{i > 0 && " · "}<a href={p.href}>{p.label}</a></>))}</p>
     )}
-    {forkOf && (<p class="forkline"><a href={forkOf.url} target="_blank" rel="noopener">⑂ {t(lang, "detail.fork")} {forkOf.label} ↗</a></p>)}
+    {forkOf && !unlinked && (<p class="forkline"><a href={forkOf.url} target="_blank" rel="noopener">⑂ {t(lang, "detail.fork")} {forkOf.label} ↗</a></p>)}
+    {forkOf && unlinked && (<p class="forkline">⑂ {t(lang, "detail.fork")} {forkOf.label}</p>)}
 
     <h1>{d.name}</h1>
     {
@@ -288,9 +294,17 @@ const jsonLd = [
       )
     }
 
+    {
+      unlinked && unlinkedSlug && (
+        <p class="reqs" style="max-width:70ch;margin-top:16px;border-left:2px solid #e0a93a;padding-left:12px">
+          <span class="reqs-k" style="color:#e0a93a">{t(lang, "status.unlinked")}</span>{t(lang, "detail.unlinkedNote", { host: unlinkedHost })} <code>{unlinkedSlug}</code>.
+        </p>
+      )
+    }
+
     <div class="actions">
-      {repoUrl && !d.takedown && <a class="btn primary" href={repoUrl} target="_blank" rel="noopener">{t(lang, "detail.viewRepo")}</a>}
-      {homepage && !d.takedown && <a class="btn" href={homepage} target="_blank" rel="noopener">{t(lang, "detail.homepage")}</a>}
+      {repoUrl && !d.takedown && !unlinked && <a class="btn primary" href={repoUrl} target="_blank" rel="noopener">{t(lang, "detail.viewRepo")}</a>}
+      {homepage && !d.takedown && !unlinked && <a class="btn" href={homepage} target="_blank" rel="noopener">{t(lang, "detail.homepage")}</a>}
       {links.map((l) => <a class="btn" href={l.url} target="_blank" rel="noopener">{l.label[lang]} ↗</a>)}
       <button class="btn btn-edit" id="edit-toggle" type="button">{t(lang, "detail.edit")}</button>
     </div>

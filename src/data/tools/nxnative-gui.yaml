@@ -1,0 +1,11 @@
+name: "nxnative-gui"
+kind: launcher
+consoles: [switch]
+repo: jamescastells/nxnative-gui
+status: usable
+desc:
+  es: "Aplicación para macOS que pone una interfaz gráfica a nxnative, el proyecto que convierte juegos de Switch en aplicaciones nativas para chips Apple: una app de Mac o un IPA sin firmar para iPhone y iPad. No reimplementa nada de nxnative: lo descarga y lo actualiza cada vez que se abre, instala las dependencias que faltan, lee de su documentación la lista de juegos con perfil, recoge las opciones en un formulario (juego, carpeta con los archivos, prod.keys, carpeta de salida, nombre de la app, idioma, plataforma, contador de fps), ejecuta el script y muestra el avance como líneas de estado. La primera conversión de un juego puede tardar de 30 a 60 minutos. Su última versión es la 1.2, del 28 de octubre (3 en total). Ninguno de sus últimos 10 commits lleva a Claude como coautor."
+  en: "A macOS app that puts a graphical interface on nxnative, the project that converts Switch games into native apps for Apple chips: a Mac app or an unsigned IPA for iPhone and iPad. It reimplements nothing from nxnative: it downloads it and updates it every time it opens, installs missing dependencies, reads the list of games with a profile from its documentation, collects the options in a form (game, folder with the files, prod.keys, output folder, app name, language, platform, FPS overlay), runs the script, and shows the progress as status lines. A game’s first conversion can take 30 to 60 minutes. Its latest release is 1.2, from October 28 (3 in total). None of its last 10 commits list Claude as a co-author."
+tags:
+  - arm64
+  - build-ios

@@ -1,0 +1,17 @@
+name: "Metroid Prime 4: Beyond"
+games: [metroid-prime-4-beyond]
+console: switch
+status: playable
+repo: linuxopt/mp4-recomp
+originalDeveloper: "Retro Studios"
+year: 2025
+desc:
+  es: "Recompilación estática de la versión de Switch de Metroid Prime 4: Beyond para Linux, en un único AppImage. Se apoya en el entorno de ejecución SwitchRecomp de MZ Labs: durante la primera configuración, el código del juego se recompila en tu equipo como una biblioteca nativa de Linux, y el trabajo de la GPU de la consola se traduce a OpenGL. Según el README, arranca, se juega, escanea y suena bien a 60 fps estables en el equipo de pruebas, con una AMD Radeon RX 9070 XT, y la mayoría de los fallos de dibujo y tirones están corregidos. Todo el ajuste se hizo con AMD, así que en NVIDIA puede haber errores, y en la Steam Deck su autor recomienda bajar la resolución interna con FSR o limitar a 30 fps. Quedan algunos tirones al compilar shaders en zonas nuevas, una pausa de medio segundo al cargar partida y el control de campo de visión, que todavía no funciona. La versión para Windows viene del proyecto original y no está probada. La única versión publicada es la v2026.11.02, del 3 de noviembre. 53 de sus 57 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Switch version of Metroid Prime 4: Beyond for Linux, as a single AppImage. It builds on MZ Labs’ SwitchRecomp runtime: during first-run setup, the game’s code is recompiled on your machine into a native Linux library, and the console GPU’s work is translated to OpenGL. According to the README, it boots, plays, scans, and sounds right at a steady 60 fps on the test machine, with an AMD Radeon RX 9070 XT, and most rendering bugs and stutters are fixed. All tuning was done on AMD, so NVIDIA may show errors, and on the Steam Deck its author recommends lowering the internal resolution with FSR or capping at 30 fps. Some stutters remain when shaders compile in new areas, loading a save freezes for half a second, and the field of view slider doesn’t work yet. The Windows build is inherited from the upstream project and untested. The only release is v2026.11.02, from November 3. 53 of its 57 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Metroid Prime 4: Beyond para Switch (programa 010019A01E2F2000) con la actualización cuyo main tiene el build ID 8275FBE1…; el cartucho solo no vale. Puede ser el .xci o .nsp del juego con la actualización en .nsp y tus prod.keys, o los archivos ya extraídos (ExeFS y RomFS con la actualización aplicada); la configuración comprueba los 445 archivos de la RomFS (26,9 GB). Linux x86-64 con glibc 2.38 o posterior, Steam Deck incluida, un controlador gráfico con OpenGL 4.3 o superior, SDL2, zlib, OpenH264 o FFmpeg para los vídeos, y unos 30 GB libres."
+  en: "Your own copy of Metroid Prime 4: Beyond for Switch (program 010019A01E2F2000) with the update whose main has build ID 8275FBE1…; the cartridge alone won’t do. Either the game’s .xci or .nsp with the update as .nsp and your prod.keys, or the extracted files (ExeFS and RomFS with the update applied); setup verifies all 445 RomFS files (26.9 GB). x86-64 Linux with glibc 2.38 or newer, Steam Deck included, a graphics driver with OpenGL 4.3 or later, SDL2, zlib, OpenH264 or FFmpeg for the videos, and about 30 GB free."
+tags:
+  - arm64
+  - fps
+  - ai-assisted

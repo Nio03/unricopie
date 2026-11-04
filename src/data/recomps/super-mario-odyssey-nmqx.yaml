@@ -1,0 +1,19 @@
+name: "Super Mario Odyssey (nmqx)"
+games: [super-mario-odyssey]
+console: switch
+status: playable
+repo: nmqx/smo-recomp
+originalDeveloper: "Nintendo EPD"
+year: 2017
+desc:
+  es: "Port nativo no oficial para Windows x64 de la versión de Switch, hecho por recompilación estática: el código AArch64 del juego (54.214 funciones en main) se traduce por adelantado a C con un lifter propio y se compila con clang, con un entorno de ejecución que sustituye a la consola (hilos, archivos y guardados, la API NVN sobre Vulkan con un traductor de shaders de la GPU, audio, mandos, vídeos y servicios del sistema sin conexión). No es un emulador. Es una bifurcación de Coz-0/smo-recomp que añade la actualización 1.3.0, interpolación de fotogramas (120 fps o uno por refresco del monitor, con NVIDIA RTX serie 30 o posterior), resoluciones internas de 1080p a 4K, un launcher con esas opciones, un botón de agitar para mandos sin sensores de movimiento y mejoras de rendimiento (según su autor, las calles de New Donk City pasan de unos 20 fps a 60). Según el README se juega desde la pantalla de título por los reinos probados a mano, con guardado, vídeos, amiibo y sonido; sus pruebas por script recorren todos los escenarios de todos los reinos (276 ejecuciones sin fallos) y traducen los 27.888 shaders. No hay servicios en línea y no se han probado las novedades de la 1.4.1. No tiene versiones publicadas; se compila en tu equipo. 97 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial native Windows x64 port of the Switch version, made by static recompilation: the game’s AArch64 code (54,214 functions in main) is translated ahead of time to C with its own lifter and compiled with clang, with a runtime standing in for the console (threads, files and saves, the NVN API on Vulkan with a translator for the GPU’s shader code, audio, controllers, videos, and offline system services). It is not an emulator. It is a fork of Coz-0/smo-recomp that adds the 1.3.0 update, frame interpolation (120 fps or one frame per monitor refresh, with an NVIDIA RTX 30 series or later), internal resolutions from 1080p to 4K, a launcher with those options, a shake button for pads without motion sensors, and performance work (according to its author, New Donk City’s streets go from about 20 fps to 60). According to the README it plays from the title screen through the kingdoms tried by hand, with saves, videos, amiibo, and sound; its scripted tests start every scenario of every kingdom (276 runs, no failures) and translate all 27,888 shaders. There are no online services and what 1.4.1 adds hasn’t been tried. It has no published releases; you build it on your PC. 97 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado del juego, versión 1.3.0 o 1.4.1, hecho con un volcador que escriba archivos descifrados (nxdumptool): carpetas exefs (con la actualización) y romfs (con la actualización aplicada, unos 5,7 GB), control.nacp y, opcionalmente, manual y fuentes. Además, Windows 10 u 11 de 64 bits, una GPU con Vulkan 1.3 (desarrollado en NVIDIA; la interpolación pide RTX serie 30 o posterior), Python 3.13, LLVM/clang 9.0.0, Visual Studio Build Tools, el SDK de Vulkan, SDL3 y el SDK de WebView2. La primera compilación tarda unos 6 minutos."
+  en: "Your own dump of the game, version 1.3.0 or 1.4.1, made with a dumper that writes decrypted files (nxdumptool): exefs (with the update) and romfs (with the update applied, about 5.7 GB) folders, control.nacp, and optionally the manual and fonts. Plus 64-bit Windows 10 or 11, a Vulkan 1.3 GPU (developed on NVIDIA; interpolation needs an RTX 30 series or later), Python 3.13, LLVM/clang 9.0.0, Visual Studio Build Tools, the Vulkan SDK, SDL3, and the WebView2 SDK. The first build takes about 6 minutes."
+tags:
+  - arm64
+  - platformer
+  - 60fps+
+  - vulkan
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "Mario Kart World (kartnative)"
+games: [mario-kart-world]
+category: native-layer
+console: switch2
+status: playable
+unlinked: true
+repo: pahorema/kartnative
+originalDeveloper: "Nintendo EPD"
+year: 2025
+desc:
+  es: "kartnative: fork de nxnative para Switch 2 que hace correr Mario Kart World 1.0.0 de forma nativa en un Mac con Apple silicon. Como nxnative, no es un emulador: el código del juego corre en la CPU del Mac, y NVN2, la API gráfica de la Switch 2, se implementa sobre Metal, con un frontend propio para los shaders SM86 de la consola; los 11.567 shaders del juego se traducen, los de tareas y mallas como shaders de malla de Metal. Según el README arranca, muestra los menús y los vídeos y permite jugar copas enteras de Gran Premio a 150cc, contrarreloj y el modo libre con mando, a 60 fps estables, también a pantalla completa en pantallas ProMotion de 120 Hz. Algunos objetos del escenario desaparecen y reaparecen al conducir, y no hay juego en línea. Por ahora es solo para Mac, sin versión para iPhone, y se probó en un M5 Pro con macOS 27. Para entender los servicios de la Switch 2, NVN2 y SM86 se apoyó en parte en los commits y notas públicas de los emuladores Eglantine y PokeDinner. El repositorio se creó el 1 de noviembre."
+  en: "kartnative: a Switch 2 fork of nxnative that runs Mario Kart World 1.0.0 natively on an Apple silicon Mac. As with nxnative, it isn’t an emulator: the game’s code runs on the Mac’s CPU, and NVN2, the Switch 2’s graphics API, is implemented on Metal, with its own frontend for the console’s SM86 shaders; all 11,567 of the game’s shaders translate, with task and mesh shaders becoming Metal mesh shaders. According to the README it boots, shows the menus and movies, and plays whole Grand Prix cups at 150cc, Time Trials, and Free Roam with a controller, at a steady 60 fps, also in fullscreen on 120 Hz ProMotion screens. Some scenery objects vanish and reappear while driving, and there’s no online play. For now it’s Mac only, with no iPhone build, and it was tested on an M5 Pro with macOS 27. To learn what the Switch 2’s services, NVN2, and SM86 do, it drew partly on the public commits and notes of the Eglantine and PokeDinner emulators. The repository was created on November 1."
+requirements:
+  es: "Tu propia copia de Mario Kart World 1.0.0 para Nintendo Switch 2 (0400C3F00006E000), volcada y descifrada como carpetas exefs y romfs. Un Mac con Apple silicon y las herramientas de nxnative (Xcode con Metal, .NET y Python); la primera compilación traduce unos 11.600 shaders, cerca de 30 minutos."
+  en: "Your own copy of Mario Kart World 1.0.0 for Nintendo Switch 2 (0400C3F00006E000), dumped and decrypted as exefs and romfs folders. An Apple silicon Mac with nxnative’s tools (Xcode with Metal, .NET, and Python); the first build translates about 11,600 shaders, roughly 30 minutes."
+tags:
+  - arm64
+  - racing

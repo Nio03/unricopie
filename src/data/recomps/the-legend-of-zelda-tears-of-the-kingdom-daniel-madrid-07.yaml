@@ -1,0 +1,21 @@
+name: "The Legend of Zelda: Tears of the Kingdom (daniel-madrid-07)"
+games: [the-legend-of-zelda-tears-of-the-kingdom]
+console: switch
+status: playable
+repo: daniel-madrid-07/weeping-of-the-empire
+originalDeveloper: "Nintendo EPD"
+year: 2023
+desc:
+  es: "Weeping of the Empire: versión nativa de Tears of the Kingdom para Windows y Vulkan, hecha por recompilación estática. El código ARM64 del juego se recompila de antemano a x86-64 en tu equipo, un runtime responde a los servicios del sistema de la Switch y los gráficos van sobre Vulkan; no es un emulador. Admite la versión 1.0.0 del juego y, en beta, la 1.4.3, e importa partidas guardadas de versiones posteriores convirtiéndolas a la 1.0.0. Ofrece de 30 a 240 fps o sin límite, cualquier resolución y pantalla ultrapanorámica, HDR y VRR (sin medir), DLSS, FSR 3.1 y generación de fotogramas, teclado y ratón, mandos de Xbox, PlayStation y Switch, un menú de ajustes dentro del juego (F10), mods de RomFS de emuladores, parches de código ExeFS y trucos de Atmosphère. El autor midió el rendimiento solo en un PC (Ryzen 7 9800X3D con RTX 5080) y avisa de que hay diferencias de iluminación en partes de las Profundidades, de tirones la primera vez que se visita un sitio y de un cierre por pérdida del dispositivo gráfico que no ha podido reproducir. Su instalador descarga un perfil de optimización y una lista de shaders (hashes y estados de render) hechos en el PC del autor al jugar, y los detalla en LEGAL.md. El README declara que la mayor parte del código la escriben agentes de programación con IA dirigidos por un desarrollador. La última versión, la 0.1.9.1, es del 4 de noviembre, entre 15 publicadas; también hay una compilación de prueba para Linux sin comprobar."
+  en: "Weeping of the Empire: a native Tears of the Kingdom for Windows and Vulkan, made by static recompilation. The game’s ARM64 code is recompiled ahead of time to x86-64 on your PC, a runtime answers the Switch’s system services, and graphics run on Vulkan; it isn’t an emulator. It supports game version 1.0.0 and, in beta, 1.4.3, and imports saves from later versions by converting them to 1.0.0. It offers 30 to 240 fps or unlocked, any resolution and ultrawide, HDR and VRR (not measured), DLSS, FSR 3.1 and frame generation, keyboard and mouse, Xbox, PlayStation, and Switch controllers, an in-game settings menu (F10), RomFS mods made for emulators, ExeFS code patches, and Atmosphère cheats. The author measured performance on one PC only (a Ryzen 7 9800X3D with an RTX 5080) and warns of lighting differences in parts of the Depths, stutter the first time a place is visited, and a graphics-device-loss crash it hasn’t been able to reproduce. Its installer downloads an optimization profile and a shader list (hashes and render states) made on the author’s PC while playing, which LEGAL.md details. The README states that most of the code is written by AI coding agents directed by one developer. The latest release, 0.1.9.1, is from November 4, one of 15 published; there is also an unchecked Linux test build."
+requirements:
+  es: "Tu propia copia de Tears of the Kingdom 1.0.0 volcada de tu consola (.nsp o .xci; también .nsz, .xcz o un .nup sin cifrar, que no necesita claves) y tus propias claves (prod.keys). Para la beta 1.4.3, además, tu volcado de la actualización 1.4.3. Opcional: el firmware de tu consola, para las fuentes coreana y china. Windows 10 u 11 de 64 bits, una GPU con Vulkan 1.3, una unidad NTFS con unos 15 GB libres (Setup avisa si hace falta más; una instalación llegó a ocupar unos 39 GB) y de 30 a 60 minutos de instalación según su estimación. Linux y Steam Deck con Proton son experimentales y no se han probado."
+  en: "Your own copy of Tears of the Kingdom 1.0.0 dumped from your console (.nsp or .xci; also .nsz, .xcz, or an unencrypted .nup, which needs no keys) and your own keys (prod.keys). For the 1.4.3 beta, also your dump of the 1.4.3 update. Optional: your console’s firmware, for the Korean and Chinese fonts. 64-bit Windows 10 or 11, a Vulkan 1.3 GPU, an NTFS drive with about 15 GB free (Setup says if it needs more; one install peaked at about 39 GB), and 30 to 60 minutes to install by its own estimate. Linux and Steam Deck through Proton are experimental and untested."
+tags:
+  - arm64
+  - 60fps+
+  - widescreen
+  - vulkan
+  - mods
+  - action
+  - ai-assisted

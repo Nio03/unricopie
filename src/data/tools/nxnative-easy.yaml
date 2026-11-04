@@ -1,0 +1,11 @@
+name: "nxnative Easy"
+kind: launcher
+consoles: [switch]
+repo: nalancer08/nxnative-easy
+status: usable
+desc:
+  es: "App de Mac con biblioteca de juegos que lleva tus archivos de Switch a una app lista para jugar con nxnative, con preparación guiada, progreso de compilación en vivo y sin usar el Terminal. Genera una app de Mac con el juego dentro, o un IPA para iPhone y iPad (ligero, con los datos aparte, o completo), y guía la firma con tu cuenta de Apple, la instalación y la renovación de la firma. Añade mandos de Xbox, PS5 y PS4, botones táctiles editables con cuatro perfiles por juego, ajustes por juego y copias de partidas con continuidad por iCloud. Para Switch 2 admite carpetas ya extraídas de algunos juegos con perfil en nxnative, sin prod.keys. La interfaz está en inglés y en español. El repositorio incluye una copia de nxnative. La versión 1.30.3 (4 de noviembre) es un zip de unos 477 MB que dice traer sus herramientas y que no hemos comprobado por dentro; en total publicó 14 versiones entre el 29 de octubre y el 4 de noviembre. Pide tus propios juegos y, para paquetes cifrados, tu prod.keys. Necesita un Mac con Apple silicon, macOS 26.6 o posterior y Xcode 27.2."
+  en: "A Mac app with a game library that takes your Switch files to a ready-to-play app built with nxnative, with guided preparation, live build progress, and no Terminal use. It builds a Mac app with the game inside, or an IPA for iPhone and iPad (lightweight with separate game data, or complete), and walks you through signing with your Apple account, installing, and renewing the signature. It adds Xbox, PS5, and PS4 controller support, editable touch buttons with four profiles per game, per-game settings, and save backups with iCloud continuity. For Switch 2 it accepts already extracted folders of a few games that have a profile in nxnative, without prod.keys. The interface is in English and Spanish. The repository includes a copy of nxnative. Version 1.30.3 (November 4) is a zip of about 477 MB that says it includes its supporting tools and that we haven’t checked inside; in all it published 14 releases between October 29 and November 4. It asks for your own games and, for encrypted packages, your prod.keys. It needs a Mac with Apple silicon, macOS 26.6 or later, and Xcode 27.2."
+tags:
+  - arm64
+  - build-ios

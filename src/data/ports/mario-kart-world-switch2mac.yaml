@@ -1,0 +1,19 @@
+name: "Mario Kart World (switch2mac)"
+games: [mario-kart-world]
+category: native-layer
+console: switch2
+status: fully
+unlinked: true
+repo: azmasm/switch2mac
+originalDeveloper: "Nintendo EPD"
+year: 2025
+desc:
+  es: "switch2mac: fork de nxnative que construye en tu Mac versiones nativas de juegos de Switch 2 a partir de tu copia, como aplicaciones normales de macOS. No es un emulador: el código ARM64 del juego corre directamente en el Mac, con sus llamadas al sistema reescritas hacia un entorno de ejecución nativo y los shaders traducidos a Metal de antemano. Su juego es Mario Kart World 1.0.0, que según el README se juega de principio a fin: menús, Gran Premio, modo libre, tráfico y vídeos, a unos 58 fps en carrera en un M1 Max, a 2560x1440. También construye Donkey Kong Bananza con el constructor de nxnative y Pokémon Pokopia con el de Pokopia Native, todavía sin probar dentro de switch2mac. Trae un indicador de rendimiento y un panel de ajustes, admite mandos y teclado, y no necesita claves ni descifra nada. Se creó el 3 de noviembre, y sus 6 commits llevan a Claude como coautor."
+  en: "switch2mac: a fork of nxnative that builds native versions of Switch 2 games on your Mac from your copy, as regular macOS apps. It isn’t an emulator: the game’s ARM64 code runs directly on the Mac, with its system calls rewritten into a native runtime and its shaders translated to Metal ahead of time. Its game is Mario Kart World 1.0.0, which according to the README plays start to finish: menus, Grand Prix, Free Roam, traffic, and movies, at about 58 fps in races on an M1 Max, at 2560x1440. It also builds Donkey Kong Bananza with nxnative’s builder and Pokémon Pokopia with Pokopia Native’s, not yet tested inside switch2mac. It has a performance overlay and a settings panel, supports controllers and keyboard, and needs no keys and decrypts nothing. It was created on November 3, and all 6 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Mario Kart World 1.0.0 para Nintendo Switch 2, volcada; para los otros juegos, la versión que indica la página de cada uno. Un Mac con Apple silicon y macOS 26 o posterior, Xcode con las herramientas de Metal, .NET 10 SDK y Python 3.12."
+  en: "Your own dump of Mario Kart World 1.0.0 for Nintendo Switch 2; for the other games, the version each game’s page gives. An Apple silicon Mac with macOS 26 or later, Xcode with its Metal tools, the .NET 10 SDK, and Python 3.12."
+tags:
+  - arm64
+  - racing
+  - ai-assisted

@@ -1,0 +1,20 @@
+name: "Metroid Prime Remastered (drakolordx7)"
+games: [metroid-prime-remastered]
+console: switch
+status: experimental
+repo: drakolordx7/MetroidPrimeRemasteredRecomp
+originalDeveloper: "Retro Studios"
+year: 2023
+toolchain: nxrecomp
+desc:
+  es: "Port nativo no oficial para Windows de Metroid Prime Remastered, hecho recompilando la versión 1.0.0 de Switch. No es un emulador: el código del juego se traduce a C++ por adelantado, un runtime sustituye a los servicios del sistema de Switch y la API gráfica NVN corre sobre Vulkan. El código del recompilador y del runtime vive en nxrecomp, incluido como submódulo; este repositorio aporta el programa del juego, el lanzador y la documentación. Trae un lanzador, una herramienta de instalación que prepara el juego a partir de tu volcado, controles de ratón y teclado, cualquier resolución y relación de aspecto, y altas frecuencias de imagen. El propio proyecto avisa de que solo se ha jugado a mano el principio (la fragata Orpheon y el comienzo de Tallon IV, hasta la plaza principal de las Ruinas Chozo): una prueba automática carga las 275 áreas, pero nadie ha jugado las posteriores. Solo se ha probado con una GeForce RTX 3080. El repositorio incluye en docs/mpr notas de ingeniería inversa del juego (símbolos, estructuras y enumeraciones) en JSON. La versión 0.1.5, del 2 de noviembre, es un zip de unos 306 MB que dice no traer archivos del juego y que no hemos comprobado por dentro; publicó 6 versiones entre el 24 de octubre y el 2 de noviembre."
+  en: "An unofficial native Windows port of Metroid Prime Remastered, made by recompiling the Switch version 1.0.0. It is not an emulator: the game’s code is translated into C++ ahead of time, a runtime stands in for the Switch’s system services, and the NVN graphics API runs on Vulkan. The recompiler and runtime code lives in nxrecomp, included as a submodule; this repository holds the game program, the launcher, and the documentation. It comes with a launcher, a setup tool that prepares the game from your dump, mouse and keyboard controls, any resolution and aspect ratio, and high refresh rates. The project itself warns that only the start has been played by hand (the Frigate Orpheon and the beginning of Tallon IV, up to the Chozo Ruins’ Main Plaza): an automated check loads all 275 areas, but nobody has played the later ones. It has only been tested on a GeForce RTX 3080. The repository includes in docs/mpr reverse-engineering notes on the game (symbols, structures, and enumerations) as JSON. Version 0.1.5, from November 2, is a zip of about 306 MB that says it carries no game files and that we haven’t checked inside; it published 6 releases between October 24 and November 2."
+requirements:
+  es: "Tu propia copia de Metroid Prime Remastered 1.0.0 (NSP, XCI, NSZ o XCZ; no se admiten actualizaciones ni parches) y el prod.keys de tu propia consola (y title.keys si el juego se compró en otra). Además, Windows 10 (1903 o posterior) u 11 de 64 bits, una GPU con Vulkan 1.3 y unos 14 GB libres de disco."
+  en: "Your own copy of Metroid Prime Remastered 1.0.0 (NSP, XCI, NSZ, or XCZ; updates and patches are not supported) and the prod.keys of your own console (and title.keys if the game was bought on another console). Plus 64-bit Windows 10 (1903 or later) or 11, a Vulkan 1.3 GPU, and about 14 GB of free disk space."
+tags:
+  - arm64
+  - fps
+  - widescreen
+  - 60fps+
+  - vulkan

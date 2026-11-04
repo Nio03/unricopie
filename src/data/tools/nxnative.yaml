@@ -1,0 +1,12 @@
+name: "nxnative"
+kind: library
+consoles: [switch]
+repo: seedds/nxnative
+status: beta
+desc:
+  es: "Motor para ejecutar juegos de Nintendo Switch de forma nativa en chips de Apple (Mac, iPhone y iPad). No es un emulador: un reescritor de NSO cambia solo las instrucciones que el núcleo de Apple no admite, un host sustituye a los servicios de Horizon y la API gráfica NVN se reimplementa sobre Metal; los shaders se traducen con el traductor de Ryujinx. Con un script, una carpeta de NSP, XCI, NSZ o XCZ y tu propio prod.keys se genera un IPA para instalar por sideloading, o con --platform mac-app una app de Mac. Cada juego tiene un perfil propio en el repositorio, y el README lista un centenar de juegos probados en Mac o iPhone, varios de ellos a 60 fps. Ha empezado también con algunos juegos de Switch 2, que se montan desde un archivo .nup o una carpeta con sus datos y solo se han probado en Mac. Nace de las partes genéricas de d2r-mobile, y varias apps de la comunidad (NX Play, nxnative Easy, NX2Apple y otras) se montan sobre él. No tiene versiones publicadas; 3 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An engine for running Nintendo Switch games natively on Apple chips (Mac, iPhone, and iPad). It isn’t an emulator: an NSO rewriter changes only the instructions Apple’s kernel can’t run, a host stands in for Horizon’s services, and the NVN graphics API is reimplemented on Metal, with shaders translated by Ryujinx’s translator. With one script, a folder of NSP, XCI, NSZ, or XCZ files, and your own prod.keys it builds an IPA to sideload, or with --platform mac-app a Mac app. Each game has its own profile in the repository, and the README lists about a hundred games tested on Mac or iPhone, several of them at 60 fps. It has also started on some Switch 2 games, which are built from a .nup file or a folder of their files and have only been tested on the Mac. It grew from the generic parts of d2r-mobile, and several community apps (NX Play, nxnative Easy, NX2Apple, and others) are built on top of it. It has no published releases; 3 of its last 100 commits list Claude as a co-author."
+tags:
+  - arm64
+  - build-ios
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Pokémon Sword / Shield"
+games: [pokemon-sword, pokemon-shield]
+console: switch
+status: experimental
+repo: raulzrrs/swsh-recomp
+originalDeveloper: "Game Freak"
+year: 2019
+desc:
+  es: "Port nativo no oficial para Windows de Pokémon Espada y Escudo, hecho por recompilación estática: el código ARM64 del juego se traduce a C y se compila para el PC, con un entorno de ejecución que sustituye a la Switch (servicios del sistema, gráficos NVN sobre Vulkan, audio y mandos). No es un emulador. Está construido sobre Let’s Go Recomp, que a su vez parte de LAS Recomp. Ofrece cualquier resolución interna (con supermuestreo), SMAA, filtro anisótropo 16x, FSR 1, los 30 fps del juego o 60 fps en todo el juego (experimental), teclado y mandos, mods de romfs tipo LayeredFS y el pase de expansión desde tus propios datos de DLC. El README avisa de que es un trabajo en curso: se ha probado con Espada 1.3.2 y su pase de expansión en un solo PC (con una RTX 3080), Escudo no se ha probado y el juego no se ha completado en este port. Entre los problemas conocidos están los tirones al preparar shaders, el pase de expansión sin configurar desde el launcher, un uso de memoria que crece y la falta de funciones en línea. Su única versión es la 0.1.0 (preliminar), del 22 de octubre, un zip que contiene el launcher y el entorno de ejecución y que no hemos comprobado por dentro; el juego se recompila en tu equipo, lo que tarda unos 40 minutos. Ninguno de sus últimos 100 commits lleva a Claude como coautor."
+  en: "An unofficial native Windows port of Pokémon Sword and Shield, made by static recompilation: the game’s ARM64 code is translated to C and compiled for the PC, with a runtime standing in for the Switch (system services, NVN graphics on Vulkan, audio, and controllers). It is not an emulator. It is built on Let’s Go Recomp, which in turn comes from LAS Recomp. It offers any internal resolution (with supersampling), SMAA, 16x anisotropic filtering, FSR 1, the game’s 30 fps or 60 fps for the whole game (experimental), keyboard and controllers, LayeredFS-style romfs mods, and the Expansion Pass from your own DLC data. The README warns it is a work in progress: it has been tested with Sword 1.3.2 and its Expansion Pass on one PC (with an RTX 3080), Shield hasn’t been tested, and the game hasn’t been completed on this port. Known issues include hitches while shaders are prepared, the Expansion Pass not being set up from the launcher, memory use that grows, and the lack of online features. Its only release is 0.1.0 (a preview), from October 22, a zip that holds the launcher and the runtime and that we haven’t checked inside; the game is recompiled on your PC, which takes about 40 minutes. None of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Pokémon Espada (la 1.3.2 es la más probada, con la actualización aplicada a los archivos extraídos) o de Escudo (reconocido pero sin probar), extraída en las carpetas exefs y romfs; los .xci y .nsp hay que extraerlos antes. Opcionalmente, los datos de DLC del pase de expansión, empaquetados a mano por ahora. Además, Windows 10 u 11 de 64 bits, una CPU x86-64 con AVX2, FMA y BMI2, una GPU con Vulkan 1.3, unos 5 GB de RAM jugando y unos 18 GB libres (3 de ellos para los shaders preparados)."
+  en: "Your own copy of Pokémon Sword (1.3.2 is the most tested, with the update applied to the extracted files) or Shield (recognized but untested), extracted into exefs and romfs folders; .xci and .nsp files must be extracted first. Optionally, the Expansion Pass DLC data, packed by hand for now. Plus 64-bit Windows 10 or 11, an x86-64 CPU with AVX2, FMA, and BMI2, a Vulkan 1.3 GPU, about 5 GB of RAM while playing, and about 18 GB free (3 of them for the prepared shaders)."
+tags:
+  - arm64
+  - rpg
+  - 60fps+
+  - mods
+  - vulkan

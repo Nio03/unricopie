@@ -1,0 +1,20 @@
+name: "Pokémon Pokopia (Pokopia Native)"
+games: [pokemon-pokopia]
+category: native-layer
+console: switch2
+status: experimental
+unlinked: true
+repo: xFractals/pokopia-native
+originalDeveloper: "Omega Force, Game Freak"
+year: 2026
+desc:
+  es: "Pokopia Native: herramienta que construye, a partir de tu copia de Pokémon Pokopia de Switch 2, una aplicación nativa para Mac y otra para iPhone. No es un emulador: sobre nxnative, el código ARM64 del juego corre directamente en el chip de Apple y los gráficos pasan por Metal. Admite las actualizaciones 2.0.0 (v327680) y 2.0.1 (v655360), comprueba que la copia sea una de ellas y no necesita claves. La primera compilación tarda cerca de una hora, casi toda en los 3.800 shaders del juego; las siguientes, un par de minutos. En iPhone corre a 30 fps, como la Switch 2 en modo portátil, pero la app solo arranca firmada con una cuenta de pago del programa de desarrolladores de Apple; también hay un constructor para Windows que prepara la app de iPhone. Su autor cuenta que jugó hasta después del primer despertar sin problemas. La última versión es la 1.0.3 (3 de noviembre). 14 de sus 22 commits llevan a Claude como coautor."
+  en: "Pokopia Native: a tool that builds, from your copy of Pokémon Pokopia for Switch 2, a native Mac app and an iPhone app. It isn’t an emulator: on top of nxnative, the game’s ARM64 code runs directly on the Apple chip and the graphics go through Metal. It supports updates 2.0.0 (v327680) and 2.0.1 (v655360), checks that the copy is one of them, and needs no keys. The first build takes about an hour, nearly all of it the game’s 3,800 shaders; later ones take a couple of minutes. On iPhone it runs at 30 fps, as the Switch 2 does in handheld mode, but the app only starts when signed with a paid Apple Developer Program account; there is also a Windows builder that prepares the iPhone app. Its author says they played until after the first wake-up with no issues. The latest release is 1.0.3 (November 3). 14 of its 22 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Pokémon Pokopia para Nintendo Switch 2 con la actualización 2.0.0 (v327680) o 2.0.1 (v655360), volcada como carpetas exefs y romfs; el juego base solo no basta. Un Mac con Apple silicon (M1 o posterior) y unos 20 GB libres, con Xcode 27 y sus herramientas de Metal, Python 3.12 y .NET 10; para el iPhone, además, una cuenta de pago de Apple Developer."
+  en: "Your own copy of Pokémon Pokopia for Nintendo Switch 2 with update 2.0.0 (v327680) or 2.0.1 (v655360), dumped as exefs and romfs folders; the base game alone isn’t enough. An Apple silicon Mac (M1 or later) with about 20 GB free, Xcode 27 with its Metal tools, Python 3.12, and .NET 10; for the iPhone, also a paid Apple Developer account."
+tags:
+  - arm64
+  - build-ios
+  - pokemon
+  - ai-assisted

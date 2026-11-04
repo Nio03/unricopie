@@ -1,0 +1,12 @@
+name: "NX Library"
+kind: launcher
+consoles: [switch]
+repo: Bium23/NxLibrary
+status: experimental
+desc:
+  es: "Biblioteca de juegos y lanzador para Mac, hecho en SwiftUI, para nxnative, el proyecto que ejecuta de forma nativa el código de un juego de Switch en chips Apple. Es un frontal independiente de esa herramienta externa: guía la instalación del motor, las herramientas y las claves, compila en local los volcados que elijas (NSP, XCI, NSZ o XCZ, o una carpeta con los archivos), muestra el progreso y deja reintentar una instalación fallida, y reúne los juegos ya construidos en una biblioteca con búsqueda, favoritos, opciones por juego, copias de seguridad y restauración de partidas, trucos, fondos, sonidos y navegación con mando. El README lo da por alfa y avisa de que sus comprobaciones automáticas no certifican la compatibilidad de ningún juego. La versión 0.1.2 es del 3 de noviembre y es la última de tres publicadas desde el 2. 52 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A game library and launcher for Mac, written in SwiftUI, for nxnative, the project that runs a Switch game’s code natively on Apple chips. It is an independent front end to that external toolchain: it guides the setup of the engine, tools, and keys, builds the dumps you choose locally (NSP, XCI, NSZ, or XCZ, or a folder of files), shows progress and lets you retry a failed install, and gathers the games already built into a library with search, favorites, per-game options, save backup and restore, cheats, backgrounds, sounds, and controller navigation. The README calls it alpha and warns that its automated checks don’t certify any game’s compatibility. Version 0.1.2, from November 3, is the latest of three published since the 2nd. 52 of its last 100 commits list Claude as a co-author."
+tags:
+  - arm64
+  - launcher
+  - ai-assisted

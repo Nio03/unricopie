@@ -1,0 +1,11 @@
+name: "Cartridge"
+kind: launcher
+consoles: [switch]
+repo: rbxrootx/cartridge
+status: usable
+desc:
+  es: "Frontal nativo de macOS para nxnative, el proyecto que ejecuta de forma nativa el código de un juego de Switch en chips Apple. Prepara las herramientas con un clic (Xcode, Homebrew, .NET y los paquetes de Python de nxnative en un entorno privado, y descarga nxnative de su repositorio oficial), lee de una carpeta el identificador y las versiones de cada juego, avisa de los que nxnative no ha probado y de si falta espacio, y construye una app para Mac o un IPA para iPhone y iPad con el progreso de cada etapa. Los juegos para Mac se abren desde su pantalla de inicio, con navegación por teclado o mando, y la app comprueba cada día si hay versiones nuevas de sí misma y de nxnative. No trae ni descarga juegos, firmware ni claves, y no redistribuye nxnative. Publicó cinco versiones entre el 26 y el 27 de octubre; la última es la 1.3.0. Sus 6 commits llevan a Claude como coautor."
+  en: "A native macOS front end for nxnative, the project that runs a Switch game’s code natively on Apple chips. It sets up the tools in one click (Xcode, Homebrew, .NET, and nxnative’s Python packages in a private environment, and downloads nxnative from its official repository), reads each game’s title ID and versions from a folder, flags games nxnative hasn’t tested and a lack of free space, and builds a Mac app or an iPhone and iPad IPA with progress for each stage. Mac games launch from its home screen, with keyboard or controller navigation, and the app checks daily for new versions of itself and of nxnative. It ships or downloads no games, firmware, or keys, and doesn’t redistribute nxnative. It published five releases between October 26 and 27; the latest is 1.3.0. All 6 of its commits list Claude as a co-author."
+tags:
+  - launcher
+  - ai-assisted

@@ -1,0 +1,23 @@
+name: "Astral Chain (captainj-sparrow)"
+games: [astral-chain]
+console: switch
+status: fully
+repo: captainj-sparrow/astral-chain-pc-recomp
+forkOf:
+  label: "valentderah/totk-pc-recomp"
+  url: https://github.com/valentderah/totk-pc-recomp
+originalDeveloper: "PlatinumGames"
+year: 2019
+desc:
+  es: "Recompilación estática de Astral Chain, el juego de Switch de 2019, a una aplicación nativa de x86-64 para Windows con un renderizador Vulkan, construida sobre la cadena de TotK Recomp, la recompilación de Tears of the Kingdom de Valiantsin Dzerakh, que también está en el catálogo. Su instalador extrae los datos del juego, le aplica la actualización 1.0.1, traduce el código a C y construye astralchain.exe en tu equipo, así que el resultado contiene el juego y es solo para uso propio; no incluye datos del juego ni código derivado de él. El README dice que se juega de principio a fin, con su audio y sus partidas guardadas, y que pruebas externas (Reddit, YouTube) lo han recorrido de la introducción a los créditos sin problemas visuales conocidos. Va a 60 fps por defecto (con opción de 30 y una corrección de la velocidad de las escenas), con resoluciones personalizadas, escalado FSR 1 hasta 4K, filtro anisótropo hasta 16x, menú de ajustes dentro del juego (F1), teclado, ratón y mando con reasignación, vibración y giroscopio, y mods y trucos en los formatos de emuladores. Los shaders se preparan mientras se juega; preparar los shaders al instalar y una versión para Linux siguen como plan. Publicó siete versiones entre el 3 y el 4 de noviembre; la última, la 0.3.0, añade 60 fps y la actualización 1.0.1. Hay otra recompilación de Astral Chain en el catálogo."
+  en: "A static recompilation of Astral Chain, the 2019 Switch game, into a native Windows x86-64 application with a Vulkan renderer, built on the pipeline of TotK Recomp, Valiantsin Dzerakh’s Tears of the Kingdom recompilation, which is also in the catalog. Its installer extracts the game’s data, merges the 1.0.1 update, lifts the code to C, and builds astralchain.exe on your PC, so the result contains the game and is for your own use only; it ships no game data and no code derived from it. The README says it is playable through the story, with its audio and save data, and that outside testing (Reddit, YouTube) has taken it from the intro to the credits with no known visual issues. It runs at 60 fps by default (with a 30 fps option and a cutscene speed fix), with custom resolutions, FSR 1 upscaling up to 4K, anisotropic filtering up to 16x, an in-game settings menu (F1), keyboard, mouse, and gamepad with remapping, rumble, and gyro, and mods and cheats in the emulator formats. Shaders are built during play; preparing shaders at install and a Linux release remain planned. It published seven releases between November 3 and 4; the latest, 0.3.0, adds 60 fps and the 1.0.1 update. There is another Astral Chain recompilation in the catalog."
+requirements:
+  es: "Tu propia copia de Astral Chain para Switch, volcada de tu consola: el juego base (versión 1.0.0, XCI o NSP) y la actualización 1.0.1 (NSP), y tus claves (prod.keys). Windows 10 u 11 de 64 bits (x86-64 con SSE4.2 como mínimo), una tarjeta gráfica con Vulkan 1.3, unos 14 GB para la carpeta instalada y unos 11 GB temporales mientras se fusiona la actualización."
+  en: "Your own copy of Astral Chain for Switch, dumped from your console: the base game (version 1.0.0, XCI or NSP) and the 1.0.1 update (NSP), and your keys (prod.keys). 64-bit Windows 10 or 11 (x86-64 with at least SSE4.2), a Vulkan 1.3 graphics card, about 14 GB for the installed folder, and about 11 GB of temporary space while the update is merged."
+tags:
+  - arm64
+  - 60fps+
+  - widescreen
+  - vulkan
+  - action
+  - mods

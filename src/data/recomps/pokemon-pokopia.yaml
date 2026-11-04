@@ -1,0 +1,19 @@
+name: "Pokémon Pokopia"
+games: [pokemon-pokopia]
+console: switch2
+status: experimental
+unlinked: true
+repo: drakolordx7/pokopia-recomp
+originalDeveloper: "Omega Force, Game Freak"
+year: 2026
+toolchain: nxrecomp
+desc:
+  es: "Pokopia Recomp: recompilación estática de Pokémon Pokopia, de Switch 2, a un programa nativo de Windows. Se construye sobre nxrecomp, el recompilador de Switch del mismo autor, con código de Ryujinx, Mesa, yuzu, Eden y otras recompilaciones de Switch. El launcher compila el juego en tu PC a partir de tu copia, unos 7 minutos, y después prepara la caché de shaders, que tarda de una a dos horas y se puede pausar. Son versiones de prueba: la 0.1.0 (2 de noviembre) se probó hasta el principio del juego y la primera zona, y el resto está sin probar. La 0.1.1, del mismo día, arregló la niebla, el agua y otros efectos animados, llevó el ratón a los menús y añadió DLSS, DLAA y FSR 3. El botón central del ratón activa el modo ratón de los Joy-Con 2 para colocar objetos, y F1 abre los ajustes dentro del juego."
+  en: "Pokopia Recomp: a static recompilation of Pokémon Pokopia, for Switch 2, into a native Windows program. It builds on nxrecomp, the same author’s Switch recompiler, with code from Ryujinx, Mesa, yuzu, Eden, and other Switch recompilations. The launcher compiles the game on your PC from your copy, in about 7 minutes, and then builds the shader cache, which takes one to two hours and can be paused. These are test builds: 0.1.0 (November 2) was tested through the opening and the first area, and the rest is untested. 0.1.1, from the same day, fixed fog, water, and other animated effects, brought the mouse to the menus, and added DLSS, DLAA, and FSR 3. The middle mouse button toggles the Joy-Con 2 mouse mode for placing items, and F1 opens the in-game settings."
+requirements:
+  es: "Tu propia copia extraída de Pokémon Pokopia para Nintendo Switch 2, en la versión 2.0.1a. Windows 10 u 11 de 64 bits, una GPU con Vulkan 1.3 y 16 GB de RAM."
+  en: "Your own extracted copy of Pokémon Pokopia for Nintendo Switch 2, version 2.0.1a. 64-bit Windows 10 or 11, a GPU with Vulkan 1.3, and 16 GB of RAM."
+tags:
+  - arm64
+  - vulkan
+  - pokemon

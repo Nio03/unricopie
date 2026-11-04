@@ -1,0 +1,18 @@
+name: "The Legend of Zelda: Tears of the Kingdom (Muhammad1259-sigma)"
+games: [the-legend-of-zelda-tears-of-the-kingdom]
+console: switch
+status: playable
+repo: Muhammad1259-sigma/totk-recomp
+originalDeveloper: "Nintendo EPD"
+year: 2023
+desc:
+  es: "Recompilación estática de la versión 1.0.0 de Switch a Linux x86-64, pensada para la Steam Deck. El repositorio trae el recompilador (un generador en Python que traduce el código AArch64 de main y de partes del SDK a C++), un entorno de ejecución con los servicios de Switch y una capa gráfica NVN sobre Vulkan con un traductor de shaders Maxwell a SPIR-V (la capa NVN está portada de LAS Recomp), un launcher de configuración y los scripts de compilación; el juego se construye en tu equipo a partir de tu volcado, y el README dice que no incluye código ni datos del juego. Según el autor funciona en una Steam Deck a unos 60 fps en exteriores, pero solo admite la versión 1.0.0. El mayor problema abierto es el tiempo de compilación (unos 17 minutos con clang -O2 en el PC del autor, con 2,1 horas de CPU; en la Deck se esperan de 1 a 1,5 horas), y compilar desde el propio launcher aún no está conectado: hay que usar build_from_xci.sh. El primer arranque compila shaders y hay un script de calentamiento de unos 4,5 minutos. No tiene versiones publicadas. Sus 2 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Switch 1.0.0 version to Linux x86-64, aimed at the Steam Deck. The repository holds the recompiler (a Python generator that translates the AArch64 code of main and parts of the SDK to C++), a runtime with the Switch services and an NVN graphics layer on Vulkan with a Maxwell-to-SPIR-V shader translator (the NVN layer is ported from LAS Recomp), a setup launcher, and the build scripts; the game is built on your machine from your dump, and the README says it contains no game code or data. According to the author it runs on a Steam Deck at about 60 fps outdoors, but only version 1.0.0 is supported. The biggest open issue is build time (about 17 minutes with clang -O2 on the author’s PC, 2.1 hours of CPU time; 1 to 1.5 hours expected on the Deck), and building from inside the launcher isn’t wired up yet: you run build_from_xci.sh. The first start compiles shaders, and a warm-up script takes about 4.5 minutes. It has no published releases. Both of its 2 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de la versión 1.0.0 en cartucho (.xci, título 0100F2C0115B6000) y tu propio prod.keys (revisión de clave maestra 0x0E). Linux x86-64 con AVX2 (Zen 2 o Haswell, o posterior), unos 45 GB libres en el pico (20 GB después) y 16 GB de RAM, con clang 17 o posterior, cmake, ninja, Python con venv (capstone 5.0.9 exactamente) y las bibliotecas que lista el README. En SteamOS hay que compilar en un distrobox con Ubuntu 24.04 o en otro PC Linux y copiar el resultado."
+  en: "Your own dump of the 1.0.0 cartridge version (.xci, title 0100F2C0115B6000) and your own prod.keys (master key revision 0x0E). Linux x86-64 with AVX2 (Zen 2 or Haswell, or newer), about 45 GB free at the peak (20 GB afterwards), and 16 GB of RAM, with clang 17 or newer, cmake, ninja, Python with venv (capstone exactly 5.0.9), and the libraries the README lists. On SteamOS you build in an Ubuntu 24.04 distrobox or on another Linux PC and copy the result over."
+tags:
+  - arm64
+  - action
+  - vulkan
+  - ai-assisted

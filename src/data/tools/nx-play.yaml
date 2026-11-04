@@ -1,0 +1,11 @@
+name: "NX Play"
+kind: launcher
+consoles: [switch]
+repo: varyform/nx-native-wrapper
+status: usable
+desc:
+  es: "App de Mac (y el script nxplay que hay detrás) que gestiona una biblioteca de juegos de Switch ejecutados con nxnative. Extrae cada juego una vez y luego lo lanza al instante. También ofrece un modo consola a pantalla completa manejado con mando, instalar el juego en un iPhone o iPad a través de Xcode o generar un IPA, copiar partidas entre el Mac y el dispositivo y guardarlas en un repositorio Git privado, ajustes por juego y avisos cuando nxnative publica correcciones, con la posibilidad de conservar una compilación que funciona. Cada juego queda en su carpeta con sus archivos originales, su compilación y sus partidas, de modo que se puede mover toda la biblioteca. Admite también juegos de Switch 2 (archivos .nup o carpetas) cuando nxnative tiene perfil para ellos. Necesita un Mac con Apple silicon y macOS 15 o posterior para jugar en él; en la primera ejecución descarga con Homebrew las herramientas que le faltan y clona nxnative. Publicó 20 versiones entre el 26 de octubre y el 4 de noviembre, la última la 1.8.2, un DMG de unos 5 MB que se actualiza solo. No trae juegos ni claves: pide tus propios archivos y tu prod.keys."
+  en: "A Mac app (and the nxplay script behind it) that manages a library of Switch games run with nxnative. It extracts each game once and then starts it straight away. It also offers a full-screen Console Mode driven by a controller, installing a game on an iPhone or iPad through Xcode or building an IPA, copying saves between the Mac and a device and backing them up to a private Git repository, per-game settings, and notices when nxnative publishes fixes, with the option to keep a build that works. Each game stays in its own folder with its original files, its build, and its saves, so the whole library can be moved. It also handles Switch 2 games (.nup files or folders) when nxnative has a profile for them. Playing on the Mac needs Apple silicon and macOS 15 or later; on first run it installs the missing tools with Homebrew and clones nxnative. It published 20 releases between October 26 and November 4, the latest being 1.8.2, a DMG of about 5 MB that updates itself. It ships no games or keys: it asks for your own files and your prod.keys."
+tags:
+  - arm64
+  - build-ios

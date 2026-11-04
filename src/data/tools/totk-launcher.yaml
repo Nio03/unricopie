@@ -1,0 +1,11 @@
+name: "TotK Launcher"
+games: [the-legend-of-zelda-tears-of-the-kingdom]
+kind: launcher
+consoles: [switch]
+repo: FurkanAnc/totk-launcher
+status: usable
+desc:
+  es: "Lanzador para Windows de la recompilación de The Legend of Zelda: Tears of the Kingdom de valentderah. Reúne en una ventana los ajustes de totk.ini (tasa de imágenes, pantalla, campo de visión, color), la reasignación de botones de teclado, ratón y mando, y los iconos de botones del juego, que pueden mostrar tus teclas en lugar de los de Switch (los redibuja a partir de tu propia instalación; no incluye nada del juego). Añade una lista de mods que se activan y ordenan, 74 logros leídos de tus partidas, el tiempo de juego, copias de partidas, un listado de lo que falta por encontrar, trucos que se aplican con el juego cerrado, la actualización de la recompilación con un clic y un asistente para informar de cierres inesperados. Está en inglés y turco. Se distribuye como un único ejecutable de unos 35 MB, sin firmar; publicó 5 versiones entre el 31 de octubre y el 1 de noviembre, la última la 1.2.0. Necesita la recompilación ya instalada."
+  en: "A Windows launcher for valentderah’s recompilation of The Legend of Zelda: Tears of the Kingdom. It brings together in one window the totk.ini settings (frame rate, display, field of view, color), keyboard, mouse, and controller rebinding, and the game’s button icons, which can show your own keys instead of the Switch ones (it redraws them from your own installation and includes nothing from the game). It adds a mod list you can switch on and reorder, 74 achievements read from your saves, play time, save backups, a list of what is still left to find, cheats that apply while the game is closed, one-click updating of the recompilation, and a helper for reporting crashes. It is in English and Turkish. It ships as a single unsigned executable of about 35 MB; it published 5 releases between October 31 and November 1, the latest being 1.2.0. It needs the recompilation already installed."
+tags:
+  - mods

@@ -1,0 +1,18 @@
+name: "Pokémon Pokopia (OunceNative)"
+games: [pokemon-pokopia]
+category: native-layer
+console: switch2
+status: experimental
+unlinked: true
+repo: kirakira-dev/OunceNative
+originalDeveloper: "Omega Force, Game Freak"
+year: 2026
+desc:
+  es: "OunceNative: fork de nxnative que añade soporte de Switch 2 en macOS para Pokémon Pokopia y, muy en pañales, Splatoon Raiders. El código ARM64 del juego corre en la CPU del Mac tras reescribir sus instrucciones, un anfitrión propio implementa las llamadas al sistema y las API gráficas, y los shaders se traducen a Metal de antemano, con parches del traductor de PokeDinner, un fork del emulador Eglantine. Según el README, Pokopia tiene soporte completo y debería verse casi igual que en la consola: a 1080p rondó los 59 fps en una prueba corta y entre 38 y 41 en una más larga al aire libre, en un MacBook Air M4; los 60 fps sostenidos siguen en desarrollo. Es un proyecto en desarrollo, con un solo commit (3 de noviembre) y sin versiones publicadas."
+  en: "OunceNative: a fork of nxnative that adds Switch 2 support on macOS for Pokémon Pokopia and, at a very early stage, Splatoon Raiders. The game’s ARM64 code runs on the Mac’s CPU after its instructions are rewritten, a host of its own implements the system calls and graphics APIs, and shaders are translated to Metal ahead of time, with shader compiler patches from PokeDinner, a fork of the Eglantine emulator. According to the README, Pokopia is fully supported and should look nearly identical to the console: at 1080p it reached about 59 fps in a short test and 38 to 41 in a longer outdoor run, on an M4 MacBook Air; sustained 60 fps is still in progress. It’s a development project, with a single commit (November 3) and no releases."
+requirements:
+  es: "Tu propia copia de Pokémon Pokopia para Nintendo Switch 2, volcada, y tus claves. Un Mac con Apple silicon y Xcode."
+  en: "Your own dump of Pokémon Pokopia for Nintendo Switch 2, and your keys. An Apple silicon Mac with Xcode."
+tags:
+  - arm64
+  - pokemon

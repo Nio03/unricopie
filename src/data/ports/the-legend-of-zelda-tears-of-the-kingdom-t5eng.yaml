@@ -1,0 +1,18 @@
+name: "The Legend of Zelda: Tears of the Kingdom (T5eng)"
+games: [the-legend-of-zelda-tears-of-the-kingdom]
+category: native-layer
+console: switch
+status: experimental
+repo: T5eng/nxnative_totk
+originalDeveloper: "Nintendo EPD"
+year: 2023
+desc:
+  es: "Port nativo de la versión 1.4.3 de Tears of the Kingdom para Switch a iPhone, construido sobre MacNativeGames, una capa que repite en Metal los flujos de comandos NVN del juego mientras su propio código se ejecuta en el chip de Apple. El repositorio contiene la carcasa de la app de iOS, los parches al runtime necesarios en iOS y las herramientas para preparar la caché de shaders (traducidos en un Mac, porque iOS no puede hacerlo), con documentos sobre cómo funciona y medidas de rendimiento; no trae datos del juego. El README lo da por jugable en un iPhone Air con iOS 27.0.1: arranque, título, carga de partida, imagen, audio y controles táctiles, a 60 fps en escenas ligeras y 30 en las pesadas, que es lo que apunta la Switch original. El mismo parche arregla además la versión de macOS, que se construye según el documento MACOS.md, pero el README no dice que en el Mac se juegue. Ninguno de sus 12 commits lleva a Claude como coautor. No tiene versiones publicadas."
+  en: "A native port of the Switch 1.4.3 version of Tears of the Kingdom to iPhone, built on MacNativeGames, a layer that replays the game’s NVN command streams on Metal while its own code runs on the Apple chip. The repository holds the iOS app shell, the runtime patches needed on iOS, and the tools to prepare the shader cache (translated on a Mac, since iOS can’t do it), with documents on how it works and performance measurements; it ships no game data. The README calls it playable on an iPhone Air running iOS 27.0.1: boot, title screen, save loading, rendering, audio, and touch controls, at 60 fps in light scenes and 30 in heavy ones, which is the original Switch’s target. The same patch also repairs the macOS build, which is built following the MACOS.md document, but the README doesn’t say it plays on the Mac. None of its 12 commits list Claude as a co-author. It has no published releases."
+requirements:
+  es: "Tu propia copia de Tears of the Kingdom para Switch con la actualización 1.4.3 aplicada al juego base, con el RomFS volcado y las fuentes compartidas. Un Mac con macOS 26 o 27, Xcode 26 o posterior y xcodegen, un clon de MacNativeGames con el parche del proyecto y que ya haya producido los datos de la versión para Mac, y opus y libvpx compilados para iOS. Para jugar en iPhone, un iPhone con iOS reciente."
+  en: "Your own copy of Tears of the Kingdom for Switch with the 1.4.3 update applied to the base game, with the dumped RomFS and the shared fonts. A Mac on macOS 26 or 27 with Xcode 26 or later and xcodegen, a MacNativeGames checkout with the project’s patch that has already produced the Mac version’s data, and opus and libvpx compiled for iOS. To play on iPhone, an iPhone on a recent iOS."
+tags:
+  - arm64
+  - action
+  - build-ios

@@ -1,0 +1,19 @@
+name: "Octopath Traveler II"
+games: [octopath-traveler-ii]
+category: native-layer
+console: switch
+status: experimental
+repo: leeashine/ot2-mobile
+originalDeveloper: "Acquire"
+year: 2023
+desc:
+  es: "Port nativo de la versión de Switch de Octopath Traveler II (1.1.1) a Mac e iPhone, construido sobre nxnative: el programa del juego, que usa Unreal Engine 4, se ejecuta directamente en el chip de Apple tras reescribir las pocas instrucciones que no pueden correr tal cual, y un anfitrión sustituye los servicios del sistema de la Switch. Es una bifurcación de nxnative que añade un backend gráfico NVN de Metal clásico (Metal 3), derivado de d2r-mobile, para que funcione en macOS 15 e iOS 18 sin esperar a Metal 4, un perfil del juego con su reemplazo del asignador de memoria de Unreal Engine y la extracción estática de sus 13 942 shaders únicos directamente de tus archivos al construir. No es un emulador. Según el README, en el Mac se puede empezar una partida, pasar por el prólogo de Agnea y su aldea, hacer el primer combate, guardar y recargar, con sonido y a los 30 fps nativos del juego; aguantó 2 horas en la pantalla de título y 31 minutos en la taberna sin cerrarse, aunque la memoria crece despacio y las sesiones largas no están comprobadas. En un iPhone solo llegó a la escena del pueblo. La versión 1.0.0, del 27 de octubre, es solo código fuente. 1 de sus últimos 100 commits lleva a Claude como coautor. El repositorio conserva los perfiles de los demás juegos de nxnative, con sus tablas de shaders."
+  en: "A native port of the Switch version of Octopath Traveler II (1.1.1) to Mac and iPhone, built on nxnative: the game’s program, which uses Unreal Engine 4, executes directly on the Apple chip after the few instructions that can’t run unchanged are rewritten, and a host stands in for the Switch’s system services. It is a fork of nxnative that adds a classic-Metal (Metal 3) NVN graphics backend, derived from d2r-mobile, so it works on macOS 15 and iOS 18 without waiting for Metal 4, a game profile with its replacement for Unreal Engine’s memory allocator, and static extraction of its 13,942 unique shaders straight from your files at build time. It isn’t an emulator. According to the README, on the Mac you can start a new game, go through Agnea’s prologue and her village, fight the first battle, save and reload, with sound and at the game’s native 30 fps; it ran 2 hours on the title screen and 31 minutes in the tavern without a crash, though memory grows slowly and longer sessions are unverified. On an iPhone it only reached the town scene. Version 1.0.0, from October 27, is source only. 1 of its last 100 commits lists Claude as a co-author. The repository keeps the profiles of the other nxnative games, with their shader tables."
+requirements:
+  es: "Tu propia copia de la versión de Switch de Octopath Traveler II 1.1.1 (XCI o NSP) y tus claves (prod.keys). Un Mac con chip Apple y macOS 15 o posterior (no hay versión para Intel) con Xcode 16 o posterior, .NET SDK y las herramientas de Homebrew que lista el README; la primera compilación tardó unos 13 minutos y produjo una caché de shaders de 3,5 GiB. Para iPhone, un A17 Pro o posterior con iOS 18 y una firma con la capacidad de límite de memoria aumentado."
+  en: "Your own copy of the Switch version of Octopath Traveler II 1.1.1 (XCI or NSP) and your keys (prod.keys). An Apple-silicon Mac on macOS 15 or later (no Intel version) with Xcode 16 or later, the .NET SDK, and the Homebrew tools the README lists; the first build took about 13 minutes and produced a 3.5 GiB shader cache. For iPhone, an A17 Pro or later on iOS 18 and a signature with the Increased Memory Limit capability."
+tags:
+  - arm64
+  - rpg
+  - build-ios
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "EA Sports FC 26"
+games: [ea-sports-fc-26]
+category: native-layer
+console: switch
+status: playable
+repo: brunoamador20/fc26-mac-port
+originalDeveloper: "Electronic Arts"
+year: 2025
+desc:
+  es: "Port no oficial de la versión de Nintendo Switch de EA Sports FC 26 a Macs con Apple silicon, sin emulador: el código ARM del juego se reescribe una vez para el Mac, un pequeño host responde por los servicios del sistema de Switch y los gráficos NVN se rehacen en Metal. Se apoya en la vía nativa de MacNativeGames, que a su vez parte de d2r-mobile. Según el README funcionan los menús y los modos Pontapé de saída y Carrera, con partidos enteros, avance del calendario y guardado, además de sonido, teclado y mando, a 30 fps o a 60 fps opcionales; hay un modo ahorro con los ajustes portátiles de Switch. Funciona sin conexión: no hay servidores de EA ni modos en línea. Avisa de que la escena de presentación de los jugadores a veces sale demasiado clara y de que los shaders nuevos pueden provocar tirones. No hay nada para descargar: la app, FC 26.app, se monta en tu Mac con un solo comando a partir de tus archivos, y el proyecto asegura que el repositorio no contiene nada del juego ni claves. Declara que puede instalarse con un asistente de IA; 97 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "An unofficial port of the Nintendo Switch version of EA Sports FC 26 to Apple silicon Macs, with no emulator: the game’s ARM code is rewritten once for the Mac, a small host answers for the Switch’s system services, and the NVN graphics are rebuilt on Metal. It builds on the native path of MacNativeGames, which itself comes from d2r-mobile. According to the README the menus work, as do Kick Off and Career modes, with whole matches, calendar progress, and saving, along with sound, keyboard, and controller, at 30 fps or an optional 60 fps; there is a power-saving mode with the Switch’s handheld settings. It runs offline: there are no EA servers or online modes. It warns that the player-lineup scene sometimes comes out too bright and that new shaders can cause small stutters. There is nothing to download: the app, FC 26.app, is built on your Mac with a single command from your own files, and the project says the repository holds nothing from the game and no keys. It documents installing with an AI assistant; 97 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de EA Sports FC 26 para Switch, de tu propia consola: el juego base 1.0.0 (ID de título 01004FF021942000) y la actualización 1.89.6e65 (v1638400), ambos en NSP, además del prod.keys de tu consola. Además, un Mac con Apple silicon (M1 o posterior) y macOS 26 o posterior, 8 GB de memoria como mínimo, unos 75 GB libres, las Command Line Tools de Xcode, Homebrew con opus y libvpx y Python 3.10 o posterior."
+  en: "Your own copy of EA Sports FC 26 for Switch, from your own console: the 1.0.0 base game (title ID 01004FF021942000) and the 1.89.6e65 update (v1638400), both as NSP, plus your console’s prod.keys. Plus an Apple silicon Mac (M1 or later) on macOS 26 or later, at least 8 GB of memory, about 75 GB free, Xcode’s Command Line Tools, Homebrew with opus and libvpx, and Python 3.10 or later."
+tags:
+  - arm64
+  - sports
+  - 60fps+
+  - ai-assisted
