@@ -1,0 +1,19 @@
+name: "Castlevania: Grimoire of Souls"
+games: [castlevania-grimoire-of-souls]
+console: mobile
+status: playable
+repo: BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp
+author: BLSNCVS
+originalDeveloper: Konami
+year: 2019
+desc:
+  es: "Port nativo para Windows de la versión de macOS de Apple Arcade (1.4.2), por recompilación estática: el código del juego, C# compilado con IL2CPP para arm64, se traduce a C++ y de ahí a x64 con un traductor propio (212.294 funciones), y corre sobre el reproductor de Unity para Windows con Direct3D 11. Los shaders de Metal pasan a HLSL, el plugin de partículas también se traduce y el servidor del juego se emula dentro del propio programa, así que funciona sin conexión. Se juegan la historia, las misiones, las invocaciones, el plantel y las mejoras, con mandos de Xbox y PlayStation, teclado y ratón, todos los idiomas, límite de fps, VSync, modo de ventana y resolución en gosr.ini, y un menú de depuración (F8) con oro, gemas, objetos e invencibilidad. No tiene multijugador. Un efecto puede salir unos fotogramas tarde la primera vez. La 1.0.7 (4 de noviembre) es la última de 3 versiones. El README dice que se usó IA para ayudar con el código."
+  en: "A native Windows port of the Apple Arcade macOS release (1.4.2), by static recompilation: the game’s code, C# compiled with IL2CPP for arm64, is translated to C++ and then to x64 by its own translator (212,294 functions), and runs on Unity’s Windows player with Direct3D 11. The Metal shaders become HLSL, the particle plugin is translated too, and the game’s server is emulated inside the program itself, so it works offline. The story, quests, summons, roster, and upgrades work, with Xbox and PlayStation controllers, keyboard and mouse, every language, a frame cap, VSync, window mode, and resolution in gosr.ini, and a debug menu (F8) with gold, gems, items, and invincibility. There’s no multiplayer. An effect can show up a few frames late the first time. 1.0.7 (November 4) is the latest of 3 releases. The README says AI was used to help with the code."
+requirements:
+  es: "Tu propia copia de Castlevania: Grimoire of Souls para Mac, la 1.4.2, en su .dmg sin modificar: el instalador saca de ahí los datos y el código del juego, y se detiene si la versión no coincide. Además, Windows 10 u 11 de 64 bits con una GPU con Direct3D 11."
+  en: "Your own copy of Castlevania: Grimoire of Souls for Mac, version 1.4.2, in its unmodified .dmg: setup takes the game’s data and code from it, and stops if the version doesn’t match. Plus 64-bit Windows 10 or 11 with a Direct3D 11 GPU."
+tags:
+  - arm64
+  - action
+  - rpg
+  - ai-assisted

@@ -237,6 +237,12 @@ amped-2:
   year: 2003
   platforms: [xbox]
 
+anarchy-reigns:
+  name: Anarchy Reigns
+  igdb: 5485
+  year: 2012
+  platforms: [x360]
+
 animal-crossing:
   name: Animal Crossing
   igdb: 2655
@@ -800,6 +806,12 @@ castlevania-curse-of-darkness:
   igdb: 1137
   year: 2005
   platforms: [ps2]
+
+castlevania-grimoire-of-souls:
+  name: "Castlevania: Grimoire of Souls"
+  igdb: 96485
+  year: 2019
+  platforms: [mobile]
 
 castlevania-harmony-of-despair:
   name: "Castlevania: Harmony of Despair"

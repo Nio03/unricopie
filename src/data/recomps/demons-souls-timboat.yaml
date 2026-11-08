@@ -1,0 +1,21 @@
+name: "Demon's Souls (timboat)"
+games: [demons-souls]
+console: ps3
+status: fully
+repo: timboat/demons-souls-recomp
+author: timboat
+originalDeveloper: FromSoftware
+year: 2009
+toolchain: ps3recomp
+desc:
+  es: "Port nativo para Windows de la versión estadounidense de PS3 (BLUS-30443), por recompilación estática con ps3recomp: unas 94.000 funciones PPU y 12 programas SPU se traducen a C/C++ y corren sobre un runtime de PS3 con Direct3D 12. Es un proyecto aparte del de JonathanDC64. Se puede jugar el juego entero, con sonido, música y vídeos, aunque por ahora sin juego en línea. Se recomiendan 60 fps, porque por encima el sonido se desfasa. Ofrece de 30 a 240 fps o sin límite, VRR, resolución de hasta 4x y sombras más nítidas, volcado y sustitución de texturas, exportar e importar modelos en glTF, compatibilidad con el mod PC Remaster, saltar la intro, teclado y ratón con puntero en los menús, teclas reasignables, mandos XInput y un actualizador. En Linux y la Steam Deck va por Proton, y en Mac con Apple Silicon hay una versión nativa experimental sobre Metal que por ahora llega al principio del tutorial. El juego se compila en tu PC con SETUP.bat. El repo incluye un parche con fragmentos del código del juego ya traducido. 87 de sus 97 commits llevan a Claude como coautor."
+  en: "A native Windows port of the US PS3 release (BLUS-30443), by static recompilation with ps3recomp: about 94,000 PPU functions and 12 SPU programs are translated to C/C++ and run on a PS3 runtime with Direct3D 12. It’s a separate project from JonathanDC64’s. The whole game is playable, with sound, music, and movies, though there’s no online play yet. 60 fps is recommended, since sound drifts out of sync above it. It offers 30 to 240 fps or unlimited, VRR, resolution up to 4x and sharper shadows, texture dumping and replacement, glTF model export and import, support for the PC Remaster mod, skipping the intro, keyboard and mouse with a pointer in the menus, remappable keys, XInput controllers, and an updater. On Linux and the Steam Deck it runs through Proton, and on Apple silicon Macs there’s an experimental native Metal build that so far reaches the start of the tutorial. The game is built on your PC with SETUP.bat. The repo includes a patch with fragments of the game’s translated code. 87 of its 97 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de Demon's Souls para PS3, versión estadounidense (BLUS-30443), en .iso, .zip de Redump o carpeta con PS3_GAME; si está cifrada, también su clave de disco (el .dkey o la línea «Disc Key» de Redump). El instalador descarga Python, Git, LLVM y las claves de PS3 que publica RPCS3. Además, Windows 10 u 11 de 64 bits con una GPU con Direct3D 12 y unos 14 GB libres; por Proton, en Linux, unos 25 GB."
+  en: "Your own disc image of Demon’s Souls for PS3, US release (BLUS-30443), as an .iso, a Redump .zip, or a folder with PS3_GAME; if it’s encrypted, also its disc key (the .dkey or Redump’s «Disc Key» line). Setup downloads Python, Git, LLVM, and the PS3 keys published by RPCS3. Plus 64-bit Windows 10 or 11 with a Direct3D 12 GPU and about 14 GB free; through Proton on Linux, about 25 GB."
+tags:
+  - powerpc
+  - rpg
+  - 60fps+
+  - widescreen
+  - ai-assisted

@@ -187,6 +187,7 @@ Endprodukt/cruisin-usa-pc                             # es un emulador de la pla
 JamesIV4/zombies-ate-my-neighbors-dx                  # es un emulador: mod de emulador que trae BizHawk y un núcleo bsnes-hd en un zip de 172 MB y parchea la ROM; no es un port nativo
 mamesj/pokemon-fulldex                                # es un emulador: frontend con los núcleos melonDS y mGBA (bifurcación de ssrecomp que ya está en el catálogo)
 ReiniShari/Pinball-NS                                 # es un emulador: el propio README dice que el programa contiene un emulador de Game Boy Color (núcleo en ensamblador) que engancha las rutinas del juego
+Tovarichtch/Odin                                      # emulador de la placa Sega Hikaru (LLE), fork de Valkyrie
 wanszai/Ridge-Racer-Collection                        # es un emulador (el repositorio lo llama «System 22 Emulator») y solo tiene un README con binarios cerrados en las releases
 wanszai/Sega-Rally-Championship-PC-Xbox360-Series-X-  # es un emulador (envoltorio de emulación para PC y consolas) y solo tiene un README con binarios cerrados en las releases
 wanszai/Virtua-Fighter---XboxOne-Windows              # es un emulador (envoltorio de emulación del Model 1) y solo tiene un README con binarios cerrados en las releases
@@ -200,6 +201,7 @@ SandstoneDev/PS2RC                                    # no corre en PC: PS2RC co
 dplauncher/DP1-Launcher                               # repo de otro tipo: lanzador de parches (DPfix, DXVK, parche de 4 GB) para la versión de Steam del juego original, no recompila ni porta nada
 opdx0/nfl-blitz-2027                                  # hack de ROM, no corre en PC: parche (blitz2027.bpz) para el CHD de blitz2k que se juega en MAME
 Pyrdacor/Amberstar                                    # repo de otro tipo: documentación de formatos y gráficos del juego extraídos (carpeta Graphics con cientos de PNG)
+romhacking.net/hacks/10241                            # hack de ROM de Castlevania: Symphony of the Night (romhacking.net), no corre en PC: se juega en consola o emulador
 taisei-project/taisei                                 # juego original, no es port (fangame de Touhou con su propio juego)
 
 # ── Forks sin cambios propios ──

@@ -1,0 +1,22 @@
+name: "Anarchy Reigns"
+games: [anarchy-reigns]
+console: x360
+status: playable
+repo: VirtuaQuest/Anarchy-Reigns-Supreme
+author: VirtuaQuest
+originalDeveloper: PlatinumGames
+year: 2012
+toolchain: XenonRecomp
+desc:
+  es: "Anarchy Reigns Supreme: port nativo para Windows de la versión de Xbox 360, un juego que nunca tuvo reedición. Es una recompilación estática con un fork de XenonRecomp y el runtime de Unleashed Recompiled, con los gráficos en Direct3D 12. Se juegan la campaña, el tutorial, el entrenamiento y la galería, a 30, 60 o 120 fps, con teclado y ratón (teclas reasignables e iconos dibujados por el autor), el DLC (Bayonetta, los modos extra y la motosierra dorada de Jack) y un launcher propio. El multijugador está en desarrollo y viene apagado: conexión directa entre copias, en LAN o con la IP del anfitrión, a 30 fps y sin probar por internet. En las peleas más cargadas baja de 120 fps, el tutorial va fijo a 30 y hay tirones de unos 2 segundos. No hay versión publicada: se compila desde el código con Setup.bat, y el README pide no compartir lo compilado, porque lleva el código del juego. Sus 61 commits llevan a Claude como coautor."
+  en: "Anarchy Reigns Supreme: a native Windows port of the Xbox 360 release, a game that was never rereleased. It’s a static recompilation with a fork of XenonRecomp and the Unleashed Recompiled runtime, with graphics on Direct3D 12. The campaign, tutorial, training, and gallery are playable at 30, 60, or 120 fps, with keyboard and mouse (remappable keys and icons drawn by the author), the DLC (Bayonetta, the extra modes, and Jack’s golden chainsaw), and its own launcher. Multiplayer is a work in progress and off by default: direct connection between copies, over LAN or with the host’s IP, at 30 fps and untested over the internet. The busiest fights drop below 120 fps, the tutorial is locked to 30, and there are stutters of about 2 seconds. There’s no release: it’s built from source with Setup.bat, and the README asks you not to share the build, since it carries the game’s code. All 61 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Anarchy Reigns para Xbox 360 (título 5345083F), como imagen .iso o carpeta; el DLC es opcional y no hace falta ninguna actualización de título. Para compilarlo, Windows con Visual Studio 2022 o sus Build Tools (C++ y el SDK de Windows), clang-cl de LLVM y unos 5 GB libres."
+  en: "Your own copy of Anarchy Reigns for Xbox 360 (title 5345083F), as an .iso image or a folder; the DLC is optional and no title update is needed. To build it, Windows with Visual Studio 2022 or its Build Tools (C++ and the Windows SDK), LLVM’s clang-cl, and about 5 GB free."
+tags:
+  - powerpc
+  - action
+  - fighting
+  - 60fps+
+  - multiplayer
+  - ai-assisted

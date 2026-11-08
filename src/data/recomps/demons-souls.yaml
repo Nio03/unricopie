@@ -1,20 +1,23 @@
-name: "Demon's Souls"
+name: "Demon's Souls (JonathanDC64)"
 games: [demons-souls]
 console: ps3
-status: experimental
-repo: JonathanDC64/DemonsSoulsRecomp
+status: fully
+repo: JonathanDC64/Soulbrandt
 author: JonathanDC64
 originalDeveloper: FromSoftware
 year: 2009
 toolchain: ps3recomp
 desc:
-  es: "Port nativo para Windows de la versión estadounidense de PS3 (BLUS30443), por recompilación estática con un fork de ps3recomp: el código PowerPC y SPU del juego se traduce a C de antemano, y los gráficos van por Direct3D 12. Por ahora se juega el primer nivel: el arranque y los vídeos, la creación de personaje, el tutorial, el Nexo y el Palacio de Boletaria 1-1, con sombras, efectos, sonido, partidas guardadas, DualSense y teclado y ratón al estilo de los Souls de PC. Va a los 30 fps del juego por defecto, con un límite ajustable de 30 a 500 o sin límite (en el palacio, unos 120 fps), shaders compilados de antemano, formatos ultrapanorámicos, un menú de ajustes con controles reasignables y juego en línea en un servidor de la comunidad, The Archstones. Algunos efectos transparentes desaparecen algún fotograma. No hay versión publicada: se compila desde el código, con tu ejecutable descifrado con RPCS3. 66 de sus últimos 100 commits llevan a Claude como coautor."
-  en: "A native Windows port of the US PS3 release (BLUS30443), by static recompilation with a fork of ps3recomp: the game’s PowerPC and SPU code is translated to C ahead of time, and graphics go through Direct3D 12. For now the first level is playable: boot and the movies, character creation, the tutorial, the Nexus, and Boletarian Palace 1-1, with shadows, effects, sound, saves, DualSense, and Souls-on-PC-style keyboard and mouse. It runs at the game’s 30 fps by default, with a cap you can set from 30 to 500 or remove (about 120 fps in the Palace), precompiled shaders, ultrawide aspect ratios, a settings menu with remappable controls, and online play on a community server, The Archstones. Some transparent effects vanish for single frames. There’s no release: it’s built from source, with your executable decrypted using RPCS3. 66 of its last 100 commits list Claude as a co-author."
+  es: "Soulbrandt: port nativo para Windows y Linux de las versiones estadounidense (BLUS30443) y europea (BLES00932) de PS3, por recompilación estática con un fork de ps3recomp: el código PowerPC y SPU del juego se traduce a C de antemano, y los gráficos van por DirectX 12 o Vulkan. La 0.1.1 es una alfa, pero el juego se completa de principio a fin. Ofrece de 30 a 240 fps o sin límite con los tiempos del juego corregidos, resolución de hasta 4K, formatos ultrapanorámicos y 16:10, HDR, FXAA o SMAA, quitar la profundidad de campo y el desenfoque, teclado y ratón al estilo de los Souls de PC, mandos de Xbox, DualSense y DualShock 4, controles reasignables, un HUD que se puede mover, rodar en cualquier dirección con el objetivo fijado, un reparto de estadísticas opcional en el Nexo, trofeos y un actualizador que conserva las partidas. Tiene juego en línea en un servidor propio, con mensajes, manchas de sangre, fantasmas, cooperativo e invasiones. El instalador compila el juego en tu PC a partir de tu copia. 58 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Soulbrandt: a native Windows and Linux port of the US (BLUS30443) and European (BLES00932) PS3 releases, by static recompilation with a fork of ps3recomp: the game’s PowerPC and SPU code is translated to C ahead of time, and graphics go through DirectX 12 or Vulkan. 0.1.1 is an alpha, but the game can be beaten from start to finish. It offers 30 to 240 fps or unlocked with the game’s timing fixed, resolution up to 4K, ultrawide and 16:10, HDR, FXAA or SMAA, turning off depth of field and motion blur, Souls-on-PC-style keyboard and mouse, Xbox controllers, DualSense and DualShock 4, remappable controls, a movable HUD, rolling in any direction while locked on, an optional stat respec in the Nexus, trophies, and an updater that keeps your saves. It has online play on its own server, with messages, bloodstains, ghosts, co-op, and invasions. Setup builds the game on your PC from your copy. 58 of its last 100 commits list Claude as a co-author."
 requirements:
-  es: "Tu propia copia estadounidense de Demon's Souls para PS3 (BLUS30443), con el EBOOT.BIN descifrado con RPCS3, y tu propio libsre.prx descifrado del firmware de tu PS3. Para compilarlo, Windows 10 u 11 con una tarjeta gráfica con Direct3D 12, Visual Studio 2022 o sus Build Tools, LLVM (clang-cl), CMake, Ninja, Python 3 y Git Bash."
-  en: "Your own US copy of Demon’s Souls for PS3 (BLUS30443), with EBOOT.BIN decrypted using RPCS3, and your own decrypted libsre.prx from your PS3’s firmware. To build it, Windows 10 or 11 with a Direct3D 12 graphics card, Visual Studio 2022 or its Build Tools, LLVM (clang-cl), CMake, Ninja, Python 3, and Git Bash."
+  es: "Tu propia copia de Demon's Souls para PS3, versión estadounidense (BLUS30443) o europea (BLES00932), la 1.00, como carpeta con PS3_GAME (todavía no lee ISO), y RPCS3 para descifrar sus archivos, o los 27 archivos que hayas descifrado tú. Además, Windows 10 u 11 de 64 bits con una GPU con DirectX 12, o Linux x86-64 con glibc 2.35 o posterior y Vulkan; una CPU con SSE4.1, unos 4 GB libres para la compilación y conexión durante la instalación."
+  en: "Your own copy of Demon’s Souls for PS3, US (BLUS30443) or European (BLES00932) release, version 1.00, as a folder with PS3_GAME (ISO files aren’t supported yet), and RPCS3 to decrypt its files, or the 27 files you decrypted yourself. Plus 64-bit Windows 10 or 11 with a DirectX 12 GPU, or x86-64 Linux with glibc 2.35 or newer and Vulkan; an SSE4.1 CPU, about 4 GB free for the build, and a connection during setup."
 tags:
   - powerpc
+  - rpg
   - widescreen
+  - 60fps+
   - online
+  - multiplayer
   - ai-assisted

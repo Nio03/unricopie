@@ -1,0 +1,26 @@
+name: "Pokémon Legends: Z-A (TheMagnumChad)"
+games: [pokemon-legends-z-a]
+console: switch
+status: playable
+repo: TheMagnumChad/PokeZ-ARecomp-Online
+author: TheMagnumChad
+forkOf:
+  label: "Hexveil404/PokeZ-ARecomp"
+  url: https://github.com/Hexveil404/PokeZ-ARecomp
+originalDeveloper: "Game Freak"
+year: 2025
+toolchain: LAS Recomp
+desc:
+  es: "Lumiose Online para ZA Recomp: fork del port nativo de Hexveil404, que recompila de antemano el código ARM64 de la Switch y reimplementa el sistema y la GPU de la consola sobre Vulkan, al que suma el mod multijugador Lumiose Online. El binario del mod va dentro del repo y se traduce a código nativo junto con el del juego. El juego en línea pasa por un servidor intermediario fijo, no es entre pares, y trae chat de texto con teclado o mando, chat de voz con micrófono y supresión de ruido, un menú de jugadores y escritura nativa en el chat, en la búsqueda del mercado y en el correo. Añade además la distancia de cámara del 50 al 200 %, un modo táctil con Alt izquierdo y un launcher propio que se actualiza solo. El autor avisa de que la calidad de la voz y el multijugador en vivo aún están por probar a fondo. Linux x86-64 es experimental, pensado para la Steam Deck. La v0.1.27 (8 de noviembre) es la última de 12 versiones. El README no dice quién hizo el mod. 35 de sus 36 commits propios los firma Codex, de OpenAI."
+  en: "Lumiose Online for ZA Recomp: a fork of Hexveil404’s native port, which recompiles the Switch’s ARM64 code ahead of time and reimplements the console’s operating system and GPU on top of Vulkan, that adds the Lumiose Online multiplayer mod. The mod’s binary sits in the repo and is translated to native code along with the game’s. Online play goes through a fixed relay server, not peer to peer, and brings text chat with keyboard or controller, voice chat with a microphone and noise suppression, a players menu, and native typing in the chat, the Market search, and Mail. It also adds camera distance from 50% to 200%, a touch mode on left Alt, and its own self-updating launcher. The author notes that voice quality and live multiplayer still need more testing. Linux x86-64 is experimental, aimed at the Steam Deck. v0.1.27 (November 8) is the latest of 12 releases. The README doesn’t say who made the mod. 35 of its 36 own commits are authored by Codex, from OpenAI."
+requirements:
+  es: "Tu propia copia de Pokémon Legends: Z-A con la actualización 2.0.2 y el DLC, que Lumiose Online exige: las carpetas exefs y romfs ya extraídas, o el volcado (.xci o .nsp) con el prod.keys de tu propia Switch, y su title.keys si lo pide para el DLC. Además, Windows 10 (1903 o posterior) u 11 de 64 bits, o Linux x86-64 de forma experimental, una CPU x86-64 con AVX2 (con SSE4.2 también va, pero más lento), una GPU con Vulkan 1.2 o superior, 8 GB de RAM (16 GB recomendados) y unos 12 GB libres."
+  en: "Your own copy of Pokémon Legends: Z-A with update 2.0.2 and the DLC, which Lumiose Online requires: the already extracted exefs and romfs folders, or a dump (.xci or .nsp) with the prod.keys from your own Switch, plus its title.keys if asked for the DLC. Plus 64-bit Windows 10 (1903 or newer) or 11, or x86-64 Linux as an experiment, an x86-64 CPU with AVX2 (SSE4.2 works too, but slower), a Vulkan 1.2 or newer GPU, 8 GB of RAM (16 GB recommended), and about 12 GB free."
+tags:
+  - arm64
+  - rpg
+  - vulkan
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted
