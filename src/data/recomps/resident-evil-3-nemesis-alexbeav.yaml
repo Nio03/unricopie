@@ -1,0 +1,19 @@
+name: "Resident Evil 3: Nemesis (Alexbeav)"
+games: [resident-evil-3-nemesis]
+console: ps1
+status: experimental
+repo: alexbeavs-ps1-ports/resident-evil-3-recomp
+author: Alexbeav
+originalDeveloper: Capcom
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Kit de recompilación estática de la versión europea de PS1 (SLES-02529) para Windows, Linux y macOS, hecho con psxrecomp y el launcher recomp-ui. Es un proyecto distinto del de BrazilianHobbyist. Las versiones publicadas son kits de instalación: un asistente comprueba tu disco, su archivo SBI y tu BIOS, genera el código del juego y lo compila en tu PC; en Windows puede descargar unas herramientas de compilación portátiles. Todavía no consta que se juegue: el README dice que la prueba de la partida está pendiente y que compilarlo no demuestra que el juego funcione. Según las notas de la v0.1.1, una prueba automática sin ventana en Windows comprobó el disco, generó y compiló el juego y lo arrancó, pero la versión no promete nada sobre la calidad del juego, y los paquetes de Linux y macOS no se han probado en esos sistemas. El juego va con el renderizador OpenGL, en 4:3. La v0.1.1 (30 de septiembre) es la última de 2 versiones: corrige la 0.1.0, que pedía otra BIOS y volvía a la pantalla de instalación después de compilar. El README dice que el proyecto se hizo con ayuda de IA en el código, la documentación y la investigación, y que Alex prueba el juego y decide qué se publica."
+  en: "A static recompilation kit for the European PS1 release (SLES-02529) for Windows, Linux, and macOS, built with psxrecomp and the recomp-ui launcher. It’s a separate project from BrazilianHobbyist’s. The published releases are setup kits: a wizard checks your disc, its SBI file, and your BIOS, generates the game’s code, and builds it on your PC; on Windows it can download portable build tools. It isn’t confirmed to be playable yet: the README says gameplay testing is still pending and that building it doesn’t prove the game works. According to the v0.1.1 notes, an automated windowless test on Windows verified the disc, generated and built the game, and launched it, but the release makes no claim about gameplay quality, and the Linux and macOS packages haven’t been tested on those systems. The game uses the OpenGL renderer, in 4:3. v0.1.1 (September 30) is the latest of 2 releases: it fixes 0.1.0, which asked for the wrong BIOS and looped back to the setup screen after building. The README says the project was made with AI assistance on code, documentation, and investigation, and that Alex tests the game and decides what gets released."
+requirements:
+  es: "Tu propia imagen de Resident Evil 3: Nemesis para PS1, versión europea (SLES-02529), en CUE/BIN de Redump, con su archivo SBI al lado y con el mismo nombre; el asistente comprueba el BIN exacto, así que no sirven CHD ni otros formatos. También tu propia BIOS europea SCPH-5502 o SCPH-5552 (524.288 bytes). Además, Windows x64, Linux x64 o macOS (Apple Silicon o Intel); en Linux y macOS hacen falta CMake, Ninja, Python 3 y un compilador de C y C++."
+  en: "Your own image of Resident Evil 3: Nemesis for PS1, European release (SLES-02529), as Redump CUE/BIN, with its SBI file beside it under the same name; the wizard checks the exact BIN, so CHD and other formats won’t work. Also your own European SCPH-5502 or SCPH-5552 BIOS (524,288 bytes). Plus Windows x64, Linux x64, or macOS (Apple silicon or Intel); Linux and macOS need CMake, Ninja, Python 3, and a C and C++ compiler."
+tags:
+  - mips
+  - horror
+  - ai-assisted

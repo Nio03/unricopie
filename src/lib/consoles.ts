@@ -45,6 +45,11 @@ export const CONSOLES = {
   switch2: { label: 'Switch 2', tag: 'NS2', full: 'Nintendo Switch 2', arch: 'ARM64', color: '#FF4D6D' },
   xbox: { label: 'Xbox', tag: 'XBX', full: 'Xbox', arch: 'x86', color: '#0E7A0E' },
   xboxone: { label: 'Xbox One', tag: 'XB1', full: 'Xbox One', arch: 'x86-64', color: '#52B043' },
+  // La sucesora de la 3DO, cancelada en 1997 antes de salir: sus juegos de consola
+  // quedaron en prototipos (el hardware sí se usó en recreativas de Konami).
+  // El azul del logotipo de Panasonic que salía al encender la 3DO, más vivo para
+  // que no se confunda con los azules de Sony y Sega.
+  m2: { label: 'M2', tag: 'M2', full: 'Panasonic M2', arch: 'PowerPC 602 x2', color: '#1F5BFF' },
   // Placas de recreativa sin consola hermana (CPS-3, Sega OutRun…). NAOMI NO va
   // aquí: comparte silicio con la Dreamcast y se queda en esa clave.
   arcade: { label: 'Arcade', tag: 'ARC', full: 'Arcade board', arch: '—', color: '#B8873B' },

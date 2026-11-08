@@ -1,0 +1,19 @@
+name: "Ace Combat 6: Fires of Liberation (rapidsamphire)"
+games: [ace-combat-6-fires-of-liberation]
+console: x360
+status: experimental
+repo: rapidsamphire/AC6Recomp
+author: rapidsamphire
+originalDeveloper: Namco / Project Aces
+year: 2007
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 con el SDK de ReXGlue, para Windows y Linux, con una copia del SDK con arreglos propios para este juego. Es un proyecto distinto del de sal063, y anterior. El README avisa de que es un trabajo en curso: avanza dentro del juego, pero con fallos y cierres probables. Añade enganches en las llamadas de Direct3D, un contador de fotogramas y una opción para desbloquear los 60 fps. No hay versión publicada: el código del juego se genera y se compila en tu PC a partir de tu copia. El último commit es del 28 de marzo. 1 de sus 22 commits lleva a Copilot como coautor."
+  en: "A static recompilation of the Xbox 360 release with the ReXGlue SDK, for Windows and Linux, using a copy of the SDK with its own fixes for this game. It’s a separate project from sal063’s, and an earlier one. The README warns that it’s a work in progress: it gets in-game, but bugs and crashes are likely. It adds hooks on the Direct3D calls, a frame counter, and an option to unlock 60 fps. There’s no release: the game’s code is generated and built on your PC from your copy. The last commit is from March 28. 1 of its 22 commits lists Copilot as a co-author."
+requirements:
+  es: "Tu propia imagen ISO de Ace Combat 6 para Xbox 360, extraída: los datos del juego y el default.xex van en la carpeta assets. Para compilarlo, CMake 3.25 o posterior, Ninja y Clang, en Windows o Linux."
+  en: "Your own Ace Combat 6 Xbox 360 ISO image, extracted: the game data and default.xex go in the assets folder. To build it, CMake 3.25 or newer, Ninja, and Clang, on Windows or Linux."
+tags:
+  - powerpc
+  - flight
+  - ai-assisted

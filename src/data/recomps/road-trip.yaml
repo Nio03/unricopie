@@ -1,0 +1,23 @@
+name: "Road Trip"
+games: [road-trip]
+console: ps2
+status: playable
+repo: silentsudin/RoadTripAdventure-recomp
+author: silentsudin
+originalDeveloper: E-game
+year: 2002
+toolchain: PS2Recomp
+desc:
+  es: "Road Trip Recomp: versión nativa para Windows, macOS y Android de Road Trip (Choro Q HG 2), en su versión estadounidense de PS2 (SLUS-20398), por recompilación estática con un fork de PS2Recomp. La app no trae el juego: la primera vez lee tu imagen de disco, recompila el programa del juego y lo compila con el compilador que lleva dentro (en Mac, con las Command Line Tools de Apple), en menos de un minuto en un Mac con chip M y en unos 2,5 minutos en la AYN Thor. El juego, el microcódigo de la VU1 y el controlador de sonido corren como código nativo, y los gráficos van por Vulkan (Metal en Mac), con un renderizador por hardware o el exacto de paraLLEl-GS. Se juegan la aventura (pueblos, campo, tiendas y carreras) y las carreras rápidas en las tres plataformas. Ofrece hasta 4x de resolución, imagen progresiva sin entrelazado, FSR 1 y 3, DLSS y XeSS (con un complemento aparte en Windows), MetalFX y otros escaladores, FXAA, SMAA y TAA, formatos 16:9, 16:10, 21:9 y 32:9 con el HUD en su forma, 120 y 240 Hz con fotogramas extra dibujados de nuevo con la geometría del juego, volcado de texturas y packs propios, cuatro estados de guardado, un mapa mejorado, controles modernos con gatillos analógicos, vibración y, en dispositivos de dos pantallas como la AYN Thor, el mapa y el cuaderno en la segunda. En Windows hay también versión portable. La 0.2.3 (11 de octubre) es la última de 7 versiones. 91 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Road Trip Recomp: a native Windows, macOS, and Android version of Road Trip (Choro Q HG 2), from the US PS2 release (SLUS-20398), by static recompilation with a fork of PS2Recomp. The app doesn’t ship the game: on first run it reads your disc image, recompiles the game’s program, and builds it with the compiler it carries (on a Mac, with Apple’s Command Line Tools), in under a minute on an M-series Mac and about 2.5 minutes on the AYN Thor. The game, the VU1 microcode, and the sound driver run as native code, and graphics go through Vulkan (Metal on the Mac), with a hardware renderer or paraLLEl-GS’s exact one. Adventure (towns, fields, shops, and races) and Quick Race are playable on all three platforms. It offers up to 4x resolution, a progressive picture without interlacing, FSR 1 and 3, DLSS and XeSS (with a separate add-on on Windows), MetalFX and other upscalers, FXAA, SMAA, and TAA, 16:9, 16:10, 21:9, and 32:9 with the HUD kept in shape, 120 and 240 Hz with extra frames re-rendered from the game’s geometry, texture dumping and custom packs, four save states, an enhanced map, modern controls with analog triggers, rumble, and, on dual-screen devices such as the AYN Thor, the map and notebook on the second screen. There’s also a portable Windows build. 0.2.3 (October 11) is the latest of 7 releases. 91 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Road Trip para PS2, versión estadounidense (SLUS-20398), en .cue/.bin, .iso o .chd; la app la compara con el volcado de Redump. En Windows, Windows 10 (1903) u 11 de 64 bits con una CPU con SSE4.1 y una GPU con Vulkan 1.3; en Mac, Apple Silicon con macOS 13 o posterior y las Command Line Tools de Apple. Unos 2 GB libres."
+  en: "Your own disc image of Road Trip for PS2, US release (SLUS-20398), as .cue/.bin, .iso, or .chd; the app checks it against the Redump dump. On Windows, 64-bit Windows 10 (1903) or 11 with an SSE4.1 CPU and a Vulkan 1.3 GPU; on a Mac, Apple silicon with macOS 13 or newer and Apple’s Command Line Tools. About 2 GB free."
+tags:
+  - emotion-engine
+  - racing
+  - widescreen
+  - 60fps+
+  - vulkan
+  - build-android
+  - ai-assisted

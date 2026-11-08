@@ -1,0 +1,15 @@
+name: "psprecomp (sp00nznet)"
+kind: recompiler
+consoles:
+  - psp
+repo: sp00nznet/psprecomp
+author: sp00nznet
+status: experimental
+desc:
+  es: "Kit de recompilación estática para juegos de PSP, en C11 y con licencia MIT. Abre la pila de formatos del disco (ISO9660, PBP, ~PSP y PRX), descifra los módulos con KIRK y traduce el código Allegrex (MIPS32r2, con la VFPU) a C legible, una función por dirección; ese C se enlaza con un runtime que reimplementa a alto nivel el firmware de la PSP (memoria, hilos, archivos, sonido sceSasCore) y dibuja con un rasterizador por software. No es el PSPRecomp de jessicanataliagta, que tiene ficha aparte: el README aclara que son proyectos distintos y sin código en común, y menciona otros dos con el mismo nombre. PPSSPP solo se usa como referencia para comparar resultados, sin copiar su código. Es una alfa: con el modo de hilos experimental activado, el juego de prueba, WTF: Work Time Fun (wtf-psp-recomp, del mismo autor), pasa de la pantalla de título y el menú a partidas de dos minijuegos con 3D y texturas; el sonido se mezcla pero todavía no suena, y faltan el recorte, la niebla y la ocultación de caras. Las aportaciones de otros colaboradores salen de llevar al kit LocoRoco, Monster Hunter Portable 3rd y Killzone: Liberation. El repositorio no trae nada de ningún juego, ni firmware ni claves de descifrado: hay que aportar tu propio volcado del UMD o de PSN, y la documentación explica cómo usar tus claves. La v0.5.0 (23 de octubre) es la última de 2 versiones. 27 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation toolkit for PSP games, in C11 and under the MIT license. It peels the disc’s stack of formats (ISO9660, PBP, ~PSP, and PRX), decrypts the modules with KIRK, and translates the Allegrex code (MIPS32r2, with the VFPU) into readable C, one function per address; that C links against a runtime that reimplements the PSP firmware at a high level (memory, threads, files, sceSasCore sound) and draws with a software rasterizer. It isn’t jessicanataliagta’s PSPRecomp, which has its own entry: the README makes clear they’re separate projects with no shared code, and mentions two others with the same name. PPSSPP is used only as a reference to compare results against, with none of its code copied. It’s an alpha: with the experimental threading mode on, the test game, WTF: Work Time Fun (wtf-psp-recomp, by the same author), goes from its title screen and menu into games of two microgames with 3D and textures; sound is mixed but not played yet, and near-plane clipping, fog, and culling are missing. Contributions from other people come from bringing LocoRoco, Monster Hunter Portable 3rd, and Killzone: Liberation up on the toolkit. The repository includes nothing from any game, nor firmware or decryption keys: you supply your own UMD or PSN dump, and the documentation explains how to use your own keys. v0.5.0 (October 23) is the latest of 2 releases. 27 of its last 100 commits list Claude as a co-author."
+tags:
+  - mips
+  - psp
+  - static-recomp
+  - ai-assisted

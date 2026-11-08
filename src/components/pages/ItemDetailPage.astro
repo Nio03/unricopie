@@ -10,7 +10,7 @@ import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/cata
 import { tagLabel } from "../../lib/tags";
 import { t, localePath, type Lang } from "../../i18n";
 import { consolePageKeys } from "../../lib/console-pages";
-import { getGames, gamePageIds, projectsByGame, installedBy } from "../../lib/games";
+import { getGames, gamePageIds, projectsByGame, installedBy, coverOf, COVER_W, COVER_H } from "../../lib/games";
 
 interface Props {
   lang: Lang;
@@ -67,6 +67,9 @@ const gameLinks = myGames.map((g) => ({
   meta: [g.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).label)[0], g.year].filter(Boolean).join(", "),
   href: withPage.has(g.id) ? localePath(lang, `juego/${g.id}`) : undefined,
 }));
+// Portada del (primer) juego de la ficha, con enlace a su página si la tiene.
+const coverGame = myGames.find((g) => coverOf(g.id));
+const cover = coverGame ? { src: coverOf(coverGame.id)!, name: coverGame.name, href: withPage.has(coverGame.id) ? localePath(lang, `juego/${coverGame.id}`) : undefined } : null;
 const otherProjects = myGames
   .filter((g) => withPage.has(g.id))
   .map((g) => ({
@@ -199,6 +202,9 @@ const seoTitle =
 
 // Datos estructurados: el proyecto (código fuente) y el juego del que trata.
 const abs = (p: string) => (Astro.site ? new URL(p.endsWith("/") ? p : p + "/", Astro.site).href : p);
+// Insignia para el README del proyecto: enlaza a la ficha en inglés, el idioma de casi todos los README.
+const badgeUrl = Astro.site ? new URL(`insignias/${type}/${entry.id}.svg`, Astro.site).href : `/insignias/${type}/${entry.id}.svg`;
+const badgeMd = `[![Recompendium](${badgeUrl})](${abs(localePath("en", `${type}/${entry.id}`))})`;
 const consoleKey: string | undefined = type === "tool" ? undefined : d.console;
 const jsonLd = [
   {
@@ -235,6 +241,15 @@ const jsonLd = [
   <main class="wrap detail">
     <div class="crumb"><a href={crumb.href}>{crumb.label}</a></div>
 
+    <div class:list={["entry-head", { "has-cover": cover }]}>
+    {
+      cover && (
+        cover.href
+          ? <a class="entry-cover" href={cover.href}><img class="cover" src={cover.src} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: cover.name })} /></a>
+          : <span class="entry-cover"><img class="cover" src={cover.src} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: cover.name })} /></span>
+      )
+    }
+    <div class="entry-head-main">
     <div class="detail-top">
       <span class="console" style={`--rail:${badgeColor};color:${badgeColor}`}><span class="dot"></span>{badgeLabel}</span>
       {statusLabel && <span class="pill is-pill" style={`color:${statusColor}`}>{statusLabel}</span>}
@@ -263,6 +278,8 @@ const jsonLd = [
         </p>
       )
     }
+    </div>
+    </div>
     <p class="lead">{d.desc[lang]}</p>
 
     {
@@ -315,6 +332,14 @@ const jsonLd = [
 
     {tags.length > 0 && (<div class="tagrow" style="margin-top:24px">{tags.map((tag) => <span class="tg">{tagLabel(tag, lang)}</span>)}</div>)}
 
+    <details class="badge-box">
+      <summary>{t(lang, "detail.badge")}</summary>
+      <p>{t(lang, "detail.badgeHelp")}</p>
+      <img src={`/insignias/${type}/${entry.id}.svg`} alt={t(lang, "detail.badge")} height="20" loading="lazy" />
+      <pre><code id="badge-md">{badgeMd}</code></pre>
+      <button class="btn" type="button" id="badge-copy" data-done={t(lang, "detail.badgeCopied")}>{t(lang, "detail.badgeCopy")}</button>
+    </details>
+
     {
       otherProjects.map((o) => (
         <>
@@ -354,4 +379,15 @@ const jsonLd = [
   });
   // Enlace directo .../recomp/<id>#edit abre el formulario al cargar.
   if (pane && location.hash === "#edit") pane.hidden = false;
+  // Copiar el Markdown de la insignia.
+  const copy = document.getElementById("badge-copy");
+  copy?.addEventListener("click", async () => {
+    const md = document.getElementById("badge-md")?.textContent ?? "";
+    try {
+      await navigator.clipboard.writeText(md);
+      copy.textContent = copy.dataset.done ?? "✓";
+    } catch {
+      // Sin permiso para el portapapeles: el texto queda a la vista para copiarlo a mano.
+    }
+  });
 </script>

@@ -1,0 +1,21 @@
+name: "Sly Cooper / Sly 2 / Sly 3 (SafeHouse)"
+games: [sly-cooper-and-the-thievius-raccoonus, sly-2-band-of-thieves, sly-3-honor-among-thieves]
+category: decomp-port
+console: ps2
+status: playable
+repo: FridiNaTor1/SafeHouse
+author: FridiNaTor1
+originalDeveloper: "Sucker Punch Productions"
+year: 2002
+desc:
+  es: "SafeHouse: launcher y ports nativos para PC de los tres Sly Cooper de PS2, que instala cada juego desde tu imagen de disco y lo ejecuta sin emulador ni BIOS. El de Sly Cooper and the Thievius Raccoonus se basa en ProjectCane, de theclub654, que ya está en el catálogo, y es jugable; el de Sly 2: Band of Thieves parte de la decompilación de Sly 2 de Komasia y se puede jugar de principio a fin; el de Sly 3: Honor Among Thieves, rehecho sobre el motor del de Sly 2, está en una fase temprana: se instala y reproduce los vídeos del principio, y el resto del juego está por portar. Corre en Windows, Linux (también la Steam Deck) y macOS, aunque los paquetes de Mac solo traen Sly 2 y Sly 3. Ofrece 30, 60, 90, 120 o 240 fps, sin límite o la frecuencia del monitor, con la velocidad del juego intacta, formatos de hasta 32:9 con el HUD en sus proporciones 4:3, VSync, MSAA y resolución interna, teclado y ratón con teclas reasignables, iconos de mandos de Xbox, PlayStation, Nintendo, Steam Deck y Steam Controller (o los originales de PS2), vibración, un menú de depuración con extras (jugar como Carmelita, guardias y jefes, volar el helicóptero teledirigido de Bentley, atravesar paredes, cámara libre), repetir trabajos ya superados, 30 ranuras de partida, añadir los juegos a Steam y mods de texturas, música, diálogos, texto y vídeos. En Sly 2 puede importar las texturas HD de tu copia de The Sly Collection de PS3. El launcher comprueba la imagen antes de instalarla y se actualiza solo. La v0.1.18 (8 de noviembre) es la última de 8 versiones."
+  en: "SafeHouse: a launcher and native PC ports of the three PS2 Sly Cooper games, which installs each game from your disc image and runs it with no emulator or BIOS. The Sly Cooper and the Thievius Raccoonus port is based on theclub654’s ProjectCane, already in the catalog, and is playable; the Sly 2: Band of Thieves port comes from Komasia’s Sly 2 decompilation and can be played from start to finish; the Sly 3: Honor Among Thieves port, rebuilt on the Sly 2 port’s engine, is at an early stage: it installs and plays the opening movies, and the rest of the game is still to be ported. It runs on Windows, Linux (the Steam Deck too), and macOS, though the Mac packages only carry Sly 2 and Sly 3. It offers 30, 60, 90, 120, or 240 fps, uncapped, or the monitor’s refresh rate, with the game speed unchanged, aspect ratios up to 32:9 with the HUD kept at its 4:3 proportions, VSync, MSAA, and internal resolution, keyboard and mouse with remappable keys, button icons for Xbox, PlayStation, Nintendo, Steam Deck, and Steam Controller (or the original PS2 ones), rumble, a debug menu with extras (play as Carmelita, guards, and bosses, fly Bentley’s RC chopper, noclip, free camera), replaying finished jobs, 30 save slots, adding the games to Steam, and texture, music, dialog, text, and movie mods. In Sly 2 it can import the HD textures from your copy of The Sly Collection for PS3. The launcher checks the image before installing it and updates itself. v0.1.18 (November 8) is the latest of 8 releases."
+requirements:
+  es: "Tus propias imágenes de disco (.iso) de los juegos de PS2: Sly Cooper and the Thievius Raccoonus de EE. UU., Europa, Japón o Corea, y Sly 2: Band of Thieves de EE. UU., Europa (v1.00 o v2.01) o Japón. Windows x86-64, Linux x86-64 o macOS (Apple Silicon o Intel), con una GPU con OpenGL 4.3 (Metal en macOS)."
+  en: "Your own disc images (.iso) of the PS2 games: Sly Cooper and the Thievius Raccoonus from the US, Europe, Japan, or Korea, and Sly 2: Band of Thieves from the US, Europe (v1.00 or v2.01), or Japan. x86-64 Windows, x86-64 Linux, or macOS (Apple silicon or Intel), with an OpenGL 4.3 GPU (Metal on macOS)."
+tags:
+  - emotion-engine
+  - platformer
+  - widescreen
+  - 60fps+
+  - mods

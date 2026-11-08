@@ -1,0 +1,21 @@
+name: "Dragon Ball Z: Budokai Tenkaichi 3 (BT3-Recomp)"
+games: [dragon-ball-z-budokai-tenkaichi-3]
+console: ps2
+status: playable
+repo: z3xox/BT3-Recomp
+author: z3xox
+originalDeveloper: Spike
+year: 2007
+toolchain: PS2Recomp
+desc:
+  es: "BT3-Recomp: port nativo para Windows y Linux, y experimental en macOS, de la versión estadounidense de PS2 (SLUS-21678), por recompilación estática con un PS2Recomp modificado (con correcciones de la FPU y las VU): al compilar, el código MIPS del ejecutable y de su overlay de juego se traduce a unos 7.800 archivos de C++ a partir de tu imagen. Dibuja con OpenGL, con paraLLEl-GS (el GS emulado en Vulkan, experimental, que pasa a ser el renderizador por defecto si se compila) o con un renderizador Vulkan nativo. Trae un frontal propio (ImGui sobre SDL2) con asistente de instalación, ajustes y mandos, pantalla ancha, escala de render, packs de texturas compatibles con los de PCSX2 (el frontal abre la página de descarga del pack y lo instala desde el archivo que bajes), caché de texturas y una API de mods, con la que se hizo Tag Team, un mod de hasta seis luchadores que se distribuye aparte. Arranca con los logotipos y el título, los menús funcionan y los combates se ven cerca del tope de 30 fps del motor; quedan triángulos sueltos en algunas arenas, diferencias en las sombras, fallos en texturas de escenarios, una pose del brazo que a veces se invierte al cargar ki, y los vídeos se saltan. El README remite a versiones publicadas, pero el repositorio no tiene ninguna: hay que compilarlo con tu imagen. El repositorio incluye el código ya recompilado de 19 módulos del IOP del disco (data/IRX), unos 16 MB de C++. El mismo autor tiene aparte un port basado en la decompilación del juego, Tenkaichi3Decomp."
+  en: "BT3-Recomp: a native port for Windows and Linux, and experimental on macOS, of the US PS2 release (SLUS-21678), by static recompilation with a modified PS2Recomp (with FPU and VU fixes): at build time, the MIPS code of the executable and its gameplay overlay is translated into about 7,800 C++ files from your image. It draws with OpenGL, with paraLLEl-GS (the GS emulated on Vulkan, experimental, which becomes the default renderer when built in), or with a native Vulkan renderer. It ships its own front end (ImGui on SDL2) with an install wizard, settings, and gamepads, widescreen, render scale, PCSX2-compatible texture packs (the front end opens the pack’s download page and installs it from the archive you download), a texture cache, and a mod API, used to make Tag Team, a mod for up to six fighters that’s distributed separately. It boots through the logos and title, the menus work, and fights render close to the engine’s 30 fps cap; stray triangles in some arenas, shadow differences, stage texture glitches, and an arm pose that sometimes flips during ki charge remain, and the movies are skipped. The README points to published releases, but the repository has none: you have to build it with your image. The repository includes the already recompiled code of 19 IOP modules from the disc (data/IRX), about 16 MB of C++. The same author has a separate port built on the game’s decompilation, Tenkaichi3Decomp."
+requirements:
+  es: "Tu propio volcado del disco de Dragon Ball Z: Budokai Tenkaichi 3, versión estadounidense (SLUS-21678), en ISO; otras regiones no sirven. Para jugar, Windows 10 de 64 bits o Linux (macOS, experimental), una CPU x86-64 con SSE4.1, 8 GB de RAM, una GPU con OpenGL 3.3 y unos 6 GB libres. Para compilarlo, unos 16 GB de RAM y 10 GB libres; en Windows, las Build Tools de Visual Studio 2022 con Clang, CMake, Ninja, Python 3 y Git, y en Linux, CMake, GCC o Clang con C++20, Python 3 y las bibliotecas de desarrollo de FFmpeg."
+  en: "Your own dump of the Dragon Ball Z: Budokai Tenkaichi 3 disc, US release (SLUS-21678), as an ISO; other regions won’t work. To play, 64-bit Windows 10 or Linux (macOS, experimental), an x86-64 CPU with SSE4.1, 8 GB of RAM, an OpenGL 3.3 GPU, and about 6 GB free. To build it, about 16 GB of RAM and 10 GB free; on Windows, the Visual Studio 2022 Build Tools with Clang, CMake, Ninja, Python 3, and Git, and on Linux, CMake, GCC or Clang with C++20, Python 3, and the FFmpeg development libraries."
+tags:
+  - emotion-engine
+  - dragon-ball
+  - fighting
+  - widescreen
+  - mods

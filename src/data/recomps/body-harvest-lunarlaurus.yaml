@@ -1,0 +1,19 @@
+name: "Body Harvest (LunarLaurus)"
+games: [body-harvest]
+console: n64
+status: fully
+repo: LunarLaurus/adams-ant-farm-recomp
+author: LunarLaurus
+originalDeveloper: DMA Design
+year: 1998
+toolchain: N64Recomp
+desc:
+  es: "Adam's Ant Farm: port nativo para Windows y Linux de 64 bits, construido a partir de la decompilación del juego de jaytheham, en la que también trabajó el autor, y recompilado de forma estática con N64Recomp, sobre N64ModernRuntime y RT64. Corren la versión estadounidense y la europea, que el launcher distingue por el archivo; la europea es una versión previa con menos pruebas. Es una beta, pero según el README el juego se puede jugar de principio a fin, con su sonido. Añade pantalla panorámica con el HUD en los bordes, escala de resolución, MSAA, supermuestreo, el filtrado de tres puntos de la N64, distancia de dibujado, niebla y cámara ajustables en vivo, packs de texturas, extracción y reescalado de las texturas del juego en tu PC, teclado, ratón y mando a la vez con todo reasignable, un icono de ajustes en los menús de pausa y el microcódigo de sonido del juego recompilado. Sin tocar nada, se juega como en la consola. Entre los fallos conocidos están chasquidos en el sonido, que se corregirán en la 0.12, y el menú de depuración (F8), que sigue dentro del juego. Dos ports anteriores de Body Harvest le sirvieron de referencia. El repositorio solo tiene el README, las licencias y las capturas: el código de cada versión se publica con ella como archivo de fuentes. La v0.11.0 (4 de noviembre) es la última de 2 versiones."
+  en: "Adam’s Ant Farm: a native 64-bit Windows and Linux port, built from jaytheham’s decompilation of the game, which the author also worked on, and statically recompiled with N64Recomp, on N64ModernRuntime and RT64. The US and European releases both run, and the launcher tells them apart from the file; the European one is a preview with less testing. It’s a beta, but according to the README the game is playable from start to finish, with its audio. It adds widescreen with the HUD at the edges, resolution scaling, MSAA, supersampling, N64 three-point filtering, draw, fog, and camera distance adjustable live, texture packs, extraction and upscaling of the game’s textures on your PC, keyboard, mouse, and controller together with everything remappable, a settings icon in the pause menus, and the game’s own sound microcode recompiled. Left untouched, it plays like the console. Known issues include crackle in the audio, to be fixed in 0.12, and the debug menu (F8), which is still in the game. Two earlier Body Harvest ports served as references. The repository holds only the README, licenses, and screenshots: each release’s code is published with it as a source archive. v0.11.0 (November 4) is the latest of 2 releases."
+requirements:
+  es: "Tu propia ROM de Body Harvest, la estadounidense (SHA-1 bbb6666f5014a473747ee4145f036d9fb25d7348) o la europea (67750e2e7ab46fedf65a271ab7f4c7aad92ae355). Además, Windows de 64 bits con el redistribuible de Visual C++ 2015-2022 (x64), o Linux x86-64 con SDL2, libcurl y GTK 3, y una GPU con Vulkan; en Windows se puede pasar a Direct3D 12. La primera vez, el launcher descarga SDL2.dll y comprueba su SHA-256."
+  en: "Your own Body Harvest ROM, US (SHA-1 bbb6666f5014a473747ee4145f036d9fb25d7348) or European (67750e2e7ab46fedf65a271ab7f4c7aad92ae355). Plus 64-bit Windows with the Visual C++ 2015-2022 (x64) redistributable, or x86-64 Linux with SDL2, libcurl, and GTK 3, and a Vulkan GPU; on Windows you can switch to Direct3D 12. On first run the launcher downloads SDL2.dll and checks its SHA-256."
+tags:
+  - mips
+  - action
+  - widescreen

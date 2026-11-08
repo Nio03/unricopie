@@ -1,0 +1,18 @@
+name: "flOw"
+games: [flow]
+console: ps3
+status: experimental
+repo: sp00nznet/flow
+author: sp00nznet
+originalDeveloper: "thatgamecompany"
+year: 2007
+toolchain: ps3recomp
+desc:
+  es: "Recompilación estática de la versión de PS3 (PSN, NPUA80001) de flOw, un juego que nunca salió en PC: las 102.056 funciones PowerPC del EBOOT se traducen a C y se enlazan con ps3recomp, un runtime que sustituye al sistema de la PS3, en un ejecutable de Windows con Direct3D 12, sonido por WASAPI y mandos XInput. Todavía no se juega: el motor PhyreEngine arranca, crea sus subsistemas y mantiene un bucle de fotogramas, y se ve una escena de un nivel que dibuja un constructor de escenas propio a partir de los datos del nivel, pero la máquina de estados del título no avanza. Desde la v0.6.0 carga la libsre.prx de Sony real, descifrada, para cellSpurs. No hay ejecutables publicados: el código traducido se genera en tu PC, en unas 2 o 3 horas, y no está en el repositorio. Sus últimos 100 commits llevan a Claude como coautor."
+  en: "A static recompilation of the PS3 (PSN, NPUA80001) version of flOw, a game that never came out on PC: the EBOOT’s 102,056 PowerPC functions are translated to C and linked against ps3recomp, a runtime that stands in for the PS3’s system, into a Windows executable with Direct3D 12, WASAPI sound, and XInput controllers. It isn’t playable yet: the PhyreEngine engine boots, creates its subsystems, and keeps a frame loop running, and a level scene shows up, drawn by its own scene builder from the level’s data, but the title’s state machine doesn’t move forward. Since v0.6.0 it loads Sony’s real libsre.prx, decrypted, for cellSpurs. There are no prebuilt executables: the translated code is generated on your PC, in about 2 to 3 hours, and isn’t in the repository. Its last 100 commits all list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de flOw para PS3 (NPUA80001, de PSN), con su EBOOT descifrado como EBOOT.elf (el proyecto lo hizo con RPCS3 y la licencia .rap). Para compilarlo, Python 3.8 o posterior, CMake 3.20 o posterior, Visual Studio 2022 (o Clang o GCC) y una copia de ps3recomp."
+  en: "Your own copy of flOw for PS3 (NPUA80001, from PSN), with its EBOOT decrypted as EBOOT.elf (the project did it with RPCS3 and the .rap license). To build it, Python 3.8 or later, CMake 3.20 or later, Visual Studio 2022 (or Clang or GCC), and a ps3recomp checkout."
+tags:
+  - powerpc
+  - ai-assisted

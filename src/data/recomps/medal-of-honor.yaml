@@ -1,0 +1,18 @@
+name: "Medal of Honor"
+games: [medal-of-honor]
+console: ps1
+status: playable
+repo: FractalEngineer/Medal-Of-Honor-PSX-Recomp
+author: FractalEngineer
+originalDeveloper: "DreamWorks Interactive"
+year: 1999
+toolchain: psxrecomp
+desc:
+  es: "Medal of Honor Recompiled: port nativo para Windows de la versión estadounidense de PS1 (SLUS-00974), por recompilación estática con psxrecomp y la interfaz de recomp-ui, con un modo de realidad virtual opcional. Por defecto se juega en pantalla normal; los lanzadores RunVR-VDXR.bat, RunVR-SteamVR.bat y RunVR-Oculus.bat activan la realidad virtual por OpenXR, con seguimiento de la cabeza en seis grados de libertad, una imagen para cada ojo, diez tipos de arma que siguen el mando, el HUD original anclado a las manos, un láser en el cañón, ametralladoras fijas que se apuntan con un solo stick y una vista para espectadores en el escritorio. Su autor considera jugable la versión actual con unas Quest 3 a través de Virtual Desktop (VDXR); con SteamVR también se ve bien, y Quest Link está sin probar. Las escenas más cargadas se ralentizan, falta un menú de opciones de VR y quedan misiones por comprobar. Dibuja con OpenGL. Las versiones traen OpenBIOS, así que no hace falta la BIOS de la consola, y un compilador TCC con Python que compila en tu equipo el código que el juego carga del disco. El repo incluye el código C ya recompilado del juego (generated/), del que se compilan las versiones. La v0.1.6 (22 de octubre) es la última de 7 versiones, todas alfas."
+  en: "Medal of Honor Recompiled: a native Windows port of the US PS1 release (SLUS-00974), by static recompilation with psxrecomp and the recomp-ui frontend, with an optional virtual reality mode. By default it’s played on a regular screen; the RunVR-VDXR.bat, RunVR-SteamVR.bat, and RunVR-Oculus.bat launchers turn on VR through OpenXR, with six-degrees-of-freedom head tracking, a separate image for each eye, ten weapon types that follow the controller, the original HUD anchored to your hands, a barrel laser, mounted machine guns aimed with a single stick, and a spectator view on the desktop. Its author considers the current build playable on a Quest 3 through Virtual Desktop (VDXR); SteamVR also renders correctly, and Quest Link is untested. The busiest scenes slow down, a VR options menu is still missing, and some missions are still to be checked. It renders with OpenGL. Releases include OpenBIOS, so the console BIOS isn’t needed, and a TCC and Python toolchain that compiles on your PC the code the game loads from the disc. The repo includes the game’s already recompiled C code (generated/), which the releases are built from. v0.1.6 (October 22) is the latest of 7 releases, all alphas."
+requirements:
+  es: "Tu propia imagen de Medal of Honor para PS1, versión estadounidense (SLUS-00974, NTSC-U), en CUE/BIN; la pista 1 debe medir 742.258.272 bytes (SHA-1 faebe91db711f804e1a6a38613c804b2c370f340). Windows de 64 bits; para la realidad virtual, unas gafas con un runtime de OpenXR que no sea solo de Direct3D (VDXR de Virtual Desktop, SteamVR o Quest Link)."
+  en: "Your own disc image of Medal of Honor for PS1, US release (SLUS-00974, NTSC-U), as CUE/BIN; track 1 must be 742,258,272 bytes (SHA-1 faebe91db711f804e1a6a38613c804b2c370f340). 64-bit Windows; for VR, a headset with an OpenXR runtime that isn’t Direct3D-only (Virtual Desktop’s VDXR, SteamVR, or Quest Link)."
+tags:
+  - mips
+  - fps

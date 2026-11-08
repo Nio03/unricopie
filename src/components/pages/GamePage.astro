@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import Card from "../Card.astro";
 import { consoleMeta } from "../../lib/consoles";
-import { getGames, projectsByGame, launchersFor } from "../../lib/games";
+import { getGames, projectsByGame, launchersFor, coverOf, COVER_W, COVER_H } from "../../lib/games";
 import type { Item } from "../../lib/catalog";
 import { t, localePath, type Lang, type UIKey } from "../../i18n";
 
@@ -75,6 +75,36 @@ if (top) {
     link: top,
   });
 }
+// Cuál está más avanzado: solo si hay más de uno donde elegir.
+const fulls = playables.filter((i) => i.statusKey === "fully");
+const plays = playables.filter((i) => i.statusKey === "playable");
+const best = fulls.length ? { kind: "full", its: fulls } : plays.length ? { kind: "playable", its: plays } : null;
+if (best && playables.length > 1) {
+  faqs.push({
+    q: t(lang, "game.q.best"),
+    a: t(lang, `game.a.best.${best.kind}.${best.its.length === 1 ? "1" : "n"}` as UIKey, { list: joinList(best.its.map((i) => i.name)) }),
+  });
+}
+// Si se sigue moviendo: el último cambio en el repo de cualquiera de sus proyectos.
+const latest = live.filter((i) => i.pushedAt).sort((a, b) => b.pushedAt!.localeCompare(a.pushedAt!))[0];
+if (latest) {
+  const when = new Date(latest.pushedAt!);
+  const date = when.toLocaleDateString(lang === "es" ? "es-ES" : "en-US", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+  const recent = Date.now() - when.getTime() < 365 * 86_400_000;
+  faqs.push({ q: t(lang, "game.q.active"), a: t(lang, recent ? "game.a.active.recent" : "game.a.active.old", { date, project: latest.name }) });
+}
+// Versiones para otras plataformas, según las etiquetas build-* de cada ficha.
+const BUILDS = ["android", "ios", "switch", "3ds", "vita", "web"] as const;
+const others = live
+  .map((i) => ({ it: i, plats: BUILDS.filter((b) => i.tags.includes(`build-${b}`)).map((b) => t(lang, `game.build.${b}` as UIKey)) }))
+  .filter((o) => o.plats.length > 0);
+if (others.length) {
+  faqs.push({
+    q: t(lang, "game.q.other"),
+    a: t(lang, "game.a.other", { list: others.map((o) => `${o.it.name} (${joinList(o.plats)})`).join("; ") }),
+  });
+}
+const cover = coverOf(id);
 
 const title = `${t(lang, "game.seoTitle", { name: game.name, summary })} — Recompendium`;
 const description = faqs[0].a;
@@ -89,6 +119,7 @@ const jsonLd = [
     inLanguage: lang,
     gamePlatform: game.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).full),
     datePublished: game.year ? String(game.year) : undefined,
+    image: cover ? abs(cover) : undefined,
   },
   {
     "@context": "https://schema.org",
@@ -117,8 +148,14 @@ const jsonLd = [
 <Base lang={lang} title={title} description={description} jsonLd={jsonLd}>
   <main class="wrap detail">
     <div class="crumb"><a href={localePath(lang, "juegos")}>{t(lang, "game.crumb")}</a></div>
-    <h1>{game.name}</h1>
-    <p class="game-meta">{[...platforms, game.year, t(lang, "game.projects", { n: items.length })].filter(Boolean).join(" · ")}</p>
+    <div class:list={["game-head", { "has-cover": cover }]}>
+      {cover && <img class="cover" src={cover} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: game.name })} />}
+      <div>
+        <h1>{game.name}</h1>
+        <p class="game-meta">{[...platforms, game.year, t(lang, "game.projects", { n: items.length })].filter(Boolean).join(" · ")}</p>
+        <p class="short-answer"><span class="reqs-k">{t(lang, "game.short")}</span>{faqs[0].a} {t(lang, "game.shortNeed", { name: game.name, platform: mainPlatform ?? "" }).replace(" ()", "")}</p>
+      </div>
+    </div>
 
     <div class="sec-h"><h2>{summary}</h2></div>
     <section class="grid" style="padding-top:8px">{items.map((it) => <Card item={it} lang={lang} />)}</section>

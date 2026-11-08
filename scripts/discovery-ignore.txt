@@ -260,3 +260,24 @@ sergiomanzur/symphonyrecomp                           # no corre en PC: solo And
 themriron2/sf64-psp                                   # no corre en PC: solo PSP
 zloikiller/nfs3recompiled-android                     # no corre en PC: solo Android
 zwaetschge/acgc-android-port                          # no corre en PC: solo Android
+
+# ══ Tanda «portedgames» (8-11-2026) ══
+
+# ── Redistribuyen o enlazan contenido del juego ──
+chasem-dev/colosseum-launcher                         # el launcher baja por defecto un pack de 2 GB con las 7.498 texturas del juego reescaladas a 4x (chasem-dev/pokemon-colosseum-extras); además es un launcher y el port vive en GitLab
+cheviman/tmnt-port                                    # trae tablas sacadas del juego: runtime/src/extract_layout.c (1,5 MB) con los códigos de tesela y paletas de las hojas de sprites del recreativo
+dennisabalo18-bot/red-dead-revolver-pc                # el README enlaza en Google Drive un pack de texturas del juego reescaladas con IA (2,7 GB) y los vídeos del juego remasterizados (1 GB)
+Ryzellx/godhand-port                                  # trae datos del juego: out/textures.bin (58 MB; su commit dice «30 TIM2 extracted + texture atlas + game scene»), pl00_texture.bin, pl00_verts.bin, volcados de escena (game_scene.bin, battle_scene.bin) y texturas en PNG (out/tex); además aún no se juega
+Scotho/socom-unzipped                                 # trae datos del juego: tests/fixtures/audio lleva dos trozos del banco de sonido HUDUI «cortados del disco» (hudui_block.bin y hudui_vag.bin, 60 KB) y otro bloque de sonido (m51_am_block.bin), y tests/fixtures/vu1 volcados de la VU1 del juego en marcha
+xdivorex-gif/spiderman-2002-pc                        # trae datos del juego: la release v0.1.2 (SpiderManSetup.exe, 220 MB) incrusta las «HD upgrades» sacadas del juego (tools/make_extras_pack.py: texturas reescaladas con Real-ESRGAN, vídeos reescalados y paquetes del juego modificados), aunque el README dice que no trae nada del juego
+
+# ── Emuladores o núcleos de emulador ──
+Darhkfox/SuperMarioAllStars                           # es un emulador: el README dice que emula el hardware de la SNES (src/core con 65C816, SPC700, DSP y PPU) y ejecuta tu ROM
+luizgustavs/Pink-shadPS4                              # es un emulador: fork de shadPS4 (emulador de PS4) con ajustes para Shadow of the Colossus
+
+# ── No corren en PC ──
+chrissotraidis/paperpad                               # no corre en PC: la versión actual es solo iOS; la de macOS es la Original retirada, sobre Paper-Mario-ReCut (ya en el catálogo)
+contatg/Def-Jam-Android-Native-Port                   # no corre en PC: solo Android (APK); el repo no tiene código
+dzakyraf/pes2017-recomp                               # no corre en PC: solo Android (APK ARM64)
+elripalda/gta4-ps5                                    # no corre en PC: solo PS5 con jailbreak (port de Liberty Recompiled a partir del fork de Android de vaduur)
+KoreanSeats1/Theft4                                   # no corre en PC: solo iOS y iPadOS (IPA para instalar por sideload); recompilación de GTA IV de Xbox 360 hecha sobre LibertyRecomp

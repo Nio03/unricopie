@@ -1,0 +1,23 @@
+name: "SoulCalibur II (Xbox)"
+games: [soulcalibur-ii]
+console: xbox
+status: playable
+repo: tmcleroy/soulcalibur2-recomp
+author: tmcleroy
+originalDeveloper: "Namco"
+year: 2003
+toolchain: xboxrecomp
+desc:
+  es: "Port nativo no oficial para macOS, Linux (también Steam Deck y Steam Machine), Windows y Android de la versión de Xbox, por recompilación estática: el programa del juego se traduce a C de antemano y corre sobre un runtime nativo, el de las recompilaciones de Dead or Alive de NoRain211, con el xboxrecomp de sp00nznet como traductor. Su seña es reunir a los tres invitados exclusivos: Spawn, de la versión de Xbox, y Link y Heihachi, que el lanzador convierte en tu equipo a partir de tus discos de GameCube y de PS2 (modelos, movimientos, armas, voces y finales) y que aparecen en todos los modos. Funcionan Arcade, VS, Weapon Master, los modos Extra, el Museo y el juego en línea para dos con rollback, código de partida, sala de espera y chat. Añade un modo de entrenamiento (cajas de colisión, datos de fotogramas, grabar y repetir al muñeco, estados guardados), cámara libre con pausa y modo foto, pantalla ancha, resolución de hasta 8x, filtros de CRT de RetroArch, el pack de texturas HD de la versión de GameCube para Dolphin si lo descargas tú, trucos y un lanzador que se actualiza solo; en Android, controles táctiles. Se ha probado sobre todo en macOS; la versión de Windows compila pero no se ha probado. La v0.3.0-beta.1 (5 de noviembre) es la última de 20 versiones. 46 de sus 76 commits llevan a Claude como coautor."
+  en: "An unofficial native port of the Xbox version for macOS, Linux (Steam Deck and Steam Machine included), Windows, and Android, by static recompilation: the game’s program is translated to C ahead of time and runs on a native runtime, the one from NoRain211’s Dead or Alive recompilations, with sp00nznet’s xboxrecomp as the lifter. Its hallmark is bringing the three console-exclusive guests together: Spawn, from the Xbox version, and Link and Heihachi, which the launcher converts on your machine from your GameCube and PS2 discs (models, moves, weapons, voices, and endings) and which show up in every mode. Arcade, VS, Weapon Master, the Extra modes, the Museum, and two-player online play with rollback, match codes, a lobby, and chat all work. It adds a training mode (hit boxes, frame data, a dummy that records and replays, save states), a free camera with pause and photo mode, widescreen, resolution up to 8x, RetroArch CRT shaders, the GameCube version’s HD texture pack for Dolphin if you download it yourself, cheats, and a self-updating launcher; on Android, touch controls. It’s been tested mostly on macOS; the Windows build compiles but is untested. v0.3.0-beta.1 (November 5) is the latest of 20 releases. 46 of its 76 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de disco de Soulcalibur II para Xbox, versión estadounidense o europea (esta, por ahora, solo en Mac y sin los invitados), en .iso, o el Default.xbe del disco; el lanzador comprueba su SHA-256. Para Link y Heihachi, opcionales, tu propio disco de GameCube, de PS2 o los dos. Además, macOS 26 o posterior con Apple Silicon, Linux x86-64 con Vulkan y shaderc, Windows 10 u 11 de 64 bits (sin probar) o Android 10 o posterior de 64 bits con Vulkan."
+  en: "Your own disc image of Soulcalibur II for Xbox, US or European release (the latter, for now, only on the Mac and without the guests), as an .iso, or the disc’s Default.xbe; the launcher checks its SHA-256. For Link and Heihachi, which are optional, your own GameCube disc, PS2 disc, or both. Plus macOS 26 or later on Apple silicon, x86-64 Linux with Vulkan and shaderc, 64-bit Windows 10 or 11 (untested), or 64-bit Android 10 or later with Vulkan."
+tags:
+  - x86
+  - fighting
+  - widescreen
+  - online
+  - multiplayer
+  - build-android
+  - ai-assisted

@@ -11,6 +11,12 @@
 # - year: año del lanzamiento original. platforms: de qué plataformas parten
 #   los proyectos del catálogo.
 
+007-agent-under-fire:
+  name: "007: Agent Under Fire"
+  igdb: 1643
+  year: 2001
+  platforms: [xbox]
+
 007-everything-or-nothing:
   name: "007: Everything or Nothing"
   year: 2004
@@ -1111,7 +1117,7 @@ crazy-taxi:
   name: Crazy Taxi
   igdb: 1805
   year: 1999
-  platforms: [dreamcast]
+  platforms: [dreamcast, x360]
 
 crimsonland:
   name: Crimsonland
@@ -1610,6 +1616,12 @@ dragon-ball-z-budokai-3:
   year: 2012
   platforms: [x360]
 
+dragon-ball-z-budokai-tenkaichi-2:
+  name: "Dragon Ball Z: Budokai Tenkaichi 2"
+  igdb: 2252
+  year: 2006
+  platforms: [ps2]
+
 dragon-ball-z-budokai-tenkaichi-3:
   name: "Dragon Ball Z: Budokai Tenkaichi 3"
   igdb: 2254
@@ -1675,6 +1687,12 @@ driveclub:
   igdb: 1940
   year: 2014
   platforms: [ps4]
+
+driver:
+  name: Driver
+  igdb: 675
+  year: 1999
+  platforms: [ps1]
 
 driver-2:
   name: Driver 2
@@ -1988,6 +2006,12 @@ fifa-street:
   year: 2012
   platforms: [x360]
 
+fifa-street-2:
+  name: FIFA Street 2
+  igdb: 5833
+  year: 2006
+  platforms: [xbox]
+
 fight-night-champion:
   name: Fight Night Champion
   igdb: 6356
@@ -2072,6 +2096,12 @@ fist-of-the-north-star-lost-paradise:
   year: 2018
   platforms: [ps4]
 
+flow:
+  name: flOw
+  igdb: 1353
+  year: 2007
+  platforms: [ps3]
+
 forza-horizon:
   name: Forza Horizon
   igdb: 3047
@@ -2083,6 +2113,12 @@ forza-horizon-2:
   igdb: 7326
   year: 2014
   platforms: [xboxone, x360]
+
+forza-motorsport:
+  name: Forza Motorsport
+  igdb: 3073
+  year: 2005
+  platforms: [xbox]
 
 forza-motorsport-2:
   name: Forza Motorsport 2
@@ -2423,7 +2459,7 @@ guitar-hero-iii-legends-of-rock:
   name: "Guitar Hero III: Legends of Rock"
   igdb: 2671
   year: 2007
-  platforms: [x360]
+  platforms: [x360, ps3]
 
 guitar-hero-metallica:
   name: "Guitar Hero: Metallica"
@@ -2465,7 +2501,13 @@ half-life-2:
   name: Half-Life 2
   igdb: 233
   year: 2004
-  platforms: [pc]
+  platforms: [pc, xbox]
+
+halo-2:
+  name: Halo 2
+  igdb: 986
+  year: 2004
+  platforms: [xbox]
 
 halo-3:
   name: Halo 3
@@ -2652,6 +2694,11 @@ ico:
   igdb: 7170
   year: 2001
   platforms: [ps2]
+
+imsa-world-championship-racing:
+  name: "IMSA World Championship Racing"
+  igdb: 237511
+  platforms: [m2]
 
 in-pursuit-of-greed:
   name: In Pursuit of Greed
@@ -3313,6 +3360,12 @@ mechcommander-2:
   igdb: 19194
   year: 2001
   platforms: [pc]
+
+medal-of-honor:
+  name: Medal of Honor
+  igdb: 1307
+  year: 1999
+  platforms: [ps1]
 
 medal-of-honor-allied-assault:
   name: "Medal of Honor: Allied Assault"
@@ -4211,6 +4264,12 @@ perfect-dark-zero:
   year: 2005
   platforms: [x360]
 
+persona-3-fes:
+  name: Persona 3 FES
+  igdb: 11437
+  year: 2007
+  platforms: [ps2]
+
 peter-jacksons-king-kong-the-official-game-of-the-movie:
   name: "Peter Jackson's King Kong: The Official Game of the Movie"
   igdb: 248543
@@ -4451,6 +4510,12 @@ pokepark-wii-pikachus-adventure:
   year: 2009
   platforms: [wii]
 
+portal-2:
+  name: Portal 2
+  igdb: 72
+  year: 2011
+  platforms: [pc]
+
 powerslave:
   name: PowerSlave
   igdb: 188071
@@ -4631,6 +4696,12 @@ ratchet-and-clank-future-a-crack-in-time:
   year: 2009
   platforms: [ps3]
 
+ratchet-and-clank-future-tools-of-destruction:
+  name: "Ratchet & Clank Future: Tools of Destruction"
+  igdb: 1792
+  year: 2007
+  platforms: [ps3]
+
 ratchet-and-clank-going-commando:
   name: "Ratchet & Clank: Going Commando"
   igdb: 1770
@@ -4805,6 +4876,12 @@ road-rash-64:
   year: 1999
   platforms: [n64]
 
+road-trip:
+  name: Road Trip
+  igdb: 44694
+  year: 2002
+  platforms: [ps2]
+
 rock-band-3:
   name: Rock Band 3
   igdb: 2691
@@ -4834,6 +4911,12 @@ rockstar-games-presents-table-tennis:
   igdb: 2541
   year: 2006
   platforms: [x360]
+
+rogue-galaxy:
+  name: Rogue Galaxy
+  igdb: 11292
+  year: 2005
+  platforms: [ps2]
 
 roll-away:
   name: Roll Away
@@ -5194,6 +5277,18 @@ skylanders-trap-team:
   year: 2014
   platforms: [x360]
 
+sly-2-band-of-thieves:
+  name: "Sly 2: Band of Thieves"
+  igdb: 1799
+  year: 2004
+  platforms: [ps2]
+
+sly-3-honor-among-thieves:
+  name: "Sly 3: Honor Among Thieves"
+  igdb: 1800
+  year: 2005
+  platforms: [ps2]
+
 sly-cooper-and-the-thievius-raccoonus:
   name: Sly Cooper and the Thievius Raccoonus
   igdb: 1798
@@ -5402,7 +5497,7 @@ soulcalibur-ii:
   name: Soulcalibur II
   igdb: 227987
   year: 2003
-  platforms: [gamecube]
+  platforms: [gamecube, xbox]
 
 soulcalibur-ii-hd-online:
   name: Soulcalibur II HD Online
@@ -5660,6 +5755,12 @@ star-wars-tie-fighter:
   igdb: 166
   year: 1994
   platforms: [dos]
+
+star-wars-trilogy-arcade:
+  name: Star Wars Trilogy Arcade
+  igdb: 39351
+  year: 1998
+  platforms: [arcade]
 
 star-wars-x-wing:
   name: "Star Wars: X-Wing"
@@ -6779,6 +6880,12 @@ top-spin:
   year: 2003
   platforms: [xbox]
 
+top-spin-4:
+  name: Top Spin 4
+  igdb: 5233
+  year: 2011
+  platforms: [x360]
+
 torchlight:
   name: Torchlight
   igdb: 2480
@@ -6886,6 +6993,12 @@ twisted-metal-4:
   igdb: 4698
   year: 1999
   platforms: [ps1]
+
+twisted-metal-black:
+  name: "Twisted Metal: Black"
+  igdb: 5413
+  year: 2001
+  platforms: [ps2]
 
 twisted-metal-iii:
   name: Twisted Metal III

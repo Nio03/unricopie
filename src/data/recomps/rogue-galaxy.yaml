@@ -1,0 +1,21 @@
+name: "Rogue Galaxy"
+games: [rogue-galaxy]
+console: ps2
+status: playable
+repo: victor-takai/rogue-galaxy-recomp
+author: victor-takai
+originalDeveloper: "Level-5"
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "Rogue Galaxy Recompiled: port nativo para Windows de la versión estadounidense de PS2 (SCUS-97490), por recompilación estática sobre PS2Recomp, con los mapas de funciones de la decompilación RGDecomp y el motor gráfico SDL3 GPU y el menú de DQ8-Recompiled. Ofrece 60 fps, pantalla ancha, resolución interna de hasta 8x, un menú propio (F1) con opciones de juego nuevas (más espacio en la bolsa, objetos hasta 99, crecimiento de armas más rápido, minimapa más pequeño), cámara libre, iconos de mando de Xbox, voces y vídeos japoneses (undub), el equilibrio de combates, la conducta de los enemigos y la IA del grupo del Director's Cut japonés como opciones, textos en francés, alemán, español o italiano (experimental) y packs de texturas, también los de PCSX2. Es una versión preliminar: el juego entero se puede jugar, pero aún no se ha jugado de principio a fin, casi todas las pruebas cubren el principio, y avisa de fallos gráficos, bajones a 50 fps en las escenas más cargadas y algún posible cuelgue. El instalador compila el juego en tu PC a partir de tu imagen en unos 20 minutos, hasta una hora en equipos lentos. La 0.2.0 (4 de noviembre), preliminar, es la última de 2 versiones. 84 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Rogue Galaxy Recompiled: a native Windows port of the US PS2 release (SCUS-97490), by static recompilation on PS2Recomp, with the function maps from the RGDecomp decompilation and DQ8-Recompiled’s SDL3 GPU graphics backend and menu. It offers 60 fps, widescreen, internal resolution up to 8x, its own menu (F1) with new game options (more bag space, items up to 99, faster weapon growth, a smaller minimap), a free camera, Xbox controller prompts, Japanese voices and movies (undub), the Japanese Director’s Cut’s battle balance, enemy behavior, and party AI as options, text in French, German, Spanish, or Italian (experimental), and texture packs, PCSX2’s included. It’s a pre-release: the whole game can be played, but it hasn’t been played from start to finish yet, most testing covers the early game, and it warns of graphics glitches, dips to 50 fps in the heaviest scenes, and a possible freeze. The installer builds the game on your PC from your image in about 20 minutes, up to an hour on slower machines. 0.2.0 (November 4), a pre-release, is the latest of 2 releases. 84 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen .iso sin comprimir de Rogue Galaxy, versión estadounidense (SCUS-97490), como la de Redump (6.967.721.984 bytes); los .chd y .cso hay que devolverlos antes a .iso. Para el undub y el equilibrio del Director's Cut, opcionales, tu imagen del Director's Cut japonés (SCPS-17013), y para los textos europeos, la del disco europeo (SCES-54552). Además, Windows 10 u 11 de 64 bits, unos 16 GB libres y conexión a internet: el instalador descarga unos 300 MB de herramientas de compilación."
+  en: "Your own uncompressed .iso of Rogue Galaxy, US release (SCUS-97490), like Redump’s (6,967,721,984 bytes); .chd and .cso files have to be turned back into an .iso first. For the undub and the Director’s Cut balance, which are optional, your image of the Japanese Director’s Cut (SCPS-17013), and for the European texts, the European disc’s (SCES-54552). Plus 64-bit Windows 10 or 11, about 16 GB free, and an internet connection: the installer downloads about 300 MB of build tools."
+tags:
+  - emotion-engine
+  - rpg
+  - widescreen
+  - "60fps+"
+  - ai-assisted

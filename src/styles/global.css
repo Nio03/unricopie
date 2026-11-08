@@ -113,15 +113,35 @@ header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
 
 /* ---------- juegos ---------- */
 .game-meta { font-family: var(--mono); font-size: 12px; color: var(--ink-3); letter-spacing: 0.3px; margin: 0 0 6px; }
+/* Portada de IGDB (264×374): la caja del juego, al lado del título. */
+.cover { display: block; width: 100%; height: auto; aspect-ratio: 264 / 374; object-fit: cover; border-radius: 6px; border: 1px solid var(--line-2); background: var(--panel); box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35); }
+.game-head.has-cover { display: grid; grid-template-columns: 176px minmax(0, 1fr); gap: 26px; align-items: start; margin-bottom: 8px; }
+.short-answer { max-width: 70ch; margin: 14px 0 0; padding: 10px 0 10px 14px; border-left: 2px solid var(--gold); color: var(--ink-2); font-size: 15px; line-height: 1.6; }
+.short-answer .reqs-k { display: block; margin-bottom: 4px; }
+/* Insignia para el README, plegada al final de la ficha. */
+.badge-box { margin-top: 26px; max-width: 70ch; border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 14px; background: var(--panel); }
+.badge-box summary { cursor: pointer; font-family: var(--mono); font-size: 12px; color: var(--ink-2); letter-spacing: 0.3px; }
+.badge-box p { color: var(--ink-2); font-size: 13px; line-height: 1.55; margin: 10px 0; }
+.badge-box img { display: block; margin: 0 0 10px; }
+.badge-box pre { margin: 0 0 10px; padding: 8px 10px; background: var(--bg, #181a26); border: 1px solid var(--line); border-radius: 6px; overflow-x: auto; font-size: 11.5px; color: var(--ink-2); white-space: pre-wrap; word-break: break-all; }
+/* En la ficha, la portada del juego más pequeña, al lado de las etiquetas y el título. */
+.entry-head.has-cover { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 22px; align-items: start; }
+.entry-cover { display: block; }
+a.entry-cover:hover .cover { border-color: var(--gold); }
+@media (max-width: 640px) {
+  .game-head.has-cover { grid-template-columns: 96px minmax(0, 1fr); gap: 16px; }
+  .entry-head.has-cover { grid-template-columns: 76px minmax(0, 1fr); gap: 14px; }
+}
 .game-line { margin: 2px 0 10px; }
 .game-links { color: var(--ink-3); font-size: 14px; line-height: 1.8; max-width: 90ch; margin: 0; }
 .game-links .see-all { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
 .game-filter { margin: 22px 0 6px; }
 .game-group h2 { font-family: var(--pixel); font-size: 15px; color: var(--gold); margin: 30px 0 10px; }
 .game-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 6px 26px; }
-.game-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--line); }
+.game-list li { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--line); }
 .game-list li[hidden], .game-group[hidden] { display: none; }
-.game-list a { color: var(--ink); }
+.game-list a { color: var(--ink); display: inline-flex; align-items: center; gap: 12px; }
+.game-list .thumb { width: 34px; flex: none; border-radius: 3px; box-shadow: none; }
 .game-list a:hover { color: var(--gold); }
 .game-list span { font-family: var(--mono); font-size: 11px; color: var(--ink-3); white-space: nowrap; }
 

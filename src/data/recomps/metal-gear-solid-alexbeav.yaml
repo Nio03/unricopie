@@ -1,0 +1,19 @@
+name: "Metal Gear Solid (Alexbeav)"
+games: [metal-gear-solid]
+console: ps1
+status: experimental
+repo: alexbeavs-ps1-ports/metal-gear-solid-recomp
+author: Alexbeav
+originalDeveloper: Konami
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "Kit de recompilación estática de la versión europea de PS1 (los dos discos, SLES-01370 y SLES-11370) para Windows, Linux y macOS, hecho con psxrecomp y el launcher recomp-ui. Es un proyecto distinto del de coccofresco. Las versiones publicadas son kits de instalación: un asistente comprueba tu disco y tu BIOS, genera el código del juego y lo compila en tu PC; en Windows puede descargar unas herramientas de compilación portátiles. Todavía no consta que se juegue: el README dice que la prueba de la partida está pendiente y que compilarlo no demuestra que el juego funcione, y la v0.1.1 avisa de que no promete nada sobre la calidad del juego. En Windows, las pruebas automáticas cubren la comprobación del disco, la generación, la compilación, el arranque y el cierre; los paquetes de Linux y macOS no se han probado en esos sistemas. El juego va con el renderizador OpenGL, en 4:3. La v0.1.1 (30 de septiembre) es la última de 2 versiones: corrige la 0.1.0, que pedía otra BIOS y volvía a la pantalla de instalación después de compilar. El README dice que el proyecto se hizo con ayuda de IA en el código, la documentación y la investigación, y que Alex prueba el juego y decide qué se publica."
+  en: "A static recompilation kit for the European PS1 release (both discs, SLES-01370 and SLES-11370) for Windows, Linux, and macOS, built with psxrecomp and the recomp-ui launcher. It’s a separate project from coccofresco’s. The published releases are setup kits: a wizard checks your disc and your BIOS, generates the game’s code, and builds it on your PC; on Windows it can download portable build tools. It isn’t confirmed to be playable yet: the README says gameplay testing is still pending and that building it doesn’t prove the game works, and v0.1.1 states that it makes no claim about gameplay quality. On Windows, automated checks cover disc verification, generation, building, launch, and closing; the Linux and macOS packages haven’t been tested on those systems. The game uses the OpenGL renderer, in 4:3. v0.1.1 (September 30) is the latest of 2 releases: it fixes 0.1.0, which asked for the wrong BIOS and looped back to the setup screen after building. The README says the project was made with AI assistance on code, documentation, and investigation, and that Alex tests the game and decides what gets released."
+requirements:
+  es: "Tus propias imágenes de los dos discos de Metal Gear Solid para PS1, versión europea (SLES-01370 y SLES-11370), en CUE/BIN de Redump; el asistente comprueba el BIN exacto, así que no sirven CHD ni otros formatos, y el segundo disco hace falta cuando el juego lo pide. También tu propia BIOS europea SCPH-5502 o SCPH-5552 (524.288 bytes). Además, Windows x64, Linux x64 o macOS (Apple Silicon o Intel); en Linux y macOS hacen falta CMake, Ninja, Python 3 y un compilador de C y C++."
+  en: "Your own images of both Metal Gear Solid discs for PS1, European release (SLES-01370 and SLES-11370), as Redump CUE/BIN; the wizard checks the exact BIN, so CHD and other formats won’t work, and the second disc is needed when the game asks for it. Also your own European SCPH-5502 or SCPH-5552 BIOS (524,288 bytes). Plus Windows x64, Linux x64, or macOS (Apple silicon or Intel); Linux and macOS need CMake, Ninja, Python 3, and a C and C++ compiler."
+tags:
+  - mips
+  - action
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "FIFA Street 2"
+games: [fifa-street-2]
+console: xbox
+status: experimental
+repo: jv36/fifastreet2-recomp
+author: jv36
+originalDeveloper: EA Canada
+year: 2006
+toolchain: xboxrecomp
+desc:
+  es: "Intento de recompilación estática de la versión de Xbox (título 45410085) para Windows, con el kit xboxrecomp, incluido como submódulo con un parche propio: el código del ejecutable se traduce a C, 15.314 funciones repartidas en 16 archivos. Todavía no se juega: el programa arranca, prepara la capa del núcleo de la Xbox y la memoria y llega al punto de entrada del código recompilado, pero no abre ninguna ventana y hay que cerrarlo a mano. No hay versión publicada: el código del juego se genera a partir de tu default.xbe y se compila en tu PC, y no está en el repositorio. Tiene 3 commits y está parado desde el 16 de septiembre."
+  en: "An attempt at a static recompilation of the Xbox release (title 45410085) for Windows, with the xboxrecomp toolkit, included as a submodule with a patch of its own: the executable’s code is translated to C, 15,314 functions split across 16 files. It isn’t playable yet: the program boots, sets up the Xbox kernel layer and memory, and reaches the recompiled code’s entry point, but no window opens and it has to be closed by hand. There’s no release: the game’s code is generated from your default.xbe and built on your PC, and it isn’t in the repository. It has 3 commits and has been idle since September 16."
+requirements:
+  es: "Tu propio disco de FIFA Street 2 para Xbox, extraído con extract-xiso en la carpeta game_files (default.xbe y los archivos de datos). Para compilarlo, Windows 10 u 11, Visual Studio 2022 con el desarrollo de escritorio en C/C++ (MSVC), CMake 3.20 o posterior y Python 3.10 o posterior con capstone."
+  en: "Your own FIFA Street 2 disc for Xbox, extracted with extract-xiso into the game_files folder (default.xbe and the data files). To build it, Windows 10 or 11, Visual Studio 2022 with the C/C++ desktop workload (MSVC), CMake 3.20 or newer, and Python 3.10 or newer with capstone."
+tags:
+  - x86
+  - sports

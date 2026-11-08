@@ -1,0 +1,20 @@
+name: "Forza Horizon 2 (Gabrick75)"
+games: [forza-horizon-2]
+console: x360
+status: experimental
+repo: Gabrick75/fh2-recompiled
+author: Gabrick75
+originalDeveloper: "Sumo Digital"
+year: 2014
+toolchain: ReXGlue
+desc:
+  es: "FH2 Recompiled: recompilación estática de la versión de Xbox 360 para móviles Android ARM64 y para Linux x86-64, sobre el SDK de ReXGlue: el código PowerPC de default.xex se traduce de antemano a C++, y el núcleo de la Xbox 360 y la GPU Xenos los reimplementa el SDK, que emula la GPU en Vulkan. Tiene además un renderizador nativo experimental, adaptado de nfsmw-nx, que dibuja los comandos de la GPU directamente en Vulkan con shaders traducidos de antemano a partir de tus archivos; es mucho más rápido, pero aún con errores de imagen. Partió del proyecto NFSMW Recompiled. Está en desarrollo: arranca, recorre los menús y se corren carreras, pero en los móviles va muy por debajo de la tasa de la consola, las colisiones aún fallan a veces y algunas opciones de los menús no están hechas. Trata el teclado y el ratón como un mando de Xbox 360, con teclas reasignables; casi todo lo demás que añade (leer el juego directamente de la imagen .iso, ajustes gráficos, generación de fotogramas, controladores de Vulkan propios, logros, controles táctiles) es del launcher de Android. Las versiones publicadas son solo APK de Android: en PC hay que compilarlo y ejecutarlo en Linux desde el código. La v0.4.5 (5 de noviembre) es la última de 9 versiones, todas de prueba."
+  en: "FH2 Recompiled: a static recompilation of the Xbox 360 release for ARM64 Android phones and x86-64 Linux, on the ReXGlue SDK: the PowerPC code of default.xex is translated ahead of time to C++, and the Xbox 360 kernel and the Xenos GPU are reimplemented by the SDK, which emulates the GPU on Vulkan. It also has an experimental native renderer, adapted from nfsmw-nx, that draws the GPU commands straight in Vulkan with shaders translated ahead of time from your files; it’s much faster, but still has image errors. It started from the NFSMW Recompiled project. It’s a work in progress: it boots, goes through the menus, and runs races, but on phones it’s far below the console’s frame rate, collisions still fail now and then, and some menu options aren’t implemented. It treats keyboard and mouse as an Xbox 360 controller, with remappable keys; nearly everything else it adds (reading the game straight from the .iso image, graphics settings, frame generation, custom Vulkan drivers, achievements, touch controls) belongs to the Android launcher. The published releases are Android APKs only: on PC it has to be built and run on Linux from source. v0.4.5 (November 5) is the latest of 9 releases, all prereleases."
+requirements:
+  es: "Tu propia copia de Forza Horizon 2 para Xbox 360, edición estadounidense (id de título 4D530AA4), volcada de tu disco como imagen .iso. Para compilarlo en PC, Linux x86-64 con Clang 20, CMake 3.25 o posterior, Ninja, Python 3.8 o posterior y Git, unos 20 GB libres y 12 GB de RAM o más."
+  en: "Your own copy of Forza Horizon 2 for Xbox 360, US release (title id 4D530AA4), dumped from your disc as an .iso image. To build it on PC, x86-64 Linux with Clang 20, CMake 3.25 or newer, Ninja, Python 3.8 or newer, and Git, about 20 GB free, and 12 GB of RAM or more."
+tags:
+  - powerpc
+  - racing
+  - vulkan
+  - build-android

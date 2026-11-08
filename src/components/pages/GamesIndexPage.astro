@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { consoleMeta, CONSOLE_KEYS } from "../../lib/consoles";
-import { getGames, gamePageIds, projectsByGame } from "../../lib/games";
+import { getGames, gamePageIds, projectsByGame, coverOf, COVER_W, COVER_H } from "../../lib/games";
 import { t, localePath, type Lang } from "../../i18n";
 
 interface Props {
@@ -13,7 +13,7 @@ const { lang } = Astro.props;
 const games = await getGames();
 const byGame = await projectsByGame(lang);
 const rows = (await gamePageIds())
-  .map((id) => ({ id, game: games.get(id)!, n: byGame.get(id)?.length ?? 0 }))
+  .map((id) => ({ id, game: games.get(id)!, n: byGame.get(id)?.length ?? 0, cover: coverOf(id) }))
   .sort((a, b) => a.game.name.localeCompare(b.game.name, lang));
 const letterOf = (name: string) => {
   const c = name.normalize("NFD").charAt(0).toUpperCase();
@@ -54,7 +54,10 @@ const jsonLd = {
           <ul class="game-list">
             {list.map((r) => (
               <li data-consoles={r.game.platforms.join(" ")}>
-                <a href={localePath(lang, `juego/${r.id}`)}>{r.game.name}</a>
+                <a href={localePath(lang, `juego/${r.id}`)}>
+                  {r.cover && <img class="cover thumb" src={r.cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" />}
+                  {r.game.name}
+                </a>
                 <span>{[...r.game.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).tag), t(lang, "games.projects", { n: r.n })].join(" · ")}</span>
               </li>
             ))}

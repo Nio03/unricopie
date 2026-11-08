@@ -1,0 +1,20 @@
+name: "Metal Gear Solid (coccofresco)"
+games: [metal-gear-solid]
+console: ps1
+status: experimental
+repo: coccofresco/mgsone-recomp
+author: coccofresco
+originalDeveloper: Konami
+year: 1998
+desc:
+  es: "Midnight Ghost Stone: port nativo para Windows y Linux de la versión estadounidense de PS1 (v1.0, los dos discos), por recompilación estática del código MIPS, con rutinas decompiladas en C que sustituyen partes del juego a medida que se comprueban contra el ejecutable original. El motor parte de PS1Recomp, a través de una recompilación de Crash Bandicoot 3, y usa SwanStation como referencia para comparar el comportamiento. En vez de reproducir el dibujo de la PlayStation, una presentación en Vulkan dibuja los modelos y las texturas originales del disco con geometría en coma flotante, iluminación por píxel, oclusión ambiental, agua, niebla y partículas nuevas, y efectos de CRT en las cámaras y el Códec, a 4K por defecto y en 16:9 fijo; la lógica del juego mantiene su ritmo original. Tiene carga rápida, cambio automático al segundo disco, estados guardados rápidos, un menú de pausa propio, teclado y mandos SDL con Steam Input; una interpolación a 60 fps, experimental, solo se activa desde el entorno de desarrollo. La alfa.1 (10 de octubre) es la única versión, marcada como «sin probar», y la de Windows se ha probado con Wine, no en Windows. Las pruebas cubren escenas sueltas de los dos discos, los dos finales y los créditos, pero faltan los combates completos, la persecución en jeep y una partida continua de principio a fin. El README declara que el trabajo propio del proyecto está hecho con IA bajo dirección humana, y sus 25 commits tienen a Codex como autor."
+  en: "Midnight Ghost Stone: a native Windows and Linux port of the US PS1 release (v1.0, both discs), by static recompilation of the MIPS code, with decompiled C routines replacing parts of the game as they’re checked against the original executable. The engine starts from PS1Recomp, by way of a Crash Bandicoot 3 recompilation, and uses SwanStation as a reference to compare behavior. Instead of reproducing the PlayStation’s drawing, a Vulkan presentation draws the disc’s original models and textures with floating-point geometry, per-pixel lighting, ambient occlusion, new water, fog, and particles, and CRT effects on the cameras and the Codec, at 4K by default and in fixed 16:9; game logic keeps its original timing. It has fast loading, automatic switching to the second disc, quick save states, its own pause menu, and keyboard and SDL controllers with Steam Input; an experimental 60 fps interpolation can only be turned on from the development environment. alpha.1 (October 10) is the only release, marked “untested”, and the Windows build was tested under Wine, not on Windows. The tests cover separate scenes from both discs, both endings, and the credits, but full fights, the jeep chase, and a continuous start-to-finish playthrough are still missing. The README states that the project’s own work is made with AI under human direction, and all 25 of its commits have Codex as author."
+requirements:
+  es: "Tus propias imágenes de los dos discos de Metal Gear Solid para PS1, versión estadounidense 1.0 (SLUS-00594 y SLUS-00776), como BIN o pares CUE/BIN de una sola pista en MODE2/2352; no sirven otras regiones, Integral ni imágenes modificadas, y no hace falta BIOS. Además, Windows x64 o Linux x86-64 (AppImage o Flatpak) con una GPU con Vulkan, y unos 1,6 GB libres para la importación."
+  en: "Your own images of both Metal Gear Solid discs for PS1, US release 1.0 (SLUS-00594 and SLUS-00776), as BIN files or single-track MODE2/2352 CUE/BIN pairs; other regions, Integral, and modified images aren’t supported, and no BIOS is needed. Plus Windows x64 or x86-64 Linux (AppImage or Flatpak) with a Vulkan GPU, and about 1.6 GB free for the import."
+tags:
+  - mips
+  - action
+  - widescreen
+  - vulkan
+  - ai-assisted

@@ -1,0 +1,11 @@
+name: "Shadow of the Colossus (TheRealestNwah)"
+games: [shadow-of-the-colossus-2005]
+console: ps2
+repo: TheRealestNwah/sotc-decomp
+desc:
+  es: "Decompilación exacta en curso de Shadow of the Colossus para PS2 (NTSC-U, SCUS-97472), con la meta a largo plazo de un port nativo para PC. Busca código C que, compilado con el compilador del juego, Sony ee-gcc 2.96, reproduzca byte a byte los archivos originales. El cargador SCUS_974.72 y los tres módulos con el código del juego (KERNEL.XFF, MANAGER.XFF y GAMECORE.XFF, en un formato propio, xff2) ya se reconstruyen idénticos a partir del ensamblador, aunque la disposición de las tablas y los metadatos del cargador aún salen de los archivos originales. Según el README, 6.097 de las 7.861 funciones del juego en los tres módulos (el 78 %) ya son C que coincide, y 114 de las 124 del cargador (el 92 %); el port nativo no ha empezado. No incluye nada del juego: hace falta el cargador de tu propio disco. El README declara que se desarrolla con Claude Code y OpenAI Codex, que aportan código, pruebas y documentación, mientras el autor decide, prueba y publica. 91 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Work-in-progress matching decompilation of Shadow of the Colossus for PS2 (NTSC-U, SCUS-97472), with a native PC port as its long-term goal. It aims for C code that, built with the game’s compiler, Sony ee-gcc 2.96, reproduces the original files byte for byte. The SCUS_974.72 loader and the three modules holding the game code (KERNEL.XFF, MANAGER.XFF, and GAMECORE.XFF, in a custom xff2 format) already rebuild identically from assembly, though the table layout and the loader metadata still come from the original files. According to the README, 6,097 of the 7,861 game functions in the three modules (78%) are already matching C, and 114 of the loader’s 124 (92%); the native port hasn’t started. It includes nothing from the game: you need the loader from your own disc. The README states it’s developed with Claude Code and OpenAI Codex, which contribute code, tests, and documentation, while the author decides, tests, and releases. 91 of its last 100 commits list Claude as a co-author."
+tags:
+  - emotion-engine
+  - matching
+  - ai-assisted

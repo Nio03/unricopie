@@ -1,0 +1,19 @@
+name: "Crazy Taxi (Xbox 360)"
+games: [crazy-taxi]
+console: x360
+status: experimental
+repo: sp00nznet/ctxbla
+author: sp00nznet
+originalDeveloper: "Hitmaker"
+year: 2010
+toolchain: ReXGlue
+desc:
+  es: "Recompilación estática de la versión de Xbox 360 (XBLA, 2010) de Crazy Taxi a un ejecutable nativo de PC x86-64, con XenonRecomp y el SDK de ReXGlue: el código PowerPC se traduce a C++ (9.008 funciones), sin emulación ni intérprete. Arranca y se juega el modo Arcade, con gráficos en Direct3D 12 a 1280x720, teclado y mandos XInput, pero el juego puede cerrarse durante la partida (al dejar a un cliente o a mucha velocidad), solo suenan la pantalla de título y la demo, hay que esperar a la voz de «Hey Hey, Crazy Taxi!» antes de pulsar Start, y cambiar de ventana con Alt+Tab tras elegir las reglas Arcade deja la pantalla en negro. No hay ejecutables publicados: el código del juego se genera en tu PC a partir de tu copia y se compila. El mismo autor tiene otra recompilación, de la versión de Dreamcast. Sus 8 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Xbox 360 (XBLA, 2010) version of Crazy Taxi into a native x86-64 PC executable, with XenonRecomp and the ReXGlue SDK: the PowerPC code is translated to C++ (9,008 functions), with no emulation or interpreter. It boots and Arcade mode plays, with Direct3D 12 graphics at 1280x720, keyboard, and XInput controllers, but the game can crash during play (at fare drop-offs or at high speed), only the title screen and the demo have sound, you have to wait for the «Hey Hey, Crazy Taxi!» voice line before pressing Start, and alt-tabbing after choosing Arcade Rules leaves a black screen. There are no prebuilt executables: the game code is generated on your PC from your copy and then compiled. The same author has another recompilation, of the Dreamcast version. All 8 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Crazy Taxi para Xbox 360 (XBLA, título 58410A34), en su paquete STFS. Para compilarlo, CMake 3.25 o posterior, Clang 18 o posterior (LLVM), Ninja, Python 3.8 o posterior, el SDK de ReXGlue v0.1.0 y XenonRecomp con los parches del repositorio."
+  en: "Your own copy of Crazy Taxi for Xbox 360 (XBLA, title 58410A34), in its STFS package. To build it, CMake 3.25 or later, Clang 18 or later (LLVM), Ninja, Python 3.8 or later, the ReXGlue SDK v0.1.0, and XenonRecomp with the repository’s patches."
+tags:
+  - powerpc
+  - racing
+  - ai-assisted

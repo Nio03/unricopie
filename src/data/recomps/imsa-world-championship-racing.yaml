@@ -1,0 +1,16 @@
+name: "IMSA World Championship Racing"
+games: [imsa-world-championship-racing]
+console: m2
+status: fully
+repo: rsantos722/imsa-wcr-m2-recomp
+author: rsantos722
+originalDeveloper: "Studio 3DO"
+desc:
+  es: "Port nativo para Windows, macOS y Linux de IMSA presents World Championship Racing, un juego de carreras que nunca salió porque la Panasonic M2 se canceló en 1997, y de shooter2d, el otro juego que viene en el mismo disco. Es una recompilación estática con un recompilador propio que traduce el código PowerPC 602 del juego a C, sobre un programa propio que hace de consola (SDL3, con OpenGL 3.3 o un renderizador por software); el driver de la M2 de MAME sirvió de referencia para el chip gráfico. El README lo da por totalmente jugable y estable, con algunos fallos gráficos y de rendimiento por pulir. Busca ser fiel al original y trae tres perfiles de control (el original, uno parcheado que hace funcionar los ajustes del juego y otro personalizado), un control analógico rehecho desde cero, arreglos, mejoras y funciones que el juego dejó sin terminar, todo opcional. El launcher instala el juego, gestiona los gráficos, los controles y las partidas, abre IMSA o shooter2d directamente y tiene un visor 3D de los coches. La v1.0.1 (6 de noviembre) es la última de 2 versiones."
+  en: "A native Windows, macOS, and Linux port of IMSA presents World Championship Racing, a racing game that never came out because the Panasonic M2 was cancelled in 1997, and of shooter2d, the other game on the same disc. It’s a static recompilation with its own recompiler, which translates the game’s PowerPC 602 code to C, on top of its own program standing in for the console (SDL3, with OpenGL 3.3 or a software renderer); MAME’s M2 driver served as a reference for the graphics chip. The README calls it fully playable and stable, with some graphics and performance issues left to polish. It aims to stay faithful to the original and offers three control profiles (the original, a patched one that makes the game’s own settings work, and a custom one), analog control rebuilt from scratch, fixes, enhancements, and features the game left unfinished, all optional. The launcher installs the game, handles graphics, controls, and saves, starts IMSA or shooter2d directly, and has a 3D car viewer. v1.0.1 (November 6) is the latest of 2 releases."
+requirements:
+  es: "La imagen de disco del prototipo de IMSA para la M2, que el launcher comprueba (671.399.936 bytes y su SHA-256). Hay versiones para Windows x86-64, macOS con Apple Silicon y Linux x86-64."
+  en: "The disc image of the IMSA prototype for the M2, which the launcher checks (671,399,936 bytes and its SHA-256). There are builds for x86-64 Windows, Apple silicon macOS, and x86-64 Linux."
+tags:
+  - powerpc
+  - racing

@@ -1,0 +1,23 @@
+name: "Shadow of the Colossus (HenryKun55)"
+games: [shadow-of-the-colossus-2005]
+console: ps2
+status: playable
+unlinked: true
+repo: HenryKun55/celosia
+homepage: https://henrykun55.github.io/celosia/
+author: HenryKun55
+originalDeveloper: "Team Ico"
+year: 2005
+toolchain: PS2Recomp
+desc:
+  es: "Celosia: port nativo para macOS con Apple Silicon, y también para PS Vita, de la versión estadounidense de PS2 (SCUS-97472), por recompilación estática del código MIPS a C++ con PS2Recomp. Como el juego carga casi todo su código en tres módulos (KERNEL.XFF, MANAGER.XFF y GAMECORE.XFF) que enlaza en memoria, la instalación los captura uno a uno mientras el juego arranca y los recompila junto al ELF de arranque, unas 16.000 funciones; los microprogramas del VU1 también pasan a C++. Ya no emula la GPU: un renderizador nativo (Metal en el Mac, OpenGL ES en la Vita) lee directamente los modelos del juego, y el DMA, el IOP y el sonido (SPU2) se reimplementan en código nativo. Se juega desde el arranque hasta la partida (montar a Agro, explorar), con menús, sonido y tarjeta de memoria compatible con PCSX2; en un M4 Pro va a 60 fps a 1536×1344. Además reescribe a mano en C++ las funciones que más se usan, comprobando que dan el mismo resultado que las recompiladas: el 30 de octubre llevaba el 5,4 % de las funciones, por las que pasa ya el 48 % de las llamadas. En la Vita arranca y reproduce la introducción, a entre 18 y 25 fps en Vita3K. Tiene un menú de ajustes (F1) con recortes opcionales para ganar rendimiento y un panel del renderizador (F10). Es otro proyecto que el de LightVelox para Windows, cuyas notas le sirvieron para encontrar errores comunes del runtime. No hay versiones publicadas: se compila con ./celosia setup a partir de tu imagen. El README declara que se desarrolló con ayuda de un asistente de IA para programar, con el trabajo dirigido, revisado y probado por el autor."
+  en: "Celosia: a native port for Apple silicon macOS, and also for the PS Vita, of the US PS2 release (SCUS-97472), by static recompilation of the MIPS code to C++ with PS2Recomp. Since the game loads most of its code in three modules (KERNEL.XFF, MANAGER.XFF, and GAMECORE.XFF) that it links in memory, setup captures them one by one while the game boots and recompiles them along with the boot ELF, about 16,000 functions; the VU1 microprograms are turned into C++ too. It no longer emulates the GPU: a native renderer (Metal on the Mac, OpenGL ES on the Vita) reads the game’s models directly, and DMA, the IOP, and sound (SPU2) are reimplemented in native code. It plays from boot into gameplay (riding Agro, exploring), with menus, sound, and a PCSX2-compatible memory card; on an M4 Pro it runs at 60 fps at 1536×1344. It’s also rewriting the most-used functions by hand in C++, checking that they give the same result as the recompiled ones: on October 30 it had 5.4% of the functions, which already take 48% of the calls. On the Vita it boots and plays the intro, at 18 to 25 fps in Vita3K. It has a settings menu (F1) with optional cuts to gain performance and a renderer panel (F10). It’s a separate project from LightVelox’s Windows port, whose notes helped it find shared runtime bugs. There are no releases: it’s built with ./celosia setup from your disc image. The README states it was developed with the help of an AI coding assistant, with the work directed, reviewed, and tested by the author."
+requirements:
+  es: "Tu propia imagen de Shadow of the Colossus para PS2, versión estadounidense (SCUS-97472), en .iso o dentro de un .zip. Un Mac con Apple Silicon y las Command Line Tools de Xcode, cmake, ninja, pkg-config, ffmpeg y python de Homebrew, unos 10 GB libres y conexión para la primera compilación (CMake descarga raylib, imgui y sse2neon). Para la Vita, además, VitaSDK."
+  en: "Your own disc image of Shadow of the Colossus for PS2, US release (SCUS-97472), as an .iso or inside a .zip. An Apple silicon Mac with the Xcode Command Line Tools, Homebrew’s cmake, ninja, pkg-config, ffmpeg, and python, about 10 GB free, and a connection for the first build (CMake downloads raylib, imgui, and sse2neon). For the Vita, also VitaSDK."
+tags:
+  - emotion-engine
+  - action
+  - 60fps+
+  - build-vita
+  - ai-assisted

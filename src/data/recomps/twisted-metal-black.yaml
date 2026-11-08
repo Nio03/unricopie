@@ -1,0 +1,21 @@
+name: "Twisted Metal: Black"
+games: [twisted-metal-black]
+console: ps2
+status: playable
+repo: TheBozos/TMB_Recomp
+author: TheBozos
+originalDeveloper: "Incognito Entertainment"
+year: 2001
+toolchain: BozoEngine
+desc:
+  es: "TMB_Recomp: port nativo para Windows de la versión estadounidense de PS2 (SCUS-97101), por recompilación estática del código MIPS R5900 a C++ sobre BozoEngine, el recompilador y runtime de The Bozos, que en la 0.4.0 sustituyó por completo al fork de PS2Recomp de las versiones anteriores. El ejecutable no lleva intérprete del IOP, del SPU2, del GS, del VIF ni de las VU: las mallas y texturas se convierten en paquetes nativos, los programas de las VU pasan a C++, el sonido 989SND lo mezcla un mezclador propio y los vídeos se decodifican con FFmpeg, todo con OpenGL. Se juega a velocidad completa, a 60 actualizaciones por segundo como en NTSC: vídeos, menús, partidas de un jugador, modo historia y pantalla partida de 2 a 4 jugadores, con guardado en tarjetas de memoria nativas. Ofrece el doble de resolución interna por defecto, presentación interpolada por encima de 60 Hz (experimental), mandos, teclado y ratón reasignables, ventana o pantalla completa y trucos (todo desbloqueado, salud, munición y energía infinitas). Faltan por comprobar los finales del modo historia y todas las arenas con el nuevo motor; la pantalla ancha y la versión de Linux están pendientes. El lanzador compila el juego en tu PC a partir de tu disco con las herramientas que trae, sin descargas. La 0.4.0 (6 de noviembre) es la última de 31 versiones. 85 de sus últimos 100 commits llevan a Codex como coautor, y 2, a Claude."
+  en: "TMB_Recomp: a native Windows port of the US PS2 release (SCUS-97101), by static recompilation of the MIPS R5900 code to C++ on BozoEngine, The Bozos’ recompiler and runtime, which in 0.4.0 fully replaced the PS2Recomp fork of earlier releases. The executable has no IOP, SPU2, GS, VIF, or VU interpreter: meshes and textures are converted into native packs, the VU programs become C++, the 989SND sound is played by its own mixer, and movies are decoded with FFmpeg, all on OpenGL. It plays at full speed, at 60 updates per second as on NTSC: movies, menus, single-player matches, story mode, and 2 to 4 player split screen, with saves on native memory cards. It offers twice the internal resolution by default, interpolated presentation above 60 Hz (experimental), rebindable controllers, keyboard, and mouse, windowed or fullscreen, and cheats (everything unlocked, infinite health, ammo, and energy). The story endings and every arena on the new engine are still to be checked; widescreen and the Linux build are pending. The launcher builds the game on your PC from your disc with the tools it ships, without downloads. 0.4.0 (November 6) is the latest of 31 releases. 85 of its last 100 commits list Codex as a co-author, and 2 list Claude."
+requirements:
+  es: "Tu propia imagen de disco de Twisted Metal: Black, versión estadounidense (SCUS-97101), en .iso o .bin con su .cue; el ejecutable SCUS_971.01 debe tener el SHA-1 3ff17f4897552e355d0bb8c3abfa5125fe3ff2ef, y el disco europeo no sirve. Además, Windows 10 (versión 1903 o posterior) u 11, una CPU con AVX2 y FMA, una GPU con OpenGL 3.3 y unos 10 GB libres para la preparación."
+  en: "Your own disc image of Twisted Metal: Black, US release (SCUS-97101), as an .iso or a .bin with its .cue; the SCUS_971.01 executable must have SHA-1 3ff17f4897552e355d0bb8c3abfa5125fe3ff2ef, and the European disc won’t work. Plus Windows 10 (version 1903 or later) or 11, a CPU with AVX2 and FMA, an OpenGL 3.3 GPU, and about 10 GB free for preparation."
+tags:
+  - emotion-engine
+  - action
+  - multiplayer
+  - "60fps+"
+  - ai-assisted

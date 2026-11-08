@@ -1,0 +1,22 @@
+name: "Top Spin 4"
+games: [top-spin-4]
+console: x360
+status: playable
+repo: shaneomac1337/Top-Spin-4-Recomp
+author: shaneomac1337
+originalDeveloper: 2K Czech
+year: 2011
+toolchain: ReXGlue
+desc:
+  es: "Port no oficial para Windows de la versión de Xbox 360, por recompilación estática con ReXGlue: el código PowerPC de los tres módulos del juego (default.xex, Loader_DLL.xex y Swing_DLL.xex), con los parches de la Title Update 1 aplicados, se traduce a x86-64, y un renderizador propio en Vulkan dibuja las llamadas de Direct3D 9 del juego, con los shaders convertidos por XenosRecomp. Se han jugado la exhibición individual y de dobles, la carrera desde el creador de jugadores, la Top Spin Academy, King of the Court, el multijugador local y las partidas guardadas; el juego en línea no funciona. Va a los 60 fps originales y puede pasar a 60 fps las escenas que en la consola van a 30, con presets gráficos, escala de resolución de 1x a 3x, MSAA hasta 8x, filtrado anisotrópico de 16x, nitidez CAS, logros con su aviso, una página de ajustes dentro del juego (PC SETTINGS o F4) con todos los botones y teclas reasignables, y teclado y ratón como mando propio. Un launcher comprueba tu disco y la actualización, copia los archivos del juego, compila los shaders y deja poner tu gamertag. Se ha probado en Windows 11 con una Radeon RX 7900 XT y en la Steam Deck por Proton, con algunas caídas de fotogramas; a veces parpadean algunas sombras de los jugadores. La 1.0.1 (7 de noviembre) es la última de 2 versiones. El README dice que la mayor parte del código y de la documentación se escribió con Claude Code, con el autor dirigiendo el trabajo y probando cada cambio."
+  en: "An unofficial Windows port of the Xbox 360 release, by static recompilation with ReXGlue: the PowerPC code of the game’s three modules (default.xex, Loader_DLL.xex, and Swing_DLL.xex), with Title Update 1’s patches applied, is translated to x86-64, and its own Vulkan renderer draws the game’s Direct3D 9 calls, with shaders converted by XenosRecomp. Exhibition singles and doubles, Career from the Player Creator on, Top Spin Academy, King of the Court, local multiplayer, and saves have been played; online play doesn’t work. It runs at the original 60 fps and can take the cutscenes that run at 30 on the console to 60, with graphics presets, resolution scale from 1x to 3x, up to 8x MSAA, 16x anisotropic filtering, CAS sharpening, achievements with their notice, an in-game settings page (PC SETTINGS or F4) with every button and key remappable, and keyboard and mouse as their own controller. A launcher checks your disc and the update, copies the game files, builds the shaders, and lets you set your gamertag. It’s been tested on Windows 11 with a Radeon RX 7900 XT and on the Steam Deck through Proton, with some frame drops; a few shadows on the players sometimes flicker. 1.0.1 (November 7) is the latest of 2 releases. The README says most of the code and docs were written with Claude Code, with the author steering the work and testing every change."
+requirements:
+  es: "Tu propia imagen .iso de Top Spin 4 para Xbox 360 (solo vale el disco con media ID 60819732) y su Title Update 1, volcadas de tu consola; el launcher comprueba las dos. Además, Windows 10 u 11 de 64 bits, una GPU con Vulkan (las Intel sin la función shaderInt64, como las integradas de 11.ª generación, no sirven) y unos 6 GB libres."
+  en: "Your own .iso image of Top Spin 4 for Xbox 360 (only the disc with media ID 60819732 works) and its Title Update 1, dumped from your console; the launcher checks both. Plus 64-bit Windows 10 or 11, a Vulkan GPU (Intel GPUs without the shaderInt64 feature, such as 11th-gen integrated graphics, won’t work), and about 6 GB free."
+tags:
+  - powerpc
+  - sports
+  - 60fps+
+  - vulkan
+  - multiplayer
+  - ai-assisted

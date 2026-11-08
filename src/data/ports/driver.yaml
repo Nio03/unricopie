@@ -1,0 +1,20 @@
+name: "Driver"
+games: [driver]
+category: decomp-port
+console: ps1
+status: fully
+repo: olink9/driver1-decomp
+author: olink9
+originalDeveloper: Reflections Interactive
+year: 1999
+desc:
+  es: "Decompilación exacta de Driver: You Are the Wheelman para PlayStation, en su versión estadounidense Rev 1 (SLUS-008.42), y un port nativo para Linux construido a partir de ella. El código compila con la cadena original (GCC 2.7.2 y maspsx) de vuelta a un ejecutable idéntico byte a byte: según el README coinciden 796 de las 799 funciones del ejecutable principal y, contando los módulos superpuestos y el reproductor de vídeo, 1.248 de 1.259 (el 98,2 % del código); las 56 rutinas que Reflections escribió en ensamblador se conservan así. Muchas funciones parten del código de REDRIVER2, el port de Driver 2, cuyos símbolos de depuración también dan nombres y tipos. El port corre sobre PsyCross, la capa de OpenDriver2, con SDL2 y OpenGL: menús, vídeos, música, la carrera Undercover entera (sus 47 misiones se han recorrido de principio a fin) y los modos de conducción, con teclado o mando. Se comparó con el original reproduciendo las mismas entradas en los dos y registrando el estado del juego en cada fotograma: 17 sesiones, 24.246 fotogramas, sin diferencias. Por ahora es un programa de Linux de 32 bits, sin versión para Windows ni de 64 bits, y trae un mod opcional para saltarse la prueba del garaje. No hay versiones publicadas: el script driver1.sh extrae tu disco y compila el juego dentro de un contenedor. El README dice que la decompilación la hacen agentes de IA (modelos Claude) dirigidos por su autor. 94 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A matching decompilation of Driver: You Are the Wheelman for PlayStation, US Rev 1 release (SLUS-008.42), and a native Linux port built from it. The code compiles with the original toolchain (GCC 2.7.2 and maspsx) back to a byte-identical executable: according to the README, 796 of the main executable’s 799 functions match and, counting the overlays and the movie player, 1,248 of 1,259 (98.2% of the code); the 56 routines Reflections wrote in assembly are kept that way. Many functions start from the code of REDRIVER2, the Driver 2 port, whose debug symbols also supply names and types. The port runs on PsyCross, OpenDriver2’s layer, with SDL2 and OpenGL: menus, movies, music, the whole Undercover career (all 47 missions have been played through) and the driving games, with keyboard or controller. It was compared with the original by feeding both the same input and logging the game state every frame: 17 sessions, 24,246 frames, with no differences. For now it’s a 32-bit Linux program, with no Windows or 64-bit build, and it comes with an optional mod to skip the garage driving test. There are no releases: the driver1.sh script unpacks your disc and builds the game inside a container. The README says the decompilation is being done by AI agents (Claude models) directed by its author. 94 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia imagen de Driver para PlayStation, versión estadounidense Rev 1 (SLUS-008.42; el script comprueba el SHA-1 del ejecutable), en .cue/.bin o .chd; un .iso no sirve, porque la música y los vídeos necesitan los sectores en bruto de 2352 bytes, y un .pbp hay que convertirlo antes. Además, Linux con python3 y podman o docker; sin contenedor, gcc/g++ multilib, CMake y las bibliotecas de desarrollo de 32 bits de SDL2 y OpenAL."
+  en: "Your own disc image of Driver for PlayStation, US Rev 1 release (SLUS-008.42; the script checks the executable’s SHA-1), as .cue/.bin or .chd; an .iso won’t do, since the music and movies need the raw 2352-byte sectors, and a .pbp has to be converted first. Plus Linux with python3 and podman or docker; without a container, gcc/g++ multilib, CMake, and the 32-bit SDL2 and OpenAL development packages."
+tags:
+  - mips
+  - racing
+  - matching
+  - ai-assisted

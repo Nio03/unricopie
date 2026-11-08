@@ -1,6 +1,8 @@
 // Juegos: el registro de src/data/games.yaml cruzado con las fichas. De aquí
 // salen las páginas por juego (/es/juego/<id>/), el índice (/es/juegos/), el
 // enlace al juego en cada ficha y «Se instala con».
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { getCollection } from "astro:content";
 import launchersData from "../data/launchers.json";
 import { getAllItems, sortItems, type Item } from "./catalog";
@@ -49,6 +51,20 @@ export async function projectsByGame(lang: Lang): Promise<Map<string, Item[]>> {
   for (const [g, items] of map) map.set(g, sortItems(items));
   projectsCache.set(lang, map);
   return map;
+}
+
+// Portadas: las de IGDB (t_cover_big, 264×374) pasadas a WebP, alojadas en
+// public/portadas/<id del juego>.webp. Los juegos sin portada en IGDB no tienen archivo.
+export const COVER_W = 264;
+export const COVER_H = 374;
+const coverCache = new Map<string, string | null>();
+/** Ruta de la portada del juego, o null si no la tiene. */
+export function coverOf(gameId: string): string | null {
+  if (!coverCache.has(gameId)) {
+    const file = join(process.cwd(), "public", "portadas", `${gameId}.webp`);
+    coverCache.set(gameId, existsSync(file) ? `/portadas/${gameId}.webp` : null);
+  }
+  return coverCache.get(gameId)!;
 }
 
 /** Identificadores de los juegos con página propia. */

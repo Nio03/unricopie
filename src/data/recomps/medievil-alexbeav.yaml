@@ -1,0 +1,19 @@
+name: "MediEvil (Alexbeav)"
+games: [medievil]
+console: ps1
+status: experimental
+repo: alexbeavs-ps1-ports/medievil-recomp
+author: Alexbeav
+originalDeveloper: SCE Cambridge Studio
+year: 1998
+toolchain: psxrecomp
+desc:
+  es: "Kit de recompilación estática de la versión estadounidense de PS1 (SCUS-94227) para Windows, Linux y macOS, hecho con psxrecomp y el launcher recomp-ui, con un intérprete de respaldo para el código que no se tradujo de antemano. Es un proyecto distinto de la recompilación de BlackLabelHQ; el mismo autor tiene también MediEvil II. Las versiones publicadas son kits de instalación: un asistente comprueba tu disco y tu BIOS, genera el código del juego y lo compila en tu PC. Todavía no consta que se juegue: según sus notas, la versión de Windows arrancó y reprodujo sin diferencias una grabación de 307 fotogramas, y una prueba sin ventana llegó al fotograma 3.166 sin fallos, pero la partida en pantalla, los controles, el sonido y las partidas guardadas siguen sin comprobar. Desde la v0.1.4 graba por defecto los controles de cada sesión y muestra un HUD de diagnóstico, para mandar informes que se pueden reproducir con el script que incluye; los paquetes de texturas HD quedan fuera. La v0.1.4 (17 de octubre) es la última de 4 versiones. El README dice que lo desarrolla un aficionado con mucha ayuda de IA, que escribe la mayor parte del código, y que el autor lo prueba todo antes de publicarlo."
+  en: "A static recompilation kit for the US PS1 release (SCUS-94227) for Windows, Linux, and macOS, built with psxrecomp and the recomp-ui launcher, with an interpreter fallback for code that wasn’t translated ahead of time. It’s a separate project from BlackLabelHQ’s recompilation; the same author also has MediEvil II. The published releases are setup kits: a wizard checks your disc and your BIOS, generates the game’s code, and builds it on your PC. It isn’t confirmed to be playable yet: according to its notes, the Windows build booted and replayed a 307-frame recording with no differences, and a windowless test reached frame 3,166 without errors, but on-screen gameplay, controls, sound, and saves are still untested. Since v0.1.4 it records each session’s inputs by default and shows a diagnostics HUD, so reports can be replayed with the script it includes; HD texture packs are left out. v0.1.4 (October 17) is the latest of 4 releases. The README says it’s developed by a hobbyist with substantial AI assistance, which writes most of the code, and that the author tests everything before publishing it."
+requirements:
+  es: "Tu propio disco estadounidense de MediEvil (SCUS-94227), como CUE con sus dos pistas BIN (datos y audio) o en un solo BIN combinado, y tu propia BIOS SCPH-1001; no sirve OpenBIOS. Además, Windows x64, Linux x64 (glibc 2.31 o posterior) o macOS (Apple Silicon o Intel); en Linux y macOS hacen falta CMake, Ninja, Python 3 y un compilador de C y C++, y en Windows el asistente usa unas herramientas portátiles."
+  en: "Your own US MediEvil disc (SCUS-94227), as a CUE with its two BIN tracks (data and audio) or as a single combined BIN, and your own SCPH-1001 BIOS; OpenBIOS isn’t supported. Plus Windows x64, Linux x64 (glibc 2.31 or newer), or macOS (Apple silicon or Intel); Linux and macOS need CMake, Ninja, Python 3, and a C and C++ compiler, and on Windows the wizard uses portable tools."
+tags:
+  - mips
+  - action
+  - ai-assisted

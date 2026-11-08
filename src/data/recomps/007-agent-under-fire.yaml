@@ -1,0 +1,21 @@
+name: "007: Agent Under Fire"
+games: [007-agent-under-fire]
+console: xbox
+status: playable
+repo: hk21x/007-agentunderfire-recomp
+author: hk21x
+originalDeveloper: "EA Redwood Shores"
+year: 2001
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial para PC de la versión de la Xbox original, del mismo autor que el de 007: Nightfire. El código x86 del propio juego se recompila estáticamente con Xbox XBE Recomp; no es un emulador. Admite la edición europea (PAL, título 4541000D), que son cinco programas (el launcher y los vídeos, el juego en cada uno de sus tres idiomas y las misiones de conducción), y la estadounidense, que son tres; en Windows el código de cada programa va en una DLL. Se juegan las misiones a pie, las de conducción y las de ametralladoras montadas, en inglés, francés y alemán, aunque no se han jugado todas las misiones finales y el multijugador está sin probar. Añade pantalla panorámica con los menús y el HUD en 4:3 en el centro, a pie de 60 a 240 fps o sin límite con la velocidad ligada al tiempo real (la consola iba a 30), 60 pasos por segundo en la conducción en lugar de los 50 de la versión PAL, campo de visión del 50 al 150 %, saltar los vídeos iniciales, ratón para mirar, apuntar y usar los menús, teclas reasignables, ajustes de PC dentro de los menús del juego, logros, capturas a resolución completa, MSAA, FXAA o SMAA, filtrado de texturas, escala de render, nitidez, texturas del escenario al doble y la ayuda al apuntar, apagada por defecto. Un launcher descarga el paquete de tu disco (el runtime y un compilador, sin código del juego, unos 80 MB) y compila el juego en tu PC a partir de tu copia; en una Windows Sandbox limpia tardó 111 segundos con el disco PAL. La v1.0.1 (3 de noviembre) es la última de 2 versiones. Sus últimos 100 commits llevan todos a Claude como coautor."
+  en: "An unofficial native PC port of the original Xbox version, by the same author as the 007: Nightfire one. The game’s own x86 code is statically recompiled with Xbox XBE Recomp; it isn’t an emulator. It supports the European release (PAL, title 4541000D), which is five programs (the launcher and movies, the game in each of its three languages, and the driving missions), and the US release, which is three; on Windows each program’s code lives in a DLL. On-foot, driving, and mounted-gun missions are playable, in English, French, and German, though not every later mission has been played through and multiplayer is untested. It adds widescreen with the menus and HUD in a centered 4:3, 60 to 240 fps or unlimited on foot with the speed tied to real time (the console ran at 30), 60 game steps a second when driving instead of PAL’s 50, field of view from 50 to 150%, skipping the intro movies, the mouse for looking, aiming, and menus, remappable keys, PC settings inside the game’s own menus, achievements, full-resolution screenshots, MSAA, FXAA or SMAA, texture filtering, render scale, sharpening, scene textures at double size, and aim assist, off by default. A launcher downloads the package for your disc (the runtime and a compiler, with no game code, about 80 MB) and compiles the game on your PC from your copy; on a clean Windows Sandbox it took 111 seconds with the PAL disc. v1.0.1 (November 3) is the latest of 2 releases. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de 007: Agent Under Fire para Xbox, edición europea (PAL, título 4541000D) o estadounidense, como imagen .iso o carpeta con los archivos del disco; los SHA-1 de los xbe se dan en el README. Windows 10 u 11 de 64 bits, una GPU con Direct3D 12 u 11 y conexión para descargar el paquete."
+  en: "Your own copy of 007: Agent Under Fire for Xbox, European (PAL, title 4541000D) or US release, as an .iso image or a folder with the disc’s files; the xbe SHA-1 hashes are given in the README. 64-bit Windows 10 or 11, a Direct3D 12 or 11 GPU, and a connection to download the package."
+tags:
+  - x86
+  - fps
+  - widescreen
+  - 60fps+
+  - ai-assisted

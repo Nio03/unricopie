@@ -1,0 +1,27 @@
+name: "Pokémon Pokopia (featureJosh)"
+games: [pokemon-pokopia]
+console: switch2
+status: playable
+unlinked: true
+repo: featureJosh/Recompia
+author: featureJosh
+forkOf:
+  label: drakolordx7/switch2-recomp
+  url: https://github.com/drakolordx7/switch2-recomp
+originalDeveloper: "Omega Force, Game Freak"
+year: 2026
+toolchain: nxrecomp
+desc:
+  es: "Recompia (antes pokopia-recomp): recompilación estática de Pokémon Pokopia, de Switch 2, a un programa nativo de Windows, con juego en red. Sale del Pokopia Recomp de drakolordx7, cuyos primeros commits conserva, se construye sobre su recompilador nxrecomp y sigue las actualizaciones de pokopia-native, del que también toma código. El launcher compila el juego en tu PC a partir de tu copia, unos 7 minutos, y después traduce unos 99.000 shaders, de una a dos horas que se pueden pausar. Link Play permite visitar la isla de un amigo o invitarlo a la tuya en la misma red, por dirección o por internet a través de un relé con código de sala, también con jugadores de pokopia-native; el cooperativo en las zonas de la historia es experimental y viene apagado. Admite cualquier resolución, escala de render, perfiles de calidad (Switch 2, High y Ultra), HDR, ventana, sin bordes o pantalla completa, FSR 1 y NVIDIA Image Scaling (FSR 3 y DLSS están, pero aún no se ven bien), mandos de Xbox, PlayStation y Switch Pro con vibración y movimiento, teclado y ratón con teclas reasignables, el modo ratón de los Joy-Con 2 para colocar objetos, importar la partida de Eden o Ryujinx, perfiles con partidas separadas, mods que sustituyen archivos del romfs sin tocar tu volcado y un actualizador con canal estable y de pruebas. El launcher funciona también en Linux y SteamOS, donde el juego corre con Proton; los jugadores midieron de 26 a 53 fps en la Steam Deck y de 55 a 75 en la Legion Go S. La v0.8.0 (8 de noviembre) es la última de 15 versiones. El README dice que se desarrolla sobre todo con IA, con el autor como supervisor que revisa y prueba cada commit. 23 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Recompia (formerly pokopia-recomp): a static recompilation of Pokémon Pokopia, for Switch 2, into a native Windows program, with online play. It comes from drakolordx7’s Pokopia Recomp, whose first commits it keeps, builds on that author’s nxrecomp recompiler, and follows the updates of pokopia-native, which it also takes code from. The launcher compiles the game on your PC from your copy, in about 7 minutes, and then translates about 99,000 shaders, one to two hours that can be paused. Link Play lets you visit a friend’s island or invite them to yours on the same network, by address, or over the internet through a relay with a room code, also with pokopia-native players; co-op in the story areas is experimental and off by default. It supports any resolution, render scale, quality presets (Switch 2, High, and Ultra), HDR, windowed, borderless, or fullscreen, FSR 1 and NVIDIA Image Scaling (FSR 3 and DLSS are there but don’t look good yet), Xbox, PlayStation, and Switch Pro controllers with rumble and motion, keyboard and mouse with remappable keys, the Joy-Con 2 mouse mode for placing items, importing your Eden or Ryujinx save, profiles with separate saves, mods that replace romfs files without touching your dump, and an updater with stable and testing channels. The launcher also works on Linux and SteamOS, where the game runs through Proton; players measured 26 to 53 fps on the Steam Deck and 55 to 75 on the Legion Go S. v0.8.0 (November 8) is the latest of 15 releases. The README says it’s developed mostly with AI, with the author as a supervisor who reviews and tests every commit. 23 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia extraída de Pokémon Pokopia para Nintendo Switch 2, en la versión 2.0.1a: una carpeta con base y updates (cada una con exefs y romfs) o un archivo .nup; los .nsp y .xci hay que extraerlos antes, y el juego base solo no basta. Windows 10 u 11 de 64 bits con una GPU con Vulkan 1.3 y unos 14 GB libres (31 GB si los shaders se dejan sueltos). En Linux o SteamOS, además, Proton Experimental de Steam; la primera vez el launcher descarga Python y Zig (unos 100 MB)."
+  en: "Your own extracted copy of Pokémon Pokopia for Nintendo Switch 2, version 2.0.1a: a folder with base and updates (each with exefs and romfs) or a .nup file; .nsp and .xci files have to be extracted first, and the base game alone isn’t enough. 64-bit Windows 10 or 11 with a Vulkan 1.3 GPU and about 14 GB free (31 GB if the shaders are left loose). On Linux or SteamOS, also Steam’s Proton Experimental; the first time, the launcher downloads Python and Zig (about 100 MB)."
+tags:
+  - arm64
+  - vulkan
+  - pokemon
+  - multiplayer
+  - online
+  - mods
+  - ai-assisted

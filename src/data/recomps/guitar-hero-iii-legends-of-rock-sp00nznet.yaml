@@ -1,0 +1,18 @@
+name: "Guitar Hero III: Legends of Rock (sp00nznet)"
+games: [guitar-hero-iii-legends-of-rock]
+console: ps3
+status: playable
+repo: sp00nznet/gh3
+author: sp00nznet
+originalDeveloper: "Neversoft"
+year: 2007
+toolchain: ps3recomp
+desc:
+  es: "Recompilación estática de la versión en disco de PS3 de Guitar Hero III: Legends of Rock (BLUS30074) a un ejecutable nativo de Windows con ps3recomp, también los programas SPU. Arranca con los vídeos de la intro, los menús y la carga de la partida, y se juega con el escenario, el grupo, el mástil, las notas, el HUD, el Star Power y el audio de las canciones. El 28 de septiembre el bot del propio juego tocó en Fácil las 45 canciones de Quickplay sin fallar ninguna ni colgarse, a entre 30 y 40 fps en las canciones y entre 50 y 60 en los menús; con el PC cargado se pierde alguna nota. Faltan los 60 fps, las guitarras (por ahora se juega con mandos XInput o con el teclado), comprobar la latencia y los modos Carrera, cooperativo y multijugador local; el juego en línea queda fuera. No hay ejecutables publicados: se compila desde el código, y el repositorio no lleva nada del juego. Sus 59 commits llevan a Claude como coautor."
+  en: "A static recompilation of the PS3 disc release of Guitar Hero III: Legends of Rock (BLUS30074) into a native Windows executable with ps3recomp, the SPU programs included. It boots through the intro movies, the menus, and the save load, and plays with the venue, band, highway, fretboard, gems, HUD, star power, and song audio. On September 28 the game’s own bot played all 45 Quickplay songs on Easy with none failed and no hangs, at 30 to 40 fps in songs and 50 to 60 in menus; a busy PC costs a note or two. Still missing are 60 fps, guitars (for now you play with XInput controllers or the keyboard), checking latency, and the Career, co-op, and local multiplayer modes; online play is out of scope. There are no prebuilt executables: you build it from source, and the repository holds nothing from the game. All 59 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado del disco de Guitar Hero III para PS3, versión estadounidense (BLUS30074), con su EBOOT descifrado (EBOOT.elf). Para compilarlo, una copia de ps3recomp, Python, CMake, Ninja y clang-cl."
+  en: "Your own dump of the Guitar Hero III PS3 disc, US release (BLUS30074), with its EBOOT decrypted (EBOOT.elf). To build it, a ps3recomp checkout, Python, CMake, Ninja, and clang-cl."
+tags:
+  - powerpc
+  - ai-assisted

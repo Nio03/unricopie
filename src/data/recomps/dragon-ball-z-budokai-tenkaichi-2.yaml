@@ -1,0 +1,22 @@
+name: "Dragon Ball Z: Budokai Tenkaichi 2"
+games: [dragon-ball-z-budokai-tenkaichi-2]
+console: ps2
+status: experimental
+repo: oric212/BT2-Recomp
+author: oric212
+originalDeveloper: Spike
+year: 2006
+toolchain: PS2Recomp
+desc:
+  es: "BT2 Recomp: port nativo para Windows de la versión norteamericana de PS2 (SLUS-21441), por recompilación estática con PS2Recomp: el código del juego (11.139 funciones del EE y 494 del módulo DBZP.BIN) se traduce a C++ y corre sobre una capa nativa pequeña, sin emulador. Las peticiones al IOP (disco, mando, tarjeta de memoria, sonido) se responden en el PC sin ejecutar código del IOP, y los gráficos van por paraLLEl-GS sobre Vulkan. Toma como referencia la arquitectura de BT3-Recomp y Tenkaichi3Decomp, de z3xox. El README lo da como desarrollo temprano: los combates versus se juegan con mando a la velocidad original, con la IA enemiga calculando lo mismo que en PCSX2 en las llamadas comparadas, y la historia (sus 200 partes y 73 pueblos), Ultimate Battle Z, los torneos y el entrenamiento corren sin pararse, pero la historia no se ha jugado entera y guardar en la tarjeta todavía no se ha probado. Ofrece texturas HD con el pack reescalado con IA de Sal9im para PCSX2 (no incluido), supermuestreo hasta 16x, pantalla panorámica en combates, escenas y mapa (los menús y el HUD se estiran), combates a 60 fps con un fotograma intermedio, cargas más cortas y empujar en los choques de rayos con botones en lugar del stick. No hay versión publicada: se compila desde el código, y el código del juego se genera en tu PC a partir de tu disco. El README dice que se usan herramientas de IA para programar, investigar y documentar."
+  en: "BT2 Recomp: a native Windows port of the North American PS2 release (SLUS-21441), by static recompilation with PS2Recomp: the game’s code (11,139 EE functions and 494 in the DBZP.BIN overlay) is translated to C++ and runs on a small native layer, with no emulator. Requests to the IOP (disc, controller, memory card, sound) are answered on the PC without running any IOP code, and graphics go through paraLLEl-GS on Vulkan. It takes BT3-Recomp and Tenkaichi3Decomp, by z3xox, as architecture references. The README calls it early development: versus battles are playable with a controller at the original speed, with the enemy AI computing the same as in PCSX2 at the calls compared, and story mode (all 200 parts and 73 towns), Ultimate Battle Z, the tournaments, and training run without stopping, but the story hasn’t been played through and saving to the memory card hasn’t been tried yet. It offers HD textures with Sal9im’s AI-upscaled PCSX2 pack (not included), super-sampling up to 16x, widescreen in fights, cutscenes, and the story map (menus and the HUD are stretched), 60 fps battles with an in-between frame, shorter loading, and pushing in beam struggles with buttons instead of the stick. There’s no release: it’s built from source, and the game’s code is generated on your PC from your disc. The README says AI tools are used for coding, investigation, and documentation."
+requirements:
+  es: "Tu propia imagen .iso de Dragon Ball Z: Budokai Tenkaichi 2 para PS2, versión norteamericana (SLUS-21441). Para compilarlo, Windows 10 u 11 de 64 bits con Visual Studio 2022 (herramientas de C++) y CMake. Para jugar, según las estimaciones del README, una CPU de 4 núcleos, 4 GB de RAM, una GPU con Vulkan como la GeForce GTX 1050 Ti o la Radeon RX 570 y 3,2 GB libres; unos 12 GB con el pack de texturas."
+  en: "Your own .iso image of Dragon Ball Z: Budokai Tenkaichi 2 for PS2, North American release (SLUS-21441). To build it, 64-bit Windows 10 or 11 with Visual Studio 2022 (C++ tools) and CMake. To play, by the README’s estimates, a 4-core CPU, 4 GB of RAM, a Vulkan GPU such as a GeForce GTX 1050 Ti or Radeon RX 570, and 3.2 GB free; about 12 GB with the texture pack."
+tags:
+  - emotion-engine
+  - fighting
+  - widescreen
+  - 60fps+
+  - vulkan
+  - ai-assisted

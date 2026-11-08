@@ -1,0 +1,19 @@
+name: "Half-Life 2 (sp00nznet)"
+games: [half-life-2]
+console: xbox
+status: experimental
+repo: sp00nznet/hl2-recomp
+author: sp00nznet
+originalDeveloper: "Valve"
+year: 2005
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática de la versión de Xbox de Half-Life 2 (2005) a un ejecutable nativo de Windows con xboxrecomp: el código x86 de hl2_xbox.xbe se traduce a C (49.487 de 49.498 funciones, 13,4 millones de líneas) y se enlaza con su runtime, que sustituye al núcleo de la Xbox y pasa Direct3D 8 a Direct3D 11, además de DirectSound y el control. El ejecutable conserva la RTTI de MSVC, con la que el autor recuperó 2.336 clases y 12.288 métodos virtuales con nombre, y la mayoría se encuentran en el Source SDK 2013 publicado por Valve. El cargador del disco también se recompila, y su propio descompresor convierte los archivos del disco al formato que lee el juego. Todavía no se juega: arranca solo hasta su menú principal, del que dibuja el fondo pero no las opciones, y con xboxrecomp v0.14.0 más un parche pendiente la pantalla de título sale completa; el mando no funciona aún. Forzando un mapa carga 22,3 MB del primer nivel y muestra la pantalla de carga, pero no llega a pasar al mundo. No hay ejecutables publicados: el código traducido se genera en tu PC. Sus 74 commits llevan a Claude como coautor."
+  en: "A static recompilation of the Xbox version of Half-Life 2 (2005) into a native Windows executable with xboxrecomp: the x86 code in hl2_xbox.xbe is translated to C (49,487 of 49,498 functions, 13.4 million lines) and linked against its runtime, which stands in for the Xbox kernel and turns Direct3D 8 into Direct3D 11, plus DirectSound and input. The executable keeps MSVC’s RTTI, which the author used to recover 2,336 classes and 12,288 named virtual methods, most of them found in Valve’s public Source SDK 2013. The disc’s loader is recompiled too, and its own decompressor turns the disc’s archives into the format the game reads. It isn’t playable yet: it boots on its own to its main menu, drawing the background but not the options, and with xboxrecomp v0.14.0 plus a pending patch the title screen draws in full; the controller doesn’t work yet. Forcing a map, it loads 22.3 MB of the first level and shows the loading screen, but never hands off to the world. There are no prebuilt executables: the translated code is generated on your PC. All 74 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Half-Life 2 para Xbox, con los archivos del disco extraídos. Para compilarlo, Windows con Visual Studio 2022, CMake 3.20 o posterior, Python 3.10 o posterior con capstone y una copia de xboxrecomp (la v0.14.0 con el cambio #224 para la pantalla de título); el Source SDK 2013 es opcional."
+  en: "Your own copy of Half-Life 2 for Xbox, with the disc’s files extracted. To build it, Windows with Visual Studio 2022, CMake 3.20 or later, Python 3.10 or later with capstone, and an xboxrecomp checkout (v0.14.0 with change #224 for the title screen); the Source SDK 2013 is optional."
+tags:
+  - x86
+  - fps
+  - ai-assisted
