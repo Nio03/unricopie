@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
-import Card from "../Card.astro";
-import { consoleMeta } from "../../lib/consoles";
+import { consoleMeta, inkOn } from "../../lib/consoles";
+import instalables from "../../data/unricopie.json";
 import { getGames, projectsByGame, launchersFor, coverOf, COVER_W, COVER_H } from "../../lib/games";
 import type { Item } from "../../lib/catalog";
 import { t, localePath, type Lang, type UIKey } from "../../i18n";
@@ -105,6 +105,16 @@ if (others.length) {
   });
 }
 const cover = coverOf(id);
+// Diseño v3: la franja de la consola principal, el estudio y el año, y el botón dorado
+// si Unricopie sabe instalar alguno de sus proyectos.
+const consola = game.platforms.find((p) => p !== "other");
+const cm = consola ? consoleMeta(consola, lang) : null;
+const franja = cm ? `--c:${cm.color};--ci:${inkOn(cm.color)}` : undefined;
+const studio = items.find((i) => i.originalDeveloper)?.originalDeveloper;
+const origen = [studio, game.year].filter(Boolean).join(", ");
+const instalable = new Set((instalables as { instalables: string[] }).instalables);
+const conUnricopie = items.some((i) => instalable.has(`${i.type === "tool" ? "tools" : i.type === "decomp" ? "decomps" : i.type + "s"}/${i.id}`));
+const dueno = (repo?: string) => repo?.split("/")[0];
 
 const title = `${t(lang, "game.seoTitle", { name: game.name, summary })} — Recompendium`;
 const description = faqs[0].a;
@@ -146,39 +156,82 @@ const jsonLd = [
 ---
 
 <Base lang={lang} title={title} description={description} jsonLd={jsonLd}>
-  <main class="wrap detail">
-    <div class="crumb"><a href={localePath(lang, "juegos")}>{t(lang, "game.crumb")}</a></div>
-    <div class:list={["game-head", { "has-cover": cover }]}>
-      {cover && <img class="cover" src={cover} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: game.name })} />}
-      <div>
-        <h1>{game.name}</h1>
-        <p class="game-meta">{[...platforms, game.year, t(lang, "game.projects", { n: items.length })].filter(Boolean).join(" · ")}</p>
+  <main class="v3">
+    {cm && (<div class="cfranja" style={franja}><div class="wrap"><span>{cm.full}</span>{origen && <span>{origen}</span>}</div></div>)}
+    <div class="wrap web">
+      <div class="izq">
+        <div class="crumb"><a href={localePath(lang, "juegos")}>{t(lang, "game.crumb")}</a></div>
+        <div>
+          <h1>{game.name}</h1>
+          <p class="orig">{[...platforms, game.year, t(lang, "game.projects", { n: items.length })].filter(Boolean).join(" · ")}</p>
+        </div>
+        {
+          (cover || conUnricopie) && (
+            <div class="movil-accion">
+              {cover && (<span class="caja-mini" style={franja}>{cm && <span class="franja">{cm.tag}</span>}<img src={cover} width={COVER_W} height={COVER_H} alt="" /></span>)}
+              {conUnricopie && <a class="instalar" href={localePath(lang, "unricopie")}>{t(lang, "unricopie.install")}</a>}
+            </div>
+          )
+        }
         <p class="short-answer"><span class="reqs-k">{t(lang, "game.short")}</span>{faqs[0].a} {t(lang, "game.shortNeed", { name: game.name, platform: mainPlatform ?? "" }).replace(" ()", "")}</p>
+
+        <h2 class="h">{t(lang, "game.dl.projects")} <small>{items.length}</small></h2>
+        <div class="lista">
+          {
+            items.map((it) => (
+              <a class="proy" href={it.href}>
+                <div>
+                  <b>{it.name}</b>
+                  <div class="q">{it.typeLabel}{dueno(it.repo) && <> · {dueno(it.repo)}</>}</div>
+                </div>
+                <div class="proy-der">
+                  {it.version && <b>{it.version}</b>}
+                  {it.status && <div class="q"><span class="punto" style={`--d:${it.status.color}`}></span>{it.status.label}</div>}
+                </div>
+              </a>
+            ))
+          }
+        </div>
+
+        {
+          installers.length > 0 && (
+            <>
+              <h2 class="h">{t(lang, "game.installedWith")}</h2>
+              <p class="game-links">{installers.map((l, i) => (<>{i > 0 && " · "}<a href={l.href}>{l.name}</a></>))}</p>
+            </>
+          )
+        }
+
+        <h2 class="h">{t(lang, "game.faq")}</h2>
+        <div class="prose faq">
+          {
+            faqs.map((f) => (
+              <>
+                <h3>{f.q}</h3>
+                <p>{f.link ? <><a href={f.link.href}>{f.link.name}</a>{f.a.slice(f.link.name.length)}</> : f.a}</p>
+              </>
+            ))
+          }
+        </div>
       </div>
-    </div>
 
-    <div class="sec-h"><h2>{summary}</h2></div>
-    <section class="grid" style="padding-top:8px">{items.map((it) => <Card item={it} lang={lang} />)}</section>
-
-    {
-      installers.length > 0 && (
-        <>
-          <div class="sec-h" style="margin-top:6px"><h2>{t(lang, "game.installedWith")}</h2></div>
-          <p class="game-links">{installers.map((l, i) => (<>{i > 0 && " · "}<a href={l.href}>{l.name}</a></>))}</p>
-        </>
-      )
-    }
-
-    <div class="sec-h"><h2>{t(lang, "game.faq")}</h2></div>
-    <div class="prose">
-      {
-        faqs.map((f) => (
-          <>
-            <h3>{f.q}</h3>
-            <p>{f.link ? <><a href={f.link.href}>{f.link.name}</a>{f.a.slice(f.link.name.length)}</> : f.a}</p>
-          </>
-        ))
-      }
+      <aside class="der">
+        {
+          cover && (
+            <span class="caja" style={franja}>
+              {cm && <span class="franja">{cm.label}</span>}
+              <img src={cover} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: game.name })} />
+            </span>
+          )
+        }
+        {conUnricopie && <a class="instalar" href={localePath(lang, "unricopie")}>{t(lang, "unricopie.install")}</a>}
+        <dl class="dl">
+          {cm && (<><dt>{t(lang, "game.dl.console")}</dt><dd>{platforms.join(", ")}</dd></>)}
+          {origen && (<><dt>{t(lang, "game.dl.original")}</dt><dd>{origen}</dd></>)}
+          <dt>{t(lang, "game.dl.projects")}</dt><dd>{summary}</dd>
+        </dl>
+        <div class="necesitas"><b>{t(lang, "card.reqs")}</b> {faqs[1].a}</div>
+      </aside>
     </div>
   </main>
 </Base>

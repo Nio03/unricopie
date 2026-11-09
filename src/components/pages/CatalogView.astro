@@ -1,9 +1,12 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Card from "../Card.astro";
-import { CONSOLE_KEYS, consoleMeta } from "../../lib/consoles";
+import { CONSOLE_KEYS, consoleMeta, inkOn } from "../../lib/consoles";
+import { coverOf, COVER_W, COVER_H } from "../../lib/games";
+import { fmtStars } from "../../lib/stats";
 import { sortItems, TYPE_COLOR, type Item } from "../../lib/catalog";
 import { t, localePath, type Lang } from "../../i18n";
+import unricopie from "../../data/unricopie.json";
 
 interface Props {
   lang: Lang;
@@ -27,9 +30,12 @@ const { lang, items, h1, tagline, countTmpl, readout = false, guide = false, typ
 
 const ordered = sortItems(items);
 
-const present = new Set<string>();
-for (const i of items) for (const c of i.consoleKeys) present.add(c);
-const consoleChips = CONSOLE_KEYS.filter((k) => present.has(k)).map((k) => ({ key: k, ...consoleMeta(k, lang) }));
+// Las consolas de esta página, de la que más fichas tiene a la que menos.
+const nPorConsola = new Map<string, number>();
+for (const i of items) for (const c of i.consoleKeys) nPorConsola.set(c, (nPorConsola.get(c) ?? 0) + 1);
+const consoles = CONSOLE_KEYS.filter((k) => nPorConsola.has(k))
+  .map((k) => ({ key: k, n: nPorConsola.get(k)!, ...consoleMeta(k, lang) }))
+  .sort((a, b) => b.n - a.n);
 
 // Filtro de estado con los estados que de verdad tienen las fichas de esta
 // página: las herramientas usan otros (beta, usable, estable) y las
@@ -47,7 +53,7 @@ const hasAbandoned = items.some((i) => i.abandoned);
 const hasTakedown = items.some((i) => i.takedown);
 const showStatus = statusOptions.length > 0 || hasAbandoned || hasTakedown;
 
-const typeChips = (
+const types = (
   [
     { key: "recomp", label: t(lang, "ctl.typeRecomps"), color: TYPE_COLOR.recomp },
     { key: "tool", label: t(lang, "ctl.typeTools"), color: TYPE_COLOR.tool },
@@ -55,7 +61,41 @@ const typeChips = (
     { key: "decomp", label: t(lang, "ctl.typeDecomps"), color: TYPE_COLOR.decomp },
     { key: "mod", label: t(lang, "ctl.typeMods"), color: TYPE_COLOR.mod },
   ] as const
-).filter((c) => items.some((i) => i.type === c.key));
+)
+  .filter((c) => items.some((i) => i.type === c.key))
+  .map((c) => ({ ...c, n: items.filter((i) => i.type === c.key).length }));
+
+// Explorar, como Nexus Mods: al entrar, estantes; «Ver todos» abre la cuadrícula con la columna
+// de filtros. Cada estante lleva sus primeras fichas (se ve una fila) y lo que marca «Ver todos».
+const ucList = (unricopie as { instalables: string[] }).instalables;
+const instalable = (i: Item) => !i.takedown && ucList.includes(`${i.type === "decomp" ? "decomps" : i.type + "s"}/${i.id}`);
+const nInstalables = items.filter(instalable).length;
+const SHELF = 12;
+type Shelf = { key: string; title: string; color?: string; n: number; items: Item[]; group?: string; value?: string; sort?: string };
+const shelves: Shelf[] = [];
+if (nInstalables) shelves.push({ key: "uc", title: t(lang, "shelf.installable"), n: nInstalables, items: ordered.filter(instalable).slice(0, SHELF), group: "uc", value: "1" });
+const conEstrellas = items.filter((i) => i.stars != null);
+if (conEstrellas.length > SHELF)
+  shelves.push({ key: "pop", title: t(lang, "shelf.popular"), n: items.length, items: [...conEstrellas].sort((a, b) => (b.stars ?? 0) - (a.stars ?? 0)).slice(0, SHELF), sort: "stars" });
+const conFecha = items.filter((i) => i.pushedAt);
+if (conFecha.length > SHELF)
+  shelves.push({ key: "upd", title: t(lang, "shelf.updated"), n: items.length, items: [...conFecha].sort((a, b) => (b.pushedAt ?? "").localeCompare(a.pushedAt ?? "")).slice(0, SHELF), sort: "updated" });
+if (typeFilter && types.length > 1)
+  for (const ty of types) shelves.push({ key: `t-${ty.key}`, title: ty.label, color: ty.color, n: ty.n, items: ordered.filter((i) => i.type === ty.key).slice(0, SHELF), group: "type", value: ty.key });
+if (consoles.length > 1)
+  for (const c of consoles.slice(0, 6)) shelves.push({ key: `c-${c.key}`, title: c.label, color: c.color, n: c.n, items: ordered.filter((i) => i.consoleKeys.includes(c.key)).slice(0, SHELF), group: "console", value: c.key });
+const MAS = 10;
+// En los estantes, cada ficha es una caja (la portada con la franja de su consola), como en la
+// página de juegos y en Unricopie; la tarjeta con el texto entero queda para «Ver todos».
+const cajaDe = (i: Item) => {
+  const g = i.games.find((x) => coverOf(x));
+  const cm = i.consoleKeys[0] ? consoleMeta(i.consoleKeys[0], lang) : null;
+  const sub = [i.status?.label, i.stars != null ? `★ ${fmtStars(i.stars)}` : null].filter(Boolean).join(" · ");
+  // Sin consola (un motor para varios juegos, como OpenRA), la franja dice su tipo en un color
+  // neutro: así todas las cajas del estante miden lo mismo.
+  const franja = cm ? { label: cm.tag, style: `--c:${cm.color};--ci:${inkOn(cm.color)}` } : { label: i.kindLabel, style: "--c:var(--panel-2);--ci:var(--ink-2)" };
+  return { cover: g ? coverOf(g) : null, franja, sub };
+};
 
 // Va en el hero, antes de las fichas, a propósito: la portada pesa casi 3 MB
 // y los lectores de las IAs la cortan mucho antes del final. Lo que no esté en
@@ -116,61 +156,127 @@ const guideCards = [
 
   <div class="controls">
     <div class="wrap">
-      <div class="crow" style="margin-bottom:12px">
+      <div class="crow">
         <div class="search">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             ><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg
           >
           <input id="q" type="search" placeholder={t(lang, "ctl.searchPlaceholder")} aria-label={t(lang, "ctl.search")} />
         </div>
-        {
-          showStatus && (
-            <select id="status" aria-label={t(lang, "ctl.filterStatus")}>
-              <option value="">{t(lang, "ctl.statusAll")}</option>
-              {statusOptions.map((s) => <option value={s}>{STATUS_LABEL[s]}</option>)}
-              {hasAbandoned && <option value="__abandoned">{t(lang, "status.abandoned")}</option>}
-              {hasTakedown && <option value="__takedown">{t(lang, "status.takedown")}</option>}
-            </select>
-          )
-        }
-        <select id="sort" aria-label={t(lang, "ctl.sort")}>
-          <option value="stars">{t(lang, "ctl.sortStars")}</option>
-          <option value="name">{t(lang, "ctl.sortName")}</option>
-          <option value="updated">{t(lang, "ctl.sortUpdated")}</option>
-        </select>
-      </div>
-      {
-        typeFilter && typeChips.length > 1 && (
-          <div class="chips" style="margin-bottom:10px" role="group" aria-label={t(lang, "ctl.filterType")}>
-            {typeChips.map((c) => (
-              <button class="chip" data-typefilter={c.key} aria-pressed="false">
-                <span class="dot" style={`color:${c.color}`} />{c.label}
-              </button>
-            ))}
-          </div>
-        )
-      }
-      <div class="chips" role="group" aria-label={t(lang, "ctl.filterConsole")}>
-        {consoleChips.map((c) => (
-          <button class="chip" data-console={c.key} aria-pressed="false">
-            <span class="dot" style={`color:${c.color}`} />{c.label}
-          </button>
-        ))}
       </div>
     </div>
   </div>
 
-  <main class="wrap">
-    <div class="meta" id="count" data-tmpl={countTmpl}>{countTmpl.replace("{shown}", String(ordered.length)).replace("{total}", String(ordered.length))}</div>
-    <section class="grid" id="grid">
-      {ordered.map((item) => <Card item={item} lang={lang} />)}
-      {/* Callejón sin salida hasta ahora: este buscador solo filtra la sección
-          actual, así que buscar "Jak" o "Strikers" en la home daba cero (están
-          en ports) y la gente concluía que faltaban del catálogo. Dos quejas de
-          r/recomps venían de aquí. Ahora el vacío ofrece el buscador global. */}
-      <div class="empty" id="empty" style="display:none">
-        <p>{t(lang, "empty.recomps")}</p>
-        <button class="btn" type="button" id="empty-global">{t(lang, "empty.tryGlobal")}</button>
+  {/* Sin JavaScript se ve «Ver todos» con la cuadrícula entera: así la leen igual los
+      buscadores, y ninguna ficha queda solo dentro de un estante. */}
+  <noscript><style>.explorar .inicio {display: none !important} .explorar .todos {display: grid !important} .filtros {display: none !important}</style></noscript>
+  <main class="wrap explorar" id="explorar" data-vista="inicio">
+    <section class="inicio" aria-label={t(lang, "ctl.shelves")}>
+      <p class="ver-todo"><button class="ver-todos" type="button" data-sort="">{t(lang, "ctl.seeAllN", { n: ordered.length })}</button></p>
+      {shelves.map((s) => (
+        <section class="estante-f">
+          <header>
+            {s.color && <i style={`--c:${s.color}`} />}
+            <h2>{s.title}</h2>
+            <span class="n">{s.n}</span>
+            <button class="ver-todos" type="button" data-group={s.group ?? ""} data-value={s.value ?? ""} data-sort={s.sort ?? ""}>{t(lang, "ctl.seeAll")}</button>
+          </header>
+          <ul class="estante fila">
+            {s.items.map((item) => {
+              const c = cajaDe(item);
+              return (
+                <li>
+                  <a class="caja-j" href={item.href} target={item.external ? "_blank" : undefined} rel={item.external ? "noopener" : undefined}>
+                    <span class="caja" style={c.franja?.style}>
+                      {c.franja && <span class="franja">{c.franja.label}</span>}
+                      {c.cover ? <img src={c.cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" /> : <span class="sin-portada">{item.name}</span>}
+                    </span>
+                    <span class="t">{item.name}</span>
+                    {c.sub && <span class="s">{c.sub}</span>}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))}
+    </section>
+
+    <section class="todos" id="todos">
+      <details class="filtros" open>
+        <summary>{t(lang, "ctl.filters")}</summary>
+        <div class="filtros-cab">
+          <b>{t(lang, "ctl.filters")}</b>
+          <button class="limpiar" type="button" id="limpiar" hidden>{t(lang, "ctl.clear")}</button>
+        </div>
+        {
+          typeFilter && types.length > 1 && (
+            <fieldset class="grupo">
+              <legend>{t(lang, "ctl.gType")}</legend>
+              {types.map((c) => (
+                <label><input type="checkbox" data-group="type" value={c.key} /><span class="sw punto" style={`--c:${c.color}`} /><span class="nm">{c.label}</span><span class="ct">{c.n}</span></label>
+              ))}
+            </fieldset>
+          )
+        }
+        {
+          consoles.length > 1 && (
+            <fieldset class="grupo">
+              <legend>{t(lang, "ctl.gConsole")}</legend>
+              {consoles.map((c, i) => (
+                <label class:list={{ extra: i >= MAS }}><input type="checkbox" data-group="console" value={c.key} /><span class="sw" style={`--c:${c.color}`} /><span class="nm">{c.label}</span><span class="ct">{c.n}</span></label>
+              ))}
+              {consoles.length > MAS && (
+                <button class="mas" type="button" data-more={t(lang, "ctl.more", { n: consoles.length - MAS })} data-less={t(lang, "ctl.less")}>{t(lang, "ctl.more", { n: consoles.length - MAS })}</button>
+              )}
+            </fieldset>
+          )
+        }
+        {
+          showStatus && (
+            <fieldset class="grupo">
+              <legend>{t(lang, "ctl.gStatus")}</legend>
+              {statusOptions.map((s) => (
+                <label><input type="checkbox" data-group="status" value={s} /><span class="nm">{STATUS_LABEL[s]}</span><span class="ct">{items.filter((i) => i.statusKey === s).length}</span></label>
+              ))}
+              {hasAbandoned && <label><input type="checkbox" data-group="status" value="__abandoned" /><span class="nm">{t(lang, "status.abandoned")}</span><span class="ct">{items.filter((i) => i.abandoned).length}</span></label>}
+              {hasTakedown && <label><input type="checkbox" data-group="status" value="__takedown" /><span class="nm">{t(lang, "status.takedown")}</span><span class="ct">{items.filter((i) => i.takedown).length}</span></label>}
+            </fieldset>
+          )
+        }
+        {
+          nInstalables > 0 && (
+            <fieldset class="grupo">
+              <legend>Unricopie</legend>
+              <label><input type="checkbox" data-group="uc" value="1" /><span class="nm">{t(lang, "ctl.optInstallable")}</span><span class="ct">{nInstalables}</span></label>
+            </fieldset>
+          )
+        }
+      </details>
+
+      <div class="resultados">
+        <div class="res-barra">
+          <button class="volver" type="button" id="volver">{t(lang, "ctl.back")}</button>
+          <div class="meta" id="count" data-tmpl={countTmpl}>{countTmpl.replace("{shown}", String(ordered.length)).replace("{total}", String(ordered.length))}</div>
+          <label class="orden">{t(lang, "ctl.sort")}
+            <select id="sort">
+              <option value="stars">{t(lang, "ctl.byStars")}</option>
+              <option value="name">{t(lang, "ctl.byName")}</option>
+              <option value="updated">{t(lang, "ctl.byUpdated")}</option>
+            </select>
+          </label>
+        </div>
+        <section class="grid" id="grid">
+          {ordered.map((item) => <Card item={item} lang={lang} />)}
+          {/* Callejón sin salida hasta ahora: este buscador solo filtra la sección
+              actual, así que buscar "Jak" o "Strikers" en la home daba cero (están
+              en ports) y la gente concluía que faltaban del catálogo. Dos quejas de
+              r/recomps venían de aquí. Ahora el vacío ofrece el buscador global. */}
+          <div class="empty" id="empty" style="display:none">
+            <p>{t(lang, "empty.recomps")}</p>
+            <button class="btn" type="button" id="empty-global">{t(lang, "empty.tryGlobal")}</button>
+          </div>
+        </section>
       </div>
     </section>
 
@@ -193,31 +299,50 @@ const guideCards = [
     const countEl = document.getElementById("count")!;
     const tmpl = countEl.dataset.tmpl || "{shown} / {total}";
     const qEl = document.getElementById("q") as HTMLInputElement | null;
-    const statusEl = document.getElementById("status") as HTMLSelectElement | null;
     const sortEl = document.getElementById("sort") as HTMLSelectElement | null;
-    const typeChipsEls = Array.from(document.querySelectorAll<HTMLElement>(".chip[data-typefilter]"));
-    const consoleChipsEls = Array.from(document.querySelectorAll<HTMLElement>(".chip[data-console]"));
-    const types = new Set<string>();
-    const consoles = new Set<string>();
-    const state = { q: "", status: "", sort: "" };
+    const explorarEl = document.getElementById("explorar")!;
+    const todosEl = document.getElementById("todos")!;
+    const limpiarEl = document.getElementById("limpiar");
+    const boxes = Array.from(document.querySelectorAll<HTMLInputElement>(".filtros input[data-group]"));
+    const state = { q: "", sort: "" };
+    // Lo marcado en cada grupo: dentro de un grupo vale cualquiera; entre grupos, todos.
+    const marcados = () => {
+      const m: Record<string, Set<string>> = { type: new Set(), console: new Set(), status: new Set(), uc: new Set() };
+      for (const b of boxes) if (b.checked) m[b.dataset.group || ""]?.add(b.value);
+      return m;
+    };
 
-    const matches = (c: HTMLElement) => {
-      if (types.size && !types.has(c.dataset.type || "")) return false;
-      if (state.status === "__abandoned") { if (c.dataset.abandoned !== "true") return false; }
-      else if (state.status === "__takedown") { if (c.dataset.takedown !== "true") return false; }
-      else if (state.status && c.dataset.status !== state.status) return false;
-      if (consoles.size) {
-        const cs = (c.dataset.consoles || "").split(",").filter(Boolean);
-        if (!cs.some((x) => consoles.has(x))) return false;
+    const matches = (c: HTMLElement, m: Record<string, Set<string>>) => {
+      if (m.type.size && !m.type.has(c.dataset.type || "")) return false;
+      if (m.status.size) {
+        const ok = (m.status.has("__abandoned") && c.dataset.abandoned === "true") || (m.status.has("__takedown") && c.dataset.takedown === "true") || m.status.has(c.dataset.status || "");
+        if (!ok) return false;
       }
+      if (m.console.size) {
+        const cs = (c.dataset.consoles || "").split(",").filter(Boolean);
+        if (!cs.some((x) => m.console.has(x))) return false;
+      }
+      if (m.uc.size && c.dataset.uc !== "1") return false;
       if (state.q && !(c.dataset.search || "").includes(state.q)) return false;
       return true;
     };
 
+    // «Ver todos» deja #todos en la dirección: así se puede compartir y volver con «Atrás».
+    const vista = (v: "inicio" | "todos") => {
+      explorarEl.dataset.vista = v;
+      const u = new URL(window.location.href);
+      u.hash = v === "todos" ? "todos" : "";
+      window.history.replaceState(null, "", u);
+      if (v === "todos") todosEl.scrollIntoView({ block: "start" });
+      else window.scrollTo({ top: 0 });
+    };
+
     const apply = () => {
+      const m = marcados();
+      if (limpiarEl) limpiarEl.hidden = !boxes.some((b) => b.checked);
       let shown = 0;
       for (const c of cards) {
-        const ok = matches(c);
+        const ok = matches(c, m);
         c.classList.toggle("hidden", !ok);
         if (ok) shown++;
       }
@@ -242,21 +367,42 @@ const guideCards = [
       window.history.replaceState(null, "", u);
     };
 
-    qEl?.addEventListener("input", (e) => { state.q = (e.target as HTMLInputElement).value.trim().toLowerCase(); syncUrl(); apply(); });
-    statusEl?.addEventListener("change", (e) => { state.status = (e.target as HTMLSelectElement).value; apply(); });
-    sortEl?.addEventListener("change", (e) => { state.sort = (e.target as HTMLSelectElement).value; apply(); });
-    const toggleChip = (el: HTMLElement, set: Set<string>, attr: string) => {
-      const k = el.dataset[attr] || "";
-      if (set.has(k)) { set.delete(k); el.setAttribute("aria-pressed", "false"); }
-      else { set.add(k); el.setAttribute("aria-pressed", "true"); }
+    // Buscar lleva a «Ver todos».
+    qEl?.addEventListener("input", (e) => {
+      state.q = (e.target as HTMLInputElement).value.trim().toLowerCase();
+      syncUrl();
       apply();
-    };
-    for (const el of typeChipsEls) el.addEventListener("click", () => toggleChip(el, types, "typefilter"));
-    for (const el of consoleChipsEls) el.addEventListener("click", () => toggleChip(el, consoles, "console"));
+      if (state.q && explorarEl.dataset.vista !== "todos") vista("todos");
+    });
+    sortEl?.addEventListener("change", (e) => { state.sort = (e.target as HTMLSelectElement).value; apply(); });
+    for (const b of boxes) b.addEventListener("change", apply);
+    limpiarEl?.addEventListener("click", () => { for (const b of boxes) b.checked = false; apply(); });
+    // «Ver todos ›» de un estante: la cuadrícula con su filtro marcado (o su orden).
+    for (const btn of document.querySelectorAll<HTMLButtonElement>(".ver-todos")) {
+      btn.addEventListener("click", () => {
+        for (const b of boxes) b.checked = !!btn.dataset.group && b.dataset.group === btn.dataset.group && b.value === btn.dataset.value;
+        if (btn.dataset.sort && sortEl) { sortEl.value = btn.dataset.sort; state.sort = btn.dataset.sort; }
+        apply();
+        vista("todos");
+      });
+    }
+    document.getElementById("volver")?.addEventListener("click", () => vista("inicio"));
+    // «Ver las N restantes» de un grupo largo.
+    for (const mas of document.querySelectorAll<HTMLButtonElement>(".filtros .mas")) {
+      mas.addEventListener("click", () => {
+        const g = mas.closest(".grupo");
+        const abierto = g?.classList.toggle("abierto");
+        mas.textContent = (abierto ? mas.dataset.less : mas.dataset.more) || "";
+      });
+    }
+    // En el móvil, los filtros empiezan plegados.
+    const det = document.querySelector<HTMLDetailsElement>("details.filtros");
+    if (det && window.matchMedia("(max-width: 860px)").matches) det.open = false;
 
-    // deep-link: /?q=mario  → prefiltra y permite probar/compartir búsquedas
+    // deep-link: /?q=mario  → prefiltra y abre «Ver todos»
     const q0 = new URLSearchParams(window.location.search).get("q");
-    if (q0 && qEl) { qEl.value = q0; state.q = q0.trim().toLowerCase(); }
+    if (q0 && qEl) { qEl.value = q0; state.q = q0.trim().toLowerCase(); explorarEl.dataset.vista = "todos"; }
+    if (window.location.hash === "#todos") explorarEl.dataset.vista = "todos";
     apply();
 
     // Desde el vacío, saltar al buscador global llevándose lo que ya escribió.

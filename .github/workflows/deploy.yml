@@ -24,6 +24,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Token de solo lectura del repo privado de recetas (Nio03/unricopie-data). Sin él,
+      # el sitio se publica igual, solo que sin recetas.json para el launcher.
+      UNRICOPIE_DATA_TOKEN: ${{ secrets.UNRICOPIE_DATA_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,6 +35,21 @@ jobs:
           # que la anadio, asi que necesita el historial entero. Con el checkout
           # superficial por defecto el build no falla, pero el feed sale sin fechas.
           fetch-depth: 0
+      # Las recetas de Unricopie: se exportan del repo privado a public/ solo aquí, en el
+      # build, y salen publicadas en /unricopie/recetas.json sin pasar por este repo.
+      - name: Recetas de Unricopie (repo privado)
+        if: env.UNRICOPIE_DATA_TOKEN != ''
+        uses: actions/checkout@v4
+        with:
+          repository: Nio03/unricopie-data
+          token: ${{ secrets.UNRICOPIE_DATA_TOKEN }}
+          path: _unricopie-data
+      - name: Exportar recetas.json
+        if: env.UNRICOPIE_DATA_TOKEN != ''
+        run: |
+          pip install --quiet pyyaml
+          python3 _unricopie-data/scripts/exportar.py public/unricopie/recetas.json
+          rm -rf _unricopie-data
       - name: Build con Astro
         uses: withastro/action@v3
         env:

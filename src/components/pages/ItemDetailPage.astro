@@ -3,7 +3,7 @@ import { getEntry, getCollection, type CollectionEntry } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import Card from "../Card.astro";
 import ProjectForm from "../ProjectForm.astro";
-import { consoleMeta } from "../../lib/consoles";
+import { consoleMeta, inkOn } from "../../lib/consoles";
 import { statusMeta, toolKindMeta, toolStatusMeta, modKindMeta, stalledDays, STALLED_COLOR } from "../../lib/status";
 import { statFor, fmtStars, fmtDate, relDate, repoUrlOf } from "../../lib/stats";
 import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/catalog";
@@ -11,6 +11,7 @@ import { tagLabel } from "../../lib/tags";
 import { t, localePath, type Lang } from "../../i18n";
 import { consolePageKeys } from "../../lib/console-pages";
 import { getGames, gamePageIds, projectsByGame, installedBy, coverOf, COVER_W, COVER_H } from "../../lib/games";
+import instalables from "../../data/unricopie.json";
 
 interface Props {
   lang: Lang;
@@ -202,6 +203,12 @@ const seoTitle =
 
 // Datos estructurados: el proyecto (código fuente) y el juego del que trata.
 const abs = (p: string) => (Astro.site ? new URL(p.endsWith("/") ? p : p + "/", Astro.site).href : p);
+// Diseño v3: la franja de la consola y el botón dorado si Unricopie sabe instalar esta ficha.
+const fKey: string | undefined = type === "tool" ? undefined : d.console;
+const fcm = fKey ? consoleMeta(fKey, lang) : null;
+const franjaStyle = fcm ? `--c:${fcm.color};--ci:${inkOn(fcm.color)}` : undefined;
+const franjaOrigen = [d.originalDeveloper, d.year].filter(Boolean).join(", ");
+const instalable = (instalables as { instalables: string[] }).instalables.includes(`${type === "decomp" ? "decomps" : type + "s"}/${entry.id}`);
 // Insignia para el README del proyecto: enlaza a la ficha en inglés, el idioma de casi todos los README.
 const badgeUrl = Astro.site ? new URL(`insignias/${type}/${entry.id}.svg`, Astro.site).href : `/insignias/${type}/${entry.id}.svg`;
 const badgeMd = `[![Recompendium](${badgeUrl})](${abs(localePath("en", `${type}/${entry.id}`))})`;
@@ -238,18 +245,13 @@ const jsonLd = [
 ---
 
 <Base lang={lang} title={`${seoTitle} — Recompendium`} description={d.desc[lang]} jsonLd={jsonLd}>
-  <main class="wrap detail">
+  <main class="v3">
+    {fcm && (<div class="cfranja" style={franjaStyle}><div class="wrap"><span>{fcm.full}</span>{franjaOrigen && <span>{franjaOrigen}</span>}</div></div>)}
+    <div class="wrap web">
+    <div class="izq">
     <div class="crumb"><a href={crumb.href}>{crumb.label}</a></div>
 
-    <div class:list={["entry-head", { "has-cover": cover }]}>
-    {
-      cover && (
-        cover.href
-          ? <a class="entry-cover" href={cover.href}><img class="cover" src={cover.src} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: cover.name })} /></a>
-          : <span class="entry-cover"><img class="cover" src={cover.src} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: cover.name })} /></span>
-      )
-    }
-    <div class="entry-head-main">
+    <div>
     <div class="detail-top">
       <span class="console" style={`--rail:${badgeColor};color:${badgeColor}`}><span class="dot"></span>{badgeLabel}</span>
       {statusLabel && <span class="pill is-pill" style={`color:${statusColor}`}>{statusLabel}</span>}
@@ -279,33 +281,28 @@ const jsonLd = [
       )
     }
     </div>
-    </div>
+    {
+      (cover || (instalable && !d.takedown)) && (
+        <div class="movil-accion">
+          {cover && (<span class="caja-mini" style={franjaStyle}>{fcm && <span class="franja">{fcm.tag}</span>}<img src={cover.src} width={COVER_W} height={COVER_H} alt="" /></span>)}
+          {instalable && !d.takedown && <a class="instalar" href={localePath(lang, "unricopie")}>{t(lang, "unricopie.install")}</a>}
+        </div>
+      )
+    }
     <p class="lead">{d.desc[lang]}</p>
 
     {
-      d.requirements && (
-        <p class="reqs" style="max-width:70ch;margin-top:16px">
-          <span class="reqs-k">{t(lang, "card.reqs")}</span>{d.requirements[lang]}
-        </p>
-      )
-    }
-
-    {
       barPct != null && (
-        <div class="prog" style={`--rail:${badgeColor};max-width:420px;margin-top:18px`}>
+        <div class="prog" style={`--rail:${badgeColor};max-width:420px`}>
           <div class="bar"><i style={`width:${barPct}%`} /></div>
           <div class="lbl">{barLabel}</div>
         </div>
       )
     }
 
-    <dl class="facts">
-      {facts.map((f) => (<div><dt>{f.dt}</dt><dd>{f.href ? <a href={f.href}>{f.dd}</a> : f.dd}</dd></div>))}
-    </dl>
-
     {
       d.takedown && (
-        <p class="reqs" style="max-width:70ch;margin-top:16px;border-left:2px solid #e05656;padding-left:12px">
+        <p class="reqs" style="max-width:70ch;border-left:2px solid #e05656;padding-left:12px">
           <span class="reqs-k" style="color:#e05656">{t(lang, "status.takedown")}</span>{t(lang, "detail.takedownNote")}
         </p>
       )
@@ -313,14 +310,14 @@ const jsonLd = [
 
     {
       unlinked && unlinkedSlug && (
-        <p class="reqs" style="max-width:70ch;margin-top:16px;border-left:2px solid #e0a93a;padding-left:12px">
+        <p class="reqs" style="max-width:70ch;border-left:2px solid #e0a93a;padding-left:12px">
           <span class="reqs-k" style="color:#e0a93a">{t(lang, "status.unlinked")}</span>{t(lang, "detail.unlinkedNote", { host: unlinkedHost })} <code>{unlinkedSlug}</code>.
         </p>
       )
     }
 
     <div class="actions">
-      {repoUrl && !d.takedown && !unlinked && <a class="btn primary" href={repoUrl} target="_blank" rel="noopener">{t(lang, "detail.viewRepo")}</a>}
+      {repoUrl && !d.takedown && !unlinked && <a class:list={["btn", { primary: !instalable }]} href={repoUrl} target="_blank" rel="noopener">{t(lang, "detail.viewRepo")}</a>}
       {homepage && !d.takedown && !unlinked && <a class="btn" href={homepage} target="_blank" rel="noopener">{t(lang, "detail.homepage")}</a>}
       {links.map((l) => <a class="btn" href={l.url} target="_blank" rel="noopener">{l.label[lang]} ↗</a>)}
       <button class="btn btn-edit" id="edit-toggle" type="button">{t(lang, "detail.edit")}</button>
@@ -330,7 +327,7 @@ const jsonLd = [
       <ProjectForm lang={lang} mode="edit" type={type} path={dataPath} data={d} />
     </div>
 
-    {tags.length > 0 && (<div class="tagrow" style="margin-top:24px">{tags.map((tag) => <span class="tg">{tagLabel(tag, lang)}</span>)}</div>)}
+    {tags.length > 0 && (<div class="tagrow">{tags.map((tag) => <span class="tg">{tagLabel(tag, lang)}</span>)}</div>)}
 
     <details class="badge-box">
       <summary>{t(lang, "detail.badge")}</summary>
@@ -343,7 +340,7 @@ const jsonLd = [
     {
       otherProjects.map((o) => (
         <>
-          <div class="sec-h" style="margin-top:38px"><h2>{t(lang, "detail.otherProjects", { name: o.name })}</h2><p>{o.items.length}</p></div>
+          <h2 class="h">{t(lang, "detail.otherProjects", { name: o.name })} <small>{o.items.length}</small></h2>
           <p class="game-links">
             {o.items.slice(0, 8).map((it, i) => (<>{i > 0 && " · "}<a href={it.href}>{it.name}</a></>))}
             {" "}<a class="see-all" href={o.href}>{t(lang, "detail.seeAll")}</a>
@@ -355,17 +352,33 @@ const jsonLd = [
     {
       related && (
         <>
-          <div class="sec-h" style="margin-top:38px"><h2>{t(lang, related.titleKey as any)}</h2><p>{related.items.length}</p></div>
+          <h2 class="h">{t(lang, related.titleKey as any)} <small>{related.items.length}</small></h2>
           {installsNote && <p class="game-meta">{installsNote}</p>}
           {related.items.length ? (
-            <section class="grid" style="padding-top:8px">{related.items.map((it) => <Card item={it} lang={lang} />)}</section>
+            <section class="grid" style="padding:0">{related.items.map((it) => <Card item={it} lang={lang} />)}</section>
           ) : (
-            <p class="empty" style="margin-top:10px">{t(lang, "detail.relatedEmpty")}</p>
+            <p class="empty">{t(lang, "detail.relatedEmpty")}</p>
           )}
         </>
       )
     }
+    </div>
 
+    <aside class="der">
+      {
+        cover && (
+          cover.href
+            ? <a class="caja" style={franjaStyle} href={cover.href}>{fcm && <span class="franja">{fcm.label}</span>}<img src={cover.src} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: cover.name })} /></a>
+            : <span class="caja" style={franjaStyle}>{fcm && <span class="franja">{fcm.label}</span>}<img src={cover.src} width={COVER_W} height={COVER_H} alt={t(lang, "game.coverAlt", { name: cover.name })} /></span>
+        )
+      }
+      {instalable && !d.takedown && <a class="instalar" href={localePath(lang, "unricopie")}>{t(lang, "unricopie.install")}</a>}
+      <dl class="dl">
+        {facts.map((f) => (<><dt>{f.dt}</dt><dd>{f.href ? <a href={f.href}>{f.dd}</a> : f.dd}</dd></>))}
+      </dl>
+      {d.requirements && (<div class="necesitas"><b>{t(lang, "card.reqs")}</b> {d.requirements[lang]}</div>)}
+    </aside>
+    </div>
   </main>
 </Base>
 

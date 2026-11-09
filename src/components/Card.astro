@@ -3,13 +3,23 @@ import { t, type Lang } from "../i18n";
 import { fmtStars, fmtDate } from "../lib/stats";
 import { STALLED_COLOR } from "../lib/status";
 import type { Item } from "../lib/catalog";
+import { coverOf, COVER_W, COVER_H } from "../lib/games";
+import { consoleMeta, inkOn } from "../lib/consoles";
+import unricopie from "../data/unricopie.json";
 
 interface Props {
   item: Item;
   lang: Lang;
 }
 const { item, lang } = Astro.props;
+// La caja del diseño v3: la portada del juego con la franja de color de su consola.
+const coverGame = item.games.find((g) => coverOf(g));
+const cover = coverGame ? coverOf(coverGame) : null;
+const cm = item.consoleKeys[0] ? consoleMeta(item.consoleKeys[0], lang) : null;
+const franja = cm ? { label: cm.tag, color: cm.color, ink: inkOn(cm.color) } : null;
 const repoFallback = item.type === "recomp" ? t(lang, "card.repoTBD") : "—";
+// Se instala con Unricopie: para el filtro y el estante de Explorar.
+const instalable = (unricopie as { instalables: string[] }).instalables.includes(`${item.type === "decomp" ? "decomps" : item.type + "s"}/${item.id}`) && !item.takedown;
 // Solo mostramos estrellas/versión cuando hay datos en vivo (repo enriquecido).
 const hasStats = item.stars != null;
 
@@ -25,7 +35,6 @@ const stalledPill = (() => {
 ---
 
 <a
-  class="card"
   href={item.href}
   data-card
   data-type={item.type}
@@ -38,10 +47,22 @@ const stalledPill = (() => {
   data-stars={item.stars ?? -1}
   data-updated={item.pushedAt ?? ""}
   data-stalled={item.stalledDays ?? ""}
+  data-uc={instalable ? "1" : "0"}
   style={`--rail:${item.railColor}`}
+  class:list={["card", { "has-cover": cover }]}
   target={item.external ? "_blank" : undefined}
   rel={item.external ? "noopener" : undefined}
 >
+  <div class="card-head">
+  {
+    cover && (
+      <span class="caja-mini" style={franja ? `--c:${franja.color};--ci:${franja.ink}` : undefined}>
+        {franja && <span class="franja">{franja.label}</span>}
+        <img src={cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" />
+      </span>
+    )
+  }
+  <div class="card-head-txt">
   <div class="card-top">
     <span class="console"><span class="dot"></span>{item.kindLabel}</span>
     <span class="pills">
@@ -58,6 +79,8 @@ const stalledPill = (() => {
 
   <h3>{item.name}</h3>
   {(item.repo || item.type === "recomp") && <p class="repo">{item.repo ?? repoFallback}</p>}
+  </div>
+  </div>
   <p class="desc">{item.desc}</p>
 
   {

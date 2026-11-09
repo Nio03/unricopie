@@ -85,6 +85,16 @@ const ES_NAMES: Partial<Record<ConsoleKey, { label?: string; full?: string }>> =
   mobile: { label: 'Móviles', full: 'Java ME, BREW, iOS y Android' },
 };
 
+/** Texto que se lee sobre el color de una consola (la franja de la caja): oscuro sobre los claros, blanco sobre el resto. */
+export function inkOn(hex: string): string {
+  const n = parseInt(hex.replace("#", ""), 16);
+  const lin = [(n >> 16) & 255, (n >> 8) & 255, n & 255].map((v) => {
+    const c = v / 255;
+    return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  });
+  return 0.2126 * lin[0] + 0.7152 * lin[1] + 0.0722 * lin[2] > 0.4 ? "#14161f" : "#ffffff";
+}
+
 export function consoleMeta(key: string, lang?: 'es' | 'en') {
   const base = (CONSOLES as Record<string, (typeof CONSOLES)[ConsoleKey]>)[key] ?? CONSOLES.other;
   const es = lang === 'es' ? ES_NAMES[key as ConsoleKey] : undefined;

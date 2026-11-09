@@ -50,3 +50,7 @@ unricopie-launcher/src-tauri/target/
 # ── legacy: prototipo v0.1, no esencial para el sitio ──
 # (si prefieres versionarlo como referencia histórica, borra esta línea)
 legacy/
+
+# Recetas de Unricopie: se generan en el deploy desde el repo privado; nunca van al repo.
+public/unricopie/recetas.json
+_unricopie-data/

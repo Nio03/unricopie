@@ -1,28 +1,35 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { consoleMeta, CONSOLE_KEYS } from "../../lib/consoles";
+import { consoleMeta, CONSOLE_KEYS, inkOn } from "../../lib/consoles";
 import { getGames, gamePageIds, projectsByGame, coverOf, COVER_W, COVER_H } from "../../lib/games";
 import { t, localePath, type Lang } from "../../i18n";
 
 interface Props {
   lang: Lang;
 }
-// Índice de los juegos con página propia, de la A a la Z, con un filtro por
-// plataforma. Cada juego enlaza a /juego/<id>/.
+// Los juegos con página propia, como Explorar en Unricopie (y Nexus Mods): al entrar, un
+// estante por consola; «Ver todos» abre la cuadrícula entera con la columna de filtros y
+// «Ordenar». Cada juego enlaza a /juego/<id>/. Sin JavaScript se ve la cuadrícula entera.
 const { lang } = Astro.props;
 const games = await getGames();
 const byGame = await projectsByGame(lang);
 const rows = (await gamePageIds())
   .map((id) => ({ id, game: games.get(id)!, n: byGame.get(id)?.length ?? 0, cover: coverOf(id) }))
   .sort((a, b) => a.game.name.localeCompare(b.game.name, lang));
-const letterOf = (name: string) => {
-  const c = name.normalize("NFD").charAt(0).toUpperCase();
-  return /[A-Z]/.test(c) ? c : "#";
-};
-const groups = new Map<string, typeof rows>();
-for (const r of rows) groups.set(letterOf(r.game.name), [...(groups.get(letterOf(r.game.name)) ?? []), r]);
 const present = new Set(rows.flatMap((r) => r.game.platforms));
-const chips = CONSOLE_KEYS.filter((k) => present.has(k) && k !== "other").map((k) => ({ key: k, label: consoleMeta(k, lang).label }));
+const consoles = CONSOLE_KEYS.filter((k) => present.has(k) && k !== "other")
+  .map((k) => ({ key: k, label: consoleMeta(k, lang).label, color: consoleMeta(k, lang).color, n: rows.filter((r) => r.game.platforms.includes(k)).length }))
+  .sort((a, b) => b.n - a.n);
+// La caja de cada juego: la franja de su primera consola encima de la portada.
+const franjaDe = (platforms: string[]) => {
+  const k = platforms.find((p) => p !== "other");
+  if (!k) return null;
+  const cm = consoleMeta(k, lang);
+  return { label: cm.tag, style: `--c:${cm.color};--ci:${inkOn(cm.color)}` };
+};
+const SHELF = 12;
+const MAS = 10;
+const shelves = consoles.slice(0, 8).map((c) => ({ ...c, rows: rows.filter((r) => r.game.platforms.includes(c.key)).slice(0, SHELF) }));
 
 const title = `${t(lang, "games.seoTitle")} — Recompendium`;
 const lead = t(lang, "games.lead", { n: rows.length });
@@ -38,53 +45,151 @@ const jsonLd = {
 ---
 
 <Base lang={lang} title={title} description={lead} jsonLd={jsonLd}>
-  <main class="wrap detail">
+  <noscript><style>.explorar .inicio {display: none !important} .explorar .todos {display: grid !important} .filtros {display: none !important}</style></noscript>
+  <main class="wrap detail explorar" id="explorar" data-vista="inicio">
     <h1>{t(lang, "games.h1")}</h1>
     <p class="lead">{lead}</p>
 
-    <div class="chips game-filter" role="group" aria-label={t(lang, "games.filter")}>
-      <button class="chip" type="button" data-console="" aria-pressed="true">{t(lang, "games.all")}</button>
-      {chips.map((c) => <button class="chip" type="button" data-console={c.key} aria-pressed="false">{c.label}</button>)}
-    </div>
-
-    {
-      [...groups.entries()].map(([letter, list]) => (
-        <section class="game-group">
-          <h2>{letter}</h2>
-          <ul class="game-list">
-            {list.map((r) => (
-              <li data-consoles={r.game.platforms.join(" ")}>
-                <a href={localePath(lang, `juego/${r.id}`)}>
-                  {r.cover && <img class="cover thumb" src={r.cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" />}
-                  {r.game.name}
-                </a>
-                <span>{[...r.game.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).tag), t(lang, "games.projects", { n: r.n })].join(" · ")}</span>
-              </li>
-            ))}
+    <section class="inicio" aria-label={t(lang, "ctl.shelves")}>
+      <p class="ver-todo"><button class="ver-todos" type="button">{t(lang, "games.seeAllN", { n: rows.length })}</button></p>
+      {shelves.map((s) => (
+        <section class="estante-f">
+          <header>
+            <i style={`--c:${s.color}`} />
+            <h2>{s.label}</h2>
+            <span class="n">{s.n}</span>
+            <button class="ver-todos" type="button" data-value={s.key}>{t(lang, "ctl.seeAll")}</button>
+          </header>
+          <ul class="estante fila">
+            {s.rows.map((r) => {
+              const f = franjaDe(r.game.platforms);
+              return (
+                <li>
+                  <a class="caja-j" href={localePath(lang, `juego/${r.id}`)}>
+                    <span class="caja" style={f?.style}>
+                      {f && <span class="franja">{f.label}</span>}
+                      {r.cover ? <img src={r.cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" /> : <span class="sin-portada">{r.game.name}</span>}
+                    </span>
+                    <span class="t">{r.game.name}</span>
+                    <span class="s">{t(lang, "games.projects", { n: r.n })}</span>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </section>
-      ))
-    }
+      ))}
+    </section>
+
+    <section class="todos" id="todos">
+      <details class="filtros" open>
+        <summary>{t(lang, "ctl.filters")}</summary>
+        <div class="filtros-cab">
+          <b>{t(lang, "ctl.filters")}</b>
+          <button class="limpiar" type="button" id="limpiar" hidden>{t(lang, "ctl.clear")}</button>
+        </div>
+        <fieldset class="grupo">
+          <legend>{t(lang, "ctl.gConsole")}</legend>
+          {consoles.map((c, i) => (
+            <label class:list={{ extra: i >= MAS }}><input type="checkbox" data-group="console" value={c.key} /><span class="sw" style={`--c:${c.color}`} /><span class="nm">{c.label}</span><span class="ct">{c.n}</span></label>
+          ))}
+          {consoles.length > MAS && (
+            <button class="mas" type="button" data-more={t(lang, "ctl.more", { n: consoles.length - MAS })} data-less={t(lang, "ctl.less")}>{t(lang, "ctl.more", { n: consoles.length - MAS })}</button>
+          )}
+        </fieldset>
+      </details>
+
+      <div class="resultados">
+        <div class="res-barra">
+          <button class="volver" type="button" id="volver">{t(lang, "ctl.back")}</button>
+          <div class="meta" id="count" data-tmpl={t(lang, "games.count")}>{t(lang, "games.count").replace("{shown}", String(rows.length)).replace("{total}", String(rows.length))}</div>
+          <label class="orden">{t(lang, "ctl.sort")}
+            <select id="sort">
+              <option value="name">{t(lang, "ctl.byName")}</option>
+              <option value="projects">{t(lang, "games.byProjects")}</option>
+            </select>
+          </label>
+        </div>
+        <ul class="estante" id="juegos">
+          {rows.map((r) => {
+            const f = franjaDe(r.game.platforms);
+            return (
+              <li data-consoles={r.game.platforms.join(" ")} data-name={r.game.name.toLowerCase()} data-n={r.n}>
+                <a class="caja-j" href={localePath(lang, `juego/${r.id}`)}>
+                  <span class="caja" style={f?.style}>
+                    {f && <span class="franja">{f.label}</span>}
+                    {r.cover ? <img src={r.cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" /> : <span class="sin-portada">{r.game.name}</span>}
+                  </span>
+                  <span class="t">{r.game.name}</span>
+                  <span class="s">{[...r.game.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).tag), t(lang, "games.projects", { n: r.n })].join(" · ")}</span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
   </main>
 </Base>
 
 <script>
-  // Filtro por plataforma: oculta los juegos de otras plataformas y las letras
-  // que se quedan vacías. Sin JavaScript se ve la lista entera.
-  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>(".game-filter .chip"));
-  for (const chip of chips) {
-    chip.addEventListener("click", () => {
-      const key = chip.dataset.console ?? "";
-      for (const c of chips) c.setAttribute("aria-pressed", String(c === chip));
-      for (const group of document.querySelectorAll<HTMLElement>(".game-group")) {
-        let shown = 0;
-        for (const li of group.querySelectorAll<HTMLElement>("li")) {
-          const ok = !key || (li.dataset.consoles ?? "").split(" ").includes(key);
-          li.hidden = !ok;
-          if (ok) shown++;
-        }
-        group.hidden = shown === 0;
-      }
+  // Estantes al entrar y «Ver todos» con el filtro de consola y el orden.
+  const explorar = document.getElementById("explorar")!;
+  const todos = document.getElementById("todos")!;
+  const lista = document.getElementById("juegos")!;
+  const items = Array.from(lista.querySelectorAll<HTMLLIElement>("li"));
+  const boxes = Array.from(document.querySelectorAll<HTMLInputElement>(".filtros input[data-group]"));
+  const sortEl = document.getElementById("sort") as HTMLSelectElement | null;
+  const countEl = document.getElementById("count")!;
+  const tmpl = countEl.dataset.tmpl || "{shown} / {total}";
+  const limpiar = document.getElementById("limpiar");
+
+  const apply = () => {
+    const consolas = new Set(boxes.filter((b) => b.checked).map((b) => b.value));
+    if (limpiar) limpiar.hidden = consolas.size === 0;
+    let shown = 0;
+    for (const li of items) {
+      const ok = consolas.size === 0 || (li.dataset.consoles ?? "").split(" ").some((c) => consolas.has(c));
+      li.hidden = !ok;
+      if (ok) shown++;
+    }
+    const orden = sortEl?.value ?? "name";
+    const sorted = [...items].sort((a, b) =>
+      orden === "projects"
+        ? Number(b.dataset.n) - Number(a.dataset.n) || (a.dataset.name ?? "").localeCompare(b.dataset.name ?? "")
+        : (a.dataset.name ?? "").localeCompare(b.dataset.name ?? ""),
+    );
+    for (const li of sorted) lista.appendChild(li);
+    countEl.textContent = tmpl.replace("{shown}", String(shown)).replace("{total}", String(items.length));
+  };
+  const vista = (v: "inicio" | "todos") => {
+    explorar.dataset.vista = v;
+    const u = new URL(window.location.href);
+    u.hash = v === "todos" ? "todos" : "";
+    window.history.replaceState(null, "", u);
+    if (v === "todos") todos.scrollIntoView({ block: "start" });
+    else window.scrollTo({ top: 0 });
+  };
+
+  for (const b of boxes) b.addEventListener("change", apply);
+  sortEl?.addEventListener("change", apply);
+  limpiar?.addEventListener("click", () => { for (const b of boxes) b.checked = false; apply(); });
+  for (const btn of document.querySelectorAll<HTMLButtonElement>(".ver-todos")) {
+    btn.addEventListener("click", () => {
+      for (const b of boxes) b.checked = !!btn.dataset.value && b.value === btn.dataset.value;
+      apply();
+      vista("todos");
     });
   }
+  document.getElementById("volver")?.addEventListener("click", () => vista("inicio"));
+  for (const mas of document.querySelectorAll<HTMLButtonElement>(".filtros .mas")) {
+    mas.addEventListener("click", () => {
+      const abierto = mas.closest(".grupo")?.classList.toggle("abierto");
+      mas.textContent = (abierto ? mas.dataset.less : mas.dataset.more) || "";
+    });
+  }
+  const det = document.querySelector<HTMLDetailsElement>("details.filtros");
+  if (det && window.matchMedia("(max-width: 860px)").matches) det.open = false;
+  if (window.location.hash === "#todos") explorar.dataset.vista = "todos";
+  apply();
 </script>

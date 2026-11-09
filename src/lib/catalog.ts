@@ -31,6 +31,9 @@ export interface Item {
   repo?: string;
   stars?: number;
   pushedAt?: string;
+  /** Estudio del juego original y año, si la ficha los trae. */
+  originalDeveloper?: string;
+  year?: number;
   version?: string;
   progress?: number;       // métrica unificada de la barra (avance o % decomp)
   progressLabel?: string;  // su etiqueta ya localizada
@@ -97,7 +100,7 @@ export function recompItem(e: CollectionEntry<"recomps">, lang: Lang): Item {
     railColor: cm.color, boxLabel: cm.tag, typeLabel: t(lang, "type.recomp"), typeColor: TYPE_COLOR.recomp,
     kindLabel: cm.label, statusKey: d.status,
     status: { label: t(lang, `status.${d.status}`), color: sm.color },
-    consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
+    consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version, originalDeveloper: (d as { originalDeveloper?: string }).originalDeveloper, year: (d as { year?: number }).year,
     ...metric(d, lang),
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("recomp", d, s),
     search: [d.name, d.repo, d.author, d.authorFormerly, cm.label, cm.full, ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
@@ -115,7 +118,7 @@ export function toolItem(e: CollectionEntry<"tools">, lang: Lang): Item {
     railColor: km.color, boxLabel: TOOL_BOX[d.kind] ?? "TOOL", typeLabel: t(lang, "type.tool"), typeColor: TYPE_COLOR.tool,
     kindLabel: t(lang, `toolkind.${d.kind}`), statusKey: d.status ?? "",
     status: ts && d.status ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
-    consoleKeys: d.consoles, repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
+    consoleKeys: d.consoles, repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version, originalDeveloper: (d as { originalDeveloper?: string }).originalDeveloper, year: (d as { year?: number }).year,
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("tool", d, s),
     search: [d.name, d.repo, d.author, d.authorFormerly, t(lang, `toolkind.${d.kind}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
@@ -133,7 +136,7 @@ export function portItem(e: CollectionEntry<"ports">, lang: Lang): Item {
     railColor: cm?.color ?? catColor, boxLabel: cm?.tag ?? "PRT", typeLabel: t(lang, "type.port"), typeColor: TYPE_COLOR.port,
     kindLabel: t(lang, `category.${d.category}`), statusKey: d.status,
     status: { label: t(lang, `status.${d.status}`), color: sm.color },
-    consoleKeys: d.console ? [d.console] : [], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
+    consoleKeys: d.console ? [d.console] : [], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version, originalDeveloper: (d as { originalDeveloper?: string }).originalDeveloper, year: (d as { year?: number }).year,
     ...metric(d, lang),
     tags: [...(d.engine ? [d.engine] : []), ...d.tags], featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("port", d, s),
     search: [d.name, d.repo, d.author, d.authorFormerly, d.engine, cm?.label, t(lang, `category.${d.category}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
@@ -149,7 +152,7 @@ export function decompItem(e: CollectionEntry<"decomps">, lang: Lang): Item {
     href: localePath(lang, `decomp/${e.id}`), external: false,
     railColor: cm.color, boxLabel: cm.tag, typeLabel: t(lang, "type.decomp"), typeColor: TYPE_COLOR.decomp,
     kindLabel: cm.label, statusKey: "", status: null,
-    consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
+    consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version, originalDeveloper: (d as { originalDeveloper?: string }).originalDeveloper, year: (d as { year?: number }).year,
     ...metric(d, lang),
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("decomp", d, s),
     search: [d.name, d.repo, d.authorFormerly, cm.label, cm.full, ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
@@ -168,7 +171,7 @@ export function modItem(e: CollectionEntry<"mods">, lang: Lang): Item {
     railColor: mk.color, boxLabel: MOD_BOX[d.kind] ?? "MOD", typeLabel: t(lang, "type.mod"), typeColor: TYPE_COLOR.mod,
     kindLabel: t(lang, `modkind.${d.kind}`), statusKey: d.status ?? "",
     status: ts && d.status ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
-    consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version,
+    consoleKeys: [d.console], repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version, originalDeveloper: (d as { originalDeveloper?: string }).originalDeveloper, year: (d as { year?: number }).year,
     tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("mod", d, s),
     search: [d.name, d.repo, d.author, d.authorFormerly, d.game[lang], cm.label, t(lang, `modkind.${d.kind}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
