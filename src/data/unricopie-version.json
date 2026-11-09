@@ -1,0 +1,6 @@
+{
+  "_": "La versión publicada de Unricopie. De aquí salen los botones de descarga de /unricopie y /unricopie/version.json, que el launcher lee para avisar de una versión nueva. Hasta el lanzamiento, todo en null. El día que salga: version (\"0.1.0\"), fecha (\"2026-11-15\") y pagina (la de la release en GitHub).",
+  "version": null,
+  "fecha": null,
+  "pagina": null
+}

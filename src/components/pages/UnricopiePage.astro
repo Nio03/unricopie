@@ -4,6 +4,7 @@ import { getAllItems } from "../../lib/catalog";
 import { coverOf, COVER_W, COVER_H } from "../../lib/games";
 import { consoleMeta, inkOn } from "../../lib/consoles";
 import instalables from "../../data/unricopie.json";
+import publicada from "../../data/unricopie-version.json";
 import { localePath, type Lang } from "../../i18n";
 
 interface Props {
@@ -11,8 +12,9 @@ interface Props {
 }
 // La página del launcher: qué hace, qué juegos instala y la descarga. Solo cuenta lo
 // que la versión publicada hace de verdad. Hasta el lanzamiento, la descarga dice
-// «Muy pronto»; el día que salga, RELEASE pasa a la dirección de las versiones.
-const RELEASE: string | null = null;
+// «Muy pronto»; el día que salga, src/data/unricopie-version.json dice la versión y su página
+// (de ahí sale también /unricopie/version.json, con el que el launcher avisa).
+const RELEASE: string | null = publicada.version ? publicada.pagina : null;
 
 const { lang } = Astro.props;
 const ids = new Set((instalables as { instalables: string[] }).instalables);
