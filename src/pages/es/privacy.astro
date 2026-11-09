@@ -5,7 +5,7 @@ import { GITHUB_URL } from "../../lib/site";
 const lang = "es" as const;
 ---
 
-<Base lang={lang} title="Política de privacidad — Recompendium" description="Política de privacidad de Recompendium: un sitio estático sin cuentas, sin cookies y sin rastreo.">
+<Base lang={lang} title="Política de privacidad — Recompendium" description="Política de privacidad de Recompendium: un sitio estático sin cuentas ni cookies, con estadísticas de visitas anónimas.">
   <main class="wrap detail">
     <div class="crumb"><a href={localePath(lang, "")}>← Catálogo</a></div>
     <h1>Política de privacidad</h1>
@@ -16,24 +16,27 @@ const lang = "es" as const;
       <p>No recopilamos, almacenamos ni vendemos datos personales. El sitio no tiene inicio de sesión ni formularios que guarden información en servidores propios.</p>
 
       <h2>2. Cookies y almacenamiento local</h2>
-      <p>Recompendium <b>no instala cookies</b> ni usa analítica, píxeles de seguimiento o publicidad. Solo guarda una cosa: si cambias de idioma con el selector, esa elección queda en el almacenamiento local de tu navegador (localStorage) para recordarla la próxima vez que entres por la portada. Ese dato no sale de tu navegador, y puedes borrarlo cuando quieras desde su configuración.</p>
+      <p>Recompendium <b>no instala cookies</b> ni usa píxeles de seguimiento o publicidad. Solo guarda una cosa: si cambias de idioma con el selector, esa elección queda en el almacenamiento local de tu navegador (localStorage) para recordarla la próxima vez que entres por la portada. Ese dato no sale de tu navegador, y puedes borrarlo cuando quieras desde su configuración.</p>
 
-      <h2>3. Alojamiento (GitHub Pages)</h2>
+      <h2>3. Estadísticas de visitas (Cloudflare Web Analytics)</h2>
+      <p>Para saber cuántas personas visitan el sitio y qué páginas leen, usamos <b>Cloudflare Web Analytics</b>. En cada página, un pequeño script envía a Cloudflare la dirección de la página, la página desde la que llegaste, tu navegador, tu sistema, tu país y cuánto tardó en cargar. No usa cookies ni almacenamiento local, no te identifica ni te sigue entre sitios, y nosotros solo vemos totales. Cloudflare trata esos datos según su <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">política de privacidad</a>.</p>
+
+      <h2>4. Alojamiento (GitHub Pages)</h2>
       <p>El sitio se sirve desde <b>GitHub Pages</b>. Como cualquier servidor web, GitHub puede registrar datos técnicos (por ejemplo, tu dirección IP y tu navegador) en sus registros de acceso, según la <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">Declaración de privacidad de GitHub</a>.</p>
 
-      <h2>4. Tipografías (Google Fonts)</h2>
+      <h2>5. Tipografías (Google Fonts)</h2>
       <p>Las tipografías se cargan desde <b>Google Fonts</b>. Al abrir el sitio, tu navegador pide esos archivos a los servidores de Google, que pueden recibir tu dirección IP, según la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>.</p>
 
-      <h2>5. Enlaces y contribuciones</h2>
+      <h2>6. Enlaces y contribuciones</h2>
       <p>Al seguir enlaces a GitHub o a los sitios de los proyectos, o al abrir un issue o un pull request para contribuir, tratas directamente con esos terceros, bajo sus propias políticas. El formulario de Contribuir no envía nada a ningún servidor nuestro: abre un issue en GitHub con tus datos ya completados, y eres tú quien decide publicarlo. Nosotros solo vemos la información pública que muestra GitHub.</p>
 
-      <h2>6. Datos de terceros que mostramos</h2>
+      <h2>7. Datos de terceros que mostramos</h2>
       <p>Las estrellas, las versiones y las fechas que ves vienen de las API públicas de los repositorios enlazados, de decomp.dev y de ByteMatch: son datos públicos sobre proyectos, no sobre ti.</p>
 
-      <h2>7. Cambios</h2>
+      <h2>8. Cambios</h2>
       <p>Podemos actualizar esta política. La fecha de vigencia indica la última revisión. ¿Tienes dudas? <a href={`${GITHUB_URL}/issues`} target="_blank" rel="noopener">Abre un issue</a>.</p>
 
-      <p class="upd">Vigente desde el 12 de octubre de 2026.</p>
+      <p class="upd">Vigente desde el 6 de noviembre de 2026.</p>
     </div>
   </main>
 </Base>

@@ -1,0 +1,53 @@
+name: Reportes de juegos
+
+# Suma los reportes de la gente (issues con la etiqueta «reporte») en src/data/reportes.json y
+# cierra los ya contados. Si reportes.json cambió, pide a deploy.yml que vuelva a publicar el
+# sitio: un push hecho con el GITHUB_TOKEN no dispara workflows, pero un workflow_dispatch sí.
+on:
+  issues:
+    types: [opened, edited, labeled, unlabeled, reopened]
+  schedule:
+    - cron: "41 5 * * *" # a diario, por si se perdió algún evento
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  actions: write # para lanzar deploy.yml
+
+# De a uno: varios reportes seguidos no se pisan al hacer commit.
+concurrency:
+  group: reportes
+  cancel-in-progress: false
+
+jobs:
+  sumar:
+    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'reporte')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sumar los reportes y cerrar los contados
+        run: node scripts/refresh-reports.mjs --cerrar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit si hubo cambios, y publicar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ -n "$(git status --porcelain src/data/reportes.json)" ]]; then
+            git config user.name "recompendium-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add src/data/reportes.json
+            git commit -m "chore: reportes de juegos [skip ci]"
+            git pull --rebase
+            git push
+            gh workflow run deploy.yml --ref main
+          else
+            echo "Sin cambios en reportes.json."
+          fi

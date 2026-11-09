@@ -5,7 +5,7 @@ import { GITHUB_URL } from "../../lib/site";
 const lang = "en" as const;
 ---
 
-<Base lang={lang} title="Privacy Policy — Recompendium" description="Recompendium’s privacy policy: a static site with no accounts, no cookies, and no tracking.">
+<Base lang={lang} title="Privacy Policy — Recompendium" description="Recompendium’s privacy policy: a static site with no accounts and no cookies, and anonymous visit statistics.">
   <main class="wrap detail">
     <div class="crumb"><a href={localePath(lang, "")}>← Catalog</a></div>
     <h1>Privacy Policy</h1>
@@ -16,24 +16,27 @@ const lang = "en" as const;
       <p>We don’t collect, store, or sell personal data. The site has no login and no forms that save information on our own servers.</p>
 
       <h2>2. Cookies and local storage</h2>
-      <p>Recompendium <b>sets no cookies</b> and uses no analytics, tracking pixels, or advertising. It stores just one thing: if you switch languages with the language selector, that choice is kept in your browser’s local storage (localStorage) so it’s remembered the next time you come in through the home page. That value never leaves your browser, and you can delete it at any time from your browser settings.</p>
+      <p>Recompendium <b>sets no cookies</b> and uses no tracking pixels or advertising. It stores just one thing: if you switch languages with the language selector, that choice is kept in your browser’s local storage (localStorage) so it’s remembered the next time you come in through the home page. That value never leaves your browser, and you can delete it at any time from your browser settings.</p>
 
-      <h2>3. Hosting (GitHub Pages)</h2>
+      <h2>3. Visit statistics (Cloudflare Web Analytics)</h2>
+      <p>To know how many people visit the site and which pages they read, we use <b>Cloudflare Web Analytics</b>. On each page, a small script sends Cloudflare the page’s address, the page you came from, your browser, your operating system, your country, and how long the page took to load. It uses no cookies or local storage, doesn’t identify you or follow you across sites, and we only see totals. Cloudflare handles that data under its <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">privacy policy</a>.</p>
+
+      <h2>4. Hosting (GitHub Pages)</h2>
       <p>The site is served from <b>GitHub Pages</b>. Like any web server, GitHub may record technical data (such as your IP address and browser) in its access logs, under the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub General Privacy Statement</a>.</p>
 
-      <h2>4. Web fonts (Google Fonts)</h2>
+      <h2>5. Web fonts (Google Fonts)</h2>
       <p>Typefaces are loaded from <b>Google Fonts</b>. When you open the site, your browser requests those files from Google’s servers, which may receive your IP address, under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google’s privacy policy</a>.</p>
 
-      <h2>5. Links and contributions</h2>
+      <h2>6. Links and contributions</h2>
       <p>When you follow links to GitHub or to project sites, or open an issue or pull request to contribute, you deal directly with those third parties, under their own policies. The Contribute form sends nothing to any server of ours: it opens a GitHub issue with your details already filled in, and you decide whether to publish it. We only see the public information GitHub shows.</p>
 
-      <h2>6. Third-party data we show</h2>
+      <h2>7. Third-party data we show</h2>
       <p>The stars, versions, and dates you see come from the public APIs of the linked repositories, decomp.dev, and ByteMatch: they are public data about projects, not about you.</p>
 
-      <h2>7. Changes</h2>
+      <h2>8. Changes</h2>
       <p>We may update this policy. The effective date indicates the latest revision. Questions? <a href={`${GITHUB_URL}/issues`} target="_blank" rel="noopener">Open an issue</a>.</p>
 
-      <p class="upd">Effective as of October 12, 2026.</p>
+      <p class="upd">Effective as of November 6, 2026.</p>
     </div>
   </main>
 </Base>

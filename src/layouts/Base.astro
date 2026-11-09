@@ -16,6 +16,9 @@ interface Props {
 }
 
 const { lang, jsonLd } = Astro.props;
+// Cloudflare Web Analytics: el token es un secreto del repo (CF_BEACON_TOKEN) que el deploy pasa
+// al build; nunca va en el código. Sin él (en local, por ejemplo) no se carga nada.
+const cfBeacon = process.env.CF_BEACON_TOKEN ? JSON.stringify({ token: process.env.CF_BEACON_TOKEN }) : null;
 const title = Astro.props.title ?? t(lang, "site.title");
 const description = Astro.props.description ?? t(lang, "site.desc");
 
@@ -259,5 +262,6 @@ function isActive(to: string) {
         });
       }
     </script>
+    {cfBeacon && <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={cfBeacon}></script>}
   </body>
 </html>

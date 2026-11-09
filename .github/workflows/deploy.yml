@@ -5,7 +5,8 @@ on:
     branches: [main]
   workflow_dispatch:
   # Re-publica cuando el refresco de stats termina (el push del bot no
-  # dispara workflows por sí solo).
+  # dispara workflows por sí solo). La suma de reportes lo pide con
+  # workflow_dispatch, y solo si cambió algo.
   workflow_run:
     workflows: ["Refresh GitHub stats"]
     types: [completed]
@@ -32,6 +33,9 @@ jobs:
           fetch-depth: 0
       - name: Build con Astro
         uses: withastro/action@v3
+        env:
+          # Cloudflare Web Analytics: el token es un secreto del repo, nunca va en el código.
+          CF_BEACON_TOKEN: ${{ secrets.CF_BEACON_TOKEN }}
 
   deploy:
     needs: build

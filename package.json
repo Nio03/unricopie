@@ -16,6 +16,7 @@
     "check": "astro check",
     "refresh-stats": "node scripts/refresh-stats.mjs",
     "refresh-launchers": "node scripts/refresh-launchers.mjs",
+    "refresh-reports": "node scripts/refresh-reports.mjs",
     "validate-data": "node scripts/validate-data.mjs",
     "discover": "node scripts/discover.mjs"
   },

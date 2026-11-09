@@ -1,0 +1,62 @@
+name: "Cómo te fue con un juego / How a game worked for you"
+description: "Cuenta si un juego instalado con Unricopie funciona en tu equipo. / Tell us whether a game installed with Unricopie works on your computer."
+title: "[reporte] "
+labels: ["reporte"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lo normal es abrir esto desde el botón «¿Cómo te fue?» de Unricopie, que ya rellena el
+        juego, la versión y tu equipo. Se publica tal cual: no pongas datos personales. Cuenta
+        el último reporte de cada persona para cada juego y versión, y el bot cierra el issue
+        al sumarlo.
+
+        Usually you open this from Unricopie's «How did it go?» button, which fills in the game,
+        the version and your computer. It's published as is: don't include personal data. The
+        latest report from each person counts for each game and version, and the bot closes the
+        issue once it's counted.
+  - type: input
+    id: entry
+    attributes:
+      label: "Proyecto / Project"
+      description: "La ficha de Recompendium. / The Recompendium entry."
+      placeholder: "recomps/zelda-majoras-mask"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Versión / Version"
+      placeholder: "v1.2.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: "¿Cómo funciona? / How does it work?"
+      options:
+        - "Funciona bien / Works well"
+        - "Funciona con problemas / Works with problems"
+        - "No arranca / Doesn't start"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Comentario / Comment"
+      description: "Qué fue bien o mal: rendimiento, controles, cuelgues… / What went well or badly: performance, controls, crashes…"
+  - type: input
+    id: os
+    attributes:
+      label: "Sistema / System"
+      placeholder: "Windows 11 24H2"
+  - type: input
+    id: gpu
+    attributes:
+      label: "Tarjeta gráfica / GPU"
+      placeholder: "NVIDIA GeForce RTX 3060"
+  - type: input
+    id: launcher
+    attributes:
+      label: "Versión de Unricopie / Unricopie version"
+      placeholder: "0.1.0"
