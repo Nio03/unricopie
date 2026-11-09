@@ -36,7 +36,6 @@ export const ui = {
 
     "home.tagline":
       "Juegos de consola que corren de forma nativa en PC: recompilaciones estáticas, decompilaciones, ports, mods y las herramientas que los hacen posibles. Cada ficha está revisada a mano y se actualiza a diario con los datos de GitHub.",
-    "home.readout": "[recomp] traduciendo  MIPS · PowerPC · EE → x86_64 / arm64",
     "home.stat.recomps": "recomps",
     "home.stat.platforms": "plataformas",
     "home.stat.ports": "ports",
@@ -362,7 +361,6 @@ export const ui = {
 
     "home.tagline":
       "Console games running natively on PC: static recompilations, decompilations, ports, mods, and the tools that make them possible. Every entry is reviewed by hand and updated daily with data from GitHub.",
-    "home.readout": "[recomp] mapping  MIPS · PowerPC · EE → x86_64 / arm64",
     "home.stat.recomps": "recomps",
     "home.stat.platforms": "platforms",
     "home.stat.ports": "ports",

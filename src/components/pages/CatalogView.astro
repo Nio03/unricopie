@@ -14,7 +14,6 @@ interface Props {
   h1: string;
   tagline: string;
   countTmpl: string;
-  readout?: boolean;
   guide?: boolean;
   typeFilter?: boolean;
   stats?: { n: number; label: string }[];
@@ -26,7 +25,7 @@ interface Props {
   description?: string;
   jsonLd?: object | object[];
 }
-const { lang, items, h1, tagline, countTmpl, readout = false, guide = false, typeFilter = false, stats, why = false, title, description, jsonLd } = Astro.props;
+const { lang, items, h1, tagline, countTmpl, guide = false, typeFilter = false, stats, why = false, title, description, jsonLd } = Astro.props;
 
 const ordered = sortItems(items);
 
@@ -90,7 +89,9 @@ const MAS = 10;
 const cajaDe = (i: Item) => {
   const g = i.games.find((x) => coverOf(x));
   const cm = i.consoleKeys[0] ? consoleMeta(i.consoleKeys[0], lang) : null;
-  const sub = [i.status?.label, i.stars != null ? `★ ${fmtStars(i.stars)}` : null].filter(Boolean).join(" · ");
+  // El estado y las estrellas van en piezas aparte: si no caben en una línea, las estrellas bajan
+  // enteras a la siguiente en lugar de partirse.
+  const sub = [i.status?.label, i.stars != null ? `★ ${fmtStars(i.stars)}` : null].filter((x): x is string => Boolean(x));
   // Sin consola (un motor para varios juegos, como OpenRA), la franja dice su tipo en un color
   // neutro: así todas las cajas del estante miden lo mismo.
   const franja = cm ? { label: cm.tag, style: `--c:${cm.color};--ci:${inkOn(cm.color)}` } : { label: i.kindLabel, style: "--c:var(--panel-2);--ci:var(--ink-2)" };
@@ -120,7 +121,6 @@ const guideCards = [
     <div class="wrap">
       <div class="brandrow"><h1 class="logo" set:html={h1} /></div>
       <p class="tag">{tagline}</p>
-      {readout && (<div class="readout" id="readout" data-final={t(lang, "home.readout")}>{t(lang, "home.readout")}<span class="blink">▌</span></div>)}
       {
         guide && (
           <div class="guide">
@@ -192,7 +192,7 @@ const guideCards = [
                       {c.cover ? <img src={c.cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" /> : <span class="sin-portada">{item.name}</span>}
                     </span>
                     <span class="t">{item.name}</span>
-                    {c.sub && <span class="s">{c.sub}</span>}
+                    {c.sub.length > 0 && <span class="s">{c.sub.map((x) => <span>{x}</span>)}</span>}
                   </a>
                 </li>
               );
@@ -414,19 +414,5 @@ const guideCards = [
         gi.dispatchEvent(new Event("input", { bubbles: true }));
       }
     });
-
-    const ro = document.getElementById("readout");
-    if (ro && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
-      const final = ro.dataset.final || ro.textContent || "";
-      const glyphs = "0123456789ABCDEF·→/";
-      let i = 0;
-      const tmr = setInterval(() => {
-        i++;
-        let out = final.slice(0, i);
-        if (i < final.length) for (let k = 0; k < 6; k++) out += glyphs[Math.floor(Math.random() * glyphs.length)];
-        ro.innerHTML = out + ' <span class="blink">▌</span>';
-        if (i >= final.length) clearInterval(tmr);
-      }, 26);
-    }
   }
 </script>

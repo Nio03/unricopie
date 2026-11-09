@@ -1,12 +1,9 @@
 /* ============================================================
-   Recompendium — sistema visual "tracker" estilo RetroAchievements
-   Fondo oscuro azul, acentos en oro, catálogo en filas densas con
-   mini-portada por consola, badges de estado y estrellas. Cabeceras
-   en fuente pixel (Press Start 2P), cuerpo en Inter, datos en mono.
+   Recompendium — diseño v3 (aprobado el 1-11), el mismo del launcher Unricopie: el
+   fondo es el azul del plato del pastel y el dorado de la masa marca la acción. Letra
+   Onest; el código, en la monoespaciada del sistema. Tres temas: Noche (por defecto),
+   Día y Alto contraste, en <html data-tema>.
    ============================================================ */
-/* Diseño v3 (aprobado el 1-11), el mismo del launcher Unricopie: el fondo es el azul
-   del plato del pastel y el dorado de la masa marca la acción. Tres temas: Noche (por
-   defecto), Día y Alto contraste, en <html data-tema>. */
 :root {
   --bg: #111a36;       /* página */
   --bg2: #0c1229;      /* barra y superficies oscuras */
@@ -117,7 +114,6 @@ header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
 .logo b { color: var(--accent); }
 .tag { color: var(--ink-2); margin: 18px 0 0; max-width: 64ch; font-size: 16px; line-height: 1.6; }
 
-.readout { font-family: var(--mono); font-size: 12px; color: var(--ink-3); margin-top: 14px; }
 
 /* stat boxes */
 .stat-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 26px; }
@@ -335,8 +331,7 @@ select { font-family: var(--mono); }
 .facts dt { font-family: var(--mono); font-size: 10px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 5px; }
 .facts dd { margin: 0; font-size: 15px; font-weight: 500; color: var(--ink); overflow-wrap: anywhere; }
 .detail .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
-.tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
-.tg { font-family: var(--mono); font-size: 11px; color: var(--ink-2); border: 1px solid var(--line-2); border-radius: 4px; padding: 3px 8px; }
+.tagrow { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.6; }
 
 /* ---------- prose (legal / about long-form) ---------- */
 .prose { max-width: 76ch; color: var(--ink-2); }
@@ -352,7 +347,9 @@ select { font-family: var(--mono); }
 
 /* ---------- raíz: elegir idioma ---------- */
 .lang-pick { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; }
-.lang-pick img { height: 44px; width: auto; }
+.lang-pick .brand, .lang-pick a.brand { display: inline-flex; gap: 12px; }
+.lang-pick .brand-pie { height: 44px; width: 44px; }
+.lang-pick .brand .mark { font-size: 26px; }
 .lang-pick ul { list-style: none; display: flex; gap: 12px; margin: 0; padding: 0; }
 .lang-pick a { display: inline-block; padding: 10px 22px; border: 1px solid var(--line); border-radius: var(--radius); color: var(--ink); font-weight: 600; text-decoration: none; }
 .lang-pick a:hover { border-color: var(--gold); color: var(--accent); }
@@ -499,9 +496,11 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
 .caja-j .caja { max-width: none; }
 .caja-j:hover .caja, .caja-j:focus-visible .caja { box-shadow: 0 0 0 2px var(--gold); }
 .caja-j .t { font-size: 14px; font-weight: 700; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.caja-j .s { font-size: 12px; color: var(--ink-3); line-height: 1.3; margin-top: -3px; }
+/* Piezas enteras (el estado, las estrellas): si no caben juntas, la segunda baja a otra línea
+   sin partirse; una pieza más ancha que la tarjeta termina en «…». */
+.caja-j .s { display: flex; flex-wrap: wrap; column-gap: 8px; font-size: 12px; color: var(--ink-3); line-height: 1.3; margin-top: -3px; }
+.caja-j .s > span { max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sin-portada { display: grid; place-items: center; aspect-ratio: 264 / 374; padding: 12px; text-align: center; font-weight: 800; font-size: 14px; color: var(--ink-2); background: var(--panel-2); }
-/* Chips de consola con su color y cuántos hay, como en el launcher. */
 
 /* ---------- Página de Unricopie ---------- */
 .unricopie { display: grid; gap: 18px; padding-top: 36px; padding-bottom: 56px; }
@@ -512,7 +511,8 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
 .u-descargas { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 .u-descargas .instalar { min-width: 200px; }
 .instalar.is-off { background: var(--panel-2); color: var(--ink-2); cursor: default; }
-.u-que { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+/* Seis tarjetas: tres por fila en escritorio, y menos a medida que se estrecha. */
+.u-que { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px; }
 .u-que > div { background: var(--panel); border: var(--bw) solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
 .u-que h3 { font-size: 15px; margin: 0 0 4px; color: var(--ink); }
 .u-que p { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.55; }
@@ -546,7 +546,10 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
   background: none; border: 0; padding: 0 0 1px; cursor: pointer; font: inherit; font-family: var(--sans);
   font-weight: 700; font-size: 14px; color: var(--ink); border-bottom: 1px solid var(--line-2);
 }
-.estante-f .ver-todos { margin-left: auto; }
+/* En el móvil, un título largo («Launchers y herramientas») pasa a dos líneas; «Ver todos ›»
+   no se parte nunca. */
+.estante-f h2 { min-width: 0; }
+.estante-f .ver-todos { margin-left: auto; flex: none; white-space: nowrap; }
 .ver-todos:hover, .ver-todos:focus-visible { border-bottom-color: var(--gold); color: var(--ink); }
 /* Un estante es una sola fila: lo que no cabe queda fuera (`grid-auto-rows: 0`). */
 .fila {
@@ -554,6 +557,9 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
   grid-template-rows: auto; grid-auto-rows: 0; column-gap: 14px; row-gap: 0;
   /* Sin relleno abajo: el corte cae justo bajo la primera fila y no asoma la segunda. */
   overflow: hidden; padding: 6px 4px 0; margin: -6px -4px 0;
+  /* Con la altura de la fila en fracciones de píxel, el borde de arriba de la segunda fila
+     asomaba como una raya de 1 px: se recortan 2 px más (aire bajo el texto, nada visible). */
+  clip-path: inset(0 0 2px 0);
 }
 .estante.fila { grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); column-gap: 18px; }
 .todos { display: grid; grid-template-columns: 236px minmax(0, 1fr); gap: 32px; align-items: start; padding: 22px 0 0; }

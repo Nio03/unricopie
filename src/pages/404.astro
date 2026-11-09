@@ -15,11 +15,25 @@ import { href } from "../lib/url";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Página no encontrada · Page not found — Recompendium</title>
-    <link rel="icon" type="image/svg+xml" href={href("recompendium-icon.svg")} />
+    <link rel="icon" type="image/svg+xml" href={href("pastel.svg")} />
+    <!-- El tema y la letra, como en Base.astro. -->
+    <script is:inline>
+      try {
+        var t = localStorage.getItem("recompendium-tema");
+        if (!t && matchMedia("(prefers-color-scheme: light)").matches) t = "dia";
+        if (t === "dia" || t === "contraste") document.documentElement.dataset.tema = t;
+      } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   </head>
   <body>
     <main class="wrap lang-pick not-found">
-      <a class="nf-logo" href={href()}><img src={href("recompendium-logo-transparent.svg")} alt="Recompendium" height="36" /></a>
+      <a class="brand nf-logo" href={href()}>
+        <img class="brand-pie" src={href("pastel.svg")} alt="" width="44" height="44" />
+        <span class="mark">Recompendium</span>
+      </a>
       <h1>404</h1>
       <div class="nf-text">
         <p lang="es">No encontramos esta página. Puede que la dirección esté mal escrita o que la ficha haya cambiado de nombre.</p>

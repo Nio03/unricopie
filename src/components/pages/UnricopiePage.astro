@@ -15,6 +15,8 @@ interface Props {
 // «Muy pronto»; el día que salga, src/data/unricopie-version.json dice la versión y su página
 // (de ahí sale también /unricopie/version.json, con el que el launcher avisa).
 const RELEASE: string | null = publicada.version ? publicada.pagina : null;
+// Linux sale después que Windows: hasta que la release traiga la AppImage, ni botón ni requisito.
+const LINUX = Boolean(RELEASE && publicada.linux);
 
 const { lang } = Astro.props;
 const ids = new Set((instalables as { instalables: string[] }).instalables);
@@ -40,15 +42,15 @@ const T = {
     what: [
       ["Instala desde la fuente", "Baja cada proyecto de la versión que publica su autor y comprueba la descarga con la suma que da GitHub. Nunca reparte juegos ni compila versiones propias."],
       ["Comprueba tu copia", "Compara tu copia del juego con las versiones que pide cada proyecto y la deja donde el juego la busca. Tu copia queda guardada una sola vez y no se toca."],
-      ["Tres canales", "Estable, lo que probamos nosotros; sin probar, la última versión oficial; y nightly, lo último que publica el proyecto."],
-      ["Actualiza sin miedo", "Guarda la versión anterior con tus partidas y ajustes, y te deja volver atrás."],
-      ["Mods con orden", "Mods de Thunderstore con perfiles, orden de carga y aviso de conflictos, para Zelda 64: Recompiled y Banjo: Recompiled."],
+      ["Todo el catálogo", "En Explorar está el catálogo entero, con filtros por consola: lo que instala, con su botón, y lo demás, con su enlace al proyecto."],
+      ["Mods de Thunderstore", "Para Zelda 64: Recompiled y Banjo: Recompiled: los instala con lo que necesitan, avisa cuando hay versión nueva y los separa en perfiles."],
+      ["Mods en orden", "Ordenas los mods arrastrándolos, eliges cuál gana cuando dos traen los mismos archivos y sumas los tuyos soltándolos en la ventana. Cada perfil guarda los ajustes de sus mods, también los que cambias dentro del juego."],
       ["Portable", "Si quieres, todo en una sola carpeta: el launcher, los juegos, las partidas y los ajustes."],
     ],
     gamesH: "Qué juegos instala",
     gamesLead: (n: number) => `${n} proyectos del catálogo, por ahora. Sumamos más cada semana; los demás siguen en el catálogo con su enlace al proyecto.`,
     reqH: "Requisitos",
-    req: "Windows 10 u 11 de 64 bits, o Linux x86-64. No pide cuenta. El código es libre (GPL-3.0); las recetas que dicen cómo instalar cada juego son nuestras y se actualizan solas.",
+    req: (linux: boolean) => `Windows 10 u 11 de 64 bits${linux ? ", o Linux x86-64" : "; Linux llega después"}. No pide cuenta. El código es libre (GPL-3.0); las recetas que dicen cómo instalar cada juego son nuestras y se actualizan solas.`,
   },
   en: {
     title: "Unricopie, the Recompendium launcher",
@@ -61,15 +63,15 @@ const T = {
     what: [
       ["Installs from the source", "Downloads each project from the release its author publishes and checks the download against GitHub’s checksum. It never ships games or builds its own versions."],
       ["Checks your copy", "Compares your copy of the game with the versions each project asks for and puts it where the game looks for it. Your copy is stored once and never touched."],
-      ["Three channels", "Stable, what we tested; untested, the latest official release; and nightly, the newest the project publishes."],
-      ["Updates safely", "Keeps the previous version with your saves and settings, and lets you roll back."],
-      ["Mods in order", "Thunderstore mods with profiles, load order, and conflict warnings, for Zelda 64: Recompiled and Banjo: Recompiled."],
+      ["The whole catalog", "Explore has the entire catalog, with console filters: what it installs, with its button, and the rest, with a link to the project."],
+      ["Thunderstore mods", "For Zelda 64: Recompiled and Banjo: Recompiled: it installs them with what they need, tells you when there’s a new version, and keeps them in profiles."],
+      ["Mods in order", "Drag mods to order them, pick which one wins when two bring the same files, and add your own by dropping them on the window. Each profile keeps its mods’ settings, including the ones you change inside the game."],
       ["Portable", "If you want, everything in one folder: the launcher, the games, the saves, and the settings."],
     ],
     gamesH: "What it installs",
     gamesLead: (n: number) => `${n} catalog projects for now. We add more every week; the rest stay in the catalog with their link to the project.`,
     reqH: "Requirements",
-    req: "64-bit Windows 10 or 11, or x86-64 Linux. No account needed. The code is free software (GPL-3.0); the recipes that say how to install each game are ours and update on their own.",
+    req: (linux: boolean) => `64-bit Windows 10 or 11${linux ? ", or x86-64 Linux" : "; Linux comes later"}. No account needed. The code is free software (GPL-3.0); the recipes that say how to install each game are ours and update on their own.`,
   },
 }[lang];
 ---
@@ -86,7 +88,7 @@ const T = {
             RELEASE ? (
               <>
                 <a class="instalar" href={RELEASE}>{T.windows}</a>
-                <a class="btn" href={RELEASE}>{T.linux}</a>
+                {LINUX && <a class="btn" href={RELEASE}>{T.linux}</a>}
               </>
             ) : (
               <span class="instalar is-off" aria-disabled="true">{T.soon}</span>
@@ -120,6 +122,6 @@ const T = {
     </ul>
 
     <h2 class="h">{T.reqH}</h2>
-    <p class="u-nota">{T.req}</p>
+    <p class="u-nota">{T.req(LINUX)}</p>
   </main>
 </Base>

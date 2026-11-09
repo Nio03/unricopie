@@ -327,7 +327,8 @@ const jsonLd = [
       <ProjectForm lang={lang} mode="edit" type={type} path={dataPath} data={d} />
     </div>
 
-    {tags.length > 0 && (<div class="tagrow">{tags.map((tag) => <span class="tg">{tagLabel(tag, lang)}</span>)}</div>)}
+    {/* Las etiquetas, en una línea de texto: sin recuadros (decisión del 9-11). */}
+    {tags.length > 0 && (<p class="tagrow">{tags.map((tag) => tagLabel(tag, lang)).join(" · ")}</p>)}
 
     <details class="badge-box">
       <summary>{t(lang, "detail.badge")}</summary>

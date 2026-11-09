@@ -83,9 +83,10 @@ function isActive(to: string, also: string[] = []) {
     <link rel="alternate" hreflang="en" href={altEn} />
     <link rel="alternate" hreflang="x-default" href={altEn} />
     <link rel="alternate" type="application/rss+xml" title={t(lang, "feed.title")} href={localePath(lang, "rss.xml")} />
-    <link rel="icon" type="image/svg+xml" href={href("recompendium-icon.svg")} />
-    <link rel="icon" type="image/png" href={href("recompendium-icon.png")} />
-    <link rel="apple-touch-icon" href={href("recompendium-icon.png")} />
+    <!-- El pastel (decisión del 9-11): el mismo dibujo de la barra y del launcher. -->
+    <link rel="icon" type="image/svg+xml" href={href("pastel.svg")} />
+    <link rel="icon" type="image/png" sizes="192x192" href={href("pastel-192.png")} />
+    <link rel="apple-touch-icon" href={href("pastel-180.png")} />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
@@ -93,9 +94,11 @@ function isActive(to: string, also: string[] = []) {
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="Recompendium" />
     <!-- Las redes solo leen la imagen con la dirección completa (una ruta relativa sale vacía). -->
-    <meta property="og:image" content={new URL(href("recompendium-logo.png"), Astro.site).href} />
-    <meta property="og:image:width" content="2390" />
-    <meta property="og:image:height" content="512" />
+    <!-- Una por idioma: el pastel, el nombre y la frase del sitio en ese idioma. -->
+    <meta property="og:image" content={new URL(href(`og-${lang}.png`), Astro.site).href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Recompendium" />
     <meta name="twitter:card" content="summary_large_image" />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
 

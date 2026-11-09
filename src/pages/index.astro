@@ -23,7 +23,7 @@ const abs = (p: string) => (Astro.site ? new URL(p, Astro.site).href : p);
     <link rel="alternate" hreflang="es" href={abs(es)} />
     <link rel="alternate" hreflang="en" href={abs(en)} />
     <link rel="alternate" hreflang="x-default" href={abs(href().replace(/\/?$/, "/"))} />
-    <link rel="icon" type="image/svg+xml" href={href("recompendium-icon.svg")} />
+    <link rel="icon" type="image/svg+xml" href={href("pastel.svg")} />
     <script is:inline define:vars={{ es, en }}>
       (function () {
         var pick = null;
@@ -42,7 +42,10 @@ const abs = (p: string) => (Astro.site ? new URL(p, Astro.site).href : p);
   </head>
   <body>
     <main class="wrap lang-pick">
-      <img src={href("recompendium-logo-transparent.svg")} alt="Recompendium" height="36" />
+      <span class="brand">
+        <img class="brand-pie" src={href("pastel.svg")} alt="" width="44" height="44" />
+        <span class="mark">Recompendium</span>
+      </span>
       <ul>
         <li><a href={es} hreflang="es" lang="es">Español</a></li>
         <li><a href={en} hreflang="en" lang="en">English</a></li>

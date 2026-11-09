@@ -121,7 +121,7 @@ const jsonLd = {
                     {r.cover ? <img src={r.cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" /> : <span class="sin-portada">{r.game.name}</span>}
                   </span>
                   <span class="t">{r.game.name}</span>
-                  <span class="s">{[...r.game.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).tag), t(lang, "games.projects", { n: r.n })].join(" · ")}</span>
+                  <span class="s">{[r.game.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).tag).join(" · "), t(lang, "games.projects", { n: r.n })].filter(Boolean).map((x) => <span>{x}</span>)}</span>
                 </a>
               </li>
             );
