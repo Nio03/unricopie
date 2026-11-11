@@ -29,5 +29,7 @@ The code is free software, under the GPL-3.0, and it's on [GitHub](https://githu
 
 ## On the site
 
-- **New design:** the site now shares Unricopie's design, with each game's cover under its console's stripe, shelves with "See all" and a filter column, and three themes: Night, Day and High contrast.
-- **Install with Unricopie:** entries Unricopie knows how to install carry its button.
+- **New design:** the site now shares Unricopie's design, with each game's cover under its console's stripe, and three themes, Night, Day and High contrast, picked with the button at the top.
+- **Three tabs to browse the catalog:** [Catalog](/en/) opens with shelves by type and by console, each with "See all"; [Projects](/en/proyectos/) shows all 1,641 entries one by one, with the filter column (type, console, status, and whether Unricopie installs it) and sorting by stars, name or activity; and [Games](/en/juegos/) gathers the 307 games with more than one project, each with its own page.
+- **Clearer filters:** consoles are listed from A to Z, all of them in view.
+- **Install with Unricopie:** entries Unricopie knows how to install carry its button, and have their own shelf and filter.

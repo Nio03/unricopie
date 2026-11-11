@@ -29,5 +29,7 @@ El código es libre, con licencia GPL-3.0, y está en [GitHub](https://github.co
 
 ## En el sitio
 
-- **Diseño nuevo:** el sitio tiene el mismo diseño que Unricopie, con la portada de cada juego bajo la franja de su consola, estantes con «Ver todos» y una columna de filtros, y tres temas: Noche, Día y Alto contraste.
-- **Instalar con Unricopie:** las fichas que Unricopie sabe instalar llevan su botón.
+- **Diseño nuevo:** el sitio tiene el mismo diseño que Unricopie, con la portada de cada juego bajo la franja de su consola, y tres temas, Noche, Día y Alto contraste, que se eligen con el botón de arriba.
+- **Tres pestañas para recorrer el catálogo:** [Catálogo](/es/) abre con estantes por tipo y por consola, cada uno con «Ver todos»; [Proyectos](/es/proyectos/) muestra las 1641 fichas una a una, con la columna de filtros (tipo, consola, estado y si la instala Unricopie) y el orden por estrellas, nombre o actividad; y [Juegos](/es/juegos/) reúne los 307 juegos con más de un proyecto, cada uno con su página.
+- **Filtros más claros:** las consolas van de la A a la Z, todas a la vista.
+- **Instalar con Unricopie:** las fichas que Unricopie sabe instalar llevan su botón, y tienen su propio estante y su filtro.
