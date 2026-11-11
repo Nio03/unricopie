@@ -26,7 +26,7 @@ const postLd = {
 ---
 
 <Base lang={lang} title={`${d.title} — Recompendium`} description={d.summary} jsonLd={postLd}>
-  <main class="wrap detail">
+  <main class="wrap detail texto">
     <a class="post-back" href={localePath(lang, "blog")}>← {t(lang, "blog.back")}</a>
     <div class="post-meta" style="margin-top:18px">
       <time datetime={d.date.toISOString().slice(0, 10)}>{fmtPostDate(d.date, lang)}</time>

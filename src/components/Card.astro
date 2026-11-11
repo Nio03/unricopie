@@ -54,16 +54,6 @@ const stalledPill = (() => {
   target={item.external ? "_blank" : undefined}
   rel={item.external ? "noopener" : undefined}
 >
-  <div class="card-head">
-  {
-    cover && (
-      <span class="caja-mini" style={franja ? `--c:${franja.color};--ci:${franja.ink}` : undefined}>
-        {franja && <span class="franja">{franja.label}</span>}
-        <img src={cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" />
-      </span>
-    )
-  }
-  <div class="card-head-txt">
   <div class="card-top">
     <span class="console"><span class="dot"></span>{item.kindLabel}</span>
     <span class="pills">
@@ -75,6 +65,16 @@ const stalledPill = (() => {
       )}
     </span>
   </div>
+  <div class="card-head">
+  {
+    cover && (
+      <span class="caja-mini" style={franja ? `--c:${franja.color};--ci:${franja.ink}` : undefined}>
+        {franja && <span class="franja">{franja.label}</span>}
+        <img src={cover} width={COVER_W} height={COVER_H} alt="" loading="lazy" decoding="async" />
+      </span>
+    )
+  }
+  <div class="card-head-txt">
 
   {item.forkOf && <p class="forkline">⑂ {t(lang, "card.fork")} {item.forkOf.label}</p>}
 
@@ -86,7 +86,7 @@ const stalledPill = (() => {
 
   {
     item.requirements && (
-      <p class="reqs"><span class="reqs-k">{t(lang, "card.reqs")}</span>{item.requirements}</p>
+      <p class="reqs"><span class="reqs-k">{t(lang, "card.reqs")}</span><span class="reqs-t">{item.requirements}</span></p>
     )
   }
 

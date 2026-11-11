@@ -298,6 +298,14 @@ const jsonLd = [
     <p class="lead">{d.desc[lang]}</p>
 
     {
+      d.requirements && (
+        <p class="reqs" style="max-width:70ch">
+          <span class="reqs-k">{t(lang, "card.reqs")}</span>{d.requirements[lang]}
+        </p>
+      )
+    }
+
+    {
       barPct != null && (
         <div class="prog" style={`--rail:${badgeColor};max-width:420px`}>
           <div class="bar"><i style={`width:${barPct}%`} /></div>
@@ -305,6 +313,10 @@ const jsonLd = [
         </div>
       )
     }
+
+    <dl class="facts">
+      {facts.map((f) => (<div><dt>{f.dt}</dt><dd>{f.href ? <a href={f.href}>{f.dd}</a> : f.dd}</dd></div>))}
+    </dl>
 
     {
       d.takedown && (
@@ -323,7 +335,7 @@ const jsonLd = [
     }
 
     <div class="actions">
-      {repoUrl && !d.takedown && !unlinked && <a class:list={["btn", { primary: !instalable }]} href={repoUrl} target="_blank" rel="noopener">{t(lang, "detail.viewRepo")}</a>}
+      {repoUrl && !d.takedown && !unlinked && <a class="btn primary" href={repoUrl} target="_blank" rel="noopener">{t(lang, "detail.viewRepo")}</a>}
       {homepage && !d.takedown && !unlinked && <a class="btn" href={homepage} target="_blank" rel="noopener">{t(lang, "detail.homepage")}</a>}
       {links.map((l) => <a class="btn" href={l.url} target="_blank" rel="noopener">{l.label[lang]} ↗</a>)}
       <button class="btn btn-edit" id="edit-toggle" type="button">{t(lang, "detail.edit")}</button>
@@ -333,8 +345,7 @@ const jsonLd = [
       <ProjectForm lang={lang} mode="edit" type={type} path={dataPath} data={d} />
     </div>
 
-    {/* Las etiquetas, en una línea de texto: sin recuadros (decisión del 9-11). */}
-    {tags.length > 0 && (<p class="tagrow">{tags.map((tag) => tagLabel(tag, lang)).join(" · ")}</p>)}
+    {tags.length > 0 && (<div class="tagrow">{tags.map((tag) => <span class="tg">{tagLabel(tag, lang)}</span>)}</div>)}
 
     <details class="badge-box">
       <summary>{t(lang, "detail.badge")}</summary>
@@ -380,10 +391,6 @@ const jsonLd = [
         )
       }
       {instalable && !d.takedown && <a class="instalar" href={localePath(lang, "unricopie")}>{t(lang, "unricopie.install")}</a>}
-      <dl class="dl">
-        {facts.map((f) => (<><dt>{f.dt}</dt><dd>{f.href ? <a href={f.href}>{f.dd}</a> : f.dd}</dd></>))}
-      </dl>
-      {d.requirements && (<div class="necesitas"><b>{t(lang, "card.reqs")}</b> {d.requirements[lang]}</div>)}
     </aside>
     </div>
   </main>

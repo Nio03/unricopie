@@ -170,11 +170,8 @@ a.entry-cover:hover .cover { border-color: var(--gold); }
 .game-list span { font-family: var(--mono); font-size: 11px; color: var(--ink-3); white-space: nowrap; }
 
 /* ---------- controls ---------- */
-.controls {
-  position: sticky; top: 55px; z-index: 20;
-  background: color-mix(in srgb, var(--bg2) 92%, transparent); backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--line); padding: 14px 0;
-}
+/* La barra de búsqueda no es fija: al bajar tapaba la parte de arriba de las tarjetas (11-11). */
+.controls { background: var(--bg2); border-bottom: 1px solid var(--line); padding: 14px 0; }
 .crow { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 .search { flex: 1 1 240px; min-width: 200px; position: relative; }
 .search input {
@@ -226,8 +223,6 @@ select { font-family: var(--mono); }
 /* Cabecera de la tarjeta con la caja del juego: la portada bajo la franja de la consola. */
 .card-head { display: block; }
 .card.has-cover .card-head { display: grid; grid-template-columns: 62px minmax(0, 1fr); gap: 14px; align-items: start; margin-bottom: 10px; }
-.card.has-cover::before { display: none; }
-.card.has-cover { padding-left: 16px; }
 .caja-mini { display: block; border-radius: 4px; overflow: hidden; background: var(--panel-2); box-shadow: 0 0 0 var(--bw) var(--line); }
 .caja-mini .franja { display: block; height: 15px; padding: 0 5px; background: var(--c, var(--ink-3)); color: var(--ci, #fff); font-size: 9.5px; line-height: 15px; font-weight: 800; letter-spacing: 0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .caja-mini img { display: block; width: 100%; height: auto; aspect-ratio: 264 / 374; object-fit: cover; }
@@ -266,6 +261,11 @@ select { font-family: var(--mono); }
 .desc { font-size: 13.5px; color: var(--ink-2); margin: 0 0 12px; line-height: 1.55; }
 .reqs { font-size: 12.5px; color: var(--ink-2); margin: 0 0 12px; line-height: 1.5; }
 .reqs-k { font-family: var(--mono); font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--accent); display: block; margin-bottom: 2px; }
+/* Tarjetas compactas (11-11): la descripción, en 3 líneas, y «Necesitas», en 2. El texto entero
+   va en la ficha. */
+.card .desc, .card .reqs-t { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+.card .desc { -webkit-line-clamp: 3; }
+.card .reqs-t { -webkit-line-clamp: 2; }
 .forkline { font-family: var(--mono); font-size: 11px; color: var(--ink-3); margin: 0 0 7px; letter-spacing: 0.3px; }
 .forkline a { color: var(--accent); text-decoration: none; }
 .forkline a:hover { text-decoration: underline; }
@@ -313,6 +313,9 @@ select { font-family: var(--mono); }
 /* Solo el relleno vertical: el lateral lo pone .wrap (sin él, en pantallas de
    menos de 1164 px el texto quedaba pegado al borde). */
 .detail { padding-top: 32px; padding-bottom: 56px; }
+/* Las páginas de texto (blog, Contribuir, Acerca de, preguntas, privacidad y términos), en una
+   columna centrada del ancho del texto (76ch), como el resto del sitio va centrado (11-11). */
+.wrap.texto { max-width: calc(76ch + 44px); }
 .crumb { font-family: var(--mono); font-size: 12px; color: var(--ink-3); margin-bottom: 18px; }
 .crumb a { color: var(--accent); }
 /* Cabecera de la ficha: tipo y estado juntos, a la izquierda. (Antes reutilizaba
@@ -332,7 +335,9 @@ select { font-family: var(--mono); }
 .facts dt { font-family: var(--mono); font-size: 10px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 5px; }
 .facts dd { margin: 0; font-size: 15px; font-weight: 500; color: var(--ink); overflow-wrap: anywhere; }
 .detail .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
-.tagrow { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.6; }
+/* Las etiquetas, en pastillas, como antes del v3 (11-11). */
+.tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
+.tg { font-family: var(--mono); font-size: 11px; color: var(--ink-2); border: 1px solid var(--line-2); border-radius: 4px; padding: 3px 8px; }
 
 /* ---------- prose (legal / about long-form) ---------- */
 .prose { max-width: 76ch; color: var(--ink-2); }
@@ -394,7 +399,9 @@ select { font-family: var(--mono); }
 .fld.fld-check input { width: auto; margin: 0; accent-color: var(--gold); }
 
 /* ---------- contribute ---------- */
-.contrib-form { display: grid; gap: 12px; }
+.contrib-form { display: grid; gap: 12px; max-width: 520px; }
+/* En Contribuir, el formulario llena la columna centrada (11-11). */
+.texto .contrib-form { max-width: none; }
 .done-card {
   border: 1px solid var(--line); border-left: 3px solid #5fcf6b; background: var(--panel);
   border-radius: var(--radius); padding: 26px 24px; max-width: 520px; margin-top: 26px;
@@ -434,10 +441,6 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
   .js .nav-links a { padding: 11px 4px; border-radius: 0; border-bottom: 1px solid var(--line); }
   .js .nav-links a:last-child { border-bottom: 0; }
 }
-@media (max-width: 760px) {
-  /* Con los filtros en varias filas, la barra fija ocupaba más de media pantalla. */
-  .controls { position: static; }
-}
 @media (max-width: 560px) {
   header.hero { padding: 34px 0 22px; }
 }
@@ -445,8 +448,6 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 /* Con caja, la consola ya está en la franja. */
-.card.has-cover .card-top .console { display: none; }
-.card.has-cover .card-top { justify-content: flex-start; }
 /* En Día, los colores de estado y de consola usados como texto, más oscuros para leerse sobre blanco. */
 :root[data-tema="dia"] :where(.pill, .console, .card-foot .stars) { filter: saturate(1.3) brightness(0.62); }
 
@@ -565,8 +566,9 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
   clip-path: inset(0 0 2px 0);
 }
 .estante.fila { grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); column-gap: 18px; }
-.todos { display: grid; grid-template-columns: 236px minmax(0, 1fr); gap: 32px; align-items: start; padding: 22px 0 0; }
-.filtros { position: sticky; top: 130px; max-height: calc(100vh - 150px); overflow: auto; padding-right: 4px; }
+.todos { display: grid; grid-template-columns: 272px minmax(0, 1fr); gap: 32px; align-items: start; padding: 22px 0 0; scroll-margin-top: 67px; }
+/* Pegada justo debajo de la barra de arriba (67 px). */
+.filtros { position: sticky; top: 84px; max-height: calc(100vh - 100px); overflow: auto; padding-right: 4px; }
 .filtros > summary { display: none; }
 .filtros-cab { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
 .filtros-cab b { font-family: var(--sans); font-size: 15px; color: var(--ink); }
@@ -580,7 +582,7 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
 .filtros input[type="checkbox"] { accent-color: var(--gold); width: 16px; height: 16px; margin: 0; flex: none; }
 .filtros .sw { width: 9px; height: 9px; border-radius: 2px; background: var(--c); flex: none; }
 .filtros .sw.punto { border-radius: 50%; }
-.filtros .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.filtros .nm { flex: 1; min-width: 0; overflow-wrap: anywhere; line-height: 1.3; }
 .filtros .ct { color: var(--ink-3); font-size: 12.5px; font-weight: 400; }
 .res-barra { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .res-barra .meta { margin: 0; }

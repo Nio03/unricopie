@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import Card from "../Card.astro";
 import { consoleMeta, inkOn } from "../../lib/consoles";
 import instalables from "../../data/unricopie.json";
 import { getGames, projectsByGame, launchersFor, coverOf, COVER_W, COVER_H } from "../../lib/games";
@@ -114,7 +115,6 @@ const studio = items.find((i) => i.originalDeveloper)?.originalDeveloper;
 const origen = [studio, game.year].filter(Boolean).join(", ");
 const instalable = new Set((instalables as { instalables: string[] }).instalables);
 const conUnricopie = items.some((i) => instalable.has(`${i.type === "tool" ? "tools" : i.type === "decomp" ? "decomps" : i.type + "s"}/${i.id}`));
-const dueno = (repo?: string) => repo?.split("/")[0];
 
 const title = `${t(lang, "game.seoTitle", { name: game.name, summary })} — Recompendium`;
 const description = faqs[0].a;
@@ -176,22 +176,8 @@ const jsonLd = [
         <p class="short-answer"><span class="reqs-k">{t(lang, "game.short")}</span>{faqs[0].a} {t(lang, "game.shortNeed", { name: game.name, platform: mainPlatform ?? "" }).replace(" ()", "")}</p>
 
         <h2 class="h">{t(lang, "game.dl.projects")} <small>{items.length}</small></h2>
-        <div class="lista">
-          {
-            items.map((it) => (
-              <a class="proy" href={it.href}>
-                <div>
-                  <b>{it.name}</b>
-                  <div class="q">{it.typeLabel}{dueno(it.repo) && <> · {dueno(it.repo)}</>}</div>
-                </div>
-                <div class="proy-der">
-                  {it.version && <b>{it.version}</b>}
-                  {it.status && <div class="q"><span class="punto" style={`--d:${it.status.color}`}></span>{it.status.label}</div>}
-                </div>
-              </a>
-            ))
-          }
-        </div>
+        {/* Cada proyecto, en su tarjeta completa: descripción, «Necesitas», estado y estrellas (11-11). */}
+        <section class="grid" style="padding:0">{items.map((it) => <Card item={it} lang={lang} />)}</section>
 
         {
           installers.length > 0 && (
