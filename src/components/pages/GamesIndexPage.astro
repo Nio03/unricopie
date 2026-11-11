@@ -20,6 +20,8 @@ const present = new Set(rows.flatMap((r) => r.game.platforms));
 const consoles = CONSOLE_KEYS.filter((k) => present.has(k) && k !== "other")
   .map((k) => ({ key: k, label: consoleMeta(k, lang).label, color: consoleMeta(k, lang).color, n: rows.filter((r) => r.game.platforms.includes(k)).length }))
   .sort((a, b) => b.n - a.n);
+// En la columna de filtros, de la A a la Z y todas a la vista.
+const consolasAZ = [...consoles].sort((a, b) => a.label.localeCompare(b.label, lang, { numeric: true }));
 // La caja de cada juego: la franja de su primera consola encima de la portada.
 const franjaDe = (platforms: string[]) => {
   const k = platforms.find((p) => p !== "other");
@@ -28,7 +30,6 @@ const franjaDe = (platforms: string[]) => {
   return { label: cm.tag, style: `--c:${cm.color};--ci:${inkOn(cm.color)}` };
 };
 const SHELF = 12;
-const MAS = 10;
 const shelves = consoles.slice(0, 8).map((c) => ({ ...c, rows: rows.filter((r) => r.game.platforms.includes(c.key)).slice(0, SHELF) }));
 
 const title = `${t(lang, "games.seoTitle")} — Recompendium`;
@@ -90,12 +91,9 @@ const jsonLd = {
         </div>
         <fieldset class="grupo">
           <legend>{t(lang, "ctl.gConsole")}</legend>
-          {consoles.map((c, i) => (
-            <label class:list={{ extra: i >= MAS }}><input type="checkbox" data-group="console" value={c.key} /><span class="sw" style={`--c:${c.color}`} /><span class="nm">{c.label}</span><span class="ct">{c.n}</span></label>
+          {consolasAZ.map((c) => (
+            <label><input type="checkbox" data-group="console" value={c.key} /><span class="sw" style={`--c:${c.color}`} /><span class="nm">{c.label}</span><span class="ct">{c.n}</span></label>
           ))}
-          {consoles.length > MAS && (
-            <button class="mas" type="button" data-more={t(lang, "ctl.more", { n: consoles.length - MAS })} data-less={t(lang, "ctl.less")}>{t(lang, "ctl.more", { n: consoles.length - MAS })}</button>
-          )}
         </fieldset>
       </details>
 
@@ -182,12 +180,6 @@ const jsonLd = {
     });
   }
   document.getElementById("volver")?.addEventListener("click", () => vista("inicio"));
-  for (const mas of document.querySelectorAll<HTMLButtonElement>(".filtros .mas")) {
-    mas.addEventListener("click", () => {
-      const abierto = mas.closest(".grupo")?.classList.toggle("abierto");
-      mas.textContent = (abierto ? mas.dataset.less : mas.dataset.more) || "";
-    });
-  }
   const det = document.querySelector<HTMLDetailsElement>("details.filtros");
   if (det && window.matchMedia("(max-width: 860px)").matches) det.open = false;
   if (window.location.hash === "#todos") explorar.dataset.vista = "todos";

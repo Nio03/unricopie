@@ -6,7 +6,7 @@ A live, filterable, multi-console catalogue of static recompilations of console 
 
 Since *Unleashed Recompiled*, static recompilation has spread across N64, Xbox 360, GameCube, Wii and PS2, but the projects remained scattered. The existing references each cover part of the ground: Read Only Memo is editorial and monthly, PCGamingWiki is a manually maintained wiki, Codex Gamicus covers GameCube only. Recompendium aims at the gap: hand-curated entries, verified against the source repository, enriched daily from the GitHub API.
 
-The repository is named `unricopie` because that name determined the original GitHub Pages URL, not because of the launcher. [`unricopie-launcher/`](./unricopie-launcher) holds the Tauri scaffold of a multi-console launcher that reached Phase 0 and is **no longer under development**. The code is kept in case it is resumed; it is not shipped, advertised or listed in the catalogue.
+**Unricopie**, the catalogue's launcher, lives in its own repository, [Nio03/unricopie-launcher](https://github.com/Nio03/unricopie-launcher) (GPL-3.0), and has its page at https://recompendium.com/unricopie. This site publishes what it reads: `/unricopie/catalogo.json`, `/unricopie/recetas.json` (the install recipes, exported at build time from a private repository), `/unricopie/version.json` and `/reportes.json`.
 
 Recompendium hosts no ROMs, assets or copyrighted material, and doesn't link to projects that include them unless they state they have the rights holder's explicit permission. Running any project listed here requires your own legal copy of the game. See [Terms](./src/pages/en/terms.astro) and [Privacy](./src/pages/en/privacy.astro).
 
@@ -30,7 +30,7 @@ The site is bilingual (Spanish and English) with per-language routes, `/es/` and
 - **[Astro](https://astro.build)** — static output, no JavaScript by default; small vanilla islands drive the filters.
 - **Content Collections + Zod** — the schema in `src/content.config.ts` validates every contribution at build time.
 - **GitHub Actions** — scheduled jobs refresh the live data, discover new projects and publish the site.
-- **Design** — tracker-style, in the vein of RetroAchievements: dark theme, dense catalogue rows with a per-console mini cover, status badges and star counts.
+- **Design** — the same as the Unricopie launcher: the blue of the pie's plate and gold for actions, the Onest typeface, each project's cover under its console's colour stripe, shelves with "See all" and a filter column, and three themes (Night, Day, High contrast).
 
 ## Data model
 
@@ -69,15 +69,14 @@ unricopie/
 │                           #   the detail routes recomp/ decomp/ port/ tool/;
 │                           #   index.astro picks a language, [...legacy].astro
 │                           #   redirects the old Spanish URLs at the root
-├── public/                 # logos, icons, robots.txt
+├── public/                 # the pie icon, social images, robots.txt
 ├── scripts/
 │   ├── refresh-stats.mjs      # GitHub API -> src/data/stats.json
 │   ├── discover.mjs           # finds candidate projects from a YouTube feed
 │   ├── discovery-ignore.txt   # projects deliberately rejected, with reasons
 │   ├── normalize-data.mjs     # rewrites the YAML into canonical form
 │   └── validate-data.mjs      # fast YAML checks, used by CI
-├── .github/workflows/      # deploy · refresh-stats · discover · validate
-└── unricopie-launcher/     # Tauri launcher scaffold, development stopped
+└── .github/workflows/      # deploy · refresh-stats · discover · validate · reportes
 ```
 
 ## Development
@@ -96,12 +95,15 @@ npm run discover       # list catalogue candidates found in the channel feed
 
 ## Automation
 
-Four scheduled or triggered workflows, none of which requires a secret beyond the runner's own token.
+Five scheduled or triggered workflows. All of them work with the runner's own token; `deploy.yml` also reads two optional secrets (below).
 
 - **`refresh-stats.yml`** — daily. Updates `stats.json` and commits it.
 - **`deploy.yml`** — publishes on every push to `main`, and again once the stats refresh finishes, since a bot push does not trigger workflows on its own.
 - **`validate.yml`** — YAML checks and a full build on every push and pull request.
+- **`reportes.yml`** — on every issue labelled `reporte` (the "How did it go?" form Unricopie opens) and daily. Tallies the reports into `src/data/reportes.json`, closes the ones it counted, and asks `deploy.yml` to publish if anything changed. Issues labelled `invalido` are not counted.
 - **`discover.yml`** — daily. Reads the Video Game Esoterica RSS feed, extracts repository links, discards anything already in the catalogue or listed in `scripts/discovery-ignore.txt`, enriches the rest from the GitHub API, and opens or updates a single issue with the candidates.
+
+**Optional secrets** for `deploy.yml`: `UNRICOPIE_DATA_TOKEN`, a read-only token for the private recipes repository (without it the site is published without `recetas.json`), and `CF_BEACON_TOKEN`, for Cloudflare Web Analytics (without it no analytics script is loaded).
 
 `discover.yml` reports and nothing more; it never writes to the catalogue. Deciding which section a project belongs in requires reading its README, and that judgement is not automated: projects are regularly named in ways that contradict what they are, and a wrong entry is worse than a missing one. Rejections belong in `discovery-ignore.txt` with their reason, so the same candidate is not reconsidered every day.
 

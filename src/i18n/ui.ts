@@ -15,6 +15,7 @@ export const ui = {
 
     "nav.catalog": "Catálogo",
     "nav.games": "Juegos",
+    "nav.projects": "Proyectos",
     "nav.recomps": "Recomps",
     "nav.launchers": "Launchers",
     "nav.ports": "Ports",
@@ -61,6 +62,8 @@ export const ui = {
     "home.byGame": "Ver por juego →",
 
     "games.h1": "Juegos",
+    "projects.h1": "Proyectos",
+    "projects.lead": "Las {n} fichas del catálogo, una por proyecto: recompilaciones, ports, decompilaciones, herramientas y mods. Fíltralas por tipo, consola o estado, u ordénalas por estrellas, nombre o actividad.",
     "games.seoTitle": "Juegos de consola que se pueden jugar en PC, juego por juego",
     "games.lead": "Los {n} juegos con más de un proyecto en el catálogo: sus recompilaciones, ports, decompilaciones y mods, juntos en una página.",
     "games.projects": "{n} proyectos",
@@ -340,6 +343,7 @@ export const ui = {
 
     "nav.catalog": "Catalog",
     "nav.games": "Games",
+    "nav.projects": "Projects",
     "nav.recomps": "Recomps",
     "nav.launchers": "Launchers",
     "nav.ports": "Ports",
@@ -386,6 +390,8 @@ export const ui = {
     "home.byGame": "Browse by game →",
 
     "games.h1": "Games",
+    "projects.h1": "Projects",
+    "projects.lead": "All {n} catalog entries, one per project: recompilations, ports, decompilations, tools, and mods. Filter them by type, console, or status, or sort them by stars, name, or activity.",
     "games.seoTitle": "Console games you can play on PC, game by game",
     "games.lead": "The {n} games with more than one project in the catalog: their recompilations, ports, decompilations, and mods, together on one page.",
     "games.projects": "{n} projects",

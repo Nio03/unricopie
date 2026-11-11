@@ -24,8 +24,10 @@ interface Props {
   title?: string;
   description?: string;
   jsonLd?: object | object[];
+  // Solo la lista con los filtros, sin estantes ni «‹ Volver»: la página Proyectos.
+  lista?: boolean;
 }
-const { lang, items, h1, tagline, countTmpl, guide = false, typeFilter = false, stats, why = false, title, description, jsonLd } = Astro.props;
+const { lang, items, h1, tagline, countTmpl, guide = false, typeFilter = false, stats, why = false, title, description, jsonLd, lista = false } = Astro.props;
 
 const ordered = sortItems(items);
 
@@ -35,6 +37,8 @@ for (const i of items) for (const c of i.consoleKeys) nPorConsola.set(c, (nPorCo
 const consoles = CONSOLE_KEYS.filter((k) => nPorConsola.has(k))
   .map((k) => ({ key: k, n: nPorConsola.get(k)!, ...consoleMeta(k, lang) }))
   .sort((a, b) => b.n - a.n);
+// En la columna de filtros, de la A a la Z y todas a la vista; «Otra», al final.
+const consolasAZ = [...consoles].sort((a, b) => Number(a.key === "other") - Number(b.key === "other") || a.label.localeCompare(b.label, lang, { numeric: true }));
 
 // Filtro de estado con los estados que de verdad tienen las fichas de esta
 // página: las herramientas usan otros (beta, usable, estable) y las
@@ -83,7 +87,6 @@ if (typeFilter && types.length > 1)
   for (const ty of types) shelves.push({ key: `t-${ty.key}`, title: ty.label, color: ty.color, n: ty.n, items: ordered.filter((i) => i.type === ty.key).slice(0, SHELF), group: "type", value: ty.key });
 if (consoles.length > 1)
   for (const c of consoles.slice(0, 6)) shelves.push({ key: `c-${c.key}`, title: c.label, color: c.color, n: c.n, items: ordered.filter((i) => i.consoleKeys.includes(c.key)).slice(0, SHELF), group: "console", value: c.key });
-const MAS = 10;
 // En los estantes, cada ficha es una caja (la portada con la franja de su consola), como en la
 // página de juegos y en Unricopie; la tarjeta con el texto entero queda para «Ver todos».
 const cajaDe = (i: Item) => {
@@ -170,8 +173,8 @@ const guideCards = [
   {/* Sin JavaScript se ve «Ver todos» con la cuadrícula entera: así la leen igual los
       buscadores, y ninguna ficha queda solo dentro de un estante. */}
   <noscript><style>.explorar .inicio {display: none !important} .explorar .todos {display: grid !important} .filtros {display: none !important}</style></noscript>
-  <main class="wrap explorar" id="explorar" data-vista="inicio">
-    <section class="inicio" aria-label={t(lang, "ctl.shelves")}>
+  <main class="wrap explorar" id="explorar" data-vista={lista ? "todos" : "inicio"}>
+    {!lista && (<section class="inicio" aria-label={t(lang, "ctl.shelves")}>
       <p class="ver-todo"><button class="ver-todos" type="button" data-sort="">{t(lang, "ctl.seeAllN", { n: ordered.length })}</button></p>
       {shelves.map((s) => (
         <section class="estante-f">
@@ -200,7 +203,7 @@ const guideCards = [
           </ul>
         </section>
       ))}
-    </section>
+    </section>)}
 
     <section class="todos" id="todos">
       <details class="filtros" open>
@@ -223,12 +226,9 @@ const guideCards = [
           consoles.length > 1 && (
             <fieldset class="grupo">
               <legend>{t(lang, "ctl.gConsole")}</legend>
-              {consoles.map((c, i) => (
-                <label class:list={{ extra: i >= MAS }}><input type="checkbox" data-group="console" value={c.key} /><span class="sw" style={`--c:${c.color}`} /><span class="nm">{c.label}</span><span class="ct">{c.n}</span></label>
+              {consolasAZ.map((c) => (
+                <label><input type="checkbox" data-group="console" value={c.key} /><span class="sw" style={`--c:${c.color}`} /><span class="nm">{c.label}</span><span class="ct">{c.n}</span></label>
               ))}
-              {consoles.length > MAS && (
-                <button class="mas" type="button" data-more={t(lang, "ctl.more", { n: consoles.length - MAS })} data-less={t(lang, "ctl.less")}>{t(lang, "ctl.more", { n: consoles.length - MAS })}</button>
-              )}
             </fieldset>
           )
         }
@@ -256,7 +256,7 @@ const guideCards = [
 
       <div class="resultados">
         <div class="res-barra">
-          <button class="volver" type="button" id="volver">{t(lang, "ctl.back")}</button>
+          {!lista && <button class="volver" type="button" id="volver">{t(lang, "ctl.back")}</button>}
           <div class="meta" id="count" data-tmpl={countTmpl}>{countTmpl.replace("{shown}", String(ordered.length)).replace("{total}", String(ordered.length))}</div>
           <label class="orden">{t(lang, "ctl.sort")}
             <select id="sort">
@@ -387,14 +387,6 @@ const guideCards = [
       });
     }
     document.getElementById("volver")?.addEventListener("click", () => vista("inicio"));
-    // «Ver las N restantes» de un grupo largo.
-    for (const mas of document.querySelectorAll<HTMLButtonElement>(".filtros .mas")) {
-      mas.addEventListener("click", () => {
-        const g = mas.closest(".grupo");
-        const abierto = g?.classList.toggle("abierto");
-        mas.textContent = (abierto ? mas.dataset.less : mas.dataset.more) || "";
-      });
-    }
     // En el móvil, los filtros empiezan plegados.
     const det = document.querySelector<HTMLDetailsElement>("details.filtros");
     if (det && window.matchMedia("(max-width: 860px)").matches) det.open = false;

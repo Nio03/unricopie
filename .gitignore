@@ -54,3 +54,7 @@ legacy/
 # Recetas de Unricopie: se generan en el deploy desde el repo privado; nunca van al repo.
 public/unricopie/recetas.json
 _unricopie-data/
+
+# El prototipo viejo del launcher en Tauri (sustituido por Unricopie, que vive en su propio repo):
+# se queda en el disco como prueba vieja, fuera del repo.
+/unricopie-launcher/

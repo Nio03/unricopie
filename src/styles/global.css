@@ -579,10 +579,6 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
 .filtros .sw.punto { border-radius: 50%; }
 .filtros .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .filtros .ct { color: var(--ink-3); font-size: 12.5px; font-weight: 400; }
-.filtros .extra { display: none; }
-.filtros .grupo.abierto .extra { display: flex; }
-.filtros .mas { background: none; border: 0; cursor: pointer; font: inherit; font-size: 13px; color: var(--ink-2); padding: 6px 6px 0; text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 3px; }
-.filtros .mas:hover { color: var(--ink); text-decoration-color: var(--gold); }
 .res-barra { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .res-barra .meta { margin: 0; }
 .volver { background: none; border: 0; padding: 0 0 1px; cursor: pointer; font: inherit; font-family: var(--sans); font-weight: 700; font-size: 14px; color: var(--ink); border-bottom: 1px solid var(--line-2); }

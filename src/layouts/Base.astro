@@ -40,10 +40,12 @@ const altEn = Astro.site ? new URL(enHref, Astro.site).href : enHref;
 // El canonical = la versión del idioma actual (coincide con sitemap + hreflang).
 const canonical = lang === "es" ? altEs : altEn;
 
-// La barra del diseño v3, la misma del launcher: Catálogo, Juegos y Blog. Las
-// secciones del catálogo son filtros dentro de él y van también en el pie.
+// La barra del diseño v3: Catálogo (estantes), Proyectos (las fichas una a una, con los
+// filtros), Juegos, Blog y Unricopie. Las secciones del catálogo son filtros dentro de él y van
+// también en el pie.
 const nav = [
   { label: t(lang, "nav.catalog"), to: localePath(lang, ""), also: ["recomps", "launchers", "ports", "decompilaciones", "mods", "consola", "recomp", "port", "decomp", "mod", "tool"] },
+  { label: t(lang, "nav.projects"), to: localePath(lang, "proyectos"), also: [] },
   { label: t(lang, "nav.games"), to: localePath(lang, "juegos"), also: ["juego"] },
   { label: t(lang, "nav.blog"), to: localePath(lang, "blog"), also: [] },
   { label: "Unricopie", to: localePath(lang, "unricopie"), also: [] },

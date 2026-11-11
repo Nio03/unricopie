@@ -1,0 +1,16 @@
+---
+import CatalogView from "./CatalogView.astro";
+import { getAllItems } from "../../lib/catalog";
+import { t, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+// Proyectos: las fichas una a una, con la columna de filtros desde el principio (10-11, pedido
+// del usuario: «falta una pestaña para ver los proyectos en sí, no solo por juegos»). Es la
+// misma lista que «Ver las N fichas» del Catálogo, sin los estantes.
+const items = await getAllItems(lang);
+---
+
+<CatalogView lang={lang} items={items} h1={t(lang, "projects.h1")} tagline={t(lang, "projects.lead", { n: items.length })} countTmpl={t(lang, "count.of")} typeFilter lista />
