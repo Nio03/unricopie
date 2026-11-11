@@ -37,7 +37,7 @@ const summary = listOf(items);
 const platformLabel = (p: string) => (p === "other" ? "" : consoleMeta(p, lang).label);
 const platforms = game.platforms.map(platformLabel).filter(Boolean);
 // Un juego de PC ya se juega en PC: la pregunta útil es qué proyectos hay.
-const PC_LIKE = new Set(["pc", "dos", "mac", "pc98", "other", "mobile"]);
+const PC_LIKE = new Set(["pc", "dos", "mac", "macos", "pc98", "other", "mobile"]);
 const fromPc = game.platforms.length > 0 && game.platforms.every((p) => PC_LIKE.has(p));
 
 // Respuestas, a partir del estado de cada proyecto. Las fichas retiradas por

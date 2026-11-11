@@ -64,6 +64,9 @@ export const CONSOLES = {
   pc98: { label: 'PC-98', tag: '98', full: 'NEC PC-9801 / PC-98', arch: 'x86', color: '#4F7A8C' },
   // Mac OS anterior a OS X (Marathon y otros juegos de Mac de los 90).
   mac: { label: 'Classic Mac OS', tag: 'MAC', full: 'Classic Mac OS', arch: '68k / PowerPC', color: '#7D8A99' },
+  // El macOS moderno (Intel y Apple silicon): juegos de Mac de la era de OS X, como las versiones
+  // de Mac de Assassin's Creed II y Brotherhood. Como Windows, sin página propia de consola.
+  macos: { label: 'macOS', tag: 'MACOS', full: 'Apple macOS', arch: 'x86 / ARM64', color: '#D946EF' },
   // Juegos de móviles llevados a PC: los de teléfonos con Java ME o BREW
   // (Doom RPG, God of War: Betrayal) y los de iOS y Android.
   mobile: { label: 'Mobile', tag: 'MOB', full: 'Java ME, BREW, iOS, and Android', arch: 'ARM / Java', color: '#3D9970' },

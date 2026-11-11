@@ -1,0 +1,19 @@
+name: "Bomberman Online"
+games: [bomberman-online]
+console: dreamcast
+status: playable
+repo: nvd123-YT/BombermanOnlineRecomp
+originalDeveloper: "Hudson Soft"
+year: 2001
+toolchain: dreamcomp
+desc:
+  es: "Bomberman Online Recompiled: recompilación estática de Bomberman Online para Dreamcast (versión estadounidense, MK-51065 V1.004) en un programa nativo para Windows, macOS con Apple silicon y Linux, hecha con dreamcomp: el código SH-4 del juego se traduce por adelantado a C/C++ y se compila. Vuelve a funcionar el multijugador en línea original: el port implementa el adaptador de banda ancha de la Dreamcast y se conecta a un servicio de la comunidad que mantiene vivo el juego en línea de la consola; antes hay que crear un personaje en el Extras Box, que se guarda en la VMU virtual. Trae un launcher propio, hecho con Electron, para elegir la imagen del disco, la resolución, la relación de aspecto, el juego en línea y los controles, que se actualiza solo; también funciona con RecompLauncher. Las versiones son ejecutables ya compilados con el código recompilado del juego: su autor los genera a partir del ejecutable de arranque del disco, que guarda en un repositorio privado y no publica, y el resto del juego se lee de tu imagen del disco al jugar. Hay versiones de prueba casi a diario (la del launcher 2.0.0 es del 11 de noviembre); el repositorio se creó el 8 de noviembre de 2026."
+  en: "Bomberman Online Recompiled: a static recompilation of Bomberman Online for the Dreamcast (US version, MK-51065 V1.004) into a native program for Windows, macOS on Apple silicon, and Linux, made with dreamcomp: the game’s SH-4 code is translated ahead of time into C/C++ and compiled. The original online multiplayer works again: the port implements the Dreamcast’s broadband adapter and connects to a community service that keeps the console’s online play alive; you first create a character in the Extras Box, which is saved to the virtual VMU. It has its own Electron launcher to pick the disc image, resolution, aspect ratio, online play, and controls, and it updates itself; it also works with RecompLauncher. The releases are prebuilt executables that contain the game’s recompiled code: its author builds them from the disc’s boot executable, which he keeps in a private repository and doesn’t publish, and the rest of the game is read from your disc image as you play. There are test builds almost daily (launcher 2.0.0 is from November 11); the repository was created on November 8, 2026."
+requirements:
+  es: "Tu propia imagen de disco de Bomberman Online para Dreamcast, de Estados Unidos, en .chd, .gdi o .cue con sus pistas .bin. Windows de 64 bits, macOS en un Mac con Apple silicon o Linux de 64 bits."
+  en: "Your own disc image of Bomberman Online for the Dreamcast, US release, as .chd, .gdi, or .cue with its .bin tracks. 64-bit Windows, macOS on an Apple silicon Mac, or 64-bit Linux."
+tags:
+  - sh-4
+  - online
+  - multiplayer
+  - static-recomp

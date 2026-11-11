@@ -1,0 +1,18 @@
+name: "Alone in the Dark: Classic Reborn"
+games: [alone-in-the-dark, jack-in-the-dark, alone-in-the-dark-2, alone-in-the-dark-3]
+category: decomp-port
+console: dos
+status: fully
+repo: nayo186/AloneInTheDarkClassicReborn
+originalDeveloper: "Infogrames"
+year: 1992
+desc:
+  es: "Port del motor de Infogrames para jugar a Alone in the Dark (1992), Jack in the Dark, Alone in the Dark 2 y Alone in the Dark 3 en Windows y Linux y, de forma experimental, en macOS y Android, con sus gráficos originales. Parte de FITD (Free in the Dark), de yaz0r, que tradujo a C++ legible el motor del ejecutable de DOS sin reconstruirlo byte a byte; la lógica del juego no está en el ejecutable sino en los guiones de LISTLIFE.PAK, que el motor interpreta como el original. Es un fork de Alone in the Dark: Re-Haunted, de Spacefarer Retro Remasters, del que quitó el modo HD: aquí todo lo añadido es opcional. Los cuatro juegos se pueden jugar de principio a fin. Corrige errores del original (objetos dibujados en mal orden, monstruos atascados en las ventanas, la velocidad atada a los fotogramas…) y añade un launcher para elegir el juego, el idioma (los cinco de las ediciones de GOG y Steam) y la carpeta, opciones de pantalla, efectos opcionales (FXAA, bloom, grano, líneas CRT, SSAO), mando con un stick moderno o los controles de tanque, vibración y fondos propios: se exportan los fondos del juego y se pueden sustituir por versiones repintadas. Los packs HD de fondos de los cuatro juegos no están en el repositorio: el README los enlaza en Google Drive. La versión 1.7.0 es del 10 de noviembre."
+  en: "A port of Infogrames’ engine to play Alone in the Dark (1992), Jack in the Dark, Alone in the Dark 2, and Alone in the Dark 3 on Windows and Linux, and experimentally on macOS and Android, with their original graphics. It starts from yaz0r’s FITD (Free in the Dark), which translated the DOS executable’s engine into readable C++ without rebuilding it byte for byte; the game logic isn’t in the executable but in the scripts of LISTLIFE.PAK, which the engine interprets as the original did. It’s a fork of Spacefarer Retro Remasters’ Alone in the Dark: Re-Haunted, with the HD mode removed: everything added here is optional. All four games are playable from start to end. It fixes bugs of the original (objects drawn in the wrong order, monsters stuck at windows, game speed tied to the frame rate…) and adds a launcher to pick the game, the language (the five of the GOG and Steam editions), and the folder, screen options, optional effects (FXAA, bloom, film grain, CRT scanlines, SSAO), controller support with a modern stick or tank controls, rumble, and custom backgrounds: you export the game’s backgrounds and can replace them with repainted ones. The HD background packs for the four games aren’t in the repository: the README links them on Google Drive. Version 1.7.0 is from November 10."
+requirements:
+  es: "Tu propia copia de Alone in the Dark (que trae Jack in the Dark), Alone in the Dark 2 o Alone in the Dark 3, en sus ediciones de GOG o de Steam, o una imagen de tu CD original (.cue y .bin, o .iso). Windows 10 u 11 de 64 bits con una GPU con DirectX 11; Linux de 64 bits con Vulkan u OpenGL; macOS 11 o posterior (experimental); o Android 7 o posterior de 64 bits (experimental)."
+  en: "Your own copy of Alone in the Dark (which includes Jack in the Dark), Alone in the Dark 2, or Alone in the Dark 3, in their GOG or Steam editions, or an image of your original CD (.cue and .bin, or .iso). 64-bit Windows 10 or 11 with a DirectX 11 GPU; 64-bit Linux with Vulkan or OpenGL; macOS 11 or later (experimental); or 64-bit Android 7 or later (experimental)."
+tags:
+  - x86
+  - horror
+  - build-android

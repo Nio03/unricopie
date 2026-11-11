@@ -1,0 +1,18 @@
+name: "Panzer Dragoon Orta (wootbeer)"
+games: [panzer-dragoon-orta]
+console: xbox
+status: fully
+repo: wootbeer/ortarecomp
+originalDeveloper: "Smilebit"
+year: 2002
+toolchain: xboxrecomp
+desc:
+  es: "Orta Recomp: port nativo para Windows y Linux (también Steam Deck) de Panzer Dragoon Orta, hecho recompilando de forma estática el juego de Xbox con xboxrecomp, de sp00nznet, con gráficos, sonido y controles propios sobre SDL 3. Está en beta: el README dice que el juego se puede jugar entero y que los problemas que quedan son sobre todo de la interpolación de fotogramas por encima de 60 fps. Añade resolución de 1x a 8x la original, el modo panorámico 16:9 del propio juego o el 4:3 original, antialiasing (MSAA hasta 8x o FXAA), corrección de color y aspecto CRT, audio 3D posicional con modo para auriculares, mando, teclado o ratón con todos los botones reconfigurables, tres partidas guardadas (el original tiene una), modo portable y la opción de abrir todos los objetos de la Caja de Pandora sin tocar la partida. Con tu propia copia de Lossless Scaling también puede usar su generación de fotogramas (experimental). La versión 0.1.0 es del 7 de noviembre y la 0.1.2, del 11. 97 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Orta Recomp: a native port of Panzer Dragoon Orta for Windows and Linux (Steam Deck included), made by statically recompiling the Xbox game with sp00nznet’s xboxrecomp, with its own graphics, sound, and controls on SDL 3. It’s in beta: the README says the whole game plays through and that the remaining issues are mostly with frame interpolation above 60 fps. It adds 1x to 8x resolution, the game’s own 16:9 widescreen mode or the original 4:3, anti-aliasing (MSAA up to 8x or FXAA), color correction and a CRT look, 3D positional audio with a headphones mode, controller, keyboard, or mouse with every button rebindable, three save files (the original has one), a portable mode, and an option to open every Pandora’s Box item without touching your save. With your own copy of Lossless Scaling it can also use its frame generation (experimental). Version 0.1.0 is from November 7 and 0.1.2 from the 11th. 97 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Panzer Dragoon Orta para Xbox, de Estados Unidos, como imagen de disco (.iso o .xiso) o como carpeta extraída con default.xbe (SHA-256 c1af4eaf…8d2c); el launcher copia la imagen a su carpeta de datos. Un PC de 64 bits con Vulkan: Windows 10 u 11, o Linux o Steam Deck."
+  en: "Your own copy of Panzer Dragoon Orta for Xbox, US release, as a disc image (.iso or .xiso) or an extracted folder with default.xbe (SHA-256 c1af4eaf…8d2c); the launcher copies the image to its data folder. A 64-bit PC with Vulkan: Windows 10 or 11, or Linux or Steam Deck."
+tags:
+  - x86
+  - shmup
+  - ai-assisted

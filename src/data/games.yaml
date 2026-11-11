@@ -225,6 +225,24 @@ aliens-versus-predator:
   year: 1999
   platforms: [pc]
 
+alone-in-the-dark:
+  name: Alone in the Dark
+  igdb: 1956
+  year: 1992
+  platforms: [dos]
+
+alone-in-the-dark-2:
+  name: Alone in the Dark 2
+  igdb: 1957
+  year: 1993
+  platforms: [dos]
+
+alone-in-the-dark-3:
+  name: Alone in the Dark 3
+  igdb: 1959
+  year: 1994
+  platforms: [dos]
+
 alundra:
   name: Alundra
   igdb: 1175
@@ -325,6 +343,30 @@ arx-fatalis:
   name: Arx Fatalis
   igdb: 602
   year: 2002
+  platforms: [pc]
+
+assassins-creed:
+  name: "Assassin's Creed"
+  igdb: 128
+  year: 2007
+  platforms: [pc]
+
+assassins-creed-brotherhood:
+  name: "Assassin's Creed Brotherhood"
+  igdb: 113
+  year: 2010
+  platforms: [macos]
+
+assassins-creed-ii:
+  name: "Assassin's Creed II"
+  igdb: 127
+  year: 2009
+  platforms: [macos]
+
+assassins-creed-revelations:
+  name: "Assassin's Creed Revelations"
+  igdb: 537
+  year: 2011
   platforms: [pc]
 
 astral-chain:
@@ -632,6 +674,12 @@ bomberman-hero:
   igdb: 3453
   year: 1998
   platforms: [n64]
+
+bomberman-online:
+  name: Bomberman Online
+  igdb: 6716
+  year: 2001
+  platforms: [dreamcast]
 
 bomberman-party-edition:
   name: Bomberman Party Edition
@@ -2790,6 +2838,12 @@ ion-fury:
   year: 2019
   platforms: [pc]
 
+jack-in-the-dark:
+  name: Jack in the Dark
+  igdb: 51346
+  year: 1993
+  platforms: [dos]
+
 jackie-chan-stuntmaster:
   name: Jackie Chan Stuntmaster
   igdb: 18943
@@ -4527,6 +4581,12 @@ prince-of-persia-2-the-shadow-and-the-flame:
   igdb: 3164
   year: 1993
   platforms: [dos, mac]
+
+prince-of-persia-2008:
+  name: Prince of Persia (2008)
+  igdb: 2438
+  year: 2008
+  platforms: [pc]
 
 prince-of-persia-the-sands-of-time:
   name: "Prince of Persia: The Sands of Time"
@@ -6429,6 +6489,12 @@ the-legend-of-zelda-ocarina-of-time:
   igdb: 1029
   year: 1998
   platforms: [n64]
+
+the-legend-of-zelda-ocarina-of-time-2026:
+  name: "The Legend of Zelda: Ocarina of Time (2026)"
+  igdb: 405460
+  year: 2026
+  platforms: [switch2]
 
 the-legend-of-zelda-ocarina-of-time-3d:
   name: "The Legend of Zelda: Ocarina of Time 3D"

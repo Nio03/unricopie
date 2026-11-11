@@ -1,0 +1,19 @@
+name: "Super Mario Odyssey (Project Plumb VR, Meta Quest)"
+games: [super-mario-odyssey]
+category: decomp-port
+console: switch
+status: experimental
+repo: 2whitelol/project-plumb-vr
+author: "White (2whitelol)"
+originalDeveloper: "Nintendo EPD"
+year: 2017
+desc:
+  es: "Ojo: este port no es para PC, sino para las gafas de realidad virtual Meta Quest 3 y 3S, como aplicación independiente (un APK de Android para ARM64 con OpenXR, sin PC ni streaming). Project Plumb VR quiere llevar Super Mario Odyssey (versión 1.0.0) a la realidad virtual sobre la decompilación OdysseyDecomp: tus manos son los guantes de Mario, y Cappy se coge con el botón de agarre y se lanza con un gesto de verdad. La primera demo irá del combate en el barco de Bowser hasta Topper, en el Reino del Sombrero. Todavía no hay demo jugable ni versiones publicadas: hay APK de prueba en una Quest 3 (la v0.12 mantiene el mundo quieto al girar la cabeza y deja a Cappy en la mano), y las funciones de la demo decompiladas van por el 32 % (802 de 2.535, a 9 de noviembre). Su autor declara que el trabajo de decompilación se hace con ayuda de IA y se comprueba con las herramientas de la decompilación."
+  en: "Note: this port isn’t for PC but for the Meta Quest 3 and 3S VR headsets, as a standalone app (an ARM64 Android APK with OpenXR, no PC and no streaming). Project Plumb VR aims to bring Super Mario Odyssey (version 1.0.0) to VR on top of the OdysseyDecomp decompilation: your hands are Mario’s gloves, and you grab Cappy with the grip button and throw him with a real throwing motion. The first demo will run from the fight on Bowser’s airship to Topper in Cap Kingdom. There is no playable demo or release yet: there are test APKs running on a Quest 3 (v0.12 holds the world still when you turn your head and keeps Cappy in your hand), and the demo’s functions are 32% decompiled (802 of 2,535, as of November 9). Its author states that the decompilation work is AI-assisted and verified with the decompilation’s tools."
+requirements:
+  es: "Tu propia copia de Super Mario Odyssey 1.0.0 volcada de forma legal, y unas Meta Quest 3 o 3S. El repositorio no trae archivos, claves ni volcados del juego."
+  en: "Your own legally dumped copy of Super Mario Odyssey 1.0.0, and a Meta Quest 3 or 3S. The repository holds no game files, keys, or dumps."
+tags:
+  - vr
+  - meta-quest
+  - ai-assisted

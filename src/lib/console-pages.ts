@@ -13,6 +13,6 @@ export async function consolePageKeys(): Promise<string[]> {
   ]);
   for (const e of [...recomps, ...ports, ...decomps, ...mods]) if (e.data.console) present.add(e.data.console);
   for (const e of tools) for (const c of e.data.consoles ?? []) present.add(c);
-  cache = CONSOLE_KEYS.filter((k) => present.has(k) && k !== "pc" && k !== "other");
+  cache = CONSOLE_KEYS.filter((k) => present.has(k) && k !== "pc" && k !== "macos" && k !== "other");
   return cache;
 }
