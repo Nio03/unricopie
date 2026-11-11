@@ -6,7 +6,7 @@ import ProjectForm from "../ProjectForm.astro";
 import { consoleMeta, inkOn } from "../../lib/consoles";
 import { statusMeta, toolKindMeta, toolStatusMeta, modKindMeta, stalledDays, STALLED_COLOR } from "../../lib/status";
 import { statFor, fmtStars, fmtDate, relDate, repoUrlOf } from "../../lib/stats";
-import { toolRelated, CAT_COLOR, type Item, type ItemType } from "../../lib/catalog";
+import { toolRelated, getAllItems, sortItems, CAT_COLOR, type Item, type ItemType } from "../../lib/catalog";
 import { tagLabel } from "../../lib/tags";
 import { t, localePath, type Lang } from "../../i18n";
 import { consolePageKeys } from "../../lib/console-pages";
@@ -65,7 +65,8 @@ const byGame = await projectsByGame(lang);
 const myGames = ((d.games ?? []) as string[]).map((g) => gamesMap.get(g)).filter((g) => g != null);
 const gameLinks = myGames.map((g) => ({
   label: g.name,
-  meta: [g.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).label)[0], g.year].filter(Boolean).join(", "),
+  // El año no se repite si el nombre ya lo lleva, como «Ratchet & Clank (2016)».
+  meta: [g.platforms.filter((p) => p !== "other").map((p) => consoleMeta(p, lang).label)[0], g.year && !g.name.endsWith(`(${g.year})`) ? g.year : null].filter(Boolean).join(", "),
   href: withPage.has(g.id) ? localePath(lang, `juego/${g.id}`) : undefined,
 }));
 // Portada del (primer) juego de la ficha, con enlace a su página si la tiene.
@@ -112,7 +113,12 @@ if (type === "recomp") {
   // Un launcher que publica su lista muestra lo que instala de verdad; si no
   // la publica, los recomps de sus plataformas, como hasta ahora.
   const inst = dl.kind === "launcher" ? await installedBy(entry.id, lang) : null;
-  if (inst && inst.items.length) {
+  if (dl.ours) {
+    // Unricopie: lo que instala de verdad, de src/data/unricopie.json (no los recomps de sus plataformas).
+    const lista = (instalables as { instalables: string[] }).instalables;
+    const suyos = (await getAllItems(lang)).filter((i) => !i.takedown && lista.includes(`${i.type === "decomp" ? "decomps" : i.type + "s"}/${i.id}`));
+    related = { items: sortItems(suyos), titleKey: "detail.relatedInstalls" };
+  } else if (inst && inst.items.length) {
     related = { items: inst.items, titleKey: "detail.relatedInstalls" };
     if (inst.checkedAt) installsNote = t(lang, "detail.installsNote", { date: fmtDate(inst.checkedAt) });
   } else {

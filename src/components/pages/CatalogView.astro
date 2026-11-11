@@ -29,7 +29,11 @@ interface Props {
 }
 const { lang, items, h1, tagline, countTmpl, guide = false, typeFilter = false, stats, why = false, title, description, jsonLd, lista = false } = Astro.props;
 
-const ordered = sortItems(items);
+// Unricopie (la ficha con `ours`) va primera en las listas de launchers y herramientas: la página
+// de Launchers, su estante y el filtro «Launchers y herramientas» (11-11). En el resto, en su sitio.
+const oursFirst = (l: Item[]) => [...l.filter((i) => i.ours), ...l.filter((i) => !i.ours)];
+const soloHerramientas = items.length > 0 && items.every((i) => i.type === "tool");
+const ordered = soloHerramientas ? oursFirst(sortItems(items)) : sortItems(items);
 
 // Las consolas de esta página, de la que más fichas tiene a la que menos.
 const nPorConsola = new Map<string, number>();
@@ -84,7 +88,10 @@ const conFecha = items.filter((i) => i.pushedAt);
 if (conFecha.length > SHELF)
   shelves.push({ key: "upd", title: t(lang, "shelf.updated"), n: items.length, items: [...conFecha].sort((a, b) => (b.pushedAt ?? "").localeCompare(a.pushedAt ?? "")).slice(0, SHELF), sort: "updated" });
 if (typeFilter && types.length > 1)
-  for (const ty of types) shelves.push({ key: `t-${ty.key}`, title: ty.label, color: ty.color, n: ty.n, items: ordered.filter((i) => i.type === ty.key).slice(0, SHELF), group: "type", value: ty.key });
+  for (const ty of types) {
+    const deTipo = ordered.filter((i) => i.type === ty.key);
+    shelves.push({ key: `t-${ty.key}`, title: ty.label, color: ty.color, n: ty.n, items: (ty.key === "tool" ? oursFirst(deTipo) : deTipo).slice(0, SHELF), group: "type", value: ty.key });
+  }
 if (consoles.length > 1)
   for (const c of consoles.slice(0, 6)) shelves.push({ key: `c-${c.key}`, title: c.label, color: c.color, n: c.n, items: ordered.filter((i) => i.consoleKeys.includes(c.key)).slice(0, SHELF), group: "console", value: c.key });
 // En los estantes, cada ficha es una caja (la portada con la franja de su consola), como en la
@@ -305,6 +312,7 @@ const guideCards = [
     const limpiarEl = document.getElementById("limpiar");
     const boxes = Array.from(document.querySelectorAll<HTMLInputElement>(".filtros input[data-group]"));
     const state = { q: "", sort: "" };
+    const todasHerramientas = cards.length > 0 && cards.every((c) => c.dataset.type === "tool");
     // Lo marcado en cada grupo: dentro de un grupo vale cualquiera; entre grupos, todos.
     const marcados = () => {
       const m: Record<string, Set<string>> = { type: new Set(), console: new Set(), status: new Set(), uc: new Set() };
@@ -346,15 +354,21 @@ const guideCards = [
         c.classList.toggle("hidden", !ok);
         if (ok) shown++;
       }
+      // El orden: el elegido o el de la página; Unricopie primera si la lista es solo de launchers
+      // y herramientas. Se recoloca todo (también lo oculto) para que, al quitar el filtro, cada
+      // tarjeta vuelva a su sitio.
+      let orden = cards;
       if (state.sort) {
-        const visible = cards.filter((c) => !c.classList.contains("hidden"));
-        visible.sort((a, b) => {
+        orden = [...cards].sort((a, b) => {
           if (state.sort === "name") return (a.dataset.name || "").localeCompare(b.dataset.name || "");
           if (state.sort === "updated") return (b.dataset.updated || "").localeCompare(a.dataset.updated || "");
           return Number(b.dataset.stars) - Number(a.dataset.stars) || (a.dataset.name || "").localeCompare(b.dataset.name || "");
         });
-        for (const c of visible) grid.appendChild(c);
       }
+      if (todasHerramientas || (m.type.size === 1 && m.type.has("tool"))) {
+        orden = [...orden.filter((c) => c.dataset.ours === "1"), ...orden.filter((c) => c.dataset.ours !== "1")];
+      }
+      for (const c of orden) grid.appendChild(c);
       grid.appendChild(emptyEl);
       countEl.textContent = tmpl.replace("{shown}", String(shown)).replace("{total}", String(cards.length));
       emptyEl.style.display = shown ? "none" : "";

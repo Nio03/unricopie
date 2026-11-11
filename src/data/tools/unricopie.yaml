@@ -1,0 +1,27 @@
+name: Unricopie
+kind: launcher
+consoles:
+  - pc
+  - n64
+  - dos
+  - ps4
+  - x360
+  - gamecube
+  - xbox
+  - nes
+  - switch
+repo: Nio03/unricopie-launcher
+author: Recompendium
+status: beta
+ours: true
+desc:
+  es: "El launcher de Recompendium: instala los proyectos del catálogo desde la versión que publica su autor, comprueba tu copia del juego, actualiza sin perder partidas y maneja los mods de Thunderstore de Zelda 64: Recompiled y Banjo: Recompiled. La 0.1 (11 de noviembre de 2026) instala 39 proyectos en Windows. Hecho con ayuda de IA."
+  en: "Recompendium's launcher: it installs catalog projects from the release their author publishes, checks your copy of the game, updates without losing your saves, and manages Thunderstore mods for Zelda 64: Recompiled and Banjo: Recompiled. Version 0.1 (November 11, 2026) installs 39 projects on Windows. Made with AI assistance."
+tags:
+  - auto-update
+  - ai-assisted
+links:
+  - label:
+      es: "Página de Unricopie y descarga"
+      en: "Unricopie's page and download"
+    url: https://recompendium.com/en/unricopie/

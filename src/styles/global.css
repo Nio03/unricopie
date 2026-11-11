@@ -21,7 +21,7 @@
   --ok: #4cc27a; --warn: #f2a93b; --night: #b28cf5; --bad: #ff7a7a;
   --bw: 1px;
   --radius: 8px;
-  --maxw: 1120px;
+  --maxw: 1600px;
   color-scheme: dark;
 
   --sans: "Onest", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -129,7 +129,8 @@ header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
 @media (max-width: 760px) { .guide { grid-template-columns: 1fr; } }
 .why { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); }
 .why h2 { font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-3); margin: 0 0 12px; }
-.why ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px 26px; }
+/* Seis bloques: como mucho 3 columnas, para que no quede uno solo en la última fila. */
+.why ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(max(280px, calc((100% - 52px) / 3)), 1fr)); gap: 10px 26px; }
 .why li { color: var(--ink-2); font-size: 13px; line-height: 1.55; }
 .why li b { color: var(--ink); font-weight: 700; }
 .by-game { margin: 14px 0 0; font-family: var(--mono); font-size: 13px; }
@@ -455,6 +456,8 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
 .cfranja span:last-child { font-weight: 600; opacity: 0.9; }
 .web { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 32px; padding-top: 22px; padding-bottom: 48px; align-items: start; }
 .web .izq { display: grid; gap: 16px; min-width: 0; align-content: start; }
+/* La descripción de la ficha, con ancho de lectura (con 1600 px de sitio, si no, pasa de 160 caracteres por línea). */
+.web .lead { max-width: 76ch; }
 .web .izq > .crumb { margin: 0; }
 .web h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
 .web .orig { color: var(--ink-3); font-size: 14px; margin: 6px 0 0; }
@@ -512,7 +515,7 @@ footer h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text
 .u-descargas .instalar { min-width: 200px; }
 .instalar.is-off { background: var(--panel-2); color: var(--ink-2); cursor: default; }
 /* Seis tarjetas: tres por fila en escritorio, y menos a medida que se estrecha. */
-.u-que { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px; }
+.u-que { display: grid; grid-template-columns: repeat(auto-fit, minmax(max(min(100%, 300px), calc((100% - 28px) / 3)), 1fr)); gap: 14px; }
 .u-que > div { background: var(--panel); border: var(--bw) solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
 .u-que h3 { font-size: 15px; margin: 0 0 4px; color: var(--ink); }
 .u-que p { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.55; }

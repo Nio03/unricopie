@@ -39,6 +39,8 @@ export interface Item {
   progressLabel?: string;  // su etiqueta ya localizada
   tags: string[];
   featured: boolean;
+  /** Nuestra (Unricopie): primera en las listas de launchers y herramientas. */
+  ours?: boolean;
   abandoned: boolean;
   takedown: boolean;
   /** Dias quieto si se quedo parado ANTES de llegar; null si no aplica. */
@@ -119,7 +121,7 @@ export function toolItem(e: CollectionEntry<"tools">, lang: Lang): Item {
     kindLabel: t(lang, `toolkind.${d.kind}`), statusKey: d.status ?? "",
     status: ts && d.status ? { label: t(lang, `toolstatus.${d.status}`), color: ts.color } : null,
     consoleKeys: d.consoles, repo: d.repo, stars: s.stars, pushedAt: s.pushedAt, version: s.version, originalDeveloper: (d as { originalDeveloper?: string }).originalDeveloper, year: (d as { year?: number }).year,
-    tags: d.tags, featured: d.featured, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("tool", d, s),
+    tags: d.tags, featured: d.featured, ours: d.ours, abandoned: d.abandoned, takedown: d.takedown, stalledDays: stalled("tool", d, s),
     search: [d.name, d.repo, d.author, d.authorFormerly, t(lang, `toolkind.${d.kind}`), ...tagSearch(d.tags, lang), d.desc[lang]].filter(Boolean).join(" ").toLowerCase(),
   };
 }

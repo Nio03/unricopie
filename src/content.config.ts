@@ -134,6 +134,8 @@ const tools = defineCollection({
     takedown: z.boolean().default(false),
     // Sin enlace por prudencia (proyectos de Switch 2): la ficha nombra el repo como texto.
     unlinked: z.boolean().default(false),
+    // Nuestra (Unricopie): primera en las listas de launchers y herramientas.
+    ours: z.boolean().default(false),
     desc: localized,
     tags: z.array(z.string()).default([]),
     links: linkList,

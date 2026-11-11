@@ -48,6 +48,7 @@ const stalledPill = (() => {
   data-updated={item.pushedAt ?? ""}
   data-stalled={item.stalledDays ?? ""}
   data-uc={instalable ? "1" : "0"}
+  data-ours={item.ours ? "1" : undefined}
   style={`--rail:${item.railColor}`}
   class:list={["card", { "has-cover": cover }]}
   target={item.external ? "_blank" : undefined}
