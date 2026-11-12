@@ -1,0 +1,22 @@
+name: "The House of the Dead (ReWrithe)"
+games: [the-house-of-the-dead]
+category: fan-remake
+console: arcade
+status: playable
+repo: TawhidI-602/The-House-of-the-Dead-ReWrithe
+originalDeveloper: "Sega AM1"
+year: 1996
+desc:
+  es: "The House of the Dead: ReWrithe: reescritura no oficial en C++ de The House of the Dead que junta la recreativa de 1996 (Model 2, revisión A) y el port para PC de 1998, tomando de cada versión, sistema por sistema, lo mejor de su lógica de juego; puede dibujar los modelos y las texturas más detallados de la recreativa o los del PC. Según su autor, el modo arcade coincide fotograma a fotograma con la recreativa en repeticiones de MAME de los cuatro capítulos, y los modos PC y de jefes siguen las reglas del juego de 1998. Suma de 1 a 4 jugadores en el mismo PC, con compañeros que maneja la CPU, cooperativo en línea de hasta cuatro PC con un código para unirse y rollback, pantalla 16:9, 16:10 o 4:3 a cualquier resolución y sin tope de fotogramas, mandos con giroscopio y pistolas de luz (IR, Sinden o CRT), mods (texturas, modelos y un ragdoll incluido), filtro CRT, galería de modelos, visor de escenas y un Sonic Mode más rápido, además de modos experimentales: The Typing of the Dead 0, uno de hordas y la realidad virtual con un visor conectado al PC. Un instalador comprueba tus archivos contra las versiones oficiales y copia solo lo que hace falta. Hay versiones para Windows, Linux y macOS, y una experimental para Meta Quest 3. El README declara que se hizo con ayuda de IA para la ingeniería inversa y para unir el código de las dos versiones, y que no usa IA generativa para el arte. La v1.4.0 es del 11 de noviembre."
+  en: "The House of the Dead: ReWrithe: an unofficial C++ rewrite of The House of the Dead that combines the 1996 arcade game (Model 2, Revision A) and the 1998 PC port, taking the best of each version's game logic, system by system; it can draw the arcade's more detailed models and textures or the PC's. According to its author, Arcade mode matches the arcade frame by frame in MAME replays of all four chapters, and PC Mode and Boss Mode follow the 1998 game's rules. It adds 1 to 4 players on one PC, with CPU-controlled teammates, online co-op for up to four PCs with a join code and rollback, 16:9, 16:10 or 4:3 screens at any resolution and uncapped frame rates, controllers with gyro aiming and light guns (IR, Sinden or CRT), mods (textures, models, and a built-in ragdoll mod), a CRT filter, a model gallery, a cut-scene viewer, and a faster Sonic Mode, plus experimental modes: The Typing of the Dead 0, a horde mode, and VR with a headset connected to the PC. A setup checks your files against the official releases and copies only what it needs. There are builds for Windows, Linux and macOS, and an experimental one for Meta Quest 3. The README states it was made with AI assistance for the reverse engineering and for combining the code of both versions, and that no generative AI is used for art. Version 1.4.0 is from November 11."
+requirements:
+  es: "Tu propio set de ROM de la recreativa (el set hotd de MAME, solo la revisión A, en zip o suelto) y tu propia copia del juego de PC de 1998 (su carpeta, un zip o la imagen del CD; mejor sin parchear y de la edición de EE. UU. o de Europa). Además, Windows 10 u 11 de 64 bits, Linux, SteamOS o macOS 11 o posterior, con OpenGL 3.3 (o DirectX 10.1 mediante ANGLE en Windows), 4 GB de RAM y una CPU de 2 núcleos."
+  en: "Your own arcade ROM set (MAME's hotd set, Revision A only, zipped or loose) and your own copy of the 1998 PC game (its folder, a zip or the CD image; preferably unpatched and the US or European release). Plus 64-bit Windows 10 or 11, Linux, SteamOS or macOS 11 or later, with OpenGL 3.3 (or DirectX 10.1 through ANGLE on Windows), 4 GB of RAM, and a 2-core CPU."
+tags:
+  - ai-assisted
+  - horror
+  - reverse-engineering
+  - widescreen
+  - 60fps+
+  - netplay
+  - mods

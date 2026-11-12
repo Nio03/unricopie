@@ -4786,6 +4786,12 @@ rayman-3-hd:
   year: 2012
   platforms: [x360]
 
+red-dead-revolver:
+  name: Red Dead Revolver
+  igdb: 1969
+  year: 2004
+  platforms: [xbox]
+
 redneck-rampage:
   name: Redneck Rampage
   igdb: 9002
@@ -6405,6 +6411,12 @@ the-elder-scrolls-iii-morrowind:
   igdb: 56
   year: 2002
   platforms: [pc]
+
+the-house-of-the-dead:
+  name: The House of the Dead
+  igdb: 2469
+  year: 1996
+  platforms: [arcade]
 
 the-incredible-crash-dummies:
   name: The Incredible Crash Dummies

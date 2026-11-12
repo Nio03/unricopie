@@ -1,0 +1,19 @@
+name: "Red Dead Revolver"
+games: [red-dead-revolver]
+console: xbox
+status: playable
+repo: TGP482/RDR-XBERecomp
+originalDeveloper: "Rockstar San Diego"
+year: 2004
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial para PC de la versión de la Xbox original, con opciones gráficas ampliadas, soporte de teclado y ratón y otras mejoras, creado con la herramienta Xbox XBE Recomp. Se colocan los archivos del juego (una ISO o los datos extraídos, de las ediciones de Europa, EE. UU. o Japón) en la carpeta assets y, al ejecutar RDR.exe, el primer arranque compila el código del juego para tu PC, algo que solo ocurre una vez. Los ajustes se cambian en el menú de opciones del juego o en una superposición con F10: monitor, modo de pantalla, cualquier resolución del monitor en lugar de los 640×480 originales, resolución de render del 20 % al 200 %, campo de visión de 45° a 140°, límite de fotogramas o sin límite, V-Sync, salida HDR10, vídeos a pantalla completa o en 4:3, franjas negras opcionales, modo para daltónicos, oclusión ambiental (SSAO o GTAO), MSAA, SMAA, filtrado anisotrópico, reemplazo y volcado de texturas, teclado y ratón con entrada directa, mando con SDL3, apuntado con giroscopio e idioma (inglés, francés, alemán, italiano o español). El repositorio no incluye recursos del juego. La release V2 (un zip de unos 67 MB) es del 11 de noviembre."
+  en: "An unofficial native PC port of the original Xbox version, with extended graphics options, keyboard and mouse support, and other enhancements, created with the Xbox XBE Recomp tool. You place the game files (an ISO or extracted data, from the Europe, USA or Japan releases) in the assets folder and, on running RDR.exe, the first start compiles the game’s code for your PC, which only happens once. Settings are changed in the game’s options menu or in an overlay opened with F10: monitor, display mode, any resolution your monitor reports instead of the original 640×480, render resolution from 20% to 200%, field of view from 45 to 140 degrees, a frame cap or no cap, V-Sync, HDR10 output, full-screen or 4:3 videos, optional letterbox bars, a color-blind mode, ambient occlusion (SSAO or GTAO), MSAA, SMAA, anisotropic filtering, texture replacement and dumping, raw-input keyboard and mouse, SDL3 controllers, gyro aiming, and language (English, French, German, Italian or Spanish). The repository includes no game assets. The V2 release (a zip of about 67 MB) is from November 11."
+requirements:
+  es: "Tu propia copia de Red Dead Revolver para Xbox, edición de Europa, EE. UU. o Japón, como ISO o con los datos extraídos en la carpeta assets (para compilarlo desde el código hacen falta los datos extraídos). Windows 10 de 64 bits con una GPU compatible con Direct3D 12, una CPU de 2 núcleos con SSE4.2 y POPCNT, 4 GB de RAM y 4 GB libres como mínimo."
+  en: "Your own copy of Red Dead Revolver for Xbox, Europe, USA or Japan release, as an ISO or with the extracted data in the assets folder (building from source needs the extracted data). 64-bit Windows 10 with a Direct3D 12 GPU and, at minimum, a 2-core CPU with SSE4.2 and POPCNT, 4 GB of RAM, and 4 GB free."
+tags:
+  - x86
+  - static-recomp
+  - widescreen
+  - 60fps+
