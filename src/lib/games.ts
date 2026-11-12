@@ -5,6 +5,7 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { getCollection } from "astro:content";
 import launchersData from "../data/launchers.json";
+import unricopie from "../data/unricopie.json";
 import { getAllItems, sortItems, type Item } from "./catalog";
 import type { Lang } from "../i18n";
 
@@ -94,11 +95,18 @@ export async function installedBy(toolId: string, lang: Lang): Promise<{ items: 
   return { items: sortItems(items), checkedAt: checkedAt[toolId] };
 }
 
+// Unricopie (la ficha con `ours`) no está en launchers.json: lo que instala sale
+// de src/data/unricopie.json, por id de ficha.
+const ucInstalables = new Set((unricopie as { instalables: string[] }).instalables);
+const fichaId = (i: Item) => `${i.type === "decomp" ? "decomps" : i.type + "s"}/${i.id}`;
+
 /** Launchers de un juego: los que instalan alguno de sus proyectos según su
- *  lista publicada, y los que llevan el juego en su propia ficha. */
+ *  lista publicada, y los que llevan el juego en su propia ficha. Unricopie va primero. */
 export async function launchersFor(gameId: string, items: Item[], lang: Lang): Promise<Item[]> {
   const repos = new Set(items.map((i) => i.repo?.toLowerCase()).filter(Boolean) as string[]);
+  const ucInstala = items.some((i) => !i.takedown && ucInstalables.has(fichaId(i)));
   const ids = await launchers();
   const all = (await getAllItems(lang)).filter((i) => isLauncher(i, ids));
-  return sortItems(all.filter((l) => l.games.includes(gameId) || [...(installs[l.id] ?? [])].some((r) => repos.has(r))));
+  const list = sortItems(all.filter((l) => (l.ours && ucInstala) || l.games.includes(gameId) || [...(installs[l.id] ?? [])].some((r) => repos.has(r))));
+  return [...list.filter((l) => l.ours), ...list.filter((l) => !l.ours)];
 }
