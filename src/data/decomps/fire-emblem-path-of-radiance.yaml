@@ -1,0 +1,11 @@
+name: "Fire Emblem: Path of Radiance"
+games: [fire-emblem-path-of-radiance]
+console: gamecube
+repo: persecom/fepor-decomp
+decomp: persecom/fepor-decomp
+desc:
+  es: "Decompilación en curso de la versión estadounidense de GameCube (GFEE01; SHA-1 del DOL 9d00d7d407750b82cb1cfccc56f8aa8a89cc8851), con decomp-toolkit y objdiff; su avance se mide en ByteMatch. No incluye recursos del juego ni la imagen del disco: hace falta tu propia copia, que se pone en orig/GFEE01 (se trabaja con RVZ). Parte del código está subido tal como lo genera decomp-toolkit, en src/auto. El README dice que se hace con decompdecomp y con análisis de código asistido por IA. Empezó el 5 de noviembre de 2026."
+  en: "A work-in-progress decompilation of the US GameCube version (GFEE01; DOL SHA-1 9d00d7d407750b82cb1cfccc56f8aa8a89cc8851), built with decomp-toolkit and objdiff; its progress is tracked on ByteMatch. It includes neither game assets nor the disc image: you need your own copy, placed in orig/GFEE01 (RVZ is the format used in development). Part of the code is committed as decomp-toolkit generates it, in src/auto. The README says it is made with decompdecomp and AI-assisted code analysis. It started on November 5, 2026."
+tags:
+  - powerpc
+  - ai-assisted
