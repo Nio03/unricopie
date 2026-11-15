@@ -1,0 +1,21 @@
+name: "Sega Rally 2"
+games: [sega-rally-2]
+console: arcade
+status: playable
+repo: snicolast/SegaRally2Native
+originalDeveloper: "Sega AM5"
+year: 1998
+desc:
+  es: "Nico SR2: port nativo para PC del arcade de rally de Sega de 1998, para la placa Sega Model 3. El README dice que no es un emulador: el código original, el PowerPC recompilado a C++ en tu propio PC a partir de tu copia, con un renderizador Vulkan moderno. Ofrece pantalla ancha de verdad con el HUD en las esquinas, trazado de rayos (sombras, iluminación global y reflejos en los coches), polvo y piedras de verdad, NVIDIA DLAA y DLSS o MSAA, 120 o 144 Hz y más, sonido de la recreativa con modos envolvente y de auriculares, teclado, mando o volante (este último sin probar), y 14 logros con estadísticas por circuito. El repositorio trae texturas HD redibujadas para el port (las decoraciones de los coches y el HUD), que reemplazan las del juego. No publica versiones compiladas y su licencia no deja compartirlas: el juego se construye con NicoLauncher, el launcher del autor, o con build.bat, y se actualiza solo. Es del mismo autor que los ports de The Lost World y Star Wars Trilogy. 63 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Nico SR2: a native PC port of Sega's 1998 rally arcade game, for the Sega Model 3 board. The README says it is not an emulator: the original code, PowerPC recompiled to C++ on your own PC from your own copy, with a modern Vulkan renderer. It offers true widescreen with the HUD in the corners, ray tracing (shadows, global illumination and reflections on the cars), real dust and flying stones, NVIDIA DLAA and DLSS or MSAA, 120 or 144 Hz and above, arcade sound with surround and headphone modes, keyboard, gamepad or wheel (the latter untested), and 14 achievements with per-course stats. The repository includes HD textures redrawn for the port (the car liveries and the HUD), which replace the game's. It publishes no compiled builds and its license doesn't allow sharing them: the game is built with NicoLauncher, the author's launcher, or with build.bat, and it updates itself. It comes from the same author as the ports of The Lost World and Star Wars Trilogy. 63 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia del ROM arcade srally2.zip (Sega Model 3 Step 2.0, con archivos como epr-20632.17 y epr-20512.bin, el de la placa de force feedback); otras versiones no funcionan. Además, Windows 10 u 11 de 64 bits y una GPU con Vulkan 1.3; el trazado de rayos pide una NVIDIA RTX o una AMD RX 6000 o posterior, y DLAA y DLSS, una NVIDIA RTX."
+  en: "Your own copy of the arcade ROM srally2.zip (Sega Model 3 Step 2.0, with files such as epr-20632.17 and epr-20512.bin, the force-feedback board's); other versions will not work. Plus 64-bit Windows 10 or 11 and a GPU with Vulkan 1.3; ray tracing needs an NVIDIA RTX or an AMD RX 6000 or newer, and DLAA and DLSS an NVIDIA RTX."
+tags:
+  - powerpc
+  - racing
+  - widescreen
+  - 60fps+
+  - ray-tracing
+  - hd-assets
+  - ai-assisted
