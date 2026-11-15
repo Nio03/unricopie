@@ -885,6 +885,12 @@ castlevania-order-of-ecclesia:
   year: 2008
   platforms: [nds]
 
+castlevania-rondo-of-blood:
+  name: "Castlevania: Rondo of Blood"
+  igdb: 1139
+  year: 1993
+  platforms: [pce]
+
 castlevania-symphony-of-the-night:
   name: "Castlevania: Symphony of the Night"
   igdb: 1128
@@ -2982,6 +2988,12 @@ killer-instinct-2:
   year: 1996
   platforms: [arcade]
 
+killer-instinct-gold:
+  name: Killer Instinct Gold
+  igdb: 10613
+  year: 1996
+  platforms: [n64]
+
 killzone:
   name: Killzone
   igdb: 1865
@@ -4863,6 +4875,12 @@ resident-evil-the-umbrella-chronicles:
   igdb: 975
   year: 2007
   platforms: [wii]
+
+resistance-fall-of-man:
+  name: "Resistance: Fall of Man"
+  igdb: 1278
+  year: 2006
+  platforms: [ps3]
 
 return-to-castle-wolfenstein:
   name: Return to Castle Wolfenstein

@@ -34,6 +34,10 @@ export const CONSOLES = {
   // Master System en América y Europa; en Japón, su gemela Sega Mark III.
   sms: { label: 'Master System / Mark III', tag: 'SMS', full: 'Sega Master System / Mark III', arch: 'Z80', color: '#3A7BD5' },
   gamegear: { label: 'Game Gear', tag: 'GG', full: 'Sega Game Gear', arch: 'Z80', color: '#7E57C2' },
+  // PC Engine en Japón y TurboGrafx-16 en América. Los juegos en HuCard y en CD-ROM² comparten
+  // clave porque la unidad de CD no trae CPU propia (la Mega-CD sí, y por eso va aparte).
+  // Verde lima, un tono que no usa ninguna otra consola.
+  pce: { label: 'PC Engine / TurboGrafx-16', tag: 'PCE', full: 'NEC PC Engine / TurboGrafx-16', arch: 'HuC6280', color: '#84CC16' },
   gb:{ label: 'Game Boy', tag: 'GB', full: 'Game Boy', arch: 'Sharp SM83', color: '#8A9A3B' },
   gbc: { label: 'GBC', tag: 'GBC', full: 'Game Boy Color', arch: 'Sharp SM83', color: '#2E9E78' },
   gba: { label: 'GBA', tag: 'GBA', full: 'Game Boy Advance', arch: 'ARM7', color: '#5B3A9C' },

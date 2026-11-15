@@ -1,0 +1,21 @@
+name: "Resistance: Fall of Man"
+games: [resistance-fall-of-man]
+console: ps3
+status: playable
+repo: miroslavdanutalexandru-alt/Resistance-Fall-of-Man-Recomp
+originalDeveloper: "Insomniac Games"
+year: 2006
+toolchain: ps3recomp
+desc:
+  es: "Port nativo para Windows hecho por recompilación estática: el código PowerPC y SPU del juego se traduce a C/C++ y se compila, con un renderizador propio en Direct3D 12. Ni el repositorio ni el instalador traen archivos del juego ni código traducido: el instalador descifra el programa de tu copia, lo traduce y construye el juego en tu PC. Suma 60 fps o más (de 30 a 165, o sin límite), NVIDIA DLSS y DLAA, AMD FSR 3.1 e Intel XeSS, ratón directo, teclas reasignables, botones de Xbox o PlayStation según el mando, un menú de PC dentro del juego, ultrapanorámico Hor+, campo de visión ajustable y un launcher que elige los ajustes según tu equipo. Usa una copia modificada de ps3recomp, de sp00nznet. Es una beta: la campaña se ha jugado hasta Cheddar Gorge y los niveles siguientes están sin probar. 4 de sus 18 commits llevan a Claude como coautor. La v0.2.3-beta es del 12 de noviembre."
+  en: "A native Windows port made by static recompilation: the game's PowerPC and SPU code is translated to C/C++ and compiled, with its own Direct3D 12 renderer. Neither the repository nor the installer includes game files or translated code: the installer decrypts the program from your copy, translates it, and builds the game on your PC. It adds 60 fps and higher (30 to 165, or unlimited), NVIDIA DLSS and DLAA, AMD FSR 3.1 and Intel XeSS, raw mouse look, rebindable keys, Xbox or PlayStation button prompts to match the controller, an in-game PC menu, Hor+ ultrawide, an adjustable field of view, and a launcher that picks settings for your hardware. It uses a modified copy of sp00nznet's ps3recomp. It's a beta: the campaign has been played up to Cheddar Gorge, and the later levels are untested. 4 of its 18 commits list Claude as a co-author. Version 0.2.3-beta is from November 12."
+requirements:
+  es: "Tu propia copia de Resistance: Fall of Man para PS3, disco de EE. UU. (BCUS98107) en su versión 1.00, como ISO descifrada o como la carpeta con PS3_GAME (la misma que usa RPCS3); otras regiones y las versiones parcheadas aún no funcionan. Windows 10 u 11 de 64 bits, una CPU con AVX2, una GPU con DirectX 12 (DLSS necesita una GeForce RTX), unos 25 GB libres y conexión a internet para la instalación."
+  en: "Your own copy of Resistance: Fall of Man for PS3, the US disc (BCUS98107) at version 1.00, as a decrypted ISO or as the folder containing PS3_GAME (the same kind RPCS3 uses); other regions and patched versions don't work yet. 64-bit Windows 10 or 11, a CPU with AVX2, a DirectX 12 GPU (DLSS needs a GeForce RTX), about 25 GB free, and an internet connection during setup."
+tags:
+  - powerpc
+  - fps
+  - 60fps+
+  - widescreen
+  - static-recomp
+  - ai-assisted

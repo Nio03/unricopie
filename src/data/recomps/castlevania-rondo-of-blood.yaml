@@ -1,0 +1,19 @@
+name: "Castlevania: Rondo of Blood"
+games: [castlevania-rondo-of-blood]
+console: pce
+status: playable
+repo: gminustwo/RondoRecomp
+originalDeveloper: "Konami"
+year: 1993
+desc:
+  es: "RondoRecomp: recompilación estática de Castlevania: Rondo of Blood (Akumajou Dracula X: Chi no Rondo), de PC Engine Super CD-ROM², en un programa nativo para Windows y Linux, también para la Steam Deck. Su instalador recompila a C el código del juego desde tu disco y construye rondo.exe con un compilador Zig que trae consigo; en una partida de 20 000 fotogramas por el nivel 0, el 99,3 % de los ciclos de CPU corren en nativo y el resto pasa por un intérprete del HuC6280. Reimplementa en C las funciones del System Card, así que no hace falta BIOS, y acepta el disco japonés, la traducción de fans al inglés y las versiones de Virtual Console de Wii y Wii U. Suma rebobinado de hasta 30 minutos, estados de guardado, trucos, modos de imagen para 4K, 16:9 y ultrapanorámico, controles modernos y reasignables, los movimientos de Super Castlevania IV (versión propia del hack Super Rondo of Blood de Pizzano), la carrera de Richter de Symphony of the Night, RetroAchievements, modo portable y un actualizador propio. No trae datos del juego: lo que sale de tu disco se queda en tu PC. Sus 47 commits llevan a Claude como coautor. La v1.2 es del 14 de noviembre."
+  en: "RondoRecomp: a static recompilation of Castlevania: Rondo of Blood (Akumajou Dracula X: Chi no Rondo), for the PC Engine Super CD-ROM², into a native program for Windows and Linux, the Steam Deck included. Its setup recompiles the game's code from your disc into C and builds rondo.exe with a bundled Zig compiler; on a 20,000-frame run through Stage 0, 99.3% of CPU cycles run natively and the rest goes through a HuC6280 interpreter. It reimplements the System Card functions in C, so no BIOS is needed, and it accepts the original Japanese disc, the English fan translation, and the Wii and Wii U Virtual Console releases. It adds rewind of up to 30 minutes, save states, cheats, video modes for 4K, 16:9 and ultrawide screens, modern and rebindable controls, Super Castlevania IV moves (its own take on Pizzano's Super Rondo of Blood hack), Richter's run from Symphony of the Night, RetroAchievements, a portable mode, and its own updater. It ships no game data: everything taken from your disc stays on your PC. All 47 of its commits list Claude as a co-author. Version 1.2 is from November 14."
+requirements:
+  es: "Tu propia imagen del disco de PC Engine (un .cue con sus pistas, o un .chd; suelta, en zip o en 7z): el disco japonés original o la traducción de fans al inglés (la de 2012 o la de 2024). También valen el .wad de Wii (EE. UU. o Europa) y el título de Wii U, con la clave de la consola, que no viene con el juego. No sirven Dracula X Chronicles (PSP) ni Castlevania Requiem (PS4). Windows de 64 bits, o Linux x86-64 con glibc 2.35 o posterior."
+  en: "Your own PC Engine disc image (a .cue with its tracks, or a .chd; loose, zipped or in a 7z): the original Japanese disc or the English fan translation (the 2012 or the 2024 version). The Wii .wad (USA or Europe) and the Wii U title also work, with the console key, which the game doesn't include. Dracula X Chronicles (PSP) and Castlevania Requiem (PS4) aren't supported. 64-bit Windows, or x86-64 Linux with glibc 2.35 or newer."
+tags:
+  - platformer
+  - widescreen
+  - static-recomp
+  - custom-toolchain
+  - ai-assisted

@@ -1,0 +1,19 @@
+name: "Killer Instinct Gold"
+games: [killer-instinct-gold]
+console: n64
+status: playable
+repo: geno55/kigold-recomp
+originalDeveloper: "Rare"
+year: 1996
+toolchain: N64Recomp
+desc:
+  es: "Port nativo para Windows hecho por recompilación estática con N64: Recompiled, N64ModernRuntime y el renderizador RT64. Ya funcionan la intro, la pantalla de título, la selección de personaje, los combates completos con gráficos, sonido y mando, y la pantalla de continuar; falta comprobar las partidas guardadas, todos los personajes y escenarios, y compararlo con la consola. La primera vez pide tu ROM (también se puede arrastrar sobre kig.exe). Su menú de ajustes trae trucos (vida infinita para el jugador 1, Gargos jugable y todas las opciones desbloqueadas), y F5 y F7 guardan y cargan un estado rápido pensado para pruebas. En Linux hay que compilarlo. Parte del código viene de Quest64-Recomp y de W.G. 3D Hockey: Recompiled. 42 de sus 43 commits llevan a Claude como coautor. La v0.4.0 es del 14 de noviembre."
+  en: "A native Windows port made by static recompilation with N64: Recompiled, N64ModernRuntime and the RT64 renderer. The intro, title screen, character select, full fights with graphics, sound and controller input, and the Continue screen already work; saving, every character and stage, and a comparison with the console are still to be checked. On first launch it asks for your ROM (you can also drag it onto kig.exe). Its settings menu has cheats (infinite health for player 1, Gargos playable, and all Options tiers unlocked), and F5 and F7 save and load a quick state meant for testing. On Linux it has to be built from source. Some of the code comes from Quest64-Recomp and W.G. 3D Hockey: Recompiled. 42 of its 43 commits list Claude as a co-author. Version 0.4.0 is from November 14."
+requirements:
+  es: "Tu propia ROM de Killer Instinct Gold, cartucho de EE. UU., revisión 2 (v1.2), en .z64, .v64 o .n64, SHA-1 aaeb492b1e538af65a3544a97240675ef438a04f. Windows de 64 bits."
+  en: "Your own Killer Instinct Gold ROM, US cartridge, revision 2 (v1.2), as .z64, .v64 or .n64, SHA-1 aaeb492b1e538af65a3544a97240675ef438a04f. 64-bit Windows."
+tags:
+  - mips
+  - fighting
+  - static-recomp
+  - ai-assisted
