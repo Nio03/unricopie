@@ -1,0 +1,20 @@
+name: "Fear Effect & Fear Effect 2 (Project Helix)"
+games: [fear-effect, fear-effect-2-retro-helix]
+console: ps1
+status: experimental
+repo: iva1nn/project-helix
+originalDeveloper: "Kronos Digital Entertainment"
+year: 2000
+desc:
+  es: "Project Helix: Fear Effect y Fear Effect 2: Retro Helix, de PlayStation, nativos en Windows y en la Steam Deck (SteamOS), sin emulador y remasterizados. El instalador lee el programa de tus discos, lo traduce a C antes de ejecutarlo (recompilación estática) y lo compila junto a un entorno que hace de la consola; el chip gráfico se emula dos veces: una copia exacta por software mantiene correcta la memoria de vídeo, y un renderizador OpenGL redibuja cada fotograma a más resolución. Suma fondos y vídeos remasterizados a 8×, personajes remodelados que no tiemblan, interfaz y letras redibujadas, pantalla ancha, controles relativos a la cámara, mando, movimiento a 60 fps a partir de los 30 del juego, estados de guardado, cargas más rápidas y cambio de disco automático. El repositorio no trae código ni datos del juego, pero para jugar hacen falta los dos packs de recursos remasterizados, sacados del juego, que el autor publica en Google Drive: 15,2 GB el de Fear Effect y 22,6 GB el de Fear Effect 2. De sus 8 commits, 7 llevan a Claude como coautor y 2 al agente de Cursor. La v1.2.0 es del 16 de noviembre."
+  en: "Project Helix: Fear Effect and Fear Effect 2: Retro Helix, for the PlayStation, running natively on Windows and the Steam Deck (SteamOS), with no emulator, remastered. The installer reads the program from your discs, translates it into C ahead of time (static recompilation), and compiles it together with a runtime that stands in for the console; the graphics chip is emulated twice: an exact software copy keeps the video memory correct, and an OpenGL renderer redraws every frame at a higher resolution. It adds 8× remastered backgrounds and cutscenes, remodelled characters that don't wobble, a redrawn interface and fonts, widescreen, camera-relative controls, gamepad support, 60 fps motion from the game's 30, save states, faster loading, and automatic disc changes. The repository holds no game code or data, but playing requires the two remastered asset packs, derived from the game, that the author publishes on Google Drive: 15.2 GB for Fear Effect and 22.6 GB for Fear Effect 2. Of its 8 commits, 7 list Claude as a co-author and 2 the Cursor agent. Version 1.2.0 is from November 16."
+requirements:
+  es: "Tus propios discos de PlayStation, edición de EE. UU.: los cuatro de Fear Effect (SLUS-00920, SLUS-01056, SLUS-01057 y SLUS-01058) y los cuatro de Fear Effect 2: Retro Helix en su versión 1.1 (SLUS-01266, SLUS-01275, SLUS-01276 y SLUS-01277), como BIN/CUE o .bin/.img de 2352 bytes por sector; una .iso de 2048 bytes no sirve, y las .chd, .pbp y .ecm hay que pasarlas antes a BIN/CUE. Además, el pack de recursos de cada juego (15,2 y 22,6 GB, en Google Drive). Windows 10 u 11 de 64 bits con una GPU con OpenGL 3.3, o una Steam Deck con SteamOS 3, e internet una vez para bajar las herramientas de compilación."
+  en: "Your own PlayStation discs, US release: all four of Fear Effect (SLUS-00920, SLUS-01056, SLUS-01057 and SLUS-01058) and all four of Fear Effect 2: Retro Helix at version 1.1 (SLUS-01266, SLUS-01275, SLUS-01276 and SLUS-01277), as BIN/CUE or 2352-byte-sector .bin/.img; a 2048-byte .iso won't work, and .chd, .pbp and .ecm images must be converted to BIN/CUE first. Plus each game's asset pack (15.2 and 22.6 GB, on Google Drive). 64-bit Windows 10 or 11 with an OpenGL 3.3 GPU, or a Steam Deck on SteamOS 3, and internet once to download the build tools."
+tags:
+  - mips
+  - widescreen
+  - 60fps+
+  - hd-assets
+  - static-recomp
+  - ai-assisted
