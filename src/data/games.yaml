@@ -1508,6 +1508,12 @@ disneys-piglets-big-game:
   year: 2003
   platforms: [gamecube]
 
+doc-louiss-punch-out:
+  name: "Doc Louis's Punch-Out!!"
+  igdb: 9153
+  year: 2009
+  platforms: [wii]
+
 dodonpachi-saidaioujou:
   name: DoDonPachi SaiDaiOuJou
   igdb: 1673
@@ -2335,6 +2341,12 @@ god-of-war-ascension:
   igdb: 1291
   year: 2013
   platforms: [ps3]
+
+god-of-war-betrayal:
+  name: "God of War: Betrayal"
+  igdb: 21233
+  year: 2007
+  platforms: [mobile]
 
 god-of-war-chains-of-olympus:
   name: "God of War: Chains of Olympus"
@@ -3289,6 +3301,18 @@ mario-kart-64:
   igdb: 2342
   year: 1996
   platforms: [n64]
+
+mario-kart-arcade-gp:
+  name: Mario Kart Arcade GP
+  igdb: 45160
+  year: 2005
+  platforms: [gamecube]
+
+mario-kart-arcade-gp-2:
+  name: Mario Kart Arcade GP 2
+  igdb: 39342
+  year: 2007
+  platforms: [gamecube]
 
 mario-kart-double-dash:
   name: "Mario Kart: Double Dash!!"
@@ -4647,6 +4671,12 @@ prototype-2:
   igdb: 2988
   year: 2012
   platforms: [ps4]
+
+punch-out-2009:
+  name: "Punch-Out!! (2009)"
+  igdb: 2194
+  year: 2009
+  platforms: [wii]
 
 quake:
   name: Quake
@@ -7078,6 +7108,12 @@ turok-2-seeds-of-evil:
   year: 1998
   platforms: [n64]
 
+turok-evolution:
+  name: "Turok: Evolution"
+  igdb: 1329
+  year: 2002
+  platforms: [xbox]
+
 turok-rage-wars:
   name: "Turok: Rage Wars"
   igdb: 1327
@@ -7763,6 +7799,12 @@ zelda-the-wand-of-gamelon:
   name: "Zelda: The Wand of Gamelon"
   igdb: 8533
   year: 1993
+  platforms: [other]
+
+zeldas-adventure:
+  name: "Zelda's Adventure"
+  igdb: 8534
+  year: 1996
   platforms: [other]
 
 zero-racers:

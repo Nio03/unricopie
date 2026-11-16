@@ -1,0 +1,20 @@
+name: "God of War: Betrayal Remastered"
+games: [god-of-war-betrayal]
+category: decomp-port
+console: mobile
+status: fully
+repo: samioan/gow-betrayal-remastered
+originalDeveloper: "Javaground"
+year: 2007
+desc:
+  es: "Port nativo para Windows de God of War: Betrayal, el God of War de desplazamiento lateral que salió en 2007 para teléfonos con Java ME. Se reconstruye a partir del propio código del juego decompilado, sin emulador, y suma pantalla ancha, más fotogramas por segundo y mando. El repositorio sube el código decompilado (la salida de Vineflower), su versión con nombres y la traducción a C++; los recursos se leen de tu .jar, que no viene incluido. Está terminado: la 1.0.0 se jugó de principio a fin, y el launcher se actualiza solo con lo que vaya saliendo. Sus 22 commits llevan a Claude como coautor. La v1.0.1 es del 12 de noviembre."
+  en: "A native Windows port of God of War: Betrayal, the side-scrolling God of War released in 2007 for Java ME phones. It's rebuilt from the game's own decompiled code, not emulated, and adds widescreen, higher frame rates and controller support. The repository commits the decompiled code (Vineflower's output), its renamed version and the C++ translation; the assets are read from your .jar, which isn't included. It's finished: version 1.0.0 was played from start to finish, and the launcher updates itself with anything new. All 22 of its commits list Claude as a co-author. Version 1.0.1 is from November 12."
+requirements:
+  es: "Tu propia copia del .jar de la versión del Sony Ericsson K800i (240x320, MIDlet 1.4.20, God-of-War-Betrayal_K800i_v1420.jar); otras versiones no sirven. Windows de 64 bits."
+  en: "Your own copy of the .jar of the Sony Ericsson K800i build (240x320, MIDlet 1.4.20, God-of-War-Betrayal_K800i_v1420.jar); other versions won't work. 64-bit Windows."
+tags:
+  - action
+  - widescreen
+  - 60fps+
+  - decomp
+  - ai-assisted

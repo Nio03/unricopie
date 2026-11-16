@@ -1,0 +1,19 @@
+name: "Turok: Evolution"
+games: [turok-evolution]
+console: xbox
+status: experimental
+repo: MarkPremier/EvolutionRecomp
+originalDeveloper: "Acclaim Studios Austin"
+year: 2002
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense de Xbox de Turok: Evolution en un programa nativo para Windows, con xboxrecomp, de sp00nznet: el código x86 del juego se traduce a C y se compila en un .exe, y el entorno de xboxrecomp hace del núcleo de la Xbox, de su GPU (NV2A) y de su audio (MCPX APU). El repositorio no trae código ni datos del juego: el C se genera desde tu disco al compilar, con un parche del autor que corrige tres fallos del kit que este juego destapa. Las releases son betas ya compiladas (un zip de unos 7 MB con turok_evolution.exe); la última, la v0.7.27-beta, es del 16 de noviembre. Uno de sus dos commits lleva a Claude como coautor."
+  en: "A static recompilation of the US Xbox version of Turok: Evolution into a native Windows program, with sp00nznet's xboxrecomp: the game's x86 code is translated to C and compiled into an .exe, and the xboxrecomp runtime stands in for the Xbox kernel, its GPU (NV2A) and its audio (MCPX APU). The repository holds no game code or data: the C is generated from your disc when building, with the author's patch fixing three toolkit bugs this game hits. The releases are prebuilt betas (a zip of about 7 MB with turok_evolution.exe); the latest, v0.7.27-beta, is from November 16. One of its two commits lists Claude as a co-author."
+requirements:
+  es: "Tu propia imagen del disco de Turok: Evolution para Xbox, edición de EE. UU., en formato XISO, extraída con xdvdfs o extract-xiso. Windows 10 u 11; para compilarlo, Visual Studio 2022 con CMake y Python 3.10 o posterior con capstone."
+  en: "Your own disc image of Turok: Evolution for Xbox, US release, in XISO format, extracted with xdvdfs or extract-xiso. Windows 10 or 11; to build it, Visual Studio 2022 with CMake and Python 3.10 or later with capstone."
+tags:
+  - x86
+  - fps
+  - static-recomp
+  - ai-assisted

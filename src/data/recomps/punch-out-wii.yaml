@@ -1,0 +1,21 @@
+name: "Punch-Out!! (Wii)"
+games: [punch-out-2009, doc-louiss-punch-out]
+console: wii
+status: playable
+repoUrl: https://gitlab.com/fist-in/POW-Recompiled
+author: fist-in
+originalDeveloper: "Next Level Games"
+year: 2009
+toolchain: Wiicompiled
+desc:
+  es: "POW: Recompiled!!: port para PC de Punch-Out!! (Wii, 2009) y de Doc Louis's Punch-Out!! (WiiWare, 2009), hecho por recompilación estática con WiiCompiled, para Windows, Linux y Steam Deck. Su launcher construye el port en tu PC a partir de tu copia: ni el repositorio ni las descargas traen nada del juego. Suma cualquier resolución de render, 16:9 o 4:3, mando o teclado con botones reasignables y avisos de Xbox o PlayStation, los modos de dificultad Hard e Insane, Doc Louis's Punch-Out!! entero a 60 fps estables, y Archipelago (multiworld) integrado en Punch-Out!!. Hasta la 0.3.1 se llamaba Re-Punched!!. El README declara que está «100% coded with AI», con muchas pruebas de su autor. Está en GitLab; la v0.3.1 es del 7 de noviembre."
+  en: "POW: Recompiled!!: a PC port of Punch-Out!! (Wii, 2009) and Doc Louis's Punch-Out!! (WiiWare, 2009), made by static recompilation with WiiCompiled, for Windows, Linux and the Steam Deck. Its launcher builds the port on your PC from your own copy: neither the repository nor the downloads include anything from the game. It adds any render resolution, 16:9 or 4:3, controller or keyboard with remappable buttons and Xbox or PlayStation prompts, the Hard and Insane difficulty modes, all of Doc Louis's Punch-Out!! at a steady 60 fps, and built-in Archipelago (multiworld) for Punch-Out!!. It was called Re-Punched!! until 0.3.1. The README states it's “100% coded with AI”, with extensive testing by its author. It's on GitLab; version 0.3.1 is from November 7."
+requirements:
+  es: "Tu propia imagen del disco de Punch-Out!! de EE. UU., sin parchear (ISO, WBFS o RVZ), y unos 10 GB libres para construirlo (más en Windows, donde también se baja el compilador). Para Doc Louis's Punch-Out!!, tu copia de EE. UU. (WPCE01) instalada en Dolphin y otro tanto de espacio. Windows 10 u 11, Linux o SteamOS de 64 bits."
+  en: "Your own clean (unpatched) Punch-Out!! (USA) disc image (ISO, WBFS or RVZ), and about 10 GB free for the build (more on Windows, where the compiler is downloaded too). For Doc Louis's Punch-Out!!, your copy (USA, WPCE01) installed in Dolphin, and about as much space again. 64-bit Windows 10 or 11, Linux, or SteamOS."
+tags:
+  - powerpc
+  - sports
+  - widescreen
+  - static-recomp
+  - ai-assisted

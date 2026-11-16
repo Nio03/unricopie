@@ -1,0 +1,22 @@
+name: "Conker: Live & Reloaded (Mabec-games)"
+games: [conker-live-and-reloaded]
+console: xbox
+status: playable
+repo: Mabec-games/Conker-Recomped-and-Reloaded
+originalDeveloper: Rare
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Conker: Recomped & Reloaded: un launcher y una versión modificada de Live & Recompiled, el port nativo de giacomozama y TGP482 hecho con Xbox XBE Recomp (distinto del Conker: Live & Recompiled de cdetv, que usa xboxrecomp). La primera vez eliges tu imagen del disco, y el launcher la extrae y compila el juego en tu PC en unos minutos, con el compilador incluido y sin conexión. Todos los ajustes están en el launcher: gráficos, mejoras, audio, controles, juego en línea y mods. Suma juego en línea con códigos de sala, pantalla ancha nativa a cualquier proporción (hasta 32:9), resolución interna del 25 al 400 %, 30, 60, 120, 180 o 240 fps (o la lógica a 30 con fotogramas intermedios), MSAA hasta 8×, SMAA, filtrado anisotrópico y oclusión ambiental, y menús y subtítulos en seis idiomas. Todo queda en una sola carpeta junto al launcher. Para Windows y Linux (AppImage). 27 de sus 30 commits llevan a Claude como coautor. La v1.4.3 es del 16 de noviembre."
+  en: "Conker: Recomped & Reloaded: a launcher and a modified build of Live & Recompiled, the native port by giacomozama and TGP482 made with Xbox XBE Recomp (not the same as cdetv's Conker: Live & Recompiled, which uses xboxrecomp). On first run you choose your disc image, and the launcher extracts it and compiles the game on your PC in a few minutes, with the compiler included and offline. Every setting lives in the launcher: graphics, enhancements, audio, controls, online and mods. It adds online play with room codes, native widescreen at any aspect ratio (up to 32:9), internal rendering from 25% to 400%, 30, 60, 120, 180 or 240 fps (or game logic at 30 with in-between frames), MSAA up to 8×, SMAA, anisotropic filtering and ambient occlusion, and menus and subtitles in six languages. Everything stays in one folder next to the launcher. For Windows and Linux (AppImage). 27 of its 30 commits list Claude as a co-author. Version 1.4.3 is from November 16."
+requirements:
+  es: "Tu propia imagen .iso de Conker: Live & Reloaded para la Xbox original, edición de EE. UU. o de Europa; el launcher comprueba el SHA-1 de su default.xbe (2232a1b3874d67b4bb4cf53a940420d2dab59535 la de EE. UU., 68a37f0d03d73dabc86a848df5ec1820dd551254 la europea). Windows o Linux de 64 bits."
+  en: "Your own .iso of Conker: Live & Reloaded for the original Xbox, USA or Europe release; the launcher checks its default.xbe's SHA-1 (2232a1b3874d67b4bb4cf53a940420d2dab59535 for the USA, 68a37f0d03d73dabc86a848df5ec1820dd551254 for Europe). 64-bit Windows or Linux."
+tags:
+  - x86
+  - widescreen
+  - 60fps+
+  - online
+  - mods
+  - static-recomp
+  - ai-assisted

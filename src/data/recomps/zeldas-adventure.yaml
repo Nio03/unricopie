@@ -1,0 +1,18 @@
+name: "Zelda's Adventure"
+games: [zeldas-adventure]
+console: other
+status: experimental
+repo: tools81/zelda-adventures-static-recomp
+originalDeveloper: "Viridis"
+year: 1996
+desc:
+  es: "Port nativo y no oficial para Windows de Zelda's Adventure de Philips CD-i, en su edición europea (PAL), hecho por recompilación estática: el código 68000 del juego se traduce a C antes de ejecutarse, y un entorno propio hace de las partes del CD-i que el código espera: el núcleo CD-RTOS (OS-9), el gestor de archivos del CD, el decodificador de vídeo (con salida en Direct3D 11 a cualquier resolución) y el procesador de audio ADPCM. Sale de la plantilla de recompilación de CD-i que el mismo autor sacó del port de Link: The Faces of Evil, y este juego necesitó bastante más del sistema operativo. La 1.0.0 (28 de octubre) trae un zip portátil y un instalador, que buscan tu imagen del disco; no la incluyen. Su único commit lleva a Claude como coautor."
+  en: "An unofficial native Windows port of Zelda's Adventure for the Philips CD-i, its European (PAL) release, made by static recompilation: the game's 68000 code is translated ahead of time into C, and its own runtime provides the parts of the CD-i the code expects: the CD-RTOS (OS-9) kernel, the CD file manager, the video decoder (with Direct3D 11 output at any resolution), and the ADPCM audio processor. It comes from the CD-i recompilation template the same author drew from the Link: The Faces of Evil port, and this game needed a good deal more of the operating system. Version 1.0.0 (October 28) comes as a portable zip and an installer, which look for your disc image; they don't include it. Its single commit lists Claude as a co-author."
+requirements:
+  es: "Tu propia imagen del disco de Zelda's Adventure, edición europea (PAL), como .bin y .cue. Windows 10 o posterior; para compilarlo, Visual Studio 2022, CMake 3.19 o posterior y Python."
+  en: "Your own image of the Zelda's Adventure disc, European (PAL) release, as a .bin and .cue. Windows 10 or later; to build it, Visual Studio 2022, CMake 3.19 or later, and Python."
+tags:
+  - "68000"
+  - widescreen
+  - static-recomp
+  - ai-assisted

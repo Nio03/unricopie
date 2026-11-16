@@ -1,0 +1,20 @@
+name: "Mario Kart Arcade GP & GP 2 (OpenGP)"
+games: [mario-kart-arcade-gp, mario-kart-arcade-gp-2]
+console: gamecube
+status: playable
+repo: OpenGP-dev/OpenGP
+originalDeveloper: "Namco"
+year: 2005
+desc:
+  es: "OpenGP: port nativo para Windows, Linux y macOS (Apple Silicon) de Mario Kart Arcade GP y Mario Kart Arcade GP 2, las recreativas de Namco de 2005 y 2007 para la placa Triforce, hermana de la GameCube. Es una recompilación estática: un recompilador propio, gekkorecomp, traduce a C++ el código PowerPC (Gekko) del main.dol, que se compila junto a un entorno que hace de la Triforce (la GPU de la GameCube, el DSP de audio, la AM-Baseboard y la AM-Mediaboard), con más resolución, pantalla ancha y controles reasignables, también con volantes con force feedback. Su launcher construye los juegos en tu PC a partir de tus imágenes de disco: ni el repositorio ni las descargas traen nada del juego, tampoco el código que sale del recompilador. Parte del entorno viene de Dolphin, igual que las fuentes libres con que sustituye las de la consola. El README declara que se hace con IA: Claude escribe la mayor parte del código y el autor decide qué se hace y prueba los resultados; 75 de sus últimos 100 commits llevan a Claude como coautor. La v1.0.4 es del 12 de noviembre."
+  en: "OpenGP: a native port for Windows, Linux and macOS (Apple Silicon) of Mario Kart Arcade GP and Mario Kart Arcade GP 2, Namco's 2005 and 2007 arcade games for the Triforce board, the GameCube's sibling. It's a static recompilation: its own recompiler, gekkorecomp, translates the PowerPC (Gekko) code of the main.dol into C++, compiled together with a runtime that stands in for the Triforce (the GameCube GPU, the audio DSP, the AM-Baseboard and the AM-Mediaboard), with higher resolutions, widescreen and remappable controls, wheels with force feedback included. Its launcher builds the games on your PC from your own disc images: neither the repository nor the downloads include anything from the game, not even the recompiler's output. Part of the runtime comes from Dolphin, as do the free fonts it uses in place of the console's. The README states it's made with AI: Claude writes most of the code, and the maintainer decides what gets built and plays the results; 75 of its last 100 commits list Claude as a co-author. Version 1.0.4 is from November 12."
+requirements:
+  es: "Tus propias imágenes de disco de Mario Kart Arcade GP (EE. UU., GGPE01) o de Mario Kart Arcade GP 2 (EE. UU., GGPE02), en .iso o .gcm; las comprimidas (.rvz, .gcz, .wia, .ciso) hay que convertirlas antes con Dolphin. El SHA-1 del main.dol de cada una está en docs/game-files.md. Windows, Linux o macOS con Apple Silicon."
+  en: "Your own disc images of Mario Kart Arcade GP (USA, GGPE01) or Mario Kart Arcade GP 2 (USA, GGPE02), as .iso or .gcm; compressed ones (.rvz, .gcz, .wia, .ciso) must be converted first with Dolphin. Each main.dol's SHA-1 is in docs/game-files.md. Windows, Linux, or macOS on Apple Silicon."
+tags:
+  - powerpc
+  - racing
+  - widescreen
+  - static-recomp
+  - custom-toolchain
+  - ai-assisted
