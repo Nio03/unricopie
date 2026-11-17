@@ -1,0 +1,21 @@
+name: "Shadow the Hedgehog"
+games: [shadow-the-hedgehog]
+console: xbox
+status: playable
+repo: FoxWorkshop/ShadowRecomp
+originalDeveloper: "Sega Studio USA"
+year: 2005
+toolchain: XboxRecomp2
+desc:
+  es: "Port nativo no oficial para Windows y Linux de la versión de Xbox de Shadow the Hedgehog, hecho por recompilación estática con XboxRecomp2, el recompilador de Sewer56. Un instalador integrado extrae y comprueba los archivos de tu copia, y el default.xbe se traduce a C++ al compilar. Suma pantalla panorámica y ultraancha, altas frecuencias de imagen, un menú de opciones nuevo, logros, soporte de mods compatible con SA Mod Manager y arreglos como los del bloom, la gravedad de los Space Gadgets o los efectos de sonido que faltan. El repositorio trae los shaders del juego ya traducidos (una caché de DXIL comprimido, como la de Unleashed Recompiled) y los recursos propios del proyecto, como los iconos y los sonidos de sus menús, en un submódulo aparte. Su README lista los problemas conocidos. La v1.0.0 es del 15 de noviembre."
+  en: "An unofficial native PC port of the Xbox version of Shadow the Hedgehog for Windows and Linux, made by static recompilation with Sewer56’s XboxRecomp2. A built-in installer extracts and checks the files from your copy, and default.xbe is translated to C++ at build time. It adds widescreen and ultrawide support, high frame rates, a new options menu, achievements, mod support compatible with SA Mod Manager, and fixes such as the bloom, the Space Gadget gravity system and missing sound effects. The repository carries the game’s shaders already translated (a compressed DXIL cache, like Unleashed Recompiled’s) and the project’s own resources, such as the icons and sounds of its menus, in a separate submodule. Its README lists the known issues. Version 1.0.0 is from November 15."
+requirements:
+  es: "Tu propia copia del Shadow the Hedgehog de Xbox, como imagen de disco o carpeta extraída; no valen las de GameCube ni PlayStation 2. Windows 10 (1909 o posterior) o un Linux moderno, un procesador de la generación de Sandy Bridge (2011) o posterior, una tarjeta gráfica con Direct3D 12.0 (Shader Model 6) o Vulkan 1.2, y 2,4 GiB de espacio."
+  en: "Your own copy of the Xbox version of Shadow the Hedgehog, as a disc image or an extracted folder; the GameCube and PlayStation 2 versions don’t work. Windows 10 (1909 or later) or a modern Linux, a Sandy Bridge (2011)-class or newer CPU, a graphics card with Direct3D 12.0 (Shader Model 6) or Vulkan 1.2, and 2.4 GiB of space."
+tags:
+  - x86
+  - action
+  - widescreen
+  - 60fps+
+  - mods
+  - static-recomp

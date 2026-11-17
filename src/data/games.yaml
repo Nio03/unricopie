@@ -219,6 +219,12 @@ alien-resurrection:
   year: 2000
   platforms: [ps1]
 
+alien-vs-predator-arcade:
+  name: Alien vs. Predator (arcade)
+  igdb: 13679
+  year: 1994
+  platforms: [arcade]
+
 aliens-versus-predator:
   name: Aliens versus Predator
   igdb: 9979
@@ -795,6 +801,12 @@ c-dogs:
   year: 1997
   platforms: [dos]
 
+cadillacs-and-dinosaurs:
+  name: Cadillacs and Dinosaurs
+  igdb: 5368
+  year: 1993
+  platforms: [arcade]
+
 caesar-iii:
   name: Caesar III
   igdb: 6332
@@ -1233,6 +1245,12 @@ cyber-sled:
   year: 1993
   platforms: [arcade]
 
+cyberbots-fullmetal-madness:
+  name: "Cyberbots: Fullmetal Madness"
+  igdb: 43820
+  year: 1995
+  platforms: [arcade]
+
 d:
   name: D
   igdb: 4319
@@ -1262,6 +1280,12 @@ dark-cloud-2:
   igdb: 1215
   year: 2002
   platforms: [ps2]
+
+darkstalkers-the-night-warriors:
+  name: "Darkstalkers: The Night Warriors"
+  igdb: 20009
+  year: 1994
+  platforms: [arcade]
 
 darkwatch:
   name: Darkwatch
@@ -1472,6 +1496,12 @@ digimon-world-2003:
   igdb: 19678
   year: 2002
   platforms: [ps1]
+
+dimahoo:
+  name: Dimahoo
+  igdb: 38527
+  year: 2000
+  platforms: [arcade]
 
 dino-crisis:
   name: Dino Crisis
@@ -2162,6 +2192,12 @@ final-fantasy-viii:
   year: 1999
   platforms: [ps1]
 
+final-fight:
+  name: Final Fight
+  igdb: 1655
+  year: 1989
+  platforms: [arcade]
+
 fire-emblem-path-of-radiance:
   name: "Fire Emblem: Path of Radiance"
   igdb: 1441
@@ -2329,6 +2365,18 @@ gex-enter-the-gecko:
   igdb: 3506
   year: 1998
   platforms: [n64]
+
+ghouls-n-ghosts:
+  name: "Ghouls'n Ghosts"
+  igdb: 6817
+  year: 1988
+  platforms: [arcade]
+
+giga-wing:
+  name: Giga Wing
+  igdb: 9162
+  year: 1999
+  platforms: [arcade]
 
 gish:
   name: Gish
@@ -2766,6 +2814,12 @@ hydro-thunder-hurricane:
   igdb: 3704
   year: 2010
   platforms: [x360]
+
+hyper-street-fighter-ii:
+  name: Hyper Street Fighter II
+  igdb: 45198
+  year: 2003
+  platforms: [arcade]
 
 hyrule-warriors-definitive-edition:
   name: "Hyrule Warriors: Definitive Edition"
@@ -3444,6 +3498,18 @@ marvel-nemesis-rise-of-the-imperfects:
   igdb: 3992
   year: 2005
   platforms: [xbox]
+
+marvel-super-heroes:
+  name: Marvel Super Heroes
+  igdb: 27890
+  year: 1995
+  platforms: [arcade]
+
+marvel-super-heroes-vs-street-fighter:
+  name: Marvel Super Heroes vs. Street Fighter
+  igdb: 8245
+  year: 1997
+  platforms: [arcade]
 
 marvel-ultimate-alliance:
   name: Marvel Ultimate Alliance
@@ -4204,6 +4270,12 @@ nhl-legacy-edition:
   year: 2015
   platforms: [x360]
 
+night-warriors-darkstalkers-revenge:
+  name: "Night Warriors: Darkstalkers' Revenge"
+  igdb: 20010
+  year: 1995
+  platforms: [arcade]
+
 ninja-gaiden-black:
   name: Ninja Gaiden Black
   igdb: 18735
@@ -4677,6 +4749,12 @@ prince-of-persia-the-sands-of-time:
   igdb: 836
   year: 2003
   platforms: [xbox]
+
+progear:
+  name: Progear
+  igdb: 39394
+  year: 2001
+  platforms: [arcade]
 
 project-gotham-racing:
   name: Project Gotham Racing
@@ -5247,6 +5325,12 @@ shadow-of-the-colossus-2005:
   igdb: 2207
   year: 2005
   platforms: [ps2]
+
+shadow-the-hedgehog:
+  name: Shadow the Hedgehog
+  igdb: 4105
+  year: 2005
+  platforms: [xbox]
 
 shadow-tower:
   name: Shadow Tower
@@ -5972,6 +6056,18 @@ starlancer:
   year: 2000
   platforms: [pc]
 
+street-fighter-alpha:
+  name: Street Fighter Alpha
+  igdb: 6702
+  year: 1995
+  platforms: [arcade]
+
+street-fighter-alpha-2:
+  name: Street Fighter Alpha 2
+  igdb: 6703
+  year: 1996
+  platforms: [arcade]
+
 street-fighter-alpha-3:
   name: Street Fighter Alpha 3
   igdb: 242651
@@ -5995,6 +6091,24 @@ street-fighter-ex2-plus:
   igdb: 44965
   year: 1999
   platforms: [ps1]
+
+street-fighter-ii:
+  name: "Street Fighter II: The World Warrior"
+  igdb: 3186
+  year: 1991
+  platforms: [arcade]
+
+street-fighter-ii-champion-edition:
+  name: "Street Fighter II: Champion Edition"
+  igdb: 39496
+  year: 1992
+  platforms: [arcade]
+
+street-fighter-ii-turbo-hyper-fighting:
+  name: "Street Fighter II: Hyper Fighting"
+  igdb: 20878
+  year: 1992
+  platforms: [arcade]
 
 street-fighter-iii-3rd-strike:
   name: "Street Fighter III: 3rd Strike"
@@ -6103,6 +6217,12 @@ super-bomberman-5:
   igdb: 38387
   year: 1997
   platforms: [snes]
+
+super-gem-fighter-mini-mix:
+  name: Super Gem Fighter Mini Mix
+  igdb: 39314
+  year: 1997
+  platforms: [arcade]
 
 super-hang-on:
   name: Super Hang-On
@@ -6260,6 +6380,12 @@ super-punch-out:
   year: 1994
   platforms: [snes]
 
+super-puzzle-fighter-ii-turbo:
+  name: Super Puzzle Fighter II Turbo
+  igdb: 20803
+  year: 1996
+  platforms: [arcade]
+
 super-robot-wars-64:
   name: Super Robot Wars 64
   igdb: 44056
@@ -6295,6 +6421,12 @@ super-smash-bros-ultimate:
   igdb: 90101
   year: 2018
   platforms: [switch]
+
+super-street-fighter-ii:
+  name: Super Street Fighter II
+  igdb: 12860
+  year: 1993
+  platforms: [arcade]
 
 super-street-fighter-ii-turbo-hd-remix:
   name: Super Street Fighter II Turbo HD Remix
@@ -6723,6 +6855,12 @@ the-order-1886:
   igdb: 3048
   year: 2015
   platforms: [ps4]
+
+the-punisher-1993:
+  name: The Punisher (1993)
+  igdb: 19768
+  year: 1993
+  platforms: [arcade]
 
 the-settlers:
   name: The Settlers
@@ -7353,6 +7491,18 @@ valkyrie-profile:
   year: 1999
   platforms: [ps1]
 
+vampire-hunter-2:
+  name: Vampire Hunter 2
+  igdb: 39697
+  year: 1997
+  platforms: [arcade]
+
+vampire-savior-2:
+  name: Vampire Savior 2
+  igdb: 39696
+  year: 1997
+  platforms: [arcade]
+
 vampire-savior-the-lord-of-vampire:
   name: "Vampire Savior: The Lord of Vampire"
   igdb: 206672
@@ -7741,11 +7891,23 @@ x-men-2-clone-wars:
   year: 1995
   platforms: [megadrive]
 
+x-men-children-of-the-atom:
+  name: "X-Men: Children of the Atom"
+  igdb: 39295
+  year: 1994
+  platforms: [arcade]
+
 x-men-destiny:
   name: "X-Men: Destiny"
   igdb: 5302
   year: 2011
   platforms: [x360]
+
+x-men-vs-street-fighter:
+  name: X-Men vs. Street Fighter
+  igdb: 8244
+  year: 1996
+  platforms: [arcade]
 
 xenoblade-chronicles:
   name: Xenoblade Chronicles
