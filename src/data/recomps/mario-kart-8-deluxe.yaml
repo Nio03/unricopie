@@ -1,0 +1,21 @@
+name: "Mario Kart 8 Deluxe"
+games: [mario-kart-8-deluxe]
+console: switch
+status: experimental
+repo: galarianpikachu2021-hue/Racing-8-DX-Recomp
+originalDeveloper: "Nintendo EPD"
+year: 2017
+desc:
+  es: "Racing 8 DX Recomp: recompilación estática de la versión de Switch de Mario Kart 8 Deluxe para PC, sin JIT. Un lanzador en Qt traduce el código AArch64 del juego a C en tu equipo y lo compila; el motor se apoya en un fork del emulador suyu con parches que lo dejan sin JIT, y un renderizador propio traduce las llamadas gráficas del juego directamente a Vulkan. Corre a 60 fps con pantalla partida de hasta 4 jugadores, salida de 720p a 4K con escala de render del 33 al 200 %, FSR 3.1 con generación de fotogramas, DLSS (experimental), HDR10, DLC y mods de archivos del juego, y convierte los circuitos de CTGP Deluxe de tu propio paquete. El juego en línea no funciona. Su autor avisa de que es una beta: en AMD está probado a diario, y DLSS y FSR 4 no se han probado en hardware real. Solo vale la actualización 3.0.4 o la 4.0.1. Las versiones traen el motor, el lanzador y los complementos de AMD sin modificar, y no código ni archivos del juego; el repositorio sube listas de nombres de bloques y de hashes de archivos, no contenido. La BETA-0.2.5 (16 de noviembre) es solo para Linux; la última con Windows es la v0.2.4 (12 de noviembre). 96 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Racing 8 DX Recomp: a static recompilation of the Switch version of Mario Kart 8 Deluxe for PC, with no JIT. A Qt launcher translates the game’s AArch64 code to C on your machine and compiles it; the engine builds on a fork of the suyu emulator with patches that remove the JIT, and its own renderer translates the game’s graphics calls straight to Vulkan. It runs at 60 fps with up to 4-player split-screen, 720p to 4K output with render scale from 33 to 200%, FSR 3.1 with frame generation, DLSS (experimental), HDR10, DLC and game-file mods, and converts CTGP Deluxe tracks from your own pack. Online play doesn’t work. Its author calls it a beta: it is tested daily on AMD, and DLSS and FSR 4 haven’t been tried on real hardware. Only update 3.0.4 or 4.0.1 works. The releases carry the engine, the launcher and AMD’s unmodified plugins, and no game code or files; the repository uploads lists of block names and file hashes, not content. BETA-0.2.5 (November 16) is Linux only; the latest with Windows is v0.2.4 (November 12). 96 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio Mario Kart 8 Deluxe para Switch: el NSP del juego base, la actualización 3.0.4 (o la 4.0.1) en NSP y el DLC si lo quieres, con las prod.keys y el firmware de tu propia consola (las notas de la BETA-0.2.5 dicen que también se puede jugar solo con un volcado descifrado, sin Miis). Windows 10 u 11 de 64 bits o Linux con glibc 2.35 o posterior (AppImage), una GPU con Vulkan y unos 5 minutos de compilación en un equipo de 8 hilos."
+  en: "Your own Mario Kart 8 Deluxe for Switch: the base game NSP, the 3.0.4 (or 4.0.1) update as an NSP, and DLC if you want it, with the prod.keys and firmware from your own console (the BETA-0.2.5 notes say a decrypted dump alone also works, without Miis). 64-bit Windows 10 or 11, or Linux with glibc 2.35 or newer (AppImage), a Vulkan GPU, and about 5 minutes of compile time on an 8-thread PC."
+tags:
+  - arm64
+  - racing
+  - vulkan
+  - widescreen
+  - 60fps+
+  - mods
+  - ai-assisted

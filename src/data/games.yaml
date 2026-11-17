@@ -375,6 +375,12 @@ astral-chain:
   year: 2019
   platforms: [switch]
 
+astro-bot:
+  name: Astro Bot
+  igdb: 303811
+  year: 2024
+  platforms: [ps5]
+
 asuka-120-final-burning-fest-final:
   name: "Asuka 120% Final: Burning Fest. Final"
   igdb: 77780
@@ -859,7 +865,7 @@ castlevania-curse-of-darkness:
   name: "Castlevania: Curse of Darkness"
   igdb: 1137
   year: 2005
-  platforms: [ps2]
+  platforms: [ps2, xbox]
 
 castlevania-grimoire-of-souls:
   name: "Castlevania: Grimoire of Souls"
@@ -974,6 +980,12 @@ chrono-trigger:
   igdb: 1802
   year: 1995
   platforms: [nds, snes]
+
+chuchu-rocket:
+  name: "ChuChu Rocket!"
+  igdb: 6347
+  year: 1999
+  platforms: [dreamcast]
 
 clayfighter-6313:
   name: ClayFighter 63⅓
@@ -1561,6 +1573,12 @@ donkey-kong-country-3-dixie-kongs-double-trouble:
   igdb: 1094
   year: 1996
   platforms: [snes]
+
+donpachi:
+  name: DonPachi
+  igdb: 1665
+  year: 1995
+  platforms: [arcade]
 
 doom:
   name: Doom
@@ -3314,6 +3332,12 @@ mario-kart-64:
   year: 1996
   platforms: [n64]
 
+mario-kart-8-deluxe:
+  name: Mario Kart 8 Deluxe
+  igdb: 26764
+  year: 2017
+  platforms: [switch]
+
 mario-kart-arcade-gp:
   name: Mario Kart Arcade GP
   igdb: 45160
@@ -3432,6 +3456,12 @@ marvel-ultimate-alliance-2:
   igdb: 568
   year: 2009
   platforms: [x360]
+
+marvel-vs-capcom-2:
+  name: Marvel vs. Capcom 2
+  igdb: 8247
+  year: 2000
+  platforms: [xbox]
 
 marvel-vs-capcom-clash-of-super-heroes:
   name: "Marvel vs. Capcom: Clash of Super Heroes"
@@ -6878,6 +6908,12 @@ timesplitters-2:
   name: TimeSplitters 2
   igdb: 2143
   year: 2002
+  platforms: [xbox]
+
+timesplitters-future-perfect:
+  name: "TimeSplitters: Future Perfect"
+  igdb: 2144
+  year: 2005
   platforms: [xbox]
 
 tna-impact:

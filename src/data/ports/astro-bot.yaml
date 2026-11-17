@@ -1,0 +1,17 @@
+name: "Astro Bot"
+games: [astro-bot]
+category: native-layer
+console: ps5
+status: experimental
+repo: imnotsharingmyname/pcportastrobot
+originalDeveloper: "Team Asobi"
+year: 2024
+desc:
+  es: "Astro Bot de PS5 como programa nativo de Windows, sin emulador de CPU: AnyPS5 vuelve a enlazar el código x86-64 del propio juego en un ejecutable de Windows y reimplementa las bibliotecas del sistema como módulos nativos, y la parte de GPU (comandos AGC y shaders) la traduce a Vulkan un módulo sacado de KytyPS5. Encima añade DLSS Super Resolution, DLSS Frame Generation (2x a 4x, con un modo adaptativo) y Reflex de NVIDIA, y un lanzador propio que elige los ajustes según tu equipo. Su autor lo llama un proyecto de investigación personal. El README dice que ni el repositorio ni la descarga traen archivos del juego: la instalación convierte tu copia en unos dos minutos. El repositorio sube las series de parches sobre AnyPS5 y KytyPS5, el lanzador y las pruebas, no el código completo de esos dos proyectos. Va limitado por la CPU: de 32 a 34 cuadros por segundo en la zona más pesada, según sus mediciones. 2 de sus 30 commits dicen que se generaron con Claude Code. La v1.2.1 es del 17 de noviembre."
+  en: "Astro Bot for PS5 as a native Windows program, with no CPU emulation: AnyPS5 relinks the game's own x86-64 code into a Windows executable and reimplements the system libraries as native modules, while a module taken from KytyPS5 translates the GPU side (AGC command buffers and shaders) to Vulkan. On top it adds NVIDIA DLSS Super Resolution, DLSS Frame Generation (2x to 4x, with an adaptive mode) and Reflex, plus its own launcher that picks settings for your hardware. Its author calls it a personal research project. The README says neither the repository nor the download contains game files: setup converts your own copy in about two minutes. The repository commits the patch series on top of AnyPS5 and KytyPS5, the launcher and the tests, not the full code of those two projects. It is CPU-limited: 32 to 34 frames per second in the heaviest area, by its own measurements. 2 of its 30 commits say they were generated with Claude Code. Version 1.2.1 is from November 17."
+requirements:
+  es: "Tu propia copia descifrada de Astro Bot para PS5 (PPSA21567, versión 01.019.000, la única probada), con eboot.bin, sce_module y sce_sys. Además, Windows 10 u 11 de 64 bits y una tarjeta gráfica con Vulkan; DLSS pide una RTX y la generación de fotogramas una RTX 40 o 50 (3x y 4x, una RTX 50). Los archivos de tiempo de ejecución de DLSS y Streamline los bajas tú de NVIDIA."
+  en: "Your own decrypted copy of Astro Bot for PS5 (PPSA21567, version 01.019.000, the only one tested), with eboot.bin, sce_module and sce_sys. Plus 64-bit Windows 10 or 11 and a Vulkan graphics card; DLSS needs an RTX card and frame generation an RTX 40 or 50 (3x and 4x need an RTX 50). You download the DLSS and Streamline runtime files from NVIDIA yourself."
+tags:
+  - x86
+  - ai-assisted

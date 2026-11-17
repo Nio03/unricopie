@@ -1,0 +1,21 @@
+name: "TimeSplitters: Future Perfect"
+games: [timesplitters-future-perfect]
+console: xbox
+status: experimental
+repo: TheDoffman/timesplitters-future-perfect-pc
+author: TheDoffman
+originalDeveloper: "Free Radical Design"
+year: 2005
+toolchain: xboxrecomp
+desc:
+  es: "Port experimental para PC de la versión de Xbox de TimeSplitters: Future Perfect, hecho por recompilación estática con un fork de xboxrecomp que el proyecto incluye en su repositorio. Un lanzador para Windows, Mac (Apple silicon) y Linux instala la versión del juego, importa tu copia (ISO o archivos extraídos) y la actualiza. Añade teclado y ratón con teclas reasignables, 1080p, 1440p, 4K y pantallas panorámicas con campo de visión ajustable, SMAA, 60 fps con ajustes beta de 120, 180 y 240, pantalla partida local y multijugador en línea o por LAN con bots, solo en Windows y experimental; el cooperativo de la historia no funciona. Sus propios documentos dicen que falta comprobar la campaña completa y la fidelidad gráfica y sonora. Las versiones traen el código del juego ya recompilado y no los archivos del juego, que importas tú. Aparte ofrece, como descarga opcional de unos 700 MB, un paquete de texturas mejoradas: 6812 sustituciones al doble de resolución hechas a partir de las del juego, que el repositorio guarda con Git LFS; su documentación habla también de borradores generados en un paquete anterior. La v0.7.0-beta.1 (13 de noviembre) es la última de 67 versiones; la estable es la v0.6.2 (12 de noviembre)."
+  en: "An experimental PC port of the Xbox version of TimeSplitters: Future Perfect, made by static recompilation with a fork of xboxrecomp that the project bundles in its repository. A launcher for Windows, Mac (Apple silicon) and Linux installs the game build, imports your copy (ISO or extracted files) and updates it. It adds keyboard and mouse with remappable keys, 1080p, 1440p, 4K and ultrawide with adjustable field of view, SMAA, 60 fps with beta settings for 120, 180 and 240, local split-screen, and online or LAN multiplayer with bots, Windows only and experimental; story co-op doesn’t work. Its own documents say the full campaign and graphics and audio fidelity are still unverified. The releases carry the already recompiled game code and not the game files, which you import yourself. It also offers, as an optional download of about 700 MB, an enhanced texture pack: 6,812 replacements at twice the resolution made from the game’s own, which the repository keeps with Git LFS; its documentation also mentions generated drafts in an earlier pack. v0.7.0-beta.1 (November 13) is the latest of 67 releases; the stable one is v0.6.2 (November 12)."
+requirements:
+  es: "Tu propia copia de TimeSplitters: Future Perfect para Xbox, edición estadounidense (título 45410066), como imagen .iso o como carpeta con default.xbe, pak y xmv; el lanzador la importa. Windows 10 u 11 de 64 bits con .NET Framework 4.8, un Mac con Apple silicon (macOS 26 o posterior para el renderizador actual) o Linux x64 con glibc 2.39 y un controlador de Vulkan, y unos 5 GB libres."
+  en: "Your own copy of TimeSplitters: Future Perfect for Xbox, US release (title ID 45410066), as an .iso image or a folder with default.xbe, pak and xmv; the launcher imports it. 64-bit Windows 10 or 11 with .NET Framework 4.8, an Apple silicon Mac (macOS 26 or later for the current renderer) or x64 Linux with glibc 2.39 and a Vulkan driver, and about 5 GB free."
+tags:
+  - x86
+  - fps
+  - widescreen
+  - multiplayer
+  - hd-assets

@@ -1,0 +1,21 @@
+name: "Metroid Prime 4: Beyond (PlagueDrRiess)"
+games: [metroid-prime-4-beyond]
+console: switch
+status: playable
+repo: PlagueDrRiess/salsburysteaks
+forkOf:
+  label: linuxopt/mp4-recomp
+  url: https://github.com/linuxopt/mp4-recomp
+originalDeveloper: "Retro Studios"
+year: 2025
+desc:
+  es: "Compilación nativa para Windows de la recompilación estática de la versión de Switch de Metroid Prime 4: Beyond. Es un fork con el historial completo de linuxopt/mp4-recomp, que lo desarrolla y prueba en Linux, y este añade el empaquetado, el flujo de instalación y las correcciones para Windows. Se apoya en el entorno de ejecución SwitchRecomp de MZ Labs: durante la primera configuración, el código del juego se recompila en tu equipo como una DLL nativa, con el GCC y el Python que trae, y el trabajo de la GPU de la consola se traduce a OpenGL. Sus versiones traen atajos de teclado y ratón, trucos, un ajuste del campo de visión que aún no funciona, pantallas panorámicas de 21:9 y 32:9, vibración en los mandos de PS4 y PS5 y actualizaciones desde la propia pantalla de juego. El zip de la versión no incluye código, claves ni archivos del juego; solo un manifiesto con los nombres, tamaños y SHA-1 de los 445 archivos de la RomFS para comprobar tu volcado. Su README dice que en Windows se ha jugado menos que en Linux, y quedan tirones al compilar shaders en zonas nuevas y una pausa de medio segundo al cargar partida. La v2026.11.26 (17 de noviembre) es la última de 21 versiones. 91 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "A native Windows build of the static recompilation of the Switch version of Metroid Prime 4: Beyond. It is a fork, with full history, of linuxopt/mp4-recomp, which develops and tests it on Linux; this one adds the packaging, the install flow and the fixes for Windows. It builds on MZ Labs’ SwitchRecomp runtime: during first-run setup, the game’s code is recompiled on your PC into a native DLL, with the GCC and Python it bundles, and the console GPU’s work is translated to OpenGL. Its releases add keyboard-and-mouse controls, cheats, a field of view setting that doesn’t work yet, 21:9 and 32:9 ultrawide, rumble on PS4 and PS5 controllers, and updates from the play screen itself. The release zip has no game code, keys or game files; only a manifest of the names, sizes and SHA-1 of the 445 RomFS files, used to verify your dump. Its README says Windows has had less play time than Linux, and some stutter remains when shaders compile in new areas, and loading a save freezes for half a second. v2026.11.26 (November 17) is the latest of 21 releases. 91 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Metroid Prime 4: Beyond para Switch (programa 010019A01E2F2000) con la actualización cuyo main tiene el build ID 8275FBE1…; el cartucho solo no vale. Puede ser el .xci o .nsp del juego con la actualización en .nsp y tus prod.keys, o los archivos ya extraídos (ExeFS y RomFS con la actualización aplicada); la configuración comprueba los 445 archivos de la RomFS (26,9 GB). Windows 10 u 11 de 64 bits, un controlador gráfico con OpenGL 4.3 o superior y unos 30 GB libres."
+  en: "Your own copy of Metroid Prime 4: Beyond for Switch (program 010019A01E2F2000) with the update whose main has build ID 8275FBE1…; the cartridge alone won’t do. Either the game’s .xci or .nsp with the update as .nsp and your prod.keys, or the extracted files (ExeFS and RomFS with the update applied); setup verifies all 445 RomFS files (26.9 GB). 64-bit Windows 10 or 11, a graphics driver with OpenGL 4.3 or later, and about 30 GB free."
+tags:
+  - arm64
+  - fps
+  - widescreen
+  - ai-assisted

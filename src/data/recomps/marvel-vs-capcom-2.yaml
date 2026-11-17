@@ -1,0 +1,19 @@
+name: "Marvel vs. Capcom 2"
+games: [marvel-vs-capcom-2]
+console: xbox
+status: playable
+repo: dalves408/mvsc2-recomp
+originalDeveloper: "Capcom"
+year: 2000
+toolchain: xboxrecomp
+desc:
+  es: "Recompilación estática de la versión estadounidense (NTSC-U, CC-007) de Marvel vs. Capcom 2 para la Xbox original, como programa nativo de Windows x64. El ejecutable del juego se desensambla y se traduce a C con el kit xboxrecomp (más 22 parches propios) y se construye con MSVC junto a un runtime pequeño que hace de núcleo de Xbox, de GPU NV2A, del sonido y de los mandos USB; no es un emulador. Dibuja con Direct3D 11 con tres escalas de render, un escalador, filtros de sprites (xBR, OmniScale y ScaleFX), mandos XInput para hasta 4 jugadores y teclado reasignable. Su instalador copia los archivos del juego de tu propio disco, y hay un paquete para RecompLauncher. Ofrece además, como descarga opcional de 634 MB desde una release propia, un paquete de 1018 texturas de alta resolución que, según el proyecto, está hecho a partir de las texturas del juego. El juego llega desde el título hasta los combates; falta probar una partida completa de Arcade, el Versus de dos jugadores y las partidas guardadas, y el renderizador tiene huecos. La v1.0.2 (12 de noviembre) es la última de 3 versiones. 15 de sus 16 commits llevan a Claude como coautor."
+  en: "A static recompilation of the US (NTSC-U, CC-007) version of Marvel vs. Capcom 2 for the original Xbox, as a native Windows x64 program. The game’s executable is disassembled and translated to C with the xboxrecomp toolkit (plus 22 patches of its own) and built with MSVC against a small runtime that stands in for the Xbox kernel, the NV2A GPU, the sound and the USB pads; it is not an emulator. It renders with Direct3D 11 with three render scales, an upscaler, sprite filters (xBR, OmniScale and ScaleFX), XInput pads for up to 4 players and remappable keys. Its installer copies the game files from your own disc, and there is a package for RecompLauncher. It also offers, as an optional 634 MB download from a release of its own, a pack of 1,018 hi-res textures that, according to the project, is made from the game’s textures. The game plays from the title screen into fights; a full Arcade run, two-player Versus and saves still need testing, and the renderer has gaps. v1.0.2 (November 12) is the latest of 3 releases. 15 of its 16 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Marvel vs. Capcom 2 para Xbox, edición estadounidense (NTSC-U, CC-007), como imagen .iso o .xiso o como carpeta con los archivos del disco; el instalador los copia. Windows 10 u 11 de 64 bits y una GPU con Direct3D 11; para compilarlo hacen falta además Visual Studio 2022, CMake y Python 3.12."
+  en: "Your own copy of Marvel vs. Capcom 2 for Xbox, US release (NTSC-U, CC-007), as an .iso or .xiso image or a folder with the disc’s files; the installer copies them. 64-bit Windows 10 or 11 and a Direct3D 11 GPU; building it also needs Visual Studio 2022, CMake and Python 3.12."
+tags:
+  - x86
+  - fighting
+  - hd-assets
+  - ai-assisted

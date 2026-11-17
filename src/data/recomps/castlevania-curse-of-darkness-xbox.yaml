@@ -1,0 +1,22 @@
+name: "Castlevania: Curse of Darkness (Xbox)"
+games: [castlevania-curse-of-darkness]
+console: xbox
+status: playable
+repo: jmafort/CastlevaniaCOD-PC
+forkOf:
+  label: Pazzi7054/CastlevaniaCOD-PC
+  url: https://github.com/Pazzi7054/CastlevaniaCOD-PC
+originalDeveloper: "Konami"
+year: 2005
+toolchain: XboxXBE-Recomp
+desc:
+  es: "Port nativo no oficial para PC de la versión de la Xbox original de Castlevania: Curse of Darkness, hecho por recompilación estática con Xbox XBE Recomp, para Windows y Linux de 64 bits; es una bifurcación del port de Pazzi7054. Dibuja con Direct3D 12 (en Linux, con vkd3d sobre Vulkan) y suena con XAudio2 (en Linux, con SDL). Admite la edición estadounidense y la europea (cada una con su ejecutable, en cinco idiomas la europea), a 60 fps. Añade pantalla panorámica con los menús y el HUD, campo de visión, distancia de dibujo y niebla, mando al estilo de PS2, ratón y teclado reasignables, FSR y DLSS con generación de fotogramas (en Windows), oclusión ambiental, HDR, carrera con L3, aceleración del juego, un lanzador en siete idiomas con actualizaciones y pruebas automáticas. Acepta paquetes de texturas HD hechos para el PCSX2 y paquetes de vídeos HD y de traducciones de otros autores, que enlaza y no incluye. La versión no lleva código del juego: el primer arranque lo genera en tu equipo a partir de tu copia con el recompilador y un Clang incluido. La v1.13.0 (16 de noviembre) es la última de 33 versiones. Sus últimos 100 commits llevan todos a Claude como coautor."
+  en: "An unofficial native PC port of the original Xbox version of Castlevania: Curse of Darkness, made by static recompilation with Xbox XBE Recomp, for 64-bit Windows and Linux; it is a fork of Pazzi7054’s port. It renders with Direct3D 12 (on Linux, through vkd3d on Vulkan) and plays sound with XAudio2 (on Linux, through SDL). It supports the US and the European releases (each with its own executable, the European one in five languages), at 60 fps. It adds widescreen with the menus and HUD, field of view, draw distance and fog, a PS2-style stick response, remappable keyboard and mouse, FSR and DLSS with frame generation (on Windows), ambient occlusion, HDR, sprint, a 2x or 4x speed-up, a launcher in seven languages with updates, and automated tests. It accepts HD texture packs made for PCSX2 and HD movie and translation packs by other authors, which it links to and doesn’t include. The release has no game code: the first start generates it on your PC from your copy with the recompiler and a bundled Clang. v1.13.0 (November 16) is the latest of 33 releases. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propia copia de Castlevania: Curse of Darkness para Xbox, edición estadounidense (NTSC-U) o europea (PAL), como imagen .iso o como los archivos extraídos del disco (default.xbe con sus carpetas data, movie y sound); el README da el tamaño y los hash del default.xbe de cada una. Windows de 64 bits con una GPU con Direct3D 12, o Linux de 64 bits con un controlador de Vulkan."
+  en: "Your own copy of Castlevania: Curse of Darkness for Xbox, US (NTSC-U) or European (PAL) release, as an .iso image or as the files extracted from the disc (default.xbe with its data, movie and sound folders); the README gives each release’s default.xbe size and hashes. 64-bit Windows with a Direct3D 12 GPU, or 64-bit Linux with a Vulkan driver."
+tags:
+  - x86
+  - action
+  - widescreen
+  - ai-assisted

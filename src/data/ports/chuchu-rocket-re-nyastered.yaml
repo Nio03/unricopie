@@ -1,0 +1,18 @@
+name: "ChuChu Rocket! Re-Nyastered"
+games: [chuchu-rocket]
+category: fan-remake
+console: dreamcast
+status: playable
+repo: TideGear/ChuChu-Rocket-Re-Nyastered
+originalDeveloper: "Sonic Team"
+year: 1999
+desc:
+  es: "Reimplementación en C++ y SDL2 de ChuChu Rocket!, de Sonic Team, que reúne lo mejor de las versiones de Dreamcast, Game Boy Advance, iOS y Android; no es el port de una decompilación, sino código nuevo cuyas reglas se comparan con las de las versiones originales. Ya se pueden jugar en Windows el modo Puzle con selección de fase, el Batalla (hasta cuatro jugadores en un mismo equipo y rivales controlados por la máquina) y el Desafío (24 de las 25 fases); el juego en red y el multijugador por móviles son solo un plan, y el propio README lo llama obra en curso. Al ejecutar setup.cmd se extraen los recursos de tus copias, anotando su suma de control, y se compila el juego en tu equipo. El repositorio es solo código y documentación, con tres capturas, y sus releases son versiones del programa sin datos del juego. Dice estar dirigido por una persona, con IA que ayuda en la ingeniería inversa, la implementación, las pruebas y la documentación. La v2026.11.18 es del 17 de noviembre."
+  en: "A C++ and SDL2 reimplementation of Sonic Team’s ChuChu Rocket!, bringing together the best of the Dreamcast, Game Boy Advance, iOS and Android versions; it is not a port of a decompilation but new code whose rules are compared against those of the original versions. On Windows, Puzzle with stage select, Battle (up to four players on one machine, plus computer opponents) and Stage Challenge (24 of 25 stages) are playable; online and phone-based multiplayer are only planned, and the README itself calls it a work in progress. Running setup.cmd extracts the assets from your copies, recording their checksums, and builds the game on your machine. The repository is code and documentation only, apart from three screenshots, and its releases are builds of the program with no game data. It says it is directed by one person, with AI helping with reverse engineering, implementation, testing and documentation. Version 2026.11.18 is from November 17."
+requirements:
+  es: "Tus propios archivos de ChuChu Rocket! de al menos una versión: iOS (1.0, 1.0.2, 1.1, 1.1.2 o iPad HD 1.0, como .ipa o .app) o Android (1.14 o 1.15, .apk); para más contenido, el disco de Dreamcast (estadounidense multilingüe, 19 .bin y un .cue, que aporta la música en estéreo y el arte original) y la ROM de Game Boy Advance (2.466 puzles más). Windows de 64 bits; hay versiones para Linux y macOS que su autor aún no ha confirmado en un equipo real."
+  en: "Your own ChuChu Rocket! files from at least one version: iOS (1.0, 1.0.2, 1.1, 1.1.2 or iPad HD 1.0, as .ipa or .app) or Android (1.14 or 1.15, .apk); for more content, the Dreamcast disc (US multilingual, 19 .bin files and a .cue, which adds stereo music and the original art) and the Game Boy Advance ROM (2,466 more puzzles). 64-bit Windows; there are Linux and macOS builds, but their author hasn’t confirmed them on a real machine."
+tags:
+  - puzzle
+  - reverse-engineering
+  - ai-assisted

@@ -1,0 +1,18 @@
+name: "DonPachi"
+games: [donpachi]
+console: arcade
+status: playable
+repo: CapsLock4284/DonPachi-Recomp
+originalDeveloper: "Cave"
+year: 1995
+desc:
+  es: "Port nativo para Windows y Linux de DonPachi, el matamarcianos de Cave de 1995 (versión estadounidense), hecho decompilando a C el programa en 68000 de la placa y ejecutándolo sobre un modelo del hardware de Cave, sin emulador. Reproduce la ralentización de la recreativa instrucción a instrucción y su autor lo ha comparado fotograma a fotograma con el núcleo de 68000 de MAME durante unos 29 minutos de juego, con los dos bucles. Trae selector de la versión japonesa, menú de entrenamiento, paneles laterales, estados guardados, repeticiones, logros, trucos, un segundo jugador controlado por la máquina, filtros de píxeles y un aspecto de monitor CRT. El código en C generado no está en el repositorio: se hace a partir de tu ROM al compilar, y las releases ya compiladas no llevan datos del juego. Según sus avisos usa la licencia BSD de 3 cláusulas (el repositorio no tiene archivo de licencia). La v0.9.0 es del 15 de noviembre."
+  en: "A native Windows and Linux port of DonPachi, Cave’s 1995 shoot ’em up (US version), made by decompiling the arcade board’s 68000 program into C and running it on a model of the Cave hardware, with no emulator. It reproduces the arcade’s slowdown instruction by instruction, and its author has checked it frame by frame against MAME’s 68000 core over about 29 minutes of play, through both loops. It has a Japanese-version switch, a training menu, side panels, save states, replays, achievements, cheats, a computer-controlled player 2, pixel-art filters and a CRT look. The generated C is not in the repository: it is made from your ROM when you build, and the prebuilt releases carry no game data. Per its notices it uses the BSD 3-Clause license (the repository has no license file). Version 0.9.0 is from November 15."
+requirements:
+  es: "Tu propio juego de ROM de la recreativa (donpachi.zip de MAME, versión estadounidense), que se arrastra sobre la ventana en el primer arranque; para la versión japonesa, donpachij.zip. Windows de 64 bits o Linux de 64 bits con SDL2."
+  en: "Your own copy of the arcade ROM set (MAME’s donpachi.zip, US version), dragged onto the window on first launch; for the Japanese version, donpachij.zip. 64-bit Windows, or 64-bit Linux with SDL2."
+tags:
+  - "68000"
+  - shmup
+  - 60fps+
+  - static-recomp

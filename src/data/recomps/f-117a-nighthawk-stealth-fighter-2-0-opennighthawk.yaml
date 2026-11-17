@@ -1,0 +1,15 @@
+name: "F-117A Nighthawk Stealth Fighter 2.0 (OpenNighthawk)"
+games: [f-117a-nighthawk-stealth-fighter-2-0]
+console: dos
+status: playable
+repo: TideGear/OpenNighthawk
+originalDeveloper: "MicroProse"
+year: 1991
+desc:
+  es: "Recompilación y decompilación en curso de F-117A Nighthawk Stealth Fighter 2.0 (MicroProse, 1991) para DOS, que lo ejecuta en Windows sin emulador de DOS. El código de máquina original se traduce instrucción a instrucción a C y se compila de forma nativa, y esas rutinas se van sustituyendo por C escrito a mano y con nombres, cada una comprobada contra el original (registros, memoria y reloj, en 63 rutas de prueba); no recompone el EXE byte a byte. Trae 33 arreglos de errores del original que se pueden desactivar, repetición de cada vuelo, remapeo de teclas, mando, una imagen mejorada y otra «remasterizada» con vista panorámica, y sonido AdLib, de altavoz o Roland con tus ROM de MT-32. Es solo código: el recompilador lee tu instalación de GOG o Steam al compilar y escribe el C generado fuera del repositorio, así que ni este ni sus releases llevan datos del juego ni código generado. Se declara dirigido por una persona, con IA que ayuda. La v2026.11.13 es del 13 de noviembre."
+  en: "A work-in-progress recompilation and decompilation of MicroProse’s F-117A Nighthawk Stealth Fighter 2.0 (1991) for DOS, running it on Windows without a DOS emulator. The original machine code is translated instruction by instruction into C and compiled natively, and those routines are progressively replaced by hand-written, named C, each checked against the original (registers, memory and clock, over 63 scripted routes); it does not rebuild the EXE byte for byte. It adds 33 switchable fixes for the original’s bugs, a recording of every flight, key remapping, controller support, an enhanced picture and a “remastered” 3D view with a widescreen mode, and AdLib, PC speaker or Roland sound using your own MT-32 ROMs. It is code only: the recompiler reads your GOG or Steam install at build time and writes the generated C outside the repository, so neither the repository nor its releases carry game data or generated code. It says it is directed by one person, with AI helping. Version 2026.11.13 is from November 13."
+tags:
+  - x86
+  - simulation
+  - widescreen
+  - ai-assisted
