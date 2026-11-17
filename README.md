@@ -6,7 +6,7 @@ A live, filterable, multi-console catalogue of static recompilations of console 
 
 Since *Unleashed Recompiled*, static recompilation has spread across N64, Xbox 360, GameCube, Wii and PS2, but the projects remained scattered. The existing references each cover part of the ground: Read Only Memo is editorial and monthly, PCGamingWiki is a manually maintained wiki, Codex Gamicus covers GameCube only. Recompendium aims at the gap: hand-curated entries, verified against the source repository, enriched daily from the GitHub API.
 
-**Unricopie**, the catalogue's launcher, lives in its own repository, [Nio03/unricopie-launcher](https://github.com/Nio03/unricopie-launcher) (GPL-3.0), and has its page at https://recompendium.com/unricopie. This site publishes what it reads: `/unricopie/catalogo.json`, `/unricopie/recetas.json` (the install recipes, exported at build time from a private repository), `/unricopie/version.json` and `/reportes.json`.
+**Unricopie**, the catalogue's launcher, lives in its own repository, [Nio03/unricopie-launcher](https://github.com/Nio03/unricopie-launcher) (GPL-3.0), and has its page at https://recompendium.com/. This site publishes what it reads: `/unricopie/catalogo.json`, `/unricopie/recetas.json` (the install recipes, exported at build time from a private repository), `/unricopie/version.json` and `/reportes.json`.
 
 Recompendium hosts no ROMs, assets or copyrighted material, and doesn't link to projects that include them unless they state they have the rights holder's explicit permission. Running any project listed here requires your own legal copy of the game. See [Terms](./src/pages/en/terms.astro) and [Privacy](./src/pages/en/privacy.astro).
 
