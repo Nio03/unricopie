@@ -19,6 +19,7 @@
 
 007-everything-or-nothing:
   name: "007: Everything or Nothing"
+  igdb: 1644
   year: 2004
   platforms: [xbox]
 
@@ -126,6 +127,7 @@ ace-driver:
 
 ace-of-spades:
   name: Ace of Spades
+  igdb: 68438
   year: 2011
   platforms: [pc]
 
@@ -1541,6 +1543,7 @@ disneys-hercules:
 
 disneys-party-time-with-winnie-the-pooh:
   name: "Disney's Party Time with Winnie the Pooh"
+  igdb: 43724
   year: 2002
   platforms: [pc]
 
@@ -3348,6 +3351,8 @@ madden-nfl-08:
 
 magic-ball-2:
   name: Magic Ball 2
+  igdb: 54374
+  year: 2005
   platforms: [pc]
 
 magical-tetris-challenge:
@@ -5418,6 +5423,7 @@ sid-meiers-civilization-iii:
 
 signus-the-artefact-wars:
   name: "Signus: The Artefact Wars"
+  igdb: 70464
   year: 1998
   platforms: [pc]
 
@@ -6580,6 +6586,8 @@ tetrisphere:
 
 texas-holdem:
   name: "Texas Hold'em"
+  igdb: 81524
+  year: 2006
   platforms: [other]
 
 the-beatles-rock-band:
@@ -6614,11 +6622,13 @@ the-catacomb-abyss:
 
 the-catacomb-apocalypse:
   name: The Catacomb Apocalypse
+  igdb: 11046
   year: 1993
   platforms: [dos]
 
 the-catacomb-armageddon:
   name: The Catacomb Armageddon
+  igdb: 71138
   year: 1992
   platforms: [dos]
 
@@ -7577,6 +7587,8 @@ viva-pinata-trouble-in-paradise:
 
 vortex:
   name: Vortex
+  igdb: 210342
+  year: 2006
   platforms: [other]
 
 vvvvvv:
