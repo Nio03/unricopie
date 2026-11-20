@@ -1,0 +1,19 @@
+name: "Hyrule Warriors: Age of Imprisonment (Alano6678)"
+games: [hyrule-warriors-age-of-imprisonment]
+console: switch2
+status: experimental
+repo: Alano6678/hwaoi-recomp
+originalDeveloper: "AAA Games Studio"
+year: 2025
+desc:
+  es: "HWAoI Recomp: recompilación estática experimental de Hyrule Warriors: Age of Imprisonment, de Switch 2, en un programa nativo de Windows x86-64 con un renderizador Vulkan. El código ARM64 del juego se traduce a C de antemano y se compila con un entorno de ejecución en C y C++; una implementación de NVN 2 se encarga de los gráficos y traduce los shaders de Ampere a SPIR-V. Parte de una copia de DKB Recomp, la recompilación de Donkey Kong Bananza que también está en el catálogo, importada sin su historia. Según el README, el juego arranca, reproduce los dos vídeos iniciales y llega a la exploración y los primeros combates, pero nadie lo ha terminado; a cualquier frecuencia distinta de 60 cuadros por segundo el juego se acelera, y las resoluciones altas son inestables. Las versiones son previas: un compilador con Python, las herramientas de C y C++ y el traductor de shaders, que construye el juego en tu PC a partir de tu copia; ni el repositorio ni sus versiones traen nada del juego. Age of Decomp, que también está en el catálogo, le añade un launcher. 31 de sus 59 commits llevan a Claude como coautor, todos de un colaborador. La última versión, la v0.1.0-alpha.6, es del 13 de noviembre."
+  en: "HWAoI Recomp: an experimental static recompilation of Hyrule Warriors: Age of Imprisonment, for Switch 2, into a native Windows x86-64 program with a Vulkan renderer. The game’s ARM64 code is translated to C ahead of time and compiled with a C and C++ runtime; an NVN 2 implementation handles graphics and translates the Ampere shaders to SPIR-V. It starts from a copy of DKB Recomp, the Donkey Kong Bananza recompilation that is also in the catalog, imported without its history. According to the README, the game boots, plays both opening movies, and reaches exploration and the first battles, but nobody has finished it yet; at any frame rate other than 60 frames per second the game speeds up, and high resolutions are unstable. Releases are previews: a compiler bundling Python, the C and C++ tools, and the shader translator, which builds the game on your PC from your copy; neither the repository nor its releases contain anything from the game. Age of Decomp, also in the catalog, adds a launcher to it. 31 of its 59 commits list Claude as a co-author, all from one contributor. The latest release, v0.1.0-alpha.6, is from November 13."
+requirements:
+  es: "Tu propia copia de Hyrule Warriors: Age of Imprisonment para Switch 2, en la versión exacta que admite (actualización 3.0.0, NCM 196608), como archivo .nup; la actualización y los DLC pueden ir en .nup aparte, y no sirven los XCI o NSP cifrados. Windows de 64 bits con una CPU con AVX2 y una GPU con Vulkan, mejor con 32 GB de RAM, y al menos 20 GB libres."
+  en: "Your own copy of Hyrule Warriors: Age of Imprisonment for Switch 2, at the exact version it supports (update 3.0.0, NCM 196608), as a .nup file; the update and DLC can be given as separate .nup files, and encrypted XCI or NSP files don’t work. 64-bit Windows with an AVX2 CPU and a Vulkan GPU, ideally 32 GB of RAM, and at least 20 GB free."
+tags:
+  - arm64
+  - vulkan
+  - action
+  - zelda
+  - ai-assisted

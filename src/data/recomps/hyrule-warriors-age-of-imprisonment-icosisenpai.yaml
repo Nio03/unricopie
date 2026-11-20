@@ -1,0 +1,23 @@
+name: "Hyrule Warriors: Age of Imprisonment (iCosiSenpai)"
+games: [hyrule-warriors-age-of-imprisonment]
+console: switch2
+status: experimental
+repo: iCosiSenpai/age-of-decomp
+forkOf:
+  label: "HWAoI Recomp"
+  url: "https://github.com/Alano6678/hwaoi-recomp"
+originalDeveloper: "AAA Games Studio"
+year: 2025
+desc:
+  es: "Age of Decomp: un launcher y un paquete para jugar Hyrule Warriors: Age of Imprisonment, de Switch 2, de forma nativa en Windows. No es otra recompilación: toma HWAoI Recomp, que también está en el catálogo, en una versión fija, le aplica 19 parches propios (una versión para Linux, un menú de opciones rediseñado, el italiano y un arreglo para gráficas AMD RDNA3, entre otros) y suma su propio launcher, la instalación, los ajustes, un puente para usar por Bluetooth el mando de Switch 2 y la integración con RecompLauncher. El estado del juego es el de HWAoI: arranca, reproduce los vídeos iniciales y llega a la exploración y los combates, pero nadie lo ha terminado. Hay dos versiones previas para Windows; en Linux, la AppImage solo llega al primer menú y hay que compilarla. Ni el repositorio ni sus versiones traen archivos, claves ni código generado del juego. 13 de sus 23 commits llevan a Claude o a Devin como coautores. La v0.1.1 es del 19 de noviembre."
+  en: "Age of Decomp: a launcher and package to play Hyrule Warriors: Age of Imprisonment, for Switch 2, natively on Windows. It isn’t another recompilation: it takes HWAoI Recomp, also in the catalog, at a pinned version, applies 19 patches of its own (a Linux build, a redesigned settings menu, Italian, and a fix for AMD RDNA3 graphics cards, among others), and adds its own launcher, setup, settings, a bridge to use the Switch 2 controller over Bluetooth, and RecompLauncher integration. The game’s status is HWAoI’s: it boots, plays the opening movies, and reaches exploration and battles, but nobody has finished it yet. There are two preview releases for Windows; on Linux, the AppImage only reaches the first menu and has to be built from source. Neither the repository nor its releases contain the game’s files, keys, or generated code. 13 of its 23 commits list Claude or Devin as co-authors. Version 0.1.1 is from November 19."
+requirements:
+  es: "Tu propia copia de Hyrule Warriors: Age of Imprisonment para Switch 2, con el juego base y la actualización 3.0.0 (NCM 196608) en un archivo .nup. Windows 10 u 11 de 64 bits o Linux x86-64 (experimental: kernel 6.7 y glibc 2.39 o posteriores, y compilarlo), una CPU con AVX2, una GPU con Vulkan 1.3 y VK_EXT_external_memory_host, 16 GB de RAM (mejor 32) y unos 25 GB libres."
+  en: "Your own copy of Hyrule Warriors: Age of Imprisonment for Switch 2, with the base game and update 3.0.0 (NCM 196608) in a .nup file. 64-bit Windows 10 or 11 or x86-64 Linux (experimental: kernel 6.7 and glibc 2.39 or newer, and building it yourself), an AVX2 CPU, a Vulkan 1.3 GPU with VK_EXT_external_memory_host, 16 GB of RAM (32 is better), and about 25 GB free."
+tags:
+  - arm64
+  - vulkan
+  - action
+  - zelda
+  - launcher
+  - ai-assisted

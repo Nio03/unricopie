@@ -299,6 +299,12 @@ anodyne:
   year: 2013
   platforms: [pc]
 
+antheads-it-came-from-the-desert-ii:
+  name: "Antheads: It Came from the Desert II"
+  igdb: 1061
+  year: 1990
+  platforms: [other]
+
 ape-escape:
   name: Ape Escape
   igdb: 3762
@@ -2824,6 +2830,12 @@ hyper-street-fighter-ii:
   year: 2003
   platforms: [arcade]
 
+hyrule-warriors-age-of-imprisonment:
+  name: "Hyrule Warriors: Age of Imprisonment"
+  igdb: 338085
+  year: 2025
+  platforms: [switch2]
+
 hyrule-warriors-definitive-edition:
   name: "Hyrule Warriors: Definitive Edition"
   igdb: 81147
@@ -2948,6 +2960,12 @@ ion-fury:
   igdb: 54844
   year: 2019
   platforms: [pc]
+
+it-came-from-the-desert:
+  name: It Came from the Desert
+  igdb: 1060
+  year: 1989
+  platforms: [other]
 
 jack-in-the-dark:
   name: Jack in the Dark
@@ -5858,6 +5876,12 @@ splatoon:
   year: 2015
   platforms: [wiiu]
 
+splatoon-raiders:
+  name: Splatoon Raiders
+  igdb: 348977
+  year: 2026
+  platforms: [switch2]
+
 splatterhouse:
   name: Splatterhouse
   igdb: 7191
@@ -5899,6 +5923,12 @@ star-fox:
   igdb: 8581
   year: 1993
   platforms: [snes]
+
+star-fox-2026:
+  name: Star Fox (2026)
+  igdb: 400709
+  year: 2026
+  platforms: [switch2]
 
 star-fox-64:
   name: Star Fox 64
@@ -6001,6 +6031,12 @@ star-wars-masters-of-teras-kasi:
   igdb: 18044
   year: 1997
   platforms: [ps1]
+
+star-wars-rogue-squadron-ii-rogue-leader:
+  name: "Star Wars: Rogue Squadron II - Rogue Leader"
+  igdb: 4181
+  year: 2001
+  platforms: [gamecube]
 
 star-wars-shadows-of-the-empire:
   name: "Star Wars: Shadows of the Empire"

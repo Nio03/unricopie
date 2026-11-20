@@ -1,0 +1,18 @@
+name: "It Came from the Desert"
+games: [it-came-from-the-desert, antheads-it-came-from-the-desert-ii]
+console: other
+status: playable
+repo: Santorayo3/icftd-recomp
+author: "Tim Rachor"
+originalDeveloper: "Cinemaware"
+year: 1989
+desc:
+  es: "It Came from the Desert Enhanced: recompilación del clásico de Cinemaware para Amiga, que lo ejecuta de forma nativa en Windows y en MS-DOS. Un recompilador propio, escrito en C#, traduce el código 68000 del juego a C, y un entorno de ejecución reproduce los chips del Amiga 500 ciclo a ciclo (blitter, copper y sonido Paula), así que el juego va a la misma velocidad que en la máquina original. Las interrupciones que mueven la música y el código que aún no está traducido corren en Musashi, un emulador de 68000, como en James Pond 2. El repositorio incluye el código generado de este juego y de su continuación, Antheads (unos 1.600 archivos de C con cada instrucción original como comentario), pero no sus discos ni sus datos. Suma varias ranuras de guardado, control con ratón y con WASD, una mira en el minijuego de las hormigas, indicadores de carga y guardado, volumen de música y efectos, ventana redimensionable, trucos, una traducción al alemán que el autor dice haber hecho con IA, la posibilidad de añadir otros idiomas y, en MS-DOS, VGA y Sound Blaster (aunque ahí pide un equipo potente). Según su documentación se llega a los tres finales, pero algunas partes todavía no se han probado. El repositorio no tiene licencia, y 50 de sus últimos 100 commits llevan a Copilot como coautor. Su primera versión es del 20 de noviembre."
+  en: "It Came from the Desert Enhanced: a recompilation of Cinemaware’s Amiga classic that runs it natively on Windows and MS-DOS. Its own recompiler, written in C#, translates the game’s 68000 code to C, and a runtime reproduces the Amiga 500’s chips cycle by cycle (blitter, copper, and Paula sound), so the game runs at the same speed as on the original machine. The interrupts that drive the music and the code not yet translated run on Musashi, a 68000 emulator, as in James Pond 2. The repository includes the generated code of this game and of its sequel, Antheads (about 1,600 C files with each original instruction as a comment), but not their disks or data. It adds several save slots, mouse and WASD controls, a crosshair in the ant shooting minigame, loading and saving indicators, music and sound volume, a resizable window, cheats, a German translation the author says was made with AI, a way to add other languages, and, on MS-DOS, VGA and Sound Blaster (though it needs a powerful machine there). According to its documentation all three endings can be reached, but some parts haven’t been tested yet. The repository has no license, and 50 of its last 100 commits list Copilot as a co-author. Its first release is from November 20."
+requirements:
+  es: "Las tres imágenes de disco originales de It Came from the Desert para Amiga, de 1989 (archivos .adf sin comprimir de 901.120 bytes, con las etiquetas Desert1, Desert2 y Desert3); otras revisiones no sirven. Opcional: los tres discos de Antheads. Windows, o MS-DOS con VGA y Sound Blaster."
+  en: "Your three original It Came from the Desert disk images for Amiga, from 1989 (uncompressed 901,120-byte .adf files, labeled Desert1, Desert2, and Desert3); other revisions don’t work. Optional: the three Antheads disks. Windows, or MS-DOS with VGA and Sound Blaster."
+tags:
+  - "68000"
+  - static-recomp
+  - ai-assisted

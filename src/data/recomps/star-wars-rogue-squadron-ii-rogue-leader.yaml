@@ -1,0 +1,20 @@
+name: "Star Wars: Rogue Squadron II – Rogue Leader"
+games: [star-wars-rogue-squadron-ii-rogue-leader]
+console: gamecube
+status: playable
+repo: gminustwo/red_two
+originalDeveloper: "Factor 5"
+year: 2001
+desc:
+  es: "Red Two es una recompilación estática de Rogue Leader, de GameCube, para Windows, Linux y la Steam Deck. El programa principal del juego (main.dol), y también un segundo ejecutable que el juego guarda dentro, se traduce de PowerPC a C++ y se compila para tu PC; un entorno de ejecución hace de consola y dibuja con Aurora. Los módulos que el juego carga mientras corre pasan por un intérprete de PowerPC, y el procesador de sonido (MusyX) se emula. Según el README se puede jugar: las misiones van a velocidad completa, y tiene partidas guardadas, estados de guardado, pantalla panorámica, mods, trucos, RetroAchievements y packs de texturas HD en el formato de Dolphin, que pones tú. Como dicen el README y las notas de cada versión, los ejecutables publicados llevan el código del juego ya recompilado, pero ninguno de sus datos. Es del mismo autor que los ports de GODZILLA y de Metroid Prime Remastered. 86 de sus 91 commits llevan a Claude como coautor (los otros cinco son fusiones). La v1.2 es del 20 de noviembre."
+  en: "Red Two is a static recompilation of Rogue Leader, for GameCube, for Windows, Linux, and the Steam Deck. The game’s main program (main.dol), along with a second executable the game keeps inside it, is translated from PowerPC to C++ and compiled for your PC; a runtime stands in for the console and draws with Aurora. The modules the game loads while running go through a PowerPC interpreter, and the sound processor (MusyX) is emulated. According to the README it’s playable: missions run at full speed, and it has saves, save states, widescreen, mods, cheats, RetroAchievements, and HD texture packs in Dolphin’s format, which you supply. As the README and each release’s notes say, the published executables contain the game’s code already recompiled, but none of its data. It’s by the same author as the GODZILLA and Metroid Prime Remastered ports. 86 of its 91 commits list Claude as a co-author (the other five are merges). Version 1.2 is from November 20."
+requirements:
+  es: "Tu propia imagen de disco de Rogue Leader para GameCube, versión de EE. UU. (GSWE64, revisión 0), en .iso, .gcm, .rvz o .wia. Windows de 64 bits con un procesador con AVX2, o Linux x86-64 con glibc 2.38 o posterior (SteamOS 3.6 o posterior en la Steam Deck)."
+  en: "Your own disc image of Rogue Leader for GameCube, USA version (GSWE64, revision 0), as .iso, .gcm, .rvz, or .wia. 64-bit Windows with an AVX2 processor, or x86-64 Linux with glibc 2.38 or later (SteamOS 3.6 or later on the Steam Deck)."
+tags:
+  - powerpc
+  - action
+  - widescreen
+  - mods
+  - static-recomp
+  - ai-assisted
