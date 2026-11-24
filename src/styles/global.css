@@ -147,6 +147,8 @@ header.hero { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
 .badge-box summary { cursor: pointer; font-family: var(--mono); font-size: 12px; color: var(--ink-2); letter-spacing: 0.3px; }
 .badge-box p { color: var(--ink-2); font-size: 13px; line-height: 1.55; margin: 10px 0; }
 .badge-box img { display: block; margin: 0 0 10px; }
+.badge-box .badge-otra { border-top: 1px solid var(--line); padding-top: 12px; margin-top: 16px; }
+.badge-box .badge-autores { margin: 14px 0 2px; }
 .badge-box pre { font-family: var(--code); margin: 0 0 10px; padding: 8px 10px; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; overflow-x: auto; font-size: 11.5px; color: var(--ink-2); white-space: pre-wrap; word-break: break-all; }
 /* En la ficha, la portada del juego más pequeña, al lado de las etiquetas y el título. */
 .entry-head.has-cover { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 22px; align-items: start; }

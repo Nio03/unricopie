@@ -1,0 +1,154 @@
+---
+// «Para autores»: qué pueden hacer Recompendium y Unricopie por un proyecto y qué
+// necesitamos de su autor. Ruta /es/autores/ y /en/autores/.
+import Base from "../../layouts/Base.astro";
+import { localePath, type Lang } from "../../i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const es = lang === "es";
+const L = (p: string) => localePath(lang, p);
+const ISSUE = "https://github.com/Nio03/unricopie-launcher/issues/new";
+// Una ficha que Unricopie instala, para enseñar las dos insignias de verdad.
+const EJ = "port/2ship2harkinian";
+---
+
+<Base
+  lang={lang}
+  title={es ? "Para autores — Recompendium" : "For authors — Recompendium"}
+  description={es
+    ? "Qué pueden hacer Recompendium y Unricopie por tu recompilación, port o decompilación: la ficha, las insignias para tu README y cómo hacer que Unricopie la instale."
+    : "What Recompendium and Unricopie can do for your recompilation, port, or decompilation: the entry, the badges for your README, and how to make Unricopie install it."}
+>
+  <main class="wrap detail texto">
+    <div class="crumb"><a href={L("")}>{es ? "← Catálogo" : "← Catalog"}</a></div>
+    <h1>{es ? "Para autores" : "For authors"}</h1>
+    {es ? (
+      <p class="lead">
+        Si haces una recompilación, un port o una decompilación, esto es lo que Recompendium y Unricopie
+        pueden hacer por tu proyecto y lo que nos ayuda saber de él. Es gratis y no te obliga a nada.
+      </p>
+    ) : (
+      <p class="lead">
+        If you make a recompilation, a port, or a decompilation, this is what Recompendium and Unricopie can
+        do for your project, and what helps us to know about it. It’s free and commits you to nothing.
+      </p>
+    )}
+
+    <div class="sec-h"><h2>{es ? "Tu proyecto en el catálogo" : "Your project in the catalog"}</h2></div>
+    {es ? (
+      <>
+        <p class="about-copy">
+          Para entrar, el proyecto tiene que pedirle al jugador su propia copia del juego: no puede traer el
+          juego ni sus recursos (lo explicamos en <a href={L("acerca")}>Acerca de</a>). Lo puedes proponer tú o
+          cualquiera desde <a href={L("contribuir")}>Contribuir</a>. Lo revisamos a mano y escribimos la ficha
+          en español y en inglés.
+        </p>
+        <p class="about-copy">
+          Las estrellas, la última versión y su fecha se leen a diario de tu repositorio de GitHub: no hace
+          falta que nos avises de cada release. Si algo de la ficha está mal o falta (el estado, los
+          requisitos, una plataforma nueva), usa el botón <b>Editar</b> de la ficha: llega como un issue y lo
+          corregimos. Si el proyecto recibe un aviso DMCA o lo dejas, la ficha no se borra: se marca como
+          retirada o abandonada.
+        </p>
+      </>
+    ) : (
+      <>
+        <p class="about-copy">
+          To get in, the project has to ask players for their own copy of the game: it can’t ship the game or
+          its assets (we explain it in <a href={L("acerca")}>About</a>). You or anyone can suggest it from
+          <a href={L("contribuir")}>Contribute</a>. We review it by hand and write the entry in English and
+          Spanish.
+        </p>
+        <p class="about-copy">
+          Stars, the latest version, and its date are read daily from your GitHub repository: there’s no need
+          to tell us about every release. If something on the entry is wrong or missing (the status, the
+          requirements, a new platform), use the entry’s <b>Edit</b> button: it reaches us as an issue and we
+          fix it. If the project gets a DMCA notice or you stop working on it, the entry isn’t deleted: it’s
+          marked as taken down or abandoned.
+        </p>
+      </>
+    )}
+
+    <div class="sec-h"><h2>{es ? "Las insignias para tu README" : "Badges for your README"}</h2></div>
+    {es ? (
+      <p class="about-copy">
+        Cada ficha tiene una insignia con su estado en Recompendium, que se rehace con cada actualización del
+        sitio y cambia sola cuando cambia la ficha. Si Unricopie sabe instalar tu proyecto, hay una segunda:
+        lleva a tus jugadores a la ficha, donde está el botón para instalarlo. Las dos son imágenes SVG
+        estáticas, sin scripts ni seguimiento. Para copiarlas, abre la ficha de tu proyecto y despliega
+        <b>Insignia para el README</b>.
+      </p>
+    ) : (
+      <p class="about-copy">
+        Every entry has a badge with its status on Recompendium, rebuilt on every site update, so it changes
+        by itself when the entry does. If Unricopie can install your project, there’s a second one: it takes
+        your players to the entry, where the install button is. Both are static SVG images, with no scripts or
+        tracking. To copy them, open your project’s entry and expand <b>README badge</b>.
+      </p>
+    )}
+    <p class="autores-insignias">
+      <img src={`/insignias/${EJ}.svg`} alt="Recompendium: Fully playable" height="20" />
+      <img src={`/insignias/unricopie/${EJ}.svg`} alt="Install with Unricopie" height="20" />
+    </p>
+
+    <div class="sec-h"><h2>{es ? "Que Unricopie instale tu proyecto" : "Getting Unricopie to install your project"}</h2></div>
+    {es ? (
+      <>
+        <p class="about-copy">
+          <a href={L("unricopie")}>Unricopie</a> es el launcher de Recompendium: busca, instala y actualiza los
+          proyectos del catálogo en Windows y en Linux. Baja tu release oficial de GitHub desde la misma
+          dirección que usaría un navegador, así que cada descarga cuenta en las estadísticas de tu release, y
+          no la aloja en ningún otro sitio. Antes de instalar comprueba la copia del jugador por su hash.
+        </p>
+        <p class="about-copy">
+          Para cada proyecto usa una receta que escribimos y probamos nosotros. Nos ayuda mucho que tenga:
+        </p>
+        <ul class="about-copy">
+          <li>Releases en GitHub con un archivo por sistema (zip, 7z, tar.gz, tar.xz o AppImage) y nombres que se repitan de una versión a otra, por ejemplo <code>MiJuego-1.2-windows-x64.zip</code>. Los instaladores (msi, setup.exe) y los dmg no sirven.</li>
+          <li>El ejecutable siempre en la misma ruta dentro del archivo.</li>
+          <li>Qué copia del juego acepta, con su hash (SHA-1, CRC32 u otro), y cómo la recibe: si la pide al abrirse, si va en una carpeta o si se pasa como argumento.</li>
+          <li>Dónde guarda las partidas y los ajustes, para conservarlos al actualizar.</li>
+          <li>Si necesita algo más en el sistema: Visual C++, Vulkan o alguna librería de Linux.</li>
+        </ul>
+        <p class="about-copy">
+          Cuéntanoslo en un <a href={ISSUE} target="_blank" rel="noopener">issue del repositorio de Unricopie</a>.
+          Mientras tanto, cualquier jugador puede instalar tu proyecto desde <b>Ajustes → Añadir un proyecto de
+          GitHub</b>; queda marcado como «Sin revisar».
+        </p>
+      </>
+    ) : (
+      <>
+        <p class="about-copy">
+          <a href={L("unricopie")}>Unricopie</a> is Recompendium’s launcher: it finds, installs, and updates
+          the catalog’s projects on Windows and Linux. It downloads your official GitHub release from the same
+          address a browser would use, so every download counts in your release’s statistics, and it doesn’t
+          host it anywhere else. Before installing, it checks the player’s copy by its hash.
+        </p>
+        <p class="about-copy">
+          For each project it uses a recipe we write and test ourselves. It helps a lot if the project has:
+        </p>
+        <ul class="about-copy">
+          <li>GitHub releases with one file per system (zip, 7z, tar.gz, tar.xz, or AppImage) and names that repeat from one version to the next, such as <code>MyGame-1.2-windows-x64.zip</code>. Installers (msi, setup.exe) and dmg files don’t work.</li>
+          <li>The executable always at the same path inside the file.</li>
+          <li>Which copy of the game it accepts, with its hash (SHA-1, CRC32, or another), and how it receives it: whether it asks on startup, goes in a folder, or is passed as an argument.</li>
+          <li>Where it keeps saves and settings, so they survive updates.</li>
+          <li>Anything else it needs on the system: Visual C++, Vulkan, or a Linux library.</li>
+        </ul>
+        <p class="about-copy">
+          Tell us in an <a href={ISSUE} target="_blank" rel="noopener">issue on Unricopie’s repository</a>.
+          Meanwhile, any player can install your project from <b>Settings → Add a GitHub project</b>; it’s
+          marked as “Not reviewed”.
+        </p>
+      </>
+    )}
+  </main>
+</Base>
+
+<style>
+  .autores-insignias { display: flex; flex-wrap: wrap; gap: 10px; margin: 4px 0 8px; }
+  ul.about-copy { padding-left: 1.2em; }
+  ul.about-copy li { margin: 6px 0; }
+</style>

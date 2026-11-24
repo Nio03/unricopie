@@ -218,6 +218,9 @@ const instalable = (instalables as { instalables: string[] }).instalables.includ
 // Insignia para el README del proyecto: enlaza a la ficha en inglés, el idioma de casi todos los README.
 const badgeUrl = Astro.site ? new URL(`insignias/${type}/${entry.id}.svg`, Astro.site).href : `/insignias/${type}/${entry.id}.svg`;
 const badgeMd = `[![Recompendium](${badgeUrl})](${abs(localePath("en", `${type}/${entry.id}`))})`;
+// La de Unricopie, solo si sabe instalar la ficha: lleva a la misma ficha, donde está el botón de instalar.
+const installBadgeUrl = Astro.site ? new URL(`insignias/unricopie/${type}/${entry.id}.svg`, Astro.site).href : `/insignias/unricopie/${type}/${entry.id}.svg`;
+const installBadgeMd = `[![Install with Unricopie](${installBadgeUrl})](${abs(localePath("en", `${type}/${entry.id}`))})`;
 const consoleKey: string | undefined = type === "tool" ? undefined : d.console;
 const jsonLd = [
   {
@@ -352,7 +355,16 @@ const jsonLd = [
       <p>{t(lang, "detail.badgeHelp")}</p>
       <img src={`/insignias/${type}/${entry.id}.svg`} alt={t(lang, "detail.badge")} height="20" loading="lazy" />
       <pre><code id="badge-md">{badgeMd}</code></pre>
-      <button class="btn" type="button" id="badge-copy" data-done={t(lang, "detail.badgeCopied")}>{t(lang, "detail.badgeCopy")}</button>
+      <button class="btn" type="button" data-copy="badge-md" data-done={t(lang, "detail.badgeCopied")}>{t(lang, "detail.badgeCopy")}</button>
+      {instalable && !d.takedown && (
+        <>
+          <p class="badge-otra">{t(lang, "detail.badgeInstallHelp")}</p>
+          <img src={`/insignias/unricopie/${type}/${entry.id}.svg`} alt="Install with Unricopie" height="20" loading="lazy" />
+          <pre><code id="badge-md-install">{installBadgeMd}</code></pre>
+          <button class="btn" type="button" data-copy="badge-md-install" data-done={t(lang, "detail.badgeCopied")}>{t(lang, "detail.badgeCopy")}</button>
+        </>
+      )}
+      <p class="badge-autores"><a href={localePath(lang, "autores")}>{t(lang, "detail.badgeAuthors")}</a></p>
     </details>
 
     {
@@ -406,15 +418,16 @@ const jsonLd = [
   });
   // Enlace directo .../recomp/<id>#edit abre el formulario al cargar.
   if (pane && location.hash === "#edit") pane.hidden = false;
-  // Copiar el Markdown de la insignia.
-  const copy = document.getElementById("badge-copy");
-  copy?.addEventListener("click", async () => {
-    const md = document.getElementById("badge-md")?.textContent ?? "";
-    try {
-      await navigator.clipboard.writeText(md);
-      copy.textContent = copy.dataset.done ?? "✓";
-    } catch {
-      // Sin permiso para el portapapeles: el texto queda a la vista para copiarlo a mano.
-    }
+  // Copiar el Markdown de cada insignia (data-copy = el id del <code> que copia).
+  document.querySelectorAll<HTMLButtonElement>("button[data-copy]").forEach((copy) => {
+    copy.addEventListener("click", async () => {
+      const md = document.getElementById(copy.dataset.copy ?? "")?.textContent ?? "";
+      try {
+        await navigator.clipboard.writeText(md);
+        copy.textContent = copy.dataset.done ?? "✓";
+      } catch {
+        // Sin permiso para el portapapeles: el texto queda a la vista para copiarlo a mano.
+      }
+    });
   });
 </script>
