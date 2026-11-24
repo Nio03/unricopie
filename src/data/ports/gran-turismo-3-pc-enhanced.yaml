@@ -1,0 +1,21 @@
+name: "Gran Turismo 3: A-Spec (Silentwarior112)"
+games: [gran-turismo-3-a-spec]
+category: decomp-port
+console: ps2
+status: fully
+repo: Silentwarior112/GT3-PC-ENHANCED
+originalDeveloper: "Polyphony Digital"
+year: 2001
+desc:
+  es: "Gran Turismo 3: PC Enhanced, port nativo para Windows de Gran Turismo 3 A-Spec construido sobre el motor «GT3 Enhanced» de su decompilación, Silentwarior112/gt3-decomp, que mezcla el motor de GT3 con partes de Gran Turismo Concept (cámaras de repetición, HUD y animaciones, sin tocar la física). El README promete paridad 1:1 con la PS2: los gráficos originales a cualquier relación de aspecto, con el HUD y el campo de visión ajustados solos, y altas tasas de fotogramas. Añade hasta 32 coches por carrera, embrague y palanca en H, volantes con force feedback, pantalla partida horizontal, vertical o en otro monitor, cámara libre, música propia en .mp3 o .wav con cambio de canción en carrera, vídeos en .mp4, bases de datos del juego pasadas a SQLite, sustitución de texturas, gestor de mods y plugins, y modos de desafío. No tiene juego en línea. El launcher y el menú están en 9 idiomas, traducidos del inglés de forma automática. El repositorio no tiene licencia. La 1.0.3 es del 24 de noviembre."
+  en: "Gran Turismo 3: PC Enhanced, a native Windows port of Gran Turismo 3 A-Spec built on the “GT3 Enhanced” engine from its decompilation, Silentwarior112/gt3-decomp, which blends GT3’s engine with parts of Gran Turismo Concept (replay cameras, HUD, and animations, with the physics untouched). The README promises 1:1 parity with the PS2: the original graphics at any aspect ratio, with the HUD and field of view adjusted on their own, and high frame rates. It adds up to 32 cars per race, a clutch and H-shifter, steering wheels with force feedback, split screen horizontal, vertical, or on another monitor, a free camera, your own music in .mp3 or .wav with a song changer during races, .mp4 movies, the game’s databases converted to SQLite, texture replacement, a mod and plugin manager, and challenge modes. There is no online play. The launcher and menu come in 9 languages, translated from English automatically. The repository has no license. Version 1.0.3 is from November 24."
+requirements:
+  es: "Tu propia copia de Gran Turismo 3 A-Spec, de cualquiera de sus tres versiones principales: el launcher extrae los archivos del juego de tu imagen de disco o lo ejecuta directamente desde ella (también en CHD desde la 1.0.3). Windows."
+  en: "Your own copy of Gran Turismo 3 A-Spec, from any of its three main releases: the launcher extracts the game files from your disc image or runs the game straight from it (CHD too, since 1.0.3). Windows."
+tags:
+  - emotion-engine
+  - racing
+  - widescreen
+  - "60fps+"
+  - multiplayer
+  - mods

@@ -1,0 +1,22 @@
+name: "The Simpsons Arcade Game"
+games: [the-simpsons-arcade-game]
+category: decomp-port
+console: arcade
+status: playable
+repo: cheviman/simpsons-port
+originalDeveloper: "Konami"
+year: 1991
+desc:
+  es: "Port nativo para Windows, Linux y macOS (además de Switch con homebrew, Android, iPhone y iPad, y las portátiles H700 de Anbernic) del recreativo The Simpsons de Konami, para hasta cuatro jugadores, construido sobre su decompilación en C, cheviman/simpsons-decomp: los dos programas de la placa (el del Konami 053248 y el del Z80), comparados fotograma a fotograma con MAME en estado, imagen y sonido. Cada descarga trae dos juegos: The Simpsons Arcade Game, el recreativo tal cual, con monedas y modo de prueba, y The Simpsons Mr. Plow Edition, la versión para jugar en casa, con menú, opciones, pantalla panorámica, estados guardados, partidas en red local de hasta cuatro dispositivos y modos nuevos (Boss Rush, los minijuegos seguidos o la partida de un jugador contra lo que enfrentarían cuatro). El repositorio no contiene datos del juego: la primera vez saca lo que necesita de tu ROM. Licencia BSD-3-Clause."
+  en: "A native port for Windows, Linux, and macOS (plus homebrew Switch, Android, iPhone and iPad, and Anbernic’s H700 handhelds) of Konami’s The Simpsons arcade game, for up to four players, built on its C decompilation, cheviman/simpsons-decomp: both of the board’s programs (the Konami 053248’s and the Z80’s), checked frame by frame against MAME in state, picture, and sound. Every download has two games: The Simpsons Arcade Game, the arcade game as it was, with coins and the test mode, and The Simpsons Mr. Plow Edition, the version for playing at home, with a menu, options, widescreen, save states, local-network games of up to four devices, and new modes (Boss Rush, the bonus stages in a row, or one player against what four would face). The repository contains no game data: on first launch it takes what it needs from your ROM. BSD-3-Clause license."
+requirements:
+  es: "Tu propio «simpsons.zip», el juego de MAME The Simpsons (4 Players World, set 1), junto a los juegos o soltado en su ventana; los demás juegos de MAME (2 jugadores, japoneses y asiáticos) no sirven. Para Android, Switch, iPhone y Anbernic, una herramienta que corres una vez en tu ordenador prepara el juego con tu ROM."
+  en: "Your own “simpsons.zip”, MAME’s The Simpsons set (4 Players World, set 1), kept beside the games or dropped on their window; MAME’s other sets (2 players, Japanese and Asian) don’t work. For Android, Switch, iPhone and Anbernic, a tool you run once on your computer makes the game with your ROM inside."
+tags:
+  - z80
+  - arcade
+  - widescreen
+  - multiplayer
+  - build-android
+  - build-switch
+  - build-ios

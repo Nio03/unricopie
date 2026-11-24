@@ -1,0 +1,20 @@
+name: "Virtua Fighter 4: Final Tuned"
+games: [virtua-fighter-4-final-tuned]
+console: dreamcast
+status: playable
+repo: djanice1980/VF4-Final-Tuned-Rev-B-Recomp
+originalDeveloper: "Sega AM2"
+year: 2004
+desc:
+  es: "Recompilación estática de Virtua Fighter 4 Final Tuned (Ver. B), el recreativo de Sega AM2 para la placa NAOMI 2, la hermana de recreativa de la Dreamcast. Un traductor propio pasa a C las 6.632 rutinas del programa SH-4 del juego y las 2.120 del de prueba, y el juego se compila en tu ordenador a partir de tu juego de MAME; al jugar no corre ningún emulador. El hardware de la NAOMI 2 lo hace el propio programa y la imagen se dibuja en tu GPU; el sonido corre con el controlador del juego sobre un intérprete de ARM7 con un modelo del chip AICA. El launcher encuentra tu juego, compila (la primera vez baja unos 200 MB de compilador) y lo añade a Steam con sus imágenes. Trae partidas de dos jugadores en dos PC de la misma red, con código de acceso y rollback, y resolución de hasta 4 veces la original. Funciona en Windows y, en Linux y Steam Deck, con Proton. Licencia MIT. La 0.5.19 es del 24 de noviembre. Sus 100 últimos commits llevan a Claude como coautor."
+  en: "A static recompilation of Virtua Fighter 4 Final Tuned (Ver. B), Sega AM2’s arcade game for the NAOMI 2 board, the Dreamcast’s arcade sibling. A translator of its own turns the 6,632 routines of the game’s SH-4 program and the 2,120 of its test program into C, and the game is compiled on your PC from your own MAME set; no emulator runs at play time. The program itself does the NAOMI 2 hardware and the picture is drawn on your GPU; sound runs with the game’s own driver on an ARM7 interpreter with a model of the AICA chip. The launcher finds your set, builds the game (downloading about 200 MB of compiler the first time), and adds it to Steam with its artwork. It has two-player matches on two PCs on the same network, with a join code and rollback, and up to 4 times the original resolution. It runs on Windows and, on Linux and the Steam Deck, through Proton. MIT license. Version 0.5.19 is from November 24. All of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio juego de MAME «vf4tuned»: vf4tuned.zip (el PIC 317-0387-COM) y vf4tuned/gds-0036f.chd. Windows 10 u 11, o Linux y Steam Deck con Proton de Steam (con Wine solo no se puede jugar)."
+  en: "Your own MAME “vf4tuned” set: vf4tuned.zip (the 317-0387-COM PIC) and vf4tuned/gds-0036f.chd. Windows 10 or 11, or Linux and the Steam Deck through Steam’s Proton (plain Wine isn’t supported for playing)."
+tags:
+  - sh-4
+  - naomi
+  - arcade
+  - fighting
+  - netplay
+  - ai-assisted

@@ -1,0 +1,21 @@
+name: "Buriki One"
+games: [buriki-one]
+console: arcade
+status: playable
+repo: QuietClubGames/ReBuriki
+originalDeveloper: "SNK"
+year: 1999
+toolchain: N64Recomp
+desc:
+  es: "ReBuriki: versión no oficial para Windows de Buriki One, el juego de lucha de SNK de 1999 para la placa Hyper Neo Geo 64. El código MIPS del juego se traduce con N64Recomp en tu ordenador: el instalador comprueba tus ROM y compila el juego a partir de ellas. Las partes que hacen del hardware de la recreativa (vídeo, sonido, la placa de entrada y salida y la CPU de sonido) son ports del controlador de Hyper Neo Geo 64 de MAME, con sus licencias. Añade luchadores redibujados en tu GPU a la resolución de tu pantalla, panorámica de 16:9 a 21:9, filtros, idioma inglés o japonés, ajustes del recreativo desde un menú, el luchador oculto Silber desde el principio y juego en línea experimental con rollback. Viene de ReLayer, su proyecto hermano para Fighting Layer. Licencia MIT, y las partes de MAME con las suyas. La 0.1.0 es del 11 de noviembre. Su README dice que se hizo con Claude, y sus 30 commits llevan a Claude como coautor."
+  en: "ReBuriki: an unofficial Windows version of Buriki One, SNK’s 1999 fighting game for the Hyper Neo Geo 64 board. The game’s MIPS code is translated with N64Recomp on your PC: the installer checks your ROMs and builds the game from them. The parts that stand in for the arcade hardware (video, sound, the I/O board, and the sound CPU) are ports of MAME’s Hyper Neo Geo 64 driver, under their licenses. It adds fighters redrawn on your GPU at your screen’s resolution, widescreen from 16:9 to 21:9, filters, English or Japanese, the arcade settings from a menu, the hidden fighter Silber from the start, and experimental online play with rollback. It grew from ReLayer, its sister project for Fighting Layer. MIT license, with the MAME parts under their own. Version 0.1.0 is from November 11. Its README says it was made with Claude, and all 30 of its commits list Claude as a co-author."
+requirements:
+  es: "Tus propios juegos de MAME «buriki.zip» (Buriki One, rev. B) y «hng64.zip» (las ROM de sistema de Hyper Neo Geo 64, con el archivo de la placa de entrada y salida tmp87ph40an.bin). Windows 10 u 11 de 64 bits, una tarjeta gráfica con Direct3D 11 y unos 500 MB libres al instalar."
+  en: "Your own MAME sets “buriki.zip” (Buriki One, rev. B) and “hng64.zip” (the Hyper Neo Geo 64 system ROMs, including the I/O board file tmp87ph40an.bin). 64-bit Windows 10 or 11, a Direct3D 11 graphics card, and about 500 MB free while installing."
+tags:
+  - mips
+  - arcade
+  - fighting
+  - widescreen
+  - online
+  - ai-assisted

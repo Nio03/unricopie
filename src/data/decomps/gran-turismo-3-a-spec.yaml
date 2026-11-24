@@ -1,0 +1,14 @@
+name: "Gran Turismo 3: A-Spec"
+games: [gran-turismo-3-a-spec]
+console: ps2
+repo: Silentwarior112/gt3-decomp
+desc:
+  es: "Decompilación a C y C++ de los ejecutables de Gran Turismo 3 A-Spec (PS2, versión estadounidense), con GT3 Decomp Builder, un programa que elige qué compilar y con qué compilador, baja ese compilador del archivo de compiladores de decomp.me y escribe el ELF donde quieras, por ejemplo en tu disco extraído. El arranque (SCUS_971.02) tiene sus 881 funciones en C y C++, 851 idénticas byte a byte con el compilador de Sony (el 99,4 % de los bytes de código), y arranca el juego; del núcleo (core.gt3), 10.959 de sus 11.415 funciones son exactas, y compila y funciona. Las pocas rutinas en ensamblador escrito a mano (crt0, las llamadas al sistema y strlen) son las del original. Incluye además «GT3 Enhanced», una versión del núcleo con funciones de Gran Turismo Concept pensada para mods, que es la base de GT3 PC Enhanced, el port para Windows del mismo autor. No incluye datos del juego. El repositorio no tiene licencia."
+  en: "A C and C++ decompilation of the Gran Turismo 3 A-Spec executables (PS2, US release), with GT3 Decomp Builder, a program that picks what to build and with which compiler, downloads that compiler from decomp.me’s compiler archive, and writes the ELF wherever you want, such as your extracted disc. The bootstrap (SCUS_971.02) has all 881 of its functions in C and C++, 851 of them byte-exact with Sony’s compiler (99.4% of the code bytes), and boots the game; of the core (core.gt3), 10,959 of its 11,415 functions are exact, and it builds and runs. The few hand-written assembly routines (crt0, the syscall stubs, and strlen) are the original’s. It also has “GT3 Enhanced”, a version of the core with Gran Turismo Concept features meant for modding, which is the base of GT3 PC Enhanced, the same author’s Windows port. No game data is included. The repository has no license."
+requirements:
+  es: "Tu propio SCUS_971.02 de Gran Turismo 3 A-Spec estadounidense (SCUS-97102), o la imagen de disco que lo contiene: el builder lo pide una vez. Python 3.9 o posterior."
+  en: "Your own SCUS_971.02 from the US Gran Turismo 3 A-Spec (SCUS-97102), or the disc image it is on: the builder asks for it once. Python 3.9 or newer."
+tags:
+  - emotion-engine
+  - racing
+  - mods

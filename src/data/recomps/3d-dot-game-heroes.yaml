@@ -1,0 +1,19 @@
+name: "3D Dot Game Heroes"
+games: [3d-dot-game-heroes]
+console: ps3
+status: playable
+repo: irnutsmurt/Cubic.Heroes
+originalDeveloper: "Silicon Studio"
+year: 2009
+toolchain: ps3recomp
+desc:
+  es: "Cubic.Heroes (antes 3D-Dot-Game-Heroes-PS3-Recomp): port nativo para Windows y Linux de la versión estadounidense de 3D Dot Game Heroes (PS3) por recompilación estática con ps3recomp, con parches propios. El instalador descifra el programa del juego y lo recompila en tu ordenador (de 10 a 30 minutos, una vez); al jugar corre sobre una reconstrucción nativa del motor, con un renderizador en Vulkan, código nativo en lugar de las tareas de los SPU, OpenAL Soft para el sonido y FFmpeg para los vídeos, sin emulación ni Wine. Su README dice que se juega el juego entero, pero que es una beta y no todo está probado. Añade de 30 a 240 fps con los tiempos del juego corregidos, resolución de 720p a 4K, controles propios, instalación portátil, actualizaciones firmadas con vuelta atrás y copias de las partidas. Ni el repositorio ni la descarga traen código, datos ni claves del juego; el manifiesto del disco solo guarda nombres, tamaños y SHA-256. La 0.2.0-beta.5 es del 24 de noviembre. Su README dice que el código lo escribió la IA (Claude Code) con una persona dirigiendo y probando, y 93 de sus últimos 100 commits llevan a Claude como coautor."
+  en: "Cubic.Heroes (formerly 3D-Dot-Game-Heroes-PS3-Recomp): a native Windows and Linux port of the US release of 3D Dot Game Heroes (PS3) by static recompilation with ps3recomp, with patches of its own. The installer decrypts the game’s program and recompiles it on your PC (10 to 30 minutes, once); at play time it runs on a native engine reconstruction, with a Vulkan renderer, native code in place of the SPU tasks, OpenAL Soft for sound, and FFmpeg for the movies, with no emulation or Wine. Its README says the whole game plays, but it’s a beta and not everything has been tested. It adds 30 to 240 fps with the game’s timing corrected, rendering from 720p to 4K, your own controls, a portable install, signed updates with rollback, and save backups. Neither the repository nor the download holds game code, data, or keys; the disc manifest only keeps names, sizes, and SHA-256 hashes. Version 0.2.0-beta.5 is from November 24. Its README says the code was written by AI (Claude Code) with a human directing and testing it, and 93 of its last 100 commits list Claude as a co-author."
+requirements:
+  es: "Tu propio volcado de 3D Dot Game Heroes estadounidense (BLUS-30490, versión 01.00): una ISO descifrada, una ISO rehecha desde la carpeta del disco, una ISO cifrada con su clave de disco, o la carpeta con PS3_GAME/. Además, tu archivo de claves para el programa del juego (líneas APP de la revisión 0001) o un EBOOT.elf que hayas descifrado tú. Windows 10 u 11 de 64 bits, o Linux x86-64 con glibc 2.31 o posterior, con una GPU con Vulkan."
+  en: "Your own dump of US 3D Dot Game Heroes (BLUS-30490, version 01.00): a decrypted ISO, an ISO rebuilt from the disc’s folder, an encrypted ISO with its disc key, or the folder holding PS3_GAME/. Also your keys file for the game’s program (APP lines for revision 0001) or an EBOOT.elf you decrypted yourself. 64-bit Windows 10 or 11, or x86-64 Linux with glibc 2.31 or newer, with a Vulkan GPU."
+tags:
+  - powerpc
+  - action
+  - "60fps+"
+  - ai-assisted

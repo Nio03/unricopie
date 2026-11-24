@@ -65,6 +65,12 @@
   year: 2009
   platforms: [x360]
 
+3d-dot-game-heroes:
+  name: 3D Dot Game Heroes
+  igdb: 7265
+  year: 2009
+  platforms: [ps3]
+
 3d-pinball-for-windows-space-cadet:
   name: 3D Pinball for Windows - Space Cadet
   igdb: 23335
@@ -766,6 +772,12 @@ bugs-bunny-lost-in-time:
   igdb: 3053
   year: 1999
   platforms: [pc]
+
+buriki-one:
+  name: Buriki One
+  igdb: 28139
+  year: 1999
+  platforms: [arcade]
 
 burnout:
   name: Burnout
@@ -2152,6 +2164,12 @@ fight-night-round-3:
   igdb: 5836
   year: 2006
   platforms: [x360]
+
+fighting-layer:
+  name: Fighting Layer
+  igdb: 39552
+  year: 1998
+  platforms: [arcade]
 
 final-doom:
   name: Final Doom
@@ -6936,7 +6954,7 @@ the-simpsons-arcade-game:
   name: The Simpsons Arcade Game
   igdb: 2826
   year: 1991
-  platforms: [ps3, x360]
+  platforms: [arcade, ps3, x360]
 
 the-simpsons-game:
   name: The Simpsons Game
@@ -7590,6 +7608,12 @@ virtua-fighter-3:
   igdb: 1551
   year: 1996
   platforms: [arcade]
+
+virtua-fighter-4-final-tuned:
+  name: "Virtua Fighter 4: Final Tuned"
+  igdb: 39668
+  year: 2004
+  platforms: [dreamcast]
 
 virtua-racing:
   name: Virtua Racing

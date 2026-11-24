@@ -1,0 +1,18 @@
+name: "Fighting Layer"
+games: [fighting-layer]
+console: arcade
+status: playable
+repo: QuietClubGames/ReLayer
+originalDeveloper: "Arika"
+year: 1998
+desc:
+  es: "ReLayer: port no oficial para Windows de Fighting Layer, el juego de lucha de recreativa de Arika de 1998, por recompilación estática. Una herramienta propia traduce a C el código MIPS del juego y el instalador lo compila en tu PC a partir de tu ROM, en un par de minutos; el hardware de la recreativa (gráficos, sonido y controles) se sustituye por código portable. Añade el 3D redibujado en tu tarjeta gráfica hasta 8 veces la resolución del recreativo, sin el temblor de los polígonos ni las texturas deformadas del original (o la imagen original, con F9), ventana, pantalla completa y filtros, mandos de Xbox para dos jugadores y teclado con botones reasignables, los ajustes del recreativo desde un menú y los tres personajes que el recreativo desbloqueaba con el tiempo disponibles desde el principio. La opción «Uncensored», activada por defecto, juega la versión japonesa a partir de la ROM mundial: armas de verdad para Sessyu y Janis, chispas rojas o el traje original de Blair. De este proyecto salió ReBuriki, del mismo equipo. Licencia MIT. La v0.1.3 es del 21 de noviembre. Su README dice que se hizo con Claude, y sus 11 commits llevan a Claude como coautor."
+  en: "ReLayer: an unofficial Windows port of Fighting Layer, Arika’s 1998 arcade fighting game, by static recompilation. A tool of its own translates the game’s MIPS code into C and the installer builds it on your PC from your ROM, in a minute or two; the arcade hardware (graphics, sound, and inputs) is replaced by portable code. It adds 3D redrawn on your graphics card at up to 8 times the arcade’s resolution, without the original’s wobbling polygons and warping textures (or the original picture, with F9), windowed and full screen modes and filters, Xbox controllers for two players and a keyboard with remappable buttons, the arcade settings from a menu, and the three characters the arcade unlocked over time available from the start. The “Uncensored” option, on by default, plays the Japanese version from the World ROM: real blades for Sessyu and Janis, red hit sparks, and Blair’s original costume, among others. ReBuriki, by the same team, grew from it. MIT license. Version 0.1.3 is from November 21. Its README says it was made with Claude, and all 11 of its commits list Claude as a co-author."
+requirements:
+  es: "Tu propio juego de MAME «fgtlayer.zip» (Fighting Layer, World, Ver. A); no hace falta BIOS. Windows de 64 bits (se recomienda 10 u 11); el 3D en alta resolución necesita una tarjeta con DirectX 11."
+  en: "Your own MAME set “fgtlayer.zip” (Fighting Layer, World, Ver. A); no BIOS is needed. 64-bit Windows (10 or 11 recommended); the high-resolution 3D needs a DirectX 11 graphics card."
+tags:
+  - mips
+  - arcade
+  - fighting
+  - ai-assisted
